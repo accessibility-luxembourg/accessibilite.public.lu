@@ -1,0 +1,91 @@
+{
+    "1.1": [
+        {"id": "area-alt", "msg": "Active <area> elements must have alternate text" },
+        {"id": "image-alt", "msg": "Images must have alternate text" },
+        {"id": "input-image-alt", "msg": "Image buttons must have alternate text" },
+        {"id": "object-alt", "msg": "<object> elements must have alternate text" },
+        {"id": "role-img-alt", "msg": "[role=\"img\"] elements have an alternative text" },
+        {"id": "svg-img-alt", "msg": "svg elements with an img role have an alternative text" }
+    ],
+    "1.2": [
+        {"id": "area-alt", "msg": "Active <area> elements must have alternate text" },
+        {"id": "image-alt", "msg": "Images must have alternate text" },
+        {"id": "input-image-alt", "msg": "Image buttons must have alternate text" }, 
+        {"id": "object-alt", "msg": "<object> elements must have alternate text" },
+        {"id": "role-img-alt", "msg": "[role=\"img\"] elements have an alternative text" },
+        {"id": "svg-img-alt", "msg": "svg elements with an img role have an alternative text" }
+    ],
+    "2.1": [
+        {"id": "frame-title", "msg": "Frames must have an accessible name"}
+    ],
+    "3.2": [
+        {"id": "color-contrast", "msg": "Elements must have sufficient color contrast"}
+    ],
+    "4.3": [
+        {"id": "video-caption", "msg": "<video> elements must have captions"}
+    ],
+    "5.7": [
+        {"id": "td-headers-attr", "msg": "All cells in a table element that use the headers attribute must only refer to other cells of that same table"},
+        {"id": "th-has-data-cells", "msg": "All th elements and elements with role=columnheader/rowheader must have data cells they describe"}
+    ],
+    "6.2": [
+        {"id": "link-name", "msg": "Links must have discernible text"}
+    ],
+    "8.1": [
+        {"msg": "Validateur <a href=\"https://validator.w3.org/nu/\" lang=\"en\">nu HTML checker</a> accompagné du bookmarklet <span lang=\"en\">« Check for WCAG 2.0 parsing compliance »</span> disponible sur la <a href=\"https://validator.w3.org/nu/about.html\">page <span lang=\"en\">\"about\"</span></a> de cet outil."}
+    ],
+	"8.2": [
+        {"id": "aria-required-attr", "msg": "Required ARIA attributes must be provided"},
+        {"id": "aria-allowed-attr", "msg": "Elements must only use allowed ARIA attributes"},
+        {"id": "aria-required-children", "msg": "Certain ARIA roles must contain particular children"},
+        {"id": "aria-required-parent", "msg": "Certain ARIA roles must be contained by particular parents"},
+        {"id": "aria-roledescription", "msg": "Use aria-roledescription on elements with a semantic role" },
+        {"id": "aria-roles", "msg": "ARIA roles used must conform to valid values"},
+        {"id": "aria-valid-attr", "msg": "ARIA attributes must conform to valid names"},
+        {"id": "aria-valid-attr-value", "msg":"ARIA attributes must conform to valid values"},
+        {"id": "definition-list", "msg": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements"},
+        {"id": "dlitem", "msg": "<dt> and <dd> elements must be contained by a <dl>"},
+        {"id": "duplicate-id-active", "msg": "IDs of active elements must be unique"},
+        {"id": "duplicate-id-aria", "msg": "IDs used in ARIA and labels must be unique"},
+        {"id": "list", "msg": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements"},
+        {"id": "listitem", "msg": "<li> elements must be contained in a <ul> or <ol>"},
+        {"msg": "Validateur <a href=\"https://validator.w3.org/nu/\" lang=\"en\">nu HTML checker</a> accompagné du bookmarklet <span lang=\"en\">« Check for WCAG 2.0 parsing compliance »</span> disponible sur la <a href=\"https://validator.w3.org/nu/about.html\">page <span lang=\"en\">\"about\"</span></a> de cet outil."}
+    ],
+    "8.3": [
+        {"id": "html-has-lang", "msg": "<html> element must have a lang attribute"}
+    ],
+    "8.4": [
+        {"id": "html-lang-valid", "msg": "<html> element must have a valid value for the lang attribute"}
+    ],
+    "8.8": [
+        {"id": "valid-lang", "msg": "lang attribute must have a valid value"}
+    ],
+    "9.1": [
+        {"id": "headings-order", "msg": "Heading levels should only increase by one"}
+    ],
+    "9.2": [
+        {"id": "region", "msg": "All page content should be contained by landmarks"},
+        {"id": "landmark-no-duplicate-main", "msg": "Document should not have more than one main landmark"}
+    ],
+    "10.8": [
+        {"id": "aria-hidden-body", "msg": "aria-hidden=\"true\" must not be present on the document body"},
+        {"id": "aria-hidden-focus", "msg": "ARIA hidden element must not contain focusable elements" }
+    ],
+    "11.1": [
+        {"id": "label", "msg": "Form elements must have labels"}
+    ],
+    "11.9": [
+        {"id": "button-name", "msg": "Buttons must have discernible text"},
+        {"id": "input-button-name", "msg": "Input buttons must have discernible text"}
+    ],
+    "12.7": [
+        {"id": "bypass", "msg": "Page must have means to bypass repeated blocks"}
+    ],
+    "13.1": [
+        {"id": "meta-refresh", "msg": "Timed refresh must not exist"}
+    ],
+    "13.8": [
+        {"id": "blink", "msg": "<blink> elements are deprecated and must not be used"}, 
+        {"id": "marquee", "msg": "<marquee> elements are deprecated and must not be used"}
+    ]
+}

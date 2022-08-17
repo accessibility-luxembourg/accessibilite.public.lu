@@ -1,0 +1,4 @@
+Lorsque les citoyens rencontrent un problème d'accessibilité avec un site ou une application mobile d'un organisme public, ils peuvent contacter l'organisme concerné via les informations de contact disponibles dans la déclaration d'accessibilité.
+Si cette procédure ne leur donne pas satisfaction, ils peuvent contacter le [Service information et presse](https://sip.gouvernement.lu/fr.html), organisme responsable du contrôle de l’accessibilité, via son [formulaire de réclamation en ligne](https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html), ou l’[Ombudsman](http://www.ombudsman.lu/), médiateur du Grand-Duché de Luxembourg. Le Service information et presse s'engage à répondre à toute réclamation par mail dans un délai d’un mois au plus tard.
+
+Pour toute réclamation relative à l'accessibilité numérique, n'hésitez pas à utiliser notre [formulaire de réclamation](https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html).

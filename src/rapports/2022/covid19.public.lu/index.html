@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Rapport d'audit RGAA 4.1 - Covid19.public.lu</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="markdown-body">
+<header role="banner">
+	<a href="#main">contenu principal</a>
+	<h1><span>Rapport d'audit d'accessibilité<br> covid19.public.lu</span></h1>
+	<p>19/04/2022</p>
+</header>
+
+<nav role="navigation">
+	<h2>Table des matières</h2>
+
+	<ul>
+		<li><a href="#introduction"><span>Introduction</span></a></li>
+		<li><a href="#echantillon"><span>Échantillon</span></a></li>
+		<li><a href="#environnement"><span>Environnement de test (base de référence)</span></a></li>
+		<li><a href="#accessibilite"><span>Accessibilité des pages auditées</span></a></li>
+		<li><a href="#avis"><span>Avis</span></a></li>
+		<li><a href="#annexe"><span>Annexe technique</span></a>
+			<ul>
+				<li><a href="#images"><span>Images</span></a></li>
+				<li><a href="#couleurs"><span>Couleurs</span></a></li>
+				<li><a href="#multimedia"><span>Multimédia</span></a></li>
+				<li><a href="#tableaux"><span>Tableaux</span></a></li>
+				<li><a href="#liens"><span>Liens</span></a></li>
+				<li><a href="#scripts"><span>Scripts</span></a></li>
+				<li><a href="#obligatoires"><span>Éléments obligatoires</span></a></li>
+				<li><a href="#structuration"><span>Structuration de l'information</span></a></li>
+				<li><a href="#presentation"><span>Présentation de l'information</span></a></li>
+				<li><a href="#formulaires"><span>Formulaires</span></a></li>
+				<li><a href="#navigation"><span>Navigation</span></a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<main role="main" id="main" tabindex="-1">
+	<!-- introduction -->
+	<h2 id="introduction" tabindex="-1">Introduction</h2>
+	<div>
+		<p>Ce rapport accompagne le relevé d'audit effectué sur le site «<span>&#8201;</span><span><span>covid19.public.lu</span></span><span >&#8201;</span>».</p>
+
+		<p>La méthodologie d'audit employée repose sur le référentiel RGAA&nbsp;4.1, consultable à l'adresse suivante&nbsp;: <a href="https://accessibilite.public.lu/fr/rgaa4.1/criteres.html">https://accessibilite.public.lu/fr/rgaa4.1/criteres.html</a></p>
+
+		<p>L'audit a été réalisé au moyen de l'utilisation de navigateurs web et d'outils spécialisés. Des tests de restitution ont également été effectués conformément à la base de référence définie par le RGAA&nbsp;4.1.</p>
+
+		<h2 id="echantillon" tabindex="-1">Échantillon</h2>
+		<p>L'audit a porté sur un échantillon de <span><span>13</span></span> pages pour le niveau double A (AA)&nbsp;:</p>
+
+		<table>
+			<caption>Échantillon de l'audit</caption>
+			<tr>
+				<th scope="col"><span>Nº page</span></th>
+				<th scope="col"><span>Titre de la page</span></th>
+				<th scope="col"><span>URL</span></th>
+			</tr>
+			<tr>
+				<td>P01</td>
+				<td>Accueil</td>
+				<td>https://covid19.public.lu/fr.html</td>
+			</tr>
+			<tr>
+				<td>P02</td>
+				<td>Mentions légales</td>
+				<td>https://covid19.public.lu/fr/support/aspects-legaux.html</td>
+			</tr>
+			<tr>
+				<td>P03</td>
+				<td>Contact</td>
+				<td>https://covid19.public.lu/fr/support/contact.html</td>
+			</tr>
+			<tr>
+				<td>P04</td>
+				<td>Accessibilité</td>
+				<td>https://covid19.public.lu/fr/support/accessibilite.html</td>
+			</tr>
+			<tr>
+				<td>P05</td>
+				<td>Plan du site</td>
+				<td>https://covid19.public.lu/fr/support/plan-du-site.html</td>
+			</tr>
+			<tr>
+				<td>P06</td>
+				<td>Résultats de recherche</td>
+				<td>https://covid19.public.lu/fr/support/recherche.html?q=vaccin</td>
+			</tr>
+			<tr>
+				<td>P07</td>
+				<td>Testing</td>
+				<td>https://covid19.public.lu/fr/testing.html</td>
+			</tr>
+			<tr>
+				<td>P08</td>
+				<td>Tests PCR et autotests</td>
+				<td>https://covid19.public.lu/fr/testing/pcr-autotest.html</td>
+			</tr>
+			<tr>
+				<td>P09</td>
+				<td>L'actualité de la COVID-19</td>
+				<td>https://covid19.public.lu/fr/actualite-covid-19.html</td>
+			</tr>
+			<tr>
+				<td>P10</td>
+				<td>Actualité</td>
+				<td>https://covid19.public.lu/fr/actualite-covid-19/communiques/2022/03/01-immigration.html</td>
+			</tr>
+			<tr>
+				<td>P11</td>
+				<td>CovidCheck</td>
+				<td>https://covid19.public.lu/fr/covidcheck.html</td>
+			</tr>
+			<tr>
+				<td>P12</td>
+				<td>Article de blog</td>
+				<td>https://covid19.public.lu/fr/blog/vaccination/3e-dose.html</td>
+			</tr>
+			<tr>
+				<td>P13</td>
+				<td>Graphiques</td>
+				<td>https://covid19.public.lu/fr/graph.html</td>
+			</tr>
+		</table>
+
+		<h2 id="environnement" tabindex="-1">Environnement de test (base de référence)</h2>
+
+		<p>Quelques critères RGAA, notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d'assistance associées à des navigateurs et des systèmes d'exploitation. Pour qu'un dispositif HTML / WAI-ARIA ou son alternative soit considéré comme compatible avec l'accessibilité, il faut qu'il soit pleinement fonctionnel, en termes de restitution et de fonctionnalités sur certaines combinaisons. Vous trouverez une explication détaillée de cet <a href="https://accessibilite.public.lu/fr/rgaa4.1/obligations.html#environnement-de-test-ou-base-de-r%C3%A9f%C3%A9rence">environnement de tests dans le document du RGAA 4.1</a>.</p>
+
+		<p>Nous détaillons ci-dessous la base de référence utilisée pour réaliser les tests de restitution des composants du site.</p>
+
+		<h3>Environnement de test –&nbsp;ordinateur</h3>
+
+		<table>
+			<caption>Environnement de test (environnement de bureau)</caption>
+			<thead>
+				<tr>
+					<th scope="col">Technologie d'assistance</th>
+					<th scope="col">Navigateur</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>NVDA 2021.3</td>
+				<td>Firefox 98</td>
+			</tr>
+			<tr>
+				<td>JAWS 2020</td>
+				<td>Firefox 98</td>
+			</tr>
+			<tr>
+				<td>VoiceOver </td>
+				<td>Safari 15</td>
+			</tr>
+		</table>
+
+		<h3>Environnement de test —&nbsp;mobile</h3>
+
+		<table>
+			<caption>Environnement de test (environnement mobile)</caption>
+			<thead>
+				<tr>
+					<th scope="col">Système d'exploitation</th>
+					<th scope="col">Technologie d'assistance</th>
+					<th scope="col">Navigateur</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>Android 10</td>
+				<td>TalkBack (dernière version)</td>
+				<td>Chrome 96.0</td>
+			</tr>
+		</table>
+
+		<h2 id="accessibilite" tabindex="-1">Accessibilité des pages auditées</h2>
+
+		<p>Le site présente un niveau général d'accessibilité <span><span>moyen</span></span>.</p>
+
+		<p>Le niveau moyen de conformité relevé atteint 66,18 % de conformité sur l'ensemble des pages auditées, avec 64,00 % de conformité au niveau simple A (A) et 72,22 % de conformité au niveau double A (AA).</p>
+
+		<p><b>Le site est partiellement conforme.</b></p>
+
+		<h3>Conformité RGAA&nbsp;4.1 du site</h3>
+
+		<table>
+			<caption>Conformité RGAA&nbsp;4.1</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>64,00 %</td>
+				<td>36,00 %</td>
+			</tr>
+			<tr>
+				<th scope="row">AA (légal)</th>
+				<td>66,18 %</td>
+				<td>33,82 %</td>
+			</tr>
+		</table>
+
+		<h4>Note sur le calcul de conformité</h4>
+
+		<p>La conformité globale (Tableau « Conformité RGAA&nbsp;4.1 ») est calculée de la manière suivante&nbsp;: <b>C / (C+NC)</b>. C'est le nombre de critères conformes et NC le nombre de critères non conformes.</p>
+
+		<p>C'est ce nombre qui constitue la référence légale. Il représente le taux de conformité de l'échantillon.</p>
+
+		<p>Il est normal que le taux de conformité global diffère sensiblement du taux de conformité par page. En effet, un critère NC (non conforme) sur une page rend le critère non conforme sur l'ensemble de l'échantillon.</p>
+
+		<p>Pour qu'un site soit conforme (100&nbsp;% des critères applicables sont conformes au niveau AA), il est nécessaire que le taux de conformité par page équivaille à 100&nbsp;%.</p>
+
+		<h3>Conformité pour chaque niveau</h3>
+
+		<table>
+			<caption>Conformité pour chaque niveau</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>64,00 %</td>
+				<td>36,00 %</td>
+			</tr>
+			<tr>
+				<th scope="row">AA</th>
+				<td>72,22 %</td>
+				<td>27,78 %</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par pages</h3>
+
+		<table>
+			<tr>
+				<th scope="col"><span>Nº page</span></th>
+				<th scope="col"><span>Titre de la page</span></th>
+				<th scope="col"><span>%C</span></th>
+			</tr>
+			<tr>
+				<td>P01</td>
+				<td>Accueil</td>
+				<td>86,67 %</td>
+			</tr>
+			<tr>
+				<td>P02</td>
+				<td>Aspects légaux</td>
+				<td>86,49 %</td>
+			</tr>
+			<tr>
+				<td>P03</td>
+				<td>Contact</td>
+				<td>86,36 %</td>
+			</tr>
+			<tr>
+				<td>P04</td>
+				<td>Accessibilité</td>
+				<td>100,00 %</td>
+			</tr>
+			<tr>
+				<td>P05</td>
+				<td>Plan du site</td>
+				<td>97,22 %</td>
+			</tr>
+			<tr>
+				<td>P06</td>
+				<td>Résultats de recherche</td>
+				<td>97,56 %</td>
+			</tr>
+			<tr>
+				<td>P07</td>
+				<td>Testing</td>
+				<td>94,59 %</td>
+			</tr>
+			<tr>
+				<td>P08</td>
+				<td>Tests PCR et autotests</td>
+				<td>93,48 %</td>
+			</tr>
+			<tr>
+				<td>P09</td>
+				<td>L'actualité de la COVID-19</td>
+				<td>100,00 %</td>
+			</tr>
+			<tr>
+				<td>P10</td>
+				<td>Actualité</td>
+				<td>91,89 %</td>
+			</tr>
+			<tr>
+				<td>P11</td>
+				<td>CovidCheck</td>
+				<td>92,50 %</td>
+			</tr>
+			<tr>
+				<td>P12</td>
+				<td>Article de blog</td>
+				<td>86,11 %</td>
+			</tr>
+			<tr>
+				<td>P13</td>
+				<td>Graphiques</td>
+				<td>94,74 %</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par thématiques</h3>
+		<table>
+			<tr>
+				<th scope="col"><span>Thématiques</span></th>
+				<th scope="col"><span>C</span></th>
+				<th scope="col"><span>NC</span></th>
+			</tr>
+			<tr>
+				<td>Images</td>
+				<td>0,00 %</td>
+				<td>100,00 %</td>
+			</tr>
+			<tr>
+				<td>Cadres</td>
+				<td>100,00 %</td>
+				<td>0,00 %</td>
+			</tr>
+			<tr>
+				<td>Couleurs</td>
+				<td>33,33 %</td>
+				<td>66,67 %</td>
+			</tr>
+			<tr>
+				<td>Multimédia</td>
+				<td>75,00 %</td>
+				<td>25,00 %</td>
+			</tr>
+			<tr>
+				<td>Tableaux</td>
+				<td>60,00 %</td>
+				<td>40,00 %</td>
+			</tr>
+			<tr>
+				<td>Liens</td>
+				<td>50,00 %</td>
+				<td>50,00 %</td>
+			</tr>
+			<tr>
+				<td>Script</td>
+				<td>33,33 %</td>
+				<td>66,67 %</td>
+			</tr>
+			<tr>
+				<td>Éléments obligatoires</td>
+				<td>70,00 %</td>
+				<td>30,00 %</td>
+			</tr>
+			<tr>
+				<td>Structuration</td>
+				<td>0,00%</td>
+				<td>100,00%</td>
+			</tr>
+			<tr>
+				<td>Présentation</td>
+				<td>83,33 %</td>
+				<td>16,67 %</td>
+			</tr>
+			<tr>
+				<td>Formulaires</td>
+				<td>75,00 %</td>
+				<td>25,00 %</td>
+			</tr>
+			<tr>
+				<td>Navigation</td>
+				<td>80,00 %</td>
+				<td>20,00 %</td>
+			</tr>
+			<tr>
+				<td>Consultation</td>
+				<td>100,00 %</td>
+				<td>0,00 %</td>
+			</tr>
+		</table>
+
+		<h3>Impacts utilisateurs</h3>
+
+		<p>Les principales personnes impactées sont les personnes aveugles, sourdes et malentendantes. Les problèmes liés à l’absence d’alternative pour les graphiques et de transcription et de sous-titres pour les vidéos rendent parfois difficile l’utilisation du site par ces utilisateurs.</p>
+
+		<h3>Note sur le relevé des non-conformités</h3>
+
+		<p>Ne sont cités dans ce rapport que quelques exemples issus du relevé des non-conformités.</p>
+
+		<p>De plus, toutes les occurrences d'une non-conformité ne sont pas listées dans le relevé. Par exemple&nbsp;: pour les indications de langue manquantes ou non pertinentes, le relevé mentionne quelques occurrences, mais ne les cite pas toutes.</p>
+
+		<h2 id="avis" tabindex="-1">Avis</h2>
+
+		<p>Le site a un niveau d'accessibilité moyen. Il reste quelques erreurs qui mettront en difficulté des utilisateurs variés, mais le site ne semble pas utiliser de fonctionnalités complexes. La mise en œuvre des correctifs ne devrait donc pas poser de problèmes particuliers.</p>
+
+		<p>Les non-conformités les plus bloquantes pour les utilisateurs concernent&nbsp;: </p>
+
+		<ul>
+			<li>Des graphiques sans alternative visible ;</li>
+			<li>Des vidéos sans transcription textuelle ni de sous-titres ;</li>
+			<li>Des titres manquants ou des niveaux de titres non pertinents ;</li>
+			<li>Une image complexe n'a pas d'alternative ni de description détaillée ;</li>
+			<li>Un tableau de données complexe sans résumé ni en-têtes correctement déclarés ;</li>
+			<li>Des documents bureautiques en téléchargement sans version accessible.</li>
+		</ul>
+
+		<p>Ce sont donc ces points qui devront nécessiter une attention toute particulière et qui demanderont le plus d'efforts.</p>
+	</div>
+
+	<h2 id="annexe" tabindex="-1">Annexe technique</h2>
+
+	<!-- ////////////////////////////////
+		1. thématique image -->
+	<h3 id="images" tabindex="-1">Images</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-porteuse-d-information">image porteuse d'information</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-textuelle-image">alternative textuelle</a> pertinente et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#description-detaillee-image">description détaillée</a> si nécessaire. Lier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légendes</a> à leurs images. Remplacer les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-texte">images textes</a> par du <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#texte-style">texte stylé</a> lorsque c'est possible.</span></p>
+		</div>
+
+		<h4>Images de décoration</h4>
+
+		<p>Le site contient des images de décoration qui ne sont pas correctement identifiées, soit parce qu'elles ont une alternative renseignée, soit parce qu'il manque les attributs nécessaires pour qu'elles soient ignorées par les technologies d'assistance.</p>
+
+		<p>Ces images n'apportent aucune information et peuvent causer des problèmes de compréhension pour les aveugles et les grands malvoyants qui vont écouter les contenus avec un lecteur d'écran.</p>
+
+		<ul>
+			<li>Dans le cas d'une image insérée avec la balise <code>img</code>, mettre un <code>alt=&quot;&quot;</code>.</li>
+			<li>Dans le cas d'une image insérée avec la balise <code>svg</code>, mettre une	propriété ARIA <code>aria-hidden=&quot;true&quot;</code>.</li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/1-2-001.png" alt="" />
+
+		<p>Page « Aspects légaux », les images de décoration qui précèdent les titres n'ont pas d'attribut <code>alt</code>.</p>
+
+		<img src="images/1-2-002.png" alt="" />
+
+		<p>Page « Actualité », les images de décoration des notes de bas de page n'ont pas d'attribut <code>alt</code>.</p>
+
+		<h4>Images porteuses d'information</h4>
+
+		<p>Il est nécessaire de donner une alternative pertinente dans le cas où la suppression de l'image entraînerait un problème de compréhension des contenus.</p>
+
+		<h4>Images porteuses d'information complexe</h4>
+
+		<p>Certaines images porteuses d'informations sont complexes et nécessitent une <b>description détaillée, pertinente, structurée et adjacente</b> à l'image afin de permettre aux personnes ne percevant pas les images (comme les personnes aveugles), ou ayant des difficultés à les comprendre lorsqu'elles contiennent du texte (personnes ayant des difficultés de lecture, comme les dyslexiques par exemple) d'accéder à l'information.</p>
+
+		<p>Il sera possible de masquer cette description et de prévoir un bouton permettant à l'utilisateur de l'afficher si besoin (par exemple&nbsp;: «&nbsp;Afficher la description de l'image&nbsp;»). Voir un <a href="https://access42.net/etude-usage-ta-2017">exemple de ce mécanisme</a>. Il est également possible de proposer un lien adjacent à l'image vers la description détaillée.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/1-6-001.png" alt="" />
+
+		<p>Page « CovidCheck », l'image complexe sous le bloc « Pour en savoir plus », qui montre le parcours d'obtention d'un certificat valable, n'a pas d'alternative ni de description détaillée.</p>
+		<ul>
+			<li>Ajouter à l'image une alternative permettant de comprendre rapidement le sens de l'image. Par exemple <code>alt="comment obtenir un certificat valable ?"</code> ;</li>
+			<li>Ajouter à l'image une description détaillée adjacente ou atteignable au moyen d'un lien adjacent. La description détaillée serait éventuellement structurée sous la forme d'une liste ordonnée <code>&lt;ol&gt;</code>/<code>&lt;li&gt;</code>.</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		3. thématique couleur -->
+	<h3 id="couleurs" tabindex="-1">Couleurs</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Ne pas donner l'<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#information-donnee-par-la-couleur">information</a> uniquement par la couleur et utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contraste">contrastes</a> de couleurs suffisamment élevés pour les textes et les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#composant-d-interface">composants d'interface</a>.</p>
+		</div>
+
+		<h4>Contrastes des textes</h4>
+
+		<p>Plusieurs couleurs présentent <b>un rapport de contraste insuffisant</b>, ce qui peut poser problème aux <b>grands malvoyants</b> et aux <b>déficients visuels</b> qui ont des difficultés à percevoir les couleurs ou les contrastes.</p>
+
+		<h5>Rapports de contrastes définis par le RGAA</h5>
+
+		<ul>
+			<li>Pour les textes qui ont une taille de police calculée inférieure à 24px sans effet de graisse ou une taille de police calculée inférieure à 18,5px avec effet de graisse, le rapport de contraste entre la couleur du texte (y compris le texte en image) et son arrière-plan doit être de <b>4.5:1</b>, au moins.</li>
+			<li>Pour les textes qui ont une taille de police calculée supérieure ou égale à 24px sans effet de graisse ou une taille de police calculée supérieure ou égale à 18,5px avec effet de graisse, le rapport de contraste entre la couleur du texte (y compris le texte en image) et son arrière-plan doit être de <b>3:1</b>, au moins.</li>
+		</ul>
+
+		<p>Vous pouvez foncer les couleurs pour obtenir le rapport de contraste exigé.</p>
+
+		<p>Si la charte graphique ne peut être modifiée, fournissez une méthode aux utilisateurs pour consulter le site avec des contrastes suffisants. Ceci peut être réalisé simplement avec une fonctionnalité JavaScript et une surcharge CSS des couleurs.</p>
+
+		<p>Vous pouvez voir un exemple de ce type de mécanisme sur le site <a href="https://www.sncf.com/fr">sncf.com</a>. Dans les réglages d'accessibilité, vous trouverez une option qui permet d'afficher le site avec des contrastes renforcés et inversés.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/3-2-001.png" alt="" />
+		<img src="images/3-2-002.png" alt="" />
+
+		<p>Page « Tests PCR et autotests » :</p>
+		<ul>
+			<li>La couleur #007ACC des liens sur le fond #ECF6FF n'est pas suffisamment contrastée (ratio : 4.12) ;</li>
+			<li>La couleur #457793 des liens au survol sur le fond #ECF6FF n'est pas suffisamment contrastée (ratio : 4.45).</li>
+		</ul>
+
+		<h4>Contraste des composants d'interface</h4>
+
+		<p>Les composants d'interface, les illustrations porteuses d'information ou encore les mises en couleurs porteuses d'information doivent être suffisamment contrastés pour être perçus par les utilisateurs ayant des troubles de perception des couleurs. Par exemple, une icône porteuse d'information devra avoir un rapport de contraste avec la couleur de fond de 3. De même, pour un champ de saisie de formulaire, dont la zone active est matérialisée par sa bordure, alors la couleur de cette bordure devra avoir un rapport de contraste de 3 avec la couleur de fond de la page.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/3-3-001.png" alt="" />
+
+		<p>Dans l'en-tête, la couleur #ddd de la bordure du champ de recherche a un rapport de contraste insuffisant avec le fond de la page #fff (ratio : 1.36).</p>
+
+		<img src="images/3-3-002.png" alt="" />
+
+		<p>Page « Contact », la couleur #ddd de la bordure des champs de formulaire a un rapport de contraste insuffisant avec le fond de la page #fff (ratio : 1.36).</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		4. thématique multimedia -->
+	<h3 id="multimedia" tabindex="-1">Multimédia</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-temporel-type-son-video-et-synchronise">média temporel</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#transcription-textuelle-media-temporel">transcription textuelle</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#sous-titres-synchronises-objet-multimedia">sous-titres synchronisés</a> et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#audiodescription-synchronisee-media-temporel">audiodescription</a> synchronisée pertinents. Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-non-temporel">média non temporel</a> une alternative textuelle pertinente. Rendre possible le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-la-consultation-d-un-media-temporel">contrôle de la consultation</a> de chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-temporel-type-son-video-et-synchronise">média temporel</a> et non temporel au clavier et s'assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d'assistance</a>.</span></p>
+		</div>
+
+		<h4>Identifier les vidéos</h4>
+
+		<p>Il est nécessaire d'identifier la vidéo et permettre ainsi
+		aux utilisateurs de comprendre quelle est l'information présentée dans ce
+		contenu. </p>
+
+		<p>Vous disposez de deux méthodes pour le faire&nbsp;:</p>
+
+		<ul>
+			<li>soit faire précéder la vidéo par un <b>titre</b> (solution
+		recommandée)&nbsp;;</li>
+			<li>soit faire suivre la vidéo d'une <b>phrase de légende</b>
+		(paragraphe).</li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/4-7-001.png" alt="" />
+
+		<img src="images/4-5-001.png" alt="" />
+
+		<p>Page « Tests PCR et autotests », les titres des vidéos « Expert Q&A: Dr Thomas Dentzer - #1 Test PCR, test antigénique et test de détection d'anticorps (Luxembourgeois) » et « Expert Q&A: Dr Thomas Dentzer - #2-4 Tests antigéniques (Luxembourgeois) » disparaissent une fois celles-ci lancées. Il n'est donc plus possible de les identifier.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		5. thématique tableaux -->
+	<h3 id="tableaux" tabindex="-1">Tableaux</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Donner un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#resume-de-tableau">résumé</a> à chaque <a	href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-donnees-complexe">tableau de données complexe</a>, s'assurer que pour <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-donnees-ayant-un-titre">chaque tableau de données ayant un titre</a>, ce titre est pertinent, identifier clairement les cellules d'en-tête, utiliser un mécanisme pertinent pour lier les cellules de données aux <a	href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#en-tete-de-colonne-ou-de-ligne">cellules d'en-tête</a>. Pour chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-mise-en-forme">tableau de mise en forme</a>, veiller à sa bonne linéarisation.</span></p>
+		</div>
+
+		<h4>Tableaux de données complexes</h4>
+
+		<p>Les tableaux de données complexes ont généralement plus d'un en-tête pour une même ligne ou une même colonne, contrairement aux tableaux simples.</p>
+
+		<p>Pour les tableaux de données complexes, les enjeux sont les suivants&nbsp;:</p>
+		<ul>
+			<li>Le tableau doit posséder un titre permettant de l'identifier <b>et un résumé de sa structure</b> (<code>&lt;caption&gt;</code>)&nbsp;;</li>
+			<li>Les en-têtes doivent être identifiés (balises <code>&lt;th&gt;</code>) et doivent pouvoir être restitués lorsque l'utilisateur parcourt chaque cellule à l'aide de son lecteur d'écran (utilisation des attributs <code>headers</code> et <code>id</code>).</li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/5-1-001.png" alt="" />
+
+		<p>Page « Article de blog » :</p>
+		<ul>
+			<li>Le tableau de données complexe « Date de rappel et prise de rendez-vous » n'a pas de titre ni de résumé permettant d'expliquer sa structure.</li>
+			<li>Les en-têtes de colonne et de ligne du tableau de données complexe « Date de rappel et prise de rendez-vous » ne sont pas déclarés. Une fois que ce sera fait, il faudra lier les cellules du tableau à leurs en-têtes.</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		6. thématique liens -->
+	<h3 id="liens" tabindex="-1">Liens</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p>Donner des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">intitulés de lien</a><span> explicites, grâce à des informations de </span><a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contexte-du-lien">contexte</a> notamment, utiliser le titre de lien le moins possible. S'assurer que le nom visible est contenu dans le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">nom accessible</a>.</p>
+		</div>
+
+		<h4>Pertinence des intitulés</h4>
+
+		<p>Un lien possède généralement un intitulé et un contexte. L'intitulé est le texte présent dans la balise <code>&lt;a&gt;</code> (ou la valeur de l'attribut <code>alt</code> de l'image dans le cas d'un lien-image) et le contexte du lien est représenté par le titre qui précède, le titre du lien (l'infobulle) ou tout simplement le texte dans lequel il est inséré.</p>
+
+		<p>Pour être considéré comme pertinent, <b>l'intitulé d'un lien doit permettre de comprendre sa destination en prenant en compte son contexte.</b></p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/6-1-001.png" alt="" />
+
+		<p>Page d'accueil, les textes contenus dans le lien image « Autodéclaration sur covidtracing.lu - Nouvelle fenêtre » ne sont pas repris dans le nom accessible du lien. L'alternative de l'image (qui constitue le nom accessible du lien) devrait reprendre les informations lisibles sur l'image. De plus, l'attribut <code>title</code> du lien devra reprendre le nom accessible également.</p>
+
+		<img src="images/6-1-002.png" alt="" />
+
+		<p>Page « Aspects légaux », l'attribut <code>title</code> du lien « Accueil » du fil d'Ariane ne reprend pas le nom accessible du lien.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		7. thématique scripts -->
+	<h3 id="scripts" tabindex="-1">Scripts</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-a-script">alternative</a> pertinente. Rendre possible <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">le contrôle de chaque code script au moins par le clavier et la souris</a> et s'assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d'assistance</a>. Identifier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#message-de-statut">messages de statut</a> lorsque c'est nécessaire.</span></p>
+		</div>
+
+		<h4>Utilisation des boutons et des liens</h4>
+
+		<p>Pour les aveugles et les grands malvoyants qui utilisent un lecteur d'écran, ce manque de distinction claire entre les liens et les boutons peut poser de graves problèmes.</p>
+
+		<p>Ainsi, <b>un bouton implémenté sous la forme d'un lien qui déclenche une action de la page, risque de perturber l'utilisateur</b> qui s'attendra au chargement d'une nouvelle page.</p>
+
+		<p>De manière générale, les liens devraient être réservés à l'affichage d'une nouvelle page ou la création de liens d'accès rapide dans le contenu. Dans tous les autres cas, l'emploi d'un bouton d'action est plus pertinent.</p>
+
+		<p>Enfin, chaque bouton doit avoir un nom accessible défini, soit par l'intermédiaire d'un texte (visible ou positionné hors écran) ou d'une propriété <code>title</code>, <code>aria-label</code> ou <code>aria-labelledby</code>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/7-1-001.png" alt="" />
+		<img src="images/7-1-002.png" alt="" />
+
+		<p>Page « Tests PCR et autotests », les composants de lancement des vidéos déclenchent des événements JavaScript, mais sont implémentés dans des liens. Ils doivent être implémentés dans des éléments <code>&lt;button&gt;</code>.</p>
+
+		<img src="images/7-2-001.png" alt="" />
+		<img src="images/7-2-002.png" alt="" />
+		<img src="images/7-2-003.png" alt="" />
+
+		<p>Page « Graphiques », les tableaux constituent des alternatives pertinentes aux graphiques, mais ne sont pas connus des personnes qui n'utilisent pas de lecteur d'écran. Il faut les rendre visibles.<br>
+			Comme ils sont longs, il vaut mieux les rendre disponibles à l'intérieur d'un composant activable par l'utilisateur. Par exemple une zone afficher/masquer (balises <code>&lt;details&gt;</code> ou motif de conception ARIA Disclosure) ou une fenêtre modale.<br>
+			Ajouter ce composant à la suite de la légende des graphiques et déplacer le tableau correspondant à l'intérieur.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		8. thématique Éléments obligatoires -->
+	<h3 id="obligatoires" tabindex="-1">Éléments obligatoires</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Vérifier que chaque page web a un code valide selon le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#type-de-document">type de document</a>, un <a	href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre-de-page">titre</a> pertinent et une indication de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#langue-par-defaut">langue par défaut</a>. Vérifier que les balises ne sont pas utilisées <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#uniquement-a-des-fins-de-presentation">uniquement à des fins de présentation</a>, que les changements de langues et de direction de sens de lecture sont indiqués.</span></p>
+		</div>
+
+		<h4>Indication de langue</h4>
+
+		<p><b>Les lecteurs d'écran utilisent les indications de langue pour vocaliser le contenu dans la langue définie.</b> La page doit contenir une définition de langue principale (généralement sur l'élément <code>html</code>).
+		</p>
+
+		<p>Ensuite, les éléments de langue étrangère présents dans le contenu doivent être signalés. Si on trouve dans la page des termes absents du dictionnaire de la langue principale de la page, il faut les identifier afin que le lecteur d'écran les restitue dans la langue appropriée. En effet, une mauvaise prononciation pourrait mener à des incompréhensions pour les utilisateurs qui reposent uniquement sur des restitutions orales. Les noms propres sont exclus de cette obligation.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/8-7-001.png" alt="" />
+
+		<p>Dans le menu principal, il n'y a pas de changement de langue identifié sur le lien <span lang="en">"Contact tracing"</span>.</p>
+
+		<img src="images/8-7-002.png" alt="" />
+
+		<p>Dans le pied de page, il n'y a pas de changement de langue identifié sur le lien <span lang="en">"Helpline & Contact"</span>.</p>
+
+		<img src="images/8-7-003.png" alt="" />
+
+		<p>Page « Contact » :</p>
+		<ul>
+			<li>Dans le fil d'Ariane, il n'y a pas de changement de langue identifié sur le texte <span lang="en">"Helpline & Contact"</span> ;</li>
+			<li>L'indication de langue française sur le titre de la page <span lang="en">"Helpline & Contact"</span> n'est pas pertinente ;</li>
+			<li>Il n'y a pas de changement de langue identifié sur le sous-titre <span lang="en">"Helpline"</span> ;</li>
+			<li>Dans la phrase « La helpline est disponible du lundi... », il n'y a pas de changement de langue identifié sur le mot <span lang="en">"helpline"</span>.</li>
+		</ul>
+
+		<h4>Balises utilisées à des fins de présentation</h4>
+
+		<p>Les éléments de structure HTML ont chacun une sémantique particulière (paragraphe, titre, image, lien, etc.). <b>Si les éléments sont mal employés</b> (détournés de leur utilité première), cela peut poser des <b>problèmes aux utilisateurs qui naviguent à l'aide d'une technologie d'assistance (lecteur d'écran, plug-in…)</b>. En effet, les technologies d'assistance disposent de raccourcis permettant de naviguer rapidement entre certains types d'éléments (paragraphes, titres, listes, etc.). Si ces éléments sont mal employés, les utilisateurs ne peuvent pas utiliser ces fonctionnalités de repère et de navigation dans le contenu.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/8-9-001.png" alt="" />
+		<img src="images/8-9-002.png" alt="" />
+
+		<p>Page « Actualité » :</p>
+		<ul>
+			<li>Le texte « Créée le 01.03.2022 » est uniquement structuré à l'aide de <code>&lt;div&gt;</code> ;</li>
+			<li>On trouve des paragraphes (<code>&lt;p&gt;</code>) vides servant à créer des espacements, par exemple avant le titre « Annexe A - Liste de pays tiers dont les résidents sont autorisés... ».</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		9. Structuration de l'information -->
+	<h3 id="structuration" tabindex="-1">Structuration de l'information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#listes">listes</a>, des abréviations et des citations pour structurer l'information. S'assurer que la structure du document est cohérente.</p>
+		</div>
+
+		<h4>Titres</h4>
+
+		<p>Le titrage des contenus est une étape importante dans la structuration des contenus. Cela répond à deux besoins&nbsp;:</p>
+		<ul>
+			<li>identifier rapidement un contenu recherché&nbsp;;</li>
+			<li>naviguer rapidement dans le contenu en se déplaçant de titre en titre.</li>
+		</ul>
+
+		<p>Un titrage correct fournit à l'utilisateur d'un lecteur d'écran un plan du document et lui permet de naviguer de titre en titre pour se déplacer plus rapidement dans le contenu de la page.</p>
+
+		<p>Pour valider la structure de votre page, vous pouvez utiliser l'extension <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/">Firefox HeadingsMap</a>. Lorsque l'extension est active, sélectionnez l'onglet « Headings » et vérifiez la cohérence et l'imbrication des titres.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/9-1-001.png" alt="" />
+
+		<p>Page d'accueil, les titres « Rubriques », « Support » et « Restez connecté » dans le pied de page doivent être des titres de niveau 2.</p>
+
+		<img src="images/9-1-002.png" alt="" />
+
+		<p>Page « Aspects légaux », les textes « Documents de type texte » et « Autres contenus » de la partie « Propriété intellectuelle » doivent être des titres de niveau 4.</p>
+
+		<img src="images/9-1-003.png" alt="" />
+
+		<p>Page « Testing » :</p>
+		<ul>
+			<li>Le texte « Quand et par qui le test salivaire est-il effectué? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Quand et par qui le test antigénique rapide par prélèvement nasal ou de la gorge doit-il être effectué? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Quand et par qui le test antigénique rapide par prélèvement nasal ou de la gorge doit-il être effectué? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Quand et par qui l'autotest antigénique rapide par prélèvement nasal doit-il être effectué? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Qu'est-ce qui est testé? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Que signifie un test positif ou négatif? » doit être un titre de niveau 4.</li>
+			<li>Le texte « Pourquoi devrais-je me faire tester? » doit être un titre de niveau 4</li>
+		</ul>
+
+		<h4>Listes</h4>
+
+		<p>La structuration en listes permet aux utilisateurs de lecteurs d'écran de <b>consulter plus rapidement le contenu</b>, grâce à des raccourcis spécifiques, et d'accéder directement à une liste ou de la passer sans avoir à en parcourir tous les items.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/9-3-002.png" alt="" />
+
+		<p>Page « Actualité », la suite de notes de bas de page n'est pas structurée sous forme de liste.</p>
+
+		<h4>Structure du document</h4>
+
+		<p>L'utilisation correcte des balises HTML5 et des landmarks ARIA va permettre d'enrichir la restitution pour les utilisateurs aveugles qui ne perçoivent pas les mises en forme&nbsp;: la navigation principale ne sera plus perçue simplement comme une liste de liens, elle sera restituée à l'utilisateur comme un élément de navigation, par l'intermédiaire du lecteur d'écran qui annoncera « région » ou « repère ».</p>
+
+		<p>De plus, ces marqueurs sémantiques vont également constituer des éléments de navigation rapide dans la page. Grâce à un raccourci clavier, certains utilisateurs vont pouvoir naviguer plus rapidement entre les régions qui auront été ainsi identifiées.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/9-2-001.png" alt="" />
+
+		<p>Page d'accueil, les liens d'évitement ne sont pas structurés par une zone de navigation.</p>
+	</div>
+
+
+	<!-- ////////////////////////////////
+		10. thématique Présentation de l'information -->
+	<h3 id="presentation" tabindex="-1">Présentation de l'information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#feuille-de-style">feuilles de styles</a> pour contrôler la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#presentation-de-l-information">présentation de l'information</a>. Vérifier l'effet de l'agrandissement des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#taille-des-caracteres">tailles des caractères</a> sur la lisibilité. S'assurer que les liens sont correctement identifiables, que la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#prise-de-focus">prise de focus</a> est signalée, que l'interlignage est suffisant et donner la possibilité à l'utilisateur de contrôler la justification des textes. S'assurer que les textes cachés sont <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#correctement-restitue-par-les-technologies-d-assistance">correctement restitués</a> et que l'information n'est pas donnée uniquement par la forme ou la position d'un élément. S'assurer que les contenus sont lisibles et utilisables dans une fenêtre de largeur réduite. Veiller à ce que l'application de paramètres typographiques n'entraîne pas la perte de contenu ou de fonctionnalité. S'assurer que les contenus qui apparaissent au survol et à la prise de focus puissent être contrôlés par l'utilisateur. </span></p>
+		</div>
+
+		<h4>Utilisation de CSS exclusivement</h4>
+
+		<p>Certains <b>utilisateurs qui présentent des troubles de la lecture (personnes dyslexiques par exemple), vont avoir besoin d'adapter la présentation des pages avec leurs propres mises en forme</b>. Cela est possible sans difficulté si le site web utilise exclusivement les feuilles de styles CSS pour réaliser les mises en forme. Cependant, l'utilisation d'attributs et balises HTML de mise en forme rend ces adaptations plus compliquées, sinon impossibles.</p>
+
+		<p><a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#presentation-de-l-information">Le RGAA donne la liste des attributs et balises qu'il est interdit d'utiliser</a>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/10-1-001.png" alt="" />
+
+		<p>Page « Article de blog », des attributs de présentation <code>width</code> sont utilisés sur des cellules du tableau « Date de rappel et prise de rendez-vous ».</p>
+
+		<h4>Contenu compréhensible sans les styles&nbsp;: ordre visible vs ordre réel</h4>
+
+		<p>Un utilisateur aveugle n'a pas accès à la mise en forme qui parfois est porteuse d'informations importantes, notamment des relations entre les éléments. </p>
+
+		<p><b>Il est important de ne pas implémenter les textes dans l'ordre visuel, mais bien dans l'ordre logique de dépendance et hiérarchie des éléments.</b></p>
+
+		<p>Le contenu doit rester compréhensible sans les feuilles de styles (vous pouvez tester vos contenus en désactivant les feuilles de styles). </p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/10-3-001.png" alt="" />
+
+		<p>Page « Contact », la partie « Protection des données » donne des informations sur le traitement des données du formulaire, mais se trouve après le bouton de soumission de ce formulaire.</p>
+		<ul>
+			<li>Ajouter un attribut <code>id</code> à la partie « Protection des données » et une propriété <code>aria-describedby</code> au bouton « Prévisualiser puis envoyer ». La valeur de la propriété <code>aria-describedby</code> est la même que celle de l'attribut <code>id</code> de la partie « Protection des données » ;</li>
+			<li>Déplacer éventuellement la partie « Protection des données » avant le bouton « Prévisualiser puis envoyer ». Vous pouvez repositionner le texte après le bouton à l'aide de CSS.</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		11. thématique Formulaires -->
+	<h3 id="formulaires" tabindex="-1">Formulaires</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Associer pour chaque formulaire chacun de ses <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> à son <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a>, grouper les champs dans des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">blocs	d'informations de même nature</a>, regrouper <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#items-de-meme-nature-des-listes-de-choix">les items de même nature dans les listes de choix</a>, donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#bouton-formulaire">bouton</a> un intitulé explicite. Vérifier la présence d'aide à la saisie, s'assurer que	le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-saisie-formulaire">contrôle	de saisie</a> est accessible et que l'utilisateur peut contrôler les données à caractère financier, juridique ou personnel.</span></p>
+		</div>
+
+		<h4>Contrôle de saisie et aide à la saisie</h4>
+
+		<p>Tous les champs obligatoires doivent être identifiés préalablement à toute validation de l’utilisateur.</p>
+
+		<p>Pour les champs qui attendent un format de saisie particulier pour être validés, ce format doit être spécifié à l’utilisateur par un passage de texte visible à proximité du champ. De plus, si l’utilisateur commet une erreur sur ce champ, alors le message d’erreur doit présenter un exemple réel de saisie. </p>
+
+		<p>Enfin, les messages d'erreur de saisie des champs de
+		formulaire doivent être liés correctement aux champs en erreur.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/11-10-001.png" alt="" />
+
+		<p>Page « Contact », le champ « Courrier » attend un format particulier qui n'est pas précisé.</p>
+
+		<h4>Identification des données attendues</h4>
+
+		<p>Certains utilisateurs qui ont des troubles d'accès au langage verbal (paralysie cérébrale, aphasie  par exemple) auront des difficultés à accéder au sens des termes écrits. Ainsi, pour leur permettre de remplacer les étiquettes présentes dans les formulaires par des étiquettes (verbales ou imagées) qu'ils connaissent, il est nécessaire d'identifier les champs avec un attribut particulier, de sorte qu'une technologie d'assistance pourra réaliser la personnalisation du formulaire nécessaire à l'utilisateur.</p>
+		<p>L'identification de ces champs permet également aux utilisateurs d'employer des outils pour remplir automatiquement les champs identifiés avec des valeurs de l'utilisateur.</p>
+		<p>On ne va rechercher que les champs qui attendent une donnée personnelle. Le RGAA demande d'utiliser l'attribut <code>autocomplete</code> et il fournit <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liste-des-valeurs-possibles-pour-l-attribut-autocomplete">l'ensemble des valeurs possibles pour l'attribut</a>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/11-13-001.png" alt="" />
+
+		<p>Page « Contact », la valeur de l'attribut <code>autocomplete</code> des champs « Nom » et « Prénom » n'est pas pertinente.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		12. thématique Navigation -->
+	<h3 id="navigation"  tabindex="-1">Navigation</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Faciliter la navigation dans un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ensemble-de-pages">ensemble de pages</a> par au moins deux <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#systeme-de-navigation">systèmes de navigation</a> différents (<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#menu-et-barre-de-navigation">menu de navigation</a>, <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#page-plan-du-site">plan du site</a> ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#moteur-de-recherche-interne-a-un-site-web">moteur de recherche</a>), un fil d'Ariane et l'indication de la page active dans le menu de navigation. Identifier les groupes de liens importants et la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#zone-de-contenu-principal">zone de contenu</a> et donner la possibilité de les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liens-d-evitement-ou-d-acces-rapide">éviter par des liens de navigation interne</a>. S'assurer que l'<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a> est cohérent et que la page ne comporte pas de piège au clavier. S'assurer que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#raccourci-clavier">raccourcis clavier</a> qui utilisent une seule touche sont contrôlables par l'utilisateur.</span></p>
+		</div>
+
+		<h4>Systèmes de navigation</h4>
+
+		<p>Le RGAA demande qu'un site propose au moins deux systèmes de navigations différents. Prévoir deux systèmes de navigation au moins est important, car&nbsp;: </p>
+		<ul>
+			<li>tous les utilisateurs ne naviguent pas de la même manière&nbsp;;</li>
+			<li><b>certains systèmes de navigation</b> peuvent s'avérer trop <b>complexes</b> à utiliser, en particulier pour les personnes qui ont recours à des technologies d'assistance. Par exemple, un menu de navigation trop riche, comme un méga-menu, peut nécessiter beaucoup d'actions pour un utilisateur qui navigue exclusivement au clavier, et donc rendre sa recherche d'information très laborieuse.</li>
+		</ul>
+
+		<p>Par systèmes de navigation, on entend <b>tout procédé permettant une navigation dans le site</b> ou dans une page, parmi&nbsp;: </p>
+
+		<ul>
+			<li>un <b>menu principal de navigation</b>&nbsp;;</li>
+			<li>un <b>plan du site</b>&nbsp;;</li>
+			<li>un <b>moteur de recherche</b>.</li>
+		</ul>
+
+		<p><b>Note</b>&nbsp;: un moteur de recherche est considéré comme un moyen de navigation s'il indexe <b>toutes les pages du site</b> (y compris les pages de type «&nbsp;Mentions légales » ou « Politique de confidentialité »), et non pas seulement un choix limité (par exemple, seulement les offres tarifaires).</p>
+
+		<p>Le plan du site, s’il est présent, doit être représentatif de l’arborescence du site et ne proposer que des liens fonctionnels.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/12-3-001.png" alt="" />
+
+		<p>La page « plan du site » n'est pas pertinente :</p>
+		<ul>
+			<li>Il manque des liens vers la rubrique « Vaccination » ;</li>
+			<li>Il manque des liens vers la rubrique « CovidCheck » ;</li>
+			<li>Il manque des liens vers la rubrique « Contact Tracing » ;</li>
+			<li>Il manque un lien vers la rubrique « L'actualité de la COVID-19 » ;</li>
+			<li>Il manque un lien vers la rubrique « Blog ».</li>
+		</ul>
+
+		<h4>Landmarks ARIA</h4>
+
+		<p>Pour fournir des points de repère aux utilisateurs aveugles, il faudra également implémenter les <b>landmarks ARIA</b> sur les balises HTML&nbsp;5 de la page. </p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/12-6-001.png" alt="" />
+
+		<p>Page « Aspects légaux », le fil d'Ariane n'est pas identifié comme zone de navigation.</p>
+	</div>
+</main>
+<footer role="contentinfo">
+	<p>Ce rapport est publié par le <a href="https://sip.gouvernement.lu">service information et presse</a> sous <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">licence CC0</a>.</p>
+</footer>
+</body>
+
+</html>

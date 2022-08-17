@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Audit d'accessibilité simplifié du site gouvernement.lu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="SIP" />
+        <meta name="subject" content="" />
+
+        <style>
+            /**https://github.com/sindresorhus/github-markdown-css
+https://sindresorhus.com/github-markdown-css/**/
+header,main,nav,footer{width:80%;margin:auto;}
+
+main img{
+  display:block;
+  margin:35px auto 10px auto;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  background:#FFF;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: initial;
+}
+
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: initial;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr:after,
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #0366d6;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  color: #fafbfc;
+  background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: 700;
+  color: #22863a;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: 700;
+  color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: #24292e;
+}
+
+.markdown-body .pl-mb {
+  font-weight: 700;
+  color: #24292e;
+}
+
+.markdown-body .pl-md {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+  color: #f6f8fa;
+  background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+  font-weight: 700;
+  color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: #032f62;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body:after,
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  clear: both;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc,
+.markdown-body details,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: .25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child, 
+.markdown-body .bloc>:first-child{
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child,
+.markdown-body .bloc>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .bloc{
+  padding:1em ;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-size: .85em;
+  color: #6a737d;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: initial;
+  background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: initial;
+  border: 0;
+}
+
+.markdown-body .commit-tease-sha {
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 90%;
+  color: #444d56;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+  color: #005cc5;
+  border-color: #005cc5;
+}
+
+.markdown-body .blob-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  width: 1%;
+  min-width: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(27,31,35,.3);
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  overflow: visible;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  color: #24292e;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  cursor: pointer;
+  background: #ffea7f;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .desc h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+            .skip-link {
+    position: relative;
+    height: 1em;
+}
+.skip-link a {
+    position: absolute;
+    left: -7000px;
+}
+
+.skip-link a:focus {
+    left: 0;
+}
+
+div.topic > div.nobreak > div.desc {
+   background-color: #eee;
+   padding: 1em;
+}
+
+div.topic > div.nobreak > div.desc > p {
+    margin-bottom: 0;
+}
+
+.logo,.toc {
+    display: none;
+}
+
+            @media print {
+  #site {
+    string-set: title content(text);
+  }
+
+  .logo {
+    display: block;
+    position: running(logoRunning);
+  }
+
+  .logo > img {
+    margin-top: 6mm;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm;
+    margin-top: 26mm;
+    
+    @top-left {
+      content: element(logoRunning);
+      width: 80mm;
+    }
+
+    @bottom-right {
+      content: counter(page) "/" counter(pages);
+      font-family: Calibri;
+    }
+
+    @bottom-left {
+      content: "Audit d'accessibilité simplifié";
+      font-family: Calibri;
+    }
+  
+    @bottom-center {
+      content: string(title);
+      font-family: Calibri;
+    }
+  
+  }
+  body, main, header, footer {
+    font-size: 11pt;
+    font-family: Calibri;
+    font-variant-ligatures: none;
+    margin: 0;
+    width: 100%;
+    color: #000;
+    background: #fff;
+  }
+
+  p {
+    margin: 0.2em 0 0.8em 0;
+    line-height: 1.3em;
+  }
+  
+  h1,h2,h3,h4,h5, h6 {
+    margin: 1em 0 0.2em 0;
+    font-weight: bold;
+  }
+  h1.break,h2.break,h3.break,h4.break,h5.break, h6.break {
+    break-before: page;
+  }
+
+
+  h1 { font-size: 160%; }
+  h2 { font-size: 140%; }
+  h3 { font-size: 120%; }
+  h4 { font-size: 100%; }
+  h5 { font-size: 90%; }
+  h6 { font-size: 80%; }
+  
+  a {
+    color: #00f;
+  }
+
+  .nobreak {
+    break-inside: avoid;
+  }
+
+  footer {
+    padding-top: 1em;
+    border-top: 1px solid #eaecef;
+  }
+
+}
+
+
+        </style>
+    </head>
+    <body class="markdown-body">
+<main role="main">
+<h1 id="audit-daccessibilité-simplifié">Audit d'accessibilité simplifié</h1>
+<h2 id="fiche-signalétique">Fiche signalétique</h2>
+<p>Site : gouvernement.lu</p>
+<p>Date de l’évaluation : 28 janvier 2021</p>
+<p>Échantillon de pages :</p>
+<ul>
+<li><p>P1 : page d’accueil <a href="https://gouvernement.lu/fr.html">https://gouvernement.lu/fr.html</a></p></li>
+<li><p>P2 : page contact <a href="https://gouvernement.lu/fr/support/contact.html">https://gouvernement.lu/fr/support/contact.html</a></p></li>
+<li><p>P3 : page article avec une galerie photo et un fichier en téléchargement <a href="https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2020/11-novembre/11-tanson-controle-honorabilite.html">https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2020/11-novembre/11-tanson-controle-honorabilite.html</a></p></li>
+</ul>
+<p>Méthode d'évaluation : Méthode de contrôle simplifiée de l’accessibilité pour le Luxembourg – v1</p>
+<p>Référentiel : <a href="https://accessibilite.public.lu/fr/rgaa4/">RGAA v4</a></p>
+<h2 id="avertissement">Avertissement</h2>
+<p>Attention, l’audit effectué est un audit simplifié et non un audit de conformité (ou audit "complet"). Il a vocation à détecter une série de problèmes d’accessibilité mais n'est pas exhaustif. Le fait qu’aucun problème ne soit remonté pour un critère RGAA donné ne signifie pas qu’il n’y a pas de problème d’accessibilité pour ce critère. De même, lorsque nous rapportons une occurrence d’un problème, ce problème peut avoir d’autres occurrences. N’hésitez pas à vérifier de manière exhaustive l’accessibilité de votre site conformément au référentiel <a href="https://accessibilite.public.lu/fr/rgaa4/index.html">RGAA v4</a>.</p>
+<h2 id="appréciation-générale">Appréciation générale</h2>
+<h3 id="résumé">Résumé</h3>
+<p>Le niveau d’accessibilité de gouvernement.lu est moyen. Un travail de fond sur l’accessibilité a déjà été réalisé mais certains points restent problématiques, comme les problèmes liés aux scripts, à la navigation au clavier et aux liens. On constate que la plupart des problèmes d’accessibilité rencontrés sont présents sur tous les sous-sites. En termes rédactionnels, les principaux points d’attention concernent les alternatives d’images, les changements de langue ainsi que les documents en téléchargement (critères 1.1, 1.2, 8.7 et 13.3).</p>
+<h3 id="quantité-de-contenus-dérogés">Quantité de contenus dérogés</h3>
+<p>La fréquence des contenus dérogés peut impacter la pertinence de cet audit.</p>
+<p>Certains contenus dérogés sont peu fréquents, il s’agit par exemple du fil twitter sur la page d’accueil ou la carte interactive sur la page contact.</p>
+<p>Les documents bureautiques en téléchargement sont fréquemment publiés sur ce site mais une part importante a été publiée avant le 23 septembre 2018. Parmi ces documents nombreux sont ceux qui sont issus d’organisations tierces.</p>
+<p>Les vidéos sont relativement fréquentes, toutes les vidéos en live et les vidéos publiées avant le 23 septembre 2020 sont exemptées. Les vidéos après cette date sont sous-titrées mais ne fournissent en général pas de transcription.</p>
+<p>Sur les pages faisant partie de cet échantillon, les contenus dérogés sont les suivants :</p>
+<ul>
+<li><p>Fil twitter sur la page d’accueil</p></li>
+<li><p>Carte interactive sur la page contact</p></li>
+</ul>
+<h3 id="quantité-et-nature-des-documents-bureautiques-en-téléchargement">Quantité et nature des documents bureautiques en téléchargement</h3>
+<p>La quantité et la nature des documents bureautiques en téléchargement peut impacter la pertinence de cet audit. En effet, plus il y a de documents bureautiques en téléchargement, plus il y a de chances que les utilisateurs handicapés n’accèdent pas à l’information.</p>
+<p>Les documents bureautiques en téléchargement sont fréquemment publiés sur le site. Il s’agit majoritairement de documents PDF à consulter, et non de formulaires ou de documents liés à des procédures administratives actives.</p>
+<h2 id="relevé-des-non-conformités">Relevé des non-conformités</h2>
+<h3 id="critère-1.1-chaque-image-porteuse-dinformation-a-t-elle-une-alternative-textuelle"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-1-1">Critère 1.1</a> : Chaque image <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#image-porteuse-d-information">porteuse d'information</a> a-t-elle une <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#alternative-textuelle-image">alternative textuelle</a> ?</h3>
+<p>L’alternative textuelle est utilisée par les aveugles pour comprendre l’information véhiculée par une image.</p>
+<h4 id="occurrences">Occurrences :</h4>
+<p>Sur la page P3, l’alternative textuelle des images dans la galerie est vide. Par contre la balise figcaption, normalement réservée aux descriptions détaillées et aux crédits photo, contient l’information. Cette information devrait être reportée dans l’attribut alt de l’image.</p>
+<h3 id="critère-1.2-chaque-image-de-décoration-est-elle-correctement-ignorée-par-les-technologies-dassistance"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-1-2">Critère 1.2</a> : Chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#image-de-decoration">image de décoration</a> est-elle correctement ignorée par les technologies d'assistance ?</h3>
+<p>La présence d’une alternative d’image sur une image de décoration perturbe la compréhension de la page chez les aveugles.</p>
+<h4 id="occurrences-1">Occurrences :</h4>
+<p>Sur la page P1, l’image de l’article à la une est une image de décoration. Celle-ci devrait avoir un attribut alt vide mais ce n’est pas le cas. Le problème est aussi présent pour certaines photos des ministres, elles doivent toutes avoir un attribut alt vide.</p>
+<p><img src="./images/gouvernement.lu/image1.png" alt="Screenshot article à la une sur la page d&#39;accueil" style="width:4.17424in;height:2.85436in" /></p>
+<h3 id="critère-3.2-dans-chaque-page-web-le-contraste-entre-la-couleur-du-texte-et-la-couleur-de-son-arrière-plan-est-il-suffisamment-élevé-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-3-2">Critère 3.2</a> : Dans chaque page web, le <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#contraste">contraste</a> entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?</h3>
+<h4 id="vérifier-que-les-contrastes-entre-le-premier-plan-et-larrière-plan-rencontrent-les-seuils-de-contrastes-exigés-par-les-wcag-2-aa">Vérifier que les contrastes entre le premier plan et l’arrière-plan rencontrent les seuils de contrastes exigés par les WCAG 2 AA</h4>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=webdriverjs&amp;lang=fr">Les éléments doivent avoir un contraste de couleurs suffisant</a></p>
+<p>Les contrastes de couleur insuffisants sont problématiques pour de nombreux handicaps visuels.</p>
+<h5 id="occurrences-2">Occurrences :</h5>
+<p>Sur la page P1, le lien « conseil de gouvernement » n’est pas assez contrasté avec son arrière-plan. Le contraste est de 3.62 :1 et devrait être de 4.5 :1</p>
+<p><img src="./images/gouvernement.lu/image2.png" alt="screenshot du lien &quot;conseil de gouvernement&quot;" style="width:4.6754in;height:1.9085in" /></p>
+<p><img src="./images/gouvernement.lu/image3.png" alt="mesure du contraste du lien &quot;conseil de gouvernement&quot;" style="width:3.58364in;height:1.8835in" /></p>
+<h3 id="critère-6.1-chaque-lien-est-il-explicite-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-6-1">Critère 6.1</a> : Chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#lien">lien</a> est-il explicite (hors cas particuliers) ?</h3>
+<p>Chacun doit pouvoir comprendre aisément la fonction et la destination de chaque lien. Les problèmes rencontrés ici le sont pour les aveugles, les malvoyants, les handicapés moteurs qui naviguent à la voix et les handicapés cognitifs</p>
+<h4 id="occurrences-3">Occurrences : </h4>
+<p>Le lien « Actualités à la une » a un attribut <span lang="en">title</span> qui contient uniquement la mention « Actualités ». Celui-ci ne reprend pas le contenu visible du lien, on a donc une perte d’information. L’attribut <span lang="en">title</span> pourrait être ici supprimé. <img src="./images/gouvernement.lu/image4.png" alt="screenshot du lien &quot;actualités à la une&quot;" style="width:4.87542in;height:0.96675in" /></p>
+<h3 id="critère-7.1-chaque-script-est-il-si-nécessaire-compatible-avec-les-technologies-dassistance"> <a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-7-1">Critère 7.1</a> : Chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#script">script</a> est-il, si nécessaire, <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#compatible-avec-les-technologies-d-assistance">compatible avec les technologies d'assistance</a> ?</h3>
+<p>Si la sémantique de certains éléments n’est pas respectée, ceux-ci seront annoncés de manière erronée aux utilisateurs de screen readers et ceci les induira en erreur quant-au comportements possibles de ces éléments.</p>
+<h4 id="occurrences-4">Occurrences :</h4>
+<p>Sur toutes les pages, le menu pour changer de langue utilise le rôle ARIA <span lang="en">« menu »</span>, or celui-ci est réservé à des applications complexes. Il est ici nécessaire de supprimer les rôles <span lang="en">« menu »</span> et <span lang="en">« menuitem »</span>.</p>
+<h3 id="critère-7.3-chaque-script-est-il-contrôlable-par-le-clavier-et-par-tout-dispositif-de-pointage-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-7-3">Critère 7.3</a> : Chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#script">script</a> est-il <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">contrôlable par le clavier et par tout dispositif de pointage</a> (hors cas particuliers) ?</h3>
+<p>Il est normalement possible d’interagir avec les principaux composants d’interface au clavier. Lorsqu’un composant est annoncé par un screen reader, l’utilisateur s’attend à pouvoir utiliser les commandes aux clavier associées à ce composant. Si ce n’est pas le cas, nous avons un problème d’accessibilité.</p>
+<h4 id="occurrences-5">Occurrences :</h4>
+<p>Sur toutes les pages, le bouton de recherche n’est pas activable au clavier avec la barre d’espace. Il ne respecte pas le <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#button">design pattern « button »</a> tel que défini dans la spécification ARIA.</p>
+<h3 id="critère-8.2-pour-chaque-page-web-le-code-source-généré-est-il-valide-selon-le-type-de-document-spécifié-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-8-2">Critère 8.2</a> : Pour chaque page web, le code source généré est-il valide selon le <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#type-de-document">type de document</a> spécifié (hors cas particuliers) ?</h3>
+<p>Si le code source de chaque page n’est pas valide, cela peut poser des problèmes de compatibilités à différentes technologies d’assistance.</p>
+<h4 id="vérifier-que-les-attributs-aria-sont-autorisés-pour-le-rôle-dun-élément">Vérifier que les attributs ARIA sont autorisés pour le rôle d’un élément</h4>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/3.5/aria-allowed-attr?application=webdriverjs&amp;lang=fr">Les éléments doivent seulement utiliser les attributs ARIA autorisés</a></p>
+<h5 id="occurrences-6">Occurrences :</h5>
+<p>Sur toutes les pages, l’attribut <span lang="en">aria-selected="true"</span> n’est pas autorisé sur l’élément courant du sélecteur de langues.</p>
+<h4 id="vérifier-que-les-éléments-avec-des-rôles-aria-ont-les-attributs-aria-requis">Vérifier que les éléments avec des rôles ARIA ont les attributs ARIA requis</h4>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/3.5/aria-required-attr?application=webdriverjs&amp;lang=fr">Les attributs ARIA requis doivent être présents</a></p>
+<h5 id="occurrences-7">Occurrences :</h5>
+<p>Sur toutes les pages, il manque un attribut <span lang="en">aria-level</span> sur les éléments possédant un rôle <span lang="en">heading</span> (titres dans le <span lang="en">footer</span>)</p>
+<h4 id="vérifier-que-les-listes-sont-structurées-correctement">Vérifier que les listes sont structurées correctement</h4>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/3.5/list?application=webdriverjs&amp;lang=fr">&lt;ul&gt; et &lt;ol&gt; ne doivent contenir directement que des éléments &lt;li&gt;, &lt;script&gt; ou &lt;template&gt;</a></p>
+<h5 id="occurrences-8">Occurrences :</h5>
+<p>Les deux dossiers présents sur la page d’accueil font partie d’une liste qui ne possède pas de &lt;ul&gt;</p>
+<p>Sur la page p3, une liste ol contient des enfants avec un rôle <span lang="en">tabpanel</span> qui n’est pas autorisé dans une liste ol.</p>
+<h3 id="critère-8.7-dans-chaque-page-web-chaque-changement-de-langue-est-il-indiqué-dans-le-code-source-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-8-7">Critère 8.7</a> : Dans chaque page web, chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#changement-de-langue">changement de langue</a> est-il indiqué dans le code source (hors cas particuliers) ?</h3>
+<p>Les lecteurs d’écrans utilisent les informations de langue de différents passages de texte pour adapter la langue de la synthèse vocale utilisée. Si ces informations ne sont pas présentes, les textes seront lus avec la synthèse vocale de la langue principale de la page. Ces passages de texte peuvent donc être incompréhensibles.</p>
+<h4 id="occurrences-9">Occurrences :</h4>
+<p>Sur la home page, les liens sous le titre « interviews » n’ont pas de changement de langue indiqués.</p>
+<p><img src="./images/gouvernement.lu/image5.png" alt="screenshot de liens pour lesquels les changements de langue ne sont pas précisés" style="width:4.52539in;height:2.75024in" /></p>
+<h3 id="critère-9.1-dans-chaque-page-web-linformation-est-elle-structurée-par-lutilisation-appropriée-de-titres"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-9-1">Critère 9.1</a> : Dans chaque page web, l'information est-elle structurée par l'utilisation appropriée de <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#titre">titres</a> ?</h3>
+<p>Les personnes aveugles utilisent la hiérarchie de titres pour comprendre la structure de la page et pour pouvoir naviguer rapidement dans cette structure (passer d’un titre à un autre par niveaux de titres).</p>
+<h4 id="occurrences-10">Occurrences :</h4>
+<p>Sur la page d’accueil, le seul titre de niveau 1 est « SITE CORONAVIRUS ». Cela laisse donc penser que c’est le titre de la page et que tous les titres de niveaux inférieurs dépendent de celui-ci. Il est nécessaire d’avoir ici un autre titre de niveau 1.</p>
+<p><img src="./images/gouvernement.lu/image6.png" alt="hiérarchie de titre sur la page d&#39;accueil. Le titre de niveau 1 n&#39;est pas le bon." style="width:3.32529in;height:2.06685in" /></p>
+<h3 id="critère-9.2-dans-chaque-page-web-la-structure-du-document-est-elle-cohérente-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-9-2">Critère 9.2</a> : Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?</h3>
+<p>Les zones principales de la page (<span lang="en">header</span>, navigations, zone principale de contenu, <span lang="en"></span>footer</span>) doivent être correctement identifiées. Cela permet aux utilisateurs aveugles et handicapés moteur de naviguer plus aisément dans la page.</p>
+<h4 id="occurrences-11">Occurrences :</h4>
+<p>Sur la page contact, le fil d’Ariane n’est pas contenu dans une balise nav.</p>
+<h3 id="critère-10.3-dans-chaque-page-web-linformation-reste-t-elle-compréhensible-lorsque-les-feuilles-de-styles-sont-désactivées"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-10-3">Critère 10.3</a> : Dans chaque page web, l'information reste-t-elle <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#comprehensible-ordre-de-lecture">compréhensible</a> lorsque les <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#feuille-de-style">feuilles de styles</a> sont désactivées ?</h3>
+<p>Les feuilles de style permettent de réordonner le contenu présent dans le code HTML pour le présenter dans un ordre différent à l’écran. L’ordre du code HTML est néanmoins utilisé par les lecteurs d’écran. Si cet ordre n’est pas cohérent, cela va impacter la compréhension du document chez les aveugles et grands malvoyants.</p>
+<h4 id="occurrences-12">Occurrences :</h4>
+<p>Le bandeau des cookies est actuellement placé après la navigation et le champ de recherche. Ce bandeau doit être placé dans le code en début de document, pour être restitué par les lecteurs d’écran en premier. L’objectif de ce bandeau de cookie est d’obtenir le consentement de l’utilisateur et cette tâche est à réaliser par les utilisateurs en arrivant sur la page.</p>
+<h3 id="critère-10.7-dans-chaque-page-web-pour-chaque-élément-recevant-le-focus-la-prise-de-focus-est-elle-visible"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-10-7">Critère 10.7</a> : Dans chaque page web, pour chaque élément recevant le focus, la <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#prise-de-focus">prise de focus</a> est-elle visible ?</h3>
+<p>Certains handicapés moteurs naviguent exclusivement au clavier en utilisant certaines technologies d’assistance. Pour pouvoir utiliser un site web au clavier, il est nécessaire de savoir sur quel élément de la page on se trouve. C’est le rôle de la prise de focus. Si cet élément n’est pas visible, on ne sait pas sur quel élément interactif on se situe et on ne peut l’utiliser.</p>
+<h4 id="occurrences-13">Occurrences : </h4>
+<p>Sur la page P3, la prise de focus n’est pas visible sur tous les éléments au sein de la galerie photo.</p>
+<h3 id="critère-10.8-pour-chaque-page-web-les-contenus-cachés-ont-ils-vocation-à-être-ignorés-par-les-technologies-dassistance"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-10-8">Critère 10.8</a> : Pour chaque page web, les <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#contenu-cache">contenus cachés</a> ont-ils vocation à être ignorés par les technologies d'assistance ?</h3>
+<h4 id="vérifier-quaria-hidden-nest-pas-assigné-aux-éléments-qui-reçoivent-le-focus-au-clavier">Vérifier qu’<span lang="en">aria-hidden</span> n'est pas assigné aux éléments qui reçoivent le focus au clavier</h4>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=webdriverjs&amp;lang=fr"><span lang="en">aria-hidden</span> n’est pas assigné aux éléments qui reçoivent le focus au clavier</a></p>
+<h5 id="occurrences-14">Occurrences :</h5>
+<p>Les boutons slide précédent et slide suivant sur la page P3 ne seront pas restitués pour les utilisateurs de lecteurs d’écran car dans un conteneur en <span lang="en">aria-hidden=true</span>. Ils peuvent cependant prendre le focus au clavier. L’attribut <span lang="en">aria-hidden=true</span> peut ici être supprimé.</p>
+<h3 id="critère-11.1-chaque-champ-de-formulaire-a-t-il-une-étiquette"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-11-1">Critère 11.1</a> : Chaque <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#champ-de-saisie-de-formulaire">champ de formulaire</a> a-t-il une <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a> ?</h3>
+<p>Pour chaque champ de formulaire, il est important d’avoir une étiquette visible associée. Si cette étiquette n’est visible que lorsque le champ est vide, cela peut poser problème à des utilisateurs ayant des troubles de la mémoire ou de l’attention.</p>
+<h4 id="occurrences-15">Occurrences :</h4>
+<p> Sur toutes les pages, le champ de recherche n’a pas de label visible. Il est nécessaire de rajouter un attribut <span lang="en">title</span> pertinent sur ce champ.</p>
+<h3 id="critère-11.10-dans-chaque-formulaire-le-contrôle-de-saisie-est-il-utilisé-de-manière-pertinente-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-11-10">Critère 11.10</a> : Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?</h3>
+<p>Sur un formulaire, les messages d’erreur permettent aux utilisateurs de corriger leur saisie. Si ces messages sont imprécis, cela peut bloquer des utilisateurs atteints de handicaps cognitifs.</p>
+<h4 id="occurrences-16">Occurrences :</h4>
+<p> Sur la page de contact (P2), le message d’erreur du champ email ne mentionne pas le type de données attendu, ni ne fournit d’exemple de saisie réelle.</p>
+<h3 id="critère-11.13-la-finalité-dun-champ-de-saisie-peut-elle-être-déduite-pour-faciliter-le-remplissage-automatique-des-champs-avec-les-données-de-lutilisateur"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-11-13">Critère 11.13</a> : La finalité d'un champ de saisie peut-elle être déduite pour faciliter le remplissage automatique des champs avec les données de l'utilisateur ?</h3>
+<p>Les personnes avec un handicap moteur peuvent avoir des difficultés à saisir des informations dans des formulaires. Le remplissage automatique de leurs données personnelles par les navigateurs est une technique leur permettant de remplir plus rapidement certains formulaires.</p>
+<h4 id="occurrences-17">Occurrences :</h4>
+<p>Sur la page P2, les champs du formulaire concernant les données personnelles de l’utilisateur (nom, prénom, email, téléphone) n’ont pas d’attribut <span lang="en">autocomplete</span>. Le remplissage automatique des navigateurs ne fonctionnera pas correctement.</p>
+<h3 id="critère-13.3-dans-chaque-page-web-chaque-document-bureautique-en-téléchargement-possède-t-il-si-nécessaire-une-version-accessible-hors-cas-particuliers"><a href="https://accessibilite.public.lu/fr/rgaa4/criteres.html#crit-13-3">Critère 13.3</a> : Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une <a href="https://accessibilite.public.lu/fr/rgaa4/glossaire.html#version-accessible-pour-un-document-en-telechargement">version accessible</a> (hors cas particuliers) ?</h3>
+<p>Les fichiers bureautiques en téléchargement se doivent d’être accessibles ou le site doit fournir une alternative accessible (par exemple le même contenu présenté dans une page web). Dans le cas contraire l’information contenue dans ces fichiers ne sera pas accessible aux personnes handicapées.</p>
+<h4 id="occurrences-18">Occurrences :</h4>
+<p>Sur la page P3, les documents en téléchargement ne sont pas accessibles. En particulier le fichier PDF n’est pas taggué.</p>
+<p><img src="./images/gouvernement.lu/image7.png" alt="propriétés du fichier en téléchargement sur la page P3, fichier non taggué" style="width:5.89218in;height:2.56689in" /></p>
+</main>
+<footer role="contentinfo">
+            <p>Ce rapport est publié par le <a href="https://sip.gouvernement.lu">service information et presse</a> sous <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">licence CC0</a>.</p>
+        </footer>
+</body></html>

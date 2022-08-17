@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %> - Portail de l'accessibilité numérique</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= prefix %>/html/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= prefix %>/html/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= prefix %>/html/favicon-16x16.png">
+    <link rel="manifest" href="<%= prefix %>/html/site.webmanifest">
+    <link rel="mask-icon" href="<%= prefix %>/html/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:dnt" content="on">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@accessibilityLU" />
+    <meta name="twitter:title" content="<%= title %> - Portail de l'accessibilité numérique du Luxembourg" />
+    <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
+    <meta property='twitter:url' content='https://accessibilite.public.lu<%= file %>'/>    
+    
+    <meta property='og:title' content="<%= title %>"/>
+    <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
+    <meta property='og:site_name' content="Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg"/>
+    <meta property='og:url' content='https://accessibilite.public.lu<%= file %>'/>
+
+    <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
+    
+    <% if (prod) { %>
+      <%- process.env.BUGSNAG %>
+    <% } %>
+    
+    <script src="<%= prefix %>/html/main.js"></script>
+    <% if (prod) { %>
+      <%- process.env.TRACKING %>
+    <% } else { %>
+      <meta name="robots" content="noindex">
+    <% } %>
+</head>
+<body>
+    <div class="skip-link">
+        <div class="container" id="top">
+          <ul>
+            <li><a href="#main">Aller au contenu</a></li>
+            <li><a href="#navi">Aller au menu</a></li>
+          </ul>
+        </div>
+      </div> 
+      <% if (prod) { %>
+        <%- process.env.GOVBAR %>
+      <% } %>
+       <!-- <%- name %> -->     
+    <%- include('header', {'nav': config.mainMenu, 'name': name, 'prod': prod, 'prefix': prefix}) %>
+    <main role="main" id="main" class="main">
+      <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
+        <h2><%= title %></h2>
+        <% if (error !== '') { %>
+          <div class="alert alert-danger">
+            <div class="alert-content">
+              <p><%- error %></p>
+            </div>
+          </div>
+        <% } %>
+        <%- data %>
+      </div>
+    </main>
+    <%- include('footer', {'links': config.footer, 'name': name, 'prefix': prefix}) %>
+    <a href="#top" class="back" title="Haut de page">
+      <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+        <path d="M1.5 19.5c-.2 0-.4-.1-.6-.2-.4-.3-.5-1-.1-1.4l10.5-13c.2-.2.5-.4.8-.4s.6.1.8.4l11 13c.4.4.3 1.1-.1 1.4-.4.4-1.1.3-1.4-.1L12 7.1l-9.7 12c-.2.3-.5.4-.8.4"></path>
+      </svg>
+      <span>Haut de page</span>
+    </a>
+</body>
+</html>

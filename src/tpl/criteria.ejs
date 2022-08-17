@@ -1,0 +1,20 @@
+<div id="toc">
+    <h3 id="titre-sommaire">Sommaire</h3>
+    <nav class="nav" aria-labelledby="titre-sommaire">
+        <ol>
+        <% topics.forEach(topic => { %>
+            <li>
+                <a href="#topic-<%= topic.number %>"><%= md.renderInline(topic.topic) %></a> 
+            </li>
+        <% }) %>
+        </ol>   
+    </nav> 
+</div>
+<% if (message !== '') { %>
+<p id="intro"><%- message %></p>
+<% } %>
+<div id="topics"> 
+<% topics.forEach(topic => { %>
+    <%- include('topic', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels}) %>
+<% }) %>
+</div> 

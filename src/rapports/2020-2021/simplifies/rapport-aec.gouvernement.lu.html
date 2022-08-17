@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Audit d'accessibilité simplifié du site aec.gouvernement.lu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="SIP" />
+        <meta name="subject" content="" />
+        <meta name="creator" content="simplA11yGenReport" />
+
+        <style>
+            /**https://github.com/sindresorhus/github-markdown-css
+https://sindresorhus.com/github-markdown-css/**/
+header,main,nav,footer{width:80%;margin:auto;}
+
+main img{
+  display:block;
+  margin:35px auto 10px auto;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  background:#FFF;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: initial;
+}
+
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: initial;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr:after,
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #0366d6;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  color: #fafbfc;
+  background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: 700;
+  color: #22863a;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: 700;
+  color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: #24292e;
+}
+
+.markdown-body .pl-mb {
+  font-weight: 700;
+  color: #24292e;
+}
+
+.markdown-body .pl-md {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+  color: #f6f8fa;
+  background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+  font-weight: 700;
+  color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: #032f62;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body:after,
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  clear: both;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc,
+.markdown-body details,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: .25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child, 
+.markdown-body .bloc>:first-child{
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child,
+.markdown-body .bloc>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .bloc{
+  padding:1em ;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-size: .85em;
+  color: #6a737d;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: initial;
+  background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: initial;
+  border: 0;
+}
+
+.markdown-body .commit-tease-sha {
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 90%;
+  color: #444d56;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+  color: #005cc5;
+  border-color: #005cc5;
+}
+
+.markdown-body .blob-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  width: 1%;
+  min-width: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(27,31,35,.3);
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  overflow: visible;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  color: #24292e;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  cursor: pointer;
+  background: #ffea7f;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .desc h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+            .skip-link {
+    position: relative;
+    height: 1em;
+}
+.skip-link a {
+    position: absolute;
+    left: -7000px;
+}
+
+.skip-link a:focus {
+    left: 0;
+}
+
+div.topic > div.nobreak > div.desc {
+   background-color: #eee;
+   padding: 1em;
+}
+
+div.topic > div.nobreak > div.desc > p {
+    margin-bottom: 0;
+}
+
+.logo,.toc {
+    display: none;
+}
+
+            @media print {
+  #site {
+    string-set: title content(text);
+  }
+
+  .logo {
+    display: block;
+    position: running(logoRunning);
+  }
+
+  .logo > img {
+    margin-top: 6mm;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm;
+    margin-top: 26mm;
+    
+    @top-left {
+      content: element(logoRunning);
+      width: 80mm;
+    }
+
+    @bottom-right {
+      content: counter(page) "/" counter(pages);
+      font-family: Calibri;
+    }
+
+    @bottom-left {
+      content: "Audit d'accessibilité simplifié";
+      font-family: Calibri;
+    }
+  
+    @bottom-center {
+      content: string(title);
+      font-family: Calibri;
+    }
+  
+  }
+  body, main, header, footer {
+    font-size: 11pt;
+    font-family: Calibri;
+    font-variant-ligatures: none;
+    margin: 0;
+    width: 100%;
+    color: #000;
+    background: #fff;
+  }
+
+  p {
+    margin: 0.2em 0 0.8em 0;
+    line-height: 1.3em;
+  }
+  
+  h1,h2,h3,h4,h5, h6 {
+    margin: 1em 0 0.2em 0;
+    font-weight: bold;
+  }
+  h1.break,h2.break,h3.break,h4.break,h5.break, h6.break {
+    break-before: page;
+  }
+
+
+  h1 { font-size: 160%; }
+  h2 { font-size: 140%; }
+  h3 { font-size: 120%; }
+  h4 { font-size: 100%; }
+  h5 { font-size: 90%; }
+  h6 { font-size: 80%; }
+  
+  a {
+    color: #00f;
+  }
+
+  .nobreak {
+    break-inside: avoid;
+  }
+
+  footer {
+    padding-top: 1em;
+    border-top: 1px solid #eaecef;
+  }
+
+}
+
+
+        </style>
+    </head>
+    <body class="markdown-body">
+        <header role="banner">
+            <div class="toc">
+                <a href="#title">title</a>
+                <a href="#appreciation-generale">appreciation generale</a>
+                <a href="#avertissement">avertissement</a>
+                <a href="#echantillon">Échantillon</a>
+                <a href="#declaration">Déclaration</a>
+                <a href="#documents-bureautiques">Documents bureautiques</a>
+                <a href="#annexe-technique">annexe technique</a>
+            </div>
+            <div class="skip-link">
+                <a href="#main">contenu principal</a>
+            </div>
+            <h1 id="title">Audit d'accessibilité simplifié - <span id="site">aec.gouvernement.lu</span></h1>
+            <p>Date : 10 août 2021</p>
+            <div class="logo"><img src="data:image/png;base64,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" alt="Service information et presse" /></div>
+        </header>
+        <main role="main" id="main" tabindex="-1">
+                <h2 id="appreciation-generale">Appréciation générale</h2>
+<p>Niveau d’accessibilité global pour les critères testés : <strong>bon</strong>.</p>
+<p>(Échelle : très faible, faible, moyen, bon, très bon)</p>
+
+<h2 id="avertissement">Avertissement</h2>
+<p>Attention, l’audit effectué est un audit simplifié et non un audit de conformité (ou audit "complet"). Il a vocation à détecter une série de problèmes d’accessibilité mais n'est pas exhaustif. Le fait qu’aucun problème ne soit remonté pour un critère d'accessibilité donné ne signifie pas qu’il n’y a pas de problème d’accessibilité pour ce critère. De même, lorsque nous rapportons une occurrence d’un problème, ce problème peut avoir d’autres occurrences. Il est nécessaire de vérifier de manière exhaustive l’accessibilité de ce site conformément au référentiel <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA</a>.</p>
+
+<h2 id="echantillon">Échantillon de pages et référentiel</h2>
+<p>Voici les pages qui ont été évaluées lors de cet audit&nbsp;:</p>
+<ul>
+    
+        <li>Page P01&nbsp;: <a href="https://aec.gouvernement.lu/fr.html">Administration d&#39;évaluation et de contrôle de l&#39;assurance dépendance // Le gouvernement luxembourgeois</a></li>
+    
+        <li>Page P02&nbsp;: <a href="https://aec.gouvernement.lu/fr/support/contact.html">Contact - Administration d&#39;évaluation et de contrôle de l&#39;assurance dépendance // Le gouvernement luxembourgeois</a></li>
+    
+        <li>Page P03&nbsp;: <a href="https://aec.gouvernement.lu/fr/actualites.gouvernement%2Bfr%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2021%2B05-mai%2B06-schneider-assurance.html">Premier rapport biennal de l&#39;Administration d&#39;évaluation et de contrôle de l&#39;assurance dépendance  - Administration d&#39;évaluation et de contrôle de l&#39;assurance dépendance // Le gouvernement luxembourgeois</a></li>
+    
+</ul>
+<p>Méthode d'évaluation&nbsp;: <a href="https://accessibilite.public.lu/fr/monitoring/controle-simplifie.html">Méthode de contrôle simplifiée de l’accessibilité pour le Luxembourg – v1.2</a></p>
+<p>Référentiel&nbsp;: <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA v4.1</a></p>
+
+
+    <h2 id="declaration">Déclaration sur l'accessibilité</h2>
+<p>Le site ne comporte pas de <strong>déclaration sur l'accessibilité</strong>. Celle-ci est obligatoire d'après l'article 5 de la <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a>. Cette déclaration s'effectue après avoir réalisé un audit de conformité basé sur le <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA</a>. Pour créer une déclaration sur base des résultats d'un audit de conformité, le <a href="https://accessibilite.public.lu/fr/tools/decla.html">formulaire disponible à cet effet sur accessibilite.lu</a> peut être utilisé. Une fois la déclaration d'accessibilité publiée, l'éditeur du site a 30 jours pour en informer le SIP par mail à l'adresse <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>.</p>
+
+
+
+
+
+
+ 
+
+
+
+            <h2 id="annexe-technique">Annexe technique</h2>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="images">Thématique "images"</h3>
+        <a class="toc" href="#images">Images</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-porteuse-d-information">image porteuse d’information</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-textuelle-image">alternative textuelle</a> pertinente et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#description-detaillee-image">description détaillée</a> si nécessaire. Lier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende-d-image">légendes</a> à leurs images. Remplacer les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-texte">images textes</a> par du <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#texte-style">texte stylé</a> lorsque c’est possible. Pour trouver la bonne alternative textuelle pour une image donnée, vous pouvez vous aider de l’<a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">arbre de décision proposé par la WAI</a>.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: images porteuses d’information</h4>
+                <p>Les images porteuses d’information doivent avoir une alternative textuelle qui sera restituée aux personnes utilisant un lecteur d’écran, aveugles et grands malvoyants. Cette alternative textuelle doit fournir l’information véhiculée par l’image, il ne s’agit pas d’une description de l’image. Pour une image <em lang="en">bitmap</em>, son attribut <code>alt</code> doit contenir cette alternative textuelle. Pour une image vectorielle SVG, celle-ci doit avoir l’attribut <code>role=&quot;img&quot;</code> et son alternative textuelle pourra être fournie via les attributs <code>aria-label</code> ou <code>aria-labelledby</code>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr/actualites.gouvernement%2Bfr%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2021%2B05-mai%2B06-schneider-assurance.html">page P03</a></h5>
+            <p>Les images dans le carrousel ont une alternative textuelle vide mais ont une légende d'image qui les décrit. Le fait de mettre une alternative textuelle vide à une image informe les technologies d'assistance qu'il s'agit d'une image de décoration qui doit être ignorée. Saisir la description de l'image dans l'alternative textuelle. La légende est là pour présenter plus d'information à propos de l'image, notamment les crédits photo, la date, le copyright.</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="couleurs">Thématique "couleurs"</h3>
+        <a class="toc" href="#couleurs">Couleurs</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Ne pas donner l’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#information-donnee-par-la-couleur">information</a> uniquement par la couleur et utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contraste">contrastes</a> de couleurs suffisamment élevés pour les textes, les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#composant-d-interface">composants d’interface</a> ou les éléments porteurs d’informations.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: contrastes des textes</h4>
+                <p>Les contrastes de couleurs sont importants pour plusieurs types de déficiences visuelles comme celles des grands malvoyants ou des personnes ayant des problèmes de perception des couleurs.
+Les contrastes minimaux d’un texte sur le fond de page sont définis par le RGAA comme suit :</p>
+<ul>
+<li>Pour un texte sans effet de graisse
+<ul>
+<li>De taille inférieure à 24 px : le contraste minimum est de 4.5:1 ;</li>
+<li>De taille supérieure ou égale à 24 px : le contraste minimum est de 3:1.</li>
+</ul>
+</li>
+<li>Pour un texte en gras
+<ul>
+<li>De taille inférieure à 18.5 px : le contraste minimum est de 4.5:1 ;</li>
+<li>De taille supérieure à 18.5 px : le contraste minimum est de 3:1.</li>
+</ul>
+</li>
+</ul>
+<p>Pour vérifier les contrastes, on peut utiliser un outil tel que <a href="https://www.tpgi.com/color-contrast-checker/" lang="en">« Colour Contrast Analyser »</a>.
+Si les problèmes de contraste ne peuvent être résolus simplement, il est aussi possible d’utiliser un <em lang="en">« style switcher »</em>. C’est une fonctionnalité proposée par le site qui permet de renforcer les contrastes pour les personnes qui ont des problèmes avec les couleurs. Un exemple de <em lang="en">« style switcher »</em> est disponible sur le site <a href="https://www.sncf.com/fr">sncf.com</a>, dans son menu « Accessibilité ».</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr/support/contact.html">page P02</a></h5>
+            <p>Les &quot;*&quot; marquant les champs obligatoires ont un contraste de loin inférieur  au ratio nécessaire.</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="liens">Thématique "liens"</h3>
+        <a class="toc" href="#liens">Liens</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">intitulés</a> de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#lien">liens</a> explicites, grâce à des informations de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contexte-du-lien">contexte</a> notamment.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: pertinence des intitulés</h4>
+                <p>Chacun doit pouvoir comprendre aisément la fonction et la destination de chaque lien. Les problèmes rencontrés ici le sont pour les aveugles, les malvoyants, les handicapés moteurs qui naviguent à la voix et les handicapés cognitifs.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>L'intitulé visible du lien &quot;Mobilitéitszentral&quot; n'est pas présent dans son intitulé. Cela peut poser problème aux utilisateurs de logiciels de reconnaissance vocale. Les liens &quot;Mobilitéitszentral&quot; et &quot;Adapto&quot; ont tous les deux un intitulé qui commence par &quot;lien vers le site de &quot;. Ce passage de texte est superflu. L'intitulé d'un lien doit simplement décrire la destination du lien.</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="scripts">Thématique "scripts"</h3>
+        <a class="toc" href="#scripts">Scripts</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-a-script">alternative</a> pertinente. Avertir ou permettre le contrôle des scripts qui initient un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#changement-de-contexte">changement de contexte</a>. Rendre possible le contrôle de chaque code <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> au moins <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">par le clavier et par tout dispositif de pointage</a> et s’assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d’assistance</a> notamment pour les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#message-de-statut">messages de statut</a>.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: éléments interactifs inaccessibles au clavier</h4>
+                <p>Les composants riches développés en JavaScript doivent respecter des modèles de conception spécifiques pour pouvoir être considérés comme accessibles (modèles de conception décrits dans le document <a href="https://www.w3.org/TR/wai-aria-practices-1.1/" lang="en">« WAI-ARIA Authoring practices »</a>). Sans cela le composant ne sera pas correctement restitué aux utilisateurs de lecteurs d’écran qui ne sauront pas comment l’utiliser. Ces composants doivent notamment utiliser des interactions au clavier spécifiques, sans lesquelles ils seront inutilisables pour les utilisateurs de la navigation au clavier.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>Le lien avec l'icône de loupe pour ouvrir la recherche a un rôle bouton, mais ne supporte pas le design pattern &quot;button&quot;. Il n'est pas possible de l'activer en utilisant la barre d'espace. Cf: <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#button">https://www.w3.org/TR/wai-aria-practices-1.1/#button</a></p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="elements-obligatoires">Thématique "éléments obligatoires"</h3>
+        <a class="toc" href="#elements-obligatoires">Éléments obligatoires</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Vérifier que dans chaque page Web, le code source généré respecte les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#regles-d-ecriture">règles d’écriture</a> correspondant au <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#type-de-document">type de document</a>, que le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre-de-page">titre</a> est pertinent et la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#langue-par-defaut">langue par défaut</a>, indiquée. Vérifier que les balises ne sont pas utilisées <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#uniquement-a-des-fins-de-presentation">uniquement à des fins de présentation</a>, que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#changement-de-langue">changements de langues</a> et de direction de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#sens-de-lecture">sens de lecture</a> sont indiqués.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: validité du code source de la page</h4>
+                <p>Les lecteurs d’écran s’appuient sur la sémantique des balises HTML pour restituer le contenu et naviguer, si la syntaxe HTML n’est pas respectée ou si les balises sont détournées, cela peut avoir un impact sur la navigation qui peut devenir inopérante et la restitution qui peut devenir incompréhensible. Pour vérifier la validité de la syntaxe HTML, on peut utiliser le <a href="https://validator.w3.org/nu/">validateur HTML du W3C</a> avec le <em lang="en">bookmarklet</em> <a href="https://www.tpgi.com/wcag-2-0-parsing-error-bookmarklet/" lang="en">« WCAG 2.1 parsing error »</a>. Ce <em lang="en">bookmarklet</em> filtre les résultats et ne montre que les erreurs ayant un impact sur l’accessibilité.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>Vérifier que les éléments avec des rôles ARIA ont les attributs ARIA requis</p>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/4.3/aria-required-attr?application=webdriverjs&amp;lang=fr">https://dequeuniversity.com/rules/axe/4.3/aria-required-attr?application=webdriverjs&amp;lang=fr</a></p>
+<p>Occurrences :</p>
+<ul>
+<li>
+<p>Corriger l’un des éléments suivants :  L’attribut ARIA requis est manquant : aria-level (Ex : <code>#nav-1</code>)</p>
+</li>
+<li>
+<p>Corriger l’un des éléments suivants :  L’attribut ARIA requis est manquant : aria-level (Ex : <code>#nav-5</code>)</p>
+<p>Vérifier que les éléments avec un rôle ARIA comportent aussi des rôles pour les descendants directs</p>
+</li>
+</ul>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/4.3/aria-required-children?application=webdriverjs&amp;lang=fr">https://dequeuniversity.com/rules/axe/4.3/aria-required-children?application=webdriverjs&amp;lang=fr</a></p>
+<p>Occurrences :</p>
+<ul>
+<li>Corriger l’un des éléments suivants :  Les descendants ARIA requis sont manquants : <code>group, menuitemradio, menuitem, menuitemcheckbox</code> (Ex : <code>.menu</code>)</li>
+</ul>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: indication de langue</h4>
+                <p>Les lecteurs d’écran utilisent les indications de langue pour vocaliser correctement le contenu. La langue principale de la page est spécifiée via l’attribut <code>lang</code> sur l’élément <code>&lt;html&gt;</code>. Lorsqu’un mot d’origine étrangère est inséré dans du contenu écrit dans la langue principale de la page, il doit posséder si nécessaire une indication de langue. L’indication de langue se fait par l’intermédiaire de l’attribut <code>lang</code>.
+Il existe néanmoins des exceptions :</p>
+<ul>
+<li>Lorsqu’il s’agit d’un nom, l’indication de langue doit être faite uniquement quand le nom doit se prononcer dans sa langue d’origine ;</li>
+<li>Lorsqu’il s’agit d’un mot d’origine étrangère, présent dans le dictionnaire de la langue principale de la page, l’indication de langue n’est pas nécessaire ;</li>
+<li>Lorsqu’il s’agit d’un mot d’origine étrangère d’usage courant, mais absent du dictionnaire, l’indication de langue doit être faite uniquement si la prononciation dans la langue principale de la page est problématique.</li>
+</ul>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>Le texte &quot;Pflegeversicherung in Kürze&quot; n'est pas marqué par un changement de langue.</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="structuration-de-l-information">Thématique "structuration de l&#39;information"</h3>
+        <a class="toc" href="#structuration-de-l-information">Structuration de l&#39;information</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#listes">listes</a>, et des citations pour structurer l’information. S’assurer que la structure du document est cohérente.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: titres</h4>
+                <p>Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a> permettent aux utilisateurs de comprendre la structure du document. Ils permettent aussi aux utilisateurs aveugles, malvoyants et handicapés moteurs de naviguer de titre en titre dans la page. Il est donc important d’avoir une bonne hiérarchie de titres dans une page. Cette hiérarchie est similaire à un sommaire de document. La vérification de la hiérarchie de titres peut se faire via l’extension de navigateur <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" lang="en">HeadingsMap</a>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>&quot;Helpline Secrétariat&quot;, &quot;Helpline Aides techniques&quot; et &quot;Caisse nationale de santé&quot; doivent être identifiés comme des titres</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="formulaires">Thématique "formulaires"</h3>
+        <a class="toc" href="#formulaires">Formulaires</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Pour chaque formulaire, associer chacun de ses <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> à son <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a>, grouper les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">champs de même nature</a> et leur donner une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légende</a>, structurer les listes de choix de manière pertinente, donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#bouton-formulaire">bouton</a> un intitulé explicite. Vérifier la présence de suggestions lors des erreurs de saisie, s’assurer que le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-saisie-formulaire">contrôle de saisie</a> est accessible, que la finalité des champs peut être déduite et que l’utilisateur peut garder le contrôle sur ses données à caractère financier, juridique ou personnel.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: identification des champs, des contrôles et des regroupements de formulaires</h4>
+                <p>L’identification de ces éléments fournit aux aveugles et grands malvoyants les informations nécessaires pour pouvoir remplir un formulaire. Les handicapés moteurs utilisant un système de reconnaissance vocale s’appuient aussi sur ces éléments pour se déplacer dans les différents <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> et actionner les boutons. Pour associer une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a> (<code>&lt;label&gt;</code>) à un champ de formulaire on peut utiliser l’attribut <code>for</code> de l’étiquette dont la valeur doit être identique à celle de l’attribut <code>id</code> du champ. Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">champs de même nature</a> doivent être regroupés, cela peut être réalisé via l’élément <code>&lt;fieldset&gt;</code> auquel on doit fournir une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légende</a> via l’élément <code>&lt;legend&gt;</code>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>L'étiquette du champ de recherche n'est pas visible. Un placeholder n'est ici pas suffisant, car il ne sera plus visible une fois que l'utilisateur aura commencé à remplir le champ. Une solution peut être de placer un attribut <code>title</code> sur le champ, qui contient le contenu de l'étiquette. Ce contenu sera visible au &quot;hover&quot;, même pendant la saisie.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: contrôle et aide à la saisie</h4>
+                <p>Que ce soit pour les handicapés cognitifs ou pour les aveugles et déficients visuels, il est nécessaire d’expliciter les formats de données attendus dans les consignes et les messages d’erreur, ainsi que le caractère obligatoire de la saisie de certains champs.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr/support/contact.html">page P02</a></h5>
+            <p>Le type de données attendu dans le champ e-mail n'est pas précisé, ni dans l'étiquette, ni dans le message d'erreur. Il est ici nécessaire de donner un exemple.</p>
+
+            </div>
+     
+</div>
+            
+                <div class="topic">
+    <div class="nobreak">
+        <h3 id="navigation">Thématique "navigation"</h3>
+        <a class="toc" href="#navigation">Navigation</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Proposer au moins deux <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#systeme-de-navigation">systèmes de navigation</a> différents dans un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ensemble-de-pages">ensemble de pages</a> (<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#menu-et-barre-de-navigation">menu de navigation</a>, <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#page-plan-du-site">plan du site</a> ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#moteur-de-recherche-interne-a-un-site-web">moteur de recherche</a>). Donner la possibilité d’éviter ou d’atteindre les principaux regroupements de contenus en particulier la zone de contenu principale via un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liens-d-evitement-ou-d-acces-rapide">lien d’évitement ou d’accès rapide</a>. S’assurer que l’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a> est cohérent et que la page ne comporte pas de piège au clavier. S’assurer que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#raccourci-clavier">raccourcis clavier</a> n’utilisant qu’une seule touche sont contrôlables par l’utilisateur.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: <em lang="en">landmarks</em> ARIA</h4>
+                <p>Les utilisateurs aveugles utilisent pour naviguer rapidement dans une page des points de repères ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#landmarks" lang="en">landmarks</a>. Ceux-ci définissent les principales zones de la page comme l’entête, le menu de navigation, la zone de contenu principale, le pied de page, le moteur de recherche. Chacune de ces zones doit avoir un attribut <code>role</code> dont la valeur correspond au type de zone :</p>
+<ul>
+<li><code>role=banner</code> pour l’entête,</li>
+<li><code>role=navigation</code> pour le menu de navigation,</li>
+<li><code>role=main</code> pour la zone de contenu principale,</li>
+<li><code>role=contentinfo</code> pour le pied de page,</li>
+<li><code>role=search</code> pour le moteur de recherche.</li>
+</ul>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemples de problèmes détectés sur la <a href="https://aec.gouvernement.lu/fr.html">page P01</a></h5>
+            <p>Le formulaire de recherche possède un attribut <code>role=&quot;search&quot;</code>. Cependant ce moteur de recherche ne permet pas de rechercher dans toutes les pages du site (ex: aspects légaux), il n’est donc pas considéré comme un système de navigation. Le <code>role=&quot;search&quot;</code> doit être ici supprimé.</p>
+
+            </div>
+     
+</div>
+            
+        </main>
+        <footer role="contentinfo">
+            <p>Ce rapport est publié par le <a href="https://sip.gouvernement.lu">service information et presse</a> sous <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">licence CC0</a>.</p>
+        </footer>
+    </body>
+</html>

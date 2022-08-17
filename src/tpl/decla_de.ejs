@@ -1,0 +1,255 @@
+<div lang="de">
+<% if (main_title) { %>
+<h<%= title_level %>>Erklärung zur Barrierefreiheit</h<%= title_level %>>
+<% } %>
+<p>
+    Die die Erklärung abgebende Stelle <span class="basic-information organization-name">"<%= name_de %>"</span> ist bemüht
+    <% if (sites.length != 0 ) { %>
+        <% if (sites.length == 1) { %>
+            ihre Website
+        <% } else { %>    
+            ihre Websites
+        <% } %>
+    <% } %>
+    <% if (sites.length != 0 && apps.length !=0) { %>
+        und
+    <% } %>
+    <% if (apps.length != 0 ) { %>
+        <% if (apps.length == 1) { %>
+            ihre mobile Anwendung
+        <% } else { %>    
+            ihre mobilen Anwendungen
+        <% } %>
+    <% } %>
+    im Einklang mit <a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo" hreflang="fr">dem Gesetz vom 28. Mai 2019</a> über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen barrierefrei zugänglich zu machen.
+    Diese Erklärung zur Barrierefreiheit gilt für:
+    <% if (sites.concat(apps).length == 1) { %>
+        <span class="basic-information website-name"><a href="<%= sites.concat(apps)[0] %>"><%= sites.concat(apps)[0] %></a></span></p>
+    <% } else { %>
+    </p><ul>
+            <% sites.concat(apps).forEach(function(e) { %>
+                <li class="basic-information website-name"><a href="<%= e %>"><%= e %></a></li>
+            <% }) %>
+        </ul>
+    <% } %>
+<h<%= title_level+1 %>>Was bedeutet digitale Barrierefreiheit?</h<%= title_level+1 %>>
+<p>Jeder muss die Informationen einer Website oder in einer Anwendung einfach benutzen und abrufen können. Dies gilt insbesondere für Personen mit einer Behinderung und/oder Personen, die Hilfssoftware oder spezielle Geräte verwenden (Blinde, Sehbehinderte oder Personen mit einer sonstigen Behinderung).
+</p>
+<h<%= title_level+1 %>>Stand der Vereinbarkeit mit den Anforderungen</h<%= title_level+1 %>>
+<p class="basic-information conformance-status <%= conformity %>">
+    <% if (sites.length == 0) { %>
+        <% if (apps.length == 0) { %> 
+            -       
+        <% } else if (apps.length == 1) { %>
+            Diese mobile Anwendung
+        <% } else { %>
+            Diese mobilen Anwendungen
+        <% } %>    
+    <% } else if (sites.length == 1) { %>
+        <% if (apps.length == 0) { %>
+            Diese Website
+        <% } else if (apps.length == 1) { %> 
+            Diese Website und diese mobile Anwendung           
+        <% } else { %>
+            Diese Website und diese mobilen Anwendungen
+        <% } %>     
+    <% } else { %>
+        <% if (apps.length == 0) { %>
+            Diese Websites
+        <% } else if (apps.length == 1) { %> 
+            Diese Websites und diese mobile Anwendung           
+        <% } else { %>
+            Diese Websites und diese mobilen Anwendungen
+        <% } %>  
+    <% } %>
+
+    <% if (sites.length + apps.length <= 1) { %>
+        ist
+    <% } else { %>
+        sind
+    <% } %>
+    <% if (conformity == 'total') { %>
+         mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
+         <% if (sites.length != 0 ) { %>
+            dem <a href="https://accessibilite.public.lu/fr/rgaa4.1/" hreflang="fr">Allgemeinen Referenzwerk zur Verbesserung der Barrierefreiheit im Web (RGAA) v4.1</a>
+         <% } %>
+         <% if (sites.length != 0 && apps.length !=0) { %>
+             und
+         <% } %>
+         <% if (apps.length != 0 ) { %>
+            dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+         <% } %>,
+         <% if (sites.length != 0 && apps.length !=0) { %>
+            die diese Norm umsetzen,
+         <% }  else { %>    
+            das diese Norm umsetzt, 
+         <% } %>
+         <strong>vollständig vereinbar</strong>.
+    <% } else if (conformity == 'partial') { %>
+        wegen der folgenden Punkte <strong>teilweise</strong> mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
+        <% if (sites.length != 0 ) { %>
+           dem <a href="https://accessibilite.public.lu/fr/rgaa4.1/" hreflang="fr">Allgemeinen Referenzwerk zur Verbesserung der Barrierefreiheit im Web (RGAA) v4.1</a>
+        <% } %>
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            und
+        <% } %>
+        <% if (apps.length != 0 ) { %>
+           dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+        <% } %>, 
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            die diese Norm umsetzen,
+         <% }  else { %>    
+            das diese Norm umsetzt, 
+         <% } %>
+        <strong>vereinbar</strong>. 
+    <% } else { %>
+        <strong>nicht vereinbar</strong> mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
+        <% if (sites.length != 0 ) { %>
+           dem <a href="https://accessibilite.public.lu/fr/rgaa4.1/" hreflang="fr">Allgemeinen Referenzwerk zur Verbesserung der Barrierefreiheit im Web (RGAA) v4.1</a>
+        <% } %>
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            und
+        <% } %>
+        <% if (apps.length != 0 ) { %>
+           dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+        <% } %>, 
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            die diese Norm umsetzen.
+         <% }  else { %>    
+            das diese Norm umsetzt.
+         <% } %>        
+        Die Gründe für diese Unvereinbarkeit sind nachstehend aufgeführt.
+    <% } %>
+</p>
+<% if (nc_de.length !== 0 || cd_de.length !== 0 || ce_de.length !== 0) { %>
+<h<%= title_level+1 %>>Nicht barrierefreie Inhalte</h<%= title_level+1 %>>
+<p>Die nachstehend aufgeführten Inhalte sind aus folgenden Gründen nicht barrierefrei:</p>
+<% } %>
+<% if (nc_de.length !== 0) { %>
+    <h<%= title_level+2 %>>Unvereinbarkeit</a></h<%= title_level+2 %>>
+    <% if (nc_de.length == 1) { %>
+        <p class="technical-information accessibility-limitations non-compliant"><%= nc_de[0] %></p>
+    <% } else { %>
+        <ul><% nc_de.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations non-compliant"><%= e %></li>
+        <% }) %>
+        </ul>
+    <% } %>
+<% } %>
+<% if (cd_de.length !== 0) { %>
+    <h<%= title_level+2 %>>Unverhältnismäßige Belastung</h<%= title_level+2 %>>
+    <% if (cd_de.length == 1) { %>
+        <p class="technical-information accessibility-limitations disproportionate-burden"><%= cd_de[0] %></p>
+    <% } else { %>    
+        <ul><% cd_de.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations disproportionate-burden"><%= e %></li>
+        <% }) %>
+        </ul>
+    <% } %> 
+<% } %> 
+<% if (ce_de.length !== 0) { %>
+    <h<%= title_level+2 %>>Inhalte, die nicht in den Anwendungsbereich des <a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo" hreflang="fr">Gesetzes vom 28. Mai 2019</a> fallen.</h<%= title_level+2 %>>
+    <% if (ce_de.length == 1) { %>
+        <p class="technical-information accessibility-limitations exception"><%= ce_de[0] %></p>
+    <% } else { %>
+        <ul><% ce_de.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations exception"><%= e %></li>
+        <% }) %>
+        </ul>
+    <% } %>  
+<% } %>                 
+<h<%= title_level+1 %>>Erstellung dieser Erklärung zur Barrierefreiheit</h<%= title_level+1 %>>
+<p>
+    Diese Erklärung wurde am <span class="basic-information statement-created-date"><%= date_prepa.toLocaleDateString('de', {year: 'numeric', month: 'long', day: 'numeric' }) %></span> erstellt.
+    Die Aussagen in dieser Erklärung sind richtig und beruhen auf einer tatsächlichen Bewertung der Vereinbarkeit  
+    <% if (sites.length == 0) { %>
+        <% if (apps.length == 0) { %> 
+                   
+        <% } else if (apps.length == 1) { %>
+            dieser mobilen Anwendung
+        <% } else { %>
+            diesen mobilen Anwendungen
+        <% } %>    
+    <% } else if (sites.length == 1) { %>
+        <% if (apps.length == 0) { %>
+            dieser Website
+        <% } else if (apps.length == 1) { %> 
+            dieser Website und mobiler Anwendung       
+        <% } else { %>
+            dieser Website und diesen mobilen Anwendungen
+        <% } %>     
+    <% } else { %>
+        <% if (apps.length == 0) { %>
+            diesen Websites
+        <% } else if (apps.length == 1) { %> 
+            diesen Websites und dieser mobiler Anwendung           
+        <% } else { %>
+            diesen Websites und mobilen Anwendungen
+        <% } %>  
+    <% } %>    
+    
+    mit den Anforderungen
+    <% if (sites.length != 0 ) { %>
+        des <a href="https://accessibilite.public.lu/fr/rgaa4.1/" hreflang="fr">RGAA 4.1</a>
+    <% } %>
+    <% if (sites.length != 0 && apps.length !=0) { %>
+        und
+    <% } %>
+    <% if (apps.length != 0 ) { %>
+        des <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">RAAM 1</a>
+    <% } %>    
+    beispielsweise 
+    <% if (eval_type == 'auto') { %>
+        in Form einer von „<%= name_de %>“ durchgeführten Selbstbewertung.
+    <% } else { %>
+        in Form einer von einem Dritten – „<%= thirdparty_name %>“ vorgenommenen Bewertung.
+    <% } %>
+    
+    <% if (date_renewal !== '') { %>
+        Die Erklärung wurde zuletzt am <span class="basic-information statement-renewal-date"><%= date_renewal %></span> überprüft. 
+    <% } %> 
+</p>
+<% if (renow) { %>
+    <h<%= title_level+2 %>>Kontrollprozess</h<%= title_level+2 %>>
+<p>
+    Die nach dem Bezugsmodell Renow gestalteten Websites werden in einem Rahmen und nach einer allgemeinen und zentralisierten Architektur entwickelt, wobei die Projektmanagementverfahren eingehalten und die&nbsp;<a href="https://renow.public.lu/fr/checklists-renow.html" hreflang="fr">Renow-Checkliste</a>&nbsp;berücksichtigt werden.
+    Um Neutralität zu gewährleisten, greifen wir regelmäßig auf Fachleute für Barrierefreiheit zurück, um die Übereinstimmung von Websites und neuen Funktionen zu prüfen.
+</p>
+<p>    
+    Jede Website wird in mehreren Phasen bewertet:
+</p>
+    <ol>
+        <li>Bei der Konzipierung der Inhaltsstruktur.</li>
+        <li>Bei der Umsetzung der grafischen und funktionalen Layouts.</li>
+        <li>Kurz vor der Onlineschaltung.</li>
+    </ol>
+    <p>Sobald die Website online ist, werden die Kontrollen folgendermaßen durchgeführt:</p>
+    <ul>
+        <li>bei jedem neuen Inhalt prüft die Redaktion vor der Veröffentlichung den Zugriff auf alle Inhalte.</li>
+        <li>jede neue Funktion der Website wird vor der Veröffentlichung bewertet.</li>
+    </ul>
+    <p>Bei den Bewertungen wird die Website mit den wichtigsten Screen Readern, mit Tablets, mit Mobiltelefonen und auf dem PC getestet. Sie wird ebenfalls mit verschiedenen Webbrowsern getestet (Vereinbarkeit mit 2 Versionen vor der derzeitigen Version).</p>
+    <h<%= title_level+2 %>>Kompetenzen der Beteiligten</h<%= title_level+2 %>>
+    
+    <p>Die Arbeitsverfahren beinhalten die Anwendung der Internet-Leitlinien während der einzelnen Phasen zur Erstellung der Website (Redaktion, Management, Entwicklung).</p>
+    
+    <p>Unsere Mitarbeiter verfügen über die erforderlichen Kenntnisse und Kompetenzen, um die Internet-Leitlinien ordnungsgemäß anzuwenden.</p>
+<% } %>
+
+<h<%= title_level+1 %>>Feedback und Kontaktangaben</h<%= title_level+1 %>>
+<p class="basic-information feedback h-card">Sollten Sie einen Mangel bezüglich der Barrierefreiheit feststellen, schicken Sie uns eine E-Mail an <a class="email u-email" href="mailto:<%= email %>"><%= email %></a>, in der Sie Ihr Problem beschreiben und uns die betreffende Seite angeben.
+    Wir verpflichten uns, Ihnen binnen eines Monats per E-Mail zu antworten. Um das Problem nachhaltig und auf angemessene Weise zu beheben, wird die Korrektur des Fehlers bezüglich der Barrierefreiheit im Online-Modus bevorzugt. Ist dies nicht möglich, wird Ihnen die gewünschte Information in einem barrierefreien Format übermittelt, wahlweise:</p>
+<ul>
+    <li>schriftlich in einem Dokument oder per E-Mail;</li>
+    <li>mündlich in einem Interview oder per Telefon.</li>
+</ul> 
+<h<%= title_level+1 %>>Durchsetzungsverfahren</h<%= title_level+1 %>> 
+<p>Im Falle einer nicht zufriedenstellenden Antwort haben Sie ebenfalls die Möglichkeit, das <a href="https://sip.gouvernement.lu/de.html">Informations- und Presseamt</a>, das für die Kontrolle der Barrierefreiheit zuständig ist, über dessen  <a href="https://sip.gouvernement.lu/de/support/reclamation-accessibilite.html">Online-Beschwerdeformular</a>, oder <a href="http://www.ombudsman.lu/" hreflang="fr">die Ombudsperson</a>, Bürgerbeauftragte des Großherzogtums Luxemburg, zu informieren.</p>
+<hr />
+<small>
+    Diese Erklärung basiert auf der Mustererklärung, die im <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1523" hreflang="en">Durchführungsbeschluss (EU) 2018/1523</a> festgelegt wurde. Diese Mustererklärung gehört der Europäischen Union und ist durch eine <a href="https://creativecommons.org/licenses/by/4.0/" lang="en" hreflang="en">Creative Commons Attribution 4.0 International</a> Lizenz geschützt.</small>
+</div>
+
+
+
+

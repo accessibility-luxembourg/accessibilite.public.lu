@@ -1,0 +1,53 @@
+// Typo rwd
+// ==========================================================
+
+// variables projet
+$projet-typo-size-map: (
+    body: (
+        base: (
+            font-size: 1.1em
+        ),
+        small: (
+            font-size: 1em
+        )
+    ),
+    footer: (
+        wide: (
+            font-size: (1 / 1.125) * 1em
+        )
+    )
+);
+
+$typo-size-map : $projet-typo-size-map;
+
+
+// largeurs blocs rwd
+// ---------------------
+$projet-max-block-width-map: (
+    container: (
+        base: (
+            max-width: 100%
+        ),
+        large: (
+            max-width: 70em
+        ),
+    )
+);
+
+$max-block-width-map : $projet-max-block-width-map;
+
+// import scampi
+@import "@pidila/scampi/modules/rwd-utils/index";
+
+
+body {
+  @include rwd-typo-size(body);
+}
+
+.footer {
+  @include rwd-typo-size(footer);
+}
+
+.container {
+  @include rwd-block-width(container);
+}

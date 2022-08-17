@@ -1,0 +1,98 @@
+$menu-font-size : 1em;
+
+.nav-main {
+    a.nav-link {
+        text-transform: initial;
+        font-size: $menu-font-size;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        outline: 0;    
+    }
+
+    .nav-link.is-active:hover,
+    .nav-link.is-active:focus {
+        background-color: $menu-simple-bg-color-hover;
+        color: $menu-simple-text-color-hover;
+        outline: 0; 
+    }
+
+    button.submenu {
+        align-items: center;
+        padding: 1em;
+        color: $toggle-menu-text-color;
+        font-size: $menu-font-size;
+        text-decoration: none;
+        display:  flex;
+        width: 100%;
+        border: 0;
+        background-color: $toggle-menu-bg-color;
+
+        &:hover,
+        &:focus {
+          background-color: $menu-simple-bg-color-hover;
+          color: $menu-simple-text-color-hover;
+          outline: 0;
+        }
+    
+        &.is-active {
+          background-color: $menu-simple-bg-color-open;
+          color: $menu-simple-text-color-open;
+          border-bottom: 0.25em solid $menu-simple-text-color-open;
+        }
+
+        &::after {
+            content: "";
+            display: inline-block;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+            height: 0.5em;
+            margin-left: 0.75em;
+            width: 0.5em;
+            transform: rotate(45deg);
+        }
+    }
+    button.submenu[aria-expanded=true]::after {
+        transform: rotate(225deg);
+    }
+
+    .disclosure-nav ul {
+        display: block;
+        list-style-type: none;
+        background-color: $menu-simple-bg-color;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .disclosure-nav ul .nav-link {
+        padding-left: 2em;
+    }
+
+    .disclosure-nav ul a:focus {
+        position: relative;
+    }
+}
+
+@include media-breakpoint-up(medium) {
+    .js .nav-main .disclosure-nav ul {
+        position: absolute;
+    }
+    .nav-main {
+        .disclosure-nav ul {
+            border: 1px solid black;
+            border-top-width: 5px;
+            border-radius: 0 0 4px 4px;
+            z-index: 1;
+        }
+
+        .disclosure-nav ul .nav-link {
+            padding-left: 1em;
+        }
+    
+        ul.nav-main-list {
+            text-align: left;
+        }
+    }
+
+}

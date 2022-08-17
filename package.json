@@ -1,0 +1,71 @@
+{
+  "name": "rgaa4lu",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "bash ./build.sh",
+    "watch:dev": "npm-watch",
+    "watch": "concurrently -k 'npm:serve' 'npm:watch:dev'",
+    "serve": "http-server ./dist",
+    "checklinks": "node ./test/checklinks.js",
+    "checkaccess": "node ./test/accessTests.js",
+    "test:links": "concurrently -k -s first 'npm:serve' 'npm:checklinks'",
+    "test:access": "concurrently -k -s first 'npm:serve' 'npm:checkaccess'",
+    "test": "npm run test:links && npm run test:access"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src/tpl",
+        "src/css",
+        "src/js",
+        "content"
+      ],
+      "extensions": [
+        "js",
+        "ejs",
+        "md",
+        "scss",
+        "json"
+      ]
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "engines.browsers": [
+    "defaults"
+  ],
+  "author": "Information and press service",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.11.2",
+    "@pidila/scampi": "^1.0.0",
+    "core-js": "^3.6.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.2",
+    "form-data-entries": "^1.0.4",
+    "object.fromentries": "^2.0.3",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "axe-webdriverjs": "^2.3.0",
+    "babel-types": "^6.26.0",
+    "cheerio": "^1.0.0-rc.9",
+    "concurrently": "^5.3.0",
+    "ejs": "^3.1.2",
+    "http-server": "^0.12.3",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.7",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-front-matter": "^0.2.1",
+    "markdown-it-replace-link": "^1.0.1",
+    "node-linkchecker": "0.0.3",
+    "npm-watch": "^0.6.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "uglify-js": "^3.9.2"
+  }
+}

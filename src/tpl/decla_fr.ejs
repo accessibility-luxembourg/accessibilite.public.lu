@@ -1,0 +1,273 @@
+<div lang="fr">
+<% if (main_title) { %>
+<h<%= title_level %>>Déclaration sur l'accessibilité</h<%= title_level %>>
+<% } %>
+<p>
+    L'organisme déclarant <span class="basic-information organization-name">"<%= name_fr %>"</span> s'engage à rendre 
+    <% if (sites.length != 0 ) { %>
+        <% if (sites.length == 1) { %>
+            son site internet
+        <% } else { %>    
+            ses sites internet
+        <% } %>
+    <% } %>
+    <% if (sites.length != 0 && apps.length !=0) { %>
+        et
+    <% } %>
+    <% if (apps.length != 0 ) { %>
+        <% if (apps.length == 1) { %>
+            son application mobile
+        <% } else { %>    
+            ses applications mobiles
+        <% } %>
+    <% } %>
+    accessible<%= (sites.length + apps.length > 1)?'s':'' %>, conformément à la <a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a> relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public.    
+    La présente déclaration sur l'accessibilité s'applique à :
+    <% if (sites.concat(apps).length == 1) { %>
+        <span class="basic-information website-name"><a href="<%= sites.concat(apps)[0] %>"><%= sites.concat(apps)[0] %></a></span></p>
+    <% } else { %>
+    </p><ul>
+        <% sites.concat(apps).forEach(function(e) { %>
+            <li class="basic-information website-name"><a href="<%= e %>"><%= e %></a></li>
+        <% }) %>
+    </ul>
+    <% } %>
+<h<%= title_level+1 %>>Qu’est-ce que l’accessibilité numérique ?</h<%= title_level+1 %>>
+<p>Chacun doit pouvoir utiliser et consulter facilement les informations figurant sur un site web ou une application notamment les personnes présentant un handicap et/ou utilisant des logiciels d’assistance ou du matériel spécialisé (ex : handicaps visuels, auditifs, physiques, cognitifs, etc.).
+</p>
+<h<%= title_level+1 %>>État de conformité</h<%= title_level+1 %>>
+<p class="basic-information conformance-status <%= conformity %>">
+    <% if (sites.length == 0) { %>
+        <% if (apps.length == 0) { %> 
+            -       
+        <% } else if (apps.length == 1) { %>
+            La présente application mobile
+        <% } else { %>
+            Les présentes applications mobiles
+        <% } %>    
+    <% } else if (sites.length == 1) { %>
+        <% if (apps.length == 0) { %>
+            Le présent site internet 
+        <% } else if (apps.length == 1) { %> 
+            Le présent site internet et la présente application mobile           
+        <% } else { %>
+            Le présent site internet et les présentes applications mobiles
+        <% } %>     
+    <% } else { %>
+        <% if (apps.length == 0) { %>
+            Les présents sites internet
+        <% } else if (apps.length == 1) { %> 
+            Les présents sites internet et la présente application mobile           
+        <% } else { %>
+            Les présents sites internet et applications mobiles
+        <% } %>  
+    <% } %>
+
+    <% if (conformity != 'none') { %>
+        <% if (sites.length + apps.length <= 1) { %>
+            est
+        <% } else { %>
+            sont
+        <% } %>
+    <% } else { %>
+        <% if (sites.length + apps.length <= 1) { %>
+            n'est
+        <% } else { %>
+            ne sont
+        <% } %>
+    <% } %>
+    <% if (conformity == 'total') { %>
+        en <strong>totale conformité</strong> avec la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a> ainsi 
+        <% if (sites.length != 0 ) { %>
+            qu'au <a href="https://accessibilite.public.lu/fr/rgaa4.1/">Référentiel général d’amélioration de l’accessibilité web(RGAA) v4.1</a>
+        <% } %>
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            et
+        <% } %>
+        <% if (apps.length != 0 ) { %>
+            <% if (sites.length == 0) { %>
+                qu'au
+            <% } else { %>
+                au
+            <% } %>
+            <a href="https://accessibilite.public.lu/fr/raam1/">Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM) v1</a>
+        <% } %>        
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            qui l'implémentent.
+        <% } else { %>
+            qui l’implémente.
+        <% } %>
+    <% } else if (conformity == 'partial') { %>
+        en <strong>conformité partielle</strong> à la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a> ainsi 
+        <% if (sites.length != 0 ) { %>
+            qu'au <a href="https://accessibilite.public.lu/fr/rgaa4.1/">Référentiel général d’amélioration de l’accessibilité web(RGAA) v4.1</a>
+        <% } %>
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            et
+        <% } %>
+        <% if (apps.length != 0 ) { %>
+            <% if (sites.length == 0) { %>
+                qu'au
+            <% } else { %>
+                au
+            <% } %>
+            <a href="https://accessibilite.public.lu/fr/raam1/">Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM) v1</a>
+        <% } %>        
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            qui l'implémentent,
+        <% } else { %>
+            qui l’implémente,
+        <% } %>        
+        en raison des éléments énumérés ci-dessous.
+    <% } else { %>
+        <strong>pas en conformité</strong> avec à norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a> ainsi 
+        <% if (sites.length != 0 ) { %>
+            qu'au <a href="https://accessibilite.public.lu/fr/rgaa4.1/">Référentiel général d’amélioration de l’accessibilité web(RGAA) v4.1</a>
+        <% } %>
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            et
+        <% } %>
+        <% if (apps.length != 0 ) { %>
+            <% if (sites.length == 0) { %>
+                qu'au
+            <% } else { %>
+                au
+            <% } %>
+            <a href="https://accessibilite.public.lu/fr/raam1/">Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM) v1</a>
+        <% } %>        
+        <% if (sites.length != 0 && apps.length !=0) { %>
+            qui l'implémentent.
+        <% } else { %>
+            qui l’implémente.
+        <% } %>        
+        Les raisons de cette non-conformité sont énumérées ci-dessous.
+    <% } %>
+
+</p>
+<% if (nc_fr.length !== 0 || cd_fr.length !== 0 || ce_fr.length !== 0) { %>
+<h<%= title_level+1 %>>Contenu non accessible</h<%= title_level+1 %>>
+<p>Le contenu visé ci-après n'est pas accessible pour la/les raison(s) suivante(s)&nbsp;:</p>
+<% } %>
+<% if (nc_fr.length !== 0) {  %>
+    <h<%= title_level+2 %>>Non-conformités</h<%= title_level+2 %>>
+    <% if (nc_fr.length == 1) { %>
+        <p class="technical-information accessibility-limitations non-compliant"><%= nc_fr[0] %></p>
+    <% } else { %>
+        <ul><% nc_fr.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations non-compliant"><%= e %></li>
+        <% }) %>
+        </ul>
+    <% } %>
+<% } %>
+<% if (cd_fr.length !== 0) { %>
+    <h<%= title_level+2 %>>Charge disproportionnée</h<%= title_level+2 %>>
+    <% if (cd_fr.length == 1) { %>
+        <p class="technical-information accessibility-limitations disproportionate-burden"><%= cd_fr[0] %></p>
+    <% } else { %>
+        <ul><% cd_fr.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations disproportionate-burden"><%= e %></li>
+        <% }) %>
+        </ul>    
+    <% } %>
+<% } %> 
+<% if (ce_fr.length !== 0) { %>
+    <h<%= title_level+2 %>>Contenu n'entrant pas dans le champ d'application de la <a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a></h<%= title_level+2 %>>
+    <% if (ce_fr.length == 1) { %>
+        <p class="technical-information accessibility-limitations exception"><%= ce_fr[0] %></p>
+    <% } else { %>
+        <ul><% ce_fr.forEach(function(e){ %>
+            <li class="technical-information accessibility-limitations exception"><%= e %></li>
+        <% }) %>
+        </ul>    
+    <% } %>
+<% } %>                 
+<h<%= title_level+1 %>>Préparation de la présente déclaration sur l'accessibilité</h<%= title_level+1 %>>
+<p>
+    La présente déclaration a été préparée le <span class="basic-information statement-created-date"><%= date_prepa.toLocaleDateString('fr', {year: 'numeric', month: 'long', day: 'numeric' }) %></span>.
+    Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité 
+    <% if (sites.length == 0) { %>
+        <% if (apps.length == 0) { %> 
+                   
+        <% } else if (apps.length == 1) { %>
+            de la présente application mobile
+        <% } else { %>
+            des présentes applications mobiles
+        <% } %>    
+    <% } else if (sites.length == 1) { %>
+        <% if (apps.length == 0) { %>
+            du présent site internet 
+        <% } else if (apps.length == 1) { %> 
+            du présent site internet et de la présente application mobile           
+        <% } else { %>
+            du présent site internet et des présentes applications mobiles
+        <% } %>     
+    <% } else { %>
+        <% if (apps.length == 0) { %>
+            des présents sites internet
+        <% } else if (apps.length == 1) { %> 
+            des présents sites internet et de la présente application mobile           
+        <% } else { %>
+            des présents sites internet et applications mobiles
+        <% } %>  
+    <% } %>    
+    
+    avec les exigences fixées dans
+    <% if (sites.length != 0 ) { %>
+        le <a href="https://accessibilite.public.lu/fr/rgaa4.1/">RGAA 4.1</a>
+    <% } %>
+    <% if (sites.length != 0 && apps.length !=0) { %>
+        et
+    <% } %>
+    <% if (apps.length != 0 ) { %>
+        le <a href="https://accessibilite.public.lu/fr/raam1/">RAAM 1</a>
+    <% } %>
+    
+    , telle 
+    <% if (eval_type == 'auto') { %>
+        qu'une auto-évaluation réalisée par l'organisme "<%= name_fr %>".
+    <% } else { %>
+        qu'une évaluation réalisée par un tiers : <%= thirdparty_name %>.
+    <% } %>
+    
+    <% if (date_renewal !== '') { %>
+        Le dernier réexamen de la déclaration a eu lieu le <span class="basic-information statement-renewal-date"><%= date_renewal %></span>. 
+    <% } %> 
+</p>
+<% if (renow) { %>
+    <h<%= title_level+2 %>>Processus de contrôle</h<%= title_level+2 %>>
+<p>
+    Les sites réalisés dans le cadre du référentiel Renow sont développés dans un cadre et une architecture générique et centralisée, en suivant les processus de gestion de projets, tout en respectant la <a href="https://renow.public.lu/fr/checklists-renow.html">liste de contrôle Renow</a>. 
+    Pour garantir une neutralité, nous faisons régulièrement appel à des experts "accessibilité" pour vérifier la conformité de sites ou de nouvelles fonctionnalités.
+</p>
+<p>    
+    Chaque site est évalué en plusieurs étapes :
+</p>
+    <ol>
+        <li>Lors de la conception de la structure de contenu.</li>
+        <li>Lors de la réalisation des maquettes graphiques et fonctionnelles.</li>
+        <li>Juste avant sa mise en ligne.</li>
+    </ol>
+    <p>Une fois le site en ligne, les contrôles sont effectués de la manière suivante :</p>
+    <ul>
+        <li>à chaque nouveau contenu, la rédaction vérifie l’accès à l’ensemble du contenu avant qu’il ne soit publié&nbsp;;</li>
+        <li>chaque nouvelle fonctionnalité du site est évaluée avant qu’elle ne soit publiée.</li>
+    </ul>
+    <p>Lors des évaluations, le site est testé avec les principaux lecteurs d’écran, sur tablettes, mobiles et PC. Ils sont également testés avec différents navigateurs web (compatibilité jusqu’à 2 versions inférieures par rapport à la version courante).</p>
+    <h<%= title_level+2 %>>Compétences des intervenants</h<%= title_level+2 %>>
+    
+    <p>Les procédures de travail intègrent l’application des directives Internet lors des différentes étapes de réalisation du site (rédaction, gestion, développement).</p>
+    
+    <p>Nos collaborateurs possèdent les connaissances et compétences requises afin d’appliquer correctement les directives Internet.</p>
+<% } %>
+
+<h<%= title_level+1 %>>Retour d'information et coordonnées de contact</h<%= title_level+1 %>>
+<p class="basic-information feedback h-card">Si vous constatez un défaut d’accessibilité, envoyez-nous un courriel à <a class="email u-email" href="mailto:<%= email %>"><%= email %></a> : décrivez votre problème et indiquez-nous la page concernée. Nous nous engageons à vous répondre par courriel dans un délai d'un mois au plus tard. Pour remédier au problème de manière durable et dans la mesure du raisonnable, la correction en ligne du défaut d’accessibilité sera privilégiée. Si cela ne peut être fait, l’information souhaitée vous sera transmise dans un format accessible selon vos souhaits :</p>
+<ul>
+    <li>par écrit dans un document ou courriel ;</li>
+    <li>à l’oral lors d'un entretien ou par téléphone.</li>
+</ul> 
+<h<%= title_level+1 %>>Procédure permettant d'assurer le respect des dispositions</h<%= title_level+1 %>> 
+<p>En cas de réponse non satisfaisante, vous avez également la possibilité d’en informer le <a href="https://sip.gouvernement.lu">Service information et presse</a>, organisme responsable du contrôle de l’accessibilité, via son <a href="https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html">formulaire de réclamation en ligne</a>, ou <a href="http://www.ombudsman.lu/">l’Ombudsman</a>, médiateur du Grand-Duché de Luxembourg. </p>
+<hr />
+<small>La présente déclaration se base sur le modèle défini par la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1523" hreflang="en">décision d'exécution (UE) 2018/1523</a>. Ce modèle appartient à l’Union européenne et est publié sous licence <a href="https://creativecommons.org/licenses/by/4.0/" lang="en" hreflang="en">Creative Commons Attribution 4.0 International</a>.</small>
+</div>

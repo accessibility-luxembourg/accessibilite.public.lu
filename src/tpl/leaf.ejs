@@ -1,0 +1,21 @@
+<% if (typeof e === 'string') { %>
+    <% if (depth === 0) { %>
+        <p><%- md.renderInline(e) %></p>
+    <% } else { %>
+        <%- md.renderInline(e) %>
+    <% } %>
+<% } else { %>
+    <% if (e.ul !== undefined) { %>
+        <ul>
+        <% e.ul.forEach(f => { %>
+            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1}) %></li>
+        <% }) %>
+        </ul>
+    <% } else if (e.ol !== undefined) { %>
+        <ol>
+        <% e.ol.forEach(f => { %>
+            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1}) %></li>
+        <% }) %>
+        </ol>
+    <% } %>
+<% } %> 

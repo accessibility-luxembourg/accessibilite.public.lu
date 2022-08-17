@@ -1,0 +1,13 @@
+<footer role="contentinfo" class="footer">
+    <div class="container">
+        <ul class="footer-links">
+            <% links.forEach(e => { %>
+                <li>
+                    <a href="<%= prefix %>/html/fr/<%= e.name %>.html"><%= e.menu %></a>
+                </li>
+            <% }) %>
+        </ul>
+        <p>Ce site est édité par le <a href="https://sip.gouvernement.lu">Service Information et Presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l'analyse des statistiques d'utilisation. Pour plus d’information, veuillez consulter notre <a href="<%= prefix %>/html/fr/aspects-legaux.html#charte-des-cookies">charte des cookies</a>.</p>
+
+    </div>
+</footer>

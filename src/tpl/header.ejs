@@ -1,0 +1,52 @@
+<header role="banner" id="banner" class="banner">
+    <div class="container">
+        <div class="site-id">
+          <img class="site-logo" src="<%= prefix %>/img/profile-withoutbar.jpg" alt="">
+          <h1 class="site-title"><a href="<%= prefix %>/html/fr/index.html">Portail de l'accessibilité numérique</a></h1>
+          <p class="site-baseline">Le Gouvernement du Grand-Duché de Luxembourg</p>
+        </div>
+      </div>    
+</header>
+
+<button id="toggle-menu" class="toggle-menu"><span aria-hidden="true"></span>Menu</button>
+
+<nav role="navigation" id="navi" class="nav-main" aria-label="menu principal">
+  <div class="container">
+    <ul class="disclosure-nav nav-main-list">
+        <% nav.forEach(e => { %>
+          <% if (e.children !== undefined) { %>
+            <li class="nav-item">
+              <button
+                class="submenu"
+                aria-expanded="true"
+                aria-controls="<%= e.name %>_menu">
+                <%= e.title %>
+              </button>
+              <ul id="<%= e.name %>_menu">
+                <% e.children.forEach(f => { %>
+                  <li class="nav-item">
+                    <a data-name="<%- f.name %>" class="nav-link <%= (f.name === name)?'is-active':'' %>" 
+                      <%- (f.name === name)?'aria-current="page"':'' %>
+                      <% if (f.url !== undefined) { %>
+                        href="<%= f.url %>"><%= f.menu %>
+                      <% } else { %>
+                        href="<%= prefix %>/html/fr/<%= f.name %>.html"><%= f.menu %>
+                      <% } %>
+                      
+                    </a>
+                  </li>
+                <% }) %>
+              </ul>
+            </li>
+          <% } else {%>
+            <li class="nav-item">
+              <a class="nav-link <%= (e.name === name)?'is-active':'' %>" 
+                <%- (e.name === name)?'aria-current="page"':'' %>
+                href="<%= prefix %>/html/fr/<%= e.name %>.html"><%= e.menu %></a>
+            </li>          
+          <% } %>
+        <% }) %>
+    </ul>
+  </div>
+ </nav>
+

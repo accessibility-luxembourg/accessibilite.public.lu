@@ -1,0 +1,16 @@
+<% glossary.glossary.forEach(section => { %>
+    <h3><%= section.section %></h3>
+    <% section.dl.forEach(e => { %>
+        <dl>
+            <dt id="<%= slugify(e.dt) %>">
+                <%= e.dt %>
+            </dt>
+            <dd>
+                <% e.dd.forEach(f => { %>
+                    <%- include('leaf', {'e': f, 'md': md, depth: 0}) %>
+                <% }) %>
+            </dd>
+        </dl>
+    <% }); %>
+<% }) %>
+
