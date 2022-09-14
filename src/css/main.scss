@@ -338,76 +338,28 @@ blockquote {
 
 /* govbar */
 .govbar {
-    background: #fff;
-    border-bottom: 1px solid #cccaca;
-    font-family: Helvetica,Arial,sans-serif;
-    font-size: 12px;
-    position: relative;
-    overflow: hidden;
-    height: 46px;
-    width: 100%;
-    z-index: 30000;
+  background: #FFF;
+  border-bottom: 1px solid #CCCACA;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+  height: 46px;
+  width: 100%;
+  z-index: 30000;
 }
 
-.govbar::after {
-    content: '';
-    clear: both;
-    display: table;
+.govbar img {
+  border: 0;
+  display: block;
+  height: 40px;
+  padding: 3px 8px;
 }
 
-
-#govbar a::before {
-    display: none;
-    content: none;
-}
-
-.govbar-logo {
-
-    border: 0;
-    float: left;
-    padding: 3px 8px;
-
-}
-
-.govbar-logo img {
-
-    border: 0;
-    display: block;
-    height: 40px;
-
-}
-
-.govbar-links {
-
-    float: right;
-    line-height: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-}
-
-.govbar-links li {
-    float: left;
-
-}
-
-.govbar-link {
-    float: left;
-    font-weight: bold;
-    padding: 8px;
-}
-
-.govbar-link:link, .govbar-link:visited, .govbar-link:hover, .govbar-link:focus, .govbar-link:active {
-    border: 0;
-    color: #222 !important;
-    text-decoration: none;
-}
-
-.govbar-link:hover, .govbar-link:focus {
-
-    background: #e6e6e6 !important;
-
+@media (min-width: 720px) {
+  .govbar img {
+      float: right;
+  }
 }
 
 /* footer */
