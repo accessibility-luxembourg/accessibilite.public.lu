@@ -32,7 +32,8 @@
     }
   },
   "browserslist": [
-    "defaults"
+    "defaults",
+    "not ie 11"
   ],
   "engines.browsers": [
     "defaults"
