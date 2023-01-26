@@ -3,6 +3,7 @@ Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{l
 ### Contrôle 2022
 - [Échantillon pour le contrôle de l'accessibilité numérique 2022](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2022/)
 - [Audits complets de l'accessibilité numérique 2022](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2022/)
+- [Audits simplifiés de l'accessibilité numérique 2022](https://data.public.lu/fr/datasets/audits-simplifies-de-laccessibilite-numerique-2022/)
 
 ### Contrôle 2020-2021
 - [Digital accessibility monitoring report - 2020-2021](https://data.public.lu/fr/datasets/digital-accessibility-monitoring-report-2020-2021/){lang=en}
