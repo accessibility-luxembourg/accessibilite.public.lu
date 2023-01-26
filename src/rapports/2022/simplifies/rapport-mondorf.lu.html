@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Audit d'accessibilité simplifié du site www.mondorf.lu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="" />
+        <meta name="subject" content="" />
+        <meta name="creator" content="simplA11yGenReport" />
+
+        <style>
+            /**https://github.com/sindresorhus/github-markdown-css
+https://sindresorhus.com/github-markdown-css/**/
+header,main,nav,footer{width:80%;margin:auto;}
+
+main img{
+  display:block;
+  margin:35px auto 10px auto;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  background:#FFF;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: initial;
+}
+
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: initial;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr:after,
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #0366d6;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  color: #fafbfc;
+  background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: 700;
+  color: #22863a;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: 700;
+  color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: #24292e;
+}
+
+.markdown-body .pl-mb {
+  font-weight: 700;
+  color: #24292e;
+}
+
+.markdown-body .pl-md {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+  color: #f6f8fa;
+  background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+  font-weight: 700;
+  color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: #032f62;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+}
+
+.markdown-body .my-2 {
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #d1d5da;
+}
+
+.markdown-body:after,
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  clear: both;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc,
+.markdown-body details,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+.markdown-body blockquote,
+.markdown-body .bloc {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: .25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child, 
+.markdown-body .bloc>:first-child{
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child,
+.markdown-body .bloc>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .bloc{
+  padding:1em ;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-size: .85em;
+  color: #6a737d;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: initial;
+  background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: initial;
+  border: 0;
+}
+
+.markdown-body .commit-tease-sha {
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 90%;
+  color: #444d56;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+  color: #005cc5;
+  border-color: #005cc5;
+}
+
+.markdown-body .blob-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  width: 1%;
+  min-width: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(27,31,35,.3);
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  overflow: visible;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+  color: #24292e;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  cursor: pointer;
+  background: #ffea7f;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .desc h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+            .skip-link {
+    position: relative;
+    height: 1em;
+}
+.skip-link a {
+    position: absolute;
+    left: -7000px;
+}
+
+.skip-link a:focus {
+    left: 0;
+}
+
+div.topic > div.nobreak > div.desc {
+   background-color: #eee;
+   padding: 1em;
+}
+
+div.topic > div.nobreak > div.desc > p {
+    margin-bottom: 0;
+}
+
+.logo,.toc {
+    display: none;
+}
+
+            @media print {
+  #site {
+    string-set: title content(text);
+  }
+
+  .logo {
+    display: block;
+    position: running(logoRunning);
+  }
+
+  .logo > img {
+    margin-top: 6mm;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm;
+    margin-top: 26mm;
+    
+    @top-left {
+      content: element(logoRunning);
+      width: 80mm;
+    }
+
+    @bottom-right {
+      content: counter(page) "/" counter(pages);
+      font-family: Calibri;
+    }
+
+    @bottom-left {
+      content: "Audit d'accessibilité simplifié";
+      font-family: Calibri;
+    }
+  
+    @bottom-center {
+      content: string(title);
+      font-family: Calibri;
+    }
+  
+  }
+  body, main, header, footer {
+    font-size: 11pt;
+    font-family: Calibri;
+    font-variant-ligatures: none;
+    margin: 0;
+    width: 100%;
+    color: #000;
+    background: #fff;
+  }
+
+  p {
+    margin: 0.2em 0 0.8em 0;
+    line-height: 1.3em;
+  }
+  
+  h1,h2,h3,h4,h5, h6 {
+    margin: 1em 0 0.2em 0;
+    font-weight: bold;
+  }
+  h1.break,h2.break,h3.break,h4.break,h5.break, h6.break {
+    break-before: page;
+  }
+
+
+  h1 { font-size: 160%; }
+  h2 { font-size: 140%; }
+  h3 { font-size: 120%; }
+  h4 { font-size: 100%; }
+  h5 { font-size: 90%; }
+  h6 { font-size: 80%; }
+  
+  a {
+    color: #00f;
+  }
+
+  .nobreak {
+    break-inside: avoid;
+  }
+
+  footer {
+    padding-top: 1em;
+    border-top: 1px solid #eaecef;
+  }
+
+}
+
+
+        </style>
+    </head>
+    <body class="markdown-body">
+        <header role="banner">
+            <div class="toc">
+                <a href="#title">title</a>
+                <a href="#appreciation-generale">appreciation generale</a>
+                <a href="#avertissement">avertissement</a>
+                <a href="#echantillon">Échantillon</a>
+                <a href="#declaration">Déclaration</a>
+                <a href="#documents-bureautiques">Documents bureautiques</a>
+                <a href="#annexe-technique">annexe technique</a>
+            </div>
+            <div class="skip-link">
+                <a href="#main">contenu principal</a>
+            </div>
+            <h1 id="title">Audit d'accessibilité simplifié - <span id="site">www.mondorf.lu</span></h1>
+            <p>Date : 17 novembre 2022</p>
+        </header>
+        <main role="main" id="main" tabindex="-1">
+                <h2 id="appreciation-generale">Appréciation générale</h2>
+<p>Niveau d’accessibilité global pour les critères testés : <strong>faible</strong>.</p>
+<p>(Échelle : très faible, faible, moyen, bon, très bon)</p>
+
+<h2 id="avertissement">Avertissement</h2>
+<p>Attention, l’audit effectué est un audit simplifié et non un audit de conformité (ou audit "complet"). Il a vocation à détecter une série de problèmes d’accessibilité mais n'est pas exhaustif. Le fait qu’aucun problème ne soit remonté pour un critère d'accessibilité donné ne signifie pas qu’il n’y a pas de problème d’accessibilité pour ce critère. De même, lorsque nous rapportons une occurrence d’un problème, ce problème peut avoir d’autres occurrences. Il est nécessaire de vérifier de manière exhaustive l’accessibilité de ce site conformément au référentiel <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA</a>.</p>
+
+<h2 id="echantillon">Échantillon de pages et référentiel</h2>
+<p>Voici les pages qui ont été évaluées lors de cet audit&nbsp;:</p>
+<ul>
+    
+        <li>Page P01&nbsp;: <a href="https://www.mondorf.lu/fr">Thermes, balnéo &amp; spa au Luxembourg | MONDORF Domaine Thermal</a></li>
+    
+        <li>Page P02&nbsp;: <a href="https://www.mondorf.lu/fr/contact">Nous contacter | Mondorf Domaine Thermal</a></li>
+    
+        <li>Page P03&nbsp;: <a href="https://www.mondorf.lu/fr/cadeaux/tarifs">Tarifs d&#39;accès heure | Fitness et Wellness</a></li>
+    
+</ul>
+<p>Méthode d'évaluation&nbsp;: <a href="https://accessibilite.public.lu/fr/monitoring/controle-simplifie.html">Méthode de contrôle simplifiée de l’accessibilité pour le Luxembourg – v1.2</a></p>
+<p>Référentiel&nbsp;: <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA v4.1</a></p>
+
+
+    <h2 id="declaration">Déclaration sur l'accessibilité</h2>
+<p>Le site ne comporte pas de <strong>déclaration sur l'accessibilité</strong>. Celle-ci est obligatoire d'après l'article 5 de la <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a>. Cette déclaration s'effectue après avoir réalisé un audit de conformité basé sur le <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html">RGAA</a>. Pour créer une déclaration sur base des résultats d'un audit de conformité, le <a href="https://accessibilite.public.lu/fr/tools/decla.html">formulaire disponible à cet effet sur accessibilite.lu</a> peut être utilisé. Une fois la déclaration d'accessibilité publiée, l'éditeur du site a 30 jours pour en informer le SIP par mail à l'adresse <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>.</p>
+
+
+
+
+
+
+ 
+
+
+
+            <h2 id="annexe-technique">Annexe technique</h2>
+            
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="images">Thématique "images"</h3>
+        <a class="toc" href="#images">Images</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-porteuse-d-information">image porteuse d’information</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-textuelle-image">alternative textuelle</a> pertinente et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#description-detaillee-image">description détaillée</a> si nécessaire. Lier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende-d-image">légendes</a> à leurs images. Remplacer les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-texte">images textes</a> par du <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#texte-style">texte stylé</a> lorsque c’est possible. Pour trouver la bonne alternative textuelle pour une image donnée, vous pouvez vous aider de l’<a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">arbre de décision proposé par la WAI</a>.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: images porteuses d’information</h4>
+                <p>Les images porteuses d’information doivent avoir une alternative textuelle qui sera restituée aux personnes utilisant un lecteur d’écran, aveugles et grands malvoyants. Cette alternative textuelle doit fournir l’information véhiculée par l’image, il ne s’agit pas d’une description de l’image. Pour une image <em lang="en">bitmap</em>, son attribut <code>alt</code> doit contenir cette alternative textuelle. Pour une image vectorielle SVG, celle-ci doit avoir l’attribut <code>role=&quot;img&quot;</code> et son alternative textuelle pourra être fournie via les attributs <code>aria-label</code> ou <code>aria-labelledby</code>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr/cadeaux/tarifs">page P03</a></h5>
+            <p>L'image porteuse d'information &quot;Période de fréquentation (à titre indicatif)&quot; ne dispose pas d'alternative textuelle.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: images de décoration</h4>
+                <p>Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-de-decoration">images de décoration</a> ne doivent pas avoir d’alternative textuelle et doivent être ignorées correctement par les technologies d’assistance. Dans le cas contraire, elles peuvent causer des problèmes de compréhension aux utilisateurs de lecteurs d’écran (aveugles et grands malvoyants). Pour une image <em lang="en">bitmap</em>, son attribut <code>alt</code> doit être vide. Pour une image vectorielle SVG, celle-ci doit avoir l’attribut <code>aria-hidden=&quot;true&quot;</code>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Plusieurs éléments décoratifs, dont par exemple l'image illustrant &quot;L'expérience Mondorf&quot;, n'ont pas d'attribut <code>alt</code> vide. Idem pour &quot;Soins relaxants&quot;, &quot;Jobs&quot;, etc.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: images porteuses d’information complexes</h4>
+                <p>Certaines images porteuses d’informations sont particulièrement complexes, par exemple lorsqu’elles présentent des graphiques, schémas, cartes, etc. Dans ce cas, ces images nécessitent une description détaillée adjacente à l’image afin de permettre aux personnes aveugles et dyslexiques d’accéder à toutes les informations véhiculées par l’image. Pour mettre à disposition cette description détaillée, plusieurs solutions sont possibles. Le texte peut être adjacent à l’image dans la même page ou on peut placer un lien adjacent à l’image qui mène à une page où se trouve la description. Le texte peut aussi être inclus dans un composant permettant de le masquer et de l’afficher sur demande, au clic d’un bouton « afficher la description de l’image » (via le <em lang="en">design pattern</em> <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure" lang="en">« disclosure »</a>).</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr/cadeaux/tarifs">page P03</a></h5>
+            <p>L'image porteuse d'information &quot;Période de fréquentation (à titre indicatif)&quot; ne dispose pas d'une description détaillée.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="couleurs">Thématique "couleurs"</h3>
+        <a class="toc" href="#couleurs">Couleurs</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Ne pas donner l’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#information-donnee-par-la-couleur">information</a> uniquement par la couleur et utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contraste">contrastes</a> de couleurs suffisamment élevés pour les textes, les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#composant-d-interface">composants d’interface</a> ou les éléments porteurs d’informations.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: informations données uniquement par la couleur</h4>
+                <p>Ce type d’information est un problème pour les personnes déficientes visuelles, aveugles ou par exemple les personnes qui ne voient pas certaines couleurs ou ne perçoivent simplement pas les couleurs. Pour chaque information véhiculée par la couleur, il est nécessaire de mettre en place une alternative, comme par exemple un changement de style (graisse du texte, taille du texte, soulignement, etc.)</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Dans les boutons situés sous &quot;J'ai envie de&quot;, la sélection n'est marquée que par une inversion de couleurs. Absence de la balise <code>aria-selected</code>.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: contrastes des textes</h4>
+                <p>Les contrastes de couleurs sont importants pour plusieurs types de déficiences visuelles comme celles des grands malvoyants ou des personnes ayant des problèmes de perception des couleurs.
+Les contrastes minimaux d’un texte sur le fond de page sont définis par le RGAA comme suit :</p>
+<ul>
+<li>Pour un texte sans effet de graisse
+<ul>
+<li>De taille inférieure à 24 px : le contraste minimum est de 4.5:1 ;</li>
+<li>De taille supérieure ou égale à 24 px : le contraste minimum est de 3:1.</li>
+</ul>
+</li>
+<li>Pour un texte en gras
+<ul>
+<li>De taille inférieure à 18.5 px : le contraste minimum est de 4.5:1 ;</li>
+<li>De taille supérieure à 18.5 px : le contraste minimum est de 3:1.</li>
+</ul>
+</li>
+</ul>
+<p>Pour vérifier les contrastes, on peut utiliser un outil tel que <a href="https://www.tpgi.com/color-contrast-checker/" lang="en">« Colour Contrast Analyser »</a>.
+Si les problèmes de contraste ne peuvent être résolus simplement, il est aussi possible d’utiliser un <em lang="en">« style switcher »</em>. C’est une fonctionnalité proposée par le site qui permet de renforcer les contrastes pour les personnes qui ont des problèmes avec les couleurs. Un exemple de <em lang="en">« style switcher »</em> est disponible sur le site <a href="https://www.sncf.com/fr">sncf.com</a>, dans son menu « Accessibilité ».</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Certains textes sur cette page n’ont pas un contraste suffisant (p. ex. &quot;Restaurant le Mont Dorf&quot; 2.7:1 contre 3:1 attendu au minimum ; l'élément sélectionné sous &quot;J'ai envie de&quot; 2.7:1 contre 4.5:1 min, le sous-titre &quot;Trouvez une réponse efficace&quot; sur la vidéo d'intro 1.8:1 contre 3:1 min etc.)</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="tableaux">Thématique "tableaux"</h3>
+        <a class="toc" href="#tableaux">Tableaux</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Associer correctement les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-donnees-ayant-un-titre">tableaux de données à leur titre</a>, donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-donnees-complexe">tableau de données complexe</a>, un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#resume-de-tableau">résumé</a>, identifier clairement les cellules d’en-tête, utiliser un mécanisme pertinent pour lier les cellules de données aux <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#en-tete-de-colonne-ou-de-ligne">cellules d’en-tête</a>. Pour chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-mise-en-forme">tableau de mise en forme</a>, veiller à sa bonne linéarisation.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: déclaration des entêtes et liaison des cellules d’entêtes et de données</h4>
+                <p>Les utilisateurs de lecteurs d’écran ou de loupe d’écran vocalisée ne peuvent percevoir un tableau dans son ensemble. Il est donc important de leur communiquer des informations de contexte sur chaque cellule, notamment à quelles entêtes chaque cellule est reliée. Ces informations peuvent être données via des structures HTML dédiées. Les entêtes de colonnes et de lignes doivent notamment être déclarées via la balise <code>&lt;th&gt;</code>.</p>
+<p>Dans un tableau de données simple, où chaque entête est valable pour l’ensemble de la ligne ou de la colonne, la relation entre les cellules et les entêtes doit être définie en appliquant un attribut <code>scope=&quot;col&quot;</code> à toutes les entêtes de colonnes et <code>scope=&quot;row&quot;</code> à toutes les entêtes de lignes.</p>
+<p>Dans un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#tableau-de-donnees-complexe">tableau de données complexe</a>, chaque entête doit avoir un identifiant déclaré via l’attribut <code>id</code> et chaque cellule doit faire référence à ces entêtes via l’attribut <code>headers</code> (liste d’identifiants séparés par des espaces).</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr/cadeaux/tarifs">page P03</a></h5>
+            <p>Dans les tableaux présents sur cette page, les entêtes de lignes et de colonnes ne sont pas structurés via des balises <code>&lt;th&gt;</code>.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="liens">Thématique "liens"</h3>
+        <a class="toc" href="#liens">Liens</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">intitulés</a> de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#lien">liens</a> explicites, grâce à des informations de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contexte-du-lien">contexte</a> notamment.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: présence d’intitulés</h4>
+                <p>Un lien doit toujours avoir un intitulé. Celui-ci permet aux utilisateurs de comprendre la destination du lien. La présence d’intitulés sur tous les liens est particulièrement importante pour les aveugles et malvoyants. Si un lien n’a pas d’intitulé, les lecteurs d’écran vont le lire simplement « lien » sans annoncer sa destination.</p>
+<ul>
+<li>Pour un lien qui ne contient qu’une image, l’intitulé du lien est l’alternative de l’image. Pour une image <em lang="en">bitmap</em>, son attribut <code>alt</code> doit contenir l’intitulé du lien (ex: <code>&lt;a href=&quot;https://facebook.com&quot;&gt;&lt;img src=&quot;...&quot; alt=&quot;facebook&quot; /&gt;&lt;/a&gt;</code>). Pour une image vectorielle SVG, celle-ci doit avoir l’attribut <code>role=&quot;img&quot;</code> et l’intitulé du lien pourra être fourni via les attributs <code>aria-label</code> ou <code>aria-labelledby</code> (ex: <code>&lt;a href=&quot;https://facebook.com&quot;&gt;&lt;svg role=&quot;img&quot; aria-label=&quot;facebook&quot;&gt;...&lt;/svg&gt;&lt;/a&gt;</code>).</li>
+<li>Lorsqu’un lien contient du texte et des images, l’intitulé du lien correspond à la concaténation des intitulés de ces différents éléments contenus dans le lien. (ex: pour <code>&lt;a href=&quot;https://facebook.com&quot;&gt;&lt;img src=&quot;...&quot; alt=&quot;logo Facebook&quot; /&gt; Facebook&lt;/a&gt;</code> l’intitulé du lien est « logo facebook facebook ». Dans cet exemple, cet intitulé n’est pas pertinent et l’alternative de l’image doit être vide.)</li>
+</ul>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Le logo &quot;Mondorf domaine thermal&quot; n'a pas d'intitulé.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="scripts">Thématique "scripts"</h3>
+        <a class="toc" href="#scripts">Scripts</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-a-script">alternative</a> pertinente. Avertir ou permettre le contrôle des scripts qui initient un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#changement-de-contexte">changement de contexte</a>. Rendre possible le contrôle de chaque code <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> au moins <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">par le clavier et par tout dispositif de pointage</a> et s’assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d’assistance</a> notamment pour les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#message-de-statut">messages de statut</a>.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: éléments interactifs inaccessibles au clavier</h4>
+                <p>Les composants riches développés en JavaScript doivent respecter des modèles de conception spécifiques pour pouvoir être considérés comme accessibles (modèles de conception décrits dans le document <a href="https://www.w3.org/TR/wai-aria-practices-1.1/" lang="en">« WAI-ARIA Authoring practices »</a>). Sans cela le composant ne sera pas correctement restitué aux utilisateurs de lecteurs d’écran qui ne sauront pas comment l’utiliser. Ces composants doivent notamment utiliser des interactions au clavier spécifiques, sans lesquelles ils seront inutilisables pour les utilisateurs de la navigation au clavier.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Le burger menu est inaccessible au clavier.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="elements-obligatoires">Thématique "éléments obligatoires"</h3>
+        <a class="toc" href="#elements-obligatoires">Éléments obligatoires</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Vérifier que dans chaque page Web, le code source généré respecte les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#regles-d-ecriture">règles d’écriture</a> correspondant au <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#type-de-document">type de document</a>, que le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre-de-page">titre</a> est pertinent et la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#langue-par-defaut">langue par défaut</a>, indiquée. Vérifier que les balises ne sont pas utilisées <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#uniquement-a-des-fins-de-presentation">uniquement à des fins de présentation</a>, que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#changement-de-langue">changements de langues</a> et de direction de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#sens-de-lecture">sens de lecture</a> sont indiqués.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: validité du code source de la page</h4>
+                <p>Les lecteurs d’écran s’appuient sur la sémantique des balises HTML pour restituer le contenu et naviguer, si la syntaxe HTML n’est pas respectée ou si les balises sont détournées, cela peut avoir un impact sur la navigation qui peut devenir inopérante et la restitution qui peut devenir incompréhensible. Pour vérifier la validité de la syntaxe HTML, on peut utiliser le <a href="https://validator.w3.org/nu/">validateur HTML du W3C</a> avec le <em lang="en">bookmarklet</em> <a href="https://www.tpgi.com/wcag-2-0-parsing-error-bookmarklet/" lang="en">« WCAG 2.1 parsing error »</a>. Ce <em lang="en">bookmarklet</em> filtre les résultats et ne montre que les erreurs ayant un impact sur l’accessibilité.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Vérifier que les éléments avec des rôles ARIA ont les attributs ARIA requis</p>
+<p>Documentation : <a href="https://dequeuniversity.com/rules/axe/4.3/aria-required-attr?application=webdriverjs&amp;lang=fr">https://dequeuniversity.com/rules/axe/4.3/aria-required-attr?application=webdriverjs&amp;lang=fr</a></p>
+<p>Occurrences :</p>
+<ul>
+<li>Corriger l’un des éléments suivants :  Les attributs ARIA requis sont manquants sur l'élément portant l'id <code>#search</code> : <code>aria-expanded</code>, <code>aria-controls</code></li>
+</ul>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: indication de langue</h4>
+                <p>Les lecteurs d’écran utilisent les indications de langue pour vocaliser correctement le contenu. La langue principale de la page est spécifiée via l’attribut <code>lang</code> sur l’élément <code>&lt;html&gt;</code>. Lorsqu’un mot d’origine étrangère est inséré dans du contenu écrit dans la langue principale de la page, il doit posséder si nécessaire une indication de langue. L’indication de langue se fait par l’intermédiaire de l’attribut <code>lang</code>.
+Il existe néanmoins des exceptions :</p>
+<ul>
+<li>Lorsqu’il s’agit d’un nom, l’indication de langue doit être faite uniquement quand le nom doit se prononcer dans sa langue d’origine ;</li>
+<li>Lorsqu’il s’agit d’un mot d’origine étrangère, présent dans le dictionnaire de la langue principale de la page, l’indication de langue n’est pas nécessaire ;</li>
+<li>Lorsqu’il s’agit d’un mot d’origine étrangère d’usage courant, mais absent du dictionnaire, l’indication de langue doit être faite uniquement si la prononciation dans la langue principale de la page est problématique.</li>
+</ul>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Cette page contient des textes en d’autres langues non marqués par un changement de langue (p. ex. &quot;Konscht am Park&quot;, &quot;Newsletter&quot;).</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="structuration-de-l-information">Thématique "structuration de l&#39;information"</h3>
+        <a class="toc" href="#structuration-de-l-information">Structuration de l&#39;information</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#listes">listes</a>, et des citations pour structurer l’information. S’assurer que la structure du document est cohérente.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: titres</h4>
+                <p>Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a> permettent aux utilisateurs de comprendre la structure du document. Ils permettent aussi aux utilisateurs aveugles, malvoyants et handicapés moteurs de naviguer de titre en titre dans la page. Il est donc important d’avoir une bonne hiérarchie de titres dans une page. Cette hiérarchie est similaire à un sommaire de document. La vérification de la hiérarchie de titres peut se faire via l’extension de navigateur <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" lang="en">HeadingsMap</a>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Les titres &quot;Abonnez-vous à la newsletter&quot; et &quot;Satisfaction&quot; ne sont pas structurés dans le code html comme des titres via des balises <code>&lt;h&gt;</code>.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="presentation-de-l-information">Thématique "présentation de l&#39;information"</h3>
+        <a class="toc" href="#presentation-de-l-information">Présentation de l&#39;information</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#feuille-de-style">feuilles de styles</a> pour <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#presentation-de-l-information">présenter de l’information</a>. S’assurer que l’information reste <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#comprehensible-ordre-de-lecture">compréhensible</a> lorsque les feuilles de styles sont désactivées. Vérifier l’effet de l’agrandissement à 200 % de la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#taille-des-caracteres">taille des caractères</a> et de la redéfinition des propriétés d’espacement sur la lisibilité. S’assurer que les liens sont correctement identifiables, que la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#prise-de-focus">prise de focus</a> est signalée et que l’utilisateur a le contrôle des contenus additionnels qui deviennent visibles au survol ou au focus. S’assurer que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contenu-cache">contenus cachés</a> sont ignorés par les technologies d’assistance et que l’information n’est pas donnée uniquement par la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#indication-donnee-par-la-forme-la-taille-ou-la-position">forme, taille ou position</a> d’un élément.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: visibilité du focus</h4>
+                <p>Les handicapés moteurs qui naviguent au clavier utilisent l’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#prise-de-focus">indicateur de focus</a> fourni par le site sur les éléments interactifs pour savoir où ils se situent dans la page. L’indicateur de focus se déplace via les touches <kbd>tab</kbd> et <kbd>shift-tab</kbd>. L’indicateur de focus par défaut peut être désactivé via CSS, dans ce cas il est nécessaire de changer le style de l’élément interactif pour rendre l’indicateur de focus visible (sa couleur devra avoir un contraste minimum de 3:1 avec l’arrière-plan contigu).</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Dans de nombreux éléments de cette page (menus, boutons…), le focus n’est pas visible.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="formulaires">Thématique "formulaires"</h3>
+        <a class="toc" href="#formulaires">Formulaires</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Pour chaque formulaire, associer chacun de ses <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> à son <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a>, grouper les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">champs de même nature</a> et leur donner une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légende</a>, structurer les listes de choix de manière pertinente, donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#bouton-formulaire">bouton</a> un intitulé explicite. Vérifier la présence de suggestions lors des erreurs de saisie, s’assurer que le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-saisie-formulaire">contrôle de saisie</a> est accessible, que la finalité des champs peut être déduite et que l’utilisateur peut garder le contrôle sur ses données à caractère financier, juridique ou personnel.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: identification des champs, des contrôles et des regroupements de formulaires</h4>
+                <p>L’identification de ces éléments fournit aux aveugles et grands malvoyants les informations nécessaires pour pouvoir remplir un formulaire. Les handicapés moteurs utilisant un système de reconnaissance vocale s’appuient aussi sur ces éléments pour se déplacer dans les différents <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> et actionner les boutons. Pour associer une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a> (<code>&lt;label&gt;</code>) à un champ de formulaire on peut utiliser l’attribut <code>for</code> de l’étiquette dont la valeur doit être identique à celle de l’attribut <code>id</code> du champ. Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">champs de même nature</a> doivent être regroupés, cela peut être réalisé via l’élément <code>&lt;fieldset&gt;</code> auquel on doit fournir une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légende</a> via l’élément <code>&lt;legend&gt;</code>.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>L'étiquette du champ de recherche n'est pas visible. Un placeholder n'est ici pas suffisant, car il ne sera plus visible une fois que l'utilisateur aura commencé à remplir le champ. Une solution peut être de placer un attribut <code>title</code> sur le champ, qui contient le contenu de l'étiquette. Ce contenu sera visible au &quot;hover&quot;, même pendant la saisie.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: intitulés de boutons pertinents</h4>
+                <p>Les boutons doivent avoir des intitulés pertinents, qui communiquent l’action réalisée à l’activation. Ces informations sont particulièrement importantes pour les déficients visuels et cognitifs.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>L'intitulé du bouton pour s'inscrire à la newsletter  est &quot;subscribe&quot;. Cet intitulé devrait être traduit en français, ou l'attribut <code>aria-label</code> qui le fournit peut être supprimé.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: contrôle et aide à la saisie</h4>
+                <p>Que ce soit pour les handicapés cognitifs ou pour les aveugles et déficients visuels, il est nécessaire d’expliciter les formats de données attendus dans les consignes et les messages d’erreur, ainsi que le caractère obligatoire de la saisie de certains champs.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Sur le champ email pour l'inscription à la newsletter, il n'y a pas d'indication de champ obligatoire.</p>
+
+            </div>
+     
+</div>
+                
+                    <div class="topic">
+    <div class="nobreak">
+        <h3 id="navigation">Thématique "navigation"</h3>
+        <a class="toc" href="#navigation">Navigation</a>
+        <div class="desc"><h4>Recommandations générales</h4> <p>Proposer au moins deux <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#systeme-de-navigation">systèmes de navigation</a> différents dans un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ensemble-de-pages">ensemble de pages</a> (<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#menu-et-barre-de-navigation">menu de navigation</a>, <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#page-plan-du-site">plan du site</a> ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#moteur-de-recherche-interne-a-un-site-web">moteur de recherche</a>). Donner la possibilité d’éviter ou d’atteindre les principaux regroupements de contenus en particulier la zone de contenu principale via un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liens-d-evitement-ou-d-acces-rapide">lien d’évitement ou d’accès rapide</a>. S’assurer que l’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a> est cohérent et que la page ne comporte pas de piège au clavier. S’assurer que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#raccourci-clavier">raccourcis clavier</a> n’utilisant qu’une seule touche sont contrôlables par l’utilisateur.</p>
+</div>
+    </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: <em lang="en">landmarks</em> ARIA</h4>
+                <p>Les utilisateurs aveugles utilisent pour naviguer rapidement dans une page des points de repères ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#landmarks" lang="en">landmarks</a>. Ceux-ci définissent les principales zones de la page comme l’entête, le menu de navigation, la zone de contenu principale, le pied de page, le moteur de recherche. Chacune de ces zones doit avoir un attribut <code>role</code> dont la valeur correspond au type de zone :</p>
+<ul>
+<li><code>role=banner</code> pour l’entête,</li>
+<li><code>role=navigation</code> pour le menu de navigation,</li>
+<li><code>role=main</code> pour la zone de contenu principale,</li>
+<li><code>role=contentinfo</code> pour le pied de page,</li>
+<li><code>role=search</code> pour le moteur de recherche.</li>
+</ul>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>La page ne contient aucun rôle ARIA de type &quot;banner&quot;, &quot;main&quot;, &quot;contentinfo&quot; ou &quot;navigation&quot;.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: liens d’accès rapide</h4>
+                <p>Les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liens-d-evitement-ou-d-acces-rapide">liens d’accès rapide</a> sont des liens présents en début de page et permettent aux utilisateurs qui naviguent au clavier et aux utilisateurs malvoyants qui utilisent une loupe d’écran d’éviter des zones de contenus redondants comme l’entête et la navigation. Il est indispensable d’avoir au moins un lien d’accès rapide vers la zone de contenu principale (<code>&lt;main&gt;</code>). Ces liens peuvent être positionnés hors écran et apparaître à la prise de focus.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>Aucun lien d'évitement.</p>
+
+            </div>
+    
+            <div class="nobreak">
+            <h4>Cas rencontré&nbsp;: ordre de tabulation</h4>
+                <p>L’<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a>, c’est-à-dire l’ordre dans lequel le focus se déplace lorsqu’on utilise les touches <kbd>tab</kbd> et <kbd>shift-tab</kbd> doit être cohérent. Si l’ordre de tabulation est incohérent, les aveugles, les déficients visuels, les handicapés moteurs et handicapés cognitifs auront de grandes difficultés à naviguer dans la page.</p>
+
+            </div>
+            <div class="nobreak">
+            <h5>Exemple de problème détecté sur la <a href="https://www.mondorf.lu/fr">page P01</a></h5>
+            <p>L’ordre de tabulation n’est pas cohérent. Exemple : les éléments de la boîte cookies ne doivent pas figurer parmi les derniers à recevoir le focus.</p>
+
+            </div>
+     
+</div>
+                
+            
+        </main>
+    </body>
+</html>

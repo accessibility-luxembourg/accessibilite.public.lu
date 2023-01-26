@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Rapport d’audit d’application mobile - RAAM - LuxTrust</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="markdown-body">
+<header role="banner">
+	<a href="#main">contenu principal</a>
+	<h1><span>Rapport d’audit d’accessibilité d'application mobile<br> LuxTrust</span></h1>
+	<p>05/08/2022</p>
+</header>
+
+<nav role="navigation">
+	<h2>Table des matières</h2>
+
+	<ul>
+		<li><a href="#introduction"><span>Introduction</span></a></li>
+		<li><a href="#echantillon"><span>Échantillon</span></a></li>
+		<li><a href="#accessibilite"><span>Accessibilité des écrans audités</span></a></li>
+		<li><a href="#avis"><span>Avis</span></a></li>
+		<li><a href="#annexe"><span>Annexe technique</span></a>
+			<ul>
+				<li><a href="#images"><span>Éléments graphiques</span></a></li>
+				<li><a href="#couleurs"><span>Couleurs</span></a></li>
+				<li><a href="#multimedia"><span>Multimédia</span></a></li>
+				<li><a href="#tableaux"><span>Tableaux</span></a></li>
+				<li><a href="#composants-interactifs"><span>Composants interactifs</span></a></li>
+				<li><a href="#obligatoires"><span>Éléments obligatoires</span></a></li>
+				<li><a href="#structuration"><span>Structuration de l’information</span></a></li>
+				<li><a href="#presentation"><span>Présentation de l’information</span></a></li>
+				<li><a href="#formulaires"><span>Formulaires</span></a></li>
+				<li><a href="#navigation"><span>Navigation</span></a></li>
+				<li><a href="#consultation"><span>Consultation</span></a></li>
+				<li><a href="#documentation"><span>Documentation et fonctionnalités d’accessibilité</span></a></li>
+				<li><a href="#assistance"><span>Services d’assistance</span></a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<main role="main" id="main" tabindex="-1">
+	<!-- introduction -->
+	<h2 id="introduction" tabindex="-1">Introduction</h2>
+	<div>
+		<p>Ce rapport accompagne le relevé d’audit effectué sur l’application «<span>&#8201;</span><span><span>LuxTrust</span></span><span >&#8201;</span>».</p>
+
+		<p>L’évaluation pour les applications mobiles consiste à vérifier l’ensemble des critères de la norme européenne d’accessibilité pour les produits et services <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 (v3.2.1)</a>. La méthodologie de test se base sur <a href="https://accessibilite.public.lu/fr/raam1/index.html">le Référentiel d’évaluation de l’accessibilité des applications mobiles (RAAM 1)</a>.</p>
+
+		<p>L’audit a été réalisé à l’aide des technologies d’assistance disponibles et autorisées par des tests de restitution avec le lecteur d’écran du système d’exploitation (TalkBack sur Android), ainsi que des tests d’adaptation des contenus en fonction des paramètres d’affichage utilisateurs.</p>
+
+		<ul>
+			<li>Version Android lors de l’audit : 12</li>
+		</ul>
+
+		<h2 id="echantillon" tabindex="-1">Échantillon</h2>
+		<p>L’audit a été réalisé sur la version de l’application suivante : </p>	
+		<ul>
+			<li>Android : 3.7.0</li>
+		</ul>
+
+		<p>L’audit a porté sur les écrans et parcours suivants :</p>
+
+		<table>
+			<caption>Échantillon de l’audit</caption>
+			<tr>
+				<th scope="col"><span>Nº écran</span></th>
+				<th scope="col"><span>Titre de l’écran</span></th>
+			</tr>
+			<tr>
+				<td>E01</td>
+				<td>Activation</td>
+			</tr>
+			<tr>
+				<td>E02</td>
+				<td>Home</td>
+			</tr>
+			<tr>
+				<td>E03</td>
+				<td>Authentication</td>
+			</tr>
+			<tr>
+				<td>E04</td>
+				<td>My certificate</td>
+			</tr>
+			<tr>
+				<td>E05</td>
+				<td>Security</td>
+			</tr>
+			<tr>
+				<td>E06</td>
+				<td>Report</td>
+			</tr>
+		</table>
+
+		<h2>Conditions de réalisation de l'audit</h2>
+		<p>Certaines technologies d'assistance ne sont pas autorisées sur l'application pour des raisons de sécurité. Ces configurations particulières empêchent donc de nombreux utilisateurs de pouvoir consulter l'application, nous pouvons noter par exemple les utilisateurs de contrôle vocal, de contacteurs/pointeurs externes, d'oculométrie, etc.</p>
+		<p>Il est important de savoir qu'en l'état et en raison de l'interdiction d'accès à l'application par les services d'accessibilité, l'application ne pourra jamais être conforme et réellement accessible.</p>
+		<p>Le périmètre de l'audit a été réduit en fonction de ces contraintes et se compose comme suit : </p>
+		<ul>
+			<li>Analyse de restitutions avec le lecteur d'écran natif Android (Talkback)</li>
+			<li>Analyse des contrastes à partir des captures d'écran fournies par l'éditeur.</li>
+		</ul>
+
+		<h2 id="accessibilite" tabindex="-1">Accessibilité des parcours audités</h2>
+
+		<p>L’application présente un niveau général d’accessibilité <span><span>faible</span></span>.</p>
+
+		<p>Le niveau moyen de conformité au RAAM relevé atteint 40 % de conformité sur l’ensemble des écrans audités, avec 43,48 % de conformité au niveau simple A (A) et 28,57 % de conformité au niveau double A (AA).</p>
+
+		<p><b>L’application est non conforme.</b></p>
+
+		<h3>Conformité RAAM de l’application</h3>
+
+		<table>
+			<caption>Conformité RAAM</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>43,48%</td>
+				<td>56,52%</td>
+			</tr>
+			<tr>
+				<th scope="row">AA (légal)</th>
+				<td>40,00%</td>
+				<td>60,00%</td>
+			</tr>
+		</table>
+
+		<h4>Note sur le calcul de conformité</h4>
+
+		<p>La conformité globale (Tableau « Conformité RAAM 1 ») est calculée de la manière suivante&nbsp;: <b>C / (C+NC)</b>. C est le nombre de critères conformes et NC le nombre de critères non conformes.</p>
+
+		<p>C’est ce nombre qui constitue la référence légale. Il représente le taux de conformité de l’échantillon.</p>
+
+		<p>Il est normal que le taux de conformité global diffère sensiblement du taux de conformité par écran. En effet, un critère NC (non conforme) sur un écran rend le critère non conforme sur l’ensemble de l’échantillon.</p>
+
+		<p>Pour qu’une application soit conforme (100&nbsp;% des critères applicables sont conformes au niveau AA), il est nécessaire que le taux de conformité par écran équivaille à 100&nbsp;%.</p>
+
+		<h3>Conformité pour chaque niveau</h3>
+
+		<table>
+			<caption>Conformité pour chaque niveau</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>43,48%</td>
+				<td>56,52%</td>
+			</tr>
+			<tr>
+				<th scope="row">AA</th>
+				<td>28,57%</td>
+				<td>71,43%</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par écrans</h3>
+
+		<table>
+			<tr>
+				<th scope="col"><span>Nº écran</span></th>
+				<th scope="col"><span>Titre d’écran</span></th>
+				<th scope="col"><span>%C</span></th>
+			</tr>
+			<tr>
+				<td>E01</td>
+				<td>Activation</td>
+				<td>48,00%</td>
+			</tr>
+			<tr>
+				<td>E02</td>
+				<td>Home</td>
+				<td>62,50%</td>
+			</tr>
+			<tr>
+				<td>E03</td>
+				<td>Authentication</td>
+				<td>78,57%</td>
+			</tr>
+			<tr>
+				<td>E04</td>
+				<td>My Certificate</td>
+				<td>64,29%</td>
+			</tr>
+			<tr>
+				<td>E05</td>
+				<td>Security</td>
+				<td>60,00%</td>
+			</tr>
+			<tr>
+				<td>E06</td>
+				<td>Report</td>
+				<td>76,92%</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par thématiques</h3>
+		<table>
+			<tr>
+				<th scope="col"><span>Thématiques</span></th>
+				<th scope="col"><span>C</span></th>
+			</tr>
+			<tr>
+				<td>Éléments graphiques</td>
+				<td>0,00%</td>
+			</tr>
+			<tr>
+				<td>Couleurs</td>
+				<td>33,33%</td>
+			</tr>
+			<tr>
+				<td>Multimédia</td>
+				<td>NA</td>
+			</tr>
+			<tr>
+				<td>Tableaux</td>
+				<td>NA</td>
+			</tr>
+			<tr>
+				<td>Composants interactifs</td>
+				<td>25,00%</td>
+			</tr>
+			<tr>
+				<td>Éléments obligatoires</td>
+				<td>50,00%</td>
+			</tr>
+			<tr>
+				<td>Structuration</td>
+				<td>0,00%</td>
+			</tr>
+			<tr>
+				<td>Présentation</td>
+				<td>75,00%</td>
+			</tr>
+			<tr>
+				<td>Formulaires</td>
+				<td>50,00%</td>
+			</tr>
+			<tr>
+				<td>Navigation</td>
+				<td>0%</td>
+			</tr>
+			<tr>
+				<td>Consultation</td>
+				<td>33,33%</td>
+			</tr>
+			<tr>
+				<td>Documentation et fonctionnalités d’accessibilité</td>
+				<td>NA</td>
+			</tr>
+			<tr>
+				<td>Services d’assistance</td>
+				<td>NA</td>
+			<tr>
+				<td>Outils d'édition</td>
+				<td>NA</td>
+			</tr>
+			<tr>
+				<td>Communication en temps réel</td>
+				<td>NA</td>
+			</tr>
+		</table>
+
+		<h3>Impacts utilisateurs</h3>
+
+		<p>En plus des personnes totalement exclues de l'application pour des raisons de sécurité (raisons citées plus haut), les principales personnes impactées sont les personnes aveugles et les utilisateurs de lecteurs d'écran. Les problèmes liés aux composants interactifs et les formulaires rendent parfois difficile l’utilisation de l’application par ces utilisateurs.</p>
+
+		<h3>Contenus dérogés</h3>
+
+		<p>La dérogation est un moyen d’exclure du champ d’application du référentiel des contenus particuliers. Les cas de dérogations sont très encadrés, vous en trouverez le détail dans le <a href="https://github.com/DISIC/guide-derogations/blob/master/guide_derogations.pdf">guide des dérogations</a>.</p>
+
+		<p>Les contenus suivants n’entrent pas dans le calcul de la conformité ni dans le périmètre des éléments à rendre accessible, ils sont dérogés&nbsp;:</p>
+
+		<ul>
+			<li>Aucun contenu n'est dérogé</li>
+		</ul>
+
+		<h4>Droit à la compensation</h4>
+
+		<p>Les dérogations émises notamment pour charge disproportionnée demandent en contrepartie la mise en place d’un moyen de compensation pour les utilisateurs. Pour les documents bureautiques par exemple, vous devez fournir un moyen à l’utilisateur de demander une version accessible d’un document s’il en a besoin. Cela peut être un mail ou un formulaire de contact.</p>
+
+		<h3>Note sur le relevé des non-conformités</h3>
+
+		<p>Ne sont cités dans ce rapport que quelques exemples issus du relevé des non-conformités.</p>
+
+		<p>De plus, toutes les occurrences d’une non-conformité ne sont pas listées dans le relevé. Par exemple&nbsp;: pour les contrastes de couleur insuffisants, le relevé mentionne quelques occurrences, mais ne les cite pas toutes.</p>
+
+		<h2 id="avis" tabindex="-1">Avis</h2>
+
+		<p><span>L'application propose une structure robuste et reste donc relativement utilisable pour les utilisateurs de lecteurs d'écran. En revanche, le processus complet d'activation du certificat est inaccessible en raison de nombreux points bloquants, empêchant la grande majorité des utilisateurs de valider cette démarche.</span></p>
+
+		<p>Les non-conformités les plus bloquantes pour les utilisateurs concernent&nbsp;: </p>
+
+		<ul>
+			<li>L'absence de rôle et/ou d'intitulé sur les composants interactifs</li>
+			<li>Des composants spécifiques inatteignables (le clavier de saisie des mots de passe, les champs de saisie, etc.)</li>
+			<li>Les formulaires du processus d'activation (absence d'étiquettes, d'indication du format attendu et de message d'erreur)</li>
+		</ul>
+
+		<p>Ce sont donc ces points qui devront nécessiter une attention toute particulière et qui demanderont le plus d’efforts.</p>
+	</div>
+
+	<h2 id="annexe" tabindex="-1">Annexe technique</h2>
+
+	<!-- ////////////////////////////////
+		1. thématique image -->
+	<h3 id="images" tabindex="-1">Éléments graphiques</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Identifier les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#element-graphique-de-decoration">éléments graphiques de décoration</a> pour qu’ils soient ignorés par les technologies d’assistance. Donner à chaque <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#element-graphique-porteur-d-information">élément graphique porteur d’information</a> une alternative textuelle pertinente et une description détaillée si nécessaire. Remplacer les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#element-graphique-texte">éléments graphiques textes</a> par du <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#texte-style">texte stylé</a> lorsque c’est possible.</span></p>
+		</div>
+
+		<h4>Éléments graphiques de décoration</h4>
+
+		<p>Un élément graphique de décoration ne contient aucune information indispensable à la compréhension du contenu auquel il est associé. Il est important que ces éléments graphiques ne soient pas restitués aux utilisateurs de technologies d’assistance, par exemple les aveugles avec un lecteur d’écran.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-1-1.png" alt="" />
+		<p>On note plusieurs images de décoration qui ne sont pas ignorées, par exemple l'icône représentant une coche verte sur l'écran de visualisation du certificat.</p>
+
+		<h4>Éléments graphiques porteurs d’information</h4>
+
+		<p>Un élément graphique est considéré comme porteur d’information lorsqu’il contient une information indispensable à la compréhension du contenu auquel il est associé. Il est indispensable que ces informations soient restituées, par exemple aux utilisateurs aveugles qui se servent d'un lecteur d’écran.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-1-2.png" alt="" />
+		<p>Le logo "LuxTrust" présent sur de nombreux écrans de l'application est atteignable par les technologies d'assistance mais n'a pas d'alternative renseignée.</p>
+
+	</div>
+
+	<!-- ////////////////////////////////
+		2. thématique couleur -->
+	<h3 id="couleurs" tabindex="-1">Couleurs</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Ne pas donner l’<a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#information-donnee-par-la-couleur">information uniquement par la couleur</a> et utiliser des <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#contraste">contrastes</a> de couleurs suffisamment élevés pour les textes et les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#composant-d-interface">composants d’interface</a> et les éléments graphiques.</p>
+		</div>
+
+		<h4>Contrastes des textes</h4>
+
+		<p>Plusieurs couleurs présentent <b>un rapport de contraste insuffisant</b>, ce qui peut poser problème aux <b>grands malvoyants</b> et aux <b>déficients visuels</b> qui ont des difficultés à percevoir les couleurs ou les contrastes.</p>
+
+		<p>La norme distingue plusieurs tailles de textes à évaluer, chaque taille relevant d’un seuil de contraste. Ces tailles sont évaluées en pixel ou en point. Plus un texte est grand (supérieur à 18,5px avec effet de graisse ou 24px sans effet de graisse) moins le rapport requis est élevé (3:1).</p>
+		<p>Compte tenu de la difficulté à évaluer les tailles de polices sur mobile, tous les textes devraient être considérés en taille normale sauf pour des textes significativement très grands.</p>
+
+		<p>Les textes des applications doivent tous avoir un rapport de contraste de 4.5:1.</p>
+
+		<p>Vous pouvez foncer les couleurs pour obtenir le rapport de contraste exigé.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-2-2.png" alt="" />
+		<p>On constate de nombreux textes avec un contraste trop faible, par exemple, les étiquettes des champs "User ID" et "Mot de passe SMS" ou le texte du bouton de changement du code PIN.</p>
+
+		<h4>Contraste des composants d’interface</h4>
+
+		<p>Les composants d’interface, les illustrations porteuses d’information ou encore les mises en couleurs porteuses d’information doivent être suffisamment contrastés pour être perçus par les utilisateurs ayant des troubles de perception des couleurs. Par exemple, une icône porteuse d’information devra avoir un rapport de contraste avec la couleur de fond de 3. De même, pour un champ de saisie de formulaire, dont la zone active est matérialisée par sa bordure, alors la couleur de cette bordure devra avoir un rapport de contraste de 3 avec la couleur de fond de l’écran.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-2-3.png" alt="" />
+		<p>On note plusieurs composants qui ne sont pas suffisamment contrastés, par exemple sur l'écran d'activation du certificat, les boutons type switch (à l'état activés) et les boutons de changement d'étape ("Suivant", "Confirmer", etc.).</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		5. thématique scripts -->
+	<h3 id="composants-interactifs" tabindex="-1">Composants interactifs</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#composant-d-interface">composant interactif</a> une alternative pertinente. Rendre possible <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">le contrôle de chaque composant interactif au moins par le clavier et la souris</a> et s’assurer de leur <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d’assistance</a>. Identifier les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#message-de-statut">messages de statut</a> lorsque c’est nécessaire.</span></p>
+		</div>
+
+		<h4>Rôle inapproprié ou non défini</h4>
+
+		<p>Pour les aveugles et les grands malvoyants qui utilisent un lecteur d’écran, ce manque de distinction claire sur la nature des composants interactifs peut poser de graves problèmes.</p>
+
+		<p>En effet, le rôle du composant est annoncé par le lecteur d’écran, ce qui fournit une information contextuelle importante pour l’utilisateur qui peut déduire certaines actions possibles et s’attendre à certains événements.</p>
+
+		<p>Enfin, chaque composant interactif doit avoir un nom accessible défini par l’intermédiaire d’un texte (visible ou non) accessible aux technologies d’assistance).</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<p>On note plusieurs composants interactifs sans rôle défini, par exemple, sur l'écran "Comment activer ?", les boutons permettant de plier ou déplier les contenus et les composants (liens) "Téléphone" et "E-mail".</p>
+
+		<h4>Intitulé absent ou non pertinent</h4>
+
+		<p>Pour chaque composant interactif, deux éléments sont à prendre en compte :</p>
+		<ul>
+			<li>Le nom accessible doit être pertinent ;</li>
+			<li>Le nom visible doit être contenu dans le nom accessible.</li>
+		</ul>
+		<p>Le nom accessible est le nom effectivement restitué par les technologies d’assistance comme le lecteur d’écran. Ce nom accessible est différent du nom visible dans les cas où l’application emploie certaines propriétés (comme les propriétés de nommage d’accessibilité des plateformes, dont le contenu n’est pas visible, mais est restitué par les lecteurs d’écran).</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<p>Sur l'ensemble de l'application par exemple, les boutons d'information (i) n'ont pas d'intitulé.</p>
+
+		<h4>Lecteur d’écran</h4>
+		<p>Les composants interactifs doivent tous être accessibles au lecteur d’écran. Sous Android il s’agit de TalkBack et sous iOS, de VoiceOver.</p>
+
+		<p>Certains composants des interfaces de l’application ne sont pas atteignables avec le lecteur d’écran.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-5-3.png" alt="" />
+		<p>Le clavier visuel proposé pour saisir certaines données (mot de passe par exemple) n'est pas atteignable par technologies d'assistance.</p>
+
+		<h4>Changement de contexte</h4>
+
+		<p>Un changement de contexte est une situation où un utilisateur ne peut pas <b>anticiper le fonctionnement d’une fonctionnalité</b> lorsque celle-ci ouvre une nouvelle application, valide un formulaire ou ajoute ou modifie du contenu dans l’écran par exemple.</p>
+
+		<p>Cela concerne plus spécifiquement les fonctionnalités qui se lancent sans que l’utilisateur puisse les anticiper comme, par exemple, <b>la soumission automatique</b> d’un champ de formulaire sur la sélection d’un item ou lorsque l’utilisateur quitte un champ de saisie.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-5-1.png" alt="" />
+		<p>Sur l'écran de sécurité, l'activation du bouton switch "Geolocalisation" déclenche un changement de contexte (ouverture des paramètres) sans que l'utilisateur ne soit prévenu.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		7. Structuration de l’information -->
+	<h3 id="structuration" tabindex="-1">Structuration de l’information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Utiliser des titres, des listes.</p>
+		</div>
+
+		<h4>Titres</h4>
+
+		<p>Le titrage des contenus est une étape importante dans la structuration de ces contenus. Cela répond à deux besoins&nbsp;:</p>
+		<ul>
+			<li>identifier rapidement un contenu recherché&nbsp;;</li>
+			<li>naviguer rapidement dans le contenu en se déplaçant de titre en titre.</li>
+		</ul>
+
+		<p>Un titrage correct fournit à l’utilisateur d’un lecteur d’écran un plan du document et lui permet de naviguer de titre en titre pour se déplacer plus rapidement dans le contenu.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-7-1.png" alt="" />
+		<p>Par exemple, sur l'écran "Activation" (dans l'écran des conditions générales de vente), on note la présence de textes présentés visuellement comme des titres qui ne sont pas structurés comme des titres dans le code source.</p>
+
+	</div>
+
+
+	<!-- ////////////////////////////////
+		8. thématique Présentation de l’information -->
+	<h3 id="presentation" tabindex="-1">Présentation de l’information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Vérifier la prise en charge des paramètres de taille de police et l’effet de l’agrandissement des tailles des caractères sur la lisibilité. S’assurer que les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#composant-dont-la-nature-n-est-pas-evidente">composants sont correctement identifiables</a>. S’assurer que l’<a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#indication-donnee-par-la-forme-la-taille-ou-la-position">information n’est pas donnée uniquement par la forme ou la position</a> d’un élément.</span></p>
+		</div>
+
+		<h4>Contenus visibles non accessibles</h4>
+		<p>Certains textes des écrans visibles ne sont pas accessibles aux technologies d’assistance.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<p>On note plusieurs éléments visibles qui ne sont pas atteignables par les technologies d'assistance et donc pas restitués. Par exemple, sur l'écran d'accueil, lorsqu'une nouvelle transaction est disponible et à étudier, le texte "Une nouvelle transaction est en attente d'approbation" n'est pas restitué. </p>
+
+	</div>
+
+	<!-- ////////////////////////////////
+		9. thématique Formulaires -->
+	<h3 id="formulaires" tabindex="-1">Formulaires</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Associer pour chaque formulaire chacun de ses champs à son étiquette, grouper les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#champs-de-meme-nature">champs dans des blocs d’informations de même nature</a>, donner à chaque bouton un intitulé explicite. Vérifier la présence d’aide à la saisie, s’assurer que le <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#controle-de-saisie-formulaire">contrôle de saisie</a> est accessible et que l’utilisateur peut contrôler les données à caractère financier, juridique ou personnel.</span></p>
+		</div>
+
+		<h4>Étiquettes et champs</h4>
+
+		<p>Les champs de formulaires doivent tous posséder des étiquettes correctement reliées.</p>
+
+		<p>Une <b>étiquette de champ</b> est un texte situé à proximité du champ de formulaire qui permet de connaître la nature, le type ou le format des informations attendues.</p>
+
+		<p>De cette manière, lorsqu’un utilisateur entre dans le champ de saisie avec un lecteur d’écran, le lecteur d’écran lit le contenu de l’étiquette. L’utilisateur comprend alors ce qu’il doit saisir. </p>
+
+		<p>Sans cela, même si une étiquette est présente visuellement, l’utilisateur entendra «&nbsp;champ de saisie vide&nbsp;» en entrant dans le champ et ne saura donc pas quoi saisir.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-9-1.png" alt="" />
+		<p>Plusieurs champs du processus d'activation n'ont pas d'étiquette accessible, par exemple le champ "Saisir le "Video ID" reçu par SMS" (écran commencer l'identification) et le bouton type switch "J'ai lu et compris [...]".</p>
+
+		<h4>Contrôle de saisie et aide à la saisie</h4>
+
+		<p>Tous les champs obligatoires doivent être identifiés préalablement à toute validation de l’utilisateur.</p>
+
+		<p>Pour les champs qui attendent un format de saisie particulier pour être validés, ce format doit être spécifié à l’utilisateur par un passage de texte visible à proximité du champ. De plus, si l’utilisateur commet une erreur sur ce champ, alors le message d’erreur doit présenter un exemple réel de saisie. </p>
+
+		<p>Enfin, les messages d’erreur de saisie des champs de formulaire doivent être liés correctement aux champs en erreur.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-9-10.png" alt="" />
+		<p>Le processus d'activation du certificat propose un formulaire par étape qui contient des erreurs : absence d'indication des champs obligatoires (champs "User ID" et "Mot de passe SMS"), absence d'indication du format attendu (champ "User ID") et l'absence de restitution aux technologies d'assistance des erreurs de saisie du code pin (message "Code PIN faible").</p>
+		<p>De plus, lorsqu'une erreur est relevée, le focus doit être repositionné sur un élément pertinent, par exemple, le message d'erreur ou le 1er champ en erreur afin de faciliter la navigation pour les utilisateurs.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		10. thématique Navigation -->
+	<h3 id="navigation" tabindex="-1">Navigation</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>S’assurer que l’<a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a> est <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#coherent-ordre-de-lecture">cohérent</a> et que l’écran ne comporte pas de <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#piege-au-clavier">piège au clavier</a>. S’assurer que les <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#raccourci-clavier">raccourcis clavier</a> qui utilisent une seule touche sont contrôlables par l’utilisateur.</span></p>
+		</div>
+
+		<h4>Ordre de restitution</h4>
+		
+		<p>L’ordre d’accès aux composants d’interface par le lecteur d’écran peut être différent de l’ordre de navigation à l’aide d’un clavier externe (sans utilisation d’un clavier), bien que parfois, les deux partagent les mêmes comportements.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-10-2.png" alt="" />
+		<p>Lorsqu'un utilisateur reçoit une notification pour authentifier une demande, le focus devrait être positionné sur le 1er élément de l'écran, par exemple, le logo "LuxTrust". De même, lorsqu'un utilisateur active le certificat en utilisant le bouton "Accepter", le focus devrait être repositionné sur le texte "Certificate details".</p>
+
+	</div>
+
+	<!-- ////////////////////////////////
+		11.thématique Consultation -->
+	<h3 id="consultation" tabindex="-1">Consultation</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Vérifier que l’utilisateur a le contrôle des <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#procede-de-rafraichissement">procédés de rafraîchissement</a>, des <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#changement-brusque-de-luminosite-ou-effet-de-flash">changements brusques de luminosité</a> et des <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#controle-contenu-en-mouvement-ou-clignotant">contenus en mouvement ou clignotants</a>. Ne pas faire dépendre l’accomplissement d’une tâche d’une limite de temps sauf si elle est essentielle et s’assurer que les données saisies sont récupérées après une interruption de session authentifiée. Proposer des <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#version-accessible">versions accessibles</a> ou rendre accessibles les documents en téléchargement. S’assurer que la consultation n’est pas dépendante de l’orientation de l’écran. Toujours proposer un <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#gestes-complexes-et-gestes-simples">geste simple</a> en alternative d’un <a href="https://accessibilite.public.lu/fr/raam1/glossaire.html#gestes-complexes-et-gestes-simples">geste complexe</a> permettant de réaliser une action.</span></p>
+		</div>
+
+		<h4>Contenus en mouvement ou clignotants</h4>
+
+		<p>Les contenus en mouvement peuvent être problématiques pour les utilisateurs avec des difficultés de lecture, en effet un contenu qui défile trop rapidement empêche d’accéder de fait à l’information. De plus, pour les personnes avec un déficit de l’attention,  le mouvement les empêche de lire le reste de l’écran.</p>
+
+		<p>Il faut alors permettre aux utilisateurs d’<b>arrêter</b>&nbsp;et de&nbsp;<b>redémarrer</b>&nbsp;le contenu en mou­ve­ment<span>&#8201;</span>, ou d’afficher tout le contenu&nbsp;<b>sans le mou­ve­ment</b> ou de&nbsp;<b>masquer</b>&nbsp;le contenu en mouvement et de le&nbsp;<b>réafficher</b>.</p>
+
+		<h5>Constats dans l’application</h5>
+
+		<img src="images/crit-11-8.png" alt="" />
+		<p>Sur l'écran d'accueil, l'animation de l'image de présentation du scanner de QR Code ne peut pas être arrêtée.</p>
+
+		<h4>Consultation des contenus indépendante de l’orientation</h4>
+		<p>Certaines personnes handicapées motrices peuvent utiliser des périphériques dont elles ne peuvent pas contrôler l’orientation. Par exemple les personnes qui utilisent des contacteurs pour interagir avec le périphérique de consultation. D’autres, comme les personnes déficientes visuelles peuvent avoir besoin de forcer un mode d’affichage (paysage par exemple) pour pouvoir bénéficier des fonctionnalités d’agrandissement des caractères.</p>
+		<p>Il est donc nécessaire que les applications :</p>
+		<ul>
+			<li>Ne bloquent pas l’orientation sur un mode portrait ou paysage ;</li>
+			<li>S’assurent que les contenus sont consultables dans les deux modes d’affichage.</li>
+		</ul>
+
+		<h5>Constats dans l’application</h5>
+
+		<p>Aucun écran ne peut être consulté en mode paysage.</p>
+
+	</div>
+	
+</main>
+<footer role="contentinfo">
+	<p>Ce rapport est publié par le <a href="https://sip.gouvernement.lu">service information et presse</a> sous <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">licence CC0</a>.</p>
+</footer>
+</body>
+
+</html>
