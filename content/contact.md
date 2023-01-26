@@ -7,6 +7,6 @@ Luxembourg
 </address>
 
 - Tél.&nbsp;: [(+352) 247-82181](tel:+35224782181) 
-- E-Mail&nbsp;: [accessibilite@sip.etat.lu](mailto:accessibilite@sip.etat.lu)
+- E-Mail&nbsp;: [accessibilite@sip.public.lu](mailto:accessibilite@sip.public.lu)
 - Twitter&nbsp;: [@AccessibilityLU](https://twitter.com/AccessibilityLu)
 - GitHub&nbsp;: [AccessibilityLU](https://github.com/accessibility-luxembourg)
