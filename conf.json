@@ -16,6 +16,11 @@
             "prefix": "../.."
         },
         {
+            "title": "Actualités",
+            "menu": "Actualités",
+            "name": "actus"
+        },  
+        {
             "title": "Obligations d’accessibilité numérique",
             "menu": "Obligations",
             "name": "obligations",

@@ -48,7 +48,8 @@
     "ejs": "^3.1.2",
     "form-data-entries": "^1.0.4",
     "object.fromentries": "^2.0.3",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "axe-webdriverjs": "^2.3.0",
@@ -60,7 +61,7 @@
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.7",
     "markdown-it-attrs": "^4.0.0",
-    "markdown-it-front-matter": "^0.2.1",
+    "markdown-it-front-matter": "^0.2.3",
     "markdown-it-replace-link": "^1.0.1",
     "node-linkchecker": "0.0.3",
     "npm-watch": "^0.6.0",

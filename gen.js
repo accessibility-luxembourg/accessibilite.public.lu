@@ -1,5 +1,6 @@
 const fs = require('fs')
 const ejs = require('ejs')
+const yaml = require('yaml')
 const MarkdownIt = require('markdown-it')
 const uglify = require("uglify-js")
 const cheerio = require('cheerio')
@@ -204,7 +205,7 @@ const level1 = config.mainMenu.concat(config.footer).concat(config.hidden).filte
 const level2 = config.mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
 const md = level1.concat(level2)
 const deprecated = config.deprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
-
+const news = fs.readdirSync('./content/news')
 
 function genericMarkdownIt(page) {
     let html = false
@@ -237,6 +238,22 @@ function genericMarkdownIt(page) {
             }).use(require('markdown-it-replace-link')).use(require('markdown-it-anchor'), {slugify: customSlug, prefix: page.prefix}).use(require('markdown-it-front-matter'), function(fm) {}).use(require('markdown-it-attrs'));
 }
 
+function newsMarkdownIt(cbFM) {
+    return MarkdownIt({
+        'html': true,
+        replaceLink: function (link, env) {
+            let res3 = link.match(/(.*)\.md#(.*)/)
+            if (res3) {
+                return res3[1]+'.html#'+res3[2]
+            }
+            let res4 = link.match(/(.*)\.md/)
+            if (res4) {
+                return res4[1]+'.html'
+            }
+            return link
+        }
+    }).use(require('markdown-it-replace-link')).use(require('markdown-it-anchor'), {slugify: slugify, prefix: '../../..'}).use(require('markdown-it-front-matter'), function(fm) { cbFM(yaml.parse(fm))}).use(require('markdown-it-attrs'));
+}
 
 md.forEach(e => { 
     renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary)          
@@ -246,6 +263,32 @@ deprecated.forEach(e => {
     renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary, deprecationMessage)          
 })
 
+const articles = news.map(e => {
+    const data = {}
+    data.meta = {}
+    function cbfm(fm) {
+        data.meta = fm
+    }
+    data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
+    return data
+}).sort((a, b) => { new Date(a.meta.date) > new Date(b.meta.date) })
+
+ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    renderToFile(str, 'Actualités', outputPath+'/fr/actus.html', 'actus', '../../', true)
+})
+
+
+articles.forEach(e => {
+    ejs.renderFile('./src/tpl/article.ejs', {data: e.html, intro: e.meta.intro, date: e.meta.date}, function(err, str) {
+        if (err !== null) {
+            console.log(err)
+        }
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.name+'.html', e.meta.name, '../../../', true)
+    })
+})
 
 // generate JavaScript
 const scampiJsPrefix = 'node_modules/@pidila/scampi/modules/'

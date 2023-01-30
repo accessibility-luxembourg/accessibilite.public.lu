@@ -13,6 +13,7 @@ mkdir -p ./src/html/fr/raam1
 mkdir -p ./src/html/fr/tools
 mkdir -p ./src/html/fr/support
 mkdir -p ./src/html/fr/monitoring
+mkdir -p ./src/html/fr/news
 
 cp ./src/files/rgaa4/* ./src/html/fr/rgaa4/files
 cp ./src/files/rgaa4.1/* ./src/html/fr/rgaa4.1/files
