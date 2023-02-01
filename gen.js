@@ -279,7 +279,7 @@ ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, st
     if (err !== null) {
         console.log(err)
     }
-    renderToFile(str, 'Actualités', outputPath+'/fr/actus.html', 'actus', '../../', true)
+    renderToFile(str, 'Actualités', outputPath+'/fr/news/index.html', 'news/index', '../../../', true)
 })
 
 
@@ -288,7 +288,7 @@ articles.forEach(e => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.name+'.html', e.meta.name, '../../../', true)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.date+'-'+e.meta.name+'.html', e.meta.name, '../../../', true)
     })
 })
 

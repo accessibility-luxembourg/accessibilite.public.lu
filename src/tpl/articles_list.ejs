@@ -1,7 +1,7 @@
 <div class="articles">
     <% data.forEach(e => { %>
         <article>
-            <h2><a href="./news/<%= e.meta.name %>.html"><%= e.meta.title %></a></h2>
+            <h2><a href="./<%= e.meta.date %>-<%= e.meta.name %>.html"><%= e.meta.title %></a></h2>
             <p class="date"><%= new Date(e.meta.date).toLocaleDateString('fr') %></p>
             <p class="intro"><%= e.meta.intro %></p>
         </article>
