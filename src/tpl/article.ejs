@@ -1,5 +1,9 @@
+<% if (meta.graph) { %>
+    <script src="<%= prefix %>js/graph.js"></script>
+    <script src="<%= prefix %>../content/news/<%= meta.name %>.js"></script>
+<% } %>
 <div> 
-    <p class="date"><%= new Date(date).toLocaleDateString('fr') %></p>
-    <p class="intro"><%= intro %></p>
+    <p class="date"><%= new Date(meta.date).toLocaleDateString('fr') %></p>
+    <p class="intro"><%= meta.intro %></p>
     <%- data %>
 </div> 

@@ -47,7 +47,9 @@
     "dotenv": "^16.0.1",
     "ejs": "^3.1.2",
     "form-data-entries": "^1.0.4",
+    "highcharts": "^10.3.3",
     "object.fromentries": "^2.0.3",
+    "papaparse": "^5.3.2",
     "regenerator-runtime": "^0.13.7",
     "yaml": "^2.2.1"
   },

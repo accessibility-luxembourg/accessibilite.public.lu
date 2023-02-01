@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap');
+
+
+/* colors and global body & article layout */
+:root {
+    --blue: rgb(46, 117, 182);
+    --queenblue: #33658A;
+    --green: #667761;
+    --orange: rgb(197, 90, 17);
+    --foral_white: #fffcf0;
+    --table_even: #f8f8f8;
+    --table_hover: #f3fcf0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    background-color: var(--foral_white);
+}
+
+body > hr {
+    margin: 0;
+}
+
+body article {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 3em 1em;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+/* article title & header section */
+body article h1, body article h2, body article h3 {
+    color: var(--blue);
+}
+
+body article h1, body article h2 {
+    text-align: center;
+}
+
+body article h1 {
+    font: normal 600 1.8em "Fira Sans", sans-serif;
+}
+
+body article h2 {
+    margin: 1em auto 2em auto;
+}
+
+body article h2, body article h3 {
+    font: normal 600 1.2em "Fira Sans", sans-serif;
+}
+
+body article h3 {
+    max-width: 750px;
+    margin: 1.5em auto;
+}
+
+body article > hr {
+    box-sizing: content-box;
+    max-width: 450px;
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: 0 auto 2em auto;
+    background-color: var(--green);
+    overflow: visible;
+}
+
+body article > hr::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--green);
+    display: inline-block;
+    border: 2px solid var(--green);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    transform: rotate(45deg);
+}
+
+body article hr::after {
+    content: "";
+    width: 10px;
+    height: 6px;
+    background: white;
+    display: inline-block;
+    border: 2px solid white;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin: 0 0 0 -5px;
+}
+
+body article div.intro p {
+    font: normal 400 1em "Fira Sans", sans-serif;
+    max-width: 650px;
+    line-height: 1.4em;
+}
+
+
+/* body text */
+body article p {
+    font: normal 300 1em "Fira Sans", sans-serif;
+    max-width: 650px;
+    margin: 1em auto;
+    line-height: 1.4em;
+}
+
+body article p a, body article p a:visited {
+    text-decoration-color: var(--queenblue);
+    text-decoration-thickness: .125em;
+    text-underline-offset: 1.5px;
+    font-weight: 400;
+}
+
+body article p strong {
+    font-weight: 500;
+}
+
+body article ul, body article ol {
+    max-width: 550px;
+    margin: 1em auto;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+body article aside {
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid var(--green);
+    max-width: 550px;
+    margin: auto;
+}
+
+body article aside h4 {
+    color: var(--green);
+    margin: 0 0 1em 0;
+}
+
+figure.pic {
+    max-width: 550px;
+    margin: 1em auto;
+    text-align: right;
+}
+
+figure.pic img {
+    width: 100%; 
+    max-width: 650px; 
+    height: auto;
+}
+
+figure.pic figcaption {
+    font: normal 200 0.9em "Fira Sans", sans-serif;
+}
+
+
+/* highcharts */
+figure.chart {
+    max-width: 650px; 
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+}
+
+figure.chart > div {
+    height: 450px;
+    order: 1; 
+}
+
+figure.chart > div#full_compliance {
+    height: 610px;
+}
+
+figure.chart > div#full_app_themes {
+    height: 730px;
+}
+
+figure.chart > div#complaints {
+    height: 350px;
+}
+
+figure.chart details {
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: 300;
+    order: 3;
+}
+
+figure.chart details[open] {
+    border: 1px solid var(--green);
+}
+
+figure.chart details[open] summary {
+    font-weight: 400;
+}
+
+figure.chart > p {
+    text-align: center;
+    margin-top: 0;
+    order: 2;
+    font: normal 500 0.8em "Fira Sans", sans-serif;
+}
+
+
+/* highcharts data tables */
+figure.chart .highcharts-data-table {
+    height: auto;
+    margin-bottom: 1em;
+}
+
+figure.chart:nth-of-type(1) .highcharts-data-table {
+    margin-bottom: 3em;
+}
+
+figure.chart .highcharts-data-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: white;
+    min-width: 100%;
+    margin-top: 10px;
+    font: normal 300 0.9em "Fira Sans", sans-serif;
+}
+
+figure.chart .highcharts-data-table td, figure.chart .highcharts-data-table th, figure.chart .highcharts-data-table caption {
+    border: 1px solid silver;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+figure.chart .highcharts-data-table thead th {
+    font-weight: 500;
+}
+
+figure.chart .highcharts-data-table tbody th {
+    font-weight: 400;
+}
+
+figure.chart .highcharts-data-table tr:nth-child(even), .highcharts-data-table thead tr {
+    background: var(--table_even);
+}
+
+figure.chart .highcharts-data-table tr:hover {
+    background: var(--table_hover);
+}
+
+figure.chart .highcharts-data-table caption {
+    border-bottom: none;
+    font-size: 1.1em;
+    font-weight: 500;
+}
