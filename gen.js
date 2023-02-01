@@ -263,15 +263,17 @@ deprecated.forEach(e => {
     renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary, deprecationMessage)          
 })
 
-const articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
+let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     const data = {}
     data.meta = {}
     function cbfm(fm) {
         data.meta = fm
+        data.date = new Date(fm.date)
     }
+    
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     return data
-}).sort((a, b) => { new Date(a.meta.date) > new Date(b.meta.date) })
+}).filter(e => {return e.date < new Date()}).sort((a, b) => { return (b.date - a.date)})
 
 ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, str) {
     if (err !== null) {
