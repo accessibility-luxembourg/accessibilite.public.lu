@@ -25,8 +25,8 @@ ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
 });
 
 
-function renderToFile(data, title, file, name, prefix, withSummary = false, error = '') {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary}, function(err, str){
+function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary, withoutTitle}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -272,6 +272,12 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     }
     
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
+    $ = cheerio.load(data.html)
+    data.meta.title = $('h1').first().html()
+    data.meta.subtitle = $('h2').first().html()
+    data.meta.img = $('img').first().attr('src')
+    $('h2').first().after('<p class="date">'+data.date.toLocaleDateString('fr')+'</p>')
+    data.html = $.html()
     return data
 }).filter(e => {return e.date < new Date()}).sort((a, b) => { return (b.date - a.date)})
 
@@ -288,7 +294,7 @@ articles.forEach(e => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.date+'-'+e.meta.name+'.html', e.meta.name, '../../../', true)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.date+'-'+e.meta.name+'.html', e.meta.name, '../../../', false, '', true)
     })
 })
 

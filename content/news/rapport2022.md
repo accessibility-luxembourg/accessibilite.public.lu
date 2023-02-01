@@ -1,12 +1,7 @@
 ---
-title: L’accessibilité numérique progresse lentement... mais sûrement
 name: rapport2022
 date: 2023-01-30
-intro: "2022 à la loupe: ce que nous enseignent les analyses des apps mobiles et sites web publics"
-graph: true
 ---
-
-# titre 1
 
 <script src="../../../../content/news/rapport2022.js"></script>
 <h1>L’accessibilité numérique progresse lentement... mais sûrement</h1>

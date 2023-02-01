@@ -1,12 +1,8 @@
 ---
-title: Des réponses qui tardent à être traduites concrètement
 name: complaints2022
 date: 2023-01-31
-intro: Les réclamations relatives à l’accessibilité sont rarement satisfaites
-graph: true
 ---
 
-# titre 1
 <script src="../../../../content/news/complaints2022.js"></script>
 
 <h1>Des réponses qui tardent à être traduites concrètement</h1>

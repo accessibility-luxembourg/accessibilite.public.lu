@@ -1,12 +1,8 @@
 ---
-title: Pour le secteur privé aussi, il est grand temps de s’y mettre
 name: euro_a11y_act
 date: 2023-02-01
-intro: En 2025 entre en vigueur une nouvelle loi qui étend les obligations de conformité relatives à l’accessibilité
-graph: true
 ---
 
-# titre 1
  <h1>Pour le secteur privé aussi, il est grand temps de s’y mettre</h1>
             <h2>En 2025 entre en vigueur une nouvelle loi qui étend les obligations de conformité relatives à l’accessibilité</h2>
             <hr>
