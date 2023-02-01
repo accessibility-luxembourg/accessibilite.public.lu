@@ -1,0 +1,54 @@
+---
+title: Des réponses qui tardent à être traduites concrètement
+name: complaints2022
+date: 2023-01-31
+intro: Les réclamations relatives à l’accessibilité sont rarement satisfaites
+graph: true
+---
+
+# titre 1
+<script src="../../../../content/news/complaints2022.js"></script>
+
+<h1>Des réponses qui tardent à être traduites concrètement</h1>
+            <h2>Les réclamations relatives à l’accessibilité sont rarement satisfaites</h2>
+            <hr>
+            <div class="intro">
+                <p>Certains utilisateurs handicapés saisissent la possibilité d’alerter le SIP ou l’Ombusdman au sujet des problèmes d’accessibilité numérique qu’ils vivent au quotidien. Malheureusement, il est rare qu’une solution appropriée leur soit proposée à court terme.</p>
+            </div>
+            <p>En 2022, le SIP a reçu neuf réclamations de la part d’utilisateurs empêchés dans leur navigation ou leur consultation sur des sites web ou sur des apps mobiles.</p>
+            <figure class="pic">
+                <img src="../../../../content/news/img/iStock2.jpg" alt="Photo d'illustration montrant une femme en train d'utiliser une machine à voter utilisable par les aveugles et les malvoyants">
+                <figcaption>iStock / Getty Images / inside-studio</figcaption>
+            </figure>
+            <p>On peut dénombrer, parmi ces réclamations&#8239;:</p>
+            <ul>
+                <li>Quatre liées à des apps</li>
+                <li>Trois liées à des sites web</li>
+                <li>Une concernant l’accès à un fichier PDF</li>
+                <li>Enfin une concernant l’accès à un module CAPTCHA</li>
+            </ul>
+            <p>Parmi les services visés, trois relèvent des transports, un du domaine de la santé, un autre de l’éducation. Quatre autres ne sont pas répertoriés.</p>
+            <p><strong>Seules deux solutions à court terme ont été proposées</strong> à ces citoyens – bien que, dans l’un des deux cas, la demande ne rentrait pas dans le cadre de la loi&#8239;: il s’agissait d’un PDF non accessible, mais publié avant septembre 2018. Un organisme responsable n’a jamais répondu, et un autre a fait valoir une charge jugée disproportionnée.</p>
+            <p>Sur la période 2020-2021, le SIP avait traité 18 réclamations. Six solutions à court terme avaient été proposées. Deux organismes n’avaient jamais répondu, quatre avaient argué de la charge disproportionnée. Deux solutions proposées n’étaient pas davantage accessibles. Enfin, une demande n’a pas reçu de suite car elle ne rentrait pas dans le cadre de la loi.</p>
+            <figure class="chart">
+                <div id="complaints"></div>
+                <details>
+                    <summary>Description du graphique 7</summary>
+                    <p>Ce diagramme en barres présente la somme des réclamations reçues par le Service Information et Presse dans le cadre de problèmes d'accessibilité numérique, soit 18 en 2020 - 2021 et neuf en 2022. Respectivement, six, puis deux solutions à court terme ont été proposées.</p>
+                </details>
+                <p>Mieux intégrer les besoins exprimés par les utilisateurs reste, pour 2023, un objectif... accessible</p>
+            </figure>
+            <h3>Une fois sur quatre, la déclaration d’accessibilité n’existe tout simplement pas</h3>
+            <p>On compte plus de 700 sites et apps qui relèvent, au Luxembourg, d’organismes du secteur public. Actuellement, 180 disposent d’une déclaration d’accessibilité, portée à la connaissance du SIP. En conséquence, un quart des sites publics n’affichent pas cette déclaration, pourtant obligatoire. Ce chiffre peut être quelque peu relativisé dans la mesure où le SIP pourrait ne pas avoir connaissance de l’existence de certaines déclarations. Mais même avec quelques points de pourcentage supplémentaires, on reste très loin du compte.</p>
+            <p>Or, cette déclaration d’accessibilité est tout sauf anecdotique. C’est précisément elle qui détaille la procédure de réclamations. Qu’on soit aveugle, malvoyant, handicapé physique, etc., elle permet aussi de comprendre quel est le degré de conformité du site, quels sont les contenus non accessibles et quelles sont les charges considérées comme disproportionnées.</p>
+            <h3>«&#8239;Charge disproportionnée&#8239;», un argument moins mis en avant</h3>
+            <p>La déclaration d’accessibilité offre en effet la possibilité au responsable du site ou de l’app d’exclure du champ un certain nombre d’éléments dont les correctifs, la refonte ou la réécriture sont jugés trop coûteux par rapport au bénéfice estimé pour les utilisateurs. Citons à titre d’exemple le sous-titrage des vidéos ou encore du contenu éditorial ancien dont la reprise est jugée trop fastidieuse par rapport aux ressources disponibles.</p>
+            <p>Au <strong>premier rang</strong>, on trouve les <strong>documents PDF et Office</strong>, suivis des éléments de <strong>navigation</strong> et, pour compléter le podium, les procédures d’<strong>authentification</strong>. Il est courant que plusieurs éléments figurent au sein d’une même déclaration.</p>
+            <figure class="chart">
+                <div id="burden"></div>
+                <details>
+                    <summary>Description du graphique 8</summary>
+                    <p>Ce diagramme en barres présente, en pourcentage, les principales raisons de charge disproportionnée mises en avant dans les déclarations d'accessibilité. Les documents PDF ou Office sont l'élément le plus cité dans ce cas.</p>
+                </details>
+            </figure>
+            <p>L’évolution de 2020-2021 à 2022 montre par ailleurs qu’il est proportionnellement moins fait usage de l’argument de charge disproportionnée. Ainsi fin 2021, on comptait 79 déclarations qui comportaient au moins une mention de charge disproportionnée sur 118, soit deux sur trois. Fin 2022, ces chiffres représentaient respectivement 86 pour 180, soit moins de la moitié. Concrètement, l’an dernier, sur 62 nouvelles déclarations, seules sept ont mentionné une charge disproportionnée. Plusieurs facteurs peuvent expliquer ce chiffre encourageant&#8239;: une nature moins complexe de sites et apps mobiles, une mise à jour de précédentes déclarations desquelles le volet «&#8239;charge disproportionnée&#8239;» a été retiré, enfin des sites et apps mobiles dont la conception intègre dès le départ l’objectif d’une pleine et entière conformité.</p>

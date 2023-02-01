@@ -25,4 +25,4 @@ npx parcel build  ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/mon
 cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./dist
 
 cp -r ./src/rapports ./dist/fr
-cp -r ./content/news/datasource ./dist
+cp -r ./content/news/datasource ./dist/fr/news
