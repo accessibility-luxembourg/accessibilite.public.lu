@@ -21,7 +21,7 @@ cp ./src/files/general/* ./src/html/fr/files
 cp ./src/static/* ./src/html
 node gen.js
 
-npx parcel build  ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/monitoring/audit-simpl.html
+npx parcel build  ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/monitoring/audit-simpl.html ./src/html/fr/news/feed.xml
 cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./dist
 
 cp -r ./src/rapports ./dist/fr

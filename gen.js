@@ -5,6 +5,8 @@ const MarkdownIt = require('markdown-it')
 const uglify = require("uglify-js")
 const cheerio = require('cheerio')
 const dotenv = require('dotenv')
+const crypto = require('crypto')
+const hmacPwd = 'a11ylu'
 dotenv.config()
 
 const config = require('./conf.json')
@@ -287,6 +289,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     // add the date to the html code
     $('h3').first().after('<p class="date">'+data.date.toLocaleDateString('fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     data.html = $.html()
+    data.hash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(data)).digest('hex')
     return data
 }).filter(e => {return e.date < new Date()}).sort((a, b) => { return (b.date - a.date)})
 
@@ -297,6 +300,13 @@ ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, st
     renderToFile(str, 'Actualités', outputPath+'/fr/news/index.html', 'news/index', '../../../', true)
 })
 
+const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
+ejs.renderFile('./src/tpl/atom_feed.ejs', {data: articles, date: articles[0].date.toISOString(), hash: globalHash }, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    fs.writeFileSync(outputPath+'/fr/news/feed.xml', str)
+})
 
 articles.forEach(e => {
     ejs.renderFile('./src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../"}, function(err, str) {

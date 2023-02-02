@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">
+    <title type="html">Portail de l'accessibilité numérique</title>
+    <link href="https://accessibilite.public.lu/fr/atom.xml" rel="self" type="application/atom+xml" />
+    <link href="https://accessibilite.public.lu/" rel="alternate" type="text/html" title="Portail de l'accessibilité numérique" />
+    <updated><%= date %></updated>
+    <author>
+      <name>SIP</name>
+    </author>
+    <id>urn:md5:<%= hash %></id>
+    <generator uri="https://github.com/accessibility-luxembourg/accessibilite.public.lu">accessibilite.public.lu</generator>
+    <% data.forEach(e => { %>
+        <entry>
+        <title><%= e.meta.title %></title>
+        <link href="https://accessibilite.public.lu/fr/<%= e.meta.filename %>" rel="alternate" type="text/html" title="<%= e.meta.title %>" />
+        <id>urn:md5:<%= e.hash %></id>
+        <published><%= e.date.toISOString() %></published>
+        <updated><%= e.date.toISOString() %></updated>
+              <content type="html"><%= e.html %></content>
+        </entry>
+        <% }) %>
+    </feed>
+  
