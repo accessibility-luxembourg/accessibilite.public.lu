@@ -50,6 +50,13 @@ div.articles_summary article h2 {
     order: 1;
 }
 
+div.articles_summary article h2 a {
+    text-decoration-color: var(--queenblue);
+    text-decoration-thickness: .125em;
+    text-underline-offset: 1.5px;
+    font-weight: 400;
+}
+
 div.articles_summary article img {
     width: 100%;
     height: auto;
