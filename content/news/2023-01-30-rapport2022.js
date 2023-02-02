@@ -7,8 +7,7 @@ import 'highcharts/es-modules/masters/modules/accessibility.src.js';
 import 'highcharts/es-modules/masters/modules/pattern-fill.src.js';
 import Papa from 'papaparse';
 import Graph from '../../src/js/graph.js';
-
-console.log(Graph);
+document.querySelector('.main-container').classList.add('full_width');
 
 Highcharts.setOptions({                                                                            // highcharts french translations
     lang: Graph.Highcharts_translations

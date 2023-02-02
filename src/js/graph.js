@@ -39,12 +39,6 @@ const Highcharts_translations =  {
 }
 
 
-function should_animate() {
-    return ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;      // chart animation preferences
-}
-
-
-
 function get_cat (elt, col) {                                                                      // generic function returning an array of categories
     let data = [];
     for (let i = 0; i < elt.length; i++) {
@@ -73,7 +67,7 @@ function obCallback (loadchart) {
 
 
 function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_format) {
-    const ch_animation = should_animate();
+    const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const chart = highcharts.chart(ch_dest, {
         chart: {
             type: ch_type

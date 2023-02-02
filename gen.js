@@ -285,7 +285,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.img = $('img').first().attr('src')
 
     // add the date to the html code
-    $('h2').first().after('<p class="date">'+data.date.toLocaleDateString('fr')+'</p>')
+    $('h3').first().after('<p class="date">'+data.date.toLocaleDateString('fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     data.html = $.html()
     return data
 }).filter(e => {return e.date < new Date()}).sort((a, b) => { return (b.date - a.date)})
