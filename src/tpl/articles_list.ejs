@@ -1,10 +1,10 @@
 <div class="articles">
     <% data.forEach(e => { %>
         <article>
-            <h2><a href="./<%= e.meta.date %>-<%= e.meta.name %>.html"><%- e.meta.title %></a></h2>
+            <h2><a href="./<%= e.meta.filename %>.html"><%- e.meta.title_html %></a></h2>
             <img class="article_teaser" src="<%= e.meta.img %>" alt="" />
             <p class="date"><%= new Date(e.meta.date).toLocaleDateString('fr') %></p>
-            <p class="intro"><%- e.meta.subtitle %></p>
+            <p class="intro"><%- e.meta.subtitle_html %></p>
         </article>
     <% }) %>
 </div>

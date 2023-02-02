@@ -266,16 +266,25 @@ deprecated.forEach(e => {
 let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     const data = {}
     data.meta = {}
+
+    // add date and name to the meta from the file name
+    data.meta.filename = e.replace(/\.md$/, '')
+    data.meta.date = e.substring(0,10)
+    data.date = new Date(data.meta.date)
+
+    // get the html from the file, and get the metadata from the frontmatter
     function cbfm(fm) {
         data.meta = fm
-        data.date = new Date(fm.date)
     }
-    
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
-    data.meta.title = $('h1').first().html()
-    data.meta.subtitle = $('h2').first().html()
+    data.meta.title_html = $('h2').first().html()
+    data.meta.title = $('h2').first().text()
+    data.meta.subtitle_html = $('h3').first().html()
+    data.meta.subtitle = $('h3').first().text()
     data.meta.img = $('img').first().attr('src')
+
+    // add the date to the html code
     $('h2').first().after('<p class="date">'+data.date.toLocaleDateString('fr')+'</p>')
     data.html = $.html()
     return data
@@ -294,7 +303,7 @@ articles.forEach(e => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.date+'-'+e.meta.name+'.html', e.meta.name, '../../../', false, '', true)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true)
     })
 })
 
