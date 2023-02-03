@@ -417,7 +417,7 @@ body nav.articles_nav a:focus {
     background-color: transparent;
 }
 
-body nav.articles_nav a:hover h3, body nav.articles_nav a:focus h3 {
+body nav.articles_nav a:hover p, body nav.articles_nav a:focus p {
     color: var(--article_links);
     text-decoration: underline;
     text-decoration-color: var(--article_links);
