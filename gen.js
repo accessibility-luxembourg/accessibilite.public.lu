@@ -284,6 +284,8 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.title = $('h2').first().text()
     data.meta.subtitle_html = $('h3').first().html()
     data.meta.subtitle = $('h3').first().text()
+    data.meta.intro_html = $('.intro').first().html()
+    data.meta.intro = $('.intro').first().text()
     data.meta.img = $('img').first().attr('src')
 
     // add the date to the html code
