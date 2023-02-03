@@ -5,13 +5,13 @@
     <% if (previous !== undefined) { %>
     <a href="<%= previous.meta.filename %>.html">
         <p>article précédent</p>
-        <h3><%- previous.meta.title_html %></h3>
+        <p><%- previous.meta.title_html %></p>
     </a>
     <% } %>
     <% if (next !== undefined) { %>
     <a href="<%= next.meta.filename %>.html">
         <p>article suivant</p>
-        <h3><%- next.meta.title_html %></h3>
+        <p><%- next.meta.title_html %></p>
     </a>
     <% } %>
 </nav>

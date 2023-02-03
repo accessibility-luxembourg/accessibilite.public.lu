@@ -402,23 +402,22 @@ body nav.articles_nav a {
     position: relative;
 }
 
-body nav.articles_nav a p {
+body nav.articles_nav a p:nth-of-type(1) {
     color: var(--article_title);
     font: normal 500 0.9em var(--article_font), sans-serif;
     margin: 0;
 }
 
-body nav.articles_nav a h3 {
+body nav.articles_nav a p:nth-of-type(2) {
     font: normal 600 1.1em var(--article_font), sans-serif;
     margin: 0.3em 0 0 0;
-    color: var(--article_links);
 }
 
 body nav.articles_nav a:focus {
     background-color: transparent;
 }
 
-body nav.articles_nav a:hover h3, body nav.articles_nav a:focus h3 {
+body nav.articles_nav a:hover p, body nav.articles_nav a:focus p {
     color: var(--article_links);
     text-decoration: underline;
     text-decoration-color: var(--article_links);
