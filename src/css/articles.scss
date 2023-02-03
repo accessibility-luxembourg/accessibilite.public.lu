@@ -395,7 +395,12 @@ body nav.articles_nav {
     justify-content: space-between;
 }
 
-body nav.articles_nav a {
+body nav.articles_nav.next-only {
+    justify-content: flex-end;
+}
+
+body nav.articles_nav a, body nav.articles_nav a:visited {
+    color: var(--article_links);
     text-decoration: none;
     width: 300px;
     display: block;
