@@ -310,8 +310,8 @@ ejs.renderFile('./src/tpl/atom_feed.ejs', {data: articles, date: articles[0].dat
     fs.writeFileSync(outputPath+'/fr/news/feed.xml', str)
 })
 
-articles.forEach(e => {
-    ejs.renderFile('./src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../"}, function(err, str) {
+articles.forEach((e, i, ar) => {
+    ejs.renderFile('./src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, function(err, str) {
         if (err !== null) {
             console.log(err)
         }
