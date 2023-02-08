@@ -12,7 +12,8 @@
     "checkaccess": "node ./test/accessTests.js",
     "test:links": "concurrently -k -s first 'npm:serve' 'npm:checklinks'",
     "test:access": "concurrently -k -s first 'npm:serve' 'npm:checkaccess'",
-    "test": "npm run test:links && npm run test:access"
+    "test": "npm run test:links && npm run test:access",
+    "postinstall": "patch-package"
   },
   "watch": {
     "build": {
@@ -68,6 +69,7 @@
     "node-linkchecker": "0.0.3",
     "npm-watch": "^0.6.0",
     "parcel-bundler": "^1.12.4",
+    "patch-package": "^6.5.1",
     "sass": "^1.26.10",
     "selenium-webdriver": "^4.0.0-alpha.7",
     "uglify-js": "^3.9.2"

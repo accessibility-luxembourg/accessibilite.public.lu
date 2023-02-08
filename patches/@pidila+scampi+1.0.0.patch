@@ -1,0 +1,14 @@
+diff --git a/node_modules/@pidila/scampi/core/basics/_normalize.scss b/node_modules/@pidila/scampi/core/basics/_normalize.scss
+index 9a328ff..1cda30d 100644
+--- a/node_modules/@pidila/scampi/core/basics/_normalize.scss
++++ b/node_modules/@pidila/scampi/core/basics/_normalize.scss
+@@ -41,8 +41,7 @@ hgroup,
+ main,
+ menu,
+ nav,
+-section,
+-summary {
++section {
+   display: block;
+ }
+ 
