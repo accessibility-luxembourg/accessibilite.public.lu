@@ -1,8 +1,6 @@
 <div class="welcome-wrapper">
 <div class="left-column">
 
-<div class="alert alert-info"> <p class="alert-content">Le premier <a href="https://data.public.lu/fr/datasets/digital-accessibility-monitoring-report-2020-2021/" hreflang="en">rapport sur l'état de l'accessibilité numérique au Luxembourg</a> est en ligne. Il couvre la période 2020-2021. Sur cette période, 102 sites internet et 2 applications mobiles ont été contrôlés.</p> </div>
-
 Bienvenue sur le portail de l'accessibilité numérique du Grand-Duché de Luxembourg. Vous trouverez ici un ensemble de ressources vous permettant de rendre vos sites et applications mobiles accessibles à toutes et à tous, notamment:
 - pour les sites web, [le Référentiel Général d'Amélioration de l'Accessibilité (RGAA) version 4.1](rgaa4.1/index.html) ;
 - pour les applications mobiles, [le Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1](raam1/index.html). 
