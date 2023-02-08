@@ -67,6 +67,7 @@ function obCallback (loadchart) {
 
 
 function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_format) {
+    const ch_height = document.getElementById(ch_dest).getBoundingClientRect().height;
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const chart = highcharts.chart(ch_dest, {
         chart: {
@@ -131,6 +132,9 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
         yAxis: ch_yaxis,
         series: ch_data,
         annotations: ch_annotations,
+        exporting: {
+            sourceHeight: ch_height
+        },
         navigation: {
             menuItemStyle: {
                 fontFamily: 'Fira Sans',

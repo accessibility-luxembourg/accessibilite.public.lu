@@ -232,6 +232,10 @@ document.addEventListener('DOMContentLoaded', function () {                     
     ob.observe(document.querySelector('#full_app_compliance'));
     ob.observe(document.querySelector('#full_app_themes'));
 
+    for (let q=0; q<document.querySelectorAll("figure.chart > div:first-of-type").length; q++) {
+        document.querySelectorAll("figure.chart > div:first-of-type")[q].innerHTML = "";
+    }  
+    
     for (let d=0; d<document.getElementsByTagName("details").length; d++) {
         let accessible_div = document.createElement("div");
         accessible_div.setAttribute("class", "highcharts-description");
