@@ -11,6 +11,26 @@ Dans le cadre de la démarche de mise en accessibilité, les organismes publics 
 
 Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous contacter](contact.html).
 
+<div class="home-content-container">
+    <aside class="articles_home">
+        <h3>Dernières actualités</h3>
+        <nav role="navigation">
+            <a href="bla bla">
+                <p>L’accessibilité numérique progresse lentement... mais sûrement</p>
+                <img src="../../../content/news/img/iStock1.jpg">
+            </a>
+            <a href="bla bla">
+                <p>Des réponses qui tardent à être traduites concrètement</p>
+                <img src="../../../content/news/img/iStock2.jpg">
+            </a>
+            <a href="bla bla">
+                <p>Pour le secteur privé aussi, il est grand temps de s’y mettre</p>
+                <img src="../../../content/news/img/iStock3.jpg">
+            </a>
+        </nav>
+    </aside>
+</div>
+
 </div>
 
 <div class="right-column">
