@@ -2,7 +2,7 @@
 <div class="left-column">
 
 Bienvenue sur le portail de l'accessibilité numérique du Grand-Duché de Luxembourg. Vous trouverez ici un ensemble de ressources vous permettant de rendre vos sites et applications mobiles accessibles à toutes et à tous, notamment:
-- pour les sites web, [le Référentiel Général d'Amélioration de l'Accessibilité (RGAA) version 4.1](rgaa4.1/index.html) ;
+- pour les sites web, [le Référentiel Général d'Amélioration de l'Accessibilité (RGAA) version 4.1](rgaa4.1/index.html)&#8239;;
 - pour les applications mobiles, [le Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1](raam1/index.html). 
 
 Dans le cadre de la démarche de mise en accessibilité, les organismes publics luxembourgeois doivent produire une déclaration d'accessibilité pour chaque site et application publiés. Pour ce faire, nous vous proposons un [outil vous permettant de générer facilement vos déclarations d'accessibilité](tools/decla.html).
