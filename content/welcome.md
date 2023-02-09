@@ -13,15 +13,15 @@ Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous co
     <aside class="articles_home">
         <h3>Dernières actualités</h3>
         <nav role="navigation">
-            <a href="bla bla">
+            <a href="news/2023-01-30-rapport2022.html">
                 <p>L’accessibilité numérique progresse lentement... mais sûrement</p>
                 <img src="../../../content/news/img/iStock1.jpg">
             </a>
-            <a href="bla bla">
+            <a href="news/2023-01-31-complaints2022.html">
                 <p>Des réponses qui tardent à être traduites concrètement</p>
                 <img src="../../../content/news/img/iStock2.jpg">
             </a>
-            <a href="bla bla">
+            <a href="news/2023-02-01-european_accessibility_act.html">
                 <p>Pour le secteur privé aussi, il est grand temps de s’y mettre</p>
                 <img src="../../../content/news/img/iStock3.jpg">
             </a>
