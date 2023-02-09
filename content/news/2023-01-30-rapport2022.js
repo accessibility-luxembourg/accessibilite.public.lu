@@ -232,6 +232,12 @@ document.addEventListener('DOMContentLoaded', function () {                     
     ob.observe(document.querySelector('#full_app_compliance'));
     ob.observe(document.querySelector('#full_app_themes'));
 
+    window.onkeydown = function () {   // if user navigates with keys charts shall load immediately
+        for (let q=0; q<document.querySelectorAll("figure.chart > div:first-of-type:not([data-highcharts-chart]").length; q++) {
+            loadchart(document.querySelectorAll("figure.chart > div:first-of-type")[q].id);
+        } 
+    };
+    
     for (let q=0; q<document.querySelectorAll("figure.chart > div:first-of-type").length; q++) {
         document.querySelectorAll("figure.chart > div:first-of-type")[q].innerHTML = "";
     }  
