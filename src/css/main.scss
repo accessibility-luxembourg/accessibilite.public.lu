@@ -490,7 +490,7 @@ blockquote {
       }
       .right-column {
         flex: 1;
-        max-width: 355px;
+        max-width: 300px;
       }
     }
     #contenu {
@@ -499,5 +499,13 @@ blockquote {
 
     .clipboard .extended {
       display: inline;
+    }
+  }
+
+  @include media-breakpoint-up(large) {
+    .welcome-wrapper {
+      .right-column {
+        max-width: 355px;
+      }
     }
   }
