@@ -358,6 +358,10 @@ figure.chart .highcharts-data-table td, figure.chart .highcharts-data-table th, 
     box-sizing: border-box;
 }
 
+figure.chart .highcharts-data-table .highcharts-table-caption {
+    margin-bottom: 0;
+}
+
 figure.chart .highcharts-data-table thead th {
     font-weight: 500;
 }
