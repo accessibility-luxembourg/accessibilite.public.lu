@@ -514,7 +514,10 @@ div.home-content-container aside.articles_home nav {
 }
 
 div.home-content-container aside.articles_home nav img {
+    width: 100%;
     max-width: 400px;
+    padding: 0 1em;
+    box-sizing: border-box;
     height: auto;
     margin: 0 auto 2em auto;
 }
@@ -527,6 +530,11 @@ div.home-content-container aside.articles_home nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+div.home-content-container aside.articles_home nav a p {
+    margin: 0;
+    padding: 0 0 1em 0;
 }
 
 div.home-content-container aside.articles_home nav a:focus {
@@ -552,6 +560,7 @@ div.home-content-container aside.articles_home nav a:hover p, div.home-content-c
 
     div.home-content-container aside.articles_home nav img {
         max-width: 100%;
-        margin: 0;
+        padding: 0;
+        margin: initial;
     }
 }
