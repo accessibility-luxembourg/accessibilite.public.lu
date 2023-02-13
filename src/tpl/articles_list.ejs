@@ -1,6 +1,7 @@
 <div class="articles articles_summary">
+    <ul>
     <% data.forEach(e => { %>
-        <article>
+        <li>
             <a href="./<%= e.meta.filename %>.html">
                 <div>
                     <h2><%- e.meta.title_html %></h2>
@@ -12,6 +13,7 @@
                     <p class="date"><%= new Date(e.meta.date).toLocaleDateString('fr', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
                 </div>
             </a>
-        </article>
+        </li>
     <% }) %>
+    </ul>
 </div>
