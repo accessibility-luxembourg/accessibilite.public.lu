@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Rapport d'audit RGAA 4.1</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="markdown-body">
+<header role="banner">
+	<a href="#main">contenu principal</a>
+	<h1><span>Rapport d'audit d'accessibilité<br> Servior.lu</span></h1>
+	<p>15/11/2022</p>
+</header>
+
+<nav role="navigation">
+	<h2>Table des matières</h2>
+
+	<ul>
+		<li><a href="#introduction"><span>Introduction</span></a></li>
+		<li><a href="#echantillon"><span>Échantillon</span></a></li>
+		<li><a href="#environnement"><span>Environnement de test (base de référence)</span></a></li>
+		<li><a href="#accessibilite"><span>Accessibilité des pages auditées</span></a></li>
+		<li><a href="#avis"><span>Avis</span></a></li>
+		<li><a href="#annexe"><span>Annexe technique</span></a>
+			<ul>
+				<li><a href="#images"><span>Images</span></a></li>
+				<li><a href="#cadres"><span>Cadres</span></a></li>
+				<li><a href="#couleurs"><span>Couleurs</span></a></li>
+				<li><a href="#multimedia"><span>Multimédia</span></a></li>
+				<li><a href="#liens"><span>Liens</span></a></li>
+				<li><a href="#scripts"><span>Scripts</span></a></li>
+				<li><a href="#obligatoires"><span>Éléments obligatoires</span></a></li>
+				<li><a href="#structuration"><span>Structuration de l'information</span></a></li>
+				<li><a href="#presentation"><span>Présentation de l'information</span></a></li>
+				<li><a href="#formulaires"><span>Formulaires</span></a></li>
+				<li><a href="#navigation"><span>Navigation</span></a></li>
+				<li><a href="#consultation"><span>Consultation</span></a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<main role="main" id="main" tabindex="-1">
+	<!-- introduction -->
+	<h2 id="introduction" tabindex="-1">Introduction</h2>
+	<div>
+		<p>Ce rapport accompagne le relevé d'audit effectué sur le site «<span>&#8201;</span><span><span>servior.lu</span></span><span >&#8201;</span>».</p>
+
+		<p>La méthodologie d'audit employée repose sur le référentiel RGAA&nbsp;4.1, consultable à l'adresse suivante&nbsp;: <a href="https://accessibilite.public.lu/fr/rgaa4.1/criteres.html">https://accessibilite.public.lu/fr/rgaa4.1/criteres.html</a></p>
+
+		<p>L'audit a été réalisé au moyen de l'utilisation de navigateurs web et d'outils spécialisés. Des tests de restitution ont également été effectués conformément à la base de référence définie par le RGAA&nbsp;4.1.</p>
+
+		<h2 id="echantillon" tabindex="-1">Échantillon</h2>
+		<p>L'audit a porté sur un échantillon de <span><span>17</span></span> pages pour le niveau double A (AA)&nbsp;:</p>
+
+		<table>
+			<caption>Échantillon de l'audit</caption>
+			<tr>
+				<th scope="col"><span>Nº page</span></th>
+				<th scope="col"><span>Titre de la page</span></th>
+				<th scope="col"><span>URL</span></th>
+			</tr>
+			<tr>
+				<td>P01</td>
+				<td>Accueil</td>
+				<td>https://www.servior.lu/</td>
+			</tr>
+			<tr>
+				<td>P02</td>
+				<td>Contact</td>
+				<td>https://www.servior.lu/contact/</td>
+			</tr>
+			<tr>
+				<td>P03</td>
+				<td>Le groupe</td>
+				<td>https://www.servior.lu/servior-leader-au-luxembourg/le-groupe/ </td>
+			</tr>
+			<tr>
+				<td>P04</td>
+				<td>Historique</td>
+				<td>https://www.servior.lu/servior-leader-au-luxembourg/historique/</td>
+			</tr>
+			<tr>
+				<td>P05</td>
+				<td>Tout sur Servior</td>
+				<td>https://www.servior.lu/servior-leader-au-luxembourg/</td>
+			</tr>
+			<tr>
+				<td>P06</td>
+				<td>Publications</td>
+				<td>https://www.servior.lu/centre-des-medias/publications-officielles/</td>
+			</tr>
+			<tr>
+				<td>P07</td>
+				<td>Demande d'admission</td>
+				<td>https://www.servior.lu/form/</td>
+			</tr>
+			<tr>
+				<td>P08</td>
+				<td>Nos centres</td>
+				<td>https://www.servior.lu/nos-centres/</td>
+			</tr>
+			<tr>
+				<td>P09</td>
+				<td>Bascharage</td>
+				<td>https://www.servior.lu/Centres/bascharage/</td>
+			</tr>
+			<tr>
+				<td>P10</td>
+				<td>Home Sweat Home</td>
+				<td>https://www.servior.lu/ma-vie-chez-servior/home-sweet-home/ </td>
+			</tr>
+			<tr>
+				<td>P11</td>
+				<td>Vivre chez Servior</td>
+				<td>https://www.servior.lu/ma-vie-chez-servior/</td>
+			</tr>
+			<tr>
+				<td>P12</td>
+				<td>Repas sur roues</td>
+				<td>https://www.servior.lu/repas-sur-roues/</td>
+			</tr>
+			<tr>
+				<td>P13</td>
+				<td>Recherche "tarifs"</td>
+				<td>https://www.servior.lu/?s=tarifs</td>
+			</tr>
+			<tr>
+				<td>P14</td>
+				<td>Services</td>
+				<td>https://www.servior.lu/soutiens-et-services-pour-non-residents/</td>
+			</tr>
+			<tr>
+				<td>P15</td>
+				<td>FAQ</td>
+				<td>https://www.servior.lu/faq/</td>
+			</tr>
+			<tr>
+				<td>P16</td>
+				<td>Actualités</td>
+				<td>https://www.servior.lu/nouvelles/</td>
+			</tr>
+			<tr>
+				<td>P17</td>
+				<td>Actualités, Six jours au lac de Constance</td>
+				<td>https://www.servior.lu/six-jours-au-lac-de-constance-servior-na-pas-de-barrieres/</td>
+			</tr>
+		</table>
+
+		<h2 id="environnement" tabindex="-1">Environnement de test (base de référence)</h2>
+
+		<p>Quelques critères RGAA, notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d'assistance associées à des navigateurs et des systèmes d'exploitation. Pour qu'un dispositif HTML / WAI-ARIA ou son alternative soit considéré comme compatible avec l'accessibilité, il faut qu'il soit pleinement fonctionnel, en termes de restitution et de fonctionnalités sur certaines combinaisons. Vous trouverez une explication détaillée de cet <a href="https://accessibilite.public.lu/fr/rgaa4.1/obligations.html#environnement-de-test-ou-base-de-r%C3%A9f%C3%A9rence">environnement de tests dans le document du RGAA 4.1</a>.</p>
+
+		<p>Nous détaillons ci-dessous la base de référence utilisée pour réaliser les tests de restitution des composants du site.</p>
+
+		<h3>Environnement de test –&nbsp;ordinateur</h3>
+
+		<table>
+			<caption>Environnement de test (environnement de bureau)</caption>
+			<thead>
+				<tr>
+					<th scope="col">Technologie d'assistance</th>
+					<th scope="col">Navigateur</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>NVDA 2022.2</td>
+				<td>Firefox 106</td>
+			</tr>
+			<tr>
+				<td>JAWS 2022</td>
+				<td>Firefox 106</td>
+			</tr>
+			<tr>
+				<td>VoiceOver (macOS Monterey version 12.5)</td>
+				<td>Safari 15.6</td>
+			</tr>
+		</table>
+
+		<h3>Environnement de test —&nbsp;mobile</h3>
+
+		<table>
+			<caption>Environnement de test (environnement mobile)</caption>
+			<thead>
+				<tr>
+					<th scope="col">Système d'exploitation</th>
+					<th scope="col">Technologie d'assistance</th>
+					<th scope="col">Navigateur</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>Android natif 12</td>
+				<td>TalkBack (dernière version)</td>
+				<td>Chrome 104</td>
+			</tr>
+		</table>
+
+		<h2 id="accessibilite" tabindex="-1">Accessibilité des pages auditées</h2>
+
+		<p>Le site présente un niveau général d'accessibilité <span><span>faible</span></span>.</p>
+
+		<p>Le niveau de conformité relevé atteint 34,78 % de conformité sur l'ensemble des pages auditées, avec 28,3 % de conformité au niveau simple A (A) et 56,25 % de conformité au niveau double A (AA).</p>
+
+		<p><b>Le site est non conforme.</b></p>
+
+		<h3>Conformité RGAA&nbsp;4.1 du site</h3>
+
+		<table>
+			<caption>Conformité RGAA&nbsp;4.1</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>28,30%</td>
+				<td>71,70%</td>
+			</tr>
+			<tr>
+				<th scope="row">AA (légal)</th>
+				<td>34,78%</td>
+				<td>65,22%</td>
+			</tr>
+		</table>
+
+		<h4>Note sur le calcul de conformité</h4>
+
+		<p>La conformité globale (Tableau « Conformité RGAA&nbsp;4.1 ») est calculée de la manière suivante&nbsp;: <b>C / (C+NC)</b>. C'est le nombre de critères conformes et NC le nombre de critères non conformes.</p>
+
+		<p>C'est ce nombre qui constitue la référence légale. Il représente le taux de conformité de l'échantillon.</p>
+
+		<p>Il est normal que le taux de conformité global diffère sensiblement du taux de conformité par page. En effet, un critère NC (non conforme) sur une page rend le critère non conforme sur l'ensemble de l'échantillon.</p>
+
+		<p>Pour qu'un site soit conforme (100&nbsp;% des critères applicables sont conformes au niveau AA), il est nécessaire que le taux de conformité par page équivaille à 100&nbsp;%.</p>
+
+		<h3>Conformité pour chaque niveau</h3>
+
+		<table>
+			<caption>Conformité pour chaque niveau</caption>
+			<tr>
+				<td></td>
+				<th scope="col">Conforme</th>
+				<th scope="col">Non conforme</th>
+			</tr>
+			<tr>
+				<th scope="row">A</th>
+				<td>28,30%</td>
+				<td>71,70%</td>
+			</tr>
+			<tr>
+				<th scope="row">AA</th>
+				<td>56,25%</td>
+				<td>43,75%</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par pages</h3>
+
+		<table>
+			<tr>
+				<th scope="col"><span>Nº page</span></th>
+				<th scope="col"><span>Titre de la page</span></th>
+				<th scope="col"><span>%C</span></th>
+			</tr>
+			<tr>
+				<td>P01</td>
+				<td>Accueil</td>
+				<td>47,62%</td>
+			</tr>
+			<tr>
+				<td>P02</td>
+				<td>Contact</td>
+				<td>70,73%</td>
+			</tr>
+			<tr>
+				<td>P03</td>
+				<td>Le groupe</td>
+				<td>77,5%</td>
+			</tr>
+			<tr>
+				<td>P04</td>
+				<td>Historique</td>
+				<td>90,63%</td>
+			</tr>
+			<tr>
+				<td>P05</td>
+				<td>Tout sur Servior</td>
+				<td>83,33%</td>
+			</tr>
+			<tr>
+				<td>P06</td>
+				<td>Publications</td>
+				<td>93,75%</td>
+			</tr>
+			<tr>
+				<td>P07</td>
+				<td>Demande d'admission</td>
+				<td>60,42%</td>
+			</tr>
+			<tr>
+				<td>P08</td>
+				<td>Nos centres</td>
+				<td>83,33%</td>
+			</tr>
+			<tr>
+				<td>P09</td>
+				<td>Bascharage</td>
+				<td>71,43%</td>
+			</tr>
+			<tr>
+				<td>P10</td>
+				<td>Home Sweet Home</td>
+				<td>82,35%</td>
+			</tr>
+			<tr>
+				<td>P11</td>
+				<td>Vivre chez Servior</td>
+				<td>85,71%</td>
+			</tr>
+			<tr>
+				<td>P12</td>
+				<td>Repas sur roues</td>
+				<td>76,92%</td>
+			</tr>
+			<tr>
+				<td>P13</td>
+				<td>Recherche "tarifs"</td>
+				<td>90,63%</td>
+			</tr>
+			<tr>
+				<td>P14</td>
+				<td>Services</td>
+				<td>90,91%</td>
+			</tr>
+			<tr>
+				<td>P15</td>
+				<td>FAQ</td>
+				<td>81,58%</td>
+			</tr>
+			<tr>
+				<td>P16</td>
+				<td>Actualités</td>
+				<td>68,57%</td>
+			</tr>
+			<tr>
+				<td>P17</td>
+				<td>Actualités, Six jours au lac de Constance</td>
+				<td>77,78%</td>
+			</tr>
+		</table>
+
+		<h3>Moyenne par thématiques</h3>
+		<table>
+			<tr>
+				<th scope="col"><span>Thématiques</span></th>
+				<th scope="col"><span>C</span></th>
+				<th scope="col"><span>NC</span></th>
+			</tr>
+			<tr>
+				<td>Images</td>
+				<td>0%</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>Cadres</td>
+				<td>100%</td>
+				<td>0%</td>
+			</tr>
+			<tr>
+				<td>Couleurs</td>
+				<td>0%</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>Multimédia</td>
+				<td>25%</td>
+				<td>75%</td>
+			</tr>
+			<tr>
+				<td>Tableaux</td>
+				<td>0%</td>
+				<td>0%</td>
+			</tr>
+			<tr>
+				<td>Liens</td>
+				<td>50%</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>Script</td>
+				<td>0%</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>Éléments obligatoires</td>
+				<td>50%</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>Structuration</td>
+				<td>0%</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>Présentation</td>
+				<td>50%</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>Formulaires</td>
+				<td>30%</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>Navigation</td>
+				<td>44%</td>
+				<td>56%</td>
+			</tr>
+			<tr>
+				<td>Consultation</td>
+				<td>40%</td>
+				<td>60%</td>
+			</tr>
+		</table>
+
+		<h3>Impacts utilisateurs</h3>
+
+		<p>Les principales personnes impactées sont les personnes aveugles et celles qui naviguent au clavier. Les problèmes liés aux scripts, à l'API ARIA, aux problèmes
+			 de structure, aux pertes d'informations et aux formulaires rendent parfois difficile l'utilisation du site par ces utilisateurs.</p>
+
+		<h3>Contenus dérogés</h3>
+
+		<p>La dérogation est un moyen d'exclure du champ d'application du référentiel des contenus particuliers. Les cas de dérogations sont très encadrés, vous en trouverez le détail dans le <a href="https://github.com/DISIC/guide-derogations/blob/master/guide_derogations.pdf">guide des dérogations</a>.</p>
+
+		<p>Les contenus suivants n'entrent pas dans le calcul de la conformité ni dans le périmètre des éléments à rendre accessibles, ils sont dérogés&nbsp;:</p>
+
+		<ul>
+			<li>Le module de gestion des cookies;</li>
+			<li>Le fil d'actualités Facebook.</li>
+		</ul>
+
+		<h4>Droit à la compensation</h4>
+
+		<p>Les dérogations émises notamment pour charge disproportionnée demandent en contrepartie la mise en place d'un moyen de compensation pour les utilisateurs. Pour les documents bureautiques par exemple, vous devez fournir un moyen à l'utilisateur de demander une version accessible d'un document s'il en a besoin. Cela peut être un mail ou un formulaire de contact.</p>
+
+		<h3>Note sur le relevé des non-conformités</h3>
+
+		<p>Ne sont cités dans ce rapport que quelques exemples issus du relevé des non-conformités.</p>
+
+		<p>De plus, toutes les occurrences d'une non-conformité ne sont pas listées dans le relevé. Par exemple&nbsp;: les listes, les balises, les champs de formulaires, le relevé mentionne quelques occurrences, mais ne les cite pas tous.</p>
+
+		<h2 id="avis" tabindex="-1">Avis</h2>
+
+		<p>Le site présente un niveau d'accessibilité faible, avec notamment de nombreuses erreurs de structure, des composants JS non accessibles, rendant la navigation au clavier et/ou avec les technologies d'assistance compliquée voire impossible. 
+			On constate également des problèmes liés aux images, aux couleurs, aux éléments multimédias, à l'utilisation des balises, à la présentation de l'information, aux formulaires et à la navigation entre autres.  </p>
+
+		<p>Les non-conformités les plus bloquantes pour les utilisateurs concernent&nbsp;: </p>
+
+		<ul>
+			<li>Des scripts JS non accessibles à la navigation au clavier ni compatibles avec les technologies d'assistance ;</li>
+			<li>Des images porteuses d'information sans texte alternatif ;</li>	
+			<li>Des informations données par la forme ou la couleur ;</li>	
+			<li>Des éléments multimédias sans alternative ;</li>
+			<li>Des erreurs de structure des pages ;</li>
+			<li>Des liens d'évitement non fonctionnels ;</li>	
+			<li>Des pièges au clavier avec Firefox ;</li>
+			<li>Des éléments insérés en CSS non restitués aux technologies d'assistance ;</li>
+			<li>Des champs de formulaire sans étiquette, des champs obligatoires et des formats de saisie attendus non signalés ;</li>	
+			<li>Des documents en téléchargement non accessibles.</li>
+			</li>
+		</ul>
+
+		<p>Ce sont donc ces points qui devront nécessiter une attention toute particulière et qui demanderont le plus d'efforts.</p>
+	</div>
+
+	<h2 id="annexe" tabindex="-1">Annexe technique</h2>
+
+	<!-- ////////////////////////////////
+		1. thématique image -->
+	<h3 id="images" tabindex="-1">Images</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-porteuse-d-information">image porteuse d'information</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-textuelle-image">alternative textuelle</a> pertinente et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#description-detaillee-image">description détaillée</a> si nécessaire. Lier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#legende">légendes</a> à leurs images. Remplacer les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#image-texte">images textes</a> par du <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#texte-style">texte stylé</a> lorsque c'est possible.</span></p>
+		</div>
+
+
+		<h4>Images de décoration</h4>
+
+		<p>Le site contient des images de décoration qui ne sont pas correctement identifiées, soit parce qu'elles ont une alternative renseignée, soit parce qu'il manque les attributs nécessaires pour qu'elles soient ignorées par les technologies d'assistance.</p>
+
+		<p>Ces images n'apportent aucune information et peuvent causer des problèmes de compréhension pour les aveugles et les grands malvoyants qui vont écouter les contenus avec un lecteur d'écran.</p>
+
+		<ul>
+			<li>Dans le cas d'une image insérée avec la balise <code>img</code>, mettre un <code>alt=&quot;&quot;</code>.</li>
+			<li>Dans le cas d'une image insérée avec la balise <code>svg</code>, mettre une	propriété ARIA <code>aria-hidden=&quot;true&quot;</code>.</li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/img-dec.png" alt="" />
+		<p>Certaines images de décoration ne sont pas correctement identifiées, par exemple :</p>
+		<ul>
+			<li>Sur toutes les pages, des pictogrammes <code>&lt;svg&gt;</code> décoratifs;</li>
+			<li>Des flèches <code>&lt;svg&gt;</code> décoratives à la suite des liens sur la plupart des pages (exemple : la page "Accueil", "Contact" etc. ). </li>
+		</ul>
+
+
+		<h4>Images porteuses d'information</h4>
+
+		<p>Il est nécessaire de donner une alternative pertinente dans le cas où la suppression de l'image entraînerait un problème de compréhension des contenus.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/img-info.png" alt="" />
+		<p>Sur plusieurs pages, on retrouve des images ou des pictogrammes porteurs d'information, par exemple :</p>
+			<ul>
+				<li>Dans la page "Nos centres", les pictogrammes <code>&lt;svg&gt;</code> représentant les services offerts par les centres ;</li>
+				<li>Dans la page "Vivre chez Servior", le logo du Gouvernement pour lequel une alternative devrait être renseignée.</li>
+			</ul>
+			
+		
+		<h4>Images porteuses d'information complexe</h4>
+
+		<p>Certaines images porteuses d'informations sont complexes et nécessitent une <b>description détaillée, pertinente, structurée et adjacente</b> à l'image afin de permettre aux personnes ne percevant pas les images (comme les personnes aveugles), ou ayant des difficultés à les comprendre lorsqu'elles contiennent du texte (personnes ayant des difficultés de lecture, comme les dyslexiques par exemple) d'accéder à l'information.</p>
+
+		<p>Il sera possible de masquer cette description et de prévoir un bouton permettant à l'utilisateur de l'afficher si besoin (par exemple&nbsp;: «&nbsp;Afficher la description de l'image&nbsp;»). Voir un <a href="https://access42.net/etude-usage-ta-2017">exemple de ce mécanisme</a>. Il est également possible de proposer un lien adjacent à l'image vers la description détaillée.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/img-complexe.png" alt="" />
+		<p>Sur plusieurs pages, on retrouve des images porteuses d'information complexe, par exemple :</p>
+		<ul>
+			<li>Dans la page "Historique", l'image retraçant l'historique de Servior  ;</li>
+			<li>Dans la page "Nos centres", l'image des centres Servior identifiants les maisons actuelles ou les constructions en cours .</li>
+		</ul> 
+			
+	</div>
+
+	<!-- ////////////////////////////////
+		3. thématique couleur -->
+	<h3 id="couleurs" tabindex="-1">Couleurs</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Ne pas donner l'<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#information-donnee-par-la-couleur">information</a> uniquement par la couleur et utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contraste">contrastes</a> de couleurs suffisamment élevés pour les textes et les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#composant-d-interface">composants d'interface</a>.</p>
+		</div>
+
+		<h4>Contrastes des textes</h4>
+
+		<p>Plusieurs couleurs présentent un rapport de contraste insuffisant, ce qui peut poser problème aux personnes déficientes visuelles qui ont des difficultés à percevoir les couleurs ou les contrastes.</p>
+
+		<h5>Rapports de contrastes définis par le RGAA</h5>
+
+		<ul>
+			<li>Pour les textes qui ont une taille de police calculée inférieure à 24px sans effet de graisse ou une taille de police calculée inférieure à 18,5px avec effet de graisse, le rapport de contraste entre la couleur du texte (y compris le texte en image) et son arrière-plan doit être de <b>4.5:1</b>, au moins.</li>
+			<li>Pour les textes qui ont une taille de police calculée supérieure ou égale à 24px sans effet de graisse ou une taille de police calculée supérieure ou égale à 18,5px avec effet de graisse, le rapport de contraste entre la couleur du texte (y compris le texte en image) et son arrière-plan doit être de <b>3:1</b>, au moins.</li>
+		</ul>
+
+
+		<p>Vous pouvez foncer les couleurs pour obtenir le rapport de contraste exigé.</p>
+
+		<p>Si la charte graphique ne peut être modifiée, fournissez une méthode aux utilisateurs pour consulter le site avec des contrastes suffisants. Ceci peut être réalisé simplement avec une fonctionnalité JavaScript et une surcharge CSS des couleurs.</p>
+
+		<p>Vous pouvez voir un exemple de ce type de mécanisme sur le site <a href="https://www.sncf.com/fr">sncf.com</a>. Dans les réglages d'accessibilité, vous trouverez une option qui permet d'afficher le site avec des contrastes renforcés et inversés.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/couleur-contratstetxt.png" alt="" />
+		<p>Dans la page "Services", on trouve un titre blanc sur fond blanc "Table de midi et repas sur roues", visible uniquement lorsque l'on utilise les outils de renforcement des contrastes. </p>
+		
+
+		<h4>Contraste des composants d'interface</h4>
+
+		<p>Les composants d'interface, les illustrations porteuses d'information ou encore les mises en couleurs porteuses d'information doivent être suffisamment contrastés pour être perçus par les utilisateurs ayant des troubles de perception des couleurs. Par exemple, une icône porteuse d'information devra avoir un rapport de contraste avec la couleur de fond de 3. De même, pour un champ de saisie de formulaire, dont la zone active est matérialisée par sa bordure, alors la couleur de cette bordure devra avoir un rapport de contraste de 3 avec la couleur de fond de la page.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/couleur-composants.png" alt="" />
+		<p>Sur certaines pages ou pour certains composants, l'utilisation des outils de renforcement des contrastes rend certains contenus imperceptibles, par exemple en page "Accueil":</p>
+		<ul>
+			<li>Les éléments du menu ;
+			<li>Les icônes des réseaux sociaux du bloc "Suivez-nous".</li> </li>
+		</ul>
+
+		<h4>Information par la couleur</h4>
+
+		<p>Lorsqu'une information est donnée par la couleur, il faut qu'elle soit également véhiculée par une autre méthode, par exemple par un texte qui donne la même information, pour être perçue par les utilisateurs aveugles.</p>
+
+		<p>Il faut également donner <b>un indice visuel autre que la couleur</b>, afin de répondre aux besoins des personnes déficientes visuelles (les daltoniens par exemple). Il peut s'agir d'un <b>symbole</b>, d'une <b>texture</b>, de <b>chiffres.</b></p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/info-couleur.png" alt="" />
+		<p>Dans les pages "Tout sur Servior" ou "Demande d'admission", on trouve des informations véhiculées uniquement par la couleur, par exemple :</p>
+		<ul>
+		<li>Dans la page "Demande d'admission", l'identification des étapes présentant une erreur de saisie ; </li>
+		<li>Dans la page "Tout sur Servior", la page active est uniquement signalée par un changement de couleur.</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		4. thématique multimedia -->
+	<h3 id="multimedia" tabindex="-1">Multimédia</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-temporel-type-son-video-et-synchronise">média temporel</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#transcription-textuelle-media-temporel">transcription textuelle</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#sous-titres-synchronises-objet-multimedia">sous-titres synchronisés</a> et une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#audiodescription-synchronisee-media-temporel">audiodescription</a> synchronisée pertinents. Donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-non-temporel">média non temporel</a> une alternative textuelle pertinente. Rendre possible le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-la-consultation-d-un-media-temporel">contrôle de la consultation</a> de chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#media-temporel-type-son-video-et-synchronise">média temporel</a> et non temporel au clavier et s'assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d'assistance</a>.</span></p>
+		</div>
+
+		<h4>Identifier les vidéos</h4>
+
+		<p>Il est nécessaire d'identifier la vidéo et permettre ainsi
+		aux utilisateurs de comprendre quelle est l'information présentée dans ce
+		contenu. </p>
+
+		<p>Vous disposez de deux méthodes pour le faire&nbsp;:</p>
+
+		<ul>
+			<li>soit faire précéder la vidéo par un <b>titre</b> (solution
+		recommandée)&nbsp;;</li>
+			<li>soit faire suivre la vidéo d'une <b>phrase de légende</b>
+		(paragraphe).</li>
+		</ul>
+
+		<h4>Transcription textuelle</h4>
+
+		<p>Les vidéos présentes sur le site ne disposent pas de transcription textuelle. Il s'agit d'un impact majeur d'accessibilité. En effet, la transcription textuelle est utile pour différents types d'utilisateurs (aveugles, malvoyants, sourds, malentendants, handicapés moteurs, handicapés cognitifs).</p>
+
+		<p>Cette transcription doit être un <b>fichier structuré</b> (docx, HTML) qui reprend toutes les informations présentes (visuelles et sonores) dans la vidéo.</p>
+
+		<p>Cette transcription peut être située&nbsp;:</p>
+
+		<ul>
+			<li>soit sur la même page que la vidéo&nbsp;;</li>
+			<li>soit ailleurs sur le site. Dans ce cas, ajouter alors un lien
+		vers la transcription sous la vidéo par exemple.</li>
+		</ul>
+
+		<h4>Sous-titres</h4>
+
+		<p>Chaque vidéo doit disposer de <b>sous-titres synchronisés pertinents</b>, pour permettre aux utilisateurs sourds ou malentendants d'accéder au contenu oralisé de la vidéo.</p>
+
+		<p>L'utilisateur doit pouvoir <b>activer ou désactiver les sous-titres</b> depuis le lecteur vidéo. Si ce n'est pas possible, une solution consiste à fournir deux versions de la même vidéo&nbsp;: une version sans sous-titres et une version sous-titrée (On fera ensuite un lien réciproque de l'une vers l'autre).</p>
+
+		<h4>Audiodescription</h4>
+
+		<p>Chaque vidéo doit disposer d'une <b>version audiodécrite</b>, si nécessaire. En effet, des textes incrustés ou des actions d'intérêt dans une vidéo ne seront pas perçus par un utilisateur aveugle.</p>
+
+		<p>De plus, l'utilisateur doit pouvoir activer ou désactiver l'audiodescription depuis le lecteur vidéo.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/multimedia-video.png" alt="" />
+		<p>On trouve dans la page "Le groupe", une vidéo qui ne possède pas d'audiodescription ou de transcription textuelle, de sous-titres synchronisés (seuls des sous-titres de traduction sont présents) ou de titre l'identifiant clairement.</p>
+		
+
+		<h4>Alternative</h4>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/multimedia-carte.png" alt="" />
+		<p>On constate en page "Accueil" que la carte interactive des centres permettant d'afficher les informations sur un centre n'a pas d'alternative.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		6. thématique liens -->
+	<h3 id="liens" tabindex="-1">Liens</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p>Donner des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">intitulés de lien</a><span> explicites, grâce à des informations de </span><a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#contexte-du-lien">contexte</a> notamment, utiliser le titre de lien le moins possible. S'assurer que le nom visible est contenu dans le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#intitule-ou-nom-accessible-de-lien">nom accessible</a>.</p>
+		</div>
+
+
+
+		<h4>Présence d'intitulés</h4>
+
+		<p>Un lien doit toujours posséder un intitulé permettant à l'utilisateur de comprendre sa destination. <b>Les liens contenant uniquement des objets graphiques (images, icônes, etc.) posent souvent problème pour les personnes aveugles.</b></p>
+
+		<p>Pour ces liens, la technique pour fournir un intitulé dépend des cas&nbsp;:</p>
+		<ul>
+			<li>Si ces liens-images sont construits avec des balises images (<code>&lt;img /&gt;</code>), renseignez l'alternative de l'image (par exemple&nbsp;: <code>&lt;a
+		href=&quot;https://twitter.com/example&quot;&gt;&lt;img src=&quot;path/to/img/png&quot; alt=&quot;Suivez-nous sur Twitter&quot; /&gt;&lt;/a&gt;</code>)</li>
+			<li>Si ces liens-images sont construits avec des balises SVG (<code>&lt;svg&gt;</code>), alors ajoutez sur cette balise un <code>role=&quot;img&quot;</code>
+		pour indiquer aux lecteurs d'écran qu'il s'agit bien d'une image et un intitulé par <code>aria-label=&quot;Suivez-nous sur Twitter&quot;</code>.</li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/liens-intitules.png" alt="" />
+		<p>En pages "Accueil" ou "Six jours au lac de Constance", on trouve des liens sans intitulé, par exemple : </p>
+		<ul>
+			<li>Le lien pointant vers la page d'accueil visible en haut de page ; </li>
+			<li>Dans la galerie photo de la page "Six jours au lac de Constance", des liens-image avec des alternatives d'images non renseignées.</li>
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		7. thématique scripts -->
+	<h3 id="scripts" tabindex="-1">Scripts</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Donner si nécessaire à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#script">script</a> une <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#alternative-a-script">alternative</a> pertinente. Rendre possible <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage">le contrôle de chaque code script au moins par le clavier et la souris</a> et s'assurer de leur <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#compatible-avec-les-technologies-d-assistance">compatibilité avec les technologies d'assistance</a>. Identifier les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#message-de-statut">messages de statut</a> lorsque c'est nécessaire.</span></p>
+		</div>
+
+		<h4>Utilisation des boutons et des liens</h4>
+
+		<p>Pour les aveugles et les grands malvoyants qui utilisent un lecteur d'écran, ce manque de distinction claire entre les liens et les boutons peut poser de graves problèmes.</p>
+
+		<p>Ainsi, <b>un bouton implémenté sous la forme d'un lien qui déclenche une action de la page, risque de perturber l'utilisateur</b> qui s'attendra au chargement d'une nouvelle page.</p>
+
+		<p>De manière générale, les liens devraient être réservés à l'affichage d'une nouvelle page ou la création de liens d'accès rapide dans le contenu. Dans tous les autres cas, l'emploi d'un bouton d'action est plus pertinent.</p>
+
+		<p>Enfin, chaque bouton doit avoir un nom accessible défini, soit par l'intermédiaire d'un texte (visible ou positionné hors écran) ou d'une propriété <code>title</code>, <code>aria-label</code> ou <code>aria-labelledby</code>.</p>
+
+		<h5>Constats sur le site</h5>
+		<img src="images/scripts-boutons.png" alt="" />
+		<p>Dans certaines pages, on trouve des liens ou balises (<code>&lt;span&gt;</code>) utilisées à la place de boutons. Par exemple :</p>
+			<ul>
+			<li>En page "Accueil", l'élément "Charger plus" sous le fil Facebook doit être dans un bouton.</li>
+			<li>En page "Demande d'admission", les fonctionnalités "Étape précédente" et "Étape suivante" doivent être des boutons.</li>
+			<li>En page "Contact", les fonctionnalités "En savoir plus" doivent être des boutons.</li>
+			</ul>
+			<p>On trouve également :</p>
+			<ul>
+			<li>Un bouton sans nom accessible : le bouton de menu burger visible dans l'en-tête des pages.</li>
+			<li>Des boutons utilisés à la place de liens, par exemple : dans la page "Accueil", "Lire l'article", "En savoir plus" dans le bloc "Tout savoir sur l'admission"
+				 ou "Découvrez nos services pour non-résidents", "Vivre chez Servior", "Services pour non-résidents", "Travailler chez Servior" dans le bloc "Je souhaite" .</li>
+			</ul>
+
+		<h4>Utilisation inappropriée de propriétés ARIA</h4>
+
+		<p>Les propriétés ARIA sont chargées de <b>transmettre des informations indispensables à la restitution et l'utilisation des composants</b> développés avec JavaScript aux technologies d'assistance. Une <b>utilisation inappropriée</b> peut poser des <b>problèmes de restitution</b> notamment.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/scripts-aria.png" alt="" />
+		<p>Le role ARIA "link" est utilisé de manière inappropriée sur tous les liens du site.</p>
+
+		<h4>Carrousels</h4>
+
+		<p>Certaines pages contiennent des carrousels qui n'implémentent pas ou mal le <a href="https://www.w3.org/WAI/ARIA/apg/patterns/carousel/">modèle de conception ARIA Carousel.</a></p>
+		<h5>Constats sur le site</h5>
+
+		<img src="images/scripts-carousel.png" alt="" />
+		<p>Dans les pages "Accueil", "Repas sur roues" ou "Bascharage", on trouve des carrousels qui ne sont pas correctement implémentés. </p>
+
+
+
+		<h4>Système d'onglet (tabs)</h4>
+
+		<p>Certaines pages contiennent des systèmes d'onglets qui n'implémentent pas ou mal le <a href="https://www.w3.org/WAI/ARIA/apg/patterns/tabpanel/">modèle de conception ARIA Tabs.</a></p>
+		<h5>Constats sur le site</h5>
+
+		<img src="images/scripts-tabs.png" alt="" />
+		<p>Sur les pages "Tout sur Servior" ou "Nos centres", on trouve des systèmes d'onglets qui ne sont pas correctement implémentés. Il n'est pas possible de tabuler entre les éléments. </p>
+
+		<h4>Système d'ouverture (disclosure)</h4>
+
+		<p>La page "Accueil" contient un menu burger et un switcher "Outils d'accessibilité" qui n'implémentent pas ou mal le <a href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/">modèle de conception ARIA Disclosure.</a></p>
+		
+
+		<h4>Éléments interactifs inaccessibles au clavier</h4>
+
+		<p>Si un élément ne peut pas recevoir le focus ou n'est pas totalement utilisable au clavier, les utilisateurs pour lequel le clavier est le seul moyen de naviguer seront bloqués.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/scripts-clavier.png" alt="" />
+		<p>Dans le formulaire de la page "Demande d'admission", des éléments sont inaccessibles au clavier en raison de la mauvaise implémentation des composants. 
+			Le formulaire présente notamment des cases à cocher qui n'implémentent pas le motif de conception <a href="https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/"> Aria Checkbox</a> et des
+			  fonctionnalités non utilisables (passage entre les étapes par exemple) au clavier.</p>
+		
+		<h4>Changements de contexte</h4>
+			<p>Un changement de contexte est une situation où un utilisateur ne peut pas anticiper le comportement 
+			d’une fonctionnalité lorsque celle-ci ouvre une nouvelle page, valide un formulaire ou ajoute ou modifie du contenu dans la page par exemple.</p>
+			<p>Cela concerne plus spécifiquement les fonctionnalités qui se lancent sans que l’utilisateur puisse
+			 l’anticiper comme la soumission automatique d’un champ de formulaire sur la sélection d’un item ou lorsque l’utilisateur quitte un champ de saisie.</p>
+		<h5>Constats sur le site</h5>
+		<img src="images/scripts-contexte.png" alt="" />
+		<p>La page "Contact" contient un élément qui déclenche des fonctionnalités qui changent le contexte sans que l’utilisateur puisse l’anticiper : lorsque l'on sélectionne 
+			une des options dans le formulaire "Contacter un centre", le formulaire est soumis automatiquement.</p>
+
+	</div>
+
+	<!-- ////////////////////////////////
+		8. thématique Éléments obligatoires -->
+	<h3 id="obligatoires" tabindex="-1">Éléments obligatoires</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Vérifier que chaque page web a un code valide selon le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#type-de-document">type de document</a>, un <a	href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre-de-page">titre</a> pertinent et une indication de <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#langue-par-defaut">langue par défaut</a>. Vérifier que les balises ne sont pas utilisées <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#uniquement-a-des-fins-de-presentation">uniquement à des fins de présentation</a>, que les changements de langues et de direction de sens de lecture sont indiqués.</span></p>
+		</div>
+
+		<h4>Titre de la page</h4>
+
+		<p>Le titre de la page (visible dans l'onglet du navigateur) est un élément de repère dans le site web. Pour les utilisateurs de lecteurs d'écran (utilisateurs aveugles ou grands malvoyants), c'est le premier élément restitué par le lecteur d'écran au chargement de la page. Cela permet de donner du contexte aux utilisateurs qui n'ont pas une vision globale de la page. C'est l'information à laquelle les utilisateurs avec des troubles de la mémoire accèdent lorsqu'ils naviguent avec l'historique de navigation du navigateur. Il est donc essentiel d'avoir des titres de pages pertinents, concis et très souvent uniques dans le site, et qui reflètent de la position de l'utilisateur dans le site web.</p>
+
+		<p>Il est des cas particuliers, comme les pages dont le contenu est une liste de résultats paginés (ex.&nbsp;: les résultats de recherche), pour lesquels le titre doit <b>refléter la nature de la recherche</b> ainsi que le <b>numéro de page en cours de consultation</b>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/eo-title.png" alt="" />
+		<p>Le titre de la page Actualités (page 16) ne reprend pas le numéro de page en cours de consultation. </p>
+
+		<h4>Indication de langue</h4>
+
+		<p><b>Les lecteurs d'écran utilisent les indications de langue pour vocaliser le contenu dans la langue définie.</b> La page doit contenir une définition de langue principale (généralement sur l'élément <code>html</code>).
+		</p>
+
+		<p>Ensuite, les éléments de langue étrangère présents dans le contenu doivent être signalés. Si on trouve dans la page des termes absents du dictionnaire de la langue principale de la page, il faut les identifier afin que le lecteur d'écran les restitue dans la langue appropriée. En effet, une mauvaise prononciation pourrait mener à des incompréhensions pour les utilisateurs qui reposent uniquement sur des restitutions orales. Les noms propres sont exclus de cette obligation.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/eo-langue.png" alt="" />
+		<p>Sur plusieurs pages, on trouve des textes pour lesquels le changement de langue n'est pas signalé, par exemple :</p>
+		<ul>
+			<li>En page "Accueil", la devise <span lang="de">"Den Alter liewen"</span> que l'on retrouve également en pages "Tout sur Servior" ou "FAQ";</li>
+			<li>Dans la page "Actualités", plusieurs passages de texte. Par exemple : "<span lang="de">Konscht kënnt keen Alter</span>";</li>
+			<li>Dans la page "<span lang="en">Home sweet Home</span>", le texte en anglais "<span lang="en">Home sweet Home</span>".</li>
+	</ul>	
+
+		<h4>Validité du code</h4>
+
+		<p>Les technologies d'assistance, comme les lecteurs d'écran ou les systèmes de contrôle à la voix, s'appuient sur le code des pages pour générer les restitutions et les interactions avec l'utilisateur. Un lecteur d'écran va exploiter le code HTML fourni par le navigateur et les informations accessibles au moyen des API d'accessibilité du système.</p>
+
+		<p><b>Si le code comporte des erreurs (balises mal fermées par exemple), il y a un risque que les fonctionnalités du lecteur d'écran soient impactées</b>, comme la navigation de lien en lien par exemple. </p>
+
+		<p>Pour vérifier la conformité d'une page, vous pouvez utiliser	le <a href="https://validator.w3.org/nu/">validateur mis à disposition par le W3C</a>.</p>
+
+		<h5>Constats sur le site</h5>
+		<p>On trouve des erreurs de validité du code qui se répercutent sur de nombreuses pages ("Accueil", "Demande d'admission", "Recherche" par exemple) telles une mauvaise imbrication des balises (des boutons dans des liens) ou de nombreuses valeurs d'attributs dupliquées.</p>
+
+		<h4>Balises utilisées à des fins de présentation</h4>
+
+		<p>Les éléments de structure HTML ont chacun une sémantique particulière (paragraphe, titre, image, lien, etc.). <b>Si les éléments sont mal employés</b> (détournés de leur utilité première), cela peut poser des <b>problèmes aux utilisateurs qui naviguent à l'aide d'une technologie d'assistance (lecteur d'écran, plug-in…)</b>. En effet, les technologies d'assistance disposent de raccourcis permettant de naviguer rapidement entre certains types d'éléments (paragraphes, titres, listes, etc.). Si ces éléments sont mal employés, les utilisateurs ne peuvent pas utiliser ces fonctionnalités de repère et de navigation dans le contenu.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/eo-balises.png" alt="" />
+		<p>Sur plusieurs pages, on trouve des balises utilisées à des fins de présentation, par exemple: en page "Accueil", la mention "15 centres" ou  "Suivez-nous" en bas de page.</p>
+		<p>On note également l'utilisation de balises servant à créer 
+			des liens à la place de paragraphes dans les blocs présentant des informations chiffrées sur les centres ou Servior (pages "Le groupe", "Vivre chez Servior", "Repas sur roues"). </p>
+	</div>
+
+	<!-- ////////////////////////////////
+		9. Structuration de l'information -->
+	<h3 id="structuration" tabindex="-1">Structuration de l'information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#titre">titres</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#listes">listes</a>, des abréviations et des citations pour structurer l'information. S'assurer que la structure du document est cohérente.</p>
+		</div>
+
+		<h4>Titres</h4>
+
+		<p>Le titrage des contenus est une étape importante dans la structuration des contenus. Cela répond à deux besoins&nbsp;:</p>
+		<ul>
+			<li>identifier rapidement un contenu recherché&nbsp;;</li>
+			<li>naviguer rapidement dans le contenu en se déplaçant de titre en titre.</li>
+		</ul>
+
+		<p>Un titrage correct fournit à l'utilisateur d'un lecteur d'écran un plan du document et lui permet de naviguer de titre en titre pour se déplacer plus rapidement dans le contenu de la page.</p>
+
+		<p>Pour valider la structure de votre page, vous pouvez utiliser l'extension <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/">Firefox HeadingsMap</a>. Lorsque l'extension est active, sélectionnez l'onglet « Headings » et vérifiez la cohérence et l'imbrication des titres.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/structure-titres.png" alt="" />
+		<p>Des titres sont manquants sur plusieurs pages (ex : "Accueil", "Contact", "Bascharage", "Home Sweet Home", "Vivre chez Servior", "Actualités" etc.).</p>
+
+		<p> Certains textes doivent être des titres, par exemple :</p>
+			<ul>
+				<li>Dans la page "Accueil", les textes "Sélectionner un centre", "A votre écoute!", "Suivez-nous" etc. ;</li>
+				<li>Dans la page "Contact",  les textes "Contacter un centre", "Contacter un service" etc. ;</li>
+				<li>Dans la page "Actualités, Six jours au lac de Constance", les textes "Préparation minutieuse", "Gîte de qualité", "Pas de problème de mobilité".</li>
+			</ul>
+			 
+		<h4>Listes</h4>
+
+		<p>La structuration en listes permet aux utilisateurs de lecteurs d'écran de <b>consulter plus rapidement le contenu</b>, grâce à des raccourcis spécifiques, et d'accéder directement à une liste ou de la passer sans avoir à en parcourir tous les items.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/structure-listes.png" alt="" />
+		<p>Sur plusieurs pages ("Accueil", "Le groupe", "Bascharage", "Vivre chez Servior" etc. ), des suites d'éléments ne sont pas correctement structurées.</p>
+		<p> On trouve, en page "Accueil" par exemple, plusieurs suites de liens qui constituent des listes, entre autres : </p>
+		<ul>
+		<li>La suite de liens "Vivre chez Servior", "Soutiens et services pour non-résidents", "Tout sur Servior", "Travailler chez Servior" ;</li>
+		<li>La suite "Formulaire d'admission", "Actualité", "Documents", "Contact" ; </li>
+		<li>En bas de page, la suite "Covid-19", "Contact", "Bienvenue chez Servior", "Emploi", "FAQ". </li>
+			</ul>
+		<h4>Citations</h4>
+
+		<p>L'absence de signalement des citations peut rendre le contenu plus complexe à comprendre pour les personnes aveugles et les grands malvoyants, et générer des ambiguïtés et des incompréhensions.</p>
+
+		<h5>Constats sur le site</h5>
+
+
+		<img src="images/structure-citations.png" alt="" />
+		<p>Dans les pages "Tout sur Servior" ou "Six jours au lac de Constance", on trouve des citations qui ne sont pas signalées. </p>
+		<p>Par exemple, dans la page "Six jours au lac de Constance", les reprises de propos de résidents telles :
+			 <q>Mais quel bonheur de découvrir ce magnifique hôtel, avec des chambres très grandes</q> constituent des citations qui doivent être signalées.</p>
+		
+		<!--9.2-->
+			 <h4>Structure du document</h4>
+
+		<p>L'utilisation correcte des balises HTML5 et des landmarks ARIA va permettre d'enrichir la restitution pour les utilisateurs aveugles qui ne perçoivent pas les mises en forme&nbsp;: la navigation principale ne sera plus perçue simplement comme une liste de liens, elle sera restituée à l'utilisateur comme un élément de navigation, par l'intermédiaire du lecteur d'écran qui annoncera « région » ou « repère ».</p>
+
+		<p>De plus, ces marqueurs sémantiques vont également constituer des éléments de navigation rapide dans la page. Grâce à un raccourci clavier, certains utilisateurs vont pouvoir naviguer plus rapidement entre les régions qui auront été ainsi identifiées.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/structure-structure.png" alt="" />
+		<p>Plusieurs marqueurs sémantiques sont manquants ou incorrectement positionnés ce qui se répercute sur l'ensemble des pages.</p>
+
+		<p> Des éléments ne sont pas contenus dans une zone de navigation, par exemple : </p>
+		<ul>
+			<li>Les éléments du menu principal ;</li>
+			<li>Le menu latéral gauche ;</li>
+			<li>Le lien d'accès rapide "Allez au contenu principal".</li>
+		</ul>
+		<p>Certaines pages présentent également des éléments qui ne sont pas non plus contenus dans une zone de navigation. Par exemple :</p>
+		<ul>
+		<li>Le sommaire dans la page "<span lang="en">Home Sweet Home"</span> ;</li>
+		<li>Le sommaire des étapes dans la page "Demande d'admission" ; </li>
+		<li>L'élément de pagination dans la page "Actualités". </li>
+		</ul>
+		<p>De plus, les outils d'accessibilité ne sont pas des éléments de navigation et ne doivent pas être contenus dans une zone de navigation.</p>
+	</div>
+
+
+	<!-- ////////////////////////////////
+		10. thématique Présentation de l'information -->
+	<h3 id="presentation" tabindex="-1">Présentation de l'information</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Utiliser des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#feuille-de-style">feuilles de styles</a> pour contrôler la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#presentation-de-l-information">présentation de l'information</a>. Vérifier l'effet de l'agrandissement des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#taille-des-caracteres">tailles des caractères</a> sur la lisibilité. S'assurer que les liens sont correctement identifiables, que la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#prise-de-focus">prise de focus</a> est signalée, que l'interlignage est suffisant et donner la possibilité à l'utilisateur de contrôler la justification des textes. S'assurer que les textes cachés sont <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#correctement-restitue-par-les-technologies-d-assistance">correctement restitués</a> et que l'information n'est pas donnée uniquement par la forme ou la position d'un élément. S'assurer que les contenus sont lisibles et utilisables dans une fenêtre de largeur réduite. Veiller à ce que l'application de paramètres typographiques n'entraîne pas la perte de contenu ou de fonctionnalité. S'assurer que les contenus qui apparaissent au survol et à la prise de focus puissent être contrôlés par l'utilisateur. </span></p>
+		</div>
+
+		<h4>Utilisation de CSS exclusivement</h4>
+
+		<p>Certains <b>utilisateurs qui présentent des troubles de la lecture (personnes dyslexiques par exemple), vont avoir besoin d'adapter la présentation des pages avec leurs propres mises en forme</b>. Cela est possible sans difficulté si le site web utilise exclusivement les feuilles de styles CSS pour réaliser les mises en forme. Cependant, l'utilisation d'attributs et balises HTML de mise en forme rend ces adaptations plus compliquées, sinon impossibles.</p>
+
+		<p><a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#presentation-de-l-information">Le RGAA donne la liste des attributs et balises qu'il est interdit d'utiliser</a>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<p>On trouve des attributs de mise en forme sur le menu latéral gauche ou des
+			 attributs de redimensionnement sur le carrousel présent en page "Accueil" ou le cadre de la vidéo dans la page "Le groupe". </p>
+		<h4>Contenu visible sans les feuilles de styles</h4>
+
+		<p>Des contenus informatifs insérés avec CSS (avec des images de fond contenant du texte en image) <b>peuvent ne pas être restitués par les lecteurs d'écran ou les systèmes de loupes vocalisés.</b></p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/presentation-css.png" alt="" />
+		<p>La page "Demande d'admission", présente des éléments informatifs qui ne peuvent pas être restitués. Par exemple :</p>
+		<ul>
+			<li>Les numéros des étapes ;</li>
+			<li>L'ensemble des cases à cocher du formulaire.</li>
+		</ul>
+		<!--10.3-->
+
+		<h4>Contenu compréhensible sans les styles&nbsp;: ordre visible vs ordre réel</h4>
+
+		<p>Un utilisateur aveugle n'a pas accès à la mise en forme qui parfois est porteuse d'informations importantes, notamment des relations entre les éléments. </p>
+
+		<p><b>Il est important de ne pas implémenter les textes dans l'ordre visuel, mais bien dans l'ordre logique de dépendance et hiérarchie des éléments.</b></p>
+
+		<p>Le contenu doit rester compréhensible sans les feuilles de styles (vous pouvez tester vos contenus en désactivant les feuilles de styles). </p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/presentation-ordre.png" alt="" />
+		<p>Dans les pages "Accueil", "Bascharage", "<span lang="en">Home Sweet Home</span>" ou "Actualités", l'ordre de lecture des éléments n'est pas toujours cohérent. Par exemple :</p>
+		<ul>
+			<li>Dans les pages "Accueil", "Bascharage" ou "Actualités", la date et la catégorie de l'article sont placées avant le titre de l'actualité ;</li>
+			<li>Dans la page "<span lang="en">Home Sweet Home</span>", le sommaire est placé après le contenu dans le code source.</li>
+		</ul>
+	<h4>Liens dont la nature n'est pas évidente</h4>
+		<p>Un lien dont la nature n'est pas évidente est un lien qui peut être confondu avec un texte normal lorsqu'il est signalé uniquement 
+		par la couleur par certains utilisateurs ne percevant pas ou mal les couleurs.</p>
+		<p>Les personnes déficientes visuelles peuvent ignorer ces liens puisque ceux-ci ne sont pas visuellement discernables du reste du texte dans lequel ils sont insérés.</p>
+		<h5>Constats sur le site</h5>
+		<img src="images/presentation-liens.png" alt="" />
+		<p>Dans les pages "Contact", "Le groupe", "Historique", "Demande d'admission", "Repas sur roues", on trouve des liens dont la nature n'est pas évidente, par exemple : </p>
+		<ul>
+			<li>Les liens "annuaire" ou nous trouver" en page "Contact" ;</li>
+			<li>Le lien "Voici" en page "Demande d'admission" ;</li>
+			<li>Le lien "philosophie culinaire" en page "Repas sur roues".</li>
+			
+		</ul>
+
+		<h4>Visibilité de la prise de focus</h4>
+
+		<p>Les personnes avec un <b>handicap moteur qui naviguent au clavier</b> peuvent rencontrer des difficultés considérables à utiliser du contenu <b>si elles ne sont pas en mesure de repérer l'indication visuelle du focus</b> et ses déplacements.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/presentation-focus.png" alt="" />
+		<p>La prise de focus n'est pas visible sur tous les éléments, y compris en modifiant le contraste. Par exemple pour : </p>
+		<ul>
+			<li>Les éléments du menu ou du pied de page sur fond rouge ;</li>
+			<li>En pied de page, certains réseaux sociaux (YouTube, Instagram) ; </li>
+			<li>Dans la page "FAQ", les boutons de panneaux dépliants.</li>
+		</ul>
+		<h4>Information donnée par la forme, la taille ou la position</h4>
+
+		<p>Les <b>utilisateurs qui ne perçoivent pas la mise en forme (utilisateurs aveugles par exemple)</b> n'auront pas accès aux informations véhiculées par la mise en forme, la taille (taille du texte pour signifier un degré d'importance par exemple), ou la position (une consigne indiquant de cliquer en haut à droite par exemple). Il est nécessaire de <b>fournir un équivalent textuel</b> qui permette d'offrir la même information aux utilisateurs aveugles.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/presentation-forme.png" alt="" />
+		<p>Certaines pages présentent des informations par la forme , par exemple :</p>
+		<ul>
+			<li>Dans la page "Demande d'admission", les erreurs du formulaire sont encadrées en rouge ; </li>
+			<li>Dans la page "Actualités", la page active est signalée par la forme.</li>
+
+		</ul>
+	</div>
+
+	<!-- ////////////////////////////////
+		11. thématique Formulaires -->
+	<h3 id="formulaires" tabindex="-1">Formulaires</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Associer pour chaque formulaire chacun de ses <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champ-de-saisie-de-formulaire">champs</a> à son <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#etiquette-de-champ-de-formulaire">étiquette</a>, grouper les champs dans des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#champs-de-meme-nature">blocs	d'informations de même nature</a>, regrouper <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#items-de-meme-nature-des-listes-de-choix">les items de même nature dans les listes de choix</a>, donner à chaque <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#bouton-formulaire">bouton</a> un intitulé explicite. Vérifier la présence d'aide à la saisie, s'assurer que	le <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-de-saisie-formulaire">contrôle	de saisie</a> est accessible et que l'utilisateur peut contrôler les données à caractère financier, juridique ou personnel.</span></p>
+		</div>
+
+		<h4>Étiquettes et champs</h4>
+
+		<p>Les champs de formulaires doivent tous posséder des étiquettes correctement reliées.</p>
+
+		<p>Une <b>étiquette de champ</b> est un texte situé à proximité du champ de formulaire qui permet de connaître la nature, le type ou le format des informations attendues.</p>
+
+		<p>De cette manière, lorsqu'un utilisateur entre dans le champ de saisie avec un lecteur d'écran, le lecteur d'écran lit le contenu de l'étiquette. L'utilisateur comprend alors ce qu'il doit saisir. </p>
+
+		<p>Sans cela, même si une étiquette est présente visuellement, l'utilisateur entendra «&nbsp;champ de saisie vide&nbsp;» en entrant dans le champ et ne saura donc pas quoi saisir.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/formulaires-etiquettes.png" alt="" />
+<p>Dans plusieurs pages, des champs de formulaire n'ont pas d'étiquette. Par exemple : </p>
+<ul>
+	<li>Dans la page "Contact", le champ permettant de choisir le centre à contacter ainsi que tous les champs du formulaire de contact ;</li>
+	<li>Dans la page "Bascharage", les champs du formulaire de contact "Nom", "Prénom", "Téléphone", "Mail", "Service" ;</li>
+	<li>Dans la page "Demande d'admission", par exemple, le champ "Motif de la demande", des champs dans "Informations de la personne à contacter"  ; </li>
+	<li>Dans les pages "Actualités" et "Actualités, Six jours au lac de Constance", les options "Par catégorie" et "Par maison" ne sont pas reliées programmatiquement à l’étiquette visible.</li>
+</ul>
+<p>De plus, dans la page "Accueil", le champ "Recherche" sans bouton de soumission n'a pas une étiquette pertinente.</p>
+		<h4>Contrôle de saisie et aide à la saisie</h4>
+
+		<p>Tous les champs obligatoires doivent être identifiés préalablement à toute validation de l’utilisateur.</p>
+
+		<p>Pour les champs qui attendent un format de saisie particulier pour être validés, ce format doit être spécifié à l’utilisateur par un passage de texte visible à proximité du champ. De plus, si l’utilisateur commet une erreur sur ce champ, alors le message d’erreur doit présenter un exemple réel de saisie. </p>
+
+		<p>Enfin, les messages d'erreur de saisie des champs de
+formulaire doivent être liés correctement aux champs en erreur.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/formulaires-erreur.png" alt="" />
+		<p>Dans les pages "Contact", "Demande d'admission" et "Bascharage", les champs obligatoires et les formats de saisie attendus ne sont pas clairement identifiés. Par exemple :</p>
+		<ul>
+		<li>les champs obligatoires sont uniquement identifiés avec un astérisque, sans explication de sa signification ;</li>
+		<li>Les formats attendus ne sont pas spécifiés dans un passage de texte (courriel, téléphone par exemple) ;</li>
+		<li>Les messages d'erreur ne présentent pas d'exemple réel de saisie ;</li>
+		<li>Les messages d'erreur ne sont pas reliés aux champs (page "Demande d'admission").</li>
+</ul>
+		<h4>Regroupements de champs et légendes</h4>
+
+		<p>Les regroupements de champs sont utiles pour <b>ne pas induire certains utilisateurs en erreur</b>, notamment les personnes aveugles.</p>
+		<p>Les cas typiques de regroupements nécessaires sont les <b>groupes de cases à cocher ou de boutons radio</b>.</p>
+		<p>Il faut implémenter les champs dans un regroupement lorsque c'est nécessaire et il est obligatoire de définir une légende à ce regroupement.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/formulaires-regroupement.png" alt="" />
+		<p>Dans la page "Contact", les champs "Contactez-moi" (téléphone et mail) ne sont pas regroupés avec une légende.</p>
+		<p>Dans la page "Demande d'admission", par exemple :</p>
+		<ul>
+			<li>Les groupes de cases à cocher ne sont pas regroupés et n'ont pas de légende ;</li>
+			<li>Les items de même nature des listes de sélection ne sont pas regroupés dans la liste de sélection "Choix du centre" (Étape 5).</li>
+		</ul>
+		
+		<h4>Identification des données attendues</h4>
+
+		<p>Certains utilisateurs qui ont des troubles d'accès au langage verbal (paralysie cérébrale, aphasie  par exemple) auront des difficultés à accéder au sens des termes écrits. Ainsi, pour leur permettre de remplacer les étiquettes présentes dans les formulaires par des étiquettes (verbales ou imagées) qu'ils connaissent, il est nécessaire d'identifier les champs avec un attribut particulier, de sorte qu'une technologie d'assistance pourra réaliser la personnalisation du formulaire nécessaire à l'utilisateur.</p>
+		<p>L'identification de ces champs permet également aux utilisateurs d'employer des outils pour remplir automatiquement les champs identifiés avec des valeurs de l'utilisateur.</p>
+		<p>On ne va rechercher que les champs qui attendent une donnée personnelle. Le RGAA demande d'utiliser l'attribut <code>autocomplete</code> et il fournit <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liste-des-valeurs-possibles-pour-l-attribut-autocomplete">l'ensemble des valeurs possibles pour l'attribut</a>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<p>Dans les pages "Contact", "Demande d'admission" et "Bascharage", l'identification des données attendues n'est pas présente sur les champs attendant une donnée personnelle, par exemple : nom, prénom, adresse, téléphone, courriel.</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		12. thématique Navigation -->
+	<h3 id="navigation"  tabindex="-1">Navigation</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation&nbsp;:</h4>
+			<p><span>Faciliter la navigation dans un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ensemble-de-pages">ensemble de pages</a> par au moins deux <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#systeme-de-navigation">systèmes de navigation</a> différents (<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#menu-et-barre-de-navigation">menu de navigation</a>, <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#page-plan-du-site">plan du site</a> ou <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#moteur-de-recherche-interne-a-un-site-web">moteur de recherche</a>), un fil d'Ariane et l'indication de la page active dans le menu de navigation. Identifier les groupes de liens importants et la <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#zone-de-contenu-principal">zone de contenu</a> et donner la possibilité de les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#liens-d-evitement-ou-d-acces-rapide">éviter par des liens de navigation interne</a>. S'assurer que l'<a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#ordre-de-tabulation">ordre de tabulation</a> est cohérent et que la page ne comporte pas de piège au clavier. S'assurer que les <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#raccourci-clavier">raccourcis clavier</a> qui utilisent une seule touche sont contrôlables par l'utilisateur.</span></p>
+		</div>
+
+		<h4>Systèmes de navigation</h4>
+
+		<p>Le RGAA demande qu'un site propose au moins deux systèmes de navigations différents. Prévoir deux systèmes de navigation au moins est important, car&nbsp;: </p>
+		<ul>
+			<li>tous les utilisateurs ne naviguent pas de la même manière&nbsp;;</li>
+			<li><b>certains systèmes de navigation</b> peuvent s'avérer trop <b>complexes</b> à utiliser, en particulier pour les personnes qui ont recours à des technologies d'assistance. Par exemple, un menu de navigation trop riche, comme un méga-menu, peut nécessiter beaucoup d'actions pour un utilisateur qui navigue exclusivement au clavier, et donc rendre sa recherche d'information très laborieuse.</li>
+		</ul>
+
+		<p>Par systèmes de navigation, on entend <b>tout procédé permettant une navigation dans le site</b> ou dans une page, parmi&nbsp;: </p>
+
+		<ul>
+			<li>un <b>menu de navigation principal</b>&nbsp;;</li>
+			<li>un <b>plan du site</b>&nbsp;;</li>
+			<li>un <b>moteur de recherche</b>.</li>
+		</ul>
+
+		<p><b>Note</b>&nbsp;: un moteur de recherche est considéré comme un moyen de navigation s'il indexe <b>toutes les pages du site</b> (y compris les pages de type "&nbsp;Mentions légales" ou "Politique de confidentialité"), et non pas seulement un choix limité (par exemple, seulement les offres tarifaires).</p>
+
+		<p>Le plan du site, s’il est présent, doit être représentatif de l’arborescence du site et ne proposer que des liens fonctionnels.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/navigation-menu.png" alt="" />
+		<p>Dans la page "Demande d'admission", le menu et les barres de navigation ne sont plus visibles.</p>
+
+		<h4>Liens d'accès rapide</h4>
+
+		<p>On note l'absence d'un lien d'accès rapide au contenu au moins. Les liens d'accès rapides sont utiles aux utilisateurs qui naviguent au clavier, mais aussi aux utilisateurs malvoyants qui utilisent une loupe d'écran afin de sauter rapidement les éléments redondants, comme la navigation.</p>
+
+		<p>Pour cela, il est préférable que ces liens soient toujours visibles à l'écran. Malgré cela, ces liens peuvent être positionnés hors écran, mais doivent au moins être rendus visibles à la prise de focus.</p>
+
+		<p>Il est donc nécessaire d'implémenter au moins un lien d'accès rapide au contenu, qui permet de sauter toute la navigation principale.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/navigation-accesrapide.png" alt="" />
+		<p>On trouve un lien d'accès rapide rendu visible à la prise de focus mais qui n'est pas fonctionnel.</p>
+
+		<h4>Landmarks ARIA</h4>
+
+		<p>Pour fournir des points de repère aux utilisateurs aveugles, il faudra également implémenter les <b>landmarks ARIA</b> sur les balises HTML&nbsp;5 de la page. </p>
+
+		<h5>Constats sur le site</h5>
+
+		<p>Les landmarks ARIA sont manquants sur :</p>
+		<ul>
+			<li>l'en-tête principal,</li>
+			<li>le contenu principal,</li>
+			<li>les zones de navigation,</li> 
+			<li>le pied de page,</li>
+			<li>le conteneur du moteur de recherche.</li> 
+		</ul>
+		<h4>Ordre de tabulation</h4>
+
+		<p>La <b>navigation dans les contenus</b> peut être considérablement compliquée pour les personnes aveugles ou les personnes handicapées motrices qui naviguent au clavier si <b>l'ordre de tabulation</b> n'est pas <b>cohérent</b>.</p>
+
+		<p>L'ordre de tabulation est déterminé par l'ordre des éléments dans le code HTML. Il ne suit pas forcément l'ordre de lecture de  la page ou de l'écran, mais il doit être cohérent en fonction de la nature des contenus et des fonctionnalités.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<p>Pour certaines pages ("Accueil", "Demande d'admission","Actualités"), l'ordre de tabulation n'est pas cohérent. Par exemple : </p>
+		<ul>
+			<li>En page "Accueil", lorsque l'on déploie au clavier le menu principal, on tabule dans d'autres éléments avant d'atteindre ceux du menu ;</li>
+			<li>En page "Demande d'admission", le focus n'est pas positionné sur le premier élément du formulaire ;</li>
+			<li>En page "Actualités", les filtres sont parcourus après la liste d'actualités.</li>
+		</ul>
+		<p>Avec le navigateur Firefox, certaines pages présentent également des pièges au clavier, c'est-à-dire qu'il n'est pas possible de passer à l'élément suivant, dans les pages "Accueil", "Nos centres", "Actualités".</p>
+	</div>
+
+	<!-- ////////////////////////////////
+		12.3thématique Consultation -->
+	<h3 id="consultation" tabindex="-1">Consultation</h3>
+	<div>
+		<div class="bloc">
+			<h4>Recommandation</h4>
+			<p><span>Vérifier que l'utilisateur a le contrôle des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#procede-de-rafraichissement">procédés de rafraîchissement</a>, des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#changement-brusque-de-luminosite-ou-effet-de-flash">changements brusques de luminosité</a>, des ouvertures de nouvelles fenêtres et des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#controle-contenu-en-mouvement-ou-clignotant">contenus en mouvement ou clignotants</a>. Ne pas faire dépendre l'accomplissement d'une tâche d'une limite de temps sauf si elle est essentielle et s'assurer que les données saisies sont récupérées après une interruption de session authentifiée. Proposer des <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#version-accessible-pour-un-document-en-telechargement">versions accessibles</a> ou rendre accessibles les documents en téléchargement. S'assurer que la consultation n'est pas dépendante de l'orientation de l'écran. Toujours proposer un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#gestes-complexes-et-gestes-simples">geste simple</a> en alternative d'un <a href="https://accessibilite.public.lu/fr/rgaa4.1/glossaire.html#gestes-complexes-et-gestes-simples">geste complexe</a> permettant de réaliser une action.</span></p>
+		</div>
+
+		<h4>Documents en téléchargement</h4>
+
+		<p>Assurez-vous que chaque document soit <b>accessible</b> (cf. les <a href="https://github.com/DISIC/guides-documents_bureautiques_accessibles">Guides de créations de documents bureautiques accessibles</a>), ou qu'il dispose d'une <b>alternative accessible proposant le même
+		contenu</b> (par exemple, une version HTML correctement structurée).</p>
+
+		<h5>Constats sur le site</h5>
+
+		<p>Dans les pages "Publications", "Demande d'admission" et "Repas sur roues", on trouve des documents au format PDF en téléchargement qui ne sont pas correctement structurés et qui n'ont pas d'alternative. </p>
+
+		<h4>Contenus cryptiques</h4>
+		<p>Les contenus cryptiques (art ascii, émoticône, syntaxe cryptique par exemple) peuvent être incompréhensibles pour une personne aveugle ou une personne handicapée intellectuelle.
+		Il est donc nécessaire de donner la signification du texte cryptique par un des moyens suivants :</p>
+		<ul>
+		<li>Si l’élément est un élément interactif (lien ou bouton) utiliser l’attribut title : <code><button title="insérer un sourire">:)</button></code></li>
+		<li>Sinon, utiliser le contexte adjacent : <code><p>:) (sourire)</p></code></li>
+		</ul>
+
+		<h5>Constats sur le site</h5>
+
+		<img src="images/consultation-cryptique.png" alt="" />
+			<p>En page "FAQ", on trouve un émoticon "clin d'œil" n'ayant pas d'alternative dans la partie "À propos des repas" - "Quelles sont les activités proposées".</p>
+		<h4>Contenus en mouvement ou clignotants</h4>
+
+		<p>Les contenus en mouvement peuvent être problématiques pour les utilisateurs avec des difficultés de lecture, en effet un contenu qui défile trop rapidement empêche d'accéder de fait à l'information. De plus, pour les personnes avec un déficit de l'attention,  le mouvement les empêche de lire le reste de la page.</p>
+
+		<p>Il faut alors permettre aux utilisateurs d'<b>arrêter</b>&nbsp;et de&nbsp;<b>redémarrer</b>&nbsp;le contenu en mouvement<span>&#8201;</span>, ou d'afficher tout le contenu&nbsp;<b>sans le mou­ve­ment</b> ou de&nbsp;<b>masquer</b>&nbsp;le contenu en mouvement et de le&nbsp;<b>réafficher</b>.</p>
+
+		<h5>Constats sur le site</h5>
+
+		<p> Les carrousels présents en page "Accueil" et "Bascharage" ne possèdent pas de bouton de mise en pause.</p>
+
+	</div>
+</main>
+<footer role="contentinfo">
+	<p>Ce rapport est publié par le <a href="https://sip.gouvernement.lu">service information et presse</a> sous <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">licence CC0</a>.</p>
+</footer>
+</body>
+
+</html>
