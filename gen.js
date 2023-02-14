@@ -293,7 +293,11 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.html = $.html()
     data.hash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(data)).digest('hex')
     return data
-}).filter(e => {return e.date < new Date()}).sort((a, b) => { return (b.date - a.date)})
+}).sort((a, b) => { return (b.date - a.date)})
+
+if (production) {
+    articles = articles.filter(e => {return e.date <= new Date()})
+}
 
 ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, str) {
     if (err !== null) {
@@ -303,7 +307,7 @@ ejs.renderFile('./src/tpl/articles_list.ejs', {data: articles}, function(err, st
 })
 
 const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
-ejs.renderFile('./src/tpl/atom_feed.ejs', {data: articles, date: articles[0].date.toISOString(), hash: globalHash }, function(err, str) {
+ejs.renderFile('./src/tpl/atom_feed.ejs', {data: articles, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
