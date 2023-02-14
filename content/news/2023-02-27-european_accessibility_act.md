@@ -38,11 +38,12 @@
             <p>Certains organismes publics, visés par la première loi sur l’accessibilité – celle de 2019 – pourraient également être concernés par la nouvelle, notamment dans le domaine de la mobilité.</p>
             <p>En revanche, les micro-entreprises (moins de dix salariés, bilan annuel n’excédant pas deux millions d’euros) seraient exonérées de l’obligation de se conformer aux exigences en matière d’accessibilité. De même, des mesures transitoires prévoient des dérogations pour les terminaux en libre-service, comme pour les prestataires de services qui pourront continuer à fournir ces derniers en utilisant des produits considérés dès 2025 comme non conformes. Enfin, il sera là aussi possible d’avancer l’argument d’une charge disproportionnée face à l’obligation de modifier en profondeur le produit ou service. Ces dispositions transitoires doivent prendre fin en 2030.</p>
             <p>En dépit de ces garde-fous, c’est bien à un changement de paradigme dans l’ensemble de l’Union européenne que prépare cet Acte européen, avec l’ambition de voir sur le marché des produits et services réellement utilisables par tout le monde.</p>
+            <!--
             <aside class="more">
                 <h5>Sur le même sujet</h5>
                 <ul>
-                    <li><a href="2023-01-30-rapport2022.html">L’accessibilité numérique progresse lentement... mais sûrement</a></li>
-                    <li><a href="2023-01-31-complaints2022.html">Des réponses qui tardent à être traduites concrètement</a></li>
-                    <li><a href="2023-02-01-european_accessibility_act.html">Pour le secteur privé aussi, il est grand temps de s’y mettre</a></li>
+                    <li><a href="2023-02-20-rapport2022.html">L’accessibilité numérique progresse lentement... mais sûrement</a></li>
+                    <li><a href="2023-02-24-complaints2022.html">Des réponses qui tardent à être traduites concrètement</a></li>
                 </ul>
             </aside>
+            -->

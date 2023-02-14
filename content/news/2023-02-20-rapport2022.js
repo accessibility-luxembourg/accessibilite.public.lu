@@ -7,7 +7,6 @@ import 'highcharts/es-modules/masters/modules/accessibility.src.js';
 import 'highcharts/es-modules/masters/modules/pattern-fill.src.js';
 import Papa from 'papaparse';
 import Graph from '../../src/js/graph.js';
-document.querySelector('.main-container').classList.add('full_width');
 
 Highcharts.setOptions({                                                                            // highcharts french translations
     lang: Graph.Highcharts_translations
@@ -223,7 +222,9 @@ function loadchart (chartid) {                                                  
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {                                        // create description div linked to charts for screen readers
+document.addEventListener('DOMContentLoaded', function () {                 // create description div linked to charts for screen readers
+    document.querySelector('.main-container').classList.add('full_width');
+
     const ob = new IntersectionObserver(Graph.obCallback(loadchart), {threshold: 0.3});
     ob.observe(document.querySelector('#full_compliance'));
     ob.observe(document.querySelector('#full_themes'));
