@@ -1,5 +1,8 @@
 Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{lang=en} par le SIP dans le cadre de sa mission relative à l'accessibilité numérique :
 
+### Contrôle 2023
+- [Échantillon pour le contrôle de l'accessibilité numérique 2023](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2023/)
+
 ### Contrôle 2022
 - [Échantillon pour le contrôle de l'accessibilité numérique 2022](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2022/)
 - [Audits complets de l'accessibilité numérique 2022](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2022/)
