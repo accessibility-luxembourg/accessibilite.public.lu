@@ -48,7 +48,8 @@ La vérification de l'arborescence du document et de la hiérarchie des titres d
 
 L'analyse des fichiers bureautiques peut être réalisée au moyen de différents outils en fonction du format du fichier :
 
-* PAC (*PDF Accessibility Checker*{lang=en}) version 3 pour Windows (<https://www.access-for-all.ch/en/pdf-accessibility-checker.html>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
+* PAC (*PDF Accessibility Checker*{lang=en}) version 2021 pour Windows (<https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
+* Les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l’accessibilité (voir l'article [Rendre vos documents Word accessibles aux personnes atteintes d’un handicap](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) et les articles associés) ;
 * *Word Accessibility Plug-in*{lang=en} pour Microsoft Office Windows (<http://accessibility.zhaw.ch/index.php?id=6&L=1>) : extension du logiciel Microsoft Word qui permet d'éditer et de contrôler l'accessibilité d'un document bureautique éditable au format .doc ; à noter que les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l'accessibilité.
 * AccessODF pour LibreOffice (<https://extensions.libreoffice.org/extensions/accessodf>) : extension pour vérifier l'accessibilité d'un document LibreOffice Writer ; à noter que cette extension n'est plus compatible avec les dernières versions de LibreOffice (supérieures à la version 4.0) ;
 * *Ace by DAISY App*{lang=en} (<https://inclusivepublishing.org/toolbox/ace-by-daisy-app/>) est un utilitaire pour vérifier l'accessibilité d'un fichier EPUB.
