@@ -45,8 +45,8 @@ body .toggle-menu span[aria-hidden="true"]:focus, body .toggle-menu span[aria-hi
 
 body .toggle-menu span[aria-hidden="true"]::before {
   vertical-align: inherit;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
 }
-
 
 main, footer {
   a:visited  {
@@ -342,7 +342,7 @@ blockquote {
 .govbar {
   background: #FFF;
   border-bottom: 1px solid #CCCACA;
-  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   position: relative;
   overflow: hidden;

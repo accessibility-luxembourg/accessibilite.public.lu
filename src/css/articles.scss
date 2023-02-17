@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap');
+@import './fonts.scss';
 
 
 /* colors and global body & article.news layout */
@@ -14,6 +14,7 @@
     --article_title: #004774;
     --article_subtitles: rgb(46, 117, 182);
     --article_links: #33658A;
+    --light-blue: rgba(185, 229, 240, 0.10);
 }
 
 
@@ -111,8 +112,8 @@ div.articles_summary p.date {
 div.main-container.full_width {
     max-width: 100%;
     font-family: var(--article_font), sans-serif;
-    background-color: var(--foral_white);
-    background: linear-gradient(180deg, white 0%,  var(--foral_white) 100px, var(--foral_white) 100%);
+    background-color: var(--light-blue);
+    background: linear-gradient(180deg, white 0%,  var(--light-blue) 100px, var(--light-blue) 100%);
 }
 
 body article.news, body nav.articles_nav {
@@ -328,6 +329,7 @@ figure.chart details {
     border-radius: 3px;
     font-weight: 300;
     order: 3;
+    border: 1px solid white;
 }
 
 figure.chart details[open] {
@@ -336,6 +338,10 @@ figure.chart details[open] {
 
 figure.chart details[open] summary {
     font-weight: 400;
+}
+
+figure.chart summary {
+    cursor: pointer;
 }
 
 figure.chart > p {

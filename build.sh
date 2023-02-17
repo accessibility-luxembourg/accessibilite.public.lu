@@ -26,3 +26,7 @@ cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico
 
 cp -r ./src/rapports ./dist/fr
 cp -r ./content/news/datasource ./dist/fr/news
+
+if [ $branch == "prod" ]; then
+    npx subfont ./dist/index.html ./dist/fr/index.html -i -r
+fi
