@@ -60,7 +60,6 @@ function get_num (elt, col) {                                                   
 function obCallback (loadchart) {
     return function (payload) {
         for (let entry of payload) {
-            console.log(entry.target.id, entry.intersectionRatio)
             if (!entry.target.hasAttribute("data-highcharts-chart") && entry.intersectionRatio >= 0.01) {
                 entry.target.innerHTML = "";
             }
