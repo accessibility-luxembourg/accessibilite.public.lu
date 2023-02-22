@@ -40,7 +40,7 @@ function loadchart (chartid) {                                                  
                         title: {
                             text: undefined
                         },
-                        max: 70,
+                        max: 100,
                         plotLines: [{
                             color: 'rgb(197, 90, 17)', 
                             dashStyle: 'solid', 
@@ -170,7 +170,7 @@ function loadchart (chartid) {                                                  
                         title: {
                             text: undefined
                         },
-                        max: 70,
+                        max: 100,
                         plotLines: [{
                             color: 'rgb(197, 90, 17)', 
                             dashStyle: 'solid', 
