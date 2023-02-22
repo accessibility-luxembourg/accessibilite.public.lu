@@ -81,7 +81,7 @@ function loadchart (chartid) {                                                  
 document.addEventListener('DOMContentLoaded', function () {               // create description div linked to charts for screen readers
     document.querySelector('.main-container').classList.add('full_width');
 
-    const ob = new IntersectionObserver(Graph.obCallback(loadchart), {threshold: 0.3});
+    const ob = new IntersectionObserver(Graph.obCallback(loadchart), {threshold: [0.01, 0.3]});
     ob.observe(document.querySelector('#complaints'));
     ob.observe(document.querySelector('#burden'));
 
@@ -90,10 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {               // cre
             loadchart(document.querySelectorAll("figure.chart > div:first-of-type:not([data-highcharts-chart])")[q].id);
         } 
     };
-    
-    for (let q=0; q<document.querySelectorAll("figure.chart > div:first-of-type").length; q++) {
-        document.querySelectorAll("figure.chart > div:first-of-type")[q].innerHTML = "";
-    } 
     
     for (let d=0; d<document.getElementsByTagName("details").length; d++) {
         let accessible_div = document.createElement("div");
