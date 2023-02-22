@@ -40,6 +40,7 @@ function loadchart (chartid) {                                                  
                         title: {
                             text: undefined
                         },
+                        max: 70,
                         plotLines: [{
                             color: 'rgb(197, 90, 17)', 
                             dashStyle: 'solid', 
@@ -75,7 +76,8 @@ function loadchart (chartid) {                                                  
                     let c_y = {
                         title: {
                             text: undefined
-                        }
+                        },
+                        max: 30
                     };
                     Graph.build_chart(
                         Highcharts,
@@ -105,7 +107,8 @@ function loadchart (chartid) {                                                  
                     let c_y = {
                         title: {
                             text: undefined
-                        }
+                        },
+                        max: 30
                     };
                     Graph.build_chart(
                         Highcharts,
@@ -135,7 +138,8 @@ function loadchart (chartid) {                                                  
                     let c_y = {
                         title: {
                             text: undefined
-                        }
+                        },
+                        max: 80
                     };
                     Graph.build_chart(
                         Highcharts,
@@ -166,6 +170,7 @@ function loadchart (chartid) {                                                  
                         title: {
                             text: undefined
                         },
+                        max: 70,
                         plotLines: [{
                             color: 'rgb(197, 90, 17)', 
                             dashStyle: 'solid', 
@@ -201,7 +206,8 @@ function loadchart (chartid) {                                                  
                     let c_y = {
                         title: {
                             text: undefined
-                        }
+                        },
+                        max: 30
                     };
                     Graph.build_chart(
                         Highcharts,
