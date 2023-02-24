@@ -26,9 +26,9 @@ ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
     fs.writeFileSync(outputPath+'/robots.txt', str)
 });
 
-
-function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary, withoutTitle}, function(err, str){
+/* tw 800x418 linkedin 1200x627 */
+function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, ogImage = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, ogImage: ogImage}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -319,7 +319,7 @@ articles.forEach((e, i, ar) => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.img)
     })
 })
 

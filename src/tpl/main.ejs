@@ -14,16 +14,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:dnt" content="on">
 
-    <meta name="twitter:card" content="summary" />
+    <% if (ogImage) { %>
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="<%= ogImage %>" />
+    <% } else { %>   
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
+    <% } %>      
+
     <meta name="twitter:site" content="@accessibilityLU" />
     <meta name="twitter:title" content="<%= title %> - Portail de l'accessibilité numérique du Luxembourg" />
-    <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
+    <% if (ogDesc) { %>
+      <meta name="twitter:description" content="<%= ogDesc %>">
+    <% } %>
+    
     <meta property='twitter:url' content='https://accessibilite.public.lu<%= file %>'/>    
     
     <meta property='og:title' content="<%= title %>"/>
-    <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
+    <% if (ogImage) { %>
+      <meta property='og:image' content="https://accessibilite.public.lu/<%= ogImage %>"/>
+    <% } else { %>
+      <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
+    <% } %>
     <meta property='og:site_name' content="Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg"/>
     <meta property='og:url' content='https://accessibilite.public.lu<%= file %>'/>
+    <meta property="og:type" content="website">
+
+    <% if (ogDesc) { %>
+      <meta property="og:description" content="<%= ogDesc %>">    
+    <% } %>
+
+    <meta name="twitter:description" content="pouic">
+
+
+
 
     <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
     <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/fr/news/feed.xml" />
