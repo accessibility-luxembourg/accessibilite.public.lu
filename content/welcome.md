@@ -9,7 +9,6 @@ Dans le cadre de la démarche de mise en accessibilité, les organismes publics 
 
 Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous contacter](contact.html).
 
-<!--
 <div class="home-content-container">
     <aside class="articles_home">
         <h3>Dernières actualités</h3>
@@ -37,7 +36,7 @@ Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous co
         </nav>
     </aside>
 </div>
--->
+
 </div>
 
 <div class="right-column">
