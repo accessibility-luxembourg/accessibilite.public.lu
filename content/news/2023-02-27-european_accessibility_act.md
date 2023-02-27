@@ -42,7 +42,7 @@
 <aside class="more">
     <h5>Sur le même sujet</h5>
     <ul>
-        <li><a href="2023-02-20-rapport2022.html">L’accessibilité numérique progresse lentement... mais sûrement</a></li>
-        <li><a href="2023-02-24-complaints2022.html">Des réponses qui tardent à être traduites concrètement</a></li>
+        <li><a href="2023-02-20-rapport2022.html">2022, l’année de la prise de conscience</a></li>
+        <li><a href="2023-02-24-complaints2022.html">Des utilisateurs toujours en quête de solutions</a></li>
     </ul>
 </aside>

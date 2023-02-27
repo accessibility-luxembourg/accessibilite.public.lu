@@ -16,13 +16,13 @@ Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous co
             <ul>
                 <li>
                     <a href="news/2023-02-20-rapport2022.html">
-                        <p>L’accessibilité numérique progresse lentement... mais sûrement</p>
+                        <p>2022, l’année de la prise de conscience</p>
                         <img src="../../../content/news/img/iStock1.jpg" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="news/2023-02-24-complaints2022.html">
-                        <p>Des réponses qui tardent à être traduites concrètement</p>
+                        <p>Des utilisateurs toujours en quête de solutions</p>
                         <img src="../../../content/news/img/iStock2.jpg" alt="">
                     </a>
                 </li>
