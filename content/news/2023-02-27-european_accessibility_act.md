@@ -32,7 +32,7 @@
         <li>le numéro d'urgence européen 112.</li>
     </ul>
 </aside>
-<p>Rendre ces services et dispositifs accessibles pour tout le monde permettra de faciliter la vie d’au minimum 87 millions de personnes selon la Commission européenne, soit un Européen sur quatre.</p>
+<p>Rendre ces services et dispositifs accessibles pour tout le monde permettra de faciliter la vie d’au minimum 87 millions de personnes selon la Commission européenne, soit un adulte européen sur quatre.</p>
 <h4>De potentielles sanctions financières à la clé</h4>
 <p>Le <a href="https://www.chd.lu/fr/dossier/7975">projet de loi</a> transposant l’acte européen prévoit par ailleurs la possibilité d’interdire la mise à disposition sur le marché d’un produit ou d’un service non conforme et liste des sanctions administratives et pénales, ces dernières pouvant aller jusqu’à 500.000 euros et un million d’euros en cas de récidive. L’amende est proportionnée à l’étendue et la gravité de la non-conformité. À cette fin, un nouvel organisme, l’Office de la surveillance de l’accessibilité des produits et services (OSAPS), sera fondé et aura, entre autres missions, celle d’être le gendarme de l’accessibilité. Selon la dernière version du projet, qui intègre les propositions du Conseil d’Etat, tout un chacun pourrait signaler à l’OSAPS la non-conformité d’un produit.</p>
 <p>Certains organismes publics, visés par la première loi sur l’accessibilité – celle de 2019 – pourraient également être concernés par la nouvelle, notamment dans le domaine de la mobilité.</p>
