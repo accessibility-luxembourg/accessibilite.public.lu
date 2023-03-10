@@ -146,6 +146,14 @@
             "name": "tools",
             "children": [
                 {
+                    "title": "Prendre en compte l'accessibilité dès le cahier des charges",
+                    "menu": "Cahier des charges",
+                    "name": "tools/cahier-des-charges",
+                    "md": "./content/cahier-des-charges.md", 
+                    "html": true,
+                    "prefix": "../../.."
+                },                
+                {
                     "title": "Kit d'audit d'accessibilité",
                     "menu": "Kit d'audit",
                     "name": "tools/kit",
