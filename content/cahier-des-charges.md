@@ -16,7 +16,7 @@ Pour vous aider dans la rédaction de vos cahiers des charges, nous vous proposo
 Ces exemples de clauses sont publiées sous licence [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). Il s'agit d'un travail dérivé d'un document produit par la société [Access42](https://access42.net/).
 
 <button class="clipboard">Copier dans le presse-papier</button>
-[Télécharger au format Word](../../../files/general/exemple-cahier-des-charges-accessibilite-10032023.docx)
+[Télécharger au format Word](../files/exemple-cahier-des-charges-accessibilite-10032023.docx)
 <div class="cdc-template">
 
 #### Accessibilité
