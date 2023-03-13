@@ -10,31 +10,7 @@ Dans le cadre de la démarche de mise en accessibilité, les organismes publics 
 Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous contacter](contact.html).
 
 <div class="home-content-container">
-    <aside class="articles_home">
-        <h3>Dernières actualités</h3>
-        <nav role="navigation">
-            <ul>
-                <li>
-                    <a href="news/2023-02-20-rapport2022.html">
-                        <p>2022, l’année de la prise de conscience</p>
-                        <img src="../../../content/news/img/iStock1.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="news/2023-02-24-complaints2022.html">
-                        <p>Des utilisateurs toujours en quête de solutions</p>
-                        <img src="../../../content/news/img/iStock2.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="news/2023-02-27-european_accessibility_act.html">
-                        <p>Pour le secteur privé aussi, il est grand temps de s’y mettre</p>
-                        <img src="../../../content/news/img/iStock3.jpg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
+<!-- latest news -->
 </div>
 
 </div>

@@ -57,6 +57,19 @@ function renderWithSummary(data, title, file, name, prefix, summary, error = '')
     }
 }
 
+function renderHome(page, latestNews) {
+    // FIXME : image prefix...
+    latestNews = latestNews.map(x => {x.meta.img = x.meta.img.replace(/^\.\.\//, ''); return x})
+
+    ejs.renderFile('./src/tpl/latest_news.ejs', {latest_news: latestNews}, function(err, renderedNews) {
+        if (err !== null) {
+            console.log(err)
+        }
+        const data = genericMarkdownIt(page).render(fs.readFileSync(page.md).toString().replace('<!-- latest news -->', renderedNews))
+        renderToFile(data, page.title, outputPath+'/fr/'+page.name+'.html', page.name, page.prefix, false)        
+    })
+}
+
 function slugify(str) {
     return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[\(\),]/g, '').replace(/«\s|\s»|\s:/g, '').replace(/[\s']/g, '-')
 }
@@ -205,7 +218,10 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, s
 
 const level1 = config.mainMenu.concat(config.footer).concat(config.hidden).filter(e => e.md !== undefined)
 const level2 = config.mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
-const md = level1.concat(level2)
+let md = level1.concat(level2)
+const home = md.find(x => {return x.name == 'index'})
+md = md.filter(x => {return x.name != 'index'})
+
 const deprecated = config.deprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
 const news = fs.readdirSync('./content/news')
 
@@ -322,6 +338,8 @@ articles.forEach((e, i, ar) => {
         renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true)
     })
 })
+
+renderHome(home, articles.slice(0, 3))
 
 // generate JavaScript
 const scampiJsPrefix = 'node_modules/@pidila/scampi/modules/'
