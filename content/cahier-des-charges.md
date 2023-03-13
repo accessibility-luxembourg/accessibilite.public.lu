@@ -1,8 +1,8 @@
 <script src="../../../js/cdc.js"></script>
 
-L'accessibilité numérique est souvent vue comme un surcoût important lorsque le premier contact avec cette discipline intervient sur un projet existant pour lequel l'accessibilité n'avait jusqu'à présent pas été prise en compte. À titre de comparaison avec le milieu de la construction, on dit souvent qu'il est bien plus coûteux d'ajouter un ascenseur dans un bâtiment existant que de le prévoir dès le début dans le projet.
+L'accessibilité numérique est souvent vue comme un surcoût lorsque le premier contact avec cette discipline intervient sur un projet existant pour lequel l'accessibilité n'avait jusqu'à présent pas été prise en compte. À titre de comparaison avec le milieu de la construction, on dit souvent qu'il est bien plus coûteux d'ajouter un ascenseur dans un bâtiment existant que de le prévoir dès le début dans le projet.
 
-Dans le domaine de l'accessibilité numérique, la situation est très similaire. Plus une préoccupation de cet ordre est intégrée tôt dans le planning d'un projet, mieux elle est intégrée et moins les coûts s'en ressentent : c'est ce que préconise, parmi d'autres, la méthodologie du « [shift left](https://feather.ca/shift-left/) ».
+Dans le domaine de l'accessibilité numérique, la situation est très similaire. Plus une préoccupation de cet ordre est intégrée tôt dans le planning d'un projet, mieux elle est intégrée et moins les coûts s'en ressentent : c'est ce que préconise, parmi d'autres, la méthodologie du « [shift left](https://feather.ca/shift-left/){lang=en} ».
 
 De nombreuses administrations ne développent pas leurs sites web et applications mobiles en interne, mais elles utilisent les services de prestataires externes. Dans ce cas, il est très courant de passer par un cahier des charges pour définir les besoins et le résultat attendu.
 
@@ -29,9 +29,9 @@ L'accessibilité numérique est un objectif majeur de ce projet.
 
 #### Conformité niveau légal
 
-Il est rappelé que le niveau légal de conformité est pour les sites web le niveau AA du _référentiel général d'amélioration de l'accessibilité (RGAA)_ dans sa dernière version et le niveau AA du _référentiel d'évaluation de l'accessibilité des applications mobiles_ (RAAM) dans sa dernière version. Ces référentiels sont publiés sur le site accessibilite.public.lu.
+Il est rappelé que le niveau légal de conformité est pour les sites web le niveau AA du _référentiel général d'amélioration de l'accessibilité (RGAA)_ dans sa dernière version et le niveau AA du _référentiel d'évaluation de l'accessibilité des applications mobiles_ (RAAM) dans sa dernière version. Ces référentiels sont publiés sur le site [accessibilite.public.lu](https://accessibilite.public.lu).
 
-Si le TITULAIRE DU MARCHÉ ne peut se référer au RGAA ou au RAAM, la conformité devra alors être évaluée par rapport à la norme européenne [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), en particulier aux critères répertoriés dans la table A.1 de l'annexe A.
+Si le TITULAIRE DU MARCHÉ ne peut se référer au RGAA ou au RAAM, la conformité devra alors être évaluée par rapport à la norme européenne [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), en particulier aux critères répertoriés dans les tables A.1 (sites web) et/ou A.2 (applications mobiles) de l'annexe A.
 
 Le TITULAIRE DU MARCHÉ devra s'engager à mobiliser tous les moyens nécessaires pour tendre vers ce niveau de conformité légal.
 
@@ -91,7 +91,7 @@ Le candidat est libre d'apporter toute autre précision, document ou exemple de 
 Dans ce document vous trouverez les différentes sections qui sont commentées ci-dessous :
 
 - **Accessibilité :** cette clause présente le principe général de l'exigence d'accessibilité et le cadre légal.
-- **Conformité et niveau légal :** la conformité est mesurée par rapport à des référentiels. Il y en a un pour le web et un second pour les applications mobiles. En fonction de votre projet, vous pouvez adapter cette partie. Si pour une raison quelconque ces référentiels ne peuvent être utilisés (par exemple, le prestataire ne pratique pas la langue utilisée dans le référentiel), la conformité pourra être évaluée par rapport à la norme européenne qui est disponible en anglais.
+- **Conformité et niveau légal :** la conformité est mesurée par rapport à des référentiels. Il y en a un pour le web et un second pour les applications mobiles. En fonction du périmètre de votre projet, vous pouvez adapter cette partie. Si pour une raison quelconque ces référentiels ne peuvent être utilisés (par exemple, le prestataire ne pratique pas la langue utilisée dans le référentiel), la conformité pourra être évaluée par rapport à la norme européenne qui est disponible en anglais.
 - **Exigences minimales :** cette section définit un niveau d'exigence minimal de la conformité en dessous duquel une défaillance du prestataire pourra être constatée. On y trouve aussi diverses dérogations liées à la responsabilité des intervenants ou prévues dans la loi.
 - **Vérification :** l'organisme pourra faire contrôler le travail du prestataire de manière indépendante. Nous recommandons dans tous les cas de faire réaliser un tel audit de manière indépendante du prestataire. Cela permet d'avoir une évaluation non biaisée et de ne pas croire le prestataire sur parole. D'autre part, un audit d'accessibilité est un préalable à la réalisation de la [déclaration d'accessibilité](/fr/obligations.html#déclaration-daccessibilité), qui est obligatoire pour les sites et applications mobiles du secteur public au Luxembourg.
 - **Accompagnement expert de l'organisme :** l'organisme pourra faire appel à un expert à toutes les étapes du projet. Une collaboration est attendue entre le titulaire du marché et cet expert.
