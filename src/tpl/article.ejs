@@ -5,13 +5,13 @@
     <% if (previous !== undefined) { %>
     <a href="<%= previous.meta.filename %>.html">
         <p>article précédent</p>
-        <p><%- previous.meta.title_html %></p>
+        <p <%= (previous.meta.lang !== undefined)?'lang='+previous.meta.lang:'' %>><%- previous.meta.title_html %></p>
     </a>
     <% } %>
     <% if (next !== undefined) { %>
     <a href="<%= next.meta.filename %>.html">
         <p>article suivant</p>
-        <p><%- next.meta.title_html %></p>
+        <p <%= (next.meta.lang !== undefined)?'lang='+next.meta.lang:'' %>><%- next.meta.title_html %></p>
     </a>
     <% } %>
 </nav>

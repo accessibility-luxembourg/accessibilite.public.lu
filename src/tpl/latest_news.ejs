@@ -2,7 +2,7 @@
 <h3>Dernières actualités</h3>
 <nav role="navigation"><ul>
 <% latest_news.forEach(article => { %>
-<li><a href="news/<%= article.meta.filename %>.html"><p><%- article.meta.title_html %></p><img src="<%= article.meta.img %>" alt=""></a></li>
+<li><a href="news/<%= article.meta.filename %>.html" <%= (article.meta.lang !== undefined)?'lang='+article.meta.lang:'' %>><p><%- article.meta.title_html %></p><img src="<%= article.meta.img %>" alt=""></a></li>
 <% }) %>
 </ul></nav>
 </aside>

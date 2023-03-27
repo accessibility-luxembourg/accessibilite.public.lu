@@ -2,7 +2,7 @@
     <ul>
     <% data.forEach(e => { %>
         <li>
-            <a href="./<%= e.meta.filename %>.html">
+            <a href="./<%= e.meta.filename %>.html" <%= (e.meta.lang !== undefined)?'lang='+e.meta.lang:'' %>>
                 <div>
                     <h2><%- e.meta.title_html %></h2>
                     <p class="subtitle"><%- e.meta.subtitle_html %></p>
@@ -10,7 +10,7 @@
                     <p class="intro"><%- e.meta.intro_html %></p>
                 </div>
                 <div>
-                    <p class="date"><%= new Date(e.meta.date).toLocaleDateString('fr', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+                    <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:'fr', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
                 </div>
             </a>
         </li>

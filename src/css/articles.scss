@@ -160,7 +160,7 @@ body article.news p.date {
     margin: 0 auto;
 }
 
-body article.news > hr {
+body article.news > hr, body article.news div[lang] > hr {
     box-sizing: content-box;
     max-width: 450px;
     border: 0;
@@ -171,7 +171,7 @@ body article.news > hr {
     overflow: hidden;
 }
 
-body article.news > hr::before {
+body article.news > hr::before, body article.news div[lang] > hr::before {
     content: "";
     width: 6px;
     height: 6px;

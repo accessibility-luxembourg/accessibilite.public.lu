@@ -296,6 +296,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     }
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
+    data.meta.lang = $('body').children().first().attr('lang')
     data.meta.title_html = $('h2').first().html()
     data.meta.title = $('h2').first().text()
     data.meta.subtitle_html = $('h3').first().html()
@@ -312,7 +313,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
 
     // add the date to the html code
-    $('h3').first().after('<p class="date">'+data.date.toLocaleDateString('fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
+    $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:'fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     data.html = $.html()
     data.hash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(data)).digest('hex')
     return data

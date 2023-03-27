@@ -9,7 +9,7 @@
     <id>urn:md5:<%= hash %></id>
     <generator uri="https://github.com/accessibility-luxembourg/accessibilite.public.lu">accessibilite.public.lu</generator>
     <% data.forEach(e => { %>
-        <entry>
+        <entry <%- (e.meta.lang !== undefined)?'xml:lang="'+e.meta.lang+'"':'' %>>
         <title><%= e.meta.title %></title>
         <link href="https://accessibilite.public.lu/fr/<%= e.meta.filename %>" rel="alternate" type="text/html" title="<%= e.meta.title %>" />
         <id>urn:md5:<%= e.hash %></id>
