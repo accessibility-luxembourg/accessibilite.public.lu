@@ -6,6 +6,7 @@ const uglify = require("uglify-js")
 const cheerio = require('cheerio')
 const dotenv = require('dotenv')
 const crypto = require('crypto')
+const sharp = require('sharp');
 const hmacPwd = 'a11ylu'
 dotenv.config()
 
@@ -26,9 +27,8 @@ ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
     fs.writeFileSync(outputPath+'/robots.txt', str)
 });
 
-/* tw 800x418 linkedin 1200x627 */
-function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, ogImage = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, ogImage: ogImage}, function(err, str){
+function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -287,6 +287,13 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.intro_html = $('.intro').first().html()
     data.meta.intro = $('.intro').first().text()
     data.meta.img = $('img').first().attr('src')
+    data.meta.imgName = data.meta.img.replace(/^.*\/([^\/]+)$/, '$1')
+    data.meta.imgTwitter = data.meta.imgName.replace(/\.jpg/, '-twitter.jpg')
+    data.meta.imgLinkedin = data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg')
+
+    // resize images
+    sharp('./content/news/img/'+data.meta.imgName).resize(800,418).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+    sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
 
     // add the date to the html code
     $('h3').first().after('<p class="date">'+data.date.toLocaleDateString('fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
@@ -319,7 +326,7 @@ articles.forEach((e, i, ar) => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.img)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin)
     })
 })
 

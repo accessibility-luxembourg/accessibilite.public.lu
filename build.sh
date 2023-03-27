@@ -13,7 +13,7 @@ mkdir -p ./src/html/fr/raam1
 mkdir -p ./src/html/fr/tools
 mkdir -p ./src/html/fr/support
 mkdir -p ./src/html/fr/monitoring
-mkdir -p ./src/html/fr/news
+mkdir -p ./src/html/fr/news/og
 
 cp ./src/files/rgaa4/* ./src/html/fr/rgaa4/files
 cp ./src/files/rgaa4.1/* ./src/html/fr/rgaa4.1/files
@@ -26,6 +26,7 @@ cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico
 
 cp -r ./src/rapports ./dist/fr
 cp -r ./content/news/datasource ./dist/fr/news
+cp -r ./src/html/fr/news/og ./dist/fr/news
 
 if [ $branch == "prod" ]; then
     npx subfont ./dist/index.html ./dist/fr/index.html -i -r

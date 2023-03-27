@@ -14,9 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:dnt" content="on">
 
-    <% if (ogImage) { %>
+    <% if (imgTwitter) { %>
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:image" content="<%= ogImage %>" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/fr/news/og/<%= imgTwitter %>" />
     <% } else { %>   
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
@@ -31,8 +31,8 @@
     <meta property='twitter:url' content='https://accessibilite.public.lu<%= file %>'/>    
     
     <meta property='og:title' content="<%= title %>"/>
-    <% if (ogImage) { %>
-      <meta property='og:image' content="https://accessibilite.public.lu/<%= ogImage %>"/>
+    <% if (imgLinkedin) { %>
+      <meta property='og:image' content="https://accessibilite.public.lu/fr/news/og/<%= imgLinkedin %>"/>
     <% } else { %>
       <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
     <% } %>
