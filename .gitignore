@@ -2,6 +2,7 @@ node_modules
 dist
 data
 .cache
+.parcel-cache
 src/html
 dist.zip
 todo.txt

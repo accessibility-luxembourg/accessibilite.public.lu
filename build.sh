@@ -10,6 +10,7 @@ mkdir -p ./src/html/fr/files
 mkdir -p ./src/html/fr/rgaa4/files
 mkdir -p ./src/html/fr/rgaa4.1/files
 mkdir -p ./src/html/fr/raam1
+mkdir -p ./src/html/fr/rapdf1
 mkdir -p ./src/html/fr/tools
 mkdir -p ./src/html/fr/support
 mkdir -p ./src/html/fr/monitoring

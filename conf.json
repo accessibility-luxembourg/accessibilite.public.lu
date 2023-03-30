@@ -142,6 +142,64 @@
             ]
         },
         {
+            "title": "Référentiel PDF",
+            "name": "rapdf1",
+            "children": [ 
+                {
+                    "title": "Référentiel d'évaluation des documents PDF issus de logiciels bureautiques (RAPDF 1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "rapdf1/index",
+                    "md": "./content/rapdf1/introduction.md", 
+                    "html": true,
+                    "prefix": "../../.."
+                },                
+                {
+                    "title": "RAPDF 1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "rapdf1/referentiel-technique",
+                    "md": "./content/rapdf1/referentiel-technique.md",
+                    "prefix": "../../..", 
+                    "html": true, 
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol"
+                }, 
+                {
+                    "title": "RAPDF 1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "rapdf1/glossaire",
+                    "md": "./content/rapdf1/glossaire.md",
+                    "prefix": "../../..", 
+                    "html": true,                    
+                    "slugify": "slugifyA42", 
+                    "genSummary": "ul"
+                },                          
+                {
+                    "title": "RAPDF 1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "rapdf1/methodologie",
+                    "md": "./content/rapdf1/methodologie.md",
+                    "html": true, 
+                    "prefix": "../../..", 
+                    "slugify": "slugifyA42"
+                },
+                {
+                    "title": "RAPDF 1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "rapdf1/environnement",
+                    "md": "./content/rapdf1/environnement.md",
+                    "html": true,
+                    "prefix": "../../.."
+                },  
+                {
+                    "title": "RAPDF 1 : Références",
+                    "menu": "Références",
+                    "name": "rapdf1/references",
+                    "md": "./content/rapdf1/references.md",
+                    "prefix": "../../.." 
+                }
+            ]
+        },        
+        {
             "title": "Outils",
             "name": "tools",
             "children": [
