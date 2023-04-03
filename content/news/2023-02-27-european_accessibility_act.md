@@ -1,4 +1,3 @@
-<script>document.querySelector('.main-container').classList.add('full_width');</script>
 <h2>Pour le secteur privé aussi, il est grand temps de s’y mettre</h2>
 <h3>En 2025 entre en vigueur une nouvelle loi qui étend les obligations de conformité relatives à l’accessibilité</h3>
 <hr>

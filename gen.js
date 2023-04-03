@@ -27,8 +27,8 @@ ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
     fs.writeFileSync(outputPath+'/robots.txt', str)
 });
 
-function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin}, function(err, str){
+function renderToFile(data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: production, prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -292,7 +292,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
 
     // get the html from the file, and get the metadata from the frontmatter
     function cbfm(fm) {
-        data.meta = fm
+        data.meta = {...data.meta, ...fm}
     }
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
@@ -305,6 +305,10 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.intro = $('.intro').first().text()
     data.meta.img = $('img').first().attr('src')
     data.meta.imgName = data.meta.img.replace(/^.*\/([^\/]+)$/, '$1')
+    if (data.meta.teaser) {
+        data.meta.img = '../../../../content/news/img/'+data.meta.teaser
+        data.meta.imgName = data.meta.teaser
+    }
     data.meta.imgTwitter = data.meta.imgName.replace(/\.jpg/, '-twitter.jpg')
     data.meta.imgLinkedin = data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg')
 
@@ -343,7 +347,7 @@ articles.forEach((e, i, ar) => {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin)
+        renderToFile(str, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
     })
 })
 
