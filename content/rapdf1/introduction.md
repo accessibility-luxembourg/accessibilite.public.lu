@@ -2,7 +2,7 @@
 
 D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites publics et applications mobiles luxembourgeoises doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/) est en charge du contrôle de leur accessibilité.
 
-Dans ce cadre, le référentiel bureautique a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public concernés par la loi.
+Dans ce cadre, le référentiel PDF a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public concernés par la loi.
 
 Ce référentiel propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Dès lors, il permet de vérifier qu’un document PDF est conforme aux critères décrits dans la norme européenne [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
 

@@ -1,12 +1,14 @@
 Une certaine partie des tests du référentiel d’évaluation de l’accessibilité des documents au format PDF se réalise avec un outil de test dédié et les technologies d’assistance mises à disposition sur les plateformes.
 
-### Environnement de test 
+### Environnement de test
 
-Les systèmes d’exploitation retenus sont Windows et macOS. Il s’agit des systèmes d’exploitation les plus représentés dans les usages des personnes aveugles et malvoyantes dans les pays francophones (consulter à ce titre l’[&laquo;&nbsp;enquête internationale sur l’usage des technologies d’assistance indispensables aux personnes déficientes visuelles&nbsp;&raquo;](https://access42.net/enquete-internationale-usage-technologies-assistance-deficients-visuels)).
+Bien que les documents PDF soient exploitables sur la plateforme macOS, il n'existe pas d'outil permettant de vérifier l'accessibilité des documents PDF.
 
-Pour chacun des systèmes, il est demandé de tester sur la dernière version disponible du système. 
+La plateforme de tests retenue est la plateforme Windows en version 10, au moins.
 
-Les versions des technologies d’assistance à utiliser seront la dernière disponible sur le système d’exploitation retenu.
+Les versions des technologies d’assistance à utiliser sont la dernière disponible sur le système d’exploitation retenu.
+
+Certains tests sont réalisés directement dans le logiciel *[Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M)*{lang=en}.
 
 #### Outils de test
 ##### Outil de test dédié
@@ -17,4 +19,4 @@ L’outil de test dédié est PAC 2021 *[PDF/UA Accessibility Checker - 2021](ht
 
 Le lecteur d’écran utilisé pour effectuer les tests de restitution pour la thématique «&nbsp;Formulaire interactif&nbsp;» est [NVDA](https://www.nvda-fr.org/).
 
-La section [Méthodologie](methodologie.md) du présent référentiel vous présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 
+La section [Méthodologie](methodologie.md) du présent référentiel présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 

@@ -39,7 +39,7 @@ propose toujours la dernière version stable en téléchargement.
     l\'installation, où les fichiers de la version portable doivent être
     copiés, notamment sur un support USB pour pouvoir l\'exécuter
     sur n\'importe quel ordinateur.
-1.  NVDA peut être lancé dès la fin de l\'installation, aucun redémarrage de l’ordinateur n'est nécessaire.
+1.  NVDA peut être lancé dès la fin de l\’installation, aucun redémarrage de l’ordinateur n'est nécessaire.
 
 ##### Configuration de NVDA pour l’évaluation
 
@@ -89,7 +89,7 @@ hauteur, la langue, etc. comme suit :
 -   [NVDA + Ctrl + flèches droite et flèche gauche]{.kbd} permet de
     passer d\'un paramètre à l\'autre.
 -   [NVDA + Ctrl + flèches haut et flèche bas]{.kbd}, permet de modifier
-    le paramètre (plus vite, moins vite par exemple).
+    le paramètre (plus vite, moins vite par exemple)
 
 **Note** : ce raccourci concerne l\'utilisation de NVDA en version
 clavier de bureau. Pour la version clavier portable, rajouter la touche
@@ -104,11 +104,12 @@ paramètres sont classés sous forme d\'onglets, comme par exemple,
 
 Théoriquement, il n'y a pas besoin de modifier ces réglages qui
 correspondent à la configuration par défaut. Vérifier néanmoins que les
-réglages suivants sont activés :
+réglages suivants sont activés.
 
-- Dans **Parole**, cocher les cases « Changement automatique de langue »
+Dans **Parole**, cocher les cases « Changement automatique de langue »
 et « Changement automatique de dialecte ».
-- Dans **Présentation des objets**, cocher « Annoncer les suggestions »,
+
+Dans **Présentation des objets**, cocher « Annoncer les suggestions »,
 « Annoncer les bulles d\'aide », « Annoncer la description de
 l\'objet », « Annoncer les changements dynamiques de contenu ».
 

@@ -4,6 +4,10 @@
 
 L’image est déclarée «&nbsp;décorative&nbsp;» (par exemple dans Microsoft Office) ou «&nbsp;artefact&nbsp;» (Acrobat Pro), de telle sorte qu’elle ne fait pas partie du contenu mis à disposition pour la restitution.
 
+#### Accolés (étiquette et champ accolés) 
+
+Il faut que l’étiquette et son champ soient visuellement proches de manière à ce que la relation entre les deux ne puisse pas prêter à confusion.
+
 #### Alternative textuelle
 Texte associé à une image ou une forme complexe qui apporte une information équivalente à celle véhiculée par l’image ou la forme complexe.
 
@@ -13,24 +17,20 @@ Texte associé à une image ou une forme complexe qui apporte une information é
 #### Champ de formulaire
 Objet interactif permettant à l’utilisateur de saisir des données. Les champs de formulaire regroupent une grande variété de types de saisie&nbsp;:
 
-- des champs de saisie libre ;
-- des cases à cocher ou des boutons radio ;
-- des listes de sélection ;
+- des champs de saisie libre,
+- des cases à cocher ou des boutons radio,
+- des listes de sélection,
 - des champs spécifiques comme des champs de saisie de date, etc.
 
 #### Contrôle de saisie
 Ensemble des processus qui préviennent l’utilisateur&nbsp;:
 
-- des champs obligatoires ;
-- des indications de type ou de format attendus ;
+- des champs obligatoires,
+- des indications de type ou de format attendus,
 - des erreurs de saisie dans un formulaire.
 
-
-#### Étiquettes cohérentes
-Les étiquettes de champs de formulaire présentes dans un même document et qui réclament la saisie d’une même information doivent être formulées sans ambiguïté pour que l’utilisateur comprenne que l’information qu’il doit communiquer est la même.
-
 #### Contenu clignotant ou en mouvement
-Il s’agit généralement de contenu réalisé au moyen d’images animées (par exemple format GIF).
+Il s’agit généralement de contenu réalisé au moyen d’image animée (par exemple format GIF).
 #### Contenu linéarisé
 Ordre de restitution des contenus de tableau de présentation lorsque ces contenus sont parcourus cellule par cellule.
 #### Contenu cryptique
@@ -48,7 +48,6 @@ Il s’agit d’informations complémentaires qui peuvent, par l’intermédiair
 En environnement bureautique, les contextes exploitables sont&nbsp;:
 - le titre précédent&nbsp;;
 - la phrase ou le paragraphe dans lequel le lien est présent&nbsp;;
-- l’[infobulle](glossaire.md#infobulle) associée au lien.
 
 Le lien sera considéré comme explicite lorsqu’un seul de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.
 
@@ -68,10 +67,21 @@ En revanche, si une légende donne sous forme de texte les valeurs et toutes les
 ### D
 #### De décoration
 Image ou forme complexe qui n’apporte aucune information essentielle à la compréhension du contenu auquel elle est associée.
+
 #### Description détaillée
 Contenu associé à une image ou à une forme complexe, en complément de son alternative, qui met à disposition la totalité de l’information contenue dans l’image ou la forme complexe.
+
+La description détaillée doit être adjacente à l'image ou la forme complexe ou consultable au moyen d'un lien adjacent.
+
 #### Différents états d’un élément graphique
 Quelquefois un élément graphique est présenté avec différents états. Par exemple, un système de vote associant des étoiles pour lequel le nombre d’étoiles d’une certaine couleur représente la valeur de la note attribuée. Il est important que le rapport de couleur entre la couleur par défaut et la couleur de chaque état soit suffisant.
+
+#### Documents non balisés
+Il s'agit de documents dans lesquels les éléments de structures (titre, liste, paragraphe, etc.) sont absents.
+
+Dans ce cas, le document doit être revu en profondeur ou récré complètement.
+
+L'état du balisage peut être vérifié dans les propriétés du document : menu "fichier", puis sous-menu "propriétés", puis paramètre "PDF balisé", lorsque l'indication est "non" le document n'est pas balisé.
 
 #### Durée d’activation
 
@@ -80,15 +90,18 @@ Durée d’activation d’un contenu clignotant ou en mouvement&nbsp;: durée pe
 ### E
 #### Éléments de structure
 Il s’agit des formats et des styles avec lesquels le contenu est structuré (titres, listes, paragraphes, etc.).
-Lorsque ces formats ou ces styles sont utilisés pour créer des effets de présentation, la restitution peut en être profondément impactée. Par exemple, utiliser un style de titre pour mettre en forme un paragraphe, utiliser des paragraphes pour créer des effets de marges, etc.
+Lorsque ces formats ou ces styles sont utilisés pour créer des effets de présentation la restitution peut en être profondément impactée. Par exemple, utiliser un style de titre pour mettre en forme un paragraphe, utiliser des paragraphes pour créer des effets de marges, etc.
 
 **Note au sujet de l’utilisation des paragraphes**&nbsp;: la présence d’un paragraphe vide après un contenu structuré, par exemple un titre, une liste, un paragraphe de texte en fin de page, n’est pas considérée comme une non-conformité. Seule l’utilisation de plusieurs paragraphes vides successifs est concernée.
 
 #### En-tête (tableau)
-Cellule qui sert d’intitulé à une colonne, une ligne, une partie de colonne, une partie de ligne ou des regroupements de lignes ou de colonnes (en-tête fusionné).
+Cellule qui sert d’intitulé à une colonne, une ligne, une partie de colonne, une partie de ligne ou des regroupements de lignes ou de colonnes (en-tête fusionné.)
 
 #### Étiquette
 Texte associé à un champ de formulaire permettant d’identifier et de comprendre la nature de la saisie.
+
+#### Étiquettes cohérentes
+Les étiquettes de champs de formulaire présentes dans un même document et qui réclament la saisie d’une même information doivent être formulées sans ambiguïté pour que l’utilisateur comprenne que l’information qu’il doit communiquer est la même.
 
 ### F
 #### Forme complexe
@@ -97,9 +110,19 @@ Il s’agit des contenus comme des diagrammes ou des schémas créés par les ou
 **Note au sujet des outils de génération automatique de formes complexes**&nbsp;: certains outils d’édition bureautique proposent des composants permettant de générer des schémas automatiques.  
 Ces composants ne devraient pas être utilisés, car leur restitution n’est généralement pas satisfaisante. Une solution consiste à les remplacer par des images.
 
+#### Formulaire non interactif
+
+Il s'agit d'un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple :
+
+Votre nom : [..........................]
+
+Ce type de document qui simule en réalité un formulaire à imprimer ne peut pas être utilisé correctement par les personnes handicapées.
+
+Dans ce cas, le document doit être récré sous la forme d'un formulaire interactif.
+
 ### H
 #### Hiérarchie du titrage
-Dans la plupart des logiciels d’édition bureautique, la bibliothèque de styles propose un style particulier pour chaque niveau de titre, généralement jusqu’à 8 niveaux.
+Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 8 niveaux.
 
 La hiérarchie du titrage est cohérente lorsque&nbsp;:
 - Tous les passages de textes ayant vocation à être un titre utilisent un style de titre.
@@ -112,15 +135,13 @@ Toute indication essentielle qui est transmise uniquement par un changement de f
 
 Par exemple&nbsp;:
 
-- Indiquer dans une liste le caractère obligatoire des éléments par l’utilisation ou le positionnement d’un caractère spécial détourné de son usage (par exemple un caractère mathématique).
+- Indiquer dans une liste le caractère obligatoire des éléments par l’utilisation ou le positionnement d’un caractère spécial détourné de son usage (par exemple, un caractère mathématique).
 - Indiquer dans un contenu un texte ou une partie de texte spécifique par la mise en gras ou un changement de taille.
 
 D’autres formes d’indication par la forme, la taille ou la position peuvent être utilisées sans qu’il soit possible de le renseigner ici.
 #### Image texte ou texte en image
 Image affichant du texte.
 
-#### Infobulle
-Texte complémentaire, associé à un objet sous la forme d’une propriété, qui apparaît au survol de l’objet.
 #### Information donnée uniquement par la couleur
 Information transmise visuellement au moyen de la couleur. Par exemple&nbsp;:
 - Dans une liste de documents, les documents en rouge ont un caractère obligatoire.
@@ -137,7 +158,6 @@ L’intitulé du lien peut être constitué&nbsp;:
 - du texte du lien pour les liens texte&nbsp;;
 - de l’alternative de l’image pour les liens image&nbsp;;
 - de l’association du texte du lien et de l’alternative de l’image pour les liens composites&nbsp;;
-- du contenu de l’infobulle pour les liens possédant une infobulle.
 
 ### L
 #### Légende
@@ -148,28 +168,33 @@ Un lien peut être de trois formes différentes&nbsp;:
 - lien image dont l’intitulé est constitué de l’alternative de l’image&nbsp;;
 - lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.
 #### Lien dont la nature n’est pas évidente
-Il s’agit d’un lien dont l’intitulé ne permet pas d’en comprendre la nature, ce qui peut amener les personnes déficientes visuelles à les ignorer.
+Il s’agit d’un lien dont l’intitulé ne permet pas d’en comprendre la nature ce qui peut amener les personnes déficientes visuelles à les ignorer.
 
-Exemple d’un lien dont la nature est évidente&nbsp;: «&nbsp;Les conditions générales d’utilisation de nos services ont été mises à jour, cliquez pour les consulter en ligne.&nbsp;» 
+Exemple d’un lien dont la nature est évidente&nbsp;: « Les conditions générales d’utilisation de nos services ont été mises à jour, cliquez pour les consulter en ligne ».  
 
 Si le texte «&nbsp;Cliquez pour les consulter en ligne&nbsp;» est un lien, sa nature est évidente.
 
-Exemple d’un lien dont la nature n’est pas évidente&nbsp;: «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 définissent la façon de rendre les contenus Web plus accessibles aux personnes en situation de handicap.&nbsp;»
+Exemple d’un lien dont la nature n’est pas évidente&nbsp;: «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 définissent la façon de rendre les contenus Web plus accessibles aux personnes en situation de handicap&nbsp;».
 
 Si le texte «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1&nbsp;» est un lien, son intitulé est insuffisant pour en comprendre la nature.
 
 **Note importante**&nbsp;: seuls les liens qui sont insérés dans des blocs de texte sont concernés.
 
 #### Liens identiques
-Liens dont les intitulés, associés au contexte du lien (titre précédent, phrase, infobulle), sont identiques.
+Liens dont les intitulés, associé au contexte du lien (titre précédent, phrase) sont identiques.
 
 Par exemple&nbsp;:
-- Dans les deux phrases suivantes, les deux liens «&nbsp;cliquez ici&nbsp;» ne sont pas identiques, car ils bénéficient d’un contexte différent&nbsp;: «&nbsp;Pour consulter notre catalogue&nbsp;: cliquez ici&nbsp;» et «&nbsp;Pour nous contacter&nbsp;: cliquez ici&nbsp;». 
+- Dans les deux phrases suivantes, les deux liens «&nbsp;cliquez ici&nbsp;» ne sont pas identiques, car ils bénéficient d’un contexte différent&nbsp;: «&nbsp;Pour consulter notre catalogue&nbsp;: cliquez ici&nbsp;» et «&nbsp;Pour nous contacter&nbsp;: cliquez ici&nbsp; ». 
 - Dans la phrase suivante, les deux liens «&nbsp;sur cette page&nbsp;» sont identiques, car le contexte ne permet pas de les différencier&nbsp;: «&nbsp;Vous pouvez nous contacter sur cette page ou sur cette page&nbsp;».
 
 ### M
 #### Mécanisme de remplacement (contraste renforcé)
-Méthode qui permet à l’utilisateur d’obtenir une version du document avec des contrastes suffisants. Cela peut être un lien de téléchargement d’une version alternative en contraste renforcé.
+Méthode qui permet à l’utilisateur d’obtenir une version du document avec des contrastes suffisants. 
+
+La version alternative peut être proposée sous la forme d'un document aux formats bureautique (DOCX, ODT, PDF) ou HTML.
+
+Le document alternatif doit être consultable à partir du document PDF original sous la forme d'un lien de téléchargement ou permettant d'afficher la page dans un navigateur lorsqu'il s'agit d'un document au format HTML.
+
 
 ### O
 #### Ordre de restitution
@@ -188,7 +213,7 @@ Si elles ne sont pas utilisées, cela a pour effet de rendre l’ordre de restit
 
 Si la zone de texte et le bloc de contenu n’ont pas de relation logique, le critère sera considéré comme conforme indépendamment du positionnement visuel de la zone de texte et du bloc de contenu.
 
-À l’inverse, si la zone du texte doit être logiquement restituée avant ou après le bloc de contenu auquel elle est associée le critère sera non conforme.
+À l’inverse, si la zone du texte et le bloc de contenu doivent être restitués dans un ordre particulier et que l'habillage ou l'ancrage ne respectent pas cet ordre, le critère sera non conforme.
 
 D’autres problèmes d’ordre de restitution peuvent être trouvés sans qu’il soit possible de les renseigner ici.
 
@@ -205,6 +230,10 @@ Image ou forme complexe qui contient au moins une information essentielle à la 
 Indication explicite (exemple&nbsp;: «&nbsp;Voir la légende ci-après&nbsp;») ou terme commun (par exemple «&nbsp;Image&nbsp;: [alternative]&nbsp;» et «&nbsp;Image&nbsp;: [légende]&nbsp;») entre l’alternative et la légende qui permet de comprendre que la légende est associée à l’image.
 
 ### S
+#### Sommaire
+Liste des titres du contenu, présentée en introduction du document, généralement sous la forme de liens permettant d'accéder directement aux parties concernées. Chaque titre peut être accompagné du numéro de page correspondant.
+Selon le logiciel utilisé pour éditer le contenu, le sommaire peut être structuré avec des éléments TOC et TOCI ou des éléments L et LI.
+
 #### Style de titre
 Dans les contenus bureautiques, les titres doivent être déclarés au moyen d’un style de titre.
 Par exemple, les logiciels d’édition bureautique fournissent une bibliothèque de styles réservée aux titres.
@@ -228,8 +257,12 @@ Il est nécessaire de fournir une alternative sous forme de texte structuré con
 Tableau qui sert à afficher des informations au moyen des cellules sans que ces informations nécessitent la présence d’en-tête de ligne ou de colonne.
 #### Texte en taille normale
 Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras par rapport à la taille par défaut.
+
+La taille par défaut est la taille du corps de texte.
+
 #### Texte en taille agrandie
 Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras par rapport à la taille par défaut.
+
 #### Titre de document
 Métadonnée permettant de donner un titre au document, généralement renseigné dans les propriétés du document.
 
