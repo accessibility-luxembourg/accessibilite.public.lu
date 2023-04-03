@@ -292,7 +292,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
 
     // get the html from the file, and get the metadata from the frontmatter
     function cbfm(fm) {
-        data.meta = fm
+        data.meta = {...data.meta, ...fm}
     }
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
