@@ -1,4 +1,5 @@
 ---
+teaser: talkingbooks-teaser.jpg
 tags:
 - innovation
 - invention

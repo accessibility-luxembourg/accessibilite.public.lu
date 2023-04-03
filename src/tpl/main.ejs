@@ -77,7 +77,7 @@
        <!-- <%- name %> -->     
     <%- include('header', {'nav': config.mainMenu, 'name': name, 'prod': prod, 'prefix': prefix}) %>
     <main role="main" id="main" class="main">
-      <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
+      <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %> <%= (full_width)?'full_width':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
         <% if (!withoutTitle) { %>
         <h2><%= title %></h2>
         <% } %>
