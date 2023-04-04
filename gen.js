@@ -40,9 +40,10 @@ function renderWithSummary(data, title, file, name, prefix, summary, error = '')
     if (summary !== undefined) {
         const $ = cheerio.load(data)
         const topics = []
-        $('h3').each(function(i, elem) {
+        $('h3:not(.no-summary)').each(function(i, elem) {
             if (!$(this).next().is('h3')) {
                 let text = $(this).text().split(':').pop().trim()
+                text = text.replace(/\s\(.+\)/, '')
                 topics.push({"id": $(this).attr('id'), "text": text }) 
             }
         })

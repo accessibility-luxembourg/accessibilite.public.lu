@@ -56,7 +56,7 @@ Couleur directement en contact avec les couleurs de l’élément graphique, com
 
 Exemple&nbsp;: dans un panneau de «&nbsp;sens interdit&nbsp;», le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.
 
-Il est important de comprendre que le critère&nbsp;2.3 sur les contrastes des éléments graphiques évalue uniquement les éléments non textuels. Dès qu’il s’agit d’évaluer le contraste d’un texte, même s’il est présent dans un élément graphique, c’est le critère 2.2 qui s’applique.
+Il est important de comprendre que le [critère&nbsp;2.3](referentiel-technique.md#crit-2-3) sur les contrastes des éléments graphiques évalue uniquement les éléments non textuels. Dès qu’il s’agit d’évaluer le contraste d’un texte, même s’il est présent dans un élément graphique, c’est le [critère 2.2](referentiel-technique.md#crit-2-2) qui s’applique.
 
 Toutes les couleurs d’un élément graphique ne sont pas à évaluer. Seules les couleurs porteuses d’informations sont concernées.
 
@@ -151,7 +151,7 @@ Le moyen alternatif utilisé dépend de la nature des contenus concernés. Par e
 - L’association d’un texte explicite.
 - L’association d’une indication visuelle comme une icône ou un symbole.
 
-Note&nbsp;: dans le cas de l’utilisation d’une image associée à un texte, l’image doit avoir une alternative pertinente (critères&nbsp;1.1 et&nbsp;1.2).
+Note&nbsp;: dans le cas de l’utilisation d’une image associée à un texte, l’image doit avoir une alternative pertinente (critères&nbsp;[1.1](referentiel-technique.md#crit-1-1) et&nbsp;[1.2](referentiel-technique.md#crit-1-2)).
 
 #### Intitulé du lien
 L’intitulé du lien peut être constitué&nbsp;:

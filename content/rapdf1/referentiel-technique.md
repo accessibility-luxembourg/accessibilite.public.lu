@@ -1,4 +1,4 @@
-**Introduction&nbsp;:**
+### Introduction {class="no-summary"}
 
 Ce référentiel est proposé pour vérifier que les documents PDF issus de logiciels d’édition bureautique présentent une accessibilité de base. L’objectif est de permettre aux personnes en situation de handicap d’accéder aux contenus et de les comprendre ainsi que d’utiliser des fonctionnalités de navigation.
 Il ne prend pas en compte certains types de contenus complexes ou de structures spécifiques au format PDF. En effet, ceux-ci ne peuvent être édités qu’avec l’environnement de travail Acrobat Pro ou des logiciels compatibles.
@@ -22,7 +22,7 @@ L’évaluation et l’adaptation de ces éléments nécessitent l’interventio
 
 Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaine d'édition spécialisée, dans ce cas il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}
 
-**Type de contenus non conformes**
+### Type de contenus non conformes {class="no-summary"}
 
 Les types de contenus suivants seront considérés comme non conformes, car ils pourraient ne pas être utilisés de façon satisfaisante par toutes les personnes en situation de handicap&nbsp;:
 - les contenus multimédia, vidéo ou audio&nbsp;;
@@ -30,13 +30,13 @@ Les types de contenus suivants seront considérés comme non conformes, car ils 
 
 Leur présence rend l’ensemble du document non conforme avec l’accessibilité et nécessite la mise à disposition d’une version alternative du document dans laquelle toute l’information véhiculée par ces contenus est présente sous forme textuelle.
 
-**Type de documents non conformes**
+### Type de documents non conformes {class="no-summary"}
 Certaines types de documents pourraient ne pas être utilisés de façon satisfaisante par toutes les personnes en situation de handicap, il s'agit :
 - des [documents non balisés](glossaire.md#documents-non-balises),
-- des [formulaires non interactifs](glossaire.md#formulaires-non-interactifs).
+- des [formulaires non interactifs](glossaire.md#formulaire-non-interactif).
 Dans ces cas, il est inutile d'auditer les documents qui devront faire l'objet d'une refonte totale ou de la mise à disposition d'une alternative pertinente.
 
-**Avertissement&nbsp;:**
+### Avertissement {class="no-summary"}
 
 Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, elle n’a pas de valeur normative. Elle n’est fournie qu’à titre d’aide à la prise en main du référentiel et donne un exemple de méthode d’évaluation possible. Il peut exister d’autres méthodes. De plus, le contenu de cette méthodologie ainsi que ses étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie.
 
@@ -176,8 +176,8 @@ Seuls le contenu du critère et des tests ont une valeur normative.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Critère 1.7](#crit-1-7) [AA] Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#image-porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-1-7"}
-- **[Test 1.7.1](#test-1-7-1)** Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#image-porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers)&nbsp;?{id="test-1-7-1"}
+#### [Critère 1.7](#crit-1-7) [AA] Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-1-7"}
+- **[Test 1.7.1](#test-1-7-1)** Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers)&nbsp;?{id="test-1-7-1"}
 
 ##### Cas particuliers 
 Dans ces situations, le critère est non applicable&nbsp;:
@@ -205,7 +205,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 
 ### [Thématique 2](#topic-2)&nbsp;: Couleur {id="topic-2"}
-#### [Critère 2.1](#crit-2-1) [A] L’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#donnee-uniquement-par-la-couleur). Cette règle est-elle respectée&nbsp;? {id="crit-2-1"}
+#### [Critère 2.1](#crit-2-1) [A] L’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée&nbsp;? {id="crit-2-1"}
 - **[Test 2.1.1](#test-2-1-1)** Pour chaque mot ou ensemble de mots dont la mise en couleur est porteuse d’information, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée&nbsp;?{id="test-2-1-1"}
 - **[Test 2.1.2](#test-2-1-2)** Pour chaque indication de couleur donnée par un texte, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée&nbsp;?{id="test-2-1-2"}
 - **[Test 2.1.3](#test-2-1-3)** Pour chaque image véhiculant une information, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée&nbsp;?{id="test-2-1-3"}
@@ -229,7 +229,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)&nbsp;:
     - [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14)&nbsp;;
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182)&nbsp;;
-    - [G111](hhttps://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;;
+    - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;;
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}.
 
@@ -273,7 +273,7 @@ Dans ces situations, le critère est non applicable.
 - **[Test 2.3.2](#test-2-3-2)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique et la couleur d’arrière-plan, vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-2"}
     - Le rapport de contraste est de 3:1, au moins.
     - Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants.
-- **[Test 2.3.3](#test-2-3-3)** Le rapport de contraste entre les couleurs d’un élément graphique dans ses [différents états](glossaire.md#differents-etats-d-un-element-graphique) vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-2"}
+- **[Test 2.3.3](#test-2-3-3)** Le rapport de contraste entre les couleurs d’un élément graphique dans ses [différents états](glossaire.md#differents-etats-d-un-element-graphique) vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-3"}
     - Le rapport de contraste est de 3:1, au moins.
     - Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants.
 
@@ -351,7 +351,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 
 #### [Critère 3.3](#crit-3-3) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees) les [en-têtes](glossaire.md#en-tete-tableau) sont-ils correctement déclarés&nbsp;? {id="crit-3-3"}
-- **[Test 3.3.1](#test-3-3-1)** Pour chaque [tableau de données](glossaire.md#tableau-de-donnee), chaque [en-tête](glossaire.md#en-tete-tableau) utilise-t-il un élément TH&nbsp;? {id="test-3-3-1"}
+- **[Test 3.3.1](#test-3-3-1)** Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), chaque [en-tête](glossaire.md#en-tete-tableau) utilise-t-il un élément TH&nbsp;? {id="test-3-3-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -448,7 +448,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 #### [Critère 4.2](#crit-4-2) [A] Chaque [lien](glossaire.md#lien) a-t-il un intitulé&nbsp;? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Chaque [lien](glossaire.md#lien) image a-t-il un intitulé&nbsp;? {id="test-4-2-1"}
-- **[Test 4.2.2](#test-4-2-2)** Chaque [lien](glossaire.md#lien) utilisant une forme complexe a-t-il un intitulé&nbsp;? {id="test-4-2-1"}
+- **[Test 4.2.2](#test-4-2-2)** Chaque [lien](glossaire.md#lien) utilisant une forme complexe a-t-il un intitulé&nbsp;? {id="test-4-2-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -474,7 +474,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 #### [Critère 5.1](#crit-5-1) [A] L’information est-elle structurée par l’utilisation appropriée de titres&nbsp;? {id="crit-5-1"}
 - **[Test 5.1.1](#test-5-1-1)** Chaque titre utilise-t-il un [style de titre](glossaire.md#style-de-titre)&nbsp;? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** Lorsque les [styles de titre](glossaire.md#style-de-titre) le permettent, la [hiérarchie du titrage](hierarchie-du-titrage) est-elle cohérente&nbsp;? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2)** Lorsque les [styles de titre](glossaire.md#style-de-titre) le permettent, la [hiérarchie du titrage](glossaire.md#hierarchie-du-titrage) est-elle cohérente&nbsp;? {id="test-5-1-2"}
 - **[Test 5.1.3](#test-5-1-3)** Chaque titre est-il pertinent&nbsp;? {id="test-5-1-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
@@ -603,7 +603,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 
 
-- **[Test 6.2.1](#test-6-2-1)** Pour chaque modification du type ou d’un style de caractère, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;?{id="test-2-1-1"}
+- **[Test 6.2.1](#test-6-2-1)** Pour chaque modification du type ou d’un style de caractère, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;?{id="test-6-2-1"}
 - **[Test 6.2.2](#test-6-2-2)** Pour chaque indication visuelle donnée au moyen d’un positionnement ou la présence d’un caractère spécial, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;?{id="test-6-2-2"}
 
 
@@ -651,8 +651,8 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 ### [Thématique 7](#topic-7)&nbsp;: Navigation {id="topic-7"}
 
-#### [Critère 7.1](#crit-7-1) [AA] Le document possède-t-il un [sommaire](glossaire.md#sommaire)(hors cas particulier)&nbsp;? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Le document possède-t-il un [sommaire](glossaire.md#sommaire) (hors cas particulier)&nbsp;? {id="test-7-1-1"}
+#### [Critère 7.1](#crit-7-1) [AA] Le document possède-t-il un [sommaire](glossaire.md#sommaire) (hors cas particuliers)&nbsp;? {id="crit-7-1"}
+- **[Test 7.1.1](#test-7-1-1)** Le document possède-t-il un [sommaire](glossaire.md#sommaire) (hors cas particuliers)&nbsp;? {id="test-7-1-1"}
 
 ##### Cas particuliers 
 Dans ces situations, le critère est non applicable&nbsp;:
@@ -910,7 +910,7 @@ Dans ce cas, le critère est non applicable.
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.2.2 Pause, stop, hide*{lang=en}.
 
 ### [Thématique 10](#topic-10)&nbsp;: Formulaire interactif (thématique complémentaire){id="topic-10"} 
-**Introduction**  
+#### Introduction{class=no-summary}
 Cette thématique concerne uniquement les formulaires interactifs remplis avec Acrobat Reader.
 Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Acrobat Pro ou de logiciels spécialisés dans l’édition de formulaire au format PDF.
 
