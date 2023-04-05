@@ -74,7 +74,7 @@ $menu-font-size : 1em;
     }
 }
 
-@include media-breakpoint-up(medium) {
+@include media-breakpoint-up(large) {
     .js .nav-main .disclosure-nav ul {
         position: absolute;
     }
