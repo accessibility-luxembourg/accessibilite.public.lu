@@ -60,15 +60,15 @@ div.articles_summary ul li:nth-child(odd) {
 }
 
 div.articles_summary ul li a h2 {
-    font: normal 600 1.8em var(--article_font), sans-serif;
+    font: normal 600 1.5em var(--article_font), sans-serif;
     color: var(--article_links);
     font-weight: 500;
-    height: 3em;
 }
 
 div.articles_summary ul li img {
     width: 100%;
     height: auto;
+    padding: 0.5em 0;
 }
 
 div.articles_summary p.subtitle {
@@ -100,14 +100,21 @@ div.articles_summary p.date {
         background-color: transparent;
     }
 
-    div.articles_summary ul li:nth-child(3n+2),  div.articles_summary ul li:nth-child(3n+3) {
+    div.articles_summary ul li:nth-child(4n+2),  div.articles_summary ul li:nth-child(4n+3) {
         background-color: var(--light_blue);
     }
 
-    div.articles_summary p.subtitle {
+    div.articles_summary ul li a h2, div.articles_summary p.subtitle {
         height: 3em;
     }
 }
+
+@media screen and (min-width: 930px) {
+    div.articles_summary ul li a h2 {
+        font-size: 1.8em;
+    }
+}
+
 
 /* article */
 div.main-container.full_width {
