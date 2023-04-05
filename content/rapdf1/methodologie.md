@@ -51,7 +51,7 @@ propose toujours la dernière version stable en téléchargement.
 ###### Dialogue de bienvenue
 
 Lorsque vous démarrez NVDA pour la première fois, une boîte de dialogue
-aparaît. Elle vous propose de :
+apparaît. Elle vous propose de :
 
 1.  Choisir la disposition du clavier : ordinateur de bureau ou
     portable.

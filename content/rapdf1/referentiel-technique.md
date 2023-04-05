@@ -40,7 +40,7 @@ Dans ces cas, il est inutile d'auditer les documents qui devront faire l'objet d
 
 Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, elle n’a pas de valeur normative. Elle n’est fournie qu’à titre d’aide à la prise en main du référentiel et donne un exemple de méthode d’évaluation possible. Il peut exister d’autres méthodes. De plus, le contenu de cette méthodologie ainsi que ses étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie.
 
-Seuls le contenu du critère et des tests ont une valeur normative.
+Seul le contenu du critère et des tests a une valeur normative.
 
 ### [Thématique 1](#topic-1)&nbsp;: Éléments graphiques {id="topic-1"}
 
@@ -849,7 +849,7 @@ Dans ce cas, le critère est non applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Critère 9.7](#crit-9-7) [A] Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternativee&nbsp;? {id="crit-9-7"}
+#### [Critère 9.7](#crit-9-7) [A] Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative&nbsp;? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative&nbsp;?{id="test-9-7-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
@@ -1172,8 +1172,8 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.5.3 Label in name*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
 
-#### [Critère 10.11](#crit-10-11) [AA] Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;? {id="crit-10-11"}
-- **[Test 10.11.1](#test-10-11-1)** Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;?{id="test-10-11-1"}
+#### [Critère 10.11](#crit-10-11) [AA] Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;? {id="crit-10-11"}
+- **[Test 10.11.1](#test-10-11-1)** Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;?{id="test-10-11-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 

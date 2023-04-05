@@ -184,7 +184,7 @@ Si le texte «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 
 Liens dont les intitulés, associé au contexte du lien (titre précédent, phrase) sont identiques.
 
 Par exemple&nbsp;:
-- Dans les deux phrases suivantes, les deux liens «&nbsp;cliquez ici&nbsp;» ne sont pas identiques, car ils bénéficient d’un contexte différent&nbsp;: «&nbsp;Pour consulter notre catalogue&nbsp;: cliquez ici&nbsp;» et «&nbsp;Pour nous contacter&nbsp;: cliquez ici&nbsp; ». 
+- Dans les deux phrases suivantes, les deux liens «&nbsp;cliquez ici&nbsp;» ne sont pas identiques, car ils bénéficient d’un contexte différent&nbsp;: «&nbsp;Pour consulter notre catalogue&nbsp;: cliquez ici&nbsp;» et «&nbsp;Pour nous contacter&nbsp;: cliquez ici&nbsp;». 
 - Dans la phrase suivante, les deux liens «&nbsp;sur cette page&nbsp;» sont identiques, car le contexte ne permet pas de les différencier&nbsp;: «&nbsp;Vous pouvez nous contacter sur cette page ou sur cette page&nbsp;».
 
 ### M
@@ -202,10 +202,10 @@ Dans un environnement bureautique, l’ordre de restitution est dicté par l’o
 Néanmoins, certaines mauvaises pratiques peuvent perturber l’ordre dans lequel les contenus sont restitués.
 
 Par exemple&nbsp;:
-- l’utilisation de la tabulation ou des espaces pour créer des effets de colonage&nbsp;;
+- l’utilisation de la tabulation ou des espaces pour créer des effets de colonnage&nbsp;;
 - l’utilisation de fonctionnalités qui permettent de créer des zones de textes positionnées librement sur le contenu.
 
-La plupart des logiciels d’édition bureautique disposent de fonctionnalités pour gérer le colonage ou «&nbsp;ancrer&nbsp;» ou choisir un «&nbsp;habillage&nbsp;» pour lier la zone de contenu à un bloc de texte.
+La plupart des logiciels d’édition bureautique disposent de fonctionnalités pour gérer le colonnage ou «&nbsp;ancrer&nbsp;» ou choisir un «&nbsp;habillage&nbsp;» pour lier la zone de contenu à un bloc de texte.
 
 Si elles ne sont pas utilisées, cela a pour effet de rendre l’ordre de restitution incohérent.
 
