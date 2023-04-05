@@ -146,7 +146,7 @@
             "name": "rapdf1",
             "children": [ 
                 {
-                    "title": "Référentiel d'évaluation de l'accessibilité des documents PDF (RAPDF 1) : Introduction",
+                    "title": "Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1) : Introduction",
                     "menu": "Introduction",
                     "name": "rapdf1/index",
                     "md": "./content/rapdf1/introduction.md", 
