@@ -595,7 +595,6 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 - WCAG 2.1&nbsp;: [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order)&nbsp;:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
-
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}, *10.2.1.1 Keyboard*{lang=en}, *10.2.4.3 Focus order*{lang=en}.
 
 #### [Critère 6.2](#crit-6-2) [A] L’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;? {id="crit-6-2"}
