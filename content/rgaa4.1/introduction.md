@@ -8,7 +8,7 @@ layout: rgaa-accessibilite
 ---
 *Version 4.1-LU, publiée le 14 juillet 2021*
 
-D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites publics et applications mobiles luxembourgeoises doivent être accessibles. 
+D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
 Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
 
 Dans ce cadre, le référentiel général d'amélioration de l'accessibilité (RGAA), créé par la [DINUM](https://www.numerique.gouv.fr/dinum/), a été sélectionné comme référentiel d'accessibilité pour tous les organismes du secteur public concernés par la loi.
@@ -32,7 +32,7 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 
   * [Critères et tests](criteres.html)
   * [Glossaire](glossaire.html)
-  * [Environnement de test](environnement.html)
   * [Méthodologie de test](methodo-test.html)
+  * [Environnement de test](environnement.html)
   * [Références](references.html)
   * [Notes de révision](notes-revision.html)
