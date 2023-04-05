@@ -1600,7 +1600,7 @@
                                 "Epub/Daisy."
                             ]
                         },
-                        "Les documents PDF doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents PDF (RAPDF 1)](../rapdf1/index.html).",
+                        "Les documents PDF doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).",
                         "Note : le format txt ne peut pas être utilisé pour produire une version accessible pour un document en téléchargement."
                     ]
                 },
