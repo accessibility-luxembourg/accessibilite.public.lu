@@ -5,6 +5,11 @@ C’est la raison pour laquelle l’approche choisie est de tester la présence 
 
 Par exemple, lorsque l’interface contient un élément graphique porteur d’information, le critère demande de vérifier qu’une alternative est disponible et pertinente sans donner plus de précisions sur les techniques à employer pour mettre à disposition une alternative à un élément graphique. Afin d’aider pour l’évaluation, chaque critère dispose d’une méthodologie pratique (**qui n’est pas normative**) exposant une méthode possible d’évaluation du critère.
 
+### Ressources d'exemple
+
+[Des exemples (fichier zip, 9,24 Mo)](../files/ressources-rapdf1.zip) sont à votre disposition pour illustrer la méthodologie de test. Chaque critère est notamment illustré par une capture d'écran issue de l'outil PAC 2021.
+
+
 ###  Outils d’évaluation
 
 Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC 2021 ou directement dans l'interface d'*Acrobat Reader*{lang=en} à l'exception de la thématique complémentaire «&nbsp;10 - Formulaire interactif&nbsp;» qui nécessite l'utilisation du lecteur d'écran NVDA.
