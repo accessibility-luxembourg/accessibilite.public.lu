@@ -1600,7 +1600,7 @@
                                 "Epub/Daisy."
                             ]
                         },
-                        "Les contenus doivent être conformes à la [liste des critères Documents Bureautiques en téléchargement (format Docx, 66 kilo-octets)](files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).",
+                        "Les documents PDF doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents PDF (RAPDF 1)](../rapdf1/index.html).",
                         "Note : le format txt ne peut pas être utilisé pour produire une version accessible pour un document en téléchargement."
                     ]
                 },

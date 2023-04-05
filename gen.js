@@ -125,7 +125,7 @@ function langOnEUNorm(str) {
 // generate criteria in FR
 const mdCriteres = MarkdownIt({
     replaceLink: function (link, env) {
-        if (!link.match(/^#test-|#crit-|https?:\/\//)) {
+        if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
             return 'glossaire.html'+link
         }
         return link
@@ -134,7 +134,7 @@ const mdCriteres = MarkdownIt({
 
 const mdCriteres41 = MarkdownIt({
     replaceLink: function (link, env) {
-        if (!link.match(/^#test-|#crit-|https?:\/\//)) {
+        if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
             return '../rgaa4.1/glossaire.html'+link
         }
         return link
