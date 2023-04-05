@@ -12,3 +12,28 @@ index 9a328ff..1cda30d 100644
    display: block;
  }
  
+diff --git a/node_modules/@pidila/scampi/modules/menu-simple/_style-menu-simple.scss b/node_modules/@pidila/scampi/modules/menu-simple/_style-menu-simple.scss
+index 64a157a..4cbed44 100644
+--- a/node_modules/@pidila/scampi/modules/menu-simple/_style-menu-simple.scss
++++ b/node_modules/@pidila/scampi/modules/menu-simple/_style-menu-simple.scss
+@@ -40,7 +40,7 @@
+     }
+   }
+ 
+-  @include media-breakpoint-up(medium) {
++  @include media-breakpoint-up(large) {
+     display: none;
+   }
+ }
+@@ -101,9 +101,9 @@
+   display: block;
+ }
+ 
+-// à partir de la taille medium, affichage
++// à partir de la taille large, affichage
+ // à l'horizontale
+-@include media-breakpoint-up(medium) {
++@include media-breakpoint-up(large) {
+   .nav-main {
+     .nav-main-list {
+       display: flex;
