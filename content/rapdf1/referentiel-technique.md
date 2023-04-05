@@ -328,7 +328,6 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence)&nbsp;:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 
 #### [Critère 3.2](#crit-3-2) [A] Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant une alternative, celle-ci est-elle pertinente&nbsp;? {id="crit-3-2"}
