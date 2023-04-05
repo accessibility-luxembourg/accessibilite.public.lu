@@ -23,8 +23,8 @@
     <ul>
         <li>les services de communications électroniques&#8239;;</li>
         <li>les service audiovisuels (vidéo à la demande, replay, etc.)&#8239;;</li>
-        <li>les médias temporels (audio et / ou vidéo) préenregistrés disponibles sur internet ou une app, qui ne sont pas considérés comme des archives&#8239;;</li>
-        <li>les services liés au transport de passagers par avion, bus, train et bateau (leurs sites internet et applications mobiles notamment), sauf exceptions prévues par la loi&#8239;;</li>
+        <li>les médias temporels (audio et / ou vidéo) préenregistrés disponibles sur Internet ou une app, qui ne sont pas considérés comme des archives&#8239;;</li>
+        <li>les services liés au transport de passagers par avion, bus, train et bateau (leurs sites Internet et applications mobiles notamment), sauf exceptions prévues par la loi&#8239;;</li>
         <li>les plateformes d'e-banking, de paiement en ligne et de monnaie électronique&#8239;;</li>
         <li>les livres numériques&#8239;;</li>
         <li>le commerce électronique&#8239;;</li>

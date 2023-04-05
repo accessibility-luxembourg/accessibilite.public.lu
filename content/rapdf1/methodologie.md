@@ -1,7 +1,7 @@
 Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments ou d’attributs, il est difficile de procéder de la même manière pour les documents au format PDF.
-En effet, l'inspection du code d'un document au format PDF ne peut se faire qu'au moyen du logiciel Acrobat Pro qui est un logiciel propriétaire payant dont l'utilisation nécessite une formation. 
+En effet, l'inspection du code d'un document au format PDF ne peut se faire qu'au moyen du logiciel <span lang="en">Acrobat Pro</span> qui est un logiciel propriétaire payant dont l'utilisation nécessite une formation. 
 
-C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d'un outil dédié (PAC 2021) ou directement sur l’interface elle-même au moyen de test de restitution vocale par l'intermédiaire d'un lecteur d'écran.
+C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d'un outil dédié (PAC 2021) ou directement sur l’interface elle-même au moyen de tests de restitution vocale par l'intermédiaire d'un lecteur d'écran.
 
 Par exemple, lorsque l’interface contient un élément graphique porteur d’information, le critère demande de vérifier qu’une alternative est disponible et pertinente sans donner plus de précisions sur les techniques à employer pour mettre à disposition une alternative à un élément graphique. Afin d’aider pour l’évaluation, chaque critère dispose d’une méthodologie pratique (**qui n’est pas normative**) exposant une méthode possible d’évaluation du critère.
 
@@ -12,7 +12,7 @@ Par exemple, lorsque l’interface contient un élément graphique porteur d’i
 
 ###  Outils d’évaluation
 
-Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC 2021 ou directement dans l'interface d'*Acrobat Reader*{lang=en} à l'exception de la thématique complémentaire «&nbsp;10 - Formulaire interactif&nbsp;» qui nécessite l'utilisation du lecteur d'écran NVDA.
+Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC 2021 ou directement dans l'interface d'<span lang="en">Acrobat Reader</span> à l'exception de la thématique complémentaire «&nbsp;10 - Formulaire interactif&nbsp;» qui nécessite l'utilisation du lecteur d'écran NVDA.
 
 Les sections ci-dessous décrivent les éléments essentiels à connaitre pour installer ces outils.
 
@@ -79,7 +79,7 @@ pourrez changer de synthèse vocale en appuyant simultanément sur
 
 Pour changer la vitesse de lecture, la langue de la voix et la quantité
 d\'informations à prononcer, aller dans le menu NVDA en appuyant
-simultanément sur [<kbd>NVDA</kbd> + </kbd>n</kbd>], aller dans « Préférences »,
+simultanément sur [<kbd>NVDA</kbd> + </kbd>N</kbd>], aller dans « Préférences »,
 « Paramètres », puis choisir l\'onglet « Parole ». Effectuer les
 réglages et confirmer avec « OK ».
 

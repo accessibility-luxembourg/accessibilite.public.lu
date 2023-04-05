@@ -4,16 +4,16 @@ Une certaine partie des tests du référentiel d’évaluation de l’accessibil
 
 Bien que les documents PDF soient exploitables sur la plateforme macOS, il n'existe pas d'outil permettant de vérifier l'accessibilité des documents PDF.
 
-La plateforme de tests retenue est la plateforme Windows en version 10, au moins.
+La plateforme de tests retenue est la plateforme <span class="en">Windows</span> en version 10, au moins.
 
 Les versions des technologies d’assistance à utiliser sont la dernière disponible sur le système d’exploitation retenu.
 
-Certains tests sont réalisés directement dans le logiciel *[Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M)*{lang=en}.
+Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M){lang=en}.
 
 #### Outils de test
 ##### Outil de test dédié
 
-L’outil de test dédié est PAC 2021 *[PDF/UA Accessibility Checker - 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/)*{lang=en}
+L’outil de test dédié est PAC 2021 [PDF/UA Accessibility Checker - 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/){lang=en}
 
 ##### Lecteur d’écran utilisé pour les tests
 

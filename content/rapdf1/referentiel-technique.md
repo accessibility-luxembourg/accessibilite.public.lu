@@ -1,7 +1,7 @@
 ### Introduction {class="no-summary"}
 
 Ce référentiel est proposé pour vérifier que les documents PDF issus de logiciels d’édition bureautique présentent une accessibilité de base. L’objectif est de permettre aux personnes en situation de handicap d’accéder aux contenus et de les comprendre ainsi que d’utiliser des fonctionnalités de navigation.
-Il ne prend pas en compte certains types de contenus complexes ou de structures spécifiques au format PDF. En effet, ceux-ci ne peuvent être édités qu’avec l’environnement de travail Acrobat Pro ou des logiciels compatibles.
+Il ne prend pas en compte certains types de contenus complexes ou de structures spécifiques au format PDF. En effet, ceux-ci ne peuvent être édités qu’avec l’environnement de travail Acrobat Pro ou des logiciels similaires.
 
 Parmi ces types de contenus, on peut citer&nbsp;:
 - les en-têtes et pieds de page, 
@@ -16,11 +16,11 @@ Parmi les structures spécifiques, on peut citer&nbsp;:
 - les déclarations d’éléments décoratifs spécifiques au format PDF,
 - l'association d'une infobulle aux liens.
 
-Par ailleurs, les contenus de type formulaire sont abordés dans une thématique additionnelle et sont réduits aux éléments de base.
+Par ailleurs, les contenus de type formulaire sont abordés dans une thématique additionnelle et sont réduits aux éléments essentiels.
 
 L’évaluation et l’adaptation de ces éléments nécessitent l’intervention de spécialistes et l’utilisation de logiciels techniques (lecteurs d’écran, logiciels de mise en page compatibles avec le format PDF ou l’environnement de travail Acrobat Pro).
 
-Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaine d'édition spécialisée, dans ce cas il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}
+Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaine d'édition spécialisée, dans ce cas il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
 
 ### Type de contenus non conformes {class="no-summary"}
 
@@ -38,7 +38,7 @@ Dans ces cas, il est inutile d'auditer les documents qui devront faire l'objet d
 
 ### Avertissement {class="no-summary"}
 
-Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, elle n’a pas de valeur normative. Elle n’est fournie qu’à titre d’aide à la prise en main du référentiel et donne un exemple de méthode d’évaluation possible. Il peut exister d’autres méthodes. De plus, le contenu de cette méthodologie ainsi que ses étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie.
+Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, elle n’a pas de valeur normative. Elle n’est fournie qu’à titre d’aide à la prise en main du référentiel et donne un exemple de méthode d’évaluation possible. Il peut en exister d’autres. De plus, le contenu de cette méthodologie ainsi que ses étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie.
 
 Seul le contenu du critère et des tests a une valeur normative.
 
@@ -221,7 +221,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - Le mot ou l’ensemble de mots est accompagné d’une icône avec une alternative pertinente.
     - L’indication textuelle fait référence à un texte explicite ou une icône avec une alternative pertinente.
     - L’indication donnée par la couleur dans une image est accompagnée d’une indication visuelle (légende, symbole…).
-    - L’indication donnée par une mise en forme est accompagnée d’une icône avec une alternative pertinente
+    - L’indication donnée par une mise en forme est accompagnée d’une icône avec une alternative pertinente.
 5. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -267,10 +267,10 @@ Dans ces situations, le critère est non applicable.
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.3 Contrast (minimum)*{lang=en}
 
 #### [Critère 2.3](#crit-2-3) [AA] Les couleurs utilisées dans les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers)&nbsp;? {id="crit-2-3"}
-- **[Test 2.3.1](#test-2-3-1)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique et les [couleurs adjacentes](glossaire.md#couleurs-adjacentes), vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-1"}
+- **[Test 2.3.1](#test-2-3-1)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique avec les [couleurs adjacentes](glossaire.md#couleurs-adjacentes), vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-1"}
     - Le rapport de contraste est de 3:1, au moins.
     - Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants.
-- **[Test 2.3.2](#test-2-3-2)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique et la couleur d’arrière-plan, vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-2"}
+- **[Test 2.3.2](#test-2-3-2)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique avec la couleur d’arrière-plan, vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-2"}
     - Le rapport de contraste est de 3:1, au moins.
     - Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants.
 - **[Test 2.3.3](#test-2-3-3)** Le rapport de contraste entre les couleurs d’un élément graphique dans ses [différents états](glossaire.md#differents-etats-d-un-element-graphique) vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-3"}
@@ -326,7 +326,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence)&nbsp;:
-    - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)
+    - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
@@ -346,7 +346,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence)&nbsp;:
-    - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)
+    - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 
@@ -405,7 +405,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)&nbsp;:
-- [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
+    - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 
 ### [Thématique 4](#topic-4)&nbsp;: Liens {id="topic-4"}
@@ -459,7 +459,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 3. Repérer les liens image dans le document original.
 4. Vérifier dans PAC que l’image possède une alternative renseignée (élément ALT contenu dans l’élément LINK).
 5. Repérer les liens construits avec ne forme complexe dans le document original.
-6. Vérifier dans PAC que la forme complexe possède une alternative renseignée (élément ALT)
+6. Vérifier dans PAC que la forme complexe possède une alternative renseignée (élément ALT).
 5. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -545,7 +545,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
-3. Vérifier que tous les contenus utilisent des éléments appropriés, plus particulièrement qu’ils n’existent pas&nbsp;:
+3. Vérifier que tous les contenus utilisent des éléments appropriés, plus particulièrement qu’il n’existe pas&nbsp;:
     - des blocs de textes associés à un élément Hx (par exemple un bloc de texte associé à un élément H1)&nbsp;;
     - des paragraphes vides successifs&nbsp;;
     - des blocs de textes où chaque ligne est présentée sous la forme d’un paragraphe (élément P).
@@ -925,7 +925,7 @@ Néanmoins, le recours à un test par une personne en situation de handicap au m
 #### [Critère 10.1](#crit-10-1) [A] Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) a-t-il une [étiquette](glossaire.md#etiquette)&nbsp;? {id="crit-10-1"}
 - **[Test 10.1.1](#test-10-1-1)** Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) vérifie-t-il ces conditions&nbsp;?{id="test-10-1-1"}
     - l'[étiquette](glossaire.md#etiquette) est visible&nbsp;;
-    - l'[étiquette](glossaire.md#etiquette) est correctement restituée aux technologies d'assistance.
+    - l'[étiquette](glossaire.md#etiquette) est correctement restituée par les technologies d'assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 

@@ -40,7 +40,7 @@ Quelques exemples&nbsp;:
 - émoticône&nbsp;: :), ^^, O_o&nbsp;;
 - syntaxe cryptique&nbsp;: m4gic (magique), ama (à mon avis).
 
-**Note**&nbsp;: les «&nbsp;hashtags&nbsp;» (« #Emploi »), les URL (https://www.site.sample.com) ne sont pas considérées comme des contenus cryptiques.
+**Note**&nbsp;: les «&nbsp;hashtags&nbsp;» (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.
 
 #### Contexte du lien
 Il s’agit d’informations complémentaires qui peuvent, par l’intermédiaire de raccourcis ou de manipulation au clavier, être associées à l’intitulé du lien.
@@ -49,7 +49,7 @@ En environnement bureautique, les contextes exploitables sont&nbsp;:
 - le titre précédent&nbsp;;
 - la phrase ou le paragraphe dans lequel le lien est présent&nbsp;;
 
-Le lien sera considéré comme explicite lorsqu’un seul de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.
+Le lien sera considéré comme explicite lorsqu’au moins l'un de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.
 
 #### Couleurs adjacentes
 Couleur directement en contact avec les couleurs de l’élément graphique, comme la couleur d’arrière-plan ou toute autre couleur en jonction directe.
@@ -60,7 +60,7 @@ Il est important de comprendre que le [critère&nbsp;2.3](referentiel-technique.
 
 Toutes les couleurs d’un élément graphique ne sont pas à évaluer. Seules les couleurs porteuses d’informations sont concernées.
 
-Par exemple, dans un graphique à secteurs (camembert) le rapport de contraste entre les couleurs adjacentes de chaque secteur et entre chaque couleur et la couleur de fond sont à évaluer si c’est le seul moyen de récupérer l’information.
+Par exemple, dans un graphique à secteurs (camembert), le rapport de contraste entre les couleurs adjacentes de chaque secteur et entre chaque couleur et la couleur de fond sont à évaluer si c’est le seul moyen de récupérer l’information.
 
 En revanche, si une légende donne sous forme de texte les valeurs et toutes les informations utiles de chaque secteur, le critère n’est plus applicable, puisque l’information est disponible par un autre moyen.
 
@@ -79,9 +79,9 @@ Quelquefois un élément graphique est présenté avec différents états. Par e
 #### Documents non balisés
 Il s'agit de documents dans lesquels les éléments de structures (titre, liste, paragraphe, etc.) sont absents.
 
-Dans ce cas, le document doit être revu en profondeur ou récré complètement.
+Dans ce cas, le document doit être revu en profondeur ou recréé complètement.
 
-L'état du balisage peut être vérifié dans les propriétés du document : menu "fichier", puis sous-menu "propriétés", puis paramètre "PDF balisé", lorsque l'indication est "non" le document n'est pas balisé.
+L'état du balisage peut être vérifié dans les propriétés du document&nbsp;: menu "fichier", puis sous-menu "propriétés", puis paramètre "PDF balisé", lorsque l'indication est "non" le document n'est pas balisé.
 
 #### Durée d’activation
 
@@ -90,12 +90,12 @@ Durée d’activation d’un contenu clignotant ou en mouvement&nbsp;: durée pe
 ### E
 #### Éléments de structure
 Il s’agit des formats et des styles avec lesquels le contenu est structuré (titres, listes, paragraphes, etc.).
-Lorsque ces formats ou ces styles sont utilisés pour créer des effets de présentation la restitution peut en être profondément impactée. Par exemple, utiliser un style de titre pour mettre en forme un paragraphe, utiliser des paragraphes pour créer des effets de marges, etc.
+Lorsque ces formats ou ces styles sont utilisés pour créer des effets de présentation, la restitution peut en être profondément impactée. Par exemple, utiliser un style de titre pour mettre en forme un paragraphe, utiliser des paragraphes pour créer des effets de marges, etc.
 
 **Note au sujet de l’utilisation des paragraphes**&nbsp;: la présence d’un paragraphe vide après un contenu structuré, par exemple un titre, une liste, un paragraphe de texte en fin de page, n’est pas considérée comme une non-conformité. Seule l’utilisation de plusieurs paragraphes vides successifs est concernée.
 
 #### En-tête (tableau)
-Cellule qui sert d’intitulé à une colonne, une ligne, une partie de colonne, une partie de ligne ou des regroupements de lignes ou de colonnes (en-tête fusionné.)
+Cellule qui sert d’intitulé à une colonne, une ligne, une partie de colonne, une partie de ligne ou des regroupements de lignes ou de colonnes (en-tête fusionné).
 
 #### Étiquette
 Texte associé à un champ de formulaire permettant d’identifier et de comprendre la nature de la saisie.
@@ -105,20 +105,20 @@ Les étiquettes de champs de formulaire présentes dans un même document et qui
 
 ### F
 #### Forme complexe
-Il s’agit des contenus comme des diagrammes ou des schémas créés par les outils de dessin ou de génération de schéma et diagramme proposés par les outils d’édition bureautique.
+Il s’agit des contenus comme des diagrammes ou des schémas créés par les outils de dessin, de génération de schéma et de diagramme proposés par les outils d’édition bureautique.
 
 **Note au sujet des outils de génération automatique de formes complexes**&nbsp;: certains outils d’édition bureautique proposent des composants permettant de générer des schémas automatiques.  
 Ces composants ne devraient pas être utilisés, car leur restitution n’est généralement pas satisfaisante. Une solution consiste à les remplacer par des images.
 
 #### Formulaire non interactif
 
-Il s'agit d'un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple :
+Il s'agit d'un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple&nbsp;:
 
-Votre nom : [..........................]
+Votre nom&nbsp;: [..........................]
 
-Ce type de document qui simule en réalité un formulaire à imprimer ne peut pas être utilisé correctement par les personnes handicapées.
+Ce type de document, qui simule en réalité un formulaire à imprimer, ne peut pas être utilisé correctement par les personnes handicapées.
 
-Dans ce cas, le document doit être récré sous la forme d'un formulaire interactif.
+Dans ce cas, le document doit être recréé sous la forme d'un formulaire interactif.
 
 ### H
 #### Hiérarchie du titrage
@@ -168,13 +168,13 @@ Un lien peut être de trois formes différentes&nbsp;:
 - lien image dont l’intitulé est constitué de l’alternative de l’image&nbsp;;
 - lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.
 #### Lien dont la nature n’est pas évidente
-Il s’agit d’un lien dont l’intitulé ne permet pas d’en comprendre la nature ce qui peut amener les personnes déficientes visuelles à les ignorer.
+Il s’agit d’un lien dont l’intitulé ne permet pas d’en comprendre la nature, ce qui peut amener les personnes déficientes visuelles à l'ignorer.
 
-Exemple d’un lien dont la nature est évidente&nbsp;: « Les conditions générales d’utilisation de nos services ont été mises à jour, cliquez pour les consulter en ligne ».  
+Exemple d’un lien dont la nature est évidente&nbsp;: «&nbsp;Les conditions générales d’utilisation de nos services ont été mises à jour, cliquez pour les consulter en ligne.&nbsp;»
 
 Si le texte «&nbsp;Cliquez pour les consulter en ligne&nbsp;» est un lien, sa nature est évidente.
 
-Exemple d’un lien dont la nature n’est pas évidente&nbsp;: «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 définissent la façon de rendre les contenus Web plus accessibles aux personnes en situation de handicap&nbsp;».
+Exemple d’un lien dont la nature n’est pas évidente&nbsp;: «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 définissent la façon de rendre les contenus Web plus accessibles aux personnes en situation de handicap.&nbsp;»
 
 Si le texte «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1&nbsp;» est un lien, son intitulé est insuffisant pour en comprendre la nature.
 
@@ -185,7 +185,7 @@ Liens dont les intitulés, associé au contexte du lien (titre précédent, phra
 
 Par exemple&nbsp;:
 - Dans les deux phrases suivantes, les deux liens «&nbsp;cliquez ici&nbsp;» ne sont pas identiques, car ils bénéficient d’un contexte différent&nbsp;: «&nbsp;Pour consulter notre catalogue&nbsp;: cliquez ici&nbsp;» et «&nbsp;Pour nous contacter&nbsp;: cliquez ici&nbsp;». 
-- Dans la phrase suivante, les deux liens «&nbsp;sur cette page&nbsp;» sont identiques, car le contexte ne permet pas de les différencier&nbsp;: «&nbsp;Vous pouvez nous contacter sur cette page ou sur cette page&nbsp;».
+- Dans la phrase suivante, les deux liens «&nbsp;sur cette page&nbsp;» sont identiques, car le contexte ne permet pas de les différencier&nbsp;: «&nbsp;Vous pouvez nous contacter sur cette page ou sur cette page.&nbsp;»
 
 ### M
 #### Mécanisme de remplacement (contraste renforcé)
@@ -205,7 +205,7 @@ Par exemple&nbsp;:
 - l’utilisation de la tabulation ou des espaces pour créer des effets de colonnage&nbsp;;
 - l’utilisation de fonctionnalités qui permettent de créer des zones de textes positionnées librement sur le contenu.
 
-La plupart des logiciels d’édition bureautique disposent de fonctionnalités pour gérer le colonnage ou «&nbsp;ancrer&nbsp;» ou choisir un «&nbsp;habillage&nbsp;» pour lier la zone de contenu à un bloc de texte.
+La plupart des logiciels d’édition bureautique disposent de fonctionnalités pour gérer le colonnage, «&nbsp;ancrer&nbsp;» ou choisir un «&nbsp;habillage&nbsp;» pour lier la zone de contenu à un bloc de texte.
 
 Si elles ne sont pas utilisées, cela a pour effet de rendre l’ordre de restitution incohérent.
 
@@ -219,7 +219,7 @@ D’autres problèmes d’ordre de restitution peuvent être trouvés sans qu’
 
 #### Ordre de tabulation
 Ordre dans lequel les contenus sont parcourus avec la touche tabulation. Ce parcours peut devenir incohérent dans certaines situations, par exemple lorsque des éléments cliquables sont insérés dans des formes complexes ou des zones de textes et que ces dernières ne se présentent pas dans un ordre cohérent.
-De même dans un formulaire PDF l’ordre de tabulation des champs de saisie et des boutons peut présenter des incohérences lorsqu’ils sont mal positionnés.
+De même, dans un formulaire PDF, l’ordre de tabulation des champs de saisie et des boutons peut présenter des incohérences lorsqu’ils sont mal positionnés.
 
 ### P
 #### Porteuse d’information
