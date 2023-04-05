@@ -302,8 +302,8 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.title = $('h2').first().text()
     data.meta.subtitle_html = $('h3').first().html()
     data.meta.subtitle = $('h3').first().text()
-    data.meta.intro_html = $('.intro').first().html()
-    data.meta.intro = $('.intro').first().text()
+    data.meta.intro_html = $('.intro > p').first().html()
+    data.meta.intro = $('.intro > p').first().text()
     data.meta.img = $('img').first().attr('src')
     data.meta.imgName = data.meta.img.replace(/^.*\/([^\/]+)$/, '$1')
     if (data.meta.teaser) {
