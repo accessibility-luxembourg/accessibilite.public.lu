@@ -1,6 +1,6 @@
 *Version 1.0, publiée le 21 juin 2021*
 
-D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites publics et applications mobiles luxembourgeoises doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/) est en charge du contrôle de leur accessibilité.
+D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/) est en charge du contrôle de leur accessibilité.
 
 Dans ce cadre, le référentiel d’évaluation de l’accessibilité des applications mobiles a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public concernés par la loi.
 
@@ -25,7 +25,7 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 
 - [Critères et tests](referentiel-technique.md)
 - [Glossaire](glossaire.md)
-- [Environnement de test](environnement.md)
 - [Méthodologie de test](methodologie.md)
+- [Environnement de test](environnement.md)
 - [Références](references.md)
 
