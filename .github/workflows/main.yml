@@ -33,6 +33,7 @@ jobs:
         BUGSNAG: ${{ secrets.BUGSNAG }}
         TRACKING: ${{ secrets.TRACKING }}
         GOVBAR: ${{secrets.GOVBAR}}
+        GSITEVERIF: ${{secrets.GSITEVERIF}}
       run: | 
         cd $GITHUB_WORKSPACE
         npm install
