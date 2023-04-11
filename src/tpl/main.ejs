@@ -14,6 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:dnt" content="on">
     <meta name="author" content="Service information et presse">
+    <% if (ogDesc) { %>
+      <meta name="description" content="<%= ogDesc %>">
+    <% } %>
 
     <% if (imgTwitter) { %>
       <meta name="twitter:card" content="summary_large_image">
@@ -49,12 +52,14 @@
 
 
     <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
+    <link rel="canonical" href='https://accessibilite.public.lu<%= file %>'/>
     <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/fr/news/feed.xml" />
     
     <% if (prod) { %>
+      <meta name="google-site-verification" content="<%= process.env.GSITEVERIF %>" />
       <%- process.env.BUGSNAG %>
     <% } %>
-    
+   
     <script src="<%= prefix %>/html/main.js"></script>
     <% if (prod) { %>
       <%- process.env.TRACKING %>
