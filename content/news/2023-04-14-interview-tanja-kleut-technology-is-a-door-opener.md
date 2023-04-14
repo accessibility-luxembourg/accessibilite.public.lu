@@ -12,7 +12,7 @@ auteur: Dominique Nauroy
     <p>Tanja Kleut is working on digital accessibility at the European Parliament. She has lived and worked in Luxembourg since 2014. In nine years, she has seen the progress made in terms of accessibility in the capital, but also online. Do these improvements enable blind people to live, work, communicate and move around independently? Not yet, there is still a long way to go. She explains us why.</p>
 </div>
 <figure class="pic">
-    <img src="../../../../content/news/img/itw-t-kleut.jpg" alt="Photographie de Tanja Kleut dans les locaux du Service Information et Presse">
+    <img src="../../../../content/news/img/itw-t-kleut.jpg" alt="Photo of Tanja Kleut at the Information and Press Service">
     <figcaption>Tanja Kleut. Photo&#8239;: Dominique Nauroy</figcaption>
 </figure>
 <h4>How important is digital accessibility to you?</h4>
