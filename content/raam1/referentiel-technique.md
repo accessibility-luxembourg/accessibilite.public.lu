@@ -1970,11 +1970,13 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 1. Pour chaque fichier proposé au téléchargement, dans un format bureautique, vérifier la présence d’une version alternative présentée comme accessible.
 1. Si l’alternative est proposée dans un format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier de l’alternative proposée&nbsp;; 
-	- vérifier que l’ensemble des contenus est conforme avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+	- vérifier que les documents PDF sont conformes avec le [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- vérifier que les autres types de documents sont conformes avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
 1. Si l’alternative est proposée dans l’application, vérifier que le contenu est conforme au présent référentiel.
 1. Sinon, pour les documents au format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier&nbsp;; 
-	- vérifier que l’ensemble des contenus est conforme avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+	- vérifier que les documents PDF sont conformes avec le [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- vérifier que les autres types de documents sont conformes avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).	
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}

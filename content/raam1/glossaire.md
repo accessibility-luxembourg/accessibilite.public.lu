@@ -618,7 +618,8 @@ Les documents en téléchargement dont les types de formats sont reconnus compat
 - Adobe PDF&nbsp;;
 - ePub/Daisy.
 
-Les contenus doivent être conformes à la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](../rgaa4.1/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+Les documents PDF doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+Les autres types de contenus doivent être conformes à la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](../rgaa4.1/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
 
 **Note&nbsp;:** le format TXT ne peut pas être utilisé pour produire une version accessible pour un document en téléchargement.
 
