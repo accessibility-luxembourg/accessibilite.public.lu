@@ -138,7 +138,7 @@ body article.news h2 {
     color: var(--article_title);
 }
 
- body article.news h3, body article.news h4 {
+ body article.news h3, body article.news h4, body article.news h5 {
     color: var(--article_subtitles);
 }
 
@@ -158,9 +158,13 @@ body article.news h3, body article.news h4 {
     font: normal 600 1.2em var(--article_font), sans-serif;
 }
 
-body article.news h4 {
+body article.news h4, body article.news h5 {
     max-width: 750px;
     margin: 1.5em auto;
+}
+
+body article.news h5 {
+    font: normal 600 1em var(--article_font), sans-serif;
 }
 
 body article.news p.date {
@@ -305,6 +309,17 @@ figure.pic figcaption {
     font: normal 200 0.9em var(--article_font), sans-serif;
 }
 
+div.charts-side-by-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+    div.charts-side-by-side {
+        flex-direction: row;
+    }
+}
 
 /* highcharts */
 figure.chart {
@@ -329,6 +344,14 @@ figure.chart > div#full_app_themes {
 
 figure.chart > div#complaints {
     height: 350px;
+}
+
+figure.chart > div#pdf-20230503-2, figure.chart > div#pdf-20230503-3, figure.chart > div#pdf-20230503-4 {
+    height: 370px;
+}
+
+figure.chart > div#pdf-20230503-5 {
+    height: 320px;
 }
 
 figure.chart details {

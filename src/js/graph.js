@@ -91,7 +91,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
             style: {
                 fontFamily: "Fira Sans",
                 fontWeight: 400,
-                fontSize: 16
+                fontSize: '16px'
             }
         },
         legend: {

@@ -16,8 +16,8 @@
     <ul>
         <li>le matériel informatique grand public comme les ordinateurs, smartphones et tablettes et leur systèmes d'exploitation respectifs&#8239;;</li>
         <li>les terminaux de paiement , les bornes d'enregistrement, les distributeurs de billets ou de titres de transport – à l’exclusion de ceux présents à bord des moyens de transport, sauf exceptions prévues par la loi&#8239;;</li>
-        <li>Les téléviseurs intelligents ou les équipements donnant accès à des services audiovisuels&#8239;;</li>
-        <li>Les liseuses électroniques.</li>
+        <li>les téléviseurs intelligents ou les équipements donnant accès à des services audiovisuels&#8239;;</li>
+        <li>les liseuses électroniques.</li>
     </ul>
     <h6>Les services&#8239;:</h6>
     <ul>
