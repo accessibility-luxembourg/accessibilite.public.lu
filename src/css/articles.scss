@@ -309,20 +309,9 @@ figure.pic figcaption {
     font: normal 200 0.9em var(--article_font), sans-serif;
 }
 
-div.charts-side-by-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-@media screen and (min-width: 700px) {
-    div.charts-side-by-side {
-        flex-direction: row;
-    }
-}
-
 /* highcharts */
 figure.chart {
+    width: 100%;
     max-width: 650px; 
     margin: 2em auto;
     display: flex;
@@ -380,6 +369,27 @@ figure.chart > p {
     margin-top: 0;
     order: 2;
     font: normal 500 0.8em var(--article_font), sans-serif;
+}
+
+div.charts-side-by-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+    div.charts-side-by-side {
+        flex-direction: row;
+    }
+
+    div.charts-side-by-side figure.chart {
+        max-width: 300px;
+    }
+
+    div.charts-side-by-side figure.chart details[open] {
+        max-width: 300px;
+    }
+    
 }
 
 
