@@ -40,9 +40,9 @@ auteur: Alain Vagner
 <aside class="contextbox">
     <h5>Les trois problèmes d’accessibilité des PDF les plus bloquants</h5>
     <h6>Les PDF non balisés</h6>
-    <p>Le format PDF est à la base un format destiné à l’impression. En 2001, une nouvelle version de ce format a introduit le concept de balisage («&#8239;tagging&#8239;») qui permet de fournir aux technologies d’assistance des informations structurées sur le contenu des pages et ainsi de le rendre accessible aux personnes en situation de handicap. En pratique, le balisage permet aux personnes aveugles d’identifier et d’interagir avec les différents types de contenus comme les titres, les listes, les paragraphes, les tableaux, les images, les champs de formulaires, etc. Les principales suites bureautiques et logiciels de PAO (Publication Assistée par Ordinateur) permettent d’exporter des PDF balisés.</p>
+    <p>Le format PDF est à la base un format destiné à l’impression. En 2001, une nouvelle version de ce format a introduit le concept de balisage («&#8239;<span lang="en">tagging</span>&#8239;») qui permet de fournir aux technologies d’assistance des informations structurées sur le contenu des pages et ainsi de le rendre accessible aux personnes en situation de handicap. En pratique, le balisage permet aux personnes aveugles d’identifier et d’interagir avec les différents types de contenus comme les titres, les listes, les paragraphes, les tableaux, les images, les champs de formulaires, etc. Les principales suites bureautiques et logiciels de PAO (Publication Assistée par Ordinateur) permettent d’exporter des PDF balisés.</p>
     <h6>Les documents numérisés en mode image</h6>
-    <p>Lorsqu’un document papier est numérisé en mode image et exporté au format PDF, il est nécessaire d’opérer une reconnaissance optique des caractères (en anglais «&#8239;optical character recognition&#8239;» ou OCR). Sans cette étape, le document sera constitué uniquement d’images pour chaque page qui ne seront pas accessibles. La reconnaissance des caractères peut être réalisée via Adobe Acrobat Pro ou via tout logiciel spécialisé dans l’OCR.</p>
+    <p>Lorsqu’un document papier est numérisé en mode image et exporté au format PDF, il est nécessaire d’opérer une reconnaissance optique des caractères (en anglais «&#8239;<span lang="en">optical character recognition</span>&#8239;» ou OCR). Sans cette étape, le document sera constitué uniquement d’images pour chaque page qui ne seront pas accessibles. La reconnaissance des caractères peut être réalisée via Adobe Acrobat Pro ou via tout logiciel spécialisé dans l’OCR.</p>
     <h6>La protection contre l’utilisation de technologies d’assistance</h6>
     <p>Le format PDF propose de nombreuses options de protection des documents, par exemple contre la modification. Une de ces options protège le document contre l’utilisation de technologies d’assistance par les personnes handicapées. Cette option peut être activée par erreur et est globalement à proscrire.</p>
 </aside>
@@ -116,9 +116,9 @@ auteur: Alain Vagner
 <p>On constate d’importantes disparités entre les sites quant à la part des PDF balisés. Nous avons analysé ici les sites ayant plus d’une centaine de fichiers PDF à disposition. Guichet.lu est en tête de peloton avec 82&#8239;% et meteolux.lu ferme la marche à seulement 3&#8239;%.</p>
 <p>Ces résultats sont néanmoins à nuancer, car nos tests automatiques ne permettent pas de savoir si les documents considérés sont exempts de l’obligation de conformité avec les normes d’accessibilité. En effet un document peut être émis par un tiers et ne pas être sous le contrôle de l’organisme qui publie, ou bien une alternative accessible peut être présente. Ces deux exceptions sont prévues dans la loi.</p>
 <h5>Impact du mode de production</h5>
-<p>Nous avons ensuite voulu connaitre l’origine des fichiers balisés et non balisés. Fort heureusement le format PDF dispose de métadonnées «&#8239;Creator&#8239;» et «&#8239;Producer&#8239;» qui permettent d’identifier la provenance.</p>
+<p>Nous avons ensuite voulu connaitre l’origine des fichiers balisés et non balisés. Fort heureusement le format PDF dispose de métadonnées «&#8239;<span lang="en">Creator</span>&#8239;» et «&#8239;<span lang="en">Producer</span>&#8239;» qui permettent d’identifier la provenance.</p>
 <p>Vous trouverez ci-dessous les Top 5 des logiciels et matériels que nos tests ont pu identifier et qui ont produit le plus de documents balisés et non balisés&#8239;:</p>
-<p>Top 5 des producteurs de PDF balisés</p>
+<h6>Top 5 des producteurs de PDF balisés</h6>
 <ol>
 <li>Microsoft Word</li>
 <li>Adobe Acrobat PDFMaker</li>
@@ -126,7 +126,7 @@ auteur: Alain Vagner
 <li>Adobe LiveCycle Designer</li>
 <li>Microsoft Powerpoint</li>
 </ol>
-<p>Top 5 des producteurs de PDF non balisés</p>
+<h6>Top 5 des producteurs de PDF non balisés</h6>
 <ol>
 <li>Adobe InDesign</li>
 <li>Konica Minolta</li>
@@ -169,6 +169,6 @@ auteur: Alain Vagner
     <h6>Limites de l’étude</h6>
     <p>Les tests ne vérifient pas la présence d’une alternative accessible. Ils ne vérifient pas non plus si les PDF publiés sont sous le contrôle de l’administration qui le publie (exemption prévue dans la loi).</p>
     <p>La loi prévoit une exemption de l’obligation de conformité pour tous les fichiers publiés avant le 23 septembre 2018. Nous n’avons techniquement pas moyen de connaitre la date de publication d’un fichier. Pour avoir une approximation de cette date, nous avons utilisé la date de dernière modification du fichier, en supposant que cette date serait assez proche de la date de publication et qu’un document ne peut être publié avant d’avoir été créé ou modifié. Il s’agit d’une hypothèse conservatrice, elle sous-estime potentiellement le nombre de fichiers entrant dans le cadre de la loi.</p>
-    <h6>Open data</h6>
-    <p>L’ensemble des données ayant servi à cette étude est disponible en Open data, sous licence CC0.</p>
+    <h6 lang="en">Open data</h6>
+    <p>L’ensemble des données ayant servi à cette étude est disponible en <span lang="en">Open data</span>, sous licence CC0.</p>
 </aside>
