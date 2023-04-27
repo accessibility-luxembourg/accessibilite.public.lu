@@ -61,19 +61,19 @@ function loadchart (chartid) {                                                  
                             align: 'left',
                             verticalAlign: 'bottom',
                             style: {
-                                fontSize: '10px',
+                                fontSize: '12px',
                                 fontWeight: 'normal'
                             }
                         }
                     },],
                     data: [{
                         id: 'A',
-                        color: '#fefae0',
+                        color: '#E3E4DB',
                         value: 11683
                     }, {
                         id: 'B',
                         value: 13715,
-                        color: '#e9edc9'
+                        color: '#2E75B6'
                     }, {
                         name: 'PDF visés par la loi, balisés',
                         parent: 'B',
@@ -88,9 +88,9 @@ function loadchart (chartid) {                                                  
                         value: 8092,
                         pct: 32,
                         sortIndex: 1,
-                        color: '#e3d5ca'
+                        color: '#A30015'
                     }, {
-                        name: 'Formulaires',
+                        name: 'Formu-<br>laires',
                         parent: 'B1',
                         value: 890,
                         pct: 3.5,
@@ -99,6 +99,7 @@ function loadchart (chartid) {                                                  
                         name: 'Formu-<br>laires',
                         parent: 'B2',
                         value: 728,
+                        pct: 2.9,
                         sortIndex: 1
                     },{
                         name: 'Autres documents structurés',
@@ -125,6 +126,21 @@ function loadchart (chartid) {                                                  
                         pct: 46
                     }]
                 }],
+                exporting: {
+                    buttons: {
+                      contextButton: {
+                        menuItems: ["printChart",
+                                    "separator",
+                                    "downloadPNG",
+                                    "downloadJPEG",
+                                    "downloadPDF",
+                                    "downloadSVG",
+                                    "separator",
+                                    "downloadCSV",
+                                    "downloadXLS"]
+                      }
+                    }
+                },
                 title: {
                     text: 'Graphique 1. Répartition des PDF disponibles en téléchargement',
                     align: 'center',

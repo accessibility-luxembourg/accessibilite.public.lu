@@ -49,7 +49,7 @@ auteur: Alain Vagner
 <p>L’analyse a porté essentiellement sur les trois problèmes d’accessibilité les plus bloquants. Il existe bien entendu de nombreux autres problèmes d’accessibilité potentiels (voir le référentiel <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> pour l’ensemble des critères à respecter pour la production de PDF accessibles) mais le balisage est un prérequis. S’il est absent, un PDF est directement considéré comme non accessible.</p>
 <h4>Les résultats</h4>
 <h5>Généralités</h5>
-<p>Nous avons analysé 25 398 fichiers PDF représentant un volume de 42 Go et plus de 471 000 pages. Les documents PDF représentent 95&#8239;% des fichiers bureautiques en téléchargement sur les sites analysés. Les 5&#8239;% restants sont essentiellement des documents issus de la suite Microsoft Office.</p>
+<p>Nous avons analysé 25&#8239;398 fichiers PDF représentant un volume de 42 Go et plus de 471 000 pages. Les documents PDF représentent 95&#8239;% des fichiers bureautiques en téléchargement sur les sites analysés. Les 5&#8239;% restants sont essentiellement des documents issus de la suite Microsoft Office.</p>
 <p>Sur l’ensemble des documents PDF disponibles en téléchargement, 46&#8239;% sont a priori exemptés de l’obligation d’accessibilité car publiés avant le 23 septembre 2018 (exemption prévue dans <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">la loi du 28 mai 2019</a>). Dans la suite de cet article, nous considérons uniquement les documents PDF qui sont soumis à l’obligation d’accessibilité, c’est-à-dire les formulaires et les documents publiés après le 23 septembre 2018.</p>
 <figure class="chart">
     <div id="pdf-20230503-1">
@@ -57,7 +57,24 @@ auteur: Alain Vagner
     </div>
     <details>
         <summary>Description du graphique 1</summary>
-        <p>Ce diagramme présente, sous forme d'une carte proportionnelle, la répartition des fichiers PDF collectés dans le cadre de cette étude.</p>
+        <p>Ce diagramme présente, sous forme d'une carte proportionnelle, la répartition des 25&#8239;398 fichiers PDF collectés dans le cadre de cette étude&#8239;:</p>
+        <ul>
+            <li>13&#8239;715 PDF visés par la loi (54&#8239;%)</li>
+            <ul>
+                <li>5&#8239;623 balisés (22&#8239;% du total ou 41&#8239;% des fichiers visés par la loi)</li>
+                <ul>
+                    <li>890 formulaires</li>
+                    <li>7&#8239;202 autres documents structurés</li>
+                </ul>
+                <li>8&#8239;095 non balisés (32&#8239;% du total ou 59&#8239;% des fichiers visés par la loi)</li>
+                <ul>
+                    <li>1&#8239;295 fichiers numérisés en mode image</li>
+                    <li>728 formulaires</li>
+                    <li>6&#8239;069 autres documents non structurés</li>
+                </ul>
+            </ul>
+            <li>11&#8239;683 PDF exemptés (46&#8239;%)</li>
+        </ul>
     </details>
 </figure>
 <p>Concernant l’accessibilité de ces documents, nous avons détecté que 59&#8239;% sont non balisés. Parmi ces documents non balisés, 9&#8239;% sont des formulaires et 16&#8239;% sont des documents numérisés sur lesquels aucune reconnaissance optique de caractères n’a été réalisée.</p>
@@ -143,7 +160,7 @@ auteur: Alain Vagner
 <p>Comme nous l’avons vu ci-dessus, les trois premiers producteurs de PDF non balisés sont un logiciel de PAO, les scanners et la fonction d’impression en PDF. Il nous semble donc important de sensibiliser et former les équipes en charge de la production de brochures. Si celle-ci est externalisée, il doit être possible d’inclure dans la demande la prise en compte de l’accessibilité (voir notre page relative aux <a href="https://accessibilite.public.lu/fr/tools/cahier-des-charges.html">cahiers des charges</a>).</p>
 <p>Il serait aussi pertinent de mettre en place des processus permettant de gérer l’accessibilité des documents numérisés (étapes d’OCR et de balisage ou fourniture d’une alternative accessible comme le document source avant impression et numérisation) et enfin de sensibiliser les administrations pour éviter le plus possible le recours à la fonction d’impression en PDF et de privilégier l’export en PDF qui, lui, produit des documents balisés.</p>
 <p>Pour aller plus loin et travailler sur l’accessibilité des PDF produits, le SIP met à disposition le référentiel <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a>, qui présente l’ensemble des critères à respecter, et propose pour le secteur public une formation intitulée «&#8239;<a href="https://fonction-publique.public.lu/fr/formation-developpement/catalogue-formations/secteur-etatique/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibilité des documents PDF par la pratique</a>&#8239;». Si vous êtes concernés, n’hésitez pas à vous y inscrire.</p>
-<aside>
+<aside class="contextbox">
     <h5>Méthodologie d’évaluation</h5>
     <h6>Constitution de l’échantillon</h6>
     <p>L’échantillon de sites a été obtenu à partir de <a href="https://github.com/zakird/crux-top-lists">la liste des sites dans le Top 1 Million de l’UX Report de Google Chrome</a> (voir aussi la <a href="https://developer.chrome.com/docs/crux/methodology/">méthodologie</a> utilisée par Google pour établir cette liste). Nous y avons recherché tous les sites en .lu et détecté les sites présents dans <a href="https://data.public.lu/fr/datasets/inventaire-des-sites-publics/">l’inventaire des sites publics</a> publié par le SIP en open data. Pour simplifier l’exercice, nous avons gardé uniquement les sites de l’État et des communes et exclu les sites demandant une identification ainsi que les doublons (ex&#8239;: www.services-publics.lu et guichet.public.lu). Cette méthode a permis d’obtenir la liste des 17 sites présentée en début d’article.</p>
@@ -153,5 +170,5 @@ auteur: Alain Vagner
     <p>Les tests ne vérifient pas la présence d’une alternative accessible. Ils ne vérifient pas non plus si les PDF publiés sont sous le contrôle de l’administration qui le publie (exemption prévue dans la loi).</p>
     <p>La loi prévoit une exemption de l’obligation de conformité pour tous les fichiers publiés avant le 23 septembre 2018. Nous n’avons techniquement pas moyen de connaitre la date de publication d’un fichier. Pour avoir une approximation de cette date, nous avons utilisé la date de dernière modification du fichier, en supposant que cette date serait assez proche de la date de publication et qu’un document ne peut être publié avant d’avoir été créé ou modifié. Il s’agit d’une hypothèse conservatrice, elle sous-estime potentiellement le nombre de fichiers entrant dans le cadre de la loi.</p>
     <h6>Open data</h6>
-    <p>L’ensemble des données ayant servi à cette étude est disponible en Open data , sous licence CC0.</p>
+    <p>L’ensemble des données ayant servi à cette étude est disponible en Open data, sous licence CC0.</p>
 </aside>
