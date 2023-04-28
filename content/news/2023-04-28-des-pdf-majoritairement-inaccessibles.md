@@ -9,7 +9,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display: none;
 }
 </style>
-<script src="../../../../content/news/2023-05-03-des-pdf-majoritairement-inaccessibles.js"></script>
+<script src="../../../../content/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
 <h2>Sur les sites publics les plus visités, des PDF majoritairement inaccessibles</h2>
 <h3>L’accessibilité de ces documents présents parfois massivement sur les portails publics luxembourgeois les plus visités en 2023 tend cependant à s’améliorer</h3>
 <hr>
