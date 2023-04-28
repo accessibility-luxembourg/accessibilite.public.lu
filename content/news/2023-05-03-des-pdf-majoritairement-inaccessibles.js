@@ -70,7 +70,7 @@ function loadchart (chartid) {                                                  
                     }, {
                         id: 'B',
                         value: 13715,
-                        color: '#2E75B6'
+                        color: '#3F6C51'
                     }, {
                         name: 'PDF visés par la loi, balisés',
                         parent: 'B',
