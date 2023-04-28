@@ -80,7 +80,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
         },
         accessibility: {
             point: {
-                valueDescriptionFormat: '{xDescription} {separator} {point.y} %',
+                valueDescriptionFormat: '{xDescription} {separator} {point.y}',
                 valueDecimals: 1
             }
         },
