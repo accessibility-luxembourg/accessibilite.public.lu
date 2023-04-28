@@ -18,15 +18,12 @@ function loadchart (chartid) {                                                  
         
         case "pdf-20230503-1":
             Highcharts.chart('pdf-20230503-1', {
-                accessibility: {
-                    point: {
-                        valueDescriptionFormat: '{xDescription} {separator} {point.y} %',
-                        valueDecimals: 1
-                    }
-                },
                 credits: false,
                 series: [{
                     type: 'treemap',
+                    accessibility: {
+                        enabled: false
+                    },
                     layoutAlgorithm: 'sliceAndDice',
                     layoutStartingDirection: 'horizontal',
                     borderColor: '#fff',
