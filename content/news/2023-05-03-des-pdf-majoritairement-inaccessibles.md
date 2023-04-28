@@ -83,7 +83,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </details>
 </figure>
 <p>Concernant l’accessibilité de ces documents, nous avons détecté que 59&#8239;% sont non balisés. Parmi ces documents non balisés, 9&#8239;% sont des formulaires et 16&#8239;% sont des documents numérisés sur lesquels aucune reconnaissance optique de caractères n’a été réalisée.</p>
-<p>Environ 10&#8239;% des documents PDF sont des formulaires. Ces documents sont donc particulièrement importants car ils supportent des procédures administratives actives. 52&#8239;% d’entre eux ne sont pas balisés.</p>
+<p>Dans une autre perspective, si on étudie le balisage de l'ensemble des PDF en fonction de leur nature, on constate que 10&#8239;% des documents PDF environ sont des formulaires. Ces documents sont donc particulièrement importants car ils supportent des procédures administratives actives. 52&#8239;% d’entre eux ne sont pas balisés.</p>
 <p>Point positif&#8239;: très peu de documents sont protégés contre l’usage de technologies d’assistance (0,03&#8239;%).</p>
 <h5>Évolution temporelle</h5>
 <div class="charts-side-by-side">
