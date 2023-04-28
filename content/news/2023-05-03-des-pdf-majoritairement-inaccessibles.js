@@ -181,7 +181,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 2. Part des PDF non balisés par année", 
+                        "Graphique 2. Part des PDF non balisés par année en %", 
                         "pdf-20230503-2", 
                         [{data: Graph.get_num(results.data, 'pct-non-tagged'), name: "Pourcentage"}],
                         'column', 
