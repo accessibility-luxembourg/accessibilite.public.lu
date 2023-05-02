@@ -201,7 +201,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.4.5 Texte sous forme d’image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text)&nbsp;:
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7)&nbsp;;
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
-    - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.5 Images of text*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.5 Images of text*{lang=en}.
 
 
 ### [Thématique 2](#topic-2)&nbsp;: Couleur {id="topic-2"}
@@ -264,7 +264,7 @@ Dans ces situations, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)&nbsp;:
     - [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html)&nbsp;;
     - [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.3 Contrast (minimum)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.3 Contrast (minimum)*{lang=en}.
 
 #### [Critère 2.3](#crit-2-3) [AA] Les couleurs utilisées dans les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers)&nbsp;? {id="crit-2-3"}
 - **[Test 2.3.1](#test-2-3-1)** Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique avec les [couleurs adjacentes](glossaire.md#couleurs-adjacentes), vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-3-1"}
@@ -302,7 +302,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)&nbsp;:
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html)&nbsp;;
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.11 Non-text contrast*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.11 Non-text contrast*{lang=en}.
 
 ### [Thématique 3](#topic-3)&nbsp;: Tableaux {id="topic-3"}
 
