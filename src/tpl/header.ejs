@@ -7,7 +7,7 @@
       <ul class="disclosure-nav">
             <% nav.forEach(e => { %>
               <% if (e.children !== undefined) { %>
-                <li>
+                <li <%= (e.children.map(f => { return f.name}).includes(name))?'class=selected':'' %>>
                   <button
                     class="submenu"
                     aria-expanded="false"
