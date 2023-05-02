@@ -92,15 +92,6 @@ window.addEventListener('DOMContentLoaded', function (event) {
     // Sticky menu
     createObserver()
 
-    // Navigation
-    var menus = document.querySelectorAll('.disclosure-nav');
-    var disclosureMenus = [];
-    for (var i = 0; i < menus.length; i++) {
-      disclosureMenus[i] = new DisclosureNav(menus[i]);
-      disclosureMenus[i].updateKeyControls(false);
-      disclosureMenus[i].mount();
-    }
-
     // create disclosures where we have a heading with the class "disclosure"
     if (Element.prototype.matches) { // progressive enhancement (IE is out)
       var disclosures = document.querySelectorAll("#contenu h3.disclosure, #contenu h4.disclosure, #contenu h5.disclosure, #contenu h6.disclosure")

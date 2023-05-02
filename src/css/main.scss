@@ -9,10 +9,7 @@
 @import "@pidila/scampi/core/basics";
 @import "@pidila/scampi/core/helpers";
 
-@import "@pidila/scampi/modules/skip-link/index";
 @import "@pidila/scampi/modules/breadcrumb/index";
-@import "@pidila/scampi/modules/menu-simple/index";
-@import "@pidila/scampi/modules/site-banner-simple/index";
 @import "@pidila/scampi/modules/tables/index";
 @import "@pidila/scampi/modules/forms/index";
 @import "@pidila/scampi/modules/buttons/index";
@@ -25,14 +22,14 @@
 @import "articles.scss";
 
 
+body {
+  padding: 0;
+}
+
 h6 { 
   font-weight: bold;
 }
 
-.skip-link a:focus {
-  outline: 0;
-  font-size: 1.2em;
-}
 
 .toggle-menu:focus {
   background: black;
@@ -122,13 +119,6 @@ main, header, footer {
     height: 100px;
 }
 
-#banner {
-    margin-top: 1em;
-}
-
-#banner .site-title {
-  line-height: 1.3;
-}
 
 #contenu.withSummary h2 {
   max-width: 26em;
@@ -509,3 +499,25 @@ blockquote {
       }
     }
   }
+
+/* skip link */
+.skip-link {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.skip-link a {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  left: -7000px;
+  top: 55px;
+  padding: 3px 20px;
+  font: normal 400 1rem "Fira Sans", sans-serif;
+}
+
+.skip-link a:focus {
+  left: auto;
+  right: 50px;
+}
