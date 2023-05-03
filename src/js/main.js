@@ -1,4 +1,6 @@
-getHeadingLevel = function(e) {
+import { initDisclosure } from "./disclosureMenu"
+
+function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
   if (found !== null) {
     return found[1]
@@ -6,11 +8,11 @@ getHeadingLevel = function(e) {
   return 10
 }
 
-toggleExpanded = function(e) {
+function toggleExpanded(e) {
   setExpanded(e, (e.getAttribute('aria-expanded') == 'true')?'false':'true')
 }
 
-setExpanded = function(e, status) {
+function setExpanded(e, status) {
   e.setAttribute('aria-expanded', status)
   if (status == 'true') {
     e.parentNode.nextElementSibling.classList.remove('collapsed') 
@@ -19,7 +21,7 @@ setExpanded = function(e, status) {
   }
 }
 
-changeAllCollapsibleStates = function(kind) {
+function changeAllCollapsibleStates(kind) {
   return function() {
     var buttons = document.querySelectorAll('button.disclosure.'+kind).forEach(function(e) {
       setExpanded(e, document.getElementById('open-disclosure-'+kind).checked?'true':'false')
@@ -27,9 +29,9 @@ changeAllCollapsibleStates = function(kind) {
   }
 }
 
-disclosure = function (e) {
-  baseHeadingLevel = getHeadingLevel(e)
-  id = e.getAttribute('id')
+function disclosure(e) {
+  var baseHeadingLevel = getHeadingLevel(e)
+  var id = e.getAttribute('id')
   var button = document.createElement("BUTTON")
   var heading = document.createElement("H"+baseHeadingLevel)
   heading.setAttribute('class', 'disclosure')
@@ -89,6 +91,10 @@ function createObserver() {
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
+
+    // Disclosure menu
+    initDisclosure()
+
     // Sticky menu
     createObserver()
 

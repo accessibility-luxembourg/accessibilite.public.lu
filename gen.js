@@ -2,7 +2,6 @@ const fs = require('fs')
 const ejs = require('ejs')
 const yaml = require('yaml')
 const MarkdownIt = require('markdown-it')
-const uglify = require("uglify-js")
 const cheerio = require('cheerio')
 const dotenv = require('dotenv')
 const crypto = require('crypto')
@@ -373,30 +372,6 @@ articles.forEach((e, i, ar) => {
 
 renderHome(home, articles.slice(0, 3))
 
-// generate JavaScript
-const scampiJsPrefix = 'node_modules/@pidila/scampi/modules/'
-const scampiJsSuffix = '/index.js'
-const scampiJsModules = [ 'menu-simple', 'skip-link'];
-const customScripts = ['disclosureMenu.js']
-
-let payload = ''
-scampiJsModules.forEach(module => {
-    payload += fs.readFileSync(scampiJsPrefix+module+scampiJsSuffix) 
-})
-customScripts.forEach(script => {
-    payload += fs.readFileSync('src/js/'+script)
-})
-payload += fs.readFileSync('./src/js/main.js')
-ejs.renderFile('./src/tpl/mainjs.ejs',{payload: payload}, function(err, str) {
-    if (err !== null) {
-        console.log(err)
-    }
-    let res = uglify.minify(str)
-    if (res.error !== undefined) {
-        console.log('uglify', res.error)
-    }
-    fs.writeFileSync(outputPath+"/main.js", res.code)
-})
 
 // generate site outline
 prefix = '../..'

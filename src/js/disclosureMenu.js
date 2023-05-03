@@ -191,11 +191,10 @@ class DisclosureNav {
 }
 
 /* Initialize Disclosure Menus */
-
-window.addEventListener('load', function () {
-  new DisclosureNav(document.querySelector('.disclosure-nav'));
-  document.querySelector('.toggle-menu').addEventListener('click', toggleIsOpen);
-}, false);
+function initDisclosure() {
+    new DisclosureNav(document.querySelector('.disclosure-nav'));
+    document.querySelector('.toggle-menu').addEventListener('click', toggleIsOpen);
+}
 
 
 function toggleIsOpen() {
@@ -204,3 +203,5 @@ function toggleIsOpen() {
       document.querySelector('.toggle-menu').setAttribute('aria-expanded', currentState === 'false');
   }
 }
+
+export { toggleIsOpen, initDisclosure }
