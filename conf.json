@@ -17,6 +17,7 @@
         },
         {
             "title": "Actualités",
+            "menu": "Actualités",
             "name": "news",
             "children": [ 
                 {
@@ -28,6 +29,7 @@
         },
         {
             "title": "Missions",
+            "menu": "Missions",
             "name": "monitoring",
             "children": [ 
                 {
@@ -58,6 +60,7 @@
         },       
         {
             "title": "Outils",
+            "menu": "Outils",
             "name": "tools",
             "children": [
                 {
@@ -90,7 +93,8 @@
             ]
         },         
         {
-            "title": "<span class='mobile-only'>Référentiel</span> Web",
+            "title": "Référentiel Web",
+            "menu": "<span class='mobile-only'>Référentiel</span> Web",
             "name": "rgaa4.1",
             "children": [
                 {
@@ -157,7 +161,8 @@
             ]
         },
         {
-            "title": "<span class='mobile-only'>Référentiel</span> mobile",
+            "title": "Référentiel mobile",
+            "menu": "<span class='mobile-only'>Référentiel</span> mobile",
             "name": "raam1",
             "children": [ 
                 {
@@ -215,7 +220,8 @@
             ]
         },
         {
-            "title": "<span class='mobile-only'>Référentiel</span> PDF",
+            "title": "Référentiel PDF",
+            "menu": "<span class='mobile-only'>Référentiel</span> PDF",
             "name": "rapdf1",
             "children": [ 
                 {
