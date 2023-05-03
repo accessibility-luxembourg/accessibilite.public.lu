@@ -280,6 +280,8 @@ header {
   
         &:hover, &:focus {
           background-color: $menu-navy-blue;
+          color: white;
+          text-decoration: none;
         }
       }
     }
