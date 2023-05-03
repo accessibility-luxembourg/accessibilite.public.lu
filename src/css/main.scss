@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import 'settings.scss';
-@import "@pidila/scampi/modules/fontface/index";
 
 @import "@pidila/scampi/core/version";
 @import "@pidila/scampi/core/settings";
@@ -9,16 +8,14 @@
 @import "@pidila/scampi/core/basics";
 @import "@pidila/scampi/core/helpers";
 
-@import "@pidila/scampi/modules/breadcrumb/index";
 @import "@pidila/scampi/modules/tables/index";
 @import "@pidila/scampi/modules/forms/index";
 @import "@pidila/scampi/modules/buttons/index";
 @import "@pidila/scampi/modules/blockquote/index";
 @import "@pidila/scampi/modules/alert/index";
+
 @import "./navigation.scss";
-
 @import "rwd-utils.scss";
-
 @import "articles.scss";
 
 
