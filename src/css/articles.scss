@@ -163,6 +163,11 @@ body article.news h4, body article.news h5 {
     margin: 1.5em auto;
 }
 
+body article.news h6 {
+    max-width: 750px;
+    margin: 1em auto;
+}
+
 body article.news h5 {
     font: normal 600 1em var(--article_font), sans-serif;
 }

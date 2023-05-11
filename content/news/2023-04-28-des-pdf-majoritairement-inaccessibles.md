@@ -9,7 +9,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display: none;
 }
 </style>
-<script src="../../../../content/news/2023-05-03-des-pdf-majoritairement-inaccessibles.js"></script>
+<script src="../../../../content/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
 <h2>Sur les sites publics les plus visités, des PDF majoritairement inaccessibles</h2>
 <h3>L’accessibilité de ces documents présents parfois massivement sur les portails publics luxembourgeois les plus visités en 2023 tend cependant à s’améliorer</h3>
 <hr>
@@ -51,7 +51,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <h6>La protection contre l’utilisation de technologies d’assistance</h6>
     <p>Le format PDF propose de nombreuses options de protection des documents, par exemple contre la modification. Une de ces options protège le document contre l’utilisation de technologies d’assistance par les personnes handicapées. Cette option peut être activée par erreur et est globalement à proscrire.</p>
 </aside>
-<p>L’analyse a porté essentiellement sur les trois problèmes d’accessibilité les plus bloquants. Il existe bien entendu de nombreux autres problèmes d’accessibilité potentiels (voir le référentiel <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> pour l’ensemble des critères à respecter pour la production de PDF accessibles) mais le balisage est un prérequis. S’il est absent, un PDF est directement considéré comme non accessible.</p>
+<p>L’analyse a porté essentiellement sur les trois problèmes d’accessibilité les plus bloquants. Il existe bien entendu de nombreux autres problèmes d’accessibilité potentiels (voir le référentiel d'évaluation de l'accessibilité des documents au format PDF <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> pour l’ensemble des critères à respecter pour la production de PDF accessibles) mais le balisage est un prérequis. S’il est absent, un PDF est directement considéré comme non accessible.</p>
 <h4>Les résultats</h4>
 <h5>Généralités</h5>
 <p>Nous avons analysé 25&#8239;398 fichiers PDF représentant un volume de 42 Go et plus de 471 000 pages. Les documents PDF représentent 95&#8239;% des fichiers bureautiques en téléchargement sur les sites analysés. Les 5&#8239;% restants sont essentiellement des documents issus de la suite Microsoft Office.</p>
@@ -175,5 +175,5 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <p>Les tests ne vérifient pas la présence d’une alternative accessible. Ils ne vérifient pas non plus si les PDF publiés sont sous le contrôle de l’administration qui le publie (exemption prévue dans la loi).</p>
     <p>La loi prévoit une exemption de l’obligation de conformité pour tous les fichiers publiés avant le 23 septembre 2018. Nous n’avons techniquement pas moyen de connaitre la date de publication d’un fichier. Pour avoir une approximation de cette date, nous avons utilisé la date de dernière modification du fichier, en supposant que cette date serait assez proche de la date de publication et qu’un document ne peut être publié avant d’avoir été créé ou modifié. Il s’agit d’une hypothèse conservatrice, elle sous-estime potentiellement le nombre de fichiers entrant dans le cadre de la loi.</p>
     <h6 lang="en">Open data</h6>
-    <p>L’ensemble des données ayant servi à cette étude est disponible en <span lang="en">Open data</span> dans le jeu de données <a href="https://data.public.lu/fr/datasets/analyse-de-laccessibilite-numerique-des-17-sites-publics-les-plus-visites-avril-2023/">Analyse de l'accessibilité numérique des 17 sites publics les plus visités - avril 2023</a>, sous <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr">licence CC0</a>.</p>
+    <p>L’ensemble des données ayant servi à cette étude est disponible en <span lang="en">Open data</span> dans le jeu de données <a href="https://data.public.lu/fr/datasets/analyse-de-laccessibilite-numerique-des-fichiers-pdf-presents-sur-les-17-sites-publics-les-plus-visites-avril-2023/">Analyse de l'accessibilité numérique des fichiers PDF présents sur les 17 sites publics les plus visités - avril 2023</a>, sous <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr">licence CC0</a>.</p>
 </aside>

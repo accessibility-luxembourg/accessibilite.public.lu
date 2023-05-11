@@ -47,6 +47,7 @@
     "core-js": "^3.6.5",
     "dotenv": "^16.0.1",
     "ejs": "^3.1.2",
+    "en301549-links": "^1.0.7",
     "form-data-entries": "^1.0.4",
     "highcharts": "^10.3.3",
     "object.fromentries": "^2.0.3",

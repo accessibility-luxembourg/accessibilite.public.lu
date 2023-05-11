@@ -7,6 +7,7 @@ const cheerio = require('cheerio')
 const dotenv = require('dotenv')
 const crypto = require('crypto')
 const sharp = require('sharp');
+const en301549 = require('en301549-links')
 const hmacPwd = 'a11ylu'
 dotenv.config()
 
@@ -47,6 +48,24 @@ function renderWithSummary(data, title, file, name, prefix, summary, error = '')
                 topics.push({"id": $(this).attr('id'), "text": text }) 
             }
         })
+        $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
+            let text = $(this).text()
+            if (text.match(/^EN\s301\s549/)) {
+                const version = text.match(/V(\d\.\d\.\d)/)[1]
+                text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
+                    let link = ''
+                    try {
+                        link = en301549.getLink(version, criterion, 'lang="en"')+separator
+                    } catch(e) {
+                        console.log(e, criterion, version)
+                    }
+                    return link
+                })
+                $(this).html(text)
+            }
+        })
+        data = $('body').html()
+
         ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary}, function(err, str) {
             if (err !== null) {
                 console.log(err)
