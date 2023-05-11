@@ -6,7 +6,7 @@ auteur: Dominique Nauroy
 ---
 <div lang="en">
 <h2>“I know what I would not be able to achieve without accessibility”</h2>
-<h3>Mario Perčinić has lived and worked in Luxembourg since 2016. With him, we have talked about music, programming, shopping and, of course, accessibility, understanding how it enables blind people to participate in the daily activities of our society.</h3>
+<h3>Mario Perčinić has lived and worked in Luxembourg since 2016. With him, we have talked about music, programming, shopping and, of course, accessibility.</h3>
 <hr>
 <div class="intro">
     <p>Mr. Perčinić is working for the Centre pour le développement des compétences relatives à la vue (CDV) in Bertrange. He is transcriber, adapting books for pupils and students who are blind or partially sighted, in various formats (ePub, Braille or print, to list some of them). He is also a multi-talented musician, plays in a hard rock band The Velvet in Luxembourg, records albums and performs concerts all over the country. Last but not least, he is interested in technology and accessibility of all possible gadgets which can provide better quality of life to blind people. As a blind person, he gets by in a world that does not always place accessibility at the centre of its concerns.</p>
