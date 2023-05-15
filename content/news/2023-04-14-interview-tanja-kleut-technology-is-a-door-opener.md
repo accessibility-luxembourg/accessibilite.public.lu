@@ -45,7 +45,7 @@ auteur: Dominique Nauroy
 <p>At the beginning, JAWS was the only choice. Then came NVDA. This one is free, open-source and allows more customisations. Even Narrator can be easier for some specific tasks inside Microsoft applications.</p>
 <p>I use VoiceOver on my iPhone. At some point, I used an Android to get familiar with TalkBack. It is a matter of preference. I am glad that I can choose between mainstream devices, like everyone else!</p>
 <aside class="contextbox">
-    <h5>What is a screen reader?</h5>
+    <h4>What is a screen reader?</h4>
     <p>A screen reader is a technical assistance software designed for people who are blind or severely visually impaired: it reads by voice synthesis and/or on a Braille display what is displayed on a computer screen – content and structure – and allows interaction with the operating system and the applications.</p>
     <p>It cannot interpret a drawing or a graphic, hence the need to provide coherent alternative texts.</p>
     <p>Screen readers are usually built in the operating system (VoiceOver on macOS or iOS; Narrator on Windows; TalkBack on Android). It can also be independent software, such as JAWS or NVDA, to be downloaded and installed on Windows. </p>

@@ -11,15 +11,15 @@
 </figure>
 <p>Le 28 juin 2025, les entreprises devront s’être assurées du respect des normes en matière d’accessibilité. En d’autres termes, les jours sont comptés. Pour s’en tenir aux seuls domaines sites web et apps mobiles, il peut s’écouler de longs mois entre l’établissement d’un cahier des charges et la mise en ligne d’un nouveau portail. Dans le cadre des prochaines refontes, l’accessibilité n’est donc plus une option. Elle doit, bien au contraire, devenir partie intégrante de la réflexion dès les premières phases de conception, limitant ainsi les éventuels surcoûts engendrés par cette mise en conformité. La loi luxembourgeoise de 2019 considère en effet un site conforme qu’au seul moment où ce dernier atteint une conformité de 100%, perspective qui n’a rien d’une gageure et qui a été atteinte en 2022 par certains sites.</p>
 <aside class="contextbox">
-    <h5>Quel sera le champ d’application de la future loi&#8239;?</h5>
-    <h6>Les produits (le matériel et les logiciels qui y sont exécutés)&#8239;:</h6>
+    <h4>Quel sera le champ d’application de la future loi&#8239;?</h4>
+    <h5>Les produits (le matériel et les logiciels qui y sont exécutés)&#8239;:</h5>
     <ul>
         <li>le matériel informatique grand public comme les ordinateurs, smartphones et tablettes et leur systèmes d'exploitation respectifs&#8239;;</li>
         <li>les terminaux de paiement , les bornes d'enregistrement, les distributeurs de billets ou de titres de transport – à l’exclusion de ceux présents à bord des moyens de transport, sauf exceptions prévues par la loi&#8239;;</li>
         <li>les téléviseurs intelligents ou les équipements donnant accès à des services audiovisuels&#8239;;</li>
         <li>les liseuses électroniques.</li>
     </ul>
-    <h6>Les services&#8239;:</h6>
+    <h5>Les services&#8239;:</h5>
     <ul>
         <li>les services de communications électroniques&#8239;;</li>
         <li>les service audiovisuels (vidéo à la demande, replay, etc.)&#8239;;</li>
