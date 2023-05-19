@@ -24,6 +24,14 @@
                     "title": "Actualités",
                     "menu": "Articles",
                     "name": "news/index"
+                },
+                {
+                    "title": "La vigie de l'accessibilité",
+                    "menu": "La vigie de l'accessibilité",
+                    "name": "newsletter",
+                    "md": "./content/newsletter.md", 
+                    "html": true,
+                    "prefix": "../.."
                 }
             ]
         },

@@ -1,0 +1,3 @@
+Suite aux premiers articles diffusés sur ce site au cours du printemps 2023, le Service Information et Presse lancera, dès l'été, sa première lettre d'information.
+
+Nous vous invitons d'ores et déjà à vous y inscrire, en nous envoyant un e-mail à l'adresse <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> en précisant simplement, dans le titre ou le corps de votre e-mail, la mention «&#8239;Inscription à la vigie de l'accessibilité&#8239;». Nous vous recontacterons afin de valider votre demande.

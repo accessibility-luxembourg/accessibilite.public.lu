@@ -27,12 +27,6 @@ h6 {
   font-weight: bold;
 }
 
-
-.toggle-menu:focus {
-  background: black;
-  color: white;
-}
-
 body .toggle-menu span[aria-hidden="true"]:focus, body .toggle-menu span[aria-hidden="true"]:hover {
   background-color: inherit;
 }
