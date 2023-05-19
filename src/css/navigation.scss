@@ -103,7 +103,7 @@ header {
               height: 11px;
               background-color: $menu-orange;
               top: 13px;
-              left: -7px;
+              left: -23px;
               transform: rotate(45deg);
             }
 
@@ -391,8 +391,8 @@ header {
               margin: 0 20px 0 25px;
               width: 30px;
             }
-  
-            &[aria-current=page]::before {
+
+            &[aria-current=page]:not(.home)::before {
               left: -7px;
             }
           }
