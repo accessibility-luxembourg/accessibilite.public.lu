@@ -11,7 +11,7 @@ auteur: Dominique Nauroy
     <p>Créativité et accessibilité font-elles bon ménage&#8239;? Rendre un site conforme, est-ce simple&#8239;? Par quel chemin devient-on sensible à ces questions&#8239;? Geoffrey Crofte s’est prêté de bonne grâce au jeu des questions – réponses. Entretien.</p>
 </div>
 <figure class="pic">
-    <img src="../../../../content/news/img/itw-g-crofte.jpg" alt="Photo of Geoffrey Crofte giving a speech at the DevFest 2002 in Nantes, France">
+    <img src="../../../../content/news/img/itw-g-crofte.jpg" alt="Une photo de Geoffrey Crofte donnant une présentation à DevFest 2020 Nantes">
     <figcaption>Geoffrey Crofte. Photo&#8239;: Rémy Chautard</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ auteur: Dominique Nauroy
 <p>Mon expérience au sein du Groupe Foyer, et notamment Foyer Assurances, me permet aussi de comprendre qu’avant toute chose, peu de gens savent que des personnes handicapées peuvent utiliser les outils numériques et que des solutions simples existent. À moins d'avoir des personnes concernées dans notre entourage, nous faisons facilement l'impasse sur ce sujet qu'est l'accessibilité numérique. Parfois c’est juste une attention supplémentaire qui s’intègre dans nos tâches quotidiennes.</p>
 <h4>Au sein même de votre entreprise, quels défis vous êtes-vous fixés&#8239;?</h4>
 <p>Un audit réalisé début 2023 affiche, pour notre site web, un taux de conformité aux normes en place de 34%. Il y a moyen de doubler ce score assez facilement. Tout comme les organismes publics doivent être exemplaires avant l’application de la nouvelle loi sur l’accessibilité au secteur privé d’ici 2025, de notre côté ce serait bien de prouver qu’en tant qu’assureur, nous sommes les premiers à réaliser cet effort.</p>
-<blockquote>«&#8239;Au-delà de la prise de conscience, il est nécessaire de former.&#8239;»</blockquote>
+<blockquote><p>«&#8239;Au-delà de la prise de conscience, il est nécessaire de former.&#8239;»</p></blockquote>
 <p>Et cet effort profitera à tous&#8239;: à nos clients, à l’entreprise et c’est aussi une assurance que l’on prend pour nous, plus tard... si nous avons la chance de vieillir.</p>
 <p>Qu’il s’agisse du développeur mieux au fait de la sémantique du langage HTML ou des collègues qui rendent leurs PDF plus accessibles, il faut un déclencheur qui les sensibilise aux besoins de ces utilisateurs handicapés.</p>
 <p>Au-delà de la prise de conscience, il est nécessaire de former. La moitié de mon équipe de design et huit développeurs suivent cette année une formation en accessibilité. Cela a été décidé l’an dernier. L’accessibilité est un prolongement naturel de la responsabilité sociale de l’entreprise (RSE) que nous défendons depuis plusieurs années déjà.</p>
