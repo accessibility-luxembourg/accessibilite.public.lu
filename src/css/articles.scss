@@ -474,6 +474,16 @@ figure.chart .highcharts-data-table caption {
 }
 
 
+/* blockquote */
+body article.news blockquote p {
+    max-width: 100%;
+    margin: 1em 0;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #707070;
+}
+
+
 /* ? */
 img.article_teaser {
     width: 250px;
