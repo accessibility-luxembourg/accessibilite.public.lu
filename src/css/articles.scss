@@ -598,7 +598,7 @@ div.home-content-container aside.articles_home {
     margin: 1em auto;
 }
 
-div.home-content-container aside.articles_home h3 {
+div.home-content-container aside.articles_home h3, aside.right-column h3 {
     display: inline-block;
     font: normal 500 1.1em var(--article_font), sans-serif;
     background-color: var(--article_title);
@@ -680,4 +680,10 @@ div.home-content-container aside.articles_home nav a:hover p, div.home-content-c
         padding: 0 !important;
         margin: initial;
     }
+}
+
+aside.right-column div.right-column-content {
+    border-top: 1px solid var(--article_title);
+    margin: 0;
+    padding: 1em 0;
 }

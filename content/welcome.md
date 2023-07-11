@@ -15,7 +15,36 @@ Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous co
 
 </div>
 
-<div class="right-column">
-<a class="twitter-timeline" href="https://twitter.com/AccessibilityLu?ref_src=twsrc%5Etfw" data-tweet-limit="2">Tweets by AccessibilityLu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div> 
+<aside class="right-column">
+
+### Accès direct
+<div class="right-column-content">
+
+- [Référentiel Web](rgaa4.1/index.html)
+- [Référentiel mobile](raam1/index.html)
+- [Référentiel PDF](rapdf1/index.html)
+- [Votre déclaration](tools/decla.html)
+- [Données ouvertes](monitoring/open-data.html)
+
+</div>
+
+### Réclamation
+<div class="right-column-content">
+
+Vous rencontrez un problème d'accessibilité sur un site ou une application mobile public, vous pouvez nous contacter via le formulaire ci-dessous&nbsp;:
+- [Formulaire de réclamation](https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html)
+- [Information sur la procédure](tools/reclamations.html)
+
+</div>
+
+### Suivre nos actualités
+<div class="right-column-content">
+
+- [Mastodon](https://mas.to/@accessibilityLu){rel=me}
+- [Twitter](https://twitter.com/accessibilityLu)
+- [Fil RSS](news/feed.xml)
+
+</div>
+
+</aside> 
 </div>
