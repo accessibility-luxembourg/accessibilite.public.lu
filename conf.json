@@ -26,8 +26,8 @@
                     "name": "news/index"
                 },
                 {
-                    "title": "La vigie de l'accessibilité",
-                    "menu": "La vigie de l'accessibilité",
+                    "title": "Suivre nos actualités",
+                    "menu": "Suivre nos actualités",
                     "name": "newsletter",
                     "md": "./content/newsletter.md", 
                     "html": true,
