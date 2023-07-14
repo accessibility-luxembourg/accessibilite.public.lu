@@ -18,6 +18,8 @@ const production = (process.env.NODE_ENV === 'production')
 
 const outputPath = './src/html'
 
+const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
+
 const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1/index.html">RGAA 4.1</a>.'
 
 console.log('prod', production)
@@ -339,6 +341,22 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     // add the date to the html code
     $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:'fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     data.html = $.html()
+
+    // sanitize the html code for the atom feed
+    $('h2').remove()
+    $('p.date').remove()
+    $('script, style').remove()
+    // urls for images and links should be absolute, because RSS readers usually sandbox the html content
+    $('img').each((i,e) => {
+        $(e).attr('src', $(e).attr('src').replace('../../../../content', baseURL+'/fr'))
+    })
+    $('a').each((i,e) => {
+        $(e).attr('href', new URL($(e).attr('href'), baseURL+'/fr/news/').href)
+    })
+
+    data.body = $('body').html()
+
+    // create hash
     data.hash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(data)).digest('hex')
     return data
 }).sort((a, b) => { return (b.date - a.date)})

@@ -15,7 +15,7 @@
         <id>urn:md5:<%= e.hash %></id>
         <published><%= e.date.toISOString() %></published>
         <updated><%= e.date.toISOString() %></updated>
-              <content type="html"><%= e.html %></content>
+              <content type="html"><%= e.body %></content>
         </entry>
         <% }) %>
     </feed>
