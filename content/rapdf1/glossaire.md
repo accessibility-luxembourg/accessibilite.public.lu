@@ -40,7 +40,7 @@ Quelques exemples&nbsp;:
 - émoticône&nbsp;: :), ^^, O_o&nbsp;;
 - syntaxe cryptique&nbsp;: m4gic (magique), ama (à mon avis).
 
-**Note**&nbsp;: les «&nbsp;hashtags&nbsp;» (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.
+**Note**&nbsp;: les «&nbsp;hashtags&nbsp;» (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.
 
 #### Contexte du lien
 Il s’agit d’informations complémentaires qui peuvent, par l’intermédiaire de raccourcis ou de manipulation au clavier, être associées à l’intitulé du lien.
@@ -49,7 +49,7 @@ En environnement bureautique, les contextes exploitables sont&nbsp;:
 - le titre précédent&nbsp;;
 - la phrase ou le paragraphe dans lequel le lien est présent&nbsp;;
 
-Le lien sera considéré comme explicite lorsqu’au moins l'un de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.
+Le lien sera considéré comme explicite lorsqu’au moins l’un de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.
 
 #### Couleurs adjacentes
 Couleur directement en contact avec les couleurs de l’élément graphique, comme la couleur d’arrière-plan ou toute autre couleur en jonction directe.
@@ -71,17 +71,17 @@ Image ou forme complexe qui n’apporte aucune information essentielle à la com
 #### Description détaillée
 Contenu associé à une image ou à une forme complexe, en complément de son alternative, qui met à disposition la totalité de l’information contenue dans l’image ou la forme complexe.
 
-La description détaillée doit être adjacente à l'image ou la forme complexe ou consultable au moyen d'un lien adjacent.
+La description détaillée doit être adjacente à l’image ou la forme complexe ou consultable au moyen d’un lien adjacent.
 
 #### Différents états d’un élément graphique
 Quelquefois un élément graphique est présenté avec différents états. Par exemple, un système de vote associant des étoiles pour lequel le nombre d’étoiles d’une certaine couleur représente la valeur de la note attribuée. Il est important que le rapport de couleur entre la couleur par défaut et la couleur de chaque état soit suffisant.
 
 #### Documents non balisés
-Il s'agit de documents dans lesquels les éléments de structures (titre, liste, paragraphe, etc.) sont absents.
+Il s’agit de documents dans lesquels les éléments de structures (titre, liste, paragraphe, etc.) sont absents.
 
 Dans ce cas, le document doit être revu en profondeur ou recréé complètement.
 
-L'état du balisage peut être vérifié dans les propriétés du document&nbsp;: menu "fichier", puis sous-menu "propriétés", puis paramètre "PDF balisé", lorsque l'indication est "non" le document n'est pas balisé.
+L’état du balisage peut être vérifié dans les propriétés du document&nbsp;: menu "fichier", puis sous-menu "propriétés", puis paramètre "PDF balisé", lorsque l’indication est "non" le document n’est pas balisé.
 
 #### Durée d’activation
 
@@ -112,17 +112,17 @@ Ces composants ne devraient pas être utilisés, car leur restitution n’est g�
 
 #### Formulaire non interactif
 
-Il s'agit d'un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple&nbsp;:
+Il s’agit d’un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple&nbsp;:
 
 Votre nom&nbsp;: [..........................]
 
 Ce type de document, qui simule en réalité un formulaire à imprimer, ne peut pas être utilisé correctement par les personnes handicapées.
 
-Dans ce cas, le document doit être recréé sous la forme d'un formulaire interactif.
+Dans ce cas, le document doit être recréé sous la forme d’un formulaire interactif.
 
 ### H
 #### Hiérarchie du titrage
-Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 8 niveaux.
+Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 8 niveaux.
 
 La hiérarchie du titrage est cohérente lorsque&nbsp;:
 - Tous les passages de textes ayant vocation à être un titre utilisent un style de titre.
@@ -191,9 +191,9 @@ Par exemple&nbsp;:
 #### Mécanisme de remplacement (contraste renforcé)
 Méthode qui permet à l’utilisateur d’obtenir une version du document avec des contrastes suffisants. 
 
-La version alternative peut être proposée sous la forme d'un document aux formats bureautique (DOCX, ODT, PDF) ou HTML.
+La version alternative peut être proposée sous la forme d’un document aux formats bureautique (DOCX, ODT, PDF) ou HTML.
 
-Le document alternatif doit être consultable à partir du document PDF original sous la forme d'un lien de téléchargement ou permettant d'afficher la page dans un navigateur lorsqu'il s'agit d'un document au format HTML.
+Le document alternatif doit être consultable à partir du document PDF original sous la forme d’un lien de téléchargement ou permettant d’afficher la page dans un navigateur lorsqu’il s’agit d’un document au format HTML.
 
 
 ### O
@@ -213,7 +213,7 @@ Si elles ne sont pas utilisées, cela a pour effet de rendre l’ordre de restit
 
 Si la zone de texte et le bloc de contenu n’ont pas de relation logique, le critère sera considéré comme conforme indépendamment du positionnement visuel de la zone de texte et du bloc de contenu.
 
-À l’inverse, si la zone du texte et le bloc de contenu doivent être restitués dans un ordre particulier et que l'habillage ou l'ancrage ne respectent pas cet ordre, le critère sera non conforme.
+À l’inverse, si la zone du texte et le bloc de contenu doivent être restitués dans un ordre particulier et que l’habillage ou l’ancrage ne respectent pas cet ordre, le critère sera non conforme.
 
 D’autres problèmes d’ordre de restitution peuvent être trouvés sans qu’il soit possible de les renseigner ici.
 
@@ -231,7 +231,7 @@ Indication explicite (exemple&nbsp;: «&nbsp;Voir la légende ci-après&nbsp;»)
 
 ### S
 #### Sommaire
-Liste des titres du contenu, présentée en introduction du document, généralement sous la forme de liens permettant d'accéder directement aux parties concernées. Chaque titre peut être accompagné du numéro de page correspondant.
+Liste des titres du contenu, présentée en introduction du document, généralement sous la forme de liens permettant d’accéder directement aux parties concernées. Chaque titre peut être accompagné du numéro de page correspondant.
 Selon le logiciel utilisé pour éditer le contenu, le sommaire peut être structuré avec des éléments TOC et TOCI ou des éléments L et LI.
 
 #### Style de titre
@@ -256,12 +256,12 @@ Il est nécessaire de fournir une alternative sous forme de texte structuré con
 #### Tableau de présentation
 Tableau qui sert à afficher des informations au moyen des cellules sans que ces informations nécessitent la présence d’en-tête de ligne ou de colonne.
 #### Texte en taille normale
-Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras par rapport à la taille par défaut.
+Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras par rapport à la taille par défaut.
 
 La taille par défaut est la taille du corps de texte.
 
 #### Texte en taille agrandie
-Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras par rapport à la taille par défaut.
+Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras par rapport à la taille par défaut.
 
 #### Titre de document
 Métadonnée permettant de donner un titre au document, généralement renseigné dans les propriétés du document.

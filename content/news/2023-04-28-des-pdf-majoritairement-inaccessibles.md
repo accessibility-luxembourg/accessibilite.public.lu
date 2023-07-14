@@ -43,12 +43,12 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <li>vdl.lu.</li>
 </ul>
 <aside class="contextbox">
-    <h5>Les trois problèmes d’accessibilité des PDF les plus bloquants</h5>
-    <h6>Les PDF non balisés</h6>
+    <h4>Les trois problèmes d’accessibilité des PDF les plus bloquants</h4>
+    <h5>Les PDF non balisés</h5>
     <p>Le format PDF est à la base un format destiné à l’impression. En 2001, une nouvelle version de ce format a introduit le concept de balisage («&#8239;<span lang="en">tagging</span>&#8239;») qui permet de fournir aux technologies d’assistance des informations structurées sur le contenu des pages et ainsi de le rendre accessible aux personnes en situation de handicap. En pratique, le balisage permet aux personnes aveugles d’identifier et d’interagir avec les différents types de contenus comme les titres, les listes, les paragraphes, les tableaux, les images, les champs de formulaires, etc. Les principales suites bureautiques et logiciels de PAO (Publication Assistée par Ordinateur) permettent d’exporter des PDF balisés.</p>
-    <h6>Les documents numérisés en mode image</h6>
+    <h5>Les documents numérisés en mode image</h5>
     <p>Lorsqu’un document papier est numérisé en mode image et exporté au format PDF, il est nécessaire d’opérer une reconnaissance optique des caractères (en anglais «&#8239;<span lang="en">optical character recognition</span>&#8239;» ou OCR). Sans cette étape, le document sera constitué uniquement d’images pour chaque page qui ne seront pas accessibles. La reconnaissance des caractères peut être réalisée via Adobe Acrobat Pro ou via tout logiciel spécialisé dans l’OCR.</p>
-    <h6>La protection contre l’utilisation de technologies d’assistance</h6>
+    <h5>La protection contre l’utilisation de technologies d’assistance</h5>
     <p>Le format PDF propose de nombreuses options de protection des documents, par exemple contre la modification. Une de ces options protège le document contre l’utilisation de technologies d’assistance par les personnes handicapées. Cette option peut être activée par erreur et est globalement à proscrire.</p>
 </aside>
 <p>L’analyse a porté essentiellement sur les trois problèmes d’accessibilité les plus bloquants. Il existe bien entendu de nombreux autres problèmes d’accessibilité potentiels (voir le référentiel d'évaluation de l'accessibilité des documents au format PDF <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> pour l’ensemble des critères à respecter pour la production de PDF accessibles) mais le balisage est un prérequis. S’il est absent, un PDF est directement considéré comme non accessible.</p>
