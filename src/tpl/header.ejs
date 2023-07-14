@@ -14,7 +14,8 @@
                   <button
                     class="submenu"
                     aria-expanded="false"
-                    aria-controls="<%= e.name %>_menu">
+                    aria-controls="<%= e.name %>_menu"
+                    <%= (e.children.map(f => { return f.name}).includes(name))?'aria-current=true':'' %>>
                     <%- e.menu %>
                   </button>
                   <ul id="<%= e.name %>_menu">
