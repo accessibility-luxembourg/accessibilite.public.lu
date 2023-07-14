@@ -27,6 +27,7 @@ cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico
 
 cp -r ./src/rapports ./dist/fr
 cp -r ./content/news/datasource ./dist/fr/news
+cp -r ./content/news/img ./dist/fr/news
 cp -r ./src/html/fr/news/og ./dist/fr/news
 
 if [ $branch == "prod" ]; then
