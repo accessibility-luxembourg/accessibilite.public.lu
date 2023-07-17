@@ -40,7 +40,7 @@ Vous rencontrez un problème d'accessibilité sur un site ou une application mob
 ### Suivre nos actualités
 <div class="right-column-content">
 
-- [Lettre d'information](./newsletter.md#inscription)
+- [Lettre d'information](http://links.comgouv.lu/wgt/0rj1l/vrs/form?c=f8d6a8de)
 - [Mastodon](https://mas.to/@accessibilityLu){rel=me}
 - [Twitter](https://twitter.com/accessibilityLu)
 - [Fil RSS](news/feed.xml)
