@@ -509,6 +509,6 @@ blockquote {
   clip: rect(1px,1px,1px,1px);
 }
 
-.skip-link a:focus {
+.skip-link a:focus, .skip-link a:focus-visible {
   clip: auto;
 }
