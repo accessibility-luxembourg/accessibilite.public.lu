@@ -42,11 +42,12 @@ header {
     }
   
     nav {
+      display: flex;
       flex-direction: column;
       min-width: 220px;
       background-color: $menu-dark-blue;
       position: absolute;
-      top: 104px;
+      top: 103px;
   
       .hide-element {
         border: 0;
