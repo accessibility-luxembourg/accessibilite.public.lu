@@ -331,7 +331,14 @@
             "name": "404",
             "md": "./content/404.md",
             "prefix": "../.."
-        }
+        }, 
+        {
+            "title": "Inscription réussie !",
+            "name": "nl-success",
+            "md": "./content/nl-success.md",
+            "html": true,
+            "prefix": "../.."
+        }        
     ],
     "deprecated": [
         {

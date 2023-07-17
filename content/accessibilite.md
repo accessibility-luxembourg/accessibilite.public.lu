@@ -21,7 +21,8 @@
 	</ul>
 	<h4>Contenu n'entrant pas dans le champ d'application de la 
 		<a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a>
-	</h4> Nous avons placé sur la page d'accueil un composant permettant d'afficher nos derniers tweets. Celui-ci provient de twitter.com, il est donc exempté. 
+	</h4> 
+	<p>Nous avons placé sur la page "suivre nos actualités" un composant permettant de s'inscrire à notre lettre d'information. Celui-ci provient d'une tierce partie, il est donc exempté.</p> 
 	<h3>Préparation de la présente déclaration sur l'accessibilité</h3>
 	<p> La présente déclaration a été préparée le 14 août 2020. Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité du présent site internet avec les exigences fixées dans le 
 		<a href="https://accessibilite.public.lu/fr/rgaa4.1/">RGAA 4.1</a>, telle qu'une auto-évaluation réalisée par l'organisme "Service information et presse". 
