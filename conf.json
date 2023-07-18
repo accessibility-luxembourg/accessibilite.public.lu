@@ -338,7 +338,14 @@
             "md": "./content/nl-success.md",
             "html": true,
             "prefix": "../.."
-        }        
+        },
+        {
+            "title": "Test newsletter",
+            "name": "newsletter-iframe",
+            "md": "./content/newsletter-iframe.md",
+            "html": true,
+            "prefix": "../.."
+        }            
     ],
     "deprecated": [
         {
