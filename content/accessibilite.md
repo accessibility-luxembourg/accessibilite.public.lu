@@ -16,16 +16,13 @@
 	<h4>Non-conformité au 
 		<a href="https://accessibilite.public.lu/fr/rgaa4.1/">RGAA 4.1</a>
 	</h4>
-	<ul>
-		<li>sur la page "votre déclaration", la gestion des erreurs du formulaire est temporairement inaccessible et ne répond pas au <a href="../rgaa4.1/criteres.html#crit-11-10">critère 11.10</a> en raison de contraintes de temps et de ressources. Nous proposons un <a href="../files/template-decla-fr.docx">template de déclaration au format Word</a> en tant qu'alternative accessible.</li>
-	</ul>
-	<h4>Contenu n'entrant pas dans le champ d'application de la 
-		<a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a>
-	</h4> 
-	<p>Nous avons placé sur la page "suivre nos actualités" un composant permettant de s'inscrire à notre lettre d'information. Celui-ci provient d'une tierce partie, il est donc exempté.</p> 
+	<p>Sur la page <a href="../tools/decla.html">"votre déclaration"</a>, la gestion des erreurs du formulaire est temporairement inaccessible et ne répond pas au <a href="../rgaa4.1/criteres.html#crit-11-10">critère 11.10</a> en raison de contraintes de temps et de ressources. Nous proposons un <a href="../files/template-decla-fr.docx">template de déclaration au format Word</a> en tant qu'alternative accessible.
+	</p> 
+	<h4>Charge disproportionnée</h4>
+	<p>Nous avons placé sur la page <a href="../newsletter.html">"suivre nos actualités"</a> un composant permettant de s'inscrire à notre lettre d'information. Rendre totalement accessible ce formulaire représente aujourd'hui une charge disproportionnée. Les mêmes contenus sont publiés sur notre <a href="../news/feed.xml">fil RSS</a>, l'abonnement à ce fil constituant une alternative accessible.</p> 
 	<h3>Préparation de la présente déclaration sur l'accessibilité</h3>
 	<p> La présente déclaration a été préparée le 14 août 2020. Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité du présent site internet avec les exigences fixées dans le 
-		<a href="https://accessibilite.public.lu/fr/rgaa4.1/">RGAA 4.1</a>, telle qu'une auto-évaluation réalisée par l'organisme "Service information et presse". 
+		<a href="https://accessibilite.public.lu/fr/rgaa4.1/">RGAA 4.1</a>, telle qu'une auto-évaluation réalisée par l'organisme "Service information et presse". Le dernier réexamen de la déclaration a eu lieu le 19 juillet 2023. 
 	</p>
 	<h3>Retour d'information et coordonnées de contact</h3>
 	<p>Si vous constatez un défaut d’accessibilité, envoyez-nous un mail à 
