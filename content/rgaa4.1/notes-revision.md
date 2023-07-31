@@ -680,11 +680,12 @@ Remplacement des notes relatives à la loi française par une note relative à l
 
 #### Critères 13.3 et 13.4
 
-Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise.
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. 
+Ajout d'une référence au RAPDF dans les cas particuliers du 13.3.
 
 ### Page Glossaire
 
-Les critères bureautiques pour les fichiers en téléchargement sont conservés.
+Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
 
 ### Page Méthodologie de test
 
@@ -694,4 +695,4 @@ Remplacement des notes relatives à la loi française par une note relative à l
 
 #### Critère 13.3
 
-Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise.
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
