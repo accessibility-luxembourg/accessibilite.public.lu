@@ -40,8 +40,8 @@
 		<a href="http://www.ombudsman.lu/">l’Ombudsman</a>, médiateur du Grand-Duché de Luxembourg. 
 	</p>
 	<hr>
-		<small>Cette déclaration est basée sur le modèle de document défini dans la 
+		<p><small>Cette déclaration est basée sur le modèle de document défini dans la 
 			<a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1523" hreflang="en">décision d'exécution (UE) 2018/1523</a>. Ce modèle est © Union Européenne, 1998-2020 et est sous licence 
 			<a href="https://creativecommons.org/licenses/by/4.0/" hreflang="en" lang="en">Creative Commons Attribution 4.0 International licence</a>.
-		</small>
+		</small></p>
 	</div>
