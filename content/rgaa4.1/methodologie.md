@@ -2262,14 +2262,12 @@ Note : lorsque la limite de temps est essentielle, notamment lorsqu'elle ne pour
 
 1. Retrouver dans le document les liens et les contrôles de formulaire (un bouton de formulaire ou un formulaire de téléchargement par exemple) permettant de télécharger un fichier au format bureautique ;
 2. Pour chaque fichier au format bureautique, vérifier la présence d'une version alternative présentée comme accessible :
-    * Pour les documents au format .pdf, analyser le fichier avec l'outil PAC (*PDF Accessibility Checker*{lang=en}) et vérifier l'absence d'erreur d'accessibilité dans le document (cf. note) ;
+    * Pour les documents au format .pdf, vérifier la conformité au [Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html). Consultez notamment sa [méthodologie de test](../rapdf1/methodologie.html) qui présente les principaux outils nécessaires pour l'évaluation ;
     * Pour les documents au format .doc ou .docx, analyser le fichier avec l'outil de vérification d'accessibilité de Microsoft Office (à partir de la version 2010) et vérifier l'absence d'erreur d'accessibilité (cf. note) ;
-    * Pour les documents au format .odt, analyser le document avec l'éditeur OpenOffice et vérifier que l'ensemble des contenus est conforme avec la liste des critères « Liste document bureautique en téléchargement » (cf. note pour une méthode alternative) ;
-    * Pour les documents au format EPUB/DAISY, analyser le document avec un éditeur EPUB/DAISY et vérifier que l'ensemble des contenus est conforme avec la liste des critères « Liste document bureautique en téléchargement ».
+    * Pour les documents au format .odt, analyser le document avec l'éditeur OpenOffice et vérifier que l'ensemble des contenus est conforme aux critères de la [section 10 <span lang='en'>Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 (cf. note pour une méthode alternative) ;
+    * Pour les documents au format EPUB/DAISY, analyser le document avec un éditeur EPUB/DAISY et vérifier que l'ensemble des contenus est conforme aux critères de la [section 10 <span lang='en'>Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
     * Pour les documents eux-mêmes au format .html, analyser l'accessibilité du document.
 3. Si c'est le cas pour chaque fichier au format bureautique, le test est validé.
-
-Note au sujet de l'outil PAC : l'outil analyse le document PDF du point de vue de l'accessibilité mais également de critères de qualité (par exemple la norme PDF/UA). Seules les erreurs relatives à des critères présents dans la liste des critères « Liste document bureautique en téléchargement » rendent le critère « Non conforme ». Par ailleurs, cet outil ne fonctionne que sur la plateforme Windows. Sur Mac, le contrôle doit se faire manuellement.
 
 Note au sujet Microsoft Office : le logiciel offre un vérificateur d'accessibilité en standard, (accessible via le menu « Fichier > Informations > Vérifier la présence de problèmes > Vérifier l'accessibilité »). Ce vérificateur peut être considérablement amélioré via le plugin Word Accessibility Plug-in (voir dans la section Outils). Ce plugin ne fonctionne que sur Windows. Sur Mac, le contrôle doit se faire manuellement.
 
