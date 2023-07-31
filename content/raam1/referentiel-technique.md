@@ -1299,7 +1299,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
-1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu'à atteindre un agrandissement de 200% (le maximum de la jauge permet d'atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l'avant-dernière position du potentiomètre).
+1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (le maximum de la jauge permet d’atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l’avant-dernière position du potentiomètre).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1311,7 +1311,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### Android
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Paramètres > Accessibilité > Taille de la police* (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;; 
-1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu'à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d'atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
+1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1970,13 +1970,13 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 1. Pour chaque fichier proposé au téléchargement, dans un format bureautique, vérifier la présence d’une version alternative présentée comme accessible.
 1. Si l’alternative est proposée dans un format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier de l’alternative proposée&nbsp;; 
-	- vérifier que les documents PDF sont conformes avec le [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
-	- vérifier que les autres types de documents sont conformes avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
 1. Si l’alternative est proposée dans l’application, vérifier que le contenu est conforme au présent référentiel.
 1. Sinon, pour les documents au format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier&nbsp;; 
-	- vérifier que les documents PDF sont conformes avec le [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
-	- vérifier que les autres types de documents sont conformes avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).	
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.	
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2390,7 +2390,8 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
 1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
 	- s’il s’agit d’une page web, qu’il respecte le [RGAA](../rgaa4/criteres.html)&nbsp;; 
-	- s’il s’agit d’un document bureautique, qu’il respecte la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx)&nbsp;;
+	- s’il s’agit d’un document bureautique au format PDF, qu’il respecte le [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- s’il s’agit d’un document bureautique dans un autre format, qu’il respecte les critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;;
 	- s’il s’agit d’un écran de l’application, que le présent référentiel est respecté (la page **[Obligations](../obligations.html)** détaille par ailleurs que les écrans relatifs à la documentation doivent être inclus dans l’échantillon d’évaluation).
 1. Si c’est le cas, le critère est validé.
 
