@@ -15,16 +15,3 @@
         <% }) %>
     </ul>
 <% }}); %>
-<h3>Contenus obsolètes</h3>
-<% config.deprecated.forEach(element => { if (element.name !== 'plan-site' && element.children !== undefined) { %>
-    <h4><%= element.title %></h4>
-    <ul>
-        <% element.children.forEach(child => { %>
-            <% if (child.url !== undefined) { %>
-                <li><a href="<%= prefix %>/html/fr/<%= child.url %>"><%= child.menu %></a></li> 
-            <% } else { %>
-                <li><a href="<%= prefix %>/html/fr/<%= child.name %>.html"><%= child.menu %></a></li> 
-            <% } %>
-        <% }) %>
-    </ul>
-<% }}); %>
