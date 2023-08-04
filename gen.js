@@ -191,7 +191,7 @@ ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteres412.topics, md: mdC
     if (err !== null) {
         console.log(err)
     }
-    renderToFile(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix)
+    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol')
 })
 
 //generate checklist for simplified tests
@@ -245,7 +245,7 @@ ejs.renderFile('./src/tpl/glossary-412.ejs',{glossary: glossary412, prefix: pref
     if (err !== null) {
         console.log(err)
     }
-    renderToFile(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix)
+    renderWithSummary(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix, 'ul')
 })
 
 // generate from all Markdown files

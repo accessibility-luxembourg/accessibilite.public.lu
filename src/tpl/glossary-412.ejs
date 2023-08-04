@@ -1,5 +1,5 @@
 <% Object.keys(glossary).forEach(section => { %>
-    <h3><%= section %></h3>
+    <h3 id="<%= section %>"><%= section %></h3>
     <% glossary[section].forEach(e => { %>
         <dl>
             <dt id="<%= slugify(e.title) %>">

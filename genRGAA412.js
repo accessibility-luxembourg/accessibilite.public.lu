@@ -177,7 +177,7 @@ function generateGlossary() {
           const content = mdGlossary(cbfm).render(data)
           const title = meta.title
 
-          const firstLetter = title.trim()[0]
+          const firstLetter = title.trim()[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
           if (firstLetter !== index) { 
               index = firstLetter
               jsonData[index] = []
