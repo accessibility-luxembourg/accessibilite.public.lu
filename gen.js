@@ -7,6 +7,7 @@ const dotenv = require('dotenv')
 const crypto = require('crypto')
 const sharp = require('sharp');
 const en301549 = require('en301549-links')
+const genRGAA412 = require('./genRGAA412.js')
 const hmacPwd = 'a11ylu'
 dotenv.config()
 
@@ -19,7 +20,7 @@ const outputPath = './src/html'
 
 const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1/index.html">RGAA 4.1</a>.'
+const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>.'
 
 console.log('prod', production)
 ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
@@ -141,70 +142,72 @@ function langOnEUNorm(str) {
     return str.replace(/^(.\..\..\..{1,2}\s?\/\s.\..\..{1,2}\s)(.*)(\s\(.*\))$/, "$1<span lang='en'>$2</span>$3")
 }
 
+function langOnEUNorm412(str) {
+    return str.replace(/^(.\..\..{1,2}\s)(.*)(\s\(.*\))$/, "9.$1<span lang='en'>$2</span>")
+}
+
 
 // generate criteria in FR
-const mdCriteres = MarkdownIt({
-    replaceLink: function (link, env) {
-        if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
-            return 'glossaire.html'+link
+function mdCriteres(path = '') {
+    return MarkdownIt({
+        replaceLink: function (link, env) {
+            if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
+                return path+'glossaire.html'+link
+            }
+            return link
         }
-        return link
-    }
-}).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
-
-const mdCriteres41 = MarkdownIt({
-    replaceLink: function (link, env) {
-        if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
-            return '../rgaa4.1/glossaire.html'+link
-        }
-        return link
-    }
-}).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
+    }).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
+}
 
 let prefix;
 
+// RGAA 4.0 (deprecated): generate criteria page 
 const criteres = JSON.parse(fs.readFileSync('./content/rgaa4/criteres.json'))
 const niveaux = require('./content/rgaa4.1/niveaux.json')
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres, prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
     renderToFile(str, "RGAA 4: Critères et tests", outputPath+"/fr/rgaa4/criteres.html", "rgaa4/criteres", prefix, false, deprecationMessage)
 })
 
+// RGAA 4.1 (deprecated): generate criteria page 
 const criteres41 = JSON.parse(fs.readFileSync('./content/rgaa4.1/criteres.json'))
 
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres, prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
-    renderToFile(str, "RGAA 4.1: Critères et tests", outputPath+"/fr/rgaa4.1/criteres.html", "rgaa4.1/criteres", prefix)
+    renderToFile(str, "RGAA 4.1: Critères et tests", outputPath+"/fr/rgaa4.1/criteres.html", "rgaa4.1/criteres", prefix, false, deprecationMessage)
+})
+
+// RGAA 4.1.2: generate criteria page
+const criteres412 = genRGAA412.generateCriteria()
+//console.log(JSON.stringify(criteres412, null, 2))
+prefix = "../../.."
+ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm412, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    renderToFile(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix)
 })
 
 //generate checklist for simplified tests
+const criteresMonit = genRGAA412.generateCriteria('../../../html/fr/rgaa4.1.2/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres41, prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList, message: message, autoTests: axeRgaa, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteresMonit.topics, md: mdCriteres('../rgaa4.1.2/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList, message: message, autoTests: axeRgaa, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
     // HOTFIX for broken links on the short list
-    str = str.replace(/#crit-1-9/g, '../../../html/fr/rgaa4.1/criteres.html#crit-1-9')
+    str = str.replace(/#crit-1-9/g, '../../../html/fr/rgaa4.1.2/criteres.html#crit-1-9')
     str = str.replace(/methodo-test.html#test-8.1.1/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
     str = str.replace(/methodo-test.html#test-8.1.2/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
     str = str.replace(/methodo-test.html#test-8.1.3/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
     renderToFile(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix)
-})
-
-criteres.topics.forEach(topic => {
-    topic.criteria.forEach(crit => {
-        critCode = topic.number+'.'+crit.criterium.number
-        if (!shortList.includes(critCode)) {
-            criteres.topics
-        }
-    })
 })
 
 // generate glossary in FR
@@ -218,6 +221,7 @@ const mdGlossary = MarkdownIt({
     }
 }).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
 
+// RGAA 4.0 (deprecated): generate glossary page 
 const glossary = JSON.parse(fs.readFileSync('./content/rgaa4/glossaire.json'))
 ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
@@ -226,14 +230,23 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary, prefix: prefix, slu
     renderToFile(str, "RGAA 4: Glossaire", outputPath+"/fr/rgaa4/glossaire.html", "rgaa4/glossaire", prefix, false, deprecationMessage)
 })
 
+// RGAA 4.1 (deprecated): generate glossary page 
 const glossary41 = JSON.parse(fs.readFileSync('./content/rgaa4.1/glossaire.json'))
 ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
-    renderToFile(str, "RGAA 4.1: Glossaire", outputPath+"/fr/rgaa4.1/glossaire.html", "rgaa4.1/glossaire", prefix)
+    renderToFile(str, "RGAA 4.1: Glossaire", outputPath+"/fr/rgaa4.1/glossaire.html", "rgaa4.1/glossaire", prefix, false, deprecationMessage)
 })
 
+// RGAA 4.1.2: generate glossary page 
+const glossary412 = genRGAA412.generateGlossary()
+ejs.renderFile('./src/tpl/glossary-412.ejs',{glossary: glossary412, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    renderToFile(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix)
+})
 
 // generate from all Markdown files
 
