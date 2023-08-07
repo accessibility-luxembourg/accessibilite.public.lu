@@ -177,6 +177,17 @@ function generateGlossary() {
           const content = mdGlossary(cbfm).render(data)
           const title = meta.title
 
+          // Handle shortcodes
+          const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
+          const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
+          const url = `criteres.html`
+  
+          const cleanedContent = content
+            .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">critère $<topic>.$<crit></a>`)
+            .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
+
+
+
           const firstLetter = title.trim()[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
           if (firstLetter !== index) { 
               index = firstLetter
@@ -184,7 +195,7 @@ function generateGlossary() {
           }
   
           // Push to JSON data
-          jsonData[index].push({ title: title, body: content })
+          jsonData[index].push({ title: title, body: cleanedContent })
         }
       }
   return jsonData
