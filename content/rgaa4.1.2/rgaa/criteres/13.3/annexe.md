@@ -32,6 +32,8 @@ Techniques:
 
 Il existe une gestion de cas particuliers :
 
-- Pour les personnes de droit privé mentionnées aux 2° à 4° du I de l’article 47 de la loi du 11 février 2005 : si les fichiers bureautiques (ex : PDF, documents Microsoft ou LibreOffice, etc.) ont été publiés avant le 23 septembre 2018 (sauf si ce sont des documents nécessaires pour accomplir une démarche administrative relevant des tâches effectuées par l’organisme concerné), ils sont exemptés de l’obligation d’accessibilité.
+- Si les fichiers bureautiques (ex : PDF, documents Microsoft ou libreOffice, etc.) ont été publiés avant le 23 septembre 2018 (sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné), ils sont exemptés de l’obligation d’accessibilité, d'après la loi du [28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)
 
 Dans cette situation, le critère est non applicable.
+
+Dans le cas de documents PDF, s'il n'existe pas de version alternative accessible, ceux-ci doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).

@@ -27,3 +27,7 @@ Techniques:
   - G10
   - G135
 ---
+
+#### Cas particuliers
+
+Voir cas particuliers [critère 13.3](#crit-13-3).

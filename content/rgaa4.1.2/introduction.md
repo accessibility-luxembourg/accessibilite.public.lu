@@ -24,7 +24,7 @@ En cas d’absence de mise à jour du référentiel sous 3 ans pour prendre en c
 
 Certains tests, concernant notamment les composants d’interface développés en JavaScript, requièrent de vérifier la restitution des contenus avec des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation. L’environnement de test (ou « Base de référence ») est décrit sur la page [Environnement de test](environnement.html).
 
-La méthode technique du RGAA 4.1 couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1](../raam1/index.html).
+La méthode technique du RGAA 4.1.2 couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1](../raam1/index.html).
 
 La présente version est la version 4.1.2-LU, son contenu est directement issu du [RGAA 4.1.2 original](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/RGAA](https://github.com/accessibility-luxembourg/RGAA).
 En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
