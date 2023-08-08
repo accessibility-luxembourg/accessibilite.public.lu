@@ -24,7 +24,7 @@ Elles corrigent les défauts suivants :
 Ces corrections ont été reportées directement aux fichiers `criteres.json` et `glossaire.json` disponibles sur le <a href="https://github.com/DISIC/accessibilite.numerique.gouv.fr/tree/main/RGAA"   rel="noreferrer noopener" title="dépôt GitHub du RGAA - nouvelle fenêtre" target="_blank">dépôt GitHub du RGAA</a>.
 
 Les sources de cette mise à jour sont issues du dépôt RGAA.
-## Critères et tests
+### Critères et tests
 * **1.1.5** Ajout de la mention “Contenu de l’élément `<title>`” dans la méthodologie de test.
 * **1.6** Ajout de la note technique suivante :
 “attribut longdesc qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML5.”
@@ -58,7 +58,7 @@ est remplacé par :
 	est remplacé par :  
   * Il en existe une version alternative en téléchargement compatible avec l’accessibilité,
   * Il en existe une version alternative au format HTML compatible avec l’accessibilité.
-## Glossaire
+### Glossaire
 * Alternative textuelle (image) : Précision et ajout de la balise title soit “dans une balise `<title>` ou dans une balise `<text>` que cette dernière balise soit ou non visible”
 * Contrôle de la consultation d’un média temporel : Ajout de la mention “Si l’objet multimédia a des sous-titres non incrustés, il doit avoir une fonctionnalité de contrôle de l’apparition/disparition des sous-titres”
 * Liste des valeurs possibles pour l’attribut `autocomplete` :
@@ -67,3 +67,34 @@ est remplacé par :
 * Présentation de l’information :
 	* Les éléments sont listés par ordre alphabétique ,
 	* Ajout de deux notes concernant l’attribut size et l’élément u.
+
+### Adaptations pour le Luxembourg
+
+Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4.1 à la loi luxembourgeoise.
+
+#### Page Critères
+
+Ajout d'un avertissement concernant le caractère non-normatif de la méthodologie de test.
+
+##### Critère 4.1
+
+Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+
+##### Critères 13.3 et 13.4
+
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. 
+Ajout d'une référence au RAPDF dans les cas particuliers du 13.3 et dans la méthodologie de test.
+
+#### Page Glossaire
+
+Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
+
+#### Page Méthodologie de test
+
+##### Critère 4.1
+
+Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+
+##### Critère 13.3
+
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.

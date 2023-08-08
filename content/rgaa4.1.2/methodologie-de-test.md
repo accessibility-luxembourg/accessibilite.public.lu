@@ -19,7 +19,7 @@ Une liste d’outils est aussi proposée pour aider à la réalisation des tests
 La méthodologie de test est désormais disponible au niveau de chaque test sur la page <a href="criteres.html" >critères et tests</a>.</p>
 </div>
 
-## Outils
+### Outils
 
 L’outil le plus utile reste l’inspecteur de code que propose chaque navigateur. Il permet de rechercher facilement les éléments et les attributs requis pour un examen par un test d’accessibilité. Désormais, les outils de développement proposent également des fonctionnalités permettant d'avoir accès aux propriétés de l'arbre d'accessibilité exposé par le navigateur. Ces informations ne remplacent cependant pas la nécessité d'avoir recours à une assistance technique lorsqu'un critère ou un test l'exige.
 

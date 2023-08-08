@@ -13,7 +13,7 @@ Le RGAA a été établi en utilisant un certain nombre de références et de sou
 <small>Sauf mention contraire, tous les documents sont en anglais.</small>
 
 
-## Documents de référence
+### Documents de référence
 
 - [Exigences d’accessibilité pour les produits et services ICT, EN 301549 V2.1.2 (.pdf)](https://accessibilite.numerique.gouv.fr/doc/fr_301549v020102p.pdf) (2018-08) ;
 - [Accessibility requirements for ICT products and services, EN 301 549 V2.1.2 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) (2018-08) ;
@@ -28,7 +28,7 @@ Le RGAA a été établi en utilisant un certain nombre de références et de sou
 - [Using ARIA](https://www.w3.org/TR/using-aria/) - référence à la date de septembre 2018 ;
 - [ARIA in HTML](https://www.w3.org/TR/html-aria/) - référence à la date d’avril 2019.
 
-## Autres documents
+### Autres documents
 
 - [Web Content Accessibility Guidelines Working Group (Wiki)](https://www.w3.org/WAI/GL/wiki/Main_Page) ;
 - [User Agent Accessibility Guidelines (UAAG) 2.0](http://www.w3.org/TR/UAAG20/) - référence à la date de décembre 2015 ;

@@ -14,7 +14,7 @@ Les tests effectués selon ces combinaisons (technologie d’assistance, systèm
 
 Les combinaisons ont été établies à partir de la liste des technologies d’assistance dont l’usage est suffisamment répandu, ou, dans certains cas lorsqu’elle est fournie de manière native et constitue le moyen privilégié d’accès à l’information et aux fonctionnalités.
 
-## Environnement de test Ordinateur (desktop)
+### Environnement de test Ordinateur (desktop)
 
 Les systèmes d’exploitation retenus sont Windows et Mac OS X et les navigateurs, Internet Explorer, Firefox et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. Les versions des technologies d’assistance à utiliser seront soit la dernière disponible en langue française sur le système d’exploitation retenu soit la version précédente.
 
@@ -74,7 +74,7 @@ Pour qu’un dispositif HTML / WAI-ARIA ou son alternative soit considéré comm
     </table>
 </div>
 
-## Environnement de test Terminal mobile
+### Environnement de test Terminal mobile
 
 Les systèmes d’exploitation retenus sont Android et iOS et les navigateurs Chrome et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. 
 
