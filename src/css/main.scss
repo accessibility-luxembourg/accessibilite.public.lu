@@ -511,3 +511,10 @@ blockquote {
 .skip-link a:focus, .skip-link a:focus-visible {
   clip: auto;
 }
+
+/* declaration form error management */
+form.newsletter div.error {
+  padding-left: 0.5rem;
+  border-left: 2px solid #e7222e;
+  box-sizing: border-box;
+}

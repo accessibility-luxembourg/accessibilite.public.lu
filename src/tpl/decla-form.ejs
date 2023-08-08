@@ -32,7 +32,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
         <% }) %>
       </fieldset>
       <fieldset class="form-group">
-        <legend>Nom de l'organisme (Ex: "Service information et presse")</legend>
+        <legend>Nom de l'organisme (ex&thinsp;: "Service information et presse")</legend>
         <% lang.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>">Nom de l'organisme en <%= l.name %> <span class="symbol-required">* </span></label>
@@ -127,8 +127,8 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
     <div id="prepa-decla">
         <h4>Préparation de la déclaration</h4>
         <div class="form-group">
-            <label for="date_prepa">Date de la préparation (format: jj/mm/yyyy, ex: 20/04/2020) <span class="symbol-required">* </span></label>
-            <input type="text" class="form-control" id="date_prepa" name="date_prepa" aria-describedby="help-date_prepa" required>
+            <label for="date_prepa">Date de la préparation (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020) <span class="symbol-required">* </span></label>
+            <input type="text" class="form-control" id="date_prepa" name="date_prepa" aria-describedby="help-date_prepa" required  pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
             <p id="help-date_prepa" class="form-text text-muted">
             <small>
                 Insérez la date de la première rédaction, ou d'une actualisation ultérieure, de la déclaration sur l'accessibilité, après évaluation du site internet ou de l'application mobile auquel/à laquelle elle s'applique. Il est recommandé de réaliser une évaluation et d'actualiser la déclaration après une révision importante du site internet ou de l'application mobile.
@@ -136,7 +136,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
             </p>   
         </div>
         <div class="form-group">
-            <label for="date_renewal">Date du dernier réexamen (format: jj/mm/yyyy, ex: 20/04/2020)</label>
+            <label for="date_renewal">Date du dernier réexamen (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020)</label>
             <input type="text" class="form-control" id="date_renewal" name="date_renewal" aria-describedby="help-date_renewal">
             <p id="help-date_renewal" class="form-text text-muted">
             <small>
@@ -199,7 +199,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
         </div> 
     </div>    
 
-    <button type="submit" class="btn btn-primary">Générer votre déclaration</button>
+    <button type="button" id="decla_btn" class="btn btn-primary">Générer votre déclaration</button>
 </form>
 </div>
 
