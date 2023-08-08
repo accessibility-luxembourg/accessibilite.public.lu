@@ -83,6 +83,7 @@
                     "title": "Kit d'audit d'accessibilité",
                     "menu": "Kit d'audit",
                     "name": "tools/kit",
+                    "html": true,
                     "md": "./content/rgaa4.1.2/kit-audit.md", 
                     "prefix": "../../.."
                 },
@@ -109,6 +110,7 @@
                     "title": "Référentiel Général d'Amélioration de l'Accessibilité web (RGAA 4.1.2) : Introduction",
                     "menu": "Introduction",
                     "name": "rgaa4.1.2/index",
+                    "html": true,
                     "md": "./content/rgaa4.1.2/introduction.md",
                     "prefix": "../../.."
                 },        
@@ -150,6 +152,7 @@
                     "title": "RGAA 4.1.2: Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4.1.2/notes-revision",
+                    "html": true,
                     "md": "./content/rgaa4.1.2/notes-de-revision-4-1-2.md", 
                     "prefix": "../../.."
                 },
@@ -396,8 +399,7 @@
             ]
         },
         {
-            "title": "Référentiel Web",
-            "menu": "<span class='mobile-only'>Référentiel</span> Web",
+            "title": "RGAA 4.1",
             "name": "rgaa4.1",
             "children": [
                 {
@@ -447,19 +449,6 @@
                     "name": "rgaa4.1/notes-revision",
                     "md": "./content/rgaa4.1/notes-revision.md", 
                     "prefix": "../../.."
-                },
-                {
-                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2",
-                    "menu": "La méthode de contrôle simplifié",
-                    "name": "monitoring/controle-simplifie",
-                    "md": "./content/controle-simplifie.md", 
-                    "html": true,
-                    "prefix": "../../.."
-                },
-                {
-                    "title": "Critères pour le contrôle simplifié",
-                    "menu": "Les critères pour le contrôle simplifié",
-                    "name": "monitoring/audit-simpl"
                 }
             ]
         }

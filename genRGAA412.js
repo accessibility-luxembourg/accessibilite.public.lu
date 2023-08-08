@@ -56,6 +56,8 @@ function parseTests(folderPath, rgaaPath) {
 
 function mdCriteres(cbFM, rgaaPath) {
     return MarkdownIt({
+        'html': true,
+        'linkify': true,
         replaceLink: function (link, env) {
             if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
                 return `${rgaaPath}glossaire.html${link}`
@@ -68,6 +70,7 @@ function mdCriteres(cbFM, rgaaPath) {
 function mdGlossary(cbFM) {
     return MarkdownIt({
     'html': true,
+    'linkify': true,
     replaceLink: function (link, env) {
             if (link.match(/^#test-|^#crit-/)) {
                 return 'criteres.html'+link
@@ -87,6 +90,17 @@ function shiftHeadingHierarchy(html, shift) {
         $(v).prop('tagName', `H${newLevel}`)
     })
     return $('body').html() 
+}
+
+function checkHeading(html) {
+    if (html !== '') {
+        const headings = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+        const $ = cheerio.load(html)
+        const firstTag = $('body > *:first-child').prop('tagName').toLowerCase()
+        if (! headings.includes(firstTag)) {
+            console.error('Warning: note should start with a heading', firstTag)
+        }
+    }
 }
 
 function generateCriteria(rgaaPath = '') {
@@ -116,7 +130,8 @@ function generateCriteria(rgaaPath = '') {
     for (const folder of filteredFolders) {
         const testData = parseTests(`${CRITERIA_SOURCE}/${folder}/tests`, rgaaPath)
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath)
-
+        //console.log('-------\n' + refData.notes)
+        checkHeading(refData.notes)
         // Build all criterion properties
         const criterionObject = {
             criterium: {
