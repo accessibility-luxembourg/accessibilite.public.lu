@@ -83,17 +83,8 @@ main, header, footer {
   padding-left: 1em;
 }
 
-#topics article > ul {
-  list-style-type: none;
-}
-
 #topics article > ul > li {
   margin-left: 0;
-  margin-bottom: 1.5em;
-}
-
-#topics article > ul > li > a:first-child {
-  font-weight: bold;
 }
 
 #topics article > ul > li > ul  {
