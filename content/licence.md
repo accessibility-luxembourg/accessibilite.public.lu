@@ -3,7 +3,7 @@ Les contenus du RGAA sont placés sous licence Creative Commons [CC-BY 3.0 LU](h
 
 Les adaptations de ces contenus au contexte légal luxembourgeois ont été réalisées par le [Service Information et Presse](https://sip.gouvernement.lu) et sont listées dans les [notes de révision](./rgaa4.1.2/notes-revision.html). 
 
-La partie 2 du RGAA 4 ou méthode technique de vérification de la conformité à la norme de référence est adaptée du référentiel technique RGAA 3 mise à jour 2017 (liste des critères, glossaire, cas particuliers, notes techniques, environnement de tests « base de référence ») qui est lui-même une copie adaptée du [référentiel AccessiWeb HTML5/ARIA](http://www.accessiweb.org/index.php/accessiweb-html5aria-liste-deployee.html) - Version de travail du 19/12/2013 - Édité par l'association BrailleNet. Copyright 2013 Association BrailleNet. Tous droits réservés.
+La partie 2 du RGAA 4 ou méthode technique de vérification de la conformité à la norme de référence est adaptée du référentiel technique RGAA 3 mise à jour 2017 (liste des critères, glossaire, cas particuliers, notes techniques, environnement de tests « base de référence ») qui est lui-même une copie adaptée du référentiel AccessiWeb HTML5/ARIA - Version de travail du 19/12/2013 - Édité par l'association BrailleNet. Copyright 2013 Association BrailleNet. Tous droits réservés.
 
 Les contenus du [RAAM](./raam1/index.html) sont édités par le [service information et presse](https://sip.gouvernement.lu) et sont placés sous licence Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/). Ils constituent des travaux dérivés des documents suivants édités par la [DINUM](https://www.numerique.gouv.fr/dinum/) : 
 
