@@ -27,9 +27,6 @@
                     <% } else { %>
                         <%- md.renderInline(test) %>
                     <% } %>
-                    <% if (shortList.length !== 0 && !(topic.number == "5" && crit.criterium.number == "6" && testId == "4")) { // hotfix for RGAA 4.1 %> 
-                        <a href="../../../html/fr/rgaa4.1/methodo-test.html#test-<%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>">Procédure pour le test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></a>
-                    <% } %>
                 </li>
             <% }) %>
         </ul>
