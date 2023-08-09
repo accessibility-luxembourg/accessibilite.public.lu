@@ -93,7 +93,7 @@ function renderHome(page, latestNews) {
 }
 
 function slugify(str) {
-    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[\(\),]/g, '').replace(/«\s|\s»|\s:/g, '').replace(/[\s']/g, '-')
+    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[\(\),]/g, '').replace(/«\s|\s»|\s:|`/g, '').replace(/[\s'’]/g, '-')
 }
 
 function slugifyDINUM(str) {
@@ -198,16 +198,11 @@ ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteres412.topics, md: mdC
 const criteresMonit = genRGAA412.generateCriteria('../../../html/fr/rgaa4.1.2/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteresMonit.topics, md: mdCriteres('../rgaa4.1.2/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList, message: message, autoTests: axeRgaa, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteresMonit.topics, md: mdCriteres('../rgaa4.1.2/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm412, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
-    // HOTFIX for broken links on the short list
-    str = str.replace(/#crit-1-9/g, '../../../html/fr/rgaa4.1.2/criteres.html#crit-1-9')
-    str = str.replace(/methodo-test.html#test-8.1.1/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
-    str = str.replace(/methodo-test.html#test-8.1.2/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
-    str = str.replace(/methodo-test.html#test-8.1.3/g, 'methodo-test.html#tests-8.1.1,-8.1.2-et-8.1.3')
-    renderToFile(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix)
+    renderWithSummary(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix, 'ol')
 })
 
 // generate glossary in FR
