@@ -74,27 +74,44 @@ Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4
 
 #### Page Critères
 
-Ajout d'un avertissement concernant le caractère non-normatif de la méthodologie de test.
+- Ajout d'un avertissement concernant le caractère non-normatif de la méthodologie de test.
+
+##### Critère 1.4
+
+- Suppression de la condition "S’il est présent, le contenu de l’attribut alt est pertinent" dans les tests 1.4.4 à 1.4.7.
+
+##### Critère 1.6
+
+- Suppression de la condition "Il existe un attribut longdesc qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la description détaillée" dans les tests 1.6.2, 1.6.3 et 1.6.4.
+- Dans le test 1.6.4, ajout de la condition "Il existe un attribut WAI-ARIA aria-describedby associant un passage de texte faisant office de description détaillée." Cette condition était présente dans la version précédente du RGAA.
 
 ##### Critère 4.1
 
-Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+- Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
 
-##### Critères 13.3 et 13.4
+##### Critère 5.1 
 
-Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. 
-Ajout d'une référence au RAPDF dans les cas particuliers du 13.3 et dans la méthodologie de test.
+- Correction d'un lien mort dans les notes techniques.
+
+##### Critère 13.3
+
+- Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. 
+- Ajout d'une référence au RAPDF dans les cas particuliers.
 
 #### Page Glossaire
 
-Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
+- Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
+- Dans la définition de "contenu visible" modification de la référence au test 12.2.1 en 10.2.1.
 
 #### Page Méthodologie de test
 
 ##### Critère 4.1
 
-Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+- Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
 
 ##### Critère 13.3
 
-Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
+- Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
+- Ajout d'une référence au RAPDF.
+- Suppression d'une référence à un document qui n'est plus disponible.
+- Modification des informations concernant LibreOffice.
