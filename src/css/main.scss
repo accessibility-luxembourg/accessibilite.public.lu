@@ -513,7 +513,7 @@ blockquote {
 }
 
 /* declaration form error management */
-form.newsletter div.error {
+form.newsletter div.error, form#decla div.error {
   padding-left: 0.5rem;
   border-left: 2px solid #e7222e;
   box-sizing: border-box;
