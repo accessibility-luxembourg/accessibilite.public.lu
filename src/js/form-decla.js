@@ -149,16 +149,32 @@ document.addEventListener('DOMContentLoaded', function(e) {
             e.stopPropagation();
 
             // validate form
-            const orgaField   = document.getElementById('name_fr');
+
+            const langField   = document.getElementById('lang_fr'); 
+            const orgaField   = document.getElementById('name_fr');        
             const emailField   = document.getElementById('email');
             const dateField   = document.getElementById('date_prepa');
+            const renewalField   = document.getElementById('date_renewal');
+            const thirdpartyField   = document.getElementById('thirdparty_name');
+            const eval_type = document.querySelector("[name='eval_type']:checked").value;
+            
+            // manage lang checkboxes
+            
 
-            orgaField.setCustomValidity("");
-            emailField.setCustomValidity("");
-            dateField.setCustomValidity("");
-            orgaField.parentElement.classList.remove('error');
-            emailField.parentElement.classList.remove('error');
-            dateField.parentElement.classList.remove('error');
+            const fields = [langField, orgaField, emailField, dateField, renewalField];
+            if (eval_type == "thirdparty") {
+                fields.push(thirdpartyField)
+            }
+
+            Array.from(document.querySelectorAll(".form-lang-input")).forEach(f => {
+                f.setCustomValidity('');
+                f.parentElement.classList.remove('error');
+            })
+
+            fields.forEach(f => {
+                f.setCustomValidity('');
+                f.parentElement.classList.remove('error');
+            })
 
             if (orgaField.validity.valueMissing) {
                 orgaField.setCustomValidity("Veuillez compléter ce champ");
@@ -175,8 +191,24 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 dateField.parentElement.classList.add('error');
             }
 
+            if (renewalField.validity.patternMismatch || renewalField.validity.typeMismatch) {
+                renewalField.setCustomValidity("Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2022)");
+                renewalField.parentElement.classList.add('error');
+            }
+
+            if (eval_type == "thirdparty") {
+                if (thirdpartyField.validity.valueMissing) {
+                    thirdpartyField.setCustomValidity("Veuillez compléter ce champ");
+                    thirdpartyField.parentElement.classList.add('error');
+                }                
+            } 
+
+            document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
+
             // if ok, submit it
-            if (emailField.reportValidity() && orgaField.reportValidity() && dateField.reportValidity()) {
+            const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true)
+            console.log('okToSubmit', okToSubmit)
+            if (okToSubmit) {
                 let params = getParams()
                 window.params = params
                 let res = []
