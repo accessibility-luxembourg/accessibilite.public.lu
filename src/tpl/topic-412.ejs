@@ -1,0 +1,69 @@
+<article>
+<h3 id="topic-<%= topic.number %>">
+    <a href="#topic-<%= topic.number %>">Thématique <%= topic.number %></a> : 
+    <%= md.renderInline(topic.topic) %>
+</h3>
+<% topic.criteria.forEach(crit => { 
+    let critId = `crit-${topic.number}-${crit.criterium.number}`
+    if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
+%>
+    <h4 id="<%= critId %>">
+        <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
+        : <%- md.renderInline(crit.criterium.title) %></h4>
+            <% Object.keys(crit.criterium.tests).forEach(testId => {
+                let test = crit.criterium.tests[testId]
+                let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
+                let metho = crit.criterium.metho[testId]
+            %>
+            <h5 id="<%= ref %>"><a href="#<%= ref %>">Test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></a>
+            <% if (typeof test == 'object') { %>
+                <%- md.renderInline(test[0]) %></h5>
+                <ul>
+                <% for (let i=1; i< test.length; i++) { %>
+                    <li><%- md.renderInline(test[i]) %></li>
+                <% } %>
+                </ul>
+            <% } else { %>
+                <%- md.renderInline(test) %></h5>
+            <% } %>
+            <h6 id="method-<%= ref %>" class="disclosure methodo">Méthodologie du test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></h6>
+            <%- metho %>
+            <% }) %>
+        <%- crit.criterium.notes %>           
+        <h5 id="mapping<%= critId %>" class="disclosure mapping">Correspondances</h5>
+
+        <ul>
+            <li>Critères de succès WCAG 2.1&nbsp;:
+            <% let SC = crit.criterium.references[0].wcag.map(e => { return e.trim() })
+                SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
+            </li>
+            <% if (crit.criterium.references[1].techniques !== undefined && crit.criterium.references[1].techniques.length !== 0) { %>
+                <li>Technique(s) suffisante(s) et/ou échec(s) WCAG 2.1&nbsp;:
+                <% let techs = crit.criterium.references[1].techniques.map(e => { return e.trim() })
+                    techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
+                %>
+                </li>
+            <% } %>
+            <li>EN 301 549 V2.1.2 (2018-08)&nbsp;: <% crit.criterium.references[0].wcag.forEach(e => { %>
+                <%- langOnEUNorm(e.trim()); %><%= (crit.criterium.references[0].wcag.indexOf(e) != (crit.criterium.references[0].wcag.length-1))?', ': '.' %>
+                <% }) %> 
+            </li>
+        </ul>
+        <% if (autoTests[topic.number+'.'+crit.criterium.number] !== undefined) { %>
+            <h6>Correspondances tests automatisés</h6>
+            <ul>
+            <% autoTests[topic.number+'.'+crit.criterium.number].forEach(e => { %>
+                <li>
+                <% if (e.id !== undefined) { %>
+                    Règle Axe: <a href="https://dequeuniversity.com/rules/axe/4.1/<%= e.id %>"><%= e.id %> - <span lang="en">"<%= e.msg %>"</span></a>
+                <% } else { %>
+                    <%- e.msg %>
+                <% } %>
+                </li>
+            <% }) %>
+            </ul>           
+        <% } %>
+<% 
+    }
+})%>
+</article>

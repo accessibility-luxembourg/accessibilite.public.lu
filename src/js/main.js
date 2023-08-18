@@ -121,10 +121,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
       }, false)
 
       // HOTFIX for criteria 8.7
-      if (window.location.pathname == '/fr/rgaa4.1/glossaire.html') {
+      if (window.location.pathname.match(/rgaa.*\/glossaire\.html$/)) {
         document.getElementById('landmarks').innerHTML = '<span lang="en">Landmarks</span>';
-        document.getElementById('liste-des-valeurs-possibles-pour-l-attribut-autocomplete').innerHTML = 'Liste des valeurs possibles pour l\'attribut <code lang="en">autocomplete</code>';
-        document.getElementById('passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby').innerHTML = 'Passage de texte lié par <code lang="en">aria-labelledby</code> ou <code lang="en">aria-describedby</code>';
       }
 
     }

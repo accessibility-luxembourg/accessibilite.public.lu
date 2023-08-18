@@ -6,7 +6,7 @@ Chaque état membre de l’UE peut définir sa propre méthode de contrôle simp
 #### Outils recommandés pour les tests
 La méthode de contrôle peut être réalisée sans les outils suivants. Cependant la décision d'exécution UE 2018/1524 encourage fortement la mise en oeuvre de tests semi-automatisés. Nous recommandons donc les outils suivant pour mener les tests : 
 
-- les outils recommandés dans la [méthodologie de test du RGAA](../../../html/fr/rgaa4.1/methodo-test.html#outils)
+- les outils recommandés dans la [méthodologie de test du RGAA](../../../html/fr/rgaa4.1.2/methodo-test.html#outils)
 - [L’extension de navigateur Axe](https://www.deque.com/axe/browser-extensions/)
 - Le validateur [nu HTML checker](https://validator.w3.org/nu/){lang=en} accompagné du bookmarklet *"Check for WCAG 2.0 parsing compliance"*{lang=en} disponible sur la [page *about*{lang=en}](https://validator.w3.org/nu/about.html) de cet outil.
 

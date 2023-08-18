@@ -8,7 +8,7 @@
     "watch:dev": "npm-watch",
     "watch": "concurrently -k 'npm:serve' 'npm:watch:dev'",
     "serve": "http-server ./dist",
-    "checklinks": "npx check-html-links dist/ --validate-externals",
+    "checklinks": "npx check-html-links dist/ --validate-externals --absolute-base-url https://accessibilite.public.lu",
     "checkaccess": "node ./test/accessTests.js",
     "test:links": "concurrently -k -s first 'npm:serve' 'npm:checklinks'",
     "test:access": "concurrently -k -s first 'npm:serve' 'npm:checkaccess'",
