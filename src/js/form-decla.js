@@ -144,88 +144,29 @@ document.addEventListener('DOMContentLoaded', function(e) {
             }
 
         });
-        document.getElementById('decla_btn').addEventListener('click', function(e) {
+        document.getElementById('decla').addEventListener('submit', function(e) {
             e.preventDefault();
             e.stopPropagation();
 
             // validate form
 
-            const langField   = document.getElementById('lang_fr'); 
-            const orgaField   = document.getElementById('name_fr');        
-            const emailField   = document.getElementById('email');
-            const dateField   = document.getElementById('date_prepa');
-            const renewalField   = document.getElementById('date_renewal');
-            const thirdpartyField   = document.getElementById('thirdparty_name');
-            const eval_type = document.querySelector("[name='eval_type']:checked").value;
-            
-            // manage lang checkboxes
-            
-
-            const fields = [langField, orgaField, emailField, dateField, renewalField];
-            if (eval_type == "thirdparty") {
-                fields.push(thirdpartyField)
-            }
-
-            Array.from(document.querySelectorAll(".form-lang-input")).forEach(f => {
-                f.setCustomValidity('');
-                f.parentElement.classList.remove('error');
-            })
-
-            fields.forEach(f => {
-                f.setCustomValidity('');
-                f.parentElement.classList.remove('error');
-            })
-
-            if (orgaField.validity.valueMissing) {
-                orgaField.setCustomValidity("Veuillez compléter ce champ");
-                orgaField.parentElement.classList.add('error');
-            }
-
-            if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
-                emailField.setCustomValidity("Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)");
-                emailField.parentElement.classList.add('error');
-            }
-
-            if (dateField.validity.patternMismatch || dateField.validity.typeMismatch || dateField.validity.valueMissing) {
-                dateField.setCustomValidity("Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2022)");
-                dateField.parentElement.classList.add('error');
-            }
-
-            if (renewalField.validity.patternMismatch || renewalField.validity.typeMismatch) {
-                renewalField.setCustomValidity("Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2022)");
-                renewalField.parentElement.classList.add('error');
-            }
-
-            if (eval_type == "thirdparty") {
-                if (thirdpartyField.validity.valueMissing) {
-                    thirdpartyField.setCustomValidity("Veuillez compléter ce champ");
-                    thirdpartyField.parentElement.classList.add('error');
-                }                
-            } 
-
-            document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
-
             // if ok, submit it
-            const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true)
-            console.log('okToSubmit', okToSubmit)
-            if (okToSubmit) {
-                let params = getParams()
-                window.params = params
-                let res = []
-    
-                lang.forEach(e => {
-                    res[e.code] = ejs.render(window.tpl[e.code], params)
-                });
-                lang.forEach(e => {
-                    if (params['lang_'+e.code] == e.code) { // language selected
-                        document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code]
-                        document.getElementById('decla-'+e.code).style.display = 'block'
-                    } else {
-                        document.getElementById('decla-'+e.code).style.display = 'none'
-                    }
-                });
-                location.hash = 'result'
-            }
+            let params = getParams()
+            window.params = params
+            let res = []
+
+            lang.forEach(e => {
+                res[e.code] = ejs.render(window.tpl[e.code], params)
+            });
+            lang.forEach(e => {
+                if (params['lang_'+e.code] == e.code) { // language selected
+                    document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code]
+                    document.getElementById('decla-'+e.code).style.display = 'block'
+                } else {
+                    document.getElementById('decla-'+e.code).style.display = 'none'
+                }
+            });
+            location.hash = 'result'
         })
     }
 
