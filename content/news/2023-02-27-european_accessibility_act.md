@@ -5,9 +5,9 @@
     <p>Si le respect des règles d’accessibilité concerne aujourd’hui les sites et apps des services publics, dans deux ans la règle sera élargie à de nombreuses sphères du privé. Dès juin 2025, elle s’appliquera à l’ensemble de l’Union européenne et tous les services de commerce électronique comme les sites et apps dédiés à la mobilité seront concernés, sous certaines conditions.</p>
 </div>
 <p>L’<a href="https://ec.europa.eu/social/main.jsp?catId=1202&intPageId=5581&langId=en">Acte européen sur l’accessibilité</a>, <a href="https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo">transposé en droit luxembourgeois</a>, déborde du cadre aujourd’hui borné par les sites et apps pour s’intéresser à des domaines aussi variés que les ordinateurs ou smartphones et leurs systèmes d’exploitation, téléviseurs et services d’accès aux médias audiovisuels, livres et liseuses électroniques, services de communication électronique, de billets électroniques ou encore services bancaires, certains terminaux en libre-service tels les guichets de banque automatiques.</p>
-<figure class="pic">
+<figure role="group" aria-label="Photo: iStock / Getty Images / Motortion" class="pic">
     <img src="../../../../content/news/img/iStock3.jpg" alt="Photo d'illustration montrant un homme en train de retirer de l'argent d'un guichet équipé d'indicateurs tactiles">
-    <figcaption>iStock / Getty Images / Motortion</figcaption>
+    <figcaption>Photo&#8239;: iStock / Getty Images / Motortion</figcaption>
 </figure>
 <p>Le 28 juin 2025, les entreprises devront s’être assurées du respect des normes en matière d’accessibilité. En d’autres termes, les jours sont comptés. Pour s’en tenir aux seuls domaines sites web et apps mobiles, il peut s’écouler de longs mois entre l’établissement d’un cahier des charges et la mise en ligne d’un nouveau portail. Dans le cadre des prochaines refontes, l’accessibilité n’est donc plus une option. Elle doit, bien au contraire, devenir partie intégrante de la réflexion dès les premières phases de conception, limitant ainsi les éventuels surcoûts engendrés par cette mise en conformité. La loi luxembourgeoise de 2019 considère en effet un site conforme qu’au seul moment où ce dernier atteint une conformité de 100%, perspective qui n’a rien d’une gageure et qui a été atteinte en 2022 par certains sites.</p>
 <aside class="contextbox">

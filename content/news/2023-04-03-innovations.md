@@ -12,7 +12,7 @@ auteur: Dominique Nauroy
 <div class="intro">
     <p>Nous baignons dans un univers de technologies&#8239;; nombre d’entre elles ont été à l’origine conçues pour pallier des handicaps et certaines innovations ont été développées par des personnes handicapées. Leurs usages ont rapidement dépassé leur première sphère pour conquérir le grand public.</p>
 </div>
-<figure class="pic">
+<figure role="group" aria-label="Un aveugle règle le volume d'un Talking book, ancêtre de l'audiolivre, à la bibliothèque pour aveugles de la New York Public Library. 1954, CC0." class="pic">
     <img src="../../../../content/news/img/talkingbooks.jpg" alt="Un homme assis devant un bureau utilise un dispositif ressemblant à un volumineux tourne-disque portatif">
     <figcaption>Un aveugle règle le volume d'un <span lang="en">"Talking book"</span>, ancêtre de l'audiolivre, à la bibliothèque pour aveugles de la <a lang="en" href="https://digitalcollections.nypl.org/items/510d47df-e34d-a3d9-e040-e00a18064a99">New York Public Library</a>. 1954, CC0.</figcaption>
 </figure>
@@ -23,7 +23,7 @@ auteur: Dominique Nauroy
 <p>Enfin tout le monde dort... ou presque. J’entends mon jeune ado, casque vissé sur les oreilles, répéter&#8239;: «&#8239;<i lang="en">next</i>&#8239;», «&#8239;<i lang="en">next</i>&#8239;», j’en déduis qu’il laisse à chaque morceau de sa playlist musicale «&#8239;découverte&#8239;» assez peu de chances d’être appréciés. Et pour demain, chemise ou pull&#8239;? <strong>Siri</strong> m’annonce une météo estivale, des averses sont à prévoir.</p>
 <p>Du matin au soir, j’utilise des outils qui me simplifient l’existence, m’aident dans mes tâches professionnelles, rendent mes trajets plus doux... j’ai adopté des outils pensés pour les handicapés, parfois conçus par eux.</p>
 <p>Qui a inventé le clavier&#8239;? Christopher Sholes, Carlos Glidden et Samuel Soule sont régulièrement <a href="https://history-computer.com/modern-computer-keyboard/">cités</a> comme les concepteurs du clavier QWERTY. On est à la fin du XIXe siècle et leur machine à écrire est quelques années plus tard <a href="https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter">commercialisée par Remington</a>.</p>
-<figure class="pic">
+<figure role="group" aria-label="Machine à écrire Smith Premier des années 1920 ou 1930. Wikimedia, Wolfmann, CC-BY-SA-4.0" class="pic">
     <img src="../../../../content/news/img/vintage-typewriter.jpg" alt="Clavier QWERTY d'une ancienne machine à écrire, aux touches rondes, présentant chaque caractère en noir sur fond blanc">
     <figcaption>Machine à écrire Smith Premier des années 1920 ou 1930. Wikimedia, <a href="https://commons.wikimedia.org/wiki/File:SMITH_PREMIER_vintage_typewriter_1920-30s_wide_carriage_dusty_worn_without_ribbon_Danish_Norwegian_keys_Gammel_skrivemaskin_levert_av_J%C3%B8rgen_S._Lien_Kontormaskiner_Bergen_%28Odda_skole_2022%29_IMG_1014.jpg">Wolfmann</a>, <a href="https://commons.wikimedia.org/wiki/Category:CC-BY-SA-4.0">CC-BY-SA-4.0</a></figcaption>
 </figure>

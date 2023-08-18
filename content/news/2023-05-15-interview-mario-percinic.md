@@ -11,7 +11,7 @@ auteur: Dominique Nauroy
 <div class="intro">
     <p>Mr. Perčinić is working for the <span lang="fr">Centre pour le développement des compétences relatives à la vue (CDV)</span> in Bertrange. He is transcriber, adapting books for pupils and students who are blind or partially sighted, in various formats (ePub, Braille or print, to list some of them). He is also a multi-talented musician, plays in a hard rock band The Velvet in Luxembourg, records albums and performs concerts all over the country. Last but not least, he is interested in technology and accessibility of all possible gadgets, which can provide better quality of life to blind people. As a blind person, he gets by in a world that does not always place accessibility at the centre of its concerns.</p>
 </div>
-<figure class="pic">
+<figure role="group" aria-label="Mario Perčinić. Photo: Dominique Nauroy" class="pic">
     <img src="../../../../content/news/img/itw-m-percinic.jpg" alt="Photo of Mario Perčinić at the Information and Press Service">
     <figcaption>Mario Perčinić. Photo&#8239;: Dominique Nauroy</figcaption>
 </figure>

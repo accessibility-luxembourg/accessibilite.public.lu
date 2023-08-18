@@ -16,7 +16,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <div class="intro">
     <p>La présence sur les sites publics d’une grande quantité de fichiers PDF non accessibles est un problème clé pour les personnes handicapées. En effet, certains problèmes d’accessibilité peuvent bloquer totalement l’accès à l’information ou la mise en œuvre de procédures administratives dans le cas de formulaires. Nous étudions dans cet article l’accessibilité des PDF présents sur les 17 sites publics luxembourgeois les plus visités.</p>
 </div>
-<figure class="pic">
+<figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
     <img src="../../../../content/news/img/rotary-press.jpg" alt="Photo d'une publication en cours d'impression sur une presse rotative">
     <figcaption>Photo&#8239;: Getty Images / istockphoto.com / nyvltart</figcaption>
 </figure>
