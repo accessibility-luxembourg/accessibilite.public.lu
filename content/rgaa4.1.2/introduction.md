@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: methode
   order: 1
 ---
-*Version 4.1.2-LU, publiée le xx août 2023*
+*Version 4.1.2-LU, publiée le 18 août 2023*
 
 D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
 Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
