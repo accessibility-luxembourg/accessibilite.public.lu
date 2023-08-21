@@ -70,7 +70,7 @@ est remplacé par :
 
 ### Adaptations pour le Luxembourg
 
-Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4.1 à la loi luxembourgeoise.
+Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4.1.2 à la loi luxembourgeoise.
 
 #### Page Critères
 
