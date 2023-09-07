@@ -20,7 +20,7 @@ const outputPath = './src/html'
 
 const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>.'
+const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../rgaa4.1.2/notes-revision.html">notes de révision</a>.'
 
 console.log('prod', production)
 ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
