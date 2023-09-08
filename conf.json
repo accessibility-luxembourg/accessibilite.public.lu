@@ -47,7 +47,8 @@
                     "md": "./content/rgaa4.1.2/obligations.md", 
                     "html": true,
                     "prefix": "../..",
-                    "genSummary": "ol"
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
                 },
                 {
                     "title": "Mission de contrôle de l'accessibilité numérique",
@@ -192,7 +193,8 @@
                     "prefix": "../../..", 
                     "html": true, 
                     "slugify": "slugifyA42",
-                    "genSummary": "ol"
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques"
                 }, 
                 {
                     "title": "RAAM 1 : Glossaire",
@@ -202,7 +204,8 @@
                     "prefix": "../../..", 
                     "html": true,                    
                     "slugify": "slugifyA42", 
-                    "genSummary": "ul"
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index"
                 },                          
                 {
                     "title": "RAAM 1 : Méthodologie de test",
@@ -251,7 +254,8 @@
                     "prefix": "../../..", 
                     "html": true, 
                     "slugify": "slugifyA42",
-                    "genSummary": "ol"
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques"
                 }, 
                 {
                     "title": "RAPDF 1 : Glossaire",
@@ -261,7 +265,8 @@
                     "prefix": "../../..", 
                     "html": true,                    
                     "slugify": "slugifyA42", 
-                    "genSummary": "ul"
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index"
                 },                          
                 {
                     "title": "RAPDF 1 : Méthodologie de test",

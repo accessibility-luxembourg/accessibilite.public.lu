@@ -20,7 +20,7 @@ const outputPath = './src/html'
 
 const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>.'
+const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../rgaa4.1.2/notes-revision.html">notes de révision</a>.'
 
 console.log('prod', production)
 ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
@@ -39,7 +39,7 @@ function renderToFile(data, title, file, name, prefix, withSummary = false, erro
     });
 }
 
-function renderWithSummary(data, title, file, name, prefix, summary, error = '') {
+function renderWithSummary(data, title, file, name, prefix, summary, summaryTitle, error = '') {
     if (summary !== undefined) {
         const $ = cheerio.load(data)
         const topics = []
@@ -68,7 +68,7 @@ function renderWithSummary(data, title, file, name, prefix, summary, error = '')
         })
         data = $('body').html()
 
-        ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary}, function(err, str) {
+        ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary, summaryTitle: summaryTitle}, function(err, str) {
             if (err !== null) {
                 console.log(err)
             }
@@ -191,7 +191,7 @@ ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteres412.topics, md: mdC
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol')
+    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol', 'Thématiques')
 })
 
 //generate checklist for simplified tests
@@ -202,7 +202,7 @@ ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteresMonit.topics, md: m
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix, 'ol')
+    renderWithSummary(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix, 'ol', 'Thématiques')
 })
 
 // generate glossary in FR
@@ -240,7 +240,7 @@ ejs.renderFile('./src/tpl/glossary-412.ejs',{glossary: glossary412, prefix: pref
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix, 'ul')
+    renderWithSummary(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix, 'ul', 'Index')
 })
 
 // generate from all Markdown files
@@ -303,11 +303,11 @@ function newsMarkdownIt(cbFM) {
 }
 
 md.forEach(e => { 
-    renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary)          
+    renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle)          
 })
 
 deprecated.forEach(e => { 
-    renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary, deprecationMessage)          
+    renderWithSummary(genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/fr/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, deprecationMessage)          
 })
 
 let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
