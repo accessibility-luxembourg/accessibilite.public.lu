@@ -19,7 +19,7 @@ Il y a une gestion de cas particuliers sur le changement de langue pour les cas 
 
 Note 1 : les dictionnaires officiels pour les langues fréquemment employées sur les sites publics luxembourgeois sont les suivants :
 
-- pour le luxembourgeois : [Lëtzebuerger Online Dictionnaire (LOD)](https://lod.lu/){lang="lb"} (l'utilisation de [spellchecker.lu](https://spellchecker.lu/) peut aider à détecter les mots nont présents dans le dictionnaire) ;
+- pour le luxembourgeois : [Lëtzebuerger Online Dictionnaire (LOD)](https://lod.lu/){lang="lb"} (l'utilisation de [spellchecker.lu](https://spellchecker.lu/) peut aider à détecter les mots absents du dictionnaire) ;
 - pour le français : [Trésor de la Langue Française informatisé](http://atilf.atilf.fr/tlfi.htm) ;
 - pour l'allemand : [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de){lang="de"} ;
 - pour l'anglais : [Oxford English Dictionary](https://www.oed.com){lang="en"}.
