@@ -17,6 +17,11 @@ Il y a une gestion de cas particuliers sur le changement de langue pour les cas 
 - Passage de texte dont la langue ne peut pas être déterminée : le critère est non applicable ;
 - Terme ou passage de texte issus d’une langue morte ou imaginaire pour laquelle il n’existe pas d’interprétation vocale : le critère est non applicable.
 
-Note 1 : le dictionnaire officiel est celui recommandé par l’académie en charge de la langue en question. Pour la France, par exemple, le lien vers le dictionnaire officiel se trouve sur le site de l’Académie française à l’adresse suivante : http://www.academie-francaise.fr/le-dictionnaire/la-9e-edition. Pour toute demande auprès du service du dictionnaire de l’Académie française, utiliser le formulaire de contact du service du dictionnaire.
+Note 1 : les dictionnaires officiels pour les langues fréquemment employées sur les sites publics luxembourgeois sont les suivants :
+
+- pour le luxembourgeois : [Lëtzebuerger Online Dictionnaire (LOD)](https://lod.lu/){lang="lb"} (l'utilisation de [spellchecker.lu](https://spellchecker.lu/) peut aider à détecter les mots nont présents dans le dictionnaire) ;
+- pour le français : [Trésor de la Langue Française informatisé](http://atilf.atilf.fr/tlfi.htm) ;
+- pour l'allemand : [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de){lang="de"} ;
+- pour l'anglais : [Oxford English Dictionary](https://www.oed.com){lang="en"}.
 
 Note 2 : pour les noms communs de langue étrangère, absents dans le dictionnaire officiel de la langue par défaut de la page web, et qui sont passés dans le langage commun (exemple : newsletter) : le critère est applicable, uniquement lorsque l’absence d’indication de langue peut provoquer une incompréhension pour la restitution.
