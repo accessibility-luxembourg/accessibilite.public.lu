@@ -42,6 +42,7 @@ Vous rencontrez un problème d'accessibilité sur un site ou une application mob
 
 - [Lettre d'information](./newsletter.md)
 - [Mastodon](https://mas.to/@accessibilityLu){rel=me}
+- [LinkedIn](https://www.linkedin.com/company/accessilibity-lu/)
 - [Twitter](https://twitter.com/accessibilityLu)
 - [Fil RSS](news/feed.xml)
 

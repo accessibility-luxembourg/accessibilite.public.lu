@@ -93,6 +93,10 @@ Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4
 
 - Correction d'un lien mort dans les notes techniques.
 
+##### Critère 8.7
+
+- Mise en place d'une liste de dictionnaires officiels adaptée au contexte multilingue du Luxembourg dans la note 1.
+
 ##### Critère 13.3
 
 - Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise. 

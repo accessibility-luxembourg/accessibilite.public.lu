@@ -348,7 +348,10 @@ figure.chart > div#pdf-20230503-5 {
     height: 320px;
 }
 
-figure.chart details {
+article.news details {
+    width: 100%;
+    max-width: 650px; 
+    margin: 0 auto;
     padding: 1em;
     box-sizing: border-box;
     border-radius: 3px;
@@ -357,15 +360,15 @@ figure.chart details {
     border: 1px solid white;
 }
 
-figure.chart details[open] {
+article.news details[open] {
     border: 1px solid var(--green);
 }
 
-figure.chart details[open] summary {
+article.news details[open] summary {
     font-weight: 400;
 }
 
-figure.chart summary {
+article.news summary {
     cursor: pointer;
 }
 
