@@ -150,18 +150,22 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
             // validate form
 
-            const langField   = document.getElementById('lang_fr'); 
-            const orgaField   = document.getElementById('name_fr');        
-            const emailField   = document.getElementById('email');
-            const dateField   = document.getElementById('date_prepa');
-            const renewalField   = document.getElementById('date_renewal');
-            const thirdpartyField   = document.getElementById('thirdparty_name');
-            const eval_type = document.querySelector("[name='eval_type']:checked").value;
+            const langField       = document.getElementById('lang_fr'); 
+            const orgaField       = document.getElementById('name_fr');        
+            const emailField      = document.getElementById('email');
+            const dateField       = document.getElementById('date_prepa');
+            const renewalField    = document.getElementById('date_renewal');
+            const thirdpartyField = document.getElementById('thirdparty_name');
+            const eval_type       = document.querySelector("[name='eval_type']:checked").value;
+            const sitesField      = document.getElementById('sites');
+            const appsField       = document.getElementById('apps');
+            appsField.required    = true;
+            sitesField.required   = true;
             
             // manage lang checkboxes
             
 
-            const fields = [langField, orgaField, emailField, dateField, renewalField];
+            const fields = [langField, orgaField, emailField, dateField, renewalField, sitesField, appsField];
             if (eval_type == "thirdparty") {
                 fields.push(thirdpartyField)
             }
@@ -201,13 +205,28 @@ document.addEventListener('DOMContentLoaded', function(e) {
                     thirdpartyField.setCustomValidity("Veuillez compléter ce champ");
                     thirdpartyField.parentElement.classList.add('error');
                 }                
-            } 
+            }
+
+            if (sitesField.validity.valueMissing && appsField.validity.valueMissing) {
+                sitesField.setCustomValidity("Veuillez compléter ce champ et/ou le champ ci-dessous");
+                sitesField.parentElement.classList.add('error');
+                appsField.setCustomValidity("Veuillez compléter ce champ et/ou le champ ci-dessus");
+                appsField.parentElement.classList.add('error'); 
+            }
+
+            if (!sitesField.validity.valueMissing) {
+                appsField.required = false;
+            }
+
+            if (!appsField.validity.valueMissing) {
+                sitesField.required = false;
+            }
 
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
 
             // if ok, submit it
-            const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true)
-            console.log('okToSubmit', okToSubmit)
+            const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
+
             if (okToSubmit) {
                 let params = getParams()
                 window.params = params
