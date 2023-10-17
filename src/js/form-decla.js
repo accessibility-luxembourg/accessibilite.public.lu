@@ -78,20 +78,10 @@ function getParams() {
 function showHideByLang(show, lang) {
     if (show) {
         Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {
-            let input = e.querySelector('input')
-
-            if (input && input.getAttribute('data-required') == 'true') {
-                input.setAttribute('required', 'required')
-            }
             e.style.display = 'block'
         })
     } else {
-        Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {
-            let input = e.querySelector('input')
-
-            if (input && input.getAttribute('data-required') == 'true') {
-                input.removeAttribute('required')
-            }            
+        Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {       
             e.style.display = 'none'
         })
     }

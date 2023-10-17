@@ -36,7 +36,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
         <% lang.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>">Nom de l'organisme en <%= l.name %> <span class="symbol-required">* </span></label>
-                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" data-required="true">
+                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
             </div>          
         <% }) %>                     
     </fieldset>
