@@ -263,7 +263,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
                         document.getElementById('decla-'+e.code).style.display = 'none'
                     }
                 });
-                location.hash = 'result'
+                location.hash = 'result';
+                document.getElementById('errorPanel').style.display = "none";
             } else {
                 document.getElementById('errorPanel').style.display = "block";
             }
