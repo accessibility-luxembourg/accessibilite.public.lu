@@ -5,6 +5,28 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 import formDataEntries from 'form-data-entries'
 
+function errorMessage(inputElt, textMsg) { 
+    if (textMsg !== null && arguments.length > 1) {
+        inputElt.setAttribute("aria-invalid", true);
+        inputElt.setCustomValidity(textMsg);
+        inputElt.setAttribute("aria-describedby", inputElt.id + "Error");
+        const newelement = document.createElement("p");
+        newelement.setAttribute("class", "errorMessage");
+        newelement.setAttribute("id", inputElt.id + "Error");
+        newelement.innerHTML = textMsg;
+        inputElt.parentNode.appendChild(newelement);
+        inputElt.parentElement.classList.add('error');
+    } else {
+        if (document.getElementById(inputElt.id + "Error")) {
+            inputElt.removeAttribute("aria-invalid");
+            inputElt.removeAttribute("aria-describedby");
+            inputElt.setCustomValidity('');
+            inputElt.parentElement.classList.remove('error');
+            document.getElementById(inputElt.id + "Error").remove();
+        }
+    }
+}
+
 // https://stackoverflow.com/questions/3665115/how-to-create-a-file-in-memory-for-user-to-download-but-not-through-server
 function download(filename, text) {
     var element = document.createElement('a');
@@ -53,9 +75,9 @@ function getParams() {
         let match = params['date_prepa'].match(/([0-9]{2})\/([0-9]{2})\/([0-9]{4})/)
 
         let date = new Date(
-            match[3],  // year
+            match[3],    // year
             match[2]-1,  // monthIndex
-            match[1]  // day
+            match[1]     // day
         );
         params['date_prepa'] = date
     }
@@ -122,6 +144,13 @@ document.addEventListener('DOMContentLoaded', function(e) {
         showHideByLang(document.getElementById('lang_'+l).checked, l)
     });
 
+    document.addEventListener('invalid', (function(){
+        return function(e) {
+          //prevent the browser from showing default error bubble / hint
+          e.preventDefault();
+        };
+    })(), true);
+
     if (document.getElementById('decla')) {
         supportedLang.forEach(function(lang) {
             var check = document.getElementById('lang_'+lang);
@@ -130,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
                     showHideByLang(e.target.checked, lang)
                 });
             } else {
-                console.log(lang+' is not defined')
+                console.log(lang +' is not defined')
             }
 
         });
@@ -138,10 +167,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             e.preventDefault();
             e.stopPropagation();
 
-            // validate form
-
-            const langField       = document.getElementById('lang_fr'); 
-            const orgaField       = document.getElementById('name_fr');        
+            // validate form  
             const emailField      = document.getElementById('email');
             const dateField       = document.getElementById('date_prepa');
             const renewalField    = document.getElementById('date_renewal');
@@ -149,59 +175,63 @@ document.addEventListener('DOMContentLoaded', function(e) {
             const eval_type       = document.querySelector("[name='eval_type']:checked").value;
             const sitesField      = document.getElementById('sites');
             const appsField       = document.getElementById('apps');
-            appsField.required    = true;
             sitesField.required   = true;
-            
-            // manage lang checkboxes
-            
+            appsField.required    = true;
 
-            const fields = [langField, orgaField, emailField, dateField, renewalField, sitesField, appsField];
-            if (eval_type == "thirdparty") {
-                fields.push(thirdpartyField)
+            let fields            = [emailField, dateField, renewalField, sitesField, appsField];
+            let checkLang         = false;
+            let orgaFields        = [];
+
+            supportedLang.forEach (function (l) {
+                const langField = document.getElementById('lang_' + l);
+                const orgaField = document.getElementById('name_' + l);
+                errorMessage(langField);
+                if (langField.checked) {
+                    checkLang = true;
+                    fields.push(orgaField);
+                    orgaFields.push(orgaField);
+                }
+            });
+
+            if (!checkLang) {
+                errorMessage(document.getElementById('lang_fr'), "Veuillez sélectionner au moins une langue");
             }
-
-            Array.from(document.querySelectorAll(".form-lang-input")).forEach(f => {
-                f.setCustomValidity('');
-                f.parentElement.classList.remove('error');
-            })
+            
+            if (eval_type == "thirdparty") {
+                fields.push(thirdpartyField);
+            }
 
             fields.forEach(f => {
-                f.setCustomValidity('');
-                f.parentElement.classList.remove('error');
-            })
+                errorMessage(f);
+            });
 
-            if (orgaField.validity.valueMissing) {
-                orgaField.setCustomValidity("Veuillez compléter ce champ");
-                orgaField.parentElement.classList.add('error');
-            }
+            orgaFields.forEach(f => {
+                if (f.validity.valueMissing) {
+                    errorMessage(f, "Veuillez compléter ce champ");
+                } 
+            });
 
             if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
-                emailField.setCustomValidity("Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)");
-                emailField.parentElement.classList.add('error');
+                errorMessage(emailField, "Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)");
             }
 
             if (dateField.validity.patternMismatch || dateField.validity.typeMismatch || dateField.validity.valueMissing) {
-                dateField.setCustomValidity("Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2022)");
-                dateField.parentElement.classList.add('error');
+                errorMessage(dateField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
             }
 
             if (renewalField.validity.patternMismatch || renewalField.validity.typeMismatch) {
-                renewalField.setCustomValidity("Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2022)");
-                renewalField.parentElement.classList.add('error');
+                errorMessage(renewalField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
             }
 
             if (eval_type == "thirdparty") {
                 if (thirdpartyField.validity.valueMissing) {
-                    thirdpartyField.setCustomValidity("Veuillez compléter ce champ");
-                    thirdpartyField.parentElement.classList.add('error');
+                    errorMessage(thirdpartyField, "Veuillez compléter ce champ");
                 }                
             }
 
             if (sitesField.validity.valueMissing && appsField.validity.valueMissing) {
-                sitesField.setCustomValidity("Veuillez compléter ce champ et/ou le champ ci-dessous");
-                sitesField.parentElement.classList.add('error');
-                appsField.setCustomValidity("Veuillez compléter ce champ et/ou le champ ci-dessus");
-                appsField.parentElement.classList.add('error'); 
+                errorMessage(sitesField, "Veuillez compléter ce champ et/ou le champ ci-dessous");
+                errorMessage(appsField, "Veuillez compléter ce champ et/ou le champ ci-dessus");
             }
 
             if (!sitesField.validity.valueMissing) {
@@ -217,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
 
-            if (okToSubmit) {
+            if (okToSubmit && checkLang) {
                 let params = getParams()
                 window.params = params
                 let res = []
@@ -234,6 +264,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
                     }
                 });
                 location.hash = 'result'
+            } else {
+                document.getElementById('errorPanel').style.display = "block";
             }
         })
     }

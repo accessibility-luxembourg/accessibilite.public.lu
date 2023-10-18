@@ -24,14 +24,16 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
 <form id="decla">
     <fieldset class="form-group">
         <legend>Langues de la déclaration</legend>
+        <div class="form-group">
         <% lang.forEach(l => { %>
-            <input class="form-lang-input" type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
+            <input type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
             <label for="lang_<%= l.code %>" class="form-check-inline">
                 <%= l.name %>
               </label>          
         <% }) %>
-      </fieldset>
-      <fieldset class="form-group">
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
         <legend>Nom de l'organisme (ex&thinsp;: "Service information et presse")</legend>
         <% lang.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
@@ -203,6 +205,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
     </div>    
 
     <button type="button" id="decla_btn" class="btn btn-primary">Générer votre déclaration</button>
+    <p id="errorPanel" role="alert">Des erreurs ont été détectées dans le formulaire, veuillez le parcourir à nouveau afin de vérifier quels champs posent problème.</p>
 </form>
 </div>
 
