@@ -243,6 +243,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
             }
 
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
+            document.getElementById('errorPanel').innerHTML = "";
+            document.getElementById('errorPanel').style.display = "none";
 
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
@@ -264,9 +266,11 @@ document.addEventListener('DOMContentLoaded', function(e) {
                     }
                 });
                 location.hash = 'result';
-                document.getElementById('errorPanel').style.display = "none";
             } else {
                 document.getElementById('errorPanel').style.display = "block";
+                window.setTimeout(function () {
+                    document.getElementById('errorPanel').innerHTML = "Des erreurs ont été détectées dans le formulaire, veuillez le parcourir à nouveau afin de vérifier quels champs posent problème.";
+                }, 10);
             }
         })
     }
@@ -281,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
         })
     })
 
-    if (document.getElementById('thirdparty-blk')){
+    if (document.getElementById('thirdparty-blk')) {
         document.getElementById('thirdparty-blk').style.display = 'none'
     }
     Array.from(document.querySelectorAll("[name='eval_type']")).forEach(function(e) {
