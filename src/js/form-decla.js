@@ -178,9 +178,10 @@ document.addEventListener('DOMContentLoaded', function(e) {
             sitesField.required   = true;
             appsField.required    = true;
 
-            let fields            = [emailField, dateField, renewalField, sitesField, appsField];
+            let fields            = [sitesField, appsField, dateField, renewalField, emailField];
             let checkLang         = false;
             let orgaFields        = [];
+            const errorPanel        = document.getElementById('errorPanel');
 
             supportedLang.forEach (function (l) {
                 const langField = document.getElementById('lang_' + l);
@@ -188,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 errorMessage(langField);
                 if (langField.checked) {
                     checkLang = true;
-                    fields.push(orgaField);
+                    fields.unshift(orgaField);
                     orgaFields.push(orgaField);
                 }
             });
@@ -198,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             }
             
             if (eval_type == "thirdparty") {
-                fields.push(thirdpartyField);
+                fields.splice(4, 0, thirdpartyField);
             }
 
             fields.forEach(f => {
@@ -243,33 +244,45 @@ document.addEventListener('DOMContentLoaded', function(e) {
             }
 
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
-            document.getElementById('errorPanel').innerHTML = "";
-            document.getElementById('errorPanel').style.display = "none";
+            errorPanel.innerHTML = "";
+            errorPanel.style.display = "none";
 
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
 
             if (okToSubmit && checkLang) {
-                let params = getParams()
-                window.params = params
-                let res = []
+                let params = getParams();
+                window.params = params;
+                let res = [];
     
                 lang.forEach(e => {
-                    res[e.code] = ejs.render(window.tpl[e.code], params)
+                    res[e.code] = ejs.render(window.tpl[e.code], params);
                 });
                 lang.forEach(e => {
                     if (params['lang_'+e.code] == e.code) { // language selected
-                        document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code]
-                        document.getElementById('decla-'+e.code).style.display = 'block'
+                        document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code];
+                        document.getElementById('decla-'+e.code).style.display = 'block';
                     } else {
-                        document.getElementById('decla-'+e.code).style.display = 'none'
+                        document.getElementById('decla-'+e.code).style.display = 'none';
                     }
                 });
                 location.hash = 'result';
             } else {
-                document.getElementById('errorPanel').style.display = "block";
+                if (!checkLang) {
+                    document.getElementById('lang_fr').focus();
+                    document.getElementById('lang_fr').parentElement.parentElement.after(errorPanel);
+                } else  {
+                    for (let f = 0; f < fields.length; f++) {
+                        if (!fields[f].reportValidity()) {
+                            fields[f].focus();
+                            fields[f].parentElement.parentElement.after(errorPanel);
+                            break;
+                        }
+                    }
+                }
+                errorPanel.style.display = "block";
                 window.setTimeout(function () {
-                    document.getElementById('errorPanel').innerHTML = "Des erreurs ont été détectées dans le formulaire, veuillez le parcourir à nouveau afin de vérifier quels champs posent problème.";
+                    errorPanel.innerHTML = "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème.";
                 }, 10);
             }
         })

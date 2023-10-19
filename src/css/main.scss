@@ -522,10 +522,11 @@ form#decla p#errorPanel {
   padding: 0.7rem 0.7rem 0.7rem 3rem;
   border: 1px solid #e7222e;
   border-radius: 3px;
-  max-width: 600px;
-  margin: 1rem auto 0 auto;
+  max-width: 410px;
+  margin: 1rem auto;
   background-image: url(../img/warning.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center left 15px;
+  background-color: rgba(231,34,46,0.015);
 }
