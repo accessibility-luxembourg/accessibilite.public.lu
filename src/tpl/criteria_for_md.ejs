@@ -1,14 +1,15 @@
 <div id="toc">
     <div id="disc-control">
         <h3 id="titre-affichage">Affichage</h3>
-        <input type="checkbox" id="open-disclosure-methodo"></input><label for="open-disclosure-methodo"> Afficher la méthodologie</label><br />
-        <input type="checkbox" id="open-disclosure-mapping"></input><label for="open-disclosure-mapping"> Afficher les correspondances</label>
+        <input type="checkbox" id="open-disclosure-methodo"></input><label for="open-disclosure-methodo"> Méthodologie</label><br />
+        <input type="checkbox" id="open-disclosure-mapping"></input><label for="open-disclosure-mapping"> Correspondances</label><br />
+        <input type="checkbox" id="filter-rgaa"></input><label for="filter-rgaa" id="filter-rgaa-label"> Critères RGAA/WCAG uniquement</label>
     </div>
     <h3 id="titre-sommaire"><%= summaryTitle %></h3>
     <nav class="nav" aria-labelledby="titre-sommaire">
         <%- (list_type == "ol")?"<ol>":"<ul>" %>
         <% topics.forEach(topic => { %>
-            <li>
+            <li class="<%= topic.class !== undefined ? 'summary-'+topic.class : '' %>">
                 <a href="#<%= topic.id %>"><%= topic.text %></a> 
             </li>
         <% }) %>

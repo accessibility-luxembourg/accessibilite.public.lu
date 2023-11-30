@@ -1,6 +1,6 @@
 <% if (shortList.length == 0 || topic.criteria.filter(crit => shortList.includes(topic.number+'.'+crit.criterium.number)).length !== 0) { %> 
 <article>
-<h3 id="topic-<%= topic.number %>">
+<h3 id="topic-<%= topic.number %>" class="topic <%= (topic.criteria.map(e => e.criterium.references[0].wcag !== undefined && e.criterium.references[0].wcag.length !== 0).reduce((a, c) => a || c, false)) ? 'rgaa' : 'en-norm' %>">
     <a href="#topic-<%= topic.number %>">Thématique <%= topic.number %></a> : 
     <%= md.renderInline(topic.topic) %>
 </h3>
@@ -8,6 +8,7 @@
     let critId = `crit-${topic.number}-${crit.criterium.number}`
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
 %>
+<div class="crit <%= (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) ? 'rgaa' : 'en-norm' %>">
     <h4 id="<%= critId %>">
         <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
         : <%- md.renderInline(crit.criterium.title) %></h4>
@@ -72,6 +73,7 @@
             <% }) %>
             </ul>           
         <% } %>
+</div>        
 <% 
     }
 })%>

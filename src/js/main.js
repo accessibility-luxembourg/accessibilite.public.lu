@@ -125,6 +125,18 @@ window.addEventListener('DOMContentLoaded', function (event) {
         document.getElementById('landmarks').innerHTML = '<span lang="en">Landmarks</span>';
       }
 
+      const filterRGAACheckbox = document.getElementById('filter-rgaa')
+      if (filterRGAACheckbox !== null) {  
+        if (Array.from(document.querySelectorAll('.topic.en-norm')).length == 0) {
+          filterRGAACheckbox.style.display = 'none'
+          document.getElementById('filter-rgaa-label').style.display = 'none'
+        } else {
+          filterRGAACheckbox.addEventListener('change', () => {
+            Array.from(document.querySelectorAll('.topic.en-norm, .crit.en-norm, .summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'block')
+            Array.from(document.querySelectorAll('.summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'list-item')
+          })
+        }
+      }
     }
 
     
