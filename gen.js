@@ -187,7 +187,7 @@ ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriter
     renderToFile(str, "RGAA 4.1: Critères et tests", outputPath+"/fr/rgaa4.1/criteres.html", "rgaa4.1/criteres", prefix, false, deprecationMessage)
 })
 
-// RGAA 4.1.2: generate criteria page
+// RGAA 4.1.2 (deprecated): generate criteria page
 const criteres412 = genNewRGAA.generateCriteria('./content/rgaa4.1.2')
 //console.log(JSON.stringify(criteres412, null, 2))
 prefix = "../../.."
@@ -250,7 +250,7 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, s
     renderToFile(str, "RGAA 4.1: Glossaire", outputPath+"/fr/rgaa4.1/glossaire.html", "rgaa4.1/glossaire", prefix, false, deprecationMessage)
 })
 
-// RGAA 4.1.2: generate glossary page 
+// RGAA 4.1.2 (deprecated): generate glossary page 
 const glossary412 = genNewRGAA.generateGlossary('./content/rgaa4.1.2')
 ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossary412, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
