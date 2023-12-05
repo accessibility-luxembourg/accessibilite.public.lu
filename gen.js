@@ -73,7 +73,7 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
             if (err !== null) {
                 console.log(err)
             }
-            renderToFile(str, title, file, name, prefix, true)
+            renderToFile(str, title, file, name, prefix, true, error)
         })
     } else {
         renderToFile(data, title, file, name, prefix, false, error)
