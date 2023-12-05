@@ -28,10 +28,10 @@
             <% } else { %>
                 <%- md.renderInline(test) %></h5>
             <% } %>
+            <%- crit.criterium.notes %>     
             <h6 id="method-<%= ref %>" class="disclosure methodo">Méthodologie du test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></h6>
             <%- metho %>
             <% }) %>
-        <%- crit.criterium.notes %>           
         <h5 id="mapping<%= critId %>" class="disclosure mapping">Correspondances</h5>
 
         <ul>
