@@ -24,3 +24,8 @@ Norm:
 #### Cas particuliers
 
 Pour le test 11.9.2, voir cas particuliers critère 11.2.
+
+
+#### Note
+
+Ce critère fait partie du [principe de non-interférence](/fr/obligations.html#principe-de-non-interférence).

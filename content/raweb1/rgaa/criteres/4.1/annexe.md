@@ -21,7 +21,7 @@ Techniques:
 Norm:
   - criterion: 9.1.2.1
     title: Audio-only and Video-only (Prerecorded)
-  - criterion: 9.2.3
+  - criterion: 9.1.2.3
     title: Audio Description or Media Alternative (Prerecorded)
 ---
 

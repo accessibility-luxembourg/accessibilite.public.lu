@@ -15,8 +15,7 @@ Le RGAA a été établi en utilisant un certain nombre de références et de sou
 
 ### Documents de référence
 
-- [Exigences d’accessibilité pour les produits et services ICT, EN 301549 V2.1.2 (.pdf)](https://accessibilite.numerique.gouv.fr/doc/fr_301549v020102p.pdf) (2018-08) ;
-- [Accessibility requirements for ICT products and services, EN 301 549 V2.1.2 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) (2018-08) ;
+- [Accessibility requirements for ICT products and services, EN 301 549 V3.2.1 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) (2021-03) ;
 - [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) - référence à la date de juin 2018 ;
 - [Règles pour l’accessibilité des contenus Web (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/) - traduction Française Agréée;
 - [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/) - référence à la date d’avril 2019 ;

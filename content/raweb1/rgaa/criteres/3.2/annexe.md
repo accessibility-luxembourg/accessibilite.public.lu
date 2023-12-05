@@ -15,8 +15,6 @@ Norm:
     title: Activation of accessibility features
   - criterion: 9.1.4.3
     title: Contrast (Minimum)
-  - criterion: 11.7
-    title: User preferences
 ---
 
 #### Cas particuliers

@@ -13,4 +13,6 @@ Techniques:
 Norm:
   - criterion: 9.1.3.2
     title: Meaningful Sequence
+  - criterion: 9.2.4.3
+    title: Focus Order
 ---

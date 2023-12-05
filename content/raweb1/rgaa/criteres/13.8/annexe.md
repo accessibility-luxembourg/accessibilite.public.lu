@@ -29,3 +29,7 @@ Norm:
   - criterion: 9.2.2.2
     title: Pause, Stop, Hide
 ---
+
+#### Note
+
+Ce critère fait partie du [principe de non-interférence](/fr/obligations.html#principe-de-non-interférence).

@@ -21,6 +21,4 @@ Norm:
     title: Use of Color
   - criterion: 9.2.4.7
     title: Focus Visible
-  - criterion: 11.7
-    title: User preferences
 ---

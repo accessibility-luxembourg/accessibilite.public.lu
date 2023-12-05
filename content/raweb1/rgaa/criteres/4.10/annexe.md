@@ -13,3 +13,7 @@ Norm:
   - criterion: 9.1.4.2
     title: Audio Control
 ---
+
+#### Note
+
+Ce critère fait partie du [principe de non-interférence](/fr/obligations.html#principe-de-non-interférence).
