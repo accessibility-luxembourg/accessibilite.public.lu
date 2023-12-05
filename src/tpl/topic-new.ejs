@@ -8,10 +8,12 @@
     let critId = `crit-${topic.number}-${crit.criterium.number}`
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
 %>
-<div class="crit <%= (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) ? 'rgaa' : 'en-norm' %>">
+<div class="crit disclosure <%= (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) ? 'rgaa' : 'en-norm' %>">
     <h4 id="<%= critId %>">
-        <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
-        : <%- md.renderInline(crit.criterium.title) %></h4>
+    <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
+    : <%- md.renderInline(crit.criterium.title) %></h4>
+    <p class="summary">Tests du critère <%= topic.number %>.<%= crit.criterium.number %></p>
+    <div class="details" id="details-<%= critId %>">
             <% Object.keys(crit.criterium.tests).forEach(testId => {
                 let test = crit.criterium.tests[testId]
                 let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
@@ -73,6 +75,7 @@
             <% }) %>
             </ul>           
         <% } %>
+    </div>
 </div>        
 <% 
     }
