@@ -15,6 +15,7 @@ Techniques:
   - F78
   - SCR31
   - C15
+  - C40
 Norm:
   - criterion: 9.1.4.1
     title: Use of Color

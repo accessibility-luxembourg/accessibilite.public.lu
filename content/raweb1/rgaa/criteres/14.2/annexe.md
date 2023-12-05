@@ -7,4 +7,4 @@ Norm:
 
 #### Cas particuliers
 
-Le critère est non applicable pour les fonctionnalités intégrées à la plateforme.
+Le critère est non applicable pour les fonctionnalités intégrées au système d'exploitation ou au navigateur.

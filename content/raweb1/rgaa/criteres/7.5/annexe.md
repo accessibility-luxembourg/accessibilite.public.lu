@@ -4,6 +4,7 @@ WCAG:
     title: Status Messages
     level: AA
 Techniques:
+  - F103
   - ARIA19
   - ARIA22
   - ARIA23

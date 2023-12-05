@@ -6,6 +6,7 @@ WCAG:
 Techniques:
   - G215
   - G216
+  - F105
 Norm:
   - criterion: 9.2.5.1
     title: Pointer Gestures

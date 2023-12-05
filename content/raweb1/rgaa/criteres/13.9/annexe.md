@@ -3,6 +3,10 @@ WCAG:
   - successCriterion: 1.3.4
     title: Orientation
     level: AA
+Techniques:
+  - G214
+  - F97
+  - F100
 Norm:
   - criterion: 9.1.3.4
     title: Orientation

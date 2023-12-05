@@ -19,6 +19,7 @@ Techniques:
   - G91
   - F63
   - F89
+  - F96
   - ARIA7
   - ARIA8
 Norm:

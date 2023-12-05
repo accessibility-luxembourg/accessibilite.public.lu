@@ -16,6 +16,7 @@ Techniques:
   - F42
   - F59
   - F79
+  - F96
   - ARIA4
   - ARIA5
   - ARIA18

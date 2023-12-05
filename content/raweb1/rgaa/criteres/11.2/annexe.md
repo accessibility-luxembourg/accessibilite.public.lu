@@ -14,6 +14,7 @@ Techniques:
   - G131
   - H44
   - H65
+  - F96
   - ARIA6
   - ARIA9
   - ARIA14

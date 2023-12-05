@@ -6,6 +6,8 @@ WCAG:
 Techniques:
   - C34
   - C37
+  - C38
+  - F102
 Norm:
   - criterion: 9.1.4.10
     title: Reflow

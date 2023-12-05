@@ -3,6 +3,9 @@ WCAG:
   - successCriterion: 2.5.4
     title: Motion Actuation
     level: A
+Techniques:
+  - G213
+  - F106
 Norm:
   - criterion: 9.2.5.4
     title: Motion Actuation

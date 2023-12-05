@@ -13,6 +13,7 @@ Techniques:
   - ARIA9
   - ARIA14
   - ARIA16
+  - F96
 Norm:
   - criterion: 9.2.5.3
     title: Label in Name

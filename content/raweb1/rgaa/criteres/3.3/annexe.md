@@ -5,11 +5,12 @@ WCAG:
     level: AA
 Techniques:
   - G18
+  - G145
+  - G174
+  - G183
   - G195
   - G207
-  - G174
-  - G145
-  - G183
+  - G209
   - F78
 Norm:
   - criterion: 5.2
