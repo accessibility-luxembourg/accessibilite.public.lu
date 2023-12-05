@@ -222,11 +222,11 @@ Il est indispensable de s'assurer que ces contenus n'empêchent pas les utilisat
 
 Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obligatoire qu'ils se conforment aux critères et tests suivants :
 
-- [Critère 4.10](../../html/fr/raweb1/criteres#crit-4-10) : Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?
-- [Critère 12.9](../../html/fr/raweb1/criteres#crit-12-9) : Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?
-- [Critère 13.7](../../html/fr/raweb1/criteres#crit-13-7) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
-- [Test 13.1.1](../../html/fr/raweb1/criteres#test-13-1-1) : Pour chaque page web, chaque procédé de rafraîchissement (balise `<object>`, balise `<embed>`, balise `<svg>`, balise `<canvas>`, balise `<meta>`) vérifie-t-il une de ces conditions (hors cas particuliers) ?
-- [Critère 13.8](../../html/fr/raweb1/criteres#crit-13-8) : Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?
+- [Critère 4.10](../../html/fr/raweb1/criteres.html#crit-4-10) : Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?
+- [Critère 12.9](../../html/fr/raweb1/criteres.html#crit-12-9) : Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?
+- [Critère 13.7](../../html/fr/raweb1/criteres.html#crit-13-7) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
+- [Test 13.1.1](../../html/fr/raweb1/criteres.html#test-13-1-1) : Pour chaque page web, chaque procédé de rafraîchissement (balise `<object>`, balise `<embed>`, balise `<svg>`, balise `<canvas>`, balise `<meta>`) vérifie-t-il une de ces conditions (hors cas particuliers) ?
+- [Critère 13.8](../../html/fr/raweb1/criteres.html#crit-13-8) : Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?
 
 Le non-respect de l'un de ces critères ou tests pour l'un des types de contenus énumérés ne permet pas de déclarer un site web conforme.
 
