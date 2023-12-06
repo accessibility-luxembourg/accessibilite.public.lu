@@ -7,4 +7,4 @@ Région d’une image réactive à laquelle aucune action n’est associée. Une
 - Avec l’attribut `nohref` lorsque le code HTML de la page n’est pas du HTML5 ;
 - Sans attribut `href` en HTML5.
 
-Les balises `<area>` sont contenus dans la balise `<map>`.
+Les balises `<area>` sont contenues dans la balise `<map>`.

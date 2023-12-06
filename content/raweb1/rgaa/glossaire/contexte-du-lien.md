@@ -13,4 +13,4 @@ Le contexte du lien représente les informations supplémentaires (on parle d’
 
 Note 1 : l’un des 6 contextes de lien combiné à l’[intitulé du lien](#intitule-ou-nom-accessible-de-lien) doit permettre de comprendre la fonction et la destination du lien.
 
-Note 2 : RGAA considère qu’une adresse e-mail de type `xxx@xxx.yyy` est un texte de lien suffisant pour comprendre la fonction du lien et ne requiert pas de signaler plus explicitement l’action.
+Note 2 : RAWeb considère qu’une adresse e-mail de type `xxx@xxx.yyy` est un texte de lien suffisant pour comprendre la fonction du lien et ne requiert pas de signaler plus explicitement l’action.

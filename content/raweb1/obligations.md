@@ -90,7 +90,7 @@ Lorsqu’un site internet ou une application mobile relève simultanément des o
 
 Afin d’évaluer la conformité du site ou de l’application mobile avec la norme de référence, l’organisme doit conduire un audit d’accessibilité. L’audit (ou évaluation) peut être effectué par l’organisme lui-même (auto-évaluation) ou par un tiers. L’évaluation est réalisée sur un échantillon de pages représentatif du site ou un échantillon d’écrans représentatif de l’application. 
 
-- Pour un site web, la vérification de la conformité des pages de l’échantillon avec les critères applicables s’effectue à l’aide des critères de contrôle du [référentiel général d’amélioration de l’accessibilité (RGAA)](./rgaa4.1.2/index.html). 
+- Pour un site web, la vérification de la conformité des pages de l’échantillon avec les critères applicables s’effectue à l’aide des critères de contrôle du [référentiel d’évaluation de l’accessibilité web (RAWeb)](./raweb1/index.html). 
 - Pour une application mobile, la vérification de la conformité des écrans de l’échantillon avec les critères applicables s’effectue à l’aide du [référentiel d’évaluation de l’accessibilité des applications mobiles (RAAM)](./raam1/index.html). 
 
 La phase finale de l’audit est la déclaration d’accessibilité qui rend compte de la conformité avec les règles applicables.
@@ -154,7 +154,7 @@ Enfin, s’ajoutent des écrans sélectionnés au hasard représentant au moins 
 
 ##### Environnement de test d’un site web
 
-Quelques [critères RGAA](../../html/fr/rgaa4.1.2/criteres.html), notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
+Quelques [critères RAWeb](../../html/fr/raweb1/criteres.html), notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
 
 
 
@@ -170,7 +170,7 @@ Pour valider ces critères, il convient de définir un environnement de test (ou
 
 Chacun de nos deux référentiels proposent une base de référence à utiliser pour réaliser les tests d’évaluation :
 
-- [Environnement de test du RGAA pour l’évaluation de sites web](../../html/fr/rgaa4.1.2/environnement.md) ;
+- [Environnement de test du RAWeb pour l’évaluation de sites web](../../html/fr/raweb1/environnement.md) ;
 - [Environnement de test du RAAM pour l’évaluation d’applications mobiles](../../html/fr/raam1/environnement.md).
 
 Cet environnement de test minimal peut être complété, le cas échéant, par des solutions libres et gratuites disponibles ou par des technologies plus anciennes, en fonction de l’usage du site ou de l’application mobile. Lorsqu’il est possible de connaître la configuration des postes de travail, ainsi que le matériel utilisé, la base de référence est alors constituée des services réellement utilisés dans cet environnement.

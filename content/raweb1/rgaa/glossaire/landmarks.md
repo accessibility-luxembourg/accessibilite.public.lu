@@ -1,5 +1,5 @@
 ---
-title: Landmarks
+title: <em lang="en">Landmarks</em>
 ---
 
 WAI-ARIA propose des rôles permettant d’indiquer les zones principales (régions) du document. Ces rôles sont très profitables aux utilisateurs de lecteurs d’écran notamment, mais également aux utilisateurs de la navigation au clavier qui peuvent ainsi bénéficier de fonctionnalités de navigation rapide dans la [structure du document](#structure-du-document).

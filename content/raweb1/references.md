@@ -1,14 +1,14 @@
 ---
 title: Documents de référence
 layout: layouts/base.njk
-description: Références et ressources documentaires utilisées par le RGAA
+description: Références et ressources documentaires utilisées par le RAWeb
 eleventyNavigation:
   title: Ressources
   parent: ressources
   order: 1
 ---
 
-Le RGAA a été établi en utilisant un certain nombre de références et de sources documentaires. Ce document liste les références qui ont été utilisées.
+Le RAWeb a été établi en utilisant un certain nombre de références et de sources documentaires. Ce document liste les références qui ont été utilisées.
 
 <small>Sauf mention contraire, tous les documents sont en anglais.</small>
 
