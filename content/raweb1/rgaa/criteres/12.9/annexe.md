@@ -16,3 +16,7 @@ Norm:
   - criterion: 9.2.1.2
     title: No Keyboard Trap
 ---
+
+#### Note
+
+Ce critère est soumis au [principe de non-interférence](../obligations.html#principe-de-non-interférence).

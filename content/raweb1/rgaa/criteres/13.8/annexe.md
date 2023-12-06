@@ -32,4 +32,4 @@ Norm:
 
 #### Note
 
-Ce critère fait partie du [principe de non-interférence](../obligations.html#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](../obligations.html#principe-de-non-interférence).
