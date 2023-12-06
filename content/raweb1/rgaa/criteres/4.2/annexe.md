@@ -12,6 +12,8 @@ Techniques:
   - SM6
   - SM7
 Norm:
+  - criterion: 7.2.2
+    title: Audio description synchronization
   - criterion: 9.1.2.1
     title: Audio-only and Video-only (Prerecorded)
   - criterion: 9.1.2.3

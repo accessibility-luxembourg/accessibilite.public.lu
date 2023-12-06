@@ -13,8 +13,6 @@ Techniques:
   - F74
   - F75
 Norm:
-  - criterion: 7.2.2
-    title: Audio description synchronization
   - criterion: 9.1.2.2
     title: Captions (Prerecorded)
 ---
