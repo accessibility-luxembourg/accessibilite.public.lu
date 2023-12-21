@@ -116,7 +116,6 @@ function loadchart (chartid) {                                                  
                             width: 3
                           }]
                     };
-                    console.log(results.data);
                     Graph.build_chart(
                         Highcharts,
                         "Graphique 3. Taux de conformité des apps auditées en 2023", 
