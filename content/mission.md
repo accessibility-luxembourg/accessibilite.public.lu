@@ -4,7 +4,7 @@ Les contrôles sont effectués dans le cadre de périodes de contrôle. La premi
 
 Il existe trois types de contrôles : 
 
-- **l'audit approfondi de site** : il s'agit d'un audit de conformité basé sur le [référentiel RGAA](../rgaa4.1.2/index.html). Le résultat de l'audit permet de savoir si le site est accessible et quels sont les éventuels problèmes d'accessibilité rencontrés.
+- **l'audit approfondi de site** : il s'agit d'un audit de conformité basé sur le [référentiel RAWeb](../raweb1/index.html). Le résultat de l'audit permet de savoir si le site est accessible et quels sont les éventuels problèmes d'accessibilité rencontrés.
 - **l'audit simplifié de site** : le but de cet audit est de pouvoir détecter  des non-conformités et de sensibiliser les différents acteurs. Il ne permet pas d'évaluer la conformité, mais il peut être réalisé plus rapidement et donc sur un plus grand nombre de sites. La méthode est décrite sur la page ["méthode de contrôle simplifié"](./controle-simplifie.html).
 - **l'audit d'application mobile** : il s'agit d'un audit de conformité basé sur le [référentiel RAAM](../raam1/index.html). Le résultat de l'audit permet de savoir si l'application est accessible et quels sont les éventuels problèmes d'accessibilité rencontrés.
 

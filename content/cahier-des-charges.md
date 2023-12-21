@@ -29,9 +29,9 @@ L'accessibilité numérique est un objectif majeur de ce projet.
 
 #### Conformité niveau légal
 
-Il est rappelé que le niveau légal de conformité est pour les sites web le niveau AA du _référentiel général d'amélioration de l'accessibilité (RGAA)_ dans sa dernière version et le niveau AA du _référentiel d'évaluation de l'accessibilité des applications mobiles_ (RAAM) dans sa dernière version. Ces référentiels sont publiés sur le site [accessibilite.public.lu](https://accessibilite.public.lu).
+Il est rappelé que le niveau légal de conformité est pour les sites web le niveau AA du _Référentiel d'Évaluation de l'Accessibilité Web (RAWeb)_ dans sa dernière version et le niveau AA du _référentiel d'évaluation de l'accessibilité des applications mobiles_ (RAAM) dans sa dernière version. Ces référentiels sont publiés sur le site [accessibilite.public.lu](https://accessibilite.public.lu).
 
-Si le TITULAIRE DU MARCHÉ ne peut se référer au RGAA ou au RAAM, la conformité devra alors être évaluée par rapport à la norme européenne [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), en particulier aux critères répertoriés dans les tables A.1 (sites web) et/ou A.2 (applications mobiles) de l'annexe A.
+Si le TITULAIRE DU MARCHÉ ne peut se référer au RAWeb ou au RAAM, la conformité devra alors être évaluée par rapport à la norme européenne [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), en particulier aux critères répertoriés dans les tables A.1 (sites web) et/ou A.2 (applications mobiles) de l'annexe A.
 
 Le TITULAIRE DU MARCHÉ devra s'engager à mobiliser tous les moyens nécessaires pour tendre vers ce niveau de conformité légal.
 
@@ -59,7 +59,7 @@ Ces actions correctives seront à la charge du TITULAIRE DU MARCHÉ.
 
 Il est rappelé que l'ORGANISME se réserve le droit de recourir à un prestataire externe, expert en accessibilité numérique, afin de l'accompagner dans toutes les phases de réalisation du projet.
 
-Dans ce cas ce prestataire sera le contact technique avec les équipes du TITULAIRE pour tout ce qui concerne l'accessibilité et la conformité au RGAA ou au RAAM de l'ensemble du projet.
+Dans ce cas ce prestataire sera le contact technique avec les équipes du TITULAIRE pour tout ce qui concerne l'accessibilité et la conformité au RAWeb ou au RAAM de l'ensemble du projet.
 
 #### Éléments de réponse
 

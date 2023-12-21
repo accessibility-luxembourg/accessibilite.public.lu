@@ -154,11 +154,11 @@
                     "menu": "Notes de révision",
                     "name": "raweb1/notes-revision",
                     "html": true,
-                    "md": "./content/raweb1/notes-de-revision-4-1-2.md", 
+                    "md": "./content/raweb1/notes-de-revision.md", 
                     "prefix": "../../.."
                 },
                 {
-                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2",
+                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2.1",
                     "menu": "La méthode de contrôle simplifié",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/controle-simplifie.md", 

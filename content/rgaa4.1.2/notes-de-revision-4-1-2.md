@@ -107,7 +107,7 @@ Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4
 - Remplacement de la référence aux anciens critères bureautiques par la référence au RAPDF pour les documents PDF et à la norme européenne pour les autres types de documents.
 - Dans la définition de "contenu visible" modification de la référence au test 12.2.1 en 10.2.1.
 
-#### Page Méthodologie de test
+#### Méthodologie de test
 
 ##### Critère 4.1
 
