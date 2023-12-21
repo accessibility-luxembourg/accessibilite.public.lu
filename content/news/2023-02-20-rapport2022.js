@@ -16,7 +16,7 @@ Highcharts.setOptions({                                                         
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
         case "full_compliance":
-            Papa.parse('datasource/full_compliance.csv', {
+            Papa.parse('datasource/2022-report/full_compliance.csv', {
                 download: true,
                 header: true,
                 complete: results => {
@@ -65,7 +65,7 @@ function loadchart (chartid) {                                                  
             });
         break;
         case "full_themes":
-            Papa.parse('datasource/full_themes.csv', {
+            Papa.parse('datasource/2022-report/full_themes.csv', {
                 download: true,
                 header: true,
                 complete: results => {
@@ -96,7 +96,7 @@ function loadchart (chartid) {                                                  
             });
         break;
         case "simple_themes":
-            Papa.parse('datasource/simple_themes.csv', {
+            Papa.parse('datasource/2022-report/simple_themes.csv', {
                 download: true,
                 header: true,
                 complete: results => {
@@ -127,7 +127,7 @@ function loadchart (chartid) {                                                  
             });
         break;
         case "simple_compliance":
-            Papa.parse('datasource/simple_compliance.csv', {
+            Papa.parse('datasource/2022-report/simple_compliance.csv', {
                 download: true,
                 header: true,
                 complete: results => {
@@ -158,7 +158,7 @@ function loadchart (chartid) {                                                  
             });
         break;
         case "full_app_compliance":
-            Papa.parse('datasource/full_app_compliance.csv', {
+            Papa.parse('datasource/2022-report/full_app_compliance.csv', {
                 download: true,
                 header: true,
                 complete: results => {
@@ -195,7 +195,7 @@ function loadchart (chartid) {                                                  
             });
         break;
         case "full_app_themes":
-            Papa.parse('datasource/full_app_themes.csv', {
+            Papa.parse('datasource/2022-report/full_app_themes.csv', {
                 download: true,
                 header: true,
                 complete: results => {
