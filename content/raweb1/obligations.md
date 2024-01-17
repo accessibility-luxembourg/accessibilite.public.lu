@@ -118,11 +118,12 @@ L’échantillon sur lequel est réalisé l’audit d’un site web porte au moi
 1. les mentions légales ;
 1. la page d’authentification ;
 1. la page de contact ;
-1. la page "accessibilité" ;
-1. la page "aide" ;
-1. la page "plan du site" ;
+1. la page « accessibilité » ;
+1. la page « aide » ;
+1. la page ou un ensemble de pages constituant la [documentation](../../html/fr/raweb1/glossaire.html#documentation) du site web (si elles sont différentes de la page « accessibilité » et de la page « aide ») ;
+1. la page « plan du site » ;
 1. au moins une page pertinente pour chaque type de service fourni et toute autre utilisation principale prévue (ex. : rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche ;
-1. au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
+1. une page contenant au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
 1. l’ensemble des pages constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs pages) ;
 1. des exemples de pages ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : page contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, etc.).
 

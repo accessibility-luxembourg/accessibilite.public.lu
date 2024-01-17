@@ -2,7 +2,7 @@
 title: Outil d'édition
 ---
 
-Application web permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
+Application web ou composant d'édition présent dans une page web permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
 
 Un outil d’édition peut être :
 
@@ -18,8 +18,8 @@ Exemples d’outils d’édition :
 - application permettant la création d’applications web ;
 - application permettant l’édition de code ;
 - application permettant d’exporter au format d’une technologie web (par exemple, un logiciel qui permet de sauvegarder en HTML) ;
-- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande etc. ;
-- application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, wiki et forums) ;
+- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande, etc. ;
+- application ou fonctionnalité d'une page web permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog,  les fonctionnalités de commentaires sur les sites web, les forums ou encore les systèmes wiki) ;
 - application mail permettant d’envoyer des <em lang="en">e-mails</em>.
 
 Exemples d’outils d’édition qui ne sont pas inclus dans le champ d’application :
