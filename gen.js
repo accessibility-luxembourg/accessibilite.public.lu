@@ -8,6 +8,7 @@ const crypto = require('crypto')
 const sharp = require('sharp');
 const en301549 = require('en301549-links')
 const genRGAA412 = require('./genRGAA412.js')
+const path = require('node:path')
 const hmacPwd = 'a11ylu'
 dotenv.config()
 
@@ -148,11 +149,11 @@ function langOnEUNorm412(str) {
 
 
 // generate criteria in FR
-function mdCriteres(path = '') {
+function mdCriteres(filePath = '') {
     return MarkdownIt({
         replaceLink: function (link, env) {
             if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
-                return path+'glossaire.html'+link
+                return filePath+'glossaire.html'+link
             }
             return link
         }
@@ -333,17 +334,25 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     data.meta.intro_html = $('.intro > p').first().html()
     data.meta.intro = $('.intro > p').first().text()
     data.meta.img = $('img').first().attr('src')
-    data.meta.imgName = data.meta.img.replace(/^.*\/([^\/]+)$/, '$1')
+    if (data.meta.img !== undefined) {
+        data.meta.imgName = data.meta.img.replace(/^.*\/img\/(.+)$/, '$1')
+    } 
+
     if (data.meta.teaser) {
         data.meta.img = '../../../../content/news/img/'+data.meta.teaser
         data.meta.imgName = data.meta.teaser
     }
-    data.meta.imgTwitter = data.meta.imgName.replace(/\.jpg/, '-twitter.jpg')
-    data.meta.imgLinkedin = data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg')
 
-    // resize images
-    sharp('./content/news/img/'+data.meta.imgName).resize(800,418).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
-    sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
+    if (data.meta.imgName !== undefined) {
+        data.meta.imgTwitter = path.basename(data.meta.imgName.replace(/\.jpg/, '-twitter.jpg'))
+        data.meta.imgLinkedin = path.basename(data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg'))
+
+        // resize images
+        sharp('./content/news/img/'+data.meta.imgName).resize(800,418).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+        sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
+    } else {
+        console.error('Teaser image not found in', data.meta.filename)
+    }
 
     // add the date to the html code
     $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:'fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
