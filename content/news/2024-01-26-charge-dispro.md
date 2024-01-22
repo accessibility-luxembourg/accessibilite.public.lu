@@ -5,7 +5,7 @@ tags:
 auteur: Dominique Nauroy
 ---
 
-<script src="../../../../content/news/2024-01-04-charge-dispro.js"></script>
+<script src="../../../../content/news/2024-01-26-charge-dispro.js"></script>
 <h2>D’année en année, une charge moins disproportionnée ?</h2>
 <h3>En trois ans, comment ont évolué les déclarations d’accessibilité sur la question de la charge disproportionnée ?</h3>
 <hr>
