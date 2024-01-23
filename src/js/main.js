@@ -15,7 +15,6 @@ function toggleExpanded(e) {
 function setExpanded(e, status) {
   e.setAttribute('aria-expanded', status)
   const details = Array.from(e.classList).includes('crit') ? e.nextElementSibling : e.parentNode.nextElementSibling 
-  console.log(e, details)
   if (status == 'true') {
     details.classList.remove('collapsed') 
   } else {
@@ -64,6 +63,7 @@ function critDisclosure(e) {
   var id = e.getAttribute('id')
   var button = document.createElement("BUTTON")
   button.textContent = e.querySelector('p.summary').textContent
+  button.id = e.querySelector('p.summary').getAttribute('id')
   e.querySelector('p.summary').remove()
   var container = e.querySelector('div.details')
   button.setAttribute('class', e.getAttribute('class'))
@@ -165,6 +165,16 @@ window.addEventListener('DOMContentLoaded', function (event) {
             Array.from(document.querySelectorAll('.summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'list-item')
           })
         }
+      }
+
+      // manage anchors for tests on the criteria page
+      if (window.location.pathname.match(/raweb.*\/criteres\.html$/)) {
+        const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
+        if (test) {
+          const crit = test[1]+'-'+test[2]
+          setExpanded(document.getElementById('summary-crit-'+crit), 'true')
+        }
+
       }
     }
 

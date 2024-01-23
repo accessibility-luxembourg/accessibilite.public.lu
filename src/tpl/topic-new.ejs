@@ -12,7 +12,7 @@
     <h4 id="<%= critId %>">
     <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
     : <%- md.renderInline(crit.criterium.title) %></h4>
-    <p class="summary">Tests du critère <%= topic.number %>.<%= crit.criterium.number %></p>
+    <p class="summary" id="summary-<%= critId %>">Tests du critère <%= topic.number %>.<%= crit.criterium.number %></p>
     <div class="details" id="details-<%= critId %>">
             <% Object.keys(crit.criterium.tests).forEach(testId => {
                 let test = crit.criterium.tests[testId]
