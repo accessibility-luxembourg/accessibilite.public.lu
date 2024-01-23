@@ -4,9 +4,9 @@ WCAG:
     title: Info and Relationships
     level: A
 Techniques:
+  - F90
   - H43
   - H63
-  - F90
 Norm:
   - criterion: 9.1.3.1
     title: Info and Relationships

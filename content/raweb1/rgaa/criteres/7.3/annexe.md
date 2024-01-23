@@ -10,11 +10,11 @@ WCAG:
     title: Focus Visible
     level: AA
 Techniques:
-  - G90
-  - G202
   - F42
   - F54
   - F55
+  - G90
+  - G202
   - SCR2
   - SCR20
   - SCR29

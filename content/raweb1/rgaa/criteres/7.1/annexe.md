@@ -7,9 +7,10 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G10
-  - G135
-  - G136
+  - ARIA4
+  - ARIA5
+  - ARIA18
+  - ARIA19
   - F15
   - F19
   - F20
@@ -17,10 +18,11 @@ Techniques:
   - F59
   - F79
   - F96
-  - ARIA4
-  - ARIA5
-  - ARIA18
-  - ARIA19
+  - G10
+  - G135
+  - G136
+  - G208
+  - G211
   - SCR21
 Norm:
   - criterion: 9.2.5.3

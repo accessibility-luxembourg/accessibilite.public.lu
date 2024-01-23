@@ -10,10 +10,10 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - H69
-  - G115
   - ARIA4
   - ARIA11
+  - G115
+  - H69
 Norm:
   - criterion: 9.1.3.1
     title: Info and Relationships

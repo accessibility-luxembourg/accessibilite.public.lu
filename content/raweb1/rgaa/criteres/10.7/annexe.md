@@ -7,15 +7,15 @@ WCAG:
     title: Focus Visible
     level: AA
 Techniques:
+  - C15
+  - C40
+  - F73
+  - F78
   - G149
   - G165
   - G183
   - G195
-  - F73
-  - F78
   - SCR31
-  - C15
-  - C40
 Norm:
   - criterion: 9.1.4.1
     title: Use of Color

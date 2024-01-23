@@ -7,9 +7,9 @@ WCAG:
     title: No Keyboard Trap
     level: A
 Techniques:
+  - F10
   - G21
   - H91
-  - F10
 Norm:
   - criterion: 9.2.1.1
     title: Keyboard

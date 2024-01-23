@@ -4,9 +4,9 @@ WCAG:
     title: Orientation
     level: AA
 Techniques:
-  - G214
   - F97
   - F100
+  - G214
 Norm:
   - criterion: 9.1.3.4
     title: Orientation

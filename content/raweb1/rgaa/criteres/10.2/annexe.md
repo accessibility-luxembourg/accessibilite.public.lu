@@ -7,9 +7,9 @@ WCAG:
     title: Info and Relationships
     level: A
 Techniques:
-  - G140
   - F3
   - F87
+  - G140
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

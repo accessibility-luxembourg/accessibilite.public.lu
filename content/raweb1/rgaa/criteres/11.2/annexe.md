@@ -10,15 +10,17 @@ WCAG:
     title: Labels or Instructions
     level: A
 Techniques:
-  - G82
-  - G131
-  - H44
-  - H65
-  - F96
   - ARIA6
   - ARIA9
   - ARIA14
   - ARIA16
+  - F96
+  - G82
+  - G131
+  - G208
+  - G211
+  - H44
+  - H65
 Norm:
   - criterion: 9.2.4.6
     title: Headings and Labels

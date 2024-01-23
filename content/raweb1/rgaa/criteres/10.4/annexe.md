@@ -4,16 +4,19 @@ WCAG:
     title: Resize Text
     level: AA
 Techniques:
-  - G146
-  - G179
-  - F69
-  - F80
-  - SCR34
   - C12
   - C13
   - C14
   - C17
   - C28
+  - F69
+  - F80
+  - F94
+  - G142
+  - G146
+  - G178
+  - G179
+  - SCR34
 Norm:
   - criterion: 9.1.4.4
     title: Resize Text

@@ -121,6 +121,7 @@ L’échantillon sur lequel est réalisé l’audit d’un site web porte au moi
 1. la page « accessibilité » ;
 1. la page « aide » ;
 1. la page ou un ensemble de pages constituant la [documentation](../../html/fr/raweb1/glossaire.html#documentation) du site web (si elles sont différentes de la page « accessibilité » et de la page « aide ») ;
+1. la page ou un ensemble de pages constituant la [documentation](../../html/fr/raweb1/glossaire.html#documentation) du [service d’assistance](../../html/fr/raweb1/glossaire.html#service-d-assistance) ;
 1. la page « plan du site » ;
 1. au moins une page pertinente pour chaque type de service fourni et toute autre utilisation principale prévue (ex. : rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche ;
 1. une page contenant au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
@@ -197,6 +198,13 @@ A noter :
   * un critère est validé pour une page ou un écran donné lorsque tous les éléments de la page ou l’écran ont passé avec succès les tests permettant de valider le critère ;
   * dès lors qu’un seul élément de la page ou de l’écran ne valide pas les tests d’un critère, le critère ne peut être validé ;
   * si la page ou l’écran fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour une page du processus uniquement s’il est validé pour toutes les pages ou écrans du processus.
+
+Certains critères ou thématiques peuvent reposer sur une méthodologie particulière. En effet, bien qu’étant présent dans le référentiel, ils n’est pas nécessaire de les évaluer systématiquement sur toutes les pages de l’échantillon. Par exemple : 
+  * Le critère 12.3 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; : si la page de plan du site est la même pour toutes les pages et ensemble de pages de l’échantillon, ce critère pourra n’être évalué qu’une seule fois et son statut consigné sur une seule des pages de l’échantillon. Ainsi, le critère pourrait avoir un statut (conforme ou non conforme) sur la page d’accueil et être non applicable sur toutes les autres pages de l’échantillon. Ceci est une méthodologie possible bien qu’elle ne soit pas obligatoire, elle n’influence pas le taux global de conformité.
+  * La thématique &laquo;&nbsp;14. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web dispose d’une documentation. Les pages de la documentation devant être intégrées dans l’échantillon d’évaluation, les critères de cette thématique pourraient ne s’appliquer que sur la ou les pages de l’échantillon et rester non applicables sur les autres pages de l’échantillon.
+  * La thématique &laquo;&nbsp;15. Outils d’édition&nbsp;&raquo; : 
+  * La thématique &laquo;&nbsp;16. Services d’assistance&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web met à disposition un service d’assistance. Les critères pourraient n’être évalués qu’une seule fois et leur statut consigné sur une seule des pages de l’échantillon. Ainsi, les critères pourraient avoir un statut (conforme ou non conforme) sur la page d’accueil et être non applicables sur toutes les autres pages de l’échantillon. Ceci est une méthodologie possible bien qu’elle ne soit pas obligatoire, elle n’influence pas le taux global de conformité.
+  * La thématique &laquo;&nbsp;17. Communication en temps réel&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web met à disposition un service de communication orale. Les pages constitutives de cette fonctionnalité devant être intégrées dans l’échantillon d’évaluation, les critères de cette thématique pourraient ne s’appliquer que sur la ou les pages de l’échantillon et rester non applicables sur les autres pages de l’échantillon.
 
 #### Taux de conformité à la norme
 

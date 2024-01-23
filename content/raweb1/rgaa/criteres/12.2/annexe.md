@@ -4,8 +4,8 @@ WCAG:
     title: Consistent Navigation
     level: AA
 Techniques:
-  - G61
   - F66
+  - G61
 Norm:
   - criterion: 9.3.2.3
     title: Consistent Navigation

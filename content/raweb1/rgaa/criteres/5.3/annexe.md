@@ -7,8 +7,8 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - F49
   - ARIA4
+  - F49
 Norm:
   - criterion: 9.1.3.2
     title: Meaningful Sequence

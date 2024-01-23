@@ -1,5 +1,5 @@
 ---
-title: Service d'assistance
+title: Service d’assistance
 ---
 
 Un service d’assistance peut être un :

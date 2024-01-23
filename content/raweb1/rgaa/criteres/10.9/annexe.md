@@ -7,10 +7,10 @@ WCAG:
     title: Use of Color
     level: A
 Techniques:
-  - G96
-  - G140
   - F14
   - F26
+  - G96
+  - G140
 Norm:
   - criterion: 9.1.3.3
     title: Sensory Characteristics

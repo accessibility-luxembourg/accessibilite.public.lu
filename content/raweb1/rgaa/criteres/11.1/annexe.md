@@ -13,17 +13,18 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G82
-  - G131
-  - H44
-  - H65
-  - F68
-  - F82
-  - F86
   - ARIA6
   - ARIA9
   - ARIA14
   - ARIA16
+  - F68
+  - F82
+  - F86
+  - G82
+  - G131
+  - G167
+  - H44
+  - H65
 Norm:
   - criterion: 9.1.3.1
     title: Info and Relationships

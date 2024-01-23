@@ -22,9 +22,9 @@ Il y a une gestion de cas particuliers sur le changement de langue pour les cas 
 
 Note 1 : les dictionnaires officiels pour les langues fréquemment employées sur les sites publics luxembourgeois sont les suivants :
 
-- pour le luxembourgeois : [Lëtzebuerger Online Dictionnaire (LOD)](https://lod.lu/){lang="lb"} (l'utilisation de [spellchecker.lu](https://spellchecker.lu/) peut aider à détecter les mots absents du dictionnaire) ;
+- pour le luxembourgeois : [Lëtzebuerger Online Dictionnaire (LOD)](https://lod.lu/){lang="lb"} (l’utilisation de [spellchecker.lu](https://spellchecker.lu/) peut aider à détecter les mots absents du dictionnaire) ;
 - pour le français : [Trésor de la Langue Française informatisé](http://atilf.atilf.fr/tlfi.htm) ;
-- pour l'allemand : [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de){lang="de"} ;
-- pour l'anglais : [Oxford English Dictionary](https://www.oed.com){lang="en"}.
+- pour l’allemand : [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de){lang="de"} ;
+- pour l’anglais : [Oxford English Dictionary](https://www.oed.com){lang="en"}.
 
 Note 2 : pour les noms communs de langue étrangère, absents dans le dictionnaire officiel de la langue par défaut de la page web, et qui sont passés dans le langage commun (exemple : newsletter) : le critère est applicable, uniquement lorsque l’absence d’indication de langue peut provoquer une incompréhension pour la restitution.

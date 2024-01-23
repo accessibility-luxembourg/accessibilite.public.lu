@@ -7,14 +7,14 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G94
-  - G95
-  - F30
-  - F71
-  - G196
   - ARIA6
   - ARIA9
   - ARIA10
+  - F30
+  - F71
+  - G94
+  - G95
+  - G196
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

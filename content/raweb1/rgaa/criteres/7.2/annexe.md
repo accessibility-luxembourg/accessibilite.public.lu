@@ -7,9 +7,9 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G136
   - F19
   - F20
+  - G136
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

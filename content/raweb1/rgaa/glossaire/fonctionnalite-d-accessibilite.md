@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalité d'accessibilité
+title: Fonctionnalité d’accessibilité
 ---
 
 Exemples de fonctionnalité d’accessibilité&nbsp;:

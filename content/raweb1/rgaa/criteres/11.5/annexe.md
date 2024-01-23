@@ -7,8 +7,8 @@ WCAG:
     title: Labels or Instructions
     level: A
 Techniques:
-  - H71
   - ARIA17
+  - H71
 Norm:
   - criterion: 9.1.3.1
     title: Info and Relationships

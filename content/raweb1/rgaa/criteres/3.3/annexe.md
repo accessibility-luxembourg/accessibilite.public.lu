@@ -4,14 +4,15 @@ WCAG:
     title: Non-text Contrast
     level: AA
 Techniques:
+  - F78
   - G18
+  - G136
   - G145
   - G174
   - G183
   - G195
   - G207
   - G209
-  - F78
 Norm:
   - criterion: 5.2
     title: Activation of accessibility features

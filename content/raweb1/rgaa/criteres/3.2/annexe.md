@@ -4,12 +4,13 @@ WCAG:
     title: Contrast (Minimum)
     level: AA
 Techniques:
+  - C29
+  - F83
   - G18
   - G136
   - G148
   - G174
   - G145
-  - C29
 Norm:
   - criterion: 5.2
     title: Activation of accessibility features

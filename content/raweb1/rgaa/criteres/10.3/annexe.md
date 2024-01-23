@@ -7,9 +7,9 @@ WCAG:
     title: Focus Order
     level: A
 Techniques:
+  - F1
   - G59
   - G140
-  - F1
 Norm:
   - criterion: 9.1.3.2
     title: Meaningful Sequence

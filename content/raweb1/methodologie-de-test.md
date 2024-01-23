@@ -16,7 +16,7 @@ Pour chacun des tests d’un critère correspond une procédure de test ; la mi
 Une liste d’outils est aussi proposée pour aider à la réalisation des tests ; ils ont été retenus à la fois parce qu’ils sont fréquemment utilisés par les experts du métier et parce qu’ils facilitent la recherche de certains résultats.
 
 <div class="fr-callout"><p class="fr-text--lg">
-La méthodologie de test est désormais disponible au niveau de chaque test sur la page <a href="criteres.html" >critères et tests</a>.</p>
+La méthodologie de test est désormais disponible au niveau de chaque test sur la page <a href="criteres.html">critères et tests</a>.</p>
 </div>
 
 ### Outils

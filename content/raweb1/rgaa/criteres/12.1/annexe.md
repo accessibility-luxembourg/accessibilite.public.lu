@@ -7,6 +7,7 @@ Techniques:
   - G63
   - G64
   - G161
+  - G185
 Norm:
   - criterion: 9.2.4.5
     title: Multiple Ways

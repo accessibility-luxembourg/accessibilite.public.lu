@@ -10,18 +10,23 @@ WCAG:
     title: Label in Name
     level: A
 Techniques:
+  - ARIA7
+  - ARIA8
+  - C7
+  - F63
+  - F89
+  - F96
+  - G53
+  - G91
+  - G208
+  - G211
   - H30
+  - H33
+  - H77
   - H78
   - H79
   - H80
   - H81
-  - G53
-  - G91
-  - F63
-  - F89
-  - F96
-  - ARIA7
-  - ARIA8
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

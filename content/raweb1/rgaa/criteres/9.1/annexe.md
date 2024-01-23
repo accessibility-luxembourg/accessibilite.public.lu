@@ -13,12 +13,12 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G115
-  - G130
-  - H42
-  - G141
   - ARIA4
   - ARIA12
+  - G115
+  - G130
+  - G141
+  - H42
 Norm:
   - criterion: 9.1.3.1
     title: Info and Relationships

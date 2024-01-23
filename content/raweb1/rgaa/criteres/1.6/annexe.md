@@ -4,11 +4,11 @@ WCAG:
     title: Non-text Content
     level: A
 Techniques:
+  - ARIA6
   - G92
   - G74
   - G73
   - H45
-  - ARIA6
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content
@@ -22,4 +22,4 @@ L’utilisation de l’attribut WAI-ARIA aria-describedby n’est pas recommand�
 
 La [description détaillée](#description-detaillee-image) adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le critère 1.9 doit être vérifié (utilisation de `<figure>` et des attributs WAI-ARIA `role="figure"` et `aria-label`, notamment).
 
-L'attribut `longdesc` qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.
+L’attribut `longdesc` qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.

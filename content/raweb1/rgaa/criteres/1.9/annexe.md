@@ -7,9 +7,9 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - G140
   - ARIA4
   - ARIA6
+  - G140
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

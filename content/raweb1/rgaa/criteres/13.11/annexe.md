@@ -4,9 +4,9 @@ WCAG:
     title: Pointer Cancellation
     level: A
 Techniques:
+  - F101
   - G210
   - G212
-  - F101
 Norm:
   - criterion: 9.2.5.2
     title: Pointer Cancellation

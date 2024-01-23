@@ -4,10 +4,10 @@ WCAG:
     title: Images of Text
     level: AA
 Techniques:
-  - G136
-  - G140
   - C22
   - C30
+  - G136
+  - G140
 Norm:
   - criterion: 9.1.4.5
     title: Images of Text

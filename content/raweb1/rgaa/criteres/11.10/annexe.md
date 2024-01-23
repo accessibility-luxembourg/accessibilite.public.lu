@@ -7,24 +7,25 @@ WCAG:
     title: Labels or Instructions
     level: A
 Techniques:
-  - G83
-  - G84
-  - G85
-  - G89
-  - G184
-  - H44
-  - H81
-  - H89
-  - H90
-  - F81
-  - SCR18
-  - SCR32
   - ARIA1
   - ARIA2
   - ARIA6
   - ARIA9
   - ARIA16
   - ARIA21
+  - F81
+  - G83
+  - G84
+  - G85
+  - G89
+  - G139
+  - G184
+  - H44
+  - H81
+  - H89
+  - H90
+  - SCR18
+  - SCR32
 Norm:
   - criterion: 9.3.3.1
     title: Error Identification
@@ -45,6 +46,6 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les
 
 Dans un long formulaire dont la majorité des champs sont obligatoires, on pourrait constater que ce sont les quelques champs restés facultatifs qui sont explicitement signalés comme tels. Dans ce cas, il faudrait s’assurer que :
 
-- Un message précise visuellement en haut de formulaire que “tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs” ;
-- Une mention “facultatif” est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
+- Un message précise visuellement en haut de formulaire que &laquo;&nbsp;tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs&raquo;&nbsp; ;
+- Une mention &laquo;&nbsp;facultatif&raquo;&nbsp; est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
 - Un attribut `required` ou `aria-required="true"` reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif.

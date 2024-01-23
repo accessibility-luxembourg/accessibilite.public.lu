@@ -7,9 +7,9 @@ WCAG:
     title: Link Purpose (In Context)
     level: A
 Techniques:
-  - H30
-  - G91
   - F89
+  - G91
+  - H30
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content

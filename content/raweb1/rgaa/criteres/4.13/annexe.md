@@ -4,10 +4,10 @@ WCAG:
     title: Name, role, Value
     level: A
 Techniques:
-  - G10
-  - G135
   - F15
   - F54
+  - G10
+  - G135
 Norm:
   - criterion: 9.4.1.2
     title: Name, role, Value

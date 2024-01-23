@@ -10,12 +10,12 @@ WCAG:
     title: Consistent Navigation
     level: AA
 Techniques:
+  - F66
   - G1
   - G59
   - G123
   - G124
   - SCR28
-  - F66
 Norm:
   - criterion: 9.2.4.1
     title: Bypass Blocks

@@ -7,13 +7,15 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  - H36
-  - H91
   - ARIA6
   - ARIA9
   - ARIA14
-  - ARIA16
   - F96
+  - G208
+  - G211
+  - H36
+  - H91
+  - ARIA16
 Norm:
   - criterion: 9.2.5.3
     title: Label in Name
