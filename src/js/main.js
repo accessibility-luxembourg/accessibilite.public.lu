@@ -60,7 +60,7 @@ function disclosure(e) {
 }
 
 function critDisclosure(e) {
-  var id = e.getAttribute('id')
+  var id = e.querySelector('div.details').getAttribute('id')
   var button = document.createElement("BUTTON")
   button.textContent = e.querySelector('p.summary').textContent
   button.id = e.querySelector('p.summary').getAttribute('id')
