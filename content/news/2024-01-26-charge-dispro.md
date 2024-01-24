@@ -48,6 +48,6 @@ auteur: Dominique Nauroy
         <li><a href="https://data.public.lu/fr/datasets/r/756ecd5c-75d2-49a6-9cf4-aa4c70a28f8c">L'inventaire des apps publiques</a></li>
         <li><a href="https://data.public.lu/fr/datasets/r/13a50790-cb0c-431d-9f17-198decfdb584">Les déclarations d’accessibilité web</a></li>
         <li><a href="https://data.public.lu/fr/datasets/r/6ed3e82a-0b52-4009-ba75-57c5af9b2d76">Les déclarations d’accessibilité des apps</a></li>
-        <li><a href="#">Analyse des charges disproportionnées</a></li>
+        <li><a href="https://data.public.lu/fr/datasets/analyse-de-la-charge-disproportionnee-dans-les-declarations-daccessibilite/">Analyse des charges disproportionnées</a></li>
     </ul>
 </aside>
