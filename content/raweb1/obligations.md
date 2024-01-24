@@ -210,14 +210,14 @@ Certains critères ou thématiques peuvent reposer sur une méthodologie particu
 
 Le taux de conformité permet de  mesurer les progrès du service en ligne eu égard à la conformité aux exigences d’accessibilité. 
 
-Ce taux peut indiquer le pourcentage de critères respectés ou le niveau de conformité moyen du service en ligne.
+Ce taux indique le pourcentage de critères respectés du service en ligne.
 
 Le pourcentage de critères respectés s’obtient en divisant le nombre de critères validés par le nombre de critères applicables.
 
   * Critère validé : un critère est validé s’il est validé sur toutes les pages ou écrans de l’échantillon. Si un critère est invalidé sur une seule page ou écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable : pour qu’un critère soit applicable, il suffit qu’il le soit sur une seule page ou écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur toutes les pages ou écrans de l’échantillon sans exception.
 
-Le taux de moyen de conformité du service en ligne s’obtient en faisant la moyenne des taux de conformité de chaque page ou écran.
+Ce taux de conformité détermine l'état de conformité à mentionner dans la [déclaration d’accessibilité](#contenu-de-la-déclaration-d’accessibilité).
 
 #### Principe de non-interférence
 
