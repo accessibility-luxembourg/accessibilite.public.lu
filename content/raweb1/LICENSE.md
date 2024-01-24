@@ -18,7 +18,7 @@ LORS DE L’EXERCICE DE TOUS DROITS SUR L’ŒUVRE MISE A DISPOSITION PAR LA PRE
 
 2. Exceptions au droit d’auteur. Aucune stipulation de la présente Licence ne saurait avoir pour vocation de réduire, limiter ou restreindre de quelconques utilisations non protégées au titre des droits d’auteur ou des droits découlant des limitations ou exceptions stipulées en relation avec la protection au titre du droit d’auteur conformément à la législation sur le droit d’auteur ou toutes autres législations applicables.
 
-3. Octroi de la Licence. Sous réserve des conditions de la présente Licence, le Donneur de Licence Vous accorde par les présentes une licence mondiale, gratuite, non exclusive et perpétuelle (pour la durée du droit d’auteur applicable) aux fins d’exercer les droits suivants sur l’Œuvre  :
+3. Octroi de la Licence. Sous réserve des conditions de la présente Licence, le Donneur de Licence Vous accorde par les présentes une licence mondiale, gratuite, non exclusive et perpétuelle (pour la durée du droit d’auteur applicable) aux fins d’exercer les droits suivants sur l’Œuvre :
 
     1. Reproduire l’Œuvre, l’incorporer dans une ou plusieurs Collections et reproduire l’Œuvre telle qu’incorporée dans les Collections ;
     2. Créer et Reproduire des Adaptations, sous réserve que de telles Adaptations, en ce compris toute traduction sur tout support, prennent toutes mesures raisonnables permettant de faire apparaître, de souligner ou d'identifier clairement que des modifications ont été apportées à l’Œuvre Originale. Il conviendra par exemple de mentionner, en cas de traduction, que « l’œuvre originale a été traduite de l’anglais vers l'espagnol » ou, en cas de modification, que « l’œuvre originale a été modifiée » ;

@@ -103,7 +103,7 @@ Pour tester un site web sur un terminal mobile, l’environnement de test devra 
 
 Enfin, en fonction du contexte du site audité, d’autres technologies d’assistance complémentaires peuvent être utiles telles que :
 
-- ZoomText sur Windows ou Mac OSX ;
+- ZoomText sur Windows ou Mac OSX ;
 - Dragon Naturally Speaking sur Windows ou Mac OSX.
 
 ### Environnement maîtrisé

@@ -8,7 +8,6 @@ WCAG:
     level: A
 Techniques:
   - ARIA4
-  - ARIA10
   - C9
   - F38
   - F39

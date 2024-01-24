@@ -57,5 +57,5 @@ Lorsque l’intitulé visible est complété par une autre expression dans le no
 Par exemple, si l’on considère l’intitulé visible « Commander maintenant » complété dans le nom accessible par l’expression « produit X », on peut avoir les différents cas suivants :
 
 - « Commander maintenant produit X » est valide (bonne pratique) ;
-- « Produit X : commander maintenant » est valide ;
+- « Produit X : commander maintenant » est valide ;
 - « Commander produit X maintenant » est non valide.

@@ -126,7 +126,7 @@ L’échantillon sur lequel est réalisé l’audit d’un site web porte au moi
 1. au moins une page pertinente pour chaque type de service fourni et toute autre utilisation principale prévue (ex. : rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche ;
 1. une page contenant au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
 1. l’ensemble des pages constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs pages) ;
-1. des exemples de pages ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : page contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, etc.).
+1. des exemples de pages ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : page contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, une fonctionnalité de communication en temps réel, etc.).
 
 La sélection des pages auditées ainsi que leur nombre doivent être représentatifs de du site ou de l’application mobile. Les statistiques de consultation peuvent notamment être prises en compte lors de la constitution de l’échantillon.
 
@@ -145,7 +145,7 @@ L’échantillon sur lequel est réalisé l’audit d’une application mobile p
 1. au moins un écran pertinent pour chaque type de service fourni et toute autre utilisation principale prévue (ex. : rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche ;
 1. au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
 1. l’ensemble des écrans constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs écrans) ;
-des exemples d’écrans ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : écran contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, etc.).
+des exemples d’écrans ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : écran contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, une fonctionnalité de communication en temps réel, etc.).
 
 La sélection des écrans audités ainsi que leur nombre doivent être représentatifs de l’application mobile. Le nombre de visiteurs par écran peut notamment être pris en compte lors de la constitution de l’échantillon.
 
@@ -157,8 +157,6 @@ Enfin, s’ajoutent des écrans sélectionnés au hasard représentant au moins 
 ##### Environnement de test d’un site web
 
 Quelques [critères RAWeb](../../html/fr/raweb1/criteres.html), notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
-
-
 
 ##### Environnement de test d’une application mobile
 
@@ -199,16 +197,14 @@ A noter :
   * dès lors qu’un seul élément de la page ou de l’écran ne valide pas les tests d’un critère, le critère ne peut être validé ;
   * si la page ou l’écran fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour une page du processus uniquement s’il est validé pour toutes les pages ou écrans du processus.
 
-Certains critères ou thématiques peuvent reposer sur une méthodologie particulière. En effet, bien qu’étant présent dans le référentiel, ils n’est pas nécessaire de les évaluer systématiquement sur toutes les pages de l’échantillon. Par exemple : 
-  * Le critère 12.3 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; : si la page de plan du site est la même pour toutes les pages et ensemble de pages de l’échantillon, ce critère pourra n’être évalué qu’une seule fois et son statut consigné sur une seule des pages de l’échantillon. Ainsi, le critère pourrait avoir un statut (conforme ou non conforme) sur la page d’accueil et être non applicable sur toutes les autres pages de l’échantillon. Ceci est une méthodologie possible bien qu’elle ne soit pas obligatoire, elle n’influence pas le taux global de conformité.
-  * La thématique &laquo;&nbsp;14. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web dispose d’une documentation. Les pages de la documentation devant être intégrées dans l’échantillon d’évaluation, les critères de cette thématique pourraient ne s’appliquer que sur la ou les pages de l’échantillon et rester non applicables sur les autres pages de l’échantillon.
-  * La thématique &laquo;&nbsp;15. Outils d’édition&nbsp;&raquo; : 
-  * La thématique &laquo;&nbsp;16. Services d’assistance&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web met à disposition un service d’assistance. Les critères pourraient n’être évalués qu’une seule fois et leur statut consigné sur une seule des pages de l’échantillon. Ainsi, les critères pourraient avoir un statut (conforme ou non conforme) sur la page d’accueil et être non applicables sur toutes les autres pages de l’échantillon. Ceci est une méthodologie possible bien qu’elle ne soit pas obligatoire, elle n’influence pas le taux global de conformité.
-  * La thématique &laquo;&nbsp;17. Communication en temps réel&nbsp;&raquo; : cette thématique n’est à évaluer que si le site web met à disposition un service de communication orale. Les pages constitutives de cette fonctionnalité devant être intégrées dans l’échantillon d’évaluation, les critères de cette thématique pourraient ne s’appliquer que sur la ou les pages de l’échantillon et rester non applicables sur les autres pages de l’échantillon.
+Certains critères ou thématiques sont applicables à l'ensemble du site et non à une page particulière, il n'est donc pas nécessaire de les évaluer sur toutes les pages de l'échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l'échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l'évaluation de ces critères est bien entendu optionnelle. Quel que soit la méthodologie choisie, il n'y aura pas d'impact sur le taux de conformité global du site. C'est notamment le cas pour les critères et thématiques suivantes : 
+  * Le critère 12.3 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; 
+  * La thématique &laquo;&nbsp;14. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; 
+  * La thématique &laquo;&nbsp;16. Services d’assistance&nbsp;&raquo;
 
 #### Taux de conformité à la norme
 
-Le taux de conformité permet de  mesurer les progrès du service en ligne eu égard à la conformité aux exigences d’accessibilité. 
+Le taux de conformité permet de mesurer les progrès du service en ligne eu égard à la conformité aux exigences d’accessibilité. 
 
 Ce taux indique le pourcentage de critères respectés du service en ligne.
 
@@ -217,7 +213,7 @@ Le pourcentage de critères respectés s’obtient en divisant le nombre de crit
   * Critère validé : un critère est validé s’il est validé sur toutes les pages ou écrans de l’échantillon. Si un critère est invalidé sur une seule page ou écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable : pour qu’un critère soit applicable, il suffit qu’il le soit sur une seule page ou écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur toutes les pages ou écrans de l’échantillon sans exception.
 
-Ce taux de conformité détermine l'état de conformité à mentionner dans la [déclaration d’accessibilité](#contenu-de-la-déclaration-d’accessibilité).
+Ce taux de conformité détermine l'état de conformité à mentionner dans la [déclaration d’accessibilité](#contenu-de-la-déclaration-daccessibilité).
 
 #### Principe de non-interférence
 
@@ -233,8 +229,8 @@ Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obl
 
 - [Critère 4.10](../../html/fr/raweb1/criteres.html#crit-4-10) : Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?
 - [Critère 12.9](../../html/fr/raweb1/criteres.html#crit-12-9) : Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?
-- [Critère 13.7](../../html/fr/raweb1/criteres.html#crit-13-7) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 - [Test 13.1.1](../../html/fr/raweb1/criteres.html#test-13-1-1) : Pour chaque page web, chaque procédé de rafraîchissement (balise `<object>`, balise `<embed>`, balise `<svg>`, balise `<canvas>`, balise `<meta>`) vérifie-t-il une de ces conditions (hors cas particuliers) ?
+- [Critère 13.7](../../html/fr/raweb1/criteres.html#crit-13-7) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 - [Critère 13.8](../../html/fr/raweb1/criteres.html#crit-13-8) : Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.

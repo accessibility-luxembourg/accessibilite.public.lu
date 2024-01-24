@@ -34,7 +34,7 @@ Les barres d’outils sont des extensions du navigateur qui vont faciliter le re
 
 À noter que la Web Accessibility Toolbar pour Internet Explorer n’est plus maintenu par son éditeur (Paciello Group).
 
-Au-delà de la simple barre d’outil, d’autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d’accessibilité ou à l’inverse les éléments qui lui sont bénéfiques ; des filtres permettent alors souvent de n’afficher que certains de ces aspects. C’est ce que propose Wave, une solution disponible à la fois en ligne (http://wave.webaim.org) et comme extension de navigateur (https://wave.webaim.org/extension/).
+Au-delà de la simple barre d’outil, d’autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d’accessibilité ou à l’inverse les éléments qui lui sont bénéfiques ; des filtres permettent alors souvent de n’afficher que certains de ces aspects. C’est ce que propose Wave, une solution disponible à la fois en ligne (http://wave.webaim.org) et comme extension de navigateur (https://wave.webaim.org/extension/).
 
 La validation du code source d’un document HTML utilise le validateur en ligne du W3C (https://validator.w3.org/nu/). À noter que pour valider le code source généré par le navigateur, il faut utiliser l’option "Text input" de la liste de sélection intitulé "Check by" et copier dans la zone de saisie multiligne qui est alors proposée, la source HTML disponible à partir de l’inspecteur de code du navigateur.
 Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
@@ -46,13 +46,13 @@ La vérification des contrastes de couleurs bénéficie de différents outils :
 
 La vérification de l’arborescence du document et de la hiérarchie des titres dispose d’une extension très utile :
 
-- [HeadingsMap pour Firefox](https://addons.mozilla.org/fr/firefox/addon/headingsmap/) : extension Firefox qui permet de donner un aperçu du plan du document et de son arborescence ;
-- [HeadingsMap pour Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi) : même extension que la précédente pour Chrome.
+- [HeadingsMap pour Firefox](https://addons.mozilla.org/fr/firefox/addon/headingsmap/) : extension Firefox qui permet de donner un aperçu du plan du document et de son arborescence ;
+- [HeadingsMap pour Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi) : même extension que la précédente pour Chrome.
 
 L’analyse des fichiers bureautiques peut être réalisée au moyen de différents outils en fonction du format du fichier :
 
-- [PAC (PDF Accessibility Checker) 2021 pour Windows](https://pdfua.foundation/fr/pdf-accessibility-checker-pac) : logiciel qui permet de contrôler certains points d’accessibilité des documents PDF ;
+- [PAC (PDF Accessibility Checker) 2021 pour Windows](https://pdfua.foundation/fr/pdf-accessibility-checker-pac) : logiciel qui permet de contrôler certains points d’accessibilité des documents PDF ;
 - Les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l’accessibilité (voir l’article [Rendre vos documents Word accessibles aux personnes atteintes d’un handicap](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) et les articles associés) ;
 - [Ace by DAISY App](https://inclusivepublishing.org/toolbox/ace-by-daisy-app/) est un utilitaire pour vérifier l’accessibilité d’un fichier EPUB.
 
-Enfin, un logiciel ancien mais toujours utile pour évaluer la potentialité de certains contenus web à causer des crises d’épilepsie : [PEAT (Photosensitive Epilepsy Analysis Tool) pour Windows](https://trace.umd.edu/peat).
+Enfin, un logiciel ancien mais toujours utile pour évaluer la potentialité de certains contenus web à causer des crises d’épilepsie : [PEAT (Photosensitive Epilepsy Analysis Tool) pour Windows](https://trace.umd.edu/peat).
