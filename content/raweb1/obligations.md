@@ -256,15 +256,9 @@ La déclaration d’accessibilité comprend :
 
 La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../../html/fr/tools/decla.html). 
 
-#### Validité de la déclaration d’accessibilité
+#### Mises à jour de la déclaration d’accessibilité
 
-La déclaration d’accessibilité est valide à partir de sa date de publication. Elle doit être mise à jour :
-
-- à la date de modification substantielle ou de refonte du site ou de l’application concernée.
-- 3 ans après la date de publication de la déclaration, ou,
-- 18 mois après la date de publication d’une nouvelle version du référentiel, pour les personnes qui appliquent la méthode technique.
-
-Il peut cependant être souhaitable de mettre à jour plus régulièrement la déclaration d’accessibilité, y compris pour une même version de la méthode technique, afin de souligner les efforts réalisés et de mettre à jour le pourcentage de critères respectés.
+La déclaration d’accessibilité est valide à partir de sa date de publication. Elle doit être mise à jour régulièrement, en particulier à chaque modification substantielle ou refonte du site ou de l’application concernée. Il peut être souhaitable de mettre à jour plus régulièrement la déclaration d’accessibilité afin de souligner les efforts réalisés et de mettre à jour le niveau de conformité. 
 
 #### Publication de la déclaration d’accessibilité
 
