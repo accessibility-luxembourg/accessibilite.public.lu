@@ -258,7 +258,7 @@ La déclaration d’accessibilité comprend :
     - un mécanisme accessible (adresse électronique ou formulaire) pour permettre à toute personne de signaler à l’organisme concerné tout défaut d’accessibilité et à une personne handicapée de demander les informations correspondantes ou une solution alternative accessible ;
 - la mention de la faculté pour la personne concernée de saisir le SIP ou le médiateur.
 
-La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../../html/fr/tools/decla.html). Le modèle de la déclaration d’accessibilité est aussi disponible dans la section [Kit d’audit](../../html/fr/tools/kit.html). 
+La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../../html/fr/tools/decla.html). 
 
 #### Validité de la déclaration d’accessibilité
 
@@ -274,7 +274,7 @@ Il peut cependant être souhaitable de mettre à jour plus régulièrement la d�
 
 La déclaration d’accessibilité est publiée dans un format accessible.
 
-Pour les sites internet, la déclaration d’accessibilité est publiée sur le site internet concerné. Elle est mise à disposition au sein d’une page accessibilité, directement accessible depuis la page d’accueil et depuis n’importe quelle page du site. (Il est recommandé d’utiliser une adresse internet (ou URL) standardisée telle que « nomdusite.lu/[code langue]/support/accessibilite.html »)
+Pour les sites internet, la déclaration d’accessibilité est publiée sur le site internet concerné. Elle est mise à disposition au sein d’une page accessibilité, directement accessible depuis la page d’accueil et depuis n’importe quelle page du site. 
 
 Pour les applications mobiles, elle est disponible sur le site internet de l’organisme qui a développé l’application ou apparaît avec d’autres informations disponibles lors du téléchargement de l’application. 
 
