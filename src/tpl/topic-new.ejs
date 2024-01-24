@@ -12,7 +12,7 @@
     <h4 id="<%= critId %>">
     <a href="#<%= critId %>">Critère <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
     : <%- md.renderInline(crit.criterium.title) %></h4>
-    <p class="summary">Tests du critère <%= topic.number %>.<%= crit.criterium.number %></p>
+    <p class="summary" id="summary-<%= critId %>">Tests du critère <%= topic.number %>.<%= crit.criterium.number %></p>
     <div class="details" id="details-<%= critId %>">
             <% Object.keys(crit.criterium.tests).forEach(testId => {
                 let test = crit.criterium.tests[testId]
@@ -30,8 +30,10 @@
             <% } else { %>
                 <%- md.renderInline(test) %></h5>
             <% } %>
+            <% if (metho !== '') { %>
             <h6 id="method-<%= ref %>" class="disclosure methodo">Méthodologie du test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></h6>
             <%- metho %>
+            <% } %>
             <% }) %>
         <%- crit.criterium.notes %>           
         <h5 id="mapping<%= critId %>" class="disclosure mapping">Correspondances</h5>
