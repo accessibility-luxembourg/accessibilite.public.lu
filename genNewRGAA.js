@@ -56,7 +56,9 @@ function parseTests(folderPath, rgaaPath) {
     //console.log(folders)
 	folders.forEach((f, i) => {
         const data = parse(`${folderPath}/${i + 1}.md`, rgaaPath)
-
+        if (data.meta.title === undefined) {
+            console.error('Missing title in', `${folderPath}/${i + 1}.md`)
+        }
         tests[i + 1] = data.meta.steps
             ? [data.meta.title, ...data.meta.steps]
             : [data.meta.title]
