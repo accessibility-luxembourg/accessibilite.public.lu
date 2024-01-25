@@ -268,21 +268,21 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 });
                 location.hash = 'result';
             } else {
-                if (!checkLang) {
-                    document.getElementById('lang_fr').focus();
-                    document.getElementById('lang_fr').parentElement.parentElement.after(errorPanel);
-                } else  {
-                    for (let f = 0; f < fields.length; f++) {
-                        if (!fields[f].reportValidity()) {
-                            fields[f].focus();
-                            fields[f].parentElement.parentElement.after(errorPanel);
-                            break;
-                        }
-                    }
-                }
                 errorPanel.style.display = "block";
                 window.setTimeout(function () {
                     errorPanel.innerHTML = "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème.";
+                    if (!checkLang) {
+                        document.getElementById('lang_fr').focus();
+                        document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
+                    } else  {
+                        for (let f = 0; f < fields.length; f++) {
+                            if (!fields[f].reportValidity()) {
+                                fields[f].focus();
+                                fields[f].parentElement.parentElement.before(errorPanel);
+                                break;
+                            }
+                        }
+                    }
                 }, 10);
             }
         })
