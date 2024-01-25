@@ -165,7 +165,11 @@
             <% }) %>
             </ul>    
         <% } %>
-    <% } %>                 
+    <% } %>
+    <% if (access_features_lu !== "") { %>
+        <h<%= title_level+1 %>>Accessibilitéitsfunktiounen</h<%= title_level+1 %>>
+        <p class="technical-information accessibility-features"><%= access_features_lu %></p>
+        <% } %>                      
     <h<%= title_level+1 %>>Virbereedung vun dëser Accessibilitéitsdeklaratioun</h<%= title_level+1 %>>
     <p>
         Dës Deklaratioun gouf de(n) <span class="basic-information statement-created-date"><%= date_prepa.toLocaleDateString('de') %></span> erstallt.

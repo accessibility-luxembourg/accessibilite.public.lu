@@ -80,6 +80,20 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
             </ul>
         </p>                
     </fieldset>
+    <fieldset class="form-group" id="features-access">
+        <legend>Fonctionnalités d'accessibilité</legend>         
+        <% lang.forEach(l => { %>              
+            <div class="form-group" data-lang="<%= l.code %>">
+                <label for="access_features_<%= l.code %>">Fonctionnalités d'accessibilité en <%= l.name %></label>
+                <textarea id="access_features_<%= l.code %>" name="access_features_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-access_features"></textarea>
+            </div>          
+        <% }) %>
+        <p id="help-access_features" class="form-text text-muted">
+        <small>
+            Exemples de fonctionnalités d'accessibilité : mode contraste renforcé, agrandissement de la taille des caractères, langage simplifié, etc. Décrire les fonctionnalités d’accessibilité proposées par le site web. Expliquer comment utiliser les fonctionnalités d’accessibilité proposées par le site web. Décrire les composants qui présentent des défauts de compatibilité avec les technologies d’assistance.
+        </small>
+        </p>                                               
+    </fieldset>
 
     <div id="non-accessible">
         <h4>Contenus non accessibles</h4>
