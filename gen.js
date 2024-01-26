@@ -324,6 +324,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     function cbfm(fm) {
         data.meta = {...data.meta, ...fm}
     }
+    // temporary comment
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
     data.meta.lang = $('body').children().first().attr('lang')
