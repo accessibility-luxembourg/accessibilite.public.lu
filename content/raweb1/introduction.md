@@ -17,7 +17,7 @@ Certains tests, concernant notamment les composants d’interface développés e
 
 La méthode technique du RAWeb couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1](../raam1/index.html).
 
-La présente version est la version 1, et contient des contenus issus du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/RAWeb](https://github.com/accessibility-luxembourg/RAWeb).
+La présente version est la version 1, et contient des contenus issus du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb).
 En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
 
 ### Sommaire

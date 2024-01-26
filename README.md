@@ -14,6 +14,8 @@ This repository contains the code enabling to generate all the pages for [access
 The markdown files from RGAA and RAAM are copied from there respective repositories, and so do the files from the accessibility statement generator:
 - [RAAM](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile)
 - [RGAA](https://github.com/accessibility-luxembourg/RGAA)
+- [RAWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb)
+- [RAPDF](https://github.com/accessibility-luxembourg/ReferentielAccessibilitePDF)
 - [accessibility statement generator](https://github.com/accessibility-luxembourg/a11yStatementGen)
 
 In a future version, it could be integrated properly with git submodules or npm packages, ...
