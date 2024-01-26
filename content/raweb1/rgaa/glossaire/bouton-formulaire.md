@@ -34,4 +34,4 @@ Cet ordre doit être utilisé pour l’évaluation de la pertinence du « nom a
 
 Référence : <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
-Par ailleurs, un « nom accessible » sera considéré comme non-pertinent s’il ne reprend pas le texte visible du bouton. Par exemple : `<button aria-label="confirmer la saisie">valider la saisie</button>` sera considéré comme non conforme au {% crit 11.9 %}.
+Par ailleurs, un « nom accessible » sera considéré comme non pertinent s’il ne reprend pas le texte visible du bouton. Par exemple : `<button aria-label="confirmer la saisie">valider la saisie</button>` sera considéré comme non conforme au {% crit 11.9 %}.

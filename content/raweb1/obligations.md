@@ -98,7 +98,7 @@ La phase finale de l’audit est la déclaration d’accessibilité qui rend com
 L’audit (ou évaluation) répond aux critères suivants :
 
 - il est fiable : il revient à l’organisme concerné de veiller à la fiabilité de sa déclaration par tous moyens (recours à un prestataire externe, formation d’experts internes, audits croisés…) ;
-- il est représentatif : il porte sur un échantillon représentatif (cf. section « Echantillon » ci-dessous).
+- il est représentatif : il porte sur un échantillon représentatif (cf. section « Échantillon » ci-dessous).
 
 L’accessibilité des applications doit être évaluée en appliquant la méthode technique du référentiel considéré.
 
@@ -168,7 +168,7 @@ Une certaine partie des tests du [référentiel d’évaluation de l’accessibi
 
 Pour valider ces critères, il convient de définir un environnement de test (ou « base de référence »). Par défaut, il est composé des plateformes et technologies d’assistance majoritairement utilisées par les personnes en situation de handicap. 
 
-Chacun de nos deux référentiels proposent une base de référence à utiliser pour réaliser les tests d’évaluation :
+Chacun de nos deux référentiels propose un environnement de test à utiliser pour réaliser les tests d’évaluation :
 
 - [Environnement de test du RAWeb pour l’évaluation de sites web](../../html/fr/raweb1/environnement.md) ;
 - [Environnement de test du RAAM pour l’évaluation d’applications mobiles](../../html/fr/raam1/environnement.md).
@@ -184,20 +184,20 @@ Il existe 3 raisons pour qu’un critère ne soit pas applicable à une page ou 
   1. Le critère concerne un contenu ou une fonctionnalité qui n’existe pas, par exemple si la page ou l’écran ne comporte pas de vidéo, les critères liés aux vidéos ne seront pas applicables.
   2. Le critère concerne un contenu ou un service exempté qui n’est donc pas soumis à l’obligation d’accessibilité.
   3. Le critère concerne un contenu soumis à dérogation pour charge disproportionnée qui est accompagné d’une alternative numérique accessible. Par exemple, un tableau statistique avec des graphiques qui propose une alternative numérique en texte. Dans ce cas les critères applicables au contenu soumis à dérogation seront non applicables. 
-      A noter : si le contenu soumis à dérogation pour charge disproportionnée ne propose pas d’alternative numérique accessible, les critères concernant ce contenu sont considérés comme applicables.
+      À noter : si le contenu soumis à dérogation pour charge disproportionnée ne propose pas d’alternative numérique accessible, les critères concernant ce contenu sont considérés comme applicables.
 
 Les pages ou écrans sont ensuite testés au regard des critères applicables. Ces tests permettent d’obtenir :
 
   * le nombre de critères validés et non validés pour chaque page ou écran
   * le taux de conformité de chaque page ou écran.
 
-A noter : 
+À noter : 
 
   * un critère est validé pour une page ou un écran donné lorsque tous les éléments de la page ou l’écran ont passé avec succès les tests permettant de valider le critère ;
   * dès lors qu’un seul élément de la page ou de l’écran ne valide pas les tests d’un critère, le critère ne peut être validé ;
   * si la page ou l’écran fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour une page du processus uniquement s’il est validé pour toutes les pages ou écrans du processus.
 
-Certains critères ou thématiques sont applicables à l'ensemble du site et non à une page particulière, il n'est donc pas nécessaire de les évaluer sur toutes les pages de l'échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l'échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l'évaluation de ces critères est bien entendu optionnelle. Quel que soit la méthodologie choisie, il n'y aura pas d'impact sur le taux de conformité global du site. C'est notamment le cas pour les critères et thématiques suivantes : 
+Certains critères ou thématiques sont applicables à l’ensemble du site et non à une page particulière, il n’est donc pas nécessaire de les évaluer sur toutes les pages de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l’échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global du site. C’est notamment le cas pour les critères et thématiques suivantes :
   * Le critère 12.3 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; 
   * La thématique &laquo;&nbsp;14. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; 
   * La thématique &laquo;&nbsp;16. Services d’assistance&nbsp;&raquo;
@@ -213,7 +213,7 @@ Le pourcentage de critères respectés s’obtient en divisant le nombre de crit
   * Critère validé : un critère est validé s’il est validé sur toutes les pages ou écrans de l’échantillon. Si un critère est invalidé sur une seule page ou écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable : pour qu’un critère soit applicable, il suffit qu’il le soit sur une seule page ou écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur toutes les pages ou écrans de l’échantillon sans exception.
 
-Ce taux de conformité détermine l'état de conformité à mentionner dans la [déclaration d’accessibilité](#contenu-de-la-déclaration-daccessibilité).
+Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](#contenu-de-la-déclaration-daccessibilité).
 
 #### Principe de non-interférence
 

@@ -1,5 +1,5 @@
 ---
-title: Modifier ou annuler les données et les actions effectués
+title: Modifier ou annuler les données et les actions effectuées
 ---
 
 Procédés par lesquels un utilisateur peut modifier les données qu’il a saisies, faire annuler sa saisie ou faire annuler les actions découlant de sa saisie par exemple annuler une commande ou un virement bancaire.

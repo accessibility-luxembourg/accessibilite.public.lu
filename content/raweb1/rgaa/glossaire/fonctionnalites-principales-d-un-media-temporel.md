@@ -1,5 +1,5 @@
 ---
-title: Focntionnalités principales (d’un média temporel)
+title: Fonctionnalités principales (d’un média temporel)
 
 ---
 

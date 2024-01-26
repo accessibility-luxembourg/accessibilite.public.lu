@@ -46,6 +46,6 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les
 
 Dans un long formulaire dont la majorité des champs sont obligatoires, on pourrait constater que ce sont les quelques champs restés facultatifs qui sont explicitement signalés comme tels. Dans ce cas, il faudrait s’assurer que :
 
-- Un message précise visuellement en haut de formulaire que &laquo;&nbsp;tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs&raquo;&nbsp; ;
-- Une mention &laquo;&nbsp;facultatif&raquo;&nbsp; est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
+- Un message précise visuellement en haut de formulaire que &laquo;&nbsp;tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs&nbsp;&raquo; ;
+- Une mention &laquo;&nbsp;facultatif&nbsp;&raquo; est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
 - Un attribut `required` ou `aria-required="true"` reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif.

@@ -2,7 +2,7 @@
 title: Aide à la création de contenus accessibles
 ---
 
-Tout dispositif disponible depuis une interface d’édition de contenu, quelque soit le format de destination, qui accompagne l’auteur des contenus dans la prise en compte des règles d’accessibilitén numérique. 
+Tout dispositif disponible depuis une interface d’édition de contenu, quel que soit le format de destination, qui accompagne l’auteur des contenus dans la prise en compte des règles d’accessibilité numérique. 
 
 Une aide à la création de contenus accessibles peut être un outil d’aide automatique ou une documentation. On compte parmi les aides à la création de contenus : 
 - des tests automatiques ou semi-automatiques disponibles depuis les fonctionnalités d’édition ;
