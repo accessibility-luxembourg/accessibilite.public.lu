@@ -24,31 +24,36 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
 <form id="decla">
     <fieldset class="form-group">
         <legend>Langues de la déclaration</legend>
+        <div class="form-group">
         <% lang.forEach(l => { %>
+            <input type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
             <label for="lang_<%= l.code %>" class="form-check-inline">
-                <input class="form-check-input" type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
                 <%= l.name %>
               </label>          
         <% }) %>
-      </fieldset>
-      <fieldset class="form-group">
-        <legend>Nom de l'organisme (Ex: "Service information et presse")</legend>
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend>Nom de l'organisme (ex&thinsp;: "Service information et presse")</legend>
         <% lang.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>">Nom de l'organisme en <%= l.name %> <span class="symbol-required">* </span></label>
-                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" data-required="true">
+                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
             </div>          
         <% }) %>                     
     </fieldset>
 
-    <div class="form-group">
-        <label for="sites">URLs des sites à déclarer (une par ligne, ex: https://www.gouvernement.lu)</label>
-        <textarea id="sites" rows="5" class="form-control" name="sites"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="apps">URLs des apps à déclarer (une par ligne, URLs des apps sur les stores Apple et Google)</label>
-        <textarea id="apps" rows="5" class="form-control" name="apps"></textarea>
-    </div>
+    <fieldset class="form-group">
+        <legend>Objet(s) de la déclaration <span class="symbol-required">*</span> (remplir au moins l'un des deux champs suivants)</legend>
+        <div class="form-group">
+            <label for="sites">URLs des sites à déclarer (une par ligne, ex: https://www.gouvernement.lu)</label>
+            <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="apps">URLs des apps à déclarer (une par ligne, URLs des apps sur les stores Apple et Google)</label>
+            <textarea id="apps" rows="5" class="form-control" name="apps" required></textarea>
+        </div>
+    </fieldset>
 
     <fieldset class="form-group">
         <legend>État de la conformité</legend>
@@ -74,6 +79,20 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
                 </li>
             </ul>
         </p>                
+    </fieldset>
+    <fieldset class="form-group" id="features-access">
+        <legend>Fonctionnalités d'accessibilité</legend>         
+        <% lang.forEach(l => { %>              
+            <div class="form-group" data-lang="<%= l.code %>">
+                <label for="access_features_<%= l.code %>">Fonctionnalités d'accessibilité en <%= l.name %></label>
+                <textarea id="access_features_<%= l.code %>" name="access_features_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-access_features"></textarea>
+            </div>          
+        <% }) %>
+        <p id="help-access_features" class="form-text text-muted">
+        <small>
+            Exemples de fonctionnalités d'accessibilité : mode contraste renforcé, agrandissement de la taille des caractères, langage simplifié, etc. Décrire les fonctionnalités d’accessibilité proposées. Expliquer comment utiliser les fonctionnalités d’accessibilité. Décrire les composants qui présentent des défauts de compatibilité avec les technologies d’assistance.
+        </small>
+        </p>                                               
     </fieldset>
 
     <div id="non-accessible">
@@ -127,8 +146,8 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
     <div id="prepa-decla">
         <h4>Préparation de la déclaration</h4>
         <div class="form-group">
-            <label for="date_prepa">Date de la préparation (format: jj/mm/yyyy, ex: 20/04/2020) <span class="symbol-required">* </span></label>
-            <input type="text" class="form-control" id="date_prepa" name="date_prepa" aria-describedby="help-date_prepa" required>
+            <label for="date_prepa">Date de la préparation (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020) <span class="symbol-required">* </span></label>
+            <input type="text" class="form-control" id="date_prepa" name="date_prepa" aria-describedby="help-date_prepa" required  pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
             <p id="help-date_prepa" class="form-text text-muted">
             <small>
                 Insérez la date de la première rédaction, ou d'une actualisation ultérieure, de la déclaration sur l'accessibilité, après évaluation du site internet ou de l'application mobile auquel/à laquelle elle s'applique. Il est recommandé de réaliser une évaluation et d'actualiser la déclaration après une révision importante du site internet ou de l'application mobile.
@@ -136,8 +155,8 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
             </p>   
         </div>
         <div class="form-group">
-            <label for="date_renewal">Date du dernier réexamen (format: jj/mm/yyyy, ex: 20/04/2020)</label>
-            <input type="text" class="form-control" id="date_renewal" name="date_renewal" aria-describedby="help-date_renewal">
+            <label for="date_renewal">Date du dernier réexamen (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020)</label>
+            <input type="text" class="form-control" id="date_renewal" name="date_renewal" aria-describedby="help-date_renewal" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
             <p id="help-date_renewal" class="form-text text-muted">
             <small>
                 Facultatif. Il est recommandé de réexaminer les affirmations mentionnées dans la déclaration sur l'accessibilité, pour en vérifier l'exactitude, de manière régulière et au moins une fois par an. Si ce réexamen a eu lieu sans une évaluation complète du site internet ou de l'application mobile, qu'il ait entraîné ou non des modifications de la déclaration d'accessibilité, veuillez indiquer la date de ce dernier réexamen.
@@ -154,8 +173,8 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
             </div>
         </fieldset>
         <div class="form-group"  id="thirdparty-blk">
-            <label for="thirdparty_name">Nom du tiers</label>
-            <input type="text" class="form-control" id="thirdparty_name" name="thirdparty_name">
+            <label for="thirdparty_name">Nom du tiers  <span class="symbol-required">* </span></label>
+            <input type="text" class="form-control" id="thirdparty_name" name="thirdparty_name" required>
         </div>
         <div class="form-group">
             <input  type="checkbox" name="renow" id="renow" aria-describedby="help-renow"> <label for="renow">La procédure de contrôle Renow a été réalisée par le CTIE</label>
@@ -199,7 +218,8 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
         </div> 
     </div>    
 
-    <button type="submit" class="btn btn-primary">Générer votre déclaration</button>
+    <button type="button" id="decla_btn" class="btn btn-primary">Générer votre déclaration</button>
+    <p id="errorPanel" role="alert"></p>
 </form>
 </div>
 
@@ -207,7 +227,7 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
 <div id="result">
     <p class="alert alert-success">Les différentes versions de votre déclaration ont été générées avec succès&nbsp;! <br />Vous pouvez modifier votre saisie en utilisant le bouton ci-après ou le bouton "retour" de votre navigateur.<br />
     Pour chaque version de votre déclaration, vous pouvez copier-coller leur contenu dans votre CMS.</p>
-    <div class="alert alert-warning" role="alert">
+    <div class="alert alert-warning">
         <p class="alert-content"><strong>Attention&nbsp;! </strong> Une fois votre déclaration publiée, vous avez un mois pour informer le SIP de cette publication. Envoyez-nous l'URL de votre déclaration par mail à <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>. Merci&nbsp;!</p>
     </div>
     <button id="back">Modifier votre saisie</button>

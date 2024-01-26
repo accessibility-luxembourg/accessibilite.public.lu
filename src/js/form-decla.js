@@ -5,6 +5,28 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 import formDataEntries from 'form-data-entries'
 
+function errorMessage(inputElt, textMsg) { 
+    if (textMsg !== null && arguments.length > 1) {
+        inputElt.setAttribute("aria-invalid", true);
+        inputElt.setCustomValidity(textMsg);
+        inputElt.setAttribute("aria-describedby", inputElt.id + "Error");
+        const newelement = document.createElement("p");
+        newelement.setAttribute("class", "errorMessage");
+        newelement.setAttribute("id", inputElt.id + "Error");
+        newelement.innerHTML = textMsg;
+        inputElt.parentNode.appendChild(newelement);
+        inputElt.parentElement.classList.add('error');
+    } else {
+        if (document.getElementById(inputElt.id + "Error")) {
+            inputElt.removeAttribute("aria-invalid");
+            inputElt.removeAttribute("aria-describedby");
+            inputElt.setCustomValidity('');
+            inputElt.parentElement.classList.remove('error');
+            document.getElementById(inputElt.id + "Error").remove();
+        }
+    }
+}
+
 // https://stackoverflow.com/questions/3665115/how-to-create-a-file-in-memory-for-user-to-download-but-not-through-server
 function download(filename, text) {
     var element = document.createElement('a');
@@ -53,9 +75,9 @@ function getParams() {
         let match = params['date_prepa'].match(/([0-9]{2})\/([0-9]{2})\/([0-9]{4})/)
 
         let date = new Date(
-            match[3],  // year
+            match[3],    // year
             match[2]-1,  // monthIndex
-            match[1]  // day
+            match[1]     // day
         );
         params['date_prepa'] = date
     }
@@ -78,20 +100,10 @@ function getParams() {
 function showHideByLang(show, lang) {
     if (show) {
         Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {
-            let input = e.querySelector('input')
-
-            if (input && input.getAttribute('data-required') == 'true') {
-                input.setAttribute('required', 'required')
-            }
             e.style.display = 'block'
         })
     } else {
-        Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {
-            let input = e.querySelector('input')
-
-            if (input && input.getAttribute('data-required') == 'true') {
-                input.removeAttribute('required')
-            }            
+        Array.from(document.querySelectorAll("[data-lang='"+lang+"']")).forEach(function(e) {       
             e.style.display = 'none'
         })
     }
@@ -132,6 +144,13 @@ document.addEventListener('DOMContentLoaded', function(e) {
         showHideByLang(document.getElementById('lang_'+l).checked, l)
     });
 
+    document.addEventListener('invalid', (function(){
+        return function(e) {
+          //prevent the browser from showing default error bubble / hint
+          e.preventDefault();
+        };
+    })(), true);
+
     if (document.getElementById('decla')) {
         supportedLang.forEach(function(lang) {
             var check = document.getElementById('lang_'+lang);
@@ -140,33 +159,132 @@ document.addEventListener('DOMContentLoaded', function(e) {
                     showHideByLang(e.target.checked, lang)
                 });
             } else {
-                console.log(lang+' is not defined')
+                console.log(lang +' is not defined')
             }
 
         });
-        document.getElementById('decla').addEventListener('submit', function(e) {
+        document.getElementById('decla_btn').addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
 
-            // validate form
+            // validate form  
+            const emailField      = document.getElementById('email');
+            const dateField       = document.getElementById('date_prepa');
+            const renewalField    = document.getElementById('date_renewal');
+            const thirdpartyField = document.getElementById('thirdparty_name');
+            const eval_type       = document.querySelector("[name='eval_type']:checked").value;
+            const sitesField      = document.getElementById('sites');
+            const appsField       = document.getElementById('apps');
+            sitesField.required   = true;
+            appsField.required    = true;
 
-            // if ok, submit it
-            let params = getParams()
-            window.params = params
-            let res = []
+            let fields            = [sitesField, appsField, dateField, renewalField, emailField];
+            let checkLang         = false;
+            let orgaFields        = [];
+            const errorPanel        = document.getElementById('errorPanel');
 
-            lang.forEach(e => {
-                res[e.code] = ejs.render(window.tpl[e.code], params)
-            });
-            lang.forEach(e => {
-                if (params['lang_'+e.code] == e.code) { // language selected
-                    document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code]
-                    document.getElementById('decla-'+e.code).style.display = 'block'
-                } else {
-                    document.getElementById('decla-'+e.code).style.display = 'none'
+            supportedLang.forEach (function (l) {
+                const langField = document.getElementById('lang_' + l);
+                const orgaField = document.getElementById('name_' + l);
+                errorMessage(langField);
+                if (langField.checked) {
+                    checkLang = true;
+                    fields.unshift(orgaField);
+                    orgaFields.push(orgaField);
                 }
             });
-            location.hash = 'result'
+
+            if (!checkLang) {
+                errorMessage(document.getElementById('lang_fr'), "Veuillez sélectionner au moins une langue");
+            }
+            
+            if (eval_type == "thirdparty") {
+                fields.splice(4, 0, thirdpartyField);
+            }
+
+            fields.forEach(f => {
+                errorMessage(f);
+            });
+
+            orgaFields.forEach(f => {
+                if (f.validity.valueMissing) {
+                    errorMessage(f, "Veuillez compléter ce champ");
+                } 
+            });
+
+            if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
+                errorMessage(emailField, "Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)");
+            }
+
+            if (dateField.validity.patternMismatch || dateField.validity.typeMismatch || dateField.validity.valueMissing) {
+                errorMessage(dateField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
+            }
+
+            if (renewalField.validity.patternMismatch || renewalField.validity.typeMismatch) {
+                errorMessage(renewalField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
+            }
+
+            if (eval_type == "thirdparty") {
+                if (thirdpartyField.validity.valueMissing) {
+                    errorMessage(thirdpartyField, "Veuillez compléter ce champ");
+                }                
+            }
+
+            if (sitesField.validity.valueMissing && appsField.validity.valueMissing) {
+                errorMessage(sitesField, "Veuillez compléter ce champ et/ou le champ ci-dessous");
+                errorMessage(appsField, "Veuillez compléter ce champ et/ou le champ ci-dessus");
+            }
+
+            if (!sitesField.validity.valueMissing) {
+                appsField.required = false;
+            }
+
+            if (!appsField.validity.valueMissing) {
+                sitesField.required = false;
+            }
+
+            document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
+            errorPanel.innerHTML = "";
+            errorPanel.style.display = "none";
+
+            // if ok, submit it
+            const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
+
+            if (okToSubmit && checkLang) {
+                let params = getParams();
+                window.params = params;
+                let res = [];
+    
+                lang.forEach(e => {
+                    res[e.code] = ejs.render(window.tpl[e.code], params);
+                });
+                lang.forEach(e => {
+                    if (params['lang_'+e.code] == e.code) { // language selected
+                        document.getElementById('decla-'+e.code+'-result').innerHTML = res[e.code];
+                        document.getElementById('decla-'+e.code).style.display = 'block';
+                    } else {
+                        document.getElementById('decla-'+e.code).style.display = 'none';
+                    }
+                });
+                location.hash = 'result';
+            } else {
+                errorPanel.style.display = "block";
+                window.setTimeout(function () {
+                    errorPanel.innerHTML = "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème.";
+                    if (!checkLang) {
+                        document.getElementById('lang_fr').focus();
+                        document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
+                    } else  {
+                        for (let f = 0; f < fields.length; f++) {
+                            if (!fields[f].reportValidity()) {
+                                fields[f].focus();
+                                fields[f].parentElement.parentElement.before(errorPanel);
+                                break;
+                            }
+                        }
+                    }
+                }, 10);
+            }
         })
     }
 
@@ -180,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
         })
     })
 
-    if (document.getElementById('thirdparty-blk')){
+    if (document.getElementById('thirdparty-blk')) {
         document.getElementById('thirdparty-blk').style.display = 'none'
     }
     Array.from(document.querySelectorAll("[name='eval_type']")).forEach(function(e) {

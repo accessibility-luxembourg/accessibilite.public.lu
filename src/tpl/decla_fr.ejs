@@ -180,7 +180,11 @@
         <% }) %>
         </ul>    
     <% } %>
-<% } %>                 
+<% } %>
+<% if (access_features_fr !== "") { %>
+<h<%= title_level+1 %>>Fonctionnalités d'accessibilité</h<%= title_level+1 %>>
+<p class="technical-information accessibility-features"><%= access_features_fr %></p>
+<% } %>
 <h<%= title_level+1 %>>Préparation de la présente déclaration sur l'accessibilité</h<%= title_level+1 %>>
 <p>
     La présente déclaration a été préparée le <span class="basic-information statement-created-date"><%= date_prepa.toLocaleDateString('fr', {year: 'numeric', month: 'long', day: 'numeric' }) %></span>.
