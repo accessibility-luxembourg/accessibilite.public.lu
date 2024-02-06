@@ -12,7 +12,7 @@ Ce document a été établi dans le cadre des ressources venant accompagner la p
 
 Il est destiné à toute personne soucieuse de vérifier la conformité d’un contenu web au RAWeb. Il s’agit d’une méthodologie de tests documentant les étapes permettant de vérifier si un critère du RAWeb est conforme ou non. Cette méthodologie est donc à utiliser en complément du référentiel technique du RAWeb et ne peut être utilisée seule. Elle ne dispense donc pas d’une lecture approfondie du référentiel technique, ni d’une formation au RAWeb.
 
-Pour chacun des tests d’un critère correspond une procédure de test ; la mise en oeuvre de cette procédure peut recourir parfois l’usage d’outils spécifiques, autrement un navigateur suffit pour effectuer la majorité des tests.
+Pour chacun des tests d’un critère correspond une procédure de test ; la mise en œuvre de cette procédure peut recourir parfois l’usage d’outils spécifiques, autrement un navigateur suffit pour effectuer la majorité des tests.
 Une liste d’outils est aussi proposée pour aider à la réalisation des tests ; ils ont été retenus à la fois parce qu’ils sont fréquemment utilisés par les experts du métier et parce qu’ils facilitent la recherche de certains résultats.
 
 <div class="fr-callout"><p class="fr-text--lg">
@@ -51,7 +51,7 @@ La vérification de l’arborescence du document et de la hiérarchie des titres
 
 L’analyse des fichiers bureautiques peut être réalisée au moyen de différents outils en fonction du format du fichier :
 
-- [PAC (PDF Accessibility Checker) 2021 pour Windows](https://pdfua.foundation/fr/pdf-accessibility-checker-pac) : logiciel qui permet de contrôler certains points d’accessibilité des documents PDF ;
+- [PAC (PDF Accessibility Checker) 2024 pour Windows](https://pac.pdf-accessibility.org/en) : logiciel qui permet de contrôler certains points d’accessibilité des documents PDF ;
 - Les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l’accessibilité (voir l’article [Rendre vos documents Word accessibles aux personnes atteintes d’un handicap](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) et les articles associés) ;
 - [Ace by DAISY App](https://inclusivepublishing.org/toolbox/ace-by-daisy-app/) est un utilitaire pour vérifier l’accessibilité d’un fichier EPUB.
 

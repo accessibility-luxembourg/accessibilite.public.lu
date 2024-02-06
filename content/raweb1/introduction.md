@@ -1,11 +1,11 @@
 *Version 1, publiée le xx janvier 2024*
 
-D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
-Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
+D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
+Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l’évaluation de leur accessibilité.
 
-Dans ce cadre, le référentiel d'évaluation de l'accessibilité Web (RAWeb) a été défini comme référentiel d'accessibilité pour tous les organismes du secteur public concernés par la loi.
+Dans ce cadre, le référentiel d’évaluation de l’accessibilité Web (RAWeb) a été défini comme référentiel d’accessibilité pour tous les organismes du secteur public concernés par la loi.
 
-La méthode technique du RAWeb permet de vérifier qu’une page web – c’est-à-dire tout contenu HTML (HTML4, XHTML1 et HTML5) - est conforme aux critères de succès de la[norme européenne EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
+La méthode technique du RAWeb permet de vérifier qu’une page web – c’est-à-dire tout contenu HTML (HTML4, XHTML1 et HTML5) - est conforme aux critères de succès de la [norme européenne EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
 
 La méthode technique du RAWeb propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité.
 
