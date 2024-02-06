@@ -58,19 +58,19 @@ De plus, chaque critère inclus dans le principe de non-interférence est identi
 
 La section [&laquo;&nbsp;Échantillon pour l’audit d’un site web &nbsp;&raquo;](../obligations.html#Échantillon-pour-l’audit-d’un-site-web) de la page &laquo;&nbsp;Obligations&nbsp;&raquo; a été modifiée pour prendre en compte les évolutions des critères du RAWeb, notamment en introduisant l’obligation d’évaluer la documentation du site web ou du service d’assistance.
 
-### Précisions concernant le taux de conformité et la méthodologie générale
+#### Précisions concernant le taux de conformité et la méthodologie générale
 
 Dans la section [&laquo;&nbsp;Test des pages ou écrans&nbsp;&raquo;](../obligations.html#test-des-pages-ou-écrans) de la page &laquo;&nbsp;Obligations&nbsp;&raquo;, une note est ajoutée sur les modalités possibles de gestion des contenus communs à plusieurs pages d’un échantillon : 
 
 <blockquote>
-	<p>Certains critères ou thématiques sont applicables à l’ensemble du site et non à une page particulière, il n’est donc pas nécessaire de les évaluer sur toutes les pages de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l’échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global du site. C’est notamment le cas pour les critères et thématiques suivantes :</p>
+Certains critères ou thématiques sont applicables à l’ensemble du site et non à une page particulière, il n’est donc pas nécessaire de les évaluer sur toutes les pages de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l’échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global du site. C’est notamment le cas pour les critères et thématiques suivantes :
 
-    - Le critère 12.3 « La page "plan du site" est-elle pertinente ? »
-    - La thématique « 14. Documentation et fonctionnalités d’accessibilité »
-    - La thématique « 16. Services d’assistance »
+- Le critère 12.3 « La page "plan du site" est-elle pertinente ? »
+- La thématique « 14. Documentation et fonctionnalités d’accessibilité »
+- La thématique « 16. Services d’assistance »
 </blockquote>
 
-Dans la section [&laquo;&nbsp;Taux de conformité à la norme&nbsp;&raquo;](../obligations.html#taux-de-conformité-à-la-norme) de la page &laquo;&nbsp;Obligations&nbsp;&raquo;, toute référence &laquo;&nbsp;taux moyen&nbsp;&raquo; est supprimée pour ne faire référence qu’au &laquo;&nbsp;taux global&nbsp;&raquo; en tant que taux de référence, notamment pour l’établissement de la déclaration d’accessibilité.
+Dans la section [&laquo;&nbsp;Taux de conformité à la norme&nbsp;&raquo;](../obligations.html#taux-de-conformité-à-la-norme) de la page &laquo;&nbsp;Obligations&nbsp;&raquo;, toute référence au &laquo;&nbsp;taux moyen&nbsp;&raquo; est supprimée pour ne faire référence qu’au &laquo;&nbsp;taux global&nbsp;&raquo; en tant que taux de référence, notamment pour l’établissement de la déclaration d’accessibilité.
 
 #### Modification de l’environnement de test Ordinateur
 
@@ -98,14 +98,14 @@ L’attribut `longdesc` en tant que méthode conforme pour les critères 1.6 et 
 
 Dans le test [1.6.1](criteres.html#crit-1-6), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](glossaire.html#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
 
-Dans la note technique sur critère [1.6](criteres.html#crit-1-6), le passage concernant l’attribut `longdesc` est supprimé :
+Dans la note technique du critère [1.6](criteres.html#crit-1-6), le passage concernant l’attribut `longdesc` est supprimé :
 <blockquote>
-<p>L’attribut `longdesc` qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.</p>
+L’attribut <code>longdesc</code> qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.
 </blockquote>
 
 Dans le test [1.7.1](criteres.html#crit-1-7), la condition suivante est supprimée : <q>La [description détaillée](glossaire.html#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
 
-Dans le glossaire, l’entrée &laquo;&nbsp;[Description détaillée (image)](glossaire.html#description-detaillee-image)&nbsp;&raquo; est modifiée. L’item <i>Un attribut `longdesc` qui contient l’adresse d’une page ou d’un emplacement dans la page contenant la description détaillée ;</i> est supprimé.
+Dans le glossaire, l’entrée &laquo;&nbsp;[Description détaillée (image)](glossaire.html#description-detaillee-image)&nbsp;&raquo; est modifiée. L’item <q>Un attribut `longdesc` qui contient l’adresse d’une page ou d’un emplacement dans la page contenant la description détaillée</q> est supprimé.
 
 #### Modification du test 4.4.1
 
@@ -113,14 +113,16 @@ Le test [4.4.1](criteres.html#crit-4-4) a été réécrit pour préciser les él
 
 Le test 4.4.1 dans le RGAA 4.1.2 : 
 
-<blockquote><p>Test 4.4.1 :Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?</p></blockquote>
+<blockquote>Test 4.4.1 :Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?</blockquote>
 
 Il a été réécrit dans le RAWeb 1 pour y introduire 3 conditions de tests à vérifier : 
 
 <blockquote>
+
 - Les sous-titres sont dans la langue de la vidéo ;
 - Les sous-titres sont pertinents ;
 - Les sous-titres sont correctement synchronisés.
+
 </blockquote>
 
 ### Suppression des références à des technologies obsolètes
@@ -129,7 +131,7 @@ Dans les critères, le glossaire et les méthodologies, les références à Flas
 
 Les éléments du référentiel impactés sont les suivants : 
 
-- La méthodologie du critère 4.7 : suppression du test <q>le passage de texte est situé à l’extérieur du lecteur de contenu multimédia si ce dernier fait appel à la technologie Flash</q>.
+- La méthodologie du critère [4.7](criteres.html#crit-4-7) : suppression du test <q>le passage de texte est situé à l’extérieur du lecteur de contenu multimédia si ce dernier fait appel à la technologie Flash</q>.
 - L’entrée de glossaire &laquo;&nbsp;Environnement maîtrisé&nbsp;&raquo; : les références à Flash et Silverlight sont supprimées dans le second item de liste <q>Les technologies supportées, leur version et leur activation (JavaScript, WAI-ARIA, Flash, Silverlight…)</q>.
 - L’entrée de glossaire &laquo;&nbsp;Média non temporel&nbsp;&raquo; : toutes les références à Flash, Java et Silverlight ainsi qu’à leurs propriétés y sont supprimées.
 - L’entrée de glossaire &laquo;&nbsp;Média temporel (type son, vidéo et synchronisé) &nbsp;&raquo; : toutes les références à Flash ainsi qu’à ses propriétés y sont supprimées. La note 1 est supprimée : la note 2 devient la note 1, et la note 3 devient la note 2.
@@ -150,7 +152,7 @@ De nouvelles techniques et échecs WCAG sont ajoutés en correspondance de certa
 - Critère [10.7](criteres.html#crit-10-7) : [C40](https://www.w3.org/WAI/WCAG21/Techniques/css/C40).
 - Critère [10.11](criteres.html#crit-10-11) : [C31](https://www.w3.org/WAI/WCAG21/Techniques/css/C31), [C32](https://www.w3.org/WAI/WCAG21/Techniques/css/C32), [C33](https://www.w3.org/WAI/WCAG21/Techniques/css/C33), [C38](https://www.w3.org/WAI/WCAG21/Techniques/css/C38), [F102](https://www.w3.org/WAI/WCAG21/Techniques/failures/F102), [G206](https://www.w3.org/WAI/WCAG21/Techniques/general/G206)
 - Critère [10.12](criteres.html#crit-10-12) : [F104](https://www.w3.org/WAI/WCAG21/Techniques/failures/F104)
-- Critère [10.13](criteres.html#crit-10-13) : [SCR39](https://www.w3.org/WAI/WCAG21/Techniques/html/SCR39)
+- Critère [10.13](criteres.html#crit-10-13) : [SCR39](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39)
 - Critère [11.1](criteres.html#crit-11-1) : [G167](https://www.w3.org/WAI/WCAG21/Techniques/general/G167)
 - Critère [11.2](criteres.html#crit-11-2) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
 - Critère [11.9](criteres.html#crit-11-9) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
@@ -167,4 +169,4 @@ D’autres techniques et échecs ont été supprimés.
 - Critère [1.6](criteres.html#crit-1-6) : suppression de la liaison [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45). 
 - Critère [4.8](criteres.html#crit-4-8) : suppression de la liaison [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35). 
 - Critère [8.1](criteres.html#crit-8-1) : suppression des liaisons [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192).
-- Critère [8.2](criteres.html#crit-8-2) : suppression des liaisons [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
+- Critère [8.2](criteres.html#crit-8.2) : suppression des liaisons [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
