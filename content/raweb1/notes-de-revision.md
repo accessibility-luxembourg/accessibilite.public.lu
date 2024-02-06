@@ -78,9 +78,9 @@ L’[environnement de test Ordinateur](environnement.html) a été modifié afin
 - Internet Explorer a été supprimé, son support n’est plus assuré par Microsoft depuis 2022.
 - Chrome et Edge ont été ajoutés. Edge remplace désormais Internet Explorer sur Microsoft, de plus, il embarque le même moteur que Chrome.
 
-Ces choix sont également confortés des données d’usage, notamment :
+Ces choix sont également confortés par des données d’usage, notamment :
 - l’enquête [WebAIM de 2023](https://webaim.org/projects/screenreadersurvey9/#browsercombos) qui identifie Chrome et Edge comme les navigateurs les plus utilisés par les personnes aveugles ou malvoyantes ; 
-- 
+- l’évaluation 2023 des [parts de marché des navigateurs au Luxembourg par Statcounter GlobalStats](https://gs.statcounter.com/browser-market-share/all/luxembourg/2023).
 
 Ainsi, il n’y a plus qu’un seul environnement de test Ordinateur avec 3 combinaisons.
 
@@ -91,6 +91,21 @@ Le groupe de travail WCAG a publié une <a href="https://www.w3.org/TR/WCAG21/#p
 Le RAWeb étant une transposition des WCAG 2.1, ce choix est appliqué aux critères correspondants dans le RAWeb. Ainsi, les critères [8.1](criteres.html#crit-8-2) et [8.2](criteres.html#crit-8-2) du RAWeb ne sont plus à tester et doivent toujours être considérés comme conformes. 
 
 Les critères sont conservés dans le référentiel (pour préserver la numérotation des critères de la thématique &laquo;&nbsp;Éléments obligatoires&nbsp;&raquo;) et sont accompagnés d’une note.
+
+#### Suppression des références à l’attribut `longdesc`
+
+L’attribut `longdesc` en tant que méthode conforme pour les critères 1.6 et 1.7 est supprimée. En effet, l’attribut `longdesc` a été déclaré obsolète dans la spécification HTML5. De plus, le support de l’attribut est insuffisant au regard de l’environnement de test, on constate notamment une absence de support en environnement mobile (Safari/iOS et Chrome/Talkback). 
+
+Dans le test [1.6.1](criteres.html#crit-1-6), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
+
+Dans la note technique sur critère [1.6](criteres.html#crit-1-6), le passage concernant l’attribut `longdesc` est supprimé :
+<blockquote>
+<p>L’attribut `longdesc` qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.</p>
+</blockquote>
+
+Dans le test [1.7.1](criteres.html#crit-1-7), la condition suivante est supprimée : <q>La [description détaillée](#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
+
+Dans le glossaire, l’entrée &laquo;&nbsp;[Description détaillée (image)](glossaire.html#description-detaillee-image)&nbsp;&raquo; est modifiée. L’item <i>Un attribut `longdesc` qui contient l’adresse d’une page ou d’un emplacement dans la page contenant la description détaillée ;</i> est supprimé.
 
 #### Modification du test 4.4.1
 
@@ -149,6 +164,7 @@ De nouvelles techniques et échecs WCAG sont ajoutés en correspondance de certa
 
 D’autres techniques et échecs ont été supprimés.
 - Critère [1.2](criteres.html#crit-1-2) : suppression de la liaison [ARIA10](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10). 
+- Critère [1.6](criteres.html#crit-1-6) : suppression de la liaison [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45). 
 - Critère [4.8](criteres.html#crit-4-8) : suppression de la liaison [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35). 
 - Critère [8.1](criteres.html#crit-8-1) : suppression des liaisons [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192).
 - Critère [8.2](criteres.html#crit-8.2) : suppression des liaisons [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
