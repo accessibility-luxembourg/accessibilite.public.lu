@@ -128,7 +128,7 @@ L’échantillon sur lequel est réalisé l’audit d’un site web porte au moi
 1. l’ensemble des pages constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs pages) ;
 1. des exemples de pages ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex. : page contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, une fonctionnalité de communication en temps réel, etc.).
 
-La sélection des pages auditées ainsi que leur nombre doivent être représentatifs de du site ou de l’application mobile. Les statistiques de consultation peuvent notamment être prises en compte lors de la constitution de l’échantillon.
+La sélection des pages auditées ainsi que leur nombre doivent être représentatifs du site ou de l’application mobile. Les statistiques de consultation peuvent notamment être prises en compte lors de la constitution de l’échantillon.
 
 Enfin, s’ajoutent des pages sélectionnées au hasard représentant au moins 10 % des éléments de l’échantillon décrit supra.
 
