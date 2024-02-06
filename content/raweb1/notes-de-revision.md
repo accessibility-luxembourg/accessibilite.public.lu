@@ -88,7 +88,7 @@ Ainsi, il n’y a plus qu’un seul environnement de test Ordinateur avec 3 comb
 
 Le groupe de travail WCAG a publié une <a href="https://www.w3.org/TR/WCAG21/#parsing">mise à jour des WCAG 2.1 le 21 septembre 2023</a> indiquant que le <a href="https://www.w3.org/TR/WCAG21/#parsing">critère de succès 4.1.1 <em lng="en">Parsing</em></a> devait dorénavant être toujours considéré comme conforme.
 
-Le RAWeb étant une transposition des WCAG 2.1, ce choix est appliqué aux critères correspondants dans le RAWeb. Ainsi, les critères [8.1](criteres.html#crit-8-2) et [8.2](criteres.html#crit-8-2) du RAWeb ne sont plus à tester et doivent toujours être considérés comme conformes. 
+Le RAWeb étant une transposition des WCAG 2.1, ce choix est appliqué aux critères correspondants dans le RAWeb. Ainsi, les critères [8.1](criteres.html#crit-8-1) et [8.2](criteres.html#crit-8-2) du RAWeb ne sont plus à tester et doivent toujours être considérés comme conformes. 
 
 Les critères sont conservés dans le référentiel (pour préserver la numérotation des critères de la thématique &laquo;&nbsp;Éléments obligatoires&nbsp;&raquo;) et sont accompagnés d’une note.
 
@@ -96,14 +96,14 @@ Les critères sont conservés dans le référentiel (pour préserver la numérot
 
 L’attribut `longdesc` en tant que méthode conforme pour les critères 1.6 et 1.7 est supprimée. En effet, l’attribut `longdesc` a été déclaré obsolète dans la spécification HTML5. De plus, le support de l’attribut est insuffisant au regard de l’environnement de test, on constate notamment une absence de support en environnement mobile (Safari/iOS et Chrome/Talkback). 
 
-Dans le test [1.6.1](criteres.html#crit-1-6), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
+Dans le test [1.6.1](criteres.html#crit-1-6), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](glossaire.html#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
 
 Dans la note technique sur critère [1.6](criteres.html#crit-1-6), le passage concernant l’attribut `longdesc` est supprimé :
 <blockquote>
 <p>L’attribut `longdesc` qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.</p>
 </blockquote>
 
-Dans le test [1.7.1](criteres.html#crit-1-7), la condition suivante est supprimée : <q>La [description détaillée](#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
+Dans le test [1.7.1](criteres.html#crit-1-7), la condition suivante est supprimée : <q>La [description détaillée](glossaire.html#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
 
 Dans le glossaire, l’entrée &laquo;&nbsp;[Description détaillée (image)](glossaire.html#description-detaillee-image)&nbsp;&raquo; est modifiée. L’item <i>Un attribut `longdesc` qui contient l’adresse d’une page ou d’un emplacement dans la page contenant la description détaillée ;</i> est supprimé.
 
@@ -149,7 +149,7 @@ De nouvelles techniques et échecs WCAG sont ajoutés en correspondance de certa
 - Critère [10.4](criteres.html#crit-10-4) : [F94](https://www.w3.org/WAI/WCAG21/Techniques/failures/F94), [G142](https://www.w3.org/WAI/WCAG21/Techniques/general/G142), [G178](https://www.w3.org/WAI/WCAG21/Techniques/general/G178)
 - Critère [10.7](criteres.html#crit-10-7) : [C40](https://www.w3.org/WAI/WCAG21/Techniques/css/C40).
 - Critère [10.11](criteres.html#crit-10-11) : [C31](https://www.w3.org/WAI/WCAG21/Techniques/css/C31), [C32](https://www.w3.org/WAI/WCAG21/Techniques/css/C32), [C33](https://www.w3.org/WAI/WCAG21/Techniques/css/C33), [C38](https://www.w3.org/WAI/WCAG21/Techniques/css/C38), [F102](https://www.w3.org/WAI/WCAG21/Techniques/failures/F102), [G206](https://www.w3.org/WAI/WCAG21/Techniques/general/G206)
-- Critère [10.12](criteres.html#crit-10.12) : [F104](https://www.w3.org/WAI/WCAG21/Techniques/failures/F104)
+- Critère [10.12](criteres.html#crit-10-12) : [F104](https://www.w3.org/WAI/WCAG21/Techniques/failures/F104)
 - Critère [10.13](criteres.html#crit-10-13) : [SCR39](https://www.w3.org/WAI/WCAG21/Techniques/html/SCR39)
 - Critère [11.1](criteres.html#crit-11-1) : [G167](https://www.w3.org/WAI/WCAG21/Techniques/general/G167)
 - Critère [11.2](criteres.html#crit-11-2) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
@@ -167,4 +167,4 @@ D’autres techniques et échecs ont été supprimés.
 - Critère [1.6](criteres.html#crit-1-6) : suppression de la liaison [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45). 
 - Critère [4.8](criteres.html#crit-4-8) : suppression de la liaison [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35). 
 - Critère [8.1](criteres.html#crit-8-1) : suppression des liaisons [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192).
-- Critère [8.2](criteres.html#crit-8.2) : suppression des liaisons [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
+- Critère [8.2](criteres.html#crit-8-2) : suppression des liaisons [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
