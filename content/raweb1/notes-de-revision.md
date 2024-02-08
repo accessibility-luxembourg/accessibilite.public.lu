@@ -76,7 +76,7 @@ Dans la section [&laquo;&nbsp;Taux de conformité à la norme&nbsp;&raquo;](../o
 
 L’[environnement de test Ordinateur](environnement.html) a été modifié afin de s’accorder avec l’évolution des navigateurs : 
 - Internet Explorer a été supprimé, son support n’est plus assuré par Microsoft depuis 2022.
-- Chrome et Edge ont été ajoutés. Edge remplace désormais Internet Explorer sur Microsoft, de plus, il embarque le même moteur que Chrome.
+- Chrome et Edge ont été ajoutés. Edge remplace désormais Internet Explorer sur Microsoft Windows ; de plus, il embarque le même moteur que Chrome.
 
 Ces choix sont également confortés par des données d’usage, notamment :
 - l’enquête [WebAIM de 2023](https://webaim.org/projects/screenreadersurvey9/#browsercombos) qui identifie Chrome et Edge comme les navigateurs les plus utilisés par les personnes aveugles ou malvoyantes ; 
@@ -113,7 +113,7 @@ Le test [4.4.1](criteres.html#crit-4-4) a été réécrit pour préciser les él
 
 Le test 4.4.1 dans le RGAA 4.1.2 : 
 
-<blockquote>Test 4.4.1 :Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?</blockquote>
+<blockquote>Test 4.4.1 : Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?</blockquote>
 
 Il a été réécrit dans le RAWeb 1 pour y introduire 3 conditions de tests à vérifier : 
 
