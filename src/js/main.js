@@ -14,10 +14,11 @@ function toggleExpanded(e) {
 
 function setExpanded(e, status) {
   e.setAttribute('aria-expanded', status)
+  const details = Array.from(e.classList).includes('crit') ? e.nextElementSibling : e.parentNode.nextElementSibling 
   if (status == 'true') {
-    e.parentNode.nextElementSibling.classList.remove('collapsed') 
+    details.classList.remove('collapsed') 
   } else {
-    e.parentNode.nextElementSibling.classList.add('collapsed') 
+    details.classList.add('collapsed') 
   }
 }
 
@@ -56,6 +57,21 @@ function disclosure(e) {
   nodesToMove.forEach(function(e) { 
     container.appendChild(e)
   })
+}
+
+function critDisclosure(e) {
+  var id = e.querySelector('div.details').getAttribute('id')
+  var button = document.createElement("BUTTON")
+  button.textContent = e.querySelector('p.summary').textContent
+  button.id = e.querySelector('p.summary').getAttribute('id')
+  e.querySelector('p.summary').remove()
+  var container = e.querySelector('div.details')
+  button.setAttribute('class', e.getAttribute('class'))
+  button.setAttribute('aria-expanded', 'false')
+  button.setAttribute('aria-controls', id)
+  button.setAttribute('type', 'button')
+  container.setAttribute('class', 'disc')
+  container.insertAdjacentElement('beforebegin', button)
 }
 
 function handleIntersect(className) {
@@ -111,6 +127,19 @@ window.addEventListener('DOMContentLoaded', function (event) {
         document.getElementById('open-disclosure-mapping').addEventListener('change', changeAllCollapsibleStates('mapping'))
         document.getElementById('open-disclosure-methodo').addEventListener('change', changeAllCollapsibleStates('methodo'))
       } 
+
+      // particular case of the criteria
+      var critDisclosures = document.querySelectorAll("#contenu div.crit.disclosure")
+      if (critDisclosures.length != 0) {
+        document.getElementById('disc-control').style.display = 'block'
+        critDisclosures.forEach(function(e) {
+          critDisclosure(e)
+        })
+        changeAllCollapsibleStates('crit')()
+        document.getElementById('open-disclosure-crit').addEventListener('change', changeAllCollapsibleStates('crit'))
+      } else {
+        Array.from(document.querySelectorAll('.open-disclosure-crit-control')).map(e => e.style.display = 'none')       
+      }
       document.getElementById('contenu').addEventListener('click', function(e) {
         for (var target = e.target; target && target != this; target = target.parentNode) {
           if (target.matches && target.matches('button.disclosure')) {
@@ -125,6 +154,31 @@ window.addEventListener('DOMContentLoaded', function (event) {
         document.getElementById('landmarks').innerHTML = '<span lang="en">Landmarks</span>';
       }
 
+      const filterRGAACheckbox = document.getElementById('filter-rgaa')
+      if (filterRGAACheckbox !== null) {  
+        if (Array.from(document.querySelectorAll('.topic.en-norm')).length == 0) {
+          filterRGAACheckbox.style.display = 'none'
+          document.getElementById('filter-rgaa-label').style.display = 'none'
+        } else {
+          filterRGAACheckbox.addEventListener('change', () => {
+            Array.from(document.querySelectorAll('.topic.en-norm, .crit.en-norm, .summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'block')
+            Array.from(document.querySelectorAll('.summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'list-item')
+          })
+        }
+      }
+
+      // manage anchors for tests on the criteria page
+      if (window.location.pathname.match(/raweb.*\/criteres(\.html)?$/)) {
+        const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
+        if (test) {
+          const crit = test[1]+'-'+test[2]
+          console.log(crit)
+          console.log(document.getElementById('summary-crit-'+crit))
+          setExpanded(document.getElementById('summary-crit-'+crit), 'true')
+          document.querySelector(window.location.hash).scrollIntoView();
+        }
+
+      }
     }
 
     

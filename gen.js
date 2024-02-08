@@ -7,7 +7,7 @@ const dotenv = require('dotenv')
 const crypto = require('crypto')
 const sharp = require('sharp');
 const en301549 = require('en301549-links')
-const genRGAA412 = require('./genRGAA412.js')
+const genNewRGAA = require('./genNewRGAA.js')
 const path = require('node:path')
 const hmacPwd = 'a11ylu'
 dotenv.config()
@@ -21,7 +21,7 @@ const outputPath = './src/html'
 
 const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../rgaa4.1.2/index.html">RGAA 4.1.2</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../rgaa4.1.2/notes-revision.html">notes de révision</a>.'
+const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raweb1/index.html">RAWeb1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raweb1/notes-revision.html">notes de révision</a>.'
 
 console.log('prod', production)
 ejs.renderFile('./src/tpl/robots.ejs', {prod: production}, function(err, str){
@@ -48,13 +48,14 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
             if (!$(this).next().is('h3')) {
                 let text = $(this).text().split(':').pop().trim()
                 text = text.replace(/\s\(.+\)/, '')
-                topics.push({"id": $(this).attr('id'), "text": text }) 
+                topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
         $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
             let text = $(this).text()
             if (text.match(/^EN\s301\s549/)) {
                 const version = text.match(/V(\d\.\d\.\d)/)[1]
+                
                 text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
                     let link = ''
                     try {
@@ -73,7 +74,7 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
             if (err !== null) {
                 console.log(err)
             }
-            renderToFile(str, title, file, name, prefix, true)
+            renderToFile(str, title, file, name, prefix, true, error)
         })
     } else {
         renderToFile(data, title, file, name, prefix, false, error)
@@ -139,14 +140,17 @@ function langOnWCAG(str) {
     return `${scCode} ${scTrad}`
 }
 
-function langOnEUNorm(str) {
+function langOnEUNormDeprecated(str) {
     return str.replace(/^(.\..\..\..{1,2}\s?\/\s.\..\..{1,2}\s)(.*)(\s\(.*\))$/, "$1<span lang='en'>$2</span>$3")
 }
 
-function langOnEUNorm412(str) {
+function langOnEUNormFromWCAG(str) {
     return str.replace(/^(.\..\..{1,2}\s)(.*)(\s\(.*\))$/, "9.$1<span lang='en'>$2</span>")
 }
 
+function langOnEUNorm(str) {
+    return str.replace(/^([0-9.]+\s)(.*)$/, "$1<span lang='en'>$2</span>")
+}
 
 // generate criteria in FR
 function mdCriteres(filePath = '') {
@@ -166,7 +170,7 @@ let prefix;
 const criteres = JSON.parse(fs.readFileSync('./content/rgaa4/criteres.json'))
 const niveaux = require('./content/rgaa4.1/niveaux.json')
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormDeprecated, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
@@ -177,29 +181,41 @@ ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres
 const criteres41 = JSON.parse(fs.readFileSync('./content/rgaa4.1/criteres.json'))
 
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormDeprecated, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
     renderToFile(str, "RGAA 4.1: Critères et tests", outputPath+"/fr/rgaa4.1/criteres.html", "rgaa4.1/criteres", prefix, false, deprecationMessage)
 })
 
-// RGAA 4.1.2: generate criteria page
-const criteres412 = genRGAA412.generateCriteria()
+// RGAA 4.1.2 (deprecated): generate criteria page
+const criteres412 = genNewRGAA.generateCriteria('./content/rgaa4.1.2')
 //console.log(JSON.stringify(criteres412, null, 2))
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm412, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (2018-08)"}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol', 'Thématiques')
+    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol', 'Thématiques', deprecationMessage)
 })
 
+// RAWeb 1: generate criteria page
+const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/raweb1')
+const niveauxRAWeb1 = require('./content/raweb1/niveaux.json')
+prefix = "../../.."
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    renderWithSummary(str, "RAWeb 1: Critères et tests", outputPath+"/fr/raweb1/criteres.html", "raweb1/criteres", prefix, 'ol', 'Thématiques')
+})
+
+
 //generate checklist for simplified tests
-const criteresMonit = genRGAA412.generateCriteria('../../../html/fr/rgaa4.1.2/')
+const criteresMonit = genNewRGAA.generateCriteria('./content/raweb1', '../../../html/fr/raweb1/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-ejs.renderFile('./src/tpl/criteria-412.ejs',{topics: criteresMonit.topics, md: mdCriteres('../rgaa4.1.2/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm412, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveaux}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresMonit.topics, md: mdCriteres('../raweb1/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
@@ -235,13 +251,22 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, s
     renderToFile(str, "RGAA 4.1: Glossaire", outputPath+"/fr/rgaa4.1/glossaire.html", "rgaa4.1/glossaire", prefix, false, deprecationMessage)
 })
 
-// RGAA 4.1.2: generate glossary page 
-const glossary412 = genRGAA412.generateGlossary()
-ejs.renderFile('./src/tpl/glossary-412.ejs',{glossary: glossary412, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
+// RGAA 4.1.2 (deprecated): generate glossary page 
+const glossary412 = genNewRGAA.generateGlossary('./content/rgaa4.1.2')
+ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossary412, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix, 'ul', 'Index')
+    renderWithSummary(str, "RGAA 4.1.2: Glossaire", outputPath+"/fr/rgaa4.1.2/glossaire.html", "rgaa4.1.2/glossaire", prefix, 'ul', 'Index', deprecationMessage)
+})
+
+// RAWeb 1: generate glossary page 
+const glossaryRAWeb1 = genNewRGAA.generateGlossary('./content/raweb1')
+ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossaryRAWeb1, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
+    if (err !== null) {
+        console.log(err)
+    }
+    renderWithSummary(str, "RAWeb 1: Glossaire", outputPath+"/fr/raweb1/glossaire.html", "raweb1/glossaire", prefix, 'ul', 'Index')
 })
 
 // generate from all Markdown files

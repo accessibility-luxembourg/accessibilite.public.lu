@@ -44,7 +44,7 @@
                     "title": "Obligations d’accessibilité numérique",
                     "menu": "Les obligations",
                     "name": "obligations",
-                    "md": "./content/rgaa4.1.2/obligations.md", 
+                    "md": "./content/raweb1/obligations.md", 
                     "html": true,
                     "prefix": "../..",
                     "genSummary": "ol", 
@@ -85,7 +85,7 @@
                     "menu": "Kit d'audit",
                     "name": "tools/kit",
                     "html": true,
-                    "md": "./content/rgaa4.1.2/kit-audit.md", 
+                    "md": "./content/raweb1/kit-audit.md", 
                     "prefix": "../../.."
                 },
                 {
@@ -105,60 +105,60 @@
         {
             "title": "Référentiel Web",
             "menu": "<span class='mobile-only'>Référentiel</span> Web",
-            "name": "rgaa4.1.2",
+            "name": "raweb1",
             "children": [
                 {
-                    "title": "Référentiel Général d'Amélioration de l'Accessibilité web (RGAA 4.1.2) : Introduction",
+                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1) : Introduction",
                     "menu": "Introduction",
-                    "name": "rgaa4.1.2/index",
+                    "name": "raweb1/index",
                     "html": true,
-                    "md": "./content/rgaa4.1.2/introduction.md",
+                    "md": "./content/raweb1/introduction.md",
                     "prefix": "../../.."
                 },        
                 {
-                    "title": "RGAA 4.1.2: Critères et tests",
+                    "title": "RAWeb 1: Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "rgaa4.1.2/criteres" 
+                    "name": "raweb1/criteres" 
                 },
                 {
-                    "title": "RGAA 4.1.2: Glossaire",
+                    "title": "RAWeb 1: Glossaire",
                     "menu": "Glossaire",
-                    "name": "rgaa4.1.2/glossaire"
+                    "name": "raweb1/glossaire"
                 }, 
                 {
-                    "title": "RGAA 4.1.2: Méthodologie de test",
+                    "title": "RAWeb 1: Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "rgaa4.1.2/methodo-test",
-                    "md": "./content/rgaa4.1.2/methodologie-de-test.md",
+                    "name": "raweb1/methodo-test",
+                    "md": "./content/raweb1/methodologie-de-test.md",
                     "html": true,
                     "prefix": "../../.." 
                 },                
                 {
-                    "title": "RGAA 4.1.2: Environnement de test",
+                    "title": "RAWeb 1: Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "rgaa4.1.2/environnement",
-                    "md": "./content/rgaa4.1.2/environnement-de-test.md",
+                    "name": "raweb1/environnement",
+                    "md": "./content/raweb1/environnement-de-test.md",
                     "html": true,
                     "prefix": "../../.."
                 },                        
                 {
-                    "title": "RGAA 4.1.2: Références",
+                    "title": "RAWeb 1: Références",
                     "menu": "Références",
-                    "name": "rgaa4.1.2/references",
-                    "md": "./content/rgaa4.1.2/references.md", 
+                    "name": "raweb1/references",
+                    "md": "./content/raweb1/references.md", 
                     "html": true,                    
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RGAA 4.1.2: Notes de révision",
+                    "title": "RAWeb 1: Notes de révision",
                     "menu": "Notes de révision",
-                    "name": "rgaa4.1.2/notes-revision",
+                    "name": "raweb1/notes-revision",
                     "html": true,
-                    "md": "./content/rgaa4.1.2/notes-de-revision-4-1-2.md", 
+                    "md": "./content/raweb1/notes-de-revision.md", 
                     "prefix": "../../.."
                 },
                 {
-                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2",
+                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2.1",
                     "menu": "La méthode de contrôle simplifié",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/controle-simplifie.md", 
@@ -349,6 +349,62 @@
         }           
     ],
     "deprecated": [
+        {
+            "title": "RGAA 4.1.2",
+            "name": "rgaa4.1.2",
+            "children": [
+                {
+                    "title": "Référentiel Général d'Amélioration de l'Accessibilité web (RGAA 4.1.2) : Introduction",
+                    "menu": "Introduction",
+                    "name": "rgaa4.1.2/index",
+                    "html": true,
+                    "md": "./content/rgaa4.1.2/introduction.md",
+                    "prefix": "../../.."
+                },        
+                {
+                    "title": "RGAA 4.1.2: Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "rgaa4.1.2/criteres" 
+                },
+                {
+                    "title": "RGAA 4.1.2: Glossaire",
+                    "menu": "Glossaire",
+                    "name": "rgaa4.1.2/glossaire"
+                }, 
+                {
+                    "title": "RGAA 4.1.2: Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "rgaa4.1.2/methodo-test",
+                    "md": "./content/rgaa4.1.2/methodologie-de-test.md",
+                    "html": true,
+                    "prefix": "../../.." 
+                },                
+                {
+                    "title": "RGAA 4.1.2: Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "rgaa4.1.2/environnement",
+                    "md": "./content/rgaa4.1.2/environnement-de-test.md",
+                    "html": true,
+                    "prefix": "../../.."
+                },                        
+                {
+                    "title": "RGAA 4.1.2: Références",
+                    "menu": "Références",
+                    "name": "rgaa4.1.2/references",
+                    "md": "./content/rgaa4.1.2/references.md", 
+                    "html": true,                    
+                    "prefix": "../../.."
+                },
+                {
+                    "title": "RGAA 4.1.2: Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "rgaa4.1.2/notes-revision",
+                    "html": true,
+                    "md": "./content/rgaa4.1.2/notes-de-revision-4-1-2.md", 
+                    "prefix": "../../.."
+                }
+            ]
+        },
         {
             "title": "RGAA 4.0",
             "name": "rgaa4",

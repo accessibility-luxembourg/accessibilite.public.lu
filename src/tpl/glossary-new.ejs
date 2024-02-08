@@ -1,0 +1,14 @@
+<% Object.keys(glossary).forEach(section => { %>
+    <h3 id="<%= section %>"><%= section %></h3>
+    <% glossary[section].forEach(e => { %>
+        <dl>
+            <dt id="<%= slugify(e.id) %>">
+                <%- md.renderInline(e.title) %>
+            </dt>
+            <dd>
+                <%- e.body %>
+            </dd>
+        </dl>
+    <% }); %>
+<% }) %>
+
