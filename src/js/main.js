@@ -168,11 +168,14 @@ window.addEventListener('DOMContentLoaded', function (event) {
       }
 
       // manage anchors for tests on the criteria page
-      if (window.location.pathname.match(/raweb.*\/criteres\.html$/)) {
+      if (window.location.pathname.match(/raweb.*\/criteres(\.html)?$/)) {
         const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
         if (test) {
           const crit = test[1]+'-'+test[2]
+          console.log(crit)
+          console.log(document.getElementById('summary-crit-'+crit))
           setExpanded(document.getElementById('summary-crit-'+crit), 'true')
+          document.querySelector(window.location.hash).scrollIntoView();
         }
 
       }
