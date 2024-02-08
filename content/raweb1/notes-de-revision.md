@@ -96,20 +96,20 @@ Les critères sont conservés dans le référentiel (pour préserver la numérot
 
 L’attribut `longdesc` en tant que méthode conforme pour les critères 1.6 et 1.7 est supprimée. En effet, l’attribut `longdesc` a été déclaré obsolète dans la spécification HTML5. De plus, le support de l’attribut est insuffisant au regard de l’environnement de test, on constate notamment une absence de support en environnement mobile (Safari/iOS et Chrome/Talkback). 
 
-Dans le test [1.6.1](criteres.html#crit-1-6), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](glossaire.html#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
+Dans le test [1.6.1](criteres.html#test-1-6-1), la condition suivante est supprimée : <q>Il existe un attribut `longdesc` qui donne l’adresse (URL) d’une page ou d’un emplacement dans la page contenant la [description détaillée](glossaire.html#description-detaillee-image)</q>. La méthodologie de test est adaptée en conséquence.
 
 Dans la note technique du critère [1.6](criteres.html#crit-1-6), le passage concernant l’attribut `longdesc` est supprimé :
 <blockquote>
 L’attribut <code>longdesc</code> qui constitue une des conditions du test 1.6.1 (et dont la pertinence est vérifiée avec le test 1.7.1) est désormais considéré comme obsolète par la spécification HTML en cours. La vérification de cet attribut ne sera donc requise que pour les versions de la spécification HTML antérieure à HTML 5.
 </blockquote>
 
-Dans le test [1.7.1](criteres.html#crit-1-7), la condition suivante est supprimée : <q>La [description détaillée](glossaire.html#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
+Dans le test [1.7.1](criteres.html#test-1-7-1), la condition suivante est supprimée : <q>La [description détaillée](glossaire.html#description-detaillee-image) via l’adresse référencée dans l’attribut `longdesc` est pertinente</q>. La méthodologie de test est adaptée en conséquence.
 
 Dans le glossaire, l’entrée &laquo;&nbsp;[Description détaillée (image)](glossaire.html#description-detaillee-image)&nbsp;&raquo; est modifiée. L’item <q>Un attribut `longdesc` qui contient l’adresse d’une page ou d’un emplacement dans la page contenant la description détaillée</q> est supprimé.
 
 #### Modification du test 4.4.1
 
-Le test [4.4.1](criteres.html#crit-4-4) a été réécrit pour préciser les éléments de tests, jugés trop implicites.
+Le test [4.4.1](criteres.html#test-4-4-1) a été réécrit pour préciser les éléments de tests, jugés trop implicites.
 
 Le test 4.4.1 dans le RGAA 4.1.2 : 
 
