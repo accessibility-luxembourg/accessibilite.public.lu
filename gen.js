@@ -349,7 +349,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     function cbfm(fm) {
         data.meta = {...data.meta, ...fm}
     }
-    // temporary comment
+
     data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
     $ = cheerio.load(data.html)
     data.meta.lang = $('body').children().first().attr('lang')
@@ -374,7 +374,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
         data.meta.imgLinkedin = path.basename(data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg'))
 
         // resize images
-        sharp('./content/news/img/'+data.meta.imgName).resize(800,418).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+        sharp('./content/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
         sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
     } else {
         console.error('Teaser image not found in', data.meta.filename)
