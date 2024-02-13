@@ -78,9 +78,9 @@ function handleIntersect(className) {
   return function(entries, observer) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) {
-        document.getElementById('toc').classList.remove(className)
+        document.getElementById('toc')?.classList.remove(className)
       } else{
-        document.getElementById('toc').classList.add(className)
+        document.getElementById('toc')?.classList.add(className)
       }
     })
   }
