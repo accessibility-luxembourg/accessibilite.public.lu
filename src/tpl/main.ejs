@@ -19,7 +19,7 @@
 
     <% if (imgTwitter) { %>
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:image" content="https://accessibilite.public.lu/fr/news/og/<%= imgTwitter %>" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/fr/news/og/<%= (imgTwitter + '?' + Date.now()) %>" />
     <% } else { %>   
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
