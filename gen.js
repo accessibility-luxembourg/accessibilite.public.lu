@@ -382,7 +382,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
 
     // add the date to the html code
     $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:'fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
-    data.html = $.html()
+    data.html = $('body').html()
 
     // sanitize the html code for the atom feed
     $('h2').remove()
