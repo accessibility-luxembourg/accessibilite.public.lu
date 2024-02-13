@@ -29,7 +29,7 @@ node gen.js
 
 npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-success.html ./src/html/fr/monitoring/audit-simpl.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html
 
-cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./dist
+cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
 
 cp -r ./content/news/datasource ./dist/fr/news
 cp -r ./content/news/img ./dist/fr/news
