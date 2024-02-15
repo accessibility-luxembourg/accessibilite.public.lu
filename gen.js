@@ -51,7 +51,7 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
-        $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
+        $('h5.disclosure.mapping + ul>li, .rawebCorr ul>li').each(function(i, elem) {
             let text = $(this).text()
             if (text.match(/^EN\s301\s549/)) {
                 const version = text.match(/V(\d\.\d\.\d)/)[1]
@@ -77,6 +77,28 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
             renderToFile(str, title, file, name, prefix, true, error)
         })
     } else {
+        const $ = cheerio.load(data)
+        $('.rawebCorr ul>li').each(function(i, elem) {
+            let text = $(this).text()
+            if (text.match(/^EN\s301\s549/)) {
+                const version = text.match(/V(\d\.\d\.\d)/)[1]
+
+                let p  =  $(this).find('p:last-child')
+                let content =  p.text()
+                
+                content = content.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
+                    let link = ''
+                    try {
+                        link = en301549.getLink(version, criterion, 'lang="en"')+separator
+                    } catch(e) {
+                        console.log(e, criterion, version)
+                    }
+                    return link
+                })
+                p.html(content)
+            }
+        })
+        data = $('body').html()
         renderToFile(data, title, file, name, prefix, false, error)
     }
 }
@@ -207,7 +229,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: 
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RAWeb 1: Critères et tests", outputPath+"/fr/raweb1/criteres.html", "raweb1/criteres", prefix, 'ol', 'Thématiques')
+    renderWithSummary(str, "RAWeb 1: Critères et tests", outputPath+"/fr/raweb1/criteres.html", "raweb1/criteres", prefix, undefined, 'Thématiques')
 })
 
 

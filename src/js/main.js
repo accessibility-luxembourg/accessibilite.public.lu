@@ -1,5 +1,8 @@
 import { initDisclosure } from "./disclosureMenu"
 
+import { initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, foldMeth, foldNotes, foldTests, rawebOnly } from "./accordion"
+import { initControlPanel, showSettings } from "./control-panel"
+
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
   if (found !== null) {
@@ -181,5 +184,26 @@ window.addEventListener('DOMContentLoaded', function (event) {
       }
     }
 
+    rawebInit();
     
 }, false);
+
+
+
+function rawebInit () {
+  if (document.querySelector('.RAWebMaster')) {
+    initAccordions();
+    initControlPanel();
+  }
+  document.getElementById('btnUnfoldThemes')?.addEventListener('click', unfoldThemes);
+  document.getElementById('btnUnfoldAll')?.addEventListener('click', unfoldAll);
+  document.getElementById('btnFoldAll')?.addEventListener('click', foldAll);
+  document.getElementById('accordion-settings')?.addEventListener('click', showSettings);
+  document.getElementById('rwc1')?.addEventListener('click', foldAll);
+  document.getElementById('rwc2')?.addEventListener('click', foldThemes);
+  document.getElementById('rwc3')?.addEventListener('click', foldTests);
+  document.getElementById('rwc4')?.addEventListener('click', foldMeth);
+  document.getElementById('rwc5')?.addEventListener('click', foldNotes);
+  document.getElementById('rwc6')?.addEventListener('click', foldCorr);
+  document.getElementById('rwc7')?.addEventListener('click', rawebOnly);
+}

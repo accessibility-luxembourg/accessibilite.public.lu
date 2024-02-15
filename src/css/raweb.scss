@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Fira+Sans:wght@300;400;500&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; 
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important; 
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+.RAWebMaster {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.RAWebMaster #static-container {
+  margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .RAWebMaster {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .RAWebMaster .accordion {
+    width: 700px;
+    order: 1;
+  }
+
+  .RAWebMaster #static-container {
+    width: 350px;
+    position: sticky;
+    top: 40px;
+    align-self: flex-start;
+    order: 2;
+    margin: 0;
+  }
+}
+
+.RAWebMaster button {
+  border-style: none;
+}
+
+.RAWebMasterHeader h2 {
+  font: 400 2em "Fira Sans";
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.accordion {
+  margin: 0 1rem;
+  padding: 0;
+  border: 1px solid hsl(0deg 0% 52%);
+  border-radius: 3px;
+}
+
+.accordion h3 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.accordion:focus-within {
+  border-color: hsl(216deg 94% 43%);
+}
+
+.accordion:focus-within h3 {
+  background-color: hsl(0deg 0% 97%);
+}
+
+.accordion > * + * {
+  border-top: 1px solid hsl(0deg 0% 52%);
+}
+
+.accordion-trigger {
+  background: transparent;
+  color: hsl(0deg 0% 13%);
+  display: block;
+  font: 400 1.1rem "Fira Sans";
+  margin: 0;
+  padding: 1rem 1.5rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  outline: none;
+}
+
+.accordion-trigger:focus, .accordion-trigger:hover {
+  background: hsl(216deg 94% 94%);
+}
+
+.accordion-trigger:focus {
+  outline: 4px solid transparent;
+}
+
+.accordion > *:first-child .accordion-trigger, .accordion > *:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.accordion > *:last-child .accordion-trigger, .accordion > *:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.accordion button::-moz-focus-inner {
+  border: 0;
+}
+
+.accordion-title {
+  display: block;
+  pointer-events: none;
+  border: transparent 2px solid;
+  border-radius: 5px;
+  padding: 0.25em;
+  outline: none;
+}
+
+.accordion button span.chapter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #313740;
+  padding: 0.2rem 0 0 0.2rem;
+  box-sizing: border-box;
+  width: 2.2em;
+  height: 2.2rem;
+  text-align: left;
+  color: white;
+  font: 600 0.9rem "Fira Sans";
+  clip-path: polygon(100% 0, 0 100%, 0 0);
+}
+
+.accordion button span.theme-name {
+  display: inline-block;
+  hyphens: auto;
+}
+
+.accordion-trigger:focus .accordion-title {
+  border-color: hsl(216deg 94% 43%);
+}
+
+.accordion-icon {
+  border: solid currentcolor;
+  border-width: 0 2px 2px 0;
+  height: 0.5rem;
+  pointer-events: none;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-60%) rotate(45deg);
+  width: 0.5rem;
+}
+
+.accordion-trigger:focus .accordion-icon,
+.accordion-trigger:hover .accordion-icon {
+  border-color: hsl(216deg 94% 43%);
+}
+
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+.accordion-panel {
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+.accordion-panel[hidden] {
+  padding: 0;
+  border: none;
+}
+
+.accordion code {
+  font: 400 1rem "Fira Sans";
+  color: #4E0110;
+  background-color: transparent;
+  padding: 0 !important;
+}
+
+.accordion h4 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font: 300 1rem "Fira Sans";
+  line-height: 1.4rem;
+  position: relative;
+}
+
+.accordion a.topic-anchor {
+  display: block;
+  width: 1.9rem;
+  height: 1.9rem;
+  background-image: url(../img/hyperlink.svg);
+  background-size: 80%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: none;
+  margin: 0 0 0 auto;
+  position: absolute;
+  left: -1rem;
+  bottom: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .accordion a.topic-anchor {
+    left: auto;
+    right: 5rem;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  .accordion-icon {
+    right: 2em;
+  }
+}
+
+.accordion a.anchor {
+  border-style: none;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+}
+
+.accordion a.anchor img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.accordion h4 span {
+  position: absolute;
+  top: 0;
+  left: -2.5rem;
+  border-radius: 2px;
+  background-color: #313740;
+  width: 1.8rem;
+  padding: 0.2rem 0;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.accordion h4 span.rawebOnly {
+  background-color: #914BDC;
+}
+
+.accordion h4 span.rawebOnly::before, .accordion h4 span.rawebOnly::after, .legends span.critRAWeb::before, .legends span.critRAWeb::after {
+  content: "•";
+  position: absolute;
+  left: 0.8rem;
+}
+
+.accordion h4 span.rawebOnly::before {
+  bottom: -0.5rem;
+}
+
+.accordion h4 span.rawebOnly::after {
+  top: -0.4rem;
+}
+
+.accordion h4 div {
+  position: absolute;
+  top: 0;
+  right: -2.3rem;
+  border-radius: 50%;
+  padding: 1px;
+  width: 1.5rem;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  border: solid 1px #881600;
+  background: #881600 content-box;
+}
+
+.accordion h4 p {
+  margin: 1rem 0;
+  line-height: 1.4rem !important;
+}
+
+.accordion h4 div.aa {
+  background-color: #B06316;
+  border: none;
+}
+
+.accordion a {
+  color: black;
+  border-bottom: 1px solid #19297c;
+  text-decoration: none;
+}
+
+.accordion a:hover {
+  border-bottom: 2px solid #19297c;
+}
+
+.RAWebMaster details summary, .RAWebMasterHeader details summary {
+  margin: 0.5rem 0;
+  font: 500 0.9rem "Fira Sans";
+  cursor: pointer;
+}
+
+.RAWebMaster details.discover > summary {
+  border-radius: 5px;
+  border: 1px solid #e3bd94;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.RAWebMaster details.discover > summary::after {
+  content: '';
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid #15171b;
+  border-inline: 7px solid transparent;
+  transition: 0.2s;
+}
+
+.RAWebMaster details.discover[open] > summary {
+  background: #eeebdc;
+  border-color: white;
+}
+
+.RAWebMaster details.discover[open] > summary::after {
+  transform: rotate(-180deg);
+}
+
+.RAWebMaster details.discover summary::-webkit-details-marker {
+  display: none;
+}
+
+.RAWebMaster details.discover > ul {
+  margin-left: 0.5rem;
+}
+
+.RAWebMaster details h5 {
+  position: relative;
+  margin: 1.7rem 0;
+}
+
+.RAWebMaster details h5, .accordion p, .accordion ul, .accordion ol {
+  font: 300 1rem "Fira Sans" !important;
+  line-height: 1.4rem;
+}
+
+.RAWebMaster details h5 p {
+  margin-left: 2rem;
+  line-height: 1.4rem !important;
+}
+
+.accordion details h5 span {
+  position: absolute;
+  top: 0;
+  left: -1.6rem;
+  font: 500 0.8rem "Fira Sans";
+  border: 1px solid #19297c;
+  border-left: 2px solid white;
+  border-right-width: 3px;
+  padding: 0.1rem 0;
+  text-align: center;
+  width: 3rem;
+  
+}
+
+.accordion details ul li p {
+  margin: 0.3rem 0;
+}
+
+.accordion details ul li p:last-child {
+  font-size: 0.9rem !important;
+  margin-bottom: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.accordion details.methodo {
+  padding: 5px;
+  box-sizing: border-box;
+  max-width: 640px;
+  margin: auto;
+}
+
+.accordion details.methodo summary {
+  font: 400 0.9rem "Fira Sans";
+  list-style-type: ' ';
+  display: inline-block;
+  border: 1px solid #19297c;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.accordion details.methodo div {
+  border: 1px solid black;
+}
+
+.accordion details.methodo p {
+  margin: 0 0 0 0.5rem;
+}
+
+.accordion details.methodo ol, .accordion details.methodo ul {
+  padding: 5px 5px 5px 25px;
+  border-radius: 2px;
+}
+
+.accordion details.methodo ul {
+  line-height: 1.1rem;
+}
+
+.accordion details.methodo[open] summary {
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+  background-color: #19297c;
+  color: white;
+}
+
+.accordion details.methodo ol li {
+  margin: 0.4rem 0;
+}
+
+.accordion details.methodo ol li::marker {
+  font-weight: 500;
+}
+
+.accordion details.methodo strong {
+  font-weight:500;
+}
+
+
+/* Notes panel */
+.RAWebMasterHeader .rawebMargin {
+  margin: 0 0.5rem;
+}
+
+.RAWebMasterHeader aside, .RAWebMaster #control-panel aside {
+  position: relative;
+  margin: 0 auto 2rem auto;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  max-width: 700px;
+  border-radius: 2px;
+}
+
+.RAWebMasterHeader aside h6, .RAWebMaster aside h6 {
+  font: 500 1rem "Fira Sans";
+  padding: 0;
+  margin: 0;
+}
+
+.RAWebMasterHeader aside button {
+  background-color: white;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.RAWebMasterHeader aside button:hover {
+  border-color: grey;
+}
+
+.RAWebMasterHeader aside p {
+  font: 300 1rem "Fira Sans";
+  line-height: 1.6rem;
+}
+
+.RAWebMaster fieldset {
+  border: none;
+}
+
+.RAWebMaster fieldset div {
+  padding: 0.5rem 0;
+}
+
+.RAWebMaster fieldset label {
+  font: 400 0.9rem "Fira Sans";
+}
+
+.floating {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  z-index: 3;
+  transition: left 1s ease-in-out, background-color 0.3s ease-in-out;
+  background-color: rgba(255,255,255,0);
+}
+
+.floating aside {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  transform: translate(0,-50%);
+  left: 0;
+  margin: 0 !important;
+  transition: all 1s ease-in-out;
+  max-width: 290px !important;
+  max-height: 90vh;
+}
+
+.floating aside .content {
+  overflow-y: auto;
+  max-height: 90%;
+}
+
+aside button.settings {
+  display: none;
+}
+
+.floating aside button.settings {
+  display: block;
+  background-image: url(../img/settings.svg);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #313740;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: -2.5rem;
+  border-style: none;
+}
+
+.floating.centered {
+  left: 0;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.floating.centered aside {
+  left: 50%;
+  transform: translate(-45%,-50%);
+  transition: all 1s ease-in-out;
+}
+
+.floating.centered aside button.settings {
+  background-image: url(../img/settings-close.svg);
+}
+
+.floating aside button.settings:focus, .floating aside button.settings:focus-within, .floating aside button.settings:focus-visible {
+  border: solid 2px #881600;
+  background-color: #881600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating {
+    transition: none;
+  }
+
+  .floating aside {
+    transition: none;
+  }
+}
+
+
+/* legends */
+.legends {
+  margin-bottom: 1rem;
+}
+
+.legends > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.legends > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legends > div > div:nth-of-type(odd) {
+  width: 3rem;
+  height: 3rem;
+}
+
+.legends > div > div:nth-of-type(even) {
+  font: 300 1rem "Fira Sans";
+}
+
+.legends span.a, .legends span.aa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.4rem;
+  border-radius: 50%;
+  padding: 1px;
+  width: 1.4rem;
+  color: white;
+  font: 300 0.8rem "Fira Sans";
+  border: solid 1px #881600;
+  background: #881600 content-box;
+}
+
+.legends span.aa {
+  background-color: #B06316;
+  border: none;
+}
+
+.legends span.crit, .legends span.critRAWeb {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font: 300 0.8rem "Fira Sans";
+  border-radius: 2px;
+  background-color: #313740;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.legends span.critRAWeb {
+  background-color: #914BDC;
+}
+
+.legends span.critRAWeb::before {
+  bottom: -0.3rem;
+}
+
+.legends span.critRAWeb::after {
+  top: -0.3rem;
+}
+
+
+
+/* bug fix */
+.RAWebMaster article {
+  margin: 0 !important;
+}
+
+.RAWebMaster #control-panel input {
+  margin-right: 0.3rem !important;
+}
