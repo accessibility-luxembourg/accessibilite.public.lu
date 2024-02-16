@@ -513,7 +513,7 @@ html, body {
 
 .floating aside .content {
   overflow-y: auto;
-  max-height: 90%;
+  max-height: 85vh;
 }
 
 aside button.settings {
@@ -646,4 +646,12 @@ aside button.settings {
 
 .RAWebMaster #control-panel input {
   margin-right: 0.3rem !important;
+}
+
+
+/* glossary */
+
+.glossary-anchor {
+  width: 1rem;
+  height: auto;
 }

@@ -3,7 +3,7 @@
     <% glossary[section].forEach(e => { %>
         <dl>
             <dt id="<%= slugify(e.id) %>">
-                <%- md.renderInline(e.title) %>
+                <%- md.renderInline(e.title) %> <a class="glossary-anchor" href="#<%= slugify(e.id) %>"><img aria-hidden="true" src="../../../img/hyperlink.svg"></a></a>
             </dt>
             <dd>
                 <%- e.body %>
