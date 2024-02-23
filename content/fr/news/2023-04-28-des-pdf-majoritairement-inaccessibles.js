@@ -6,7 +6,7 @@ import 'highcharts/es-modules/masters/modules/exporting.src.js';
 import 'highcharts/es-modules/masters/modules/export-data.src.js';
 import 'highcharts/es-modules/masters/modules/accessibility.src.js';
 import Papa from 'papaparse';
-import Graph from '../../src/js/graph.js';
+import Graph from '../../../src/js/graph.js';
 
 Highcharts.setOptions({                                                                            // highcharts french translations
     lang: Graph.Highcharts_translations

@@ -6,7 +6,7 @@ import 'highcharts/es-modules/masters/modules/export-data.src.js';
 import 'highcharts/es-modules/masters/modules/accessibility.src.js';
 import 'highcharts/es-modules/masters/modules/pattern-fill.src.js';
 import Papa from 'papaparse';
-import Graph from '../../src/js/graph.js';
+import Graph from '../../../src/js/graph.js';
 
 Highcharts.setOptions({                                                                            // highcharts french translations
     lang: Graph.Highcharts_translations
@@ -15,44 +15,74 @@ Highcharts.setOptions({                                                         
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
-        case "dispro":
-            Papa.parse('datasource/2024-01-charge-dispro.csv', {
+        case "complaints":
+            Papa.parse('datasource/complaints.csv', {
+                download: true,
+                header: true,
+                complete: results => {
+                    let c_x = {
+                        categories: Graph.get_cat(results.data, 'Date'),
+                        title: {text: "Date", x: -100}
+                    };
+                    let c_y = {
+                        title: {
+                            text: undefined
+                        }
+                    };
+                    Graph.build_chart(
+                        Highcharts,
+                        "Graphique 7. Réclamations reçues et solutions à court terme proposées", 
+                        "complaints", 
+                        [{data: Graph.get_num(results.data, 'Complaints'), name: "Réclamations", color: {patternIndex: 0}}, {data: Graph.get_num(results.data, 'Solution'), name: "Solutions à court terme proposées"}],
+                        'bar', 
+                        "", 
+                        c_x, 
+                        c_y,
+                        true,
+                        0.2,
+                        'rgb(46, 117, 182)',
+                        '{y}');
+                }
+            });
+        break;
+        case "burden":
+            Papa.parse('datasource/burden.csv', {
                 download: true,
                 header: true,
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Catégories", x: -100}
+                        title: {text: "Raisons", x: -100}
                     };
                     let c_y = {
                         title: {
                             text: undefined
-                        },
-                        max: 40,
+                        }
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 1. Niveau de conformité des sites audités en 2023",                 // char title
-                        "dispro",                                                                      // div ID
-                        [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
-                        'bar',                                                                         // chart type
-                        '',                                                                            // annotations
-                        c_x,                                                                           // xAxis
-                        c_y,                                                                           // yAxis 
-                        false,                                                                         // show legend
-                        0.2,                                                                           // group padding
-                        'transparent',                                                                 // label background color
-                        '{y}%');                                                                       // label format
+                        "Graphique 8. Les cinq raisons principales de charge disproportionnée évoquées, en pourcentage", 
+                        "burden", 
+                        [{data: Graph.get_num(results.data, '2021'), name: "2021", color: {patternIndex: 0}}, {data: Graph.get_num(results.data, '2022'), name: "2022"}],
+                        'bar', 
+                        "", 
+                        c_x, 
+                        c_y,
+                        true,
+                        0.05,
+                        'rgb(46, 117, 182)',
+                        '{y}%');
                 }
             });
         break;
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {                 // create description div linked to charts for screen readers
+document.addEventListener('DOMContentLoaded', function () {               // create description div linked to charts for screen readers
 
     const ob = new IntersectionObserver(Graph.obCallback(loadchart), {threshold: [0.01, 0.3]});
-    ob.observe(document.querySelector('#dispro'));
+    ob.observe(document.querySelector('#complaints'));
+    ob.observe(document.querySelector('#burden'));
 
     window.onkeydown = function () {   // if user navigates with keys charts shall load immediately
         for (let q=0; q<document.querySelectorAll("figure.chart > div:first-of-type:not([data-highcharts-chart])").length; q++) {

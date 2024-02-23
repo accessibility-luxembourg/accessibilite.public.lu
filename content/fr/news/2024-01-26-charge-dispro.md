@@ -5,7 +5,7 @@ tags:
 auteur: Dominique Nauroy
 ---
 
-<script src="../../../../content/news/2024-01-26-charge-dispro.js"></script>
+<script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
 <h2>D’année en année, une charge moins disproportionnée&#8239;?</h2>
 <h3>En trois ans, comment ont évolué les déclarations d’accessibilité sur la question de la charge disproportionnée&#8239;?</h3>
 <hr>
@@ -13,7 +13,7 @@ auteur: Dominique Nauroy
     <p>Les organismes publics peuvent déroger certains contenus publiés en ligne des règles d’accessibilité, en invoquant le motif de la «&#8239;charge disproportionnée&#8239;» lorsqu’il lui est «&#8239;raisonnablement impossible de rendre un contenu ou une fonctionnalité accessible&#8239;». Derrière cette formulation, il est tenu compte notamment des coûts qui devraient être engagés par rapport à l’avantage estimé pour les personnes handicapées.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
-    <img src="../../../../content/news/img/2024-01-charge-dispro.jpg" alt="Image d'illustration représentant un employé de bureau croulant sous les dossiers">
+    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Image d'illustration représentant un employé de bureau croulant sous les dossiers">
     <figcaption>Photo&#8239;: iStock / cyano66</figcaption>
 </figure>
 <p>Ces contenus et fonctionnalités doivent être précisément listés dans la déclaration. Des alternatives doivent pouvoir offrir des contenus et fonctionnalités équivalents... pour autant que leur production ne constitue pas elle-même une charge disproportionnée.</p>
@@ -29,7 +29,7 @@ auteur: Dominique Nauroy
 <p>Enfin, les sites et apps ayant recours à des procédures d’authentification citent systématiquement le système de connexion LuxTrust, service tiers sur lequel ils n’ont pas de prise.</p>
 <figure class="chart">
     <div id="dispro">
-        <img src="../../../../content/news/img/2024-01-dispro-burden.svg" alt="Graphique 1. Éléments les plus fréquemment mentionnés comme charge disproportionnée (voir description ci-dessous).">
+        <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graphique 1. Éléments les plus fréquemment mentionnés comme charge disproportionnée (voir description ci-dessous).">
     </div>
     <details>
         <summary>Description du graphique 1</summary>

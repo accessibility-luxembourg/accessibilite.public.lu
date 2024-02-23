@@ -167,8 +167,8 @@ function mdCriteres(filePath = '') {
 let prefix;
 
 // RGAA 4.0 (deprecated): generate criteria page 
-const criteres = JSON.parse(fs.readFileSync('./content/rgaa4/criteres.json'))
-const niveaux = require('./content/rgaa4.1/niveaux.json')
+const criteres = JSON.parse(fs.readFileSync('./content/fr/rgaa4/criteres.json'))
+const niveaux = require('./content/fr/rgaa4.1/niveaux.json')
 prefix = "../../.."
 ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormDeprecated, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
     if (err !== null) {
@@ -178,7 +178,7 @@ ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres.topics, md: mdCriteres
 })
 
 // RGAA 4.1 (deprecated): generate criteria page 
-const criteres41 = JSON.parse(fs.readFileSync('./content/rgaa4.1/criteres.json'))
+const criteres41 = JSON.parse(fs.readFileSync('./content/fr/rgaa4.1/criteres.json'))
 
 prefix = "../../.."
 ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormDeprecated, shortList: [], message:'', autoTests: {}, levels: niveaux}, function(err, str) {
@@ -189,7 +189,7 @@ ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriter
 })
 
 // RGAA 4.1.2 (deprecated): generate criteria page
-const criteres412 = genNewRGAA.generateCriteria('./content/rgaa4.1.2')
+const criteres412 = genNewRGAA.generateCriteria('./content/fr/rgaa4.1.2')
 //console.log(JSON.stringify(criteres412, null, 2))
 prefix = "../../.."
 ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (2018-08)"}, function(err, str) {
@@ -200,8 +200,8 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdC
 })
 
 // RAWeb 1: generate criteria page
-const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/raweb1')
-const niveauxRAWeb1 = require('./content/raweb1/niveaux.json')
+const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
+const niveauxRAWeb1 = require('./content/fr/raweb1/niveaux.json')
 prefix = "../../.."
 ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
     if (err !== null) {
@@ -212,7 +212,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: 
 
 
 //generate checklist for simplified tests
-const criteresMonit = genNewRGAA.generateCriteria('./content/raweb1', '../../../html/fr/raweb1/')
+const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb1', '../../../html/fr/raweb1/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
 ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresMonit.topics, md: mdCriteres('../raweb1/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
@@ -234,7 +234,7 @@ const mdGlossary = MarkdownIt({
 }).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
 
 // RGAA 4.0 (deprecated): generate glossary page 
-const glossary = JSON.parse(fs.readFileSync('./content/rgaa4/glossaire.json'))
+const glossary = JSON.parse(fs.readFileSync('./content/fr/rgaa4/glossaire.json'))
 ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
@@ -243,7 +243,7 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary, prefix: prefix, slu
 })
 
 // RGAA 4.1 (deprecated): generate glossary page 
-const glossary41 = JSON.parse(fs.readFileSync('./content/rgaa4.1/glossaire.json'))
+const glossary41 = JSON.parse(fs.readFileSync('./content/fr/rgaa4.1/glossaire.json'))
 ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
@@ -252,7 +252,7 @@ ejs.renderFile('./src/tpl/glossary.ejs',{glossary: glossary41, prefix: prefix, s
 })
 
 // RGAA 4.1.2 (deprecated): generate glossary page 
-const glossary412 = genNewRGAA.generateGlossary('./content/rgaa4.1.2')
+const glossary412 = genNewRGAA.generateGlossary('./content/fr/rgaa4.1.2')
 ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossary412, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
@@ -261,7 +261,7 @@ ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossary412, prefix: pref
 })
 
 // RAWeb 1: generate glossary page 
-const glossaryRAWeb1 = genNewRGAA.generateGlossary('./content/raweb1')
+const glossaryRAWeb1 = genNewRGAA.generateGlossary('./content/fr/raweb1')
 ejs.renderFile('./src/tpl/glossary-new.ejs',{glossary: glossaryRAWeb1, prefix: prefix, slugify: slugify, md: mdGlossary}, function(err, str) {
     if (err !== null) {
         console.log(err)
@@ -278,7 +278,7 @@ const home = md.find(x => {return x.name == 'index'})
 md = md.filter(x => {return x.name != 'index'})
 
 const deprecated = config.deprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
-const news = fs.readdirSync('./content/news')
+const news = fs.readdirSync('./content/fr/news')
 
 function genericMarkdownIt(page) {
     let html = false
@@ -350,7 +350,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
         data.meta = {...data.meta, ...fm}
     }
 
-    data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/news/'+e).toString())
+    data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/fr/news/'+e).toString())
     $ = cheerio.load(data.html)
     data.meta.lang = $('body').children().first().attr('lang')
     data.meta.title_html = $('h2').first().html()
@@ -365,7 +365,7 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
     } 
 
     if (data.meta.teaser) {
-        data.meta.img = '../../../../content/news/img/'+data.meta.teaser
+        data.meta.img = '../../../../content/fr/news/img/'+data.meta.teaser
         data.meta.imgName = data.meta.teaser
     }
 
@@ -374,8 +374,8 @@ let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
         data.meta.imgLinkedin = path.basename(data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg'))
 
         // resize images
-        sharp('./content/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
-        sharp('./content/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
+        sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+        sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
     } else {
         console.error('Teaser image not found in', data.meta.filename)
     }
