@@ -1,0 +1,4 @@
+When citizens encounter an accessibility issue with a public body's site or mobile application, they can contact the body concerned via the contact information available in the accessibility statement.
+If this procedure does not give them satisfaction, they can contact the [Information and press service](https://sip.temporel.lu/fr.html), the body responsible for monitoring accessibility, via its [complaint form online](https://sip.temporel.lu/fr/support/reclamation-accessibilite.html), or the [Ombudsman](http://www.ombudsman.lu/), mediator of the Grand Duchy of Luxembourg. The Information and Press Department undertakes to respond to any complaint by email within one month at the latest.
+
+For any complaints relating to digital accessibility, do not hesitate to use our [complaint form](https://sip.temporel.lu/fr/support/reclamation-accessibilite.html).
