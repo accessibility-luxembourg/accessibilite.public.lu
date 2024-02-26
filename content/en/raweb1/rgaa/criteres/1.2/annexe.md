@@ -16,7 +16,7 @@ Techniques:
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content
-  - criteria: 9.4.1.2
+  - criterion: 9.4.1.2
     title: Name, Role, Value
 ---
 

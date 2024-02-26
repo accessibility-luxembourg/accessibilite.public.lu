@@ -43,6 +43,7 @@ npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-s
 
 cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
 
+mkdir -p ./dist/en/news
 cp -r ./content/fr/news/datasource ./dist/fr/news
 cp -r ./content/en/news/datasource ./dist/en/news
 cp -r ./content/fr/news/img ./dist/fr/news

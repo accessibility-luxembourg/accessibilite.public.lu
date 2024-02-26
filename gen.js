@@ -5,7 +5,7 @@ const news = require('./scripts/news.js')
 
 dotenv.config()
 
-const langs = ['fr']
+const langs = ['fr', 'en']
 const config = {}
 config['fr'] = require('./scripts/config_fr.js').config
 config['en'] = require('./scripts/config_en.js').config
