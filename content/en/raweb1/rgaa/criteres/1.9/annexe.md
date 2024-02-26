@@ -8,7 +8,7 @@ WCAG:
     level: A
 Techniques:
   - ARIA4
-  -ARIA6
+  - ARIA6
   - G140
 Norm:
   - criterion: 9.1.1.1
