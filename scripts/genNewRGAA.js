@@ -166,7 +166,7 @@ function generateCriteria(path, rgaaPath = '') {
     }
 
     // Organize criteria by topic
-    const topics = Object.entries(require(path+"/themes.json")).map((t) => {
+    const topics = Object.entries(require('../'+path+"/themes.json")).map((t) => {
         const topicNumber = t[0];
         return {
             topic: t[1].title,

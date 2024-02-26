@@ -1,11 +1,11 @@
 {
-    "lang": [
+    "declaLangs": [
         {"name": "français", "code": "fr"},
         {"name": "allemand", "code": "de"},
         {"name": "anglais", "code": "en"},
         {"name": "luxembourgeois", "code": "lb"}
     ],
-
+    "langs": ["fr", "en"],
     "mainMenu": [
         {
             "title": "Accueil",
