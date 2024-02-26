@@ -7,9 +7,9 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  -ARIA6
-  -ARIA9
-  -ARIA10
+  - ARIA6
+  - ARIA9
+  - ARIA10
   - F30
   - F71
   - G94

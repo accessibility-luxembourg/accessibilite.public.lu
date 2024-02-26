@@ -1,9 +1,15 @@
 import ejs from 'ejs'
-import {lang } from '../../conf.json'
 import { copyTextToClipboard } from './clipboard.js';
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import formDataEntries from 'form-data-entries'
+
+const lang = [
+    {"name": "français", "code": "fr"},
+    {"name": "allemand", "code": "de"},
+    {"name": "anglais", "code": "en"},
+    {"name": "luxembourgeois", "code": "lb"}
+]
 
 function errorMessage(inputElt, textMsg) { 
     if (textMsg !== null && arguments.length > 1) {

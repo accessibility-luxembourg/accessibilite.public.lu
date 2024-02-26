@@ -9,6 +9,7 @@ const fs = require('fs')
 const ejs = require('ejs')
 const MarkdownIt = require('markdown-it')
 const yaml = require('yaml')
+const config = require('./config_fr.js').config
 
 
 function newsMarkdownIt(cbFM) {
@@ -29,7 +30,7 @@ function newsMarkdownIt(cbFM) {
 }
 
 
-function genNews(outputPath, baseURL) {
+function genNews(config, outputPath, baseURL) {
     const news = fs.readdirSync('./content/fr/news')
 
     let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
@@ -110,14 +111,14 @@ function genNews(outputPath, baseURL) {
         articles = articles.filter(e => {return e.date <= new Date()})
     }
     
-    lib.genFile('./src/tpl/articles_list.ejs', {data: articles}, 'Actualités', outputPath+'/fr/news/index.html', 'news/index', '../../../', true)
+    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, 'Actualités', outputPath+'/fr/news/index.html', 'news/index', '../../../', true)
     
     const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
     
     lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/fr/news/feed.xml')
     
     articles.forEach((e, i, ar) => {
-        lib.genFile('./src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
+        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
     })
     return articles
 }
