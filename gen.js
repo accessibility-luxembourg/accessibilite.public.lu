@@ -18,7 +18,7 @@ const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuille
 console.log('prod', production)
 lib.genRawFile('./src/tpl/robots.ejs', {prod: lib.isProd()}, outputPath+'/robots.txt')
 
-let prefix, data
+let data
 
 // RGAA 4.0 (deprecated): generate criteria page 
 const criteres = JSON.parse(fs.readFileSync('./content/fr/rgaa4/criteres.json'))
@@ -101,7 +101,7 @@ lib.renderHome(home, articles.slice(0, 3), outputPath)
 lib.genFile('./src/tpl/outline.ejs',{config: config}, "Plan du site", outputPath+"/fr/plan-site.html", "plan-site", '../..')
 
 // generate declaration form
-let declaPayload = {lang: config.declaLangs, prefix: prefix, tpl: []};
+let declaPayload = {lang: config.declaLangs, prefix: "../../..", tpl: []};
 config.declaLangs.forEach(e => {
     declaPayload["tpl"][e.code] = fs.readFileSync('./src/tpl/decla_'+e.code+'.ejs')
 });
