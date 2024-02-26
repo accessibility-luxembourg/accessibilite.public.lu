@@ -1,0 +1,59 @@
+---
+title: List of possible values for the `autocomplete` attribute
+---
+
+[The list of available values](https://www.w3.org/Translations/WCAG21-fr/#input-purposes) is provided by the WCAG 2.1 specification:
+
+- `name` -- Full name;
+- `honorific-prefix` -- Abbreviation, civility or title;
+- `given-name` -- First name;
+- `additional-name` -- Additional first names;
+- `family-name` -- Family name;
+- `honorific-suffix` -- Honorific suffix;
+- `nickname` -- Nickname, diminutive;
+- `organization-title` -- Function, job title;
+- `username` -- Username;
+- `new-password` -- New password (for example, when creating an account or changing password);
+- `current-password` -- Current password for the account identified by the `username` field (for example, when logging in);
+- `organization` -- Name of the organization matching the person, address or contact information in other fields associated with this field;
+- `street-address` -- Street address (multi-line, newlines preserved);
+- `address-line1` -- Mailing address (one line per field, line 1);
+- `address-line2` -- Mailing address (one line per field, line 2);
+- `address-line3` -- Postal address (one line per field, line 3);
+- `address-level4` -- The most detailed administrative level, for addresses with four administrative levels;
+- `address-level3` -- The third administrative level, for addresses with at least three administrative levels;
+- `address-level2` -- The second administrative level, for addresses with at least two administrative levels;
+- `address-level1` -- The largest administrative level of an address, i.e. the province in which the locality is located;
+- `country` -- Country code;
+- `country-name` -- Country name;
+- `postal-code` -- Postal code, CEDEX code (if CEDEX is present, add “CEDEX”, and whatever follows it must be added in the `address-level2` field);
+- `cc-name` -- Full name on the payment method;
+- `cc-given-name` -- First name appearing on the payment method;
+- `cc-additional-name` -- Additional first names appearing on the payment method;
+- `cc-family-name` -- Last name on the payment method;
+- `cc-number` -- Code identifying the payment method (e.g., a credit card number);
+- `cc-exp` -- Expiration date of the payment method;
+- `cc-exp-month` -- The month of the expiration date of the payment method;
+- `cc-exp-year` -- The year of the expiration date of the payment method;
+- `cc-csc` -- Payment method security code <span lang="en">(also known as the card security code (CSC), card validation code (CVC), card verification value (CVV), signature panel code (SPC), credit card ID (CCID), etc.)</span>;
+- `cc-type` -- Type of payment method (e.g. Visa);
+- `transaction-currency` -- The currency the user prefers during a transaction;
+- `transaction-amount` -- The amount that the user prefers during a transaction (e.g., in response to an auction or a sale price);
+- `language` -- Preferred language;
+- `bday` -- Birthday date;
+- `bday-day` -- The day of the birthday;
+- `bday-month` -- The month of the birthday;
+- `bday-year` -- The year of the birthday;
+- `sex` -- Gender identity;
+- `url` -- Home page or other web page matching the organization, person, address or contact information in other fields associated with this field;
+- `photo` -- Photograph, icon or other image matching the organization, person, address or contact information in other fields associated with this field;
+- `tel` -- Full telephone number, including country code;
+- `tel-country-code` -- Country code of the telephone number;
+- `tel-national` -- Telephone number without the country code part, with an internal country prefix, if applicable;
+- `tel-area-code` -- Area code of the telephone number, with an internal country prefix, if applicable;
+- `tel-local` -- Telephone number without the country code part or the area code;
+- `tel-local-prefix` -- The first part of the telephone number component following the area code, when this component is split into two parts;
+- `tel-local-suffix` -- The second part of the telephone number component following the area code, when this component is split into two parts;
+- `tel-extension` -- Telephone number of an internal extension;
+- `email` -- Email address;
+- `impp` -- Corresponding URL of an instant messaging protocol (for example, `"aim:goim?screenname=example"` or `"xmpp:fred@example.net"`).

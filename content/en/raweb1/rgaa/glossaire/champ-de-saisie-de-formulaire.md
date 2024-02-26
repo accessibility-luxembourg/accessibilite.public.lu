@@ -1,0 +1,55 @@
+---
+title: Form input field
+---
+
+Object of a form allowing the user:
+
+- To enter textual or preformatted data:
+  - `input type="text"`;
+  - `input type="password"`;
+  - `input type="search"`;
+  - `input type="email"`;
+  - `input type="number"`;
+  - `input type="tel"`;
+  - `input type="url"`;
+  - `textarea`.
+- To select predefined values:
+  - `input type="checkbox"`;
+  - `input type="radio"`;
+  - `input type="date"`;
+  - `input type="range"`;
+  - `input type="color"`;
+  - `input type="time"`;
+  - `input type="month"`;
+  - `input type="week"`;
+  - `input type="datetime-local"`;
+  - `select`;
+  - `datalist`;
+  - `optgroup`;
+  - `option`.
+- To download files:
+  - `input type="file"`.
+- Or display results:
+  - `output`;
+  - `progress`;
+  - `meter`.
+- Tags with a WAI-ARIA role allowing a form field to be rendered are also covered by this definition:
+  - `progressbar`;
+  - `slider`;
+  - `spinbutton`;
+  - `textbox`;
+  - `listbox`;
+  - `searchbox`;
+  - `combobox`;
+  - `option`;
+  - `checkbox`;
+  - `radio`;
+  - `switch`.
+- The following WAI-ARIA form and role objects are not considered form fields:
+  - `input type="submit"`;
+  - `input type="reset"`;
+  - `input type="hidden"`;
+  - `input type="image"`;
+  - `input type="button"`;
+  - `button`;
+  - WAI-ARIA `role="button"` attribute.
