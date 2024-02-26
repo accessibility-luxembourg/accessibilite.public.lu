@@ -3,7 +3,7 @@
     <h<%= title_level %>>Accessibilitéitsdeklaratioun</h<%= title_level %>>
     <% } %>
     <p>
-        D'Organ <span class="basic-information organization-name">"<%= name_lu %>"</span> verflicht sech derzou 
+        D'Organ <span class="basic-information organization-name">"<%= name_lb %>"</span> verflicht sech derzou 
         <% if (sites.length != 0 ) { %>
             <% if (sites.length == 1) { %>
                 säi Site
@@ -129,46 +129,46 @@
         <% } %>
     
     </p>
-    <% if (nc_lu.length !== 0 || cd_lu.length !== 0 || ce_lu.length !== 0) { %>
+    <% if (nc_lb.length !== 0 || cd_lb.length !== 0 || ce_lb.length !== 0) { %>
     <h<%= title_level+1 %>>Net-accessibelen Inhalt</h<%= title_level+1 %>>
     <p>Déi hei opgelëschten Inhalter sinn aus follgende Grënn net accessibel:</p>
     <% } %>
-    <% if (nc_lu.length !== 0) {  %>
+    <% if (nc_lb.length !== 0) {  %>
         <h<%= title_level+2 %>>Net Konformitéit</a></h<%= title_level+2 %>>
-        <% if (nc_lu.length == 1) { %>
-            <p class="technical-information accessibility-limitations non-compliant"><%= nc_lu[0] %></p>
+        <% if (nc_lb.length == 1) { %>
+            <p class="technical-information accessibility-limitations non-compliant"><%= nc_lb[0] %></p>
         <% } else { %>
-            <ul><% nc_lu.forEach(function(e){ %>
+            <ul><% nc_lb.forEach(function(e){ %>
                 <li class="technical-information accessibility-limitations non-compliant"><%= e %></li>
             <% }) %>
             </ul>
         <% } %>
     <% } %>
-    <% if (cd_lu.length !== 0) { %>
+    <% if (cd_lb.length !== 0) { %>
         <h<%= title_level+2 %>>Onverhältnesméisseg Belaaschtung</h<%= title_level+2 %>>
-        <% if (cd_lu.length == 1) { %>
-            <p class="technical-information accessibility-limitations disproportionate-burden"><%= cd_lu[0] %></p>
+        <% if (cd_lb.length == 1) { %>
+            <p class="technical-information accessibility-limitations disproportionate-burden"><%= cd_lb[0] %></p>
         <% } else { %>
-            <ul><% cd_lu.forEach(function(e){ %>
+            <ul><% cd_lb.forEach(function(e){ %>
                 <li class="technical-information accessibility-limitations disproportionate-burden"><%= e %></li>
             <% }) %>
             </ul>    
         <% } %>
     <% } %> 
-    <% if (ce_lu.length !== 0) { %>
+    <% if (ce_lb.length !== 0) { %>
         <h<%= title_level+2 %>>Inhalter, op déi <a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo" hreflang="fr">d'Gesetz vum 28. Mee 2019</a> sech net applizéiert</h<%= title_level+2 %>>
-        <% if (ce_lu.length == 1) { %>
-            <p class="technical-information accessibility-limitations exception"><%= ce_lu[0] %></p>
+        <% if (ce_lb.length == 1) { %>
+            <p class="technical-information accessibility-limitations exception"><%= ce_lb[0] %></p>
         <% } else { %>
-            <ul><% ce_lu.forEach(function(e){ %>
+            <ul><% ce_lb.forEach(function(e){ %>
                 <li class="technical-information accessibility-limitations exception"><%= e %></li>
             <% }) %>
             </ul>    
         <% } %>
     <% } %>
-    <% if (access_features_lu !== "") { %>
+    <% if (access_features_lb !== "") { %>
         <h<%= title_level+1 %>>Accessibilitéitsfunktiounen</h<%= title_level+1 %>>
-        <p class="technical-information accessibility-features"><%= access_features_lu %></p>
+        <p class="technical-information accessibility-features"><%= access_features_lb %></p>
         <% } %>                      
     <h<%= title_level+1 %>>Virbereedung vun dëser Accessibilitéitsdeklaratioun</h<%= title_level+1 %>>
     <p>
@@ -213,7 +213,7 @@
 
         fixéiert sinn, wéi 
         <% if (eval_type == 'auto') { %>
-            eng Eegen-Evaluatioun vum Organ "<%= name_lu %>".
+            eng Eegen-Evaluatioun vum Organ "<%= name_lb %>".
         <% } else { %>
             eng Evaluatioun vun engem Drëtten "<%= thirdparty_name %>".
         <% } %>
