@@ -4,7 +4,7 @@ According to the [Luxembourg law of May 28, 2019](http://legilux.public.lu/eli/e
 
 In this context, the PDF framework was developed to serve as a basis for evaluation and implementation for all public sector organizations affected by the law.
 
-This framework provides an operational framework for verifying compliance with accessibility requirements. Therefore, it makes it possible to verify that a PDF document complies with the criteria described in the European standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/ 03.02.01_60/en_301549v030201p.pdf) for Section 10 *Non-web documents*{lang=en}.
+This framework provides an operational framework for verifying compliance with accessibility requirements. Therefore, it makes it possible to verify that a PDF document complies with the criteria described in the European standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/ 03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
 
 It includes 46 control criteria.
 

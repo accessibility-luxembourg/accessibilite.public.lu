@@ -1,4 +1,4 @@
-On this page you will find all the documents published in *open data*{lang=en} by the SIP as part of its mission relating to digital accessibility:
+On this page you will find all the documents published in open data by the SIP as part of its mission relating to digital accessibility:
 
 ### Control 2023
 - [Sample for digital accessibility control 2023](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2023/)
@@ -9,7 +9,7 @@ On this page you will find all the documents published in *open data*{lang=en} b
 - [Simplified digital accessibility audits 2022](https://data.public.lu/fr/datasets/audits-simplifies-de-laccessibilite-numerique-2022/)
 
 ### Control 2020-2021
-- [Digital accessibility monitoring report - 2020-2021](https://data.public.lu/fr/datasets/digital-accessibility-monitoring-report-2020-2021/){lang=en}
+- [Digital accessibility monitoring report - 2020-2021](https://data.public.lu/fr/datasets/digital-accessibility-monitoring-report-2020-2021/)
 - [Sample for digital accessibility control 2020-2021](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2020-2021/)
 - [Simplified digital accessibility audits 2020-2021](https://data.public.lu/fr/datasets/audits-simplifies-de-laccessibilite-numerique-2020-2021/)
 - [Complete digital accessibility audits 2020-2021](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2020-2021/)
@@ -26,5 +26,5 @@ On this page you will find all the documents published in *open data*{lang=en} b
 - [Accessibility declarations](https://data.public.lu/fr/datasets/declarations-daccessibilite/)
 - [History of complaints relating to digital accessibility](https://data.public.lu/fr/datasets/histoire-des-reclamations-relatives-a-laccessibilite-numerique/)
 
-### Open Source{lang=en}
-The SIP also publishes all the software necessary for its mission on the Github platform, on the organization [Accessibility-Luxembourg](https://github.com/accessibility-luxembourg){lang=en}.
+### Open Source
+The SIP also publishes all the software necessary for its mission on the Github platform, on the organization [Accessibility-Luxembourg](https://github.com/accessibility-luxembourg).

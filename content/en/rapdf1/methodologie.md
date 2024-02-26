@@ -67,7 +67,7 @@ welcome to “Help\>Welcome dialog”.
 ###### Vocal synthesis
 
 If you are using Windows 10 and above, you can use the voices of the
-Narrator, called *OneCore*{lang="en"} voices. If you do not have
+Narrator, called OneCore voices. If you do not have
 the necessary voices, you must first of all [download the languages of
 speech synthesis for
 Windows](https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612 -b3ae-423f-afa5-4f6caf1ec5d3).

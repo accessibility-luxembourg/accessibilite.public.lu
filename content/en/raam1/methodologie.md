@@ -10,13 +10,13 @@ We also refer you to the documentation of language editors and application creat
 
 #### Android
 - [Android Accessibility Help](https://support.google.com/accessibility/android?hl=fr): description of assistive technologies and accessibility features found on Android systems.
-- [Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing){lang=en}&nbsp;: presentation of tools and methods for evaluating the accessibility of Android apps.
-- [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps){lang=en}: general development principles to respect certain accessibility rules.
-- [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility){lang=en}: set of resources for designing and developing accessible Android applications.
+- [Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing)&nbsp;: presentation of tools and methods for evaluating the accessibility of Android apps.
+- [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps): general development principles to respect certain accessibility rules.
+- [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility): set of resources for designing and developing accessible Android applications.
 
 ####iOS
 - [iOS Accessibility](https://www.apple.com/fr/accessibility/): description of assistive technologies and accessibility features present on iOS systems.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/){lang=en}: General principles of accessibility for application interfaces mobile on iOS.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/): General principles of accessibility for application interfaces mobile on iOS.
 - [Videos and Tutorials](https://developer.apple.com/videos/frameworks/accessibility/): set of videos providing demonstrations of assistive technologies available on iOS or showing technical development methods to take take accessibility into account.
 
 ### Assessment tools
@@ -90,27 +90,27 @@ A configuration guide allows you to configure your external keyboard step by ste
 - *Select*: Press the keyboard key you want to associate (we recommend <kbd>Enter</kbd> to keep the keys used when browsing on a computer).
 
 Once the first configuration step is completed (with the configuration guide), it will be necessary to configure other navigation keys:
-- *Switch Access*{lang=en} *> Settings > Assign switches for search*: Associate the *Switch to previous option* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
-- *Switch Access*{lang=en} *> Settings > Assign switches to actions*: Associate the *Return* setting with a key or key combination (we recommend <kbd>ESC</kbd>)
+- *Switch Access > Settings > Assign switches for search*: Associate the *Switch to previous option* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
+- *Switch Access > Settings > Assign switches to actions*: Associate the *Return* setting with a key or key combination (we recommend <kbd>ESC</kbd>)
 
 #### Testing applications
 
 ##### iOS (macOS)
 
-Some methodology elements will offer you several testing methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to plug the terminal into a computer with macOS and use the **Accessibility Inspector**{lang=en} application.
+Some methodology elements will offer you several testing methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to plug the terminal into a computer with macOS and use the **Accessibility Inspector** application.
 
-**[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html){lang=en}** is available from the software [Xcode](https ://apps.apple.com/fr/app/xcode/id497799835?mt=12) used for mobile application development. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode > Open Developer Tool > Accessibility Inspector*{lang=en}.
+**[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)** is available from the software [Xcode](https ://apps.apple.com/fr/app/xcode/id497799835?mt=12) used for mobile application development. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode > Open Developer Tool > Accessibility Inspector*.
 
 ##### Android
 
 To perform certain tests on Android applications, third-party applications are required or can help you in the evaluation.
 
 - [**Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=fr&gl=US): Android application allowing you to add options and gestures to the Talkback screen reader.
-- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=fr&gl=US){lang=en}&nbsp ;: Android application allowing you to carry out automatic tests for certain criteria. Once installed, access the application from *Settings > Accessibility > Installed services >* *Accessibility Scanner*{lang="en"}.
+- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=fr&gl=US)&nbsp ;: Android application allowing you to carry out automatic tests for certain criteria. Once installed, access the application from *Settings > Accessibility > Installed services > Accessibility Scanner*.
 
 ##### iOS and Android
 
-- [Color Contrast Analyzer (CCA)](https://www.tpgi.com/color-contrast-checker/){lang=en}: tool for evaluating contrasts from the computer available on Mac and Windows .
+- [Color Contrast Analyzer (CCA)](https://www.tpgi.com/color-contrast-checker/): tool for evaluating contrasts from the computer available on Mac and Windows .
 
 #### Broadcast the mobile terminal screen
 
@@ -133,7 +133,7 @@ There are a number of software (free or paid) to stream the iOS terminal to a Wi
 
 ##### Android
 
-There is an *open source*{lang=en} application that allows you to distribute an Android application on **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy).
+There is an open source application that allows you to distribute an Android application on **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy).
 
 On a macOS environment, its installation may require some technical knowledge. On Windows, it is used as a standard application. However, it is not essential that you project your mobile terminal, you can do without this installation (another method is detailed later in the document).
 

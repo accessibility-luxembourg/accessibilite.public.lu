@@ -20,7 +20,7 @@ Furthermore, form-type content is addressed in an additional theme and is reduce
 
 The evaluation and adaptation of these elements require the intervention of specialists and the use of technical software (screen readers, layout software compatible with the PDF format or the Acrobat Pro working environment).
 
-The same applies when the PDF document comes from specialized software, in particular DTP (Computer Aided Publication) software or a specialized publishing chain, in this case you must refer directly to the standard [EN 301 549 v .3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 *Non-web documents*{lang=en}.
+The same applies when the PDF document comes from specialized software, in particular DTP (Computer Aided Publication) software or a specialized publishing chain, in this case you must refer directly to the standard [EN 301 549 v .3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
 
 ### Non-compliant content type {class="no-summary"}
 
@@ -65,7 +65,7 @@ Only the content of the criterion and the tests has normative value.
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each image [carrying information](glossary.md#carrying-information) have a [textual alternative](glossary .md#alternative-textual)? {id="crit-1-2"}
 - **[Test 1.2.1](#test-1-2-1)** Does each image [information carrier](glossary.md#information-carrier) satisfy one of these conditions? ? {id="test-1-2-1"}
@@ -87,7 +87,7 @@ Only the content of the criterion and the tests has normative value.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [information carrier](glossaire.md#information-carrier) having a [textual alternative](glossaire.md# textual-alternative), is this alternative relevant? {id="crit-1-3"}
 - **[Test 1.3.1](#test-1-3-1)** For each image [information carrier](glossary.md#information-carrier) having a [textual alternative](glossary. md#alternative-textual), is this alternative relevant? {id="test-1-3-1"}
@@ -106,7 +106,7 @@ Only the content of the criterion and the tests has normative value.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each [information carrier](glossary.md#information-carrier) image have, if necessary, a [description detailed](glossary.md#detailed-description)? {id="crit-1-4"}
 - **[Test 1.4.1](#test-1-4-1)** Each image [information carrier](glossary.md#information-carrier) which requires a [detailed description](glossary. md#detail-description) does it satisfy one of these conditions?{id="test-1-4-1"}
@@ -130,7 +130,7 @@ Only the content of the criterion and the tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;;
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.5](#crit-1-5) [A] For each image [information carrier](glossaire.md#information-bearer) having a [detailed description](glossaire.md# detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Each image [information carrier](glossaire.md#information-carrier) having a [detailed description](glossaire.md #detail-description) does it satisfy one of these conditions?{id="test-1-5-1"}
@@ -152,7 +152,7 @@ Only the content of the criterion and the tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;;
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.6](#crit-1-6) [A] Is each [caption](glossary.md#caption) image, if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Does each [caption](glossary.md#caption) associated with an image verify these conditions?{id="test -1-6-1"}
@@ -174,7 +174,7 @@ Only the content of the criterion and the tests has normative value.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossary.md#text-image-or-text-in-image) [carrying information](glossary. md#porteuse-d-information), in the absence of an [alternative textual version](glossary.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)? {id="crit-1-7"}
 - **[Test 1.7.1](#test-1-7-1)** Each [text image](glossary.md#text-image-or-text-as-image) [carrying information]( glossary.md#porteuse-d-information), in the absence of an [alternative textual version](glossaire.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)?{id="test-1-7-1"}
@@ -201,7 +201,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [1.4.5 Text as Image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text):
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7)&nbsp;;
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.5 Images of text.
 
 
 ### [Theme 2](#topic-2): Color {id="topic-2"}
@@ -231,7 +231,7 @@ In these situations, the criterion is not applicable:
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182)&nbsp;;
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;;
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.1 Use of color*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color.
 
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the color of the text and the color of its background sufficiently high (except in special cases)? {id="crit-2-2"}
@@ -264,7 +264,7 @@ In these situations, the criterion is not applicable.
 - WCAG 2.1: [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum):
     - [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html)&nbsp;;
     - [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.3 Contrast (minimum)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.3 Contrast (minimum).
 
 #### [Criterion 2.3](#crit-2-3) [AA] Are the colors used in the graphic elements carrying information sufficiently contrasted (except in special cases)? {id="crit-2-3"}
 - **[Test 2.3.1](#test-2-3-1)** The contrast ratio of each color necessary for understanding a graphic element with [adjacent colors](glossary.md#colors- adjacent), does it satisfy one of these conditions (except in special cases)?{id="test-2-3-1"}
@@ -302,7 +302,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [1.4.11 Non-text contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast):
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html)&nbsp;;
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.11 Non-text contrast.
 
 ### [Theme 3](#topic-3): Tables {id="topic-3"}
 
@@ -328,7 +328,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
 #### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossary.md#complex-data-table) having an alternative, is this one relevant? {id="crit-3-2"}
 - **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossary.md#complex-data-table) having an alternative, this one is Is it relevant? {id="test-3-2-1"}
@@ -347,7 +347,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
 #### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossary.md#data-table) the [headers](glossary.md#en- head-table) are they correctly declared? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** For each [data table](glossary.md#data-table), each [header](glossary.md Does #table-header use a TH element? {id="test-3-3-1"}
@@ -367,7 +367,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [1.3.1 Information and relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6)&nbsp;;
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
 #### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossary.md#presentation-table), the [linearized content](glossary.md#content- linearize) remains understandable? {id="crit-3-4"}
 - **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossary.md#presentation-table), the [linearized content](glossary.md# content-linearise) remains understandable? {id="test-3-4-1"}
@@ -386,7 +386,7 @@ In these situations, the criterion is not applicable:
 
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossary.md#presentation-table) must not use elements specific to [data tables] (glossary.md#data-table), is this rule respected? {id="crit-3-5"}
 - **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossary.md#presentation-table) must not use elements specific to [presentation tables data](glossary.md#data-table), is this rule respected? {id="test-3-5-1"}
@@ -405,7 +405,7 @@ In these situations, the criterion is not applicable:
 
 - WCAG 2.1: [1.3.1 Information and relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
 ### [Theme 4](#topic-4): Links {id="topic-4"}
 
@@ -443,7 +443,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [2.4.4 Link purpose (depending on context) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context)&nbsp; :
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11)&nbsp;;
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context).
 
 #### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossary.md#link) have a title? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Does each [link](glossary.md#link) image have a title? {id="test-4-2-1"}
@@ -467,7 +467,7 @@ In these situations, the criterion is not applicable:
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*{lang=en}, *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context), 10.1.1.1 Non-text content.
 
 ### [Theme 5](#topic-5): Structuring information {id="topic-5"}
 
@@ -504,7 +504,7 @@ In these situations, the criterion is not applicable:
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
 - WCAG 2.1: [2.4.6 Headings and Labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}, *10.2.4.6 Headings and labels*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.2.4.6 Headings and labels.
 
 #### [Criterion 5.2](#crit-5-2) [A] Does each content presented in list form use a [list style](glossary.md#list-style)&nbsp; ? {id="crit-5-2"}
 - **[Test 5.2.1](#test-5-1-1)** Does each content presented as an unordered list use a [list style](glossary.md#style-of- list) suitable? {id="test-5-2-1"}
@@ -532,7 +532,7 @@ In these situations, the criterion is not applicable:
 
 - WCAG 2.1: [1.3.1 Information and relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
 
 #### [Criterion 5.3](#crit-5-3) [A] [Structural elements](glossaire.md#elements-de-structure) must not be used solely for presentation purposes, this rule is it respected? {id="crit-5-3"}
@@ -554,7 +554,7 @@ In these situations, the criterion is not applicable:
 
 - WCAG 2.1: [1.3.1 Information and relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
 ### [Theme 6](#topic-6): Presentation of information {id="topic-6"}
 
@@ -594,7 +594,7 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
 - WCAG 2.1: [2.4.3 Focus order (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}, *10.2.1.1 Keyboard*{lang=en}, *10.2.4.3 Focus order*{lang= in}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order.
 
 #### [Criterion 6.2](#crit-6-2) [A] The information must not be given solely by [shape, size or position](glossary.md#indication-given-only- by-shape-size-or-position). Is this rule respected? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** For each modification of the type or style of character, carrying information, the information must not be given only by the [shape, size or position](glossary.md#indication-given-only-by-shape-size-or-position). Is this rule respected?{id="test-6-2-1"}
@@ -623,14 +623,14 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
 
 - WCAG 2.1: [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics):
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.3 Sensory characteristics*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.3 Sensory characteristics.
 
 #### [Criterion 6.3](#crit-6-3) [A] Each link indicated only by color and whose [nature is not obvious](glossary.md#link-dont-la-nature- is-not-obvious) visible, in relation to the surrounding text? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Each link indicated only by color and whose [nature is not obvious](glossaire.md#lien-dont-la- nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1, compared to the surrounding text? {id="test-6-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
-###### With Acrobat Reader and the *Color Contrast Analyzer*{lang=en} tool
+###### With Acrobat Reader and the Color Contrast Analyzer tool
 
 1. Open the PDF file.
 2. Identify links inserted in blocks of text (paragraph, title, list, etc.) and indicated only by color.
@@ -641,7 +641,7 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
 
 - WCAG 2.1: [1.4.1 Use of color (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.1 Use of color*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color.
 
 ### [Theme 7](#topic-7): Navigation {id="topic-7"}
 
@@ -692,7 +692,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.2 Document titled*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
 
 #### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossary.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
 - **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossary.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
@@ -715,7 +715,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.2 Document titled*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
 
 ### [Theme 9](#topic-9): Consultation {id="topic-9"}
 
@@ -740,7 +740,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.2](#crit-9-2) [A] Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier) does it have a [textual alternative](glossary.md#textual-alternative)? {id="crit-9-2"}
 - **[Test 9.2.1](#test-9-2-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#carrier-d- information) does it satisfy one of these conditions? {id="test-9-2-1"}
@@ -762,7 +762,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.3](#crit-9-3) [A] For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier ) having a [textual alternative](glossary.md#textual-alternative), is this alternative relevant? {id="crit-9-3"}
 - **[Test 9.3.1](#test-9-3-1)** For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#carrier-d -information) having a [textual alternative](glossary.md#textual-alternative), is this alternative relevant? {id="test-9-3-1"}
@@ -781,7 +781,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.4](#crit-9-4) [A] Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier) does it have, if necessary, a [detailed description](glossaire.md#description-detaillee)? {id="crit-9-4"}
 - **[Test 9.4.1](#test-9-4-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#porteuse-d- information) which requires a [detailed description](glossaire.md#description-detaillee) does it satisfy one of these conditions?{id="test-9-4-1"}
@@ -803,7 +803,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier ) having a [detailed description](glossaire.md#description-detaillee), is this description relevant? {id="crit-9-5"}
 - **[Test 9.5.1](#test-9-5-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#porteuse-d- information) having a [detailed description](glossaire.md#detail-description) meets one of these conditions?{id="test-9-5-1"}
@@ -823,7 +823,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossary.md#legend) of [complex form](glossary.md#complex-form) if necessary , correctly linked to the corresponding image? {id="crit-9-6"}
 - **[Test 9.6.1](#test-9-6-1)** Each [legend](glossary.md#legend) associated with a [complex form](glossary.md#complex-form) verifies- Does it have these conditions?{id="test-9-6-1"}
@@ -845,7 +845,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative&nbsp; ? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have a alternative?{id="test-9-7-1"}
@@ -863,7 +863,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this alternative is Is it relevant? {id="crit-9-8"}
 - **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this is the alternative relevant?{id="test-9-8-1"}
@@ -881,7 +881,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 9.9](#crit-9-8) [A] Each [flashing or moving content](glossary.md#flashing-or-moving-content) must have an [activation duration ](glossary.md#activation-duration) less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
 - **[Test 9.9.1](#test-9-9-1)** Each [flashing or moving content](glossary.md#flashing-or-moving-content) must have a [duration of 'activation](glossary.md#activation-duration) less than or equal to 5 seconds. Is this rule respected?{id="test-9-9-1"}
@@ -901,7 +901,7 @@ In this case, the criterion is not applicable.
     - [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html)&nbsp;;
     - [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html)&nbsp;;
     - [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.2.2 Pause, stop, hide*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.2.2 Pause, stop, hide.
 
 ### [Theme 10](#topic-10): Interactive form (complementary theme){id="topic-10"}
 #### Introduction{class=no-summary}
@@ -941,7 +941,7 @@ However, the use of a test by a person with a disability using their own assisti
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
  - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value.
 
 #### [Criterion 10.2](#crit-10-2) [A] Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field) is Is it relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossary.md#etiquette) check these conditions?{id="test-10-2 -1"}
@@ -967,7 +967,7 @@ However, the use of a test by a person with a disability using their own assisti
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions *{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions.
 
 #### [Criterion 10.3](#crit-10-3) [AA] Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field) having is the same function and repeated several times in the same document [consistent](glossaire.md#etiquettes-coherentes)? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field ) having the same function and repeated several times in the same document is it [consistent](glossaire.md#etiquettes-coherentes)&nbsp;?{id="test-10-3-1"}
@@ -1004,7 +1004,7 @@ However, the use of a test by a person with a disability using their own assisti
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html);
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.2 Labels or instructions.
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossary.md#form-field) correctly identified (except in special cases)? {id="crit-10-5"}
 - **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossary.md#form-field) check these conditions?{id ="test-10-5-1"}
@@ -1041,7 +1041,7 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.1 Use of color*{lang=en}, *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions* {lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
 
 #### [Criterion 10.6](#crit-10-6) [A] For each mandatory [form field](glossary.md#form-field), the expected data type and/or format is Is it available? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossary.md#form-field) check these conditions?{id ="test-10-6-1"}
@@ -1068,7 +1068,7 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Does each input error message check these conditions?{id="test-10-7-1"}
@@ -1092,7 +1092,7 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.1 Error identification*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification.
 
 #### [Criterion 10.8](#crit-10-8) [AA] Is the [entry control](glossary.md#entry-control) accompanied, if necessary, by suggestions of types, formats expected data or values (excluding special cases)? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Does the [input control](glossary.md#input-control) check these conditions?{id= "test-10-8-1"}
@@ -1122,7 +1122,7 @@ In these situations, the criterion is not applicable:
 
 - WCAG 2.1: [3.3.3 Error Suggestion (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.3 Error suggestion*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.3 Error suggestion.
 
 
 #### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
@@ -1142,7 +1142,7 @@ In these situations, the criterion is not applicable:
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
-- EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.4.1.2 Name, role, value.
 
 #### [Criterion 10.10](#crit-10-10) [A] Is the title of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions?{id="test-10-10-1"}
@@ -1168,7 +1168,7 @@ In these situations, the criterion is not applicable:
  - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html)&nbsp;;
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.2.5.3 Label in name, 10.4.1.2 Name, role, value.
 
 #### [Criterion 10.11](#crit-10-11) [AA] For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial consequences or legal, can the data entered be modified, updated or retrieved by the user? {id="crit-10-11"}
 - **[Test 10.11.1](#test-10-11-1)** For each form that modifies or deletes data, or that transmits answers to a test or exam, or whose validation has financial or legal consequences, can the data entered be modified, updated or retrieved by the user?{id="test-10-11-1"}
@@ -1193,6 +1193,6 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1: [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial -data):
     - [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99)&nbsp;;
     - [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.4 Error prevention (legal, financial, data)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.4 Error prevention (legal, financial, data).
 
 

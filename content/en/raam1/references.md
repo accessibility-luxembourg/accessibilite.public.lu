@@ -8,6 +8,6 @@ The mobile application accessibility assessment framework was established using 
 - [RGAA APPS](https://disic.github.io/rgaa-apps/)
 - [RGAA&nbsp;CMS](http://disic.github.io/referential-cms/)
 - [RGAA 3 testing methodology](https://github.com/DISIC/rgaa_methodologie)
-- [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/){lang=en}
-- [RTC Accessibility User Requirements](https://www.w3.org/TR/raur/#routing-and-communication-channel-control){lang=en}
+- [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)
+- [RTC Accessibility User Requirements](https://www.w3.org/TR/raur/#routing-and-communication-channel-control)
 - [ETSI Drafting Rules (EDR) Version adopted by the Director-General (28/09/2018) - PDF 3620 kb](https://portal.etsi.org/directives/39_directives_oct_2018.pdf#page=179){lang =en}

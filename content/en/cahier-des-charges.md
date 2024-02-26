@@ -2,7 +2,7 @@
 
 Digital accessibility is often seen as an additional cost when the first contact with this discipline occurs on an existing project for which accessibility had not until now been taken into account. By way of comparison with the construction industry, it is often said that it is much more expensive to add an elevator to an existing building than to plan for it from the start in the project.
 
-In the area of digital accessibility, the situation is very similar. The earlier a concern of this order is integrated into the planning of a project, the better it is integrated and the less the costs are affected: this is what is recommended, among others, by the “[shift left]” methodology. (https://feather.ca/shift-left/){lang=en}.”
+In the area of digital accessibility, the situation is very similar. The earlier a concern of this order is integrated into the planning of a project, the better it is integrated and the less the costs are affected: this is what is recommended, among others, by the “[shift left]” methodology. (https://feather.ca/shift-left/).”
 
 Many administrations do not develop their websites and mobile applications in-house, but use the services of external providers. In this case, it is very common to go through specifications to define the needs and the expected result.
 
