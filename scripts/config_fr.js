@@ -599,4 +599,8 @@ const config = {
     ]
 }
 
+const level1 = config.mainMenu.concat(config.footer).concat(config.hidden).concat(config.deprecated).map(e => e.name)
+const level2 = config.mainMenu.concat(config.deprecated).filter(e => (e.children !== undefined)).flatMap(e => e.children).map(e => e.name)
+config.names = level1.concat(level2)
+
 module.exports = {config}

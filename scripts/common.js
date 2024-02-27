@@ -14,8 +14,17 @@ function isProd() {
     return (process.env.NODE_ENV === 'production')
 }
 
+function genURL(config, lang, name) {
+    const path = '/'+lang+'/'+name+'.html'
+    if (config[lang].names.includes(name)) {
+        return path
+    } else {
+        return '/'+lang+'/404.html'
+    }
+}
+
 function renderToFile(config, data, title, lang, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, lang: lang, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width}, function(err, str){
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, lang: lang, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width, genURL: genURL}, function(err, str){
         if (err !== null) {
             console.log(err)
         }

@@ -29,7 +29,7 @@ langs.forEach(lang => {
 
     md.forEach(e => { 
         // console.log(e.title)
-        lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle)          
+        lib.renderWithSummary(config, lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle)          
     })
 
     const rawDeprecated = config[lang].deprecated !== undefined ? config[lang].deprecated : []
@@ -37,7 +37,7 @@ langs.forEach(lang => {
         const deprecated = rawDeprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
 
         deprecated.forEach(e => { 
-            lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, deprecationMessage)          
+            lib.renderWithSummary(config, lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, deprecationMessage)          
         })
     } 
 
@@ -48,26 +48,26 @@ langs.forEach(lang => {
 
     crit.forEach(e => {
         if (e.genSummary !== undefined) {
-            lib.genFileWithSummary(config[lang], './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, (e.deprecation !== undefined)?e.deprecation:'') 
+            lib.genFileWithSummary(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, (e.deprecation !== undefined)?e.deprecation:'') 
         } else {
-            lib.genFile(config[lang], './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, false, (e.deprecation !== undefined)?e.deprecation:'') 
+            lib.genFile(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, false, (e.deprecation !== undefined)?e.deprecation:'') 
         }
     })
 
     // generate all articles
-    const articles = news.genNews(config[lang], lang, outputPath, baseURL)
+    const articles = news.genNews(config, lang, outputPath, baseURL)
 
     // generate the home page
-    lib.renderHome(config[lang], lang, home, articles.slice(0, 3), outputPath)
+    lib.renderHome(config, lang, home, articles.slice(0, 3), outputPath)
 
     // generate site outline
-    lib.genFile(config[lang], './src/tpl/outline.ejs',{config: config[lang], lang: lang}, "Plan du site", lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '../..')
+    lib.genFile(config, './src/tpl/outline.ejs',{config: config, lang: lang}, "Plan du site", lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '../..')
 
     // generate declaration form
     let declaPayload = {lang: config[lang].declaLangs, prefix: "../../..", tpl: []};
     config[lang].declaLangs.forEach(e => {
         declaPayload["tpl"][e.code] = fs.readFileSync('./src/tpl/decla_'+e.code+'.ejs')
     });
-    lib.genFile(config[lang], './src/tpl/decla-form.ejs',declaPayload, "Créez votre déclaration", lang, outputPath+"/"+lang+"/tools/decla.html", "tools/decla", "../../..")
+    lib.genFile(config, './src/tpl/decla-form.ejs',declaPayload, "Créez votre déclaration", lang, outputPath+"/"+lang+"/tools/decla.html", "tools/decla", "../../..")
 
 })

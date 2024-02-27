@@ -3,8 +3,6 @@ const lib = require('./common.js')
 const axeRgaa = require('./AxeRGAAmsg.json')
 const fs = require('fs')
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raweb1/index.html">RAWeb1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raweb1/notes-revision.html">notes de révision</a>.'
-
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
 const niveauxRAWeb1 = require('../content/en/raweb1/niveaux.json')
 const dataRAWeb1 = {topics: criteresRAWeb1.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
@@ -383,5 +381,9 @@ const config = {
         }           
     ]
 }
+
+const level1 = config.mainMenu.concat(config.footer).concat(config.hidden).map(e => e.name)
+const level2 = config.mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).map(e => e.name)
+config.names = level1.concat(level2)
 
 module.exports = {config}

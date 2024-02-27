@@ -1,9 +1,9 @@
 <ul>
-<% config.mainMenu.concat(config.footer).forEach(element => { if (element.name !== 'plan-site' && element.children === undefined) { %>
+<% config[lang].mainMenu.concat(config[lang].footer).forEach(element => { if (element.name !== 'plan-site' && element.children === undefined) { %>
     <li><a href="<%= prefix %>/html/<%= lang %>/<%= element.name %>.html"><%= element.title %></a></li>
 <% }}); %>
 </ul>
-<% config.mainMenu.concat(config.footer).forEach(element => { if (element.name !== 'plan-site' && element.children !== undefined) { %>
+<% config[lang].mainMenu.concat(config[lang].footer).forEach(element => { if (element.name !== 'plan-site' && element.children !== undefined) { %>
     <h3><%= element.title %></h3>
     <ul>
         <% element.children.forEach(child => { %>

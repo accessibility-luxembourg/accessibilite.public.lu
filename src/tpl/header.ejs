@@ -9,21 +9,14 @@
         <% if (lang === "fr") { %>
           <p><span class="sr-only">Version française</span>FR</p>
         <% } else { %>
-          <a class="Version française - FR" lang="fr" hreflang="fr" href="/fr">FR</a>
-        <% } %>
-      </li>
-      <li>
-        <% if (lang === "de") { %>
-          <p><span class="sr-only">Deutsche Fassung</span>DE</p>
-        <% } else { %>
-          <a class="Deutsche Fassung - DE" lang="de" hreflang="de" href="/de">DE</a>
+          <a class="Version française - FR" lang="fr" hreflang="fr" href="<%= genURL(config, 'fr', name) %>">FR</a>
         <% } %>
       </li>
       <li>
         <% if (lang === "en") { %>
           <p><span class="sr-only">English version</span>EN</p>
         <% } else { %>
-          <a class="English version - EN" lang="en" hreflang="en" href="/en">EN</a>
+          <a class="English version - EN" lang="en" hreflang="en" href="<%= genURL(config, 'en', name) %>">EN</a>
         <% } %>
       </li>
     </ul>
