@@ -3,6 +3,6 @@ The “[Assessment of conformity with the standard](../obligations.html#Assessme
 Here are tools and document templates for carrying out an audit.
 * [Website audit report template](../raweb1/files/raweb1-lu-modele-rapport-audit.docx), Docx format (68 kb)
 * [Website audit grid template](../raweb1/files/raweb1-lu-modele-grille-audit.xlsx), Xlsx format (374 kb)
-* [Mobile application audit grid template](../files/modele-grile-audit-appli-mobiles.xlsx), Xlsx format (391 kb)
+* [Mobile application audit grid template](../files/modele-grille-audit-appli-mobiles.xlsx), Xlsx format (391 kb)
 * [Multilingual accessibility declaration generator](./decla.html)
 * [Accessibility declaration template in French](../files/template-decla-fr.docx), Docx format (29 kb)

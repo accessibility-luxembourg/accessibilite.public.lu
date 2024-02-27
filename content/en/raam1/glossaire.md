@@ -37,7 +37,7 @@ An interface component (link, button, form field, etc.) is accessible by any poi
 
 In this reference, the expression “controllable by the keyboard and any pointing device” also relates to this definition.
 
-**Important note:** the use of certain technologies can make focus management too complex or too unstable to rely only on tab, arrow keys and the enter key. In this case, providing keyboard shortcuts may be the only solution to make the component usable. The criterion can only be considered compliant on the condition that the keyboard shortcuts used are correctly documented, that they are functional and that they respect [criterion 10.4](referential-technique.md#crit-10-4).
+**Important note:** the use of certain technologies can make focus management too complex or too unstable to rely only on tab, arrow keys and the enter key. In this case, providing keyboard shortcuts may be the only solution to make the component usable. The criterion can only be considered compliant on the condition that the keyboard shortcuts used are correctly documented, that they are functional and that they respect [criterion 10.4](referentiel-technique.md#crit-10-4).
 
 #### Accessible to assistive technologies
 
@@ -68,7 +68,7 @@ Color directly in contact with the colors of the component or graphic element, t
 
 **Example:** in a “no entry” sign the red of the panel is the color adjacent to the white line in the center of the panel.
 
-It is important to understand that [criterion 2.3](referential-technique.md#crit-2-3) on the contrasts of interface components and graphic elements only evaluates **non-textual** elements. As soon as it comes to evaluating the contrast of a text, even if it is present in an interface component, it is [criterion 2.2](referential-technique.md#crit-2-2 ) which applies.
+It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of interface components and graphic elements only evaluates **non-textual** elements. As soon as it comes to evaluating the contrast of a text, even if it is present in an interface component, it is [criterion 2.2](referentiel-technique.md#crit-2-2 ) which applies.
 
 Not all colors of a graphic element or interface component are to be evaluated. It is essential to assess:
 - **Colorings that carry information** (not all colorings carry information):
@@ -79,7 +79,7 @@ Not all colors of a graphic element or interface component are to be evaluated. 
 - **The colors of non-textual elements carrying information** (graphic elements):
 - A chevron is positioned to the right of the item selected in a list of items, the contrast ratio between the color of the chevron and adjacent colors (generally the background color) must be at least 3:1.
 
-The background color of a form submit button for example (&ldquo;&nbsp;Send&rdquo;) does not have to be contrasted with the background of the screen. Indeed, the location of the button is done by the text, which must already respect the text contrast constraints ([criterion 2.2](referential-technique.md#crit-2-2)). The size of the button and its edges are not considered information that meets this criterion.
+The background color of a form submit button for example (&ldquo;&nbsp;Send&rdquo;) does not have to be contrasted with the background of the screen. Indeed, the location of the button is done by the text, which must already respect the text contrast constraints ([criterion 2.2](referentiel-technique.md#crit-2-2)). The size of the button and its edges are not considered information that meets this criterion.
 
 **Note 1:** in the case of the presence of a gradient, it is the adjacent color with the least contrast of the gradient which will be considered as the adjacent color.
 
@@ -97,7 +97,7 @@ Generally, it is simpler to produce an audio version than a textual version when
 
 Interface component made available by the author of the application whose activation allows you to modify the appearance of the screen.
 
-This can, for example, be a replacement mechanism allowing content to be displayed with a sufficient contrast ratio. The appearance of this interface component must comply with [criterion 2.2](referential-technique.md#crit-2-2) and [criterion 2.3](referential-technique.md#crit-2-3) without itself have recourse to a mechanism allowing it to display a compliant contrast ratio.
+This can, for example, be a replacement mechanism allowing content to be displayed with a sufficient contrast ratio. The appearance of this interface component must comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without itself have recourse to a mechanism allowing it to display a compliant contrast ratio.
 
 Another example is a replacement mechanism for replacing text graphics with styled text.
 
@@ -201,7 +201,7 @@ For example, one might consider a text &ldquo;significantly very large&rdquo; if
 
 Ability for the user to control the display or playback of moving or flashing content using all pointing devices (touch, keyboard, mouse, etc.).
 
-All moving content, with the exception of temporal media supported by the [Multimedia] theme (referential-technique.html#topic-3), is concerned: animated graphic elements, moving content for example.
+All moving content, with the exception of temporal media supported by the [Multimedia] theme (referentiel-technique.html#topic-3), is concerned: animated graphic elements, moving content for example.
 
 **Note 1:** When appropriate, the control method should be available as the first element of the interface.
 
@@ -316,7 +316,7 @@ An element using a visual representation such as images, pictograms or graphics.
 This element may be composed of one or more parts whose visibility is necessary for its understanding (for example each point on each line of a statistics graph).
 
 The role &ldquo;Image&nbsp;&rdquo; is not reproduced uniformly across all environments.
-- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application, the screen reader will render the description if it is defined but will not announce "image" ;&raquo;. On the other hand, for images integrated into [web views](glossary.md#web-views), the screen reader renders “Graphical elements”.
+- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application, the screen reader will render the description if it is defined but will not announce "image" ;&raquo;. On the other hand, for images integrated into [web views](glossaire.md#web-views), the screen reader renders “Graphical elements”.
 - VoiceOver (iOS): whether in a native application or in a web view, VoiceOver renders &ldquo;Image&nbsp;&rdquo; for the images it can access.
 
 Generally speaking, depending on the development method, it is also possible that the role is not rendered on TalkBack or VoiceOver. From then on, it is observation alone which will make it possible to determine the nature of the element.
@@ -563,7 +563,7 @@ A set of templates is a group of templates that allow different formatting of th
 
 [Graphical element](#graphic-element) displaying text.
 
-It is not recommended to use graphic elements containing text. When it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referential-technique.html#crit-1-8) requires that the text be reproduced in this format or that A replacement mechanism allows the user to replace these graphic elements with stylish text.
+It is not recommended to use graphic elements containing text. When it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referentiel-technique.html#crit-1-8) requires that the text be reproduced in this format or that A replacement mechanism allows the user to replace these graphic elements with stylish text.
 
 #### Text transcription (time-based media)
 

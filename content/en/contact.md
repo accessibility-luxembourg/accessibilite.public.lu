@@ -1,4 +1,4 @@
-[Information and press service](https://sip.temporel.lu)
+[Information and press service](https://sip.gouvernement.lu)
 
 <address>
 33 Roosevelt Boulevard

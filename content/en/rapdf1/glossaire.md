@@ -13,7 +13,7 @@ Color directly in contact with the colors of the graphic element, such as the ba
 
 Example: in a “no entry” sign, the red of the sign is the color adjacent to the white line in the center of the sign.
 
-It is important to understand that [criterion 2.3](referential-technique.md#crit-2-3) on the contrasts of graphic elements only evaluates non-textual elements. When it comes to evaluating the contrast of a text, even if it is present in a graphic element, it is [criterion 2.2](referential-technique.md#crit-2-2) which applies.
+It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of graphic elements only evaluates non-textual elements. When it comes to evaluating the contrast of a text, even if it is present in a graphic element, it is [criterion 2.2](referentiel-technique.md#crit-2-2) which applies.
 
 Not all colors of a graphic element must be evaluated. Only colors carrying information are concerned.
 
@@ -122,7 +122,7 @@ The alternative means used depends on the nature of the content concerned. For e
 - The association of an explicit text.
 - The association of a visual indication such as an icon or symbol.
 
-Note: in the case of using an image associated with a text, the image must have a relevant alternative (criteria[1.1](referential-technique.md#crit-1-1) and[1.2](referential-technique.md#crit-1-2)).
+Note: in the case of using an image associated with a text, the image must have a relevant alternative (criteria[1.1](referentiel-technique.md#crit-1-1) and[1.2](referentiel-technique.md#crit-1-2)).
 
 #### Input control
 Set of processes that warn the user:

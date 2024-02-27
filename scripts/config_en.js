@@ -145,7 +145,7 @@ const config = {
                 {
                     "title": "RAWeb 1: Glossaire",
                     "menu": "Glossaire",
-                    "name": "raweb1/glossary",
+                    "name": "raweb1/glossaire",
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossaryRAWeb1,
@@ -244,7 +244,7 @@ const config = {
                 {
                     "title": "RAAM 1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raam1/methodologie",
+                    "name": "raam1/methodology",
                     "md": "./content/en/raam1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
@@ -253,7 +253,7 @@ const config = {
                 {
                     "title": "RAAM 1 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raam1/environnement",
+                    "name": "raam1/environment",
                     "md": "./content/en/raam1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
@@ -305,7 +305,7 @@ const config = {
                 {
                     "title": "RAPDF 1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "rapdf1/methodologie",
+                    "name": "rapdf1/methodology",
                     "md": "./content/en/rapdf1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
@@ -314,7 +314,7 @@ const config = {
                 {
                     "title": "RAPDF 1 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "rapdf1/environnement",
+                    "name": "rapdf1/environment",
                     "md": "./content/en/rapdf1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
@@ -333,7 +333,7 @@ const config = {
         {
             "title": "Licence",
             "menu": "Licence",
-            "name": "licence",
+            "name": "license",
             "md": "./content/en/licence.md",
             "html": true,
             "prefix": "../.."

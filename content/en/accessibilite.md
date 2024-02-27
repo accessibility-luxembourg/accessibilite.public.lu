@@ -30,8 +30,8 @@
 <p></p>
 <h3>Procedure to ensure compliance with the provisions</h3>
 <p>In the event of an unsatisfactory response, you also have the option of informing the
-<a href="https://sip.temporel.lu">Information and press service</a>, organization responsible for controlling accessibility, via its
-<a href="https://sip.temporel.lu/fr/support/reclamation-accessibilite.html">online complaint form</a>, or
+<a href="https://sip.gouvernement.lu">Information and press service</a>, organization responsible for controlling accessibility, via its
+<a href="https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html">online complaint form</a>, or
 <a href="http://www.ombudsman.lu/">the Ombudsman</a>, mediator of the Grand Duchy of Luxembourg.
 </p>
 <hr>

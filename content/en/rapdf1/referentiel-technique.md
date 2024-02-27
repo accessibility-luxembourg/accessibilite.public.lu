@@ -33,7 +33,7 @@ Their presence renders the entire document non-compliant with accessibility and 
 ### Non-compliant document type {class="no-summary"}
 Certain types of documents may not be used satisfactorily by all people with disabilities, these are:
 - [untagged documents](glossaire.md#non-tagged-documents),
-- [non-interactive forms](glossary.md#non-interactive-form).
+- [non-interactive forms](glossaire.md#non-interactive-form).
 In these cases, there is no point in auditing the documents which will have to be subject to a complete overhaul or the provision of a relevant alternative.
 
 ### Warning {class="no-summary"}
@@ -44,8 +44,8 @@ Only the content of the criterion and the tests has normative value.
 
 ### [Theme 1](#topic-1): Graphic elements {id="topic-1"}
 
-#### [Criterion 1.1](#crit-1-1) [A] Is each [decoration](glossary.md#de-decoration) image correctly ignored by assistive technologies? {id="crit-1-1"}
-- **[Test 1.1.1](#test-1-1-1)** Does each [decoration](glossary.md#de-decoration) image satisfy one of these conditions?{id= "test-1-1-1"}
+#### [Criterion 1.1](#crit-1-1) [A] Is each [decoration](glossaire.md#de-decoration) image correctly ignored by assistive technologies? {id="crit-1-1"}
+- **[Test 1.1.1](#test-1-1-1)** Does each [decoration](glossaire.md#de-decoration) image satisfy one of these conditions?{id= "test-1-1-1"}
     - The image is devoid of alternatives.
     - The image is [absent from the restitution](glossaire.md#absente-de-la-restitution-image-de-decoration).
 
@@ -67,8 +67,8 @@ Only the content of the criterion and the tests has normative value.
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 1.2](#crit-1-2) [A] Does each image [carrying information](glossary.md#carrying-information) have a [textual alternative](glossary .md#alternative-textual)? {id="crit-1-2"}
-- **[Test 1.2.1](#test-1-2-1)** Does each image [information carrier](glossary.md#information-carrier) satisfy one of these conditions? ? {id="test-1-2-1"}
+#### [Criterion 1.2](#crit-1-2) [A] Does each image [carrying information](glossaire.md#carrying-information) have a [textual alternative](glossary .md#alternative-textual)? {id="crit-1-2"}
+- **[Test 1.2.1](#test-1-2-1)** Does each image [information carrier](glossaire.md#information-carrier) satisfy one of these conditions? ? {id="test-1-2-1"}
     - The image has a text alternative.
     - A link adjacent to the image provides access to a textual alternative.
 
@@ -90,7 +90,7 @@ Only the content of the criterion and the tests has normative value.
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [information carrier](glossaire.md#information-carrier) having a [textual alternative](glossaire.md# textual-alternative), is this alternative relevant? {id="crit-1-3"}
-- **[Test 1.3.1](#test-1-3-1)** For each image [information carrier](glossary.md#information-carrier) having a [textual alternative](glossary. md#alternative-textual), is this alternative relevant? {id="test-1-3-1"}
+- **[Test 1.3.1](#test-1-3-1)** For each image [information carrier](glossaire.md#information-carrier) having a [textual alternative](glossary. md#alternative-textual), is this alternative relevant? {id="test-1-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -108,8 +108,8 @@ Only the content of the criterion and the tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 1.4](#crit-1-4) [A] Does each [information carrier](glossary.md#information-carrier) image have, if necessary, a [description detailed](glossary.md#detailed-description)? {id="crit-1-4"}
-- **[Test 1.4.1](#test-1-4-1)** Each image [information carrier](glossary.md#information-carrier) which requires a [detailed description](glossary. md#detail-description) does it satisfy one of these conditions?{id="test-1-4-1"}
+#### [Criterion 1.4](#crit-1-4) [A] Does each [information carrier](glossaire.md#information-carrier) image have, if necessary, a [description detailed](glossaire.md#detailed-description)? {id="crit-1-4"}
+- **[Test 1.4.1](#test-1-4-1)** Each image [information carrier](glossaire.md#information-carrier) which requires a [detailed description](glossary. md#detail-description) does it satisfy one of these conditions?{id="test-1-4-1"}
     - The [detailed description](glossaire.md#description-detaillee) is adjacent to the image.
     - A link adjacent to the image provides access to the [detailed description](glossaire.md#description-detaillee).
 
@@ -154,9 +154,9 @@ Only the content of the criterion and the tests has normative value.
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 1.6](#crit-1-6) [A] Is each [caption](glossary.md#caption) image, if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
-- **[Test 1.6.1](#test-1-6-1)** Does each [caption](glossary.md#caption) associated with an image verify these conditions?{id="test -1-6-1"}
-    - The [caption](glossary.md#caption) is adjacent to the image.
+#### [Criterion 1.6](#crit-1-6) [A] Is each [caption](glossaire.md#caption) image, if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
+- **[Test 1.6.1](#test-1-6-1)** Does each [caption](glossaire.md#caption) associated with an image verify these conditions?{id="test -1-6-1"}
+    - The [caption](glossaire.md#caption) is adjacent to the image.
     - The image alternative contains an [explicit reference](glossaire.md#reference-explicite-a-une-legend-d-image-or-a-une-forme-complexe) to the caption.
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -176,8 +176,8 @@ Only the content of the criterion and the tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossary.md#text-image-or-text-in-image) [carrying information](glossary. md#porteuse-d-information), in the absence of an [alternative textual version](glossary.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)? {id="crit-1-7"}
-- **[Test 1.7.1](#test-1-7-1)** Each [text image](glossary.md#text-image-or-text-as-image) [carrying information]( glossary.md#porteuse-d-information), in the absence of an [alternative textual version](glossaire.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)?{id="test-1-7-1"}
+#### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossaire.md#text-image-or-text-in-image) [carrying information](glossary. md#porteuse-d-information), in the absence of an [alternative textual version](glossaire.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)? {id="crit-1-7"}
+- **[Test 1.7.1](#test-1-7-1)** Each [text image](glossaire.md#text-image-or-text-as-image) [carrying information]( glossaire.md#porteuse-d-information), in the absence of an [alternative textual version](glossaire.md#alternative-textual-version), must be replaced by styled text. Is this rule respected (except in special cases)?{id="test-1-7-1"}
 
 ##### Special cases
 In these situations, the criterion is not applicable:
@@ -205,9 +205,9 @@ In these situations, the criterion is not applicable:
 
 
 ### [Theme 2](#topic-2): Color {id="topic-2"}
-#### [Criterion 2.1](#crit-2-1) [A] The information must not be [given only by color](glossary.md#information-given-only-by-color) . Is this rule respected? {id="crit-2-1"}
-- **[Test 2.1.1](#test-2-1-1)** For each word or set of words whose coloring carries information, the information must not be [given only by color](glossary.md#information-given-only-by-color). Is this rule respected?{id="test-2-1-1"}
-- **[Test 2.1.2](#test-2-1-2)** For each color indication given by a text, the information must not be [given only by color](glossary.md# information-given-only-by-color). Is this rule respected?{id="test-2-1-2"}
+#### [Criterion 2.1](#crit-2-1) [A] The information must not be [given only by color](glossaire.md#information-given-only-by-color) . Is this rule respected? {id="crit-2-1"}
+- **[Test 2.1.1](#test-2-1-1)** For each word or set of words whose coloring carries information, the information must not be [given only by color](glossaire.md#information-given-only-by-color). Is this rule respected?{id="test-2-1-1"}
+- **[Test 2.1.2](#test-2-1-2)** For each color indication given by a text, the information must not be [given only by color](glossaire.md# information-given-only-by-color). Is this rule respected?{id="test-2-1-2"}
 - **[Test 2.1.3](#test-2-1-3)** For each image conveying information, the information must not be [given only by color](glossaire.md#information-donnee -only-by-color). Is this rule respected?{id="test-2-1-3"}
 - **[Test 2.1.4](#test-2-1-4)** For each formatting whose color conveys information, the information must not be [given only by the color] (glossary. md#information-given-only-by-color). Is this rule respected?{id="test-2-1-4"}
 
@@ -235,12 +235,12 @@ In these situations, the criterion is not applicable:
 
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the color of the text and the color of its background sufficiently high (except in special cases)? {id="crit-2-2"}
-- **[Test 2.2.1](#test-2-2-1)** For [normal-size text](glossary.md#normal-size-text), the contrast ratio between the text and does its background satisfy one of these conditions (excluding special cases)?{id="test-2-2-1"}
+- **[Test 2.2.1](#test-2-2-1)** For [normal-size text](glossaire.md#normal-size-text), the contrast ratio between the text and does its background satisfy one of these conditions (excluding special cases)?{id="test-2-2-1"}
     - The contrast ratio between the text and its background is 4.5:1, at least.
-    - A [replacement mechanism](glossary.md#replacement-mechanism-contraste-reinforce) allows text to be displayed with a contrast ratio of at least 4.5:1.
-- **[Test 2.2.2](#test-2-2-2)** For the [text in enlarged size](glossary.md#text-in-enlarged-size), the contrast ratio between the text and does its background satisfy one of these conditions (excluding special cases)?{id="test-2-2-2"}
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-contraste-reinforce) allows text to be displayed with a contrast ratio of at least 4.5:1.
+- **[Test 2.2.2](#test-2-2-2)** For the [text in enlarged size](glossaire.md#text-in-enlarged-size), the contrast ratio between the text and does its background satisfy one of these conditions (excluding special cases)?{id="test-2-2-2"}
     - The contrast ratio between the text and its background is 3:1, at least.
-    - A [replacement mechanism](glossary.md#replacement-mechanism-contraste-reinforce) allows text to be displayed with a contrast ratio of 3:1, at least.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-contraste-reinforce) allows text to be displayed with a contrast ratio of 3:1, at least.
 
 ##### Special cases
 In these situations, the criterion is not applicable.
@@ -267,15 +267,15 @@ In these situations, the criterion is not applicable.
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.3 Contrast (minimum).
 
 #### [Criterion 2.3](#crit-2-3) [AA] Are the colors used in the graphic elements carrying information sufficiently contrasted (except in special cases)? {id="crit-2-3"}
-- **[Test 2.3.1](#test-2-3-1)** The contrast ratio of each color necessary for understanding a graphic element with [adjacent colors](glossary.md#colors- adjacent), does it satisfy one of these conditions (except in special cases)?{id="test-2-3-1"}
+- **[Test 2.3.1](#test-2-3-1)** The contrast ratio of each color necessary for understanding a graphic element with [adjacent colors](glossaire.md#colors- adjacent), does it satisfy one of these conditions (except in special cases)?{id="test-2-3-1"}
     - The contrast ratio is 3:1, at least.
-    - A [replacement mechanism](glossary.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
 - **[Test 2.3.2](#test-2-3-2)** The contrast ratio of each color necessary for understanding a graphic element with the background color, check- one of these conditions (except in special cases)?{id="test-2-3-2"}
     - The contrast ratio is 3:1, at least.
-    - A [replacement mechanism](glossary.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
 - **[Test 2.3.3](#test-2-3-3)** The contrast ratio between the colors of a graphic element in its [different states](glossaire.md#differents-etats-d- does a-graphic-element) satisfy one of these conditions (except in special cases)?{id="test-2-3-3"}
     - The contrast ratio is 3:1, at least.
-    - A [replacement mechanism](glossary.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-contraste-reinforce) makes it possible to display graphic elements with sufficient contrast.
 
 ##### Special cases
 In these situations, the criterion is not applicable:
@@ -306,8 +306,8 @@ In these situations, the criterion is not applicable:
 
 ### [Theme 3](#topic-3): Tables {id="topic-3"}
 
-#### [Criterion 3.1](#crit-3-1) [A] Does each [complex data table](glossary.md#complex-data-table) have an alternative? {id="crit-3-1"}
-- **[Test 3.1.1](#test-3-1-1)** Does each [complex data table](glossary.md#complex-data-table) satisfy one of these conditions? ;? {id="test-3-1-1"}
+#### [Criterion 3.1](#crit-3-1) [A] Does each [complex data table](glossaire.md#complex-data-table) have an alternative? {id="crit-3-1"}
+- **[Test 3.1.1](#test-3-1-1)** Does each [complex data table](glossaire.md#complex-data-table) satisfy one of these conditions? ;? {id="test-3-1-1"}
     - An alternative is adjacent to the table;
     - An adjacent anchor provides access to an alternative;
     - A link provides access to a document containing an alternative.
@@ -330,8 +330,8 @@ In these situations, the criterion is not applicable:
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
-#### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossary.md#complex-data-table) having an alternative, is this one relevant? {id="crit-3-2"}
-- **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossary.md#complex-data-table) having an alternative, this one is Is it relevant? {id="test-3-2-1"}
+#### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossaire.md#complex-data-table) having an alternative, is this one relevant? {id="crit-3-2"}
+- **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossaire.md#complex-data-table) having an alternative, this one is Is it relevant? {id="test-3-2-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -349,8 +349,8 @@ In these situations, the criterion is not applicable:
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
-#### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossary.md#data-table) the [headers](glossary.md#en- head-table) are they correctly declared? {id="crit-3-3"}
-- **[Test 3.3.1](#test-3-3-1)** For each [data table](glossary.md#data-table), each [header](glossary.md Does #table-header use a TH element? {id="test-3-3-1"}
+#### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table) the [headers](glossaire.md#en- head-table) are they correctly declared? {id="crit-3-3"}
+- **[Test 3.3.1](#test-3-3-1)** For each [data table](glossaire.md#data-table), each [header](glossaire.md Does #table-header use a TH element? {id="test-3-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -369,8 +369,8 @@ In these situations, the criterion is not applicable:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
-#### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossary.md#presentation-table), the [linearized content](glossary.md#content- linearize) remains understandable? {id="crit-3-4"}
-- **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossary.md#presentation-table), the [linearized content](glossary.md# content-linearise) remains understandable? {id="test-3-4-1"}
+#### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), the [linearized content](glossaire.md#content- linearize) remains understandable? {id="crit-3-4"}
+- **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), the [linearized content](glossaire.md# content-linearise) remains understandable? {id="test-3-4-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -388,8 +388,8 @@ In these situations, the criterion is not applicable:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
 
-#### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossary.md#presentation-table) must not use elements specific to [data tables] (glossary.md#data-table), is this rule respected? {id="crit-3-5"}
-- **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossary.md#presentation-table) must not use elements specific to [presentation tables data](glossary.md#data-table), is this rule respected? {id="test-3-5-1"}
+#### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables] (glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
+- **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [presentation tables data](glossaire.md#data-table), is this rule respected? {id="test-3-5-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -409,12 +409,12 @@ In these situations, the criterion is not applicable:
 
 ### [Theme 4](#topic-4): Links {id="topic-4"}
 
-#### [Criterion 4.1](#crit-4-1) [A] Is each [link](glossary.md#link) explicit? {id="crit-4-1"}
-- **[Test 4.1.1](#test-4-1-1)** Does each [link](glossary.md#link) satisfy one of these conditions? {id="test-4-1-1"}
+#### [Criterion 4.1](#crit-4-1) [A] Is each [link](glossaire.md#link) explicit? {id="crit-4-1"}
+- **[Test 4.1.1](#test-4-1-1)** Does each [link](glossaire.md#link) satisfy one of these conditions? {id="test-4-1-1"}
     - The [title of the link](glossaire.md#title-of-the-link) alone is explicit;
     - The [link context](glossaire.md#link-context) makes it possible to explain the link.
 
-- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossary.md#identical-links) have the same functions and destination? {id="test-4-1-2"}
+- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossaire.md#identical-links) have the same functions and destination? {id="test-4-1-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -445,9 +445,9 @@ In these situations, the criterion is not applicable:
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context).
 
-#### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossary.md#link) have a title? {id="crit-4-2"}
-- **[Test 4.2.1](#test-4-2-1)** Does each [link](glossary.md#link) image have a title? {id="test-4-2-1"}
-- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossary.md#link) using a complex form have a title? {id="test-4-2-2"}
+#### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have a title? {id="crit-4-2"}
+- **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have a title? {id="test-4-2-1"}
+- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossaire.md#link) using a complex form have a title? {id="test-4-2-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -472,8 +472,8 @@ In these situations, the criterion is not applicable:
 ### [Theme 5](#topic-5): Structuring information {id="topic-5"}
 
 #### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of headings? {id="crit-5-1"}
-- **[Test 5.1.1](#test-5-1-1)** Does each title use a [title style](glossary.md#title-style)? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** When the [title styles](glossary.md#title-style) allow it, the [titling hierarchy](glossary .md#titration-hierarchy) is it consistent? {id="test-5-1-2"}
+- **[Test 5.1.1](#test-5-1-1)** Does each title use a [title style](glossaire.md#title-style)? {id="test-5-1-1"}
+- **[Test 5.1.2](#test-5-1-2)** When the [title styles](glossaire.md#title-style) allow it, the [titling hierarchy](glossary .md#titration-hierarchy) is it consistent? {id="test-5-1-2"}
 - **[Test 5.1.3](#test-5-1-3)** Is each title relevant? {id="test-5-1-3"}
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -506,9 +506,9 @@ In these situations, the criterion is not applicable:
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.2.4.6 Headings and labels.
 
-#### [Criterion 5.2](#crit-5-2) [A] Does each content presented in list form use a [list style](glossary.md#list-style)&nbsp; ? {id="crit-5-2"}
-- **[Test 5.2.1](#test-5-1-1)** Does each content presented as an unordered list use a [list style](glossary.md#style-of- list) suitable? {id="test-5-2-1"}
-- **[Test 5.2.2](#test-5-2-2)** When [list styles](glossary.md#list-style) allow it, each content presented in the form of an ordered list Does it use an appropriate [list style](glossary.md#list-style)? {id="test-5-2-2"}
+#### [Criterion 5.2](#crit-5-2) [A] Does each content presented in list form use a [list style](glossaire.md#list-style)&nbsp; ? {id="crit-5-2"}
+- **[Test 5.2.1](#test-5-1-1)** Does each content presented as an unordered list use a [list style](glossaire.md#style-of- list) suitable? {id="test-5-2-1"}
+- **[Test 5.2.2](#test-5-2-2)** When [list styles](glossaire.md#list-style) allow it, each content presented in the form of an ordered list Does it use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -558,9 +558,9 @@ In these situations, the criterion is not applicable:
 
 ### [Theme 6](#topic-6): Presentation of information {id="topic-6"}
 
-#### [Criterion 6.1](#crit-6-1) [A] Is the [order of restitution](glossary.md#order-of-restitution) of the contents consistent? {id="crit-6-1"}
-- **[Test 6.1.1](#test-6-1-1)** Is the [order of restitution](glossary.md#order-of-restitution) of the contents consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [tab order](glossary.md#tab-order) of the contents consistent? {id="test-6-1-2"}
+#### [Criterion 6.1](#crit-6-1) [A] Is the [order of restitution](glossaire.md#order-of-restitution) of the contents consistent? {id="crit-6-1"}
+- **[Test 6.1.1](#test-6-1-1)** Is the [order of restitution](glossaire.md#order-of-restitution) of the contents consistent? {id="test-6-1-1"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [tab order](glossaire.md#tab-order) of the contents consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -596,9 +596,9 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order.
 
-#### [Criterion 6.2](#crit-6-2) [A] The information must not be given solely by [shape, size or position](glossary.md#indication-given-only- by-shape-size-or-position). Is this rule respected? {id="crit-6-2"}
-- **[Test 6.2.1](#test-6-2-1)** For each modification of the type or style of character, carrying information, the information must not be given only by the [shape, size or position](glossary.md#indication-given-only-by-shape-size-or-position). Is this rule respected?{id="test-6-2-1"}
-- **[Test 6.2.2](#test-6-2-2)** For each visual indication given by means of positioning or the presence of a special character, carrying information, the information does not must not be given solely by [shape, size or position](glossary.md#indication-given-only-by-shape-size-or-position). Is this rule respected?{id="test-6-2-2"}
+#### [Criterion 6.2](#crit-6-2) [A] The information must not be given solely by [shape, size or position](glossaire.md#indication-given-only- by-shape-size-or-position). Is this rule respected? {id="crit-6-2"}
+- **[Test 6.2.1](#test-6-2-1)** For each modification of the type or style of character, carrying information, the information must not be given only by the [shape, size or position](glossaire.md#indication-given-only-by-shape-size-or-position). Is this rule respected?{id="test-6-2-1"}
+- **[Test 6.2.2](#test-6-2-2)** For each visual indication given by means of positioning or the presence of a special character, carrying information, the information does not must not be given solely by [shape, size or position](glossaire.md#indication-given-only-by-shape-size-or-position). Is this rule respected?{id="test-6-2-2"}
 
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -625,7 +625,7 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.3 Sensory characteristics.
 
-#### [Criterion 6.3](#crit-6-3) [A] Each link indicated only by color and whose [nature is not obvious](glossary.md#link-dont-la-nature- is-not-obvious) visible, in relation to the surrounding text? {id="crit-6-3"}
+#### [Criterion 6.3](#crit-6-3) [A] Each link indicated only by color and whose [nature is not obvious](glossaire.md#link-dont-la-nature- is-not-obvious) visible, in relation to the surrounding text? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Each link indicated only by color and whose [nature is not obvious](glossaire.md#lien-dont-la- nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1, compared to the surrounding text? {id="test-6-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -645,8 +645,8 @@ Note: In most cases, the text box will be immediately followed in PAC by an empt
 
 ### [Theme 7](#topic-7): Navigation {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [summary](glossary.md#summary) (excluding special cases)? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Does the document have a [summary](glossary.md#summary) (except in special cases)? {id="test-7-1-1"}
+#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [summary](glossaire.md#summary) (excluding special cases)? {id="crit-7-1"}
+- **[Test 7.1.1](#test-7-1-1)** Does the document have a [summary](glossaire.md#summary) (except in special cases)? {id="test-7-1-1"}
 
 ##### Special cases
 In these situations, the criterion is not applicable:
@@ -671,8 +671,8 @@ In these situations, the criterion is not applicable:
 
 ### [Theme 8](#topic-8): Mandatory elements {id="topic-8"}
 
-#### [Criterion 8.1](#crit-8-1) [A] Does the document have a [document title](glossary.md#document-title)? {id="crit-8-1"}
-- **[Test 8.1.1](#test-8-1-1)** Does the document have a [document title](glossary.md#document-title)? {id="test-8-1-1"}
+#### [Criterion 8.1](#crit-8-1) [A] Does the document have a [document title](glossaire.md#document-title)? {id="crit-8-1"}
+- **[Test 8.1.1](#test-8-1-1)** Does the document have a [document title](glossaire.md#document-title)? {id="test-8-1-1"}
 
 ##### Special cases
 In the event that the document must be anonymized, using the functions to delete the document properties (author, modification date, etc.) of certain office editing software can also delete the title of the document without it being possible to inform it independently.
@@ -694,8 +694,8 @@ In this case, the criterion is not applicable.
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
 
-#### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossary.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
-- **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossary.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
+#### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
+- **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
 
 ##### Special cases
 In the event that the document must be anonymized, using the functions to delete the document properties (author, modification date, etc.) of certain office editing software can also delete the title of the document without it being possible to inform it independently.
@@ -719,8 +719,8 @@ In this case, the criterion is not applicable.
 
 ### [Theme 9](#topic-9): Consultation {id="topic-9"}
 
-#### [Criterion 9.1](#crit-9-1) [A] Is each [complex shape](glossary.md#complex-form) [decoration](glossary.md#de-decoration) correctly ignored by assistive technologies? {id="crit-9-1"}
-- **[Test 9.1.1](#test-9-1-1)** Each [complex shape](glossary.md#complex-form) [decoration](glossary.md#de-decoration) checks- one of these conditions?{id="test-9-1-1"}
+#### [Criterion 9.1](#crit-9-1) [A] Is each [complex shape](glossaire.md#complex-form) [decoration](glossaire.md#de-decoration) correctly ignored by assistive technologies? {id="crit-9-1"}
+- **[Test 9.1.1](#test-9-1-1)** Each [complex shape](glossaire.md#complex-form) [decoration](glossaire.md#de-decoration) checks- one of these conditions?{id="test-9-1-1"}
     - The complex form has no alternatives.
     - The complex form is [absent from the restitution](glossaire.md#absente-de-la-restitution-image-de-decoration).
 
@@ -742,8 +742,8 @@ In this case, the criterion is not applicable.
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.2](#crit-9-2) [A] Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier) does it have a [textual alternative](glossary.md#textual-alternative)? {id="crit-9-2"}
-- **[Test 9.2.1](#test-9-2-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#carrier-d- information) does it satisfy one of these conditions? {id="test-9-2-1"}
+#### [Criterion 9.2](#crit-9-2) [A] Each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#information-carrier) does it have a [textual alternative](glossaire.md#textual-alternative)? {id="crit-9-2"}
+- **[Test 9.2.1](#test-9-2-1)** Each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#carrier-d- information) does it satisfy one of these conditions? {id="test-9-2-1"}
     - The complex form has a textual alternative.
     - A link adjacent to the complex form provides access to a textual alternative.
 
@@ -764,8 +764,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.3](#crit-9-3) [A] For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier ) having a [textual alternative](glossary.md#textual-alternative), is this alternative relevant? {id="crit-9-3"}
-- **[Test 9.3.1](#test-9-3-1)** For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#carrier-d -information) having a [textual alternative](glossary.md#textual-alternative), is this alternative relevant? {id="test-9-3-1"}
+#### [Criterion 9.3](#crit-9-3) [A] For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#information-carrier ) having a [textual alternative](glossaire.md#textual-alternative), is this alternative relevant? {id="crit-9-3"}
+- **[Test 9.3.1](#test-9-3-1)** For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#carrier-d -information) having a [textual alternative](glossaire.md#textual-alternative), is this alternative relevant? {id="test-9-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -783,9 +783,9 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.4](#crit-9-4) [A] Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier) does it have, if necessary, a [detailed description](glossaire.md#description-detaillee)? {id="crit-9-4"}
-- **[Test 9.4.1](#test-9-4-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#porteuse-d- information) which requires a [detailed description](glossaire.md#description-detaillee) does it satisfy one of these conditions?{id="test-9-4-1"}
-    - The [detailed description](glossary.md#description-detaillee) is adjacent to the complex shape.
+#### [Criterion 9.4](#crit-9-4) [A] Each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#information-carrier) does it have, if necessary, a [detailed description](glossaire.md#description-detaillee)? {id="crit-9-4"}
+- **[Test 9.4.1](#test-9-4-1)** Each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#porteuse-d- information) which requires a [detailed description](glossaire.md#description-detaillee) does it satisfy one of these conditions?{id="test-9-4-1"}
+    - The [detailed description](glossaire.md#description-detaillee) is adjacent to the complex shape.
     - A link adjacent to the complex form provides access to the [detailed description](glossaire.md#detail-description).
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -805,8 +805,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossary.md#complex-form) [information carrier](glossary.md#information-carrier ) having a [detailed description](glossaire.md#description-detaillee), is this description relevant? {id="crit-9-5"}
-- **[Test 9.5.1](#test-9-5-1)** Each [complex form](glossary.md#complex-form) [information carrier](glossary.md#porteuse-d- information) having a [detailed description](glossaire.md#detail-description) meets one of these conditions?{id="test-9-5-1"}
+#### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#information-carrier ) having a [detailed description](glossaire.md#description-detaillee), is this description relevant? {id="crit-9-5"}
+- **[Test 9.5.1](#test-9-5-1)** Each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#porteuse-d- information) having a [detailed description](glossaire.md#detail-description) meets one of these conditions?{id="test-9-5-1"}
     - The [detailed description](glossaire.md#description-detaillee) adjacent to the complex shape is relevant.
     - The [detailed description](glossaire.md#description-detaillee) which can be consulted using an adjacent link is relevant.
 
@@ -825,10 +825,10 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossary.md#legend) of [complex form](glossary.md#complex-form) if necessary , correctly linked to the corresponding image? {id="crit-9-6"}
-- **[Test 9.6.1](#test-9-6-1)** Each [legend](glossary.md#legend) associated with a [complex form](glossary.md#complex-form) verifies- Does it have these conditions?{id="test-9-6-1"}
-    - The [legend](glossary.md#legend) is adjacent to the complex shape.
-    - The complex form alternative contains an [explicit reference](glossary.md#reference-explicite-a-une-legende-d-image-or-a-une-forme-complexe) to the [legend](glossary .md#legend).
+#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex form](glossaire.md#complex-form) if necessary , correctly linked to the corresponding image? {id="crit-9-6"}
+- **[Test 9.6.1](#test-9-6-1)** Each [legend](glossaire.md#legend) associated with a [complex form](glossaire.md#complex-form) verifies- Does it have these conditions?{id="test-9-6-1"}
+    - The [legend](glossaire.md#legend) is adjacent to the complex shape.
+    - The complex form alternative contains an [explicit reference](glossaire.md#reference-explicite-a-une-legende-d-image-or-a-une-forme-complexe) to the [legend](glossary .md#legend).
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -847,8 +847,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative&nbsp; ? {id="crit-9-7"}
-- **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have a alternative?{id="test-9-7-1"}
+#### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative&nbsp; ? {id="crit-9-7"}
+- **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have a alternative?{id="test-9-7-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -865,8 +865,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this alternative is Is it relevant? {id="crit-9-8"}
-- **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossary.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this is the alternative relevant?{id="test-9-8-1"}
+#### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this alternative is Is it relevant? {id="crit-9-8"}
+- **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) having an alternative, this is the alternative relevant?{id="test-9-8-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -883,8 +883,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
-#### [Criterion 9.9](#crit-9-8) [A] Each [flashing or moving content](glossary.md#flashing-or-moving-content) must have an [activation duration ](glossary.md#activation-duration) less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
-- **[Test 9.9.1](#test-9-9-1)** Each [flashing or moving content](glossary.md#flashing-or-moving-content) must have a [duration of 'activation](glossary.md#activation-duration) less than or equal to 5 seconds. Is this rule respected?{id="test-9-9-1"}
+#### [Criterion 9.9](#crit-9-8) [A] Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have an [activation duration ](glossaire.md#activation-duration) less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
+- **[Test 9.9.1](#test-9-9-1)** Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have a [duration of 'activation](glossaire.md#activation-duration) less than or equal to 5 seconds. Is this rule respected?{id="test-9-9-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -920,10 +920,10 @@ However, the use of a test by a person with a disability using their own assisti
 - that all input fields can be filled in,
 - and that the user has all the necessary information.
 
-#### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossary.md#form-field) have a [label](glossary.md# label)? {id="crit-10-1"}
-- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossary.md#form-field) check these conditions?{id= "test-10-1-1"}
-    - the [label](glossary.md#etiquette) is visible;
-    - the [label](glossary.md#etiquette) is correctly rendered by assistive technologies.
+#### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md# label)? {id="crit-10-1"}
+- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-field) check these conditions?{id= "test-10-1-1"}
+    - the [label](glossaire.md#etiquette) is visible;
+    - the [label](glossaire.md#etiquette) is correctly rendered by assistive technologies.
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -943,9 +943,9 @@ However, the use of a test by a person with a disability using their own assisti
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value.
 
-#### [Criterion 10.2](#crit-10-2) [A] Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field) is Is it relevant? {id="crit-10-2"}
-- **[Test 10.2.1](#test-10-2-1)** Does each [label](glossary.md#etiquette) check these conditions?{id="test-10-2 -1"}
-    - The title of the [label](glossary.md#etiquette) accessible to assistive technologies is relevant;
+#### [Criterion 10.2](#crit-10-2) [A] Each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) is Is it relevant? {id="crit-10-2"}
+- **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#etiquette) check these conditions?{id="test-10-2 -1"}
+    - The title of the [label](glossaire.md#etiquette) accessible to assistive technologies is relevant;
     - The visible title of the [label](glossaire.md#etiquette) is contained in the title accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure method"}
@@ -969,8 +969,8 @@ However, the use of a test by a person with a disability using their own assisti
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions.
 
-#### [Criterion 10.3](#crit-10-3) [AA] Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field) having is the same function and repeated several times in the same document [consistent](glossaire.md#etiquettes-coherentes)? {id="crit-10-3"}
-- **[Test 10.3.1](#test-10-3-1)** Each [label](glossary.md#label) associated with a [form field](glossary.md#form-field ) having the same function and repeated several times in the same document is it [consistent](glossaire.md#etiquettes-coherentes)&nbsp;?{id="test-10-3-1"}
+#### [Criterion 10.3](#crit-10-3) [AA] Each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having is the same function and repeated several times in the same document [consistent](glossaire.md#etiquettes-coherentes)? {id="crit-10-3"}
+- **[Test 10.3.1](#test-10-3-1)** Each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field ) having the same function and repeated several times in the same document is it [consistent](glossaire.md#etiquettes-coherentes)&nbsp;?{id="test-10-3-1"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -1006,8 +1006,8 @@ However, the use of a test by a person with a disability using their own assisti
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.2 Labels or instructions.
 
-#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossary.md#form-field) correctly identified (except in special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossary.md#form-field) check these conditions?{id ="test-10-5-1"}
+#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (except in special cases)? {id="crit-10-5"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) check these conditions?{id ="test-10-5-1"}
     - The obligatory nature is visible and explicit.
     - The mandatory nature is accessible to assistive technologies.
 
@@ -1043,8 +1043,8 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
 
-#### [Criterion 10.6](#crit-10-6) [A] For each mandatory [form field](glossary.md#form-field), the expected data type and/or format is Is it available? {id="crit-10-6"}
-- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossary.md#form-field) check these conditions?{id ="test-10-6-1"}
+#### [Criterion 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), the expected data type and/or format is Is it available? {id="crit-10-6"}
+- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) check these conditions?{id ="test-10-6-1"}
     - The data type and/or format is visible.
     - The type of data and/or format is accessible to assistive technologies.
 
@@ -1094,8 +1094,8 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification.
 
-#### [Criterion 10.8](#crit-10-8) [AA] Is the [entry control](glossary.md#entry-control) accompanied, if necessary, by suggestions of types, formats expected data or values (excluding special cases)? {id="crit-10-8"}
-- **[Test 10.8.1](#test-10-8-1)** Does the [input control](glossary.md#input-control) check these conditions?{id= "test-10-8-1"}
+#### [Criterion 10.8](#crit-10-8) [AA] Is the [entry control](glossaire.md#entry-control) accompanied, if necessary, by suggestions of types, formats expected data or values (excluding special cases)? {id="crit-10-8"}
+- **[Test 10.8.1](#test-10-8-1)** Does the [input control](glossaire.md#input-control) check these conditions?{id= "test-10-8-1"}
     - The entry check is accompanied, if necessary, by suggestions of the expected data types and formats.
     - The input check is accompanied, if necessary, by suggestions of expected values.
 

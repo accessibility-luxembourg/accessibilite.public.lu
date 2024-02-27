@@ -53,7 +53,7 @@ For the convenience of users, this site may contain links to other sites which m
 
 #### Intellectual property
 
-All the contents of this site are published by the [Information and Press Service](https://sip.temporel.lu) and placed under [Creative Commons Attribution 3.0 Luxembourg License](http://creativecommons.org/licenses/by /3.0/lu/). For more information, please consult our [license](license.html) page.
+All the contents of this site are published by the [Information and Press Service](https://sip.gouvernement.lu) and placed under [Creative Commons Attribution 3.0 Luxembourg License](http://creativecommons.org/licenses/by /3.0/lu/). For more information, please consult our [license](license.html) page.
 
 #### Modification of the general conditions of use
 

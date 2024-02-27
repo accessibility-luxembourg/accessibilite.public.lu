@@ -23,7 +23,7 @@ If a defect is found in this repository, you can create a ticket in this reposit
 ### Summary
 
   * [Criteria and tests](criteres.html)
-  * [Glossary](glossary.html)
+  * [Glossary](glossaire.html)
   * [Test methodology](methodo-test.html)
   * [Test environment](environment.html)
   * [References](references.html)

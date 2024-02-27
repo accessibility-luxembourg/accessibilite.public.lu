@@ -115,7 +115,7 @@ function genNews(config, lang, outputPath, baseURL) {
     
     const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
     
-    lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/'+lang+'/news/feed.xml')
+    lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, lang: lang, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/'+lang+'/news/feed.xml')
     
     articles.forEach((e, i, ar) => {
         lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)

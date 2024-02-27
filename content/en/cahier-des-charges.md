@@ -16,7 +16,7 @@ To help you draft your specifications, we offer you a set of clauses relating to
 These sample clauses are published under the [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) license. This is a derivative work of a document produced by the company [Access42](https://access42.net/).
 
 <button class="clipboard">Copy to clipboard</button>
-[Download in Word format](../files/example-cahier-des-charges-accessibilite-10032023.docx)
+[Download in Word format](../files/exemple-cahier-des-charges-accessibilite-10032023.docx)
 <div class="cdc-template">
 
 #### Accessibility

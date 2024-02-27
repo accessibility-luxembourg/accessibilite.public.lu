@@ -32,7 +32,7 @@ We are at your disposal for any questions, do not hesitate to [contact us](conta
 <div class="right-column-content">
 
 If you encounter an accessibility problem on a public site or mobile application, you can contact us via the form below:
-- [Complaint form](https://sip.temporel.lu/fr/support/reclamation-accessibilite.html)
+- [Complaint form](https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html)
 - [Information on the procedure](tools/reclamations.html)
 
 </div>

@@ -16,7 +16,7 @@ For each of the tests of a criterion corresponds a test procedure. The implement
 A list of tools is also offered to help carry out the tests. They were selected both because they are frequently used by experts in the field and because they facilitate the search for certain results.
 
 <div class="fr-callout"><p class="fr-text--lg">
-The test methodology is now available at the level of each test on the <a href="criteria.html">criteria and tests</a> page.</p>
+The test methodology is now available at the level of each test on the <a href="criteres.html">criteria and tests</a> page.</p>
 </div>
 
 ### Tools

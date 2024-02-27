@@ -15,7 +15,7 @@ These tools are free and open source, or based on open source technologies.
 Here are the document templates to carry out a simplified audit.
 
 - [Audit report template](../files/template-rapport-audit-simplifie.docx "Simplified audit report template, Docx format (21 KB)"), Docx format (21 KB)
-- [Audit grid](../files/template-grile-audit-simplifie.xlsx "Simplified audit grid template, Xlsx format (81 KB)"), Xlsx format (81 KB)
+- [Audit grid](../files/template-grille-audit-simplifie.xlsx "Simplified audit grid template, Xlsx format (81 KB)"), Xlsx format (81 KB)
 
 #### Definition of sample pages
 The sample of pages to test is 3 pages. We recommend the following three pages:

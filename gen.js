@@ -28,7 +28,7 @@ langs.forEach(lang => {
     md = md.filter(x => {return x.name != 'index'})
 
     md.forEach(e => { 
-        console.log(e.title)
+        // console.log(e.title)
         lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle)          
     })
 
@@ -61,7 +61,7 @@ langs.forEach(lang => {
     lib.renderHome(config[lang], lang, home, articles.slice(0, 3), outputPath)
 
     // generate site outline
-    lib.genFile(config[lang], './src/tpl/outline.ejs',{config: config[lang]}, "Plan du site", lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '../..')
+    lib.genFile(config[lang], './src/tpl/outline.ejs',{config: config[lang], lang: lang}, "Plan du site", lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '../..')
 
     // generate declaration form
     let declaPayload = {lang: config[lang].declaLangs, prefix: "../../..", tpl: []};

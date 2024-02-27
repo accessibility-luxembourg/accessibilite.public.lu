@@ -5,7 +5,7 @@ tags:
 author: Dominique Nauroy
 ---
 
-<script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
+<script src="../../../../content/en/news/2024-01-26-charge-dispro.js"></script>
 <h2>From year to year, a less disproportionate burden?</h2>
 <h3>In three years, how have accessibility statements evolved on the issue of disproportionate burden?</h3>
 <hr>
@@ -13,7 +13,7 @@ author: Dominique Nauroy
     <p>Public bodies can exempt certain content published online from accessibility rules, citing the reason of “disproportionate burden”. when it is “reasonably impossible to make content or functionality accessible”. Behind this formulation, particular consideration is given to the costs that should be incurred in relation to the estimated benefit for disabled people.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
-    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustrative image representing an office worker crumbling under the folders">
+    <img src="../../../../content/en/news/img/2024-01-charge-dispro.jpg" alt="Illustrative image representing an office worker crumbling under the folders">
     <figcaption>Photo&#8239;: iStock / cyano66</figcaption>
 </figure>
 <p>These contents and functionalities must be precisely listed in the declaration. Alternatives must be able to offer equivalent content and functionalities... as long as their production does not itself constitute a disproportionate burden.</p>
