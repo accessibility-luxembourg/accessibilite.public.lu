@@ -9,7 +9,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display:none;
 }
 </style>
-<script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritément-inaccessibles.js"></script>
+<script src="../../../../content/en/news/2023-04-28-des-pdf-majoritément-inaccessibles.js"></script>
 <h2>On the most visited public sites, PDFs are mostly inaccessible</h2>
 <h3>The accessibility of these documents, sometimes present massively on the most visited Luxembourg public portals in 2023, however tends to improve</h3>
 <hr>
@@ -17,7 +17,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <p>The presence of large quantities of inaccessible PDF files on public sites is a key problem for people with disabilities. Indeed, certain accessibility problems can completely block access to information or the implementation of administrative procedures in the case of forms. In this article, we study the accessibility of PDFs present on the 17 most visited public sites in Luxembourg.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
-    <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
+    <img src="../../../../content/en/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
     <figcaption>Photo&#8239;: Getty Images / istockphoto.com / nyvltart</figcaption>
 </figure>
 <p>When a PDF document is scanned as an image or unmarked, a blind or visually impaired user has no access to its content at all (for more details on this, see the article “&#8239 ;<a href="https://access42.net/pdf-accessibilite?lang=fr">PDF and accessibility, the wrong idea</a>&#8239;»).</p>
@@ -51,14 +51,14 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <h5>Protection against the use of assistive technologies</h5>
     <p>The PDF format offers many options for protecting documents, for example against modification. One of these options protects the document against the use of assistive technologies by people with disabilities. This option can be activated by mistake and should generally be avoided.</p>
 </aside>
-<p>The analysis focused mainly on the three most blocking accessibility problems. There are of course many other potential accessibility issues (see the reference for assessing the accessibility of documents in PDF format <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF </a> for all the criteria to be respected for the production of accessible PDFs) but markup is a prerequisite. If it is absent, a PDF is directly considered inaccessible.</p>
+<p>The analysis focused mainly on the three most blocking accessibility problems. There are of course many other potential accessibility issues (see the reference for assessing the accessibility of documents in PDF format <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF </a> for all the criteria to be respected for the production of accessible PDFs) but markup is a prerequisite. If it is absent, a PDF is directly considered inaccessible.</p>
 <h4>The results</h4>
 <h5>General</h5>
 <p>We analyzed 25,398 PDF files representing a volume of 42 GB and more than 471,000 pages. PDF documents represent 95% of office files downloaded from the sites analyzed. The remaining 5% are mainly documents from the Microsoft Office suite.</p>
-<p>Of all the PDF documents available for download, 46% are a priori exempt from the accessibility obligation because they were published before September 23, 2018 (exemption provided for in <a href="https:// legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">the law of May 28, 2019</a>). In the rest of this article, we only consider PDF documents that are subject to the accessibility obligation, that is to say forms and documents published after September 23, 2018.</p>
+<p>Of all the PDF documents available for download, 46% are a priori exempt from the accessibility obligation because they were published before September 23, 2018 (exemption provided for in <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">the law of May 28, 2019</a>). In the rest of this article, we only consider PDF documents that are subject to the accessibility obligation, that is to say forms and documents published after September 23, 2018.</p>
 <figure class="chart">
     <div id="pdf-20230503-1">
-        <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graph 1. Distribution of PDFs available for download (see description below below).">
+        <img src="../../../../content/en/news/img/pdf-20230503-1.svg" alt="Graph 1. Distribution of PDFs available for download (see description below below).">
     </div>
     <details>
         <summary>Description of graph 1</summary>
@@ -89,7 +89,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <div class="charts-side-by-side">
     <figure class="chart">
         <div id="pdf-20230503-2">
-            <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graph 2. Share of untagged PDFs by year (see description below -below).">
+            <img src="../../../../content/en/news/img/pdf-20230503-2.svg" alt="Graph 2. Share of untagged PDFs by year (see description below -below).">
         </div>
         <details>
             <summary>Description of graph 2</summary>
@@ -98,7 +98,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </figure>
     <figure class="chart">
         <div id="pdf-20230503-3">
-            <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graph 3. Quantity of PDFs published per year (see description below below).">
+            <img src="../../../../content/en/news/img/pdf-20230503-3.svg" alt="Graph 3. Quantity of PDFs published per year (see description below below).">
         </div>
         <details>
             <summary>Description of graph 3</summary>
@@ -111,7 +111,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <h5>Comparison of the main sites</h5>
 <figure class="chart">
     <div id="pdf-20230503-4">
-        <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graph 4. Share of tagged PDFs in percentage (see description below below).">
+        <img src="../../../../content/en/news/img/pdf-20230503-4.svg" alt="Graph 4. Share of tagged PDFs in percentage (see description below below).">
     </div>
     <details>
         <summary>Description of graph 4</summary>
@@ -143,7 +143,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>The main producers of untagged PDFs are InDesign desktop publishing software, scanners, and the PDF printing functionality included in most recent operating systems.</p>
 <figure class="chart">
     <div id="pdf-20230503-5">
-        <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Share of PDFs scanned in image mode among untagged ones in percentage (see description below).">
+        <img src="../../../../content/en/news/img/pdf-20230503-5.svg" alt="Graph 5. Share of PDFs scanned in image mode among untagged ones in percentage (see description below).">
     </div>
     <details>
         <summary>Description of graph 5</summary>
@@ -162,13 +162,13 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p><strong>None of these statements can accurately identify which PDFs on their sites are not accessible.</strong></p>
 <p>The majority of organizations responsible for these sites are therefore aware of the problem but are not necessarily able to resolve it in a simple manner.</p>
 <h4>How to make PDF documents accessible?</h4>
-<p>As we saw above, the top three producers of untagged PDFs are desktop publishing software, scanners, and the print-to-PDF function. It therefore seems important to us to raise awareness and train the teams responsible for producing brochures. If this is outsourced, it must be possible to include consideration of accessibility in the request (see our page relating to <a href="https://accessibilite.public.lu/fr/tools/ specifications.html">specifications</a>).</p>
+<p>As we saw above, the top three producers of untagged PDFs are desktop publishing software, scanners, and the print-to-PDF function. It therefore seems important to us to raise awareness and train the teams responsible for producing brochures. If this is outsourced, it must be possible to include consideration of accessibility in the request (see our page relating to <a href="https://accessibilite.public.lu/en/tools/ specifications.html">specifications</a>).</p>
 <p>It would also be relevant to put in place processes to manage the accessibility of digitized documents (OCR and markup stages or provision of an accessible alternative such as the source document before printing and scanning) and finally to raise awareness administrations to avoid as much as possible the use of the PDF printing function and to favor PDF export which produces tagged documents.</p>
-<p>To go further and work on the accessibility of the PDFs produced, the SIP provides the repository <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> , which presents all the criteria to be respected, and offers training for the public sector entitled “&#8239;<a href="https://function-publique.public.lu/fr/formation-developpement/catalogue- training/state-sector/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibility of PDF documents through practice</a>&#8239;". If you are concerned, do not hesitate to register.</p>
+<p>To go further and work on the accessibility of the PDFs produced, the SIP provides the repository <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> , which presents all the criteria to be respected, and offers training for the public sector entitled “&#8239;<a href="https://function-publique.public.lu/en/formation-developpement/catalogue- training/state-sector/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibility of PDF documents through practice</a>&#8239;". If you are concerned, do not hesitate to register.</p>
 <aside class="contextbox">
     <h5>Evaluation methodology</h5>
     <h6>Constitution of the sample</h6>
-    <p>The sample of sites was obtained from <a href="https://github.com/zakird/crux-top-lists">the list of sites in the Top 1 Million of the UX Report of Google Chrome</a> (see also the <a href="https://developer.chrome.com/docs/crux/methodology/">methodology</a> used by Google to establish this list). We searched for all .lu sites and detected the sites present in <a href="https://data.public.lu/fr/datasets/entreprises-des-sites-publics/">the site inventory public</a> published by the SIP in open data. To simplify the exercise, we have kept only the State and municipal sites and excluded the sites requiring identification as well as duplicates (e.g.: www.services-publics.lu andcompte.public.lu) . This method made it possible to obtain the list of 17 sites presented at the beginning of the article.</p>
+    <p>The sample of sites was obtained from <a href="https://github.com/zakird/crux-top-lists">the list of sites in the Top 1 Million of the UX Report of Google Chrome</a> (see also the <a href="https://developer.chrome.com/docs/crux/methodology/">methodology</a> used by Google to establish this list). We searched for all .lu sites and detected the sites present in <a href="https://data.public.lu/en/datasets/entreprises-des-sites-publics/">the site inventory public</a> published by the SIP in open data. To simplify the exercise, we have kept only the State and municipal sites and excluded the sites requiring identification as well as duplicates (e.g.: www.services-publics.lu andcompte.public.lu) . This method made it possible to obtain the list of 17 sites presented at the beginning of the article.</p>
     <h6>File analysis</h6>
     <p>The <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler">simplA11yPDFCrawler</a> tool, developed at SIP, was used to collect PDFs on these 17 sites and analyze them . Only office documents present on these sites were downloaded; external links were not taken into account. In order to be able to carry out the study in a reasonable time, this collection was limited to 24 hours per site, which means that certain sites may make more documents available than those analyzed as part of this study.</p>
     <h6>Limitations of the study</h6>

@@ -1026,7 +1026,7 @@ Procedure:
 ##### Matches {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Name, role and value (A)](https://www.w3 .org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03): 5.6.1 Tactile or auditory status, 11.2.4.4 Link Purpose (in context), 11.2. 5.3.1 Label in Name, 11.4.1.2.1 Name, role, value, 11.5.2.3 Use of accessibility services, 11.5.2.5 Object information, 11.5.2.7 Values, 11.5.2.8 Label relationships, 11.5.2.9 Parent-child relationships,  11.5.2.11 List of available actions, 11.5.2.12 Execution of available actions, 11.5.2.16 Modifications of states and properties, 11.6.2 No disruption of accessibility features.
+- EN 301 549 V3.2.1 (2021-03): 5.6.1 Tactile or auditory status, 11.2.4.4 Link Purpose (in context), 11.2.5.3.1 Label in Name, 11.4.1.2.1 Name, role, value, 11.5.2.3 Use of accessibility services, 11.5.2.5 Object information, 11.5.2.7 Values, 11.5.2.8 Label relationships, 11.5.2.9 Parent-child relationships,  11.5.2.11 List of available actions, 11.5.2.12 Execution of available actions, 11.5.2.16 Modifications of states and properties, 11.6.2 No disruption of accessibility features.
 
 #### [Criterion 5.2](#crit-5-2) [A] Is each [interface component](glossary.md#interface-component) [controllable by the keyboard and any pointing device ](glossary.md#accessible-and-activatable-by-the-keyboard-and-any-pointing-device) (except in special cases)? {id="crit-5-2"}
 
@@ -1279,7 +1279,7 @@ Note: In applications, it is possible to group elements. For example, in a produ
 ##### Matches {class="disclosure mapping"}
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships ( A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content, 11.1.3.1.1 Info and Relationships, 11.5 .2.10 Text.
+- EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content, 11.1.3.1.1 Info and Relationships, 11.5.2.10 Text.
 
 #### [Criterion 8.2](#crit-8-2) [AA] In each screen, can the user increase the character size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
@@ -2389,7 +2389,7 @@ The criterion is not applicable for functionalities integrated into the platform
 - an [accessibility declaration](../obligations.html#accessibility-declaration);
 - any other content that serves as documentation (this can be a PDF document, an external HTML page readable in a web browser).
 1. If so, check for each item of documentation:
-- if it is a web page, that it respects the [RAWeb1](../raweb1/criteria.html)&nbsp;;
+- if it is a web page, that it respects the [RAWeb1](../raweb1/criteres.html)&nbsp;;
 - if it is an office document in PDF format, that it complies with the [reference for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html) .
 - if it is an office document in another format, that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https:// www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN 301 549 v3.2.1;
 - if it is an application screen, that this standard is respected (the page **[Obligations](../obligations.html)** also details that the screens relating to the documentation must be included in the evaluation sample).
@@ -2485,14 +2485,14 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 11.8.1 Content technology, 11.8.4 Repair Assistance.
 
-#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossary.md#template), at least one template makes it possible to meet the requirements of [RAWeb](.. /raweb1/criteria.html). Is this rule respected? {id="crit-13-5"}
+#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossary.md#template), at least one template makes it possible to meet the requirements of [RAWeb](.. /raweb1/criteres.html). Is this rule respected? {id="crit-13-5"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
 1. Identify the presence of templates made available by the editing tool.
-1. Test compliance with the [RAWeb](../raweb1/criteria.html) criteria and check that at least one of the templates is fully compliant.
+1. Test compliance with the [RAWeb](../raweb1/criteres.html) criteria and check that at least one of the templates is fully compliant.
 1. If this is the case, the criterion is validated.
 
 ##### Matches {class="disclosure mapping"}
@@ -2506,7 +2506,7 @@ The criterion is not applicable when the destination format does not allow the a
 
 ###### iOS and Android
 
-1. Identify the presence of templates that fully comply with [RAWeb](../raweb1/criteria.html) made available by the editing tool.
+1. Identify the presence of templates that fully comply with [RAWeb](../raweb1/criteres.html) made available by the editing tool.
 1. Check the presence of an explicit mention allowing them to be identified. For example, from the list of templates, compliant templates have a label “accessible template”.
 1. If this is the case, the criterion is validated.
 

@@ -145,7 +145,7 @@ function generateCriteria(path, rgaaPath = '') {
 
     for (const folder of filteredFolders) {
         const testData = parseTests(`${CRITERIA_SOURCE}/${folder}/tests`, rgaaPath)
-        console.log(`${CRITERIA_SOURCE}/${folder}/annexe.md`)
+        //console.log(`${CRITERIA_SOURCE}/${folder}/annexe.md`)
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath)
         //console.log('-------\n' + refData.notes)
         checkHeading(refData.notes)

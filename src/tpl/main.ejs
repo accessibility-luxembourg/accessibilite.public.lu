@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="no-js">
+<html lang="<%= lang %>" class="no-js">
 <head>
     <meta charset="utf-8">
     <title><%= title %> - Portail de l'accessibilité numérique</title>
@@ -19,7 +19,7 @@
 
     <% if (imgTwitter) { %>
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:image" content="https://accessibilite.public.lu/fr/news/og/<%= (imgTwitter + '?' + Date.now()) %>" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/<%= lang %>/news/og/<%= (imgTwitter + '?' + Date.now()) %>" />
     <% } else { %>   
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
@@ -36,7 +36,7 @@
     
     <meta property='og:title' content="<%= title %>"/>
     <% if (imgLinkedin) { %>
-      <meta property='og:image' content="https://accessibilite.public.lu/fr/news/og/<%= imgLinkedin %>"/>
+      <meta property='og:image' content="https://accessibilite.public.lu/<%= lang %>/news/og/<%= imgLinkedin %>"/>
     <% } else { %>
       <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
     <% } %>
@@ -53,7 +53,7 @@
 
     <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
     <link rel="canonical" href='https://accessibilite.public.lu<%= file %>'/>
-    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/fr/news/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/<%= lang %>/news/feed.xml" />
     
     <% if (prod) { %>
       <meta name="google-site-verification" content="<%= process.env.GSITEVERIF %>" />
@@ -72,7 +72,7 @@
         <%- process.env.GOVBAR %>
       <% } %>
        <!-- <%- name %> -->     
-    <%- include('header', {'nav': config.mainMenu, 'name': name, 'prod': prod, 'prefix': prefix}) %>
+    <%- include('header', {'nav': config.mainMenu, 'name': name, 'prod': prod, 'prefix': prefix, 'lang': lang}) %>
     <main role="main" id="main" class="main">
       <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %> <%= (full_width)?'full_width':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
         <% if (!withoutTitle) { %>

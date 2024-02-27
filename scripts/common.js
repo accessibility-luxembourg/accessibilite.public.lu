@@ -14,8 +14,8 @@ function isProd() {
     return (process.env.NODE_ENV === 'production')
 }
 
-function renderToFile(config, data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width}, function(err, str){
+function renderToFile(config, data, title, lang, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, lang: lang, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -23,7 +23,8 @@ function renderToFile(config, data, title, file, name, prefix, withSummary = fal
     });
 }
 
-function renderWithSummary(config, data, title, file, name, prefix, summary, summaryTitle, error = '') {
+function renderWithSummary(config, data, title, lang, file, name, prefix, summary, summaryTitle, error = '') {
+    // console.log(title)
     if (summary !== undefined) {
         const $ = cheerio.load(data)
         const topics = []
@@ -42,6 +43,7 @@ function renderWithSummary(config, data, title, file, name, prefix, summary, sum
                 text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
                     let link = ''
                     try {
+                        //console.log(version, criterion)
                         link = en301549.getLink(version, criterion, 'lang="en"')+separator
                     } catch(e) {
                         console.log(e, criterion, version)
@@ -57,14 +59,14 @@ function renderWithSummary(config, data, title, file, name, prefix, summary, sum
             if (err !== null) {
                 console.log(err)
             }
-            renderToFile(config, str, title, file, name, prefix, true, error)
+            renderToFile(config, str, title, lang, file, name, prefix, true, error)
         })
     } else {
-        renderToFile(config, data, title, file, name, prefix, false, error)
+        renderToFile(config, data, title, lang, file, name, prefix, false, error)
     }
 }
 
-function renderHome(config, page, latestNews, outputPath) {
+function renderHome(config, lang, page, latestNews, outputPath) {
     // FIXME : image prefix...
     latestNews = latestNews.map(x => {x.meta.img = x.meta.img.replace(/^\.\.\//, ''); return x})
 
@@ -73,7 +75,7 @@ function renderHome(config, page, latestNews, outputPath) {
             console.log(err)
         }
         const data = genericMarkdownIt(page).render(fs.readFileSync(page.md).toString().replace('<!-- latest news -->', renderedNews))
-        renderToFile(config, data, page.title, outputPath+'/fr/'+page.name+'.html', page.name, page.prefix, false)        
+        renderToFile(config, data, page.title, lang, outputPath+'/'+lang+'/'+page.name+'.html', page.name, page.prefix, false)        
     })
 }
 
@@ -189,23 +191,23 @@ function genericMarkdownIt(page) {
 }
 
 
-function genFile(config, template, data, title, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
+function genFile(config, template, data, title, lang, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
     data.prefix = prefix
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(config, str, title, file, name, prefix, withSummary, error, withoutTitle, ogDesc, imgTwitter, imgLinkedin, full_width)
+        renderToFile(config, str, title, lang, file, name, prefix, withSummary, error, withoutTitle, ogDesc, imgTwitter, imgLinkedin, full_width)
     })
 }
 
-function genFileWithSummary(config, template, data, title, file, name, prefix, summary, summaryTitle, error = '') {
+function genFileWithSummary(config, template, data, title, lang, file, name, prefix, summary, summaryTitle, error = '') {
     data.prefix = prefix
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)
         }
-        renderWithSummary(config, str, title, file, name, prefix, summary, summaryTitle, error)
+        renderWithSummary(config, str, title, lang, file, name, prefix, summary, summaryTitle, error)
     })
 }
 

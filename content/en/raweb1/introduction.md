@@ -22,9 +22,9 @@ If a defect is found in this repository, you can create a ticket in this reposit
 
 ### Summary
 
-  * [Criteria and tests](criteria.html)
+  * [Criteria and tests](criteres.html)
   * [Glossary](glossary.html)
   * [Test methodology](methodo-test.html)
   * [Test environment](environment.html)
   * [References](references.html)
-  * [Revision notes](revision-notes.html)
+  * [Revision notes](notes-revision.html)

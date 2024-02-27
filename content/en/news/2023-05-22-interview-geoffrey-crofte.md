@@ -11,13 +11,13 @@ author: Dominique Nauroy
     <p>Do creativity and accessibility go hand in hand? Is it easy to make a site compliant? How do we become sensitive to these questions? Geoffrey Crofte willingly took part in the question and answer game. Maintenance.</p>
 </div>
 <figure role="group" aria-label="Geoffrey Crofte. Photo: Rémy Chautard" class="pic">
-    <img src="../../../../content/fr/news/img/itw-g-crofte.jpg" alt="A photo of Geoffrey Crofte giving a presentation at DevFest 2020 Nantes">
+    <img src="../../../../content/en/news/img/itw-g-crofte.jpg" alt="A photo of Geoffrey Crofte giving a presentation at DevFest 2020 Nantes">
     <figcaption>Geoffrey Crofte. Photo: Rémy Chautard</figcaption>
 </figure>
 
 <h4>Where does this interest in accessibility come from?</h4>
 <p>As a rule, people for whom this issue has become a personal matter are affected, directly or indirectly. For example, they may have someone close to them who is disabled, or they may be disabled themselves.</h4>
-<p>This is not my case, to my knowledge, but I was made aware of it around ten years ago, during my first professional experiences at <a href="https://www.alsacreations .com/">Alsacréations</a>, in Strasbourg. They already had a certain lead in web quality and had an accessibility expert. I learned from him and it influenced my user experience aspect. From the start, I wanted to do things well, so that users, all users, could navigate the interfaces that I was developing.</p>
+<p>This is not my case, to my knowledge, but I was made aware of it around ten years ago, during my first professional experiences at <a href="https://www.alsacreations.com/">Alsacréations</a>, in Strasbourg. They already had a certain lead in web quality and had an accessibility expert. I learned from him and it influenced my user experience aspect. From the start, I wanted to do things well, so that users, all users, could navigate the interfaces that I was developing.</p>
 <h4>Today, this concern has become a cause, a fight or, more simply, an obvious fact, as it would be difficult to imagine a house without a front door?</h4>
 <p>Above all, the obvious: it is an integral part of my daily life. When I make a design decision, it applies to all users, including people with disabilities. The texts must be large and contrasting enough for everyone, to cite just this example, but there are many other points of attention.</p>
 <p>Also, when I notice glaring problems on other platforms, I point them out, on LinkedIn or Twitter; In general I am quite direct. This is where the struggle lies for me, because there is resistance to change. The classic feedback that I receive, “thank you, we will pass it on to our technical teams”, which is a polite response, does not necessarily lead to subsequent implementation. Too bad, because the solution to apply is not always complicated.</p>

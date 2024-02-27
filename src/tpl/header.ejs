@@ -26,7 +26,7 @@
                           <% if (f.url !== undefined) { %>
                             href="<%= f.url %>"><%= f.menu %>
                           <% } else { %>
-                            href="<%= prefix %>/html/fr/<%= f.name %>.html"><%= f.menu %>
+                            href="<%= prefix %>/html/<%= lang %>/<%= f.name %>.html"><%= f.menu %>
                           <% } %>
                           
                         </a>
@@ -37,7 +37,7 @@
               <% } else {%>
                 <li <%- (e.name === name)?'class="selected"':'' %>>
                   <a <%- (e.name === name)?'aria-current="page"':'' %><%- (e.name === 'index')?'class="home"':''  %> 
-                    href="<%= prefix %>/html/fr/<%= e.name %>.html"><%- e.menu %></a>
+                    href="<%= prefix %>/html/<%= lang %>/<%= e.name %>.html"><%- e.menu %></a>
                 </li>          
               <% } %>
             <% }) %>

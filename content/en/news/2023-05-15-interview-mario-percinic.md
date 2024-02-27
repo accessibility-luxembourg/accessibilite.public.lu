@@ -60,7 +60,7 @@ author: Dominique Nauroy
     <h4>The complaints mechanism</h4>
     <p>If you notice a lack of accessibility on a website or a mobile application of a Luxembourg public body, you can first contact the organization directly.</p>
     <p>If you don't get satisfaction, please contact the SIP or the Ombudsman.</p>
-    <p>This <a href="https://sip.temporel.lu/en/support/reclamation-accessibilite.html">accessibility complaint form</a> is available on the website of the SIP.</p>
+    <p>This <a href="https://sip.gouvernement.lu/en/support/reclamation-accessibilite.html">accessibility complaint form</a> is available on the website of the SIP.</p>
     <p>When a complaint is submitted via this form, the SIP acts as a mediator between the citizen and the public sector body. The SIP then informs the user of the conclusions, as soon as a solution has been proposed. In case where the reported accessibility problems are out of the scope of the law of 28 May 2019, the SIP informs the responsible organization and gives feedback to the complainer, even if there is no legal obligation that has to be respected.</p>
     <p>The <a href="https://www.ombudsman.lu/">Ombudsman</a> can also act as a mediator according to the law and follow a similar procedure.</p>
 </aside>

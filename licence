@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="./src/html/en/licence.html" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Licence - Portail de l'accessibilité numérique</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/html/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/html/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/html/favicon-16x16.png">
+    <link rel="manifest" href="/html/site.webmanifest">
+    <link rel="mask-icon" href="/html/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Service information et presse">
+    
+
+       
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
+          
+
+    <meta name="twitter:site" content="https://twitter.com/accessibilityLU" />
+    <meta name="twitter:creator" content="https://twitter.com/accessibilityLU">
+    <meta name="twitter:title" content="Licence - Portail de l'accessibilité numérique du Luxembourg" />
+    
+    
+    <meta property='twitter:url' content='https://accessibilite.public.lulicence'/>    
+    
+    <meta property='og:title' content="Licence"/>
+    
+      <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
+    
+    <meta property='og:site_name' content="Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg"/>
+    <meta property='og:url' content='https://accessibilite.public.lulicence'/>
+    <meta property="og:type" content="website">
+
+    
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="/css/main.scss" media="screen" />
+    <link rel="canonical" href='https://accessibilite.public.lulicence'/>
+    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/./src/html/en/licence.html/news/feed.xml" />
+    
+    
+   
+    <script src="/js/main.js"></script>
+    
+      <meta name="robots" content="noindex">
+    
+</head>
+<body>
+      
+       <!-- ../.. -->     
+    <header role="banner" id="banner" class="banner">
+  <div class="skip-link">
+      <a href="#main">Aller au contenu</a>
+  </div> 
+  <div class="menu-container" id="top">
+    <h1>Portail de l'accessibilité numérique</h1>
+    <nav role="navigation" id="navi" aria-label="menu principal">
+      <div id="frameworks" aria-hidden="true">référentiels</div>
+      <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>
+      <ul class="disclosure-nav">
+            
+              
+                <li >
+                  <a class="home" 
+                    href="/html/fr/index.html"><span class='hide-element'>Accueil</span></a>
+                </li>          
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="news_menu"
+                    >
+                    Actualités
+                  </button>
+                  <ul id="news_menu">
+                    
+                      <li>
+                        <a data-name="news/index" 
+                          
+                          
+                            href="/html/fr/news/index.html">Articles
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="newsletter" 
+                          
+                          
+                            href="/html/fr/newsletter.html">Suivre nos actualités
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="monitoring_menu"
+                    >
+                    Missions
+                  </button>
+                  <ul id="monitoring_menu">
+                    
+                      <li>
+                        <a data-name="obligations" 
+                          
+                          
+                            href="/html/fr/obligations.html">Les obligations
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="monitoring/mission" 
+                          
+                          
+                            href="/html/fr/monitoring/mission.html">La mission de contrôle
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="monitoring/open-data" 
+                          
+                          
+                            href="/html/fr/monitoring/open-data.html">Les données ouvertes
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="tools_menu"
+                    >
+                    Outils
+                  </button>
+                  <ul id="tools_menu">
+                    
+                      <li>
+                        <a data-name="tools/cahier-des-charges" 
+                          
+                          
+                            href="/html/fr/tools/cahier-des-charges.html">Cahier des charges
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="tools/kit" 
+                          
+                          
+                            href="/html/fr/tools/kit.html">Kit d&#39;audit
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="tools/decla" 
+                          
+                          
+                            href="/html/fr/tools/decla.html">Votre déclaration
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="tools/reclamations" 
+                          
+                          
+                            href="/html/fr/tools/reclamations.html">Réclamations
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="raweb1_menu"
+                    >
+                    <span class='mobile-only'>Référentiel</span> Web
+                  </button>
+                  <ul id="raweb1_menu">
+                    
+                      <li>
+                        <a data-name="raweb1/index" 
+                          
+                          
+                            href="/html/fr/raweb1/index.html">Introduction
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/criteria" 
+                          
+                          
+                            href="/html/fr/raweb1/criteria.html">Critères et tests
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/glossaire" 
+                          
+                          
+                            href="/html/fr/raweb1/glossaire.html">Glossaire
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/methodo-test" 
+                          
+                          
+                            href="/html/fr/raweb1/methodo-test.html">Méthodologie de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/environnement" 
+                          
+                          
+                            href="/html/fr/raweb1/environnement.html">Environnement de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/references" 
+                          
+                          
+                            href="/html/fr/raweb1/references.html">Références
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raweb1/notes-revision" 
+                          
+                          
+                            href="/html/fr/raweb1/notes-revision.html">Notes de révision
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="monitoring/controle-simplifie" 
+                          
+                          
+                            href="/html/fr/monitoring/controle-simplifie.html">La méthode de contrôle simplifié
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="monitoring/audit-simpl" 
+                          
+                          
+                            href="/html/fr/monitoring/audit-simpl.html">Les critères pour le contrôle simplifié
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="raam1_menu"
+                    >
+                    <span class='mobile-only'>Référentiel</span> mobile
+                  </button>
+                  <ul id="raam1_menu">
+                    
+                      <li>
+                        <a data-name="raam1/index" 
+                          
+                          
+                            href="/html/fr/raam1/index.html">Introduction
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raam1/referentiel-technique" 
+                          
+                          
+                            href="/html/fr/raam1/referentiel-technique.html">Critères et tests
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raam1/glossaire" 
+                          
+                          
+                            href="/html/fr/raam1/glossaire.html">Glossaire
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raam1/methodologie" 
+                          
+                          
+                            href="/html/fr/raam1/methodologie.html">Méthodologie de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raam1/environnement" 
+                          
+                          
+                            href="/html/fr/raam1/environnement.html">Environnement de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="raam1/references" 
+                          
+                          
+                            href="/html/fr/raam1/references.html">Références
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+              
+                <li >
+                  <button
+                    class="submenu"
+                    aria-expanded="false"
+                    aria-controls="rapdf1_menu"
+                    >
+                    <span class='mobile-only'>Référentiel</span> PDF
+                  </button>
+                  <ul id="rapdf1_menu">
+                    
+                      <li>
+                        <a data-name="rapdf1/index" 
+                          
+                          
+                            href="/html/fr/rapdf1/index.html">Introduction
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="rapdf1/referentiel-technique" 
+                          
+                          
+                            href="/html/fr/rapdf1/referentiel-technique.html">Critères et tests
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="rapdf1/glossaire" 
+                          
+                          
+                            href="/html/fr/rapdf1/glossaire.html">Glossaire
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="rapdf1/methodologie" 
+                          
+                          
+                            href="/html/fr/rapdf1/methodologie.html">Méthodologie de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="rapdf1/environnement" 
+                          
+                          
+                            href="/html/fr/rapdf1/environnement.html">Environnement de test
+                          
+                          
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a data-name="rapdf1/references" 
+                          
+                          
+                            href="/html/fr/rapdf1/references.html">Références
+                          
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              
+            
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <main role="main" id="main" class="main">
+      <div id="contenu" class="container main-container  "> 
+        
+        <h2>Licence</h2>
+        
+        
+        <p>The RAWeb contents are placed under the Creative Commons license <a href="https://creativecommons.org/licenses/by/3.0/lu/">CC-BY 3.0 LU</a>, they contain an adapted copy of the [RGAA 4.1.2](https ://accessibilite.numerique.gouv.fr/) published by <a href="https://www.numerique.gouv.fr/dinum/">DINUM</a>. The contents are obtained from the following git repository:
+<a href="https://github.com/DISIC/RGAA">DISIC/RGAA</a>.</p>
+<p>The adaptations of this content to the Luxembourg legal context were carried out by the <a href="https://sip.politique.lu">Information and Press Service</a> and are listed in the [revision notes](./raweb1/notes-revision. html).</p>
+<p>The RGAA technical method is adapted from the RGAA 3 technical repository updated 2017 (list of criteria, glossary, special cases, technical notes, “reference base” testing environment) which is itself an adapted copy of the AccessiWeb HTML5 repository /ARIA - Working version of 12/19/2013 - Published by the BrailleNet association. Copyright 2013 BrailleNet Association. All rights reserved.</p>
+<p>The contents of <a href="./raam1/index.html">RAAM</a> are published by the <a href="https://sip.temporel.lu">information and press service</a> and are placed under the Creative Commons license [CC-BY 3.0 LU] (https://creativecommons.org/licenses/by/3.0/lu/). They constitute works derived from the following documents published by <a href="https://www.numerique.gouv.fr/dinum/">DINUM</a>:</p>
+<ul>
+<li><a href="https://github.com/DISIC/RGAA">DISIC/RGAA</a> (version of 05/21/2021)</li>
+<li><a href="https://github.com/DISIC/rgaa-apps">DISIC/RGAA-Apps</a> (version of 08/16/2017)</li>
+<li><a href="https://github.com/DISIC/rgaa_methodologie">DISIC/rgaa_methodologie</a> (version of 07/31/2017)</li>
+</ul>
+<p>The contents of the <a href="./rapdf1/index.html">RAPDF</a> are published by the <a href="https://sip.temporel.lu">information and press service</a> and are placed under the Creative Commons license [CC-BY 3.0 LU] (https://creativecommons.org/licenses/by/3.0/lu/).</p>
+<p>All other content is published by the <a href="https://sip.temporel.lu">Information and Press Service</a> and placed under <a rel="license" href="http://creativecommons.org/licenses/by/ 3.0/lu/">Creative Commons Attribution 3.0 Luxembourg License</a>.</p>
+
+      </div>
+    </main>
+    <footer role="contentinfo" class="footer">
+    <div class="container">
+        <ul class="footer-links">
+            
+                <li>
+                    <a href="/html/fr/licence.html">Licence</a>
+                </li>
+            
+                <li>
+                    <a href="/html/fr/support/accessibilite.html">Déclaration d&#39;accessibilité</a>
+                </li>
+            
+                <li>
+                    <a href="/html/fr/aspects-legaux.html">Aspects légaux</a>
+                </li>
+            
+                <li>
+                    <a href="/html/fr/plan-site.html">Plan du site</a>
+                </li>
+            
+                <li>
+                    <a href="/html/fr/contact.html">Contact</a>
+                </li>
+            
+        </ul>
+        <p>Ce site est édité par le <a href="https://sip.gouvernement.lu">Service Information et Presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l'analyse des statistiques d'utilisation. Pour plus d’information, veuillez consulter notre <a href="/html/fr/aspects-legaux.html#charte-des-cookies">charte des cookies</a>.</p>
+
+    </div>
+</footer>
+    <a href="#top" class="back" title="Haut de page">
+      <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+        <path d="M1.5 19.5c-.2 0-.4-.1-.6-.2-.4-.3-.5-1-.1-1.4l10.5-13c.2-.2.5-.4.8-.4s.6.1.8.4l11 13c.4.4.3 1.1-.1 1.4-.4.4-1.1.3-1.4-.1L12 7.1l-9.7 12c-.2.3-.5.4-.8.4"></path>
+      </svg>
+      <span>Haut de page</span>
+    </a>
+</body>
+</html>

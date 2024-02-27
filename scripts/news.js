@@ -30,8 +30,8 @@ function newsMarkdownIt(cbFM) {
 }
 
 
-function genNews(config, outputPath, baseURL) {
-    const news = fs.readdirSync('./content/fr/news')
+function genNews(config, lang, outputPath, baseURL) {
+    const news = fs.readdirSync('./content/'+lang+'/news')
 
     let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
         const data = {}
@@ -47,7 +47,7 @@ function genNews(config, outputPath, baseURL) {
             data.meta = {...data.meta, ...fm}
         }
     
-        data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/fr/news/'+e).toString())
+        data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/'+lang+'/news/'+e).toString())
         $ = cheerio.load(data.html)
         data.meta.lang = $('body').children().first().attr('lang')
         data.meta.title_html = $('h2').first().html()
@@ -62,7 +62,7 @@ function genNews(config, outputPath, baseURL) {
         } 
     
         if (data.meta.teaser) {
-            data.meta.img = '../../../../content/fr/news/img/'+data.meta.teaser
+            data.meta.img = '../../../../content/'+lang+'/news/img/'+data.meta.teaser
             data.meta.imgName = data.meta.teaser
         }
     
@@ -71,8 +71,8 @@ function genNews(config, outputPath, baseURL) {
             data.meta.imgLinkedin = path.basename(data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg'))
     
             // resize images
-            sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
-            sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/fr/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
+            sharp('./content/'+lang+'/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+            sharp('./content/'+lang+'/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
         } else {
             console.error('Teaser image not found in', data.meta.filename)
         }
@@ -97,7 +97,7 @@ function genNews(config, outputPath, baseURL) {
             $(e).attr('src', $(e).attr('src').replace('../../../../content', baseURL+'/fr'))
         })
         $('a').each((i,e) => {
-            $(e).attr('href', new URL($(e).attr('href'), baseURL+'/fr/news/').href)
+            $(e).attr('href', new URL($(e).attr('href'), baseURL+'/'+lang+'/news/').href)
         })
     
         data.body = $('body').html()
@@ -111,14 +111,14 @@ function genNews(config, outputPath, baseURL) {
         articles = articles.filter(e => {return e.date <= new Date()})
     }
     
-    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, 'Actualités', outputPath+'/fr/news/index.html', 'news/index', '../../../', true)
+    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, 'Actualités', lang, outputPath+'/'+lang+'/news/index.html', 'news/index', '../../../', true)
     
     const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
     
-    lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/fr/news/feed.xml')
+    lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/'+lang+'/news/feed.xml')
     
     articles.forEach((e, i, ar) => {
-        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, outputPath+'/fr/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
+        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
     })
     return articles
 }

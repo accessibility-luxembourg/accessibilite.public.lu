@@ -145,7 +145,7 @@ const config = {
                 {
                     "title": "RAWeb 1: Glossaire",
                     "menu": "Glossaire",
-                    "name": "raweb1/glossaire",
+                    "name": "raweb1/glossary",
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossaryRAWeb1,
@@ -164,7 +164,7 @@ const config = {
                 {
                     "title": "RAWeb 1: Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raweb1/environnement",
+                    "name": "raweb1/environment",
                     "md": "./content/en/raweb1/environnement-de-test.md",
                     "html": true,
                     "prefix": "../../.."
