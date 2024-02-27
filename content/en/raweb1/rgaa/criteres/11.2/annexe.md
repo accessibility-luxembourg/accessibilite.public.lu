@@ -10,8 +10,8 @@ WCAG:
     title: Labels or Instructions
     level: A
 Techniques:
-  -ARIA6
-  -ARIA9
+  - ARIA6
+  - ARIA9
   - ARIA14
   - ARIA16
   - F96
@@ -24,7 +24,7 @@ Techniques:
 Norm:
   - criterion: 9.2.4.6
     title: Headings and Labels
-  - criteria: 9.2.5.3
+  - criterion: 9.2.5.3
     title: Label in Name
   - criterion: 9.3.3.2
     title: Labels or Instructions

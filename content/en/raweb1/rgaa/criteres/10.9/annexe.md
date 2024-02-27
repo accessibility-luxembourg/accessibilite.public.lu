@@ -12,8 +12,8 @@ Techniques:
   - G96
   - G140
 Norm:
-  - criteria: 9.1.3.3
+  - criterion: 9.1.3.3
     title: Sensory Characteristics
-  - criteria: 9.1.4.1
+  - criterion: 9.1.4.1
     title: Use of Color
 ---

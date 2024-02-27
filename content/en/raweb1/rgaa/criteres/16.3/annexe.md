@@ -1,6 +1,6 @@
 ---
 WCAG: N/A
 Norm:
-  - criteria: 12.2.4
+  - criterion: 12.2.4
     title: Accessible documentation
 ---

@@ -9,12 +9,12 @@ WCAG:
 Techniques:
   - F30
   - F67
-  -SM6
-  -SM7
+  - SM6
+  - SM7
 Norm:
-  - criteria: 7.2.2
+  - criterion: 7.2.2
     title: Audio description synchronization
-  - criteria: 9.1.2.1
+  - criterion: 9.1.2.1
     title: Audio-only and Video-only (Prerecorded)
   - criterion: 9.1.2.3
     title: Audio Description or Media Alternative (Prerecorded)

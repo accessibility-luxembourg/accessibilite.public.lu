@@ -5,12 +5,12 @@ WCAG:
     level: A
 Techniques:
   - F2
-  -G115
+  - G115
   - G153
   - H40
   - H48
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
 ---
 

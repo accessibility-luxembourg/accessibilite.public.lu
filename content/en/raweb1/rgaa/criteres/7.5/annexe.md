@@ -9,7 +9,7 @@ Techniques:
   - ARIA23
   - F103
 Norm:
-  - criteria: 9.4.1.3
+  - criterion: 9.4.1.3
     title: Status Messages
 ---
 

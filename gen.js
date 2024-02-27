@@ -27,16 +27,18 @@ langs.forEach(lang => {
     const home = md.find(x => {return x.name == 'index'})
     md = md.filter(x => {return x.name != 'index'})
 
-    const deprecated = config[lang].deprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
-
     md.forEach(e => { 
         lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle)          
     })
 
-    deprecated.forEach(e => { 
-        console.log(lang, e.title)
-        lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title,outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, deprecationMessage)          
-    })
+    if (config[lang].deprecated !== undefined) {
+        const deprecated = config[lang].deprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
+
+        deprecated.forEach(e => { 
+            console.log(lang, e.title)
+            lib.renderWithSummary(config[lang], lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title,outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, deprecationMessage)          
+        })
+    } 
 
     // generate criteria and glossary
     const critLevel1 = config[lang].mainMenu.concat(config[lang].deprecated).filter(e => ["criteres", "glossaire"].includes(e.type) )

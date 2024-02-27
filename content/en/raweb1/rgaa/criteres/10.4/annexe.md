@@ -18,9 +18,9 @@ Techniques:
   - G179
   - SCR34
 Norm:
-  - criteria: 9.1.4.4
+  - criterion: 9.1.4.4
     title: Resize Text
-  - criteria: 11.7
+  - criterion: 11.7
     title: User preferences
 ---
 

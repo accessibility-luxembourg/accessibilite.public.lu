@@ -6,7 +6,7 @@ WCAG:
 Techniques:
   - H58
 Norm:
-  - criteria: 9.3.1.2
+  - criterion: 9.3.1.2
     title: Language of Parts
 ---
 

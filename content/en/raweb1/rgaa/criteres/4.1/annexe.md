@@ -16,10 +16,10 @@ Techniques:
   - G166
   - G173
   - H96
-  -SM6
-  -SM7
+  - SM6
+  - SM7
 Norm:
-  - criteria: 9.1.2.1
+  - criterion: 9.1.2.1
     title: Audio-only and Video-only (Prerecorded)
   - criterion: 9.1.2.3
     title: Audio Description or Media Alternative (Prerecorded)

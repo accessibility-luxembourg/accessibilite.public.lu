@@ -6,6 +6,6 @@ WCAG:
 Techniques:
   - H57
 Norm:
-  - criteria: 9.3.1.1
+  - criterion: 9.3.1.1
     title: Language of Page
 ---

@@ -4,7 +4,7 @@ WCAG:
     title: Keyboard
     level: A
 Norm:
-  - criteria: 9.2.1.1
+  - criterion: 9.2.1.1
     title: Keyboard
 ---
 

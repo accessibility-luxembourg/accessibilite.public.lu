@@ -15,8 +15,8 @@ Techniques:
   - G138
   - G205
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
-  - criteria: 9.1.4.1
+  - criterion: 9.1.4.1
     title: Use of color
 ---

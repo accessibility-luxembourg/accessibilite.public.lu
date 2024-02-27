@@ -20,8 +20,8 @@ Techniques:
   - G198
   - H76
   - SCR1
-  -SCR16
-  -SCR36
+  - SCR16
+  - SCR36
   - SVR1
 Norm:
   - criterion: 9.2.2.1

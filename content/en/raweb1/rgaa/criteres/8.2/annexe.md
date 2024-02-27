@@ -7,7 +7,7 @@ WCAG:
     title: Name, Role, Value
     level: A
 Norm:
-  - criteria: 9.4.1.1
+  - criterion: 9.4.1.1
     title: Parsing
   - criterion: 9.4.1.2
     title: Name, Role, Value

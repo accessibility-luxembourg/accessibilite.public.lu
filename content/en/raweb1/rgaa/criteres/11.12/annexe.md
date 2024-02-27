@@ -10,6 +10,6 @@ Techniques:
   - G164
   - G168
 Norm:
-  - criteria: 9.3.3.4
+  - criterion: 9.3.3.4
     title: Error Prevention (Legal, Financial, Data)
 ---

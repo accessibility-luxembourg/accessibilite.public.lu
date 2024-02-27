@@ -8,7 +8,7 @@ Techniques:
   - G19
   - G176
 Norm:
-  - criteria: 9.2.3.1
+  - criterion: 9.2.3.1
     title: Three Flashes or Below Threshold
 ---
 

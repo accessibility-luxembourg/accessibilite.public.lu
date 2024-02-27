@@ -9,12 +9,12 @@ Techniques:
   - G78
   - G173
   - H96
-  -SM1
-  -SM2
-  -SM6
+  - SM1
+  - SM2
+  - SM6
   - SM7
 Norm:
-  - criteria: 9.1.2.5
+  - criterion: 9.1.2.5
     title: Audio Description (Prerecorded)
 ---
 

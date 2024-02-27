@@ -17,8 +17,8 @@ Techniques:
   - F48
   - G140
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
-  - criteria: 9.1.3.2
+  - criterion: 9.1.3.2
     title: Meaningful Sequence
 ---

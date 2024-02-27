@@ -5,9 +5,9 @@ WCAG:
     level: AA
 Techniques:
   - F95
-  -SCR39
+  - SCR39
 Norm:
-  - criteria: 9.1.4.13
+  - criterion: 9.1.4.13
     title: Content on Hover or Focus
 ---
 

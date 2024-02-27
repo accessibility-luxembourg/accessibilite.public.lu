@@ -6,6 +6,6 @@ WCAG:
 Techniques:
   - G63
 Norm:
-  - criteria: 9.2.4.5
+  - criterion: 9.2.4.5
     title: Multiple Ways
 ---

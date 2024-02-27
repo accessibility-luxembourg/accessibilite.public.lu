@@ -13,7 +13,7 @@ Techniques:
   - F102
   - G206
 Norm:
-  - criteria: 9.1.4.10
+  - criterion: 9.1.4.10
     title: Reflow
 ---
 

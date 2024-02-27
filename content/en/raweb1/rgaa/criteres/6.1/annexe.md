@@ -10,8 +10,8 @@ WCAG:
     title: Label in Name
     level: A
 Techniques:
-  -ARIA7
-  -ARIA8
+  - ARIA7
+  - ARIA8
   - C7
   - F63
   - F89
@@ -30,9 +30,9 @@ Techniques:
 Norm:
   - criterion: 9.1.1.1
     title: Non-text Content
-  - criteria: 9.2.4.4
+  - criterion: 9.2.4.4
     title: Link Purpose (In Context)
-  - criteria: 9.2.5.3
+  - criterion: 9.2.5.3
     title: Label in Name
 ---
 

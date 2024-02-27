@@ -6,11 +6,11 @@ WCAG:
 Techniques:
   - C8
   - C21
-  -C35
+  - C35
   - C36
   - F104
 Norm:
-  - criteria: 9.1.4.12
+  - criterion: 9.1.4.12
     title: Text Spacing
 ---
 

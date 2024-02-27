@@ -4,7 +4,7 @@ WCAG:
     title: Parsing
     level: A
 Norm:
-  - criteria: 9.4.1.1
+  - criterion: 9.4.1.1
     title: Parsing
 ---
 

@@ -6,6 +6,6 @@ WCAG:
 Techniques:
   - H73
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
 ---

@@ -7,16 +7,16 @@ Techniques:
   - F78
   - G18
   - G136
-  -G145
+  - G145
   - G174
   - G183
-  -G195
+  - G195
   - G207
   - G209
 Norm:
-  -criterion: 5.2
+  - criterion: 5.2
     title: Activation of accessibility features
-  - criteria: 9.1.4.11
+  - criterion: 9.1.4.11
     title: Non-text Contrast
 ---
 

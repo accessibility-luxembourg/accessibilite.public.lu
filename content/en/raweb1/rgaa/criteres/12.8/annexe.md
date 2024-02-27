@@ -9,10 +9,10 @@ Techniques:
   - F85
   - G59
   - H4
-  -SCR26
-  -SCR27
-  -SCR37
+  - SCR26
+  - SCR27
+  - SCR37
 Norm:
-  - criteria: 9.2.4.3
+  - criterion: 9.2.4.3
     title: Focus Order
 ---

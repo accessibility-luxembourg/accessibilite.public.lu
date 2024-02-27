@@ -8,9 +8,9 @@ WCAG:
     level: A
 Techniques:
   - ARIA1
-  -ARIA2
-  -ARIA6
-  -ARIA9
+  - ARIA2
+  - ARIA6
+  - ARIA9
   - ARIA16
   - ARIA21
   - F81
@@ -24,7 +24,7 @@ Techniques:
   - H81
   - H89
   - H90
-  -SCR18
+  - SCR18
   - SCR32
 Norm:
   - criterion: 9.3.3.1

@@ -10,11 +10,11 @@ Techniques:
   - G136
   - G148
   - G174
-  -G145
+  - G145
 Norm:
-  -criterion: 5.2
+  - criterion: 5.2
     title: Activation of accessibility features
-  - criteria: 9.1.4.3
+  - criterion: 9.1.4.3
     title: Contrast (Minimum)
 ---
 

@@ -10,7 +10,7 @@ Techniques:
   - ARIA17
   - H71
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
   - criterion: 9.3.3.2
     title: Labels or Instructions

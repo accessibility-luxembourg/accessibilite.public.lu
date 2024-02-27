@@ -7,8 +7,8 @@ WCAG:
     title: Name, Role, Value
     level: A
 Techniques:
-  -ARIA6
-  -ARIA9
+  - ARIA6
+  - ARIA9
   - ARIA14
   - F96
   - G208
@@ -17,9 +17,9 @@ Techniques:
   - H91
   - ARIA16
 Norm:
-  - criteria: 9.2.5.3
+  - criterion: 9.2.5.3
     title: Label in Name
-  - criteria: 9.4.1.2
+  - criterion: 9.4.1.2
     title: Name, Role, Value
 ---
 

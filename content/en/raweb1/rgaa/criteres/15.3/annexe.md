@@ -1,9 +1,9 @@
 ---
 WCAG: N/A
 Norm:
-  - criteria: 11.8.1
+  - criterion: 11.8.1
     title: Content technology
-  - criteria: 11.8.3
+  - criterion: 11.8.3
     title: Preservation of accessibility information in transformations
 ---
 

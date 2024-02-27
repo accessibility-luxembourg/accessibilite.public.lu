@@ -14,19 +14,19 @@ WCAG:
     level: A
 Techniques:
   - ARIA4
-  -ARIA12
+  - ARIA12
   - G115
   - G130
   - G141
   - H42
 Norm:
-  - criteria: 9.1.3.1
+  - criterion: 9.1.3.1
     title: Info and Relationships
-  - criteria: 9.2.4.1
+  - criterion: 9.2.4.1
     title: Bypass Blocks
   - criterion: 9.2.4.6
     title: Headings and Labels
-  - criteria: 9.4.1.2
+  - criterion: 9.4.1.2
     title: Name, Role, Value
 ---
 

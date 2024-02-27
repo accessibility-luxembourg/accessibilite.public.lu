@@ -7,6 +7,6 @@ Techniques:
   - F73
   - G183
 Norm:
-  - criteria: 9.1.4.1
+  - criterion: 9.1.4.1
     title: Use of Color
 ---

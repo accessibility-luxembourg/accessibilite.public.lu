@@ -3,7 +3,7 @@ WCAG: N/A
 Norm:
   - criterion: 7.1.4
     title: Captions characteristics
-  - criteria: 11.7
+  - criterion: 11.7
     title: User preferences
 ---
 

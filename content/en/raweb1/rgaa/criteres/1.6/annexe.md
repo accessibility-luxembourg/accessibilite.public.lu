@@ -4,7 +4,7 @@ WCAG:
     title: Non-text Content
     level: A
 Techniques:
-  -ARIA6
+  - ARIA6
   - G92
   - G74
   - G73

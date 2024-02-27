@@ -1,7 +1,7 @@
 ---
 WCAG: N/A
 Norm:
-  -criterion: 5.2
+  - criterion: 5.2
     title: Activation of accessibility features
 ---
 

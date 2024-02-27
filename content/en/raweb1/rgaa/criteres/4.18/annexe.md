@@ -1,7 +1,7 @@
 ---
 WCAG: N/A
 Norm:
-  - criteria: 7.1.5
+  - criterion: 7.1.5
     title: Spoken subtitles
 ---
 

@@ -8,7 +8,7 @@ WCAG:
     level: A
 Techniques:
   - ARIA4
-  -ARIA5
+  - ARIA5
   - ARIA18
   - ARIA19
   - F15
@@ -23,11 +23,11 @@ Techniques:
   - G136
   - G208
   - G211
-  -SCR21
+  - SCR21
 Norm:
-  - criteria: 9.2.5.3
+  - criterion: 9.2.5.3
     title: Label in Name
-  - criteria: 9.4.1.2
+  - criterion: 9.4.1.2
     title: Name, Role, Value
 ---
 

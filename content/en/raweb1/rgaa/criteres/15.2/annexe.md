@@ -1,8 +1,8 @@
 ---
 WCAG: N/A
 Norm:
-  - criteria: 11.8.1
+  - criterion: 11.8.1
     title: Content technology
-  - criteria: 11.8.2
+  - criterion: 11.8.2
     title: Accessible content creation
 ---

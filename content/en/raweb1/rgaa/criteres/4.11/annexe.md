@@ -7,13 +7,13 @@ WCAG:
     title: No Keyboard Trap
     level: A
 Techniques:
-  -G4
+  - G4
   - G90
   - G202
 Norm:
-  - criteria: 7.1.1
+  - criterion: 7.1.1
     title: Captioning playback
-  - criteria: 7.2.1
+  - criterion: 7.2.1
     title: Audio description playback
   - criterion: 9.2.1.1
     title: Keyboard

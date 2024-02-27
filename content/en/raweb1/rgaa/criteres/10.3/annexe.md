@@ -11,8 +11,8 @@ Techniques:
   - G59
   - G140
 Norm:
-  - criteria: 9.1.3.2
+  - criterion: 9.1.3.2
     title: Meaningful Sequence
-  - criteria: 9.2.4.3
+  - criterion: 9.2.4.3
     title: Focus Order
 ---

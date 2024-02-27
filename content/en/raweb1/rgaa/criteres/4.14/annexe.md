@@ -1,6 +1,6 @@
 ---
 WCAG: N/A
 Norm:
-  - criteria: 7.3
+  - criterion: 7.3
     title: User controls for captions and audio description
 ---

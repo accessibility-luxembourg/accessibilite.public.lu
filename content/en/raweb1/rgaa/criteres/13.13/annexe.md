@@ -1,7 +1,7 @@
 ---
 WCAG: N/A
 Norm:
-  -criterion: 5.4
+  - criterion: 5.4
     title: Preservation of accessibility information during conversion
 ---
 

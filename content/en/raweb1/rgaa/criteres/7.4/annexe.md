@@ -18,7 +18,7 @@ Techniques:
   - G107
   - H32
   - H84
-  -SCR19
+  - SCR19
 Norm:
   - criterion: 9.3.2.1
     title: On Focus

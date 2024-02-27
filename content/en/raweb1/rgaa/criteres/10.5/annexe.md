@@ -6,6 +6,6 @@ WCAG:
 Techniques:
   - F24
 Norm:
-  - criteria: 9.1.4.3
+  - criterion: 9.1.4.3
     title: Contrast (Minimum)
 ---

@@ -8,7 +8,7 @@ Techniques:
   - G210
   - G212
 Norm:
-  - criteria: 9.2.5.2
+  - criterion: 9.2.5.2
     title: Pointer Cancellation
 ---
 

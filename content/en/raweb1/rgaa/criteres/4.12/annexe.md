@@ -7,7 +7,7 @@ WCAG:
     title: No Keyboard Trap
     level: A
 Techniques:
-  -G4
+  - G4
   - G90
 Norm:
   - criterion: 9.2.1.1

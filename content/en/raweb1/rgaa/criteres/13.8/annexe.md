@@ -18,10 +18,10 @@ Techniques:
   - G186
   - G187
   - G191
-  -SCR22
-  -SCR33
-  -SCR36
-  -SM11
+  - SCR22
+  - SCR33
+  - SCR36
+  - SM11
   - SM12
 Norm:
   - criterion: 9.2.2.1

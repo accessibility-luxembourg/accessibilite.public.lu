@@ -8,7 +8,7 @@ Techniques:
   - F100
   - G214
 Norm:
-  - criteria: 9.1.3.4
+  - criterion: 9.1.3.4
     title: Orientation
 ---
 

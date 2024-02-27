@@ -12,13 +12,13 @@ Techniques:
   - F73
   - F78
   - G149
-  -G165
+  - G165
   - G183
-  -G195
-  -SCR31
+  - G195
+  - SCR31
 Norm:
-  - criteria: 9.1.4.1
+  - criterion: 9.1.4.1
     title: Use of Color
-  - criteria: 9.2.4.7
+  - criterion: 9.2.4.7
     title: Focus Visible
 ---

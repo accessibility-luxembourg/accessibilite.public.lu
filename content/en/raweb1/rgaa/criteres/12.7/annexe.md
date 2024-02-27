@@ -15,11 +15,11 @@ Techniques:
   - G59
   - G123
   - G124
-  -SCR28
+  - SCR28
 Norm:
   - criterion: 9.2.4.1
     title: Bypass Blocks
-  - criteria: 9.2.4.3
+  - criterion: 9.2.4.3
     title: Focus Order
   - criterion: 9.3.2.3
     title: Consistent Navigation

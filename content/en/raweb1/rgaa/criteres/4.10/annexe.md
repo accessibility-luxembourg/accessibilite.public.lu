@@ -10,7 +10,7 @@ Techniques:
   - G170
   - G171
 Norm:
-  - criteria: 9.1.4.2
+  - criterion: 9.1.4.2
     title: Audio Control
 ---
 

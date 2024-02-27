@@ -8,7 +8,7 @@ Techniques:
   - G215
   - G216
 Norm:
-  - criteria: 9.2.5.1
+  - criterion: 9.2.5.1
     title: Pointer Gestures
 ---
 
