@@ -4,6 +4,29 @@
   </div> 
   <div class="menu-container" id="top">
     <h1>Portail de l'accessibilité numérique</h1>
+    <ul class="menu-lang">
+      <li>
+        <% if (lang === "fr") { %>
+          <p><span class="sr-only">Version française</span>FR</p>
+        <% } else { %>
+          <a class="Version française - FR" lang="fr" hreflang="fr" href="/fr">FR</a>
+        <% } %>
+      </li>
+      <li>
+        <% if (lang === "de") { %>
+          <p><span class="sr-only">Deutsche Fassung</span>DE</p>
+        <% } else { %>
+          <a class="Deutsche Fassung - DE" lang="de" hreflang="de" href="/de">DE</a>
+        <% } %>
+      </li>
+      <li>
+        <% if (lang === "en") { %>
+          <p><span class="sr-only">English version</span>EN</p>
+        <% } else { %>
+          <a class="English version - EN" lang="en" hreflang="en" href="/en">EN</a>
+        <% } %>
+      </li>
+    </ul>
     <nav role="navigation" id="navi" aria-label="menu principal">
       <div id="frameworks" aria-hidden="true">référentiels</div>
       <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>

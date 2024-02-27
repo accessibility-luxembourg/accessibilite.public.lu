@@ -264,6 +264,58 @@ header {
     }
   }
   
+  header ul.menu-lang {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+header ul.menu-lang li p {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font: 500 1.1rem "Fira Sans", sans-serif;
+}
+
+header ul.menu-lang li a {
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    color: white;
+    font: 300 1rem "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul.menu-lang li a:hover {
+    background-color: $menu-navy-blue;
+}
+
+header ul.menu-lang li a:focus {
+  background-color: $menu-navy-blue;
+  border: 1px solid white;
+}
+
+header ul.menu-lang .sr-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+
   header nav ul li ul {
     flex-direction: column;
     background-color: $menu-dark-blue;
@@ -353,6 +405,13 @@ header {
     }
   }
   
+  @media screen and (min-width: 720px) {
+    header ul.menu-lang li {
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+
   @media screen and (min-width: 755px) {
     header {
       height: 170px;
