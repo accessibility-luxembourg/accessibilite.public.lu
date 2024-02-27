@@ -13,6 +13,13 @@
         <% } %>
       </li>
       <li>
+        <% if (lang === "de") { %>
+          <p><span class="sr-only">Deutsche Fassung</span>DE</p>
+        <% } else { %>
+          <a class="Deutsche Fassung - DE" lang="de" hreflang="de" href="/de">DE</a>
+        <% } %>
+      </li>
+      <li>
         <% if (lang === "en") { %>
           <p><span class="sr-only">English version</span>EN</p>
         <% } else { %>
