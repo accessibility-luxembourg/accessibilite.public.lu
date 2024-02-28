@@ -15,7 +15,7 @@ Norm:
 
 #### Technical notes
 
-In the case of SVG, the lack of support for the `<title>` and `<desc>` element by assistive technologies creates difficulty in the case of implementing the [textual alternative](# alternative-textual-image) of the image and its [detailed description](#description-detailee-image). In this case, it is recommended to use the WAI-ARIA `aria-label` attribute to implement both the short [textual alternative](#textual-alternative-image) and the reference to the [detailed description] (#detail-image-description) or the WAI-ARIA attribute `aria-labelledby` to associate text passages serving as a short alternative and [detail-description](#detail-image-description).
+In the case of SVG, the lack of support for the `<title>` and `<desc>` element by assistive technologies creates difficulty in the case of implementing the [textual alternative](#alternative-textual-image) of the image and its [detailed description](#description-detailee-image). In this case, it is recommended to use the WAI-ARIA `aria-label` attribute to implement both the short [textual alternative](#textual-alternative-image) and the reference to the [detailed description] (#detail-image-description) or the WAI-ARIA attribute `aria-labelledby` to associate text passages serving as a short alternative and [detail-description](#detail-image-description).
 
 Using the WAI-ARIA aria-describedby attribute is not recommended to link an image (`<img>`, `<object>`, `<embed>`, `<canvas>`) to its [ detailed description](#description-detailee-image), due to lack of support for assistive technologies. However, when used, the attribute must necessarily refer to the `id` of the zone containing the [detailed description](#description-detaillee-image).
 
