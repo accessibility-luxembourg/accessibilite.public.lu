@@ -22,7 +22,7 @@
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content.
 
-#### [Criterion 1.2](#crit-1-2) [A] Does each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) have an alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies)? {id="crit-1-2"}
+#### [Criterion 1.2](#crit-1-2) [A] Does each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) have an alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies)? {id="crit-1-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 

@@ -1,3 +1,3 @@
 ---
-title: For each image used as [CAPTCHA](#captcha) or as [image-test](#image-test), having a [textual alternative](#textual-alternative-image), does this alternative allow you to identify the nature and function of the image?
+title: For each image used as [CAPTCHA](#captcha) or as a \[test image](#image-test), with a \[textual alternative](#textual-alternative-image), does this alternative describe the nature and the purpose of the image??
 ---

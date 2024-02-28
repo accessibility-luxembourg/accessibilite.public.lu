@@ -23,7 +23,7 @@ These sample clauses are published under the [CC0](https://creativecommons.org/s
 
 Digital accessibility means that people with disabilities can use services and content made available on the web or through mobile applications.
 
-This is a legal obligation for public sector bodies defined by the law of [May 28, 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/ a373/jo).
+This is a legal obligation for public sector bodies defined by the law of [May 28, 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 Digital accessibility is a major objective of this project.
 
@@ -31,7 +31,7 @@ Digital accessibility is a major objective of this project.
 
 Please note that the legal level of conformity for websites is level AA of the _Web Accessibility Assessment Framework (RAWeb)_ in its latest version and level AA of the _application accessibility assessment framework mobiles_ (RAAM) in its latest version. These standards are published on the site [accessibilite.public.lu](https://accessibilite.public.lu).
 
-If the CONTRACT HOLDER cannot refer to RAWeb or RAAM, compliance must then be assessed against the European standard [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en /301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), in particular the criteria listed in tables A.1 (websites) and/or A.2 (mobile applications) of Annex A.
+If the CONTRACT HOLDER cannot refer to RAWeb or RAAM, compliance must then be assessed against the European standard [EN 301 549 version 3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf), in particular the criteria listed in tables A.1 (websites) and/or A.2 (mobile applications) of Annex A.
 
 The CONTRACT HOLDER must undertake to mobilize all necessary means to move towards this level of legal compliance.
 
@@ -43,7 +43,7 @@ This minimum requirement does not replace the requirement linked to the legal le
 
 This minimum level of requirements concerns all functionalities and content developed by the MARKET HOLDER as well as the ability of any content editing functions to produce compliant content.
 
-This minimum level of requirements does not concern content produced by the ORGANIZATION's teams as well as [content which would be subject to exemptions](https://accessibilite.public.lu/fr/obligations.html# exempt-content) as defined in the law.
+This minimum level of requirements does not concern content produced by the ORGANIZATION's teams as well as [content which would be subject to exemptions](https://accessibilite.public.lu/fr/obligations.html#exempt-content) as defined in the law.
 
 For any non-compliant functionality or content whose compliance would possibly represent a [disproportionate workload](https://accessibilite.public.lu/fr/obligations.html#dérogation-pour-charge-disproportionnée) for the HOLDER OF THE MARKET, any exemption for disproportionate load must be validated by the ORGANIZATION.
 
@@ -100,4 +100,4 @@ In this document you will find the different sections which are commented below:
 
 In general, the references to the CONTRACT HOLDER and the ORGANIZATION must have been defined beforehand in your specifications.
 
-Comments, questions, feedback on this document? Do not hesitate to [contact] us (/fr/contact.html).
+Comments, questions, feedback on this document? Do not hesitate to [contact us](/fr/contact.html).

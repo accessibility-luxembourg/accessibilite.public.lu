@@ -14,7 +14,7 @@ We also refer you to the documentation of language editors and application creat
 - [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps): general development principles to respect certain accessibility rules.
 - [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility): set of resources for designing and developing accessible Android applications.
 
-####iOS
+#### iOS
 - [iOS Accessibility](https://www.apple.com/fr/accessibility/): description of assistive technologies and accessibility features present on iOS systems.
 - [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/): General principles of accessibility for application interfaces mobile on iOS.
 - [Videos and Tutorials](https://developer.apple.com/videos/frameworks/accessibility/): set of videos providing demonstrations of assistive technologies available on iOS or showing technical development methods to take take accessibility into account.
@@ -99,14 +99,14 @@ Once the first configuration step is completed (with the configuration guide), i
 
 Some methodology elements will offer you several testing methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to plug the terminal into a computer with macOS and use the **Accessibility Inspector** application.
 
-**[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)** is available from the software [Xcode](https ://apps.apple.com/fr/app/xcode/id497799835?mt=12) used for mobile application development. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode > Open Developer Tool > Accessibility Inspector*.
+**[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)** is available from the software [Xcode](https://apps.apple.com/fr/app/xcode/id497799835?mt=12) used for mobile application development. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode > Open Developer Tool > Accessibility Inspector*.
 
 ##### Android
 
 To perform certain tests on Android applications, third-party applications are required or can help you in the evaluation.
 
 - [**Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=fr&gl=US): Android application allowing you to add options and gestures to the Talkback screen reader.
-- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=fr&gl=US)&nbsp ;: Android application allowing you to carry out automatic tests for certain criteria. Once installed, access the application from *Settings > Accessibility > Installed services > Accessibility Scanner*.
+- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=fr&gl=US): Android application allowing you to carry out automatic tests for certain criteria. Once installed, access the application from *Settings > Accessibility > Installed services > Accessibility Scanner*.
 
 ##### iOS and Android
 

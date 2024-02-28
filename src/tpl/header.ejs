@@ -3,7 +3,7 @@
       <a href="#main">Aller au contenu</a>
   </div> 
   <div class="menu-container" id="top">
-    <h1>Portail de l'accessibilité numérique</h1>
+    <h1><%- config[lang].header.mainTitle %></h1>
     <ul class="menu-lang">
       <li>
         <% if (lang === "fr") { %>
@@ -28,7 +28,7 @@
       </li>
     </ul>
     <nav role="navigation" id="navi" aria-label="menu principal">
-      <div id="frameworks" aria-hidden="true">référentiels</div>
+      <div id="frameworks-<%- lang %>" aria-hidden="true"><%- config[lang].header.frameworks %></div>
       <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>
       <ul class="disclosure-nav">
             <% nav.forEach(e => { %>

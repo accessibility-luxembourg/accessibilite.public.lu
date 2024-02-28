@@ -1,3 +1,3 @@
 ---
-title: Does each [information-carrying](#information-carrying-image) image have, if necessary, a [detailed description](#detailed-image-description)?
+title: Does each [image conveying information](#image-conveying-information) have a [detailed description](#detailed-image-description) if necessary?
 ---

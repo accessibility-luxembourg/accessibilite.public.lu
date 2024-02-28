@@ -37,6 +37,13 @@ const config = {
         {"name": "anglais", "code": "en"},
         {"name": "luxembourgeois", "code": "lb"}
     ],
+    "header": {
+        "mainTitle": "Portail de l'accessibilité numérique",
+        "frameworks": "référentiels"
+    },
+    "news": {
+        "lastNews": "Dernières actualités"
+    },
     "mainMenu": [
         {
             "title": "Accueil",
@@ -344,6 +351,10 @@ const config = {
             ]
         }
     ],
+    "footerEditor": {
+        "start": 'Ce site est édité par le <a href="https://sip.gouvernement.lu">Service Information et Presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l’analyse des statistiques d’utilisation. Pour plus d’information, veuillez consulter notre ',
+        "end": ' charte des cookies'
+    },
     "footer": [
         {
             "title": "Licence",

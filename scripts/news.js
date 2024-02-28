@@ -6,10 +6,8 @@ const sharp = require('sharp')
 const path = require('node:path')
 const hmacPwd = 'a11ylu'
 const fs = require('fs')
-const ejs = require('ejs')
 const MarkdownIt = require('markdown-it')
 const yaml = require('yaml')
-const config = require('./config_fr.js').config
 
 
 function newsMarkdownIt(cbFM) {
@@ -111,7 +109,9 @@ function genNews(config, lang, outputPath, baseURL) {
         articles = articles.filter(e => {return e.date <= new Date()})
     }
     
-    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, 'Actualités', lang, outputPath+'/'+lang+'/news/index.html', 'news/index', '../../../', true)
+    let newsTitle = config[lang].mainMenu.find(el => el.name == "news");
+
+    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, newsTitle.title, lang, outputPath+'/'+lang+'/news/index.html', 'news/index', '../../../', true)
     
     const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
     

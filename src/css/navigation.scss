@@ -60,7 +60,7 @@ header {
         width: 1px;
       }
   
-      div#frameworks {
+      div#frameworks-fr, div#frameworks-en {
         position: absolute;
         top: -1000px;
       }
@@ -467,10 +467,22 @@ header ul.menu-lang .sr-only {
         }
       }
   
-      div#frameworks {
+      div#frameworks-fr {
         color: $menu-dark-blue;
         top: 110px;
         left: 392px;
+        width: 0;
+        border-bottom: 4px solid $menu-navy-blue;
+        font: normal 200 1rem "Fira Sans", sans-serif;
+        text-align: left;
+        padding-bottom: 3px;
+        animation: drawline 0.5s 0s forwards;
+      }
+
+      div#frameworks-en {
+        color: $menu-dark-blue;
+        top: 110px;
+        left: 355px;
         width: 0;
         border-bottom: 4px solid $menu-navy-blue;
         font: normal 200 1rem "Fira Sans", sans-serif;
@@ -503,18 +515,23 @@ header ul.menu-lang .sr-only {
       }
   
       80% {
-        width: 250px;
+        width: 205px;
       }
   
       100% {
-        width: 250px;
+        width: 205px;
         color: white;
       }
     }
-  
+
     @media (prefers-reduced-motion: reduce) {
-      header nav div#frameworks {
-        width: 280px;
+      header nav div#frameworks-fr {
+        width: 250px;
+        color: white;
+        animation: none;
+      }
+      header nav div#frameworks-en {
+        width: 205px;
         color: white;
         animation: none;
       }
@@ -583,8 +600,32 @@ header ul.menu-lang .sr-only {
       right: -60px;
     }
   
-    header nav div#frameworks {
+    header nav div#frameworks-fr {
       left: 522px;
+    }
+
+    header nav div#frameworks-en {
+      left: 487px;
+    }
+
+    @keyframes drawline {
+      0% {
+        width: 0;
+        color: $menu-dark-blue;
+      }
+  
+      20% {
+        color: $menu-dark-blue;
+      }
+  
+      80% {
+        width: 250px;
+      }
+  
+      100% {
+        width: 250px;
+        color: white;
+      }
     }
   }
   
