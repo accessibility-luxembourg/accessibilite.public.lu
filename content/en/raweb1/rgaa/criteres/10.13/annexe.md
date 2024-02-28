@@ -11,7 +11,7 @@ Norm:
     title: Content on Hover or Focus
 ---
 
-#### Special cases
+#### Particular cases
 
 When the additional content is controlled by the user agent (e.g. `title` attribute or native form validation) or corresponds to a modal window conforming to the [design-pattern](#design-pattern) WAI-ARIA ` dialog`, criterion 10.13 is not applicable.
 

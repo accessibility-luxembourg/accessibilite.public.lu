@@ -12,7 +12,7 @@ Norm:
     title: Pointer Cancellation
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case handling when the functionality requires that the expected behavior be performed during a top-down event, for example, a keyboard emulator whose keys must activate on pressure like on a physical keyboard. In these situations, the criterion is not applicable.
 

@@ -12,7 +12,7 @@ Norm:
     title: Info and Relationships
 ---
 
-#### Special cases
+#### Particular cases
 
 In the case of data tables having single row or single column headers, the headers can be structured using `<th>` tag without `scope` attribute.
 

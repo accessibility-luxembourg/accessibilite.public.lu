@@ -1,3 +1,3 @@
 ---
-title: Does each pre-recorded [temporal media](#media-temporal-type-son-video-et-synchronise) have, if necessary, a synchronized [audiodescription](#audiodescription-synchronisee-media-temporal) (excluding special cases)?
+title: Does each pre-recorded [time-based media](#media-temporal-type-son-video-et-synchronise) have a synchronized [audio description](#audiodescription-synchronisee-media-temporal) if necessary (excluding particular cases)?
 ---

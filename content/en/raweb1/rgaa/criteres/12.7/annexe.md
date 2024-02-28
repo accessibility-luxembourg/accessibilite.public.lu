@@ -25,7 +25,7 @@ Norm:
     title: Consistent Navigation
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when the website consists of a single page.
 

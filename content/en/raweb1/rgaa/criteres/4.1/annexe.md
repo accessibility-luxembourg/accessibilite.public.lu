@@ -25,16 +25,16 @@ Norm:
     title: Audio Description or Media Alternative (Prerecorded)
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when:
 
-- The [temporal media](#temporal-media-type-sound-video-and-synchronize) is used for decorative purposes (i.e. it does not provide any information);
-- The [temporal media](#media-temporal-type-son-video-et-synchronise) is itself an alternative to the content of the page (a video in sign language or the vocalization of a text, for example example) ;
-- The [temporal media](#temporal-media-type-sound-video-and-synchronize) is used to access an enlarged version;
-- The [temporal media](#temporal-media-type-sound-video-and-synchronize) is used as a [CAPTCHA](#captcha);
-- The [temporal media](#media-temporal-type-son-video-et-synchronise) is part of a test which would become useless if the [textual transcription](#transcription-textual-media-temporal), the [ synchronized subtitles](#synchronized-subtitles-multimedia-object) or [audio description](#synchronized-media-temporalaudiodescription) were communicated;
-- The temporal media was published before September 23, 2020 (according to the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373 /jo)).
+- The [time-based media](#temporal-media-type-sound-video-and-synchronize) is used for decorative purposes (i.e. it does not provide any information);
+- The [time-based media](#media-temporal-type-son-video-et-synchronise) is itself an alternative to the content of the page (a video in sign language or the vocalization of a text, for example example) ;
+- The [time-based media](#temporal-media-type-sound-video-and-synchronize) is used to access an enlarged version;
+- The [time-based media](#temporal-media-type-sound-video-and-synchronize) is used as a [CAPTCHA](#captcha);
+- The [time-based media](#media-temporal-type-son-video-et-synchronise) is part of a test which would become useless if the [text transcript](#transcription-textual-media-temporal), the [ synchronized subtitles](#synchronized-subtitles-multimedia-object) or [audio description](#synchronized-media-temporalaudiodescription) were communicated;
+- The time-based media was published before September 23, 2020 (according to the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373 /jo)).
 
 In these situations, the criterion is not applicable.
 

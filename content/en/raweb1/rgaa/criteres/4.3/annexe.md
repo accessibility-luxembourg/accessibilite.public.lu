@@ -17,6 +17,6 @@ Norm:
     title: Captions (Prerecorded)
 ---
 
-#### Special cases
+#### Particular cases
 
-See special cases criterion 4.1.
+See particular cases criterion 4.1.

@@ -1,8 +1,8 @@
 ---
-title: Control of consultation (of a temporal media)
+title: Control of consultation (of a time-based media)
 ---
 
-Possibility for the user to control the consultation of a temporal media by the keyboard and any pointing device, at least. The following points must be observed:
+Possibility for the user to control the consultation of a time-based media by the keyboard and any pointing device, at least. The following points must be observed:
 
 - List of mandatory consultation control features:
   - The multimedia object must always have the following functionalities, at a minimum: play, pause or stop;

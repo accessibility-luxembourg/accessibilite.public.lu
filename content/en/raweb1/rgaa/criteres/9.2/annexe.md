@@ -13,7 +13,7 @@ Norm:
     title: Info and Relationships
 ---
 
-#### Special cases
+#### Particular cases
 
 When the doctype declared on the page is not the HTML5 doctype, this criterion is not applicable.
 

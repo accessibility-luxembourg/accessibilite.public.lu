@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the [contrast](#contrast) between the color of the text and the color of its background high enough (except in special cases)?
+title: On each web page, is the [contrast](#contrast) between the text and background colors sufficient (except in particular cases)?
 ---

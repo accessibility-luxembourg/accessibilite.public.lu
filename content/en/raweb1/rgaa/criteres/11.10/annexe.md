@@ -33,7 +33,7 @@ Norm:
     title: Labels or Instructions
 ---
 
-#### Special cases
+#### Particular cases
 
 Test 11.10.1 and test 11.10.2 will be considered not applicable when the form has only one [form field](#form-input-field) or indicates optional fields in the following manner:
 

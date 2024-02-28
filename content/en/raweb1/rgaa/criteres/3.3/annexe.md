@@ -20,7 +20,7 @@ Norm:
     title: Non-text Contrast
 ---
 
-#### Special cases
+#### Particular cases
 
 The following cases are not applicable for this criterion:
 

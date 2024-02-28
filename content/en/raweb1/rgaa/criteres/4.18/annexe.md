@@ -5,6 +5,6 @@ Norm:
     title: Spoken subtitles
 ---
 
-#### Special cases
+#### Particular cases
 
 The criterion is not applicable for subtitles embedded in the video (<em lang="en">open captions</em>).

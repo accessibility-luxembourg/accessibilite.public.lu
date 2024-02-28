@@ -28,6 +28,6 @@ Techniques:
 Norm: all criteria of section 10 Non-web documents.
 ---
 
-#### Special cases
+#### Particular cases
 
-See special cases [criterion 13.3](#crit-13-3).
+See particular cases [criterion 13.3](#crit-13-3).

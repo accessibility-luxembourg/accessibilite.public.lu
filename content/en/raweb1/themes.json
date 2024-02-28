@@ -3,34 +3,34 @@
 		"title": "Images"
 	},
 	"2": {
-		"title": "Cadres"
+		"title": "Frames"
 	},
 	"3": {
-		"title": "Couleurs"
+		"title": "Colours"
 	},
 	"4": {
-		"title": "Multimédia"
+		"title": "Multimedia"
 	},
 	"5": {
-		"title": "Tableaux"
+		"title": "Tables"
 	},
 	"6": {
-		"title": "Liens"
+		"title": "Links"
 	},
 	"7": {
 		"title": "Scripts"
 	},
 	"8": {
-		"title": "Éléments obligatoires"
+		"title": "Mandatory elements"
 	},
 	"9": {
-		"title": "Structuration de l’information"
+		"title": "Information structure"
 	},
 	"10": {
-		"title": "Présentation de l’information"
+		"title": "Presentation of information"
 	},
 	"11": {
-		"title": "Formulaires"
+		"title": "Forms"
 	},
 	"12": {
 		"title": "Navigation"
@@ -40,18 +40,18 @@
 	},
 
 	"14": {
-		"title": "Documentation et fonctionnalités d’accessibilité"
+		"title": "Accessibility documentation and features"
 	},
 
 	"15": {
-		"title": "Outils d’édition"
+		"title": "Publishing tools"
 	},
 
 	"16": {
-		"title": "Services d’assistance"
+		"title": "Support services"
 	},
 
 	"17": {
-		"title": "Communication en temps réel"
+		"title": "Real-time communication"
 	}
 }

@@ -12,7 +12,7 @@ Norm:
     title: Pointer Gestures
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management in two types of situation:
 

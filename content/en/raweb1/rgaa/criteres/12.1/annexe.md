@@ -13,7 +13,7 @@ Norm:
     title: Multiple Ways
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when the website consists of a single page or a very limited number of pages (see note). In this case, the criterion is not applicable.
 

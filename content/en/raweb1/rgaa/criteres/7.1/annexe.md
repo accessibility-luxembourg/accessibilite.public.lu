@@ -31,7 +31,7 @@ Norm:
     title: Name, Role, Value
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management for test 7.1.3 when:
 

@@ -12,7 +12,7 @@ Norm:
     title: Orientation
 ---
 
-#### Special cases
+#### Particular cases
 
 There are interfaces for which the orientation of the device is essential to their use.
 

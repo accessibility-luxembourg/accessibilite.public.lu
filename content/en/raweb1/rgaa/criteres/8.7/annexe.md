@@ -10,7 +10,7 @@ Norm:
     title: Language of Parts
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management on language change for the following cases:
 

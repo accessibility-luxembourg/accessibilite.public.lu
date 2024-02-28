@@ -40,9 +40,9 @@
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content.
 
-#### [Criterion 1.3](#crit-1-3) [A] For each [#image-conveying-information graphic element](glossaire.md##image-conveying-information-graphic-element), the alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) relevant (except in special cases)? {id="crit-1-3"}
+#### [Criterion 1.3](#crit-1-3) [A] For each [#image-conveying-information graphic element](glossaire.md##image-conveying-information-graphic-element), the alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) relevant (except in particular cases)? {id="crit-1-3"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the graphic element is used as [CAPTCHA](glossaire.md#captcha) or as [test graphic element](glossaire.md#test-graphic-element). In this situation, where it is not possible to provide a relevant alternative without destroying the purpose of the CAPTCHA or the test, the criterion is not applicable.
 
@@ -142,9 +142,9 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content.
 
-#### [Criterion 1.8](#crit-1-8) [AA] Each [graphic text element](glossaire.md#element-graphic-text) carrying information, in the absence of a [mechanism replacement](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#text-style). Is this rule respected (except in special cases)? {id="crit-1-8"}
+#### [Criterion 1.8](#crit-1-8) [AA] Each [graphic text element](glossaire.md#element-graphic-text) carrying information, in the absence of a [mechanism replacement](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#text-style). Has this rule been followed (except in particular cases)? {id="crit-1-8"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - When the text is part of a logo or an element associated with the graphic identity of an organization or company (a slogan, for example).
@@ -185,7 +185,7 @@ The criterion is not applicable for the following elements:
 
 ### [Theme 2](#topic-2): Colors {id="topic-2"}
 
-#### [Criterion 2.1](#crit-2-1) [A] In each screen, the [information must not be given only by color](glossaire.md#information-given-by-the- color). Is this rule respected? {id="crit-2-1"}
+#### [Criterion 2.1](#crit-2-1) [A] In each screen, the [information must not be given only by color](glossaire.md#information-given-by-the- color). Has this rule been followed? {id="crit-2-1"}
 
 **[Test 2.1.1](#test-2-1-1):** In each screen, does each element whose coloring carries information respect at least one of these conditions? ;? {id="test-2-1-1"}
 - Information is not given only by color;
@@ -196,7 +196,7 @@ The criterion is not applicable for the following elements:
 ###### iOS
 
 1. Activate the **Differentiate without color** option (*Settings > Accessibility > Display and text size > Differentiate without color*).
-1. Identify on the screen the words or sets of words, texts, graphic elements carrying information and temporal media whose coloring carries information.
+1. Identify on the screen the words or sets of words, texts, graphic elements carrying information and time-based media whose coloring carries information.
 1. Check that there is another visual means of retrieving this information: presence of an icon or a graphic effect of shape or position, a typographic effect, etc.
 1. With the **screen reader**, access the information given by color.
 1. Check that equivalent information is returned by the screen reader (for example the “selected” state of a green button).
@@ -204,7 +204,7 @@ The criterion is not applicable for the following elements:
 
 ###### Android
 
-1. Identify on the screen the words or sets of words, texts, graphic elements carrying information and temporal media whose coloring carries information.
+1. Identify on the screen the words or sets of words, texts, graphic elements carrying information and time-based media whose coloring carries information.
 1. Check that there is another visual means of retrieving this information: presence of an icon or a graphic effect of shape or position, a typographic effect, etc.).
 1. With the **screen reader**, access the information given by color.
 1. Check that equivalent information is returned by the screen reader (for example the “selected” state of a green button).
@@ -215,13 +215,13 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A) ](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.1.1 Info and Relationships, 11.1.4.1 Use of color.
 
-#### [Criterion 2.2](#crit-2-2) [AA] In each screen, is the [contrast](glossaire.md#contrast) between the color of the text and the color of its background sufficiently high (except in special cases)? {id="crit-2-2"}
+#### [Criterion 2.2](#crit-2-2) [AA] In each screen, is the [contrast](glossaire.md#contrast) between the color of the text and the color of its background sufficiently high (except in particular cases)? {id="crit-2-2"}
 
 **[Test 2.2.1](#test-2-2-1):** For each text, does the contrast between the color of the text and the color of its background respect one of these conditions? {id="test-2-2-1"}
 - The contrast ratio between the text and its background is at least 4.5:1 for text in [normal size](glossaire.md#contraste-taille-des-textes) and at least 3:1 for [large text](glossaire.md#contraste-taille-des-textes)&nbsp;;
 - A [replacement mechanism](glossaire.md#replacement-mechanism) allows the user to display the text in [normal size](glossaire.md#contraste-taille-des-textes) with a ratio of contrast of at least 4.5:1 and [large text](glossaire.md#contraste-taille-des-textes) with a contrast ratio of at least 3:1.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - The text is part of a logo or brand name of an organization or company.
@@ -264,16 +264,16 @@ Note: It is possible to use the application **[Accessibility Scanner](methodolog
 - WCAG 2.1: [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): 11.1.4.3 Contrast (Minimum), 11.7 User preferences.
 
-#### [Criterion 2.3](#crit-2-3) [AA] In each screen, the colors used in the [interface components](glossaire.md#interface-component) and the supporting graphic elements is the information sufficiently contrasted (apart from special cases)? {id="crit-2-3"}
+#### [Criterion 2.3](#crit-2-3) [AA] In each screen, the colors used in the [interface components](glossaire.md#interface-component) and the supporting graphic elements is the information sufficiently contrasted (apart from particular cases)? {id="crit-2-3"}
 
-- **[Test 2.3.1](#test-2-3-1):** In each screen, the contrast ratio between the colors of an [interface component](glossaire.md#component -d-interface) in its different states and [adjacent colors](glossaire.md#adjacent-color) does it satisfy one of these conditions (except in special cases)? {id="test-2-3-1"}
+- **[Test 2.3.1](#test-2-3-1):** In each screen, the contrast ratio between the colors of an [interface component](glossaire.md#component -d-interface) in its different states and [adjacent colors](glossaire.md#adjacent-color) does it satisfy one of these conditions (except in particular cases)? {id="test-2-3-1"}
 - The contrast ratio is 3:1, at least;
 - A [replacement mechanism](glossaire.md#replacement-mechanism) allows the interface component to be displayed with a contrast ratio of at least 3:1.
-- **[Test 2.3.2](#test-2-3-2):** In each screen, the contrast ratio of each color necessary for understanding a graphic element and the [adjacent colors] (glossaire.md#adjacent-color), does it satisfy one of these conditions (except in special cases)? {id="test-2-3-2"}
+- **[Test 2.3.2](#test-2-3-2):** In each screen, the contrast ratio of each color necessary for understanding a graphic element and the [adjacent colors] (glossaire.md#adjacent-color), does it satisfy one of these conditions (except in particular cases)? {id="test-2-3-2"}
 - The contrast ratio is 3:1, at least;
 - A [replacement mechanism](glossaire.md#replacement-mechanism) allows a contrast ratio of 3:1, at least.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - Inactive interface component (for example, a disabled button) on which no action is possible.
@@ -369,26 +369,26 @@ Note: It is possible to use the application **[Accessibility Scanner](methodolog
 
 ### [Theme 3](#topic-3): Multimedia {id="topic-3"}
 
-#### [Criterion 3.1](#crit-3-1) [A] Each [temporal media](glossaire.md#temporal-media-type-sound-video-and-synchronize) pre-recorded audio only has- is there, if necessary, a [textual transcription](glossaire.md#transcription-textual-media-temporal) [clearly identifiable adjacent](glossaire.md#adjacent-clearly-identifiable) (except in special cases)? {id="crit-3-1"}
+#### [Criterion 3.1](#crit-3-1) [A] Each [time-based media](glossaire.md#temporal-media-type-sound-video-and-synchronize) pre-recorded audio only has- is there, if necessary, a [text transcript](glossaire.md#transcription-textual-media-temporal) [clearly identifiable adjacent](glossaire.md#adjacent-clearly-identifiable) (except in particular cases)? {id="crit-3-1"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
-- The temporal media is used for decorative purposes (i.e. it does not provide any information).
-- The temporal media is itself an alternative to screen content (a video in sign language or the vocalization of a text, for example).
+- The time-based media is used for decorative purposes (i.e. it does not provide any information).
+- The time-based media is itself an alternative to screen content (a video in sign language or the vocalization of a text, for example).
 - Time media is used to access an enlarged version.
-- The temporal media is used as a CAPTCHA.
-- The temporal media is part of a test which would become useless if the textual transcription, synchronized subtitles or audio description were communicated.
-- The temporal media was published before September 23, 2020 (according to the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373 /jo)).
+- The time-based media is used as a CAPTCHA.
+- The time-based media is part of a test which would become useless if the text transcript, synchronized subtitles or audio description were communicated.
+- The time-based media was published before September 23, 2020 (according to the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373 /jo)).
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
-1. Locate audio-only time-based media on the screen that require textual transcription.
+1. Locate audio-only time-based media on the screen that require text transcript.
 1. Check:
-- The presence of a textual transcription accessible via an adjacent component (a button or a link);
-- Or the presence of a clearly identifiable adjacent textual transcription.
+- The presence of a text transcript accessible via an adjacent component (a button or a link);
+- Or the presence of a clearly identifiable adjacent text transcript.
 1. If this is the case, the criterion is validated.
 
 ##### Matches {class="disclosure mapping"}
@@ -396,18 +396,18 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.1 Content only audio and only video (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video -only-prerecorded), [1.2.3 Audio description or replacement version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio- description-or-media-alternative-prerecorded).
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.1.1 Audio-only and Video-only (Pre-recorded), 11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded).
 
-#### [Criterion 3.2](#crit-3-2) [A] For each [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded only audio having a [textual transcription](glossaire.md#transcription-textual-media-temporal), is this relevant (except in special cases)? {id="crit-3-2"}
+#### [Criterion 3.2](#crit-3-2) [A] For each [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded only audio having a [text transcript](glossaire.md#transcription-textual-media-temporal), is this relevant (except in particular cases)? {id="crit-3-2"}
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
 1. Locate the text transcriptions of audio-only time-based media on the screen.
-1. Check that each textual transcription is relevant (all important audio or visual information is present, particularly dialogues and embedded texts).
+1. Check that each text transcript is relevant (all important audio or visual information is present, particularly dialogues and embedded texts).
 1. If this is the case, the criterion is validated.
 
 ##### Matches {class="disclosure mapping"}
@@ -415,28 +415,28 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.1 Content only audio and only video (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video -only-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.1.1 Audio-only and Video-only (Pre-recorded).
 
-#### [Criterion 3.3](#crit-3-3) [A] Each pre-recorded [temporal media](glossaire.md#temporal-media-type-sound-video-and-synchronize) only video has- Is there, if necessary, an alternative (except in special cases)? {id="crit-3-3"}
+#### [Criterion 3.3](#crit-3-3) [A] Each pre-recorded [time-based media](glossaire.md#temporal-media-type-sound-video-and-synchronize) only video has- Is there, if necessary, an alternative (except in particular cases)? {id="crit-3-3"}
 
-**[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only temporal media check, if necessary, one of these conditions (except in special cases )? {id="test-3-3-1"}
+**[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only time-based media check, if necessary, one of these conditions (except in particular cases )? {id="test-3-3-1"}
 - There is a [alternative “audio only” version](glossaire.md#alternative-audio-only-version) [clearly identifiable adjacent](glossaire.md#adjacent-clearly-identifiable);
-- There is a [textual transcription](glossaire.md#transcription-textual-media-temporal) accessible [adjacent clearly identifiable](glossaire.md#adjacent-clearly-identifiable)&nbsp;;
+- There is a [text transcript](glossaire.md#transcription-textual-media-temporal) accessible [adjacent clearly identifiable](glossaire.md#adjacent-clearly-identifiable)&nbsp;;
 - There is a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal)&nbsp;;
 - There is an alternative version with a [synchronized audio description](glossaire.md#audiodescription-synchronisee-media-temporal) accessible via an adjacent component (a button or a link).
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
-1. Locate time-based video-only media on the screen that require textual transcription.
+1. Locate time-based video-only media on the screen that require text transcript.
 1. Check:
 - the presence of an alternative audio version only accessible via an adjacent component (a button or a link);
 - or the presence of an adjacent audio-only alternative version;
-- or the presence of an adjacent textual transcription (a button or link);
-- or the presence of a clearly identifiable adjacent textual transcription;
+- or the presence of an adjacent text transcript (a button or link);
+- or the presence of a clearly identifiable adjacent text transcript;
 - or the presence of synchronized audio description;
 - or the presence of an alternative version with synchronized audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
@@ -446,22 +446,22 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.1 Content only audio and only video (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video -only-prerecorded), [1.2.3 Audio description or replacement version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio- description-or-media-alternative-prerecorded).
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.1.1 Audio-only and Video-only (Pre-recorded), 11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded).
 
-#### [Criterion 3.4](#crit-3-4) [A] For each [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded only video having an alternative, is it relevant (except in special cases)? {id="crit-3-4"}
+#### [Criterion 3.4](#crit-3-4) [A] For each [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded only video having an alternative, is it relevant (except in particular cases)? {id="crit-3-4"}
 
 **[Test 3.4.1](#test-3-4-1):** Does each pre-recorded video-only time-based media meet any of these conditions? {id="test-3-4-1"}
-- The [textual transcription](glossaire.md#transcription-textual-media-temporal) is relevant;
+- The [text transcript](glossaire.md#transcription-textual-media-temporal) is relevant;
 - The [synchronized audio description](glossaire.md#audiodescription-synchronisee-media-temporal) is relevant and correctly synchronized;
 - The [alternative “audio only” version](glossaire.md#version-alternative-audio-only) is relevant.
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
-1. Locate the time-based video-only media on the screen with an alternative (textual transcription or an audio-only version).
+1. Locate the time-based video-only media on the screen with an alternative (text transcript or an audio-only version).
 1. If the verbatim transcription is present, check:
 - that it is relevant (all the important audio or visual information is present, the dialogues and the embedded texts in particular).
 1. If audio description is present, check:
@@ -476,16 +476,16 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.1 Content only audio and only video (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video -only-prerecorded), [1.2.3 Audio description or replacement version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio- description-or-media-alternative-prerecorded).
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.1.1 Audio-only and Video-only (Pre-recorded), 11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded).
 
-#### [Criterion 3.5](#crit-3-5) [A] Each pre-recorded synchronized [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) has Is there, if necessary, an alternative (except in special cases)? {id="crit-3-5}
+#### [Criterion 3.5](#crit-3-5) [A] Each pre-recorded synchronized [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) has Is there, if necessary, an alternative (except in particular cases)? {id="crit-3-5}
 
-**[Test 3.5.1](#test-3-5-1):** Does each pre-recorded synchronized time media check, if necessary, one of these conditions (except in special cases) &nbsp;? {id="test-3-5-1"}
-- There is a [textual transcription](glossaire.md#transcription-textual-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clearly-identifiable)&nbsp;;
+**[Test 3.5.1](#test-3-5-1):** Does each pre-recorded synchronized time media check, if necessary, one of these conditions (except in particular cases) &nbsp;? {id="test-3-5-1"}
+- There is a [text transcript](glossaire.md#transcription-textual-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clearly-identifiable)&nbsp;;
 - There is a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal)&nbsp;;
 - There is an alternative version with a [synchronized audio description](glossaire.md#audiodescription-synchronisee-media-temporal) accessible via an adjacent component (a button or a link).
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -493,8 +493,8 @@ The criterion is not applicable for the following elements:
 
 1. Locate synchronized time-based media on the screen that require verbatim transcription.
 1. Check:
-- the presence of a clearly identifiable adjacent textual transcription;
-- or the presence of a textual transcription accessible via an adjacent component (a button or a link);
+- the presence of a clearly identifiable adjacent text transcript;
+- or the presence of a text transcript accessible via an adjacent component (a button or a link);
 - or the presence of synchronized audio description;
 - or the presence of an alternative version with synchronized audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
@@ -504,21 +504,21 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.3 Audio description or replacement version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio- description-or-media-alternative-prerecorded).
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded).
 
-#### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronized [temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise) having a alternative, is this relevant (except in special cases)? {id="crit-3-6"}
+#### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronized [time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise) having a alternative, is this relevant (except in particular cases)? {id="crit-3-6"}
 
 **[Test 3.6.1](#test-3-6-1):** Does each synchronized pre-recorded time-based media meet one of these conditions? {id="test-3-6-1"}
 - The audio description is relevant and correctly synchronized;
 - The verbatim transcription is relevant.
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
-1. Locate on the screen the time-based media synchronized with an audio description or a textual transcription.
+1. Locate on the screen the time-based media synchronized with an audio description or a text transcript.
 1. If audio description is present, check:
 - that it is relevant (all the important visual information is present);
 - and that it is correctly synchronized (the audio description soundtrack correctly coincides with the video tape).
@@ -531,11 +531,11 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.3 Audio description or replacement version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio- description-or-media-alternative-prerecorded).
 - EN 301 549 V3.2.1 (2021-03): 7.2.2 Audio description synchronization, 11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded).
 
-#### [Criterion 3.7](#crit-3-7) [A] Each pre-recorded synchronized [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) has if necessary, [synchronized subtitles](glossaire.md#sous-titles-synchronises-object-multimedia) (except in special cases)? {id="crit-3-7}
+#### [Criterion 3.7](#crit-3-7) [A] Each pre-recorded synchronized [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) has if necessary, [synchronized subtitles](glossaire.md#sous-titles-synchronises-object-multimedia) (except in particular cases)? {id="crit-3-7}
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -552,7 +552,7 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.2 Captions (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.2 Captions (Prerecorded).
 
-#### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronized [temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise) having [synchronized subtitles](glossaire.md#sous-titles-synchronises-object-multimedia), are these relevant? {id="crit-3-8}
+#### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronized [time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise) having [synchronized subtitles](glossaire.md#sous-titles-synchronises-object-multimedia), are these relevant? {id="crit-3-8}
 
 **[Test 3.8.1](#test-3-8-1):** For each pre-recorded synchronized time-based media that has synchronized captions, do the captions meet these conditions? {id="test-3-8-1"}
 - Subtitles are relevant;
@@ -573,11 +573,11 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.2 Captions (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): 7.1.2 Captioning synchronization, 11.1.2.2 Captions (Prerecorded).
 
-#### [Criterion 3.9](#crit-3-9) [AA] Each pre-recorded [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) (only video or synchronized) does it have, if necessary, a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal) (except in special cases)? {id="crit-3-9"}
+#### [Criterion 3.9](#crit-3-9) [AA] Each pre-recorded [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) (only video or synchronized) does it have, if necessary, a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal) (except in particular cases)? {id="crit-3-9"}
 
-##### Special cases
+##### Particular cases
 
-[See the special cases of criterion 3.1](#crit-3-1)
+[See the particular cases of criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -594,7 +594,7 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): 11.1.2.5 Audio Description (Pre-recorded).
 
-#### [Criterion 3.10](#crit-3-10) [AA] For each [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded (only video or synchronized) having a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal), is this relevant? {id="crit-3-10"}
+#### [Criterion 3.10](#crit-3-10) [AA] For each [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) pre-recorded (only video or synchronized) having a [synchronized audio description](glossaire.md#audiodescription-synchronized-media-temporal), is this relevant? {id="crit-3-10"}
 
 **[Test 3.10.1](#test-3-10-1):** For each pre-recorded video-only or synchronized time-based media with audio description, does it meet these conditions? {id="test-3-10-1"}
 - The audio description is relevant;
@@ -617,11 +617,11 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): 7.2.2 Audio description synchronization, 11.1.2.5 Audio Description (Pre-recorded).
 
-#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise), the content adjacent text allows the temporal media to be clearly identified (except in special cases)? {id="crit-3-11"}
+#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise), the content adjacent text allows the time-based media to be clearly identified (except in particular cases)? {id="crit-3-11"}
 
-##### Special cases
+##### Particular cases
 
-The criterion is not applicable when the temporal media is used for decorative purposes (i.e. it does not provide any information).
+The criterion is not applicable when the time-based media is used for decorative purposes (i.e. it does not provide any information).
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -629,7 +629,7 @@ The criterion is not applicable when the temporal media is used for decorative p
 
 1. Locate the pre-recorded video, audio or synchronized time-only media on the screen.
 1. Check:
-- that a passage of text (a title or a paragraph for example), allowing the temporal media to be identified, immediately precedes or follows it;
+- that a passage of text (a title or a paragraph for example), allowing the time-based media to be identified, immediately precedes or follows it;
 - that the text passage is located outside the multimedia content player.
 1. If this is the case, the criterion is validated.
 
@@ -660,7 +660,7 @@ The criterion is not applicable when the temporal media is used for decorative p
 - WCAG 2.1: [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
 - EN 301 549 V3.2.1 (2021-03): 11.1.4.2 Audio Control.
 
-#### [Criterion 3.13](#crit-3-13) [A] Does each [temporal media](glossaire.md#media-temporal-type-son-video-et-synchronise) have, if necessary, the [functionalities for controlling its consultation](glossaire.md#controle-de-la-consultation-d-un-temporal-media)? {id="crit-3-13"}
+#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#media-temporal-type-son-video-et-synchronise) have, if necessary, the [functionalities for controlling its consultation](glossaire.md#controle-de-la-consultation-d-un-temporal-media)? {id="crit-3-13"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -682,9 +682,9 @@ The criterion is not applicable when the temporal media is used for decorative p
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard)
 - EN 301 549 V3.2.1 (2021-03): 7.1.1 Captioning playback, 7.2.1 Audio description playback, 11.2.1.1.1 Keyboard.
 
-#### [Criterion 3.14](#crit-3-14) [AA] For each [temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise), the control functionalities of Are alternatives presented at the same level as other [primary control](glossaire.md#primary-control-of-temporal-media) features? {id="crit-3-14"}
+#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise), the control functionalities of Are alternatives presented at the same level as other [primary control](glossaire.md#primary-control-of-temporal-media) features? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1):** For each temporal media, do the alternative control features meet these conditions? {id="test-3-14-1"}
+**[Test 3.14.1](#test-3-14-1):** For each time-based media, do the alternative control features meet these conditions? {id="test-3-14-1"}
 - For each time-based media, the functionality to enable and disable subtitles is presented at the same level as other primary control features;
 - For each time-based media, the functionality to enable and disable audio description is presented at the same level as other primary control functionalities.
 
@@ -704,7 +704,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 7.3 User controls for captions and audio description.
 
-#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records [temporal media](glossaire.md#temporal-media-type-son-video-and- synchronize) pre-recorded synchronized that has a subtitle track, at the end of the process, are the subtitles correctly preserved? {id="crit-3-15"}
+#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records [time-based media](glossaire.md#temporal-media-type-son-video-and- synchronize) pre-recorded synchronized that has a subtitle track, at the end of the process, are the subtitles correctly preserved? {id="crit-3-15"}
 
 **[Test 3.15.1](#test-3-15-1):** For each feature that transmits, converts or records a video that has a subtitle track, at the end of the process, do the subtitles meet these conditions? {id="test-3-15-1"}
 - Subtitles are present;
@@ -716,7 +716,7 @@ Note: Although volume and playback controls may be physical components of the te
 
 ###### iOS and Android
 
-1. Identify the functionalities that allow you to transmit (send content to another terminal for example), convert or record temporal media.
+1. Identify the functionalities that allow you to transmit (send content to another terminal for example), convert or record time-based media.
 1. Perform each functionality (transmit, convert and save).
 1. For each of the media resulting from the functionality, evaluate:
 - if the subtitles are still present;
@@ -730,7 +730,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 5.4 Preservation of accessibility information during conversion, 7.1.3 Preservation of captioning.
 
-#### [Criterion 3.16](#crit-3-16) [AA] For each functionality that transmits, converts or records [temporal media](glossaire.md#temporal-media-type-son-video-and- synchronize) pre-recorded with a [synchronized audio description](glossaire.md#audiodescription-synchronisee-media-temporal), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
+#### [Criterion 3.16](#crit-3-16) [AA] For each functionality that transmits, converts or records [time-based media](glossaire.md#temporal-media-type-son-video-and- synchronize) pre-recorded with a [synchronized audio description](glossaire.md#audiodescription-synchronisee-media-temporal), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
 
 **[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded time-based media with synchronized audio description, at the end of the process Does audio description comply with these conditions? {id="test-3-16-1"}
 - Audio description is present;
@@ -741,7 +741,7 @@ Note: Although volume and playback controls may be physical components of the te
 
 ###### iOS and Android
 
-1. Identify the functionalities that allow you to transmit (send content to another terminal for example), convert or record temporal media.
+1. Identify the functionalities that allow you to transmit (send content to another terminal for example), convert or record time-based media.
 1. Execute each functionality (transmit, convert and save).
 1. For each of the media resulting from the functionality, evaluate:
 - if audio description is present;
@@ -756,9 +756,9 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 5.4 Preservation of accessibility information during conversion, 7.2.3 Preservation of audio description.
 
-#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise), the presentation can subtitles be controlled by the user (except in special cases)? {id="crit-3-17"}
+#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise), the presentation can subtitles be controlled by the user (except in particular cases)? {id="crit-3-17"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for embedded subtitles (open captions).
 
@@ -792,13 +792,13 @@ The criterion is not applicable for embedded subtitles (open captions).
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 7.1.4 Captions characteristics, 11.7 User preferences.
 
-#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded synchronized temporal media](glossaire.md#temporal-media-type-son-video-et-synchronise) which has [synchronized subtitles](glossaire.md#sous-titres-synchronises-objet-multimedia), can these be, if necessary, vocalized (except in special cases)? {id="crit-3-18"}
+#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded synchronized time-based media](glossaire.md#temporal-media-type-son-video-et-synchronise) which has [synchronized subtitles](glossaire.md#sous-titres-synchronises-objet-multimedia), can these be, if necessary, vocalized (except in particular cases)? {id="crit-3-18"}
 
 **[Test 3.18.1](#test-3-18-1):** Does each pre-recorded synchronized time-based media that has synchronized subtitles meet any of these conditions? {id="test-3-18-1"}
 - Subtitles are in a standardized format;
 - There is an additional audio track which contains the voiced subtitles.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable in the following cases:
 - Subtitles are embedded in the video.
@@ -899,7 +899,7 @@ Note: If the &ldquo;Multimedia description&rdquo; is not available in the rotor,
 - WCAG 2.1: [1.3.1 Information and relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.1.1 Info and Relationships, 11.5.2.5 Object information.
 
-#### [Criterion 4.5](#crit-4-5) [A] For each [data table](glossaire.md#data-table), are the row and column headers correctly linked to data cells? {id="crit-4-5"}
+#### [Criterion 4.5](#crit-4-5) [A] For each [data table](glossaire.md#data-table), are the row and column headers correctly associated with data cells? {id="crit-4-5"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -917,19 +917,19 @@ Note: If the &ldquo;Multimedia description&rdquo; is not available in the rotor,
 
 ### [Theme 5](#topic-5): Interactive components {id="topic-5"}
 
-#### [Criterion 5.1](#crit-5-1) [A] Is each [interface component](glossaire.md#interface-component), if necessary, [compatible with the technologies of 'assistance](glossaire.md#compatible-with-assistive-technologies) (excluding special cases)? {id="crit-5-1"}
+#### [Criterion 5.1](#crit-5-1) [A] Is each [interface component](glossaire.md#interface-component), if necessary, [compatible with the technologies of 'assistance](glossaire.md#compatible-with-assistive-technologies) (excluding particular cases)? {id="crit-5-1"}
 
 - **[Test 5.1.1](#test-5-1-1):** Does each interface component check, if necessary, one of these conditions? {id="test-5-1-1"}
 - [The name, role, value, settings and state changes](glossaire.md#role-name-value-setting-and-state-changes) are [accessible to assistive technologies] (glossaire.md#accessible-to-assistive-technologies) via an accessibility API;
 - An alternative [adjacent clearly identifiable](glossaire.md#adjacent-clearly-identifiable) compatible with an accessibility API allows access to the same functionalities.
-- **[Test 5.1.2](#test-5-1-2):** Does each interface component check these conditions (except special cases)? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2):** Does each interface component check these conditions (except particular cases)? {id="test-5-1-2"}
 - The component has a relevant name;
 - The accessible name of the component contains at least the visible title;
 - The component has a relevant role;
 - The component has a relevant value;
 - The component has a relevant state.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - The application is subject to strict security requirements that prevent other applications from interacting with its interface (such as assistive technology). Examples of systems subject to strict security requirements are systems dealing with intelligence activities, cryptology activities related to national security, command and control of military forces.
@@ -1028,9 +1028,9 @@ Procedure:
 - WCAG 2.1: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Name, role and value (A)](https://www.w3 .org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03): 5.6.1 Tactile or auditory status, 11.2.4.4 Link Purpose (in context), 11.2.5.3.1 Label in Name, 11.4.1.2.1 Name, role, value, 11.5.2.3 Use of accessibility services, 11.5.2.5 Object information, 11.5.2.7 Values, 11.5.2.8 Label relationships, 11.5.2.9 Parent-child relationships,  11.5.2.11 List of available actions, 11.5.2.12 Execution of available actions, 11.5.2.16 Modifications of states and properties, 11.6.2 No disruption of accessibility features.
 
-#### [Criterion 5.2](#crit-5-2) [A] Is each [interface component](glossaire.md#interface-component) [controllable by the keyboard and any pointing device ](glossaire.md#accessible-and-activatable-by-the-keyboard-and-any-pointing-device) (except in special cases)? {id="crit-5-2"}
+#### [Criterion 5.2](#crit-5-2) [A] Is each [interface component](glossaire.md#interface-component) [controllable by the keyboard and any pointing device ](glossaire.md#accessible-and-activatable-by-the-keyboard-and-any-pointing-device) (except in particular cases)? {id="crit-5-2"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - The functionality depends on the use of an event handler without universal equivalent; for example, a freehand drawing application cannot be made controllable by keyboard.
@@ -1161,7 +1161,7 @@ For the external keyboard, [certain settings are necessary for the device to be 
 - WCAG 2.1: [3.1.1 Language of page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
 - EN 301 549 V3.2.1 (2021-03): 11.3.1.1.1 Language of software.
 
-#### [Criterion 6.2](#crit-6-2) [A] In each screen, interface elements must not be used [for presentation purposes only](glossaire.md#only-a -for-presentation-purposes). Is this rule respected? {id="crit-6-2"}
+#### [Criterion 6.2](#crit-6-2) [A] In each screen, interface elements must not be used [for presentation purposes only](glossaire.md#only-a -for-presentation-purposes). Has this rule been followed? {id="crit-6-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -1281,14 +1281,14 @@ Note: In applications, it is possible to group elements. For example, in a produ
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships ( A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): 11.1.1.1.1 Non-text Content, 11.1.3.1.1 Info and Relationships, 11.5.2.10 Text.
 
-#### [Criterion 8.2](#crit-8-2) [AA] In each screen, can the user increase the character size by at least 200% (excluding special cases)? {id="crit-8-2"}
+#### [Criterion 8.2](#crit-8-2) [AA] In each screen, can the user increase the character size by at least 200% (excluding particular cases)? {id="crit-8-2"}
 
 **[Test 8.2.1](#test-8-2-1):** Does every screen check these conditions? {id="test-8-2-1"}
 - The user can enlarge the text size by 200% using the platform settings;
 - All texts on the screen are enlarged;
 - All enlarged texts remain readable and interactive components usable.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - Text graphic elements;
@@ -1395,15 +1395,15 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [1.4.1 Use of color (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Focus visibility (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible)
 - EN 301 549 V3.2.1 (2021-03): 11.1.4.1 Use of Color, 11.2.4.7 Focus Visible, *11.7 User preferences*{lang= in}.
 
-#### [Criterion 8.6](#crit-8-6) [A] In each screen, the information must not be given only by [shape, size or position](glossaire.md#indication-given- by-shape-size-or-position). Is this rule respected? {id="crit-8-6"}
+#### [Criterion 8.6](#crit-8-6) [A] In each screen, the information must not be given only by [shape, size or position](glossaire.md#indication-given- by-shape-size-or-position). Has this rule been followed? {id="crit-8-6"}
 
-This concerns words or sets of words, texts, graphic elements carrying information and temporal media.
+This concerns words or sets of words, texts, graphic elements carrying information and time-based media.
 
 ##### Evaluation methodology {class="disclosure method"}
 
 ###### iOS and Android
 
-1. Locate on the screen the information given by the shape, size or position in a text, a graphic element, a temporal or non-temporal media. It can be an icon positioned to the left of a component to indicate that it is active, or an instruction in the screen which asks you to activate a component positioned at a certain location on the screen.
+1. Locate on the screen the information given by the shape, size or position in a text, a graphic element, a temporal or non-time-based media. It can be an icon positioned to the left of a component to indicate that it is active, or an instruction in the screen which asks you to activate a component positioned at a certain location on the screen.
 1. Check that there is another way to retrieve this information from the screen (for example, a text readable by everyone which gives the same information).
 1. If this is not the case, activate the **screen reader** and check that alternative information in shape, size or position is rendered by the screen reader.
 1. If this is the case, the criterion is validated.
@@ -1413,16 +1413,16 @@ This concerns words or sets of words, texts, graphic elements carrying informati
 - WCAG 2.1: [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics), [1.4.1 Use of color (A) ](https://www.w3.org/Translations/WCAG21-fr/#use-of-color).
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.3 Sensory Characteristics, 11.1.4.1 Use of Color.
 
-#### [Criterion 8.7](#crit-8-7) [AA] In each screen, additional content appearing when focusing or hovering over an [interface component](glossaire.md#component -d-interface) are they controllable by the user (except in special cases)? {id="crit-8-7"}
+#### [Criterion 8.7](#crit-8-7) [AA] In each screen, additional content appearing when focusing or hovering over an [interface component](glossaire.md#component -d-interface) are they controllable by the user (except in particular cases)? {id="crit-8-7"}
 
-- **[Test 8.7.1](#test-8-7-1):** Can each additional content that becomes visible when focusing or hovering over an interface component be hidden by a user action without moving the focus or the mouse pointer (except in special cases)? {id="test-8-7-1"}
-- **[Test 8.7.2](#test-8-7-2):** Can each additional content that appears when hovering over an interface component be hovered over by the mouse pointer without disappear (except in special cases)? {id="test-8-7-2"}
-- **[Test 8.7.3](#test-8-7-3):** Does each additional content that appears when focusing or hovering over an interface component verify a of these conditions (except in special cases)? {id="test-8-7-3"}
+- **[Test 8.7.1](#test-8-7-1):** Can each additional content that becomes visible when focusing or hovering over an interface component be hidden by a user action without moving the focus or the mouse pointer (except in particular cases)? {id="test-8-7-1"}
+- **[Test 8.7.2](#test-8-7-2):** Can each additional content that appears when hovering over an interface component be hovered over by the mouse pointer without disappear (except in particular cases)? {id="test-8-7-2"}
+- **[Test 8.7.3](#test-8-7-3):** Does each additional content that appears when focusing or hovering over an interface component verify a of these conditions (except in particular cases)? {id="test-8-7-3"}
 - The additional content remains visible until the user removes the mouse pointer or the focus from the additional content and the interface component that triggered its appearance;
 - The additional content remains visible until the user triggers an action hiding this content without moving the focus or the mouse pointer of the interface component that triggered its appearance;
 - Additional content remains visible until it is no longer valid.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the additional content is controlled by the platform (for example, `title` attribute in HTML) or corresponds to a modal window.
 
@@ -1640,7 +1640,7 @@ When the additional content does not mask or replace any content carrying inform
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Labels or instructions ( A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions.
 
-#### [Criterion 9.7](#crit-9-7) [A] Are the mandatory form fields correctly identified (except in special cases)? {id="crit-9-7"}
+#### [Criterion 9.7](#crit-9-7) [A] Are the mandatory form fields correctly identified (except in particular cases)? {id="crit-9-7"}
 
 **[Test 9.7.1](#test-9-7-1):** Does every required form field check these conditions? {id="test-9-7-1"}
 - The obligatory character is visible;
@@ -1832,7 +1832,7 @@ If all of the fields in a form are mandatory, the criterion remains applicable.
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.3 Focus traversal (A) ](https://www.w3.org/Translations/WCAG21-fr/#focus-order)
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text.
 
-#### [Criterion 10.3](#crit-10-3) [A] In each screen, the navigation must not contain [keyboard trap](glossaire.md#keyboard-trap). Is this rule respected? {id="crit-10-3"}
+#### [Criterion 10.3](#crit-10-3) [A] In each screen, the navigation must not contain [keyboard trap](glossaire.md#keyboard-trap). Has this rule been followed? {id="crit-10-3"}
 
 **[Test 10.3.1](#test-10-3-1):** In each screen, does each element receiving focus satisfy one of these conditions? {id="test-10-3-1"}
 - It is possible to navigate to the next or previous focusable element with the keyboard;
@@ -1895,7 +1895,7 @@ The test on the keyboard trap is then limited to verifying that the component ca
 
 ### [Theme 11](#topic-11): Consultation {id="topic-11"}
 
-#### [Criterion 11.1](#crit-11-1) [A] For each screen, does the user have control over each [time limit modifying content](glossaire.md#procede- de-refresh) (except in special cases)? {id="crit-11-1"}
+#### [Criterion 11.1](#crit-11-1) [A] For each screen, does the user have control over each [time limit modifying content](glossaire.md#procede- de-refresh) (except in particular cases)? {id="crit-11-1"}
 
 **[Test 11.1.1](#test-11-1-1):** Does each time limit meet one of these conditions? {id="test-11-1-1"}
 - The user can stop or restart the refresh;
@@ -1903,7 +1903,7 @@ The test on the keyboard trap is then limited to verifying that the component ca
 - The user is warned of the impending refresh and has at least twenty seconds to increase the time limit before the next refresh;
 - The time limit between two refreshes is twenty hours, at least.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the functionalities linked to the content.
 
@@ -1924,14 +1924,14 @@ The criterion is not applicable when the time limit is essential, in particular 
 - WCAG 2.1: [2.2.1 Timing adjustment (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide).
 - EN 301 549 V3.2.1 (2021-03): 11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A).
 
-#### [Criterion 11.2](#crit-11-2) [A] For each screen, can each process limiting the time of a session be stopped or deleted (except in special cases)? {id="crit-11-2"}
+#### [Criterion 11.2](#crit-11-2) [A] For each screen, can each process limiting the time of a session be stopped or deleted (except in particular cases)? {id="crit-11-2"}
 
 **[Test 11.2.1](#test-11-2-1):** Does each process limiting the time of a session respect one of these conditions? {id="test-11-2-1"}
 - User can remove time limit;
 - User can increase the time limit;
 - The time limit before the end of the session is at least twenty hours.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the functionalities linked to the content.
 
@@ -1951,14 +1951,14 @@ The criterion is not applicable when the time limit is essential, in particular 
 - WCAG 2.1: [2.2.1 Timing Adjustment (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable)
 - EN 301 549 V3.2.1 (2021-03): 11.2.2.1 Timing adjustable.
 
-#### [Criterion 11.3](#crit-11-3) [A] In each screen, does each office document for download have, if necessary, an [accessible version](glossaire.md#accessible-version ) (excluding special cases)? {id="crit-11-3"}
+#### [Criterion 11.3](#crit-11-3) [A] In each screen, does each office document for download have, if necessary, an [accessible version](glossaire.md#accessible-version ) (excluding particular cases)? {id="crit-11-3"}
 
 **[Test 11.3.1](#test-11-3-1):** Does each office document meet one of these conditions? {id="test-11-3-1"}
 - The document being downloaded is compatible with accessibility;
 - There is an alternative version of the document for download compatible with accessibility;
 - There is an alternative version of the document available for download in the application accessible to assistive technologies.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when office documents (e.g.: PDF, Microsoft or LibreOffice documents, etc.) were published before September 23, 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/ 2019/05/28/a373/jo).
 
@@ -1984,9 +1984,9 @@ The criterion is not applicable when office documents (e.g.: PDF, Microsoft or L
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships ( A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/ Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Page language (A)](https://www.w3 .org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name- role-value).
 - EN 301 549 V3.2.1 (2021-03): all criteria in section 10 Non-web documents.
 
-#### [Criterion 11.4](#crit-11-4) [A] For each office document having an [accessible version](glossaire.md#version-accessible), does this version offer the same information ( excluding special cases)? {id="crit-11-4"}
+#### [Criterion 11.4](#crit-11-4) [A] For each office document having an [accessible version](glossaire.md#version-accessible), does this version offer the same information ( excluding particular cases)? {id="crit-11-4"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when office documents (e.g.: PDF, Microsoft or LibreOffice documents, etc.) were published before September 23, 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/ 2019/05/28/a373/jo).
 
@@ -2085,13 +2085,13 @@ Note: The [PEAT](https://trace.umd.edu/peat/) tool allows you to analyze videos 
 - WCAG 2.1: [2.2.1 Timing adjustment (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide)
 - EN 301 549 V3.2.1 (2021-03): 11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A).
 
-#### [Criterion 11.9](#crit-11-9) [AA] In each screen, is the proposed content viewable regardless of the orientation of the screen (portrait or landscape) (except in special cases) &nbsp;? {id="crit-11-9"}
+#### [Criterion 11.9](#crit-11-9) [AA] In each screen, is the proposed content viewable regardless of the orientation of the screen (portrait or landscape) (except in particular cases) &nbsp;? {id="crit-11-9"}
 
 **[Test 11.9.1](#test-11-9-1):** In each screen, does each content check these conditions? {id="test-11-9-1"}
 - Consultation is possible regardless of the screen orientation mode;
 - The content offered remains the same regardless of the orientation mode of the screen even if its presentation and the means of accessing it may differ.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the orientation of the device is essential to the use of the application, for example: game interfaces, piano interfaces, etc.
 If the interface is the only way to access the service offered, an alternative should be put in place.
@@ -2123,9 +2123,9 @@ If the interface is the only way to access the service offered, an alternative s
 - WCAG 2.1: [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
 - EN 301 549 V3.2.1 (2021-03): 11.1.3.4 Orientation.
 
-#### [Criterion 11.10](#crit-11-10) [A] In each screen, the functionalities that can be activated using a [complex gesture](glossaire.md#complex-gestures-and-simple-gestures) can they be activated using a [simple gesture](glossaire.md#complex-gestures-and-simple-gestures) (except in special cases)? {id="crit-11-10"}
+#### [Criterion 11.10](#crit-11-10) [A] In each screen, the functionalities that can be activated using a [complex gesture](glossaire.md#complex-gestures-and-simple-gestures) can they be activated using a [simple gesture](glossaire.md#complex-gestures-and-simple-gestures) (except in particular cases)? {id="crit-11-10"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for the following elements:
 - The gestures required by the platform.
@@ -2146,9 +2146,9 @@ The criterion is not applicable for the following elements:
 - WCAG 2.1: [2.5.1 Gestures for pointer control (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures).
 - EN 301 549 V3.2.1 (2021-03): 5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures.
 
-#### [Criterion 11.11](#crit-11-11) [A] In each screen, are the functionalities that can be activated by performing simultaneous actions activated by means of a single action. Is this rule respected (except in special cases)? {id="crit-11-11"}
+#### [Criterion 11.11](#crit-11-11) [A] In each screen, are the functionalities that can be activated by performing simultaneous actions activated by means of a single action. Has this rule been followed (except in particular cases)? {id="crit-11-11"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for actions required by the platform.
 
@@ -2167,14 +2167,14 @@ The criterion is not applicable for actions required by the platform.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 5.9 Simultaneous user actions.
 
-#### [Criterion 11.12](#crit-11-12) [A] In each screen, can actions triggered by a pointing device on a single point on the screen be subject to 'a cancellation (except in special cases)? {id="crit-11-12"}
+#### [Criterion 11.12](#crit-11-12) [A] In each screen, can actions triggered by a pointing device on a single point on the screen be subject to 'a cancellation (except in particular cases)? {id="crit-11-12"}
 
-**[Test 11.12.1](#test-11-12-1):** In each screen, do actions triggered by a pointing device on a single point on the screen verify the one of these conditions (except in special cases)? {id="test-11-12-1"}
+**[Test 11.12.1](#test-11-12-1):** In each screen, do actions triggered by a pointing device on a single point on the screen verify the one of these conditions (except in particular cases)? {id="test-11-12-1"}
 - The action is triggered when the pointing device is released or raised;
 - The action is triggered when the pointing device is pressed or placed and then canceled when the pointing device is released or raised;
 - The [action is complex](glossaire.md#action-complex) and a mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the functionality requires that the expected behavior be performed during a top-down event, for example, a keyboard emulator whose keys must activate when pressed like on a physical keyboard.
 
@@ -2192,13 +2192,13 @@ The criterion is not applicable when the functionality requires that the expecte
 - WCAG 2.1: [2.5.2 Pointer action cancellation (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation)
 - EN 301 549 V3.2.1 (2021-03): 11.2.5.2 Pointer Cancellation (A).
 
-#### [Criterion 11.13](#crit-11-13) [A] In each screen, can the functionalities that involve movement from or to the device be satisfied in an alternative way (excluding special cases )? {id="crit-11-13"}
+#### [Criterion 11.13](#crit-11-13) [A] In each screen, can the functionalities that involve movement from or to the device be satisfied in an alternative way (excluding particular cases )? {id="crit-11-13"}
 
 **[Test 11.13.1](#test-11-13-1):** Does every feature that involves movement from or to the device meet these requirements? {id="test-11-13-1"}
 - The functionality can be triggered with an interface component;
 - The user has the option to deactivate motion detection to avoid accidental triggering of the functionality.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when:
 - Movement is essential to achieve functionality (e.g. pedometer).
@@ -2219,11 +2219,11 @@ The criterion is not applicable when:
 - WCAG 2.1: [2.5.4 Motion Actuation (A)](https://www.w3.org/Translations/WCAG21-fr/#motion-actuation)
 - EN 301 549 V3.2.1 (2021-03): 5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A).
 
-#### [Criterion 11.14](#crit-11-14) [AA] For each conversion functionality of a document, the [accessibility information](glossaire.md#accessibility-information) available in the source document are they preserved in the destination document (except in special cases)? {id="crit-11-14"}
+#### [Criterion 11.14](#crit-11-14) [AA] For each conversion functionality of a document, the [accessibility information](glossaire.md#accessibility-information) available in the source document are they preserved in the destination document (except in particular cases)? {id="crit-11-14"}
 
 All digital formats such as text, audio and video are affected.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the conversion format does not have the elements necessary for the identification of accessibility information. For example, if the conversion is from an HTML format to a TXT format, then the criterion is not applicable.
 
@@ -2262,13 +2262,13 @@ The criterion is not applicable when the conversion format does not have the ele
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 5.3 Biometrics.
 
-#### [Criterion 11.16](#crit-11-16) [A] For each application that includes a [key repeat](glossaire.md#key-repetition) functionality, is the repeat adjustable (excluding special cases)? {id="crit-11-16"}
+#### [Criterion 11.16](#crit-11-16) [A] For each application that includes a [key repeat](glossaire.md#key-repetition) functionality, is the repeat adjustable (excluding particular cases)? {id="crit-11-16"}
 
 **[Test 11.16.1](#test-11-16-1):** For each application that includes key repeat functionality, are the following conditions met? {id="test-11-16-1"}
 - The trigger delay for the repeat function can be set to at least 2 seconds;
 - The delay between two repetitions can be set to at least 2 seconds.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable:
 - For key repetitions managed at the platform level;
@@ -2326,9 +2326,9 @@ The criterion is not applicable:
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 12.1.1 Accessibility and compatibility features.
 
-#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the documentation, the entire path that allows enabling it meets the accessibility needs of users who need it. Is this rule respected (except in special cases)? {id="crit-12-2"}
+#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the documentation, the entire path that allows enabling it meets the accessibility needs of users who need it. Has this rule been followed (except in particular cases)? {id="crit-12-2"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable for functionalities integrated into the platform.
 
@@ -2349,7 +2349,7 @@ The criterion is not applicable for functionalities integrated into the platform
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 5.2 Activation of accessibility features.
 
-#### [Criterion 12.3](#crit-12-3) [A] The application does not disrupt the accessibility features of the platform. Is this rule respected? {id="crit-12-3"}
+#### [Criterion 12.3](#crit-12-3) [A] The application does not disrupt the accessibility features of the platform. Has this rule been followed? {id="crit-12-3"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -2438,9 +2438,9 @@ The criterion is not applicable for functionalities integrated into the platform
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 11.8.1 Content technology, 11.8.2 Accessible content creation.
 
-#### [Criterion 13.3](#crit-13-3) [A] Is the content generated by each [transformation](glossaire.md#transformation) of content accessible (except in special cases)? {id="crit-13-3"}
+#### [Criterion 13.3](#crit-13-3) [A] Is the content generated by each [transformation](glossaire.md#transformation) of content accessible (except in particular cases)? {id="crit-13-3"}
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the destination format does not allow the accessibility information present in the input content to be preserved.
 
@@ -2485,7 +2485,7 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 11.8.1 Content technology, 11.8.4 Repair Assistance.
 
-#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template makes it possible to meet the requirements of [RAWeb](.. /raweb1/criteres.html). Is this rule respected? {id="crit-13-5"}
+#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template makes it possible to meet the requirements of [RAWeb](.. /raweb1/criteres.html). Has this rule been followed? {id="crit-13-5"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -2545,7 +2545,7 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 12.2.2 Information on accessibility and compatibility features.
 
-#### [Criterion 14.2](#crit-14-2) [A] The [helpdesk](glossaire.md#assistance-service) meets the communication needs of people with disabilities directly or through [l 'intermediary of a relay service](glossaire.md#relay-service). Is this rule respected? {id="crit-14-2"}
+#### [Criterion 14.2](#crit-14-2) [A] The [helpdesk](glossaire.md#assistance-service) meets the communication needs of people with disabilities directly or through [l 'intermediary of a relay service](glossaire.md#relay-service). Has this rule been followed? {id="crit-14-2"}
 
 ##### Evaluation methodology {class="disclosure method"}
 
@@ -2615,7 +2615,7 @@ An implementation of [ITU-T recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 6.2.1.2 Concurrent voice and text.
 
-#### [Criterion 15.4](#crit-15-4) [A] For each functionality of [written communication in real time](glossaire.md#communication-written-in-real-time), messages can- be identified (except in special cases)? {id="crit-15-4"}
+#### [Criterion 15.4](#crit-15-4) [A] For each functionality of [written communication in real time](glossaire.md#communication-written-in-real-time), messages can- be identified (except in particular cases)? {id="crit-15-4"}
 
 **[Test 15.4.1](#test-15-4-1):** For each real-time written communication feature, do messages meet these conditions? {id="test-15-4-1"}
 - Received and sent messages are separated in the presentation;
@@ -2624,7 +2624,7 @@ An implementation of [ITU-T recommendation G.722](https://www.itu.int/rec/T-REC-
 - The nature of the message (received or sent) is accessible to assistive technologies;
 - The identification of the author of the message is accessible to assistive technologies.
 
-##### Special cases
+##### Particular cases
 
 The criterion is not applicable when the two-way oral communication functionality does not make it possible to identify the participants, it is then not required that the real-time written communication functionality identifies the authors of the messages.
 
@@ -2684,7 +2684,7 @@ No evaluation method is proposed for this criterion.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): 6.2.3 Interoperability.
 
-#### [Criterion 15.7](#crit-15-7) [AA] For each application that allows [written communication in real time](glossaire.md#communication-written-in-real-time), the delay transmission time of each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
+#### [Criterion 15.7](#crit-15-7) [AA] For each application that allows [written communication in real time](glossaire.md#communication-written-in-real-time), the delay transmission time of each [input unit](glossaire.md#input-unit) is 500ms or less. Has this rule been followed? {id="crit-15-7"}
 
 ##### Evaluation methodology {class="disclosure method"}
 

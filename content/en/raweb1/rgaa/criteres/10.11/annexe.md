@@ -17,7 +17,7 @@ Norm:
     title: Reflow
 ---
 
-#### Special cases
+#### Particular cases
 
 The objective of this criterion is to guarantee scrolling in a single direction for easier reading according to the direction of the writing.
 

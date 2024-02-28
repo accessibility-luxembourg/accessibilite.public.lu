@@ -11,7 +11,7 @@ Norm:
     title: Motion Actuation
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when:
 

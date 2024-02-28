@@ -10,7 +10,7 @@ Norm:
     title: Labels or Instructions
 ---
 
-#### Special cases
+#### Particular cases
 
 Tests 11.4.2 and 11.4.3 will be considered not applicable:
 

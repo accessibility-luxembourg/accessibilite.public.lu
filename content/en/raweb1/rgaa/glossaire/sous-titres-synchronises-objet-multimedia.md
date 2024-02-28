@@ -2,7 +2,7 @@
 title: Synchronized subtitles (media object)
 ---
 
-Text of audio information (words of a character, important noise to understand the action, etc.) present in a temporal media and displayed synchronously with the flow of the multimedia object.
+Text of audio information (words of a character, important noise to understand the action, etc.) present in a time-based media and displayed synchronously with the flow of the multimedia object.
 
 Note 1: to differentiate sound sources (different characters, voice-overs, etc.), it is recommended to use an appropriate mechanism (putting in square brackets, italics, explicit announcement such as “voice-over: …”).
 

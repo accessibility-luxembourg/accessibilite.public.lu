@@ -91,7 +91,7 @@ An “audio only” version is a sound version, in the form of a simple file in 
 
 The “audio only” version must contain all the important visual information of the video.
 
-Generally, it is simpler to produce an audio version than a textual version when the video is very descriptive (the textual transcription often requires significant editorial work). It is recalled, however, that only the textual transcription ensures universal access to the information broadcast by the video, in the event that a user is not able to start the video for example.
+Generally, it is simpler to produce an audio version than a textual version when the video is very descriptive (the text transcript often requires significant editorial work). It is recalled, however, that only the text transcript ensures universal access to the information broadcast by the video, in the event that a user is not able to start the video for example.
 
 #### Application mechanism that displays a compliant contrast ratio
 
@@ -201,7 +201,7 @@ For example, one might consider a text &ldquo;significantly very large&rdquo; if
 
 Ability for the user to control the display or playback of moving or flashing content using all pointing devices (touch, keyboard, mouse, etc.).
 
-All moving content, with the exception of temporal media supported by the [Multimedia] theme (referentiel-technique.html#topic-3), is concerned: animated graphic elements, moving content for example.
+All moving content, with the exception of time-based media supported by the [Multimedia] theme (referentiel-technique.html#topic-3), is concerned: animated graphic elements, moving content for example.
 
 **Note 1:** When appropriate, the control method should be available as the first element of the interface.
 
@@ -215,9 +215,9 @@ Ability for the user to stop or restart an automatically triggered sound.
 
 **Note:** The sound control method should be available as the first item on the screen.
 
-#### Control of consultation (of a temporal media)
+#### Control of consultation (of a time-based media)
 
-Possibility for the user to control the consultation of a temporal media by the keyboard and any pointing device, at least. The following points must be observed:
+Possibility for the user to control the consultation of a time-based media by the keyboard and any pointing device, at least. The following points must be observed:
 
 List of mandatory consultation control features:
 - The multimedia object must always have the following functionalities, at a minimum: play, pause or stop;
@@ -321,7 +321,7 @@ The role &ldquo;Image&nbsp;&rdquo; is not reproduced uniformly across all enviro
 
 Generally speaking, depending on the development method, it is also possible that the role is not rendered on TalkBack or VoiceOver. From then on, it is observation alone which will make it possible to determine the nature of the element.
 
-It is not essential that the &ldquo;Image&rdquo; is returned in the majority of cases. Except in special cases where identification of the role is essential, the absence of a role returned cannot constitute non-compliance.
+It is not essential that the &ldquo;Image&rdquo; is returned in the majority of cases. except in particular cases where identification of the role is essential, the absence of a role returned cannot constitute non-compliance.
 
 #### Graphic element carrying information
 
@@ -397,7 +397,7 @@ A way to trigger an action associated with a user interface component by pressin
 
 We speak of a keyboard trap when a user who navigates by keyboard, from a position on the screen (for example a form field, a button, a complex component), cannot reach the next or previous component.
 
-There are special cases where it is necessary to capture keyboard focus and prevent the user from reaching items following or preceding the item currently being viewed. For example, in a modal window it is imperative that the user navigating with the keyboard cannot reach components outside the modal window as long as the latter is active.
+There are particular cases where it is necessary to capture keyboard focus and prevent the user from reaching items following or preceding the item currently being viewed. For example, in a modal window it is imperative that the user navigating with the keyboard cannot reach components outside the modal window as long as the latter is active.
 
 ### N
 
@@ -445,7 +445,7 @@ Personal data concerning the user in a form can be:
 
 The platforms have native controls, for example a native color picker for color selection, a specific calendar or field containing format control for date selection, etc. Form fields that expect specific formats (like a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
 
-#### Primary control (of temporal media)
+#### Primary control (of time-based media)
 
 Primary control features are the basic functionalities of a media player: play, pause, stop, sound control.
 
@@ -518,9 +518,9 @@ A summary is a passage of text associated with a complex data table. It provides
 
 Alternation of relative brightness that can cause seizures in some people, if their size is large enough in a specific frequency range.
 
-#### Synchronized audio description (temporal media)
+#### Synchronized audio description (time-based media)
 
-Narration added (via a sound file) to a sound track to describe important visual details that cannot be understood from the main sound track alone. The audio description must be synchronized with the temporal media by an application device linked to the media player.
+Narration added (via a sound file) to a sound track to describe important visual details that cannot be understood from the main sound track alone. The audio description must be synchronized with the time-based media by an application device linked to the media player.
 
 **Note 1:** Audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
@@ -530,7 +530,7 @@ Narration added (via a sound file) to a sound track to describe important visual
 
 #### Synchronized subtitles (media object)
 
-Text of audio information (words of a character, important noise to understand the action, etc.) present in a temporal media and displayed synchronously with the flow of the multimedia object.
+Text of audio information (words of a character, important noise to understand the action, etc.) present in a time-based media and displayed synchronously with the flow of the multimedia object.
 
 **Note 1:** to differentiate sound sources (different characters, voice-overs, etc.), it is recommended to use an appropriate mechanism (putting in brackets, italics, explicit announcement of the type "voice-over") ;: &hellip;&nbsp;&raquo;).
 
@@ -571,13 +571,13 @@ Text content associated with time-based media using the appropriate technique (t
 - The totality of what is expressed orally.
 - All descriptive information necessary for an equivalent understanding of the action.
 
-This textual information must be presented in the chronological order of its appearance in the temporal media.
+This textual information must be presented in the chronological order of its appearance in the time-based media.
 
 #### Time-based media (sound, video and synchronized type)
 
 - Temporal audio-only media: sound content (wave, MP3…).
 - Time-based media only video: images or photos in motion or in sequence.
-- Synchronized temporal media: audio or video stream synchronized with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
+- Synchronized time-based media: audio or video stream synchronized with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
 - downloadable file viewable with external software;
 - content embedded in the software and viewable from the interface.
 

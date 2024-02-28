@@ -30,7 +30,7 @@ Norm:
     title: Pause, Stop, Hide
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when the time limit is essential, particularly when it could not be removed without fundamentally changing the content or content-related functionalities.
 

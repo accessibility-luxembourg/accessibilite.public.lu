@@ -36,7 +36,7 @@ Norm:
     title: Label in Name
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management for tests 6.1.1, 6.1.2, 6.1.3 and 6.1.4 when the link is [ambiguous for everyone](#ambiguous-for-everyone). In this situation, where it is not possible to make the link explicit in its context, the criterion is not applicable.
 

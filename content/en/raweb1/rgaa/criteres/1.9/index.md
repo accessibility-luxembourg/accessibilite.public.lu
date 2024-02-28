@@ -1,3 +1,3 @@
 ---
-title: Is each [image caption](#image-caption) correctly linked to the corresponding image if necessary?
+title: Is each [image caption](#image-caption) correctly associated with the corresponding image if necessary?
 ---

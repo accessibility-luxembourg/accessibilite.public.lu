@@ -28,7 +28,7 @@ Techniques:
 Norm: all criteria of section 10 Non-web documents.
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management:
 

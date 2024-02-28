@@ -12,9 +12,9 @@ These are the following criteria and themes:
 - [Criterion 4.14: For each time-based media that has a synchronized caption track or audio description, are the control features of these alternatives presented at the same level as the main features?](criteres.html#crit-4-14)
 - [Criterion 4.15: For each feature that transmits, converts or records pre-recorded synchronized time-based media that has a caption track, at the end of the process, are the captions properly preserved?](criteres.html#crit-4-15)
 - [Criterion 4.16: For each feature that transmits, converts or records pre-recorded time-based media with synchronized audio description, at the end of the process, is the audio description correctly preserved?](criteres.html#crit-4 -16)
-- [Criterion 4.17: For each pre-recorded time-based media, is the presentation of subtitles controllable by the user (except in special cases)?](criteres.html#crit-4-17)
-- [Criterion 4.18: For each pre-recorded synchronized time-based media that has synchronized translation subtitles, can these be vocalized (except in special cases)?](criteres.html#crit-4-18)
-- [Criterion 13.13: For each conversion functionality of a document, is the accessibility information available in the source document preserved in the destination document (except in special cases)?](criteres.html#crit- 13-13)
+- [Criterion 4.17: For each pre-recorded time-based media, is the presentation of subtitles controllable by the user (except in particular cases)?](criteres.html#crit-4-17)
+- [Criterion 4.18: For each pre-recorded synchronized time-based media that has synchronized translation subtitles, can these be vocalized (except in particular cases)?](criteres.html#crit-4-18)
+- [Criterion 13.13: For each conversion functionality of a document, is the accessibility information available in the source document preserved in the destination document (except in particular cases)?](criteres.html#crit- 13-13)
 - [Criterion 13.14: Does each identification or control functionality that relies on the use of biological characteristics of the user have an alternative method?](criteres.html#crit-13-14)
 - [Theme 14: Documentation and accessibility features](criteres.html#topic-14)
 - [Theme 15: Editing tools](criteres.html#topic-15)
@@ -29,7 +29,7 @@ Glossary entries matching these new criteria have been added:
 - [Written communication in real time](glossaire.html#written-communication-in-real-time)
 - [Documentation](glossaire.html#documentation)
 - [Accessibility feature](glossaire.html#accessibility-feature)
-- [Main functionalities (of a temporal media)](glossaire.html#main functionalities-of-a-temporal-media)
+- [Main functionalities (of a time-based media)](glossaire.html#main functionalities-of-a-temporal-media)
 - [Voice features](glossaire.html#voice-features)
 - [Template](glossaire.html#template)
 - [Time stamp (<em lang="en">time stamp</em>)](glossaire.html#horodatage-time-stamp)
@@ -133,7 +133,7 @@ The impacted repository elements are as follows:
 
 - The methodology of criterion [4.7](criteres.html#crit-4-7): removal of the test <q>the passage of text is located outside the multimedia content player if the latter uses Flash technology </q>.
 - The glossary entry &ldquo;Controlled environment&rdquo; : references to Flash and Silverlight are deleted in the second list item <q>Supported technologies, their version and their activation (JavaScript, WAI-ARIA, Flash, Silverlight, etc.)</q>.
-- The glossary entry &ldquo;Non-temporal media&rdquo; : all references to Flash, Java and Silverlight as well as their properties are removed.
+- The glossary entry &ldquo;Non-time-based media&rdquo; : all references to Flash, Java and Silverlight as well as their properties are removed.
 - The glossary entry &ldquo;Time-based media (sound, video and synchronized type)&rdquo; : all references to Flash and its properties are removed. Note 1 is deleted: note 2 becomes note 1, and note 3 becomes note 2.
 
 #### Added new bindings to WCAG techniques and failures

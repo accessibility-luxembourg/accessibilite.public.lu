@@ -11,6 +11,6 @@ Norm:
     title: Non-text Content
 ---
 
-#### Special cases
+#### Particular cases
 
-There is special case management when the [temporal media](#temporal-media-type-son-video-et-synchronise) is used for decorative purposes (i.e. it does not provide any information). In this situation, the criterion is not applicable.
+There is special case management when the [time-based media](#temporal-media-type-son-video-et-synchronise) is used for decorative purposes (i.e. it does not provide any information). In this situation, the criterion is not applicable.

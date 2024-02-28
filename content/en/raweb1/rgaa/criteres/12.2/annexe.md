@@ -11,7 +11,7 @@ Norm:
     title: Consistent Navigation
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management when:
 

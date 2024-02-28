@@ -18,7 +18,7 @@ Norm:
     title: Contrast (Minimum)
 ---
 
-#### Special cases
+#### Particular cases
 
 In these situations, the criteria are not applicable for these elements:
 

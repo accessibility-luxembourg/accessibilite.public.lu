@@ -24,7 +24,7 @@ Norm:
     title: User preferences
 ---
 
-#### Special cases
+#### Particular cases
 
 The exception to this criterion is content for which the user has no possibility of personalization:
 

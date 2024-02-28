@@ -8,6 +8,6 @@ Norm:
 ---
 
 
-#### Special cases
+#### Particular cases
 
 The criterion is not applicable for embedded subtitles (<em lang="en">open captions</em>).

@@ -30,7 +30,7 @@ Norm:
     title: Labels or Instructions
 ---
 
-#### Special cases
+#### Particular cases
 
 There is special case management for test 11.2.5 when:
 

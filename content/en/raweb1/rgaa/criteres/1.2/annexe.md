@@ -22,7 +22,7 @@ Norm:
 
 #### Technical note
 
-When an image is associated with a [caption](#image-caption), the WCAG technical note recommends systematically providing a [textual alternative](#textual-image-alternative) (see criterion 1.9). In this case criterion 1.2 is not applicable.
+When an image is associated with a [caption](#image-caption), the WCAG technical note recommends systematically providing a [text alternative](#textual-image-alternative) (see criterion 1.9). In this case criterion 1.2 is not applicable.
 
 In the case of a decorative vector image (`<svg>` tag) which would be displayed through a `<use href="…">` child element of the `<svg>` element, the test 1.2.4 will also apply to the `<svg>` element associated through the `<use>` element.
 
