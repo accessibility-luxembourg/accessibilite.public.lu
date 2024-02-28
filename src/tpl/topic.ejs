@@ -34,13 +34,13 @@
             <% if (crit.criterium.technicalNote !== undefined) { %>
                 <h5>Notes techniques</h5>
                 <% crit.criterium.technicalNote.forEach(e => { %>
-                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0}) %>
+                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0, '__': __}) %>
                 <% }) %>
             <% } %>
             <% if (crit.criterium.particularCases !== undefined) { %>
                 <h5>Cas particuliers</h5>
                 <% crit.criterium.particularCases.forEach(e => { %>
-                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0}) %>
+                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0, '__': __}) %>
                 <% }) %>
             <% } %>            
             <h5>Correspondances WCAG 2.1</h5>

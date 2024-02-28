@@ -15,6 +15,7 @@ function isProd() {
 }
 
 function genURL(config, lang, name) {
+    // FIXME find a way to test also against all the URLs of the articles
     const path = '/'+lang+'/'+name+'.html'
     if (config[lang].names.includes(name)) {
         return path
@@ -23,8 +24,8 @@ function genURL(config, lang, name) {
     }
 }
 
-function renderToFile(config, data, title, lang, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
-    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, lang: lang, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width, genURL: genURL}, function(err, str){
+function renderToFile(config, data, title, lang, file, name, prefix, __, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
+    ejs.renderFile('./src/tpl/main.ejs', {data: data, title: title, lang: lang, file: file.replace(/\.\/src\/html/, ''), config: config, name: name, prod: isProd(), prefix: prefix, error: error, withSummary: withSummary, withoutTitle: withoutTitle, ogDesc: ogDesc, imgTwitter: imgTwitter, imgLinkedin: imgLinkedin, full_width: full_width, genURL: genURL, '__': __}, function(err, str){
         if (err !== null) {
             console.log(err)
         }
@@ -32,7 +33,7 @@ function renderToFile(config, data, title, lang, file, name, prefix, withSummary
     });
 }
 
-function renderWithSummary(config, data, title, lang, file, name, prefix, summary, summaryTitle, error = '') {
+function renderWithSummary(config, data, title, lang, file, name, prefix, summary, summaryTitle, __, error = '') {
     // console.log(title)
     if (summary !== undefined) {
         const $ = cheerio.load(data)
@@ -64,27 +65,27 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         })
         data = $('body').html()
 
-        ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary, summaryTitle: summaryTitle}, function(err, str) {
+        ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary, summaryTitle: summaryTitle, __}, function(err, str) {
             if (err !== null) {
                 console.log(err)
             }
-            renderToFile(config, str, title, lang, file, name, prefix, true, error)
+            renderToFile(config, str, title, lang, file, name, prefix, __, true, error)
         })
     } else {
-        renderToFile(config, data, title, lang, file, name, prefix, false, error)
+        renderToFile(config, data, title, lang, file, name, prefix, __, false, error)
     }
 }
 
-function renderHome(config, lang, page, latestNews, outputPath) {
+function renderHome(config, lang, page, latestNews, outputPath, __) {
     // FIXME : image prefix...
     latestNews = latestNews.map(x => {x.meta.img = x.meta.img.replace(/^\.\.\//, ''); return x})
 
-    ejs.renderFile('./src/tpl/latest_news.ejs', {latest_news: latestNews}, function(err, renderedNews) {
+    ejs.renderFile('./src/tpl/latest_news.ejs', {latest_news: latestNews, __}, function(err, renderedNews) {
         if (err !== null) {
             console.log(err)
         }
         const data = genericMarkdownIt(page).render(fs.readFileSync(page.md).toString().replace('<!-- latest news -->', renderedNews))
-        renderToFile(config, data, page.title, lang, outputPath+'/'+lang+'/'+page.name+'.html', page.name, page.prefix, false)        
+        renderToFile(config, data, page.title, lang, outputPath+'/'+lang+'/'+page.name+'.html', page.name, page.prefix, __, false)        
     })
 }
 
@@ -200,23 +201,25 @@ function genericMarkdownIt(page) {
 }
 
 
-function genFile(config, template, data, title, lang, file, name, prefix, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
+function genFile(config, template, data, title, lang, file, name, prefix, __, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
     data.prefix = prefix
+    data['__'] = __
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)
         }
-        renderToFile(config, str, title, lang, file, name, prefix, withSummary, error, withoutTitle, ogDesc, imgTwitter, imgLinkedin, full_width)
+        renderToFile(config, str, title, lang, file, name, prefix, __, withSummary, error, withoutTitle, ogDesc, imgTwitter, imgLinkedin, full_width)
     })
 }
 
-function genFileWithSummary(config, template, data, title, lang, file, name, prefix, summary, summaryTitle, error = '') {
+function genFileWithSummary(config, template, data, title, lang, file, name, prefix, summary, summaryTitle, __, error = '') {
     data.prefix = prefix
+    data['__'] = __
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)
         }
-        renderWithSummary(config, str, title, lang, file, name, prefix, summary, summaryTitle, error)
+        renderWithSummary(config, str, title, lang, file, name, prefix, summary, summaryTitle, __, error)
     })
 }
 

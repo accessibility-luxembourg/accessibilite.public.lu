@@ -20,13 +20,6 @@ const config = {
         {"name": "english", "code": "en"},
         {"name": "luxembourgish", "code": "lb"}
     ],
-    "header": {
-        "mainTitle": "Digital accessibility portal",
-        "frameworks": "frameworks"
-    },
-    "news": {
-        "lastNews": "Latest news"
-    },
     "mainMenu": [
         {
             "title": "Home",
@@ -334,10 +327,6 @@ const config = {
             ]
         }
     ],
-    "footerEditor": {
-        "start": 'This site is published by the <a href="https://sip.gouvernement.lu/en.html">Service Information et Presse</a>.We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our ',
-        "end": ' cookies policy'
-    },
     "footer": [
         {
             "title": "License",

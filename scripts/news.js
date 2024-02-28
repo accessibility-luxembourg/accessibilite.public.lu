@@ -28,7 +28,7 @@ function newsMarkdownIt(cbFM) {
 }
 
 
-function genNews(config, lang, outputPath, baseURL) {
+function genNews(config, lang, outputPath, baseURL, __) {
     const news = fs.readdirSync('./content/'+lang+'/news')
 
     let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
@@ -76,7 +76,7 @@ function genNews(config, lang, outputPath, baseURL) {
         }
     
         // add the date to the html code
-        $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:'fr', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
+        $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     
         // copy the script elements to the body
         $('head script').each((e, a) => {
@@ -111,14 +111,14 @@ function genNews(config, lang, outputPath, baseURL) {
     
     let newsTitle = config[lang].mainMenu.find(el => el.name == "news");
 
-    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, newsTitle.title, lang, outputPath+'/'+lang+'/news/index.html', 'news/index', '../../../', true)
+    lib.genFile(config, './src/tpl/articles_list.ejs', {data: articles}, newsTitle.title, lang, outputPath+'/'+lang+'/news/index.html', 'news/index', '../../../', __, true)
     
     const globalHash = crypto.createHmac('md5', hmacPwd).update(JSON.stringify(articles)).digest('hex')
     
     lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, lang: lang, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/'+lang+'/news/feed.xml')
     
     articles.forEach((e, i, ar) => {
-        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
+        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../../../", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', __, false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
     })
     return articles
 }

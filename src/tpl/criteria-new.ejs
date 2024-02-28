@@ -3,5 +3,5 @@
 <% } %>
 <p><strong>Avertissement&nbsp;:</strong> Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et les tests associés ont une valeur normative.</p>
 <% topics.forEach(topic => { %>
-    <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
+    <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion, '__': __}) %>
 <% }) %>
