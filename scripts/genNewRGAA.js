@@ -9,6 +9,8 @@ const MarkdownIt = require('markdown-it')
 const yaml = require('yaml')
 const cheerio = require('cheerio')
 
+const sortObject = o => Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {})
+
 function parse(file, rgaaPath) {
     let meta = {}
 	const data = fs.readFileSync(file, "utf-8")
@@ -192,7 +194,6 @@ function generateCriteria(path, rgaaPath = '') {
 }
 
 function generateGlossary(path) {
-    let index = ''
     let meta = {}
     function cbfm(fm) {
         meta = {... meta, ...fm}
@@ -205,6 +206,7 @@ function generateGlossary(path) {
   
       // Loop over files
       const files = fs.readdirSync(GLOSSARY_SOURCE);
+
       for (const file of files) {
         if (file.endsWith(".md")) {
           // console.log(`${GLOSSARY_SOURCE}/${file}`)
@@ -214,7 +216,7 @@ function generateGlossary(path) {
           const title = meta.title
           // cleaning title from HTML
           const $ = cheerio.load(title)
-          const id = $.text()
+          const id = $.text().trim().normalize("NFD").replace(/[\u0300-\u036f“”"]/g, "")
 
           // Handle shortcodes
           const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
@@ -225,18 +227,23 @@ function generateGlossary(path) {
             .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">critère $<topic>.$<crit></a>`)
             .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
 
+        
+          index = id[0]
 
-
-          const firstLetter = id.trim()[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-          if (firstLetter !== index) { 
-              index = firstLetter
-              jsonData[index] = []
-          }
-  
           // Push to JSON data
+          //console.log(index, id, title)
+          if (jsonData[index] == undefined) {
+            jsonData[index] = []
+          }
           jsonData[index].push({ id: id, title: title, body: cleanedContent })
         }
       }
+
+  jsonData = sortObject(jsonData)
+  Object.keys(jsonData).forEach(e => {
+    jsonData[e] = jsonData[e].sort((a,b) => { return a.id.localeCompare(b.id)})
+  })
+
   return jsonData
 }
 
