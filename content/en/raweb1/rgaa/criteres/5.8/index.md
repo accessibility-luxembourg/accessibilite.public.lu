@@ -1,3 +1,3 @@
 ---
-title: Each [formatting table](#formatting-table) must not use elements specific to [data tables](#data-table). Has this rule been followed?
+title: Each [layout table](#layout-table) must not use elements intended for [data tables](#data-table). Has this rule been followed?
 ---

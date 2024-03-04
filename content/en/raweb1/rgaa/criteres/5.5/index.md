@@ -1,3 +1,3 @@
 ---
-title: For each [data table with a title](#data-table-with-a-title), is it relevant?
+title: For each [data table](#data-table) with a [title](#title), is this title relevant?
 ---

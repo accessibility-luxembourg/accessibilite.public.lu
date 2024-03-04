@@ -1,3 +1,3 @@
 ---
-title: For each [script](#script) that initiates a [context switch](#context-switch), is the user notified or has control?
+title: For each [script](#script) that initiates a [change of context](#change-of-context), is the user warned, or can she control it?
 ---

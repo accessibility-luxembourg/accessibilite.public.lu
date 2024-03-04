@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the [default language](#default-language) present?
+title: In each web page, is the [default human language](#default-language) identifiable?
 ---

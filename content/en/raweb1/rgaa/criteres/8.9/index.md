@@ -1,3 +1,3 @@
 ---
-title: In each web page, tags should not be used [for presentation purposes only]. Has this rule been followed?
+title: On each web page, tags must not be used [only for layout]. Has this rule been followed?
 ---
