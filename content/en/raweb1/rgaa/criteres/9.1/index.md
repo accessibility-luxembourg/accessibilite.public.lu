@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the information structured by the appropriate use of [titles](#title)?
+title: On each Web page, is information structured by the appropriate use of [headings](#headings)?
 ---

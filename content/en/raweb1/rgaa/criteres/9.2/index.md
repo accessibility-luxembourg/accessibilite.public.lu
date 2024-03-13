@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the [document structure](#document-structure) consistent (except in particular cases)?
+title: On each Web page, is the [document outline](#document-outline) coherent (except in particular cases)?
 ---
