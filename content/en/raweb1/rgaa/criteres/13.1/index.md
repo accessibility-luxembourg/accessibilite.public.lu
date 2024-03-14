@@ -1,3 +1,3 @@
 ---
-title: For each web page, does the user have control over each time limit modifying the content (excluding particular cases)?
+title: For each Web page, can the user control each time limit that modifies content (except in particular cases)?
 ---

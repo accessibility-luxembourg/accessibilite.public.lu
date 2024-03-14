@@ -1,3 +1,3 @@
 ---
-title: In each web page, a [skip or quick-access link](#skip-or-quick-access-links) to the [main content area](#content-area-main) is it present (except in particular cases)?
+title: On each Web page, is a [skip or bypass link](#skip-or-bypass-links) to the [main content area](#content-area-main) present (except in particular cases)?
 ---

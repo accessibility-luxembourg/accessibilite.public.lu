@@ -1,3 +1,3 @@
 ---
-title: In each web page, is each moving or flashing content [controllable](#control-moving-or-flashing-content) by the user?
+title: On each Web page, can each moving or blinking content be [controlled by the user](#control-moving-or-blinking-content)?
 ---
