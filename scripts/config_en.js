@@ -266,7 +266,7 @@ const config = {
             ]
         },
         {
-            "title": "PDF Framework",
+            "title": "PDF framework",
             "menu": "PDF <span class='mobile-only'>framework</span>",
             "name": "rapdf1",
             "children": [ 
