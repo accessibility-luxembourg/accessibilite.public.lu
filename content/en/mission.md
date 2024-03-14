@@ -1,4 +1,4 @@
-The information and press service (SIP) is responsible at national level for monitoring the accessibility of public sites and mobile applications. The control procedure is defined in accordance with the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) as well as to [EU Implementing Decision 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524).
+The Information and Press Service (SIP) is responsible at national level for monitoring the accessibility of public sites and mobile applications. The control procedure is defined in accordance with the [law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) as well as to [EU Implementing Decision 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524).
 
 Inspections are carried out within the framework of inspection periods. The first control period began on September 23, 2020 and ends at the end of 2021. There is then one control period per calendar year.
 

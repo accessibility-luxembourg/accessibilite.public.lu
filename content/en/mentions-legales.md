@@ -6,7 +6,7 @@ Any person using the information, documents, products, software and various serv
 
 Access to the site is via the Internet. The user declares that he knows the risks and accepts them. He must protect himself against the effects of computer piracy by adopting an appropriate and secure computer configuration.
 
-The information and press service cannot be held responsible for any damage that the user suffers directly or indirectly in relation to their navigation on this site and the use of its services as well as the websites to which it refers.
+The Information and Press Service cannot be held responsible for any damage that the user suffers directly or indirectly in relation to their navigation on this site and the use of its services as well as the websites to which it refers.
 
 Use of the site is free.
 
@@ -24,19 +24,19 @@ The use of certain features of the site may be limited or disabled if the user r
 
 The information and press department reserves the freedom to develop, modify or suspend, without notice, this site for reasons of maintenance, updating or for any other reason deemed necessary.
 
-The information and press department may in particular at any time remove, add, complete or specify all or part of the information and services contained or offered on the site. No liability for any direct or indirect damage in relation to such modifications can be held against the information and press service.
+The information and press department may in particular at any time remove, add, complete or specify all or part of the information and services contained or offered on the site. No liability for any direct or indirect damage in relation to such modifications can be held against the Information and Press Service.
 
 #### General Limitations of Liability
 
-The information and press service will ensure maximum availability of this site as best as possible. However, it cannot be held responsible in the event of temporary or total unavailability of the site.
+The Information and Press Service will ensure maximum availability of this site as best as possible. However, it cannot be held responsible in the event of temporary or total unavailability of the site.
 
-The information and press service will ensure the security of the computer system as best as possible.
+The Information and Press Service will ensure the security of the computer system as best as possible.
 
-The information and press service will ensure maximum availability of this site as best as possible.
+The Information and Press Service will ensure maximum availability of this site as best as possible.
 
-The information and press service will ensure the security of the computer system as best as possible. However, it cannot be held responsible in the event of an attack on the computer system or temporary or total unavailability of the site.
+The Information and Press Service will ensure the security of the computer system as best as possible. However, it cannot be held responsible in the event of an attack on the computer system or temporary or total unavailability of the site.
 
-The information and press service will ensure as best as possible the accuracy of the information contained on the site and published on social networks. However, it cannot be held liable in particular in the event of failure to update information or a form, in the event of system handling or coding errors, inaccuracies, gaps in the information provided or possible errors, inaccuracies. Indeed, the objective is to disseminate accurate and up-to-date information from various sources, but the information and press service cannot, however, avoid any risk of material error. None of the information published on this site is intended to be exhaustive or constitutes a commitment on the part of the information and press service. Popularizations and translations are provided for information purposes. Only the legal texts published in the Memorial (Official Journal of the Grand Duchy of Luxembourg) are authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and therefore cannot be considered as personal, professional or legal advice to the user. If the user needs personal or specific advice, they should always consult the competent services within the various administrations.
+The Information and Press Service will ensure as best as possible the accuracy of the information contained on the site and published on social networks. However, it cannot be held liable in particular in the event of failure to update information or a form, in the event of system handling or coding errors, inaccuracies, gaps in the information provided or possible errors, inaccuracies. Indeed, the objective is to disseminate accurate and up-to-date information from various sources, but the Information and Press Service cannot, however, avoid any risk of material error. None of the information published on this site is intended to be exhaustive or constitutes a commitment on the part of the Information and Press Service. Popularizations and translations are provided for information purposes. Only the legal texts published in the Memorial (Official Journal of the Grand Duchy of Luxembourg) are authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and therefore cannot be considered as personal, professional or legal advice to the user. If the user needs personal or specific advice, they should always consult the competent services within the various administrations.
 
 #### Site liability limitation
 
@@ -49,7 +49,7 @@ The liability of this site is expressly excluded for all direct and indirect con
 
 #### Links to related sites
 
-For the convenience of users, this site may contain links to other sites which may be useful or of interest to them. The information and press service does not systematically control the content of these sites. We cannot therefore be held responsible for the content presented on these websites, whether in terms of their legality or the accuracy of the information found there.
+For the convenience of users, this site may contain links to other sites which may be useful or of interest to them. The Information and Press Service does not systematically control the content of these sites. We cannot therefore be held responsible for the content presented on these websites, whether in terms of their legality or the accuracy of the information found there.
 
 #### Intellectual property
 
@@ -71,11 +71,11 @@ Any dispute relating to the use of this site and its Services will be subject to
 
 The personal data communicated by the user are processed in accordance with [Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016](https://cnpd.public.lu/fr/legislation/ droit-europ/union-europeenne/rgpd.html) relating to the protection of individuals with regard to the processing of personal data and the free movement of data.
 
-As the information and press service does not collect personal data apart from IP addresses in web server logs for security reasons, user consent is not necessary before visiting this site.
+As the Information and Press Service does not collect personal data apart from IP addresses in web server logs for security reasons, user consent is not necessary before visiting this site.
 
-The person responsible for this processing is the information and press service.
+The person responsible for this processing is the Information and Press Service.
 
-The user can send complaints relating to data protection concerning them via the respective communication channels made available as well as to the person responsible, in this case the information and press service. The user can also submit their complaint to the data protection officer of the Information and Press Department via the following e-mail address: [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat .read).
+The user can send complaints relating to data protection concerning them via the respective communication channels made available as well as to the person responsible, in this case the Information and Press Service. The user can also submit their complaint to the data protection officer of the Information and Press Department via the following e-mail address: [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat .read).
 
 The user can, in addition, contact the [National Commission for Data Protection](https://cnpd.public.lu/) with its headquarters at 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette for any dispute in this area.
 
@@ -91,7 +91,7 @@ This data is kept and hosted in Europe in a solution provided by a subcontractor
 
 The duration of data retention does not exceed that necessary to observe the evolution of audiences according to the evolution of browsers, resolutions used, or other statistical data available.
 
-The person responsible for this processing is the information and press service.
+The person responsible for this processing is the Information and Press Service.
 
 
 ### Presence on social networks
