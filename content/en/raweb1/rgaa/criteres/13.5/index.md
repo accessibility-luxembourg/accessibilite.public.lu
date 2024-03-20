@@ -1,3 +1,3 @@
 ---
-title: In every web page, does every cryptic content (ASCII art, emoticon, cryptic syntax) have an alternative?
+title: On each Web page, does each cryptic content (ASCII art, emoticon, leetspeak) have an alternative?
 ---

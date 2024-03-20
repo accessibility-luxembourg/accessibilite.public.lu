@@ -29,6 +29,6 @@ HTML pages are organized as follows:
 The contents of the RAWeb are placed under the Creative Commons license [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/), they contain an adapted copy of the [RGAA 4.1.2](https ://accessibilite.numerique.gouv.fr/) published by [DINUM](https://www.numerique.gouv.fr/dinum/). The contents are obtained from the following git repository:
 [DISIC/RGAA](https://github.com/DISIC/RGAA).
 
-The adaptations of this content to the Luxembourg legal context were carried out by the [Information and Press Service](https://sip.politique.lu) and are listed in the [revision notes](./notes-de-revision. md).
+The adaptations of this content to the Luxembourg legal context were carried out by the [Information and Press Service](https://sip.gouvernement.lu) and are listed in the [revision notes](./notes-de-revision. md).
 
 The RGAA technical method is adapted from the RGAA 3 technical repository updated 2017 (list of criteria, glossary, particular cases, technical notes, “reference base” testing environment) which is itself an adapted copy of the AccessiWeb HTML5 repository /ARIA - Working version of 12/19/2013 - Published by the BrailleNet association. Copyright 2013 BrailleNet Association. All rights reserved.

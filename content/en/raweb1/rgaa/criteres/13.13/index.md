@@ -1,3 +1,3 @@
 ---
-title: For each conversion functionality of a document, are the [accessibility-related information](#accessibility-information) available in the source document preserved in the destination document (except in particular cases)?
+title: For each document conversion feature, is the [accessibility-information](#accessibility-information) available in the source document preserved in the destination document (except in particular cases)?
 ---

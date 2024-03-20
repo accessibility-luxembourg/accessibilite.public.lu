@@ -1,3 +1,3 @@
 ---
-title: In each web page, are [sudden changes in brightness or flash effects](#sudden-change-of-brightness-or-flash-effect) used correctly?
+title: On each Web page, are [sudden changes in luminosity or flashing effects](#sudden-change-of-luminosity-or-flashing-effect) used appropriately?
 ---

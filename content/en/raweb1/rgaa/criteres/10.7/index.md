@@ -1,3 +1,3 @@
 ---
-title: In each web page, for each element receiving focus, is the [focus socket](#focus-socket) visible?
+title: On each Web page, is the [focus](#focus) visible for each element that receives focus?
 ---

@@ -4,13 +4,13 @@
 <nav role="navigation" class="articles_nav <%= (previous === undefined)?'next-only':'' %>">
     <% if (previous !== undefined) { %>
     <a href="<%= previous.meta.filename %>.html">
-        <p>article précédent</p>
+        <p><%= __("previous article") %></p>
         <p <%= (previous.meta.lang !== undefined)?'lang='+previous.meta.lang:'' %>><%- previous.meta.title_html %></p>
     </a>
     <% } %>
     <% if (next !== undefined) { %>
     <a href="<%= next.meta.filename %>.html">
-        <p>article suivant</p>
+        <p><%= __("next article") %></p>
         <p <%= (next.meta.lang !== undefined)?'lang='+next.meta.lang:'' %>><%- next.meta.title_html %></p>
     </a>
     <% } %>

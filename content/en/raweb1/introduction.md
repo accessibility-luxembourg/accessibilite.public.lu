@@ -1,7 +1,7 @@
 *Version 1, released February 8, 2024*
 
 According to the [Luxembourg law of May 28, 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector organizations must be accessible.
-The [Information and Press Service (SIP)](https://sip.politique.lu/) is responsible for evaluating their accessibility.
+The [Information and Press Service (SIP)](https://sip.gouvernement.lu/) is responsible for evaluating their accessibility.
 
 In this context, the Web accessibility assessment framework (RAWeb) has been defined as an accessibility framework for all public sector organizations concerned by the law.
 
@@ -17,7 +17,7 @@ Certain tests, particularly concerning interface components developed in JavaScr
 
 The RAWeb technical method only covers websites, native mobile applications are covered by [RAAM 1](../raam1/index.html).
 
-This version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service (SIP)](https://sip.politique.lu/) to refer to the Luxembourg legal framework. The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb).
+This version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service (SIP)](https://sip.gouvernement.lu/) to refer to the Luxembourg legal framework. The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb).
 If a defect is found in this framework, you can create a ticket in this repository.
 
 ### Summary

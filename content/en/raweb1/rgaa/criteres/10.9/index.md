@@ -1,3 +1,3 @@
 ---
-title: In each web page, information must not be given only [by shape, size or position](#indication-given-by-shape-size-or-position). Has this rule been followed?
+title: On each Web page, information must not be [conveyed by shape, size or location](#indication-given-by-shape-size-or-plocation) alone. Has this rule been followed?
 ---

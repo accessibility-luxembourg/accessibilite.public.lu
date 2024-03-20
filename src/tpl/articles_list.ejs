@@ -10,7 +10,7 @@
                     <p class="intro"><%- e.meta.intro_html %></p>
                 </div>
                 <div>
-                    <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:'fr', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+                    <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:__('Lang'), { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
                 </div>
             </a>
         </li>

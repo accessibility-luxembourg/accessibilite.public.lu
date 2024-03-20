@@ -1,3 +1,3 @@
 ---
-title: In every web page, for every cryptic content (ASCII art, emoticon, cryptic syntax) that has an alternative, is that alternative relevant?
+title: On each Web page, for each cryptic content (ASCII art, emoticon, leetspeak) with an alternative, is this alternative relevant?
 ---

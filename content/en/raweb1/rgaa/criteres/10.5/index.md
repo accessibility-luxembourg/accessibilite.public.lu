@@ -1,3 +1,3 @@
 ---
-title: In each web page, are the CSS declarations of element background colors and fonts used correctly?
+title: On each Web page, are CSS declarations of element background color and font color used correctly?
 ---
