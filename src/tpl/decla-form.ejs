@@ -1,6 +1,6 @@
 <script>
     window.tpl = []
-    <% lang.forEach(function(e) { %>
+    <% langs.forEach(function(e) { %>
         window.tpl['<%= e.code %>'] = `<%- tpl[e.code] %>`
     <% }) %>
 </script>
@@ -20,7 +20,7 @@
     <fieldset class="form-group">
         <legend><%= __("Statement languages") %></legend>
         <div class="form-group">
-        <% lang.forEach(l => { %>
+        <% langs.forEach(l => { %>
             <input type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
             <label for="lang_<%= l.code %>" class="form-check-inline">
                 <%= l.name %>
@@ -30,7 +30,7 @@
     </fieldset>
     <fieldset class="form-group">
         <legend><%= __("Organisation name") %> (ex&thinsp;: "Service information et presse")</legend>
-        <% lang.forEach(l => { %>  
+        <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") + l.name %> <span class="symbol-required">* </span></label>
                 <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
@@ -77,7 +77,7 @@
     </fieldset>
     <fieldset class="form-group" id="features-access">
         <legend><%= __("Accessibility features") %></legend>         
-        <% lang.forEach(l => { %>              
+        <% langs.forEach(l => { %>              
             <div class="form-group" data-lang="<%= l.code %>">
                 <label for="access_features_<%= l.code %>"><%= __("Accessibility features") + __("in") + l.name %></label>
                 <textarea id="access_features_<%= l.code %>" name="access_features_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-access_features"></textarea>
@@ -94,7 +94,7 @@
         <h4><%= __("Non-accessible content") %></h4>
         <fieldset class="form-group" id="non-conformes">
             <legend><%= __("Non-compliant contents") %> (<%= __("one per line") %>)</legend>         
-            <% lang.forEach(l => { %>              
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
                     <label for="nc_<%= l.code %>"><%= __("Non-compliant contents") + __("in") + l.name %></label>
                     <textarea id="nc_<%= l.code %>" name="nc_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-nc"></textarea>
@@ -108,7 +108,7 @@
         </fieldset>
         <fieldset class="form-group">
             <legend><%= __("Disproportionate burden") %> (<%= __("one per line") %>)</legend>         
-            <% lang.forEach(l => { %>              
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
                     <label for="cd_<%= l.code %>"><%= __("Disproportionate burden") + __("in") + l.name %></label>
                     <textarea id="cd_<%= l.code %>" name="cd_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-cd"></textarea>
@@ -122,7 +122,7 @@
         </fieldset>
         <fieldset class="form-group">
             <legend><%= __("Exempt content") %> (<%= __("one per line") %>)</legend>         
-            <% lang.forEach(l => { %>              
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
                     <label for="ce_<%= l.code %>"><%= __("Exempt content") + __("in") + l.name %></label>
                     <textarea id="ce_<%= l.code %>" name="ce_<%= l.code %>"  rows="5" class="form-control" aria-describedby="help-ce"></textarea>
@@ -223,7 +223,7 @@
     </div>
     <button id="back"><%= __("Edit your input") %></button>
 
-    <% lang.forEach(function(e) { %>
+    <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
             <h3><%= __("Statement") + __("in") + e.name %></h3>
             <button class="clipboard"><%= __("Copy to clipboard") %></button>

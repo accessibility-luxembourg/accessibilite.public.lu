@@ -17,7 +17,7 @@ It includes 107 control criteria.
 
 If the framework has not been updated within 3 years to take into account new standards or technical specifications, it is possible to create your own tests in addition to existing ones.
 
-This framework is published by the [Information and Press Service](https://sip.gouvernement.lu/) and distributed under license [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/read/) ([more information on the license](../license.md)). The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibiliteMobile](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile).
+This framework is published by the [Information and Press Service](https://sip.gouvernement.lu/) and distributed under license [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/read/) ([more information on the license](../licence.md)). The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibiliteMobile](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile).
 If a defect is found in this repository, you can create a ticket in this repository.
 
 

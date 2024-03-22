@@ -3,7 +3,11 @@ const MarkdownIt = require('markdown-it')
 const fs = require('fs')
 const cheerio = require('cheerio')
 const en301549 = require('en301549-links')
-const wcagTrad = require('../locales/WCAG-SC-Translations.json')
+const wcagTrad = {
+    "fr": require('../locales/WCAG-SC-Translations-fr.json'),
+    "en": require('../locales/WCAG-SC-Translations-en.json'),
+    "de": require('../locales/WCAG-SC-Translations-de.json')
+}
 const dotenv = require('dotenv')
 
 
@@ -14,11 +18,13 @@ function isProd() {
     return (process.env.NODE_ENV === 'production')
 }
 
-function genURL(config, lang, name) {
-    // FIXME find a way to test also against all the URLs of the articles
+function genURL(config, lang, name, file) {
     const path = '/'+lang+'/'+name+'.html'
+
     if (config[lang].names.includes(name)) {
         return path
+    } else if (file.match(/^\/(de|en|fr)\/news\//)) {
+        return file.replace(/^\/(de|en|fr)/, '/' + lang)
     } else {
         return '/'+lang+'/404.html'
     }
@@ -129,9 +135,9 @@ function tech2URL(str) {
 }
 
 
-function langOnWCAG(str) {
+function langOnWCAG(str, lang) {
     const scCode = str.replace(/\s.+$/, '')
-    const scTrad = wcagTrad[scCode]
+    const scTrad = wcagTrad[lang][scCode]
     return `${scCode} ${scTrad}`
 }
 
@@ -204,6 +210,7 @@ function genericMarkdownIt(page) {
 function genFile(config, template, data, title, lang, file, name, prefix, __, withSummary = false, error = '', withoutTitle = false, ogDesc = false, imgTwitter = false, imgLinkedin = false, full_width = false) {
     data.prefix = prefix
     data['__'] = __
+    data['lang'] = lang
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)
@@ -215,6 +222,7 @@ function genFile(config, template, data, title, lang, file, name, prefix, __, wi
 function genFileWithSummary(config, template, data, title, lang, file, name, prefix, summary, summaryTitle, __, error = '') {
     data.prefix = prefix
     data['__'] = __
+    data['lang'] = lang
     ejs.renderFile(template, data, function(err, str) {
         if (err !== null) {
             console.log(err)

@@ -331,7 +331,7 @@ const config = {
         {
             "title": "License",
             "menu": "License",
-            "name": "license",
+            "name": "licence",
             "md": "./content/en/licence.md",
             "html": true,
             "prefix": "../.."

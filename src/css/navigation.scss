@@ -60,7 +60,7 @@ header {
         width: 1px;
       }
   
-      div#frameworks-fr, div#frameworks-en {
+      div#frameworks-fr, div#frameworks-en, div#frameworks-de {
         position: absolute;
         top: -1000px;
       }
@@ -479,7 +479,7 @@ header ul.menu-lang .sr-only {
         animation: drawline 0.5s 0s forwards;
       }
 
-      div#frameworks-en {
+      div#frameworks-en, div#frameworks-de {
         color: $menu-dark-blue;
         top: 110px;
         left: 355px;
@@ -530,7 +530,7 @@ header ul.menu-lang .sr-only {
         color: white;
         animation: none;
       }
-      header nav div#frameworks-en {
+      header nav div#frameworks-en, header nav div#frameworks-de {
         width: 205px;
         color: white;
         animation: none;
@@ -604,7 +604,7 @@ header ul.menu-lang .sr-only {
       left: 522px;
     }
 
-    header nav div#frameworks-en {
+    header nav div#frameworks-en, header nav div#frameworks-de {
       left: 487px;
     }
 

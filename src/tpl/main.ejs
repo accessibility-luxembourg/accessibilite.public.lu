@@ -72,7 +72,7 @@
         <%- process.env.GOVBAR %>
       <% } %>
        <!-- <%- name %> -->     
-    <%- include('header', {'nav': config[lang].mainMenu, 'name': name, 'prod': prod, 'prefix': prefix, 'lang': lang, 'genURL': genURL, '__': __}) %>
+    <%- include('header', {'nav': config[lang].mainMenu, 'name': name, 'prod': prod, 'prefix': prefix, 'lang': lang, 'file': file, 'genURL': genURL, '__': __}) %>
     <main role="main" id="main" class="main">
       <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %> <%= (full_width)?'full_width':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
         <% if (!withoutTitle) { %>
