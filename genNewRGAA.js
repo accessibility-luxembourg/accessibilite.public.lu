@@ -84,7 +84,7 @@ function mdCriteres(cbFM, rgaaPath) {
 function mdGlossary(cbFM) {
     return MarkdownIt({
     'html': true,
-    'linkify': true,
+    'linkify': false,
     replaceLink: function (link, env) {
             if (link.match(/^#test-|^#crit-/)) {
                 return 'criteres.html'+link
