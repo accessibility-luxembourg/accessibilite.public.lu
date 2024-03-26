@@ -5,7 +5,7 @@ tags:
 author: Dominique Nauroy
 ---
 
-<script src="../../../../content/en/news/2024-01-26-charge-dispro.js"></script>
+<script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
 <h2>From year to year, a less disproportionate burden?</h2>
 <h3>In three years, how have accessibility statements evolved on the issue of disproportionate burden?</h3>
 <hr>

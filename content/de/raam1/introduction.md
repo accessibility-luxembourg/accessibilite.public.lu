@@ -15,7 +15,7 @@ The framework provides an operational framework for checking compliance with acc
 
 It includes 107 control criteria. 
 
-If the framework is not updated within 3 years to take into account new standards or technical specifications, it is possible to create your own tests in addition to the existing ones. 
+If the framework is not updated within 3 years to take into account new standards or technical specifications, it is possible to create your own tests in addition to the existing ones.
 
 This framework is published by the [Information and Press Service](https://sip.gouvernement.lu/) and distributed under a [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/) licence ([more information about the licence](../licence.md)). The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibiliteMobile](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile).
 If you find a fault with this framework, you can create a ticket in this repository. 

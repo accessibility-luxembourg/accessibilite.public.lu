@@ -12,6 +12,83 @@ Highcharts.setOptions({                                                         
     lang: Graph.Highcharts_translations
 });
 
+const graph_translations = {
+    "fr": {
+        "categories": "Catégories",
+        "admin_level": "Domaine administratif",
+        "theme": "Thématique",
+        "compliance": "Conformité<br>partielle",
+        "compliance_desc": "La conformité partielle est atteinte à partir de 50%.",
+        "full_compliance": {
+            "title": "Graphique 1. Niveau de conformité des sites audités en 2022, en pourcentage"
+        },
+        "full_themes": {
+            "title": "Graphique 2. Répartition des non-conformités, en pourcentage"
+        },
+        "simple_themes": {
+            "title": "Graphique 3. Répartition des non-conformités, en pourcentage"
+        },
+        "simple_compliance": {
+            "title": "Graphique 4. Niveau de conformité, par domaine administratif, en pourcentage"
+        },
+        "full_app_compliance": {
+            "title": "Graphique 5. Niveau de conformité des apps auditées en 2022, en pourcentage"
+        },
+        "full_app_themes": {
+            "title": "Graphique 6. Répartition des non-conformités sur les apps, en pourcentage"
+        }
+    },
+    "en": {
+        "categories": "Categories",
+        "admin_level": "Administrative area",
+        "theme": "Theme",
+        "compliance": "Partial<br>compliance",
+        "compliance_desc": "Partial compliance is reached at 50%.",
+        "full_compliance": {
+            "title": "Graph 1. Level of compliance of audited sites in 2022, as a percentage"
+        },
+        "full_themes": {
+            "title": "Graph 2. Breakdown of non-compliances, as a percentage"
+        },
+        "simple_themes": {
+            "title": "Graph 3. Breakdown of non-compliances, as a percentage"
+        },
+        "simple_compliance": {
+            "title": "Graph 4. Level of compliance, by administrative area, as a percentage"
+        },
+        "full_app_compliance": {
+            "title": "Graph 5. Level of compliance of apps audited in 2022, as a percentage"
+        },
+        "full_app_themes": {
+            "title": "Graph 6. Breakdown of non-compliances on apps, as a percentage"
+        }
+    },
+    "de": {
+        "categories": "Categories",
+        "admin_level": "Administrative area",
+        "theme": "Theme",
+        "compliance": "Partial<br>compliance",
+        "compliance_desc": "Partial compliance is reached at 50%.",
+        "full_compliance": {
+            "title": "Graph 1. Level of compliance of audited sites in 2022, as a percentage"
+        },
+        "full_themes": {
+            "title": "Graph 2. Breakdown of non-compliances, as a percentage"
+        },
+        "simple_themes": {
+            "title": "Graph 3. Breakdown of non-compliances, as a percentage"
+        },
+        "simple_compliance": {
+            "title": "Graph 4. Level of compliance, by administrative area, as a percentage"
+        },
+        "full_app_compliance": {
+            "title": "Graph 5. Level of compliance of apps audited in 2022, as a percentage"
+        },
+        "full_app_themes": {
+            "title": "Graph 6. Breakdown of non-compliances on apps, as a percentage"
+        }
+    }
+}
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
@@ -23,9 +100,9 @@ function loadchart (chartid) {                                                  
                     let c_annotations = [{
                         labels: [{
                             point: { x: 450, y: 50,  yAxis: 0 },
-                            text: 'Conformité<br>partielle',
+                            text: graph_translations[Graph.chart_lang].compliance,
                             accessibility: {
-                                description: "La conformité partielle est atteinte à partir de 50%."
+                                description: graph_translations[Graph.chart_lang].compliance_desc
                             }
                         }],
                         labelOptions: {
@@ -50,7 +127,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 1. Niveau de conformité des sites audités en 2022, en pourcentage", // char title
+                        graph_translations[Graph.chart_lang]["full_compliance"].title,                 // chart title
                         "full_compliance",                                                             // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type
@@ -81,7 +158,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 2. Répartition des non-conformités, en pourcentage", 
+                        graph_translations[Graph.chart_lang]["full_themes"].title, 
                         "full_themes", 
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],
                         'bar', 
@@ -102,7 +179,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Catégories", x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].categories, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -112,7 +189,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 3. Répartition des non-conformités, en pourcentage", 
+                        graph_translations[Graph.chart_lang]["simple_themes"].title, 
                         "simple_themes", 
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],
                         'bar', 
@@ -133,7 +210,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Admin_level'),
-                        title: {text: "Domaine administratif", y: 100}
+                        title: {text: graph_translations[Graph.chart_lang].admin_level, y: 100}
                     };
                     let c_y = {
                         title: {
@@ -143,7 +220,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 4. Niveau de conformité, par domaine administratif, en pourcentage", 
+                        graph_translations[Graph.chart_lang]["simple_compliance"].title, 
                         "simple_compliance", 
                         [{data: Graph.get_num(results.data, 'Compliance'), name: "Score"}],
                         'column', 
@@ -180,7 +257,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 5. Niveau de conformité des apps auditées en 2022, en pourcentage", 
+                        graph_translations[Graph.chart_lang]["full_app_compliance"].title, 
                         "full_app_compliance", 
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],
                         'bar', 
@@ -201,7 +278,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Thématique", x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].theme, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -211,7 +288,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 6. Répartition des non-conformités sur les apps, en pourcentage", 
+                        graph_translations[Graph.chart_lang]["full_app_themes"].title, 
                         "full_app_themes", 
                         [{data: Graph.get_num(results.data, '2021'), name: "2021", color: {patternIndex: 0}}, {data: Graph.get_num(results.data, '2022'), name: "2022"}],
                         'bar', 

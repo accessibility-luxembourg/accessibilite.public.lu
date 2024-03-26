@@ -1,39 +1,45 @@
-const Highcharts_translations =  {
-    downloadCSV: "Télécharger au format CSV",
-    downloadJPEG: "Télécharger au format JPEG",
-    downloadPDF: "Télécharger au format PDF",
-    downloadPNG: "Télécharger au format PNG",
-    downloadSVG: "Télécharger au format SVG",
-    downloadXLS: "Télécharger au format XLS",
-    exitFullscreen: "Quitter le mode plein écran",
-    printChart: "Imprimer le diagramme",
-    viewData: "Voir les données en tableau",
-    viewFullscreen: "Voir en mode plein écran",
-    hideData: "Masquer le tableau",
-    contextButtonTitle: "Menu contextuel du diagramme",
-    accessibility: {
-        axis: {
-            rangeCategories: "Plage de données : {numCategories} catégories.",
-            rangeFromTo: "La plage de données s'étend de {rangeFrom} à {rangeTo}.",
-            xAxisDescriptionSingular: "L'axe des ordonnées présente les {names[0]}. {ranges[0]}",
-            yAxisDescriptionSingular: "L'axe des abscisses présente les Scores"
-        },
-        chartTypes: {
-            barSingle: "Diagramme en barres avec {numPoints} {#plural(numPoints, barres, barre)}.",
-            columnSingle: "Diagramme en colonnes avec {numPoints} {#plural(numPoints, barres, barre)}."
-        },
-        table: {
-            viewAsDataTableButtonText: "Afficher en tableau"
-        },
-        exporting: {
-            menuButtonLabel: "Ouvrir le menu du diagramme",
-            chartMenuLabel: "Menu"
-        },
-        screenReaderSection: {
-            annotations: {
-                heading: "Sommaire des annotations"
+let Highcharts_translations = {};
+
+let chart_lang = document.querySelector('html').getAttribute('lang');
+
+if (chart_lang == "fr") {
+    Highcharts_translations =  {
+        downloadCSV: "Télécharger au format CSV",
+        downloadJPEG: "Télécharger au format JPEG",
+        downloadPDF: "Télécharger au format PDF",
+        downloadPNG: "Télécharger au format PNG",
+        downloadSVG: "Télécharger au format SVG",
+        downloadXLS: "Télécharger au format XLS",
+        exitFullscreen: "Quitter le mode plein écran",
+        printChart: "Imprimer le diagramme",
+        viewData: "Voir les données en tableau",
+        viewFullscreen: "Voir en mode plein écran",
+        hideData: "Masquer le tableau",
+        contextButtonTitle: "Menu contextuel du diagramme",
+        accessibility: {
+            axis: {
+                rangeCategories: "Plage de données : {numCategories} catégories.",
+                rangeFromTo: "La plage de données s'étend de {rangeFrom} à {rangeTo}.",
+                xAxisDescriptionSingular: "L'axe des ordonnées présente les {names[0]}. {ranges[0]}",
+                yAxisDescriptionSingular: "L'axe des abscisses présente les Scores"
             },
-            endOfChartMarker: "Fin du diagramme interactif"
+            chartTypes: {
+                barSingle: "Diagramme en barres avec {numPoints} {#plural(numPoints, barres, barre)}.",
+                columnSingle: "Diagramme en colonnes avec {numPoints} {#plural(numPoints, barres, barre)}."
+            },
+            table: {
+                viewAsDataTableButtonText: "Afficher en tableau"
+            },
+            exporting: {
+                menuButtonLabel: "Ouvrir le menu du diagramme",
+                chartMenuLabel: "Menu"
+            },
+            screenReaderSection: {
+                annotations: {
+                    heading: "Sommaire des annotations"
+                },
+                endOfChartMarker: "Fin du diagramme interactif"
+            }
         }
     }
 }
@@ -149,4 +155,4 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
 }
 
 
-export default { 'Highcharts_translations': Highcharts_translations, 'get_cat':get_cat, 'get_num': get_num, 'obCallback': obCallback, 'build_chart': build_chart }
+export default { 'Highcharts_translations': Highcharts_translations, 'get_cat':get_cat, 'get_num': get_num, 'obCallback': obCallback, 'build_chart': build_chart, 'chart_lang': chart_lang }

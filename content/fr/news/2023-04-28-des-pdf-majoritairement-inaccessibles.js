@@ -12,6 +12,95 @@ Highcharts.setOptions({                                                         
     lang: Graph.Highcharts_translations
 });
 
+const graph_translations = {
+    "fr": {
+        "pdf-20230503-1": {
+            "taggedPDF": "PDF visés par la loi, balisés",
+            "untaggedPDF": "PDF visés par la loi, non balisés",
+            "forms": "Formu-<br>laires",
+            "taggedOthers": "Autres documents structurés",
+            "untaggedOthers": "Autres documents non structurés",
+            "exemptPDF": "PDF exemptés",
+            "title": "Graphique 1. Répartition des PDF disponibles en téléchargement",
+            "subtitle": "Sur un total de 25 398 fichiers"
+        },
+        "pdf-20230503-2": {
+          "year": "Année",
+          "title": "Graphique 2. Part des PDF non balisés par année en %"
+        },
+        "pdf-20230503-3": {
+          "year": "Année",
+          "title": "Graphique 3. Quantité de PDF publiés par année",
+          "quantity": "Quantité"
+        },
+        "pdf-20230503-4": {
+          "title": "Graphique 4. Part des PDF balisés en pourcentage",
+          "pct": "Part en pourcentage"
+        },
+        "pdf-20230503-5": {
+          "title": "Graphique 5. Part des PDF numérisés parmi les non balisés en %",
+          "pct": "Part en pourcentage"
+        }
+    },
+    "en": {
+      "pdf-20230503-1": {
+        "taggedPDF": "Tagged PDFs covered by the law",
+        "untaggedPDF": "Non-tagged PDFs covered by the law",
+        "forms": "Forms",
+        "taggedOthers": "Other structured documents",
+        "untaggedOthers": "Other unstructured documents",
+        "exemptPDF": "Exempt PDFs",
+        "title": "Graph 1. Breakdown of PDFs available for download",
+        "subtitle": "Out of a total of 25,398 files"
+      },
+      "pdf-20230503-2": {
+        "year": "Year",
+        "title": "Graph 2. Percentage of non-tagged PDFs by year"
+      },
+      "pdf-20230503-3": {
+        "year": "Year",
+        "title": "Graph 3. Number of PDFs published per year",
+        "quantity": "Amount"
+      },
+      "pdf-20230503-4": {
+        "title": "Graph 4. Percentage of tagged PDFs",
+        "pct": "Percentage share"
+      },
+      "pdf-20230503-5": {
+        "title": "Graph 5. Percentage of digitised PDFs among non-tagged PDFs",
+        "pct": "Percentage share"
+      }
+    },
+    "de": {
+      "pdf-20230503-1": {
+        "taggedPDF": "Tagged PDFs covered by the law",
+        "untaggedPDF": "Non-tagged PDFs covered by the law",
+        "forms": "Forms",
+        "taggedOthers": "Other structured documents",
+        "untaggedOthers": "Other unstructured documents",
+        "exemptPDF": "Exempt PDFs",
+        "title": "Graph 1. Breakdown of PDFs available for download",
+        "subtitle": "Out of a total of 25,398 files"
+      },
+      "pdf-20230503-2": {
+        "year": "Year",
+        "title": "Graph 2. Percentage of non-tagged PDFs by year"
+      },
+      "pdf-20230503-3": {
+        "year": "Year",
+        "title": "Graph 3. Number of PDFs published per year",
+        "quantity": "Amount"
+      },
+      "pdf-20230503-4": {
+        "title": "Graph 4. Percentage of tagged PDFs",
+        "pct": "Percentage share"
+      },
+      "pdf-20230503-5": {
+        "title": "Graph 5. Percentage of digitised PDFs among non-tagged PDFs",
+        "pct": "Percentage share"
+      }
+    }
+}
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
@@ -72,14 +161,14 @@ function loadchart (chartid) {                                                  
                         value: 13715,
                         color: '#3F6C51'
                     }, {
-                        name: 'PDF visés par la loi, balisés',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].taggedPDF,
                         parent: 'B',
                         id: 'B1',
                         value: 5623,
                         pct: 22,
                         sortIndex: 0
                     }, {
-                        name: 'PDF visés par la loi, non balisés',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].untaggedPDF,
                         parent: 'B',
                         id: 'B2',
                         value: 8092,
@@ -87,19 +176,19 @@ function loadchart (chartid) {                                                  
                         sortIndex: 1,
                         color: '#A30015'
                     }, {
-                        name: 'Formu-<br>laires',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].forms,
                         parent: 'B1',
                         value: 890,
                         pct: 3.5,
                         sortIndex: 0
                     }, {
-                        name: 'Formu-<br>laires',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].forms,
                         parent: 'B2',
                         value: 728,
                         pct: 2.9,
                         sortIndex: 1
                     },{
-                        name: 'Autres documents structurés',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].taggedOthers,
                         parent: 'B1',
                         value: 7202,
                         pct: 28.4,
@@ -111,13 +200,13 @@ function loadchart (chartid) {                                                  
                         pct: 5,
                         sortIndex: 0
                     }, {
-                        name: 'Autres documents non structurés',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].untaggedOthers,
                         parent: 'B2',
                         value: 6069,
                         pct: 23.9,
                         sortIndex: 2
                     }, {
-                        name: 'PDF exemptés',
+                        name: graph_translations[Graph.chart_lang]["pdf-20230503-1"].exemptPDF,
                         parent: 'A',
                         value: 11683,
                         pct: 46
@@ -139,7 +228,7 @@ function loadchart (chartid) {                                                  
                     }
                 },
                 title: {
-                    text: 'Graphique 1. Répartition des PDF disponibles en téléchargement',
+                    text: graph_translations[Graph.chart_lang]["pdf-20230503-1"].title,
                     align: 'center',
                     style: {
                         fontFamily: "Fira Sans",
@@ -148,7 +237,7 @@ function loadchart (chartid) {                                                  
                     }
                 },
                 subtitle: {
-                    text: 'Sur un total de 25 398 fichiers',
+                    text: graph_translations[Graph.chart_lang]["pdf-20230503-1"].subtitle,
                     align: 'center',
                     style: {
                         fontFamily: "Fira Sans",
@@ -171,7 +260,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'year'),
-                        title: {text: "Année", y: 100}
+                        title: {text: graph_translations[Graph.chart_lang]["pdf-20230503-2"].year, y: 100}
                     };
                     let c_y = {
                         title: {
@@ -181,7 +270,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 2. Part des PDF non balisés par année en %", 
+                        graph_translations[Graph.chart_lang]["pdf-20230503-2"].title, 
                         "pdf-20230503-2", 
                         [{data: Graph.get_num(results.data, 'pct-non-tagged'), name: "Pourcentage"}],
                         'column', 
@@ -203,7 +292,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'year'),
-                        title: {text: "Année", y: 100}
+                        title: {text: graph_translations[Graph.chart_lang]["pdf-20230503-3"].year, y: 100}
                     };
                     let c_y = {
                         title: {
@@ -213,9 +302,9 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 3. Quantité de PDF publiés par année", 
+                        graph_translations[Graph.chart_lang]["pdf-20230503-3"].title, 
                         "pdf-20230503-3", 
-                        [{data: Graph.get_num(results.data, 'num-pdf'), name: "Quantité"}],
+                        [{data: Graph.get_num(results.data, 'num-pdf'), name: graph_translations[Graph.chart_lang]["pdf-20230503-3"].quantity}],
                         'column', 
                         "", 
                         c_x, 
@@ -245,9 +334,9 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 4. Part des PDF balisés en pourcentage", 
+                        graph_translations[Graph.chart_lang]["pdf-20230503-4"].title, 
                         "pdf-20230503-4", 
-                        [{data: Graph.get_num(results.data, 'pct-tagged-pdf'), name: "Part en pourcentage"}],
+                        [{data: Graph.get_num(results.data, 'pct-tagged-pdf'), name: graph_translations[Graph.chart_lang]["pdf-20230503-4"].pct}],
                         'bar', 
                         "", 
                         c_x, 
@@ -277,9 +366,9 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 5. Part des PDF numérisés parmi les non balisés en %", 
+                        graph_translations[Graph.chart_lang]["pdf-20230503-5"].title, 
                         "pdf-20230503-5", 
-                        [{data: Graph.get_num(results.data, 'pct-scanned-pdf'), name: "Part en pourcentage"}],
+                        [{data: Graph.get_num(results.data, 'pct-scanned-pdf'), name: graph_translations[Graph.chart_lang]["pdf-20230503-5"].pct}],
                         'bar', 
                         "", 
                         c_x, 

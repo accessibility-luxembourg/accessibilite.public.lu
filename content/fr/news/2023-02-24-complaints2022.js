@@ -12,6 +12,41 @@ Highcharts.setOptions({                                                         
     lang: Graph.Highcharts_translations
 });
 
+const graph_translations = {
+    "fr": {
+        "reasons": "Raisons",
+        "complaint": "Réclamations",
+        "solutions": "Solutions à court terme proposées",
+        "complaints": {
+            "title": "Graphique 7. Réclamations reçues et solutions à court terme proposées"
+        },
+        "burden": {
+            "title": "Graphique 8. Les cinq raisons principales de charge disproportionnée évoquées, en pourcentage"
+        }
+    },
+    "en": {
+        "reasons": "Reasons",
+        "complaint": "Complaints",
+        "solutions": "Proposed short-term solutions",
+        "complaints": {
+            "title": "Graph 7. Complaints received and short-term solutions proposed"
+        },
+        "burden": {
+            "title": "Graph 8. The five main reasons given for disproportionate burden, as a percentage"
+        }
+    },
+    "de": {
+        "reasons": "Reasons",
+        "complaint": "Complaints",
+        "solutions": "Proposed short-term solutions",
+        "complaints": {
+            "title": "Graph 7. Complaints received and short-term solutions proposed"
+        },
+        "burden": {
+            "title": "Graph 8. The five main reasons given for disproportionate burden, as a percentage"
+        }
+    }
+}
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
@@ -31,9 +66,9 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 7. Réclamations reçues et solutions à court terme proposées", 
+                        graph_translations[Graph.chart_lang].complaints.title, 
                         "complaints", 
-                        [{data: Graph.get_num(results.data, 'Complaints'), name: "Réclamations", color: {patternIndex: 0}}, {data: Graph.get_num(results.data, 'Solution'), name: "Solutions à court terme proposées"}],
+                        [{data: Graph.get_num(results.data, 'Complaints'), name: graph_translations[Graph.chart_lang].complaint, color: {patternIndex: 0}}, {data: Graph.get_num(results.data, 'Solution'), name: graph_translations[Graph.chart_lang].solutions}],
                         'bar', 
                         "", 
                         c_x, 
@@ -52,7 +87,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Raisons", x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].reasons, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -61,7 +96,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 8. Les cinq raisons principales de charge disproportionnée évoquées, en pourcentage", 
+                        graph_translations[Graph.chart_lang].burden.title, 
                         "burden", 
                         [{data: Graph.get_num(results.data, '2021'), name: "2021", color: {patternIndex: 0}}, {data: Graph.get_num(results.data, '2022'), name: "2022"}],
                         'bar', 

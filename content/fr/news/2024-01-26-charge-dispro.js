@@ -12,6 +12,20 @@ Highcharts.setOptions({                                                         
     lang: Graph.Highcharts_translations
 });
 
+const graph_translations = {
+    "fr": {
+        "categories": "Catégories",
+        "title": "Graphique 1. Niveau de conformité des sites audités en 2023"
+    },
+    "en": {
+      "categories": "Categories",
+      "title": "Graph 1. Level of compliance of audited sites in 2023"
+    },
+    "de": {
+      "categories": "Categories",
+      "title": "Graph 1. Level of compliance of audited sites in 2023"
+    }
+}
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
@@ -22,7 +36,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Catégories", x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].categories, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -32,7 +46,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 1. Niveau de conformité des sites audités en 2023",                 // char title
+                        graph_translations[Graph.chart_lang].title,                 // char title
                         "dispro",                                                                      // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type

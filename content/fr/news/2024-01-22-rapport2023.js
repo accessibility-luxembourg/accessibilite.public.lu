@@ -12,6 +12,73 @@ Highcharts.setOptions({                                                         
     lang: Graph.Highcharts_translations
 });
 
+const graph_translations = {
+    "fr": {
+        "categories": "Catégories",
+        "admin_level": "Domaine administratif",
+        "compliance": "Conformité<br>partielle",
+        "compliance_desc": "La conformité partielle est atteinte à partir de 50%.",
+        "full_compliance": {
+            "title": "Graphique 1. Niveau de conformité des sites audités en 2023, en pourcentage"
+        },
+        "full_themes": {
+            "title": "Graphique 2. Top 10 des non-conformités décelées dans l'échantillon"
+        },
+        "full_app_compliance": {
+            "title": "Graphique 3. Taux de conformité des apps auditées en 2023"
+        },
+        "simple_compliance_top10": {
+            "title": "Graphique 4. Top 10 public sites targeted by a simplified audit"
+        },
+        "simple_compliance": {
+            "title": "Graphique 5. Level of compliance by administrative area"
+        }
+    },
+    "en": {
+        "categories": "Categories",
+        "admin_level": "Administrative area",
+        "theme": "Theme",
+        "compliance": "Partial<br>compliance",
+        "compliance_desc": "Partial compliance is reached at 50%.",
+        "full_compliance": {
+            "title": "Graph 1. Level of compliance of audited sites in 2023, as a percentage"
+        },
+        "full_themes": {
+            "title": "Graph 2. Top 10 non-compliances found in the sample"
+        },
+        "full_app_compliance": {
+            "title": "Graph 3. Compliance rate for apps audited in 2023"
+        },
+        "simple_compliance_top10": {
+            "title": "Graph 4. Top 10 public sites targeted by a simplified audit"
+        },
+        "simple_compliance": {
+            "title": "Graph 5. Level of compliance by administrative area"
+        }
+    },
+    "de": {
+        "categories": "Categories",
+        "admin_level": "Administrative area",
+        "theme": "Theme",
+        "compliance": "Partial<br>compliance",
+        "compliance_desc": "Partial compliance is reached at 50%.",
+        "full_compliance": {
+            "title": "Graph 1. Level of compliance of audited sites in 2023, as a percentage"
+        },
+        "full_themes": {
+            "title": "Graph 2. Top 10 non-compliances found in the sample"
+        },
+        "full_app_compliance": {
+            "title": "Graph 3. Compliance rate for apps audited in 2023"
+        },
+        "simple_compliance_top10": {
+            "title": "Graph 4. Top 10 public sites targeted by a simplified audit"
+        },
+        "simple_compliance": {
+            "title": "Graph 5. Level of compliance by administrative area"
+        }
+    }
+}
 
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
@@ -23,9 +90,9 @@ function loadchart (chartid) {                                                  
                     let c_annotations = [{
                         labels: [{
                             point: { x: 450, y: 50,  yAxis: 0 },
-                            text: 'Conformité<br>partielle',
+                            text: graph_translations[Graph.chart_lang].compliance,
                             accessibility: {
-                                description: "La conformité partielle est atteinte à partir de 50%."
+                                description: graph_translations[Graph.chart_lang].compliance_desc
                             }
                         }],
                         labelOptions: {
@@ -50,7 +117,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 1. Niveau de conformité des sites audités en 2023",                 // char title
+                        graph_translations[Graph.chart_lang].full_compliance.title,                    // chart title
                         "full_compliance",                                                             // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type
@@ -71,7 +138,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Theme'),
-                        title: {text: "Catégories", x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].categories, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -81,7 +148,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 2. Top 10 des non-conformités décelées dans l'échantillon", 
+                        graph_translations[Graph.chart_lang].full_themes.title, 
                         "full_themes", 
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],
                         'bar', 
@@ -118,7 +185,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 3. Taux de conformité des apps auditées en 2023", 
+                        graph_translations[Graph.chart_lang].full_app_compliance.title, 
                         "full_app_compliance", 
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],
                         'bar', 
@@ -155,11 +222,11 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 4. Top 10 des sites publics cibles d'un audit simplifié",           // char title
+                        graph_translations[Graph.chart_lang].simple_compliance_top10.title,           // chart title
                         "simple_compliance_top10",                                                     // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type
-                        "",                                                                 // annotations
+                        "",                                                                            // annotations
                         c_x,                                                                           // xAxis
                         c_y,                                                                           // yAxis 
                         false,                                                                         // show legend
@@ -176,7 +243,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Admin_level'),
-                        title: {text: "Domaine administratif", y: 100}
+                        title: {text: graph_translations[Graph.chart_lang].admin_level, y: 100}
                     };
                     let c_y = {
                         title: {
@@ -186,7 +253,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 5. Niveau de conformité par domaine administratif", 
+                        graph_translations[Graph.chart_lang].simple_compliance.title, 
                         "simple_compliance", 
                         [{data: Graph.get_num(results.data, 'Compliance'), name: "Score"}],
                         'column', 
