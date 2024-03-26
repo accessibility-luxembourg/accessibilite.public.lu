@@ -7,8 +7,8 @@ Element of a form that allows you to perform a predefined action. For example, t
 In HTML, there are three types of form buttons:
 
 - The `<input>` tag of type `submit`, `reset` or `button`;
-- <input> ` tag, of type `image`;
-- <button> ` tag.
+- The `<input>` tag, of type `image`;
+- The `<button>` tag.
 
 It is also possible to render a button using the WAI-ARIA role `button`.
 

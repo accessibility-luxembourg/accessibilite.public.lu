@@ -4,7 +4,7 @@ title: Accessible and operable by keyboard and any pointing device
 
 - A user interface component (link, button, etc.) can be accessed from the keyboard and by any pointing device when the user can take the focus either by using the pointer or the tab key;
 - A user interface component (link, button, etc.) can be activated from the keyboard and by any pointing device when the user can initiate the action provided for by the interface component by pressing either the pointer or the enter key on the keyboard;
-- Note: for certain user interface components such as <span lang="en"> sliders</span> (sliding or rotating knobs, etc.), it is not possible to control the component using the enter key alone. In these situations, other keys (such as arrow keys) can be used. In particular, for elements with a WAI-ARIA role corresponding to a design pattern, it is recommended to consider the document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)</span> when implementing them.
+- Note: for certain user interface components such as sliders (sliding or rotating knobs, etc.), it is not possible to control the component using the enter key alone. In these situations, other keys (such as arrow keys) can be used. In particular, for elements with a WAI-ARIA role corresponding to a design pattern, it is recommended to consider the document [WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/) when implementing them.
 
 In the framework, the expression "controllable by the keyboard and any pointing device" also refers to this definition.
 
