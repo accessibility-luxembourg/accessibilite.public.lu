@@ -13,7 +13,7 @@ author: Dominique Nauroy
     <p>Public bodies can exempt certain content published online from accessibility rules, citing the reason of “disproportionate burden”. when it is “reasonably impossible to make content or functionality accessible”. Behind this formulation, particular consideration is given to the costs that should be incurred in relation to the estimated benefit for disabled people.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
-    <img src="../../../../content/en/news/img/2024-01-charge-dispro.jpg" alt="Illustrative image representing an office worker crumbling under the folders">
+    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustrative image representing an office worker crumbling under the folders">
     <figcaption>Photo&#8239;: iStock / cyano66</figcaption>
 </figure>
 <p>These contents and functionalities must be precisely listed in the declaration. Alternatives must be able to offer equivalent content and functionalities... as long as their production does not itself constitute a disproportionate burden.</p>
@@ -29,7 +29,7 @@ author: Dominique Nauroy
 <p>Finally, sites and apps using authentication procedures systematically cite the LuxTrust connection system, a third-party service over which they have no control.</p>
 <figure class="chart">
     <div id="dispro">
-        <img src="../../../../content/en/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Items most frequently mentioned as a disproportionate burden ( see description below).">
+        <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Items most frequently mentioned as a disproportionate burden ( see description below).">
     </div>
     <details>
         <summary>Description of graph 1</summary>

@@ -60,7 +60,7 @@ function genNews(config, lang, outputPath, baseURL, __) {
         } 
     
         if (data.meta.teaser) {
-            data.meta.img = '../../../../content/'+lang+'/news/img/'+data.meta.teaser
+            data.meta.img = '../../../../content/fr/news/img/'+data.meta.teaser
             data.meta.imgName = data.meta.teaser
         }
     

@@ -23,7 +23,7 @@ We are at your disposal for any questions, do not hesitate to [contact us](conta
 - [Web Repository](raweb1/index.html)
 - [Mobile repository](raam1/index.html)
 - [PDF Repository](rapdf1/index.html)
-- [Your declaration](tools/decla.html)
+- [Your statement](tools/decla.html)
 - [Open data](monitoring/open-data.html)
 
 </div>

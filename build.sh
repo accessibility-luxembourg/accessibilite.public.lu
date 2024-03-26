@@ -64,7 +64,5 @@ cp -r ./src/html/fr/news/og ./dist/fr/news
 cp -r ./content/fr/news/img ./dist/fr/news
 cp -r ./content/en/news/datasource ./dist/en/news
 cp -r ./src/html/en/news/og ./dist/en/news
-cp -r ./content/en/news/img ./dist/en/news
 cp -r ./content/de/news/datasource ./dist/de/news
 cp -r ./src/html/de/news/og ./dist/de/news
-cp -r ./content/de/news/img ./dist/de/news

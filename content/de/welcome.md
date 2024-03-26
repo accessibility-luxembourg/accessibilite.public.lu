@@ -23,7 +23,7 @@ If you have any questions, please do not hesitate to [contact us](contact.html).
 - [Web framework](raweb1/index.html)
 - [Mobile framework](raam1/index.html)
 - [PDF framework](rapdf1/index.html)
-- [Your declaration](tools/decla.html)
+- [Your statement](tools/decla.html)
 - [Open data](monitoring/open-data.html)
 
 </div>

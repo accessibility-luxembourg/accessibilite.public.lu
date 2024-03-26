@@ -11,7 +11,7 @@ author: Dominique Nauroy
     <p>Do creativity and accessibility go hand in hand? Is it easy to make a site compliant? How do we become sensitive to these questions? Geoffrey Crofte willingly took part in the question and answer game. Maintenance.</p>
 </div>
 <figure role="group" aria-label="Geoffrey Crofte. Photo: Rémy Chautard" class="pic">
-    <img src="../../../../content/en/news/img/itw-g-crofte.jpg" alt="A photo of Geoffrey Crofte giving a presentation at DevFest 2020 Nantes">
+    <img src="../../../../content/fr/news/img/itw-g-crofte.jpg" alt="A photo of Geoffrey Crofte giving a presentation at DevFest 2020 Nantes">
     <figcaption>Geoffrey Crofte. Photo: Rémy Chautard</figcaption>
 </figure>
 

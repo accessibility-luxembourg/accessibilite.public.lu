@@ -12,7 +12,7 @@ author: Dominique Nauroy
     <p><a href="https://stephaniewalter.design/">Her blog</a> is packed with resources on digital accessibility, and she is already offering an introductory course on the subject in English. This training will also be given to design students at the University of Strasbourg from the start of the 2025 academic year. This training comes at just the right time, when the<a href="https://accessibilite.public.lu/fr/news/2023-02-27-european_accessibility_act.html">European Act on Accessibility</a> has just come into force.</p>
 </div>
 <figure role="group" aria-label="Stéphanie Walter. Photo: Rémy Chautard" class="pic">
-    <img src="../../../../content/fr/news/img/itw-s-walter.jpg" alt="Une photo de Stéphanie Walter donnant une présentation à DevFest 2020 Nantes">
+    <img src="../../../../content/fr/news/img/itw-s-walter.jpg" alt="A photo of Stéphanie Walter giving a presentation at DevFest 2020 Nantes">
     <figcaption>Stéphanie Walter. Photo: Rémy Chautard</figcaption>
 </figure>
 

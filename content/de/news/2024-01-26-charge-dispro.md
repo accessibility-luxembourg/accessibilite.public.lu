@@ -13,7 +13,7 @@ author: Dominique Nauroy
     <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is "reasonably impossible to make a content or feature accessible". This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
-    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Image d'illustration représentant un employé de bureau croulant sous les dossiers">
+    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustration of an office worker overloaded with files">
     <figcaption>Photo: iStock / cyano66</figcaption>
 </figure>
 <p>This content and functionality must be precisely listed in the declaration. Alternatives must be able to offer equivalent content and functions... provided that their production does not itself constitute a disproportionate burden.</p>
@@ -29,7 +29,7 @@ author: Dominique Nauroy
 <p>Finally, sites and apps that use authentication procedures systematically cite the LuxTrust login system, a third-party service over which they have no control.</p>
 <figure class="chart">
     <div id="dispro">
-        <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graphique 1. Éléments les plus fréquemment mentionnés comme charge disproportionnée (voir description ci-dessous).">
+        <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Level of compliance of audited sites in 2023 (see description below).">
     </div>
     <details>
         <summary>Description of graph 1</summary>
@@ -40,7 +40,7 @@ author: Dominique Nauroy
 <h4>Fewer claims for disproportionate burden: good news?</h4>
 <p>In 2021, two-thirds of sites and apps that submitted an accessibility statement mentioned one or more disproportionate burdens. This rate had fallen sharply to just one third of declarations in 2023. Although this change is to be welcomed a priori, and would suggest that measures have been taken to remedy certain cases that were considered too difficult to deal with at the time, the most likely explanation is undoubtedly to be found in the more representative number of declarations, which has almost quadrupled in the space of three years, rising from 118 to 418 by the end of 2023.</p>
 <h4>A point of methodology</h4>
-<p>Any public sector body that publishes a website or mobile app is obliged to publish an accessibility statement and to inform the Information and Press Service. This is the basis for this article, but not the only one. A <span lang="en">crawler</span> went through all the sites listed in the SIP inventory to check for any declarations that had not been sent to us, in order to obtain the most up-to-date results.</p>
+<p>Any public sector body that publishes a website or mobile app is obliged to publish an accessibility statement and to inform the Information and Press Service. This is the basis for this article, but not the only one. A crawler went through all the sites listed in the SIP inventory to check for any declarations that had not been sent to us, in order to obtain the most up-to-date results.</p>
 <aside class="more">
     <h5>To find out more (XLSX format)</h5>
     <ul>

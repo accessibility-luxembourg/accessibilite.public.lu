@@ -17,7 +17,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <p>The presence on public sites of a large number of inaccessible PDF files is a key problem for disabled people. Indeed, certain accessibility problems can completely block access to information or the implementation of administrative procedures in the case of forms. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
-    <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo d'une publication en cours d'impression sur une presse rotative">
+    <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
     <figcaption>Photo: Getty Images / istockphoto.com / nyvltart</figcaption>
 </figure>
 <p>When a PDF document is digitised as an image or not marked up, a blind or partially sighted user has no access at all to its content (for more details on this subject, see the article "<a href="https://access42.net/pdf-accessibilite?lang=fr">PDF and accessibility, the false good idea</a>").</p>
@@ -58,7 +58,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Of all the PDF documents available for download, 46% are a priori exempt from the accessibility obligation, as they were published before 23 September 2018 (exemption provided for in <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">the law of 28 May 2019</a>). In the remainder of this article, we will only consider PDF documents that are subject to the accessibility obligation, i.e. forms and documents published after 23 September 2018.</p>
 <figure class="chart">
     <div id="pdf-20230503-1">
-        <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graphique 1. Répartition des PDF disponibles en téléchargement (voir description ci-dessous).">
+        <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graph 1. Breakdown of PDFs available for download (see description below).">
     </div>
     <details>
         <summary>Description of diagram 1</summary>
@@ -89,7 +89,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <div class="charts-side-by-side">
     <figure class="chart">
         <div id="pdf-20230503-2">
-            <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graphique 2. Part des PDF non balisés par année (voir description ci-dessous).">
+            <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graph 2. Percentage of non-tagged PDFs by year (see description below).">
         </div>
         <details>
             <summary>Description of graph 2</summary>
@@ -98,7 +98,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </figure>
     <figure class="chart">
         <div id="pdf-20230503-3">
-            <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graphique 3. Quantité de PDF publiés par année (voir description ci-dessous).">
+            <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graph 3. Number of PDFs published per year (see description below).">
         </div>
         <details>
             <summary>Description of graph 3</summary>
@@ -111,7 +111,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <h5>Comparison of the main sites</h5>
 <figure class="chart">
     <div id="pdf-20230503-4">
-        <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graphique 4. Part des PDF balisés en pourcentage (voir description ci-dessous).">
+        <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graph 4. Percentage of tagged PDFs (see description below).">
     </div>
     <details>
         <summary>Description of graph 4</summary>
@@ -143,7 +143,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>The main producers of untagged PDFs are InDesign DTP software, scanners and the PDF printing functionality included in most recent operating systems.</p>
 <figure class="chart">
     <div id="pdf-20230503-5">
-        <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graphique 5. Part des PDF numérisés en mode image parmi les non balisés en pourcentage (voir description ci-dessous).">
+        <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Percentage of digitised PDFs among non-tagged PDFs (see description below).">
     </div>
     <details>
         <summary>Description of Chart 5</summary>
