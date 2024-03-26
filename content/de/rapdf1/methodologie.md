@@ -17,7 +17,7 @@ To assess the criteria in the framework, the tests are carried out using the ded
 The sections below describe the essential elements you need to know to install these tools.
 
 #### PAC 2021
-Installation procedure :
+Installation procedure
 
 1. Download [PAC 2021 - The free PDF checker](https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/).
 2. The download consists of a ZIP archive that needs to be unarchived. Right-click and choose "Extract all".
@@ -51,7 +51,7 @@ always offers the latest stable version for download.
 ###### Welcome dialog
 
 When you start NVDA for the first time, a dialog box
-dialog box appears. It asks you to :
+dialog box appears. It asks you to
 
 1.  Choose the keyboard layout: desktop or laptop
     laptop.
@@ -61,7 +61,7 @@ dialog box appears. It asks you to :
 4.  Decide whether to display this welcome dialog each time
     NVDA IS LAUNCHED.
 
-**Note** : If you change your mind, you can find this welcome dialog in "Help
+**Note** If you change your mind, you can find this welcome dialog in "Help
 help &gt; Welcome dialog.
 
 ###### Text-to-speech

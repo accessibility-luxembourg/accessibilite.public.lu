@@ -2,11 +2,11 @@
 title: Text alternative (image)
 ---
 
-"Accessible name" rendered by assistive technologies for graphic elements such as :
+"Accessible name" rendered by assistive technologies for graphic elements such as
 
-- Image (tag `<img>` or opening tag with a WAI-ARIA attribute `role="img"`) ;
+- Image (tag `<img>` or opening tag with a WAI-ARIA attribute `role="img"`);
 - Image map area (tag `<area>`);
-- Image type button (tag `<input>` with the attribute `type="image"`) ;
+- Image type button (tag `<input>` with the attribute `type="image"`);
 - Object image (tag `<object type="image/…">`);
 - Vector image (tag `<svg>`);
 - Bitmap image (tag `<canvas>`);
@@ -14,40 +14,40 @@ title: Text alternative (image)
 
 In the case of a graphic element, the "accessible name" is obtained in the following order:
 
-- Passage of associated text via the WAI-ARIA attribute `aria-labelledby` for the tags :
-  - `<img>` ;
-  - <input type="image"> ` ;
-  - <svg> ` ;
-  - <object type="image/…"> ` ;
-  - <embed type="image/…"> ` ;
-  - <canvas> ` ;
+- Passage of associated text via the WAI-ARIA attribute `aria-labelledby` for the tags
+  - `<img>`;
+  - <input type="image"> `;
+  - <svg> `;
+  - <object type="image/…"> `;
+  - <embed type="image/…"> `;
+  - <canvas> `;
   - tags with a WAI-ARIA attribute `role="img"`.
-- Otherwise, content of the WAI-ARIA attribute `aria-label` for elements :
-  - `<img>` ;
-  - <area> ` ;
-  - <input type="image"> ` ;
-  - <svg> ` ;
-  - <object type="image/…"> ` ;
-  - <embed type="image/…"> ` ;
-  - <canvas> ` ;
+- Otherwise, content of the WAI-ARIA attribute `aria-label` for elements
+  - `<img>`;
+  - <area> `;
+  - <input type="image"> `;
+  - <svg> `;
+  - <object type="image/…"> `;
+  - <embed type="image/…"> `;
+  - <canvas> `;
   - opening tags with a WAI-ARIA attribute `role="img"`.
-- Otherwise, content of the `alt` attribute for tags :
-  - `<img>` ;
-  - `<area>` ;
+- Otherwise, content of the `alt` attribute for tags
+  - `<img>`;
+  - `<area>`;
   - <input type="image"> `.
 - Otherwise, the content of the `title` attribute for the tags:
-  - `<img>` ;
-  - <input type="image"> ` ;
-  - <object type="image/…"> ` ;
+  - `<img>`;
+  - <input type="image"> `;
+  - <object type="image/…"> `;
   - <embed type="image/…"> `.
 
 This order must be used to determine what constitutes the textual alternative.
 
 However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "reference base") that should be considered as the textual alternative.
 
-For example :
+For example
 
-- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on a `<img>` tag, it is the text passage referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the text passage is actually rendered by the assistive technologies used in the test environment ;
+- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on a `<img>` tag, it is the text passage referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the text passage is actually rendered by the assistive technologies used in the test environment;
 - In the case of the joint presence of a WAI-ARIA `aria-label` attribute and an `alt` attribute on a `<img>` tag, it is the content of the WAI-ARIA `aria-label` attribute that must be considered as the alternative text if the content of the WAI-ARIA `aria-label` attribute is actually rendered by the assistive technologies used in the test environment.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.

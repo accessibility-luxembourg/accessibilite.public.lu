@@ -67,7 +67,7 @@ Candidates must provide all the necessary information within the framework of th
 
 Particular attention will be paid to the methodology and processes put in place to guarantee the conformity of the developments, content and functionalities presented for delivery; this may include, for example (non-exhaustive list):
 
-- The control phases (design, development, acceptance before delivery, etc.) ;
+- The control phases (design, development, acceptance before delivery, etc.);
 - The means of control (internal audit, audit by an external third party);
 - The materialization of the controls (audit statement, audit report, certificate of compliance);
 - The tools used for the controls (automatic tools, assistive technologies);
@@ -77,7 +77,7 @@ Particular attention will be paid to the methodology and processes put in place 
 
 Some of the requirements defined in this document that are essential to the project may require the use of specific technologies that may be difficult to make fully accessible.
 
-If this is the case, it is up to the applicant to give a precise description of :
+If this is the case, it is up to the applicant to give a precise description of
 
 - The points of complexity or blockage inherent in the use of these technologies.
 - The alternatives, where possible, that could be proposed to ensure that the user has access to the information.

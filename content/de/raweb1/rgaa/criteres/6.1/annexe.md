@@ -40,7 +40,7 @@ Norm:
 
 There is special case management for tests 6.1.1, 6.1.2, 6.1.3 and 6.1.4 when the link is [ambiguous for everybody](#ambiguous-for-everybody). In this situation, where it is not possible to make the link explicit in its context, the criterion is not applicable.
 
-There is special case management for test 6.1.5 when :
+There is special case management for test 6.1.5 when
 
 - Punctuation and capital letters are present in the text of the [visible label](#visible-title): they can be ignored in the accessible name without any consequences;
 - The text of the [visible label](#visible-title) serves as a symbol: the text must not be interpreted literally at the level of the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).
@@ -49,13 +49,13 @@ Note: if the visible label represents a mathematical expression, the mathematica
 
 #### Technical notes
 
-When the visible label is supplemented by another expression in the accessible name :
+When the visible label is supplemented by another expression in the accessible name
 
 - WCAG insists on placing the visible label at the beginning of the accessible name without reserving exclusive use of this location;
 - WCAG considers a non-exact match of the visible label character string within the accessible name to be a case of failure.
 
 For example, if we consider the visible label "Order now" completed in the accessible name by the expression "product X", we could have the following different cases:
 
-- "Order product X now" is valid (good practice) ;
+- "Order product X now" is valid (good practice);
 - "Product X: order now" is valid;
 - "Order product X now" is invalid.

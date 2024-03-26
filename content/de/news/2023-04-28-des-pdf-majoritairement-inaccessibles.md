@@ -153,7 +153,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>The prevalence of documents digitised as images on public sites varies. Their number is very low on a site such as guichet.lu (2% of untagged PDFs on this site) but very high on that of the City of Luxembourg (52% of untagged PDFs on the site).</p>
 <h5>Analysis of accessibility statements</h5>
 <p>All public websites are required to publish an accessibility statement. This is generally available via an "Accessibility" link in the <span lang="en">footer of</span> each page. The organisations in charge of these sites must describe the level of accessibility achieved and any accessibility problems of which they are aware. We wanted to find out whether these organisations are aware of any accessibility problems with the PDF files they publish.</p>
-<p>11 of the 17 sites studied have an accessibility statement. These include :</p>
+<p>11 of the 17 sites studied have an accessibility statement. These include</p>
 <ul>
 <li>8 invoke an exemption provided for by law for old documents (4) or for documents originating from third parties (7).</li>
 <li>7 invoke an exemption for disproportionate burden: the work involved in bringing their PDF documents into compliance would be too costly in relation to the estimated benefit for citizens.</li>

@@ -13,14 +13,14 @@
 1. Activate the **screen reader**.
 1. Locate the decorative graphic elements on the screen ([see glossary note on the particularities of rendering](glossaire.md#element-graphique)).
 1. Check that
-	- they cannot be reached with the screen reader ; 
+	- they cannot be reached with the screen reader; 
 	- their content is not being played back from another element on the screen.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) have an [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative? {id="crit-1-2"}
 
@@ -31,14 +31,14 @@
 1. Activate the **screen reader**.
 1. Locate information-carrying graphic elements on the screen ([see glossary note on special rendering features](glossaire.md#graphic-element)), for example an image or icon.
 1. Check that
-	- that they can be reached with the screen reader ; 
+	- that they can be reached with the screen reader; 
 	- or that the information they convey is rendered from another element on the screen.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element), is the [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative relevant (excluding special cases)? {id="crit-1-3"}
 
@@ -55,14 +55,14 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 1. Activate the **screen reader**.
 1. Locate the information-carrying graphic elements on the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)).
 1. Check that 
-	- that the alternative displayed by the screen reader is relevant ; 
+	- that the alternative displayed by the screen reader is relevant; 
 	- or that the information retrieved from another element on the screen is relevant.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.4](#crit-1-4) [A] For each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) or as a [test graphic element](glossaire.md#test-graphic-element), does the alternative rendered by assistive technologies allow the nature and function of the graphic element to be identified? {id="crit-1-4"}
 
@@ -77,13 +77,13 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criteria 1.5](#crit-1-5) [A] Does each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) have an alternative? {id="crit-1-5"}
 
 **[Test 1.5.1](#test-1-5-1)** Does each graphic element used as a CAPTCHA meet one of these conditions? {id="test-1-5-1"}
-- There is another form of non-graphical CAPTCHA, at least ;
+- There is another form of non-graphical CAPTCHA, at least;
 - There is another solution for accessing the functionality secured by the CAPTCHA.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -91,15 +91,15 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 ###### iOS and Android
 
 1. Locate the graphic elements used as CAPTCHAs on the screen ([see glossary note on the particularities of rendering](glossaire.md#element-graphique)).
-1. Check :
-	- the presence of a non-graphical alternative (sound or logical CAPTCHA) ;
+1. Check
+	- the presence of a non-graphical alternative (sound or logical CAPTCHA);
 	- or the presence of another solution for accessing the functionality secured by the CAPTCHA (sending an SMS code, sending a confirmation email, etc.).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.6](#crit-1-6) [A] Does each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-6"}
 
@@ -113,10 +113,10 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 ###### iOS and Android
 
 1. Identify information-carrying graphic elements on the screen that require a detailed description ([see glossary note on rendering features](glossaire.md#graphic-element)). For example
-	- graphic elements for which the alternative to be provided is too long (more than one sentence, for example) or requires structuring (titles, lists or tables) ; 
+	- graphic elements for which the alternative to be provided is too long (more than one sentence, for example) or requires structuring (titles, lists or tables); 
 	- graphic elements which combine several issues (information through colour, text graphic element, contrasts, etc.) such as graphs or maps.
-1. Check for : 
-	- the presence of a clearly identifiable detailed description adjacent to the graphic element ; 
+1. Check for 
+	- the presence of a clearly identifiable detailed description adjacent to the graphic element; 
 	- or the presence of a function (a button, a link) providing access to a detailed description.
 1. If not, activate the **screen reader** and navigate to the graphic element. 
 1. Check that the screen reader displays a detailed description.
@@ -124,8 +124,8 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.7](#crit-1-7) [A] For each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) with a [detailed description](glossaire.md#detailed-description), is it relevant? {id="crit-1-7"}
 
@@ -139,8 +139,8 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.8](#crit-1-8) [AA] Each [graphic element text](glossaire.md#graphic-element-text) carrying information, in the absence of a [replacement mechanism](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#text-style). Is this rule respected (excluding special cases)? {id="crit-1-8"}
 
@@ -155,9 +155,9 @@ The criterion does not apply to the following elements:
 
 ###### iOS and Android
 
-1. Locate the information-carrying graphic elements in the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)) : 
+1. Locate the information-carrying graphic elements in the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)) 
 	- Activate the **screen reader**, browse the content and identify whether the elements displayed as "graphic element" or "image" contain text carrying information.
-1. Check that : 
+1. Check that 
 	- there is a mechanism for replacing text graphic elements with text that can be modified according to the user's display preferences (size, colour, font, etc.);
     - or that styles and effects cannot be reproduced using [styled text](glossaire.md#text-style).
 1. If this is the case, the criterion is validated.
@@ -180,10 +180,10 @@ The criterion does not apply to the following elements:
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-### [Topic 2](#topic-2) : Colours {id="topic-2"}
+### [Topic 2](#topic-2) Colours {id="topic-2"}
 
 #### [Criterion 2.1](#crit-2-1) [A] In each screen, [information must not be provided by colour alone](glossaire.md#information-provided-by-colour). Is this rule respected? {id="crit-2-1"}
 
@@ -218,7 +218,7 @@ The criterion does not apply to the following elements:
 #### [Criterion 2.2](#crit-2-2) [AA] In each screen, is the [contrast](glossaire.md#contrast) between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 
 **[Test 2.2.1](#test-2-2-1):** For each text, does the contrast between the colour of the text and the colour of its background meet one of these conditions? {id="test-2-2-1"}
-- The contrast ratio between the text and its background is at least 4.5:1 for [normal text size](glossaire.md#contrast-text-size) and at least 3:1 for [large text size](glossaire.md#contrast-text-size) ;
+- The contrast ratio between the text and its background is at least 4.5:1 for [normal text size](glossaire.md#contrast-text-size) and at least 3:1 for [large text size](glossaire.md#contrast-text-size);
 - A [replacement mechanism](glossaire.md#replacement-mechanism) allows the user to display [normal-size text](glossaire.md#text-size-contrast) with a contrast ratio of at least 4.5:1 and [large-size text](glossaire.md#text-size-contrast) with a contrast ratio of at least 3:1.
 
 ##### Special cases
@@ -235,11 +235,11 @@ The criterion does not apply to the following elements:
 
 1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or if present in the application, activate the replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
 1. Locate text on the screen, text contained in graphic elements and text embedded in videos that could cause contrast problems.
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check:
-	- For normal size text, that the contrast value is 4.5:1, at least ; 
+	- For normal size text, that the contrast value is 4.5:1, at least; 
 	- For large text, that the contrast value is at least 3:1.
 1. If this is the case, the criterion is validated.
 
@@ -249,11 +249,11 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#appl
 
 1. If it exists in the application, activate the replacement mechanism to display the application with a sufficient contrast ratio.
 1. Locate text on the screen, text contained in graphic elements and text embedded in videos that could cause contrast problems.
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check:
-	- For normal size text, that the contrast value is 4.5:1, at least ; 
+	- For normal size text, that the contrast value is 4.5:1, at least; 
 	- For large text, that the contrast value is at least 3:1.
 1. If this is the case, the criterion is validated.
 
@@ -261,16 +261,16 @@ Note: It is possible to use the **[Accessibility Scanner] application (methodolo
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
+- WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.3 Contrast (Minimum)*, *11.7 User preferences*.
 
 #### [Criterion 2.3](#crit-2-3) [AA] In each screen, are the colours used in the [user interface components](glossaire.md#composant-d-interface) and the graphic elements carrying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
 
 - **[Test 2.3.1](#test-2-3-1):** In each screen, does the contrast ratio between the colours of a [user interface component](glossaire.md#interface-component) in its various states and the [adjacent colours](glossaire.md#adjacent-colour) satisfy one of these conditions (excluding special cases)? {id="test-2-3-1"}
-	- The contrast ratio is 3:1, at least ;
+	- The contrast ratio is 3:1, at least;
 	- A [replacement mechanism](glossaire.md#replacement-mechanism) is used to display the user interface component with a contrast ratio of at least 3:1.
 - **[Test 2.3.2](#test-2-3-2):** In each screen, does the contrast ratio of each colour required to understand a graphic element and the [adjacent colours](glossaire.md#adjacent-colour) meet one of these conditions (excluding special cases)? {id="test-2-3-2"}
-	- The contrast ratio is 3:1, at least ;
+	- The contrast ratio is 3:1, at least;
 	- A [replacement mechanism](glossaire.md#replacement-mechanism) allows a contrast ratio of at least 3:1.
 
 ##### Special cases
@@ -289,14 +289,14 @@ The criterion does not apply to the following elements:
 ###### iOS
 
 1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or, if present in the application, activate the replacement mechanism enabling graphic elements to be displayed with a sufficient contrast ratio.
-1. Locate the information-carrying graphic elements on the screen and for each : 
+1. Locate the information-carrying graphic elements on the screen and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
-1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each :
+1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed and the state (this could be the border, the colour of an icon, the background colour) for each of the states;
 	- Identify the adjacent colours that have an impact on the visibility of the component's colour(s).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check that the contrast ratio between the colours identified is at least 3:1.
 1. If this is the case, the criterion is validated.
@@ -306,14 +306,14 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#appl
 ###### Android
 
 1. If it exists in the application, activate the application's replacement mechanism to display graphic elements with a sufficient contrast ratio.
-1. Locate the information-carrying graphic elements on the screen and for each : 
+1. Locate the information-carrying graphic elements on the screen and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
-1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each :
+1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed and the state (this could be the border, the colour of an icon, the background colour) for each of the states;
 	- Identify the adjacent colours that have an impact on the visibility of the component's colour(s).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check that the contrast ratio between the colours identified is at least 3:1.
 1. If this is the case, the criterion is validated.
@@ -322,8 +322,8 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.4.11 Non-text Contrast*, *11.7 User preference*.
+- WCAG 2.1 [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
+- EN 301 549 V3.2.1 (2021-03) *11.1.4.11 Non-text Contrast*, *11.7 User preference*.
 
 #### [Criterion 2.4](#crit-2-4) [AA] Is the contrast ratio of each [replacement mechanism for displaying a correct contrast ratio](glossaire.md#mechanism-for-displaying-a-correct-contrast-ratio) sufficiently high? {id="crit-2-4"}
 
@@ -334,10 +334,10 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 1. Check that the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) is deactivated.
 1. Check for the presence of a replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
 1. Check that it is not activated (i.e. the screen is displayed with the default contrast).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
-1. If the replacement mechanism is identified by text, capture the foreground and background colours and check : 
+1. If the replacement mechanism is identified by text, capture the foreground and background colours and check 
 	- For normal size text, that the contrast value is at least 4.5:1; 
 	- For enlarged text, that the contrast value is at least 3:1.
 1. If the replacement mechanism is identified by a non-text element only (an icon for example):
@@ -350,10 +350,10 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 
 1. Identify the presence of a replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
 1. Check that it is not activated (i.e. the screen is displayed with the default contrast).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either : 
-	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
+	- By [broadcasting the screen of the mobile device to the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- By taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
-1. If the replacement mechanism is identified by text, capture the foreground and background colours and check : 
+1. If the replacement mechanism is identified by text, capture the foreground and background colours and check 
 	- For normal size text, that the contrast value is at least 4.5:1; 
 	- For enlarged text, that the contrast value is at least 3:1.
 1. If the replacement mechanism is identified by a non-text element only (an icon for example):
@@ -364,10 +364,10 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum), [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
+- WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum), [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
 - EN 301 549 V3.2.1 (2021-03): *5.2 Activation of accessibility features*, *11.1.4.3 Contrast (Minimum)*, *11.1.4.11 Non-text Contrast*.
 
-### [Topic 3](#topic-3) : Multimedia {id="topic-3"}
+### [Topic 3](#topic-3) Multimedia {id="topic-3"}
 
 #### [Criterion 3.1](#crit-3-1) [A] Does each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronise) have, where appropriate, an [adjacent clearly-identifiable](glossaire.md#transcript-textual-media-temporal) [transcript (time-based media)](glossaire.md#adjacent-clearly-identifiable) (excluding special cases)? {id="crit-3-1"}
 
@@ -393,7 +393,7 @@ The criterion does not apply to the following elements:
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
+- WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
 #### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronised) with a [transcript-textual](glossaire.md#transcript-textual-media-temporal), is it relevant (excluding special cases)? {id="crit-3-2"}
@@ -413,14 +413,14 @@ The criterion does not apply to the following elements:
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*.
 
 #### [Criterion 3.3](#crit-3-3) [A] Does each pre-recorded video-only [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-3"}
 
 **[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only temporal media satisfy, if necessary, one of these conditions (excluding special cases)? {id="test-3-3-1"}
-- There is a [alternative "audio only" version](glossaire.md#alternative-audio-only-version) [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) ;
-- There is a [textual transcription](glossaire.md#textual-transcription-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clarically-identifiable) ;
-- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) ;
+- There is a [alternative "audio only" version](glossaire.md#alternative-audio-only-version) [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
+- There is a [textual transcription](glossaire.md#textual-transcription-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clarically-identifiable);
+- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel);
 - There is an alternative version with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
@@ -432,9 +432,9 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate video-only time-based media on the screen that require a text-based transcript.
-1. Check for :
-	- whether there is an alternative audio-only version accessible via an adjacent component (a button or a link) ;
-	- or the presence of an adjacent audio-only alternative version ;
+1. Check for
+	- whether there is an alternative audio-only version accessible via an adjacent component (a button or a link);
+	- or the presence of an adjacent audio-only alternative version;
 	- or the presence of an adjacent text transcript (a button or a link);
 	- or the presence of a clearly identifiable adjacent text transcript;
 	- or the presence of a synchronised audio description;
@@ -443,7 +443,7 @@ The criterion does not apply to the following elements:
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
+- WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
 #### [Criterion 3.4](#crit-3-4) [A] For each pre-recorded video-only [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-4"}
@@ -462,25 +462,25 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate video-only time-based media on the screen with an alternative (text transcript or audio-only version).
-1. If the text transcript is present, check : 
+1. If the text transcript is present, check 
 	- that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
-1. If there is an audio description, check : 
-	- that it is relevant (all the important visual information is present) ;
+1. If there is an audio description, check 
+	- that it is relevant (all the important visual information is present);
 	- and that it is correctly synchronised (the audio description soundtrack coincides correctly with the video).
-1. If there is an "audio only" version, check that : 
+1. If there is an "audio only" version, check that 
 	- that it is relevant (all important audio or visual information is present, including dialogue and inset text).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
+- WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
 #### [Criterion 3.5](#crit-3-5) [A] Does each pre-recorded synchronised [temporal media](glossaire.md#temporal-media-type-sound-video-and-synchronise) have, if necessary, an alternative (excluding special cases)? {id="crit-3-5}
 
 **[Test 3.5.1](#test-3-5-1):** If necessary, does each pre-recorded time-synchronised medium satisfy one of these conditions (excluding special cases)? {id="test-3-5-1"}
-- There is a [textual transcription](glossaire.md#textual-transcription-temporal-media) accessible [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) ;
-- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) ;
+- There is a [textual transcription](glossaire.md#textual-transcription-temporal-media) accessible [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
+- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel);
 - There is an alternative version with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
@@ -492,17 +492,17 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate synchronised time-based media on the screen that require a text transcript.
-1. Check for :
-	- the presence of a clearly identifiable adjacent text transcript ;
+1. Check for
+	- the presence of a clearly identifiable adjacent text transcript;
 	- or the presence of a textual transcription accessible via an adjacent component (a button or a link);
-	- or the presence of a synchronised audio description ;
+	- or the presence of a synchronised audio description;
 	- or the presence of an alternative version with a synchronised audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.3 Audio description or alternative version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
 #### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronised [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-6"}
 
@@ -519,10 +519,10 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate synchronised audio description or transcript (time-based media) on the screen.
-1. If an audio description is present, check : 
-	- that it is relevant (all the important visual information is present) ;
+1. If an audio description is present, check 
+	- that it is relevant (all the important visual information is present);
 	- and that it is correctly synchronised (the audio description soundtrack coincides correctly with the video tape).
-1. If a text transcript is present, check :
+1. If a text transcript is present, check
 	-  that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
 1. If this is the case, the criterion is validated.
 
@@ -543,19 +543,19 @@ The criterion does not apply to the following elements:
 
 1. Locate time-synchronised media on the screen that require subtitles (i.e. where the soundtrack provides information, such as a person's speech).
 1. Check that
-	- that there are synchronised subtitles ;
+	- that there are synchronised subtitles;
 	- or that there is an alternative version with synchronised subtitles accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.2 Subtitles (prerecorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.2.2 Captions (Prerecorded)*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.2.2 Captions (Prerecorded)*.
 
 #### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronised [time-based media](glossaire.md#media-temporal-audio-video-and-synchronised) with [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object), are these relevant? {id="crit-3-8}
 
 **[Test 3.8.1](#test-3-8-1):** For each pre-recorded time-synchronised media item with synchronised subtitles, do the subtitles meet these conditions? {id="test-3-8-1"}
-- Subtitles are relevant ;
+- Subtitles are relevant;
 - The subtitles are correctly synchronised.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -563,8 +563,8 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate time-synchronised media with subtitles on the screen.
-1. Check that the subtitles are :
-	- relevant (all important audio information is present, including dialogue) ;
+1. Check that the subtitles are
+	- relevant (all important audio information is present, including dialogue);
 	- correctly synchronised. If there is no delay between the spoken word and the appearance of the subtitles, the subtitles are correctly synchronised. The reference standard specifies that subtitles should appear within 100 ms of the [subtitle time stamp](glossaire.md#horodatage-time-stamp).
 1. If this is the case, the criterion is validated.
 
@@ -585,19 +585,19 @@ The criterion does not apply to the following elements:
 
 1. Locate pre-recorded video-only and synchronised time-based media on the screen that require audio description.
 1. Check:
-	- the presence of a synchronised audio description ;
+	- the presence of a synchronised audio description;
 	- or the presence of an alternative version with a synchronised audio description adjacent to or accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.2.5 Audio Description (Pre-recorded)*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio Description (Pre-recorded)*.
 
 #### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel), is it relevant? {id="crit-3-10"}
 
 **[Test 3.10.1](#test-3-10-1):** For each pre-recorded video-only or synchronised time-based media with an audio description, does it meet these conditions? {id="test-3-10-1"}
-- The audio description is relevant ;
+- The audio description is relevant;
 - The audio description is correctly synchronised (the audio description soundtrack coincides correctly with the video tape).
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -605,9 +605,9 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Locate video-only or synchronised time-based media with audio description on the screen.
-1. Check that the audio description is :
-	- relevant (all important visual information is present) ;
-	- correctly synchronised : 
+1. Check that the audio description is
+	- relevant (all important visual information is present);
+	- correctly synchronised 
 		- the sounds and words of the audio description do not overlap with those of the original soundtrack to cause perception and comprehension problems; 
 		- the information conveyed in the audio description is given at the same time as the equivalent visual information appears.
 1. If this is the case, the criterion is met.
@@ -628,20 +628,20 @@ The criterion does not apply when the time-based media is used for decorative pu
 ###### iOS and Android
 
 1. Locate pre-recorded time-only, audio or synchronised media on the screen.
-1. Check :
+1. Check
 	- a text passage (a title or paragraph, for example) that identifies the time-based media immediately precedes or follows it;
 	- that the text passage is located outside the media content player.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content) 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.1.1.1 Non-text Content*.
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content) 
+- EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 3.12](#crit-3-12) [A] Is each automatically triggered sound sequence [controllable](glossaire.md#control-automatically-triggered-sound) by the user? {id="crit-3-12"}
 
 **[Test 3.12.1](#test-3-12-1):** Does each automatically triggered sound sequence meet one of these conditions? {id="test-3-12-1"}
-- The sound sequence lasts 3 seconds or less ;
+- The sound sequence lasts 3 seconds or less;
 - The sound sequence can be stopped by the user;
 - The volume of the sound sequence can be controlled by the user independently of the system volume control.
 
@@ -649,16 +649,16 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 ###### iOS and Android
 
-1. When the screen loads, if a sound is triggered automatically, check :
-	- the sound sequence lasts 3 seconds or less ;
+1. When the screen loads, if a sound is triggered automatically, check
+	- the sound sequence lasts 3 seconds or less;
 	- or that a device (a button, for example) on the element that triggered the sound, or on the screen, can be used to stop it;
 	- or that the volume of the sequence can be controlled by the user, independently of the system volume control.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.4.2 Audio Control*.
+- WCAG 2.1 [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
+- EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
 
 #### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) have, where necessary, the [viewing control features](glossaire.md#control-of-viewing(of-time-based-media))?  {id="crit-3-13"}
 
@@ -668,7 +668,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 1. Locate pre-recorded time-based media on the screen.
 1. Check that at least the following features are present: 
-	- a play function ;
+	- a play function;
 	- a pause or stop function; 
 	- if the media has a sound track, a function that enables the sound to be switched on and off;
 1. If the media has audio description, check that there is a function that enables audio description to be switched on and off.
@@ -701,8 +701,8 @@ Note: Although volume and playback controls may be physical components of the te
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : N/A
-- EN 301 549 V3.2.1 (2021-03) : *7.3 User controls for captions and audio description*.
+- WCAG 2.1 N/A
+- EN 301 549 V3.2.1 (2021-03) *7.3 User controls for captions and audio description*.
 
 #### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) that has a subtitle track, at the end of the process, are the subtitles correctly preserved? {id="crit-3-15"}
 
@@ -718,8 +718,8 @@ Note: Although volume and playback controls may be physical components of the te
 
 1. Identify the functions used to transmit (e.g. send content to another terminal), convert or record time-based media.
 1. Execute each function (transmit, convert and record).
-1. For each of the media resulting from the function, check :
-	- whether the subtitles are still present ; 
+1. For each of the media resulting from the function, check
+	- whether the subtitles are still present; 
 	- whether the subtitles can be displayed;
 	- whether the subtitles are correctly synchronised;
 	- whether the key features of captions are retained (for example, if in the original media the captions were coloured according to the speaker, this colouring must be retained in the media resulting from the functionality).
@@ -743,8 +743,8 @@ Note: Although volume and playback controls may be physical components of the te
 
 1. Identify the functions used to transmit (e.g. send content to another terminal), convert or record time-based media.
 1. Execute each function (transmit, convert and record).
-1. For each of the media resulting from the function, assess :
-	- whether audio description is present ; 
+1. For each of the media resulting from the function, assess
+	- whether audio description is present; 
 	- whether audio description can be activated;
 	- whether the audio description is correctly synchronised: 
 	    - the sounds and words of the audio description do not overlap with those of the original soundtrack to cause perception and comprehension problems;
@@ -768,7 +768,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 
 1. Locate pre-recorded time-based media with subtitles on the screen.
 1. Modify the subtitle presentation settings from the platform: 
-	- Go to *Settings &gt; Accessibility &gt; Closed captions and SM &gt; Style* ;
+	- Go to *Settings &gt; Accessibility &gt; Closed captions and SM &gt; Style*;
 	- Select **Create a style** to define a personalised and recognisable subtitle style. 
 	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity (check that the **Override custom settings** parameter at the bottom of the screen is deactivated).
 1. Check that the settings defined at platform level are applied to the subtitles.
@@ -780,7 +780,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 
 1. Locate pre-recorded time-based media with subtitles on the screen.
 1. Modify the subtitle presentation settings from the platform: 
-	- Go to *Settings &gt; Accessibility &gt; Preference for subtitles &gt; Style and size of subtitles* ;
+	- Go to *Settings &gt; Accessibility &gt; Preference for subtitles &gt; Style and size of subtitles*;
 	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity.
 1. Check that the platform settings are applied to the subtitles.
 1. If this is not the case, check the media for a function that allows you to modify the subtitle presentation parameters.
@@ -833,9 +833,9 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *7.1.5 Spoken subtitles*.
+- EN 301 549 V3.2.1 (2021-03) *7.1.5 Spoken subtitles*.
 
-### [Topic 4](#topic-4) : Tables {id="topic-4"}
+### [Topic 4](#topic-4) Tables {id="topic-4"}
 
 #### [Criterion 4.1](#crit-4-1) [A] Does each [complex data table](glossaire.md#complex-data-table) have a [summary](glossaire.md#summary-of-table)? {id="crit-4-1"}
 
@@ -845,8 +845,8 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 1. Locate complex data tables on the screen.
 1. Activate the **screen reader**.
-1. Check that :
-	- a summary is displayed when the screen reader reaches the table ; 
+1. Check that
+	- a summary is displayed when the screen reader reaches the table; 
 	- or that a summary is available before the table, in the form of text preceding the table.
 1. If this is the case, the criterion is validated.
 
@@ -913,18 +913,18 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.6 Row, column, and headers*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.6 Row, column, and headers*.
 
-### [Topic 5](#topic-5) : Interactive components {id="topic-5"}
+### [Topic 5](#topic-5) Interactive components {id="topic-5"}
 
 #### [Criterion 5.1](#crit-5-1) [A] Is each [user interface component](glossaire.md#composant-d-interface), if necessary, [compatible with assistive technologies](glossaire.md#compatible-with-assistive-technologies) (excluding special cases)? {id="crit-5-1"}
 
 - **[Test 5.1.1](#test-5-1-1):** Does each user interface component meet one of these conditions, if necessary? {id="test-5-1-1"}
 	- [The name, role, value, settings and status changes](glossaire.md#name-role-value-settings-and-status-changes) are [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) via an accessibility API;
 	- A [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) alternative compatible with an accessibility API provides access to the same accessibility features.
-- **[Test 5.1.2](#test-5-1-2) :** Does each user interface component meet these conditions (excluding special cases)? {id="test-5-1-2"}
-	- The component has a relevant name ;
-	- The accessible name of the component contains at least the visible label ;
+- **[Test 5.1.2](#test-5-1-2)** Does each user interface component meet these conditions (excluding special cases)? {id="test-5-1-2"}
+	- The component has a relevant name;
+	- The accessible name of the component contains at least the visible label;
 	- The component has a relevant role;
 	- The component has a relevant value;
 	- The component has a relevant state.
@@ -935,7 +935,7 @@ The criterion is not applicable for the following elements:
 - The application is subject to strict security requirements that prevent other applications from interacting with its interface (such as assistive technology). Examples of systems subject to strict security requirements are systems dealing with intelligence activities, cryptology activities related to national security, command and control of military forces.
 - Maps and online mapping services, provided that the essential information is provided in an accessible digital form for navigational maps.
 
-There is special case management for [test 5.1.2](#test-5-1-2) where :
+There is special case management for [test 5.1.2](#test-5-1-2) where
 - Punctuation and capital letters are present in the text of the visible label: they can be ignored in the accessible name without consequence.
 - The text of the visible label is used as a symbol: the text must not be interpreted literally in the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).
 
@@ -947,7 +947,7 @@ The most comprehensive test is a playback test using a screen reader. All the el
 
 Several methods are available for iOS, but only the test with VoiceOver enables all the elements required by the criterion to be evaluated.
 
-What's more, as with the web, there is no technical documentation to describe how it works and the expected implementations (for example, for modal windows or potentiometers). In the absence of such documentation, in order to evaluate this type of component as accurately as possible, it is still advisable to approach : 
+What's more, as with the web, there is no technical documentation to describe how it works and the expected implementations (for example, for modal windows or potentiometers). In the absence of such documentation, in order to evaluate this type of component as accurately as possible, it is still advisable to approach 
 - what is described in [the ARIA specification for design models](https://www.w3.org/TR/wai-aria-practices-1.1/);
 - the [documentation from publishers of platforms dedicated to developers](methodologie.md#ressources-des-editeurs).
 
@@ -956,7 +956,7 @@ What's more, as with the web, there is no technical documentation to describe ho
 1. Activate the **screen reader**.
 1. Locate interactive components on the screen (e.g. button, link).
 1. Access each interactive component using the screen reader gestures.
-1. Check that :
+1. Check that
 	- a role is displayed (e.g. button, edit zone, link); 
 	- that the role returned is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is returned as a "modification zone" has an irrelevant role; it should be identified as a button); 
 	- that a name is rendered and that this name is relevant, i.e. that it enables the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
@@ -977,11 +977,11 @@ What's more, as with the web, there is no technical documentation to describe ho
 	- that the role is relevant to the associated functionality (for example, a component which triggers the opening of a modal window and which is presented as *Static text* has an irrelevant role; it should be identified as a button); 
 	- that a name is available in the "Label" parameter and that this name is relevant, i.e. that it allows the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
 	- if the component has a visible name (a visible text), the label defined in the "Label" parameter contains at least this label.
-1. If the component has a perceptible state (activated, deactivated, selected), check that this state : 
-	- is available in the "*Traits*" parameter ;
+1. If the component has a perceptible state (activated, deactivated, selected), check that this state 
+	- is available in the "*Traits*" parameter;
 	- or is indicated in the "Label" parameter.
-1. If the component can change state (e.g. toggle button, potentiometer), perform the necessary actions to test the different states and check that each change of state (switching to the selected state, increasing the potentiometer) :
-	- is available in the "*Traits*" parameter ;
+1. If the component can change state (e.g. toggle button, potentiometer), perform the necessary actions to test the different states and check that each change of state (switching to the selected state, increasing the potentiometer)
+	- is available in the "*Traits*" parameter;
 	- or is indicated in the "Label" parameter.
 1. If this is the case, the criterion is validated.
 
@@ -1003,8 +1003,8 @@ Procedure:
 
 1. Locate all the interactive controls (that can be activated by touch) on the screen.
 1. Activate the voice control and check that all the interactive controls identified have an associated label (grey tooltip).
-1. If so, check that : 
-	- the associated label is relevant ;
+1. If so, check that 
+	- the associated label is relevant;
 	- and that the visible name (if it has one) is included in this label.
 1. If this is the case, the conditions regarding the relevance of the label and the presence of the visible name in the accessible name are met.
 
@@ -1013,8 +1013,8 @@ Procedure:
 1. Activate the **screen reader**.
 1. Locate interactive components on the screen (e.g. button, link).
 1. Access each interactive component using the screen reader gestures.
-1. Check that :
-	- a role is restored (e.g. button, edit zone, link) ; 
+1. Check that
+	- a role is restored (e.g. button, edit zone, link); 
 	- that the role rendered is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is rendered as a "modification zone" has an irrelevant role; it should be identified as a button); 
 	- that a name is rendered and that this name is relevant, i.e. that it allows the function of the element to be understood (for form fields, please refer to the ["Forms"](#topic-9) theme to evaluate them);
 	- that if the component has a visible name (a visible text), the label is rendered;
@@ -1026,7 +1026,7 @@ Procedure:
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03) : *5.6.1 Tactile or auditory status*, *11.2.4.4 Link Purpose (in context)*, *11.2.5.3.1 Label in Name*, *11.4.1.2.1 Name, role, value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.7 Values*, *11.5.2.8 Label relationships*, *11.5.2.9 Parent-child relationships*, *11.5.2.11 List of available actions*, *11.5.2.12 Execution of available actions*, *11.5.2.16 Modifications of states and properties*, *11.6.2 No disruption of accessibility features*.
+- EN 301 549 V3.2.1 (2021-03) *5.6.1 Tactile or auditory status*, *11.2.4.4 Link Purpose (in context)*, *11.2.5.3.1 Label in Name*, *11.4.1.2.1 Name, role, value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.7 Values*, *11.5.2.8 Label relationships*, *11.5.2.9 Parent-child relationships*, *11.5.2.11 List of available actions*, *11.5.2.12 Execution of available actions*, *11.5.2.16 Modifications of states and properties*, *11.6.2 No disruption of accessibility features*.
 
 #### [Criteria 5.2](#crit-5-2) [A] Is every [user interface component](glossaire.md#component-interface) [controllable by keyboard and any pointing device](glossaire.md#accessible-and-operable-by-keyboard-and-any-pointing-device) (excluding special cases)? {id="crit-5-2"}
 
@@ -1049,14 +1049,14 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 1. Activate the **screen reader**.
 1. Browse all the interactive components.
-1. Check that : 
+1. Check that 
 	-  it can be reached with the screen reader;
 	- it can be activated with the screen reader. 
 1. If it is a modifiable component (input field, tick box, potentiometer), check that it can be modified with the screen reader.
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Browse all the interactive components.
-1. Check that : 
-	- it can be reached using the keyboard keys ;
+1. Check that 
+	- it can be reached using the keyboard keys;
 	- that it can be activated using the dedicated key on the keyboard.
 1. If it is a modifiable component (input field, check box, potentiometer), check that it can be modified using the keyboard keys.
 1. If this is the case, the criterion is validated.
@@ -1064,7 +1064,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
 
 #### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#contextchange) meet one of these conditions? {id="crit-5-3"}
 
@@ -1076,14 +1076,14 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 ###### iOS and Android
 
-1. Locate all events in the screen that initiate a context change, for example :
-	- dynamic updating of form fields ;
+1. Locate all events in the screen that initiate a context change, for example
+	- dynamic updating of form fields;
 	- opening a new page when a list entry is selected;
 	- updating an essential part of the screen without user action;
 	- automatic launch of a video player when a playlist is selected;
 	- focus manipulation that changes the user's current position on the screen.
 1. Check that:
-	- that the user is warned by text of the type of change before it is triggered ;
+	- that the user is warned by text of the type of change before it is triggered;
 	- or that the context change is initiated by an explicit button or link.
 1. If this is the case, the criterion is validated.
 
@@ -1130,7 +1130,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *5.6.1 Tactile or auditory status, 5.6.2 Visual status*.
+- EN 301 549 V3.2.1 (2021-03) *5.6.1 Tactile or auditory status, 5.6.2 Visual status*.
 
 ### [Topic 6](#topic-6): Mandatory elements {id="topic-6"}
 
@@ -1158,8 +1158,8 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [3.1.1 Language of the page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
-- EN 301 549 V3.2.1 (2021-03) : *11.3.1.1.1 Language of software*.
+- WCAG 2.1 [3.1.1 Language of the page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
+- EN 301 549 V3.2.1 (2021-03) *11.3.1.1.1 Language of software*.
 
 #### [Criterion 6.2](#crit-6-2) [A] In each screen, interface elements must not be used [only for layout purposes](glossaire.md#uniquely-a-for-layout-purposes). Is this rule respected? {id="crit-6-2"}
 
@@ -1191,13 +1191,13 @@ This criterion only checks elements that should not be interactive (text element
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.3.1.1 Info and Relationships*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*.
 
 ### [Topic 7](#topic-7): Information structuring {id="topic-7"}
 
 #### [Criterion 7.1](#crit-7-1) [A] In each screen, is the information structured by the appropriate use of titles? {id="crit-7-1"}
 
-**[Test 7.1.1](#test-7-1-1) :** Does each screen meet these conditions? {id="test-7-1-1"}
+**[Test 7.1.1](#test-7-1-1)** Does each screen meet these conditions? {id="test-7-1-1"}
 - The content of each title is relevant;
 - Each passage of text that makes up a title is identified as a title.
 
@@ -1208,10 +1208,10 @@ This criterion only checks elements that should not be interactive (text element
 1. Activate the **screen reader**.
 1. Use the rotor and select "Headers".
 1. Scroll through the headings by sliding your finger up or down.
-1. Check that : 
+1. Check that 
 	- each text structure on the screen can be reached; 
-	- that each heading reached is relevant, i.e. : 
-		- the title is useful for structuring the screen ;
+	- that each heading reached is relevant, i.e. 
+		- the title is useful for structuring the screen;
 		- that the text contained in the title makes it possible to understand the content of the titled section.
 1. If this is the case, the criterion is validated.
 
@@ -1223,8 +1223,8 @@ This criterion only checks elements that should not be interactive (text element
 1. Use the arrows in *Accessibility Inspector* to access each element of the interface.
 1. Check that 
 	- for each text that structures the screen, the "*Traits*" parameter contains the value "Headers"; 
-	- that each text whose "*Traits*" parameter contains the value "Headings" is relevant, i.e. : 
-		- the title thus declared is useful for structuring the screen ;
+	- that each text whose "*Traits*" parameter contains the value "Headings" is relevant, i.e. 
+		- the title thus declared is useful for structuring the screen;
 		- that the text contained in the title makes it possible to understand the content of the section thus titled.
 1. If this is the case, the criterion is validated.
 
@@ -1235,15 +1235,15 @@ This criterion only checks elements that should not be interactive (text element
 1. Scroll through the titles by sliding your finger up or down.
 1. Check that 
 	- each text structure on the screen is reached in this way and is displayed as a title; 
-	- that each title is relevant, i.e. : 
-		- the title is useful for structuring the screen ;
+	- that each title is relevant, i.e. 
+		- the title is useful for structuring the screen;
 		- that the text contained in the title makes it possible to understand the content of the section thus titled.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 Headers and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
 
 #### [Criterion 7.2](#crit-7-2) [A] In each screen, is each list correctly structured? {id="crit-7-2"}
 
@@ -1261,7 +1261,7 @@ This criterion only checks elements that should not be interactive (text element
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
 
-### [Topic 8](#topic-8) : Presentation of information {id="topic-8"}
+### [Topic 8](#topic-8) Presentation of information {id="topic-8"}
 
 #### [Criterion 8.1](#crit-8-1) [A] In each screen, is the visible content carrying information accessible to assistive technologies? {id="crit-8-1"}
 
@@ -1278,20 +1278,20 @@ Note: In applications, items can be grouped together. For example, in a product 
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
+- WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1.1 Non-text Content*, *11.1.3.1.1 Info and Relationships*, *11.5.2.10 Text*.
 
 #### [Criterion 8.2](#crit-8-2) [AA] In each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
-**[Test 8.2.1](#test-8-2-1) :** Does each screen meet these conditions? {id="test-8-2-1"}
+**[Test 8.2.1](#test-8-2-1)** Does each screen meet these conditions? {id="test-8-2-1"}
 - The user can enlarge the size of the texts by 200% using the platform parameters;
-- All the text on the screen is enlarged ;
+- All the text on the screen is enlarged;
 - All enlarged text remains legible and the interactive components usable.
 
 ##### Special cases
 
 The criterion does not apply to the following elements:
-- Text graphic elements ;
+- Text graphic elements;
 - Video subtitles.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1302,7 +1302,7 @@ The criterion does not apply to the following elements:
 1. Activate the "Larger font size" button and increase the value of the font size (potentiometer at the bottom of the screen) until a magnification of 200% is reached (the maximum of the gauge allows a zoom greater than 200%, so the test can be limited to increasing the zoom using the penultimate position of the potentiometer).
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
-	- that all the texts in the interface have been enlarged ; 
+	- that all the texts in the interface have been enlarged; 
 	- that all the text in the interface remains legible and the functions usable; 
 	- content has not disappeared; 
 	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
@@ -1314,7 +1314,7 @@ The criterion does not apply to the following elements:
 1. Increase the value of the font size (potentiometer at the bottom of the screen) until you reach a magnification of 200% (on some terminals, the potentiometer gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so check that the test is only carried out for a value of 200%).
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
-	- that all the texts in the interface have been enlarged ; 
+	- that all the texts in the interface have been enlarged; 
 	- that all the text in the interface remains legible and the functions usable;
 	- content has not disappeared; 
 	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
@@ -1334,8 +1334,8 @@ The criterion does not apply to the following elements:
 1. Activate the **Differentiate without colour** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Differentiate without colour*).
 1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or if present in the application, activate the replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
 1. Locate user interface components (links, buttons) with text embedded in a text environment (in a sentence, for example), identified only by colour (without any other formatting that distinguishes them from the rest of the text in which they are embedded).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the colours of the surrounding text and the interactive component on the mobile device, either : 
-	- by [broadcasting the screen of the mobile device on the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the colours of the surrounding text and the interactive component on the mobile device, either 
+	- by [broadcasting the screen of the mobile device on the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- by taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check that the contrast between the font colour of the component and the font colour of the surrounding text is at least 3:1.
 1. If this is the case, the criterion is validated.
@@ -1344,8 +1344,8 @@ The criterion does not apply to the following elements:
 
 1. If it exists in the application, activate the replacement mechanism to display the application with a sufficient contrast ratio.
 1. Locate user interface components (links, buttons) with text embedded in a text environment (in a sentence, for example) identified solely by colour (without any other formatting that distinguishes them from the rest of the text in which they are embedded).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the colours of the surrounding text and the interactive component on the mobile device, either : 
-	- by [broadcasting the screen of the mobile device on the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile) ;
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the colours of the surrounding text and the interactive component on the mobile device, either 
+	- by [broadcasting the screen of the mobile device on the computer](methodologie.md#diffuser-l-ecran-du-terminal-mobile);
 	- by taking [screenshots](methodologie.md#realiser-des-captures-d-ecran) of the elements to be evaluated (and importing them onto the computer).
 1. Check that the contrast between the font colour of the component and the font colour of the surrounding text is at least 3:1.
 1. If this is the case, the criterion is validated.
@@ -1353,7 +1353,7 @@ The criterion does not apply to the following elements:
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.4.1 Use of Colour*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
 #### [Criterion 8.4](#crit-8-4) [A] In each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-evident), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
 
@@ -1371,7 +1371,7 @@ The criterion does not apply to the following elements:
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.4.1 Use of Colour*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
 #### [Criterion 8.5](#crit-8-5) [A] In each screen, for each element receiving the focus, is the [focus point](glossaire.md#focus-point) visible? {id="crit-8-5"}
 
@@ -1416,8 +1416,8 @@ This applies to words or sets of words, text, information-carrying graphic eleme
 #### [Criterion 8.7](#crit-8-7) [AA] In each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#component-interface) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
 
 - **[Test 8.7.1](#test-8-7-1):** Can any additional content which becomes visible when the focus is taken or when a user interface component is hovered over be hidden by a user action without moving the focus or the mouse pointer (excluding special cases)? {id="test-8-7-1"}
-- **[Test 8.7.2](#test-8-7-2) :** Can any additional content which appears when a user interface component is hovered over be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
-- **[Test 8.7.3](#test-8-7-3) :** Does any additional content which appears when focused or when hovering over a user interface component meet one of these conditions (excluding special cases)? {id="test-8-7-3"}
+- **[Test 8.7.2](#test-8-7-2)** Can any additional content which appears when a user interface component is hovered over be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
+- **[Test 8.7.3](#test-8-7-3)** Does any additional content which appears when focused or when hovering over a user interface component meet one of these conditions (excluding special cases)? {id="test-8-7-3"}
 	- The additional content remains visible until the user removes the mouse pointer or the focus from the additional content and the user interface component that triggered its appearance;
 	- The additional content remains visible until the user performs an action that hides this content without moving the focus or mouse pointer of the user interface component that triggered its appearance;
 	- The additional content remains visible until it is no longer valid.
@@ -1436,15 +1436,15 @@ When the additional content does not mask or replace any information-bearing con
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Browse the screen and locate the additional content that appears when the focus is placed on a user interface component.
 1. Check that the additional content can be hidden using a keyboard key (the <kbd>ESC</kbd> key, for example).
-1. Check that the additional content remains visible : 
-	- until the focus is moved away from the user interface component and the additional content ;
+1. Check that the additional content remains visible 
+	- until the focus is moved away from the user interface component and the additional content;
 	- or as long as the focus is positioned on the user interface component or in the additional content;
 	- or as long as the additional content is valid. 
 1. Connect a **mouse**.
 1. Scan the screen with the mouse and locate the additional content that appears when a user interface component is hovered over.
 1. Check that the additional content can be hovered over with the mouse.
-1. Check that the additional content remains visible : 
-	- until the mouse pointer is moved away from the user interface component and the additional content ;
+1. Check that the additional content remains visible 
+	- until the mouse pointer is moved away from the user interface component and the additional content;
 	- or as long as the mouse pointer hovers over the user interface component or the additional content;
 	- or as long as the additional content is valid. 
 1. If this is the case, the criterion is validated.
@@ -1454,15 +1454,15 @@ When the additional content does not mask or replace any information-bearing con
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Browse the screen and locate the additional content that appears when the focus is placed on a user interface component.
 1. Check that the additional content can be hidden by a key on the keyboard (generally the key or combination of keys that will have been associated in *Switch Access* for the *Return* parameter)
-1. Check that the additional content remains visible : 
-	- until the focus is moved away from the user interface component and the additional content ;
-	- or as long as the focus is positioned on the user interface component or in the additional content ;
+1. Check that the additional content remains visible 
+	- until the focus is moved away from the user interface component and the additional content;
+	- or as long as the focus is positioned on the user interface component or in the additional content;
 	- or as long as the additional content is valid. 
 1. Connect a **mouse**.
 1. Scan the screen with the mouse and locate the additional content that appears when a user interface component is hovered over.
 1. Check that the additional content can be hovered over with the mouse.
-1. Check that the additional content remains visible : 
-	- until the mouse pointer is moved away from the user interface component and the additional content ;
+1. Check that the additional content remains visible 
+	- until the mouse pointer is moved away from the user interface component and the additional content;
 	- or as long as the mouse pointer hovers over the user interface component or the additional content;
 	- or as long as the additional content is valid. 
 1. If this is the case, the criterion is validated.
@@ -1470,9 +1470,9 @@ When the additional content does not mask or replace any information-bearing con
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.13 Content on mouseover or focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus) 
-- EN 301 549 V3.2.1 (2021-03) : *11.1.4.13 Content on Hover or Focus*.
+- EN 301 549 V3.2.1 (2021-03) *11.1.4.13 Content on Hover or Focus*.
 
-### [Topic 9](#topic-9) : Forms {id="topic-9"}
+### [Topic 9](#topic-9) Forms {id="topic-9"}
 
 #### [Criterion 9.1](#crit-9-1) [A] Does each form field have a visible label? {id="crit-9-1"}
 
@@ -1489,7 +1489,7 @@ When the additional content does not mask or replace any information-bearing con
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels)
-- EN 301 549 V3.2.1 (2021-03) : *11.2.4.6 Headings and Labels*.
+- EN 301 549 V3.2.1 (2021-03) *11.2.4.6 Headings and Labels*.
 
 #### [Criterion 9.2](#crit-9-2) [A] Does each form field have a label that is accessible to assistive technologies? {id="crit-9-2"}
 
@@ -1523,8 +1523,8 @@ When the additional content does not mask or replace any information-bearing con
 
 #### [Criterion 9.3](#crit-9-3) [A] Is each label associated with a form field relevant? {id="crit-9-3"}
 
-**[Test 9.3.1](#test-9-3-1) :** Does each label associated with a form field meet these conditions? {id="test-9-3-1"}
-- The label accessible to assistive technologies is relevant ;
+**[Test 9.3.1](#test-9-3-1)** Does each label associated with a form field meet these conditions? {id="test-9-3-1"}
+- The label accessible to assistive technologies is relevant;
 - The visible label is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1533,7 +1533,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
-1. Check that :
+1. Check that
 	- that the label returned by the screen reader is relevant (it allows you to understand the nature of the expected input);
 	- that the visible label is contained in the label returned by the screen reader.
 1. If this is the case, the criterion is validated.
@@ -1542,8 +1542,8 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate **voice control**.
 1. Locate all the form fields on the screen.
-1. Check that :
-	- that the label detected by the voice control (grey tooltip) is relevant (it allows you to understand the nature of the expected input) ;
+1. Check that
+	- that the label detected by the voice control (grey tooltip) is relevant (it allows you to understand the nature of the expected input);
 	- that the visible label is contained in the label detected by the voice control (grey tooltip).
 1. If this is the case, the criterion is validated.
 
@@ -1551,7 +1551,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
-1. Check that :
+1. Check that
 	- that the label returned by the screen reader is relevant (it allows you to understand the nature of the input required);
 	- that the visible label is contained in the label returned by the screen reader.
 1. If this is the case, the criterion is validated.
@@ -1574,12 +1574,12 @@ When the additional content does not mask or replace any information-bearing con
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)
-- EN 301 549 V3.2.1 (2021-03) : *11.3.3.2 Labels or Instructions (A)*.
+- EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
 
 #### [Criterion 9.5](#crit-9-5) [A] In each form, is the title of each button relevant? {id="crit-9-5"}
 
-**[Test 9.5.1](#test-9-5-1) :** Does each form button meet these conditions? {id="test-9-5-1"}
-- The title of the button accessible to assistive technologies is relevant ;
+**[Test 9.5.1](#test-9-5-1)** Does each form button meet these conditions? {id="test-9-5-1"}
+- The title of the button accessible to assistive technologies is relevant;
 - The visible label of the button is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1590,7 +1590,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
-1. Check that :
+1. Check that
 	- that the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
 	- that the visible label is contained in the label displayed by the screen reader.
 1. If this is the case, the criterion is validated.
@@ -1599,7 +1599,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate **voice control**.
 1. Locate the form buttons on the screen.
-1. Check that :
+1. Check that
 	- that the heading detected by the voice control (grey tooltip) is relevant (it allows you to understand the action of the button);
 	- that the visible label is contained in the label detected by the voice control (grey tooltip);
 1. If this is the case, the criterion is validated.
@@ -1608,7 +1608,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
-1. Check that :
+1. Check that
 	- that the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
 	- that the visible label is contained in the label displayed by the screen reader.
 1. If this is the case, the criterion is validated.
@@ -1630,7 +1630,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Locate the fields of the same kind on the screen that need to be grouped together (for example, the fields for entering the different sequences of digits in a credit card code).
-1. Check that :
+1. Check that
 	- when the focus is placed on the first field, information is displayed identifying the group to which the field belongs (although this is important for users, it is not required that the grouping information is displayed on each of the form fields, but only on at least the first field in the grouping);
 	- that the information returned is relevant, i.e. that it enables the nature of the grouping to be understood.
 1. If this is the case, the criterion is validated.
@@ -1642,14 +1642,14 @@ When the additional content does not mask or replace any information-bearing con
 
 #### [Criterion 9.7](#crit-9-7) [A] Are the mandatory form fields correctly identified (excluding special cases)? {id="crit-9-7"}
 
-**[Test 9.7.1](#test-9-7-1) :** Does each mandatory form field meet these conditions?  {id="test-9-7-1"}
-- The mandatory character is visible ;
+**[Test 9.7.1](#test-9-7-1)** Does each mandatory form field meet these conditions?  {id="test-9-7-1"}
+- The mandatory character is visible;
 - The mandatory character is accessible to assistive technologies.
 
 ##### Special case 
 
-The criterion does not apply when the form contains a single form field or indicates optional fields in a way that is :
-- visible ;
+The criterion does not apply when the form contains a single form field or indicates optional fields in a way that is
+- visible;
 - in the field label.
 
 If all the fields on a form are mandatory, the criterion remains applicable. 
@@ -1660,7 +1660,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 1. Activate the **screen reader**.
 1. Validate the form without entering any data in order to identify the mandatory fields.
-1. For each mandatory field, check :
+1. For each mandatory field, check
 	- that the information returned by the screen reader when focused on the field contains the compulsory character;
 	- a visible text near the field indicates that the form field is mandatory.
 1. If this is the case, the criterion is validated.
@@ -1668,12 +1668,12 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03) : *11.3.3.2 Labels or Instructions (A)*.
+- EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
 
 #### [Criterion 9.8](#crit-9-8) [A] For each mandatory form field, is the expected data type and/or format available? {id="crit-9-8"}
 
 **[Test 9.8.1](#test-9-8-1):** Does each mandatory form field meet these conditions? {id="test-9-8-1"}
-- The data type and/or format is visible ;
+- The data type and/or format is visible;
 - The data type and/or format is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1683,7 +1683,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in form input fields with values that are likely to cause input errors (e.g. enter an incorrectly formed *e-mail* address).
 1. Validate the form.
-1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check :
+1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check
 	- that the expected data type and/or format are rendered by the screen reader when focused on the field;
 	- a visible text near the field indicates the expected data type and/or format.
 1. If this is the case, the criterion is validated.
@@ -1691,12 +1691,12 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03) : *11.3.3.2 Labels or Instructions (A)*. 
+- EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*. 
 
 #### [Criterion 9.9](#crit-9-9) [A] In each form, are input errors accessible? {id="crit-9-9"}
 
-**[Test 9.9.1](#test-9-9-1) :** Does each input error meet these conditions? {id="test-9-9-1"}
-- The input error is visible ;
+**[Test 9.9.1](#test-9-9-1)** Does each input error meet these conditions? {id="test-9-9-1"}
+- The input error is visible;
 - The input error is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1706,15 +1706,15 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in form fields with values that are likely to cause input errors (leaving a field empty, entering a badly formed e-mail address, for example).
 1. Validate the form.
-1. For each field in error, check : 
-	- the error message is visible near the field ;
+1. For each field in error, check 
+	- the error message is visible near the field;
 	- that the error message is rendered by the screen reader when focused on the field.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification)
-- EN 301 549 V3.2.1 (2021-03) : *11.3.3.1.1 Error Identification (A)*.
+- EN 301 549 V3.2.1 (2021-03) *11.3.3.1.1 Error Identification (A)*.
 
 #### [Criterion 9.10](#crit-9-10) [AA] In each form, is the [input control](glossaire.md#formular-input-control) accompanied, if necessary, by suggestions of expected data types, formats or values? {id="crit-9-10"}
 
@@ -1746,17 +1746,17 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in the form.
 1. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
-	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled) ;
+	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled);
     - or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
-1. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can :
-    - retrieve the deleted data during input ;
+1. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
+    - retrieve the deleted data during input;
     - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data). 
-- EN 301 549 V3.2.1 (2021-03) : *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*.
+- EN 301 549 V3.2.1 (2021-03) *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*.
 
 #### [Criterion 9.12](#crit-9-12) [AA] For each field that expects [user-personal-data](glossaire.md#user-personal-data), is input facilitated? {id="crit-9-12"}
 
@@ -1771,7 +1771,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Access each of the form fields (tap on the input field, for example, to activate the appearance of input controls).
 1. For each field that expects personal data about the user, check that the [appropriate platform-native controls](glossaire.md#platform-native-controls) are presented to the user. For example
 	- for a field requesting the user's *e-mail* address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
-	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user ;
+	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user;
 	- and so on.
 1. Check that the form is compatible with an auto-fill mechanism. For example, iOS allows fields to be filled in automatically on the basis of the last values entered, depending on their nature (postal address, town, surname, first name, *e-mail* address). Check that relevant values are suggested for these fields.
 1. If so, the criterion is validated.
@@ -1781,7 +1781,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Access each of the form fields (tap on the input field, for example, to activate the appearance of input controls).
 1. For each field that expects personal data about the user, check that the [appropriate platform-native controls](glossaire.md#platform-native-controls) are presented to the user. For example
 	- for a field requesting the user's *e-mail* address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
-	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user ;
+	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user;
 	- and so on.
 1. Check that the form is compatible with an autofill mechanism. For example, Google provides an auto-fill system on Android. Go to *Settings &gt; System &gt; Languages and input &gt; Advanced settings &gt; Auto-complete service* (depending on the version of the platform, the path may be different) to activate and set the parameters.
 1. On the application form, check that the system offers you an option to fill in the data automatically.
@@ -1792,7 +1792,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - WCAG 2.1: [1.3.5 Identify the purpose of the input (AA)](https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.5.1 Identify Input Purpose (AA)*.
 
-### [Topic 10](#topic-10) : Navigation {id="topic-10"}
+### [Topic 10](#topic-10) Navigation {id="topic-10"}
 
 #### [Criteria 10.1](#crit-10-1) [A] In each screen, is the [tab order](glossaire.md#tab-order) on the keyboard [consistent](glossaire.md#coherent-read-order)? {id="crit-10-1"}
 
@@ -1803,14 +1803,14 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Navigate through all the elements on the screen and check that the tab order remains consistent. The tab order does not have to follow the natural reading order (left to right and top to bottom, for example) as long as the elements are accessible in a consistent order.
 1. Locate components on the screen (buttons for example) that update content (display hidden elements, dynamic content updates for example): 
-	1. activate the component ;
+	1. activate the component;
 	1. after displaying the updated content, check that the tabulation remains consistent.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order) 
-- EN 301 549 V3.2.1 (2021-03) : *11.2.4.3 Focus Order (A)*.
+- EN 301 549 V3.2.1 (2021-03) *11.2.4.3 Focus Order (A)*.
 
 #### [Criterion 10.2](#crit-10-2) [A] In each screen, is the order of playback by assistive technologies [consistent](glossaire.md#coherent-order-of-playback)? {id="crit-10-2"}
 
@@ -1821,7 +1821,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Navigate all the elements on the screen using the screen reader gestures and check that the order of access to the elements on the screen (interactive components and text) remains consistent. The order does not have to follow the natural reading order (from left to right and from top to bottom, for example) as long as the elements are accessible in a coherent order that does not cause comprehension problems.
 1. Locate components on the screen (buttons for example) that update content (display hidden elements, dynamic content updates for example): 
-	1. activate the component ;
+	1. activate the component;
 	1. after displaying the updated content, check that the screen reader's path remains consistent.
 1. If this is the case, the criterion is validated.
 
@@ -1844,8 +1844,8 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Navigate all the elements on the screen using the dedicated keyboard keys (by default in iOS, the <kbd>Tab</kbd> and arrow keys are used to navigate content).
-1. Check that :
-	 - from the current position, the next or previous focusable item can be reached using the keyboard navigation keys ;
+1. Check that
+	 - from the current position, the next or previous focusable item can be reached using the keyboard navigation keys;
 	 - the element currently in focus offers a method that can be used with the keyboard (for example, a keyboard shortcut) to reach the next or previous element.
 1. If this is the case, the criterion is validated.
 
@@ -1856,8 +1856,8 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. Navigate through all the elements on the screen using the keys on the keyboard (the keys or combination of keys that will have been associated in *Switch Access* for the "Go to next option" and "Go to previous option" parameters).
-1. Check that :
-	 - from the current position, the next or previous focusable element can be reached using the keyboard navigation key ;
+1. Check that
+	 - from the current position, the next or previous focusable element can be reached using the keyboard navigation key;
 	 - the element currently in focus offers a method that can be used with the keyboard (for example, a keyboard shortcut) to reach the next or previous element.
 1. If this is the case, the criterion is validated.
 
@@ -1872,7 +1872,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 #### [Criterion 10.4](#crit-10-4) [A] In each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user?  {id="crit-10-4"}
 
 **[Test 10.4.1](#test-10-4-1):** In each screen, does each keyboard shortcut using a single key (lower or upper case letter, punctuation, number or symbol) meet one of these conditions? {id="test-10-4-1"}
-- A mechanism is available to disable the keyboard shortcut ;
+- A mechanism is available to disable the keyboard shortcut;
 - A mechanism is available for configuring the keyboard shortcut key using the modifier keys<kbd>(Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.);
 - In the case of a user interface component, the associated keyboard shortcut can only be activated if the keyboard focus is on this component.
 
@@ -1883,8 +1883,8 @@ The keyboard trap test is then limited to checking that the component can be rea
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#externalkeyboard)).
 1. From the application, successively press each of the printable character keys (lowercase letters a-z, uppercase letters A-Z, numbers 0-9, all symbols such as $,\*,%,! etc. as long as they can be written on the screen).
 1. If the keyboard shortcut is associated with a single component isolated from the screen, check that it can only be activated if the keyboard focus is inside that component.
-1. Otherwise, if an action is triggered, check that there is a configuration item in the application which allows you to :
-	- disable these one-touch keyboard shortcuts ;
+1. Otherwise, if an action is triggered, check that there is a configuration item in the application which allows you to
+	- disable these one-touch keyboard shortcuts;
 	- configure these keyboard shortcuts by adding a modifier key ( <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.). 
 1. If this is the case, the criterion is validated.
 
@@ -1893,12 +1893,12 @@ The keyboard trap test is then limited to checking that the component can be rea
 - WCAG 2.1: [2.1.4 Keyboard shortcuts using characters (A)](https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.4.1 Character Key Shortcuts (A)*.
 
-### [Topic 11](#topic-11) : Consultation {id="topic-11"}
+### [Topic 11](#topic-11) Consultation {id="topic-11"}
 
 #### [Criterion 11.1](#crit-11-1) [A] For each screen, does the user have control over each [time limit modifying content](glossaire.md#procede-de-rafraichissement) (excluding special cases)? {id="crit-11-1"}
 
 **[Test 11.1.1](#test-11-1-1):** Does each time limit respect one of these conditions? {id="test-11-1-1"}
-- The user can stop or restart the refresh ;
+- The user can stop or restart the refresh;
 - The user can increase the time limit between two refreshes by at least ten times;
 - The user is warned that a refresh is imminent and has at least twenty seconds to increase the time limit before the next refresh;
 - The time limit between two refreshes is at least twenty hours.
@@ -1912,8 +1912,8 @@ The criterion does not apply when the time limit is essential, in particular whe
 ###### iOS and Android
 
 1. Identify processes that limit session time (e.g. after authentication).
-1. Check for :
-	- the presence of a mechanism enabling the user to remove the time limit (for example, a toggle button enabling the user to activate or deactivate the session time limit) ;
+1. Check for
+	- the presence of a mechanism enabling the user to remove the time limit (for example, a toggle button enabling the user to activate or deactivate the session time limit);
 	- or the presence of a mechanism allowing the user to increase the time limit (for example, a drop-down list with available connection time values);
 	- or the presence of a mechanism which warns the user of the imminence of the time limit and allows the user at least 20 seconds to increase the time limit (for example, the opening of a modal with a button allowing the time limit to be increased);
 	- or that the time limit is at least twenty hours.
@@ -1927,7 +1927,7 @@ The criterion does not apply when the time limit is essential, in particular whe
 #### [Criterion 11.2](#crit-11-2) [A] For each screen, can each process limiting the time of a session be stopped or deleted (excluding special cases)? {id="crit-11-2"}
 
 **[Test 11.2.1](#test-11-2-1):** Does each session time limiting process meet one of these conditions? {id="test-11-2-1"}
-- The user can remove the time limit ;
+- The user can remove the time limit;
 - The user can increase the time limit;
 - The time limit before the end of the session is at least twenty hours.
 
@@ -1940,8 +1940,8 @@ The criterion is not applicable when the time limit is essential, in particular 
 ###### iOS and Android
 
 1. Identify session time limits (for example, logging out of a customer account).
-1. Check :
-	- the presence of a mechanism enabling the user to remove the time limit (for example, a button with an explicit title) ;
+1. Check
+	- the presence of a mechanism enabling the user to remove the time limit (for example, a button with an explicit title);
 	- or the presence of a mechanism enabling the user to increase the time limit (for example, a parameter available in the application to manage session times);
 	- or that the duration of the session is at least twenty hours.
 1. If this is the case, the criterion is validated.
@@ -1974,7 +1974,7 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If the alternative is proposed in the application, check that the content complies with this framework.
 1. Otherwise, for documents in office format (pdf, odt, doc, docx, EPUB/DAISY): 
-	- upload the file ; 
+	- upload the file; 
 	- if the file is in PDF format, check that it complies with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If this is the case, the criterion is validated.
@@ -2045,7 +2045,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 1. Locate content on the screen that flashes or causes flash effects: animated graphic element, video or animation, formatting effect.
 1. Check that
-	- the frequency of the effect is less than 3 flashes per second ;
+	- the frequency of the effect is less than 3 flashes per second;
 	- or that the total surface area is less than 21824 pixels.
 1. If this is the case, the criterion is validated.
 
@@ -2053,8 +2053,8 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 : [2.3.1 No more than three flashes or below the critical threshold (A)](https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold).
-- EN 301 549 V3.2.1 (2021-03) : *11.2.3.1 Three Flashes or Below Threshold (A)*.
+- WCAG 2.1 [2.3.1 No more than three flashes or below the critical threshold (A)](https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold).
+- EN 301 549 V3.2.1 (2021-03) *11.2.3.1 Three Flashes or Below Threshold (A)*.
 
 #### [Criterion 11.8](#crit-11-8) [A] In each screen, is each moving or flashing content [controllable](glossaire.md#control-moving-or-flashing-content) by the user? {id="crit-11-8"}
 
@@ -2070,7 +2070,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 
 1. Identify moving or flashing content on the screen (e.g. a graphic element, formatting effect or carousel) that is triggered automatically when the screen loads or when content is displayed (see note).
 1. Check that:
-	- the total duration of movement or flashing is less than 5 seconds ;
+	- the total duration of movement or flashing is less than 5 seconds;
 	- or that there is a mechanism (e.g. a button) to stop and restart the movement or flashing;
 	- or the presence of a mechanism (e.g. a button) that allows the moving or flashing content to be hidden and displayed again;
 	- or the presence of a mechanism (such as a button) that allows the content to be displayed without movement or flashing.
@@ -2087,7 +2087,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 
 #### [Criterion 11.9](#crit-11-9) [AA] On each screen, is the content offered viewable regardless of screen orientation (portrait or landscape) (excluding special cases)? {id="crit-11-9"}
 
-**[Test 11.9.1](#test-11-9-1) :** On each screen, does all content meet these conditions? {id="test-11-9-1"}
+**[Test 11.9.1](#test-11-9-1)** On each screen, does all content meet these conditions? {id="test-11-9-1"}
 - Consultation is possible regardless of the screen orientation;
 - The content offered remains the same whatever the screen orientation, even though its presentation and the means of accessing it may differ.
 
@@ -2120,8 +2120,8 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
-- EN 301 549 V3.2.1 (2021-03) : *11.1.3.4 Orientation*.
+- WCAG 2.1 [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
+- EN 301 549 V3.2.1 (2021-03) *11.1.3.4 Orientation*.
 
 #### [Criterion 11.10](#crit-11-10) [A] In each screen, are the functionalities that can be activated using a [complex gesture](glossaire.md#complex-gestures-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-gestures-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
 
@@ -2135,8 +2135,8 @@ The criterion does not apply to the following elements:
 
 ###### iOS and Android
 
-1. Locate functions on the screen that require complex gestures (look for instructions in the interface or in documentation associated with the application), for example :
-	- using two or more fingers simultaneously ;
+1. Locate functions on the screen that require complex gestures (look for instructions in the interface or in documentation associated with the application), for example
+	- using two or more fingers simultaneously;
 	- tracing a trajectory (such as the *swipe* gesture).
 1. Check that there is an alternative method of performing the associated action using a simple gesture, for example pressing a single key on the keyboard or a button. 
 1. If this is the case, the criterion is validated.
@@ -2156,8 +2156,8 @@ The criterion does not apply to actions required by the platform.
 
 ###### iOS and Android
 
-1. Locate functions on the screen that require two or more actions to be performed simultaneously, for example : 
-	- using two or more keys on a keyboard at the same time ;
+1. Locate functions on the screen that require two or more actions to be performed simultaneously, for example 
+	- using two or more keys on a keyboard at the same time;
 	- having to say a voice command and touch the screen at the same time to perform an action.
 1. Check that the screen or application provides an alternative method of performing the action associated with a single action, for example pressing a button. 
 1. If this is the case, the criterion is validated.
@@ -2165,7 +2165,7 @@ The criterion does not apply to actions required by the platform.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A 
-- EN 301 549 V3.2.1 (2021-03) : *5.9 Simultaneous user actions*.
+- EN 301 549 V3.2.1 (2021-03) *5.9 Simultaneous user actions*.
 
 #### [Criterion 11.12](#crit-11-12) [A] In each screen, can actions triggered by a pointing device on a single point on the screen be cancelled (excluding special cases)? {id="crit-11-12"}
 
@@ -2190,7 +2190,7 @@ The criterion is not applicable when the functionality requires the expected beh
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: [2.5.2 Cancellation of pointer action (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation) 
-- EN 301 549 V3.2.1 (2021-03) : *11.2.5.2 Pointer Cancellation (A)*.
+- EN 301 549 V3.2.1 (2021-03) *11.2.5.2 Pointer Cancellation (A)*.
 
 #### [Criterion 11.13](#crit-11-13) [A] In each screen, can the functionalities involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
 
@@ -2200,7 +2200,7 @@ The criterion is not applicable when the functionality requires the expected beh
 
 ##### Special cases
 
-The criterion is not applicable when :
+The criterion is not applicable when
 - Motion is essential to the performance of the functionality (e.g. pedometer).
 - Motion detection is used to control functionality via an interface that is compatible with accessibility.
 
@@ -2209,8 +2209,8 @@ The criterion is not applicable when :
 ###### iOS and Android
 
 1. Locate functions on the screen that are triggered by a movement of the device or a gesture towards the device (for example, look for instructions in the interface or in documentation associated with the application that describe this type of triggering).
-1. Check that :
-	- that the functionality can be triggered without movement, for example by activating a button or a link ;
+1. Check that
+	- that the functionality can be triggered without movement, for example by activating a button or a link;
 	- and that the application provides a method for deactivating motion detection (for example, a parameter in the application).
 1. If this is the case, the criterion is validated.
 
@@ -2239,7 +2239,7 @@ The criterion is not applicable when the conversion format does not have the nec
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *5.4 Preservation of accessibility information during conversion*.
+- EN 301 549 V3.2.1 (2021-03) *5.4 Preservation of accessibility information during conversion*.
 
 #### [Criterion 11.15](#crit-11-15) [A] Is an alternative method available for each identification or control functionality of the application that relies on the use of [biological characteristics](glossaire.md#biological-characteristics) of the user? {id="crit-11-15"}
 
@@ -2252,7 +2252,7 @@ The criterion is not applicable when the conversion format does not have the nec
 ###### iOS and Android
 
 1. Identify the identification (authentication) and control functions on the screen that are based on the use of biological characteristics (e.g. voice recognition, fingerprint, facial recognition). 
-1. Check that there is an alternative method of performing the action, for example : 
+1. Check that there is an alternative method of performing the action, for example 
 	- for an authentication feature that uses fingerprint recognition, a button is available on the login screen to access password entry instead.
 	- for authentication functionality that involves voice recognition, the application also offers fingerprint recognition (if the alternative method also relies on a biological characteristic, it is desirable that it does not involve a similar biological characteristic. For example, if the initial method involves voice, the alternative method should not involve voice) 
 1. If this is the case, the criterion is validated.
@@ -2260,7 +2260,7 @@ The criterion is not applicable when the conversion format does not have the nec
 ##### Matches {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *5.3 Biometrics*.
+- EN 301 549 V3.2.1 (2021-03) *5.3 Biometrics*.
 
 #### [Criterion 11.16](#crit-11-16) [A] For each application that incorporates [key repeat](glossaire.md#key-repeat) functionality, is the repeat adjustable (excluding special cases)? {id="crit-11-16"}
 
@@ -2279,25 +2279,25 @@ The criterion does not apply:
 ###### iOS and Android
 
 1. Identify the presence of a key repeat function in the application (for example, look for instructions in the interface or in documentation associated with the application).
-1. Check that the delay before the repeat function is activated (the time between the very first key press to be repeated and the repeat function being activated) :
-	- is at least 2 seconds ;
+1. Check that the delay before the repeat function is activated (the time between the very first key press to be repeated and the repeat function being activated)
+	- is at least 2 seconds;
 	- or that there is a method for setting it to at least 2 seconds (for example, an input field in the application's user parameters). 
-1. Check that the delay between two repetitions : 
-	- is at least 2 seconds ;
+1. Check that the delay between two repetitions 
+	- is at least 2 seconds;
 	- or that there is a method for setting it to at least 2 seconds (for example, an input field in the application's user parameters).
 1. If this is the case, the test is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *5.7 Key repeat*.
+- EN 301 549 V3.2.1 (2021-03) *5.7 Key repeat*.
 
 ### [Topic 12](#topic-12): Documentation and accessibility features {id="topic-12"}
 
 #### [Criterion 12.1](#crit-12-1) [AA] Does the application documentation describe the [accessibility features](glossaire.md#accessibility-functionality) of the application and their use? {id="crit-12-1"}
 
 **[Test 12.1.1](#test-12-1-1):** Does the application documentation include at least the following elements? {id="test-12-1-1"}
-- A description of the application's accessibility features ;
+- A description of the application's accessibility features;
 - An explanation of how the application's accessibility features are used; 
 - Information about the accessibility of the platform and its compatibility with assistive technologies.
 
@@ -2305,13 +2305,13 @@ The criterion does not apply:
 
 ###### iOS and Android
 
-1. Identify the presence of documentation in the application, for example : 
-	- a help screen ;
-	- an [accessibility statement](../obligations.html#accessibility-statement) ; 
+1. Identify the presence of documentation in the application, for example 
+	- a help screen;
+	- an [accessibility statement](../obligations.html#accessibility-statement); 
 	- any other content that serves as documentation.
 1. Identify the presence of accessibility features in the application.
-1. Check that the documentation includes : 
-	- a description of the application's accessibility features, for example : 
+1. Check that the documentation includes 
+	- a description of the application's accessibility features, for example 
 		- accessibility parameters integrated into the application, such as colour management, font sizes, animation management, etc;
 		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration (https://developer.apple.com/videos/play/wwdc2020/10116/)); 
 		- gestures or device movements that trigger functions;  
@@ -2324,7 +2324,7 @@ The criterion does not apply:
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *12.1.1 Accessibility and compatibility features*.
+- EN 301 549 V3.2.1 (2021-03) *12.1.1 Accessibility and compatibility features*.
 
 #### [Checkpoint 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the documentation, the entire path that enables it to be activated meets the accessibility needs of the users who require it. Is this rule respected (excluding special cases)? {id="crit-12-2"}
 
@@ -2336,11 +2336,11 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Locate the accessibility features described in the documentation in the application. For example : 
-	- a feature that provides access to a simplified language version of the application ;
+1. Locate the accessibility features described in the documentation in the application. For example 
+	- a feature that provides access to a simplified language version of the application;
 	- a feature that locks the orientation of a screen.
-1. Check that it is possible for users who need :
-	- perceive the presence of this functionality in the interface ;
+1. Check that it is possible for users who need
+	- perceive the presence of this functionality in the interface;
 	- activate this functionality. For example, if a functionality is available that allows access to a simplified language version of the application, then all the components that make up the path to the functionality must be in simplified language.
 1. If this is the case, the criterion is validated. 
 
@@ -2356,8 +2356,8 @@ The criterion does not apply to features integrated into the platform.
 ###### iOS
 
 1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning the accessibility features provided by iOS](https://www.apple.com/fr/accessibility/?afid=p238%7CsfxtLHWp4-dc_mtid_2092576239937_pcrid_483515907294_pgrid_110868765821_&amp;cid=wwa-fr-kwgo-features--slid---productid---Accessibility-Accessibility-)).
-1. Check that the application does not prevent their use, for example :
-	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features such as the screen reader or other touch-based features from working properly ;
+1. Check that the application does not prevent their use, for example
+	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features such as the screen reader or other touch-based features from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted; 
 	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([VoiceOver can be used with a keyboard](https://support.apple.com/fr-fr/guide/iphone/iph6c494dc6/ios) for example, the proposed shortcuts must not interfere);
 	- or any other application functionality.
@@ -2366,7 +2366,7 @@ The criterion does not apply to features integrated into the platform.
 ###### Android
 
 1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning accessibility features provided by Android](https://support.google.com/accessibility/android/answer/6006564?hl=fr)).
-1. Check that the application does not prevent their use, for example :
+1. Check that the application does not prevent their use, for example
 	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features, such as the screen reader or other touch-based features, from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted;
 	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([TalkBack can be used with a keyboard](https://support.google.com/accessibility/android/answer/6110948?hl=fr&amp;ref_topic=10602074) for example, the proposed shortcuts must not interfere); 
@@ -2376,7 +2376,7 @@ The criterion does not apply to features integrated into the platform.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *11.6.2 No disruption of accessibility features*.
+- EN 301 549 V3.2.1 (2021-03) *11.6.2 No disruption of accessibility features*.
 
 #### [Criterion 12.4](#crit-12-4) [A] Is the application documentation accessible? {id="crit-12-4"}
 
@@ -2384,12 +2384,12 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Identify the presence of documentation in the application, for example : 
-	- a help screen ;
-	- an [accessibility statement](../obligations.html#accessibility-statement) ; 
+1. Identify the presence of documentation in the application, for example 
+	- a help screen;
+	- an [accessibility statement](../obligations.html#accessibility-statement); 
 	- any other content that acts as documentation (this could be a pdf document or an external HTML page readable in a web browser).
 1. If this is the case, check for each item of documentation: 
-	- if it is a web page, that it complies with [RAWeb1](../raweb1/criteres.html) ; 
+	- if it is a web page, that it complies with [RAWeb1](../raweb1/criteres.html); 
 	- if it is an office document in PDF format, that it complies with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
 	- if it is an office document in another format, that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1;
 	- if it is an application screen, that the present framework is complied with (the **[Obligations](../obligations.html)** page also details that screens relating to documentation must be included in the evaluation sample).
@@ -2400,7 +2400,7 @@ The criterion does not apply to features integrated into the platform.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*.
 
-### [Topic 13](#topic-13) : Editing tools {id="topic-13"}
+### [Topic 13](#topic-13) Editing tools {id="topic-13"}
 
 #### [Criterion 13.1](#crit-13-1) [A] Can the [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) required to create compliant content? {id="crit-13-1"}
 
@@ -2409,9 +2409,9 @@ The criterion does not apply to features integrated into the platform.
 ###### iOS and Android
 
 1. Locate the editing functions in the tool (for example, a text editor, but it could also be a media library or any other interface that lets you enter text or define properties).
-1. Check that it is possible to define the accessibility information needed to make the content RAWeb-compliant. For example : 
+1. Check that it is possible to define the accessibility information needed to make the content RAWeb-compliant. For example 
 	 - defining the text alternative for an image from the text editor or a media library;
-	 - define a link title ;
+	 - define a link title;
 	 - etc.
 1. If this is the case, the criterion is validated.
 
@@ -2426,7 +2426,7 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Identify the presence in the tool of help with creating accessible content. This may include : 
+1. Identify the presence in the tool of help with creating accessible content. This may include 
 	- user documentation that explains how to define accessibility properties for each content item; 
 	- automatic or semi-automatic tests available from the editing functions; 
 	- manual tests available from the editing functions to guide authors in detecting errors.
@@ -2450,8 +2450,8 @@ The criterion is not applicable when the destination format does not allow the a
 
 1. From the editing functions (a text editor, but it can also be a media library or any other interface that lets you enter text or define properties), enter the types of content proposed by the editor (title, list, table, image, etc.). Also use the various parameters for defining accessibility information (enter the text alternative for an image, add a description to a link, etc.)
 1. Save your entries.
-1. View the generated content : 
-	- in the editing function (for example, in the text editor) ; 
+1. View the generated content 
+	- in the editing function (for example, in the text editor); 
 	- in the content publication interface (for example, the publication web page).
 1. Check that 
 	- that accessibility information (e.g. alternative image, title levels) is preserved in the generated content;
@@ -2472,11 +2472,11 @@ The criterion is not applicable when the destination format does not allow the a
 1. Identify the presence of automatic or semi-automatic test functions in the tool.
 1. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
 1. Activate the test functions.
-1. Check that : 
-	- that the tool automatically repairs the error ;
+1. Check that 
+	- that the tool automatically repairs the error;
     - or that the tool provides the author with repair suggestions.
-1. In the case of a semi-automatic test, check : 
-	- the tool provides decision support and repair suggestions ;
+1. In the case of a semi-automatic test, check 
+	- the tool provides decision support and repair suggestions;
     - or that the tool provides the author with explanations enabling him to carry out the repair.
 1. If this is the case, the criterion is validated.
 
@@ -2525,11 +2525,11 @@ The criterion is not applicable when the destination format does not allow the a
 
 1. Identify the availability of a help desk from the application.
 1. If this is the case, look for documentation in the application, for example: 
-	- a help screen ;
-	- an [accessibility statement](../obligations.html#accessibility-statement) ; 
+	- a help screen;
+	- an [accessibility statement](../obligations.html#accessibility-statement); 
 	- any other content that serves as documentation.
-1. Identify the presence in the documentation of : 
-	- a description of the application's accessibility features, for example : 
+1. Identify the presence in the documentation of 
+	- a description of the application's accessibility features, for example 
 		- accessibility parameters built into the application, such as colour management, font sizes, animation management, etc;
 		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration (https://developer.apple.com/videos/play/wwdc2020/10116/)); 
 		- gestures or device movements that trigger functions;  
@@ -2552,7 +2552,7 @@ The criterion is not applicable when the destination format does not allow the a
 ###### iOS and Android
 
 1. Identify the presence of a help desk in the application.
-1. If so, check that the help desk can be used by all people with disabilities. It may be useful to search the application documentation to find this information. For example, if the help desk is available from a telephone number, check that there are alternative means for users who cannot express themselves orally (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example : 
+1. If so, check that the help desk can be used by all people with disabilities. It may be useful to search the application documentation to find this information. For example, if the help desk is available from a telephone number, check that there are alternative means for users who cannot express themselves orally (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example 
 	- instant messaging, which provides an equivalent service (real-time dialogue with a human operator); 
 	- the provision of simultaneous written or visual translation of oral or audio information, or the provision of a sign language interpreter (use of a relay service).
 1. If this is the case, the criterion is validated.
@@ -2560,9 +2560,9 @@ The criterion is not applicable when the destination format does not allow the a
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *12.2.3 Effective communication*.
+- EN 301 549 V3.2.1 (2021-03) *12.2.3 Effective communication*.
 
-### [Topic 15](#topic-15) : Real-time communication {id="topic-15"}
+### [Topic 15](#topic-15) Real-time communication {id="topic-15"}
 
 #### [Criterion 15.1](#crit-15-1) [A] For each [bidirectional oral communication application](glossaire.md#bidirectional-oral-communication-application), is the application capable of encoding and decoding this communication with a frequency range whose upper limit is at least 7 000 Hz? {id="crit-15-1"}
 
@@ -2576,8 +2576,8 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.1 Audio bandwidth for speech*.
+- WCAG 2.1 N/A
+- EN 301 549 V3.2.1 (2021-03) *6.1 Audio bandwidth for speech*.
 
 #### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way speech communication](glossaire.md#bidirectional-speech-communication-application) have [real-time-text-communication](glossaire.md#real-time-text-communication) functionality? {id="crit-15-2"}
 
@@ -2635,12 +2635,12 @@ The criterion is not applicable when the two-way oral communication functionalit
 1. Activate the application and the application's real-time text (RTT) functionality on two terminals and connect them to the same session.
 1. Send a text message from both terminals to obtain messages with different statuses (sent and received).
 1. Check that 
-	- that sent and received messages are visually separated (for example, sent messages are in one window and received messages in another, or there is a line break between each received and sent message if they are presented in the same window) ;
+	- that sent and received messages are visually separated (for example, sent messages are in one window and received messages in another, or there is a line break between each received and sent message if they are presented in the same window);
 	- it is visually possible to distinguish between messages sent and messages received (for example, the words "Sent" near a message sent or "Received" near a message received);
 	- if the interlocutor is identified for spoken communication (for example, the avatar of the person speaking), that the authors of written messages are also identified (for example, the presence of a name or an identifier preceding the message).
 1. Activate the **screen reader** and navigate through the messages.
-1. Check that the screen reader displays :
-	- the sent or received status of each message ; 
+1. Check that the screen reader displays
+	- the sent or received status of each message; 
 	- identification of the author of the message.
 1. If this is the case, the criterion is validated. 
 
@@ -2652,7 +2652,7 @@ The criterion is not applicable when the two-way oral communication functionalit
 #### [Criterion 15.5](#crit-15-5) [A] For each [bidirectional oral communication application](glossaire.md#application-de-communication-orale-bidirectionnelle), is a visual indicator of oral activity present? {id="crit-15-5"} 
 
 - **[Test 15.5.1](#test-15-5-1):** For each real-time text (RTT) and spoken communication application, is there a visual indicator of spoken activity?  {id="test-15-5-1"}
-- **[Test 15.5.2](#test-15-5-2) :** For each two-way spoken communication application that has real-time video, is there a visual indicator of spoken activity? {id="test-15-5-2"}
+- **[Test 15.5.2](#test-15-5-2)** For each two-way spoken communication application that has real-time video, is there a visual indicator of spoken activity? {id="test-15-5-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2681,8 +2681,8 @@ No evaluation method is proposed for this criterion.
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1 : N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.2.3 Interoperability*.
+- WCAG 2.1 N/A
+- EN 301 549 V3.2.1 (2021-03) *6.2.3 Interoperability*.
 
 #### [Criterion 15.7](#crit-15-7) [AA] For each application that supports [real-time text (RTT) communication](glossaire.md#real-time-text-communication), the transmission delay for each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
 
@@ -2698,7 +2698,7 @@ No evaluation method is proposed for this criterion.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.2.4 RTT Responsiveness*.
+- EN 301 549 V3.2.1 (2021-03) *6.2.4 RTT Responsiveness*.
 
 #### [Criterion 15.8](#crit-15-8) [A] For each telecommunication application, is the identification of the party initiating a call accessible? {id="crit-15-8"}
 
@@ -2712,15 +2712,15 @@ No evaluation method is proposed for this criterion.
 
 1. Activate the **screen reader** from a terminal.
 1. From a second terminal, make a call to the first terminal.
-1. When the incoming call appears, check :
-	- that the caller identification is available in visible text format (for example, a name or a telephone number) ;
+1. When the incoming call appears, check
+	- that the caller identification is available in visible text format (for example, a name or a telephone number);
 	- and that this identification is correctly rendered by **the screen reader**.
 1. If this is the case, the criterion is validated. 
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.3 Caller ID*.
+- EN 301 549 V3.2.1 (2021-03) *6.3 Caller ID*.
 
 #### [Criterion 15.9](#crit-15-9) [A] For each [two-way spoken communication](glossaire.md#two-way-spoken-communication-application) application that provides caller identification, is there a way to present this identification for sign language users? {id="crit-15-9"}
 
@@ -2735,7 +2735,7 @@ No evaluation method is proposed for this criterion.
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.5.6 Speaker identification with video (sign language) communication*.
+- EN 301 549 V3.2.1 (2021-03) *6.5.6 Speaker identification with video (sign language) communication*.
 
 #### [Criterion 15.10](#crit-15-10) [A] For each [two-way speech communication](glossaire.md#bidirectional-speech-communication-application) application that has [voice-based services](glossaire.md#voice-based-services), are these services usable without the need to listen or speak? {id="crit-15-10"}
 
@@ -2743,24 +2743,24 @@ No evaluation method is proposed for this criterion.
 
 ###### iOS and Android
 
-1. Identify the features available (apart from the oral communication feature) that are based on listening to information or issuing commands, for example :
-	- voicemail ; 
-	- an automatic switchboard (e.g. one that requires you to say a number between 1 and 4 to be redirected to a service) ;
+1. Identify the features available (apart from the oral communication feature) that are based on listening to information or issuing commands, for example
+	- voicemail; 
+	- an automatic switchboard (e.g. one that requires you to say a number between 1 and 4 to be redirected to a service);
 	- or any other interactive voice server.
 1. Check that: 
-	- that the information is available without having to listen or speak ; 
+	- that the information is available without having to listen or speak; 
 	- that the actions can be carried out without having to listen or speak, or that there is an alternative to the functionality that can be used without having to listen or speak.
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
-- EN 301 549 V3.2.1 (2021-03) : *6.4 Alternatives to voice-based services*.
+- EN 301 549 V3.2.1 (2021-03) *6.4 Alternatives to voice-based services*.
 
 #### [Criterion 15.11](#crit-15-11) [AA] For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that has real-time video, is the quality of the video sufficient? {id="crit-15-11"}
 
 **[Test 15.11.1](#test-15-11-1):** For each two-way spoken communication application that has real-time video, are the following conditions met? {id="test-15-11-1"}
-- The video resolution is at least [QVGA](glossaire.md#qvga) ;
+- The video resolution is at least [QVGA](glossaire.md#qvga);
 - The frame rate is at least 20 frames per second;
 - The time lag between the video and the spoken word must not exceed 100 ms.
 

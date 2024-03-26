@@ -78,7 +78,7 @@ The [Computer test environment](environment.html) has been modified to bring it 
 - Internet Explorer has been removed, as Microsoft has no longer provided support for it since 2022.
 - Chrome and Edge have been added. Edge now replaces Internet Explorer on Microsoft Windows, and uses the same engine as Chrome.
 
-These choices are also supported by usage data, in particular :
+These choices are also supported by usage data, in particular
 - the [WebAIM 2023] survey (https://webaim.org/projects/screenreadersurvey9/#browsercombos), which identifies Chrome and Edge as the browsers most used by blind and partially-sighted people; 
 - the 2023 assessment of [browser market share in Luxembourg by Statcounter GlobalStats](https://gs.statcounter.com/browser-market-share/all/luxembourg/2023).
 
@@ -111,7 +111,7 @@ In the glossary, the entry "[Detailed description (image)](glossaire.html#descri
 
 The test [4.4.1](criteres.html#test-4-4-1) has been rewritten to specify the test elements, which were deemed to be too implicit.
 
-Test 4.4.1 in the RGAA 4.1.2 : 
+Test 4.4.1 in the RGAA 4.1.2 
 
 <blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised subtitles, are these subtitles relevant?</blockquote>
 
@@ -140,33 +140,33 @@ The framework elements affected are as follows:
 
 New WCAG techniques and failures have been added for certain RAWeb criteria.
 
-- Criterion [3.1](criteres.html#crit-3-1) : [F13](https://www.w3.org/WAI/WCAG21/Techniques/failures/F13)
-- Criterion [3.2](criteres.html#crit-3-2) : [F83](https://www.w3.org/WAI/WCAG21/Techniques/failures/F83)
-- Criterion [3.3](criteres.html#crit-3-3) : [G136](https://www.w3.org/WAI/WCAG21/Techniques/general/G136), [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209)
-- Criterion [6.1](criteres.html#crit-6-1) : [C7](https://www.w3.org/WAI/WCAG21/Techniques/css/C7), [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211), [H33](https://www.w3.org/WAI/WCAG21/Techniques/html/H33), [H77](https://www.w3.org/WAI/WCAG21/Techniques/html/H77)
-- Criterion [7.1](criteres.html#crit-7-1) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
-- Criteria [7.5](criteres.html#crit-7-5) : [F103](https://www.w3.org/WAI/WCAG21/Techniques/failures/F103)
-- Criterion [8.6](criteres.html#crit-8-6) : [F25](https://www.w3.org/WAI/WCAG21/Techniques/failures/F25)
-- Criterion [9.2](criteres.html#crit-9-2) : [H97](https://www.w3.org/WAI/WCAG21/Techniques/html/H97), [H101](https://www.w3.org/WAI/WCAG21/Techniques/html/H101)
-- Criteria [10.4](criteres.html#crit-10-4) : [F94](https://www.w3.org/WAI/WCAG21/Techniques/failures/F94), [G142](https://www.w3.org/WAI/WCAG21/Techniques/general/G142), [G178](https://www.w3.org/WAI/WCAG21/Techniques/general/G178)
-- Criterion [10.7](criteres.html#crit-10-7) : [C40](https://www.w3.org/WAI/WCAG21/Techniques/css/C40).
-- Criterion [10.11](criteres.html#crit-10-11) : [C31](https://www.w3.org/WAI/WCAG21/Techniques/css/C31), [C32](https://www.w3.org/WAI/WCAG21/Techniques/css/C32), [C33](https://www.w3.org/WAI/WCAG21/Techniques/css/C33), [C38](https://www.w3.org/WAI/WCAG21/Techniques/css/C38), [F102](https://www.w3.org/WAI/WCAG21/Techniques/failures/F102), [G206](https://www.w3.org/WAI/WCAG21/Techniques/general/G206)
-- Criteria [10.12](criteres.html#crit-10-12) : [F104](https://www.w3.org/WAI/WCAG21/Techniques/failures/F104)
-- Criteria [10.13](criteres.html#crit-10-13) : [SCR39](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39)
-- Criteria [11.1](criteres.html#crit-11-1) : [G167](https://www.w3.org/WAI/WCAG21/Techniques/general/G167)
-- Criteria [11.2](criteres.html#crit-11-2) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
-- Criterion [11.9](criteres.html#crit-11-9) : [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
-- Criterion [11.10](criteres.html#crit-11-10) : [G139](https://www.w3.org/WAI/WCAG21/Techniques/general/G139)
-- Criterion [11.13](criteres.html#crit-11-13) : [F107](https://www.w3.org/WAI/WCAG21/Techniques/failures/F107)
-- Criteria [12.1](criteres.html#crit-12-1) : [G185](https://www.w3.org/WAI/WCAG21/Techniques/general/G185)
-- Criterion [13.9](criteres.html#crit-13-9) : [F97](https://www.w3.org/WAI/WCAG21/Techniques/failures/F97), [F100](https://www.w3.org/WAI/WCAG21/Techniques/failures/F100), [G214](https://www.w3.org/WAI/WCAG21/Techniques/general/G214)
-- Criterion [13.10](criteres.html#crit-13-10) : [F105](https://www.w3.org/WAI/WCAG21/Techniques/failures/F105)
-- Criterion [13.11](criteres.html#crit-13-11) : [F101](https://www.w3.org/WAI/WCAG21/Techniques/failures/F101), [G210](https://www.w3.org/WAI/WCAG21/Techniques/general/G210), [G212](https://www.w3.org/WAI/WCAG21/Techniques/general/G212)
-- Criterion [13.12](criteres.html#crit-13-12) : [F106](https://www.w3.org/WAI/WCAG21/Techniques/failures/F106), [G213](https://www.w3.org/WAI/WCAG21/Techniques/general/G213)
+- Criterion [3.1](criteres.html#crit-3-1) [F13](https://www.w3.org/WAI/WCAG21/Techniques/failures/F13)
+- Criterion [3.2](criteres.html#crit-3-2) [F83](https://www.w3.org/WAI/WCAG21/Techniques/failures/F83)
+- Criterion [3.3](criteres.html#crit-3-3) [G136](https://www.w3.org/WAI/WCAG21/Techniques/general/G136), [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209)
+- Criterion [6.1](criteres.html#crit-6-1) [C7](https://www.w3.org/WAI/WCAG21/Techniques/css/C7), [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211), [H33](https://www.w3.org/WAI/WCAG21/Techniques/html/H33), [H77](https://www.w3.org/WAI/WCAG21/Techniques/html/H77)
+- Criterion [7.1](criteres.html#crit-7-1) [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
+- Criteria [7.5](criteres.html#crit-7-5) [F103](https://www.w3.org/WAI/WCAG21/Techniques/failures/F103)
+- Criterion [8.6](criteres.html#crit-8-6) [F25](https://www.w3.org/WAI/WCAG21/Techniques/failures/F25)
+- Criterion [9.2](criteres.html#crit-9-2) [H97](https://www.w3.org/WAI/WCAG21/Techniques/html/H97), [H101](https://www.w3.org/WAI/WCAG21/Techniques/html/H101)
+- Criteria [10.4](criteres.html#crit-10-4) [F94](https://www.w3.org/WAI/WCAG21/Techniques/failures/F94), [G142](https://www.w3.org/WAI/WCAG21/Techniques/general/G142), [G178](https://www.w3.org/WAI/WCAG21/Techniques/general/G178)
+- Criterion [10.7](criteres.html#crit-10-7) [C40](https://www.w3.org/WAI/WCAG21/Techniques/css/C40).
+- Criterion [10.11](criteres.html#crit-10-11) [C31](https://www.w3.org/WAI/WCAG21/Techniques/css/C31), [C32](https://www.w3.org/WAI/WCAG21/Techniques/css/C32), [C33](https://www.w3.org/WAI/WCAG21/Techniques/css/C33), [C38](https://www.w3.org/WAI/WCAG21/Techniques/css/C38), [F102](https://www.w3.org/WAI/WCAG21/Techniques/failures/F102), [G206](https://www.w3.org/WAI/WCAG21/Techniques/general/G206)
+- Criteria [10.12](criteres.html#crit-10-12) [F104](https://www.w3.org/WAI/WCAG21/Techniques/failures/F104)
+- Criteria [10.13](criteres.html#crit-10-13) [SCR39](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39)
+- Criteria [11.1](criteres.html#crit-11-1) [G167](https://www.w3.org/WAI/WCAG21/Techniques/general/G167)
+- Criteria [11.2](criteres.html#crit-11-2) [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
+- Criterion [11.9](criteres.html#crit-11-9) [F96](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211)
+- Criterion [11.10](criteres.html#crit-11-10) [G139](https://www.w3.org/WAI/WCAG21/Techniques/general/G139)
+- Criterion [11.13](criteres.html#crit-11-13) [F107](https://www.w3.org/WAI/WCAG21/Techniques/failures/F107)
+- Criteria [12.1](criteres.html#crit-12-1) [G185](https://www.w3.org/WAI/WCAG21/Techniques/general/G185)
+- Criterion [13.9](criteres.html#crit-13-9) [F97](https://www.w3.org/WAI/WCAG21/Techniques/failures/F97), [F100](https://www.w3.org/WAI/WCAG21/Techniques/failures/F100), [G214](https://www.w3.org/WAI/WCAG21/Techniques/general/G214)
+- Criterion [13.10](criteres.html#crit-13-10) [F105](https://www.w3.org/WAI/WCAG21/Techniques/failures/F105)
+- Criterion [13.11](criteres.html#crit-13-11) [F101](https://www.w3.org/WAI/WCAG21/Techniques/failures/F101), [G210](https://www.w3.org/WAI/WCAG21/Techniques/general/G210), [G212](https://www.w3.org/WAI/WCAG21/Techniques/general/G212)
+- Criterion [13.12](criteres.html#crit-13-12) [F106](https://www.w3.org/WAI/WCAG21/Techniques/failures/F106), [G213](https://www.w3.org/WAI/WCAG21/Techniques/general/G213)
 
 Other techniques and failures have been deleted.
-- Criterion [1.2](criteres.html#crit-1-2) : deletion of the [ARIA10](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10) link. 
+- Criterion [1.2](criteres.html#crit-1-2) deletion of the [ARIA10](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10) link. 
 - Checkpoint [1.6](criteres.html#crit-1-6): link [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45) has been removed. 
 - Checkpoint [4.8](criteres.html#crit-4-8): link removal [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35). 
 - Checkpoint [8.1](criteres.html#crit-8-1): delete links [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192).
-- Criterion [8.2](criteres.html#crit-8-2) : deletion of links [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
+- Criterion [8.2](criteres.html#crit-8-2) deletion of links [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).

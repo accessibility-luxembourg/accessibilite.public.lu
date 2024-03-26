@@ -2,7 +2,7 @@
 title: Controlled environment
 ---
 
-Any environment in which access to information, technologies, conditions of use and user profiles can be known and controlled. The main elements whose control is essential are :
+Any environment in which access to information, technologies, conditions of use and user profiles can be known and controlled. The main elements whose control is essential are
 
 - Browser type and version;
 - Supported technologies, their version and activation (JavaScript, WAI-ARIA, etc.);

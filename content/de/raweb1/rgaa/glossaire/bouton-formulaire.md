@@ -23,8 +23,8 @@ The button label can be of six types:
 
 Important note: when several of these techniques are present on the same button, the calculation of the "accessible name", i.e. what will be rendered, follows a strict order:
 
-- `aria-labelledby` ;
-- Otherwise `aria-label` ;
+- `aria-labelledby`;
+- Otherwise `aria-label`;
 - Otherwise `alt` for `image` <span lang="en">inputs</span>;
 - Otherwise `value` for `submit`, `reset` or `button` <span lang="en">input</span>;
 - Otherwise the content of the `<button>` tag;

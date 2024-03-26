@@ -1,9 +1,9 @@
 ### Notions of disability and digital accessibility
 
 <blockquote><p>Disability is not simply a health problem. It is a complex phenomenon resulting from the interaction between a person's physical characteristics and the characteristics of the society in which they live. To overcome the difficulties faced by people with disabilities, interventions are needed to remove environmental and social barriers</p><footer>World Health Organisation</footer></blockquote>
-Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e. :
+Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
 
-- perceptible: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout) ;
+- perceptible: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
 - usable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; allowing the user sufficient time to read and use the content; not designing content that is likely to cause epileptic seizures;
 - understandable: for example, ensuring that pages function in a predictable way; helping users to correct input errors;
 - and robust: for example, optimising compatibility with current and future uses, including assistive technologies.
@@ -14,10 +14,10 @@ Digital accessibility involves making websites and mobile applications accessibl
 
 According to Articles 1 and 2 of the [Act of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this Act are as follows:
 
-- the State ;
-- municipalities ;
-- bodies governed by public law. According to Article 2, letter d), of the amended law of 8 April 2018 on public contracts, these are bodies with all the following characteristics :
-    - it has been set up specifically to meet needs in the general interest that are not of an industrial or commercial nature ;
+- the State;
+- municipalities;
+- bodies governed by public law. According to Article 2, letter d), of the amended law of 8 April 2018 on public contracts, these are bodies with all the following characteristics
+    - it has been set up specifically to meet needs in the general interest that are not of an industrial or commercial nature;
     - it has legal personality; and
     - it is financed for the most part by the State, local authorities or other bodies governed by public law, or its management is subject to supervision by these authorities or bodies, or its administrative, management or supervisory body is made up of members, more than half of whom are appointed by the State, local authorities or other bodies governed by public law.
     - associations formed by one or more of these authorities or one or more of these bodies governed by public law, if these associations have been created specifically to meet needs in the general interest that are not of an industrial or commercial nature;
@@ -41,7 +41,7 @@ Certain content is exempt from the accessibility obligation and falls outside th
 - time-based media broadcast live;
 - maps and online mapping services, provided that the essential information is provided in an accessible digital form for maps intended for navigation;
 - third-party content that is not funded, developed by or under the control of the public sector body concerned;
-- reproductions of items from heritage collections that cannot be made fully accessible due to :
+- reproductions of items from heritage collections that cannot be made fully accessible due to
     - the accessibility requirements are incompatible with the preservation of the item concerned or the authenticity of the reproduction, for example in terms of contrast; or
     - the unavailability of automated and cost-effective solutions that would enable the text of manuscripts or other items in heritage collections to be easily transcribed and rendered in the form of content compatible with accessibility requirements;
 - the content of extranets and intranets, i.e. websites that are accessible only to a restricted group of people and not to the general public, published before 23 September 2019 until such time as these websites undergo an in-depth review;
@@ -68,7 +68,7 @@ In order to determine the existence of such a burden, the organisation concerned
 
 The size of the organisation is determined by the composition of its workforce, the number, location and distribution of its users or customers, the scale, diversity and volume of its activities and services, and the territorial extent of its operations.
 
-The estimate of resources takes into account :
+The estimate of resources takes into account
 
 - its budget
 - fees and remuneration received
@@ -104,7 +104,7 @@ The accessibility of applications must be assessed by applying the technical met
 
 It is possible to use another test method, subject to three conditions:
 
-- ensure that the test method used can be communicated on request to a user or an administration ;
+- ensure that the test method used can be communicated on request to a user or an administration;
 - produce an explicit table of correspondence between the criteria and tests and the chosen reference standard;
 - indicate this in the accessibility statement.
 
@@ -114,15 +114,15 @@ It is possible to use another test method, subject to three conditions:
 
 The sample on which the audit of a Website is carried out covers at least the following pages, where they exist:
  
-1. the home page ;
+1. the home page;
 1. the legal notices
 1. the authentication page
 1. the contact page
 1. the "accessibility" page
 1. the "help" page;
-1. the page or set of pages making up the Website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page) ;
-1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#service-d-assistance) ;
-1. the "site map" page ;
+1. the page or set of pages making up the Website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
+1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#service-d-assistance);
+1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. the set of pages making up a process (for example, an input form or a multi-page transaction);
@@ -136,11 +136,11 @@ Finally, randomly selected pages representing at least 10% of the elements in th
 
 The sample on which the audit of a mobile application is carried out covers at least the following screens, where they exist:
 
-1. the home screen ;
+1. the home screen;
 1. the legal information screen
-1. the authentication screen or process ;
+1. the authentication screen or process;
 1. the contact screen
-1. the authentication screen ;
+1. the authentication screen;
 1. the screens that make up the application's documentation;
 1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
@@ -170,7 +170,7 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 
 Each of our two frameworks proposes a test environment to be used to carry out the evaluation tests:
 
-- [RAWeb test environment for Website evaluation](../../html/en/raweb1/environment.md) ;
+- [RAWeb test environment for Website evaluation](../../html/en/raweb1/environment.md);
 - [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environment.md).
 
 This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. When it is possible to know the configuration of the workstations and the hardware used, the reference base is then made up of the services actually used in this environment.
@@ -186,14 +186,14 @@ There are 3 reasons why a criterion may not be applicable to a page or screen:
   3. The criterion concerns content subject to exemption for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
       Please note: if the content subject to exemption for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
 
-The pages or screens are then tested against the applicable criteria. These tests provide :
+The pages or screens are then tested against the applicable criteria. These tests provide
 
   * the number of validated and non-validated criteria for each page or screen
   * the compliance rate for each page or screen.
 
 Please note: 
 
-  * a criterion is validated for a given page or screen when all the elements of the page or screen have passed the tests used to validate the criterion ;
+  * a criterion is validated for a given page or screen when all the elements of the page or screen have passed the tests used to validate the criterion;
   * if a single element of the page or screen does not pass the tests for a criterion, the criterion cannot be validated;
   * if the page or screen is part of a process (making a declaration, taking part in a public consultation, making an appointment), a criterion is validated for a page in the process only if it is validated for all the pages or screens in the process.
 
@@ -219,18 +219,18 @@ This compliance rate determines the compliance status to be mentioned in the [ac
 
 In an audit sample, there may be content that is not subject to the accessibility obligation:
 
-- exempt content](#exempt content) ;
-- content derogated for disproportionate burden](#dérogation-pour-charge-disproportionnée) ;
+- exempt content](#exempt content);
+- content derogated for disproportionate burden](#dérogation-pour-charge-disproportionnée);
 - non-accessible content that has an accessible alternative.
 
 It is essential to ensure that this content does not prevent users from accessing the rest of the page.
 
 Therefore, although the compliance of this content is not required, it must comply with the following criteria and tests:
 
-- [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10) : Is each automatically triggered sound controllable by the user?
+- [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10) Is each automatically triggered sound controllable by the user?
 - [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): The navigation on each web page must not contain any keyboard traps. Is this rule respected?
 - [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (tag `<object>`, tag `<embed>`, tag `<svg>`, tag `<canvas>`, tag `<meta>`) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7) : In each web page, are sudden changes in brightness or flashing effects used correctly?
+- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7) In each web page, are sudden changes in brightness or flashing effects used correctly?
 - [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): In each web page, is all moving or flashing content controllable by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criterion(s) non-compliant.
@@ -243,9 +243,9 @@ The principle of non-interference is identified in standard EN 301 549 in criter
 
 The accessibility statement is the result of an effective assessment of the compliance of the website or mobile application with the reference standard.
 
-The accessibility statement includes :
+The accessibility statement includes
 
-- a compliance status :
+- a compliance status
     - Full compliance: if all the control criteria in the framework are met;
     - Partial compliance: if at least 50% of the control criteria in the framework have been met;
     - Non-compliance: if there are no valid audit results enabling compliance with the criteria to be measured, or if less than 50% of the control criteria in the framework are complied with;

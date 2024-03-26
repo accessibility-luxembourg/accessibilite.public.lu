@@ -32,7 +32,7 @@ Norm:
 
 #### Special cases
 
-There is special case management for the 11.2.5 test when :
+There is special case management for the 11.2.5 test when
 
 - Punctuation and capital letters are present in the text of the [visible label](#visible-title): they can be ignored in the accessible name without any consequences;
 - The text of the [visible label](#visible-title) serves as a symbol: the text must not be interpreted literally at the level of the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).

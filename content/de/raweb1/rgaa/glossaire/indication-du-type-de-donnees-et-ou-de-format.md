@@ -4,7 +4,7 @@ title: Indication of data type and/or format
 
 Text indication enabling the user to know what type of data and/or input format is required for a mandatory field, before filling it in.
 
-Examples :
+Examples
 
 - Email (format: vous@domaine.com);
 - Postcode (format: 00000);

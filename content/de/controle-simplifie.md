@@ -20,7 +20,7 @@ Here are the document templates for carrying out a simplified audit.
 #### Definition of the sample of pages
 The sample of pages to be tested is 3 pages. We recommend the following three pages:
 
-- The home page ;
+- The home page;
 - A page with a form (the contact page, for example);
 - A page with special content: a video, a table, a complex image.
 

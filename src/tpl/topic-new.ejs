@@ -1,7 +1,7 @@
 <% if (shortList.length == 0 || topic.criteria.filter(crit => shortList.includes(topic.number+'.'+crit.criterium.number)).length !== 0) { %> 
 <article>
 <h3 id="topic-<%= topic.number %>" class="topic <%= (topic.criteria.map(e => e.criterium.references[0].wcag !== undefined && e.criterium.references[0].wcag.length !== 0).reduce((a, c) => a || c, false)) ? 'rgaa' : 'en-norm' %>">
-    <a href="#topic-<%= topic.number %>"><%= __("Theme") %> <%= topic.number %></a> : 
+    <a href="#topic-<%= topic.number %>"><%= __("Theme") %> <%= topic.number %></a><%- __("fSpace") %> 
     <%= md.renderInline(topic.topic) %>
 </h3>
 <% topic.criteria.forEach(crit => { 
@@ -10,8 +10,7 @@
 %>
 <div class="crit disclosure <%= (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) ? 'rgaa' : 'en-norm' %>">
     <h4 id="<%= critId %>">
-    <a href="#<%= critId %>"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]
-    : <%- md.renderInline(crit.criterium.title) %></h4>
+    <a href="#<%= critId %>"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]<%- __("fSpace") %> <%- md.renderInline(crit.criterium.title) %></h4>
     <p class="summary" id="summary-<%= critId %>"><%= __("Criterion tests") %> <%= topic.number %>.<%= crit.criterium.number %></p>
     <div class="details" id="details-<%= critId %>">
             <% Object.keys(crit.criterium.tests).forEach(testId => {

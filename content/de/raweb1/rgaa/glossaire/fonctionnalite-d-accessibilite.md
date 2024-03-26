@@ -2,7 +2,7 @@
 title: Accessibility feature
 ---
 
-Examples of accessibility features :
+Examples of accessibility features
 
 - a device for loading a more contrasting colour palette for users;
 - a font size enlargement device;

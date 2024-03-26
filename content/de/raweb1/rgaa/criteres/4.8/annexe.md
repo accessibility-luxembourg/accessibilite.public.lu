@@ -12,7 +12,7 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when :
+Special cases are managed when
 
 - The [non-time-based media](#media-non-temporal) is used for decorative purposes (i.e. it does not provide any information);
 - The non-time-based media is broadcast in a controlled environment;

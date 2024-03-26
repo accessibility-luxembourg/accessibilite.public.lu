@@ -9,14 +9,14 @@ This can be achieved by means of descriptive properties that may not be visible 
 #### Accessible and operable by keyboard and any pointing device
 
 Pointing devices in a mobile environment can be, but are not limited to: 
-- touch ; 
-- mouse ;
+- touch; 
+- mouse;
 - eye tracking devices; 
 - [point analysis](https://support.apple.com/fr-fr/HT201370) devices on iOS (or [point search](https://support.google.com/accessibility/android/answer/6395627?hl=fr) on Android); 
 - voice command.
 
-A user interface component (link, button, form field, etc.) can be accessed by any pointing device when the user : 
-- can focus on the component, regardless of the device ;
+A user interface component (link, button, form field, etc.) can be accessed by any pointing device when the user 
+- can focus on the component, regardless of the device;
 - can initiate the action provided for by the user interface component by means of a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen, for example);
 
 **Warning:** for certain user interface components such as potentiometers (*slider*{lang=en}, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component.  On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
@@ -61,9 +61,9 @@ W3C provides full documentation on the accessibility of this type of test: [Inac
 
 #### Biological characteristics
 
-User identification or control methods based on usable biological characteristics may include : 
-- fingerprint recognition ; 
-- facial recognition ; 
+User identification or control methods based on usable biological characteristics may include 
+- fingerprint recognition; 
+- facial recognition; 
 - voice recognition.
 
 #### Key features of captions
@@ -91,10 +91,10 @@ Alternation of relative brightness that can cause seizures in some people, if th
 #### Change of context
 
 Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. Context changes include changes to:
-- application ;
-- user agent ;
-- rendition space ;
-- focus ;
+- application;
+- user agent;
+- rendition space;
+- focus;
 - content that modifies the meaning of the screen.
 
 **Note:** a change in content is not always a change in context. A change in content, such as the expansion of a tree structure, a dynamic menu or moving a tab, does not necessarily change the context, unless it also changes one of the elements listed above (the focus, for example).
@@ -129,14 +129,14 @@ Understandable content is readable (the order of the elements is logical) and co
 
 #### Contrast
 
-Marked contrast between the brightness of a foreground colour and a background colour. The contrast ratio is based on the difference in relative luminance between the background and the foreground according to the rule: (L1 + 0.05) / (L2 + 0.05) where L1 is the lightest relative luminance and L2 the darkest relative luminance. Luminosity is calculated using the following formula: L = 0.2126 * R + 0.7152 * G + 0.0722 * B. Where R, G and B are defined by :
-- If RsRGB &lt;= 0.03928 then R = RsRGB/12.92 otherwise R = ((RsRGB+0.055)/1.055) ^ 2.4 ;
-- If GsRGB &lt;= 0.03928 then G = GsRGB/12.92 otherwise G = ((GsRGB+0.055)/1.055) ^ 2.4 ;
+Marked contrast between the brightness of a foreground colour and a background colour. The contrast ratio is based on the difference in relative luminance between the background and the foreground according to the rule: (L1 + 0.05) / (L2 + 0.05) where L1 is the lightest relative luminance and L2 the darkest relative luminance. Luminosity is calculated using the following formula: L = 0.2126 * R + 0.7152 * G + 0.0722 * B. Where R, G and B are defined by
+- If RsRGB &lt;= 0.03928 then R = RsRGB/12.92 otherwise R = ((RsRGB+0.055)/1.055) ^ 2.4;
+- If GsRGB &lt;= 0.03928 then G = GsRGB/12.92 otherwise G = ((GsRGB+0.055)/1.055) ^ 2.4;
 - If BsRGB &lt;= 0.03928 then B = BsRGB/12.92 otherwise B = ((BsRGB+0.055)/1.055) ^ 2.4.
 
-and RsRGB, GsRGB and BsRGB are defined by :
-- RsRGB = R8bit/255 ;
-- GsRGB = G8bit/255 ;
+and RsRGB, GsRGB and BsRGB are defined by
+- RsRGB = R8bit/255;
+- GsRGB = G8bit/255;
 - BsRGB = B8bit/255.
 
 The "^" character is the power operator.
@@ -175,7 +175,7 @@ Option for the user to stop or restart an automatically triggered sound.
 
 A toggle control is a control that can have 2 or 3 states, so the user-defined state is persisted to the next state. It can be a screen lock control (the screen is either on or off), or a control for enabling or disabling application notifications.
 
-Examples of toggle controls : 
+Examples of toggle controls 
 - a checkbox 
 - a radio button, 
 - a button that can have an enabled or disabled state.
@@ -184,8 +184,8 @@ Examples of toggle controls :
 
 Possibility for the user to control the viewing of time-based media using the keyboard and any pointing device, at least. The following points must be respected:
 
-List of mandatory functionalities for controlling consultation :
-- The multimedia object must always have at least the following functions: play, pause or stop ;
+List of mandatory functionalities for controlling consultation
+- The multimedia object must always have at least the following functions: play, pause or stop;
 - If the multimedia object has sound, it must have a sound on/off function;
 - If the multimedia object has audio description, it must have a function for controlling the activation and deactivation of audio description. 
 - If the multimedia object has subtitles, it must have functionality for controlling the activation and deactivation of subtitles.
@@ -198,7 +198,7 @@ If the player does not allow a second audio track to be included for audio descr
 
 #### Input control (form) 
 
-All the processes used to inform the user : 
+All the processes used to inform the user 
 - mandatory fields 
 - expected type or format indications, 
 - input errors in a form. 
@@ -219,10 +219,10 @@ Colour directly in contact with the colours of the component or graphic element,
 
 It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of user interface components and graphic elements only assesses **non-textual** elements. As soon as the contrast of text needs to be assessed, even if it is present in a user interface component, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
-Not all colours in a graphic element or user interface component need to be evaluated. It is essential to assess : 
+Not all colours in a graphic element or user interface component need to be evaluated. It is essential to assess 
 - **Information-bearing colours** (not all colours are information-bearing): 
 	- For example, in an application's navigation panel, the navigation buttons have a grey background colour, but the active screen button has a green background colour. It is necessary to check that the green colour in direct junction with the grey background colour has a contrast ratio of at least 3:1.
-- **Colours used to identify the location of an element or interactive zones**, for example : 
+- **Colours used to identify the location of an element or interactive zones**, for example 
 	- The border of a form field, if this is the only means of identifying the location of the interaction, must have a colour with a contrast ratio of at least 3:1 with the adjacent colour, generally the background colour;
 	- The borders of checkboxes and radio buttons, and their status (selected or not). It is essential here to assess the contrast ratio of the border of these components with the adjacent colours (generally the background colour) but also to assess the contrast ratio of these components when they are selected. It is necessary to assess whether the visual element used to signify the selection has a sufficient contrast ratio.
 - **The colours of non-text information elements** (graphic elements):
@@ -242,13 +242,13 @@ Content associated with a [graphic element](#graphic-element) in addition to its
 
 #### Personal user data
 
-Personal data concerning the user in a form can be : 
-- surname ; 
-- first name ;
-- password ;
+Personal data concerning the user in a form can be 
+- surname; 
+- first name;
+- password;
 - e-mail* address;
-- postal address ;
-- postcode ; 
+- postal address;
+- postcode; 
 - telephone number; 
 - credit card codes; 
 - birthday; 
@@ -309,7 +309,7 @@ Example of an accessibility feature:
 #### Voice-based services
 
 In an oral communication system (e.g. telephony), functionalities may be provided, for example:
-- a voice mailbox (answering machine) ; 
+- a voice mailbox (answering machine); 
 - an automatic switchboard that requires you to say a number between 1 and 4 to be redirected to a service,
 - or any other interactive voice server.
 
@@ -321,9 +321,9 @@ A template is a document format with predefined parameters. It is used to insert
 
 A template may concern an entire page or screen (home page template, etc.) or specific types of content (forms, videos, etc.)
 
-A set of templates is a group of templates that allow different formatting of the same element. For example :
-- templates for the application's home screen ;
-- templates for screens containing interactive elements ;
+A set of templates is a group of templates that allow different formatting of the same element. For example
+- templates for the application's home screen;
+- templates for screens containing interactive elements;
 - templates for creating a PDF.
 
 ### H
@@ -352,8 +352,8 @@ Information transmitted visually by means of a colour. The indication that field
 
 Indication by colour alone must be accompanied by another method for users who do not see or perceive colours or their associations well.
 
-The indication given by colour must be provided : 
-- by means of formatting for users with poor colour perception ;
+The indication given by colour must be provided 
+- by means of formatting for users with poor colour perception;
 - and by descriptive (non-visible) information present on the element so that screen readers can render the information to users who cannot see.
 
 #### Accessibility information
@@ -371,8 +371,8 @@ All accessibility criteria relating to the content technology in question are co
 
 #### Indication conveyed by shape, size or location
 
-This may be, for example :
-- the presence of a visual marker, to indicate the active screen in a navigation menu (indication given by position) ;
+This may be, for example
+- the presence of a visual marker, to indicate the active screen in a navigation menu (indication given by position);
 - a foreground to indicate an active tab (indicated by the shape);
 - changing the font size in a tag cloud (indicated by the size).
 - Or any other similar graphic effect.
@@ -383,8 +383,8 @@ This may be, for example :
 
 A simple gesture with a screen involves touching a single point on the screen. This may be a single press or click, a double press or click, or a long press. 
 
-A complex gesture can be :
-- a gesture involving several points of contact on the screen (example: a gesture with two fingers on the screen to zoom in or out on a map) ; 
+A complex gesture can be
+- a gesture involving several points of contact on the screen (example: a gesture with two fingers on the screen to zoom in or out on a map); 
 - a gesture based on following a trajectory on the screen (e.g. a function that detects the movement of a finger to the left or right on a tactile surface to trigger switching to the previous/next item in a carousel).
 
 #### Replacement mechanism
@@ -425,7 +425,7 @@ This mechanism must preserve the content and functionality of the application or
 - Temporal media only audio: sound content (*wave*{lang=en}, MP3...).
 - Temporal media only video: moving or sequential images or photos.
 - Synchronised temporal media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
-	- as a downloadable file that can be viewed with external software ;
+	- as a downloadable file that can be viewed with external software;
 	- content embedded in the software and viewable from the interface.
 
 Temporal media can be broadcast in real time or played back asynchronously (pre-recorded media).
@@ -434,7 +434,7 @@ Temporal media can be broadcast in real time or played back asynchronously (pre-
 
 A status message informs the user of a change in content on the screen without interrupting their main activity (there is no context change, such as repositioning the focus on the message).
 
-A status message can inform about :
+A status message can inform about
 - The success or result of an action;
 - The busy state of an application;
 - The progress of a process;
@@ -468,22 +468,22 @@ The auditor must also check that, where they are present, these parameters are u
 
 Application used to create or modify content for distribution to other users. An editing tool can be used by one or more users working together.
 
-An editing tool can be :
-- the tool as delivered by the editor ;
+An editing tool can be
+- the tool as delivered by the editor;
 - the tool augmented with extensions not developed by the publisher;
 - a set of tools.
 
-Examples of editing tools :
-- an application for editing and controlling the content of a Website or application, e.g. CMS (*Content Management System*{lang=en}), LMS (*Learning Management System*{lang=en}), LCMS (*Learning Content Management System*{lang="en"}), content aggregator ;
-- multimedia editing tools ;
-- applications for creating web applications ;
+Examples of editing tools
+- an application for editing and controlling the content of a Website or application, e.g. CMS (*Content Management System*{lang=en}), LMS (*Learning Management System*{lang=en}), LCMS (*Learning Content Management System*{lang="en"}), content aggregator;
+- multimedia editing tools;
+- applications for creating web applications;
 - application for editing code;
 - application for exporting in web technology format (for example, software for saving in HTML);
-- applications that generate content using templates, scripts, command lines, etc. ;
+- applications that generate content using templates, scripts, command lines, etc.;
 - an application for editing portions of web pages or applications (typically, blog systems, wikis and forums);
 - mail application for sending *e-mails*{lang=en}.
 
-Examples of editing tools that are not included in the scope :
+Examples of editing tools that are not included in the scope
 - An application where the content created is not made available to other users (note-taking application with no sharing functionality, for example). In this case, the edited content is only available to the owner and is not made available to other users.
 - Forms intended for users. For example, an order form for an e-commerce application. Although forms allow content to be edited, this content is not made available to other users.
 - Independent accessibility control tools: these tools do not modify the content they control.
@@ -509,7 +509,7 @@ A technique for modifying the content of one or more screen elements. The user m
 #### When focused 
 
 When focused, this is the state returned by an element which receives attention following a user action. There are several ways of bringing an element into focus:
-- by activating the element using a pointing device (by touching the screen) ;
+- by activating the element using a pointing device (by touching the screen);
 - by reaching the element using a key on an external keyboard (tab, direction arrow);
 - by reaching the element using an external switch (*switch*{lang=en}, *joystick*{lang=en}).
 
@@ -547,7 +547,7 @@ For example, there are relays that enable a user who communicates using sign lan
 
 #### Help desk
 
-A help desk can be a : 
+A help desk can be a 
 - *help desk*{lang=en}, 
 - a call centre, 
 - technical support,
@@ -582,7 +582,7 @@ Text linked to the table that identifies the content of a data table clearly and
 
 #### Transcript (time-based media)
 
-Textual content associated with temporal media using the appropriate technique (text present in the interface or in a text file located on the same screen or available via a button). This content gives the user access (independently of viewing the multimedia object) to :
+Textual content associated with temporal media using the appropriate technique (text present in the interface or in a text file located on the same screen or available via a button). This content gives the user access (independently of viewing the multimedia object) to
 - Everything that is said orally.
 - All the descriptive information needed for an equivalent understanding of the action.
 
@@ -612,10 +612,10 @@ For some speech recognition systems, the text is not retranscribed until an enti
 
 #### Accessible version
 
-Downloadable documents whose format types are recognised as compatible with accessibility must be made accessible either directly or via an accessible version (for a downloadable document). The document formats recognised as compatible are :
-- Microsoft Office (Word 2003, OOXML) ;
-- Open Office Org (ODF) ;
-- Adobe PDF ;
+Downloadable documents whose format types are recognised as compatible with accessibility must be made accessible either directly or via an accessible version (for a downloadable document). The document formats recognised as compatible are
+- Microsoft Office (Word 2003, OOXML);
+- Open Office Org (ODF);
+- Adobe PDF;
 - ePub/Daisy.
 
 PDF documents must comply with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).

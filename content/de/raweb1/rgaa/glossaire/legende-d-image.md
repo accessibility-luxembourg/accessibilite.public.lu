@@ -8,7 +8,7 @@ When an image is captioned, the image caption needs to be linked to the image by
 
 HTML5 suggests associating a legend with an image via the `figure` (the whole image and the legend) and `figcaption` (the legend) elements.
 
-An image without a legend can define :
+An image without a legend can define
 
 - An image which is not inserted into a `figure` element;
 - An image inserted in a `figure` element without a `figcaption` element.

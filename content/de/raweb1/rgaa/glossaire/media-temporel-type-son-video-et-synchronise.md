@@ -2,12 +2,12 @@
 title: Time-based media (audio, video and synchronised)
 ---
 
-* Temporal media only audio: sound content (Wav, Mp3...) ;
+* Temporal media only audio: sound content (Wav, Mp3...);
 * Temporal media only video: moving or sequenced images or photos;
 * Synchronised temporal media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Temporal media can be viewed in 2 different ways:
 
 - Downloadable file that can be viewed with software external to the web page;
-- Content embedded in the web page which can be consulted within the web page via :
+- Content embedded in the web page which can be consulted within the web page via
   - The `<video>` element (e.g. a video);
   - The `<audio>` element (e.g. a podcast);
   - The `<svg>` element (for example, a vector cartoon);

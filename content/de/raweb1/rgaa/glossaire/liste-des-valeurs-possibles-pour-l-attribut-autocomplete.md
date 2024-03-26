@@ -4,22 +4,22 @@ title: List of possible values for the `autocomplete` attribute
 
 [The list of available](https://www.w3.org/Translations/WCAG21-fr/#input-purposes) values is provided by the WCAG 2.1 specification:
 
-- name -- Full name ;
-- `honorific-prefix` -- Abbreviation, title or title ;
+- name -- Full name;
+- `honorific-prefix` -- Abbreviation, title or title;
 - given-name` -- First name;
 - additional-name` -- Additional first names;
 - family-name` -- Family name;
 - `honorific-suffix` -- Honorific suffix;
-- nickname` -- Nickname, diminutive ;
+- nickname` -- Nickname, diminutive;
 - organisation-title` -- Function, job title;
 - username` -- User name;
 - new-password -- New password (for example, when creating an account or changing a password);
-- `current-password` -- Current password for the account identified by the `username` field (for example, when logging in) ;
+- `current-password` -- Current password for the account identified by the `username` field (for example, when logging in);
 - `organization` -- The name of the organization corresponding to the person, address or contact information in the other fields associated with this field;
-- `street-address` -- Postal address (multi-line, new lines retained) ;
-- address-line1` -- Postal address (one line per field, line 1) ;
-- `address-line2` -- Postal address (one line per field, line 2) ;
-- `address-line3` -- Postal address (one line per field, line 3) ;
+- `street-address` -- Postal address (multi-line, new lines retained);
+- address-line1` -- Postal address (one line per field, line 1);
+- `address-line2` -- Postal address (one line per field, line 2);
+- `address-line3` -- Postal address (one line per field, line 3);
 - `address-level4` -- The most detailed administrative level, for addresses with four administrative levels;
 - `address-level3` -- The third administrative level, for addresses with three or more administrative levels;
 - `address-level2` -- The second administrative level, for addresses with two or more administrative levels;

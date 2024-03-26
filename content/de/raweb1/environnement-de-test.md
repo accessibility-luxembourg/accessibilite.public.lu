@@ -101,9 +101,9 @@ Note that in the case of a mobile Website for the general public, it is strongly
 
 ### Other environments
 
-Finally, depending on the context of the site being audited, other complementary assistive technologies may be useful, such as :
+Finally, depending on the context of the site being audited, other complementary assistive technologies may be useful, such as
 
-- ZoomText on Windows or Mac OSX ;
+- ZoomText on Windows or Mac OSX;
 - Dragon Naturally Speaking on Windows or Mac OSX.
 
 ### Controlled environment

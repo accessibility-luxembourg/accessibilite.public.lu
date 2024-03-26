@@ -23,7 +23,7 @@ Interactive object allowing the user to enter data. Form input fields cover a wi
 - specific fields such as date entry fields, etc.
 
 #### Input control
-All the processes that warn the user :
+All the processes that warn the user
 
 - mandatory fields
 - expected type or format indications,
@@ -37,7 +37,7 @@ The order in which the content of a presentation table is displayed when the con
 This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*{lang=en}) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
 
 Here are a few examples:
-- emoticon :), ^^, O_o ;
+- emoticon: :), ^^, O_o;
 - cryptic syntax: m4gic (magic), ama (in my opinion).
 
 **Note**: hashtags ("#Job") or URLs (https://www.site.sample.com) are not considered to be cryptic content.
@@ -45,8 +45,8 @@ Here are a few examples:
 #### Link context
 This is additional information that can be associated with the title of the link by means of keyboard shortcuts or manipulation.
 
-In the office environment, the contexts that can be used are :
-- the previous title ;
+In the office environment, the contexts that can be used are
+- the previous title;
 - the sentence or paragraph in which the link appears;
 
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
@@ -112,7 +112,7 @@ These components should not be used, as their output is generally unsatisfactory
 
 #### Non-interactive form
 
-This is a document presenting form fields in the form of simple graphic areas, for example :
+This is a document presenting form fields in the form of simple graphic areas, for example
 
 Your name: [..........................]
 
@@ -124,7 +124,7 @@ In this case, the document must be recreated as an interactive form.
 #### Title hierarchy
 In most office publishing software, the style library proposes a particular style for each level of title, generally up to 8 levels.
 
-The title hierarchy is coherent when :
+The title hierarchy is coherent when
 - All text passages intended to be a title use a title style.
 - The first title in the content is level 1.
 - There is no break in the title hierarchy (for example, you do not go directly from a level 2 title to a level 4 title).
@@ -133,7 +133,7 @@ The title hierarchy is coherent when :
 #### Indication conveyed solely by shape, size or location
 Any essential indication that is conveyed solely by a change in the shape or size of text content or by the position of an element in a text.
 
-For example :
+For example
 
 - Indicating the mandatory nature of elements in a list by the use or positioning of a special character diverted from its purpose (for example, a mathematical character).
 - Indicate a specific text or part of a text in content by making it bold or changing its size.
@@ -143,19 +143,19 @@ Other forms of indication by shape, size or position can be used, but it is not 
 Image displaying text.
 
 #### Information provided by colour only
-Information conveyed visually by means of colour. For example :
+Information conveyed visually by means of colour. For example
 - In a document list, documents in red are mandatory.
 - In a graph, the various data items are only associated with a coloured legend.
 
-The alternative content used depends on the nature of the content concerned. For example :
+The alternative content used depends on the nature of the content concerned. For example
 - Explicit text.
 - A visual indication such as an icon or symbol.
 
 Note: in the case of the use of an image associated with text, the image must have a relevant alternative (criteria [1.1](referentiel-technique.md#crit-1-1) and [1.2](referentiel-technique.md#crit-1-2)).
 
 #### Link title
-The link title may consist of :
-- the link text for text links ;
+The link title may consist of
+- the link text for text links;
 - the alternative image for image links;
 - a combination of the link text and the alternative image for composite links;
 
@@ -164,7 +164,7 @@ The link title may consist of :
 Text containing information about the image or the complex form with which it is associated. For example, copyright information, date, author, location, technical characteristics, etc.
 #### Link
 A link can take three different forms:
-- a text link, the title of which consists of text only ;
+- a text link, the title of which consists of text only;
 - an image link, the heading of which is made up of the alternative of the image;
 - a composite link combining text and an image, in which case the heading consists of the text and the alternative image.
 #### Link whose nature is not obvious
@@ -183,7 +183,7 @@ Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, i
 #### Identical links
 Links whose titles, combined with the link context (previous title, sentence) are identical.
 
-For example :
+For example
 - In the following two sentences, the two "click here" links are not identical, because they have a different context: "To consult our catalogue: click here" and "To contact us: click here". 
 - In the following sentence, the two "on this page" links are identical, because the context does not allow them to be differentiated: "You can contact us on this page or on this page"
 
@@ -202,7 +202,7 @@ In an office environment, the order of output is dictated by the order in which 
 However, certain bad practices can disrupt the order in which content is rendered.
 
 For example
-- using tabs or spaces to create collage effects ;
+- using tabs or spaces to create collage effects;
 - using functions that allow you to create text zones positioned freely on the content.
 
 Most desktop publishing programs have functions for managing collocation, "anchoring" or choosing a "skin" to link the content zone to a block of text.

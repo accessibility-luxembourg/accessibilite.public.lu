@@ -4,21 +4,21 @@ title: Editing tool
 
 A web application or editing component in a web page that allows content to be created or modified for distribution to other users. An editing tool can be used by one or more users working collaboratively.
 
-An editing tool can be :
+An editing tool can be
 
-- the tool as delivered by the editor ;
+- the tool as delivered by the editor;
 - the tool augmented with extensions not developed by the publisher;
 - a set of tools.
 
-Examples of editing tools :
+Examples of editing tools
 
-- application for editing and controlling the content of websites or applications, e.g. CMS<em lang="en">(Content Management System</em>), LMS<em lang="en">(Learning Management System</em>), LCMS<em lang="en">(Learning Content Management System</em>), content aggregator ;
+- application for editing and controlling the content of websites or applications, e.g. CMS<em lang="en">(Content Management System</em>), LMS<em lang="en">(Learning Management System</em>), LCMS<em lang="en">(Learning Content Management System</em>), content aggregator;
 - applications for creating office documents (e.g. for distribution in PDF format);
-- multimedia editing tools ;
+- multimedia editing tools;
 - applications for creating web applications;
 - applications for editing code;
 - application for exporting to web technology format (e.g. software for saving in HTML);
-- application that generates content based on templates, scripts, command lines, etc. ;
+- application that generates content based on templates, scripts, command lines, etc.;
 - application or functionality of a web page enabling the editing of portions of web pages or applications (typically, blog systems, comment functionalities on websites, forums or wiki systems);
 - mail application used to send <em lang="en">e-mails</em>.
 

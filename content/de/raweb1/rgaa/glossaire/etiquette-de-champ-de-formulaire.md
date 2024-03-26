@@ -5,15 +5,15 @@ title: Form field label
 Text close to the form field that indicates the nature, type or format of the information expected. The label can be associated with the form field in several ways:
 
 - By using a `<label>` tag;
-- By using the WAI-ARIA attribute `aria-label` ;
-- By linking the text to the field using the WAI-ARIA attribute `aria-labelledby` ;
+- By using the WAI-ARIA attribute `aria-label`;
+- By linking the text to the field using the WAI-ARIA attribute `aria-labelledby`;
 - By using the `title` attribute.
 
 Important note: when several of these techniques are used on the same field, the calculation of the "accessible name", i.e. what will be returned, follows a strict order:
 
-- `aria-labelledby` ;
-- Otherwise `aria-label` ;
-- Otherwise `<label>` ;
+- `aria-labelledby`;
+- Otherwise `aria-label`;
+- Otherwise `<label>`;
 - Else `title`.
 
 This order must be used to assess the relevance of the label ({% crit 11.2 %}). For example, even in the case of the presence of a `<label>`, it is the passage of text referenced by `aria-labelledby` that should be taken into account.

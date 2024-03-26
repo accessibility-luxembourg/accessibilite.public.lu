@@ -1,6 +1,6 @@
 <div class="decla-access" lang="fr">
 	<p> The "Service information et presse" organisation undertakes to make its website accessible, in accordance with the 
-		<a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">law of 28 May 2019</a> on the accessibility of websites and mobile applications of public sector bodies. This accessibility statement applies to : 
+		<a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">law of 28 May 2019</a> on the accessibility of websites and mobile applications of public sector bodies. This accessibility statement applies to 
 		<a href="https://accessibilite.public.lu">https://accessibilite.public.lu</a>
 	</p>
 	<h3>What is digital accessibility?</h3>
@@ -24,7 +24,7 @@
 		<a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>: describe your problem and the page concerned. We undertake to reply by e-mail within 1 month at the latest. In order to remedy the problem in the long term and as far as reasonably possible, the online correction of the accessibility problem will be preferred. If this is not possible, the desired information will be sent to you in an accessible format according to your wishes:
 	</p>
 	<ul>
-		<li>in writing in a document or by email ;</li>
+		<li>in writing in a document or by email;</li>
 		<li>verbally during an interview or by telephone.</li>
 	</ul>
 	<p></p>

@@ -69,8 +69,8 @@ function genNews(config, lang, outputPath, baseURL, __) {
             data.meta.imgLinkedin = path.basename(data.meta.imgName.replace(/\.jpg/, '-linkedin.jpg'))
     
             // resize images
-            sharp('./content/'+lang+'/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
-            sharp('./content/'+lang+'/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
+            sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,630).jpeg({ mozjpeg: true, quality:50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgTwitter, (err, info) => { if (err) { console.error(err)} })
+            sharp('./content/fr/news/img/'+data.meta.imgName).resize(1200,627).jpeg({ mozjpeg: true, quality: 50}).toFile(outputPath+'/'+lang+'/news/og/'+data.meta.imgLinkedin, (err, info) => { if (err) { console.error(err)} })
         } else {
             console.error('Teaser image not found in', data.meta.filename)
         }

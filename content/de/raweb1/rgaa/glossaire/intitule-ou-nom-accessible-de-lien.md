@@ -7,48 +7,48 @@ title: Title (or accessible name) of link
 In the case of an HTML link, the "accessible name" is obtained in the following order:
 
 - passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- otherwise, content of the WAI-ARIA attribute `aria-label` ;
-- otherwise, content of the link ;
+- otherwise, content of the WAI-ARIA attribute `aria-label`;
+- otherwise, content of the link;
 - otherwise, content of the `title` attribute.
 
-This order must be used to determine what constitutes the title of the link. For example :
+This order must be used to determine what constitutes the title of the link. For example
 
-- if a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute are present together, the text passage referenced by the WAI-ARIA `aria-labelledby` attribute must be considered as the heading ;
+- if a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute are present together, the text passage referenced by the WAI-ARIA `aria-labelledby` attribute must be considered as the heading;
 - if there is both a WAI-ARIA `aria-label` attribute and content in the link, the content of the WAI-ARIA `aria-label` attribute must be considered as the heading.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
 If the "accessible name" is obtained from the content of the link, this will vary according to the following cases:
 
-Text link :
+Text link
 
-In HTML, the "accessible name" corresponds to the text made up of :
+In HTML, the "accessible name" corresponds to the text made up of
 
-- the text contained in the link ;
+- the text contained in the link;
 - the text contained in the link's child elements.
 
-Image link :
+Image link
 
-In HTML, the "accessible name" corresponds to the text made up from the text alternative of one or more images in the link of the type :
+In HTML, the "accessible name" corresponds to the text made up from the text alternative of one or more images in the link of the type
 
 - Image (element `<img>` or opening tag with WAI-ARIA attribute `role="img"`);
 - Object image (element `<object>`);
 - Bitmap image (element `<canvas>`);
 - Vector image (element `<svg>`).
 
-Composite link :
+Composite link
 
-In HTML, the "accessible name" corresponds to the text made up from the set :
+In HTML, the "accessible name" corresponds to the text made up from the set
 
-- the text contained in the link ;
-- the text contained in the child elements of the link ;
+- the text contained in the link;
+- the text contained in the child elements of the link;
 - the content of the alternative text of the image(s) included in the link.
 
 In the case of an SVG link (version 1.1), the "accessible name" is obtained as follows:
 
 - Passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- Otherwise, content of the WAI-ARIA attribute `aria-label` ;
-- Otherwise, the content of the `<title>` element, the direct child of the link ;
+- Otherwise, content of the WAI-ARIA attribute `aria-label`;
+- Otherwise, the content of the `<title>` element, the direct child of the link;
 - Otherwise, the content of the `xlink:title` attribute;
 - Otherwise, the text content of one or more `<text>` elements.
 

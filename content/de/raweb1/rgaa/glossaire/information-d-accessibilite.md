@@ -6,7 +6,7 @@ Accessibility information is all the information (attributes, programmatic relat
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 
-An editing tool should have functions that allow you to define all the information needed to create accessible content, for example :
+An editing tool should have functions that allow you to define all the information needed to create accessible content, for example
 
 - defining the alternative of an image or, on the contrary, declaring it decorative;
 - the ability to define section titles;

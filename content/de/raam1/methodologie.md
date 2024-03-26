@@ -76,9 +76,9 @@ In order to test the criteria relating to the use of applications with an extern
 To enable the terminal to be controlled by an external keyboard, the "Full keyboard access" option needs to be activated. To do this, go to *Settings &gt; Accessibility &gt; Keyboards &gt; Full keyboard access* and activate "Full keyboard access".
 
 iOS allows you to specify a focus style for users using an external device (*Settings &gt; Accessibility &gt; Keyboard &gt; Full Keyboard Access*). The user can choose:
-- hide it automatically after a configurable time ;
-- increase the size of the when focused ;
-- increase the contrast ;
+- hide it automatically after a configurable time;
+- increase the size of the when focused;
+- increase the contrast;
 - choose the colour.
 
 ##### Android
@@ -106,7 +106,7 @@ The **[Accessibility Inspector](https://developer.apple.com/library/archive/docu
 To carry out certain tests on Android applications, third-party applications are required or can help you with the evaluation.
 
 - [Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;hl=fr&amp;gl=US): Android application for adding options and gestures to the Talkback screen reader.
-- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;hl=fr&amp;gl=US){lang=en} : Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*{lang="en"}.
+- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;hl=fr&amp;gl=US){lang=en} Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*{lang="en"}.
 
 ##### iOS and Android
 

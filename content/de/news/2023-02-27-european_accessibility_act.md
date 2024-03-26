@@ -19,9 +19,9 @@
         <li>intelligent televisions or equipment providing access to audiovisual services;</li>
         <li>e-readers.</li>
     </ul>
-    <h5>Services :</h5>
+    <h5>Services</h5>
     <ul>
-        <li>electronic communications services ;</li>
+        <li>electronic communications services;</li>
         <li>audiovisual services (video on demand, replay, etc.);</li>
         <li>pre-recorded time-based media (audio and/or video) available on the Internet or an app, which are not considered to be archives;</li>
         <li>services related to the transport of passengers by air, bus, train and boat (their websites and mobile applications in particular), subject to exceptions provided for by law;</li>

@@ -7,8 +7,8 @@ Link contained in a `<svg>` element.
 In the case of an SVG link (version 1.1), the "accessible name" is obtained as follows:
 
 - Passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- Otherwise, content of the WAI-ARIA attribute `aria-label` ;
-- Otherwise, the content of the `<title>` element, the direct child of the link ;
+- Otherwise, content of the WAI-ARIA attribute `aria-label`;
+- Otherwise, the content of the `<title>` element, the direct child of the link;
 - Otherwise, the content of the `xlink:title` attribute;
 - Otherwise, the text content of one or more `<text>` elements.
 

@@ -4,7 +4,7 @@ title: Link context
 
 The link context represents the additional information (referred to as context information) that can be related by a computer program to the [title (or accessible name) of link](#intittitule-ou-nom-accessible-de-lien). The contextual information used to complete the [title (or accessible name) of link](#intitule-ou-nom-accessible-de-lien) is as follows:
 
-- The content of the sentence in which the text link is present ;
+- The content of the sentence in which the text link is present;
 - The content of the paragraph (tag `<p>`) in which the text link is present;
 - The content of the list item (tag `<li>`) or the content of a parent list item (tag `<li>`) in which the text link is present;
 - The content of the title (tag `<hx>`) preceding the text link;

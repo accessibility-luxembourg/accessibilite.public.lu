@@ -21,7 +21,7 @@ Norm:
 
 The aim of this criterion is to guarantee scrolling in a single direction for easier reading in the direction of writing.
 
-The exception to this criterion is content whose layout requires two dimensions to be understood or used, such as :
+The exception to this criterion is content whose layout requires two dimensions to be understood or used, such as
 
 - Images, graphics or videos;
 - Games (platform games, for example);

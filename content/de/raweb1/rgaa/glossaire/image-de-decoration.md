@@ -4,7 +4,7 @@ title: Decorative image
 
 Image with no function and conveying no particular information in relation to the content with which it is associated. 
 
-Examples :
+Examples
 
 - An image preceding each item in a list;
 - An image used to set the page layout;

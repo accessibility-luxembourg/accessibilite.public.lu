@@ -2,7 +2,7 @@
 title: Help desk
 ---
 
-A help desk can be :
+A help desk can be
 
 - the feedback mechanism identified in the Website's accessibility statement,
 - a <em lang="en">help desk</em>

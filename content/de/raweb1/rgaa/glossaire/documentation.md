@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-The documentation for a Website or [help desk](#service-d-assistance) can be :
-- a help page ;
-- an [accessibility statement](../obligations.html#accessibility-statement) ;
+The documentation for a Website or [help desk](#service-d-assistance) can be
+- a help page;
+- an [accessibility statement](../obligations.html#accessibility-statement);
 - any other content that serves as documentation (PDF document, external HTML page readable in a web browser).

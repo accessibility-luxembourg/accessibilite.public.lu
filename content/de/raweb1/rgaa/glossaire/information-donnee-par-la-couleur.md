@@ -6,8 +6,8 @@ Information conveyed visually through colour. The indication that fields in red 
 
 When information (provided by color) is accompanied by another method aimed at users who cannot see or perceive colors or their associations well, the criterion will be considered as not applicable.
 
-Means of conveying information other than by colour may be :
+Means of conveying information other than by colour may be
 
-- A visible text indication ;
+- A visible text indication;
 - A means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement to the code (`aria-label`, `title`, hidden text, `aria-current`, etc.);
 - A different typographic style (bold, italic, text size, different font, etc.) and by means of a supplement in the code (`aria-label`, `title`, hidden text, `aria-current`, etc.).

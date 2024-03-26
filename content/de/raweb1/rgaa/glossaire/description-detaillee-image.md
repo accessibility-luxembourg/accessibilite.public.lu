@@ -2,7 +2,7 @@
 title: Detailed description (image)
 ---
 
-Content associated with an image in addition to its text alternative in order to fully describe the information conveyed by the image. The detailed description can be associated with the image via :
+Content associated with an image in addition to its text alternative in order to fully describe the information conveyed by the image. The detailed description can be associated with the image via
 
 - A reference to a detailed description adjacent to the image in the text alternative (image);
 - An [adjacent link or button] (#adjacent-link-or-button) which allows you to access the detailed description on the page or on another page;
