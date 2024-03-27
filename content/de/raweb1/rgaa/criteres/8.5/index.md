@@ -1,3 +1,3 @@
 ---
-title: Does every web page have a [page title](#pagetitle)?
+title: Does every web page have a [page title](#page-title)?
 ---

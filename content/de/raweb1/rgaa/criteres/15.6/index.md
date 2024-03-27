@@ -1,3 +1,3 @@
 ---
-title: Is each [template](#gabarit) that makes it possible to comply with the [digital accessibility rules](#regles-d-accessibilite-numerique) clearly identifiable?
+title: Is each [template](#template) that makes it possible to comply with the [digital accessibility rules](#digital-accessibility-rules) clearly identifiable?
 ---

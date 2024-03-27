@@ -1,3 +1,3 @@
 ---
-title: Does each [editing tool](#tool-d-edition) provide aids for creating content that complies with the [digital accessibility rules](#regles-d-accessibilite-numerique)?
+title: Does each [editing tool](#editing-tool) provide aids for creating content that complies with the [digital accessibility rules](#digital-accessibility-rules)?
 ---

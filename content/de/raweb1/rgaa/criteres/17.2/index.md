@@ -1,3 +1,3 @@
 ---
-title: Does every web application that enables [two-way voice communication](#application-web-de-communication-orale-bidirectionnelle) have [real-time text communication](#communication-ecrite-en-temps-reel) functionality?
+title: Does every web application that enables [two-way voice communication](#two-way-voice-communication-web-application) have [real-time text communication](#real-time-text-communication-rtt) functionality?
 ---

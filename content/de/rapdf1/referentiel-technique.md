@@ -154,9 +154,9 @@ Only the content of the criteria and tests has normative value.
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legende), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
-- **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legende) associated with an image satisfy these conditions {id="test-1-6-1"}?
-    - The [legend](glossaire.md#legende) is adjacent to the image.
+#### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
+- **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions {id="test-1-6-1"}?
+    - The [legend](glossaire.md#legend) is adjacent to the image.
     - The alternative image contains an [explicit reference](glossaire.md#explicit-reference-a-legend-of-image-or-a-complex-format) to the legend.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -176,8 +176,8 @@ Only the content of the criteria and tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 1.7](#crit-1-7) [AA] Each [image conveying text](glossaire.md#image-text-or-text-in-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#version-alternative-text), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
-- **[Test 1.7.1](#test-1-7-1)** Each [image conveying text](glossaire.md#image-text-or-text-in-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative (image)](glossaire.md#alternative-text), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
+#### [Criterion 1.7](#crit-1-7) [AA] Each [image conveying text](glossaire.md#image-of-text-or-text-in-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#version-alternative-text), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
+- **[Test 1.7.1](#test-1-7-1)** Each [image conveying text](glossaire.md#image-of-text-or-text-in-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative (image)](glossaire.md#alternative-text), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
 
 ##### Special cases 
 In these situations, the criterion does not apply:
@@ -216,7 +216,7 @@ In these situations, the criterion does not apply:
 ###### With Acrobat Reader
 
 1. Open the PDF file.
-3. Locate the information (provided by color).
+3. Locate the information (provided by colour).
 4. For each piece of information (word or set of words, textual indication, information provided by colour in the images), check that colour is not the only means of retrieving the information. For example:
     - The word or set of words is accompanied by an icon with a relevant alternative.
     - The textual indication refers to an explicit text or an icon with a relevant alternative.
@@ -560,7 +560,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [order of presentation](glossaire.md#order-of-presentation) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [order of presentation](glossaire.md#order-of-presentation) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [tab order](glossaire.md#order-of-tabulation) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [tab order](glossaire.md#tab-order) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -625,8 +625,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03) *10.1.3.3 Sensory characteristics*{lang=en}.
 
-#### [Criterion 6.3](#crit-6-3) [A] Is every link indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-evident) visible in relation to the surrounding text? {id="crit-6-3"}
-- **[Test 6.3.1](#test-6-3-1)** Does each link indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-evident) have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
+#### [Criterion 6.3](#crit-6-3) [A] Is every link indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) visible in relation to the surrounding text? {id="crit-6-3"}
+- **[Test 6.3.1](#test-6-3-1)** Does each link indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -825,10 +825,10 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legende) of [complex form](glossaire.md#complex-form), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
-- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legende) associated with a [complex form](glossaire.md#complex-form) satisfy these conditions {id="test-9-6-1"}?
-    - The [legend](glossaire.md#legende) is adjacent to the complex form.
-    - The alternative of the complex form contains an [explicit reference](glossaire.md#reference-explicite-a-a-legende-d-image-or-a-complex-form) to the [legend](glossaire.md#legende).
+#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex form](glossaire.md#complex-form), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
+- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex form](glossaire.md#complex-form) satisfy these conditions {id="test-9-6-1"}?
+    - The [legend](glossaire.md#legend) is adjacent to the complex form.
+    - The alternative of the complex form contains an [explicit reference](glossaire.md#reference-explicite-a-a-legende-d-image-or-a-complex-form) to the [legend](glossaire.md#legend).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -969,8 +969,8 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 
-#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#coherent-labels)? {id="crit-10-3"}
-- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#coherent-labels){id="test-10-3-1"}
+#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
+- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -989,7 +989,7 @@ However, a test by a person with a disability using his or her own assistive tec
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
 
 #### [Criterion 10.4](#crit-10-4) [A] Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#accoles-etiquette-and-champ-accoles)? {id="crit-10-4"}
-- **[Test 10.4.1](#test-10-4-1)** Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#accoles-etiquette-et-champ-accoles)?{id="test-10-4-1"}
+- **[Test 10.4.1](#test-10-4-1)** Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)?{id="test-10-4-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

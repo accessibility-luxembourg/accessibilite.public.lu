@@ -121,7 +121,7 @@ The sample on which the audit of a Website is carried out covers at least the fo
 1. the "accessibility" page
 1. the "help" page;
 1. the page or set of pages making up the Website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
-1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#service-d-assistance);
+1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#help-desk);
 1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;

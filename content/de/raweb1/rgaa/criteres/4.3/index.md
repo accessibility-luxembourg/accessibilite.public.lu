@@ -1,3 +1,3 @@
 ---
-title: Does each pre-recorded synchronised [temporal media](#media-temporel-type-sound-video-and-synchronise) have, if necessary, synchronised [subtitles](#sous-titres-synchronises-objet-multimedia) (excluding special cases)?
+title: Does each pre-recorded synchronised [temporal media](#media-temporel-type-sound-video-and-synchronise) have, if necessary, synchronised [subtitles](#synchronised-captions-media-object) (excluding special cases)?
 ---

@@ -264,7 +264,7 @@ Note: It is possible to use the **[Accessibility Scanner] application (methodolo
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.3 Contrast (Minimum)*, *11.7 User preferences*.
 
-#### [Criterion 2.3](#crit-2-3) [AA] In each screen, are the colours used in the [user interface components](glossaire.md#composant-d-interface) and the graphic elements carrying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
+#### [Criterion 2.3](#crit-2-3) [AA] In each screen, are the colours used in the [user interface components](glossaire.md#user-interface-component) and the graphic elements carrying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
 
 - **[Test 2.3.1](#test-2-3-1):** In each screen, does the contrast ratio between the colours of a [user interface component](glossaire.md#interface-component) in its various states and the [adjacent colours](glossaire.md#adjacent-colour) satisfy one of these conditions (excluding special cases)? {id="test-2-3-1"}
 	- The contrast ratio is 3:1, at least;
@@ -415,13 +415,13 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*.
 
-#### [Criterion 3.3](#crit-3-3) [A] Does each pre-recorded video-only [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-3"}
+#### [Criterion 3.3](#crit-3-3) [A] Does each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-3"}
 
 **[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only temporal media satisfy, if necessary, one of these conditions (excluding special cases)? {id="test-3-3-1"}
 - There is a [alternative "audio only" version](glossaire.md#alternative-audio-only-version) [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
 - There is a [textual transcription](glossaire.md#textual-transcription-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clarically-identifiable);
-- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel);
-- There is an alternative version with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) accessible via an adjacent component (a button or a link).
+- There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
+- There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
 
@@ -446,11 +446,11 @@ The criterion does not apply to the following elements:
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.4](#crit-3-4) [A] For each pre-recorded video-only [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-4"}
+#### [Criterion 3.4](#crit-3-4) [A] For each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-4"}
 
 **[Test 3.4.1](#test-3-4-1):** Does each pre-recorded video-only time-lapse medium meet one of these conditions? {id="test-3-4-1"}
 - [Textual transcription](glossaire.md#textual-transcription-temporal-media) is relevant;
-- The [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) is relevant and correctly synchronised;
+- The [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) is relevant and correctly synchronised;
 - The [alternative version "audio only"](glossaire.md#alternative-version-audio-only) is relevant.
 
 ##### Special cases
@@ -480,8 +480,8 @@ The criterion does not apply to the following elements:
 
 **[Test 3.5.1](#test-3-5-1):** If necessary, does each pre-recorded time-synchronised medium satisfy one of these conditions (excluding special cases)? {id="test-3-5-1"}
 - There is a [textual transcription](glossaire.md#textual-transcription-temporal-media) accessible [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
-- There is a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel);
-- There is an alternative version with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) accessible via an adjacent component (a button or a link).
+- There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
+- There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
 
@@ -573,7 +573,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.2 Subtitles (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*.
 
-#### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel) (excluding special cases)? {id="crit-3-9"}
+#### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) (excluding special cases)? {id="crit-3-9"}
 
 ##### Special cases
 
@@ -594,7 +594,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio Description (Pre-recorded)*.
 
-#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronised) with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel), is it relevant? {id="crit-3-10"}
+#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), is it relevant? {id="crit-3-10"}
 
 **[Test 3.10.1](#test-3-10-1):** For each pre-recorded video-only or synchronised time-based media with an audio description, does it meet these conditions? {id="test-3-10-1"}
 - The audio description is relevant;
@@ -730,7 +730,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.1.3 Preservation of captioning*.
 
-#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) pre-recorded with a [synchronised audio description](glossaire.md#audiodescription-synchronisee-media-temporel), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
+#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) pre-recorded with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
 
 **[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions? {id="test-3-16-1"}
 - The audio description is present;
@@ -917,7 +917,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 ### [Topic 5](#topic-5) Interactive components {id="topic-5"}
 
-#### [Criterion 5.1](#crit-5-1) [A] Is each [user interface component](glossaire.md#composant-d-interface), if necessary, [compatible with assistive technologies](glossaire.md#compatible-with-assistive-technologies) (excluding special cases)? {id="crit-5-1"}
+#### [Criterion 5.1](#crit-5-1) [A] Is each [user interface component](glossaire.md#user-interface-component), if necessary, [compatible with assistive technologies](glossaire.md#compatible-with-assistive-technologies) (excluding special cases)? {id="crit-5-1"}
 
 - **[Test 5.1.1](#test-5-1-1):** Does each user interface component meet one of these conditions, if necessary? {id="test-5-1-1"}
 	- [The name, role, value, settings and status changes](glossaire.md#name-role-value-settings-and-status-changes) are [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) via an accessibility API;
@@ -1066,7 +1066,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
 
-#### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#contextchange) meet one of these conditions? {id="crit-5-3"}
+#### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#context-change) meet one of these conditions? {id="crit-5-3"}
 
 **[Test 5.3.1](#test-5-3-1):** Does each context change meet one of these conditions? {id="test-5-3-1"}
 - The user is warned of the type of change by a text before it is triggered;
@@ -1325,7 +1325,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.4 Text resizing (AA)](https://www.w3.org/Translations/WCAG21-fr/#resize-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.4.1 Resize Text (AA)*, *11.5.2.3 Use of accessibility services*, *11.7 User preferences*.
 
-#### [Criterion 8.3](#crit-8-3) [A] In each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-evident) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
+#### [Criterion 8.3](#crit-8-3) [A] In each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1355,7 +1355,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
-#### [Criterion 8.4](#crit-8-4) [A] In each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-evident), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
+#### [Criterion 8.4](#crit-8-4) [A] In each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1561,7 +1561,7 @@ When the additional content does not mask or replace any information-bearing con
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
 - EN 301 549 V3.2.1 (2021-03): *11.2.4.6 Headings and Labels*, *11.2.5.3.1 Label in Name*, *11.3.3.2 Labels or Instructions (A)*, *11.5.2.5 Object information*.
 
-#### [Criterion 9.4](#crit-9-4) [A] Are each field label and its associated field [located next to each other](glossaire.md#accoles-etiquette-et-champ-accoles)? {id="crit-9-4"}
+#### [Criterion 9.4](#crit-9-4) [A] Are each field label and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)? {id="crit-9-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2615,7 +2615,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.2 Concurrent voice and text*.
 
-#### [Criterion 15.4](#crit-15-4) [A] For each [real-time written communication](glossaire.md#communication-ecrite-en-temps-reel) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
+#### [Criterion 15.4](#crit-15-4) [A] For each [real-time text communication](glossaire.md#real-time-text-communication-rtt) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
 
 **[Test 15.4.1](#test-15-4-1):** For each real-time text (RTT) functionality, do the messages respect these conditions? {id="test-15-4-1"}
 - Messages received and sent are separated in the presentation;
@@ -2669,7 +2669,7 @@ The criterion is not applicable when the two-way oral communication functionalit
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*.
 
-#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time written communication](glossaire.md#real-time-written-communication) application that can interact with other [real-time written communication](glossaire.md#real-time-written-communication) applications comply with the interoperability rules in force? {id="crit-15-6"}
+#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time text communication](glossaire.md#real-time-text-communication) application that can interact with other [real-time text communication](glossaire.md#real-time-text-communication) applications comply with the interoperability rules in force? {id="crit-15-6"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

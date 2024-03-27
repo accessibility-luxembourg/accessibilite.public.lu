@@ -1,3 +1,3 @@
 ---
-title: In each [form](#formulaire), does each group of [fields of same kind](#champs-de-meme-nature) have a [legend](#legende)
+title: In each [form](#formulaire), does each group of [fields of same kind](#fields-of-same-kind) have a [legend](#legend)
 ---

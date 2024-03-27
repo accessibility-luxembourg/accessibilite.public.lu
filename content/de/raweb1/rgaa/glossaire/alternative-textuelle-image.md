@@ -56,7 +56,7 @@ RAWeb considers three types of text alternative linked to the nature of the imag
 
 - For an image conveying information, the text alternative provides the information needed to understand the content it conveys;
 - For a decorative image, no text alternative should be provided;
-- For a [CAPTCHA](#captcha) image or a [test image](#image-test), the text alternative only describes the nature and function of the image. The text alternative cannot provide the information conveyed by the image without rendering the associated function inoperative.
+- For a [CAPTCHA](#captcha) image or a [test image](#test-image), the text alternative only describes the nature and function of the image. The text alternative cannot provide the information conveyed by the image without rendering the associated function inoperative.
 
 Note 1: for a [CAPTCHA](#captcha) image, the alternative could be, for example: "Anti-spam security code" or "code to verify that you are a human" or any other alternative that allows the user to understand the nature and function of the image.
 

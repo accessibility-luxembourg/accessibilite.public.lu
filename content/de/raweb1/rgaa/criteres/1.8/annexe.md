@@ -15,7 +15,7 @@ Norm:
 
 #### Special cases
 
-For this criterion, there is special case management when the text is part of a logo, a trade name, a [CAPTCHA](#captcha), a [test image](#image-test) or an image whose graphic accuracy is considered essential for the correct transmission of the information conveyed by the image. In these situations, the criterion does not apply to these elements.
+For this criterion, there is special case management when the text is part of a logo, a trade name, a [CAPTCHA](#captcha), a [test image](#test-image) or an image whose graphic accuracy is considered essential for the correct transmission of the information conveyed by the image. In these situations, the criterion does not apply to these elements.
 
 #### Technical notes
 

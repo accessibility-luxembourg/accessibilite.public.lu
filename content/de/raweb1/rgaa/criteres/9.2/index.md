@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the [document structure](#structure-du-document) consistent (excluding special cases)?
+title: In each web page, is the [document structure](#document-structure) consistent (excluding special cases)?
 ---

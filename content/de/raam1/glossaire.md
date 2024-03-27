@@ -327,7 +327,7 @@ Rendering elements such as decorative graphic elements that do not provide relev
 
 It is therefore important to be able to prevent these elements from being rendered. Most accessibility APIs have properties or methods for preventing this type of element from being rendered.
 
-#### Information (provided by color)
+#### Information (provided by colour)
 
 Information transmitted visually by means of a colour. The indication that fields in red are mandatory in a form, the active button in a list of buttons, the change of colour of an item name to indicate its unavailability in a list of items are all examples of information given by colour.
 
@@ -448,7 +448,7 @@ QVGA (Quarter Video Graphics Array) resolution is a display standard that corres
 
 ### R
 
-#### Real-time written communication (RTT)
+#### Real-time text communication (RTT)
 
 Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the enter key).
 

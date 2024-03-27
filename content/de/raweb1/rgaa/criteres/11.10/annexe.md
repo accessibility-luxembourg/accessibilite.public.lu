@@ -38,7 +38,7 @@ Norm:
 Test 11.10.1 and Test 11.10.2 will be considered not applicable when the form contains a single [form input field](#form-input-field) or indicates optional fields in
 
 - Visible;
-- In the `<label>` tag or in the [legend](#legende) associated with the field.
+- In the `<label>` tag or in the [legend](#legend) associated with the field.
 
 If all the fields in a form are mandatory, tests 11.10.1 and 11.10.2 still apply.
 

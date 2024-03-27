@@ -33,7 +33,7 @@ Special cases are managed when
 - [Time-based media](#media-temporel-type-sound-video-and-synchronise) is itself an alternative to content on the page (a video in sign language or the vocalisation of a text, for example);
 - [Temporal media](#media-temporal-audio-video-and-synchronise) is used to access a larger version;
 - The [temporal media](#media-temporal-sound-video-and-synchronise) is used as a [CAPTCHA](#captcha);
-- The [time-based media](#media-temporel-type-sound-video-and-synchronise) is part of a test that would become useless if the [textual transcript](#transcript-textual-media-temporel), the [synchronised subtitles](#sous-titres-synchronises-objet-multimedia) or the [audio description](#audiodescription-synchronisee-media-temporel) were communicated;
+- The [time-based media](#media-temporel-type-sound-video-and-synchronise) is part of a test that would become useless if the [textual transcript](#transcript-time-based-media), the [synchronised subtitles](#synchronised-captions-media-object) or the [audio description](#synchronised-audio-description-time-based-media) were communicated;
 - The temporal media was published before 23 September 2020 (in accordance with the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)).
 
 In these situations, the criterion does not apply.

@@ -1,5 +1,5 @@
 ---
-title: Real-time written communication (RTT)
+title: Real-time text communication (RTT)
 ---
 
 <span lang="en">Real-time text</span>(RTT) is a form of written communication which allows the other party to read the text being written by the sender, without waiting for the sender to confirm (e.g. by pressing the <kbd>enter</kbd> key).
