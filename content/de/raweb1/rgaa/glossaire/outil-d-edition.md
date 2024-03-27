@@ -12,7 +12,7 @@ An editing tool can be
 
 Examples of editing tools
 
-- application for editing and controlling the content of websites or applications, e.g. CMS<em lang="en">(Content Management System</em>), LMS<em lang="en">(Learning Management System</em>), LCMS<em lang="en">(Learning Content Management System</em>), content aggregator;
+- application for editing and controlling the content of websites or applications, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
 - applications for creating office documents (e.g. for distribution in PDF format);
 - multimedia editing tools;
 - applications for creating web applications;
@@ -20,7 +20,7 @@ Examples of editing tools
 - application for exporting to web technology format (e.g. software for saving in HTML);
 - application that generates content based on templates, scripts, command lines, etc.;
 - application or functionality of a web page enabling the editing of portions of web pages or applications (typically, blog systems, comment functionalities on websites, forums or wiki systems);
-- mail application used to send <em lang="en">e-mails</em>.
+- mail application used to send e-mails.
 
 Examples of editing tools that are not included in the scope:
 

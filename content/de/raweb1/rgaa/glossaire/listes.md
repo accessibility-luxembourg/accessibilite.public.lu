@@ -14,7 +14,7 @@ Note 2: It is also possible to structure lists using the WAI-ARIA attributes `ro
 
 Note 3: the notion of "visually grouped in the form of a list" is characterised by
 
-- The presence of a visual marker making it clear that it is an unordered list, for example `-`, `-`, `\*`, etc.;
+- The presence of a visual marker making it clear that it is an unordered list, for example `-`, `•`, `*`, etc.;
 - The presence of a visual marker to indicate that it is an ordered list, e.g. a number, a Greek letter, etc.; and
 - The presence of a series of elements that visually follow on from each other, with an identical visual form, nature and function, but without directly having a visual list marker (unordered or ordered), for example a navigation menu.
 

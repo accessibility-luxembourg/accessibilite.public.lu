@@ -4,7 +4,7 @@ title: Control (moving or flashing content)
 
 The ability for the user to control the display or playback of moving or flashing content using at least the keyboard and mouse.
 
-All moving content, with the exception of time-based media supported by the multimedia theme, is covered: animated images (e.g. an animated gif), moving content offered via a '<object>' tag, JavaScript code or CSS effects, for example.
+All moving content, with the exception of time-based media supported by the multimedia theme, is covered: animated images (e.g. an animated gif), moving content offered via an `<object>` tag, JavaScript code or CSS effects, for example.
 
 Note 1: where appropriate, the control method should be available as the first element of the page.
 

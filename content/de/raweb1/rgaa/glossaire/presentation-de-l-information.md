@@ -3,7 +3,7 @@ title: Presentation of information
 ---
 
 Visual rendering of content via a browser in graphic mode. Presentation concerns the style, position and dimensions of HTML elements and their content. The presentation of information must be achieved using CSS.
-The elements (`basefont`, `big`, `blink`, `center`, `font`, `marquee`, `s`, `strike` and `tt`) and attributes (`align`, `alink`, `background`, `bgcolor`, `border`, `cellpadding`, cellspacing`, `char`, `charoff`, `clear`, `compact`, `color`, `frameborder`, `hspace`, `link`, `marginheight`, `marginwidth`, `text`, `valign`, `vlink`, `vspace`) are prohibited.
+The elements (`basefont`, `big`, `blink`, `center`, `font`, `marquee`, `s`, `strike` and `tt`) and attributes (`align`, `alink`, `background`, `bgcolor`, `border`, `cellpadding`, `cellspacing`, `char`, `charoff`, `clear`, `compact`, `color`, `frameborder`, `hspace`, `link`, `marginheight`, `marginwidth`, `text`, `valign`, `vlink`, `vspace`) are prohibited.
 
 Notes
 

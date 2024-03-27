@@ -15,4 +15,4 @@ An image without a legend can define
 
 Note: when the text adjacent to the image can be used as replacement text, it is not necessary to use the `figure`, `figcaption` set, as the image can simply be treated as a decorative image.
 
-On this subject, you can consult the <span lang="en"> W3C</span> note <span lang="en">[Requirements for providing text to act as an alternative for images](https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text)</span>.
+On this subject, you can consult the W3C note [Requirements for providing text to act as an alternative for images](https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text).

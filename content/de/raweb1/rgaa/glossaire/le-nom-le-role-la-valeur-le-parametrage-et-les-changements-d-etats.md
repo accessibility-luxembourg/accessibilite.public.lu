@@ -20,6 +20,6 @@ These parameters are not mandatory, but may be required if they are essential to
 
 The auditor must also check that, where they are present, these parameters are used correctly.
 
-To do this (if they deem it relevant, given the context in which the components are implemented and the ergonomic choices made), they can use the WAI-ARIA usage recommendations for components with WAI-ARIA attributes corresponding to a design pattern as described in the document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/</span>).
+To do this (if they deem it relevant, given the context in which the components are implemented and the ergonomic choices made), they can use the WAI-ARIA usage recommendations for components with WAI-ARIA attributes corresponding to a design pattern as described in the document [WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/).
 
 Note: WAI-ARIA roles, properties and states are implemented via attributes, for example `role="banner"`, `aria-hidden="true"`.

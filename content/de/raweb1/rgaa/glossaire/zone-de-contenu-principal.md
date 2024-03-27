@@ -6,4 +6,4 @@ Area containing the main content of the page, where the background information a
 
 Note: This zone is unique on the page. It can be difficult to determine on certain pages, such as the home page.
 
-See the technical definition provided by WAI-ARIA: <span lang="en">[`Main (role)`](https://www.w3.org/TR/wai-aria-1.1/#main)</span>.
+See the technical definition provided by WAI-ARIA: [`Main (role)`](https://www.w3.org/TR/wai-aria-1.1/#main).

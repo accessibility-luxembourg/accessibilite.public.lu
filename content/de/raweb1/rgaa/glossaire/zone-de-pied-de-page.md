@@ -6,4 +6,4 @@ This contains information about the operation of the site or legal information. 
 
 Note: Be careful not to confuse this footer region, which is unique on the site, with any content that can be tagged in HTML5 with the `<footer>` element.
 
-See the technical definition provided by WAI-ARIA: <span lang="en">[`Contentinfo (role)`](https://www.w3.org/TR/wai-aria-1.1/#contentinfo)</span>.
+See the technical definition provided by WAI-ARIA: [`Contentinfo (role)`](https://www.w3.org/TR/wai-aria-1.1/#contentinfo).

@@ -2,7 +2,7 @@
 title: Design pattern
 ---
 
-A <span lang="en"> design</span> pattern is a model defined in the <span lang="en">[WAI-ARIA 1.1 Authoring Practices]</span> document <span lang="en">(http://www.w3.org/TR/wai-aria-practices/)</span> which describes the structure, roles and properties and keyboard behaviour that a JavaScript component (widget) must respect.
+A design pattern is a model defined in the [WAI-ARIA 1.1 Authoring Practices] document (http://www.w3.org/TR/wai-aria-practices/) which describes the structure, roles and properties and keyboard behaviour that a JavaScript component (widget) must respect.
 
 It is recommended that components developed in JavaScript using WAI-ARIA attributes corresponding to a design pattern comply with it.
 Please note, however, that not all design patterns are suitable for non-application use, particularly for sites displaying in a mobile context.

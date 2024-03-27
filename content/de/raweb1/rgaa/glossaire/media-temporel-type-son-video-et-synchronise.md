@@ -18,4 +18,4 @@ Temporal media can be broadcast in real time or offered for playback asynchronou
 
 Note 1: animated gifs and image animations created using JavaScript or CSS are not considered to be temporal media.
 
-Note 2: the '<bgsound>' element is specific to Internet Explorer and should not be used.
+Note 2: the `<bgsound>` element is specific to Internet Explorer and should not be used.

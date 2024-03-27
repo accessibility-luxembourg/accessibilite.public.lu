@@ -16,30 +16,30 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
 
 - Passage of associated text via the WAI-ARIA attribute `aria-labelledby` for the tags
   - `<img>`;
-  - <input type="image"> `;
-  - <svg> `;
-  - <object type="image/…"> `;
-  - <embed type="image/…"> `;
-  - <canvas> `;
+  - `<input type="image"> `;
+  - `<svg> `;
+  - `<object type="image/…"> `;
+  - `<embed type="image/…"> `;
+  - `<canvas> `;
   - tags with a WAI-ARIA attribute `role="img"`.
 - Otherwise, content of the WAI-ARIA attribute `aria-label` for elements
   - `<img>`;
-  - <area> `;
-  - <input type="image"> `;
-  - <svg> `;
-  - <object type="image/…"> `;
-  - <embed type="image/…"> `;
-  - <canvas> `;
+  - `<area>`;
+  - `<input type="image">`;
+  - `<svg> `;
+  - `<object type="image/…">`;
+  - `<embed type="image/…">`;
+  - `<canvas>`;
   - opening tags with a WAI-ARIA attribute `role="img"`.
 - Otherwise, content of the `alt` attribute for tags
   - `<img>`;
   - `<area>`;
-  - <input type="image"> `.
+  - `<input type="image"> `.
 - Otherwise, the content of the `title` attribute for the tags:
   - `<img>`;
-  - <input type="image"> `;
-  - <object type="image/…"> `;
-  - <embed type="image/…"> `.
+  - `<input type="image"> `;
+  - `<object type="image/…"> `;
+  - `<embed type="image/…"> `.
 
 This order must be used to determine what constitutes the textual alternative.
 
