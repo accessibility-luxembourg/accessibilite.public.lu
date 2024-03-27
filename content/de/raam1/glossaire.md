@@ -19,7 +19,7 @@ A user interface component (link, button, form field, etc.) can be accessed by a
 - can focus on the component, regardless of the device;
 - can initiate the action provided for by the user interface component by means of a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen, for example);
 
-**Warning:** for certain user interface components such as potentiometers (*slider*{lang=en}, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component.  On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
+**Warning:** for certain user interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component.  On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
 
 In this framework, the expression "controllable by keyboard and any pointing device" also refers to this definition.
 
@@ -47,7 +47,7 @@ Narration added (via a sound file) to an audio track to describe important visua
 
 **Note 1:** The audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
-**Note 2: in standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
+**Note 2:** in standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
 
 **Note 3:** when all the information in the video is already given in the audio track, no additional audio description is required.
 
@@ -57,7 +57,7 @@ Narration added (via a sound file) to an audio track to describe important visua
 
 A CAPTCHA is a test used to distinguish a human user from a computer. The test often uses graphic elements containing distorted text, mixed with other shapes or using altered colour schemes, which the user is asked to retype. Other forms of CAPTCHA may be based on logical questions or sound bites.
 
-W3C provides full documentation on the accessibility of this type of test: [Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/){lang=en}.
+W3C provides full documentation on the accessibility of this type of test: [Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/).
 
 #### Biological characteristics
 
@@ -105,7 +105,7 @@ Major changes in the content of a screen which, if made without the user being a
 
 Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the enter key).
 
-Example of real-time text communication integrated into a platform: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033){lang=en}
+Example of real-time text communication integrated into a platform: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033)
 
 #### Compatible with assistive technologies
 
@@ -205,7 +205,7 @@ All the processes used to inform the user
 
 #### Native platform controls
 
-Platforms have native controls, for example a native *color picker*{lang=en} for colour selection, a calendar or a specific field containing the format control for date selection, etc. Form fields that expect particular formats (such as a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
+Platforms have native controls, for example a native color picker for colour selection, a calendar or a specific field containing the format control for date selection, etc. Form fields that expect particular formats (such as a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
 
 #### Primary control (of a temporal media)
 
@@ -246,7 +246,7 @@ Personal data concerning the user in a form can be
 - surname; 
 - first name;
 - password;
-- e-mail* address;
+- e-mail address;
 - postal address;
 - postcode; 
 - telephone number; 
@@ -328,9 +328,9 @@ A set of templates is a group of templates that allow different formatting of th
 
 ### H
 
-#### Time stamp (*time stamp*{lang=en})
+#### Time stamp
 
-The video time stamp (*time stamp*{lang=en}) is the time value declared in the subtitle file.
+The video time stamp is the time value declared in the subtitle file.
 
 ```
 1
@@ -397,7 +397,7 @@ Platforms offer users several replacement mechanisms. The activation of these re
 
 ##### Replacement mechanisms available in iOS
 
-- **Increase contrast**: The option is available from the path: *Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*. When enabled, this option allows different styles to be loaded that have been defined by the author for this specific option in order to offer a higher contrast version to users who need it. In addition, this option increases the contrast of native iOS components such as *switch*{lang=en} buttons.
+- **Increase contrast**: The option is available from the path: *Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*. When enabled, this option allows different styles to be loaded that have been defined by the author for this specific option in order to offer a higher contrast version to users who need it. In addition, this option increases the contrast of native iOS components such as switch buttons.
 - **Differentiate without colour**: This option is available via the path: *Settings &gt; Accessibility &gt; Text display and size &gt; Differentiate without colour*. When enabled, this option allows you to load additional visual information other than colour (for example, shape or size) that has been defined by the author for this specific option, in order to highlight a graphic element whose colouring carries information (an active button, for example).
 
 ##### Replacement mechanisms available on Android
@@ -422,7 +422,7 @@ This mechanism must preserve the content and functionality of the application or
 
 #### Time-based media (audio, video and synchronised)
 
-- Temporal media only audio: sound content (*wave*{lang=en}, MP3...).
+- Temporal media only audio: sound content (wave, MP3...).
 - Temporal media only video: moving or sequential images or photos.
 - Synchronised temporal media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
 	- as a downloadable file that can be viewed with external software;
@@ -474,14 +474,14 @@ An editing tool can be
 - a set of tools.
 
 Examples of editing tools
-- an application for editing and controlling the content of a Website or application, e.g. CMS (*Content Management System*{lang=en}), LMS (*Learning Management System*{lang=en}), LCMS (*Learning Content Management System*{lang="en"}), content aggregator;
+- an application for editing and controlling the content of a Website or application, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
 - multimedia editing tools;
 - applications for creating web applications;
 - application for editing code;
 - application for exporting in web technology format (for example, software for saving in HTML);
 - applications that generate content using templates, scripts, command lines, etc.;
 - an application for editing portions of web pages or applications (typically, blog systems, wikis and forums);
-- mail application for sending *e-mails*{lang=en}.
+- mail application for sending e-mails.
 
 Examples of editing tools that are not included in the scope
 - An application where the content created is not made available to other users (note-taking application with no sharing functionality, for example). In this case, the edited content is only available to the owner and is not made available to other users.
@@ -511,15 +511,15 @@ A technique for modifying the content of one or more screen elements. The user m
 When focused, this is the state returned by an element which receives attention following a user action. There are several ways of bringing an element into focus:
 - by activating the element using a pointing device (by touching the screen);
 - by reaching the element using a key on an external keyboard (tab, direction arrow);
-- by reaching the element using an external switch (*switch*{lang=en}, *joystick*{lang=en}).
+- by reaching the element using an external switch (switch, joystick).
 
-When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, *switch*{lang=en} for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#externalkeyboard). 
+When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#externalkeyboard). 
 
 ### Q
 
 #### QVGA
 
-QVGA (*Quarter Video Graphics Array*{lang=en}) resolution is a display standard that corresponds to a size of 320 pixels X 240 pixels (i.e. 76,800 pixels).
+QVGA (Quarter Video Graphics Array) resolution is a display standard that corresponds to a size of 320 pixels X 240 pixels (i.e. 76,800 pixels).
 
 ### R
 
@@ -548,7 +548,7 @@ For example, there are relays that enable a user who communicates using sign lan
 #### Help desk
 
 A help desk can be a 
-- *help desk*{lang=en}, 
+- help desk, 
 - a call centre, 
 - technical support,
 - a [relay service](#relay-service),
@@ -633,4 +633,4 @@ Generally speaking, it is easier to produce an audio version than a text version
 
 #### Web views
 
-Also known as *web view*{lang=en}. These are web pages (created in HTML and CSS) embedded in a mobile application. Web views can be entire application screens or just parts of screens (for example, advertising inserts).
+These are web pages (created in HTML and CSS) embedded in a mobile application. Web views can be entire application screens or just parts of screens (for example, advertising inserts).

@@ -204,7 +204,7 @@ In these situations, the criterion does not apply:
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*{lang=en}.
 
 
-### [Topic 2](#topic-2) Colour {id="topic-2"}
+### [Topic 2](#topic-2): Colours {id="topic-2"}
 #### [Criterion 2.1](#crit-2-1) [A] Information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected? {id="crit-2-1"}
 - **[Test 2.1.1](#test-2-1-1)** For each word or set of words whose colouring carries information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour). Is this rule respected? {id="test-2-1-1"}
 - **[Test 2.1.2](#test-2-1-2)** For each indication of colour given by text, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour). Is this rule respected? {id="test-2-1-2"}
@@ -304,7 +304,7 @@ In these situations, the criterion does not apply:
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*{lang=en}.
 
-### [Topic 3](#topic-3) Tables {id="topic-3"}
+### [Topic 3](#topic-3): Tables {id="topic-3"}
 
 #### [Criterion 3.1](#crit-3-1) [A] Does each [complex data table](glossaire.md#complex-data-table) have an alternative? {id="crit-3-1"}
 - **[Test 3.1.1](#test-3-1-1)** Does each [complex data table](glossaire.md#complex-data-table) satisfy one of these conditions? {id="test-3-1-1"}
@@ -407,7 +407,7 @@ In these situations, the criterion does not apply:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03) *10.1.3.1 Info and relationships*{lang=en}.
 
-### [Topic 4](#topic-4) Links {id="topic-4"}
+### [Topic 4](#topic-4): Links {id="topic-4"}
 
 #### [Criterion 4.1](#crit-4-1) [A] Is each [link](glossaire.md#link) explicit? {id="crit-4-1"}
 - **[Test 4.1.1](#test-4-1-1)** Does each [link](glossaire.md#link) meet one of these conditions? {id="test-4-1-1"}
@@ -469,7 +469,7 @@ In these situations, the criterion does not apply:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*{lang=en}, *10.1.1.1 Non-text content*{lang=en}.
 
-### [Topic 5](#topic-5) Information structuring {id="topic-5"}
+### [Topic 5](#topic-5): Information structure {id="topic-5"}
 
 #### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of titles? {id="crit-5-1"}
 - **[Test 5.1.1](#test-5-1-1)** Does each title use a [title style](glossaire.md#title-style)? {id="test-5-1-1"}
@@ -556,7 +556,7 @@ In these situations, the criterion does not apply:
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03) *10.1.3.1 Info and relationships*{lang=en}.
 
-### [Topic 6](#topic-6) Presentation of information {id="topic-6"}
+### [Topic 6](#topic-6): Presentation of information {id="topic-6"}
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [order of presentation](glossaire.md#order-of-presentation) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [order of presentation](glossaire.md#order-of-presentation) of the content consistent? {id="test-6-1-1"}
@@ -643,7 +643,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
 - EN 301 549 V3.2.1 (2021-03) *10.1.4.1 Use of colour*{lang=en}.
 
-### [Topic 7](#topic-7) Navigation {id="topic-7"}
+### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
 #### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [summary](glossaire.md#summary) (excluding special cases)? {id="crit-7-1"}
 - **[Test 7.1.1](#test-7-1-1)** Does the document have a [table of contents](glossaire.md#summary) (excluding special cases)? {id="test-7-1-1"}
@@ -669,7 +669,7 @@ In these situations, the criterion is not applicable:
     - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
 
-### [Topic 8](#topic-8) Mandatory elements {id="topic-8"}
+### [Topic 8](#topic-8): Mandatory elements {id="topic-8"}
 
 #### [Criterion 8.1](#crit-8-1) [A] Does the document have a [document title](glossaire.md#document-title)? {id="crit-8-1"}
 - **[Test 8.1.1](#test-8-1-1)** Does the document have a [document title](glossaire.md#document-title)? {id="test-8-1-1"}
@@ -717,7 +717,7 @@ In this case, the criterion is not applicable.
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03) *10.2.4.2 Document titled*{lang=en}.
 
-### [Topic 9](#topic-9) Consultation {id="topic-9"}
+### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
 #### [Criterion 9.1](#crit-9-1) [A] Is each [complex form](glossaire.md#complex-form) [decoration](glossaire.md#decoration) correctly ignored by assistive technologies? {id="crit-9-1"}
 - **Does each [complex form](glossaire.md#complex-form) [decoration](glossaire.md#decoration) satisfy one of these conditions?{id="test-9-1-1"}
@@ -903,7 +903,7 @@ In this case, the criterion is not applicable.
     - [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.2 Pause, stop, hide*{lang=en}.
 
-### [Topic 10](#topic-10) Interactive form (complementary topic){id="topic-10"} 
+### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
 #### Introduction{class=no-summary}
 This topic only concerns interactive forms filled in with Acrobat Reader.
 PDF forms can only be created using Acrobat Pro or specialist PDF form editing software.

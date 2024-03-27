@@ -243,7 +243,6 @@ function generateGlossary(path) {
   Object.keys(jsonData).forEach(e => {
     jsonData[e] = jsonData[e].sort((a,b) => { return a.id.localeCompare(b.id)})
   })
-
   return jsonData
 }
 
