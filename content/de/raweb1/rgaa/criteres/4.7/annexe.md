@@ -13,4 +13,4 @@ Norm:
 
 #### Special cases
 
-There is special case management when the [temporal media](#media-temporel-type-sound-video-and-synchronise) is used for decorative purposes (i.e. it does not provide any information). In this situation, the criterion does not apply.
+There is special case management when the [temporal media](#time-based-media-audio-video-and-synchronised) is used for decorative purposes (i.e. it does not provide any information). In this situation, the criterion does not apply.

@@ -504,7 +504,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.3 Audio description or alternative version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronised [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-6"}
+#### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-6"}
 
 **[Test 3.6.1](#test-3-6-1):** Does each synchronised pre-recorded time-based media item meet one of these conditions? {id="test-3-6-1"}
 - The audio description is relevant and correctly synchronised;
@@ -617,7 +617,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.5 Audio Description (Pre-recorded)*.
 
-#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise), does the adjacent textual content clearly identify the time-based media (excluding special cases)?  {id="crit-3-11"}
+#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), does the adjacent textual content clearly identify the time-based media (excluding special cases)?  {id="crit-3-11"}
 
 ##### Special cases
 
@@ -660,7 +660,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 - WCAG 2.1 [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
 
-#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) have, where necessary, the [viewing control features](glossaire.md#control-of-viewing(of-time-based-media))?  {id="crit-3-13"}
+#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#control-of-viewing(of-time-based-media))?  {id="crit-3-13"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -682,7 +682,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard)
 - EN 301 549 V3.2.1 (2021-03): *7.1.1 Captioning playback*, *7.2.1 Audio description playback*, *11.2.1.1.1 Keyboard*.
 
-#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise), are alternative control functionalities presented at the same level as other [primary control](glossaire.md#primary-control-a-time-based-media) functionalities? {id="crit-3-14"}
+#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control functionalities presented at the same level as other [primary control](glossaire.md#primary-control-a-time-based-media) functionalities? {id="crit-3-14"}
 
 **[Test 3.14.1](#test-3-14-1):** For each temporal medium, do the alternative control functionalities meet these conditions? {id="test-3-14-1"}
 - For each time-based medium, the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other primary control functionalities;
@@ -704,7 +704,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *7.3 User controls for captions and audio description*.
 
-#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) that has a subtitle track, at the end of the process, are the subtitles correctly preserved? {id="crit-3-15"}
+#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has a subtitle track, at the end of the process, are the subtitles correctly preserved? {id="crit-3-15"}
 
 **[Test 3.15.1](#test-3-15-1):** For each feature that transmits, converts or records a video that has a subtitle track, at the end of the process, do the subtitles respect these conditions? {id="test-3-15-1"}
 - The subtitles are present;
@@ -730,7 +730,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.1.3 Preservation of captioning*.
 
-#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise) pre-recorded with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
+#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) pre-recorded with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
 
 **[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions? {id="test-3-16-1"}
 - The audio description is present;
@@ -756,7 +756,7 @@ Note: Although volume and playback controls may be physical components of the te
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.2.3 Preservation of audio description*.
 
-#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [time-based media](glossaire.md#media-temporel-type-sound-video-and-synchronise), is the presentation of subtitles controllable by the user (excluding special cases)? {id="crit-3-17"}
+#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), is the presentation of subtitles controllable by the user (excluding special cases)? {id="crit-3-17"}
 
 ##### Special cases
 
@@ -792,7 +792,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *7.1.4 Captions characteristics, 11.7 User preferences*.
 
-#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded time-synchronised media](glossaire.md#media-temporel-type-sound-video-and-synchronise) that has [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
+#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded time-synchronised media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
 
 **[Test 3.18.1](#test-3-18-1):** Does each pre-recorded time-synchronised media item with synchronised subtitles meet one of these conditions? {id="test-3-18-1"}
 - The subtitles are in a standardised format;

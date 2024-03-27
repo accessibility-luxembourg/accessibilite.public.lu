@@ -1,3 +1,3 @@
 ---
-title: Is each [temporal media](#media-temporel-type-son-video-et-synchronise) clearly identifiable (excluding special cases)?
+title: Is each [temporal media](#time-based-media-audio-video-and-synchronised) clearly identifiable (excluding special cases)?
 ---
