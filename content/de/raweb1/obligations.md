@@ -213,14 +213,14 @@ The percentage of criteria met is obtained by dividing the number of validated c
   * Validated criteria: a criterion is validated if it is validated on all the pages or screens in the sample. If a criterion is invalidated on only one page or screen in the sample, it cannot be considered valid for calculating the rate.
   * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one page or screen in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the pages or screens in the sample without exception.
 
-This compliance rate determines the compliance status to be mentioned in the [accessibility statement](#content-of-the-declaration-of-accessibility).
+This compliance rate determines the compliance status to be mentioned in the [accessibility statement](#content-of-the-accessibility-statement).
 
 #### Principle of non-interference
 
 In an audit sample, there may be content that is not subject to the accessibility obligation:
 
-- exempt content](#exempt content);
-- content derogated for disproportionate burden](#dérogation-pour-charge-disproportionnée);
+- [exempt content](#exempt-content);
+- [content derogated for disproportionate burden](#derogation-for-disproportionate-burden);
 - non-accessible content that has an accessible alternative.
 
 It is essential to ensure that this content does not prevent users from accessing the rest of the page.

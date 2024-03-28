@@ -9,4 +9,4 @@ Textual content associated with a time-based media object using the appropriate 
 
 This textual information must be presented in the chronological order in which it appears in the time-based media.
 
-Note: the textual transcription must be located outside the `<object>` tag.
+Note: the transcript must be located outside the `<object>` tag.

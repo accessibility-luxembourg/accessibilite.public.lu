@@ -113,7 +113,7 @@ The test [4.4.1](criteres.html#test-4-4-1) has been rewritten to specify the tes
 
 Test 4.4.1 in the RGAA 4.1.2 
 
-<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised subtitles, are these subtitles relevant?</blockquote>
+<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised captions, are these subtitles relevant?</blockquote>
 
 It has been rewritten in RAWeb 1 to introduce 3 test conditions to be verified: 
 

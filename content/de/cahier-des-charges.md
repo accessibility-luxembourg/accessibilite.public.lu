@@ -45,7 +45,7 @@ This minimum requirement concerns all the functions and content developed by the
 
 This minimum level of requirement does not apply to content produced by the ORGANISM's own teams or to [content that may be subject to exemptions](https://accessibilite.public.lu/fr/obligations.html#contenus-exemptés) as defined by law.
 
-For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/fr/obligations.html#dérogation-pour-charge-disproportionnée) for the CONTRACT HOLDER, any exemption for disproportionate burden must be validated by the ORGANIZATION.
+For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/fr/obligations.html#derogation-for-disproportionate-burden) for the CONTRACT HOLDER, any exemption for disproportionate burden must be validated by the ORGANIZATION.
 
 #### Verification
 

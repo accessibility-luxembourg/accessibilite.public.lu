@@ -369,17 +369,17 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 
 ### [Topic 3](#topic-3) Multimedia {id="topic-3"}
 
-#### [Criterion 3.1](#crit-3-1) [A] Does each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronise) have, where appropriate, an [adjacent clearly-identifiable](glossaire.md#transcript-time-based-media-media-temporal) [transcript (time-based media)](glossaire.md#adjacent-clearly-identifiable) (excluding special cases)? {id="crit-3-1"}
+#### [Criterion 3.1](#crit-3-1) [A] Does each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronise) have, where appropriate, an [adjacent clearly-identifiable](glossaire.md#transcript-time-based-media) [transcript (time-based media)](glossaire.md#adjacent-clearly-identifiable) (excluding special cases)? {id="crit-3-1"}
 
 ##### Special cases
 
 The criterion does not apply to the following elements:
 - The temporal medium is used for decorative purposes (i.e. it does not provide any information).
 - The temporal medium is itself an alternative to on-screen content (a video in sign language or the vocalisation of a text, for example).
-- Temporal media is used to access an enlarged version.
-- Temporal media is used as a CAPTCHA.
-- Time-based media is part of a test that would be useless if the text transcript, synchronised subtitles or audio description were provided.
-- The temporal media was published before 23 September 2020 (according to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)).
+- Time-based media is used to access an enlarged version.
+- Time-based media is used as a CAPTCHA.
+- Time-based media is part of a test that would be useless if the text transcript, synchronised captions or audio description were provided.
+- The time-based media was published before 23 September 2020 (according to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -387,8 +387,8 @@ The criterion does not apply to the following elements:
 
 1. Locate audio-only time-based media on the screen that require text transcription.
 1. Check:
-	- The presence of a textual transcription accessible via an adjacent component (a button or a link);
-	- Or the presence of a clearly identifiable adjacent textual transcription.
+	- The presence of a transcript accessible via an adjacent component (a button or a link);
+	- Or the presence of a clearly identifiable adjacent transcript.
 1. If this is the case, the criterion is validated. 
 
 ##### Correspondences {class="disclosure mapping"}
@@ -396,7 +396,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronised) with a [transcript](glossaire.md#transcript-time-based-media-media-temporal), is it relevant (excluding special cases)? {id="crit-3-2"}
+#### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronised) with a [transcript](glossaire.md#transcript-time-based-media), is it relevant (excluding special cases)? {id="crit-3-2"}
 
 ##### Special cases
 
@@ -417,9 +417,9 @@ The criterion does not apply to the following elements:
 
 #### [Criterion 3.3](#crit-3-3) [A] Does each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-3"}
 
-**[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only temporal media satisfy, if necessary, one of these conditions (excluding special cases)? {id="test-3-3-1"}
+**[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only time-based media satisfy, if necessary, one of these conditions (excluding special cases)? {id="test-3-3-1"}
 - There is a [alternative "audio only" version](glossaire.md#alternative-audio-only-version) [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
-- There is a [textual transcription](glossaire.md#textual-transcription-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clarically-identifiable);
+- There is a [transcript](glossaire.md#textual-transcription-media-temporal) accessible [clearly identifiable adjacent](glossaire.md#adjacent-clarically-identifiable);
 - There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
 - There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
@@ -449,7 +449,7 @@ The criterion does not apply to the following elements:
 #### [Criterion 3.4](#crit-3-4) [A] For each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-4"}
 
 **[Test 3.4.1](#test-3-4-1):** Does each pre-recorded video-only time-lapse medium meet one of these conditions? {id="test-3-4-1"}
-- [Textual transcription](glossaire.md#textual-transcription-temporal-media) is relevant;
+- [Transcript](glossaire.md#textual-transcription-temporal-media) is relevant;
 - The [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) is relevant and correctly synchronised;
 - The [alternative version "audio only"](glossaire.md#alternative-version-audio-only) is relevant.
 
@@ -476,10 +476,10 @@ The criterion does not apply to the following elements:
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.5](#crit-3-5) [A] Does each pre-recorded synchronised [temporal media](glossaire.md#temporal-media-type-sound-video-and-synchronise) have, if necessary, an alternative (excluding special cases)? {id="crit-3-5}
+#### [Criterion 3.5](#crit-3-5) [A] Does each pre-recorded synchronised [time-based media](glossaire.md#temporal-media-type-sound-video-and-synchronise) have, if necessary, an alternative (excluding special cases)? {id="crit-3-5}
 
 **[Test 3.5.1](#test-3-5-1):** If necessary, does each pre-recorded time-synchronised medium satisfy one of these conditions (excluding special cases)? {id="test-3-5-1"}
-- There is a [textual transcription](glossaire.md#textual-transcription-temporal-media) accessible [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
+- There is a [transcript](glossaire.md#textual-transcription-temporal-media) accessible [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent);
 - There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
 - There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
@@ -494,7 +494,7 @@ The criterion does not apply to the following elements:
 1. Locate synchronised time-based media on the screen that require a text transcript.
 1. Check for
 	- the presence of a clearly identifiable adjacent text transcript;
-	- or the presence of a textual transcription accessible via an adjacent component (a button or a link);
+	- or the presence of a transcript accessible via an adjacent component (a button or a link);
 	- or the presence of a synchronised audio description;
 	- or the presence of an alternative version with a synchronised audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
@@ -531,7 +531,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.3 Audio description or alternative version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.7](#crit-3-7) [A] Does each pre-recorded synchronised [time-based media](glossaire.md#media-temporal-audio-video-and-synchronised) have, where appropriate, [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object) (excluding special cases)? {id="crit-3-7}
+#### [Criterion 3.7](#crit-3-7) [A] Does each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where appropriate, [synchronised captions](glossaire.md#synchronised-captions-media-object) (excluding special cases)? {id="crit-3-7}
 
 ##### Special cases
 
@@ -543,8 +543,8 @@ The criterion does not apply to the following elements:
 
 1. Locate time-synchronised media on the screen that require subtitles (i.e. where the soundtrack provides information, such as a person's speech).
 1. Check that
-	- that there are synchronised subtitles;
-	- or that there is an alternative version with synchronised subtitles accessible via an adjacent component (a button or a link).
+	- that there are synchronised captions;
+	- or that there is an alternative version with synchronised captions accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
@@ -552,9 +552,9 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.2 Subtitles (prerecorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.2 Captions (Prerecorded)*.
 
-#### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronised [time-based media](glossaire.md#media-temporal-audio-video-and-synchronised) with [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object), are these relevant? {id="crit-3-8}
+#### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant? {id="crit-3-8}
 
-**[Test 3.8.1](#test-3-8-1):** For each pre-recorded time-synchronised media item with synchronised subtitles, do the subtitles meet these conditions? {id="test-3-8-1"}
+**[Test 3.8.1](#test-3-8-1):** For each pre-recorded time-synchronised media item with synchronised captions, do the subtitles meet these conditions? {id="test-3-8-1"}
 - Subtitles are relevant;
 - The subtitles are correctly synchronised.
 
@@ -565,7 +565,7 @@ The criterion does not apply to the following elements:
 1. Locate time-synchronised media with subtitles on the screen.
 1. Check that the subtitles are
 	- relevant (all important audio information is present, including dialogue);
-	- correctly synchronised. If there is no delay between the spoken word and the appearance of the subtitles, the subtitles are correctly synchronised. The reference standard specifies that subtitles should appear within 100 ms of the [subtitle time stamp](glossaire.md#horodatage-time-stamp).
+	- correctly synchronised. If there is no delay between the spoken word and the appearance of the subtitles, the subtitles are correctly synchronised. The reference standard specifies that subtitles should appear within 100 ms of the [subtitle time stamp](glossaire.md#time-stamp).
 1. If this is the case, the criterion is validated.
 
 ##### Correspondences {class="disclosure mapping"}
@@ -672,7 +672,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 	- a pause or stop function; 
 	- if the media has a sound track, a function that enables the sound to be switched on and off;
 1. If the media has audio description, check that there is a function that enables audio description to be switched on and off.
-1. If the media has synchronised subtitles: 
+1. If the media has synchronised captions: 
 	- if the subtitles are embedded (*open captions*) as an image, check that they are displayed when the video is played;
 	- if the subtitles are not closed captions*, check that there is a function that allows you to activate and deactivate these subtitles.
 1. If this is the case, the criterion is validated.
@@ -692,7 +692,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 ###### iOS and Android
 
-1. Locate pre-recorded time-based media with an alternative (synchronised subtitles or audio description) on the screen.
+1. Locate pre-recorded time-based media with an alternative (synchronised captions or audio description) on the screen.
 1. If subtitles are present, check that the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other functionalities (such as the playback functionality, for example), i.e. that it is not necessary to perform more actions to trigger subtitles than to trigger the other functionalities. For example, if the play button can be activated from the interface by a simple tap gesture (without the need to activate a first component), the subtitles function should be available in the same way, with a simple tap gesture. If the subtitles function is available from a drop-down menu that needs to be activated (by a tap gesture, for example), it will not be considered to be at the same level because there will be an additional step to perform.
 1. If audio description is present, check that the function that enables you to activate and deactivate audio description is presented at the same level as the other functions.
 1. If this is the case, the criterion is validated.
@@ -792,9 +792,9 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *7.1.4 Captions characteristics, 11.7 User preferences*.
 
-#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded time-synchronised media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised subtitles](glossaire.md#synchronised-subtitles-multimedia-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
+#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded time-synchronised media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised captions](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded time-synchronised media item with synchronised subtitles meet one of these conditions? {id="test-3-18-1"}
+**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded time-synchronised media item with synchronised captions meet one of these conditions? {id="test-3-18-1"}
 - The subtitles are in a standardised format;
 - There is an additional audio track containing the subtitles.
 
