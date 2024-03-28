@@ -12,7 +12,7 @@ For example, when the interface contains an graphic element conveying informatio
 
 ### Assessment tools
 
-To assess the criteria in the framework, the tests are carried out using the dedicated CAP 2021 tool or directly in the<span lang="en">Acrobat Reader</span> interface, with the exception of the complementary theme "10 - Interactive form", which requires the use of the NVDA screen reader.
+To assess the criteria in the framework, the tests are carried out using the dedicated PAC 2021 tool or directly in the<span lang="en">Acrobat Reader</span> interface, with the exception of the complementary theme "10 - Interactive form", which requires the use of the NVDA screen reader.
 
 The sections below describe the essential elements you need to know to install these tools.
 

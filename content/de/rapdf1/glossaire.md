@@ -22,7 +22,7 @@ On the other hand, if a legend gives the values and all the useful information f
 Activation time for flashing or moving content: time during which the flashing or movement is active.
 
 #### Alternative text version
-This is text identical to the content of an image of text. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the image of text is replaced by text.
+This is text identical to the content of a text image. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the text image is replaced by text.
 
 ### C
 
@@ -41,10 +41,6 @@ These components should not be used, as their output is generally unsatisfactory
 
 #### Consistent labels
 Form field labels present in the same document and requiring the same information to be entered must be worded unambiguously so that the user understands that the information they are required to communicate is the same.
-
-#### Contents
-List of content titles, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each title may be accompanied by the corresponding page number.
-Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 #### Cryptic content
 This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*{lang=en}) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
@@ -111,8 +107,8 @@ For example
 - In the following two sentences, the two "click here" links are not identical, because they have a different context: "To consult our catalogue: click here" and "To contact us: click here". 
 - In the following sentence, the two "on this page" links are identical, because the context does not allow them to be differentiated: "You can contact us on this page or on this page"
 
-#### Indication conveyed solely by shape, size or location
-Any essential indication that is conveyed solely by a change in the shape or size of text content or by the position of an element in a text.
+#### Indication conveyed only by shape, size or location
+Any essential indication that is conveyed only by a change in the shape or size of text content or by the position of an element in a text.
 
 For example
 
@@ -121,10 +117,10 @@ For example
 
 Other forms of indication by shape, size or position can be used, but it is not possible to enter them here.
 
-#### Information carrier
+#### Conveying information
 A complex image or form that contains at least one piece of information essential to understanding the content with which it is associated.
 
-#### Image of text or text as image
+#### Text image or text as image
 
 Image displaying text.
 
@@ -221,10 +217,10 @@ Text and image text in normal size is less than 150% or 120% bold compared to th
 
 The default size is the size of the body text.
 
-### O
+### P
 
-#### Output order
-In an office environment, the order of output is dictated by the order in which content is written. 
+#### Playback order
+In an office environment, the playback order is dictated by the order in which content is written. 
 However, certain bad practices can disrupt the order in which content is rendered.
 
 For example
@@ -242,8 +238,6 @@ If the text zone and the content block have no logical relationship, the criteri
 Conversely, if the text zone and content block must be rendered in a particular order and the wrapping or anchoring does not respect this order, the criterion will be non-compliant.
 
 Other problems with the order of rendering may be found, but it is not possible to specify them here.
-
-### P
 
 #### Presentation table
 A table used to display information in cells without the need for a column or row header.
@@ -264,6 +258,10 @@ These are the formats and styles used to structure content (titles, lists, parag
 When these formats or styles are used to create presentation effects, rendering can be profoundly affected. For example, using a title style to format a paragraph, using paragraphs to create margin effects, and so on.
 
 **Note on the use of paragraphs**: the presence of an empty paragraph after structured content, for example a title, a list or a paragraph of text at the end of a page, is not considered to be non-compliant. Only the use of several successive empty paragraphs is concerned.
+
+#### Summary
+List of content titles, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each title may be accompanied by the corresponding page number.
+Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 ### T
 
