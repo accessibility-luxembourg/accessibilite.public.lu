@@ -109,7 +109,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#description-detaillee)? {id="crit-1-4"}
-- **[Test 1.4.1](#test-1-4-1)** Does each [information-carrying](glossaire.md#information-carrying) image that requires a [detailed description](glossaire.md#description-size) satisfy one of these conditions? {id="test-1-4-1"}
+- **[Test 1.4.1](#test-1-4-1)** Does each [information-conveying](glossaire.md#information-conveying) image that requires a [detailed description](glossaire.md#description-size) satisfy one of these conditions? {id="test-1-4-1"}
     - The [detailed description](glossaire.md#description-detaile) is adjacent to the image.
     - A link adjacent to the image will take you to the [detailed description](glossaire.md#description-detaile).
 
@@ -290,8 +290,8 @@ In these situations, the criterion does not apply:
 1. Open the PDF file.
 3. Identify the graphic elements that carry information.
 4. Using the Color Contrast Analyser tool, check that
-    - the contrast ratio between each of the information-carrying colours and its adjacent colour(s) is at least 3:1;
-    - the contrast ratio between each of the information-carrying colours and the background colour is at least 3:1;
+    - the contrast ratio between each of the information-conveying colours and its adjacent colour(s) is at least 3:1;
+    - the contrast ratio between each of the information-conveying colours and the background colour is at least 3:1;
     - the contrast ratio between each state of the same graphic element is at least 3:1;
     - the contrast ratio between each state of the same graphic element and the background colour is at least 3:1.
 5. If this is not the case, check that there is a way of obtaining a version of the document with sufficient contrast.
@@ -742,8 +742,8 @@ In this case, the criterion is not applicable.
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 9.2](#crit-9-2) [A] Does each [complex form](glossaire.md#complex-form) [information-carrying](glossaire.md#information-carrying) have a [textual alternative](glossaire.md#textual-alternative)? {id="crit-9-2"}
-- **[Test 9.2.1](#test-9-2-1)** Does each [complex form](glossaire.md#complex-form) [information-carrying](glossaire.md#information-carrying) satisfy one of these conditions? {id="test-9-2-1"}
+#### [Criterion 9.2](#crit-9-2) [A] Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#information-conveying) have a [textual alternative](glossaire.md#textual-alternative)? {id="crit-9-2"}
+- **[Test 9.2.1](#test-9-2-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#information-conveying) satisfy one of these conditions? {id="test-9-2-1"}
     - The complex form has a textual alternative.
     - A link adjacent to the complex form provides access to a textual alternative.
 
@@ -753,7 +753,7 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify the complex information-carrying shapes in the original document.
+3. Identify the complex information-conveying shapes in the original document.
 4. Check in PAC that each of them (FIGURE element) is accompanied by a filled-in alternative (ALT element).
 5. If this is not the case, check that the complex form is immediately followed by a link providing access to a textual alternative (LINK element).
 6. If this is the case, the criterion is validated.
@@ -773,7 +773,7 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify the complex information-carrying shapes in the original document.
+3. Identify the complex information-conveying shapes in the original document.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the complex form is associated.
 6. If this is the case, the criterion is validated.
 
@@ -783,8 +783,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 9.4](#crit-9-4) [A] Does each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-carrying-form) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
-- **[Test 9.4.1](#test-9-4-1)** Does each [complex form](glossaire.md#complex-form) [information-carrying](glossaire.md#information-carrying) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
+#### [Criterion 9.4](#crit-9-4) [A] Does each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-conveying-form) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
+- **[Test 9.4.1](#test-9-4-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#information-conveying) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
     - The [detailed description](glossaire.md#description-detaile) is adjacent to the complex form.
     - A link adjacent to the complex form provides access to the [detailed description](glossaire.md#detailed-description).
 
@@ -794,7 +794,7 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify complex information-carrying shapes that require detailed description in the original document.
+3. Identify complex information-conveying shapes that require detailed description in the original document.
 4. Check in PAC that each of them is accompanied by an adjacent text that serves as a detailed description.
 5. If this is not the case, check that each one is accompanied by an adjacent link providing access to the detailed description.
 6. If this is the case, the criterion is validated.
@@ -805,8 +805,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03) *10.1.1.1 Non-text content*{lang=en}.
 
-#### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-carrying-form) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
-- **[Test 9.5.1](#test-9-5-1)** Does each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-carrying-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
+#### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-conveying-form) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
+- **[Test 9.5.1](#test-9-5-1)** Does each [complex form](glossaire.md#complex-form) [carrying information](glossaire.md#information-conveying-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
     - The [detailed description](glossaire.md#description-detaile) adjacent to the complex form is relevant.
     - The [detailed description](glossaire.md#description-detaile) available via an adjacent link is relevant.
 
@@ -815,7 +815,7 @@ In this case, the criterion is not applicable.
 ###### With Acrobat Reader
 
 1. Open the PDF file.
-2. Identify the complex information-carrying shapes associated with a detailed description in the original document.
+2. Identify the complex information-conveying shapes associated with a detailed description in the original document.
 4. Check that the adjacent detailed description or the one that can be consulted via an adjacent link includes all the information contained in the complex form.
 6. If this is the case, the criterion is validated.
 

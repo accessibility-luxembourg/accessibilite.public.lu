@@ -22,14 +22,14 @@
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-#### [Criterion 1.2](#crit-1-2) [A] Does each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) have an [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative? {id="crit-1-2"}
+#### [Criterion 1.2](#crit-1-2) [A] Does each [information-conveying graphic element](glossaire.md#information-conveying-graphic-element) have an [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative? {id="crit-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Activate the **screen reader**.
-1. Locate information-carrying graphic elements on the screen ([see glossary note on special rendering features](glossaire.md#graphic-element)), for example an image or icon.
+1. Locate information-conveying graphic elements on the screen ([see glossary note on special rendering features](glossaire.md#graphic-element)), for example an image or icon.
 1. Check that
 	- that they can be reached with the screen reader; 
 	- or that the information they convey is rendered from another element on the screen.
@@ -40,7 +40,7 @@
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-#### [Criterion 1.3](#crit-1-3) [A] For each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element), is the [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative relevant (excluding special cases)? {id="crit-1-3"}
+#### [Criterion 1.3](#crit-1-3) [A] For each [information-conveying graphic element](glossaire.md#information-conveying-graphic-element), is the [assistive technology-accessible](glossaire.md#assistive-technology-accessible) alternative relevant (excluding special cases)? {id="crit-1-3"}
 
 ##### Special cases 
 
@@ -53,7 +53,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 ###### iOS and Android
 
 1. Activate the **screen reader**.
-1. Locate the information-carrying graphic elements on the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)).
+1. Locate the information-conveying graphic elements on the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)).
 1. Check that 
 	- that the alternative displayed by the screen reader is relevant; 
 	- or that the information retrieved from another element on the screen is relevant.
@@ -101,9 +101,9 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-#### [Criterion 1.6](#crit-1-6) [A] Does each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-6"}
+#### [Criterion 1.6](#crit-1-6) [A] Does each [information-conveying graphic element](glossaire.md#information-conveying-graphic-element) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-6"}
 
-**[Test 1.6.1](#test-1-6-1):** Does each information-carrying graphic element that requires a detailed description meet one of these conditions? {id="test-1-6-1"}
+**[Test 1.6.1](#test-1-6-1):** Does each information-conveying graphic element that requires a detailed description meet one of these conditions? {id="test-1-6-1"}
 - From the graphic element, assistive technologies render or provide access to a detailed description;
 - There is a clearly identifiable detailed description adjacent to the graphic element;
 - There is a function that provides access to a detailed description.
@@ -112,7 +112,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 
 ###### iOS and Android
 
-1. Identify information-carrying graphic elements on the screen that require a detailed description ([see glossary note on rendering features](glossaire.md#graphic-element)). For example
+1. Identify information-conveying graphic elements on the screen that require a detailed description ([see glossary note on rendering features](glossaire.md#graphic-element)). For example
 	- graphic elements for which the alternative to be provided is too long (more than one sentence, for example) or requires structuring (titles, lists or tables); 
 	- graphic elements which combine several issues (information through colour, text graphic element, contrasts, etc.) such as graphs or maps.
 1. Check for 
@@ -127,7 +127,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-#### [Criterion 1.7](#crit-1-7) [A] For each [information-carrying graphic element](glossaire.md#information-carrying-graphic-element) with a [detailed description](glossaire.md#detailed-description), is it relevant? {id="crit-1-7"}
+#### [Criterion 1.7](#crit-1-7) [A] For each [information-conveying graphic element](glossaire.md#information-conveying-graphic-element) with a [detailed description](glossaire.md#detailed-description), is it relevant? {id="crit-1-7"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -155,7 +155,7 @@ The criterion does not apply to the following elements:
 
 ###### iOS and Android
 
-1. Locate the information-carrying graphic elements in the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)) 
+1. Locate the information-conveying graphic elements in the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)) 
 	- Activate the **screen reader**, browse the content and identify whether the elements displayed as "graphic element" or "image" contain text carrying information.
 1. Check that 
 	- there is a mechanism for replacing text graphic elements with text that can be modified according to the user's display preferences (size, colour, font, etc.);
@@ -196,7 +196,7 @@ The criterion does not apply to the following elements:
 ###### iOS
 
 1. Activate the **Differentiate without colour** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Differentiate without colour*).
-1. Locate words or sets of words, text, information-carrying graphic elements and time-based media on the screen where the colour scheme carries information.
+1. Locate words or sets of words, text, information-conveying graphic elements and time-based media on the screen where the colour scheme carries information.
 1. Check that there is another visual means of retrieving this information: the presence of an icon or a graphic effect of shape or position, a typographic effect, etc.
 1. Using the **screen reader**, access the information provided by the colour.  
 1. Check that equivalent information is retrieved by the screen reader (for example the "selected" status of a green button).
@@ -226,7 +226,7 @@ The criterion does not apply to the following elements:
 The criterion does not apply to the following elements:
 - The text is part of a logo or brand name of an organisation or company.
 - The text or the text contained in the graphic element is purely decorative.
-- The text is part of an information-carrying graphic element, but the text itself does not provide any essential information.
+- The text is part of an information-conveying graphic element, but the text itself does not provide any essential information.
 - The text or the text contained in the graphic element is part of an interface element on which no action is possible (for example, a disabled button).
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -289,7 +289,7 @@ The criterion does not apply to the following elements:
 ###### iOS
 
 1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or, if present in the application, activate the replacement mechanism enabling graphic elements to be displayed with a sufficient contrast ratio.
-1. Locate the information-carrying graphic elements on the screen and for each 
+1. Locate the information-conveying graphic elements on the screen and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
 1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each
@@ -306,7 +306,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#appl
 ###### Android
 
 1. If it exists in the application, activate the application's replacement mechanism to display graphic elements with a sufficient contrast ratio.
-1. Locate the information-carrying graphic elements on the screen and for each 
+1. Locate the information-conveying graphic elements on the screen and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
 1. Locate interactive components on the screen that may have several states (hovered, focused, activated, checked) and for each
@@ -1397,7 +1397,7 @@ The criterion does not apply to the following elements:
 
 #### [Criterion 8.6](#crit-8-6) [A] In each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape,-size-or-location). Is this rule respected? {id="crit-8-6"}
 
-This applies to words or sets of words, text, information-carrying graphic elements and time-based media.
+This applies to words or sets of words, text, information-conveying graphic elements and time-based media.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

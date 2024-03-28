@@ -88,7 +88,7 @@ function mdGlossary(cbFM) {
     'html': true,
     'linkify': false,
     replaceLink: function (link, env) {
-            if (link.match(/^#test-|^#crit-/)) {
+            if (link.match(/^#test-\d|^#crit-/)) {
                 return 'criteres.html'+link
             }
             return link

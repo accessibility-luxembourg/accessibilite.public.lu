@@ -96,16 +96,16 @@ The criteria have been retained in the framework (to preserve the numbering of t
 
 The `longdesc` attribute as a compliant method for criteria 1.6 and 1.7 is deleted. The `longdesc` attribute has been declared obsolete in the HTML5 specification. In addition, support for the attribute is inadequate for the test environment, with no support in particular for mobile environments (Safari/iOS and Chrome/Talkback). 
 
-In test [1.6.1](criteres.html#test-1-6-1), the following condition is removed: <q>There is a `longdesc` attribute that gives the address (URL) of a page or location on the page containing the [detailed description](glossaire.html#description-detail-image)</q>. The test methodology is adapted accordingly.
+In test [1.6.1](criteres.html#test-1-6-1), the following condition is removed: <q>There is a `longdesc` attribute that gives the address (URL) of a page or location on the page containing the [detailed description](glossaire.html#detailed-description-image)</q>. The test methodology is adapted accordingly.
 
 In the technical note for criterion [1.6](criteres.html#crit-1-6), the passage concerning the `longdesc` attribute is deleted:
 <blockquote>
 The <code>longdesc</code> attribute, which is one of the conditions of test 1.6.1 (and whose relevance is verified with test 1.7.1), is now considered obsolete by the current HTML specification. Verification of this attribute will therefore only be required for versions of the HTML specification prior to HTML 5.
 </blockquote>
 
-In test [1.7.1](criteres.html#test-1-7-1), the following condition is removed: <q>The [detailed description](glossaire.html#image-size-description) via the address referenced in the `longdesc` attribute is relevant</q>. The test methodology has been adapted accordingly.
+In test [1.7.1](criteres.html#test-1-7-1), the following condition is removed: <q>The [detailed description](glossaire.html#detailed-description-image) via the address referenced in the `longdesc` attribute is relevant</q>. The test methodology has been adapted accordingly.
 
-In the glossary, the entry "[Detailed description (image)](glossaire.html#description-detail-image)" has been modified. The item <q>A `longdesc` attribute that contains the address of a page or location on the page containing the detailed description</q> has been removed.
+In the glossary, the entry "[Detailed description (image)](glossaire.html#detailed-description-image)" has been modified. The item <q>A `longdesc` attribute that contains the address of a page or location on the page containing the detailed description</q> has been removed.
 
 #### Modification to test 4.4.1
 
