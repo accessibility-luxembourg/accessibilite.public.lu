@@ -157,7 +157,7 @@ function langOnEUNorm(str) {
 function mdCriteres(filePath = '') {
     return MarkdownIt({
         replaceLink: function (link, env) {
-            if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
+            if (!link.match(/^#test-\d|#crit-|https?:\/\/|\.\./)) {
                 return filePath+'glossaire.html'+link
             }
             return link
@@ -168,7 +168,7 @@ function mdCriteres(filePath = '') {
 const mdGlossary = MarkdownIt({
     'html': true,
     replaceLink: function (link, env) {
-        if (link.match(/^#test-|^#crit-/)) {
+        if (link.match(/^#test-\d|^#crit-/)) {
             return 'criteres.html'+link
         }
         return link

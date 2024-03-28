@@ -75,7 +75,7 @@ function mdCriteres(cbFM, rgaaPath) {
         'html': true,
         'linkify': true,
         replaceLink: function (link, env) {
-            if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
+            if (!link.match(/^#test-\d|#crit-|https?:\/\/|\.\./)) {
                 return `${rgaaPath}glossaire.html${link}`
             }
             return link
@@ -193,7 +193,7 @@ function generateCriteria(path, rgaaPath = '') {
     return jsonData
 }
 
-function generateGlossary(path) {
+function generateGlossary(path, criterion_label) {
     let meta = {}
     function cbfm(fm) {
         meta = {... meta, ...fm}
@@ -224,7 +224,7 @@ function generateGlossary(path) {
           const url = `criteres.html`
   
           const cleanedContent = content
-            .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">critère $<topic>.$<crit></a>`)
+            .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
             .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
 
         
