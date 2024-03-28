@@ -920,8 +920,8 @@ However, a test by a person with a disability using his or her own assistive tec
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.
 
-#### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
-- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-field) satisfy these conditions? {id="test-10-1-1"}
+#### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-input-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
+- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-input-field) satisfy these conditions? {id="test-10-1-1"}
     - the [label](glossaire.md#label) is visible;
     - the [label](glossaire.md#label) is correctly rendered (by assistive technologies).
 
@@ -943,7 +943,7 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
 
-#### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
+#### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
     - The heading of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
     - The visible label of the [label](glossaire.md#label) is contained in the label accessible to assistive technologies.
@@ -969,8 +969,8 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 
-#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
-- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
+#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
+- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1007,7 +1007,7 @@ However, a test by a person with a disability using his or her own assistive tec
 - EN 301 549 V3.2.1 (2021-03) *10.3.3.2 Labels or instructions*{lang=en}.
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-fields) correctly identified (excluding special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions {id="test-10-5-1"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-input-field) meet these conditions {id="test-10-5-1"}
     - The mandatory character is visible and explicit.
     - The mandatory character is accessible to assistive technologies.
 
@@ -1043,7 +1043,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03) *10.1.4.1 Use of colour*{lang=en}, *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 
-#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), is the expected data type and/or format available? {id="crit-10-6"}
+#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-input-field), is the expected data type and/or format available? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#formatfield) meet these conditions {id="test-10-6-1"}
     - The data type and/or format is visible.
     - The data type and/or format is accessible to assistive technologies.

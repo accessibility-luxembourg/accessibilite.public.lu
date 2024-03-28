@@ -1063,7 +1063,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
+- WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#when-focused) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
 
 #### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#context-change) meet one of these conditions? {id="crit-5-3"}
@@ -1373,7 +1373,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
-#### [Criterion 8.5](#crit-8-5) [A] In each screen, for each element receiving the focus, is the [focus point](glossaire.md#focus-point) visible? {id="crit-8-5"}
+#### [Criterion 8.5](#crit-8-5) [A] In each screen, for each element receiving the focus, is the [focus](glossaire.md#when-focused) visible? {id="crit-8-5"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1392,7 +1392,7 @@ The criterion does not apply to the following elements:
 
 ##### Correspondences {class="disclosure mapping"}
 
-- WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
+- WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#when-focused) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.1 Use of Colour*, *11.2.4.7 Focus Visible*, *11.7 User preferences*.
 
 #### [Criterion 8.6](#crit-8-6) [A] In each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape,-size-or-location). Is this rule respected? {id="crit-8-6"}
