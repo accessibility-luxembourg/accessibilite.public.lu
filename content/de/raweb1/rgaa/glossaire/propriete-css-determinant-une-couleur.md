@@ -1,5 +1,5 @@
 ---
-title: CSS property defining a color
+title: CSS property defining a colour
 ---
 
 This concerns the following properties: `color`, `background-color`, `background`, `border-color`, `border`, `outline-color`, `outline`.

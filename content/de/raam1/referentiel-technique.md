@@ -369,7 +369,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#applic
 
 ### [Topic 3](#topic-3) Multimedia {id="topic-3"}
 
-#### [Criterion 3.1](#crit-3-1) [A] Does each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronise) have, where appropriate, an [adjacent clearly-identifiable](glossaire.md#transcript-textual-media-temporal) [transcript (time-based media)](glossaire.md#adjacent-clearly-identifiable) (excluding special cases)? {id="crit-3-1"}
+#### [Criterion 3.1](#crit-3-1) [A] Does each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronise) have, where appropriate, an [adjacent clearly-identifiable](glossaire.md#transcript-time-based-media-media-temporal) [transcript (time-based media)](glossaire.md#adjacent-clearly-identifiable) (excluding special cases)? {id="crit-3-1"}
 
 ##### Special cases
 
@@ -396,7 +396,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
 
-#### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronised) with a [transcript-textual](glossaire.md#transcript-textual-media-temporal), is it relevant (excluding special cases)? {id="crit-3-2"}
+#### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#media-temporal-sound-type-video-and-synchronised) with a [transcript](glossaire.md#transcript-time-based-media-media-temporal), is it relevant (excluding special cases)? {id="crit-3-2"}
 
 ##### Special cases
 
