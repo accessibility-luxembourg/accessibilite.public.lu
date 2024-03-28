@@ -2,7 +2,7 @@ Unlike web content, where it is possible to inspect the source code to determine
 
 This is why the chosen approach is to test for the presence of certain elements using specialised tools (interface inspectors, assistive technologies, external switches) or directly on the interface itself.
 
-For example, when the interface contains an information-conveying graphic element, the criterion asks you to check that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is not prescriptive**) setting out a possible method of assessing the criterion.
+For example, when the interface contains an graphic element conveying information, the criterion asks you to check that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is not prescriptive**) setting out a possible method of assessing the criterion.
 
 We would also refer you to the documentation provided by language publishers and application creation software publishers, which sets out the features to be respected, the properties to be used and, in some cases, specialised tools for inspecting the interface or the code.
 

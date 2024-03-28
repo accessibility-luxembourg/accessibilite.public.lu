@@ -81,7 +81,7 @@ The background colour of a form submit button, for example ("Submit"), does not 
 
 **Note 2:** In the case of several colours, all the colours are to be considered as adjacent colours.
 
-#### Alternative "audio only" version
+#### Alternative audio only version
 
 An "audio only" version is an audio version, in the form of a simple file in MP3 format for example, used as an alternative to a video only (video without audio information). The only users affected by accessibility are blind people, who cannot see the video.
 
@@ -124,11 +124,7 @@ The element is made available adjacent to the object identified by the criterion
 
 A complex action is one in which the downward and upward actions of the pointer are inseparable events in the action, so that it is not possible for the user to cancel the downward action simply by moving the pointer outside the interactive zone. This is the case, for example, with drag'n'drop mechanisms, where the downward action of the pointer selects an item and the upward action of the pointer positions the item.
 
-#### Sudden change in brightness or flashing effect
-
-Alternation of relative brightness that can cause seizures in some people, if they are large enough in a specific frequency range.
-
-#### Change of context
+#### Context change
 
 Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. Context changes include changes to:
 - application;
@@ -302,7 +298,7 @@ When a text adjacent to a graphic element contains information about the graphic
 
 When a graphic element is captioned, it is necessary to associate the legend with the graphic element, so that assistive technologies can treat the graphic element and its legend as a single whole.
 
-#### Graphic element text
+#### Text graphic element
 
 [Graphic element](#graphic-element) displaying text.
 
@@ -501,6 +497,16 @@ A status message is not necessarily visible on the screen, but it must always be
 
 Text whose appearance is controlled by the platform's formatting technology (such as CSS for HTML pages).
 
+#### Sudden change in brightness or flashing effect
+
+Alternation of relative brightness that can cause seizures in some people, if they are large enough in a specific frequency range.
+
+#### Summary (of table)
+
+A summary (of table) is a passage of text associated with a complex data table. It provides information about the nature and structure of the table to make it easier to use for users of assistive technologies, for example.
+
+**Note:** although the main users affected are those using screen readers, other users may also benefit from this information, such as certain people with visual or intellectual impairments. In this case, the summary, although hidden by default, should be made visible by means of a button, for example.
+
 #### Synchronised audio description (time-based media)
 
 Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by an application device linked to the media player.
@@ -510,12 +516,6 @@ Narration added (via a sound file) to an audio track to describe important visua
 **Note 2:** in standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
 
 **Note 3:** when all the information in the video is already given in the audio track, no additional audio description is required.
-
-#### Summary (of table)
-
-A summary (of table) is a passage of text associated with a complex data table. It provides information about the nature and structure of the table to make it easier to use for users of assistive technologies, for example.
-
-**Note:** although the main users affected are those using screen readers, other users may also benefit from this information, such as certain people with visual or intellectual impairments. In this case, the summary, although hidden by default, should be made visible by means of a button, for example.
 
 #### Synchronised captions (media object)
 
@@ -591,9 +591,9 @@ Process managed automatically by the tool. There are two types of transformation
 - content restructuring: transformation during which the input technology (e.g. HTML, XML...) is not modified at the output, the restructuring only modifies elements of the markup. For example: linearising a table, dividing a document into several pages.
 - content recoding: transformation during which the input technology is modified at the output (e.g. HTML to XHTML, HTML to PDF). This applies in particular to editing zones that use a different syntax to that which will be used for public display.
 
-#### Two-way oral communication application
+#### Two-way voice communication application
 
-Two-way oral communication applications are applications that allow 2 or more people to speak simultaneously. Videoconferencing applications, which allow people to speak at the same time, are an example.
+Two-way voice communication applications are applications that allow 2 or more people to speak simultaneously. Videoconferencing applications, which allow people to speak at the same time, are an example.
 
 ### U
 
@@ -639,4 +639,4 @@ When focused, this is the state returned by an element which receives attention 
 - by reaching the element using a key on an external keyboard (tab, direction arrow);
 - by reaching the element using an external switch (switch, joystick).
 
-When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#externalkeyboard). 
+When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#external-keyboard). 
