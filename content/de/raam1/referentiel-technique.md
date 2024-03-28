@@ -1895,7 +1895,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 ### [Topic 11](#topic-11) Consultation {id="topic-11"}
 
-#### [Criterion 11.1](#crit-11-1) [A] For each screen, does the user have control over each [time limit modifying content](glossaire.md#procede-de-rafraichissement) (excluding special cases)? {id="crit-11-1"}
+#### [Criterion 11.1](#crit-11-1) [A] For each screen, does the user have control over each [time limit modifying content](glossaire.md#refresh-process) (excluding special cases)? {id="crit-11-1"}
 
 **[Test 11.1.1](#test-11-1-1):** Does each time limit respect one of these conditions? {id="test-11-1-1"}
 - The user can stop or restart the refresh;
@@ -2170,8 +2170,8 @@ The criterion does not apply to actions required by the platform.
 #### [Criterion 11.12](#crit-11-12) [A] In each screen, can actions triggered by a pointing device on a single point on the screen be cancelled (excluding special cases)? {id="crit-11-12"}
 
 **[Test 11.12.1](#test-11-12-1):** In each screen, do actions triggered using a pointing device on a single point on the screen meet one of these conditions (excluding special cases)? {id="test-11-12-1"}
-- The action is triggered when the pointing device is released or raised;
-- The action is triggered when the pointing device is pressed or put down and then cancelled when the pointing device is released or raised;
+- The action is triggered when the pointing device is released;
+- The action is triggered when the pointing device is pressed or put down and then cancelled when the pointing device is released;
 - The [action is complex](glossaire.md#action-complex) and a mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action.
 
 ##### Special cases
@@ -2579,7 +2579,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.1 Audio bandwidth for speech*.
 
-#### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way speech communication](glossaire.md#bidirectional-speech-communication-application) have [real-time-text-communication](glossaire.md#real-time-text-communication) functionality? {id="crit-15-2"}
+#### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way speech communication](glossaire.md#bidirectional-speech-communication-application) have [real-time-text-communication](glossaire.md#real-time-text-communication-rtt) functionality? {id="crit-15-2"}
 
 **[Test 15.2.1](#test-15-2-1):** Does each application that enables two-way spoken communication meet one of these conditions?  {id="test-15-2-1"}
 - The application has built-in real-time text (RTT) functionality;
@@ -2599,7 +2599,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.1 RTT communication*.
 
-#### [Criterion 15.3](#crit-15-3) [A] For each application that allows [two-way oral communication](glossaire.md#application-of-oral-bidirectional-communication) and [real-time-text](glossaire.md#real-time-text-communication), are both modes usable simultaneously? {id="crit-15-3"}
+#### [Criterion 15.3](#crit-15-3) [A] For each application that allows [two-way oral communication](glossaire.md#application-of-oral-bidirectional-communication) and [real-time-text](glossaire.md#real-time-text-communication-rtt), are both modes usable simultaneously? {id="crit-15-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2669,7 +2669,7 @@ The criterion is not applicable when the two-way oral communication functionalit
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*.
 
-#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time text communication](glossaire.md#real-time-text-communication) application that can interact with other [real-time text communication](glossaire.md#real-time-text-communication) applications comply with the interoperability rules in force? {id="crit-15-6"}
+#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time text communication](glossaire.md#real-time-text-communication-rtt) application that can interact with other [real-time text communication](glossaire.md#real-time-text-communication-rtt) applications comply with the interoperability rules in force? {id="crit-15-6"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2684,7 +2684,7 @@ No evaluation method is proposed for this criterion.
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.2.3 Interoperability*.
 
-#### [Criterion 15.7](#crit-15-7) [AA] For each application that supports [real-time text (RTT) communication](glossaire.md#real-time-text-communication), the transmission delay for each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
+#### [Criterion 15.7](#crit-15-7) [AA] For each application that supports [real-time text (RTT) communication](glossaire.md#real-time-text-communication-rtt), the transmission delay for each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

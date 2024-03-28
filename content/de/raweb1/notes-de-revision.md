@@ -26,7 +26,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Two-way voice communication web application](glossaire.html#two-way voice communication web application)
 - [Biological characteristics ](glossaire.html#biological-characteristics)
 - [Key features of captions ](glossaire.html#key-features-of-captions)
-- [Real-time text communication](glossaire.html#real-time-text-communication)
+- [Real-time text communication](glossaire.html#real-time-text-communication-rtt)
 - [Documentation](glossaire.html#documentation)
 - [Accessibility feature](glossaire.html#accessibility-feature)
 - [Main features (of a time-based media)](glossaire.html#main-features-of-a-time-based-media)
