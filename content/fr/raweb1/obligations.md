@@ -156,7 +156,7 @@ Enfin, s’ajoutent des écrans sélectionnés au hasard représentant au moins 
 
 ##### Environnement de test d’un site web
 
-Quelques [critères RAWeb](../../html/fr/raweb1/criteres.html), notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
+Quelques [critères RAWeb](../../html/fr/raweb1/criteres.html), notamment ceux de la thématique Scripts, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
 
 ##### Environnement de test d’une application mobile
 

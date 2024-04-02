@@ -1,10 +1,10 @@
 ### Notions of disability and digital accessibility
 
-<blockquote><p>Disability is not simply a health problem. It is a complex phenomenon resulting from the interaction between a person's physical characteristics and the characteristics of the society in which they live. To overcome the difficulties faced by people with disabilities, interventions are needed to remove environmental and social barriers</p><footer>World Health Organisation</footer></blockquote>
+<blockquote><p>Disability is not just one health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives. Overcoming the difficulties faced by people with disabilities requires interventions to remove environmental and social barriers.</p><footer>World Health Organisation</footer></blockquote>
 Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
 
 - perceptible: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
-- usable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; allowing the user sufficient time to read and use the content; not designing content that is likely to cause epileptic seizures;
+- usable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; give the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
 - understandable: for example, ensuring that pages function in a predictable way; helping users to correct input errors;
 - and robust: for example, optimising compatibility with current and future uses, including assistive technologies.
 
@@ -30,7 +30,7 @@ This does not apply to
 
 Article 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) defines what constitutes a mobile application:
 
-&gt; application software designed and developed by or on behalf of public sector bodies for use by the general public on mobile devices, such as smartphones, also known as smartphones, or tablets; it does not include the software that controls these devices, i.e. mobile operating systems, or hardware.
+<blockquote><p>application software designed and developed by or on behalf of public sector bodies for use by the general public on mobile devices, such as smartphones, also known as smartphones, or tablets; it does not include the software that controls these devices, i.e. mobile operating systems, or hardware.</p></blockquote>
 
 #### Exempt content
 
@@ -38,11 +38,11 @@ Certain content is exempt from the accessibility obligation and falls outside th
 
 - office file formats published before 23 September 2018, unless the content is required for the purposes of active administrative processes relating to tasks carried out by the public sector body concerned;
 - pre-recorded time-based media published before 23 September 2020;
-- time-based media broadcast live;
+- live time-based media;
 - maps and online mapping services, provided that the essential information is provided in an accessible digital form for maps intended for navigation;
 - third-party content that is not funded, developed by or under the control of the public sector body concerned;
 - reproductions of items from heritage collections that cannot be made fully accessible due to
-    - the accessibility requirements are incompatible with the preservation of the item concerned or the authenticity of the reproduction, for example in terms of contrast; or
+    - the incompatibility of accessibility requirements with the preservation of the item concerned or the authenticity of the reproduction, for example in terms of contrast; or
     - the unavailability of automated and cost-effective solutions that would enable the text of manuscripts or other items in heritage collections to be easily transcribed and rendered in the form of content compatible with accessibility requirements;
 - the content of extranets and intranets, i.e. websites that are accessible only to a restricted group of people and not to the general public, published before 23 September 2019 until such time as these websites undergo an in-depth review;
 - the content of websites and mobile applications that are considered to be archives, i.e. they only present content that is not required for the purposes of active administrative processes, nor updated or modified after 23 September 2019.
@@ -70,9 +70,9 @@ The size of the organisation is determined by the composition of its workforce, 
 
 The estimate of resources takes into account
 
-- its budget
-- fees and remuneration received
-- public subsidies or private donations
+- its budget,
+- fees and remuneration received,
+- public subsidies or private donations,
 - profits and miscellaneous income,
 - compulsory expenditure,
 - the wage bill,
@@ -90,7 +90,7 @@ When a website or mobile application is simultaneously subject to the accessibil
 
 In order to assess the compliance of the website or mobile application with the reference standard, the organisation must conduct an accessibility audit. The audit (or evaluation) may be carried out by the organisation itself (self-evaluation) or by a third party. The evaluation is carried out on a sample of pages representative of the site or a sample of screens representative of the application. 
 
-- For a Website, the compliance of the sample pages with the applicable criteria is checked using the control criteria of the [Web Accessibility Evaluation Framework (RAWeb)](./raweb1/index.html). 
+- For a website, the compliance of the sample pages with the applicable criteria is checked using the control criteria of the [Web Accessibility Evaluation Framework (RAWeb)](./raweb1/index.html). 
 - For a mobile application, the compliance of the screens in the sample with the applicable criteria is checked using the [framework for evaluating the accessibility of mobile applications (RAAM)](./raam1/index.html). 
 
 The final phase of the audit is the accessibility statement, which reports on compliance with the applicable rules.
@@ -112,15 +112,15 @@ It is possible to use another test method, subject to three conditions:
 
 ##### Website audit sample
 
-The sample on which the audit of a Website is carried out covers at least the following pages, where they exist:
+The sample on which the audit of a website is carried out covers at least the following pages, where they exist:
  
 1. the home page;
-1. the legal notices
-1. the authentication page
-1. the contact page
-1. the "accessibility" page
+1. the legal notices;
+1. the authentication page;
+1. the contact page;
+1. the "accessibility" page;
 1. the "help" page;
-1. the page or set of pages making up the Website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
+1. the page or set of pages making up the website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
 1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#help-desk);
 1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
@@ -137,9 +137,9 @@ Finally, randomly selected pages representing at least 10% of the elements in th
 The sample on which the audit of a mobile application is carried out covers at least the following screens, where they exist:
 
 1. the home screen;
-1. the legal information screen
+1. the legal information screen;
 1. the authentication screen or process;
-1. the contact screen
+1. the contact screen;
 1. the authentication screen;
 1. the screens that make up the application's documentation;
 1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
@@ -156,11 +156,11 @@ Finally, randomly selected screens representing at least 10% of the screens in t
 
 ##### Website test environment
 
-Some [RAWeb criteria](../../html/en/raweb1/criteres.html), particularly those in the JavaScript theme, include rendering tests to be carried out on assistive technologies associated with browsers and operating systems.
+Some [RAWeb criteria](../../html/en/raweb1/criteres.html), particularly those in the Scripts theme, include rendering tests to be carried out on assistive technologies associated with browsers and operating systems.
 
 ##### Mobile application test environment
 
-Unlike web content, where it is possible to inspect the source code to determine the presence of elements and attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you have access to the software, but rarely to its code, unlike a Website). Secondly, because unlike the web and technologies (HTML/CSS/JavaScript), there is a diversity of development environments that makes it difficult to define a list of tests based on code review.
+Unlike web content, where it is possible to inspect the source code to determine the presence of elements and attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can have access to the software, but rarely to its code, unlike a website). Secondly, because unlike the web and HTML/CSS/JavaScript technologies, there is a diversity of development environments that makes it difficult to define a list of tests based on code review.
 
 Some of the tests in the [framework for evaluating the accessibility of mobile applications](../../html/en/raam1/index.html) are carried out using the assistive technologies available on the platforms.
 
@@ -170,7 +170,7 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 
 Each of our two frameworks proposes a test environment to be used to carry out the evaluation tests:
 
-- [RAWeb test environment for Website evaluation](../../html/en/raweb1/environment.md);
+- [RAWeb test environment for website evaluation](../../html/en/raweb1/environment.md);
 - [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environment.md).
 
 This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. When it is possible to know the configuration of the workstations and the hardware used, the reference base is then made up of the services actually used in this environment.
@@ -199,10 +199,10 @@ Please note:
 
 Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered as not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
   * Criterion 12.3 "Is the "sitemap" page relevant?" 
-  * Theme 14. Documentation and accessibility features". 
-  * The theme "16. Help desk services".
+  * Theme 14. Documentation and accessibility features. 
+  * Theme 16. Help desk services.
 
-#### Rate of compliance with the standard
+#### Compliance rate with the standard
 
 The compliance rate measures the progress made by the online service in complying with accessibility requirements. 
 
@@ -227,11 +227,11 @@ It is essential to ensure that this content does not prevent users from accessin
 
 Therefore, although the compliance of this content is not required, it must comply with the following criteria and tests:
 
-- [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10) Is each automatically triggered sound controllable by the user?
-- [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): The navigation on each web page must not contain any keyboard traps. Is this rule respected?
-- [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (tag `<object>`, tag `<embed>`, tag `<svg>`, tag `<canvas>`, tag `<meta>`) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7) In each web page, are sudden changes in brightness or flashing effects used correctly?
-- [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): In each web page, is all moving or flashing content controllable by the user?
+- [Criterion 4.10](../../html/de/raweb1/criteres.html#crit-4-10): Is each automatically triggered sound controllable by the user?
+- [Criterion 12.9](../../html/de/raweb1/criteres.html#crit-12-9): On every web page, navigation must not contain any keyboard traps. Is this rule respected?
+- [Test 13.1.1](../../html/de/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (`<object>` tag, `<embed>` tag, `<svg>` tag, `<canvas>` tag, `<meta>` tag) meet one of these conditions (excluding special cases)?
+- [Criterion 13.7](../../html/de/raweb1/criteres.html#crit-13-7): On each Web page, are sudden changes in luminosity or flashing effects used appropriately?
+- [Criterion 13.8](../../html/de/raweb1/criteres.html#crit-13-8): On each Web page, can each moving or blinking content be controlled by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criterion(s) non-compliant.
 
@@ -245,7 +245,7 @@ The accessibility statement is the result of an effective assessment of the comp
 
 The accessibility statement includes
 
-- a compliance status
+- a compliance status:
     - Full compliance: if all the control criteria in the framework are met;
     - Partial compliance: if at least 50% of the control criteria in the framework have been met;
     - Non-compliance: if there are no valid audit results enabling compliance with the criteria to be measured, or if less than 50% of the control criteria in the framework are complied with;
