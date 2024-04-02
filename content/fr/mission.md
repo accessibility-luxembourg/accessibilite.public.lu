@@ -1,6 +1,6 @@
 Le service information et presse (SIP) est en charge au niveau national du contrôle de l'accessibilité des sites et des applications mobiles publics. La procédure de contrôle a été définie conformément à la loi [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) ainsi qu'à la [décision d'exécution UE 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). 
 
-Les contrôles sont effectués dans le cadre de périodes de contrôle. La première période de contrôle a débuté le 23 septembre 2020 et termine fin 2021. Il y a ensuite une période de contrôle par année calendaire.
+Les contrôles sont effectués dans le cadre de périodes de contrôle. La première période de contrôle a débuté le 23 septembre 2020 et s'est achevée fin 2021. Il y a ensuite une période de contrôle par année calendaire.
 
 Il existe trois types de contrôles : 
 
