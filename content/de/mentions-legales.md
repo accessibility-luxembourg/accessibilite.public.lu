@@ -6,7 +6,7 @@ Any person making use of the information, documents, products, software and vari
 
 Access to the site is via the Internet. Users declare that they are aware of the risks involved and accept them. They must protect themselves against the effects of computer piracy by adopting a suitable and secure computer configuration.
 
-The information and press service cannot be held responsible for any damage that the user may suffer directly or indirectly as a result of browsing this site and using its services or the websites to which it refers.
+The Information and Press Service cannot be held responsible for any damage that the user may suffer directly or indirectly as a result of browsing this site and using its services or the websites to which it refers.
 
 Use of the site is free of charge.
 
@@ -16,27 +16,25 @@ This site uses customer cookies, which are small text files used to analyse info
 
 They are deposited by the site in a directory provided for this purpose on the user's computer. In particular, they contain the name of the server that wrote it, an identifier in the form of a unique number and an expiry date. The unique identifier enables the site to recognise the user's computer on each visit. Session cookies are deleted from the user's computer when the session is closed. However, persistent cookies remain on the user's computer for 1 month after the end of the session.
 
-Users can decide for themselves whether or not this Website's Website server is authorised to store cookies on their computer. They may, at any time, set their browser options so that cookies are not accepted and stored. They can also delete stored cookies at any time via their browser (see the [Cookie Charter](#charte-des-cookies))
+Users can decide for themselves whether or not this website's server is authorised to store cookies on their computer. They may, at any time, set their browser options so that cookies are not accepted and stored. They can also delete stored cookies at any time via their browser (see the [Cookie Charter](#cookie-charter))
 
 The use of certain site functions may be limited or deactivated if the user refuses the site's cookies. Users are therefore advised to set their browser to accept cookies from the site.
 
 #### Modification of the site
 
-The Information and Press Department reserves the right to change, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
+The Information and Press Service reserves the right to change, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
 
-In particular, the information and press service may at any time withdraw, add to, supplement or clarify all or part of the information and services contained or offered on the site. Le service information et presse may not be held liable for any direct or indirect damage arising from such modifications.
+In particular, the Information and Press Service may at any time withdraw, add to, supplement or clarify all or part of the information and services contained or offered on the site. The Information and Press Service may not be held liable for any direct or indirect damage arising from such modifications.
 
 #### General limitations of liability
 
-The information and press service will do its utmost to ensure maximum availability of this site. However, it may not be held liable in the event of the site being temporarily or totally unavailable.
-
-The Information and Press Service will do its utmost to ensure the security of the computer system.
+The Information and Press Service will do its utmost to ensure maximum availability of this site. However, it may not be held liable in the event of the site being temporarily or totally unavailable.
 
 The Information and Press Service will do its utmost to ensure maximum availability of this site.
 
-The information and press service will do its utmost to ensure the security of the computer system. However, it may not be held liable in the event of an attack on the computer system or the temporary or total unavailability of the site.
+The Information and Press Service will do its utmost to ensure the security of the computer system. However, it may not be held liable in the event of an attack on the computer system or the temporary or total unavailability of the site.
 
-The information and press service will do its utmost to ensure the accuracy of the information contained on the site and published on social networks. However, it may not be held liable, in particular, for failing to update any information or form, for system manipulation or encoding errors, inaccuracies, gaps in the information provided or any errors or inaccuracies. Although the aim is to provide accurate and up-to-date information from a variety of sources, the Information and Press Department cannot avoid all risks of material error. None of the information published on this site is intended to be exhaustive or to constitute a commitment on the part of the Information and Press Department. Popularisations and translations are provided for information purposes only. Only legal texts published in the Mémorial (Official Journal of the Grand Duchy of Luxembourg) are deemed authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and cannot therefore be considered as personal, professional or legal advice to the user. If the user requires personal or specific advice, he/she should always consult the competent services within the various administrations.
+The Information and Press Service will do its utmost to ensure the accuracy of the information contained on the site and published on social networks. However, it may not be held liable, in particular, for failing to update any information or form, for system manipulation or encoding errors, inaccuracies, gaps in the information provided or any errors or inaccuracies. Although the aim is to provide accurate and up-to-date information from a variety of sources, the Information and Press Service cannot avoid all risks of material error. None of the information published on this site is intended to be exhaustive or to constitute a commitment on the part of the Information and Press Service. Popularisations and translations are provided for information purposes only. Only legal texts published in the Mémorial (Official Journal of the Grand Duchy of Luxembourg) are deemed authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and cannot therefore be considered as personal, professional or legal advice to the user. If the user requires personal or specific advice, he/she should always consult the competent services within the various administrations.
 
 #### Limitation of liability of the site
 
@@ -49,11 +47,11 @@ The liability of this site is expressly excluded for all direct and indirect con
 
 #### Links to related sites
 
-For the convenience of users, this site may contain links to other sites that may be useful or of interest to them. The Press and Information Service does not systematically check the content of these sites. It cannot therefore be held responsible for the content of these websites, either in terms of their legality or the accuracy of the information they contain.
+For the convenience of users, this site may contain links to other sites that may be useful or of interest to them. The Information and Press Service does not systematically check the content of these sites. It cannot therefore be held responsible for the content of these websites, either in terms of their legality or the accuracy of the information they contain.
 
 #### Intellectual property
 
-All content on this website is published by the [Service Information et Presse](https://sip.gouvernement.lu) and licensed under [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). For more information, please consult our [licence](licence.html) page.
+All content on this website is published by the [Information and Press Service](https://sip.gouvernement.lu) and licensed under [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). For more information, please consult our [licence](licence.html) page.
 
 #### Modification of the general conditions of use
 
@@ -71,7 +69,7 @@ Any dispute relating to the use of this site and its Services shall be subject t
 
 Personal data provided by the user is processed in accordance with [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016](https://cnpd.public.lu/fr/legislation/droit-europ/union-europeenne/rgpd.html) on the protection of individuals with regard to the processing of personal data and on the free movement of data.
 
-As the information and press service does not collect any personal data apart from IP addresses in the logs of the Website servers for security reasons, the user's consent is not required before visiting this Website.
+As the Information and Press Service does not collect any personal data apart from IP addresses in the logs of the website servers for security reasons, the user's consent is not required before visiting this website.
 
 The person responsible for this processing is the Information and Press Service.
 
@@ -91,7 +89,7 @@ This data is stored and hosted in Europe in a solution provided by a subcontract
 
 The duration of data retention does not exceed that required to observe changes in audiences as a function of changes in browsers, resolutions used or other available statistical data.
 
-The person responsible for this processing is the Information and Press Department.
+The person responsible for this processing is the Information and Press Service.
 
 
 ### Presence on social networks

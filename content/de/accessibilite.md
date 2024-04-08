@@ -1,23 +1,22 @@
-<div class="decla-access" lang="fr">
-	<p> The "Service information et presse" organisation undertakes to make its website accessible, in accordance with the 
+<div class="decla-access" lang="en">
+	<p> The "Information and Press Service" organisation undertakes to make its website accessible, in accordance with the 
 		<a href="http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">law of 28 May 2019</a> on the accessibility of websites and mobile applications of public sector bodies. This accessibility statement applies to 
 		<a href="https://accessibilite.public.lu">https://accessibilite.public.lu</a>
 	</p>
 	<h3>What is digital accessibility?</h3>
-	<p>Everyone must be able to use and consult the information on a Website or application easily, in particular people with a disability and/or using assistive software or specialised equipment (blind, partially sighted people, or people with another disability).</p>
+	<p>Everyone must be able to use and consult the information on a website or application easily, in particular people with a disability and/or using assistive software or specialised equipment (blind, partially sighted people, or people with another disability).</p>
 	<h3>Compliance status</h3>
 	<p> This website is in 
-		<strong>partial compliance with</strong> European standard 
+		<strong>partial compliance</strong> with European standard 
 		<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a> and the 
-		<a href="https://accessibilite.public.lu/fr/rgaa4.1.2/">general accessibility improvement framework (RGAA) v4</a> which implements it, due to the elements listed below. 
+		<a href="https://accessibilite.public.lu/de/raweb1/">RAweb 1</a> which implements it, due to the elements listed below. 
 	</p>
 	<h3>Content not accessible</h3>
 	<p>The content listed below is not accessible for the following reason(s):</p>
 	<h4>Disproportionate burden</h4>
-	<p>We have placed a component on the <a href="../newsletter.html">"follow our news"</a> page allowing you to subscribe to our newsletter. Making this form fully accessible now represents a disproportionate burden. The same content is published on our <a href="../news/feed.xml">RSS feed</a>, and subscribing to this feed is an accessible alternative.</p> 
+	<p>We have placed a component on the <a href="../newsletter.html">Newsletter</a> page, allowing you to subscribe to our newsletter. Making this form fully accessible now represents a disproportionate burden. The same content is published on our <a href="../news/feed.xml">RSS feed</a>, and subscribing to this feed is an accessible alternative.</p> 
 	<h3>Preparation of this accessibility statement</h3>
-	<p> This statement was prepared on 14 August 2020. The statements in this declaration are accurate and based on an effective assessment of the compliance of this website with the requirements set out in the 
-		<a href="https://accessibilite.public.lu/fr/rgaa4.1.2/">RGAA 4.1.2</a>, such as a self-assessment carried out by "Service information et presse". The declaration was last reviewed on 25 January 2024. 
+	<p> This statement was prepared on 14 August 2020. The declarations contained in this statement are accurate and based on an actual evaluation of this website compliance with the requirements defined in <a href="https://accessibilite.public.lu/de/raweb1/">RAWeb 1</a>, such as a self-assessment done by the Information and Press Service. The declaration was last reviewed on 25 January 2024. 
 	</p>
 	<h3>Feedback and contact details</h3>
 	<p>If you notice a lack of accessibility, send us an email to 

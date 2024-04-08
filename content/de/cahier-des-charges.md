@@ -4,7 +4,7 @@ Digital accessibility is often seen as an additional cost when the first contact
 
 In the field of digital accessibility, the situation is very similar. The earlier a concern of this kind is integrated into a project's planning, the better it is integrated and the lower the costs: this is what the "[shift left](https://feather.ca/shift-left/)" methodology recommends, among others.
 
-Many public authorities do not develop their Website and mobile applications in-house, but use the services of external service providers. In this case, it is very common to use a specification to define the requirements and the expected result.
+Many public authorities do not develop their websites and mobile applications in-house, but use the services of external service providers. In this case, it is very common to use a specification to define the requirements and the expected result.
 
 Digital accessibility is a legal requirement, so it must be included in all specifications for a public Website or mobile application. However, it doesn't seem very effective to restrict yourself to a sentence like: "The Website must be accessible" This is because the [law on digital accessibility] (https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) is relatively new (2020), and the level of requirements expected is not yet known to everyone.
 

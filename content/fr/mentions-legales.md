@@ -30,8 +30,6 @@ Le service information et presse pourra notamment à tout moment retirer, ajoute
 
 Le service information et presse assurera au mieux une disponibilité maximale de ce site. Toutefois, sa responsabilité ne saurait être retenue en cas d’indisponibilité momentanée ou totale du site.
 
-Le service information et presse assurera au mieux la sécurité du système informatique.
-
 Le service information et presse assurera au mieux une disponibilité maximale de ce site.
 
 Le service information et presse assurera au mieux la sécurité du système informatique. Toutefois, sa responsabilité ne saurait être retenue en cas d’attaque du système informatique ou d’indisponibilité momentanée ou totale du site.

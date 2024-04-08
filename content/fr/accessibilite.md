@@ -9,7 +9,7 @@
 	<p> Le présent site internet est en 
 		<strong>conformité partielle</strong> à la norme européenne 
 		<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN 301 549</a> ainsi qu'au 
-		<a href="https://accessibilite.public.lu/fr/rgaa4.1.2/">référentiel général d’amélioration de l’accessibilité (RGAA) v4</a> qui l’implémente, en raison des éléments énumérés ci-dessous. 
+		<a href="https://accessibilite.public.lu/fr/raweb1/">RAWeb 1</a> qui l’implémente, en raison des éléments énumérés ci-dessous. 
 	</p>
 	<h3>Contenu non accessible</h3>
 	<p>Le contenu visé ci-après n'est pas accessible pour la/les raison(s) suivante(s):</p>
@@ -17,7 +17,7 @@
 	<p>Nous avons placé sur la page <a href="../newsletter.html">"suivre nos actualités"</a> un composant permettant de s'inscrire à notre lettre d'information. Rendre totalement accessible ce formulaire représente aujourd'hui une charge disproportionnée. Les mêmes contenus sont publiés sur notre <a href="../news/feed.xml">fil RSS</a>, l'abonnement à ce fil constituant une alternative accessible.</p> 
 	<h3>Préparation de la présente déclaration sur l'accessibilité</h3>
 	<p> La présente déclaration a été préparée le 14 août 2020. Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité du présent site internet avec les exigences fixées dans le 
-		<a href="https://accessibilite.public.lu/fr/rgaa4.1.2/">RGAA 4.1.2</a>, telle qu'une auto-évaluation réalisée par l'organisme "Service information et presse". Le dernier réexamen de la déclaration a eu lieu le 25 janvier 2024. 
+		<a href="https://accessibilite.public.lu/fr/raweb1/">RAWeb 1</a>, telle qu'une auto-évaluation réalisée par l'organisme "Service information et presse". Le dernier réexamen de la déclaration a eu lieu le 25 janvier 2024. 
 	</p>
 	<h3>Retour d'information et coordonnées de contact</h3>
 	<p>Si vous constatez un défaut d’accessibilité, envoyez-nous un mail à 
