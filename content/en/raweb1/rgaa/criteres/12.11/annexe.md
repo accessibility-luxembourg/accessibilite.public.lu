@@ -10,4 +10,4 @@ Norm:
 
 #### Technical notes
 
-This criterion addresses situations where additional content contains [interface components](#interface-component) with which it must be possible to interact using the keyboard. For example, a personalized tooltip that offers a link in its content.
+This criterion addresses situations where additional content contains [user interface components](#user-interface-component) with which it must be possible to interact using the keyboard. For example, a customised tooltip which proposes a link in its content.

@@ -2,4 +2,4 @@
 title: Consistent labels
 ---
 
-Form field labels present on the same page or in a set of pages and requiring the entry of the same information must be formulated unambiguously so that the user knows that the information they must communicate is the same.
+Form field labels present on the same page or in a set of pages and requiring the same information to be entered must be worded unambiguously so that the user knows that the information he is required to communicate is the same.

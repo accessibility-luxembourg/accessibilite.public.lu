@@ -1,3 +1,3 @@
 ---
-title: Does each [script](#script) [support assistive technologies](#assistive-technology-compatible), if necessary?
+title: Is each [script](#script), if necessary, [compatible with assistive technologies](#compatible-with-assistive-technologies)?
 ---

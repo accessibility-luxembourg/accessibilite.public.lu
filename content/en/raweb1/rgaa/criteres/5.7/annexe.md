@@ -12,10 +12,10 @@ Norm:
     title: Info and Relationships
 ---
 
-#### Particular cases
+#### Special cases
 
-In the case of data tables having single row or single column headers, the headers can be structured using `<th>` tag without `scope` attribute.
+In the case of data tables with headers on a single row or column, the headers can be structured using the `<th>` tag without the `scope` attribute.
 
 #### Technical notes
 
-If the `headers` attribute is implemented on a cell already linked to a header (row or column) with the `scope` attribute (with the value `col` or `row`), it is 'header or the headers referenced by the `headers` attribute which will be rendered to assistive technologies. Headers linked with the `scope` attribute will be ignored.
+If the `headers` attribute is implemented on a cell already linked to a header (column or row header) with the `scope` attribute (with the value `col` or `row`), it is the header or headers referenced by the `headers` attribute which will be returned to assistive technologies. Headers linked with the `scope` attribute will be ignored.

@@ -2,9 +2,9 @@
 title: Form input field
 ---
 
-Object of a form allowing the user:
+The object of a form allowing the user to
 
-- To enter textual or preformatted data:
+- Enter textual or pre-formatted data
   - `input type="text"`;
   - `input type="password"`;
   - `input type="search"`;
@@ -13,7 +13,7 @@ Object of a form allowing the user:
   - `input type="tel"`;
   - `input type="url"`;
   - `textarea`.
-- To select predefined values:
+- Select predefined values:
   - `input type="checkbox"`;
   - `input type="radio"`;
   - `input type="date"`;
@@ -27,13 +27,13 @@ Object of a form allowing the user:
   - `datalist`;
   - `optgroup`;
   - `option`.
-- To download files:
+- Download files:
   - `input type="file"`.
 - Or display results:
   - `output`;
   - `progress`;
   - `meter`.
-- Tags with a WAI-ARIA role allowing a form field to be rendered are also covered by this definition:
+- Tags with a WAI-ARIA role for rendering a form field are also covered by this definition:
   - `progressbar`;
   - `slider`;
   - `spinbutton`;
@@ -45,11 +45,11 @@ Object of a form allowing the user:
   - `checkbox`;
   - `radio`;
   - `switch`.
-- The following WAI-ARIA form and role objects are not considered form fields:
+- The following WAI-ARIA form objects and roles are not considered to be form fields:
   - `input type="submit"`;
   - `input type="reset"`;
   - `input type="hidden"`;
   - `input type="image"`;
   - `input type="button"`;
   - `button`;
-  - WAI-ARIA `role="button"` attribute.
+  - wAI-ARIA attribute `role="button"`.

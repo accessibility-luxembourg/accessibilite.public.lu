@@ -13,10 +13,10 @@ Norm:
     title: Multiple Ways
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management when the website consists of a single page or a very limited number of pages (see note). In this case, the criterion is not applicable.
+Special cases are managed when the Website consists of a single page or a very limited number of pages (see note). In this case, the criterion does not apply.
 
-The criterion is also not applicable for pages in a set of pages which are the result or part of a process (a payment or order taking process, for example).
+The criterion also does not apply to pages in a set of pages that are the result of a process or part of a process (a payment or order process, for example).
 
-Note: the appreciation of a very limited number of pages should be reserved for a site where all of the pages are accessible from the home page.
+Note: the assessment of a very limited number of pages should be reserved for a site where all the pages can be reached from the home page.

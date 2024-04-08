@@ -1,5 +1,5 @@
 ---
-title: Sudden change in brightness or flash effect
+title: Sudden change in brightness or flashing effect
 ---
 
-Relative luminance alternation that can cause seizures in some people if their size is large enough in a specific frequency range.
+Alternation of relative luminance which can cause seizures in some people if they are large enough in a specific frequency range.

@@ -1,3 +1,3 @@
 ---
-title: On each web page, are the colors used in the [interface components](#interface-component) or graphic elements carrying information sufficiently contrasted (except in particular cases)?
+title: In each web page, are the colours used in the [user interface components](#user-interface-component) or graphic element conveying informations sufficiently contrasting (excluding special cases)?
 ---

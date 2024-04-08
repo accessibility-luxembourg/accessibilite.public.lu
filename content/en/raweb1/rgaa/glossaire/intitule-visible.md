@@ -1,9 +1,9 @@
 ---
-title: Visible title
+title: Visible label
 ---
 
-Displayed text serving as a title visible on the screen within a button or link.
+Text displayed as a visible label on the screen within a button or link.
 
-Displayed text serving as [label](#form-field-label) for a form field.
+Text displayed as a [label](#form-field-label) for a form field.
 
-This text can consist of text or an image containing text.
+This text can be text or an image containing text.

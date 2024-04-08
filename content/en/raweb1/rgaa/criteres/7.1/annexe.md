@@ -31,17 +31,17 @@ Norm:
     title: Name, Role, Value
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management for test 7.1.3 when:
+There is special case management for the 7.1.3 test when
 
-- Punctuation and capital letters are present in the text of the visible title: they can be ignored in the accessible name without having any consequences;
-- The text of the visible title serves as a symbol: the text should not be interpreted literally at the level of the accessible name. The name must express the function conveyed by the symbol (for example, “B” in a text editor will have the accessible name “Bold”, the sign “>” depending on the context will mean “Next” or “ Play video”). The case of mathematical symbols is, however, an exception (see the note below).
+- Punctuation and capital letters are present in the text of the visible label: they can be ignored in the accessible name without any consequences;
+- The text of the visible label is used as a symbol: the text must not be interpreted literally in the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).
 
-Note: if the visible label represents a mathematical expression, the mathematical symbols can be used literally to serve as a label for the accessible name (e.g.: “A>B”). It is left to the user to make the correspondence between the expression and what he must spell taking into account the knowledge he has of the operation of his voice input software (“A greater than B” or “A greater than B”).
+Note: if the visible label represents a mathematical expression, the mathematical symbols can be used literally to label the accessible name (e.g. "A&gt;B"). It is left to the user to work out the correspondence between the expression and what they have to spell, taking into account their knowledge of how their voice input software works ("A greater than B" or "A greater than B").
 
 #### Technical notes
 
-Criterion 7.1 implements the notion of “compatible with assistive technologies” as defined by WCAG, as well as the use of WAI-ARIA to make a component or functionality accessible. The correct use of WAI-ARIA is verified via tests 7.1.1, 7.1.2, 7.1.3.
+Criterion 7.1 implements the notion of "compatible with assistive technologies" as defined by the WCAG, as well as the use of WAI-ARIA to make a component or functionality accessible. The correct use of WAI-ARIA is verified via tests 7.1.1, 7.1.2 and 7.1.3.
 
-Important note: In an HTML5 environment, many components may require JavaScript to function; consequently the provision of an alternative to a JavaScript component which cannot be made accessible must benefit from a method specific to the component in question, allowing it to be replaced by an accessible alternative (and reactivated). This means that disabling JavaScript for the entire page will not be accepted as a valid method unless it does not jeopardize the use of other components.
+Important note: in an HTML5 environment, many components may require JavaScript to function; as a result, providing an alternative to a JavaScript component that cannot be made accessible must benefit from a method specific to the component in question, enabling it to be replaced by an accessible alternative (and reactivated). This means that disabling JavaScript for the whole page will not be accepted as a valid method, unless it does not affect the use of the other components.

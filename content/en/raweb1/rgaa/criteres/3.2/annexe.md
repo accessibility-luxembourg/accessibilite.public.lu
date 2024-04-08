@@ -18,11 +18,11 @@ Norm:
     title: Contrast (Minimum)
 ---
 
-#### Particular cases
+#### Special cases
 
-In these situations, the criteria are not applicable for these elements:
+In these situations, the criteria do not apply to these elements:
 
-- The text is part of a logo or brand name of an organization or company;
+- The text is part of a logo or brand name of an organisation or company;
 - The text or image of text is purely decorative;
 - The text is part of an image conveying information but the text itself does not provide any essential information;
-- The text or text image is part of an interface element on which no action is possible (for example a button with the `disabled` attribute).
+- The text or image of text is part of an interface element on which no action is possible (for example, a button with the `disabled` attribute).

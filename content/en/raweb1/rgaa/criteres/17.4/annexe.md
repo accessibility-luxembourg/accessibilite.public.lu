@@ -1,5 +1,5 @@
 ---
-WCAG: N/A
+WCAG: N/A 
 Norm:
   - criterion: 6.2.2.1
     title: Visually distinguishable display

@@ -1,3 +1,3 @@
 ---
-title: For each image used as [CAPTCHA](#captcha), is a solution for alternative access to the content or to the purpose of the CAPTCHA available?
+title: For each image used as a [CAPTCHA](#captcha), is there an alternative access solution to the content or function of the CAPTCHA?
 ---

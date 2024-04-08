@@ -2,11 +2,11 @@
 title: Legend
 ---
 
-HTML offers a device for titling groups of fields of the same nature using the `<fieldset>` and `<legend>` elements.
+HTML provides a way of titling groups of fields of the same kind using the elements `<fieldset>` and `<legend>`.
 
-It is also possible to create groupings with the WAI-ARIA `group` role and a passage of text, acting as a caption, linked by the WAI-ARIA `aria-labelledby` attribute or provided by a WAI-ARIA `attribute aria-label`.
+It is also possible to create groups with the WAI-ARIA role `group` and a passage of text, acting as a legend, linked by the WAI-ARIA attribute `aria-labelledby` or provided by a WAI-ARIA attribute `aria-label`.
 
 Note 1: Field groupings can use other methods that associate the grouping information directly into the field label.
-For example, via a `title` attribute, a WAI-ARIA `aria-label` attribute, an `aria-labelledby` link acting as a label or even by the WAI-attribute ARIA `aria-describedby` associating additional text. In this case, grouping fields becomes unnecessary since the labels are sufficiently relevant.
+For example, via a `title` attribute, a WAI-ARIA `aria-label` attribute, a `aria-labelledby` link acting as a label, or the WAI-ARIA `aria-describedby` attribute associating additional text. In this case, field grouping becomes unnecessary because the labels are sufficiently relevant.
 
-Note 2: When the form is made up of a single block of information of the same nature (the identity and address of the user, for example) or a single field (a search engine, for example) , grouping fields is not mandatory.
+Note 2: When the form consists of a single block of information of the same kind (the user's identity and address, for example) or a single field (a search engine, for example), field grouping is not mandatory.

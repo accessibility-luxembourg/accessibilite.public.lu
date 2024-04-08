@@ -2,10 +2,10 @@
 title: Indication of data type and/or format
 ---
 
-Textual indication allowing the user to know what type of data and/or entry format is required by a mandatory field, prior to filling it in.
+Text indication enabling the user to know what type of data and/or input format is required for a mandatory field, before filling it in.
 
-Examples:
+Examples
 
-- Email (format: you@domain.com);
+- Email (format: vous@domaine.com);
 - Postcode (format: 00000);
 - Date (format: DD/MM/YYYY).

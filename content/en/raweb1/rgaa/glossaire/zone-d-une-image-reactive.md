@@ -1,5 +1,5 @@
 ---
-title: Area (of a responsive image)
+title: Image map area
 ---
 
-Clickable area or non-clickable area of a client-side responsive image or clickable area of a server-side responsive image.
+The clickable or non-clickable area of a client-side image map, or the clickable area of a server-side image map.

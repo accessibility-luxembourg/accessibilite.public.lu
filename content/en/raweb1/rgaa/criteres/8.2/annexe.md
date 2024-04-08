@@ -13,7 +13,7 @@ Norm:
     title: Name, Role, Value
 ---
 
-#### Note
+#### Note 
 
-Assistive technologies no longer rely on direct HTML parsing. Accessibility issues specifically related to code validity no longer exist. Errors reported by the validator which have an impact on people with disabilities are handled by other criteria.
-The criterion must now always be considered compliant.
+Assistive technologies no longer depend on direct analysis of HTML. Accessibility problems specifically linked to the validity of the code no longer exist. Errors reported by the validator which have an impact on people with disabilities are dealt with by other criteria.
+From now on, the criterion must always be considered compliant.

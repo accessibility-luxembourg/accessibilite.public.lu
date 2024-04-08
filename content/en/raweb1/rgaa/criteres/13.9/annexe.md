@@ -12,13 +12,13 @@ Norm:
     title: Orientation
 ---
 
-#### Particular cases
+#### Special cases
 
-There are interfaces for which the orientation of the device is essential to their use.
+There are some interfaces for which the orientation of the device is essential to their use.
 
-In these situations, the criterion is not applicable. These could be gaming interfaces, piano, bank check deposit, etc.
+In these situations, the criterion is not applicable. These may include interfaces for playing games, playing the piano, depositing bank cheques, etc.
 
-If the interface is the only way to access the service offered, an alternative should be put in place to compensate for this deficiency.
+If the interface is the only means of accessing the proposed service, an alternative should be put in place to compensate for this deficiency.
 
 #### Documentary references
 

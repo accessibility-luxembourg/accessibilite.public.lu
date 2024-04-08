@@ -20,6 +20,6 @@ Norm:
     title: Audio Description or Media Alternative (Prerecorded)
 ---
 
-#### Particular cases
+#### Special cases
 
-See particular cases criterion 4.1.
+See special cases criterion 4.1.

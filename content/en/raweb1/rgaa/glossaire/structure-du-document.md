@@ -2,4 +2,4 @@
 title: Document structure
 ---
 
-A set of elements for defining large areas of an HTML page such as the page header area, primary and secondary navigation areas, main content area, and footer area.
+Set of elements used to define the main areas of an HTML page, such as the page header region, the main and secondary navigation regions, the main content region and the footer region.

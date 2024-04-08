@@ -1,3 +1,3 @@
 ---
-title: Is each [template](#template) that meets the [digital accessibility rules](#digital-accessibility-rules) clearly identifiable?
+title: Is each [template](#template) that makes it possible to comply with the [digital accessibility rules](#digital-accessibility-rules) clearly identifiable?
 ---

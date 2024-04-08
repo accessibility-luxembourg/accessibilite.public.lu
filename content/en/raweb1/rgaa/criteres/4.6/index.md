@@ -1,3 +1,3 @@
 ---
-title: For each pre-recorded [time-based media](#media-temporal-type-son-video-et-synchronise) having a synchronized [audio description](#audiodescription-synchronisee-media-temporal), is this relevant?
+title: For each pre-recorded [time-based media](#time-based-media-audio-video-and-synchronised) with a synchronised [audio description](#synchronised-audio-description-time-based-media), is it relevant?
 ---

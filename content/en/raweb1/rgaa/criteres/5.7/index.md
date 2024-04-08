@@ -1,3 +1,3 @@
 ---
-title: For each [data table](#data-table), is each cell associated with its [header cell](#header-cell) using the appropriate technique (except in particular cases)?
+title: For each [data table](#data-table), is the appropriate technique used to associate each cell with its [headers](#column-or-row-header) (excluding special cases)?
 ---

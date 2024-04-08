@@ -2,4 +2,4 @@
 title: Input control (form)
 ---
 
-Set of processes that alert the user of mandatory fields, indications of expected type or format and entry errors in a form. These input controls can be implemented by the content author or rely on attributes (like `required` or `pattern`), WAI-ARIA attributes (like `aria-required`) or field types that automatically produce input or error indications (such as the `url`, `email`, `date`, `time` types for example).
+A set of processes that warn the user of mandatory fields, expected type or format indications and input errors in a form. These input controls can be implemented by the content author or be based on attributes (such as `required` or `pattern`), WAI-ARIA attributes (such as `aria-required`) or field types that automatically produce input or error indications (such as `url`, `email`, `date`, `time` types, for example).

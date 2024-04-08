@@ -1,7 +1,7 @@
 ---
-title: Control (sound triggered automatically)
+title: Control (automatically triggered sound)
 ---
 
-Ability for the user to stop or restart an automatically triggered sound.
+Allows the user to stop or restart an automatically triggered sound.
 
-Note: The sound control method should be available as the first element on the page.
+Note: the sound control method should be available as the first element on the page.

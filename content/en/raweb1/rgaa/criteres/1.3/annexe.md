@@ -22,8 +22,8 @@ Norm:
     title: Name, Role, Value
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management when the image is used as [CAPTCHA](#captcha) or as a [test image](#image-test). In this situation, where it is not possible to provide a relevant alternative without destroying the purpose of the CAPTCHA or the test, the criterion is not applicable.
+Special cases are managed when the image is used as a [CAPTCHA](#captcha) or as a [test image](#test-image). In this situation, where it is not possible to provide a relevant alternative without destroying the object of the CAPTCHA or test, the criterion is not applicable.
 
 Note: the case of CAPTCHAs and test images is dealt with specifically by criterion 1.4.

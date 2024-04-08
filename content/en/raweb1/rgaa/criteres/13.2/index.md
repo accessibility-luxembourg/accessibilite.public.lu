@@ -1,3 +1,3 @@
 ---
-title: On each Web page, the opening of a new window must not happen without user action. Has this rule been followed?
+title: In every web page, the opening of a new window must not be triggered without user action. Is this rule respected?
 ---

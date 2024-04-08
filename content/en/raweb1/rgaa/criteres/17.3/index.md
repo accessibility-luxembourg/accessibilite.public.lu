@@ -1,3 +1,3 @@
 ---
-title: For each web application that enables [two-way oral communication](#web-application-of-oral-bidirectional-communication) and [real-time written communication](#real-time-written-communication), can both modes be used simultaneously?
+title: For each web application that enables [two-way voice communication](#two-way-voice-communication-web-application) and [real-time text](#real-time-text-communication-rtt), can both modes be used simultaneously?
 ---

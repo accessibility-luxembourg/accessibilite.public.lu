@@ -1,3 +1,3 @@
 ---
-title: On each web page, can additional content appearing when focusing or hovering over an [interface component](#interface-component) be controlled by the user (except in particular cases)?
+title: In each web page, is the additional content appearing when focused or when hovering over a [user interface component](#user-interface-component) controllable by the user (excluding special cases)?
 ---

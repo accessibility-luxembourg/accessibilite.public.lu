@@ -28,6 +28,6 @@ Norm:
     title: Focus Visible
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case handling when functionality depends on the use of an event handler without a universal equivalent; for example, a freehand drawing application cannot be made controllable by keyboard. In these situations, the criterion is not applicable.
+Special cases are managed when the functionality depends on the use of an event handler with no universal equivalent; for example, a freehand drawing application cannot be made controllable using the keyboard. In these situations, the criterion is not applicable.

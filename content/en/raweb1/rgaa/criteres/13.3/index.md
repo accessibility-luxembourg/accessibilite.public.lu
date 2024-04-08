@@ -1,3 +1,3 @@
 ---
-title: On each Web page, does each office document that can be downloaded have an [accessible version](#accessible-version-for-a-document-for-download) if necessary (except in particular cases)?
+title: On each web page, does each downloadable office document have an [accessible version](#accessible-version-for-a-downloadable-document) (excluding special cases)?
 ---

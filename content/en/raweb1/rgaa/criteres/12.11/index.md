@@ -1,3 +1,3 @@
 ---
-title: On each Web page, is the additional content that appears when hovering, focusing or activating an [interface component](#interface-component) accessible using the keyboard if necessary?
+title: In each web page, is the additional content that appears when hovering over, focusing on or activating a [user interface component](#user-interface-component) accessible by keyboard if necessary?
 ---

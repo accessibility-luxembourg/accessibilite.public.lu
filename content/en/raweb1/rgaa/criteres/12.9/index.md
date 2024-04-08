@@ -1,3 +1,3 @@
 ---
-title: On each Web page, navigation must not contain keyboard traps. Has this rule been followed?
+title: On every web page, navigation must not contain any keyboard traps. Is this rule respected?
 ---

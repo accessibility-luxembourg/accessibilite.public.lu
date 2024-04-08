@@ -1,3 +1,3 @@
 ---
-title: For each feature that transmits, converts or records [pre-recorded synchronized time-based media](#temporal-media-type-sound-video-and-synchronize) that has a [subtitle](#subtitles) track titles-synchronises-multimedia-object), at the end of the process, are the subtitles correctly preserved?
+title: For each feature that transmits, converts or records [pre-recorded time-synchronised media](#time-based-media-audio-video-and-synchronised) that has a [subtitle](#synchronised-captions-media-object) track, at the end of the process, are the subtitles correctly preserved?
 ---

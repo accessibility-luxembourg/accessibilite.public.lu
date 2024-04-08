@@ -1,57 +1,57 @@
 ---
 title: Test methodology
-layout:layouts/base.njk
-description: Test methodology documenting the steps to verify whether a RAWeb criterion is compliant or not
+layout: layouts/base.njk
+description: Test methodology documenting the steps used to check whether a RAWeb criterion is compliant or not
 eleventyNavigation:
   title: Resources
-  parent:resources
+  parent: resources
   order: 3
 ---
 
-This document was established as part of the resources supporting the handling of version 1 of the web accessibility evaluation framework (RAWeb).
+This document has been drawn up as part of the resources to accompany the introduction of version 1 of the Web Accessibility Evaluation Framework (RAWeb).
 
-It is intended for anyone interested in checking the conformity of web content with RAWeb. This is a testing methodology documenting the steps to verify whether a RAWeb criterion is compliant or not. This methodology is therefore to be used in addition to the RAWeb technical framework and cannot be used alone. It therefore does not exempt you from an in-depth reading of the technical reference system, nor from training in RAWeb.
+It is intended for anyone wishing to check that web content complies with the RAWeb. It is a test methodology that documents the steps involved in checking whether or not a RAWeb criterion is compliant. This methodology is therefore to be used in addition to the RAWeb's technical framework and cannot be used on its own. It does not replace a thorough reading of the technical framework, nor does it replace training in the RAWeb.
 
-For each of the tests of a criterion corresponds a test procedure. The implementation of this procedure may sometimes require the use of specific tools, otherwise a browser is sufficient to carry out the majority of the tests.
-A list of tools is also offered to help carry out the tests. They were selected both because they are frequently used by experts in the field and because they facilitate the search for certain results.
+For each of the tests of a criterion, there is a corresponding test procedure. The implementation of this procedure may sometimes require the use of specific tools, otherwise a browser is sufficient to perform most of the tests.
+A list of tools is also provided to assist in carrying out the tests. They have been selected both because they are frequently used by experts in the field and because they make it easier to find certain results.
 
 <div class="fr-callout"><p class="fr-text--lg">
-The test methodology is now available at the level of each test on the <a href="criteres.html">criteria and tests</a> page.</p>
+The test methodology is now available for each test on the <a href="criteres.html">criteria and tests</a> page.</p>
 </div>
 
 ### Tools
 
-The most useful tool remains the code inspector that each browser offers. It makes it easy to find the elements and attributes required for review by an accessibility test. Now, development tools also offer features allowing access to the properties of the accessibility tree exposed by the browser. However, this information does not replace the need to seek technical assistance when a criterion or test requires it.
+The most useful tool is the code inspector available in every browser. It makes it easy to find the elements and attributes required for an accessibility test. Nowadays, development tools also offer features for accessing the properties of the accessibility tree displayed by the browser. However, this information does not replace the need for technical assistance when a criterion or test requires it.
 
-The technical aids listed in the selected test environment constitute a second set of essential tools (see the [Test environment](environment.html/#content) section). They are, in fact, required to ensure correct restitution of accessible content (alternatives to images, link titles, table titles, etc.) in particular in the case where examination of the code alone would not be enough.
+The technical aids listed in the chosen test environment constitute a second set of essential tools (see the section [Test environment](environment.html/#content)). They are required to ensure that accessible content (alternatives to images, link headings, table titles, etc.) is rendered correctly, particularly in cases where examining the code alone would not suffice.
 
-Other tools are available to help search for content items. They often appear as browser extensions and allow you to explore one or more aspects of an accessibility test.
+Other tools are available to help search for content elements. They are often presented as browser extensions and can be used to explore one or more aspects of an accessibility test.
 
-The following toolbars are browser extensions that will make it easier to visually locate certain elements in a document:
+The following toolbars are browser extensions that make it easier to visually locate certain elements in a document:
 
-- [Web Developer Toolbar for Firefox](https://addons.mozilla.org/fr/firefox/addon/web-developer/): toolbar for developers that can help visually find certain elements in a document for control its accessibility;
-- [Web Developer Toolbar for Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=fr): the same toolbar as before, for Chrome.
+- [Web Developer Toolbar for Firefox](https://addons.mozilla.org/fr/firefox/addon/web-developer/): a toolbar for developers that can help you visually locate certain elements in a document to check its accessibility;
+- [Web Developer Toolbar for Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=fr): the same toolbar as above, for Chrome.
 
-Beyond the simple toolbar, other tools provide a complete analysis of the document by visually flagging accessibility errors on the page or, conversely, elements that are beneficial to it. Filters often allow only certain of these aspects to be displayed. This is what Wave offers, a solution available both online (http://wave.webaim.org) and as a browser extension (https://wave.webaim.org/extension/).
+In addition to the simple toolbar, other tools provide a complete analysis of the document by visually highlighting accessibility errors on the page or, conversely, elements that are beneficial. Filters are then often used to display only some of these aspects. This is what Wave offers, a solution available both online (http://wave.webaim.org) and as a browser extension (https://wave.webaim.org/extension/).
 
-Although it is no longer required to check the validity of the source code, it can be useful, for purposes of searching for anomalies, to use the HTML validator. Validating the source code of an HTML document uses the W3C online validator (https://validator.w3.org/nu/). Note that to validate the source code generated by the browser, you must use the "Text input" option from the selection list entitled "Check by" and copy the available HTML source into the multiline input area which is then offered. from the browser's Code Inspector.
-Browser extensions are also available, but you must be careful, because the validation algorithms of these extensions are not necessarily up to date with the W3C validator and the results obtained may therefore be different.
+Although it is no longer necessary to check the validity of the source code, it can be useful to use the HTML validator to search for anomalies. Validation of the source code of an HTML document uses the W3C online validator (https://validator.w3.org/nu/). Note that to validate the source code generated by the browser, use the "Text input" option in the "Check by" selection list and copy the HTML source available from the browser's code inspector into the multiline input box.
+Browser extensions are also available, but you need to be careful, as the validation algorithms of these extensions are not necessarily up to date with the W3C validator and the results obtained may therefore be different.
 
-Checking color contrasts benefits from different tools:
+Various tools are available for checking colour contrasts:
 
-- [WCAG Contrast checker for Firefox](https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/): Firefox extension which allows automatic control of color contrasts of texts in a document ;
-- [WCAG Contrast checker for Chrome](https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf): same extension as the previous one for Chrome;
-- [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/): Windows or Mac application that allows you to control color contrasts.
+- [WCAG Contrast checker for Firefox](https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/): Firefox extension that automatically checks text colour contrasts in a document;
+- [WCAG Contrast checker for Chrome](https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf): same extension as above for Chrome;
+- [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): Windows or Mac application for checking colour contrasts.
 
-Checking the document tree and heading hierarchy has a very useful extension:
+A very useful extension is available for checking the document tree structure and title hierarchy:
 
-- [HeadingsMap for Firefox](https://addons.mozilla.org/fr/firefox/addon/headingsmap/): Firefox extension which allows you to give an overview of the document plan and its tree structure;
-- [HeadingsMap for Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi): same extension as the previous one for Chrome.
+- [HeadingsMap for Firefox](https://addons.mozilla.org/fr/firefox/addon/headingsmap/): Firefox extension that lets you preview the document map and its tree structure;
+- [HeadingsMap for Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi): same extension as above for Chrome.
 
-The analysis of office files can be carried out using different tools depending on the file format:
+Various tools can be used to analyse office files, depending on the file format:
 
-- [PAC (PDF Accessibility Checker) 2024 for Windows](https://pac.pdf-accessibility.org/en): software that allows you to check certain accessibility points of PDF documents;
-- Recent versions of Microsoft office tools offer built-in accessibility validation functionality (see the article [Make your Word documents accessible to people with disabilities](https://support.microsoft.com/en -fr/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) and associated articles);
-- [Ace by DAISY App](https://inclusivepublishing.org/toolbox/ace-by-daisy-app/) is a utility to check the accessibility of an EPUB file.
+- [PAC (PDF Accessibility Checker) 2024 for Windows](https://pac.pdf-accessibility.org/en): software for checking certain accessibility points in PDF documents;
+- Recent versions of Microsoft's office tools offer a built-in accessibility validation feature (see the article [Make your Word documents accessible to people with disabilities](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) and related articles);
+- [Ace by DAISY App](https://inclusivepublishing.org/toolbox/ace-by-daisy-app/) is a utility for checking the accessibility of an EPUB file.
 
-Finally, an old but still useful software for evaluating the potential of certain web content to cause epileptic seizures: [PEAT (Photosensitive Epilepsy Analysis Tool) for Windows](https://trace.umd.edu/peat).
+Finally, an old but still useful program for assessing the potential of certain web content to cause epileptic seizures: [PEAT (Photosensitive Epilepsy Analysis Tool) for Windows](https://trace.umd.edu/peat).

@@ -1,14 +1,14 @@
 ---
-title: Fields of the same nature
+title: Fields of same kind
 ---
 
-In a form, set of fields that can be grouped by the nature of the expected information. Grouping aims to identify fields that should be treated as a set.
+In a form, a set of fields which can be grouped together according to the nature of the information required. The purpose of grouping is to identify which fields should be treated as a whole.
 
-Some examples :
+Here are a few examples:
 
-- Three successive fields to enter a date (day/month/year);
+- Three successive fields for entering a date (day/month/year);
 - Successive fields for a telephone number;
-- A block intended to enter the identity and address of the user, when the form contains several contact blocks;
-- A set of radio buttons or checkboxes that relate to a question.
+- A block for entering the user's identity and address, when the form contains several contact blocks;
+- A set of radio buttons or tick boxes relating to a question.
 
-These fields should be grouped when the label titles are not sufficient to inform the user that the fields are part of a grouping.
+These fields must be grouped together when the label headings are not sufficient to inform the user that the fields are part of a group.

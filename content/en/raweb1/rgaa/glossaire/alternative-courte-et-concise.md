@@ -2,4 +2,4 @@
 title: Short and concise alternative
 ---
 
-The conditions for rendering a textual alternative via assistive technologies (for example a screen magnifier) require that it be as short as possible. A maximum length of 80 characters is strongly recommended; it will limit the number of operations necessary to read the alternative by users of braille displays or screen magnifiers in particular.
+The conditions for rendering a textual alternative using assistive technologies (e.g. a screen magnifier) require it to be as short as possible. A maximum length of 80 characters is strongly recommended; this will limit the number of manipulations required to read the alternative by users of Braille displays or screen magnifiers in particular.

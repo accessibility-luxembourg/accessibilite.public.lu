@@ -1,13 +1,13 @@
 <div class="welcome-wrapper">
 <div class="left-column">
 
-Welcome to the digital accessibility portal of the Grand Duchy of Luxembourg. Here you will find a set of resources allowing you to make your sites and mobile applications accessible to everyone, including:
-- for websites, [Web Accessibility Evaluation Framework (RAWeb 1)](raweb1/index.html);
-- for mobile applications, [the Mobile Application Accessibility Assessment Framework (RAAM) version 1](raam1/index.html).
+Welcome to the Grand Duchy of Luxembourg's digital accessibility portal. Here you will find a range of resources to help you make your websites and mobile applications accessible to all, including
+- the [Web Accessibility Evaluation Framework (RAWeb 1)](raweb1/index.html);
+- the [Mobile Application Accessibility Assessment Framework (RAAM) version 1](raam1/index.html). 
 
-As part of the accessibility process, Luxembourg public bodies must produce an accessibility declaration for each published site and application. To do this, we offer you a [tool allowing you to easily generate your accessibility declarations](tools/decla.html).
+As part of the accessibility process, Luxembourg public bodies must produce an accessibility statement for each website and application published. [This tool allows you to easily generate your accessibility statements](tools/decla.html).
 
-We are at your disposal for any questions, do not hesitate to [contact us](contact.html).
+If you have any questions, please do not hesitate to [contact us](contact.html).
 
 <div class="home-content-container">
 <!-- latest news -->
@@ -20,9 +20,9 @@ We are at your disposal for any questions, do not hesitate to [contact us](conta
 ### Direct access
 <div class="right-column-content">
 
-- [Web Repository](raweb1/index.html)
-- [Mobile repository](raam1/index.html)
-- [PDF Repository](rapdf1/index.html)
+- [Web framework](raweb1/index.html)
+- [Mobile framework](raam1/index.html)
+- [PDF framework](rapdf1/index.html)
 - [Your statement](tools/decla.html)
 - [Open data](monitoring/open-data.html)
 
@@ -31,8 +31,8 @@ We are at your disposal for any questions, do not hesitate to [contact us](conta
 ### Claim
 <div class="right-column-content">
 
-If you encounter an accessibility problem on a public site or mobile application, you can contact us via the form below:
-- [Complaint form](https://sip.gouvernement.lu/en/support/reclamation-accessibilite.html)
+If you have a problem with the accessibility of a public website or mobile application, you can contact us using the form below:
+- [Complaints form](https://sip.gouvernement.lu/fr/support/reclamation-accessibilite.html)
 - [Information on the procedure](tools/reclamations.html)
 
 </div>
@@ -48,5 +48,5 @@ If you encounter an accessibility problem on a public site or mobile application
 
 </div>
 
-</aside>
+</aside> 
 </div>

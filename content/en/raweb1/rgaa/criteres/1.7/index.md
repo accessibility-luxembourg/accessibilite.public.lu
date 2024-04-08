@@ -1,3 +1,3 @@
 ---
-title: For each [image-conveying-information](#image-conveying-information) having a [detailed description](#detailed-image-description), is this description relevant?
+title: For each image [conveying information](#image-conveying-information) with a [detailed description](#detailed-description-image), is this description relevant?
 ---

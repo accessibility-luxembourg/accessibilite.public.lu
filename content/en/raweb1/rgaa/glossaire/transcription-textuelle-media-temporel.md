@@ -1,12 +1,12 @@
 ---
-title: Text transcription (time-based media)
+title: Transcript (time-based media)
 ---
 
-Textual content associated with time-based media using the appropriate technique (text coded in HTML or in a text file found on the same page or viewable following a link). This content gives the user access (independently from viewing the multimedia object) to:
+Textual content associated with a time-based media object using the appropriate technique (text encoded in HTML or in a text file located on the same page or available via a link). This content gives the user access (independently of viewing the multimedia object) to
 
-- The totality of what is expressed orally;
-- All descriptive information necessary for an equivalent understanding of the action.
+- All of what is expressed orally;
+- All the descriptive information necessary for an equivalent understanding of the action.
 
-This textual information must be presented in the chronological order of its appearance in the time-based media.
+This textual information must be presented in the chronological order in which it appears in the time-based media.
 
-Note: the verbatim transcription must be outside the `<object>` tag.
+Note: the transcript must be located outside the `<object>` tag.

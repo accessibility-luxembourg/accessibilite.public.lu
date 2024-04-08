@@ -2,8 +2,8 @@
 title: Input unit
 ---
 
-For character-by-character input, the smallest text entry unit is the character.
+For character-by-character input, the smallest text input unit is the character.
 
-For a system that has word prediction functionality, the smallest input unit is the word.
+For a system with word prediction functionality, the smallest input unit is the word.
 
-For some voice recognition systems, text is not transcribed until an entire word or sentence has been spoken. In this case, the smallest input unit is the word or phrase.
+For some speech recognition systems, the text is not retranscribed until an entire word or phrase has been spoken. In this case, the smallest input unit is the word or phrase.

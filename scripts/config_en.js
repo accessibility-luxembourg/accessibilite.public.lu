@@ -242,7 +242,7 @@ const config = {
                 {
                     "title": "RAAM 1: Testing methodology",
                     "menu": "Testing methodology",
-                    "name": "raam1/methodology",
+                    "name": "raam1/methodologie",
                     "md": "./content/en/raam1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
@@ -303,7 +303,7 @@ const config = {
                 {
                     "title": "RAPDF 1: Testing methodology",
                     "menu": "Testing methodology",
-                    "name": "rapdf1/methodology",
+                    "name": "rapdf1/methodologie",
                     "md": "./content/en/rapdf1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 

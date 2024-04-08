@@ -2,12 +2,12 @@
 title: Hidden content
 ---
 
-Assistive technologies (including screen readers) do not render content hidden via properties:
+Assistive technologies (in particular screen readers) do not render hidden content via
 
-- `display` with value `none` (`display: none`);
-- `visibility` with the value `hidden` (`visibility: hidden`);
-- `font-size` with value `0` (`font-size:0`);
-- HTML5 `hidden` attribute;
+- `display` with the value `none` (`display: none`);
+- visibility with the value `hidden` (`visibility: hidden`);
+- font-size set to `0` (`font-size:0`);
+- HTML5 attribute `hidden`;
 - WAI-ARIA attribute `aria-hidden="true"`.
 
-All content using one or more of these properties and attributes is applicable for {% crit 10.8 %}.
+All content using one or more of these properties and attributes is applicable for the {% crit 10.8 %}.

@@ -17,20 +17,20 @@ Norm:
     title: Reflow
 ---
 
-#### Particular cases
+#### Special cases
 
-The objective of this criterion is to guarantee scrolling in a single direction for easier reading according to the direction of the writing.
+The aim of this criterion is to guarantee scrolling in a single direction for easier reading in the direction of writing.
 
-An exception to this criterion is content whose arrangement requires two dimensions to be understood or used as:
+The exception to this criterion is content whose layout requires two dimensions to be understood or used, such as
 
 - Images, graphics or videos;
 - Games (platform games, for example);
-- Presentations (slideshow type, for example);
+- Presentations (such as slideshows);
 - Data tables;
-- Interfaces where it is necessary to have a horizontal scrollbar when manipulating the interface.
+- Interfaces where a horizontal scrollbar is required when manipulating the interface.
 
-Note: the majority of browsers on mobile operating systems (Android, iOS) do not correctly manage redistribution in case of zoom. In this context, the criterion will be considered not applicable to these environments.
+Note: the majority of browsers on mobile operating systems (Android, iOS) do not correctly manage redistribution in the event of zooming. In this context, the criterion will be considered inapplicable in these environments.
 
 #### Technical note
 
-When we talk about pixels here, we are talking about the CSS pixel as defined by the W3C https://www.w3.org/TR/css3-values/
+The pixel referred to here is the CSS pixel as defined by the W3C https://www.w3.org/TR/css3-values/

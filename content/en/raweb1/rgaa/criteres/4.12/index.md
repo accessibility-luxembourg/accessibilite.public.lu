@@ -1,3 +1,3 @@
 ---
-title: Can each [non-time-based media](#non-temporal-media) be [controlled by the keyboard and any pointing device](#accessible-and-activable-by-the-keyboard-and-all-pointing-device)?
+title: Is the viewing of each [non-time-based media](#non-time-based-media) [controllable by keyboard and any pointing device](#accessible-and-operable-by-keyboard-and-any-pointing-device)?
 ---

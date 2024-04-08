@@ -2,6 +2,6 @@
 title: Link whose nature is not obvious
 ---
 
-A link that can be confused with normal text when it is indicated only by color by certain types of users who do not perceive colors or have difficulty with them. For example, in this text &ldquo;New strike at SNCF&rdquo;, if the word &ldquo;strike&rdquo; is a color-only link, its nature may be overlooked by color-blind users accessing CSS-enabled content.
+A link which can be confused with normal text when it is indicated by colour alone by certain types of user who have little or no perception of colour. For example, in this text "New strike at SNCF", if the word "strike" is a link indicated by colour only, its nature may be ignored by non-colour-perceptive users accessing the activated CSS content.
 
-Note: &ldquo;indicated by color only&rdquo; means that the link is not accompanied by any visual marker (icon, underline, border, etc.). Consequently, a link of the same color as the surrounding text is affected by this criterion.
+Note: "indicated only by colour" means that the link is not accompanied by any visual marker (icon, underline, border, etc.). Consequently, a link of the same colour as the surrounding text is affected by this criterion.

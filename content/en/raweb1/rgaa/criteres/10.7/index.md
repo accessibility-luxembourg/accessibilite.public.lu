@@ -1,3 +1,3 @@
 ---
-title: On each Web page, is the [focus](#focus) visible for each element that receives focus?
+title: In each web page, for each element receiving the focus, is the [focus](#when-focused) visible?
 ---

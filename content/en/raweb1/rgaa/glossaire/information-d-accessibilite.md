@@ -2,15 +2,15 @@
 title: Accessibility information
 ---
 
-Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) necessary to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an inline frame...
+Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) required to make content accessible. For example: the alternative of a graphic element, the semantics of a text passage, the title of an online frame, etc.
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 
-An editing tool should have features that allow you to define all the information needed to create accessible content, for example:
+An editing tool should have functions that allow you to define all the information needed to create accessible content, for example
 
-- be able to define the alternative of an image or, on the contrary, be able to declare it decorative;
-- be able to define section titles;
-- be able to define the language of a passage of text;
-- be able to define labels for form fields.
+- defining the alternative of an image or, on the contrary, declaring it decorative;
+- the ability to define section titles;
+- define the language of a text passage;
+- define labels for form fields.
 
-All accessibility criteria relating to the targeted content technology are affected. For example, for an HTML page, all RAWeb level A and AA criteria must be respected. For the creation of a document in PDF format, these are all the criteria of the [reference for evaluating the accessibility of documents in PDF format (RAPDF)](../rapdf1/index.html) at level A and AA which must be able to be respected.
+All the accessibility criteria relating to the content technology in question are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For the creation of a document in PDF format, all the criteria of the [framework for evaluating the accessibility of documents in PDF format (RAPDF)](../rapdf1/index.html) level A and AA must be met.

@@ -1,21 +1,21 @@
 ---
-title: Time-based media (sound, video and synchronized type)
+title: Time-based media (audio, video and synchronised)
 ---
 
-* Audio-only time-based media: sound content (Wav, Mp3…);
-* Time-based media only video: images or photos in motion or sequence;
-* Synchronized time-based media: an audio or video stream synchronized with another format to present information and/or with interactive temporal components. Time-based media can be accessed in 2 different ways:
+* Time-based media only audio: sound content (Wav, Mp3...);
+* Time-based media only video: moving or sequenced images or photos;
+* Synchronised time-based media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
 
-- File to download which can be viewed with software external to the web page;
-- Content embedded in the web page and viewable in the web page via:
-  - The `<video>` element (for example a video);
-  - The `<audio>` element (for example a podcast);
-  - The `<svg>` element (for example a vector cartoon);
-  - The `<canvas>` element (for example a cartoon in bitmap image);
-  - The `<bgsound>` element to broadcast background sound to the web page.
+- Downloadable file that can be viewed with software external to the web page;
+- Content embedded in the web page which can be consulted within the web page via
+  - The `<video>` element (e.g. a video);
+  - The `<audio>` element (e.g. a podcast);
+  - The `<svg>` element (for example, a vector cartoon);
+  - The `<canvas>` element (for example, a bitmap cartoon);
+  - The `<bgsound>` element to broadcast a background sound to the web page.
 
 Time-based media can be broadcast in real time or offered for playback asynchronously (pre-recorded media).
 
-Note 1: animated gifs, image animations made by JavaScript or CSS are not considered time-based media.
+Note 1: animated gifs and image animations created using JavaScript or CSS are not considered to be time-based media.
 
-Note 2: The `<bgsound>` element is specific to Internet Explorer and should not be used.
+Note 2: the `<bgsound>` element is specific to Internet Explorer and should not be used.

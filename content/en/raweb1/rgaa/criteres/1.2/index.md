@@ -1,3 +1,3 @@
 ---
-title: Is each [decorative image](#decoration-image) correctly ignored by assistive technologies?
+title: Is every [decorative image](#decorative-image) correctly ignored by assistive technologies?
 ---

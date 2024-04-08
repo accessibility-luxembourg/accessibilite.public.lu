@@ -1,3 +1,3 @@
 ---
-title: For each telecoms web application, is the identification of the person initiating a call accessible?
+title: For each telecommunication web application, is it possible to identify the person initiating a call?
 ---

@@ -1,15 +1,15 @@
 ---
-title: For presentation purposes only
+title: Only for layout purposes
 ---
 
-For presentation purposes only: use of HTML tags for a purpose different from that intended in the specifications (with regard to the type of document declared). Examples: using `h` tags for the sole purpose of creating a typographic effect; use of the `<blockquote>` tag for the sole purpose of indenting a paragraph, etc.
+Only for layout: use of HTML tags for a purpose other than that specified in the specifications (with regard to the declared document type). Examples: use of the `h` tags for the sole purpose of creating a typographic effect; use of the `<blockquote>` tag for the sole purpose of indenting a paragraph, etc.
 
-Note 1: the use of `<div>` or `<span>` or multiple `<br>` elements to visually create a paragraph is considered non-compliant and invalidates the criterion.
+Note 1: the use of `<div>` or `<span>` elements or several `<br>` elements to visually create a paragraph is considered non-compliant and invalidates the criterion.
 
-Example: `<div>`, `paragraphs of a block of text simulated`, `<br>`, `using multiple <br>` tags, `</div>`
+Example: `<div>`, `paragraphs in a simulated block of text`, `<br>`, `using several <br> tags`, `</div>`
 
-Note 2: WAI-ARIA offers a `presentation` role allowing you to remove the semantics of an element, for example `<h1 role="presentation">Title</h1>`. In this case, the text will be correctly rendered but its role as title will no longer be. Use of the `presentation` role may be required when using a WAI-ARIA [design pattern](#design-pattern).
+Note 2: WAI-ARIA offers a `presentation` role which can be used to suppress the semantics of an element, for example `<h1 role="presentation">Title</h1>`. In this case, the text will be rendered correctly but its title role will no longer be rendered. The `presentation` role may be required when using a WAI-ARIA [design pattern](#design-pattern).
 
-The WAI-ARIA `presentation` role can also be used to strip the semantics of an element when the latter is used solely for presentation purposes, e.g. `<blockquote role="presentation">` will have the same effect as an absence of `<blockquote>` element.
+The `presentation` WAI-ARIA role can also be used to remove semantics from an element when it is used only for layout purposes, e.g. `<blockquote role="presentation">` will have the same effect as no `<blockquote>` element.
 
-Even if this use is strongly discouraged (in the case of assistive technology that does not implement WAI-ARIA for example) it can be considered as compliant with <abbr lang="en" title="web content accessibility guidelines"> WCAG</abbr>. On the other hand, the use of a WAI-ARIA `presentation` role on an element whose nature (for example semantics) is essential to understanding the content is a violation of the rules <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> (particularly the failure [F92](https://www.w3.org/WAI/WCAG21/Techniques/failures/F92)) and invalidates the criterion.
+Even if this use is strongly discouraged (in the case of assistive technologies that do not implement WAI-ARIA, for example), it can be considered <abbr lang="en" title="web content accessibility guidelines">WCAG-compliant</abbr>. On the other hand, the use of a WAI-ARIA `presentation` role on an element whose nature (e.g. semantics) is essential to the understanding of the content is a violation of the <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> rules (particularly failure [F92](https://www.w3.org/WAI/WCAG21/Techniques/failures/F92)) and invalidates the criterion.

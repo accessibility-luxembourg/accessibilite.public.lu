@@ -1,9 +1,9 @@
 ---
-title: Search engine (internal to a website)
+title: Search engine (internal to a Website)
 ---
 
-Area giving access directly (form) or indirectly (interface element giving access to the form) to the search engine which allows you to carry out searches on the contents of the entire site.
+Area giving direct access (form) or indirect access (interface element giving access to the form) to the search engine which enables searches to be made on the content of the entire site.
 
-Note: Be careful not to confuse this search area, unique on the site, with any other search engine allowing, for example, searches on a restricted part of the site: a catalog, offers on a public markets section, etc.
+Note: Be careful not to confuse this search zone, which is unique on the site, with any other search engine that can be used, for example, to search a restricted part of the site: a catalogue, offers in a public procurement section, etc
 
-See the technical definition of header zone provided by WAI-ARIA [`search(role)`](https://www.w3.org/TR/wai-aria-1.1/#search).
+See the technical definition of header region provided by WAI-ARIA [`search(role)`](https://www.w3.org/TR/wai-aria-1.1/#search).

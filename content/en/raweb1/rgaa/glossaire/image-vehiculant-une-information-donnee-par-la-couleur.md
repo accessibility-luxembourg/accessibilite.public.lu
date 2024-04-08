@@ -1,5 +1,5 @@
 ---
-title: Image conveying information (given by color)
+title: Image conveying information (provided by colour)
 ---
 
-Image of which all or part of the content visually transmits information through color only.
+An image in which all or part of the content visually conveys information through colour alone.

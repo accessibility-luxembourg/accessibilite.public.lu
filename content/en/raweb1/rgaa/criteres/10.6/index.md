@@ -1,3 +1,3 @@
 ---
-title: On each Web page, can each [link whose nature is not obvious](#link-whose-nature-is-not-obvious) be distinguished from the surrounding text?
+title: On each web page, is each [link whose nature is not obvious](#link-whose-nature-is-not-obvious) visible in relation to the surrounding text?
 ---

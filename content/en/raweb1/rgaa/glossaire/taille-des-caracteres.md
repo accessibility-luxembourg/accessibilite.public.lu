@@ -1,5 +1,5 @@
 ---
-title: Character size
+title: Font size
 ---
 
-Value assigned to fonts present on a web page.
+Value assigned to the fonts on a web page.

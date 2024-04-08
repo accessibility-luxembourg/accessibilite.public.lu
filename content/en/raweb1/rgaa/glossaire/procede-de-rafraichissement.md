@@ -1,5 +1,5 @@
 ---
-title: Refreshment process
+title: Refresh process
 ---
 
-Technique aimed at modifying the content of one or more elements of the web page. The refreshing process can be carried out by automatic reloading of the page or dynamically without reloading the page (via AJAX, for example). The user must be able to control each cooling process independently.
+A technique for modifying the content of one or more elements of a web page. The refresh process can be carried out by automatically reloading the page or dynamically without reloading the page (via AJAX, for example). The user must be able to control each refresh process independently.

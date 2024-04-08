@@ -1,3 +1,3 @@
 ---
-title: For each [real-time written communication](#real-time-written-communication) feature, can the messages be identified (except in particular cases)?
+title: For each [real-time text (RTT)](#real-time-text-communication-rtt) feature, can the messages be identified (excluding special cases)?
 ---

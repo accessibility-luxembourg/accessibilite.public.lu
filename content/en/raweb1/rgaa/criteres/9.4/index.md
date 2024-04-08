@@ -1,3 +1,3 @@
 ---
-title: On each Web page, is each quotation identified properly?
+title: On each web page, is each quotation correctly indicated?
 ---

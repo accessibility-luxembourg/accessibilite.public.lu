@@ -33,19 +33,19 @@ Norm:
     title: Labels or Instructions
 ---
 
-#### Particular cases
+#### Special cases
 
-Test 11.10.1 and test 11.10.2 will be considered not applicable when the form has only one [form field](#form-input-field) or indicates optional fields in the following manner:
+Test 11.10.1 and Test 11.10.2 will be considered not applicable when the form contains a single [form input field](#form-input-field) or indicates optional fields in
 
 - Visible;
-- In the `<label>` tag or in the [caption](#caption) associated with the field.
+- In the `<label>` tag or in the [legend](#legend) associated with the field.
 
-If all of the fields in a form are mandatory, tests 11.10.1 and 11.10.2 remain applicable.
+If all the fields in a form are mandatory, tests 11.10.1 and 11.10.2 still apply.
 
 #### Technical notes
 
-In a long form where the majority of fields are mandatory, we might notice that it is the few fields that remain optional that are explicitly marked as such. In this case, it would be necessary to ensure that:
+In a long form where the majority of fields are mandatory, you may find that it is the few remaining optional fields that are explicitly marked as such. In this case, you should ensure that
 
-- A message visually clarifies at the top of the form that “all fields are mandatory except those indicated as optional”; ;
-- A mention &laquo;optional&nbsp;&raquo; is visually present in the label of optional fields or in the caption of a group of optional fields;
+- A visual message at the top of the form stating that "all fields are mandatory except those indicated as optional";
+- The word "optional" is visually present in the label of optional fields or in the legend for a group of optional fields;
 - A `required` or `aria-required="true"` attribute remains associated with each field that is not affected by this optional character.

@@ -23,6 +23,6 @@ Norm:
     title: Name, Role, Value
 ---
 
-#### Particular cases
+#### Special cases
 
-For test 11.9.2, see particular cases criterion 11.2.
+For test 11.9.2, see special cases criterion 11.2.

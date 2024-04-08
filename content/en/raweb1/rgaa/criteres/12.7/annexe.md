@@ -25,8 +25,8 @@ Norm:
     title: Consistent Navigation
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management when the website consists of a single page.
+There is special case management when the Website consists of a single page.
 
-In this case, the obligation for the presence of a quick access link is linked to the context of the page: presence or absence of navigation or additional content, for example. The criterion may be considered not applicable when it is proven that a quick access link is unnecessary.
+In this case, the requirement for a quick access link is linked to the context of the page: the presence or absence of navigation or additional content, for example. The criterion may be considered inapplicable where a quick access link is shown to be unnecessary.

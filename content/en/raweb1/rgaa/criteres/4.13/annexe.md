@@ -13,8 +13,8 @@ Norm:
     title: Name, role, Value
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management when [time-based media](#temporal-media-type-sound-video-and-synchronize) or [non-temporal](#non-temporal-media) is used for decorative purposes (c 'that is to say it does not provide any information).
+There is special case management when [time-based media](#time-based-media-audio-video-and-synchronised) or [non-time-based media](#non-time-based-media) is used for decorative purposes (i.e. it doesn't provide any information).
 
 In these situations, the criterion is not applicable.

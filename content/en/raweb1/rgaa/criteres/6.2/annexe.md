@@ -19,4 +19,4 @@ Norm:
 
 #### Technical notes
 
-An anchor is not a link even if for a long time the `<a>` element served as support for this technique. It is therefore not concerned by this criterion.
+An anchor is not a link, even though for a long time the `<a>` element was used to support this technique. It is therefore not covered by this criterion.

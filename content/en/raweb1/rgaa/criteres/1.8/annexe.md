@@ -13,10 +13,10 @@ Norm:
     title: Images of Text
 ---
 
-#### Particular cases
+#### Special cases
 
-For this criterion, there is special case management when the text is part of the logo, a commercial name, a [CAPTCHA](#captcha), a [test-image](#test-image) or an image whose graphic accuracy would be considered essential to the proper transmission of the information conveyed by the image. In these situations, the criterion is not applicable for these elements.
+For this criterion, there is special case management when the text is part of a logo, a trade name, a [CAPTCHA](#captcha), a [test image](#test-image) or an image whose graphic accuracy is considered essential for the correct transmission of the information conveyed by the image. In these situations, the criterion does not apply to these elements.
 
 #### Technical notes
 
-Since text in vector images is real text, it is not affected by this criterion.
+As the text in vector images is real text, it is not affected by this criterion.

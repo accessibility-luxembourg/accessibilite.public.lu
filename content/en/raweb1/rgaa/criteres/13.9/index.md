@@ -1,3 +1,3 @@
 ---
-title: On each Web page, is the content viewable regardless of the orientation of the screen (portrait or landscape) (except in particular cases)?
+title: On each web page, can the content be viewed in any screen orientation (portrait or landscape) (excluding special cases)?
 ---

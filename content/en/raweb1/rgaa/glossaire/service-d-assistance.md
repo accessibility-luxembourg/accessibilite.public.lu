@@ -1,12 +1,12 @@
 ---
-title: Help Desk
+title: Help desk
 ---
 
-A support service can be:
+A help desk can be
 
-- the feedback mechanism identified in the website accessibility declaration,
-- a <em lang="en">help desk</em>,
-- a call center,
+- the feedback mechanism identified in the Website's accessibility statement,
+- a help desk
+- a call centre
 - technical support,
 - a [relay service](#relay-service),
 - a training service.

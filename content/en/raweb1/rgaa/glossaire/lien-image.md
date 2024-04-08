@@ -2,10 +2,10 @@
 title: Image link
 ---
 
-In HTML, [link](#link) containing only one or more children of image type:
+In HTML, [link](#link) contains only one or more children of the image type
 
-- Image (`<img>` tag or opening tag having the WAI-ARIA `role="img"` attribute);
-- Clickable area (`<area>` tag) with an `href` attribute;
-- Image object (tag `<object>`);
+- Image (tag `<img>` or opening tag with WAI-ARIA attribute `role="img"`);
+- Clickable area (tag `<area>`) with a `href` attribute;
+- Object image (tag `<object>`);
 - Bitmap image (tag `<canvas>`);
-- Vector image (`<svg>` tag).
+- Vector image (tag `<svg>`).

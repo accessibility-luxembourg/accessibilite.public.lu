@@ -1,6 +1,6 @@
 ---
-title: Main functionalities (of a time-based media)
+title: Main features (of a time-based media)
 
 ---
 
-The main features are the basic functionalities of a media player: play, pause, stop, sound control.
+The main functions are the basic functions of a media player: play, pause, stop, sound control.

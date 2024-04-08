@@ -1,9 +1,9 @@
 ---
-title: “Sitemap” page
+title: Site map page
 ---
 
-Dedicated page presenting the tree structure of a website, generally in the form of lists of links organized into sections and subsections giving access to all the pages of the site.
+Dedicated page presenting the tree structure of a Website, generally in the form of lists of links organised into headings and sub-headings giving access to all the pages on the site.
 
-Note 1: Sitemap links can consist of `<a>` tags or `<area>` tags.
+Note 1 Site map links can be made up of `<a>` tags or `<area>` tags.
 
-Note 2: it is not necessary that the site map contains links to all the pages of the site, however it is necessary that from the site map, the user can reach all the pages of the site .
+Note 2: the sitemap does not have to contain links to all the pages on the site, but the user must be able to access all the pages on the site from the sitemap.

@@ -2,9 +2,9 @@
 title: Navigation system
 ---
 
-Any process allowing navigation in the site or in a page, the navigation systems used are:
+Any process enabling navigation within the site or within a page. The navigation systems used are
 
 - Main navigation menu;
-- Contents ;
-- Sitemap ;
+- Table of contents;
+- Site map;
 - Search engine.

@@ -1,3 +1,3 @@
 ---
-title: On each Web page, is each [list](#lists) structured appropriately?
+title: In each web page, is each [list](#lists) correctly structured?
 ---

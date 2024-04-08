@@ -17,10 +17,10 @@ Norm:
 
 #### Technical notes
 
-WAI-ARIA offers an `aria-hidden` attribute (`true` or `false`) which makes it possible to inhibit the rendering of content to assistive technologies, without affecting its visibility to user agents: content with `aria-hidden="true"` will therefore no longer be vocalizable, but will remain visible.
+WAI-ARIA offers an `aria-hidden` attribute (`true` or `false`) which makes it possible to inhibit the rendering of content to assistive technologies, without affecting its visibility to user agents: content with `aria-hidden="true"` will therefore no longer be vocalisable, but will remain visible.
 
-Unless the content controlled by `aria-hidden` is not intended to be rendered by assistive technologies, the value of the `aria-hidden` attribute must be consistent with the displayed or hidden state of the content to be the screen.
+Unless the content controlled by `aria-hidden` is not intended to be rendered by assistive technologies, the value of the `aria-hidden` attribute must be consistent with the displayed or hidden state of the content on the screen.
 
-The HTML5 specification offers a `hidden` attribute which makes it possible to make content in the generated DOM unavailable (when the `hidden` attribute is present) (similar to `type="hidden"` on a form control).
+The HTML5 specification includes a `hidden` attribute which can be used to make content in the generated DOM unavailable (when the `hidden` attribute is present) (similar to the `type="hidden"` on a form control).
 
-It is possible to have situations where content controlled by `hidden` or `aria-hidden` is momentarily in a state inconsistent with the displayed or hidden status of the content, for example if you wish to make an element available, but its display on the screen remains dependent on a subsequent action. In this case, it is the final state of the content that must be considered.
+It is possible to have situations where content controlled by `hidden` or `aria-hidden` is momentarily in a state inconsistent with the displayed or hidden status of the content, for example if you want to make an element available, but its display on the screen remains dependent on a subsequent action. In this case, it is the final state of the content that must be considered.

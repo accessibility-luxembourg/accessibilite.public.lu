@@ -1,7 +1,7 @@
 ---
-title: Alternative (to script)
+title: Alternative (to a script)
 ---
 
-Text or process associated with the script via an appropriate technique and making it possible to provide a function or content similar to that offered by script.
+Text or process associated with the script by means of an appropriate technique and enabling a function or content similar to that offered by the script to be made available.
 
-Note: When an alternative to a JavaScript process or functionality is offered, the means of accessing it must be provided by the site itself. It may be a link or a button allowing access to an alternative page working without JavaScript or allowing you to replace the component(s) with an alternative component working without JavaScript for example.
+Note: when an alternative to a JavaScript process or functionality is proposed, the means of accessing it must be provided by the site itself. This may be a link or a button allowing access to an alternative page operating without JavaScript or allowing the component(s) to be replaced by an alternative component operating without JavaScript, for example.

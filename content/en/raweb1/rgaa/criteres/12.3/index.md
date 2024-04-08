@@ -1,3 +1,3 @@
 ---
-title: Is the [“sitemap” page](#sitemap-page) relevant?
+title: Is the [site map page](#site-map-page) relevant?
 ---

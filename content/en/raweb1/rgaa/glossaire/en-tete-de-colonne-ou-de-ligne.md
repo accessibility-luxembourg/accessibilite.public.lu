@@ -2,6 +2,6 @@
 title: Column or row header
 ---
 
-Content of a cell in a data table (usually the first cell in a column or row) that serves as a label for all or part of the cells in the column or row. A column or row can contain several headers (intermediate header). When headers apply to an entire row or column, they can be structured with a `<th>` tag or a tag with a WAI-ARIA `role="rowheader attribute "` or `role="columnheader"`. Otherwise, only a `<th>` tag can be used.
+The content of a cell in a data table (usually the first cell in a column or row) which serves as the heading for all or some of the cells in the column or row. A column or row may contain several headers (intermediate header). When the headers apply to an entire row or column, they can be structured with a `<th>` tag or a tag with a `role="rowheader"` or `role="columnheader"` WAI-ARIA attribute. Otherwise, only a `<th>` tag can be used.
 
-Note: only the `<th>` tag is fully supported by all assistance technologies, it is strongly recommended to favor this solution during implementation in order to avoid numerous checks in the different combinations provided in the testing environment (or “baseline”).
+Note: as only the `<th>` tag is fully supported by all assistive technologies, it is strongly recommended that this solution be chosen for implementation in order to avoid numerous checks in the various combinations provided for in the test environment (or "reference base").

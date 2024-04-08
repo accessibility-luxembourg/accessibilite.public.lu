@@ -13,10 +13,10 @@ Norm:
     title: Info and Relationships
 ---
 
-#### Particular cases
+#### Special cases
 
-When the doctype declared on the page is not the HTML5 doctype, this criterion is not applicable.
+When the doctype declared in the page is not the HTML5 doctype, this criterion is not applicable.
 
 #### Technical notes
 
-The `<main>` tag can be used multiple times in the same HTML document. However, there can only be one tag at all times visible and readable by assistive technologies, the others must have a `hidden` attribute or a style allowing them to be hidden from assistive technologies. Please note, however, that the use of a style alone will remain insufficient to ensure the uniqueness of a visible `<main>` tag if style sheets are deactivated.
+The `<main>` tag can be used several times in the same HTML document. However, there can only ever be one tag that is visible and readable by assistive technologies, and the others must have a `hidden` attribute or a style that allows them to be hidden from assistive technologies. It should be noted, however, that the use of a style alone will not be sufficient to ensure the uniqueness of a `<main>` tag that is visible if the style sheets are deactivated.

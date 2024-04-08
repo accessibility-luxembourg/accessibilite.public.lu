@@ -1,3 +1,3 @@
 ---
-title: For each [time-based media](#media-temporal-type-son-video-et-synchronise) with a [synchronized caption](#subtitles-synchronises-object-multimedia) track or an [audio description](#audiodescription-synchronized-temporal-media), are the control functionalities of these alternatives presented at the same level as the [main functionalities](#main-functionalities-of-a-temporal-media)?
+title: For each [time-based media](#time-based-media-audio-video-and-synchronised) that has a [synchronised captions](#synchronised-captions-media-object) or [audio description](#synchronised-audio-description-time-based-media) track, are the control functionalities for these alternatives presented at the same level as the [main features](#main-features-of-a-time-based-media)?
 ---

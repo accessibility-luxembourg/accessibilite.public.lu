@@ -1,3 +1,3 @@
 ---
-title: On each Web page, does the information remain [understandable](#comprehensible-reading-order) when [style sheets](#style-sheet) are disabled?
+title: In each web page, does the information remain [understandable](#understandable-reading-order) when the [style sheets](#style-sheet) are deactivated?
 ---

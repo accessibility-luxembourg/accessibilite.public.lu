@@ -1,248 +1,230 @@
 ### A
 
-#### Accessibility feature
+#### Accessibility feature 
 
-Example of accessibility feature:
-- a device allowing a palette of more contrasting colors to be loaded for users;
-- a character size enlargement device;
-- a component allowing access to a simplified language version.
+Example of an accessibility feature: 
+- a device for loading a more contrasting colour palette for users;
+- a font size enlargement device; 
+- a component providing access to a simplified language version.
 
 #### Accessibility information
 
-Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) necessary to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an inline frame...
+Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) required to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an online frame, etc.
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 
-An editing tool should have features that allow you to define all the information necessary to create accessible content:
-- be able to define the alternative of an image or, on the contrary, be able to declare it decorative;
+An editing tool should have functions that enable all the information needed to create accessible content to be defined: 
+- defining the alternative of an image or, on the contrary, declaring it decorative;
 - be able to define section titles;
-- be able to define labels for form fields.
+- the ability to define form field labels.
 
-All accessibility criteria relating to the targeted content technology are affected. For example, for an HTML page, all RAWeb level A and AA criteria must be respected. For an application, all the criteria of this standard must be able to be respected.
+All accessibility criteria relating to the content technology in question are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For an application, all the criteria in this framework must be met.
 
-#### Accessible and activated by the keyboard and any pointing device
+#### Accessible and operable by keyboard and any pointing device
 
-Pointing devices in a mobile environment may be, but are not limited to:
-- touch;
-- the mouse;
-- eye tracking devices;
-- [point analysis](https://support.apple.com/fr-fr/HT201370) devices on iOS (or [point search](https://support.google.com/accessibility/android/answer/6395627?hl=fr) on Android);
-- voice control.
+Pointing devices in a mobile environment can be, but are not limited to: 
+- touch; 
+- mouse;
+- eye tracking devices; 
+- [point analysis](https://support.apple.com/fr-fr/HT201370) devices on iOS (or [point search](https://support.google.com/accessibility/android/answer/6395627?hl=fr) on Android); 
+- voice command.
 
-An interface component (link, button, form field, etc.) is accessible by any pointing device when the user:
+A user interface component (link, button, form field, etc.) can be accessed by any pointing device when the user 
 - can focus on the component, regardless of the device;
-- can trigger the action planned by the interface component by a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen for example);
+- can initiate the action provided for by the user interface component by means of a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen, for example);
 
-**Attention:** for certain interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component. On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) allow you to interact and modify the component.
+**Warning:** for certain user interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component.  On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
 
-In this reference, the expression “controllable by the keyboard and any pointing device” also relates to this definition.
+In this framework, the expression "controllable by keyboard and any pointing device" also refers to this definition.
 
-**Important note:** the use of certain technologies can make focus management too complex or too unstable to rely only on tab, arrow keys and the enter key. In this case, providing keyboard shortcuts may be the only solution to make the component usable. The criterion can only be considered compliant on the condition that the keyboard shortcuts used are correctly documented, that they are functional and that they respect [criterion 10.4](referentiel-technique.md#crit-10-4).
+**Important note:** the use of certain technologies may make focus management too complex or too unstable to rely solely on tab, arrow and enter keys. In this case, providing keyboard shortcuts may be the only way to make the component usable. The criterion can only be considered compliant if the keyboard shortcuts used are properly documented, functional and comply with [criterion 10.4](referentiel-technique.md#crit-10-4).
 
 #### Accessible to assistive technologies
 
-For information to be accessible to assistive technologies, it must be made available to them, through the software itself or through an accessibility API, the latter method being The most common.
+For information to be accessible to assistive technologies, it must be made available to them, either through the software itself or via an accessibility API, the latter method being the most widespread.
 
-This can be achieved through descriptive properties sometimes not visible on the interface but rendered by assistive technologies, or through API parameters defining for example states (selected, active, deactivated, etc.)
+This can be achieved by means of descriptive properties that may not be visible on the interface, but which are rendered by assistive technologies, or by means of API parameters that define states, for example (selected, active, deactivated, etc.)
 
 #### Accessible version
 
-Documents for download whose format types are recognized as compatible with accessibility must be made accessible either directly or through an accessible version. The document formats whose compatibility is recognized are:
+Downloadable documents whose format types are recognised as compatible with accessibility must be made accessible either directly or via an accessible version (for a downloadable document). The document formats recognised as compatible are
 - Microsoft Office (Word 2003, OOXML);
 - Open Office Org (ODF);
 - Adobe PDF;
 - ePub/Daisy.
 
-PDF documents must comply with the [reference for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
-Other types of content must comply with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN 301 549 v3.2.1.
+PDF documents must comply with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
+Other types of content must comply with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 
-**Note:** the TXT format cannot be used to produce an accessible version for a document for download.
+**Note:** TXT format cannot be used to produce an accessible version for a downloadable document.
 
-#### Adjacent clearly identifiable
+#### Adjacent colour
 
-The element is made available adjacent to the object identified by the criterion in the graphic representation and in the order of keyboard navigation. If necessary, the element can be available elsewhere in the software and be accessible with a functionality (a button for example) adjacent to the object identified in the criterion, explicit and clearly identifiable (the title of the functionality is explicit).
+Colour directly in contact with the colours of the component or graphic element, this can be the background colour or any other colour in direct contact.
 
-#### Adjacent color
+**Example:** In a "one-way" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
-Color directly in contact with the colors of the component or graphic element, this can be the background color or any other color in direct connection.
+It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of user interface components and graphic elements only assesses **non-textual** elements. As soon as the contrast of text needs to be assessed, even if it is present in a user interface component, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
-**Example:** in a “no entry” sign the red of the panel is the color adjacent to the white line in the center of the panel.
+Not all colours in a graphic element or user interface component need to be evaluated. It is essential to assess 
+- **Information-bearing colours** (not all colours are information-bearing): 
+	- For example, in an application's navigation panel, the navigation buttons have a grey background colour, but the active screen button has a green background colour. It is necessary to check that the green colour in direct junction with the grey background colour has a contrast ratio of at least 3:1.
+- **Colours used to identify the location of an element or interactive zones**, for example 
+	- The border of a form field, if this is the only means of identifying the location of the interaction, must have a colour with a contrast ratio of at least 3:1 with the adjacent colour, generally the background colour;
+	- The borders of checkboxes and radio buttons, and their status (selected or not). It is essential here to assess the contrast ratio of the border of these components with the adjacent colours (generally the background colour) but also to assess the contrast ratio of these components when they are selected. It is necessary to assess whether the visual element used to signify the selection has a sufficient contrast ratio.
+- **The colours of non-text information elements** (graphic elements):
+	- A chevron is positioned to the right of the item selected in a list of items, the contrast ratio between the colour of the chevron and the adjacent colours (generally the background colour) must be at least 3:1. 
 
-It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of interface components and graphic elements only evaluates **non-textual** elements. As soon as it comes to evaluating the contrast of a text, even if it is present in an interface component, it is [criterion 2.2](referentiel-technique.md#crit-2-2 ) which applies.
+The background colour of a form submit button, for example ("Submit"), does not have to contrast with the screen background. This is because the button is located by the text, which must already comply with the text contrast constraints ([criterion 2.2](referentiel-technique.md#crit-2-2)). The size of the button and its edges are not considered to be information that meets this criterion.
 
-Not all colors of a graphic element or interface component are to be evaluated. It is essential to assess:
-- **Colorings that carry information** (not all colorings carry information):
-- For example, in an app's navigation panel, the navigation buttons have a gray background color, but the active screen button has a green background color. It is necessary to check that the green color in direct connection with the gray background color has a contrast ratio of at least 3:1.
-- **Coloring to identify the location of an element or interactive areas**, for example:
-- The border of a form field, if this is the only way to identify the location of the interaction, must have a color that has a contrast ratio of at least 3:1 with the adjacent color, generally the background color;
-- The borders of check boxes and radio buttons, as well as their state (selected or not). It is essential here to evaluate the contrast ratio of the border of these components with adjacent colors (usually the background color) but also to evaluate the contrast ratio of these components when they are selected. It must be assessed whether the visual element used to signify the selection has a sufficient contrast ratio.
-- **The colors of non-textual elements carrying information** (graphic elements):
-- A chevron is positioned to the right of the item selected in a list of items, the contrast ratio between the color of the chevron and adjacent colors (generally the background color) must be at least 3:1.
+**Note 1:** In the case of a gradient, the adjacent colour with the least contrast in the gradient will be considered as the adjacent colour.
 
-The background color of a form submit button for example (&ldquo;&nbsp;Send&rdquo;) does not have to be contrasted with the background of the screen. Indeed, the location of the button is done by the text, which must already respect the text contrast constraints ([criterion 2.2](referentiel-technique.md#crit-2-2)). The size of the button and its edges are not considered information that meets this criterion.
+**Note 2:** In the case of several colours, all the colours are to be considered as adjacent colours.
 
-**Note 1:** in the case of the presence of a gradient, it is the adjacent color with the least contrast of the gradient which will be considered as the adjacent color.
+#### Alternative audio only version
 
-**Note 2:** in the case of the presence of several colors, all of the colors will be considered as adjacent colors.
+An "audio only" version is an audio version, in the form of a simple file in MP3 format for example, used as an alternative to a video only (video without audio information). The only users affected by accessibility are blind people, who cannot see the video.
 
-#### Alternative “audio only” version
+The "audio only" version must contain all the important visual information in the video.
 
-An “audio only” version is a sound version, in the form of a simple file in MP3 format for example, used as an alternative to a video only (video without sound information). The only users impacted by accessibility are blind people, who cannot see the video.
+Generally speaking, it is easier to produce an audio version than a text version when the video is highly descriptive (text transcription often requires a great deal of editorial work). It should be remembered, however, that only a text transcript provides universal access to the information in the video, in the event that a user is unable to launch the video, for example.
 
-The “audio only” version must contain all the important visual information of the video.
+#### Application mechanism for displaying a correct contrast ratio
 
-Generally, it is simpler to produce an audio version than a textual version when the video is very descriptive (the text transcript often requires significant editorial work). It is recalled, however, that only the text transcript ensures universal access to the information broadcast by the video, in the event that a user is not able to start the video for example.
+A user interface component provided by the application author, the activation of which modifies the appearance of the screen.
 
-#### Application mechanism that displays a compliant contrast ratio
+This could be, for example, a replacement mechanism enabling content to be displayed with a sufficient contrast ratio. The appearance of this user interface component shall comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without itself having recourse to a mechanism enabling a compliant contrast ratio to be displayed. 
 
-Interface component made available by the author of the application whose activation allows you to modify the appearance of the screen.
+Another example is a replacement mechanism to replace text graphic elements with styled text.
 
-This can, for example, be a replacement mechanism allowing content to be displayed with a sufficient contrast ratio. The appearance of this interface component must comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without itself have recourse to a mechanism allowing it to display a compliant contrast ratio.
-
-Another example is a replacement mechanism for replacing text graphics with styled text.
-
-This mechanism must keep the contents and functionalities of the application or screen that it modifies identical.
+This mechanism must preserve the content and functionality of the application or screen it modifies.
 
 ### B
 
-#### Biological characteristic
+#### Biological characteristics
 
-User identification or control methods based on usable biological characteristics may be:
-- fingerprint recognition;
-- facial recognition;
+User identification or control methods based on usable biological characteristics may include 
+- fingerprint recognition; 
+- facial recognition; 
 - voice recognition.
 
 ### C
 
 #### CAPTCHA
 
-A CAPTCHA is a test used to distinguish a human user from a computer. The test often uses graphic elements containing distorted text, mixed with other shapes or using altered color schemes, which the user is asked to retype. Other forms of CAPTCHA may be based on logic questions or sound bites.
+A CAPTCHA is a test used to distinguish a human user from a computer. The test often uses graphic elements containing distorted text, mixed with other shapes or using altered colour schemes, which the user is asked to retype. Other forms of CAPTCHA may be based on logical questions or sound bites.
 
-The W3C provides complete documentation on the accessibility of this type of test: [Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/).
+W3C provides full documentation on the accessibility of this type of test: [Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/).
 
-#### Captioned graphic element
+#### Clearly identifiable adjacent
 
-When a text, adjacent to a graphic element, contains information on the graphic element (for example a copyright, a date, an author, etc.) or is intended to supplement the information provided by the graphic element (for example a text associated with an image in an image gallery), we speak of a captioned graphic element.
-
-When a graphic element is captioned, it is necessary to associate the legend with the graphic element, so that assistive technologies can treat the graphic element and its caption as a single whole.
-
-#### Compatible with assistive technologies
-
-Content or functionality must be compatible with user assistive technologies as well as software accessibility features via an accessibility API.
-
-This concerns, at the same time, the technology, its functionalities and its uses:
-- The way the technology is used must be compatible with the users' assistive technologies. This means that the way the technology is used has been tested for interoperability with users of assistive technologies in the software content.
-- The technology runs natively on the platform and uses the platform's accessibility API.
+The element is made available adjacent to the object identified by the criterion in the graphical representation and in the keyboard navigation order. If necessary, the item may be available elsewhere in the software and be accessible with a function (a button for example) which is adjacent to the object identified in the criterion, explicit and clearly identifiable (the title of the function is explicit).
 
 #### Complex action
 
-A complex action is an action for which the downward and upward action of the pointer constitute inseparable events from the action, so that it is not possible for the user to cancel the descending action simply by moving his pointer outside the interactive area. These are, for example, drag/drop mechanisms (drag'n'drop) during which the downward action of the pointer allows you to select an item and the upward action of the pointer allows you to position the item.
+A complex action is one in which the downward and upward actions of the pointer are inseparable events in the action, so that it is not possible for the user to cancel the downward action simply by moving the pointer outside the interactive zone. This is the case, for example, with drag'n'drop mechanisms, where the downward action of the pointer selects an item and the upward action of the pointer positions the item.
 
-#### Complex data table
+#### Context change
 
-When a data table contains headers that are not distributed only on the first row and/or first column of the grid or whose scope is not valid for the entire column or row , we are talking about a complex data table. It is then necessary to provide a “summary” allowing its nature and structure to be explained in order to facilitate consultation for users of assistive technologies, for example.
-
-#### Complex gestures and simple gestures
-
-A simple gesture with a screen involves touching a single point on the screen. It can be a single press or click, a double press or double click, a long press.
-
-A complex gesture can be:
-- a gesture involving several points of contact on the screen (example: a gesture with two fingers on the screen to zoom in or out of a map);
-- a gesture based on following a trajectory on the screen (example: function allowing you to detect the movement of a finger to the left or right on a touch surface to trigger a move to the previous/next item 'a carousel).
-
-#### Component whose nature is not obvious
-
-Interactive component mixed with non-interactive elements (text for example) and which is not visually distinguishable from the non-interactive elements.
-
-#### Consistent (reading order)
-
-Comprehensible content is readable (the order of the elements is logical) and coherent (the reading sequence is coherent).
-
-#### Context switch
-
-Major changes in the content of a screen which, if made without the user's awareness, can disorient the user who cannot see the entire screen at the same time. Context switches include changes:
+Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. Context changes include changes to:
 - application;
 - user agent;
-- restitution space;
+- rendition space;
 - focus;
 - content that modifies the meaning of the screen.
 
-**Note:** a change in content is not always a change in context. A change in content such as expanding a tree, a dynamic menu, or a tab move does not necessarily change the context, unless it also changes one of the elements listed above (focus, for example). example).
+**Note:** a change in content is not always a change in context. A change in content, such as the expansion of a tree structure, a dynamic menu or moving a tab, does not necessarily change the context, unless it also changes one of the elements listed above (the focus, for example).
 
-**Example:** opening in another user agent, moving focus to a different component, or significantly rearranging screen content are all examples of a context switch.
+**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a context change.
+
+#### Compatible with assistive technologies
+
+Content or functionality must be compatible with assistive technologies and software accessibility features via an accessibility API.
+
+This concerns the technology, its functions and its uses:
+- The way the technology is used must be compatible with assistive technologies. This means that the way in which the technology is used has been tested for interoperability with users of assistive technologies in the software content.
+- The technology runs natively on the platform and uses the platform's accessibility API.
+
+#### Complex and simple gestures
+
+A simple gesture with a screen involves touching a single point on the screen. This may be a single press or click, a double press or click, or a long press. 
+
+A complex gesture can be
+- a gesture involving several points of contact on the screen (example: a gesture with two fingers on the screen to zoom in or out on a map); 
+- a gesture based on following a trajectory on the screen (e.g. a function that detects the movement of a finger to the left or right on a tactile surface to trigger switching to the previous/next item in a carousel).
+
+#### Complex data table
+
+When a data table contains headers that are not distributed solely over the first row and/or column of the grid, or whose scope does not apply to the entire column or row, it is referred to as a complex data table. It is then necessary to provide a "summary" to explain its nature and structure in order to make it easier to consult for users of assistive technologies, for example.
+
+#### Component whose nature is not obvious
+
+An interactive component mixed with non-interactive elements (text, for example) and which is not visually distinguishable from the non-interactive elements.
+
+#### Consistent (reading order)
+
+Understandable content is readable (the order of the elements is logical) and coherent (the reading sequence is consistent).
 
 #### Contrast
 
-Marked contrast between the brightness of a foreground color and a background color. The contrast ratio is based on the relative luminance difference between the background and the foreground according to the rule: (L1 + 0.05) / (L2 + 0.05) where L1 is the highest relative luminance light and L2 the darkest relative luminance. Brightness is calculated using the following formula: L = 0.2126 * R + 0.7152 * G + 0.0722 * B. Where R, G and B are defined by:
-- If RsRGB <= 0.03928 then R = RsRGB/12.92 otherwise R = ((RsRGB+0.055)/1.055) ^ 2.4;
-- If GsRGB <= 0.03928 then G = GsRGB/12.92 otherwise G = ((GsRGB+0.055)/1.055) ^ 2.4;
-- If BsRGB <= 0.03928 then B = BsRGB/12.92 otherwise B = ((BsRGB+0.055)/1.055) ^ 2.4.
+Marked contrast between the brightness of a foreground colour and a background colour. The contrast ratio is based on the difference in relative luminance between the background and the foreground according to the rule: (L1 + 0.05) / (L2 + 0.05) where L1 is the lightest relative luminance and L2 the darkest relative luminance. Luminosity is calculated using the following formula: L = 0.2126 * R + 0.7152 * G + 0.0722 * B. Where R, G and B are defined by
+- If RsRGB &lt;= 0.03928 then R = RsRGB/12.92 otherwise R = ((RsRGB+0.055)/1.055) ^ 2.4;
+- If GsRGB &lt;= 0.03928 then G = GsRGB/12.92 otherwise G = ((GsRGB+0.055)/1.055) ^ 2.4;
+- If BsRGB &lt;= 0.03928 then B = BsRGB/12.92 otherwise B = ((BsRGB+0.055)/1.055) ^ 2.4.
 
-and RsRGB, GsRGB and BsRGB are defined by:
+and RsRGB, GsRGB and BsRGB are defined by
 - RsRGB = R8bit/255;
 - GsRGB = G8bit/255;
 - BsRGB = B8bit/255.
 
-The character “^” is the power operator.
+The "^" character is the power operator.
 
-**Note:** Contrast measurement is for text, content in graphics, text and in-frame text in animations, subtitle text and embedded text in videos. The texts present in the elements of a graphic element or a video (for example a sign, a poster, etc.) are not affected.
+**Note:** the contrast measurement concerns text, content in graphic elements, text and image text in animations, subtitle text and embedded text in videos. Text in the elements of a graphic element or video (e.g. a sign, poster, etc.) is not affected.
 
-**Source:** [WCAG Contrast Calculation Procedure](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
+**Source:** [WCAG contrast calculation procedure](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
 
 #### Contrast (text size)
 
-The standard distinguishes between several text sizes to be evaluated, each size falling within a contrast threshold. These sizes are evaluated in pixels or points. The larger the text (greater than 18.5px with fat or 24px without fat) the lower the required ratio (3:1).
+The standard distinguishes between several sizes of text to be evaluated, each size having a contrast threshold. These sizes are evaluated in pixels or points. The larger the text (greater than 18.5px with fat effect or 24px without fat effect), the lower the required ratio (3:1).
 
-Given the difficulty in evaluating font sizes on mobile, all text should be considered normal size except for significantly very large text.
+Given the difficulty of assessing font sizes on mobile devices, all text should be considered at normal size except for text that is significantly very large.
 
-For example, one might consider a text &ldquo;significantly very large&rdquo; if the letters which compose it have a height and/or width at least equal to 1.5 cm.
+For example, text could be considered "significantly very large" if its constituent letters are at least 1.5 cm high and/or wide.
 
 #### Control (moving or flashing content)
 
-Ability for the user to control the display or playback of moving or flashing content using all pointing devices (touch, keyboard, mouse, etc.).
+The ability for the user to control the display or playback of moving or flashing content using any pointing device (touch, keyboard, mouse, etc.).
 
-All moving content, with the exception of time-based media supported by the [Multimedia] theme (referentiel-technique.html#topic-3), is concerned: animated graphic elements, moving content for example.
+All moving content, with the exception of time-based media supported by the [Multimedia](referentiel-technique.html#topic-3) theme, is concerned: animated graphic elements and moving content, for example.
 
-**Note 1:** When appropriate, the control method should be available as the first element of the interface.
+**Note 1:** where appropriate, the control method should be available as the first element of the interface.
 
-**Note 2:** The method of controlling moving or flashing content must allow the user to interact with the rest of the application. Consequently, stopping or pausing via an event triggered only when the focus is taken does not validate the criterion.
+**Note 2:** the control method for moving or flashing content must allow the user to interact with the rest of the application. As a result, stopping or pausing via an event triggered only when focused does not meet this criterion.
 
-**Note 3:** in some cases, the movement is an integral part of the component and it is not possible to give control to the user, for example a progress bar whose function is to indicate by a movement the progress of an event such as a download. In this case, the criterion is not applicable.
+**Note 3:** In some cases, movement is an integral part of the component and it is not possible to give the user control over it, for example a progress bar whose function is to indicate by movement the progress of an event such as a download. In this case, the criterion does not apply.
 
-#### Control (sound triggered automatically)
+#### Control (automatically triggered sound)
 
-Ability for the user to stop or restart an automatically triggered sound.
+Option for the user to stop or restart an automatically triggered sound.
 
-**Note:** The sound control method should be available as the first item on the screen.
-
-#### Control of consultation (of a time-based media)
-
-Possibility for the user to control the consultation of a time-based media by the keyboard and any pointing device, at least. The following points must be observed:
-
-List of mandatory consultation control features:
-- The multimedia object must always have the following functionalities, at a minimum: play, pause or stop;
-- If the media object has sound, it must have sound on/off functionality;
-- If the multimedia object has audio description, it must have functionality to control the activation and deactivation of audio description.
-- If the multimedia object has subtitles, it must have functionality to control the activation and deactivation of subtitles.
-
-Each functionality must be accessible by the keyboard and any pointing device (touch, screen reader, keyboard, mouse, etc.).
-
-If the player does not support including a second audio track for audio description, a link (or button) to an alternative video with audio description is a good alternative feature. The same goes for subtitles: if the video does not have subtitles that can be activated or deactivated, the presence of an alternative video with subtitles (available from a link or a button) is a satisfactory alternative.
-
-**Note:** if there is no sound on a time-based media, there is no point in putting a sound on/off feature. If this functionality is however present and it requires a textual alternative to be understood by certain users, then it must be given one since the user is likely to access it and want to activate it.
+**Note:** the sound control method should be available as the first item on the screen.
 
 ### D
 
 #### Data table
 
-Element for structuring information in rows and columns via data cells and header cells.
+Element used to structure information in rows and columns using data cells and header cells.
+
+#### (Data) table title
+
+Text linked to the table that identifies the content of a data table clearly and concisely.
 
 #### Decorative graphic element
 
-[Graphic element](#graphic-element) having no function and conveying no particular information in relation to the content with which it is associated. Examples:
-- A graphic element used to set the layout.
-- A graphic element present next to a button title just serving as a graphic feature (an icon, a formatting).
-- A graphic element providing no information necessary for understanding the text with which it is associated (a decorative image).
+[Graphic element](#graphic-element) having no function and conveying no specific information in relation to the content with which it is associated. Examples:
+- A graphic element used to adjust the page layout.
+- A graphic element next to a button label used simply as a graphic embellishment (an icon, a layout).
+- A graphic element that does not provide any information necessary for understanding the text to which it is associated (a decorative image).
 
 #### Detailed description
 
@@ -252,88 +234,83 @@ Content associated with a [graphic element](#graphic-element) in addition to its
 
 #### Editing tool
 
-Application allowing you to create or modify content intended to be distributed for other users. An editing tool can be used by one or more users working collaboratively.
+Application used to create or modify content for distribution to other users. An editing tool can be used by one or more users working together.
 
-An editing tool can be:
-- the tool as delivered by the publisher;
+An editing tool can be
+- the tool as delivered by the editor;
 - the tool augmented with extensions not developed by the publisher;
 - a set of tools.
 
-Examples of editing tools:
-- application allowing you to edit and control the content of websites or applications, for example, CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
+Examples of editing tools
+- an application for editing and controlling the content of a Website or application, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
 - multimedia editing tools;
-- application allowing the creation of web applications;
-- application allowing code editing;
-- application allowing you to export to a web technology format (for example, software that allows you to save in HTML);
-- application which generates content based on templates, scripts, command line etc.;
-- application allowing you to edit portions of web pages or applications (typically, blog systems, wikis and forums);
-- email application allowing you to send e-mails.
+- applications for creating web applications;
+- application for editing code;
+- application for exporting in web technology format (for example, software for saving in HTML);
+- applications that generate content using templates, scripts, command lines, etc.;
+- an application for editing portions of web pages or applications (typically, blog systems, wikis and forums);
+- mail application for sending e-mails.
 
-Examples of editing tools that are not included in scope:
-- An application whose created content is not made available to other users (note-taking application without sharing functionality for example). In this case, the edited content is only available to the owner and is not made available to other users.
-- Forms for users. For example, an order form for an e-commerce application. Although the forms allow content to be edited, this content is not made available to other users.
+Examples of editing tools that are not included in the scope
+- An application where the content created is not made available to other users (note-taking application with no sharing functionality, for example). In this case, the edited content is only available to the owner and is not made available to other users.
+- Forms intended for users. For example, an order form for an e-commerce application. Although forms allow content to be edited, this content is not made available to other users.
 - Independent accessibility control tools: these tools do not modify the content they control.
 
-#### Essential features of subtitles
+### F
 
-It is possible to apply presentation effects to subtitles (text color, style, font) in order to convey information to users (for example identify the person speaking). These characteristics are essential for the understanding of subtitles by users and should be preserved during the transformation processes (sending or recording the video for example) if they are present.
+#### Fields of same kind
 
-### F 
+In a form, all the fields that can be grouped together by the nature of the information required. The purpose of grouping is to identify fields that should be treated as a whole.
 
-#### Fields of the same nature
-
-In a form, set of fields that can be grouped by the nature of the expected information. Grouping aims to identify fields that should be treated as a set.
-
-Some examples:
-- Three successive fields to enter a date (day/month/year);
+Here are some examples:
+- Three successive fields for entering a date (day/month/year);
 - Successive fields for a telephone number;
-- A block intended to enter the identity and address of the user, when the form contains several contact blocks;
-- A set of radio buttons or checkboxes that relate to a question.
+- A block for entering the user's identity and address, when the form contains several contact blocks;
+- A set of radio buttons or tick boxes relating to a question.
 
-These fields should be grouped when the field labels are not sufficient to inform the user that the fields are part of a grouping.
+These fields must be grouped together when the field labels are not sufficient to inform the user that the fields are part of a group.
 
-When the form is made up of a single block of information of the same nature (the identity and address of the user, for example) or a single field (a search engine, for example), the grouping fields are not required.
+When the form consists of a single block of information of the same kind (the user's identity and address, for example) or a single field (a search engine, for example), the grouping of fields is not mandatory.
 
-#### Focus
-
-Focus is the state returned by an element that receives attention following a user action. There are several ways to give focus to an element:
-- by activating the element by a pointing device (by touch on the screen);
-- by reaching the element using a key on an external keyboard (tab, direction arrow);
-- by reaching the element using an external switch (switch, joystick).
-
-Focusing on a mobile environment must be assessed with the assistive technologies and appropriate settings activated. Indeed, the simple fact of connecting an external contactor (keyboard, switch for example) is not sufficient for keyboard management to be fully functional. Therefore, the visibility of the focus should only be evaluated when these elements are activated and configured. The [**Methodology**](methodology.md) page describes the procedures necessary for [configuring an external keyboard](methodology.md#external-keyboard).
-
-#### For presentation purposes only
-
-Use of interface elements for a purpose different from that provided for in the specifications. For example, a misuse in an application could be the use of an interactive element (button for example) as simple text.
-
-### G 
+### G
 
 #### Graphic element
 
-An element using a visual representation such as images, pictograms or graphics.
+Element using a visual representation such as images, pictograms or graphics.
 
-This element may be composed of one or more parts whose visibility is necessary for its understanding (for example each point on each line of a statistics graph).
+This element may be made up of one or more parts which need to be visible in order to be understood (for example, each point on each line of a statistics graph).
 
-The role &ldquo;Image&nbsp;&rdquo; is not reproduced uniformly across all environments.
-- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application, the screen reader will render the description if it is defined but will not announce "image" ;&raquo;. On the other hand, for images integrated into [web views](glossaire.md#web-views), the screen reader renders “Graphical elements”.
-- VoiceOver (iOS): whether in a native application or in a web view, VoiceOver renders &ldquo;Image&nbsp;&rdquo; for the images it can access.
+The "Image" role is not rendered uniformly in all environments.
+- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application; the screen reader will render the description if it is defined but will not announce "image". However, for images embedded in [web views](glossairemd#web-views), the screen reader will display "Graphic elements".
+- VoiceOver (iOS): whether in a native application or in a web view, VoiceOver renders "Image" for images it can access.
 
-Generally speaking, depending on the development method, it is also possible that the role is not rendered on TalkBack or VoiceOver. From then on, it is observation alone which will make it possible to determine the nature of the element.
+Generally speaking, depending on the development method, it is also possible that the role is not rendered on either TalkBack or VoiceOver. In this case, observation alone will determine the nature of the element.
 
-It is not essential that the &ldquo;Image&rdquo; is returned in the majority of cases. except in particular cases where identification of the role is essential, the absence of a role returned cannot constitute non-compliance.
+In most cases, it is not essential for the "Image" role to be rendered. Except in special cases where identification of the role is essential, the absence of a restored role cannot constitute non-compliance.
 
-#### Graphic element carrying information
+#### Graphic element providing information
 
-[Graphical element](#graphic-element) which conveys information necessary for understanding the content with which it is associated.
+A [graphic element](#graphic-element) that conveys information needed to understand the content with which it is associated.
+
+#### Graphic element with legend
+
+When a text adjacent to a graphic element contains information about the graphic element (e.g. copyright, date, author, etc.) or is intended to supplement the information provided by the graphic element (e.g. a text associated with an image in an image gallery), it is referred to as a captioned graphic element.
+
+When a graphic element is captioned, it is necessary to associate the legend with the graphic element, so that assistive technologies can treat the graphic element and its legend as a single whole.
+
+#### Text graphic element
+
+[Graphic element](#graphic-element) displaying text.
+
+The use of graphic elements containing text is not recommended. Where it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referentiel-technique.html#crit-1-8) requires that the text be reproduced in this format or that a replacement mechanism allows the user to replace these graphic elements with styled text.
 
 ### H
 
-#### Helpdesk
+#### Help desk
 
-A help desk can be:
-- help desk,
-- a call center,
+A help desk can be a 
+- help desk, 
+- a call centre, 
 - technical support,
 - a [relay service](#relay-service),
 - a training service.
@@ -342,48 +319,48 @@ A help desk can be:
 
 #### Ignored by assistive technologies
 
-The restitution of elements such as decorative graphic elements which do not provide relevant information can create complex consultation conditions by overloading the restitution by assistive technologies with unnecessary information.
+Rendering elements such as decorative graphic elements that do not provide relevant information can create complex consultation conditions by overloading the rendering by assistive technologies with useless information.
 
-It is therefore important to be able to prevent the restitution of these elements. Most accessibility APIs have properties or methods to prevent this type of element from being rendered.
+It is therefore important to be able to prevent these elements from being rendered. Most accessibility APIs have properties or methods for preventing this type of element from being rendered.
 
-#### Indication given by shape, size or position
+#### Information (provided by colour)
 
-This could be, for example:
-- the presence of a visual marker, to indicate the active screen in a navigation menu (indication given by the position);
-- a foreground to indicate an active tab (indication given by the shape);
-- a modification of the font size in a tag cloud (indication given by the size).
+Information transmitted visually by means of a colour. The indication that fields in red are mandatory in a form, the active button in a list of buttons, the change of colour of an item name to indicate its unavailability in a list of items are all examples of information given by colour.
+
+Indication by colour alone must be accompanied by another method for users who do not see or perceive colours or their associations well.
+
+The indication given by colour must be provided 
+- by means of formatting for users with poor colour perception;
+- and by descriptive (non-visible) information present on the element so that screen readers can render the information to users who cannot see.
+
+#### Indication conveyed by shape, size or location
+
+This may be, for example
+- the presence of a visual marker, to indicate the active screen in a navigation menu (indication given by position);
+- a foreground to indicate an active tab (indicated by the shape);
+- changing the font size in a tag cloud (indicated by the size).
 - Or any other similar graphic effect.
 
-#### Information given by color
+#### Input control (form) 
 
-Information transmitted visually through color. The indication that the fields in red are mandatory in a form, the active button in a list of buttons, the change of color of an article name to indicate its unavailability in a list of articles are all examples of indication given by color.
-
-The indication given solely by color must be accompanied by another method intended for users who do not see and perceive colors or their associations poorly.
-
-The indication given by the color must be provided:
-- by formatting for users who have difficulty perceiving colors;
-- and by descriptive information (not visible) present on the element so that screen readers render the information to users who cannot see.
-
-#### Input control (form)
-
-Set of processes that allow the user to be notified:
-- obligatory fields,
-- indications of expected type or format,
-- entry errors in a form.
+All the processes used to inform the user 
+- mandatory fields 
+- expected type or format indications, 
+- input errors in a form. 
 
 #### Input unit
 
-For character-by-character input, the smallest text entry unit is the character.
+For character-by-character input, the smallest text input unit is the character.
 
-For a system that has word prediction functionality, the smallest input unit is the word.
+For a system with word prediction functionality, the smallest input unit is the word. 
 
-For some voice recognition systems, text is not transcribed until an entire word or sentence has been spoken. In this case, the smallest input unit is the word or phrase.
+For some speech recognition systems, the text is not retranscribed until an entire word or phrase has been spoken. In this case, the smallest input unit is the word or phrase.
 
-#### Interface component
+### K
 
-An interface component is an element with which the user can interact, for example a button, a link, an input box. Some components can be more complex such as a menu, a dialog window, a tab system. Finally, an interface component can be based on native elements of the platform language or developed from scratch.
+#### Key features of captions
 
-### K 
+It is possible to apply presentation effects to subtitles (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
 
 #### Key repeat
 
@@ -391,248 +368,275 @@ Functionality which consists of printing (on the screen, in an input zone for ex
 
 #### Keyboard shortcut
 
-A way to trigger an action associated with a user interface component by pressing one or more keys on a keyboard.
+A means of triggering an action associated with a user interface component by pressing one or more keys on a keyboard.
 
 #### Keyboard trap
 
-We speak of a keyboard trap when a user who navigates by keyboard, from a position on the screen (for example a form field, a button, a complex component), cannot reach the next or previous component.
+A keyboard trap occurs when a user navigating with the keyboard from a position on the screen (e.g. a form field, a button, a complex component) cannot reach the next or previous component.
 
-There are particular cases where it is necessary to capture keyboard focus and prevent the user from reaching items following or preceding the item currently being viewed. For example, in a modal window it is imperative that the user navigating with the keyboard cannot reach components outside the modal window as long as the latter is active.
+There are special cases where it is necessary to capture the keyboard focus and prevent the user from reaching the elements following or preceding the element currently being viewed. For example, in a modal window it is imperative that the user navigating with the keyboard cannot reach components outside the modal window as long as the latter is active.
+
+### L
+
+#### Located next to each other (label and field located next to each other)
+
+ The label and its field must be visually close, so that the relationship between the two cannot lead to confusion.
 
 ### N
 
 #### Name, role, value, settings and status changes
 
-A component must have an appropriate role and name, its values, states and any parameters must also be accessible and correctly passed to the accessibility APIs.
+A component must have an appropriate role and name, and any values, states and parameters must also be accessible and correctly passed on to the accessibility APIs.
 
-The name can be the title of the component such as the title of a button for example.
+The name can be the title of the component, such as the title of a button, for example.
 
-The value is, for example, the selected item in a drop-down list or the current value of a slider.
+The value is, for example, the selected item in a drop-down list or the current value of a cursor.
 
-The role corresponds to the type of element defined in the specification of the technology used. The role (button, link, input field for example) is generally rendered by assistive technologies.
+The role corresponds to the type of element defined in the specification of the technology used. The role (button, link, input field, for example) is generally rendered by assistive technologies.
 
-The setting corresponds to the specific information of a component. For example a parameter which transmits to the APIs the information that the component controls this or that content.
+Parameters correspond to specific information about a component. For example, a parameter that transmits to the APIs the information that the component controls such and such content.
 
-State changes must also be made available. For example, using a property to signal to APIs that the component is “open” or “closed”. Note: a state can also be transmitted via the name, when the title is changed dynamically to correspond to the state of the controlled zone in particular.
+Changes of state must also be made available. For example, using a property to tell the APIs that the component is "open" or "closed". Note: a state can also be transmitted via the name, when the title is dynamically changed to correspond to the state of the controlled zone in particular.
 
-These parameters are not required, but may be required if they are essential to make the component accessible. It is up to the auditor to consider the cases where these parameters are essential depending on the context linked to the use of the component.
+These parameters are not mandatory, but may be required if they are essential for making the component accessible. It is up to the auditor to consider the cases where these parameters are essential, depending on the context in which the component is used.
 
-The auditor should also verify that, where present, these parameters are used correctly.
+The auditor must also check that, where they are present, these parameters are used correctly.
+
+#### Native platform controls
+
+Platforms have native controls, for example a native color picker for colour selection, a calendar or a specific field containing the format control for date selection, etc. Form fields that expect particular formats (such as a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
 
 ### O
 
+#### Only for layout purposes
+
+Use of interface elements for a purpose other than that stated in the specifications. For example, a misuse in an application could be the use of an interactive element (button for example) as plain text.
+
 ##### Other replacement mechanisms not provided by the platforms
 
-When the platform does not offer a replacement mechanism for certain parameters, the application can offer one from its interface.
+If the platform does not provide a replacement mechanism for certain parameters, the application can provide one from its interface.
 
 ### P
 
-#### Personal data of the user
+#### Personal user data
 
-Personal data concerning the user in a form can be:
-- the name;
-- the first name;
-- the password;
-- the email address;
-- the postal address;
-- the postal code;
-- telephone number;
-- credit card codes;
-- the birthday date;
-- the URL of a web page presenting the user or the organization that the person represents.
+Personal data concerning the user in a form can be 
+- surname; 
+- first name;
+- password;
+- e-mail address;
+- postal address;
+- postcode; 
+- telephone number; 
+- credit card codes; 
+- birthday; 
+- the URL of a web page presenting the user or the organisation that the person represents.
 
-#### Platform native controls
+#### Primary control (of a time-based media)
 
-The platforms have native controls, for example a native color picker for color selection, a specific calendar or field containing format control for date selection, etc. Form fields that expect specific formats (like a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
-
-#### Primary control (of time-based media)
-
-Primary control features are the basic functionalities of a media player: play, pause, stop, sound control.
+Primary control functions are the basic functions of a media player: play, pause, stop, sound control.
 
 ### Q
 
 #### QVGA
 
-QVGA resolution (Quarter Video Graphics Array) is a display standard which corresponds to a size of 320 pixels X 240 pixels (or 76,800 pixels).
+QVGA (Quarter Video Graphics Array) resolution is a display standard that corresponds to a size of 320 pixels X 240 pixels (i.e. 76,800 pixels).
 
 ### R
 
+#### Real-time text communication (RTT)
+
+Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the enter key).
+
+Example of real-time text communication integrated into a platform: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033)
+
 #### Refresh process
 
-Technique aimed at modifying the content of one or more screen elements. The user must be able to control each cooling process independently.
+A technique for modifying the content of one or more screen elements. The user must be able to control each refresh process independently.
 
 #### Relay service
 
-Relay services allow users, regardless of their mode of communication (text, signs, speech) to interact remotely in real-time communication with other participants, providing conversion between modes of communication.
+Relay services allow users, whatever their mode of communication (text, sign, speech) to interact remotely during real-time communication with other participants, by providing conversion between modes of communication. 
 
-For example, there are relays allowing a user who communicates with sign language to communicate with an interlocutor who does not practice it, through a service which provides a live interpreting service.
+For example, there are relays that enable a user who communicates using sign language to communicate with someone who does not, via a service that provides live interpreting.
 
 #### Replacement mechanism
 
-An override mechanism is a device that allows the user to access a version of the application with certain (usually display) settings changed (for example, font and background colors).
+A replacement mechanism is a device that allows the user to access a version of the application with certain parameters (usually display parameters) modified (for example, font and background colours).
 
-This mechanism can be provided by the platform itself or by the application. When the platform has a robust replacement mechanism, authors should favor its use over an application-specific replacement mechanism.
+This mechanism may be provided by the platform itself or by the application. Where the platform has a robust replacement mechanism, authors should use it instead of an application-specific replacement mechanism.
 
-The platforms offer users several replacement mechanisms. The activation of these replacement mechanisms is detectable by applications which can in return serve particular information and presentations.
+Platforms offer users several replacement mechanisms. The activation of these replacement mechanisms is detectable by the applications, which can in turn serve specific information and presentations.
 
 ##### Replacement mechanisms available in iOS
 
-- **Increase contrast**: The option is available from the path: *Settings > Accessibility > Display and text size > Increase contrast*. When activated, this option allows you to load different styles that would have been defined by the author for this specific option in order to offer a more contrasting version to users who need it. In addition, this option allows you to increase the contrast of native iOS components such as the switch buttons.
-- **Differentiate without color**: The option is available from the path: *Settings > Accessibility > Display and text size > Differentiate without color*. When enabled, this option allows you to load additional visual information other than color (for example, shape or size) that would have been defined by the author for this specific option in order to highlight a graphic element whose placement in color carries information (an active button for example).
+- **Increase contrast**: The option is available from the path: *Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*. When enabled, this option allows different styles to be loaded that have been defined by the author for this specific option in order to offer a higher contrast version to users who need it. In addition, this option increases the contrast of native iOS components such as switch buttons.
+- **Differentiate without colour**: This option is available via the path: *Settings &gt; Accessibility &gt; Text display and size &gt; Differentiate without colour*. When enabled, this option allows you to load additional visual information other than colour (for example, shape or size) that has been defined by the author for this specific option, in order to highlight a graphic element whose colouring carries information (an active button, for example).
 
 ##### Replacement mechanisms available on Android
 
-There is no replacement mechanism in Android that is equivalent to those in iOS, or that is sufficiently robust.
+There are no replacement mechanisms in Android that are equivalent to those in iOS, or that are sufficiently robust.
 
-The replacement mechanism available on Android (“**High contrast text**”) is still experimental. Its use is not currently recommended.
+The replacement mechanism available on Android ("**Text with high contrast**") is still experimental. Its use is not currently recommended.
 
 ### S
 
-#### Side by side (label and field side by side)
-
- The label and its field must be visually close, so that the relationship between the two cannot cause confusion.
-
 #### Status message
 
-A status message informs the user of a change in content on the screen without interrupting their main activity (there is no change of context such as a repositioning of focus on the message).
+A status message informs the user of a change in content on the screen without interrupting their main activity (there is no context change, such as repositioning the focus on the message).
 
-A status message can inform about:
+A status message can inform about
 - The success or result of an action;
 - The busy state of an application;
-- The progress status of a process;
-- The existence of error.
+- The progress of a process;
+- The existence of an error.
 
-A status message is not necessarily visible on screen, but it should still be accessible to assistive technologies.
+A status message is not necessarily visible on the screen, but it must always be accessible to assistive technologies.
 
-#### Stylish text
+#### Styled text
 
 Text whose appearance is controlled by the platform's formatting technology (such as CSS for HTML pages).
 
+#### Sudden change in brightness or flashing effect
+
+Alternation of relative brightness that can cause seizures in some people, if they are large enough in a specific frequency range.
+
 #### Summary (of table)
 
-A summary is a passage of text associated with a complex data table. It provides information on the nature and structure of the table in order to facilitate its use by users of assistive technologies, for example.
+A summary (of table) is a passage of text associated with a complex data table. It provides information about the nature and structure of the table to make it easier to use for users of assistive technologies, for example.
 
-**Note:** if the users mainly impacted are people who use screen readers, other users may also benefit from these indications, such as for example certain people with visual or intellectual disabilities. In this case the summary, if hidden by default, would be made visible via a button for example.
+**Note:** although the main users affected are those using screen readers, other users may also benefit from this information, such as certain people with visual or intellectual impairments. In this case, the summary, although hidden by default, should be made visible by means of a button, for example.
 
-#### Sudden change in brightness or flash effect
+#### Synchronised audio description (time-based media)
 
-Alternation of relative brightness that can cause seizures in some people, if their size is large enough in a specific frequency range.
+Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by an application device linked to the media player.
 
-#### Synchronized audio description (time-based media)
+**Note 1:** The audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
-Narration added (via a sound file) to a sound track to describe important visual details that cannot be understood from the main sound track alone. The audio description must be synchronized with the time-based media by an application device linked to the media player.
-
-**Note 1:** Audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
-
-**Note 2:** In standard audio description, narration is added during pauses that exist in the dialogue. (See also extended audio description.)
+**Note 2:** in standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
 
 **Note 3:** when all the information in the video is already given in the audio track, no additional audio description is required.
 
-#### Synchronized subtitles (media object)
+#### Synchronised captions (media object)
 
-Text of audio information (words of a character, important noise to understand the action, etc.) present in a time-based media and displayed synchronously with the flow of the multimedia object.
+Text of audio information (a character's words, noise important for understanding the action, etc.) present in a time-based medium and displayed synchronously with the flow of the multimedia object.
 
-**Note 1:** to differentiate sound sources (different characters, voice-overs, etc.), it is recommended to use an appropriate mechanism (putting in brackets, italics, explicit announcement of the type "voice-over") ;: &hellip;&nbsp;&raquo;).
+**Note 1:** To differentiate between sound sources (different characters, voice-over, etc.), it is recommended that an appropriate mechanism be used (bracketing, italics, explicit announcement such as "voice-over: ...").
 
-**Note 2:** Subtitling for translation and subtitling for the deaf and hard of hearing should not be confused. These two types of subtitling pursue different goals. Only the presence and relevance of subtitling for the deaf and hard of hearing allows compliance.
+**Note 2:** Subtitling for translation should not be confused with subtitling for the deaf and hard of hearing. These two types of subtitling serve different purposes. Only the presence and relevance of subtitling for the deaf and hard of hearing will ensure compliance.
 
 ### T
 
 #### Tab order
 
-Order in which keyboard focus moves (to a next element or to a previous element).
+The order in which the keyboard focus moves (to the next element or to the previous element). 
 
-**Attention:** when an element initiates a change in the screen (change of context, management of hidden areas, addition of content, management of form fields, etc.) it is necessary to activate the element which initiates change to test the consistency of the tab order.
+**Warning:** when an element initiates a change in the screen (context change, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the tab order.
 
 #### Template
 
-A template is a document format that has predefined parameters. It is used to insert content edited by the author. A template has presentation parameters, usage parameters or even technical parameters that are not perceptible.
+A template is a document format with predefined parameters. It is used to insert content edited by the author. A template has presentation, usage and technical parameters that are not visible.
 
-A template can concern an entire page or an entire screen (home page template, etc.) or specific types of content (forms, videos, etc.)
+A template may concern an entire page or screen (home page template, etc.) or specific types of content (forms, videos, etc.)
 
-A set of templates is a group of templates that allow different formatting of the same element. For example:
-- templates for the application home screen;
+A set of templates is a group of templates that allow different formatting of the same element. For example
+- templates for the application's home screen;
 - templates for screens containing interactive elements;
 - templates for creating a PDF.
 
 #### Test graphic element
 
-[Graphical element](#graphic-element) used in a test, a CAPTCHA or a graphic element used as a test in a quiz or a game. Example: a series of graphic elements presents a detail from famous paintings, it is necessary recognize the title and painter of each painting. In this situation, it is not possible to give a relevant alternative (for example the name of the painting and/or the painter) without rendering the test unusable. The alternative must then be content to give the possibility of identifying the graphic element, for example “image 1 of the test”.
+[Graphic element](#graphic-element) used in a test, a CAPTCHA or a graphic element used as a test in a quiz or game. Example: a series of graphic elements presents a detail from a famous painting. You need to recognise the title and painter of each painting. In this situation, it is not possible to give a relevant alternative (for example the name of the painting and/or the painter) without rendering the test unusable. In this case, the alternative must simply give the possibility of identifying the graphic element, for example "test image 1".
 
-#### Text graphic element
+#### Time-based media (audio, video and synchronised)
 
-[Graphical element](#graphic-element) displaying text.
+- Time-based media only audio: sound content (wave, MP3...).
+- Time-based media only video: moving or sequential images or photos.
+- Synchronised time-based media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
+	- as a downloadable file that can be viewed with external software;
+	- content embedded in the software and viewable from the interface.
 
-It is not recommended to use graphic elements containing text. When it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referentiel-technique.html#crit-1-8) requires that the text be reproduced in this format or that A replacement mechanism allows the user to replace these graphic elements with stylish text.
+Time-based media can be broadcast in real time or played back asynchronously (pre-recorded media).
 
-#### Text transcription (time-based media)
+#### Time stamp
 
-Text content associated with time-based media using the appropriate technique (text present in the interface or in a text file located on the same screen or viewable using a button). This content gives the user access (independently from viewing the multimedia object) to:
-- The totality of what is expressed orally.
-- All descriptive information necessary for an equivalent understanding of the action.
-
-This textual information must be presented in the chronological order of its appearance in the time-based media.
-
-#### Time-based media (sound, video and synchronized type)
-
-- Temporal audio-only media: sound content (wave, MP3…).
-- Time-based media only video: images or photos in motion or in sequence.
-- Synchronized time-based media: audio or video stream synchronized with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
-- downloadable file viewable with external software;
-- content embedded in the software and viewable from the interface.
-
-Time-based media can be broadcast in real time or offered for playback asynchronously (pre-recorded media).
-
-#### Timestamp (time stamp)
-
-The timestamp of a video (time stamp) is the time value declared in the subtitle file.
+The video time stamp is the time value declared in the subtitle file.
 
 ```
 1
-00:00:03,000 --> 00:00:06,999
-The subtitle should appear when the video reaches 3 seconds.
+00:00:03,000 --&gt; 00:00:06,999
+The title should appear when the video reaches 3 seconds.
 ````
-
-#### Title of a (data) table
-
-Table-related text that identifies the contents of a data table in a clear and concise manner.
 
 #### Toggle control
 
-A toggle control is a control that can have 2 or 3 states, and therefore the user-defined state is persistent until the next state. This could be a screen lock control (the screen is either on or off), a control to enable or disable notifications for an application.
+A toggle control is a control that can have 2 or 3 states, so the user-defined state is persisted to the next state. It can be a screen lock control (the screen is either on or off), or a control for enabling or disabling application notifications.
 
-Examples of toggle controls:
-- a check box,
-- a radio button,
-- a button that can have an activated or deactivated state.
+Examples of toggle controls 
+- a checkbox 
+- a radio button, 
+- a button that can have an enabled or disabled state.
+
+#### Transcript (time-based media)
+
+Textual content associated with time-based media using the appropriate technique (text present in the interface or in a text file located on the same screen or available via a button). This content gives the user access (independently of viewing the multimedia object) to
+- Everything that is said orally.
+- All the descriptive information needed for an equivalent understanding of the action.
+
+This textual information must be presented in the chronological order in which it appears in the time-based media.
 
 #### Transformation
 
-Process managed automatically by the tool. There are two types of transformation:
-- content restructuring: transformation during which the input technology (e.g. HTML, XML, etc.) is not modified in the output, the restructuring only modifies elements of the markup. For example: table linearization, cutting a document into several pages.
-- content recoding: transformation during which the input technology is modified in the output (e.g. HTML to XHTML, HTML to PDF). This concerns in particular the editing zones which use a syntax different from that which will be used for public display.
+Process managed automatically by the tool. There are two types of transformation: 
+- content restructuring: transformation during which the input technology (e.g. HTML, XML...) is not modified at the output, the restructuring only modifies elements of the markup. For example: linearising a table, dividing a document into several pages.
+- content recoding: transformation during which the input technology is modified at the output (e.g. HTML to XHTML, HTML to PDF). This applies in particular to editing zones that use a different syntax to that which will be used for public display.
 
-#### Two-way oral communication application
+#### Two-way voice communication application
 
-Two-way oral communication applications are applications that allow 2 or more people to speak simultaneously. An example of this are videoconferencing applications that allow people to talk at the same time.
+Two-way voice communication applications are applications that allow 2 or more people to speak simultaneously. Videoconferencing applications, which allow people to speak at the same time, are an example.
+
+### U
+
+#### User interface component
+
+A user interface component is an element with which the user can interact, for example a button, a link or an input zone. Some components can be more complex, such as a menu, a dialogue window or a system of tabs. Finally, a user interface component can be based on elements native to the platform language or developed from scratch.
 
 ### V
 
-#### Voice features
+#### Viewing control (time-based media)
 
-In an oral communication system (telephony for example), functionalities can be made available, for example:
-- a voicemail (answering machine);
-- an automatic telephone switchboard which requires you to say a number between 1 and 4 to be redirected to a service,
+Possibility for the user to control the viewing of time-based media using the keyboard and any pointing device, at least. The following points must be respected:
+
+List of mandatory functionalities for controlling consultation
+- The multimedia object must always have at least the following functions: play, pause or stop;
+- If the multimedia object has sound, it must have a sound on/off function;
+- If the multimedia object has audio description, it must have a function for controlling the activation and deactivation of audio description. 
+- If the multimedia object has subtitles, it must have functionality for controlling the activation and deactivation of subtitles.
+
+Each function must be accessible via the keyboard and any pointing device (touch, screen reader, keyboard, mouse, etc.).
+
+If the player does not allow a second audio track to be included for audio description, a link (or button) to an alternative video with audio description is a satisfactory alternative feature. The same applies to subtitles: if the video does not have subtitles that can be activated and deactivated, the presence of an alternative video with subtitles (available via a link or a button) is a satisfactory alternative.
+
+**Note:** If there is no sound in a time-based media, there is no point in adding a sound activation/deactivation feature. However, if this functionality is present and requires a text alternative to be understood by certain users, then it should be given one since the user is likely to access it and want to activate it.
+
+#### Voice-based services
+
+In an oral communication system (e.g. telephony), functionalities may be provided, for example:
+- a voice mailbox (answering machine); 
+- an automatic switchboard that requires you to say a number between 1 and 4 to be redirected to a service,
 - or any other interactive voice server.
 
 ### W
 
 #### Web views
 
-We also speak of web view. These are web pages (created in HTML and CSS) embedded in a mobile application. Web views can be entire application screens or only parts of screens (for example, advertising inserts).
+These are web pages (created in HTML and CSS) embedded in a mobile application. Web views can be entire application screens or just parts of screens (for example, advertising inserts).
 
-#### Written communication in real time
+#### When focused 
 
-Real-time written communication (Real-time text, RTT) is a mode of written communication that allows interlocutors to read the text being written by the sender, without waiting for the 'valid sender (for example with the enter key).
+When focused, this is the state returned by an element which receives attention following a user action. There are several ways of bringing an element into focus:
+- by activating the element using a pointing device (by touching the screen);
+- by reaching the element using a key on an external keyboard (tab, direction arrow);
+- by reaching the element using an external switch (switch, joystick).
 
-Example of real-time written communication integrated into a platform: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033)
+When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#external-keyboard). 

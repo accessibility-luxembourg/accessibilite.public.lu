@@ -1,124 +1,124 @@
-Unlike web content for which it is possible to inspect the source code to determine the presence of elements or attributes, it is difficult to do the same for documents in PDF format.
-Indeed, the inspection of the code of a document in PDF format can only be done using the software <span lang="en">Acrobat Pro</span> which is a paid proprietary software whose use requires a training.
+Unlike web content, where it is possible to inspect the source code to determine the presence of elements or attributes, it is difficult to do the same for documents in PDF format.
+Inspecting the code of a document in PDF format can only be done using <span lang="en">Acrobat Pro</span>, which is a proprietary software package that requires training. 
 
-This is the reason why the chosen approach is to test the presence of certain elements through a dedicated tool (PAC 2021) or directly on the interface itself by means of voice reproduction tests via of a screen reader.
+This is why the chosen approach is to test the presence of certain elements using a dedicated tool (PAC 2021) or directly on the interface itself by means of voice output tests using a screen reader.
 
-For example, when the interface contains a graphic element carrying information, the criterion requires verifying that an alternative is available and relevant without giving more details on the techniques to be used to provide an alternative to a graphic element. To help with the evaluation, each criterion has a practical methodology (**which is not normative**) outlining a possible method of evaluating the criterion.
+For example, when the interface contains an graphic element conveying information, the criterion requires verification that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is not prescriptive**) setting out a possible method of assessing the criterion.
 
-### Example Resources
+### Example resources
 
-[Examples (zip file, 9.24 MB)](../files/ressources-rapdf1.zip) are available to illustrate the testing methodology. Each criterion is illustrated in particular by a screenshot from the PAC 2021 tool.
+[Examples (zip file, 9.24 MB)(../files/resources-rapdf1.zip) are available to illustrate the test methodology. Each criterion is illustrated by a screen shot taken from the PAC 2021 tool.
 
 
 ### Assessment tools
 
-To evaluate the benchmark criteria, the tests are carried out using the dedicated PAC 2021 tool or directly in the <span lang="en">Acrobat Reader</span> interface with the exception of the complementary theme «10 - Interactive form» which requires the use of the NVDA screen reader.
+To assess the criteria in the framework, the tests are carried out using the dedicated PAC 2021 tool or directly in the<span lang="en">Acrobat Reader</span> interface, with the exception of the complementary theme "10 - Interactive form", which requires the use of the NVDA screen reader.
 
 The sections below describe the essential elements you need to know to install these tools.
 
-#### CAP 2021
-Installation procedure :
+#### PAC 2021
+Installation procedure
 
-1. Download [PAC 2021 - The free PDF verifier](https://pdfua.foundation/fr/pac-2021-le-verifier-pdf-gratuit/).
-2. The download consists of an archive in ZIP format that must be unarchived. Right-click and choose “Extract All”.
-3. Then click on “PAC.exe” to launch the tool.
+1. Download [PAC 2021 - The free PDF checker](https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/).
+2. The download consists of a ZIP archive that needs to be unarchived. Right-click and choose "Extract all".
+3. Then click on "PAC.exe" to launch the tool.
 
-The handling of the tool to perform the tests is described in detail in the testing methodology associated with each criterion in the repository.
+How to use the tool to perform the tests is described in detail in the test methodology associated with each criterion in the framework.
 
 #### NVDA
 
-The NVDA reader is essential for testing PDF forms. However, its use is reduced to just the tab key and none of the advanced features are necessary.
+The NVDA reader is essential for testing PDF forms. However, it can only be used with the tab key, and none of the advanced functions are required.
 
-The procedure below gives additional details to ensure complete and sufficiently clear restitution, in particular for the choice of voice synthesis and restitution settings.
+The procedure below provides additional details to ensure that the output is complete and sufficiently clear, including the choice of speech synthesis and output settings.
 
-##### Facility
+##### Installation
 
-**Note**: the [NVDA French-speaking site](https://www.nvda-fr.org/)
+**Note**: the [NVDA website](https://www.nvda-fr.org/)
 always offers the latest stable version for download.
 
-1. Download the [latest version of NVDA](https://www.nvda-fr.org/cat.php?id=2).
-1. You have the choice to install NVDA on your computer,
-    to make a portable version or to run the software without
-    install it. If you want to get a portable version of
-    NVDA, you just need to create a folder and indicate, when
-    installation, where the portable version files should be
-    copied, in particular on a USB medium to be able to execute it
+1.  Download the [latest version of NVDA](https://www.nvda-fr.org/cat.php?id=2).
+1.  You have the choice of installing NVDA on your computer,
+    make a portable version or run the software without
+    installing it. If you wish to obtain a portable version of
+    NVDA, simply create a folder and specify during installation where the
+    installation, where the files for the portable version are to be copied
+    be copied, in particular to USB media so that it can be run on any computer
     on any computer.
-1. NVDA can be launched as soon as the installation is complete, no restart of the computer is necessary.
+1.  NVDA can be launched as soon as the installation is complete, with no need to restart the computer.
 
-##### Configuring NVDA for Assessment
+##### Configuring NVDA for evaluation
 
 ###### Welcome dialog
 
 When you start NVDA for the first time, a dialog box
-appears. It offers you:
+dialog box appears. It asks you to
 
-1. Choose keyboard layout: desktop or
-    portable.
-2. Choose the NVDA key: the NVDA key is used to activate certain features. By default, this is the <kbd>Insert</kbd> key, but you can check "Use caps lock as NVDA key", if you want to use these two keys as "NVDA key".
-3. Choose whether or not NVDA should start when Windows launches
-    (only for installed version).
-4. Decide to display this welcome dialog each time you launch
-    NVDA.
+1.  Choose the keyboard layout: desktop or laptop
+    laptop.
+2.  Choose the NVDA key: the NVDA key is used to activate certain functions. By default, it is the <kbd>Insert</kbd> key, but you can tick "Use Caps Lock as NVDA key" if you want to use these two keys as the "NVDA key".
+3.  Choose whether or not NVDA should start when Windows is launched
+    (only for the installed version).
+4.  Decide whether to display this welcome dialog each time
+    NVDA IS LAUNCHED.
 
-**Note**: If you change your mind, you can find this dialogue from
-welcome to “Help\>Welcome dialog”.
+**Note** If you change your mind, you can find this welcome dialog in "Help
+help &gt; Welcome dialog.
 
-###### Vocal synthesis
+###### Text-to-speech
 
-If you are using Windows 10 and above, you can use the voices of the
-Narrator, called OneCore voices. If you do not have
-the necessary voices, you must first of all [download the languages of
-speech synthesis for
-Windows](https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612 -b3ae-423f-afa5-4f6caf1ec5d3).
+If you're using Windows 10 and above, you can use the voices of the
+Narrator voices, known as *OneCore* voices. If you don't have
+the necessary voices, you first need to [download the text-to-speech
+text-to-speech languages for
+Windows](https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3).
 
-Once you have installed the extension that suits you, you
-will be able to change speech synthesis by simultaneously pressing
-[<kbd>NVDA</kbd> + <kbd>Control</kbd> + <kbd>S</kbd>]. Choose the desired synthesis using
-<kbd>up arrow</kbd> and <kbd>down arrow</kbd> and validate with <kbd>Enter</kbd>.
+Once you have installed the extension that suits you best, you can
+can change the text-to-speech language by pressing [NVDA + Control + S] at the same time
+[<kbd>NVDA</kbd> + <kbd>Control</kbd> + <kbd>S</kbd>]. Select the desired synthesis using the
+<kbd>up</kbd> and <kbd>down</kbd><kbd>arrows</kbd> and confirm by pressing <kbd>Enter</kbd>.
 
-To change the playback speed, voice language and quantity
-information to pronounce, go to the NVDA menu by pressing
-simultaneously on [<kbd>NVDA</kbd> + </kbd>N</kbd>], go to “Preferences”,
-"Settings", then choose the "Speech" tab. Perform the
-settings and confirm with “OK”.
+To change the playback speed, the voice language and the amount of information to be
+information to be spoken, go to the NVDA menu by simultaneously pressing
+simultaneously on<kbd>[NVDA</kbd> + </kbd>N</kbd>], go to "Preferences",
+"Settings", then choose the "Speech" tab. Make the
+settings and confirm with "OK".
 
-It is possible to tell NVDA whether or not to pronounce each character typed
-by pressing [<kbd>NVDA</kbd> + <kbd>2</kbd>] on the alphanumeric keyboard, to pronounce
-or not each word typed by pressing [<kbd>NVDA</kbd> + <kbd>3</kbd>] on the keyboard
-alphanumeric.
+You can tell NVDA to speak or not to speak each character you type
+by pressing<kbd>[NVDA</kbd> + <kbd>2</kbd>] on the alphanumeric keypad, to speak or not to speak
+words by pressing<kbd>[NVDA</kbd> + <kbd>3</kbd>] on the alphanumeric keypad
+alphanumeric keypad.
 
-You can change voice settings, such as speed,
-height, tongue, etc. as following :
+You can change the voice parameters, such as speed, pitch, language, etc., as you wish
+language, etc. as follows:
 
-- [<kbd>NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>right arrow</kbd> and <kbd>left arrow</kbd>] allows you to
-    switch from one parameter to another.
-- [<kbd>NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>up arrow</kbd> and <kbd>down arrow</kbd>], allows you to modify
-    the parameter (faster, slower for example)
+-  <kbd>[NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>right arrow</kbd> and <kbd>left arrow</kbd>] allows you to
+    toggle between parameters.
+-   [<kbd>NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>up arrow</kbd> and <kbd>down</kbd> arrow], allows you to modify the
+    parameter (faster, slower, for example)
 
-**Note**: this shortcut concerns the use of NVDA in version
-office keyboard. For the portable keyboard version, add the key
-<kbd>capital letter</kbd> to the combinations mentioned previously.
+**Note**: this shortcut is for using NVDA with the desktop keyboard
+desktop keyboard. For the portable keyboard version, add the
+key<kbd>to</kbd> the above combinations.
 
-##### Set NVDA preferences for assessment
+##### Set NVDA preferences for evaluation
 
-You access the NVDA settings by typing [<kbd>NVDA</kbd> + <kbd>n</kbd>] to open the
-NVDA menu, then selecting “Preferences” and “Settings.” THE
-parameters are classified in the form of tabs, for example,
-“general”, “speech”, “braille”, etc.
+NVDA settings can be accessed by typing<kbd>[NVDA</kbd> + <kbd>n</kbd>] to open the NVDA
+menu, then selecting 'Preferences' and 'Settings'. The
+settings are arranged in tabs, for example,
+"General", "Speech", "Braille", etc.
 
-Theoretically, there is no need to modify these settings which
-correspond to the default configuration. However, check that the
-following settings are enabled.
+Theoretically, there is no need to modify these settings, which
+correspond to the default configuration. However, check that the following
+settings are activated.
 
-In **Speech**, check the “Automatic language change” boxes.
-and “Automatic Dialect Switching.”
+In **Speech**, check the "Automatic language change" and "Automatic dialect change" boxes
+and "Automatic dialect change" boxes.
 
-In **Presentation of objects**, check “Announce suggestions”,
-"Announce tooltips", "Announce description of
-subject”, “Announce dynamic content changes”.
+In **Presentation of objects**, check the box for "Announce suggestions",
+"Announce tooltips', 'Announce object description
+l\'objet", "Announce dynamic content changes".
 
-Once all settings have been made,
-confirm with “OK”.
+Once you have made all the settings
+confirm with "OK".
 
 

@@ -1,3 +1,3 @@
 ---
-title: For each [layout table](#formatting-table), is the linearized content still understandable?
+title: For each [layout table](#layout-table), is the linearized content still comprehensible?
 ---

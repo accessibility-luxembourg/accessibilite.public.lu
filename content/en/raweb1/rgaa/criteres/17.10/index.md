@@ -1,3 +1,3 @@
 ---
-title: For each [two-way oral communication](#web-application-of-two-way-oral-communication) web application, that has [voice features](#voice-features), can these be used without the need to listen or speak?
+title: For each [two-way voice communication web application](#two-way-voice-communication-web-application) that has [voice-based services](#voice-based-services), can these be used without the need to listen or speak?
 ---

@@ -8,7 +8,7 @@ Norm:
     title: Parsing
 ---
 
-#### Note
+#### Note 
 
-Assistive technologies no longer rely on direct HTML parsing. The absence of declaration of a type of document therefore no longer poses an accessibility problem for people with disabilities.
+Assistive technologies no longer depend on direct parsing of HTML. The absence of a document type declaration therefore no longer poses an accessibility problem for people with disabilities.
 The criterion must now always be considered compliant.

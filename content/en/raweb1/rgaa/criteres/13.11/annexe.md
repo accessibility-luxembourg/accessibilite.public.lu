@@ -12,13 +12,13 @@ Norm:
     title: Pointer Cancellation
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case handling when the functionality requires that the expected behavior be performed during a top-down event, for example, a keyboard emulator whose keys must activate on pressure like on a physical keyboard. In these situations, the criterion is not applicable.
+There is special case management when the functionality requires the expected behaviour to be performed during a descending event, for example, a keyboard emulator whose keys must be activated when pressed, as on a physical keyboard. In these situations, the criterion is not applicable.
 
 #### Technical notes
 
-Two examples of a mechanism put in place to cancel or abandon an action triggered by a pointing device on a single point on the screen:
+Two examples of a mechanism used to cancel or abandon an action triggered by a pointing device on a single point on the screen:
 
-- A modal window allowing you to cancel the action after its completion;
-- For a drag/drop function, aborting the action if the user releases the item outside the target area.
+- A modal window for cancelling the action after it has been completed;
+- For a drag and drop function, the action is aborted if the user releases the element outside the target zone.

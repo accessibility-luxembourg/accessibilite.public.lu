@@ -4,12 +4,12 @@ title: Composite link
 
 In HTML, [link](#link) containing both text and one or more image children:
 
-- Image (`<img>` tag or opening tag having the WAI-ARIA `role="img"` attribute);
-- Clickable area (`<area>` tag) with an `href` attribute;
-- Image object (tag `<object>`);
+- Image (tag `<img>` or opening tag with WAI-ARIA attribute `role="img"`);
+- Clickable area (tag `<area>`) with a `href` attribute;
+- Object image (tag `<object>`);
 - Bitmap image (tag `<canvas>`);
-- Vector image (`<svg>` tag).
+- Vector image (tag `<svg>`).
 
-Important note: Please note that the use of two adjacent and identical links (image link and text link) constitutes significant inconvenience for the user. Although this does not constitute non-compliance, this use should be avoided. One way to deal with this type of link is to include the image in the text link so as to constitute a composite link, which will avoid redundancy.
+Important note: the use of two adjacent and identical links (image link and text link) is a major inconvenience for the user. Even if this does not constitute non-compliance, it should be avoided. One way of dealing with this type of link is to include the image in the text link to form a composite link, thus avoiding redundancy.
 
-On this subject, you can consult the technique <span lang="en">[H2: Combining adjacent image and text links for the same resource](https://www.w3.org/WAI/WCAG21/Techniques/html/H2 )</span>.
+You can consult the technique [H2: Combining adjacent image and text links for the same resource](https://www.w3.org/WAI/WCAG21/Techniques/html/H2).

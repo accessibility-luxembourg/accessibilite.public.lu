@@ -11,9 +11,9 @@ Norm:
     title: Motion Actuation
 ---
 
-#### Particular cases
+#### Special cases
 
-There is special case management when:
+Special cases are managed when
 
-- Movement is essential to accomplish the functionality (e.g. pedometer);
-- Motion detection is used to control functionality through an accessibility-compatible interface.
+- Movement is essential to the functionality (e.g. pedometer);
+- Motion detection is used to control functionality via an interface that is compatible with accessibility.

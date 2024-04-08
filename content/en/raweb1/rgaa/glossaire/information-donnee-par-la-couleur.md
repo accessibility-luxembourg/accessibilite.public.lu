@@ -1,13 +1,13 @@
 ---
-title: Information (given by color)
+title: Information (provided by colour)
 ---
 
-Information transmitted visually through color. The indication that fields in red are mandatory in a form, the use of a blue background to indicate the page currently being viewed in a menu with a green background, the change of color of an article name to indicating its unavailability in a list of articles are all examples of an indication given by color.
+Information conveyed visually through colour. The indication that fields in red are mandatory in a form, the use of a blue background to indicate the page currently being consulted in a menu with a green background, the change of colour of an item name to indicate its unavailability in a list of items are all examples of information given by colour.
 
-When information given by color is accompanied by another method intended for users who do not see or perceive colors or their associations poorly, the criterion will be considered not applicable.
+When information (provided by colour) is accompanied by another method aimed at users who cannot see or perceive colours or their associations well, the criterion will be considered as not applicable.
 
-Ways of transmitting information other than through color can be:
+Means of conveying information other than by colour may be
 
-- A visible textual indication;
-- A means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement at the code level (`aria-label`, `title`, hidden text, `aria-current`, etc.);
-- Another typographic style (bold, italic, text size, other font, etc.) and through a code level complement (`aria-label`, `title`, hidden text, `aria-current` , etc.).
+- A visible text indication;
+- A means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement to the code (`aria-label`, `title`, hidden text, `aria-current`, etc.);
+- A different typographic style (bold, italic, text size, different font, etc.) and by means of a supplement in the code (`aria-label`, `title`, hidden text, `aria-current`, etc.).

@@ -1,3 +1,3 @@
 ---
-title: Is each [link](#link) explicit (except in particular cases)?
+title: Is every [link](#link) explicit (except in special cases)?
 ---

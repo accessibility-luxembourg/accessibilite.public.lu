@@ -14,10 +14,10 @@ Norm:
     title: Text Spacing
 ---
 
-#### Particular cases
+#### Special cases
 
-The exception to this criterion is content for which the user has no possibility of personalization:
+The exception to this criterion is content for which the user has no possibility of personalisation:
 
 - Subtitles directly integrated into a video;
-- Text images;
-- The text within a `<canvas>` tag.
+- Image of text;
+- Text within a `<canvas>` tag.

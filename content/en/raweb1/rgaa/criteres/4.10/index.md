@@ -1,3 +1,3 @@
 ---
-title: Can each [autoplaying sound be controlled by the user](#control-sound-triggered-automatically)?
+title: Is each automatically triggered sound [controllable](#control-automatically-triggered-sound) by the user?
 ---

@@ -1,11 +1,11 @@
 ---
-title: Indication given by shape, size or position
+title: Indication conveyed by shape, size or location
 ---
 
-This could be, for example:
+For example
 
-- The presence of a visual marker, to indicate the active page in a navigation menu (indication given by the position);
-- A foreground to indicate an active tab (indication given by the shape);
-- A modification of the font size in a tag cloud (indication given by the size).
+- The presence of a visual marker, to indicate the active page in a navigation menu (indication given by position);
+- Foregrounding to indicate an active tab (indicated by its shape);
+- A change in font size in a tag cloud (indicated by size).
 
 Or any other similar graphic effect.

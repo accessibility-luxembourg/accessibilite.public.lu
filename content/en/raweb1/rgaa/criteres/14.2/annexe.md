@@ -5,6 +5,6 @@ Norm:
     title: Activation of accessibility features
 ---
 
-#### Particular cases
+#### Special cases
 
-The criterion is not applicable for functionalities integrated into the operating system or browser.
+The criterion does not apply to features integrated into the operating system or browser.

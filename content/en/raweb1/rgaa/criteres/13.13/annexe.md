@@ -5,6 +5,6 @@ Norm:
     title: Preservation of accessibility information during conversion
 ---
 
-#### Particular cases
+#### Special cases
 
-The criterion is not applicable when the conversion format does not have the elements necessary for the identification of accessibility information. For example, if the conversion is from an HTML format to a TXT format, then the criterion is not applicable.
+The criterion does not apply when the conversion format does not have the necessary elements to identify the accessibility information. For example, if the conversion is from an HTML format to a TXT format, then the criterion is not applicable.

@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), is each [legend](#legend), related to a grouping of [fields of the same nature](#fields-of-the-same-nature), relevant?
+title: In each [form](#form), is each [legend](#legend) associated with a group of [fields of same kind](#fields-of-same-kind) relevant
 ---
