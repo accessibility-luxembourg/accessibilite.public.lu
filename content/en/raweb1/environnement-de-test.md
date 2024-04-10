@@ -14,7 +14,7 @@ The tests carried out using these combinations (assistive technology, operating 
 
 The combinations have been established on the basis of the list of assistive technologies whose use is sufficiently widespread, or in certain cases where it is provided natively and constitutes the preferred means of accessing information and functionalities.
 
-### Test environment Computer (desktop)
+### Computer test environment  (desktop)
 
 The operating systems selected are Windows and Mac OS X and the Firefox, Chrome, Edge and Safari browsers. It is the auditor's responsibility to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used when developing the site. The assistive technology versions to be used will be either the latest available on the operating system selected or the previous version.
 
@@ -24,7 +24,7 @@ For an HTML / WAI-ARIA device or its alternative to be considered compatible wit
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Test environment Computer (desktop)</caption>
+        <caption>Computer test environment (desktop)</caption>
         <thead>
         <tr>
             <th scope="col">Assistive technology</th>
@@ -49,13 +49,13 @@ For an HTML / WAI-ARIA device or its alternative to be considered compatible wit
 </div>
 
 
-### Test environment Mobile terminal
+### Mobile test environment
 
-The operating systems selected are Android and iOS and the Chrome and Safari browsers. It is up to the auditor to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used during the development of the site. 
+The operating systems selected are Android and iOS and Chrome and Safari browsers. It is up to the auditor to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used during the development of the site. 
 
 The assistive technology versions to be used will be either the latest available on the operating system selected, or the previous version. 
 
-To test a Website on a mobile terminal, the test environment must include one of the following two complementary combinations:
+To test a website on a mobile terminal, the test environment must include one of the following two complementary combinations:
 
 <div class="fr-table fr-table--bordered">
     <table>
@@ -79,7 +79,7 @@ To test a Website on a mobile terminal, the test environment must include one of
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Test environment Mobile terminal - Combination 2</caption>
+        <caption>Mobile terminal test environment - Combination 2</caption>
         <thead>
         <tr>
             <th scope="col">Operating system</th>
@@ -97,17 +97,17 @@ To test a Website on a mobile terminal, the test environment must include one of
     </table>
 </div>
 
-Note that in the case of a mobile Website for the general public, it is strongly recommended that you test in both environments.
+Note that in the case of a mobile website for the general public, it is strongly recommended that you test in both environments.
 
 ### Other environments
 
 Finally, depending on the context of the site being audited, other complementary assistive technologies may be useful, such as
 
-- ZoomText on Windows or Mac OSX;
-- Dragon Naturally Speaking on Windows or Mac OSX.
+- ZoomText on Windows or macOS;
+- Dragon Naturally Speaking on Windows or macOS.
 
 ### Controlled environment
 
-When the Website is intended to be distributed and used in a controlled environment, the test environment (baseline) must consist of the configurations (assistive technology, operating system, browser) actually used in the controlled environment.
+When the website is intended to be distributed and used in a controlled environment, the test environment must consist of the configurations (assistive technology, operating system, browser) actually used in the controlled environment.
 
-For example, if the Website is distributed exclusively in a GNU/Linux environment, the tests should only be carried out on the browsers and assistive technologies used by the agents on this platform. This test environment (baseline) replaces the test environment (baseline) used in the uncontrolled environment.
+For example, if the website is distributed exclusively in a GNU/Linux environment, the tests should only be carried out on the browsers and assistive technologies used by the agents on this platform. This test environment replaces the test environment (baseline) used in the uncontrolled environment.

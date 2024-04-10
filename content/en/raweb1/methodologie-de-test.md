@@ -51,7 +51,7 @@ A very useful extension is available for checking the document tree structure an
 Various tools can be used to analyse office files, depending on the file format:
 
 - [PAC (PDF Accessibility Checker) 2024 for Windows](https://pac.pdf-accessibility.org/en): software for checking certain accessibility points in PDF documents;
-- Recent versions of Microsoft's office tools offer a built-in accessibility validation feature (see the article [Make your Word documents accessible to people with disabilities](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) and related articles);
+- Recent versions of Microsoft Office offer a built-in accessibility validation feature (see the article [Make your Word documents accessible to people with disabilities](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) and related articles);
 - [Ace by DAISY App](https://inclusivepublishing.org/toolbox/ace-by-daisy-app/) is a utility for checking the accessibility of an EPUB file.
 
 Finally, an old but still useful program for assessing the potential of certain web content to cause epileptic seizures: [PEAT (Photosensitive Epilepsy Analysis Tool) for Windows](https://trace.umd.edu/peat).

@@ -9,10 +9,10 @@ The RGAA 4.1.2 has its own [revision notes](../../fr/rgaa4.1.2/notes-revision.ht
 
 All the other criteria are new and transcribe, in the form of operational tests, the criteria from European standard EN 301 549 v3.2.1 which are not based on WCAG.
 These are the following criteria and themes:
-- [Criterion 4.14: For each time-based media that has a synchronised subtitle track or audio description, are the control features for these alternatives presented at the same level as the main features?](criteres.html#crit-4-14)
-- [Criterion 4.15: For each feature that transmits, converts or records pre-recorded time-synchronised media that has a subtitle track, at the end of the process, are the subtitles correctly preserved?](criteres.html#crit-4-15)
+- [Criterion 4.14: For each time-based media that has a synchronised caption or audio description track, are the control features for these alternatives presented at the same level as the main features?](criteres.html#crit-4-14)
+- [Criterion 4.15: For each feature that transmits, converts or records pre-recorded time-synchronised media that has a caption track, at the end of the process, are the captions correctly preserved?](criteres.html#crit-4-15)
 - [Criterion 4.16: For each feature that transmits, converts or records pre-recorded time-based media with a synchronised audio description, at the end of the process is the audio description correctly preserved?](criteres.html#crit-4-16)
-- [Criterion 4.17: For each pre-recorded time-based medium, is the presentation of the subtitles controllable by the user (excluding special cases)?](criteres.html#crit-4-17)
+- [Criterion 4.17: For each pre-recorded time-based medium, is the presentation of the captions controllable by the user (excluding special cases)?](criteres.html#crit-4-17)
 - [Criterion 4.18: For each pre-recorded synchronised time-based medium that has synchronised translation subtitles, can these be vocalised (excluding special cases)?](criteres.html#crit-4-18)
 - [Criterion 13.13: For each document conversion feature, is the accessibility information available in the source document retained in the destination document (excluding special cases)?](criteres.html#crit-13-13)
 - [Criterion 13.14: Is an alternative method available for each identification or control functionality that relies on the use of the user's biological characteristics?](criteres.html#crit-13-14)
@@ -22,19 +22,19 @@ These are the following criteria and themes:
 - [Theme 17: Real-time communication](criteres.html#topic-17)
 
 The glossary entries corresponding to these new criteria have been added:
-- [Help with creating accessible content ](glossaire.html#help-with-creating-accessible-content)
-- [Two-way voice communication web application](glossaire.html#two-way voice communication web application)
-- [Biological characteristics ](glossaire.html#biological-characteristics)
-- [Key features of captions ](glossaire.html#key-features-of-captions)
+- [Help with creating accessible content](glossaire.html#help-with-creating-accessible-content)
+- [Two-way voice communication web application](glossaire.html#two-way-voice-communication-web-application)
+- [Biological characteristics](glossaire.html#biological-characteristics)
+- [Key features of captions](glossaire.html#key-features-of-captions)
 - [Real-time text communication](glossaire.html#real-time-text-communication-rtt)
 - [Documentation](glossaire.html#documentation)
 - [Accessibility feature](glossaire.html#accessibility-feature)
 - [Main features (of a time-based media)](glossaire.html#main-features-of-a-time-based-media)
-- [Voice-based services](glossaire.html#voice-based services)
+- [Voice-based services](glossaire.html#voice-based-services)
 - [Template](glossaire.html#template)
-- [Time<em lang="en">stamp</em>](glossaire.html#time-stamp)
+- [Timestamp](glossaire.html#time-stamp)
 - [Accessibility information](glossaire.html#accessibility-information)
-- [mechanism for enabling an accessibility feature](glossaire.html#mechanism-for-enabling-an-accessibility-feature)
+- [Mechanism for enabling an accessibility feature](glossaire.html#mechanism-for-enabling-an-accessibility-feature)
 - [Editing tool](glossaire.html#editing-tool)
 - [QVGA](glossaire.html#qvga)
 - [Digital accessibility rules](glossaire.html#digital-accessibility-rules)
@@ -42,7 +42,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Relay service](glossaire.html#relay-service)
 - [Translation subtitles](glossaire.html#translation-subtitles)
 - [Transformation](glossaire.html#transformation)
-- [Input unit](glossaire.html#input unit)
+- [Input unit](glossaire.html#input-unit)
 
 ### Changes to content resulting from RGAA 4.1.2
 
@@ -50,43 +50,43 @@ This update also includes changes to content from RGAA 4.1.2.
 
 #### Introduction of the principle of non-interference
 
-A new section ["Non-interference principle"](../obligations.html#non-interference-principle) has been introduced into the "Obligations" page in order to comply fully with standard EN 301 549.
+A new section ["Non-interference principle"](../obligations.html#non-interference-principle) has been introduced into the "Requirements" page in order to comply fully with standard EN 301 549.
 
 In addition, each criterion included in the principle of non-interference is identified in the technical framework by the words "This criterion is subject to the principle of non-interference".
 
-#### Modification of the sample description for the audit of a Website
+#### Modification of the sample description for the audit of a website
 
-The section ["Website audit sample"](../obligations.html#Website-audit-sample) on the "Obligations" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the Website or the help desk.
+The section ["Website audit sample"](../obligations.html#Website-audit-sample) on the "Requirements" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the help desk.
 
 #### Details of the compliance rate and general methodology
 
-In the section ["Testing pages or screens"](../obligations.html#test-pages-or-screens) of the "Obligations" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
+In the section ["Testing pages or screens"](../obligations.html#testing-pages-or-screens) of the "Requirements" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
 
 <blockquote>
-Certain criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
+Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
 
-- Criterion 12.3 "Is the "sitemap" page relevant?"
-- Theme 14. Documentation and accessibility features"
-- The theme "16. Help desk services"
+- Criterion 12.3 Is the "sitemap" page relevant?
+- Theme 14. Documentation and accessibility features
+- Theme 16. Help desk services
 </blockquote>
 
-In the section ["Rate of compliance with the standard"](../obligations.html#standard-compliance-rate) on the "Obligations" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
+In the section ["Compliance rate with the standard"](../obligations.html#compliante-rate-with-the-standard) on the "Requirements" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
 
-#### Modification of the test environment Computer
+#### Modification of the computer test environment
 
 The [Computer test environment](environment.html) has been modified to bring it into line with changes in browsers: 
 - Internet Explorer has been removed, as Microsoft has no longer provided support for it since 2022.
 - Chrome and Edge have been added. Edge now replaces Internet Explorer on Microsoft Windows, and uses the same engine as Chrome.
 
 These choices are also supported by usage data, in particular
-- the [WebAIM 2023] survey (https://webaim.org/projects/screenreadersurvey9/#browsercombos), which identifies Chrome and Edge as the browsers most used by blind and partially-sighted people; 
+- the [WebAIM 2023 survey](https://webaim.org/projects/screenreadersurvey9/#browsercombos), which identifies Chrome and Edge as the browsers most used by blind and partially-sighted people; 
 - the 2023 assessment of [browser market share in Luxembourg by Statcounter GlobalStats](https://gs.statcounter.com/browser-market-share/all/luxembourg/2023).
 
 As a result, there is now just one Computer test environment with 3 combinations.
 
 #### Removal of WCAG criteria from syntax analysis
 
-The WCAG working group published an update to <a href="https://www.w3.org/TR/WCAG21/#parsing">WCAG 2.1 on 21 September 2023</a> indicating that <a href="https://www.w3.org/TR/WCAG21/#parsing">success criterion 4.1.1 <em lng="en">Parsing</em></a> should henceforth always be considered compliant.
+The WCAG working group published an update to <a href="https://www.w3.org/TR/WCAG21/#parsing">WCAG 2.1 on 21 September 2023</a> indicating that <a href="https://www.w3.org/TR/WCAG21/#parsing">success criterion 4.1.1 <em>Parsing</em></a> should henceforth always be considered compliant.
 
 As the RAWeb is a transposition of WCAG 2.1, this choice is applied to the corresponding criteria in the RAWeb. Therefore, criteria [8.1](criteres.html#crit-8-1) and [8.2](criteres.html#crit-8-2) of the RAWeb no longer need to be tested and must always be considered compliant. 
 
@@ -113,15 +113,15 @@ The test [4.4.1](criteres.html#test-4-4-1) has been rewritten to specify the tes
 
 Test 4.4.1 in the RGAA 4.1.2 
 
-<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised captions, are these subtitles relevant?</blockquote>
+<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised captions, are these captions relevant?</blockquote>
 
 It has been rewritten in RAWeb 1 to introduce 3 test conditions to be verified: 
 
 <blockquote>
 
-- The subtitles are in the language of the video;
-- The subtitles are relevant;
-- The subtitles are correctly synchronised.
+- Captions are in the language of the video;
+- Captions are relevant;
+- Captions are correctly synchronised.
 
 </blockquote>
 
@@ -131,8 +131,8 @@ References to Flash, Silverlight and Java have been removed from the criteria, g
 
 The framework elements affected are as follows: 
 
-- The methodology of criterion [4.7](criteres.html#crit-4-7): deletion of the test <q>the text passage is located outside the multimedia content player if the latter uses Flash technology</q>.
-- Controlled environment" glossary entry: references to Flash and Silverlight have been removed from the second list item <q>Supported technologies, their version and activation (JavaScript, WAI-ARIA, Flash, Silverlight</q>, etc.).
+- Methodology of criterion [4.7](criteres.html#crit-4-7): deletion of the test <q>the text passage is located outside the multimedia content player if the latter uses Flash technology</q>.
+- "Controlled environment" glossary entry: references to Flash and Silverlight have been removed from the second list item <q>Supported technologies, their version and activation (JavaScript, WAI-ARIA, Flash, Silverlight</q>, etc.).
 - The "Non-time-based media" glossary entry: all references to Flash, Java and Silverlight and their properties have been removed.
 - The glossary entry "Time-based media (audio, video and synchronised)": all references to Flash and its properties have been removed. Note 1 is deleted: Note 2 becomes Note 1, and Note 3 becomes Note 2.
 
@@ -165,8 +165,8 @@ New WCAG techniques and failures have been added for certain RAWeb criteria.
 - Criterion [13.12](criteres.html#crit-13-12) [F106](https://www.w3.org/WAI/WCAG21/Techniques/failures/F106), [G213](https://www.w3.org/WAI/WCAG21/Techniques/general/G213)
 
 Other techniques and failures have been deleted.
-- Criterion [1.2](criteres.html#crit-1-2) deletion of the [ARIA10](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10) link. 
-- Checkpoint [1.6](criteres.html#crit-1-6): link [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45) has been removed. 
-- Checkpoint [4.8](criteres.html#crit-4-8): link removal [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35). 
-- Checkpoint [8.1](criteres.html#crit-8-1): delete links [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192).
-- Criterion [8.2](criteres.html#crit-8-2) deletion of links [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94).
+- Criterion [1.2](criteres.html#crit-1-2) link [ARIA10](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10) has been removed. 
+- Criterion [1.6](criteres.html#crit-1-6): link [H45](https://www.w3.org/WAI/WCAG21/Techniques/html/H45) has been removed. 
+- Criterion [4.8](criteres.html#crit-4-8): link [H35](https://www.w3.org/WAI/WCAG21/Techniques/html/H35) has been removed. 
+- Criterion [8.1](criteres.html#crit-8-1): links [G134](https://www.w3.org/WAI/WCAG21/Techniques/general/G134), [G192](https://www.w3.org/WAI/WCAG21/Techniques/general/G192) have been removed.
+- Criterion [8.2](criteres.html#crit-8-2) links [F70](https://www.w3.org/WAI/WCAG21/Techniques/failures/F70), [F77](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77), [H74](https://www.w3.org/WAI/WCAG21/Techniques/html/H74), [H93](https://www.w3.org/WAI/WCAG21/Techniques/html/H93), [H94](https://www.w3.org/WAI/WCAG21/Techniques/html/H94) have been removed.

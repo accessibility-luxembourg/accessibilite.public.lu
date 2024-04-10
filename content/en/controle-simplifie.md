@@ -24,7 +24,7 @@ The sample of pages to be tested is 3 pages. We recommend the following three pa
 - A page with a form (the contact page, for example);
 - A page with special content: a video, a table, a complex image.
 
-Pages containing too much non-compliant content should be avoided.
+Pages containing too much content that are out of scope should be avoided.
 If non-conformities are detected for a criterion listed below, it is not necessary to test all 3 pages for this criterion.
 We are only considering web pages; all downloadable documents are outside the scope of this method.
 
@@ -32,7 +32,7 @@ We are only considering web pages; all downloadable documents are outside the sc
 Some elements of the site cannot be checked using the simplified control criteria proposed here, but they do have an impact on the way in which the results are interpreted. This assessment must be carried out for the site as a whole.
 The following criteria must be assessed and appear in a dedicated section of the report:
 
-- Quantity of overridden content: it is especially important to highlight overridden content that contains functions or information that are essential to users (online procedures, access to information, etc.). Too much exempt content could jeopardise the assessment of compliance.
+- Quantity of content out of scope: it is especially important to highlight content out of scope that contains functions or information that are essential to users (online procedures, access to information, etc.). Too much content out of scope could jeopardise the assessment of compliance.
 - Quantity and type of office documents (Word, Excel, PDF): here the quantity and type of documents are two important indicators. The more content there is to download, the more likely it is that users will not be able to access the information. This lack of access is all the more damaging when the office documents are necessary to complete a procedure.
 - The presence of procedures essential to users behind an inaccessible identification procedure.
 
