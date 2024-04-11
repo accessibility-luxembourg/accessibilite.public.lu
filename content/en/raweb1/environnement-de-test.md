@@ -108,6 +108,6 @@ Finally, depending on the context of the site being audited, other complementary
 
 ### Controlled environment
 
-When the website is intended to be distributed and used in a controlled environment, the test environment must consist of the configurations (assistive technology, operating system, browser) actually used in the controlled environment.
+When the website is intended to be distributed and used in a controlled environment, the test environment (baseline) must consist of the configurations (assistive technology, operating system, browser) actually used in the controlled environment.
 
-For example, if the website is distributed exclusively in a GNU/Linux environment, the tests should only be carried out on the browsers and assistive technologies used by the agents on this platform. This test environment replaces the test environment (baseline) used in the uncontrolled environment.
+For example, if the website is distributed exclusively in a GNU/Linux environment, the tests should only be carried out on the browsers and assistive technologies used by the agents on this platform. This test environment replaces the test environment used in the uncontrolled environment.

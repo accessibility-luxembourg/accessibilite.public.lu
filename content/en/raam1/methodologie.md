@@ -1,4 +1,4 @@
-Unlike web content, where it is possible to inspect the source code to determine the presence of attribute elements, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can access the software, but rarely its code, unlike a Website). Secondly, because unlike the web and technologies (HTML/CSS/JavaScript) there is a diversity of development environments which makes it difficult to define a list of tests based on code review.
+Unlike web content, where it is possible to inspect the source code to determine the presence of attribute elements, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can access the software, but rarely its code, unlike a website). Secondly, because unlike the web and HTML/CSS/JavaScript technologies there is a diversity of development environments which makes it difficult to define a list of tests based on code review.
 
 This is why the chosen approach is to test for the presence of certain elements using specialised tools (interface inspectors, assistive technologies, external switches) or directly on the interface itself.
 
@@ -45,7 +45,7 @@ To get to grips with VoiceOver, we refer you to the official documentation, whic
 
 ###### Voice output display
 
-It's useful to be able to view the voice output. In iOS you can activate the legend panel, which displays VoiceOver announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; VoiceOver* and at the bottom of the settings screen activate the "Legend panel" setting.
+It's useful to be able to view the voice output. In iOS you can activate the caption panel, which displays VoiceOver announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; VoiceOver* and at the bottom of the settings screen activate the "Caption Panel" setting.
 
 ##### TalkBack on Android
 
@@ -61,9 +61,9 @@ To get to grips with TalkBack, we refer you to the official documentation, which
 
 ###### Voice output display
 
-It's useful to be able to view voice output. In TalkBack you can activate a parameter that displays TalkBack announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; TalkBack &gt; Settings &gt; Advanced settings &gt; Developer settings* and activate the "Display voice output" setting.
+It's useful to be able to view voice output. In TalkBack you can activate a parameter that displays TalkBack announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; TalkBack &gt; Settings &gt; Advanced settings &gt; Developer settings* and activate the "Display speech output" setting.
 
-Depending on the version of Android you're using, the path to the TalkBack "Show voice output" setting may not be exactly the same.
+Depending on the version of Android you're using, the path to the TalkBack "Display speech output" setting may not be exactly the same.
 
 #### External keyboard
 
@@ -75,15 +75,15 @@ In order to test the criteria relating to the use of applications with an extern
 
 To enable the terminal to be controlled by an external keyboard, the "Full keyboard access" option needs to be activated. To do this, go to *Settings &gt; Accessibility &gt; Keyboards &gt; Full keyboard access* and activate "Full keyboard access".
 
-iOS allows you to specify a focus style for users using an external device (*Settings &gt; Accessibility &gt; Keyboard &gt; Full Keyboard Access*). The user can choose:
-- hide it automatically after a configurable time;
-- increase the size of the when focused;
-- increase the contrast;
-- choose the colour.
+iOS allows you to specify a focus style for users using an external device (*Settings &gt; Accessibility &gt; Keyboard &gt; Full Keyboard Access*). The user can choose to:
+- to hide it automatically after a configurable time;
+- to increase the focus size;
+- to increase the contrast;
+- the colour.
 
 ##### Android
 
-Using an external keyboard with Android requires a few additional settings to be effective. In order for the interfaces and functions to be fully accessible from the keyboard, you need to use the [Switch Access] application (https://support.google.com/accessibility/android/answer/6122836?hl=fr) with an external keyboard. 
+Using an external keyboard with Android requires a few additional settings to be effective. In order for the interfaces and functions to be fully accessible from the keyboard, you need to use the [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr) application with an external keyboard. 
 
 A configuration guide allows you to configure your external keyboard step by step by defining switches. It is available in *Preferences &gt; Accessibility &gt; Switch Access &gt; Settings &gt; Open configuration guide*. You will associate two actions: 
 - *Move to the next option*: press the key on the keyboard you wish to associate (we recommend <kbd>Tab</kbd> to retain the keys used when browsing on a computer).
@@ -99,13 +99,13 @@ Once you have completed the first configuration stage (using the configuration g
 
 Some methodology elements will offer you several test methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to connect the terminal to a computer with macOS and use the **Accessibility Inspector** application.
 
-The **[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html){lang=en}** is available from the [Xcode](https://apps.apple.com/fr/app/xcode/id497799835?mt=12) software used for developing mobile applications. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode &gt; Open Developer Tool &gt; Accessibility Inspector*.
+The **[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html){lang=en}** is available from [Xcode](https://apps.apple.com/fr/app/xcode/id497799835?mt=12), used for developing mobile applications. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode &gt; Open Developer Tool &gt; Accessibility Inspector*.
 
 ##### Android
 
 To carry out certain tests on Android applications, third-party applications are required or can help you with the evaluation.
 
-- [Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;hl=fr&amp;gl=US): Android application for adding options and gestures to the Talkback screen reader.
+- [**Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;hl=fr&amp;gl=US): Android application for adding options and gestures to the Talkback screen reader.
 - [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;hl=fr&amp;gl=US){lang=en} Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*{lang="en"}.
 
 ##### iOS and Android
@@ -127,13 +127,13 @@ Broadcasting the mobile terminal is not an essential requirement for evaluating 
 1. A window will open showing an image from your computer's camera. Click to the right of the red record button to change the source and choose your device.
 1. The screen of your mobile device will now be displayed on your computer.
 
-###### If you have a computer running Windows 
+###### You have a computer running Windows 
 
-There are a number of software applications (free or paid) that allow you to stream your iOS device to a Windows computer.
+There are a number of softwares (free or paid) that allow you to stream your iOS device to a Windows computer.
 
 ##### Android
 
-There is an *open source*{lang=en} application that allows you to stream an Android application to **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy). 
+There is an open source application that allows you to stream an Android application to **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy). 
 
 Installing it on a macOS environment may require some technical knowledge. On Windows, it can be used like a standard application. However, it is not essential that you project your mobile device, you can do without this installation (another method is detailed later in the document).
 

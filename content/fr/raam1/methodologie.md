@@ -79,7 +79,7 @@ iOS permet de spécifier un style de focus pour les utilisateurs qui utilisent u
 - de la masquer automatiquement au bout d’un temps paramétrable&nbsp;;
 - d’augmenter la taille de la prise de focus&nbsp;;
 - d’augmenter le contraste&nbsp;;
-- de choisir la couleur.
+- la couleur.
 
 ##### Android
 
