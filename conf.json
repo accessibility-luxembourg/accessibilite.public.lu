@@ -346,7 +346,14 @@
             "md": "./content/nl-success.md",
             "html": true,
             "prefix": "../.."
-        }           
+        },
+        {
+            "title": "Inscription à la newsletter",
+            "name": "nl-subscribe",
+            "md": "./content/nl-subscribe.md",
+            "html": true,
+            "prefix": "../.."
+        }            
     ],
     "deprecated": [
         {
