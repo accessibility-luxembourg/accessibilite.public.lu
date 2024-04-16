@@ -6,11 +6,11 @@ In the field of digital accessibility, the situation is very similar. The earlie
 
 Many public authorities do not develop their websites and mobile applications in-house, but use the services of external service providers. In this case, it is very common to use a specification to define the requirements and the expected result.
 
-Digital accessibility is a legal requirement, so it must be included in all specifications for a public Website or mobile application. However, it doesn't seem very effective to restrict yourself to a sentence like: "The Website must be accessible" This is because the [law on digital accessibility] (https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) is relatively new (2020), and the level of requirements expected is not yet known to everyone.
+Digital accessibility is a legal requirement, so it must be included in all specifications for a public website or mobile application. However, it doesn't seem very effective to restrict yourself to a sentence like: "The Website must be accessible" This is because the [law on digital accessibility] (https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) is relatively new (2020), and the level of requirements expected is not yet known to everyone.
 
-To help you draw up your specifications, we offer you a set of clauses relating to digital accessibility. These clauses are only an example, and should of course be adapted to the context of your project.
+To help you draw up your requirements, we offer you a set of clauses relating to digital accessibility. These clauses are only an example, and should of course be adapted to the context of your project.
 
-### Example of clauses to include in your specifications
+### Example of clauses to include in your requirements
 
 
 These sample clauses are published under licence [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). They are derived from a document produced by [Access42](https://access42.net/).
@@ -59,7 +59,7 @@ These corrective actions will be at the CONTRACT HOLDER's expense.
 
 It should be noted that the ORGANISM reserves the right to call on an external service provider, with expertise in digital accessibility, to support it throughout all phases of the project.
 
-In this case, the service provider will be the technical contact with the TITLEE's teams for all matters relating to accessibility and compliance with the RAWeb or RAAM for the entire project.
+In this case, the service provider will be the technical contact with the CONTRACT HOLDER's teams for all matters relating to accessibility and compliance with the RAWeb or RAAM for the entire project.
 
 #### Response elements
 

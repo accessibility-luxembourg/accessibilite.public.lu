@@ -34,4 +34,4 @@ This order should be used to assess the relevance of the button's "accessible na
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
-Furthermore, an "accessible name" will be considered irrelevant if it does not include the visible text of the button. For example: `validate<button aria-label="confirmer la saisie">entry`</button> will be considered as not conforming to {% crit 11.9 %}.
+Furthermore, an "accessible name" will be considered irrelevant if it does not include the visible text of the button. For example: `<button aria-label="confirm input">validate entry</button>` will be considered as not conforming to {% crit 11.9 %}.

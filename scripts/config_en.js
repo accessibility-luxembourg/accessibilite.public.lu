@@ -88,7 +88,7 @@ const config = {
             "children": [
                 {
                     "title": "Taking accessibility into account right from the specifications",
-                    "menu": "Specifications",
+                    "menu": "Procurement",
                     "name": "tools/cahier-des-charges",
                     "md": "./content/en/cahier-des-charges.md", 
                     "html": true,
