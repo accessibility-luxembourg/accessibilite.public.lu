@@ -1,8 +1,8 @@
 ---
-title: Real-time text communication (RTT)
+title: Real-time text communication
 ---
 
-<span lang="en">Real-time text</span>(RTT) is a form of written communication which allows the other party to read the text being written by the sender, without waiting for the sender to confirm (e.g. by pressing the <kbd>enter</kbd> key).
+Real-time text (RTT) communication is a form of written communication which allows the other party to read the text being written by the sender, without waiting for the sender to confirm (e.g. by pressing the <kbd>enter</kbd> key).
 
 Collaborative editing tools (e.g. online office suites) are an example of the operating principle of real-time text (RTT) communication: the various participants can see the texts being written and modified by each other at the same time as the modifications are being applied to the texts. This is very different from a common online conversation system (such as instant messaging), which only transmits a written message to the other party when a key or button is pressed (for example, the <kbd>enter</kbd> key).
 

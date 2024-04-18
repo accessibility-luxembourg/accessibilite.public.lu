@@ -2,7 +2,7 @@
 title: Only for layout purposes
 ---
 
-Only for layout: use of HTML tags for a purpose other than that specified in the specifications (with regard to the declared document type). Examples: use of the `h` tags for the sole purpose of creating a typographic effect; use of the `<blockquote>` tag for the sole purpose of indenting a paragraph, etc.
+Only for layout purposes: use of HTML tags for a purpose other than that specified in the specifications (with regard to the declared document type). Examples: use of the `h` tags for the sole purpose of creating a typographic effect; use of the `<blockquote>` tag for the sole purpose of indenting a paragraph, etc.
 
 Note 1: the use of `<div>` or `<span>` elements or several `<br>` elements to visually create a paragraph is considered non-compliant and invalidates the criterion.
 

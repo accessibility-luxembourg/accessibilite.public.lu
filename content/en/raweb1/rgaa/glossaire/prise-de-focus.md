@@ -2,7 +2,7 @@
 title: When focused
 ---
 
-When focused, this is the state returned by an element that receives attention following a user action. There are three ways in HTML to give focus to an element:
+Focus is the state returned by an element that receives attention following a user action. There are three ways in HTML to give focus to an element:
 
 - By activating the element using a pointing device (e.g. mouse);
 - By reaching the element using the tab or shift + tab key;

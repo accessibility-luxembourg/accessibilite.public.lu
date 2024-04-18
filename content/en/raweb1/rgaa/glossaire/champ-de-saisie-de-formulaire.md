@@ -4,7 +4,7 @@ title: Form input field
 
 The object of a form allowing the user to
 
-- Enter textual or pre-formatted data
+- Enter textual or pre-formatted data:
   - `input type="text"`;
   - `input type="password"`;
   - `input type="search"`;

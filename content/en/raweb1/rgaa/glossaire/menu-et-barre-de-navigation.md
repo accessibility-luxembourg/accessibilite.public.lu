@@ -18,4 +18,4 @@ There are different types of navigation menu ({% crit 12.1 %} and {% crit 12.2 %
 - Context menu;
 - Table of contents for a set of pages.
 
-Note: Footer links to the legal notice, site map and other information about the site are not considered to be a main navigation menu.
+Note: Footer links to the legal aspects, site map and other information about the site are not considered to be a main navigation menu.

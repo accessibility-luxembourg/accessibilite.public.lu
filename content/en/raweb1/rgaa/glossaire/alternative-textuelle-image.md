@@ -4,13 +4,13 @@ title: Text alternative (image)
 
 "Accessible name" rendered by assistive technologies for graphic elements such as
 
-- Image (tag `<img>` or opening tag with a WAI-ARIA attribute `role="img"`);
-- Image map area (tag `<area>`);
-- Image type button (tag `<input>` with the attribute `type="image"`);
-- Object image (tag `<object type="image/…">`);
-- Vector image (tag `<svg>`);
-- Bitmap image (tag `<canvas>`);
-- Embedded image (tag `<embed>`).
+- Image (`<img>` tag or opening tag with a WAI-ARIA attribute `role="img"`);
+- Image map area (`<area>` tag);
+- Image type button (`<input>` tag with the attribute `type="image"`);
+- Object image (`<object type="image/…">` tag);
+- Vector image (`<svg>` tag);
+- Bitmap image (`<canvas>` tag);
+- Embedded image (`<embed>` tag).
 
 In the case of a graphic element, the "accessible name" is obtained in the following order:
 
@@ -43,7 +43,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
 
 This order must be used to determine what constitutes the textual alternative.
 
-However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "reference base") that should be considered as the textual alternative.
+However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "baseline") that should be considered as the textual alternative.
 
 For example
 
@@ -64,8 +64,8 @@ Note 2: For a group of images, for example a voting system made up of several st
 
 Note 3: for image links, the alternative text must allow the function and destination of the link to be understood; this is covered in the links theme.
 
-Note 4: for vector images (tag `<svg>`) the text alternative could also be present in a tag `<title>` or in a tag `<text>` whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a tag `<title>` or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
 
 Note 5: As the use of the `alt` attribute is the only technique fully supported by technical aids, it is recommended that this solution be preferred when implementing an alternative to a `<img>`, `<area>` and `<input type="image">` tag.
 
-Note 6: although the `title` attribute is considered to be a possible text alternative (image), its use can cause problems, in particular because an image with an absent or empty `alt` attribute is considered to be an image with a `role="presentation"` by WAI-ARIA: &lt;https://www.w3.org/TR/html-aam-1.0/#details-id-54&gt;. It is important to ensure that the technical aids present in the selected test environment correctly render the alternative proposed by the `title` attribute.
+Note 6: although the `title` attribute is considered to be a possible text alternative (image), its use can cause problems, in particular because an image with an absent or empty `alt` attribute is considered to be an image with a `role="presentation"` by WAI-ARIA: <a href="https://www.w3.org/TR/html-aam-1.0/#details-id-54">https://www.w3.org/TR/html-aam-1.0/#details-id-54</a>. It is important to ensure that the technical aids present in the selected test environment correctly render the alternative proposed by the `title` attribute.

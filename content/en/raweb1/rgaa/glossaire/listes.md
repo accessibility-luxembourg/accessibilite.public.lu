@@ -6,7 +6,7 @@ A sequence of elements which can be grouped together in the form of a structured
 
 - Ordered list: `<ol>` and `<li>` tags (each element of the list is assigned an indexed marker);
 - Unordered list: `<ul>` and `<li>` tags (each item in the list is assigned an unindexed marker);
-- Description list: tags `<dl>`, `<dt>` (term to be described) and `<dd>` (description).
+- Description list: `<dl>`, `<dt>` (term to be described) and `<dd>` tags (description).
 
 Note 1: In HTML5, the `<dl>` tag no longer represents just a list of definitions, but generically any list of descriptions which may include, as a group of terms-descriptions, names and definitions, questions and answers, categories and subjects, etc.
 

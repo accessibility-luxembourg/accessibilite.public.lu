@@ -2,7 +2,7 @@
 title: Passage of text linked by `aria-labelledby` or `aria-describedby`
 ---
 
-This is one or more text passages identified by `id` values which are unique in the page and associated with an element (form field, button, etc.) by the WAI-ARIA `aria-labelledby` or `aria-describedby` attributes on the following model: `aria-labelledby="ID1 ID2 ID3..."` where the value of the attribute used is equal to the list of `id` attribute values of the text passages to be associated present in the page.
+One or more text passages identified by `id` values which are unique in the page and associated with an element (form field, button, etc.) by the WAI-ARIA `aria-labelledby` or `aria-describedby` attributes on the following model: `aria-labelledby="ID1 ID2 ID3..."` where the value of the attribute used is equal to the list of `id` attribute values of the text passages to be associated present in the page.
 
 Note 1: to ensure maximum compatibility with user agents, in particular Internet Explorer 11, we recommend implementing a `tabindex="-1"` on text passages which are not interactive elements (buttons, links, form elements, etc.).
 

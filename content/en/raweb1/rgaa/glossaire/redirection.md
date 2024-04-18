@@ -2,4 +2,4 @@
 title: Redirect
 ---
 
-When a page is displayed on the client workstation, the user is redirected to another page on the same or a different domain.
+Process which consists of redirecting the user to another page, on the same domain or on a different domain, when displaying a page on the client workstation.

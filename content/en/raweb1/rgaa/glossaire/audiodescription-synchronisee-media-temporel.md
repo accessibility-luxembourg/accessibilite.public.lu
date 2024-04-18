@@ -6,6 +6,6 @@ Narration added (via a sound file) to an audio track to describe important visua
 
 Note 1: the audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
-Note 2: in a standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
+Note 2: in a standard audio description, narration is added during pauses in the dialogue (see also extended audio description).
 
 Note 3: when all the information in the video is already given in the audio track, no additional audio description is required.

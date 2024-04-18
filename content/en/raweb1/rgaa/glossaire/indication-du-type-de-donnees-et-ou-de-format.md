@@ -6,6 +6,6 @@ Text indication enabling the user to know what type of data and/or input format 
 
 Examples
 
-- Email (format: vous@domaine.com);
+- Email (format: you@domain.com);
 - Postcode (format: 00000);
 - Date (format: DD/MM/YYYY).

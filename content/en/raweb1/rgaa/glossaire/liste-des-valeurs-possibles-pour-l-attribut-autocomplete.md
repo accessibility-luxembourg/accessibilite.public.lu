@@ -2,10 +2,10 @@
 title: List of possible values for the `autocomplete` attribute
 ---
 
-[The list of available](https://www.w3.org/Translations/WCAG21-fr/#input-purposes) values is provided by the WCAG 2.1 specification:
+[The list of available values](https://www.w3.org/Translations/WCAG21-fr/#input-purposes) is provided by the WCAG 2.1 specification:
 
 - `name` -- Full name;
-- `honorific-prefix` -- Abbreviation, title or title;
+- `honorific-prefix` -- Abbreviation, title;
 - `given-name` -- First name;
 - `additional-name` -- Additional first names;
 - `family-name` -- Family name;
@@ -26,7 +26,7 @@ title: List of possible values for the `autocomplete` attribute
 - `address-level1` -- The highest administrative level of an address, i.e. the province in which the locality is located;
 - `country` -- Country code;
 - `country-name` -- Country name;
-- `postal-code` -- Postcode, CEDEX code (if CEDEX is present, add "CEDEX", and what follows it must be added in the `address-level2` field);
+- `postal-code` -- Postcode;
 - `cc-name` -- Full name appearing on the means of payment;
 - `cc-given-name` -- First name shown on the means of payment;
 - `cc-additional-name` -- Additional first names appearing on the means of payment;
