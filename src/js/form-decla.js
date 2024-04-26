@@ -82,6 +82,18 @@ function getParams() {
         params['date_prepa'] = date
     }
 
+    if (params['date_renewal'].length != 0) {
+
+        let match = params['date_renewal'].match(/([0-9]{2})\/([0-9]{2})\/([0-9]{4})/)
+
+        let date = new Date(
+            match[3],    // year
+            match[2]-1,  // monthIndex
+            match[1]     // day
+        );
+        params['date_renewal'] = date
+    }    
+
     if (params.renow === undefined) {
         params.renow = false
     } else {

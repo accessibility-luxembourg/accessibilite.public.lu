@@ -219,7 +219,7 @@
         <% } %>
         
         <% if (date_renewal !== '') { %>
-            Déi lescht Reevaluatioun vun der Erklärung war de(n) <span class="basic-information statement-renewal-date"><%= date_renewal %></span>. 
+            Déi lescht Reevaluatioun vun der Erklärung war de(n) <span class="basic-information statement-renewal-date"><%= date_renewal.toLocaleDateString('de') %></span>. 
         <% } %> 
     </p>
     <% if (renow) { %>
