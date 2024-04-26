@@ -1,3 +1,10 @@
+const messages = {
+    "InvalidParams": "Désolé, les paramètres renseignés ne sont pas valides.",
+    "InvalidParams-AlreadyTried": "Désolé, les paramètres renseignés ne sont pas valides. Il se peut que vous ayez déjà précédemment validé cette adresse.",
+    "GeneralError": "Une erreur s\'est produite au moment de la confirmation de votre inscription. Veuillez nous en avertir en nous écrivant à l\'adresse <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Nous vous prions de bien vouloir nous excuser pour ce désagrément.",
+    "Success": "Merci. Vous êtes désormais inscrit à notre lettre d\'informations."
+}
+
 function getURLparams () {
     const urlParams = new URLSearchParams(window.location.search);
     const email_validation = urlParams.get('email_validation');
@@ -24,7 +31,9 @@ function validateNewUser (email_validation) {
 }
 
 function newUserRequestFeedback (output) {
-    document.getElementById("output").innerHTML = output.message;
+    if (output.code !== undefined && messages[output.code] !== undefined) {
+        document.getElementById("output").innerHTML = messages[output.code];
+    } 
 }
 
 document.addEventListener('DOMContentLoaded', function(e) {

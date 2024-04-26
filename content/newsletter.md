@@ -22,4 +22,4 @@ N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire 
     </div>
     <button type="button" id="submitbtn">Je m'inscris</button>
 </form>
-<div id="output" role="alert"></div>
+<div><p id="output" role="alert"></p></div>
