@@ -2,7 +2,7 @@ Some of the tests in the framework for evaluating the accessibility of mobile ap
 
 ### Test environment 
 
-The operating systems selected are iOS and Android. These are the operating systems most commonly used by blind and partially-sighted people in French-speaking countries (see the ["International survey on the use of assistive technologies by visually impaired people"](https://access42.net/enquete-internationale-usage-technologies-assistance-deficients-visuels)).
+The operating systems selected are iOS and Android. These are the operating systems most commonly used by blind and partially-sighted people in French-speaking countries (see the [international survey on the use of assistive technologies by visually impaired people](https://access42.net/enquete-internationale-usage-technologies-assistance-deficients-visuels)).
 
 For each of the systems, you are asked to test on the latest available version of the system. 
 
