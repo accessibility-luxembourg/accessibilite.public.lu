@@ -155,6 +155,7 @@ function langOnEUNorm(str) {
 // generate criteria in FR
 function mdCriteres(filePath = '') {
     return MarkdownIt({
+        'html': true,
         replaceLink: function (link, env) {
             if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
                 return filePath+'glossaire.html'+link
