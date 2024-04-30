@@ -62,12 +62,12 @@ Other types of content must comply with the criteria of [section 10 <span lang="
 
 Colour directly in contact with the colours of the component or graphic element, this can be the background colour or any other colour in direct contact.
 
-**Example:** In a "one-way" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
+**Example:** In a "no-entry" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
 It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrasts of user interface components and graphic elements only assesses **non-textual** elements. As soon as the contrast of text needs to be assessed, even if it is present in a user interface component, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
 Not all colours in a graphic element or user interface component need to be evaluated. It is essential to assess 
-- **Information-bearing colours** (not all colours are information-bearing): 
+- **Information-conveying colours** (not all colours convey information): 
 	- For example, in an application's navigation panel, the navigation buttons have a grey background colour, but the active screen button has a green background colour. It is necessary to check that the green colour in direct junction with the grey background colour has a contrast ratio of at least 3:1.
 - **Colours used to identify the location of an element or interactive zones**, for example 
 	- The border of a form field, if this is the only means of identifying the location of the interaction, must have a colour with a contrast ratio of at least 3:1 with the adjacent colour, generally the background colour;
