@@ -162,7 +162,7 @@ const config = {
                 {
                     "title": "RAWeb 1: Testing environment",
                     "menu": "Testing environment",
-                    "name": "raweb1/environment",
+                    "name": "raweb1/environnement",
                     "md": "./content/en/raweb1/environnement-de-test.md",
                     "html": true,
                     "prefix": "../../.."
@@ -251,7 +251,7 @@ const config = {
                 {
                     "title": "RAAM 1: Testing environment",
                     "menu": "Testing environment",
-                    "name": "raam1/environment",
+                    "name": "raam1/environnement",
                     "md": "./content/en/raam1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
@@ -312,7 +312,7 @@ const config = {
                 {
                     "title": "RAPDF 1: Testing environment",
                     "menu": "Testing environment",
-                    "name": "rapdf1/environment",
+                    "name": "rapdf1/environnement",
                     "md": "./content/en/rapdf1/environnement.md",
                     "html": true,
                     "prefix": "../../.."

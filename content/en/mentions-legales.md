@@ -119,7 +119,7 @@ The use of certain functions on this site may be limited or deactivated if the u
 
 #### What are cookies and what are they used for?
 
-A cookie is a small text file recorded and/or read by your browser on the hard disk of your terminal (PC, laptop or smartphone, for example) and deposited by the websites you visit. Almost all websites use cookies in order to function properly and optimise their ergonomics and functionalities.
+A cookie is a small text file recorded and/or read by your browser on the hard disk of your device (PC, laptop or smartphone, for example) and deposited by the websites you visit. Almost all websites use cookies in order to function properly and optimise their ergonomics and functionalities.
 
 #### Our cookies
 
@@ -135,7 +135,7 @@ Please note that we do not use advertising cookies.
 
 You can deactivate cookies at any time.
 
-If you wish to delete the cookies stored on your terminal and set your browser to refuse them, you can do so via your browser preferences.
+If you wish to delete the cookies stored on your device and set your browser to refuse them, you can do so via your browser preferences.
 
 These navigation options relating to cookies are usually found in the "Options", "Tools" or "Preferences" menus of the browser you are using to access this site.
 
@@ -149,6 +149,6 @@ To find out more, follow the links below:
 - [Firefox](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur?redirectslug=activer-desactiver-cookies&amp;redirectlocale=fr)
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
 
-Please note that if you refuse to accept cookies on your terminal, you will still be able to browse this site.
+Please note that if you refuse to accept cookies on your device, you will still be able to browse this site.
 
 If you have any questions about cookies, you can [contact us](contact.html). 

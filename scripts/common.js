@@ -5,8 +5,7 @@ const cheerio = require('cheerio')
 const en301549 = require('en301549-links')
 const wcagTrad = {
     "fr": require('../locales/WCAG-SC-Translations-fr.json'),
-    "en": require('../locales/WCAG-SC-Translations-en.json'),
-    "de": require('../locales/WCAG-SC-Translations-de.json')
+    "en": require('../locales/WCAG-SC-Translations-en.json')
 }
 const dotenv = require('dotenv')
 

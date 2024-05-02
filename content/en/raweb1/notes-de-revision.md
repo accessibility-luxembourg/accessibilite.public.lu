@@ -74,7 +74,7 @@ In the section ["Compliance rate with the standard"](../obligations.html#complia
 
 #### Modification of the computer test environment
 
-The [Computer test environment](environment.html) has been modified to bring it into line with changes in browsers: 
+The [Computer test environment](environnement.html) has been modified to bring it into line with changes in browsers: 
 - Internet Explorer has been removed, as Microsoft has no longer provided support for it since 2022.
 - Chrome and Edge have been added. Edge now replaces Internet Explorer on Microsoft Windows, and uses the same engine as Chrome.
 

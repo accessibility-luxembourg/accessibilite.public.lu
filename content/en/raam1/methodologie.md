@@ -69,11 +69,11 @@ Depending on the version of Android you're using, the path to the TalkBack "Disp
 
 Not all users with a motor disability will be able to use the touch interface, so they will need to interact via an external switch: keyboard or other external device.
 
-In order to test the criteria relating to the use of applications with an external keyboard, it will be necessary to connect an external device to the terminal and set a number of parameters in the platforms.
+In order to test the criteria relating to the use of applications with an external keyboard, it will be necessary to connect an external device to the device and set a number of parameters in the platforms.
 
 ##### iOS
 
-To enable the terminal to be controlled by an external keyboard, the "Full keyboard access" option needs to be activated. To do this, go to *Settings &gt; Accessibility &gt; Keyboards &gt; Full keyboard access* and activate "Full keyboard access".
+To enable the device to be controlled by an external keyboard, the "Full keyboard access" option needs to be activated. To do this, go to *Settings &gt; Accessibility &gt; Keyboards &gt; Full keyboard access* and activate "Full keyboard access".
 
 iOS allows you to specify a focus style for users using an external device (*Settings &gt; Accessibility &gt; Keyboard &gt; Full Keyboard Access*). The user can choose to:
 - to hide it automatically after a configurable time;
@@ -97,7 +97,7 @@ Once you have completed the first configuration stage (using the configuration g
 
 ##### iOS (macOS)
 
-Some methodology elements will offer you several test methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to connect the terminal to a computer with macOS and use the **Accessibility Inspector** application.
+Some methodology elements will offer you several test methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to connect the device to a computer with macOS and use the **Accessibility Inspector** application.
 
 The **[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html){lang=en}** is available from [Xcode](https://apps.apple.com/fr/app/xcode/id497799835?mt=12), used for developing mobile applications. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode &gt; Open Developer Tool &gt; Accessibility Inspector*.
 
@@ -116,7 +116,7 @@ To carry out certain tests on Android applications, third-party applications are
 
 Broadcasting the screen of your mobile device on your computer will make it easier for you to carry out certain tests, such as contrast tests. It can also be used to record certain interactions and take screenshots when writing audit reports.
 
-Broadcasting the mobile terminal is not an essential requirement for evaluating applications, but it is nevertheless useful because it can facilitate certain evaluation activities.
+Broadcasting the mobile device is not an essential requirement for evaluating applications, but it is nevertheless useful because it can facilitate certain evaluation activities.
 
 ##### iOS
 

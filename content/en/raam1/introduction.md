@@ -26,6 +26,6 @@ If you find any issue in this framework, feel free to create a ticket in this re
 - [Criteria and tests](referentiel-technique.md)
 - [Glossary](glossaire.md)
 - [Test Methodology](methodologie.md)
-- [Test environment](environment.md)
+- [Test environment](environnement.md)
 - [References](references.md)
 

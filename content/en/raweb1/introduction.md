@@ -13,7 +13,7 @@ It comprises 136 test criteria. Some tests refer to implementation techniques (H
 
 If the framework is not updated within 3 years, and in order to take into account new standards or technical specifications, it is possible to create your own tests in addition to the existing ones.
 
-Certain tests, in particular those concerning user interface components developed in JavaScript, require content to be rendered using assistive technologies associated with browsers and operating systems. The test environment (or "baseline") is described on the [Test environment](environment.html) page. 
+Certain tests, in particular those concerning user interface components developed in JavaScript, require content to be rendered using assistive technologies associated with browsers and operating systems. The test environment (or "baseline") is described on the [Test environment](environnement.html) page. 
 
 The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1](../raam1/index.html).
 
@@ -25,6 +25,6 @@ If you find a fault with this framework, you can create a ticket in this reposit
   * [Criteria and tests](criteres.html)
   * [Glossary](glossaire.html)
   * [Test methodology](methodo-test.html)
-  * [Test environment](environment.html)
+  * [Test environment](environnement.html)
   * [References](references.html)
   * [Revision notes](notes-revision.html)

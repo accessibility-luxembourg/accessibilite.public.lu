@@ -697,7 +697,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 1. If audio description is present, check that the function that enables you to activate and deactivate audio description is presented at the same level as the other functions.
 1. If this is the case, the criterion is validated.
 
-Note: Although volume and playback controls may be physical components of the terminals (volume buttons on a smartphone for example), it is not required that these terminals have physical controls dedicated to activating subtitles and audio description or that these controls, if they exist, are located at the same level.
+Note: Although volume and playback controls may be physical components of the devices (volume buttons on a smartphone for example), it is not required that these devices have physical controls dedicated to activating subtitles and audio description or that these controls, if they exist, are located at the same level.
 
 ##### Correspondences {class="disclosure mapping"}
 
@@ -716,7 +716,7 @@ Note: Although volume and playback controls may be physical components of the te
 
 ###### iOS and Android
 
-1. Identify the functions used to transmit (e.g. send content to another terminal), convert or record time-based media.
+1. Identify the functions used to transmit (e.g. send content to another device), convert or record time-based media.
 1. Execute each function (transmit, convert and record).
 1. For each of the media resulting from the function, check
 	- whether the subtitles are still present; 
@@ -741,7 +741,7 @@ Note: Although volume and playback controls may be physical components of the te
 
 ###### iOS and Android
 
-1. Identify the functions used to transmit (e.g. send content to another terminal), convert or record time-based media.
+1. Identify the functions used to transmit (e.g. send content to another device), convert or record time-based media.
 1. Execute each function (transmit, convert and record).
 1. For each of the media resulting from the function, assess
 	- whether audio description is present; 
@@ -1311,7 +1311,7 @@ The criterion does not apply to the following elements:
 ###### Android
 
 1. Access the font size settings for the platform: *Settings &gt; Accessibility &gt; Font size* (depending on the version of the platform, the access path may be different); 
-1. Increase the value of the font size (potentiometer at the bottom of the screen) until you reach a magnification of 200% (on some terminals, the potentiometer gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so check that the test is only carried out for a value of 200%).
+1. Increase the value of the font size (potentiometer at the bottom of the screen) until you reach a magnification of 200% (on some devices, the potentiometer gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so check that the test is only carried out for a value of 200%).
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
 	- that all the texts in the interface have been enlarged; 
@@ -2102,7 +2102,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 1. Open the **Control Center**.
 1. Check that the screen orientation is not locked in the platform settings ([see official documentation](https://support.apple.com/fr-fr/guide/iphone/iph3badf94ec/ios)).
-1. Display the application and toggle the terminal between landscape and portrait mode.
+1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
 	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read; 
 	- that the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
@@ -2112,7 +2112,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 1. Open the **Quick configuration** panel.
 1. Check that "Automatic rotation" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=fr)).
-1. Display the application and toggle the terminal between landscape and portrait mode.
+1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
 	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read;
 	- that the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
@@ -2771,8 +2771,8 @@ No evaluation method is proposed for this criterion.
 For conditions relating to resolution and frame rate, the safest way to assess this criterion is to search either the interface or the application's documentation for this information. It is also advisable to ask the application's publisher to provide these technical details.
 
 For the last condition concerning the time lag between video and audio, the test can be established by simple observation:
-1. Activate the application on two terminals.
-1. Establish a video call connection between the two terminals.
+1. Activate the application on two devices.
+1. Establish a video call connection between the two devices.
 1. Check that speech and video are synchronised (lip-sync, lip movement).
 1. If this is the case, the criterion is validated.
 

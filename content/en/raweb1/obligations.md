@@ -170,8 +170,8 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 
 Each of our two frameworks proposes a test environment to be used to carry out the evaluation tests:
 
-- [RAWeb test environment for website evaluation](../../html/en/raweb1/environment.md);
-- [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environment.md).
+- [RAWeb test environment for website evaluation](../../html/en/raweb1/environnement.md);
+- [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environnement.md).
 
 This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. When it is possible to know the configuration of the workstations and the hardware used, the reference base is then made up of the services actually used in this environment.
 

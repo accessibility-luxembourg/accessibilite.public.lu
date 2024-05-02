@@ -55,11 +55,11 @@ The operating systems selected are Android and iOS and Chrome and Safari browser
 
 The assistive technology versions to be used will be either the latest available on the operating system selected, or the previous version. 
 
-To test a website on a mobile terminal, the test environment must include one of the following two complementary combinations:
+To test a website on a mobile device, the test environment must include one of the following two complementary combinations:
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Mobile terminal test environment - Combination 1</caption>
+        <caption>Mobile device test environment - Combination 1</caption>
         <thead>
         <tr>
             <th scope="col">Operating system</th>
@@ -79,7 +79,7 @@ To test a website on a mobile terminal, the test environment must include one of
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Mobile terminal test environment - Combination 2</caption>
+        <caption>Mobile device test environment - Combination 2</caption>
         <thead>
         <tr>
             <th scope="col">Operating system</th>

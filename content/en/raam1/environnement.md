@@ -32,4 +32,4 @@ The Android system is unique in that it can receive additional application layer
 
 When the application is intended to be distributed and used in a managed environment, the test environment (baseline) must be made up of the configurations (assistive technology, operating system) actually used in the managed environment.
 
-For example, if the application is distributed exclusively in an iOS environment, the tests will have to be carried out only with iOS terminals and the assistive technologies that depend on them, by the agents on this platform. This test environment replaces the test environment used in the unmanaged environment.
+For example, if the application is distributed exclusively in an iOS environment, the tests will have to be carried out only with iOS devices and the assistive technologies that depend on them, by the agents on this platform. This test environment replaces the test environment used in the unmanaged environment.
