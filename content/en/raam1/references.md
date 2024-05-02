@@ -1,4 +1,4 @@
-The framework for evaluating the accessibility of mobile applications has been drawn up using a number of references and documentary sources. This document lists the references used.
+The framework for evaluating the accessibility of mobile applications has been drawn up using a number of references and documentary sources. This document lists all these references.
 
 ## Documentary references
 

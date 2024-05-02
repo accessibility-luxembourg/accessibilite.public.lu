@@ -6,9 +6,9 @@ The operating systems selected are iOS and Android. These are the operating syst
 
 For each of the systems, you are asked to test on the latest available version of the system. 
 
-The assistive technology versions to be used will be the latest available on the operating system selected. 
+The assistive technology versions to be used will be the latest available on the selected operating system. 
 
-When the application is intended for a public whose equipment is controlled, the tests will have to be carried out on a test environment adapted to the context of the controlled environment.
+When the application is intended for a public whose equipment is managed, the tests will have to be carried out on a test environment adapted to the context of the managed environment.
 
 <table>
 	<caption>Mobile test environment </caption>
@@ -22,14 +22,14 @@ When the application is intended for a public whose equipment is controlled, the
 	</tr>
 </table>
 
-The [Methodology](methodologie.md) section of this framework contains resources to help you install and configure the various test tools. 
+The [Methodology](methodologie.md) section of this framework contains resources to help you install and configure the various testing tools. 
 
 #### About Android 
 
-The Android system is unique in that it can receive additional application layers depending on the manufacturer operating the system. For example, an Android system on a phone of brand X will be different from an Android system on a phone of brand Y. However, accessibility settings and the presence of the screen reader do not seem to be affected. It is therefore not necessary to carry out tests for the Android system on a particular model of terminal.
+The Android system is unique in that it can receive additional application layers depending on the manufacturer operating the system. For example, an Android system on a phone of brand X will be different from an Android system on a phone of brand Y. However, accessibility settings and the presence of the screen reader do not seem to be affected. It is therefore not necessary to carry out tests for the Android system on a particular device model.
 
-#### Controlled environment
+#### Managed environment
 
-When the application is intended to be distributed and used in a controlled environment, the test environment (baseline) must be made up of the configurations (assistive technology, operating system) actually used in the controlled environment.
+When the application is intended to be distributed and used in a managed environment, the test environment (baseline) must be made up of the configurations (assistive technology, operating system) actually used in the managed environment.
 
-For example, if the application is distributed exclusively in an iOS environment, the tests will have to be carried out only with iOS terminals and the assistive technologies that depend on them, by the agents on this platform. This test environment replaces the test environment used in the uncontrolled environment.
+For example, if the application is distributed exclusively in an iOS environment, the tests will have to be carried out only with iOS terminals and the assistive technologies that depend on them, by the agents on this platform. This test environment replaces the test environment used in the unmanaged environment.
