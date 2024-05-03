@@ -36,4 +36,4 @@ Special cases can be managed:
 
 In this situation, the criterion is not applicable.
 
-In the case of PDF documents, if there is no accessible alternative version, they must comply with the [framework for evaluating the accessibility of documents in PDF format (RAPDF)](../rapdf1/index.html).
+In the case of PDF documents, if there is no accessible alternative version, they must comply with the [PDF accessibility assessment framework (RAPDF)](../rapdf1/index.html).

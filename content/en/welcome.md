@@ -2,7 +2,7 @@
 <div class="left-column">
 
 Welcome to the Grand Duchy of Luxembourg's digital accessibility portal. Here you will find a range of resources to help you make your websites and mobile applications accessible to all, including
-- the [Web Accessibility Evaluation Framework (RAWeb 1)](raweb1/index.html);
+- the [Web Accessibility Assessment Framework (RAWeb 1)](raweb1/index.html);
 - the [Mobile Application Accessibility Assessment Framework (RAAM) version 1](raam1/index.html). 
 
 As part of the accessibility process, Luxembourg public bodies must produce an accessibility statement for each website and application published. [This tool allows you to easily generate your accessibility statements](tools/decla.html).

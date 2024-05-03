@@ -1970,12 +1970,12 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 1. For each file offered for download in an office format, check that an alternative version is presented as accessible.
 1. If the alternative is offered in an office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- download the file containing the proposed alternative; 
-	- if this file is in PDF format, check that it complies with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
+	- if this file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If the alternative is proposed in the application, check that the content complies with this framework.
 1. Otherwise, for documents in office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- upload the file; 
-	- if the file is in PDF format, check that it complies with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
+	- if the file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If this is the case, the criterion is validated.
 
@@ -2390,7 +2390,7 @@ The criterion does not apply to features integrated into the platform.
 	- any other content that acts as documentation (this could be a pdf document or an external HTML page readable in a web browser).
 1. If this is the case, check for each item of documentation: 
 	- if it is a web page, that it complies with [RAWeb1](../raweb1/criteres.html); 
-	- if it is an office document in PDF format, that it complies with the [framework for evaluating the accessibility of documents in PDF format (RAPDF 1)](../rapdf1/index.html).
+	- if it is an office document in PDF format, that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
 	- if it is an office document in another format, that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1;
 	- if it is an application screen, that the present framework is complied with (the **[Requirements](../obligations.html)** page also details that screens relating to documentation must be included in the evaluation sample).
 1. If this is the case, the criterion is validated.

@@ -1,4 +1,4 @@
-# Web Accessibility Evaluation Framework (RAWeb) for Luxembourg
+# Web Accessibility Assessment Framework (RAWeb) for Luxembourg
 
 This repository contains the __reference files__ of the [RAWeb](https://accessibilite.public.lu/fr/raweb1/index.html).
 

@@ -1,4 +1,4 @@
-Some of the tests in the framework for evaluating the accessibility of documents in PDF format are carried out using a dedicated test tool and the assistive technologies made available on the platforms.
+Some of the tests in the PDF accessibility assessment framework are carried out using a dedicated test tool and the assistive technologies made available on the platforms.
 
 ### Test environment
 

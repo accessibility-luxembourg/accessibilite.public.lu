@@ -51,7 +51,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <h5>Protection against the use of assistive technologies</h5>
     <p>The PDF format offers a number of options for protecting documents, for example against modification. One of these options protects the document against the use of assistive technologies by people with disabilities. This option can be activated by mistake and should be avoided overall.</p>
 </aside>
-<p>The analysis focused essentially on the three most blocking accessibility problems. There are, of course, many other potential accessibility problems (see the <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> framework for evaluating the accessibility of documents in PDF format for all the criteria to be met for producing accessible PDFs), but tagging is a prerequisite. If it is missing, a PDF is immediately considered not accessible.</p>
+<p>The analysis focused essentially on the three most blocking accessibility problems. There are, of course, many other potential accessibility problems (see the <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> PDF accessibility assessment framework for all the criteria to be met for producing accessible PDFs), but tagging is a prerequisite. If it is missing, a PDF is immediately considered not accessible.</p>
 <h4>The results</h4>
 <h5>General</h5>
 <p>We analysed 25,398 PDF files, representing a volume of 42 GB and over 471,000 pages. PDF documents represent 95% of the office files downloaded from the sites analysed. The remaining 5% were mainly documents from the Microsoft Office suite.</p>

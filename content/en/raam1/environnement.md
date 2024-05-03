@@ -1,4 +1,4 @@
-Some of the tests in the framework for evaluating the accessibility of mobile applications are carried out using the assistive technologies available on the platforms.
+Some of the tests in the mobile applications accessibility assessment framework are carried out using the assistive technologies available on the platforms.
 
 ### Test environment 
 
