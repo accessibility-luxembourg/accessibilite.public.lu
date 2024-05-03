@@ -3,7 +3,7 @@ Inspecting the code of a document in PDF format can only be done using <span lan
 
 This is why the chosen approach is to test the presence of certain elements using a dedicated tool (PAC 2021) or directly on the interface itself by means of voice output tests using a screen reader.
 
-For example, when the interface contains a graphic element conveying information, the criterion requires verification that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is not prescriptive**) setting out a possible method of assessing the criterion.
+For example, when the interface contains a graphic element conveying information, the criterion requires verification that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is non-normative**) setting out a possible method of assessing the criterion.
 
 ### Example resources
 
