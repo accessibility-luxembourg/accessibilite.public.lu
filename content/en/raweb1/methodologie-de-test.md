@@ -10,7 +10,7 @@ eleventyNavigation:
 
 This document has been drawn up as part of the resources to accompany the introduction of version 1 of the Web Accessibility Assessment Framework (RAWeb).
 
-It is intended for anyone wishing to check that web content complies with the RAWeb. It is a test methodology that documents the steps involved in checking whether or not a RAWeb criterion is compliant. This methodology is therefore to be used in addition to the RAWeb's technical framework and cannot be used on its own. It does not replace a thorough reading of the technical framework, nor does it replace training in the RAWeb.
+It is intended for anyone wishing to check that web content complies with the RAWeb. It is a test methodology that documents the steps involved in checking whether or not a RAWeb criterion is compliant. This methodology is therefore to be used in addition to the RAWeb technical framework and cannot be used on its own. It does not replace a thorough reading of the technical framework, nor does it replace training in the RAWeb.
 
 For each of the tests of a criterion, there is a corresponding test procedure. The implementation of this procedure may sometimes require the use of specific tools, otherwise a browser is sufficient to perform most of the tests.
 A list of tools is also provided to assist in carrying out the tests. They have been selected both because they are frequently used by experts in the field and because they make it easier to find certain results.

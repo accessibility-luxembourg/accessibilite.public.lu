@@ -3,9 +3,9 @@
 According to the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector bodies must be accessible. 
 The [Information and Press Service (SIP)](https://sip.gouvernement.lu/) is responsible for assessing their accessibility.
 
-In this context, the Web Accessibility Assessment Framework (RAWeb) has been defined as the accessibility framework for all public sector bodies affected by the law.
+In this context, the Web Accessibility Assessment Framework (RAWeb) has been defined as the accessibility framework for all public sector bodies in the scope of the law.
 
-The RAWeb's technical method makes it possible to check that a web page - i.e. all HTML content (HTML4, XHTML1 and HTML5) - complies with the success criteria of [European standard EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) to establish the level of legal requirements in terms of digital accessibility.
+The RAWeb technical method makes it possible to check that a web page - i.e. all HTML content (HTML4, XHTML1 and HTML5) - complies with the success criteria of [European standard EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) to establish the level of legal requirements in terms of digital accessibility.
 
 The RAWeb technical method provides an operational framework for checking compliance with accessibility requirements.
 
@@ -17,7 +17,7 @@ Some tests, in particular those concerning user interface components developed i
 
 The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1](../raam1/index.html).
 
-The current version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service (SIP)](https://sip.gouvernement.lu/) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
+The current version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service](https://sip.gouvernement.lu/) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
 If you find a fault with this framework, you can create a ticket in this repository. 
 
 ### Contents

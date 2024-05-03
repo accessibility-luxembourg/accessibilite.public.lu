@@ -16,7 +16,7 @@ This site uses customer cookies, which are small text files used to analyse info
 
 They are deposited by the site in a directory provided for this purpose on the user's computer. In particular, they contain the name of the server that wrote it, an identifier in the form of a unique number and an expiry date. The unique identifier enables the site to recognise the user's computer on each visit. Session cookies are deleted from the user's computer when the session is closed. However, persistent cookies remain on the user's computer for 1 month after the end of the session.
 
-Users can decide for themselves whether or not this website's server is authorised to store cookies on their computer. They may, at any time, set their browser options so that cookies are not accepted and stored. They can also delete stored cookies at any time via their browser (see the [Cookie Charter](#cookie-charter))
+Users can decide for themselves whether or not the server hosting this website is authorised to store cookies on their computer. They may, at any time, set their browser options so that cookies are not accepted and stored. They can also delete stored cookies at any time via their browser (see the [Cookie Charter](#cookie-charter))
 
 The use of certain site functions may be limited or deactivated if the user refuses the site's cookies. Users are therefore advised to set their browser to accept cookies from the site.
 
@@ -115,7 +115,7 @@ This site may use client cookies, which are small text files that make it possib
 
 Users can decide for themselves whether or not the Website server is authorised to store cookies on their computer. They may at any time set their browser options so that cookies are not accepted and stored. In addition, users can delete stored cookies at any time via their browser.
 
-The use of certain functions on this site may be limited or deactivated if the user refuses the site's cookies. Users are therefore advised to set their browser to accept cookies from the site.
+The use of certain functions on this site may be limited or deactivated if the user refuses the cookies from this website. Users are therefore advised to set their browser to accept cookies from the site.
 
 #### What are cookies and what are they used for?
 
