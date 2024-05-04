@@ -43,7 +43,7 @@ These components should not be used, as their output is generally unsatisfactory
 Form field labels present in the same document and requiring the same information to be entered must be worded unambiguously so that the user understands that the information they are required to communicate is the same.
 
 #### Cryptic content
-This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*{lang=en}) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
+This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
 
 Here are a few examples:
 - emoticon: :), ^^, O_o;

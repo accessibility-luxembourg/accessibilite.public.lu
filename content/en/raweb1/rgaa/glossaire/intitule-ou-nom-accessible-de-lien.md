@@ -56,7 +56,7 @@ However, care must be taken as this calculation algorithm is not yet taken into 
 
 Note 1: a link label will be considered as non-explicit if the "accessible name" does not include the [visible label](#visible-label) of the link.
 
-Note 2: due to the possible configuration of technical aids allowing the "accessible name" derived from the content of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. A link title will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
+Note 2: due to the possible configuration of assistive technologies allowing the "accessible name" derived from the content of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. A link title will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
 
 Note 3: In the case of several links with different destinations whose "accessible name" is identical. The link title alone will be considered non-explicit if the link context does not allow them to be differentiated.
 

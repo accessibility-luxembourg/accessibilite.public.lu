@@ -16,7 +16,7 @@
 	<h4>Disproportionate burden</h4>
 	<p>We have placed a component on the <a href="../newsletter.html">Newsletter</a> page, allowing you to subscribe to our newsletter. Making this form fully accessible now represents a disproportionate burden. The same content is published on our <a href="../news/feed.xml">RSS feed</a>, and subscribing to this feed is an accessible alternative.</p> 
 	<h3>Preparation of this accessibility statement</h3>
-	<p> This statement was prepared on 14 August 2020. The declarations contained in this statement are accurate and based on an actual evaluation of this website compliance with the requirements defined in <a href="https://accessibilite.public.lu/en/raweb1/">RAWeb 1</a>, such as a self-assessment done by the Information and Press Service. The declaration was last reviewed on 25 January 2024. 
+	<p> This statement was prepared on 14 August 2020. The declarations contained in this statement are accurate and based on an actual evaluation of this website compliance with the requirements defined in <a href="https://accessibilite.public.lu/en/raweb1/">RAWeb 1</a>, such as a self-assessment done by the Information and Press Service. The statement was last reviewed on 25 January 2024. 
 	</p>
 	<h3>Feedback and contact details</h3>
 	<p>If you notice a lack of accessibility, send us an email to 
@@ -34,7 +34,7 @@
 		<a href="http://www.ombudsman.lu/">the Ombudsman</a> of the Grand Duchy of Luxembourg. 
 	</p>
 	<hr>
-		<p><small>This declaration is based on the model document defined in the 
+		<p><small>This statement is based on the model document defined in the 
 			<a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1523" hreflang="en">implementing decision (EU) 2018/1523</a>. This model is © European Union, 1998-2020 and is licensed under 
 			<a href="https://creativecommons.org/licenses/by/4.0/" hreflang="en" lang="en">Creative Commons Attribution 4.0 International</a> licence.
 		</small></p>

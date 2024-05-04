@@ -6,12 +6,12 @@ In this context, the framework for assessing the accessibility of mobile applica
 
 The RAAM provides an operational framework for checking compliance with accessibility requirements. It can therefore be used to check that a mobile application complies with the criteria described in the European standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for the following sections: 
 
-- 5 *Generic requirements*{lang=en}
-- 6 *ICT with two-way voice communication*{lang=en}
-- 7 *ICT with video capabilities*{lang=en}
-- 10 *Non-web documents*{lang=en}
-- 11 *Software*{lang=en}
-- 12 *Documentation and support services*{lang=en}
+- 5 *Generic requirements*
+- 6 *ICT with two-way voice communication*
+- 7 *ICT with video capabilities*
+- 10 *Non-web documents*
+- 11 *Software*
+- 12 *Documentation and support services*
 
 It includes 107 control criteria. 
 

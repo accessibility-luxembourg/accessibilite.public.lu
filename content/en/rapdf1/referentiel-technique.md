@@ -65,7 +65,7 @@ Only the content of the criteria and tests has normative value.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each [information conveying](glossaire.md#conveying-information) image have a [text alternative](glossaire.md#text-alternative)? {id="crit-1-2"}
 - **[Test 1.2.1](#test-1-2-1)** Does each [information conveying](glossaire.md#conveying-information) image satisfy one of these conditions? {id="test-1-2-1"}
@@ -83,11 +83,11 @@ Only the content of the criteria and tests has normative value.
 5. If this is not the case, check that the image is immediately followed by a link to a text alternative (LINK element).
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-1-3"}
 - **[Test 1.3.1](#test-1-3-1)** For each [conveying information](glossaire.md#conveying-information) image with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-1-3-1"}
@@ -102,11 +102,11 @@ Only the content of the criteria and tests has normative value.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the image is associated.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-4"}
 - **[Test 1.4.1](#test-1-4-1)** Does each [information-conveying](glossaire.md#conveying-information) image that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-4-1"}
@@ -124,13 +124,13 @@ Only the content of the criteria and tests has normative value.
 5. If this is not the case, check that each image is accompanied by an adjacent link providing access to the detailed description.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-descriptiond), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each [information conveying](glossaire.md#conveying-information) image with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
@@ -146,13 +146,13 @@ Only the content of the criteria and tests has normative value.
 4. Check that the detailed description adjacent to or accessible via an adjacent link includes all the information contained in the image.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions {id="test-1-6-1"}?
@@ -174,7 +174,7 @@ Only the content of the criteria and tests has normative value.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossaire.md#text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
 - **[Test 1.7.1](#test-1-7-1)** Each [text image](glossaire.md##text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative (image)](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
@@ -196,12 +196,12 @@ In these situations, the criterion does not apply:
 4. If this is not the case, check that the image is accompanied by a link (LINK element) enabling you to consult an alternative text version of the document in which the image of text is replaced.
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.5 Text as an image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text):
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7);
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*.
 
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
@@ -224,14 +224,14 @@ In these situations, the criterion does not apply:
     - The indication given by a layout is accompanied by an icon with a relevant alternative.
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
     - [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14);
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
 
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
@@ -259,12 +259,12 @@ In these situations, the criterion does not apply.
 3. If this is not the case, check that there is a way of obtaining a version of the document with sufficient contrast.
 4. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum):
     - [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html);
     - [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.3 Contrast (minimum)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.4.3 Contrast (minimum)*.
 
 #### [Criterion 2.3](#crit-2-3) [AA] Are the colours used in the graphic elements conveying information sufficiently contrasting (excluding special cases)? {id="crit-2-3"}
 - **[Test 2.3.1](#test-2-3-1)** Does the contrast ratio of each colour required to understand a graphic element with the [adjacent colours](glossaire.md#adjacent-colours), meet one of these conditions (excluding special cases)?{id="test-2-3-1"}
@@ -297,12 +297,12 @@ In these situations, the criterion does not apply:
 5. If this is not the case, check that there is a way of obtaining a version of the document with sufficient contrast.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.11 Non-text content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast):
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html);
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*.
 
 ### [Topic 3](#topic-3): Tables {id="topic-3"}
 
@@ -323,12 +323,12 @@ In these situations, the criterion does not apply:
 5. If not, check that there is an adjacent link to a document containing an alternative to the complex data table.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
 
 #### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="crit-3-2"}
 - **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="test-3-2-1"}
@@ -347,7 +347,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
 
 #### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table) are the [headers](glossaire.md#header-table) correctly declared? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** For each [data table](glossaire.md#data-table), does each [header](glossaire.md#header-table) use a TH element? {id="test-3-3-1"}
@@ -362,12 +362,12 @@ In these situations, the criterion does not apply:
 4. Check in PAC that each cell used as a header is correctly structured (TH element).
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6);
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
 #### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still comprehensible? {id="crit-3-4"}
 - **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still comprehensible? {id="test-3-4-1"}
@@ -382,11 +382,11 @@ In these situations, the criterion does not apply:
 4. Check in PAC that when the cells are browsed in the order in which they are presented, the content remains understandable.
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.2 Meaningful sequence*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.2 Meaningful sequence*.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
 - **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
@@ -405,7 +405,7 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
 ### [Topic 4](#topic-4): Links {id="topic-4"}
 
@@ -438,12 +438,12 @@ In these situations, the criterion does not apply:
 3. Click on the links and check that the associated resources are identical.
 4. If they are, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
 
 #### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have a title? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have a heading? {id="test-4-2-1"}
@@ -461,13 +461,13 @@ In these situations, the criterion does not apply:
 6. Check in PAC that the complex form has a populated alternative (ALT element).
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*{lang=en}, *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*, *10.1.1.1 Non-text content*.
 
 ### [Topic 5](#topic-5): Information structure {id="topic-5"}
 
@@ -498,13 +498,13 @@ In these situations, the criterion does not apply:
 2. Check that each title provides a satisfactory description of the content to which it relates.
 3. If so, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
 - WCAG 2.1 [2.4.6 Headers and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}, *10.2.4.6 Headings and labels*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.2.4.6 Headings and labels*.
 
 #### [Criterion 5.2](#crit-5-2) [A] Does all content presented in the form of lists use a [list style](glossaire.md#list-style)? {id="crit-5-2"}
 - **[Test 5.2.1](#test-5-1-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
@@ -528,11 +528,11 @@ In these situations, the criterion does not apply:
 2. For each list to be ordered, check that each list item is associated with an index. 
 3. If this is the case, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
 
 #### [Criterion 5.3](#crit-5-3) [A] [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, is this rule respected? {id="crit-5-3"}
@@ -550,11 +550,11 @@ In these situations, the criterion does not apply:
     - blocks of text where each line is presented in the form of a paragraph (P element).
 4. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
 ### [Topic 6](#topic-6): Presentation of information {id="topic-6"}
 
@@ -585,7 +585,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 3. Check that the tab order is consistent: the tab items are presented in a logical and consistent order.
 4. If this is the case, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
@@ -594,7 +594,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 - WCAG 2.1 [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*{lang=en}, *10.2.1.1 Keyboard*{lang=en}, *10.2.4.3 Focus order*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*, *10.2.1.1 Keyboard*, *10.2.4.3 Focus order*.
 
 #### [Criterion 6.2](#crit-6-2) [A] Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** For each change to the type or style of a character that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
@@ -619,29 +619,29 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 3. Check that the information conveyed by means of positioning or the presence of a special character is associated with an equivalent text indication. 
 4. If this is the case, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics):
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.3 Sensory characteristics*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.3.3 Sensory characteristics*.
 
 #### [Criterion 6.3](#crit-6-3) [A] Is every link indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) visible in relation to the surrounding text? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Does each link indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and the *Color Contrast Analyser*{lang=en} tool
+###### With Acrobat Reader and the *Color Contrast Analyser* tool
 
 1. Open the PDF file.
 2. Identify links inserted in blocks of text (paragraphs, titles, lists, etc.) and indicated only by colour.
 3. Using the Color Contrast Analyser tool, check that the contrast ratio between the font colour of the link and the font colour of the surrounding text is greater than or equal to 3:1.
 4. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
@@ -662,7 +662,7 @@ In these situations, the criterion is not applicable:
 3. If not, check that there is a table of contents in the left-hand side panel ("bookmark" icon) of Acrobat Reader.
 6. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.4.5 Multiple Access (MA)](https://www.w3.org/Translations/WCAG21-fr/#multiple-ways):
     - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2);
@@ -688,11 +688,11 @@ In this case, the criterion is not applicable.
 3. Check that the "Title" field is filled in.
 4. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
 #### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
 - **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
@@ -711,11 +711,11 @@ In this case, the criterion is not applicable.
 3. Check that the text entered in the "Title" field is relevant.
 4. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
 ### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
@@ -740,7 +740,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.2](#crit-9-2) [A] Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-9-2"}
 - **[Test 9.2.1](#test-9-2-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-9-2-1"}
@@ -758,11 +758,11 @@ In this case, the criterion is not applicable.
 5. If this is not the case, check that the complex form is immediately followed by a link providing access to a text alternative (LINK element).
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.3](#crit-9-3) [A] For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-9-3"}
 - **[Test 9.3.1](#test-9-3-1)** For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-9-3-1"}
@@ -777,11 +777,11 @@ In this case, the criterion is not applicable.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the complex form is associated.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.4](#crit-9-4) [A] Does each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
 - **[Test 9.4.1](#test-9-4-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
@@ -799,11 +799,11 @@ In this case, the criterion is not applicable.
 5. If this is not the case, check that each one is accompanied by an adjacent link providing access to the detailed description.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
 - **[Test 9.5.1](#test-9-5-1)** Does each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
@@ -819,11 +819,11 @@ In this case, the criterion is not applicable.
 4. Check that the adjacent detailed description or the one that can be consulted via an adjacent link includes all the information contained in the complex form.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex form](glossaire.md#complex-form), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
 - **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex form](glossaire.md#complex-form) satisfy these conditions {id="test-9-6-1"}?
@@ -841,11 +841,11 @@ In this case, the criterion is not applicable.
 5. Check that the alternative for the complex shape contains an explicit reference to the legend.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative?{id="test-9-7-1"}
@@ -863,7 +863,7 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="crit-9-8"}
 - **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="test-9-8-1"}
@@ -877,11 +877,11 @@ In this case, the criterion is not applicable.
 4. Check that the proposed alternative provides the same information as the cryptic content.
 6. If it does, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.9](#crit-9-8) [A] Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
 - **[Test 9.9.1](#test-9-9-1)** Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="test-9-9-1"}
@@ -895,13 +895,13 @@ In this case, the criterion is not applicable.
 4. Check that the duration of the flashing or movement is less than or equal to 5 seconds.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.2.2 Pause, stop, hide (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide):
     - [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html);
     - [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html);
     - [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.2 Pause, stop, hide*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.2.2 Pause, stop, hide*.
 
 ### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
 #### Introduction{class=no-summary}
@@ -935,13 +935,13 @@ However, a test by a person with a disability using his or her own assistive tec
     - a name is rendered vocally.
 3. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
  - WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.4.1.2 Name, role, value*.
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
@@ -958,7 +958,7 @@ However, a test by a person with a disability using his or her own assistive tec
     - and contains at least the visible label.
 3. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels):
     - [G131](https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html).
@@ -967,7 +967,7 @@ However, a test by a person with a disability using his or her own assistive tec
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*, *10.2.5.3 Label in name*, *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
@@ -982,7 +982,7 @@ However, a test by a person with a disability using his or her own assistive tec
 4. Check that the visible labels are also consistent.
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.2.4 Consistent identification (AA)](https://www.w3.org/Translations/WCAG21-fr/#consistent-identification):
     - [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html).
@@ -999,12 +999,12 @@ However, a test by a person with a disability using his or her own assistive tec
 2. Check that the visible labels are attached to the fields with which they are associated.
 3. If so, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html);
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
 - **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-input-field) meet these conditions {id="test-10-5-1"}
@@ -1033,7 +1033,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 4. With NVDA, use the tab key to activate each field and check that the mandatory nature of the input is rendered vocally.
 5. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
     - [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html).
@@ -1041,7 +1041,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*{lang=en}, *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
 #### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-input-field), is the expected data type and/or format available? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions {id="test-10-6-1"}
@@ -1062,13 +1062,13 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - is spoken when the field is activated.
 7. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions {id="test-10-7-1"}
@@ -1088,11 +1088,11 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - it is spoken when the field is activated.
 6. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*.
 
 #### [Criterion 10.8](#crit-10-8) [AA] Is the [input control](glossaire.md#input-control) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Does the [input control](glossaire.md#input-control) meet these conditions? {id="test-10-8-1"}
@@ -1118,11 +1118,11 @@ In these situations, the criterion is not applicable:
     - that the real input example is played back vocally when the field is activated.
 5. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.3 Suggestion after an error (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
 
 
 #### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
@@ -1137,12 +1137,12 @@ In these situations, the criterion is not applicable:
 3. Check that a title is rendered vocally.
 4. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
-- EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
 
 #### [Criterion 10.10](#crit-10-10) [A] Is the title of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions {id="test-10-10-1"}
@@ -1160,7 +1160,7 @@ In these situations, the criterion is not applicable:
     - that the visible label is contained in the voice output label.
 4. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name):
     - [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html);
@@ -1168,7 +1168,7 @@ In these situations, the criterion is not applicable:
  - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html);
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*, *10.4.1.2 Name, role, value*.
 
 #### [Criterion 10.11](#crit-10-11) [AA] For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="crit-10-11"}
 - **[Test 10.11.1](#test-10-11-1)** For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="test-10-11-1"}
@@ -1188,11 +1188,11 @@ In these situations, the criterion is not applicable:
     - or explicitly confirm the modification or deletion of this data using a dedicated mechanism (e.g. a checkbox).
 4. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data):
     - [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99);
     - [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.4 Error prevention (legal, financial, data)*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03): *10.3.3.4 Error prevention (legal, financial, data)*.
 
 

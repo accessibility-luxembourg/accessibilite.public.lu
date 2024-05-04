@@ -7,4 +7,4 @@ The framework for assessing the accessibility of documents in PDF format has bee
 - [PDF form creation and distribution](https://helpx.adobe.com/fr/acrobat/using/creating-distributing-pdf-forms.html)
 - [Creating and checking PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/fr/acrobat/using/create-verify-pdf-accessibility.html)
 - [Making your Word documents accessible to people with disabilities](https://support.microsoft.com/fr-fr/office/rendre-vos-documents-word-accessibles-aux-personnes-atteintes-d-un-handicap-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
-- *[How to Create Accessible LibreOffice files](https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files)*{lang=en}
+- *[How to Create Accessible LibreOffice files](https://wiki.documentfoundation.org/Accessibility/Creating_Accessible_LibreOffice_Files)*

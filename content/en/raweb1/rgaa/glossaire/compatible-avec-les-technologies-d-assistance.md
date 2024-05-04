@@ -4,7 +4,7 @@ title: Compatible with assistive technologies
 
 Content or functionality must be compatible with assistive technologies and with the accessibility functions of browsers and other user agents via an accessibility API.
 
-This concerns both the technology and its functionalities and uses:
+This concerns both the technology and its features and uses:
 
 - The way in which web technology is used must be compatible with assistive technologies. This means that the way the technology is used has been tested for interoperability with users of assistive technologies in the language(s) of the content;
 - The technology runs natively in widely distributed user agents that are, themselves, compatible with accessibility (such as HTML and CSS) or with a widely distributed plug-in that is, itself, compatible with accessibility.

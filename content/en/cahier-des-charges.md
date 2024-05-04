@@ -1,6 +1,6 @@
 <script src="../../../js/cdc.js"></script>
 
-Digital accessibility is often seen as an additional cost when the first contact with this discipline occurs on an existing project for which accessibility had not previously been taken into account. By way of comparison with the construction industry, it is often said that it is much more expensive to add a lift to an existing building than to plan for it from the outset.
+Digital accessibility is often seen as an additional cost when the first contact with this discipline occurs on an existing project for which accessibility had not previously been taken into account. By way of comparison with the construction industry, it is often said that it is much more expensive to add a lift to an existing building than to plan for it from the start.
 
 In the field of digital accessibility, the situation is very similar. The earlier a concern of this kind is integrated into a project plan, the better it is integrated and the lower the costs: this is what the "[shift left](https://feather.ca/shift-left/)" methodology recommends, among others.
 
@@ -37,15 +37,15 @@ The CONTRACT HOLDER must undertake to do everything necessary to achieve this le
 
 #### Minimum requirements
 
-Taking into account the characteristics of the project as defined in this contract, the CONTRACTOR must ensure that the developments, content and functionalities present a level of compliance at least equal to 80%.
+Taking into account the characteristics of the project as defined in this contract, the CONTRACTOR must ensure that the developments, content and features present a level of compliance at least equal to 80%.
 
 This minimum requirement does not replace the requirement linked to the legal level (i.e. a compliance rate of 100%), but constitutes the threshold below which a failure on the part of the service provider could be observed.
 
 This minimum requirement concerns all the functions and content developed by the CONTRACT HOLDER, as well as the capacity of any content editing functions to produce compliant content.
 
-This minimum level of requirement does not apply to content produced by the ORGANISM's own teams or to [content that may be subject to exemptions](https://accessibilite.public.lu/fr/obligations.html#contenus-exemptés) as defined by law.
+This minimum level of requirement does not apply to content produced by the ORGANISM's own teams or to [content that may be subject to exemptions](https://accessibilite.public.lu/en/obligations.html#contenus-exemptés) as defined by law.
 
-For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/fr/obligations.html#derogation-for-disproportionate-burden) for the CONTRACT HOLDER, any exemption for disproportionate burden must be validated by the ORGANIZATION.
+For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/en/obligations.html#derogation-for-disproportionate-burden) for the CONTRACT HOLDER, any exemption for disproportionate burden must be validated by the ORGANIZATION.
 
 #### Verification
 
@@ -65,7 +65,7 @@ In this case, the service provider will be the technical contact with the CONTRA
 
 Candidates must provide all the necessary information within the framework of this contract, indicating precisely the methodology, processes and resources put in place to meet these requirements.
 
-Particular attention will be paid to the methodology and processes put in place to guarantee the conformity of the developments, content and functionalities presented for delivery; this may include, for example (non-exhaustive list):
+Particular attention will be paid to the methodology and processes put in place to guarantee the conformity of the developments, content and features presented for delivery; this may include, for example (non-exhaustive list):
 
 - The control phases (design, development, acceptance before delivery, etc.);
 - The means of control (internal audit, audit by an external third party);
@@ -73,7 +73,7 @@ Particular attention will be paid to the methodology and processes put in place 
 - The tools used for the controls (automatic tools, assistive technologies);
 - If compliance certificates are proposed, a sample certificate should be provided.
 
-#### Points to watch regarding technologies
+#### Caution points about technologies
 
 Some of the requirements defined in this document that are essential to the project may require the use of specific technologies that may be difficult to make fully accessible.
 
@@ -90,13 +90,13 @@ Candidates are free to provide any other details, documents or examples of deliv
 
 In this document you will find the various sections which are commented on below:
 
-- **Accessibility:** this clause sets out the general principle of the accessibility requirement and the legal frame.
-- **Compliance and legal level:** compliance is measured against frameworks. There is one for the web and another for mobile applications. Depending on the scope of your project, you can adapt this section. If for any reason these frameworks cannot be used (for example, the service provider does not speak the language used in the framework), compliance can be assessed against the European standard, which is available in English.
+- **Accessibility:** this clause sets out the general principle of the accessibility requirement and the legal framework.
+- **Compliance and legal level:** compliance is measured against frameworks. There is one for the web and another for mobile applications. Depending on the scope of your project, you may adapt this section. If for any reason these frameworks cannot be used (for example, the service provider does not speak the language used in the framework), compliance can be assessed against the European standard, which is available in English.
 - **Minimum requirements:** this section defines a minimum level of compliance below which the service provider may be found to have failed. It also contains various derogations relating to the responsibility of the parties involved or provided for by law.
 - **Verification:** the organisation may have the service provider's work independently verified. In all cases, we recommend that such an audit be carried out independently of the service provider. This ensures that the assessment is unbiased and that the service provider is not taken at his word. An accessibility audit is also a prerequisite for the [accessibility statement](/en/obligations.html#declaration-daccessibilité), which is compulsory for public sector websites and mobile applications in Luxembourg.
 - **Expert support for the organisation:** the organisation may call on the services of an expert at any stage of the project. Collaboration is expected between the contractor and this expert.
 - **Response elements:** Accessibility must be taken into account at all stages of the project. The idea here is to know what resources the service provider has implemented to ensure a good level of compliance.
-- **Points to watch about technologies:** Applicants are asked to anticipate and describe the complexities involved in ensuring compliance with certain technologies. These points of attention may subsequently be used to prioritise compliance activities or to manage [exemptions for disproportionate burden](/en/obligations.html#exemptions-for-disproportionate burden), which must be referenced in the accessibility statement.
+- **Caution points about technologies:** Applicants are asked to anticipate and describe the complexities involved in ensuring compliance with certain technologies. These points of attention may subsequently be used to prioritise compliance activities or to manage [exemptions for disproportionate burden](/en/obligations.html#exemptions-for-disproportionate burden), which must be referenced in the accessibility statement.
 
 In general, references to the CONTRACT HOLDER and the ORGANISATION must have been defined in advance in your specifications.
 

@@ -1,7 +1,7 @@
 ### Introduction
-Each EU Member State may define its own simplified control method, but this method must meet the requirements set out in [Implementing Decision EU 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). The objective of this simplified control method is to detect non-compliances, it does not aim at the completeness of the in-depth control. This method is based on a [subset of RAWeb criteria](./audit-simpl.html) applied to a sample of 3 pages.
+Each EU Member State may define its own simplified control method, but this method must meet the requirements set out in the [Implementing Decision EU 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). The goal of this simplified control method is to detect non-compliances, it does not aim at the completeness of the in-depth control. This method is based on a [subset of RAWeb criteria](./audit-simpl.html) applied to a sample of 3 pages.
 
-### Simplified site control method
+### Simplified website control method
 
 #### Recommended tools for testing
 The testing method can be carried out without the following tools. However, implementing decision EU 2018/1524 strongly encourages the implementation of semi-automated tests. We therefore recommend the following tools to conduct the tests: 
@@ -25,29 +25,29 @@ The sample of pages to be tested is 3 pages. We recommend the following three pa
 - A page with special content: a video, a table, a complex image.
 
 Pages containing too much content that are out of scope should be avoided.
-If non-conformities are detected for a criterion listed below, it is not necessary to test all 3 pages for this criterion.
+If non-compliances are detected for a criterion listed below, it is not necessary to test all 3 pages for this criterion.
 We are only considering web pages; all downloadable documents are outside the scope of this method.
 
 #### General assessment
 Some elements of the site cannot be checked using the simplified control criteria proposed here, but they do have an impact on the way in which the results are interpreted. This assessment must be carried out for the site as a whole.
 The following criteria must be assessed and appear in a dedicated section of the report:
 
-- Quantity of content out of scope: it is especially important to highlight content out of scope that contains functions or information that are essential to users (online procedures, access to information, etc.). Too much content out of scope could jeopardise the assessment of compliance.
-- Quantity and type of office documents (Word, Excel, PDF): here the quantity and type of documents are two important indicators. The more content there is to download, the more likely it is that users will not be able to access the information. This lack of access is all the more damaging when the office documents are necessary to complete a procedure.
+- Quantity of out of scope content: it is especially important to highlight out of scope content that contains functions or information that are essential to users (online procedures, access to information, etc.). Too much out of scope content could jeopardise the compliance assessment.
+- Quantity and type of office documents (Word, Excel, PDF): here the quantity and type of documents are two important indicators. The more content there is to download, the more likely it is that users will not be able to access the information. This lack of access is more damaging when the office documents are necessary to complete a procedure.
 - The presence of procedures essential to users behind an inaccessible identification procedure.
 
 
 #### Evaluation of the sample
-We must assess each criterion in the checklist described below. The only aim is to list non-conformities.
+We must assess each criterion in the checklist described below. The only aim is to list non-compliances.
 We start the assessment by running the automated tests, manually checking the results of the automated tests and then carrying out the manual tests.
-If no non-conformities are identified by the automated tests for a given criterion, then a more comprehensive manual test is run. However, if the automated test has already identified an error, then the more comprehensive manual test is no longer necessary.
+If no non-compliances are identified by the automated tests for a given criterion, then a more comprehensive manual test is run. However, if the automated test has already identified an error, then the more comprehensive manual test is no longer necessary.
 We suggest filling in the audit grid as the audit is carried out. If a test fails on a page, we stop the test and document it; there is no need to test other pages.
 When all the checklist criteria have been tested, it is necessary to summarise the audit results in the report.
 
 #### Checklist
 ##### Semi-automatically testable criteria
 Run the tests with the Axe extension and record only the results corresponding to the following Axe rules. The Axe rule identifier can be seen in the URL displayed when hovering over each problem.
-As good practices do not strictly speaking correspond to accessibility problems, they can be deactivated in the Axe extension settings. The correspondence between the Axe rules and the RAWeb criteria is available in the table below and on the [page containing all the criteria for the simplified tests](./audit-simpl.html).
+As good practices do not strictly speaking correspond to accessibility problems, they can be deactivated in the Axe extension settings. The mapping between the Axe rules and the RAWeb criteria is available in the table below and on the [page containing all the criteria for the simplified tests](./audit-simpl.html).
 
 ##### Criteria that can be tested manually
 
@@ -57,7 +57,7 @@ To run the manual tests, use the RAWeb test methodology (a link is provided in e
 If an accessibility problem is detected during the manual audit and does not correspond to one of these criteria, it is recommended that this problem be mentioned in the report.
 
 <table>
-<caption>Correspondence table between Axe rules and RAWeb criteria</caption>
+<caption>Mapping table between Axe rules and RAWeb criteria</caption>
 <tbody>
 <tr>
 <th scope="col" >
@@ -75,7 +75,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>area-alt</p>
 </td>
 <td >
-<p lang="en">Active &lt;area&gt; elements must have alternate text</p>
+<p>Active &lt;area&gt; elements must have alternate text</p>
 </td>
 <td >
 <p>1.1 or 1.2</p>
@@ -86,7 +86,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-allowed-attr</p>
 </td>
 <td >
-<p lang="en">Elements must only use allowed ARIA attributes</p>
+<p>Elements must only use allowed ARIA attributes</p>
 </td>
 <td >
 <p>8.2</p>
@@ -97,7 +97,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-hidden-body</p>
 </td>
 <td >
-<p lang="en">aria-hidden='true' must not be present on the document body</p>
+<p>aria-hidden='true' must not be present on the document body</p>
 </td>
 <td >
 <p>10.8</p>
@@ -108,7 +108,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-hidden-focus</p>
 </td>
 <td >
-<p lang="en">ARIA hidden element must not contain focusable elements</p>
+<p>ARIA hidden element must not contain focusable elements</p>
 </td>
 <td >
 <p>10.8</p>
@@ -119,7 +119,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-required-attr</p>
 </td>
 <td >
-<p lang="en">Required ARIA attributes must be provided</p>
+<p>Required ARIA attributes must be provided</p>
 </td>
 <td >
 <p>8.2</p>
@@ -130,7 +130,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-required-children</p>
 </td>
 <td >
-<p lang="en">Certain ARIA roles must contain particular children</p>
+<p>Certain ARIA roles must contain particular children</p>
 </td>
 <td >
 <p>8.2</p>
@@ -141,7 +141,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-required-parent</p>
 </td>
 <td >
-<p lang="en">Certain ARIA roles must be contained by particular parents</p>
+<p>Certain ARIA roles must be contained by particular parents</p>
 </td>
 <td >
 <p>8.2</p>
@@ -152,7 +152,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-roledescription</p>
 </td>
 <td >
-<p lang="en">Use aria-roledescription on elements with a semantic role</p>
+<p>Use aria-roledescription on elements with a semantic role</p>
 </td>
 <td >
 <p>8.2</p>
@@ -163,7 +163,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-roles</p>
 </td>
 <td >
-<p lang="en">ARIA roles used must conform to valid values</p>
+<p>ARIA roles used must conform to valid values</p>
 </td>
 <td >
 <p>8.2</p>
@@ -174,7 +174,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-valid-attr</p>
 </td>
 <td >
-<p lang="en">ARIA attributes must conform to valid names</p>
+<p>ARIA attributes must conform to valid names</p>
 </td>
 <td >
 <p>8.2</p>
@@ -185,7 +185,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Aria-valid-attr-value</p>
 </td>
 <td >
-<p lang="en">ARIA attributes must conform to valid values</p>
+<p>ARIA attributes must conform to valid values</p>
 </td>
 <td >
 <p>8.2</p>
@@ -196,7 +196,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Blink</p>
 </td>
 <td >
-<p lang="en">&lt;blink&gt; elements are deprecated and must not be used</p>
+<p>&lt;blink&gt; elements are deprecated and must not be used</p>
 </td>
 <td >
 <p>13.8</p>
@@ -207,7 +207,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Button-name</p>
 </td>
 <td >
-<p lang="en">Buttons must have discernible text</p>
+<p>Buttons must have discernible text</p>
 </td>
 <td >
 <p>11.9</p>
@@ -218,7 +218,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Bypass</p>
 </td>
 <td >
-<p lang="en">Page must have means to bypass repeated blocks</p>
+<p>Page must have means to bypass repeated blocks</p>
 </td>
 <td >
 <p>12.7</p>
@@ -229,7 +229,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Color-contrast</p>
 </td>
 <td >
-<p lang="en">Elements must have sufficient color contrast</p>
+<p>Elements must have sufficient color contrast</p>
 </td>
 <td >
 <p>3.2</p>
@@ -240,7 +240,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Definition-list</p>
 </td>
 <td >
-<p lang="en">&lt;dl&gt; elements must only directly contain properly-ordered &lt;dt&gt; and &lt;dd&gt; groups, &lt;script&gt;, &lt;template&gt; or &lt;div&gt; elements</p>
+<p>&lt;dl&gt; elements must only directly contain properly-ordered &lt;dt&gt; and &lt;dd&gt; groups, &lt;script&gt;, &lt;template&gt; or &lt;div&gt; elements</p>
 </td>
 <td >
 <p>8.2</p>
@@ -251,7 +251,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Dlitem</p>
 </td>
 <td >
-<p lang="en">&lt;dt&gt; and &lt;dd&gt; elements must be contained by a &lt;dl&gt;</p>
+<p>&lt;dt&gt; and &lt;dd&gt; elements must be contained by a &lt;dl&gt;</p>
 </td>
 <td >
 <p>8.2</p>
@@ -262,7 +262,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Duplicate-id-active</p>
 </td>
 <td >
-<p lang="en">IDs of active elements must be unique</p>
+<p>IDs of active elements must be unique</p>
 </td>
 <td >
 <p>8.2</p>
@@ -273,7 +273,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Duplicate-id-aria</p>
 </td>
 <td >
-<p lang="en">IDs used in ARIA and labels must be unique</p>
+<p>IDs used in ARIA and labels must be unique</p>
 </td>
 <td >
 <p>8.2</p>
@@ -284,7 +284,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Frame-title</p>
 </td>
 <td >
-<p lang="en">Frames must have an accessible name</p>
+<p>Frames must have an accessible name</p>
 </td>
 <td >
 <p>2.1</p>
@@ -295,7 +295,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Headings-order</p>
 </td>
 <td >
-<p lang="en">Heading levels should only increase by one</p>
+<p>Heading levels should only increase by one</p>
 </td>
 <td >
 <p>9.1</p>
@@ -306,7 +306,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Html-has-lang</p>
 </td>
 <td >
-<p lang="en">&lt;html&gt; element must have a lang attribute</p>
+<p>&lt;html&gt; element must have a lang attribute</p>
 </td>
 <td >
 <p>8.3</p>
@@ -317,7 +317,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Html-lang-valid</p>
 </td>
 <td >
-<p lang="en">&lt;html&gt; element must have a valid value for the lang attribute</p>
+<p>&lt;html&gt; element must have a valid value for the lang attribute</p>
 </td>
 <td >
 <p>8.4</p>
@@ -328,7 +328,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Image-alt</p>
 </td>
 <td >
-<p lang="en">Images must have alternate text</p>
+<p>Images must have alternate text</p>
 </td>
 <td >
 <p>1.1 or 1.2</p>
@@ -339,7 +339,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Input-button-name</p>
 </td>
 <td >
-<p lang="en">Input buttons must have discernible text</p>
+<p>Input buttons must have discernible text</p>
 </td>
 <td >
 <p>11.9</p>
@@ -350,7 +350,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Input-image-alt</p>
 </td>
 <td >
-<p lang="en">Image buttons must have alternate text</p>
+<p>Image buttons must have alternate text</p>
 </td>
 <td >
 <p>1.1 or 1.2</p>
@@ -361,7 +361,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Label</p>
 </td>
 <td >
-<p lang="en">Form elements must have labels</p>
+<p>Form elements must have labels</p>
 </td>
 <td >
 <p>11.1</p>
@@ -372,7 +372,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Link-name</p>
 </td>
 <td >
-<p lang="en">Links must have discernible text</p>
+<p>Links must have discernible text</p>
 </td>
 <td >
 <p>6.2</p>
@@ -383,7 +383,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>List</p>
 </td>
 <td >
-<p lang="en">&lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements</p>
+<p>&lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements</p>
 </td>
 <td >
 <p>8.2</p>
@@ -394,7 +394,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Listitem</p>
 </td>
 <td >
-<p lang="en">&lt;li&gt; elements must be contained in a &lt;ul&gt; or &lt;ol&gt;</p>
+<p>&lt;li&gt; elements must be contained in a &lt;ul&gt; or &lt;ol&gt;</p>
 </td>
 <td >
 <p>8.2</p>
@@ -405,7 +405,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Marquee</p>
 </td>
 <td >
-<p lang="en">&lt;marquee&gt; elements are deprecated and must not be used</p>
+<p>&lt;marquee&gt; elements are deprecated and must not be used</p>
 </td>
 <td >
 <p>13.8</p>
@@ -416,7 +416,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Meta-refresh</p>
 </td>
 <td >
-<p lang="en">Timed refresh must not exist</p>
+<p>Timed refresh must not exist</p>
 </td>
 <td >
 <p>13.1</p>
@@ -427,7 +427,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Object-alt</p>
 </td>
 <td >
-<p lang="en">&lt;object&gt; elements must have alternate text</p>
+<p>&lt;object&gt; elements must have alternate text</p>
 </td>
 <td >
 <p>1.1 ou 1.2</p>
@@ -438,7 +438,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Role-img-alt</p>
 </td>
 <td >
-<p lang="en">[role='img'] elements have an alternative text</p>
+<p>[role='img'] elements have an alternative text</p>
 </td>
 <td >
 <p>1.1 or 1.2</p>
@@ -449,7 +449,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Svg-img-alt</p>
 </td>
 <td >
-<p lang="en">svg elements with an img role have an alternative text</p>
+<p>svg elements with an img role have an alternative text</p>
 </td>
 <td >
 <p>1.1 or 1.2</p>
@@ -460,7 +460,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Td-headers-attr</p>
 </td>
 <td >
-<p lang="en">All cells in a table element that use the headers attribute must only refer to other cells of that same table</p>
+<p>All cells in a table element that use the headers attribute must only refer to other cells of that same table</p>
 </td>
 <td >
 <p>5.7</p>
@@ -471,7 +471,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Th-has-data-cells</p>
 </td>
 <td >
-<p lang="en">All th elements and elements with role=columnheader/rowheader must have data cells they describe</p>
+<p>All th elements and elements with role=columnheader/rowheader must have data cells they describe</p>
 </td>
 <td >
 <p>5.7</p>
@@ -482,7 +482,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Video-caption</p>
 </td>
 <td >
-<p lang="en">&lt;video&gt; elements must have captions</p>
+<p>&lt;video&gt; elements must have captions</p>
 </td>
 <td >
 <p>4.3</p>
@@ -493,7 +493,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Valid-lang</p>
 </td>
 <td >
-<p lang="en">lang attribute must have a valid value</p>
+<p>lang attribute must have a valid value</p>
 </td>
 <td >
 <p>8.8</p>
@@ -504,7 +504,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Region</p>
 </td>
 <td >
-<p lang="en">All page content should be contained by landmarks</p>
+<p>All page content should be contained by landmarks</p>
 </td>
 <td >
 <p>9.2</p>
@@ -515,7 +515,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>Landmark-no-duplicate-main</p>
 </td>
 <td >
-<p lang="en">Document should not have more than one main landmark</p>
+<p>Document should not have more than one main landmark</p>
 </td>
 <td >
 <p>9.2</p>

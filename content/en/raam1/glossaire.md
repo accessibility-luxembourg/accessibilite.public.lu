@@ -607,7 +607,7 @@ A user interface component is an element with which the user can interact, for e
 
 Possibility for the user to control the viewing of time-based media using the keyboard and any pointing device, at least. The following points must be respected:
 
-List of mandatory functionalities for controlling consultation
+List of mandatory features for controlling consultation
 - The multimedia object must always have at least the following functions: play, pause or stop;
 - If the multimedia object has sound, it must have a sound on/off function;
 - If the multimedia object has audio description, it must have a function for controlling the activation and deactivation of audio description. 
@@ -621,7 +621,7 @@ If the player does not allow a second audio track to be included for audio descr
 
 #### Voice-based services
 
-In an oral communication system (e.g. telephony), functionalities may be provided, for example:
+In an oral communication system (e.g. telephony), features may be provided, for example:
 - a voice mailbox (answering machine); 
 - an automatic switchboard that requires you to say a number between 1 and 4 to be redirected to a service,
 - or any other interactive voice server.

@@ -8,12 +8,12 @@ The test platform chosen is <span class="en">Windows</span> version 10, at least
 
 The versions of assistive technologies to be used are the latest available on the operating system selected.
 
-Some tests are carried out directly in [Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M){lang=en}.
+Some tests are carried out directly in [Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M).
 
 #### Test tools
 ##### Dedicated test tool
 
-The dedicated test tool is PAC 2021 [PDF/UA Accessibility Checker - 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/){lang=en}
+The dedicated test tool is PAC 2021 [PDF/UA Accessibility Checker - 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/)
 
 ##### Screen reader used for testing
 

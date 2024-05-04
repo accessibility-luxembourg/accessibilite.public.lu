@@ -4,7 +4,7 @@ According to the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/et
 
 In this context, the PDF framework has been developed to serve as a basis for evaluation and implementation for all public sector bodies in the scope of the law.
 
-The RAPDF provides an operational framework for checking compliance with accessibility requirements. It can therefore be used to check that a PDF document complies with the criteria described in the European standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 *Non-web documents*{lang=en}.
+The RAPDF provides an operational framework for checking compliance with accessibility requirements. It can therefore be used to check that a PDF document complies with the criteria described in the European standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 *Non-web documents*.
 
 It contains 46 control criteria.
 

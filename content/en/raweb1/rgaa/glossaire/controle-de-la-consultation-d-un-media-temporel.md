@@ -4,7 +4,7 @@ title: Viewing control (time-based media)
 
 Possibility for the user to control the viewing of time-based media by means of the keyboard and any pointing device, at least. The following points must be respected:
 
-- List of mandatory functionalities for controlling consultation
+- List of mandatory features for controlling consultation
   - The multimedia object must always have at least the following functions: play, pause or stop;
   - If the multimedia object has sound, it must have a sound on/off function;
   - If the multimedia object has subtitles that are not embedded, it must have a function for controlling the appearance / disappearance of the subtitles;

@@ -12,7 +12,7 @@ Some RAWeb criteria, in particular those in the JavaScript theme, include render
 
 The tests carried out using these combinations (assistive technology, operating system, browser) enable a declaration to be made that an HTML / WAI-ARIA device is "compatible with accessibility" as defined by <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr>.
 
-The combinations have been established on the basis of the list of assistive technologies whose use is sufficiently widespread, or in certain cases where it is provided natively and constitutes the preferred means of accessing information and functionalities.
+The combinations have been established on the basis of the list of assistive technologies whose use is sufficiently widespread, or in certain cases where it is provided natively and constitutes the preferred means of accessing information and features.
 
 ### Computer test environment  (desktop)
 

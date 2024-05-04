@@ -17,7 +17,7 @@
 	- their content is not being played back from another element on the screen.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -35,7 +35,7 @@
 	- or that the information they convey is rendered from another element on the screen.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -59,7 +59,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 	- or that the information retrieved from another element on the screen is relevant.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -75,7 +75,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 1. Check that the alternative rendered by the screen reader makes it possible to understand the function of the graphic element (e.g. "Secret code to enter", "Security code").
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -96,7 +96,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 	- or the presence of another solution for accessing the functionality secured by the CAPTCHA (sending an SMS code, sending a confirmation email, etc.).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -122,7 +122,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 1. Check that the screen reader displays a detailed description.
 1. If it does, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -137,7 +137,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 1. Check that each detailed description is relevant. It should contain all the information required to understand the content of the graphic element. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -162,7 +162,7 @@ The criterion does not apply to the following elements:
     - or that styles and effects cannot be reproduced using [styled text](glossaire.md#styled-text).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.5 Text as an image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.5.1 Images of text*.
@@ -178,7 +178,7 @@ The criterion does not apply to the following elements:
 1. Check that the legend for the graphic element is displayed when the focus reaches the graphic element (the graphic element and the legend are contained in a single element that can be reached by the screen reader).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -210,7 +210,7 @@ The criterion does not apply to the following elements:
 1. Check that equivalent information is retrieved by the screen reader (for example the "selected" status of a green button).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.1.4.1 Use of colour*.
@@ -259,7 +259,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#test
 
 Note: It is possible to use the **[Accessibility Scanner] application (methodologie.md#test-applications)** to carry out a quick evaluation of screen contrasts. The application does not detect all contrast defects, and additional tests following the methodology described above will be necessary.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.3 Contrast (Minimum)*, *11.7 User preferences*.
@@ -320,7 +320,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#test
 
 Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-applications)** application to carry out a rapid assessment of screen contrasts. The application does not detect all contrast defects, and additional tests following the methodology described above will be necessary.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.11 Non-text Contrast*, *11.7 User preference*.
@@ -362,7 +362,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 	1. Check that the contrast ratio between the colours identified is at least 3:1.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum), [1.4.11 Non-textual content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
 - EN 301 549 V3.2.1 (2021-03): *5.2 Activation of accessibility features*, *11.1.4.3 Contrast (Minimum)*, *11.1.4.11 Non-text Contrast*.
@@ -391,7 +391,7 @@ The criterion does not apply to the following elements:
 	- Or the presence of a clearly identifiable adjacent transcript.
 1. If this is the case, the criterion is validated. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
@@ -410,7 +410,7 @@ The criterion does not apply to the following elements:
 1. Check that each text transcript is relevant (all important audio or visual information is present, including dialogue and embedded text).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*.
@@ -441,7 +441,7 @@ The criterion does not apply to the following elements:
 	- or the presence of an alternative version with a synchronised audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
@@ -471,7 +471,7 @@ The criterion does not apply to the following elements:
 	- that it is relevant (all important audio or visual information is present, including dialogue and inset text).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.2.1 Audio only and video only content (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or alternative version for time-based media (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
@@ -499,7 +499,7 @@ The criterion does not apply to the following elements:
 	- or the presence of an alternative version with a synchronised audio description accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.3 Audio description or alternative version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
@@ -526,7 +526,7 @@ The criterion does not apply to the following elements:
 	-  that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.3 Audio description or alternative version for time-based (pre-recorded) media (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
@@ -547,7 +547,7 @@ The criterion does not apply to the following elements:
 	- or that there is an alternative version with synchronised captions accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.2 Subtitles (prerecorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.2 Captions (Prerecorded)*.
@@ -568,7 +568,7 @@ The criterion does not apply to the following elements:
 	- correctly synchronised. If there is no delay between the spoken word and the appearance of the subtitles, the subtitles are correctly synchronised. The reference standard specifies that subtitles should appear within 100 ms of the [caption time stamp](glossaire.md#time-stamp).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.2 Subtitles (pre-recorded) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*.
@@ -589,7 +589,7 @@ The criterion does not apply to the following elements:
 	- or the presence of an alternative version with a synchronised audio description adjacent to or accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio Description (Pre-recorded)*.
@@ -612,7 +612,7 @@ The criterion does not apply to the following elements:
 		- the information conveyed in the audio description is given at the same time as the equivalent visual information appears.
 1. If this is the case, the criterion is met.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.5 Audio Description (Pre-recorded)*.
@@ -633,7 +633,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 	- that the text passage is located outside the media content player.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
@@ -655,7 +655,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 	- or that the volume of the sequence can be controlled by the user, independently of the system volume control.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
@@ -677,29 +677,29 @@ The criterion does not apply when the time-based media is used for decorative pu
 	- if the subtitles are not closed captions*, check that there is a function that allows you to activate and deactivate these subtitles.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard)
 - EN 301 549 V3.2.1 (2021-03): *7.1.1 Captioning playback*, *7.2.1 Audio description playback*, *11.2.1.1.1 Keyboard*.
 
-#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control functionalities presented at the same level as other [primary control](glossaire.md#primary-control-of-a-time-based-media) functionalities? {id="crit-3-14"}
+#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control features presented at the same level as other [primary control](glossaire.md#primary-control-of-a-time-based-media) features? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1):** For each temporal medium, do the alternative control functionalities meet these conditions? {id="test-3-14-1"}
-- For each time-based medium, the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other primary control functionalities;
-- For each time-based medium, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other primary control functionalities.
+**[Test 3.14.1](#test-3-14-1):** For each temporal medium, do the alternative control features meet these conditions? {id="test-3-14-1"}
+- For each time-based medium, the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other primary control features;
+- For each time-based medium, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other primary control features.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Locate pre-recorded time-based media with an alternative (synchronised captions or audio description) on the screen.
-1. If subtitles are present, check that the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other functionalities (such as the playback functionality, for example), i.e. that it is not necessary to perform more actions to trigger subtitles than to trigger the other functionalities. For example, if the play button can be activated from the interface by a simple tap gesture (without the need to activate a first component), the subtitles function should be available in the same way, with a simple tap gesture. If the subtitles function is available from a drop-down menu that needs to be activated (by a tap gesture, for example), it will not be considered to be at the same level because there will be an additional step to perform.
+1. If subtitles are present, check that the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other features (such as the playback functionality, for example), i.e. that it is not necessary to perform more actions to trigger subtitles than to trigger the other features. For example, if the play button can be activated from the interface by a simple tap gesture (without the need to activate a first component), the subtitles function should be available in the same way, with a simple tap gesture. If the subtitles function is available from a drop-down menu that needs to be activated (by a tap gesture, for example), it will not be considered to be at the same level because there will be an additional step to perform.
 1. If audio description is present, check that the function that enables you to activate and deactivate audio description is presented at the same level as the other functions.
 1. If this is the case, the criterion is validated.
 
 Note: Although volume and playback controls may be physical components of the devices (volume buttons on a smartphone for example), it is not required that these devices have physical controls dedicated to activating subtitles and audio description or that these controls, if they exist, are located at the same level.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *7.3 User controls for captions and audio description*.
@@ -725,7 +725,7 @@ Note: Although volume and playback controls may be physical components of the de
 	- whether the key features of captions are retained (for example, if in the original media the captions were coloured according to the speaker, this colouring must be retained in the media resulting from the functionality).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.1.3 Preservation of captioning*.
@@ -751,7 +751,7 @@ Note: Although volume and playback controls may be physical components of the de
 	    - the information conveyed in the audio description is given at the same time as the equivalent visual information appears.
 1. If this is the case, the criterion is met.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.2.3 Preservation of audio description*.
@@ -787,7 +787,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 1. Check that the parameters defined above are applied to the subtitles.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *7.1.4 Captions characteristics, 11.7 User preferences*.
@@ -830,7 +830,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 1. Activate the additional audio track and check that the spoken subtitles correspond to the subtitles displayed.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *7.1.5 Spoken subtitles*.
@@ -850,7 +850,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 	- or that a summary is available before the table, in the form of text preceding the table.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
@@ -864,7 +864,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 1. Check that each summary (of table) is relevant, i.e. that it makes it possible to understand the nature of the data and the construction of the table.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
@@ -880,7 +880,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 1. Check that a title is displayed when the screen reader reaches the table.
 1. If so, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
@@ -894,7 +894,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 1. Check that each data table title is relevant, i.e. that it identifies the nature of the data presented in the table.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
@@ -910,7 +910,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 1. Check that the headings are correctly rendered.
 1. If so, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.6 Row, column, and headers*.
@@ -1023,7 +1023,7 @@ Procedure:
 	- that if the component has a perceptible value (value of a potentiometer), this value is reproduced.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *5.6.1 Tactile or auditory status*, *11.2.4.4 Link Purpose (in context)*, *11.2.5.3.1 Label in Name*, *11.4.1.2.1 Name, role, value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.7 Values*, *11.5.2.8 Label relationships*, *11.5.2.9 Parent-child relationships*, *11.5.2.11 List of available actions*, *11.5.2.12 Execution of available actions*, *11.5.2.16 Modifications of states and properties*, *11.6.2 No disruption of accessibility features*.
@@ -1061,7 +1061,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 1. If it is a modifiable component (input field, check box, potentiometer), check that it can be modified using the keyboard keys.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#when-focused) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
@@ -1087,7 +1087,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 	- or that the context change is initiated by an explicit button or link.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.2.1 At focus (A)](https://www.w3.org/Translations/WCAG21-fr/#on-focus), [3.2.2 At input (A)](https://www.w3.org/Translations/WCAG21-fr/#on-input)
 - EN 301 549 V3.2.1 (2021-03): *11.3.2.1 On Focus*, *11.3.2.2 On Input*.
@@ -1106,7 +1106,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 1. Check that when the status appears, the screen reader renders the information and that this information is understandable.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [4.1.3 Status messages (SA)](https://www.w3.org/Translations/WCAG21-fr/#status-messages)
 - EN 301 549 V3.2.1 (2021-03): *11.4.1.3.1 Status Messages*, *11.5.2.3 Use of accessibility services*, *11.5.2.15 Change notification*.
@@ -1127,7 +1127,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 1. Check that the state of the control is rendered by the screen reader without having to interact with the control.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *5.6.1 Tactile or auditory status, 5.6.2 Visual status*.
@@ -1156,7 +1156,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 1. Check that the text is rendered in the main language of the screen.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.1.1 Language of the page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
 - EN 301 549 V3.2.1 (2021-03) *11.3.1.1.1 Language of software*.
@@ -1188,7 +1188,7 @@ This criterion only checks elements that should not be interactive (text element
 1. Check that the role returned by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and returns "Button", this is an error - no role is returned for the paragraphs).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*.
@@ -1240,7 +1240,7 @@ This criterion only checks elements that should not be interactive (text element
 		- that the text contained in the title makes it possible to understand the content of the section thus titled.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 Headers and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
@@ -1256,7 +1256,7 @@ This criterion only checks elements that should not be interactive (text element
 1. Check that the screen reader plays "List" when it reaches the group of items.
 1. If it does, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
@@ -1276,7 +1276,7 @@ This criterion only checks elements that should not be interactive (text element
 
 Note: In applications, items can be grouped together. For example, in a product catalogue, each item has a title, a price and a description. Instead of having the screen reader focus on each of the 3 items, the application can be designed so that the screen reader only accesses the item as a whole, so that the screen reader displays all the information without the user having to make several gestures to reach the 3 items. This is acceptable (and even encouraged, since it limits the number of actions required to browse the content), but care must be taken to ensure that all the text is rendered by the screen reader. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1.1 Non-text Content*, *11.1.3.1.1 Info and Relationships*, *11.5.2.10 Text*.
@@ -1320,7 +1320,7 @@ The criterion does not apply to the following elements:
 	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.4 Text resizing (AA)](https://www.w3.org/Translations/WCAG21-fr/#resize-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.4.1 Resize Text (AA)*, *11.5.2.3 Use of accessibility services*, *11.7 User preferences*.
@@ -1350,7 +1350,7 @@ The criterion does not apply to the following elements:
 1. Check that the contrast between the font colour of the component and the font colour of the surrounding text is at least 3:1.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
@@ -1368,7 +1368,7 @@ The criterion does not apply to the following elements:
 1. Check that hovering over interactive components in a text environment is indicated by means other than colour (bolding, underlining for example).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
@@ -1390,7 +1390,7 @@ The criterion does not apply to the following elements:
 1. Navigate through the application and assess whether the focus visibility as defined at system level is preserved for all elements of the application.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#when-focused) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.1 Use of Colour*, *11.2.4.7 Focus Visible*, *11.7 User preferences*.
@@ -1408,7 +1408,7 @@ This applies to words or sets of words, text, graphic element conveying informat
 1. If this is not the case, activate the **screen reader** and check that information other than the shape, size or position is retrieved by the screen reader.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics), [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.3 Sensory Characteristics*, *11.1.4.1 Use of Colour*.
@@ -1467,7 +1467,7 @@ When the additional content does not mask or replace any information-bearing con
 	- or as long as the additional content is valid. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.13 Content on mouseover or focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.13 Content on Hover or Focus*.
@@ -1486,7 +1486,7 @@ When the additional content does not mask or replace any information-bearing con
 1. Check that the label remains visible.
 1. If so, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels)
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.6 Headings and Labels*.
@@ -1516,7 +1516,7 @@ When the additional content does not mask or replace any information-bearing con
 1. Check that a label is displayed when the focus of the screen reader is on the form field.
 1. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1 Info and Relationships (A)*, *11.3.3.2 Labels or Instructions (A)*, *11.4.1.2.1 Name, role, value (A)*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.8 Label relationships*.
@@ -1556,7 +1556,7 @@ When the additional content does not mask or replace any information-bearing con
 	- that the visible label is contained in the label returned by the screen reader.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
 - EN 301 549 V3.2.1 (2021-03): *11.2.4.6 Headings and Labels*, *11.2.5.3.1 Label in Name*, *11.3.3.2 Labels or Instructions (A)*, *11.5.2.5 Object information*.
@@ -1571,7 +1571,7 @@ When the additional content does not mask or replace any information-bearing con
 1. For each form field, check that the visible label is attached to the field to which it is linked.
 1. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
@@ -1613,7 +1613,7 @@ When the additional content does not mask or replace any information-bearing con
 	- that the visible label is contained in the label displayed by the screen reader.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.5.3 Label in the name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03): *11.2.5.3.1 Label in Name (A)*, *11.4.1.2.1 Name, role, value (A)*, *11.5.2.5 Object information*, *11.5.2.8 Label relationships*.
@@ -1635,7 +1635,7 @@ When the additional content does not mask or replace any information-bearing con
 	- that the information returned is relevant, i.e. that it enables the nature of the grouping to be understood.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*.
@@ -1665,7 +1665,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	- a visible text near the field indicates that the form field is mandatory.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
@@ -1688,7 +1688,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	- a visible text near the field indicates the expected data type and/or format.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*. 
@@ -1711,7 +1711,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	- that the error message is rendered by the screen reader when focused on the field.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.1.1 Error Identification (A)*.
@@ -1732,7 +1732,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. For each field in error that has a format check, check that the error message includes a real example of an input (for example, for an *e-mail* address, check that the model "jean.schmitt@accessibilite.lu" refers to a real address).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.3 Suggestion after an error (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion). 
 - EN 301 549 V3.2.1 (2021-03): *11.3.3.3 Error Suggestion (AA) *. 
@@ -1753,7 +1753,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*.
@@ -1787,7 +1787,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. On the application form, check that the system offers you an option to fill in the data automatically.
 1. If it does, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.5 Identify the purpose of the input (AA)](https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.5.1 Identify Input Purpose (AA)*.
@@ -1807,7 +1807,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	1. after displaying the updated content, check that the tabulation remains consistent.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.3 Focus Order (A)*.
@@ -1827,7 +1827,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 **An arrival time and a departure time are displayed on the screen in the form of two blocks of visual information (arrival time 17:00; departure time 18:00). The screen reader sequentially reaches "arrival time" then "departure time" then "17:00" and finally "18:00". The reading order does not correspond to the visual order, and the reading order is problematic because it does not allow the information to be linked together.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*.
@@ -1864,7 +1864,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 **Note:** Certain complex elements, often managed by the platform, can call on optimised navigations which generally use the direction arrows to move from one part of the component to another.
 The keyboard trap test is then limited to checking that the component can be reached and that it is possible to move on to the next component or return to the previous component. The actual use of the component is not checked in this criterion.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 No keyboard traps (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*. 
@@ -1888,7 +1888,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 	- configure these keyboard shortcuts by adding a modifier key ( <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.). 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.1.4 Keyboard shortcuts using characters (A)](https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.4.1 Character Key Shortcuts (A)*.
@@ -1905,7 +1905,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 ##### Special cases
 
-The criterion does not apply when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the functionalities linked to the content.
+The criterion does not apply when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1919,7 +1919,7 @@ The criterion does not apply when the time limit is essential, in particular whe
 	- or that the time limit is at least twenty hours.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.2.1 Setting the delay (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Pausing, stopping, hiding (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
@@ -1933,7 +1933,7 @@ The criterion does not apply when the time limit is essential, in particular whe
 
 ##### Special cases
 
-The criterion is not applicable when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the functionalities linked to the content.
+The criterion is not applicable when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1946,7 +1946,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 	- or that the duration of the session is at least twenty hours.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.2.1 Timeout setting (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable*.
@@ -1979,7 +1979,7 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
@@ -1997,7 +1997,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 1. For each file offered for download in a desktop format that has an alternative version presented as accessible, check that both documents (the original document and the accessible version in a desktop format or in the application) offer the same information.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
@@ -2028,7 +2028,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 1. For each cryptic content item that has an alternative, check that the alternative given is relevant (it enables the content or function to be understood).
 1. If it is, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
@@ -2080,7 +2080,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 - the stopping or pausing of moving or flashing content via when focused (the effect is suspended only while focused, but resumes once the focus is lost) or by touching moving content (the effect is suspended only while pressure is applied to the content, but resumes once the pressure is released) are not considered to be compliant processes.
 - in some cases, the movement cannot be stopped, for example a progress bar, in which case the criterion is not applicable.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.2.1 Setting delay (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Pausing, stopping, hiding (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
@@ -2118,18 +2118,18 @@ If the interface is the only means of accessing the proposed service, an alterna
 	- that the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.4 Orientation*.
 
-#### [Criterion 11.10](#crit-11-10) [A] In each screen, are the functionalities that can be activated using a [complex gesture](glossaire.md#complex-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
+#### [Criterion 11.10](#crit-11-10) [A] In each screen, are the features that can be activated using a [complex gesture](glossaire.md#complex-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
 
 ##### Special cases
 
 The criterion does not apply to the following elements:
 - Gestures required by the platform.
-- Functionalities for which a complex gesture is essential (e.g. drawing a signature).
+- features for which a complex gesture is essential (e.g. drawing a signature).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2141,12 +2141,12 @@ The criterion does not apply to the following elements:
 1. Check that there is an alternative method of performing the associated action using a simple gesture, for example pressing a single key on the keyboard or a button. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.5.1 Gestures for pointer control (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures). 
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*.
 
-#### [Criterion 11.11](#crit-11-11) [A] In each screen, are the functionalities that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
+#### [Criterion 11.11](#crit-11-11) [A] In each screen, are the features that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
 
 ##### Special cases
 
@@ -2162,7 +2162,7 @@ The criterion does not apply to actions required by the platform.
 1. Check that the screen or application provides an alternative method of performing the action associated with a single action, for example pressing a button. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A 
 - EN 301 549 V3.2.1 (2021-03) *5.9 Simultaneous user actions*.
@@ -2187,12 +2187,12 @@ The criterion is not applicable when the functionality requires the expected beh
 1. Move your finger outside the interactive zone and check that the associated action is not triggered.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.5.2 Cancellation of pointer action (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.5.2 Pointer Cancellation (A)*.
 
-#### [Criterion 11.13](#crit-11-13) [A] In each screen, can the functionalities involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
+#### [Criterion 11.13](#crit-11-13) [A] In each screen, can the features involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
 
 **[Test 11.13.1](#test-11-13-1):** Does each feature that involves movement to or from the device meet these conditions? {id="test-11-13-1"}
 - The functionality can be triggered using a user interface component;
@@ -2214,7 +2214,7 @@ The criterion is not applicable when
 	- and that the application provides a method for deactivating motion detection (for example, a parameter in the application).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.5.4 Motion Activation (A)](https://www.w3.org/Translations/WCAG21-fr/#motion-actuation)
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*.
@@ -2236,7 +2236,7 @@ The criterion is not applicable when the conversion format does not have the nec
 1. Check that the accessibility information is still present in the converted document (unless the conversion format chosen does not support the accessibility information in the source document).
 1. If this is the case, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *5.4 Preservation of accessibility information during conversion*.
@@ -2287,7 +2287,7 @@ The criterion does not apply:
 	- or that there is a method for setting it to at least 2 seconds (for example, an input field in the application's user parameters).
 1. If this is the case, the test is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *5.7 Key repeat*.
@@ -2321,7 +2321,7 @@ The criterion does not apply:
 	- a description of the elements that do not comply or are not compatible with certain assistive technologies, and the presence of alternatives where appropriate.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *12.1.1 Accessibility and compatibility features*.
@@ -2344,7 +2344,7 @@ The criterion does not apply to features integrated into the platform.
 	- activate this functionality. For example, if a functionality is available that allows access to a simplified language version of the application, then all the components that make up the path to the functionality must be in simplified language.
 1. If this is the case, the criterion is validated. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.2 Activation of accessibility features*.
@@ -2373,7 +2373,7 @@ The criterion does not apply to features integrated into the platform.
 	- or any other application functionality.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *11.6.2 No disruption of accessibility features*.
@@ -2395,7 +2395,7 @@ The criterion does not apply to features integrated into the platform.
 	- if it is an application screen, that the present framework is complied with (the **[Requirements](../obligations.html)** page also details that screens relating to documentation must be included in the evaluation sample).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*.
@@ -2415,7 +2415,7 @@ The criterion does not apply to features integrated into the platform.
 	 - etc.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.2 Accessible content creation*.
@@ -2433,7 +2433,7 @@ The criterion does not apply to features integrated into the platform.
 1. Check that the help with creating accessible content is relevant, i.e. that it enables accessible content to be created.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.2 Accessible content creation*.
@@ -2458,7 +2458,7 @@ The criterion is not applicable when the destination format does not allow the a
 	- that the technology supports the accessibility information for the restructured form of the information (check that the transformation of the information is compatible with the technology, in particular to ensure that this information can be used by assistive technologies).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*.
@@ -2480,7 +2480,7 @@ The criterion is not applicable when the destination format does not allow the a
     - or that the tool provides the author with explanations enabling him to carry out the repair.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.4 Repair Assistance*.
@@ -2495,7 +2495,7 @@ The criterion is not applicable when the destination format does not allow the a
 1. Test compliance with the [RAWeb] criteria (../raweb1/criteres.html) and check that at least one of the templates is fully compliant.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.5 Templates*.
@@ -2510,7 +2510,7 @@ The criterion is not applicable when the destination format does not allow the a
 1. Check that there is an explicit reference to identify them. For example, in the list of templates, compliant templates have an "accessible template" label.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.5 Templates*.
@@ -2540,7 +2540,7 @@ The criterion is not applicable when the destination format does not allow the a
 1. Check that the support service provides information about these features. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *12.2.2 Information on accessibility and compatibility features*.
@@ -2557,7 +2557,7 @@ The criterion is not applicable when the destination format does not allow the a
 	- the provision of simultaneous written or visual translation of oral or audio information, or the provision of a sign language interpreter (use of a relay service).
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *12.2.3 Effective communication*.
@@ -2574,7 +2574,7 @@ The safest way to assess this criterion is to search either the interface or the
 
 An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-G.722/fr) for example seems to be an optimal solution.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.1 Audio bandwidth for speech*.
@@ -2594,7 +2594,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 1. If not, check whether the application can connect to a terminal with real-time text (RTT) functionality (this may be difficult to assess without a real-time communication terminal or if the network used by the terminal does not support real-time text protocols. A first step may be to search the documentation or ask the application publisher directly)
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.1 RTT communication*.
@@ -2610,7 +2610,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 1. If this is the case, check that it is possible to use both modes of communication at the same time, i.e. users can send real-time text messages at the same time as other users are speaking, for example.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.2 Concurrent voice and text*.
@@ -2644,7 +2644,7 @@ The criterion is not applicable when the two-way voice communication functionali
 	- identification of the author of the message.
 1. If this is the case, the criterion is validated. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.2.1 Visually distinguishable display, 6.2.2.2 Programmatically determinable send and receive direction, 6.2.2.3 Speaker identification*.
@@ -2664,7 +2664,7 @@ The criterion is not applicable when the two-way voice communication functionali
 1. Check that a visual indicator appears on the interface to identify that a person is speaking. It is not necessary for this criterion to identify who is speaking, but simply to identify that there is a person speaking. For example, a halo around or an icon near the avatar of the person speaking.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*.
@@ -2679,7 +2679,7 @@ No evaluation method is proposed for this criterion.
 
 **Important note:** This criterion is very complex to assess and requires a certain mastery of all interoperability concepts and standards. If the application you are assessing or developing needs to cover this criterion, we refer you to the full text of criterion *6.2.3 Interoperability* in standard EN 301 549.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.2.3 Interoperability*.
@@ -2695,7 +2695,7 @@ No evaluation method is proposed for this criterion.
 1. Enter text on the first terminal and observe its appearance on the second terminal. The appearance on the second terminal must be instantaneous (less than half a second). Depending on how the functionality works, each character is not sent individually. In fact, if the real-time text (RTT) communication functionality implements word prediction, it is when the desired word is selected that it is sent, not when the first characters used to trigger the suggestion display are entered. A simple observation test may be sufficient to observe the instantaneous appearance on the terminal receiving the written message. 
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.2.4 RTT Responsiveness*.
@@ -2717,7 +2717,7 @@ No evaluation method is proposed for this criterion.
 	- and that this identification is correctly rendered by **the screen reader**.
 1. If this is the case, the criterion is validated. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.3 Caller ID*.
@@ -2732,7 +2732,7 @@ No evaluation method is proposed for this criterion.
 1. Check that the terminal receiving the call has a method enabling sign language users to identify the caller. 
 1. If this is the case, the criterion is validated. 
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.5.6 Speaker identification with video (sign language) communication*.
@@ -2752,7 +2752,7 @@ No evaluation method is proposed for this criterion.
 	- that the actions can be carried out without having to listen or speak, or that there is an alternative to the functionality that can be used without having to listen or speak.
 1. If this is the case, the criterion is validated.
 
-##### Correspondences {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.4 Alternatives to voice-based services*.

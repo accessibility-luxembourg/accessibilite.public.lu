@@ -8,4 +8,4 @@ Examples of accessibility features
 - a font size enlargement device;
 - a component for accessing a simplified language version;
 - special keyboard shortcuts available for certain assistive technologies;
-- gestures or device movements that trigger functionalities.
+- gestures or device movements that trigger features.

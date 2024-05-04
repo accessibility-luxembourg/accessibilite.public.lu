@@ -119,7 +119,7 @@ The use of certain functions on this site may be limited or deactivated if the u
 
 #### What are cookies and what are they used for?
 
-A cookie is a small text file recorded and/or read by your browser on the hard disk of your device (PC, laptop or smartphone, for example) and deposited by the websites you visit. Almost all websites use cookies in order to function properly and optimise their ergonomics and functionalities.
+A cookie is a small text file recorded and/or read by your browser on the hard disk of your device (PC, laptop or smartphone, for example) and deposited by the websites you visit. Almost all websites use cookies in order to function properly and optimise their ergonomics and features.
 
 #### Our cookies
 

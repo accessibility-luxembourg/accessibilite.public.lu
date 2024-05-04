@@ -57,7 +57,7 @@ Legal accessibility requirements are implemented insofar as they do not create a
 
 The disproportionate burden can be invoked when it is reasonably impossible for the organisation to make a content or feature accessible, particularly in cases where making it accessible would compromise the organisation's ability to fulfil its public service mission or achieve its economic objectives.
 
-Content or functionalities that are not made accessible due to a derogation for disproportionate burden shall be accompanied by an alternative enabling the user to access equivalent content or functionalities, as long as the production of this alternative does not itself constitute a disproportionate burden.
+Content or features that are not made accessible due to a derogation for disproportionate burden shall be accompanied by an alternative enabling the user to access equivalent content or features, as long as the production of this alternative does not itself constitute a disproportionate burden.
 
 If the content or functionality relates to the main tasks of a body entrusted with a public service mission, the exemption must be accompanied by an alternative that provides an equivalent service to the user. Unless there is a justified exception, the derogation does not apply to an entire website or mobile application.
 
@@ -105,7 +105,7 @@ The accessibility of applications must be assessed by applying the technical met
 It is possible to use another test method, subject to three conditions:
 
 - ensure that the test method used can be communicated on request to a user or an administration;
-- produce an explicit table of correspondence between the criteria and tests and the chosen reference standard;
+- produce an explicit mapping table between the criteria and tests and the chosen reference standard;
 - indicate this in the accessibility statement.
 
 #### Sample
@@ -268,7 +268,7 @@ For websites, the accessibility statement is published on the website concerned.
 
 For mobile applications, it is available on the website of the organisation that developed the application or appears with other information available when the application is downloaded. 
 
-Public sector bodies shall inform the Information and Press Service of the publication or update of the declaration without any special formalities and within thirty days of its publication or update. The link to the accessibility statement should be sent to the SIP at [accessibilite@sip.etat.lu](mailto:accessibilite@sip.etat.lu)
+Public sector bodies shall inform the Information and Press Service of the publication or update of the statement without any special formalities and within thirty days of its publication or update. The link to the accessibility statement should be sent to the SIP at [accessibilite@sip.etat.lu](mailto:accessibilite@sip.etat.lu)
 
 #### Response to users
 

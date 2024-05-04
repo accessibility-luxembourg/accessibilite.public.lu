@@ -19,7 +19,7 @@ Examples of editing tools
 - application for editing code;
 - application for exporting to web technology format (e.g. software for saving in HTML);
 - application that generates content based on templates, scripts, command lines, etc.;
-- application or functionality of a web page enabling the editing of portions of web pages or applications (typically, blog systems, comment functionalities on websites, forums or wiki systems);
+- application or functionality of a web page enabling the editing of portions of web pages or applications (typically, blog systems, comment features on websites, forums or wiki systems);
 - mail application used to send e-mails.
 
 Examples of editing tools that are not included in the scope:
