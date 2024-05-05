@@ -6,7 +6,7 @@ In the field of digital accessibility, the situation is very similar. The earlie
 
 Many public authorities do not develop their websites and mobile applications in-house, but use the services of external service providers. In this case, it is very common to use a specification to define the requirements and the expected result.
 
-Digital accessibility is a legal requirement, so it must be included in all specifications for a public website or mobile application. However, it doesn't seem very effective to restrict yourself to a sentence like: "The Website must be accessible" This is because the [law on digital accessibility] (https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) is relatively new (2020), and the level of requirements expected is not yet known to everyone.
+Digital accessibility is a legal requirement, so it must be included in all specifications for a public website or mobile application. However, it doesn't seem very effective to restrict yourself to a sentence like: "The Website must be accessible" This is because the [law on digital accessibility](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) is relatively new (2020), and the level of requirements expected is not yet known to everyone.
 
 To help you draw up your requirements, we offer you a set of clauses relating to digital accessibility. These clauses are only an example, and should of course be adapted to the context of your project.
 
