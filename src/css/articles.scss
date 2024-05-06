@@ -269,7 +269,7 @@ body article.news aside.more {
     margin: 0 0 0 auto;
 }
 
-body article.news aside.more h5 {
+body article.news aside.more h4, body article.news aside.more h5 {
     background-color: var(--article_title);
     color: white;
     font: normal 500 1em var(--article_font), sans-serif;

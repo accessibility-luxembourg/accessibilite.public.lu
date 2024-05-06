@@ -1,4 +1,4 @@
-Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://twitter.com/accessibilityLu">Twitter</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.
+Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://www.linkedin.com/company/accessilibity-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://twitter.com/accessibilityLu">Twitter</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.
 
 N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire ci-dessous&nbsp;:
 

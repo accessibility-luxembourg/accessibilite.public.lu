@@ -14,12 +14,12 @@ auteur: Dominique Nauroy
     <p>Le 21 juin, le RAAM souffle ses trois bougies. L’occasion de nous faire part de vos expériences et de vos attentes.</p>
 </div>
 <figure role="group" aria-label="Photo : Getty Images / istockphoto.com / Ivan Pantic" class="pic">
-    <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Image d'illustration représentant un jeune homme apparemment déboussolé devant son téléphone">
+    <img src="../../../../content/news/img/2024-05-RAAM.jpg" alt="Image d'illustration représentant un jeune homme apparemment déboussolé devant son téléphone">
     <figcaption>Photo&#8239;: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
 </figure>
-<p>On ne s’y attendait pas – ou, pour être plus exact, on n’osait trop y croire. Pourtant, trois ans après sa naissance, le RAAM est connu, utilisé, apprécié... au-delà des frontières du Grand-Duché, où il continue d’être une référence active au quotidien dans l’exercice d’évaluation de l’accessibilité des apps mobiles.</p>
+<p>On ne s’y attendait pas – ou, pour être plus exact, on n’osait trop y croire. Pourtant, trois ans après sa naissance, le <a href="../raam1/index.html">RAAM</a> est connu, utilisé, apprécié... au-delà des frontières du Grand-Duché, où il continue d’être une référence active au quotidien dans l’exercice d’évaluation de l’accessibilité des apps mobiles.</p>
 
-<p>Conçu afin de proposer une démarche d’évaluation tenant intégralement compte des critères de la norme européenne EN 301 549, le RAAM propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité, articulé autour de 107 critères de contrôle.</p>
+<p>Conçu afin de proposer une démarche d’évaluation tenant intégralement compte des critères de la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a>, le RAAM propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité, articulé autour de 107 critères de contrôle.</p>
 
 <p>Que convient-il aujourd’hui d’améliorer ? De préciser ? De reformuler ? De compléter ?</p>
 
@@ -28,7 +28,7 @@ auteur: Dominique Nauroy
 <p>Nous vous invitons à compléter le formulaire ci-dessous qui vous posera, en quatre pages et quatre minutes au total, quelques questions sur votre pratique du référentiel. Vous pouvez également nous écrire à l’adresse accessibilite@sip.etat.lu avec, comme sujet, « RAAM : propositions d’amélioration ». À vos plumes !</p>
 
 <div lang="fr" style="max-width: 650px; margin: auto">
-    <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript>Business solutions designed for organizations of all sizes - <a href=https://www.alchemer.com/plans-pricing/>Alchemer</a>. <a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>Please take my survey now</a></noscript><style>.sg-survey{display:none; }</style>
+    <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>
 </div>
 
 <style>
@@ -43,5 +43,13 @@ auteur: Dominique Nauroy
 
     form.sg-survey-form, div.sg-error-message, div.sg-question-set, div.sg-errors, input.sg-button , input.sg-next-button, legend.sg-question-title, legend.sg-question-legend {
         font-family: var(--article_font), sans-serif !important;
+    }
+
+    div.sg-progress-bar-inner {
+        background-color: #333 !important;
+    }
+
+    div.sg-progress-bar-background {
+        background-color: #aaa !important;
     }
 </style>
