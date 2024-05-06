@@ -32,18 +32,16 @@ auteur: Dominique Nauroy
 </div>
 
 <style>
+    h1.sg-title {
+        font: normal 600 1.5em var(--article_font), sans-serif;
+        margin: auto !important;
+    }
 
-h1.sg-title {
-    font: normal 600 1.5em var(--article_font), sans-serif;
-    margin: auto !important;
-}
+    h2.sg-page-title {
+        font: normal 600 1.2em var(--article_font), sans-serif !important;
+    }
 
-h2.sg-page-title {
-    font: normal 600 1.2em var(--article_font), sans-serif !important;
-}
-
-form.sg-survey-form, div.sg-error-message, div.sg-question-set, div.sg-errors, input.sg-button , input.sg-next-button, legend.sg-question-title, legend.sg-question-legend {
-    font-family: var(--article_font), sans-serif !important;
-}
-
+    form.sg-survey-form, div.sg-error-message, div.sg-question-set, div.sg-errors, input.sg-button , input.sg-next-button, legend.sg-question-title, legend.sg-question-legend {
+        font-family: var(--article_font), sans-serif !important;
+    }
 </style>
