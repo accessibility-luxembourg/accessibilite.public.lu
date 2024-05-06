@@ -256,12 +256,12 @@ Il est nécessaire de fournir une alternative sous forme de texte structuré con
 #### Tableau de présentation
 Tableau qui sert à afficher des informations au moyen des cellules sans que ces informations nécessitent la présence d’en-tête de ligne ou de colonne.
 #### Texte en taille normale
-Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras par rapport à la taille par défaut.
+Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras de la taille par défaut.
 
 La taille par défaut est la taille du corps de texte.
 
 #### Texte en taille agrandie
-Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras par rapport à la taille par défaut.
+Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras de la taille par défaut.
 
 #### Titre de document
 Métadonnée permettant de donner un titre au document, généralement renseigné dans les propriétés du document.
