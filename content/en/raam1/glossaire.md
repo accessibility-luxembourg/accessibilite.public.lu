@@ -238,11 +238,11 @@ Application used to create or modify content for distribution to other users. An
 
 An editing tool can be
 - the tool as delivered by the editor;
-- the tool augmented with extensions not developed by the publisher;
+- the tool enhanced with extensions not developed by the publisher;
 - a set of tools.
 
 Examples of editing tools
-- an application for editing and controlling the content of a Website or application, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
+- an application for editing and controlling the content of a website or application, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
 - multimedia editing tools;
 - applications for creating web applications;
 - application for editing code;
@@ -288,7 +288,7 @@ Generally speaking, depending on the development method, it is also possible tha
 
 In most cases, it is not essential for the "Image" role to be rendered. Except in special cases where identification of the role is essential, the absence of a restored role cannot constitute non-compliance.
 
-#### Graphic element providing information
+#### Graphic element conveying information
 
 A [graphic element](#graphic-element) that conveys information needed to understand the content with which it is associated.
 
@@ -297,23 +297,6 @@ A [graphic element](#graphic-element) that conveys information needed to underst
 When a text adjacent to a graphic element contains information about the graphic element (e.g. copyright, date, author, etc.) or is intended to supplement the information provided by the graphic element (e.g. a text associated with an image in an image gallery), it is referred to as a captioned graphic element.
 
 When a graphic element is captioned, it is necessary to associate the legend with the graphic element, so that assistive technologies can treat the graphic element and its legend as a single whole.
-
-#### Text graphic element
-
-[Graphic element](#graphic-element) displaying text.
-
-The use of graphic elements containing text is not recommended. Where it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referentiel-technique.html#crit-1-8) requires that the text be reproduced in this format or that a replacement mechanism allows the user to replace these graphic elements with styled text.
-
-### H
-
-#### Help desk
-
-A help desk can be a 
-- help desk, 
-- a call centre, 
-- technical support,
-- a [relay service](#relay-service),
-- a training service.
 
 ### I
 
@@ -337,14 +320,14 @@ The indication given by colour must be provided
 
 This may be, for example
 - the presence of a visual marker, to indicate the active screen in a navigation menu (indication given by position);
-- a foreground to indicate an active tab (indicated by the shape);
-- changing the font size in a tag cloud (indicated by the size).
-- Or any other similar graphic effect.
+- a foreground to indicate an active tab (indication given by the shape);
+- changing the font size in a tag cloud (indication given by the size);
+- or any other similar graphic effect.
 
 #### Input control (form) 
 
 All the processes used to inform the user 
-- mandatory fields 
+- mandatory fields,
 - expected type or format indications, 
 - input errors in a form. 
 
@@ -477,7 +460,7 @@ Platforms offer users several replacement mechanisms. The activation of these re
 
 There are no replacement mechanisms in Android that are equivalent to those in iOS, or that are sufficiently robust.
 
-The replacement mechanism available on Android ("**Text with high contrast**") is still experimental. Its use is not currently recommended.
+The replacement mechanism available on Android ("**High-contrast text**") is still experimental. Its use is not currently recommended.
 
 ### S
 
@@ -507,23 +490,32 @@ A summary (of table) is a passage of text associated with a complex data table. 
 
 **Note:** although the main users affected are those using screen readers, other users may also benefit from this information, such as certain people with visual or intellectual impairments. In this case, the summary, although hidden by default, should be made visible by means of a button, for example.
 
+#### Support services
+
+A support service can be
+- a help desk, 
+- a call centre, 
+- technical support,
+- a [relay service](#relay-service),
+- a training service.
+
 #### Synchronised audio description (time-based media)
 
 Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by an application device linked to the media player.
 
-**Note 1:** The audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
+**Note 1:** the audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
-**Note 2:** in standard audio description, narration is added during pauses in the dialogue (see also extended audio description)
+**Note 2:** in standard audio description, narration is added during pauses in the dialogue (see also extended audio description).
 
 **Note 3:** when all the information in the video is already given in the audio track, no additional audio description is required.
 
 #### Synchronised captions (media object)
 
-Text of audio information (a character's words, noise important for understanding the action, etc.) present in a time-based medium and displayed synchronously with the flow of the multimedia object.
+Text of audio information (a character's words, important noise to understand the action, etc.) present in a time-based medium and displayed synchronously with the flow of the multimedia object.
 
-**Note 1:** To differentiate between sound sources (different characters, voice-over, etc.), it is recommended that an appropriate mechanism be used (bracketing, italics, explicit announcement such as "voice-over: ...").
+**Note 1:** to differentiate between sound sources (different characters, voice-over, etc.), it is recommended that an appropriate mechanism be used (bracketing, italics, explicit announcement such as "voice-over: ...").
 
-**Note 2:** Subtitling for translation should not be confused with subtitling for the deaf and hard of hearing. These two types of subtitling serve different purposes. Only the presence and relevance of subtitling for the deaf and hard of hearing will ensure compliance.
+**Note 2:** subtitling for translation should not be confused with captioning for the deaf and hard of hearing. These two types of subtitling serve different purposes. Only the presence and relevance of captions for the deaf and hard of hearing will ensure compliance.
 
 ### T
 
@@ -548,6 +540,12 @@ A set of templates is a group of templates that allow different formatting of th
 
 [Graphic element](#graphic-element) used in a test, a CAPTCHA or a graphic element used as a test in a quiz or game. Example: a series of graphic elements presents a detail from a famous painting. You need to recognise the title and painter of each painting. In this situation, it is not possible to give a relevant alternative (for example the name of the painting and/or the painter) without rendering the test unusable. In this case, the alternative must simply give the possibility of identifying the graphic element, for example "test image 1".
 
+#### Text graphic element
+
+[Graphic element](#graphic-element) displaying text.
+
+The use of graphic elements containing text is not recommended. Where it is possible to reproduce the same effects with the technology in which the interface is developed, [criterion 1.8](referentiel-technique.html#crit-1-8) requires that the text be reproduced in this format or that a replacement mechanism allows the user to replace these graphic elements with styled text.
+
 #### Time-based media (audio, video and synchronised)
 
 - Time-based media only audio: sound content (wave, MP3...).
@@ -564,7 +562,7 @@ The video time stamp is the time value declared in the subtitle file.
 
 ```
 1
-00:00:03,000 --&gt; 00:00:06,999
+00:00:03,000 --> 00:00:06,999
 The title should appear when the video reaches 3 seconds.
 ````
 
@@ -573,15 +571,15 @@ The title should appear when the video reaches 3 seconds.
 A toggle control is a control that can have 2 or 3 states, so the user-defined state is persisted to the next state. It can be a screen lock control (the screen is either on or off), or a control for enabling or disabling application notifications.
 
 Examples of toggle controls 
-- a checkbox 
+- a checkbox,
 - a radio button, 
 - a button that can have an enabled or disabled state.
 
 #### Transcript (time-based media)
 
-Textual content associated with time-based media using the appropriate technique (text present in the interface or in a text file located on the same screen or available via a button). This content gives the user access (independently of viewing the multimedia object) to
-- Everything that is said orally.
-- All the descriptive information needed for an equivalent understanding of the action.
+Text content associated with time-based media using the appropriate technique (text present in the interface or in a text file located on the same screen or available via a button). This content gives the user access (independently of viewing the multimedia object) to
+- everything that is said orally;
+- all the descriptive information needed for an equivalent understanding of the action.
 
 This textual information must be presented in the chronological order in which it appears in the time-based media.
 
@@ -610,7 +608,7 @@ Possibility for the user to control the viewing of time-based media using the ke
 List of mandatory features for controlling consultation
 - The multimedia object must always have at least the following functions: play, pause or stop;
 - If the multimedia object has sound, it must have a sound on/off function;
-- If the multimedia object has audio description, it must have a function for controlling the activation and deactivation of audio description. 
+- If the multimedia object has audio description, it must have a function for controlling the activation and deactivation of audio description;
 - If the multimedia object has subtitles, it must have functionality for controlling the activation and deactivation of subtitles.
 
 Each function must be accessible via the keyboard and any pointing device (touch, screen reader, keyboard, mouse, etc.).
@@ -622,8 +620,8 @@ If the player does not allow a second audio track to be included for audio descr
 #### Voice-based services
 
 In an oral communication system (e.g. telephony), features may be provided, for example:
-- a voice mailbox (answering machine); 
-- an automatic switchboard that requires you to say a number between 1 and 4 to be redirected to a service,
+- a voice mailbox (answering machine);
+- an automatic switchboard that requires you to say a number between 1 and 4 to be redirected to a service;
 - or any other interactive voice server.
 
 ### W
@@ -634,9 +632,9 @@ These are web pages (created in HTML and CSS) embedded in a mobile application. 
 
 #### When focused 
 
-When focused, this is the state returned by an element which receives attention following a user action. There are several ways of bringing an element into focus:
+This is the state returned by an element which receives attention following a user action. There are several ways of bringing an element into focus:
 - by activating the element using a pointing device (by touching the screen);
 - by reaching the element using a key on an external keyboard (tab, direction arrow);
 - by reaching the element using an external switch (switch, joystick).
 
-When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the visibility of when focused should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#external-keyboard). 
+When focused in a mobile environment, the focus should be assessed with the appropriate assistive technologies and parameters activated. Simply connecting an external switch (keyboard, switch for example) is not enough for keyboard control to be fully functional. So the focus visibility should only be evaluated when these elements are activated and configured. The [**Methodology**](methodologie.md) page describes the procedures required to [configure an external keyboard](methodologie.md#external-keyboard). 
