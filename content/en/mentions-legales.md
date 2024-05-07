@@ -92,6 +92,27 @@ The duration of data retention does not exceed that required to observe changes 
 The person responsible for this processing is the Information and Press Service.
 
 
+#### Processing related to online surveys
+
+User data is collected on a voluntary basis for the sole purpose of conducting surveys for government agencies. In addition, technical audience measurement data is collected at the same time.
+
+The data is stored for the duration of the survey, plus a few weeks for statistical analysis of the results.
+
+These surveys are carried out directly on the site of a subcontractor, namely alchemer.eu from Alchemer LLC, based in the United States. The data is hosted in Europe. The latter is subject to the same legal obligations regarding the protection of personal data when surveys are intended for or carried out by users from the European Union.
+
+The procedures for implementing these surveys are such that no data is of a nature to identify the user in person. The combination of technical identification data (IP address or information on the user's browser or device), and/or data from several surveys cannot lead to such identification by the subcontractor operating the platform.
+
+The person responsible for this processing and the recipient of the data is the Organization responsible for this site that commissioned the survey.
+
+#### Processing linked to newsletter management
+
+The e-mail address entered when subscribing to the newsletter on this site will be communicated solely for the purposes of newsletter distribution to a subcontractor, namely the company "Mailjet" based in Paris, France, which is subject to the same legal obligations concerning the protection of personal data. To limit abuse, users must validate their registration by clicking on a link sent to the e-mail address provided.
+
+Users may unsubscribe at any time by clicking on the link provided in each e-mail or by contacting the organization responsible for the site. The user's data will be kept for no longer than two weeks following the unsubscribe request, except in cases where partial or total conservation of the data is required by the data controller, in compliance with the relevant legal obligations.
+
+The data controller is the organization responsible for this site.
+
+
 ### Presence on social networks
 
 #### Moderation policy

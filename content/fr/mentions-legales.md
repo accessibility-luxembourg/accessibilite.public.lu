@@ -91,6 +91,25 @@ La durée de conservation de données n’excède pas celle nécessaire pour obs
 
 Le responsable de ces traitements est le service information et presse.
 
+#### Traitements liés aux sondages en ligne
+
+Des données des usagers sont, sur base volontaire, récoltées aux seules fins de sondage pour les administrations étatiques. En outre, des données techniques de mesure d’audience sont collectées en même temps.
+
+La durée de conservation de données est celle de la durée du sondage augmentée de quelques semaines pour l’exploitation statistiques des résultats.
+
+Ces sondages sont effectués directement sur le site d’un sous-traitant, notamment alchemer.eu de la société Alchemer LLC, établie aux Etats-Unis. Les données étant hébergées en Europe. Cette dernière est soumise aux mêmes obligations légales concernant la protection de données à caractère personnel dès lors que les sondages sont destinés ou effectués par des usagers depuis l’Union Européenne.
+
+Les procédures de mise en œuvre de ces sondages sont telles qu’aucune donnée n’est de nature à identifier l’usager en personne. La combinaison de données d’identifiants techniques (adresse IP ou information sur le navigateur ou l’appareil de l’usager), et/ou celles de plusieurs sondages ne peuvent pas mener à cette identification par le sous-traitant opérant la plateforme.
+
+Le responsable de ces traitements et le destinataire des données est l’Organisme responsable de ce site ayant commandé le sondage.
+
+#### Traitements liés à la gestion de la newsletter
+
+L'adresse e-mail saisie lors de l'abonnement à la newsletter de ce site sera communiquée aux seules fins de distribution de la newsletter à un sous-traitant, notamment la société "Mailjet" établie à Paris, France, qui est soumise aux mêmes obligations légales concernant la protection de données à caractère personnel. Pour limiter les abus, l'usager doit valider son inscription en cliquant sur un lien envoyé à l'adresse e-mail donnée.
+
+L'usager peut, à tout moment, se désinscrire via un lien fourni dans chaque e-mail ou en contactant l'organisme responsable du site. La durée de conservation des données de l'usager n'excède pas deux semaines suivant la demande de désinscription, sauf dans les cas où une conservation partielle ou totale des données serait nécessaire au responsable de ces traitements, dans le respect des obligations légales en la matière.
+
+Le responsable de ces traitements est l'organisme responsable de ce site.
 
 ### Présence sur les réseaux sociaux
 

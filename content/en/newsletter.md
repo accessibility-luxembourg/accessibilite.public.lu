@@ -1,4 +1,4 @@
-You can follow our news via our newsletter, our accounts on the <a href="https://mas.to/@accessibilityLu">Mastodon</a> and <a href="https://twitter.com/accessibilityLu">Twitter</a> social networks, and our <a href="./news/feed.xml">RSS feed</a>.
+You can follow our news via our newsletter, our accounts on the <a href="https://www.linkedin.com/company/accessilibity-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> and <a href="https://twitter.com/accessibilityLu">Twitter</a> social networks, and our <a href="./news/feed.xml">RSS feed</a>.
 
 Feel free to subscribe to our newsletter using the form below:
 

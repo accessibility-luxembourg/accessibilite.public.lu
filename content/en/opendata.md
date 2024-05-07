@@ -1,7 +1,12 @@
 On this page you will find all the documents published in *open data* by the SIP as part of its activities on digital accessibility:
 
+### Control 2024
+- [Sample for the 2024 and 2025 Digital Accessibility Audits](https://data.public.lu/en/datasets/echantillons-pour-le-controle-de-laccessibilite-numerique-2024-2025/)
+
 ### Control 2023
-- [Sample for the 2023 digital accessibility audit](https://data.public.lu/en/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2023/)
+- [Sample for the 2023 Digital Accessibility Audit](https://data.public.lu/en/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2023/)
+- [Full digital accessibility audits 2023](https://data.public.lu/en/datasets/audits-complets-de-laccessibilite-numerique-2023/)
+- [Simplified digital accessibility audits 2023](https://data.public.lu/en/datasets/audits-simplifies-de-laccessibilite-numerique-2023/)
 
 ### Control 2022
 - [Sample for the 2022 Digital Accessibility Audit](https://data.public.lu/en/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2022/)

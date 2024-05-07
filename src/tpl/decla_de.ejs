@@ -210,7 +210,7 @@
     <% } %>
     
     <% if (date_renewal !== '') { %>
-        Die Erklärung wurde zuletzt am <span class="basic-information statement-renewal-date"><%= date_renewal %></span> überprüft. 
+        Die Erklärung wurde zuletzt am <span class="basic-information statement-renewal-date"><%= date_renewal.toLocaleDateString('de', {year: 'numeric', month: 'long', day: 'numeric' }) %></span> überprüft. 
     <% } %> 
 </p>
 <% if (renow) { %>
