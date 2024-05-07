@@ -7,7 +7,7 @@ The image is declared as "decorative" (for example in Microsoft Office) or "arte
 #### Adjacent colours
 Colour directly in contact with the colours of the graphic element, such as the background colour or any other colour in direct contact.
 
-Example: in a "one-way" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
+Example: in a "do not enter" traffic sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
 It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrast of graphic elements only evaluates non-textual elements. When it comes to assessing the contrast of text, even if it is present in a graphic element, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
@@ -15,14 +15,14 @@ Not all colours in a graphic element need to be assessed. Only colours that conv
 
 For example, in a pie chart, the contrast ratio between adjacent colours in each sector and between each colour and the background colour should be assessed if this is the only way to recover the information.
 
-On the other hand, if a legend gives the values and all the useful information for each sector in text form, the criterion is no longer applicable, since the information is available by another means.
+On the other hand, if a legend gives the values and all the useful information for each sector as a text, the criterion is no longer applicable, since the information is available by another means.
 
 #### Activation time
 
 Activation time for flashing or moving content: time during which the flashing or movement is active.
 
 #### Alternative text version
-This is text identical to the content of a text image. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the text image is replaced by text.
+Text identical to the content of a text image. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the text image is replaced by text.
 
 ### C
 
@@ -47,7 +47,7 @@ This refers to content written using hijacked characters. For example, emoticons
 
 Here are a few examples:
 - emoticon: :), ^^, O_o;
-- cryptic syntax: m4gic (magic), ama (in my opinion).
+- cryptic syntax: m4gic (magic), imo (in my opinion).
 
 **Note**: hashtags ("#Job") or URLs (https://www.site.sample.com) are not considered to be cryptic content.
 
@@ -57,7 +57,7 @@ Here are a few examples:
 A content structure that displays information in rows and columns using header cells and data cells.
 
 #### Decoration
-A complex image or shape that does not provide any information essential to understanding the content with which it is associated.
+An image or complex shape that does not provide any information essential to understanding the content with which it is associated.
 
 #### Detailed description
 Content associated with an image or complex form, in addition to its alternative, which makes available all of the information contained in the image or complex form.
