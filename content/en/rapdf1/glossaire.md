@@ -42,6 +42,9 @@ These components should not be used, as their output is generally unsatisfactory
 #### Consistent labels
 Form field labels present in the same document and requiring the same information to be entered must be worded unambiguously so that the user understands that the information they are required to communicate is the same.
 
+#### Conveying information
+A complex image or form that contains at least one piece of information essential to understanding the content with which it is associated.
+
 #### Cryptic content
 This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
 
@@ -117,13 +120,6 @@ For example
 
 Other forms of indication by shape, size or position can be used, but it is not possible to enter them here.
 
-#### Conveying information
-A complex image or form that contains at least one piece of information essential to understanding the content with which it is associated.
-
-#### Text image or text as image
-
-Image displaying text.
-
 #### Information provided by colour only
 
 Information conveyed visually by means of colour. For example
@@ -165,11 +161,11 @@ A link can take three different forms:
 - a composite link combining text and an image, in which case the heading consists of the text and the alternative image.
 
 #### Link context
-This is additional information that can be associated with the title of the link by means of keyboard shortcuts or manipulation.
+Additional information that can be associated with the title of the link by means of keyboard shortcuts or manipulations.
 
 In the office environment, the contexts that can be used are
 - the previous title;
-- the sentence or paragraph in which the link appears;
+- the sentence or paragraph in which the link appears.
 
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
 
@@ -178,13 +174,13 @@ The link will be considered explicit when at least one of these contexts provide
 The link title may consist of
 - the link text for text links;
 - the alternative image for image links;
-- a combination of the link text and the alternative image for composite links;
+- a combination of the link text and the alternative image for composite links.
 
 #### Link whose nature is not obvious
 
-This is a link whose title makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
+Link whose title makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
 
-Example of a link whose nature is not obvious: "The general conditions of use of our services have been updated, click to consult them online"
+Example of a link whose nature is obvious: "The general conditions of use of our services have been updated, click to view them online"
 
 If the text "Click to view them online" is a link, its nature is obvious.
 
@@ -204,7 +200,7 @@ By using specific list styles, the reader software can associate each list and i
 
 #### Non-interactive form
 
-This is a document presenting form fields in the form of simple graphic areas, for example
+This is a document presenting form fields as simple graphic areas, for example
 
 Your name: [..........................]
 
@@ -220,14 +216,14 @@ The default size is the size of the body text.
 ### P
 
 #### Playback order
-In an office environment, the playback order is dictated by the order in which content is written. 
+In an office environment, the playback order is determined by the order in which content is written. 
 However, certain bad practices can disrupt the order in which content is rendered.
 
 For example
-- using tabs or spaces to create collage effects;
+- using tabs or spaces to create column effects;
 - using functions that allow you to create text zones positioned freely on the content.
 
-Most desktop publishing programs have functions for managing collocation, "anchoring" or choosing a "skin" to link the content zone to a block of text.
+Most desktop publishing programs have functions for managing columns, "anchoring" or choosing a "skin" to link the content zone to a block of text.
 
 If these functions are not used, the order in which the content is displayed will be inconsistent.
 
@@ -245,7 +241,7 @@ A table used to display information in cells without the need for a column or ro
 ### R
 
 #### Replacement mechanism (enhanced contrast)
-Method that allows the user to obtain a version of the document with sufficient contrast. 
+Method that allows the user to get a version of the document with sufficient contrast. 
 
 The alternative version can be offered in the form of a document in office formats (DOCX, ODT, PDF) or HTML.
 
@@ -273,6 +269,10 @@ Similarly, in a PDF form, the tab order of input fields and buttons can become i
 Text associated with an image or complex form that provides information equivalent to that conveyed by the image or complex form.
 
 **Note**: the text alternative is not necessarily a text that describes the image or complex form. Its purpose is to convey the essential information it provides in text form to people who cannot see the image or complex form.
+
+#### Text image or text as image
+
+Image displaying text.
 
 #### Title hierarchy
 In most office publishing software, the style library proposes a particular style for each level of title, generally up to 8 levels.
