@@ -92,7 +92,7 @@ function genNews(config, lang, outputPath, baseURL, __) {
         $('script, style').remove()
         // urls for images and links should be absolute, because RSS readers usually sandbox the html content
         $('img').each((i,e) => {
-            $(e).attr('src', $(e).attr('src').replace('../../../../content', baseURL+'/fr'))
+            $(e).attr('src', $(e).attr('src').replace('../../../../content', baseURL))
         })
         $('a').each((i,e) => {
             $(e).attr('href', new URL($(e).attr('href'), baseURL+'/'+lang+'/news/').href)
