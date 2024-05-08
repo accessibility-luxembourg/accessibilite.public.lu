@@ -25,7 +25,7 @@ auteur: Dominique Nauroy
 
 <p>Avant de lancer le chantier de sa mise à jour, le SIP entend recueillir les témoignages et doléances de celles et ceux qui connaissent le référentiel, travaillent ou ont travaillé dans ce cadre, dans un contexte privé ou public.</p>
 
-<p>Nous vous invitons à compléter le formulaire ci-dessous qui vous posera, en quatre pages et quatre minutes au total, quelques questions sur votre pratique du référentiel. Vous pouvez également nous écrire à l’adresse accessibilite@sip.etat.lu avec, comme sujet, « RAAM : propositions d’amélioration ». À vos plumes !</p>
+<p>Nous vous invitons à compléter le formulaire ci-dessous qui vous posera, en quatre pages et quatre minutes au total, quelques questions sur votre pratique du référentiel. Vous pouvez également nous écrire à l’adresse <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> avec, comme sujet, « RAAM : propositions d’amélioration ». À vos plumes !</p>
 
 <div lang="fr" style="max-width: 650px; margin: auto">
     <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>

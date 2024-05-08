@@ -1,34 +1,34 @@
 ---
 teaser: 2024-05-RAAM-preview.jpg
 tags:
-- référentiel
+- framework
 - RAAM
 - survey
 auteur: Dominique Nauroy
 ---
 
-<h2>À la ramasse avec le RAAM ?</h2>
-<h3>Le référentiel évaluant l’accessibilité des apps mobiles va s’offrir un petit lifting. Mais avant... dites-nous comment l’améliorer.</h3>
+<h2>Having trouble with RAAM?</h2>
+<h3>The framework for assessing the accessibility of mobile apps is about to get a facelift. But first... tell us how to improve it.</h3>
 <hr>
 <div class="intro">
-    <p>Le 21 juin, le RAAM souffle ses trois bougies. L’occasion de nous faire part de vos expériences et de vos attentes.</p>
+    <p>On 21 June, RAAM celebrates its third birthday. This is your chance to tell us about your experience and expectations.</p>
 </div>
-<figure role="group" aria-label="Photo : Getty Images / istockphoto.com / Ivan Pantic" class="pic">
-    <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Image d'illustration représentant un jeune homme apparemment déboussolé devant son téléphone">
-    <figcaption>Photo&#8239;: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
+<figure role="group" aria-label="Photo: Getty Images / istockphoto.com / Ivan Pantic" class="pic">
+    <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Illustration showing a young man apparently confused in front of his phone">
+    <figcaption>Photo: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
 </figure>
-<p>On ne s’y attendait pas – ou, pour être plus exact, on n’osait trop y croire. Pourtant, trois ans après sa naissance, le <a href="../raam1/index.html">RAAM</a> est connu, utilisé, apprécié... au-delà des frontières du Grand-Duché, où il continue d’être une référence active au quotidien dans l’exercice d’évaluation de l’accessibilité des apps mobiles.</p>
+<p>We didn't expect it - or, to be more accurate, we didn't dare believe it. However, three years after its creation, <a href="../raam1/index.html">RAAM</a> is known, used and appreciated beyond the borders of the Grand Duchy, where it continues to be an active reference in the day-to-day evaluation of the accessibility of mobile apps.</p>
 
-<p>Conçu afin de proposer une démarche d’évaluation tenant intégralement compte des critères de la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a>, le RAAM propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité, articulé autour de 107 critères de contrôle.</p>
+<p>Designed to offer an evaluation approach that takes full account of the criteria in European standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a>, RAAM provides an operational framework for checking compliance with accessibility requirements, based on 107 control criteria.</p>
 
-<p>Que convient-il aujourd’hui d’améliorer ? De préciser ? De reformuler ? De compléter ?</p>
+<p>What needs to be improved? clarified? reformulated? completed?</p>
 
-<p>Avant de lancer le chantier de sa mise à jour, le SIP entend recueillir les témoignages et doléances de celles et ceux qui connaissent le référentiel, travaillent ou ont travaillé dans ce cadre, dans un contexte privé ou public.</p>
+<p>Before launching the process of updating the framework, the SIP intends to gather testimonials and complaints from those who are familiar with the framework, and who work or have worked with it, in the private or public sector.</p>
 
-<p>Nous vous invitons à compléter le formulaire ci-dessous qui vous posera, en quatre pages et quatre minutes au total, quelques questions sur votre pratique du référentiel. Vous pouvez également nous écrire à l’adresse accessibilite@sip.etat.lu avec, comme sujet, « RAAM : propositions d’amélioration ». À vos plumes !</p>
+<p>We invite you to complete the form below, which will ask you, in four pages and four minutes in total, a few questions about your use of the framework. You can also write to us at <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> with the subject "RAAM: suggestions for improvement". Put pen to paper!</p>
 
 <div lang="fr" style="max-width: 650px; margin: auto">
-    <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>
+   <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>
 </div>
 
 <style>
