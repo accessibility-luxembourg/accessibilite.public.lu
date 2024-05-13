@@ -10,4 +10,4 @@ Norm:
 
 #### Special cases
 
-The criterion does not apply to<em lang="en">open</em> captions.
+The criterion does not apply to <em>open</em> captions.
