@@ -12,4 +12,4 @@ Norm:
 
 #### Technical notes
 
-It is possible to use a tag with a WAI-ARIA attribute `role="listbox"` to replace a tag `<select>`. However, it is impossible to create groups of options using WAI-ARIA. As a result, a list requiring a group of options structured using a tag with a WAI-ARIA `role="listbox"` attribute will be considered not to conform to criterion 11.8.
+It is possible to use a tag with a WAI-ARIA `role="listbox"` attribute to replace a `<select>` tag. However, it is impossible to create groups of options using WAI-ARIA. As a result, a list requiring a group of options structured using a tag with a WAI-ARIA `role="listbox"` attribute will be considered not to conform to criterion 11.8.
