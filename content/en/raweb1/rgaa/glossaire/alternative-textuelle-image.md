@@ -41,9 +41,9 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<object type="image/…"> `;
   - `<embed type="image/…"> `.
 
-This order must be used to determine what constitutes the textual alternative.
+This order must be used to determine what constitutes the text alternative.
 
-However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "baseline") that should be considered as the textual alternative.
+However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "baseline") that should be considered as the text alternative.
 
 For example
 

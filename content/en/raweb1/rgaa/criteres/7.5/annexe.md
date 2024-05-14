@@ -15,7 +15,7 @@ Norm:
 
 #### Technical notes
 
-The WAI-ARIA roles `log`, `status` and `alert` implicitly have a WAI-ARIA attribute value `aria-live` and `aria-atomic`. We can therefore consider (in accordance with the WAI-ARIA 1.1 specification) that
+The WAI-ARIA `log`, `status` and `alert` roles implicitly have a WAI-ARIA `aria-live` and `aria-atomic` attribute value. We can therefore consider (in accordance with the WAI-ARIA 1.1 specification) that
 
 - A WAI-ARIA `aria-live="polite"` attribute associated with a status message can be used for a WAI-ARIA `log` role;
 - A WAI-ARIA `aria-live="polite"` attribute and a WAI-ARIA `aria-atomic="true"` attribute associated to a status message can be valid for a WAI-ARIA `status` role;

@@ -45,7 +45,7 @@ There is special case management for test 6.1.5 when
 - Punctuation and capital letters are present in the text of the [visible label](#visible-label): they can be ignored in the accessible name without any consequences;
 - The text of the [visible label](#visible-label) serves as a symbol: the text must not be interpreted literally at the level of the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).
 
-Note: if the visible label represents a mathematical expression, the mathematical symbols can be used literally to label the accessible name (e.g. "A&gt;B"). It is left to the user to work out the correspondence between the expression and what they have to spell, taking into account their knowledge of how their voice input software works ("A greater than B" or "A greater than B").
+Note: if the visible label represents a mathematical expression, the mathematical symbols can be used literally to label the accessible name (e.g. "A&gt;B"). It is left to the user to work out the correspondence between the expression and what they have to spell, taking into account their knowledge of how their voice input software works ("A greater than B" or "A superior to B").
 
 #### Technical notes
 
@@ -56,6 +56,6 @@ When the visible label is supplemented by another expression in the accessible n
 
 For example, if we consider the visible label "Order now" completed in the accessible name by the expression "product X", we could have the following different cases:
 
-- "Order product X now" is valid (good practice);
+- "Order now product X" is valid (good practice);
 - "Product X: order now" is valid;
 - "Order product X now" is invalid.

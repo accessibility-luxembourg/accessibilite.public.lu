@@ -32,4 +32,4 @@ Norm:
 
 #### Technical notes
 
-WAI-ARIA allows titles to be defined using the `heading` role and the `aria-level` attribute. Although it is preferable to use the native HTML title element `<hx>`, the use of the WAI-ARIA `heading` role is compatible with accessibility.
+WAI-ARIA allows titles to be defined using the `heading` role and the `aria-level` attribute. Although it is preferable to use the native HTML `<hx>` title element, the use of the WAI-ARIA `heading` role is compatible with accessibility.

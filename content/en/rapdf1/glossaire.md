@@ -9,7 +9,7 @@ Colour directly in contact with the colours of the graphic element, such as the 
 
 Example: in a "do not enter" traffic sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
-It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrast of graphic elements only evaluates non-textual elements. When it comes to assessing the contrast of text, even if it is present in a graphic element, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
+It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrast of graphic elements only evaluates non-text elements. When it comes to assessing the contrast of text, even if it is present in a graphic element, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
 Not all colours in a graphic element need to be assessed. Only colours that convey information are concerned.
 

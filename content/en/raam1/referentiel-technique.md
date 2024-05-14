@@ -374,8 +374,8 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 ##### Special cases
 
 The criterion does not apply to the following elements:
-- The temporal medium is used for decorative purposes (i.e. it does not provide any information).
-- The temporal medium is itself an alternative to on-screen content (a video in sign language or the vocalisation of a text, for example).
+- The time-based media is used for decorative purposes (i.e. it does not provide any information).
+- The time-based media is itself an alternative to on-screen content (a video in sign language or the vocalisation of a text, for example).
 - Time-based media is used to access an enlarged version.
 - Time-based media is used as a CAPTCHA.
 - Time-based media is part of a test that would be useless if the text transcript, synchronised captions or audio description were provided.
@@ -684,7 +684,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 #### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control features presented at the same level as other [primary control](glossaire.md#primary-control-of-a-time-based-media) features? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1):** For each temporal medium, do the alternative control features meet these conditions? {id="test-3-14-1"}
+**[Test 3.14.1](#test-3-14-1):** For each time-based media, do the alternative control features meet these conditions? {id="test-3-14-1"}
 - For each time-based medium, the functionality that enables subtitles to be activated and deactivated is presented at the same level as the other primary control features;
 - For each time-based medium, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other primary control features.
 
