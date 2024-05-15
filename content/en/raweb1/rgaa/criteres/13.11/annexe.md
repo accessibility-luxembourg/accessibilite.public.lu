@@ -18,7 +18,7 @@ There is special case management when the functionality requires the expected be
 
 #### Technical notes
 
-Two examples of a mechanism used to cancel or abandon an action triggered by a pointing device on a single point on the screen:
+Two examples of a mechanism used to cancel or abort an action triggered by a pointing device on a single point on the screen:
 
 - A modal window for cancelling the action after it has been completed;
 - For a drag and drop function, the action is aborted if the user releases the element outside the target zone.

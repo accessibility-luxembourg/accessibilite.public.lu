@@ -15,7 +15,7 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when the Website consists of a single page or a very limited number of pages (see note). In this case, the criterion does not apply.
+Special cases are managed when the website consists of a single page or a very limited number of pages (see note). In this case, the criterion does not apply.
 
 The criterion also does not apply to pages in a set of pages that are the result of a process or part of a process (a payment or order process, for example).
 
