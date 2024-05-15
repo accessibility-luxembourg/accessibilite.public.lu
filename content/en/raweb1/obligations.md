@@ -3,8 +3,8 @@
 <blockquote><p>Disability is not just one health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives. Overcoming the difficulties faced by people with disabilities requires interventions to remove environmental and social barriers.</p><footer>World Health Organisation</footer></blockquote>
 Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
 
-- perceptible: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
-- usable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; give the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
+- perceivable: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
+- operable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; giving the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
 - understandable: for example, ensuring that pages function in a predictable way; helping users to correct input errors;
 - and robust: for example, optimising compatibility with current and future uses, including assistive technologies.
 
@@ -12,7 +12,7 @@ Digital accessibility involves making websites and mobile applications accessibl
 
 #### Content concerned
 
-According to Articles 1 and 2 of the [Act of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this Act are as follows:
+According to Articles 1 and 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this law are as follows:
 
 - the State;
 - municipalities;
@@ -24,19 +24,19 @@ According to Articles 1 and 2 of the [Act of 28 May 2019](http://legilux.public.
 
 This does not apply to
 
-- websites and mobile applications of public service broadcasters and their subsidiaries and of other bodies or their subsidiaries that carry out public service broadcasting;
-- the websites and mobile applications of non-governmental organisations that do not provide essential services for the public, or services that specifically meet the needs of, or are intended for, people with disabilities;
-- websites and mobile applications of primary and secondary schools or nurseries, with the exception of content relating to essential online administrative functions.
+- websites and mobile applications of public service broadcasters and their subsidiaries, and of other bodies or their subsidiaries fulfilling a public service broadcasting remit;
+- websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities.
+- websites and mobile applications of primary and secondary schools or nurseries, except for the content thereof relating to essential online administrative functions.
 
 Article 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) defines what constitutes a mobile application:
 
-<blockquote><p>application software designed and developed by or on behalf of public sector bodies for use by the general public on mobile devices, such as smartphones, also known as smartphones, or tablets; it does not include the software that controls these devices, i.e. mobile operating systems, or hardware.</p></blockquote>
+<blockquote><p>application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware.</p></blockquote>
 
 #### Exempt content
 
-Certain content is exempt from the accessibility obligation and falls outside the scope of the legal requirement:
+Some content is exempt from the accessibility obligation and falls outside the scope of the legal requirements:
 
-- office file formats published before 23 September 2018, unless the content is required for the purposes of active administrative processes relating to tasks carried out by the public sector body concerned;
+- office files published before 23 September 2018, unless the content is required for the purposes of active administrative processes related to tasks carried out by the relevant public sector body;
 - pre-recorded time-based media published before 23 September 2020;
 - live time-based media;
 - maps and online mapping services, provided that the essential information is provided in an accessible digital form for maps intended for navigation;
