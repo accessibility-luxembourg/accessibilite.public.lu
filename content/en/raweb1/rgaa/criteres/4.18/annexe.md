@@ -7,4 +7,4 @@ Norm:
 
 #### Special cases
 
-The criterion does not apply if the subtitles are embedded in the video<em lang="en">(open captions</em>).
+The criterion does not apply if the subtitles are embedded in the video (open captions).

@@ -1,3 +1,3 @@
 ---
-title: In each web page, is the information-conveying [visible content](#visible-content) still present when the [style sheets](#style-sheet) are deactivated?
+title: On each web page, is the [visible content](#visible-content) conveying information still present when the [style sheets](#style-sheet) are deactivated?
 ---

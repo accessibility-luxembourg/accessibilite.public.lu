@@ -15,5 +15,5 @@ Norm:
 
 Special cases are managed when
 
-- Movement is essential to the functionality (e.g. pedometer);
+- Movement is essential to the feature (e.g. pedometer);
 - Motion detection is used to control functionality via an interface that is compatible with accessibility.

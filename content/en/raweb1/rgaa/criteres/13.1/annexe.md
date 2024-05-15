@@ -34,7 +34,7 @@ Norm:
 
 Special cases are managed when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
 
-In these situations, the criterion is not applicable. For example, refreshing an RSS feed on a page is not an essential time limit; the criterion is applicable. On the other hand, an automatic redirect to the new version of a page from an obsolete URL is essential; the criterion is not applicable.
+In these situations, the criterion is not applicable. For example, refreshing an RSS feed on a page is not an essential time limit: the criterion is applicable. On the other hand, an automatic redirect to the new version of a page from an obsolete URL is essential: the criterion is not applicable.
 
 #### Note
 
