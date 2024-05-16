@@ -70,7 +70,7 @@ Some criteria or themes are applicable to the whole site and not to a particular
 - Theme 16. Help desk services
 </blockquote>
 
-In the section ["Compliance rate with the standard"](../obligations.html#compliante-rate-with-the-standard) on the "Requirements" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
+In the section ["Compliance rate with the standard"](../obligations.html#compliance-rate-with-the-standard) on the "Requirements" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
 
 #### Modification of the computer test environment
 
