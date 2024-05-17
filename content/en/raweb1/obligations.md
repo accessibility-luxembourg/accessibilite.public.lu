@@ -76,11 +76,11 @@ The estimate of resources takes into account
 - profits and miscellaneous income,
 - compulsory expenditure,
 - the wage bill,
-- loans and rental income.
+- loans and rents.
 
 The cost estimate may include capital expenditure, operating expenditure and staff time and qualifications required. Lack of priority, time or knowledge are not legitimate circumstances.
 
-The exemption for disproportionate burden does not exempt the entity from producing an accessibility statement. The content and features that are not accessible on this basis are listed in the accessibility statement for the online service concerned, together with the justification for the derogation and an indication, where appropriate, of an accessible alternative.
+The derogation for disproportionate burden does not exempt the entity from producing an accessibility statement. The content and features that are not accessible on this basis are listed in the accessibility statement for the online service concerned, together with the justification for the derogation and an indication, where appropriate, of an accessible alternative.
 
 When a website or mobile application is simultaneously subject to the accessibility obligations imposed by the law of 28 May 2019, and those prescribed by the legal and regulatory provisions relating to the fight against discrimination of Directive [2000/78/EC of 27 November 2000](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32000L0078) and the national laws transposing it of [28 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/28/n1/jo) and of [29 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/29/n1/jo), the assessment of the scope and level of accessibility obligations, as well as any disproportionate burden, is based on the provisions most favourable to accessibility in each of these two categories of rules. The provisions relating to the fight against discrimination apply to individual and concrete situations, whereas those of the law of 28 May 2019 and of this framework are intended to ensure that public sites and applications are accessible to all users.
 
@@ -106,7 +106,7 @@ It is possible to use another test method, subject to three conditions:
 
 - ensure that the test method used can be communicated on request to a user or an administration;
 - produce an explicit mapping table between the criteria and tests and the chosen reference standard;
-- indicate this in the accessibility statement.
+- indicate this information in the accessibility statement.
 
 #### Sample
 
@@ -120,9 +120,9 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the contact page;
 1. the "accessibility" page;
 1. the "help" page;
-1. the page or set of pages making up the website's [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
+1. the page or set of pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
 1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#help-desk);
-1. the "site map" page;
+1. the "sitemap" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. the set of pages making up a process (for example, an input form or a multi-page transaction);
@@ -140,8 +140,7 @@ The sample on which the audit of a mobile application is carried out covers at l
 1. the legal information screen;
 1. the authentication screen or process;
 1. the contact screen;
-1. the authentication screen;
-1. the screens that make up the application's documentation;
+1. the screens that make up the documentation of the application;
 1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. all the screens that make up a process (for example, an input form or a multi-screen transaction);
@@ -183,8 +182,8 @@ There are 3 reasons why a criterion may not be applicable to a page or screen:
 
   1. The criterion relates to content or functionality that does not exist, for example if the page or screen does not include a video, the criteria relating to videos will not be applicable.
   2. The criterion relates to exempt content or a service which is therefore not subject to the accessibility obligation.
-  3. The criterion concerns content subject to exemption for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
-      Please note: if the content subject to exemption for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
+  3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
+      Please note: if the content subject to derogation for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
 
 The pages or screens are then tested against the applicable criteria. These tests provide
 
@@ -233,9 +232,9 @@ Therefore, although the compliance of this content is not required, it must comp
 - [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each Web page, are sudden changes in luminosity or flashing effects used appropriately?
 - [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each Web page, can each moving or blinking content be controlled by the user?
 
-Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criterion(s) non-compliant.
+Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
 
-The principle of non-interference is identified in standard EN 301 549 in criterion 9.6 WCAG <span lang="en">conformance requirements</span>.
+The principle of non-interference is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
 
 ### Accessibility statement
 
@@ -249,7 +248,7 @@ The accessibility statement includes
     - Full compliance: if all the control criteria in the framework are met;
     - Partial compliance: if at least 50% of the control criteria in the framework have been met;
     - Non-compliance: if there are no valid audit results enabling compliance with the criteria to be measured, or if less than 50% of the control criteria in the framework are complied with;
-- notification of content that is not accessible, with a distinction being made between content that does not comply with the framework, content that is exempt or content that is subject to a waiver on the grounds of disproportionate burden. In the latter case, exemptions must be explained and justified. Where appropriate, the notice should be accompanied by a presentation of the alternatives available;
+- notification of content that is not accessible, with a distinction being made between content that does not comply with the framework, content that is exempt or content that is subject to a disproportionate burden derogation. In the latter case, exemptions must be explained and justified. Where appropriate, the notice should be accompanied by a presentation of the alternatives available;
 - assistance and contact facilities:
     - an accessible mechanism (e-mail address or form) to enable any person to report any accessibility shortcomings to the body concerned and a disabled person to request the relevant information or an accessible alternative solution;
 - mention of the option for the person concerned to refer the matter to the SIP or the ombudsman.

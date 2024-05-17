@@ -140,7 +140,6 @@ L’échantillon sur lequel est réalisé l’audit d’une application mobile p
 1. l’écran des mentions légales ;
 1. l’écran ou le processus d’authentification ;
 1. l’écran de contact ;
-1. l’écran d’authentification ;
 1. les écrans qui constituent la documentation de l’application ;
 1. au moins un écran pertinent pour chaque type de service fourni et toute autre utilisation principale prévue (ex. : rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche ;
 1. au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue ;
