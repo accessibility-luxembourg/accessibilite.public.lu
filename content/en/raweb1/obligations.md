@@ -3,8 +3,8 @@
 <blockquote><p>Disability is not just one health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives. Overcoming the difficulties faced by people with disabilities requires interventions to remove environmental and social barriers.</p><footer>World Health Organisation</footer></blockquote>
 Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
 
-- perceptible: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
-- usable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; give the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
+- perceivable: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
+- operable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; giving the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
 - understandable: for example, ensuring that pages function in a predictable way; helping users to correct input errors;
 - and robust: for example, optimising compatibility with current and future uses, including assistive technologies.
 
@@ -17,35 +17,35 @@ According to Articles 1 and 2 of the [law of 28 May 2019](http://legilux.public.
 - the State;
 - municipalities;
 - bodies governed by public law. According to Article 2, letter d), of the amended law of 8 April 2018 on public contracts, these are bodies with all the following characteristics
-    - it has been set up specifically to meet needs in the general interest that are not of an industrial or commercial nature;
+    - it has been established for the specific purpose of meeting needs in the general interest, not having an industrial or commercial character;
     - it has legal personality; and
     - it is financed for the most part by the State, local authorities or other bodies governed by public law, or its management is subject to supervision by these authorities or bodies, or its administrative, management or supervisory body is made up of members, more than half of whom are appointed by the State, local authorities or other bodies governed by public law.
     - associations formed by one or more of these authorities or one or more of these bodies governed by public law, if these associations have been created specifically to meet needs in the general interest that are not of an industrial or commercial nature;
 
 This does not apply to
 
-- websites and mobile applications of public service broadcasters and their subsidiaries and of other bodies or their subsidiaries that carry out public service broadcasting;
-- the websites and mobile applications of non-governmental organisations that do not provide essential services for the public, or services that specifically meet the needs of, or are intended for, people with disabilities;
-- websites and mobile applications of primary and secondary schools or nurseries, with the exception of content relating to essential online administrative functions.
+- websites and mobile applications of public service broadcasters and their subsidiaries, and of other bodies or their subsidiaries fulfilling a public service broadcasting remit;
+- websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities.
+- websites and mobile applications of primary and secondary schools or nurseries, except for the content thereof relating to essential online administrative functions.
 
 Article 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) defines what constitutes a mobile application:
 
-<blockquote><p>application software designed and developed by or on behalf of public sector bodies for use by the general public on mobile devices, such as smartphones, also known as smartphones, or tablets; it does not include the software that controls these devices, i.e. mobile operating systems, or hardware.</p></blockquote>
+<blockquote><p>application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware.</p></blockquote>
 
 #### Exempt content
 
-Certain content is exempt from the accessibility obligation and falls outside the scope of the legal requirement:
+Some content is exempt from the accessibility obligation and falls outside the scope of the legal requirements:
 
-- office file formats published before 23 September 2018, unless the content is required for the purposes of active administrative processes relating to tasks carried out by the public sector body concerned;
+- office file formats published before 23 September 2018, unless such content is needed for active administrative processes relating to the tasks performed by the public sector body concerned;
 - pre-recorded time-based media published before 23 September 2020;
 - live time-based media;
-- maps and online mapping services, provided that the essential information is provided in an accessible digital form for maps intended for navigation;
-- third-party content that is not funded, developed by or under the control of the public sector body concerned;
-- reproductions of items from heritage collections that cannot be made fully accessible due to
-    - the incompatibility of accessibility requirements with the preservation of the item concerned or the authenticity of the reproduction, for example in terms of contrast; or
-    - the unavailability of automated and cost-effective solutions that would enable the text of manuscripts or other items in heritage collections to be easily transcribed and rendered in the form of content compatible with accessibility requirements;
-- the content of extranets and intranets, i.e. websites that are accessible only to a restricted group of people and not to the general public, published before 23 September 2019 until such time as these websites undergo an in-depth review;
-- the content of websites and mobile applications that are considered to be archives, i.e. they only present content that is not required for the purposes of active administrative processes, nor updated or modified after 23 September 2019.
+- online maps and mapping services, as long as essential information is provided in an accessible digital manner for maps intended for navigational use;
+- third-party content that is neither funded nor developed by, nor under the control of, the public sector body concerned;
+- reproductions of items in heritage collections that cannot be made fully accessible because of either:
+  - the incompatibility of accessibility requirements with either the preservation of the item concerned or the authenticity of the reproduction (e.g. contrast); or
+  - the unavailability of automated and cost-efficient solutions that would easily extract the text of manuscripts or other items in heritage collections and transform it into content compatible with the accessibility requirements;
+- content of extranets and intranets, that is to say, websites that are only available for a closed group of people and not to the - general public as such, published before 23 September 2019, until such websites undergo a substantial revision;
+- content of websites and mobile applications qualifying as archives, meaning that they only contain content that is neither needed for active administrative processes nor updated or edited after 23 September 2019.
 
 #### Reference standard and level of compliance
 
@@ -64,7 +64,7 @@ If the content or functionality relates to the main tasks of a body entrusted wi
 In order to determine the existence of such a burden, the organisation concerned shall take account of the following circumstances in particular:
 
 - the size, resources and nature of the public sector body concerned; and
-- the estimated costs and benefits to the public sector body concerned in relation to the estimated benefit to disabled people, taking into account the frequency and duration of use of the specific website or mobile application.
+- the estimated costs and benefits for the public sector body concerned in relation to the estimated benefits for persons with disabilities, taking into account the frequency and duration of use of the specific website or mobile application.
 
 The size of the organisation is determined by the composition of its workforce, the number, location and distribution of its users or customers, the scale, diversity and volume of its activities and services, and the territorial extent of its operations.
 

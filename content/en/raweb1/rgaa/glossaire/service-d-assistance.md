@@ -1,8 +1,8 @@
 ---
-title: Help desk
+title: Support service
 ---
 
-A help desk can be
+A support service can be
 
 - the feedback mechanism identified in the website's accessibility statement,
 - a help desk,
