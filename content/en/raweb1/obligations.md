@@ -10,9 +10,9 @@ Digital accessibility involves making websites and mobile applications accessibl
 
 ### Reminder of the scope of application
 
-#### Content concerned
+#### Relevant content
 
-According to Articles 1 and 2 of the [Act of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this Act are as follows:
+According to Articles 1 and 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this law are as follows:
 
 - the State;
 - municipalities;
