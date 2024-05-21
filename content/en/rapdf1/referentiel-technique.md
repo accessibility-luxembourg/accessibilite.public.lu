@@ -1,17 +1,17 @@
 ### Introduction {class="no-summary"}
 
-This framework is designed to check that PDF documents produced by desktop publishing software have basic accessibility. The aim is to enable people with disabilities to access and understand content and to use navigation functions.
+This framework is designed to check that PDF documents produced by word processors have basic accessibility. The aim is to enable people with disabilities to access and understand content and to use navigation functions.
 It does not take into account certain types of complex content or structures specific to the PDF format. These can only be edited using Acrobat Pro or similar software.
 
 These types of content include
-- headers and footers 
-- quotations
+- headers and footers,
+- quotations,
 - footnotes,
 - references to additional sources such as bibliographic references.
 
 Specific structures include
 - the language of the document,
-- indications of the language of a text passage
+- indications of the language of a text passage,
 - indications of changes in reading direction,
 - declarations of decorative elements specific to the PDF format,
 - the association of a tooltip with links.
@@ -20,7 +20,7 @@ Form content is covered in an additional theme and reduced to its essential elem
 
 Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (screen readers, page layout software compatible with the PDF format or the Acrobat Pro work environment).
 
-The same applies when the PDF document is produced using specialised software, in particular DTP (Desktop Publishing) software or a specialised publishing chain, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
+The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
 
 ### Type of non-compliant content {class="no-summary"}
 
@@ -47,7 +47,7 @@ Only the content of the criteria and tests has normative value.
 #### [Criterion 1.1](#crit-1-1) [A] Is each [decorative image](glossaire.md#decoration) correctly ignored by assistive technologies? {id="crit-1-1"}
 - **[Test 1.1.1](#test-1-1-1)** Does each [decorative image](glossaire.md#decoration) meet one of these conditions {id="test-1-1-1"}
     - The image has no alternative.
-    - The image is [absent from rendering](glossaire.md#absent-from-playback-decorative-image).
+    - The image is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -67,8 +67,8 @@ Only the content of the criteria and tests has normative value.
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 1.2](#crit-1-2) [A] Does each [information conveying](glossaire.md#conveying-information) image have a [text alternative](glossaire.md#text-alternative)? {id="crit-1-2"}
-- **[Test 1.2.1](#test-1-2-1)** Does each [information conveying](glossaire.md#conveying-information) image satisfy one of these conditions? {id="test-1-2-1"}
+#### [Criterion 1.2](#crit-1-2) [A] Does each image [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-1-2"}
+- **[Test 1.2.1](#test-1-2-1)** Does each image [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-1-2-1"}
     - The image has a text alternative.
     - A link adjacent to the image provides access to a text alternative.
 
@@ -78,7 +78,7 @@ Only the content of the criteria and tests has normative value.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the image conveying information in the original document.
+3. Locate the images conveying information in the original document.
 4. Check in PAC that each image (FIGURE element) is accompanied by an alternative (ALT element).
 5. If this is not the case, check that the image is immediately followed by a link to a text alternative (LINK element).
 6. If this is the case, the criterion is validated.
@@ -90,7 +90,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-1-3"}
-- **[Test 1.3.1](#test-1-3-1)** For each [conveying information](glossaire.md#conveying-information) image with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-1-3-1"}
+- **[Test 1.3.1](#test-1-3-1)** For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-1-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -98,7 +98,7 @@ Only the content of the criteria and tests has normative value.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the image conveying information in the original document.
+3. Locate the images conveying information in the original document.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the image is associated.
 6. If this is the case, the criterion is validated.
 
@@ -109,7 +109,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-4"}
-- **[Test 1.4.1](#test-1-4-1)** Does each [information-conveying](glossaire.md#conveying-information) image that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-4-1"}
+- **[Test 1.4.1](#test-1-4-1)** Does each image [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-4-1"}
     - The [detailed description](glossaire.md#detailed-description) is adjacent to the image.
     - A link adjacent to the image will take you to the [detailed description](glossaire.md#detailed-description).
 
@@ -133,7 +133,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-descriptiond), is this description relevant? {id="crit-1-5"}
-- **[Test 1.5.1](#test-1-5-1)** Does each [information conveying](glossaire.md#conveying-information) image with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
+- **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
 
@@ -157,7 +157,7 @@ Only the content of the criteria and tests has normative value.
 #### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions {id="test-1-6-1"}?
     - The [legend](glossaire.md#legend) is adjacent to the image.
-    - The alternative image contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-form) to the legend.
+    - The alternative image contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the legend.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -177,7 +177,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossaire.md#text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
-- **[Test 1.7.1](#test-1-7-1)** Each [text image](glossaire.md##text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative (image)](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
+- **[Test 1.7.1](#test-1-7-1)** Each [text image](glossaire.md##text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
 
 ##### Special cases 
 In these situations, the criterion does not apply:
@@ -190,8 +190,8 @@ In these situations, the criterion does not apply:
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-2. Locate text that may be presented as an image in the original document.
-3. Check in PAC that this text is actually presented in image form (FIGURE element).
+2. Locate all text that may be presented as an image in the original document.
+3. Check in PAC that each text is actually presented in image form (FIGURE element).
 3. Check that the image is accompanied by an anchor (LINK element) enabling an alternative text version to be consulted.
 4. If this is not the case, check that the image is accompanied by a link (LINK element) enabling you to consult an alternative text version of the document in which the image of text is replaced.
 5. If this is the case, the criterion is validated.
@@ -235,7 +235,7 @@ In these situations, the criterion does not apply:
 
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
-- **[Test 2.2.1](#test-2-2-1)** For [normal text size](glossaire.md#normal-text-size) does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-1"}
+- **[Test 2.2.1](#test-2-2-1)** For [normal text size](glossaire.md#normal-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-1"}
     - The contrast ratio between the text and its background is at least 4.5:1.
     - A [replacement mechanism](glossaire.md#replacement-mechanism-contrast-strength) is used to display the text with a contrast ratio of at least 4.5:1.
 - **[Test 2.2.2](#test-2-2-2)** For [enlarged text](glossaire.md#enlarged-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-2"}
@@ -243,7 +243,7 @@ In these situations, the criterion does not apply:
     - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display the text with a contrast ratio of at least 3:1.
 
 ##### Special cases 
-In these situations, the criterion does not apply.
+In these situations, the criterion does not apply:
 - The text is part of a logo or brand name of an organisation or company.
 - The text is purely decorative.
 - The text is part of an image conveying information, but the text itself does not provide any essential information.
@@ -255,7 +255,7 @@ In these situations, the criterion does not apply.
 1. Open the PDF file.
 2. Using the Color Contrast Analyser tool, check that
     - the default body text and image text of equivalent size has a contrast ratio with the background colour of 4.5:1, at least;
-    - the text and text in a significantly enlarged image have a contrast ratio with the background colour of at least 3:1.
+    - the text and image text in a significantly enlarged size have a contrast ratio with the background colour of at least 3:1.
 3. If this is not the case, check that there is a way of obtaining a version of the document with sufficient contrast.
 4. If this is the case, the criterion is validated.
 
@@ -349,7 +349,7 @@ In these situations, the criterion does not apply:
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
 
-#### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table) are the [headers](glossaire.md#header-table) correctly declared? {id="crit-3-3"}
+#### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table), are the [headers](glossaire.md#header-table) correctly declared? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** For each [data table](glossaire.md#data-table), does each [header](glossaire.md#header-table) use a TH element? {id="test-3-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -374,7 +374,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021    
+###### With PAC 2021
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -427,8 +427,8 @@ In these situations, the criterion does not apply:
     - text content of the LINK element;
     - text content of the ALT element of the image (FIGURE element) contained in the link;
     - or a combination of the two.
-5. If this is not the case, in PAC, check that the sentence containing the link makes it explicit.
-6. If this is not the case, check in CAP that the title immediately preceding the link (Hx element) makes it clear.
+5. If this is not the case, check in PAC that the sentence containing the link makes it explicit.
+6. If this is not the case, check in PAC that the title immediately preceding the link (Hx element) makes it clear.
 7. If this is the case, the test is validated.
 
 ###### Test 4.1.2 with Acrobat Reader and PAC 2021
@@ -447,7 +447,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have a title? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have a heading? {id="test-4-2-1"}
-- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossaire.md#link) using a complex form have a heading? {id="test-4-2-2"}
+- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossaire.md#link) using a complex shape have a heading? {id="test-4-2-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -457,8 +457,8 @@ In these situations, the criterion does not apply:
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the image links in the original document.
 4. Check in PAC that the image has an alternative content (ALT element contained in the LINK element).
-5. Identify links constructed with a complex form in the original document.
-6. Check in PAC that the complex form has a populated alternative (ALT element).
+5. Identify links built with a complex shape in the original document.
+6. Check in PAC that the complex shape has a populated alternative (ALT element).
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -625,8 +625,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.3 Sensory characteristics*.
 
-#### [Criterion 6.3](#crit-6-3) [A] Is every link indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) visible in relation to the surrounding text? {id="crit-6-3"}
-- **[Test 6.3.1](#test-6-3-1)** Does each link indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
+#### [Criterion 6.3](#crit-6-3) [A] Is every link, indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), visible in relation to the surrounding text? {id="crit-6-3"}
+- **[Test 6.3.1](#test-6-3-1)** Does each link, indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -645,8 +645,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [summary](glossaire.md#summary) (excluding special cases)? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Does the document have a [table of contents](glossaire.md#summary) (excluding special cases)? {id="test-7-1-1"}
+#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="crit-7-1"}
+- **[Test 7.1.1](#test-7-1-1)** Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="test-7-1-1"}
 
 ##### Special cases 
 In these situations, the criterion is not applicable:
@@ -707,7 +707,7 @@ In this case, the criterion is not applicable.
 ###### With Acrobat Reader
 
 1. Open the PDF file.
-2. Consult the properties panel ("File" menu, then "Properties" option) and the "Description" tab.
+2. View the properties panel ("File" menu, then "Properties" option) and the "Description" tab.
 3. Check that the text entered in the "Title" field is relevant.
 4. If it is, the criterion is validated.
 
@@ -719,10 +719,10 @@ In this case, the criterion is not applicable.
 
 ### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
-#### [Criterion 9.1](#crit-9-1) [A] Is each [complex form](glossaire.md#complex-form) [decoration](glossaire.md#decoration) correctly ignored by assistive technologies? {id="crit-9-1"}
-- **Does each [complex form](glossaire.md#complex-form) [decoration](glossaire.md#decoration) satisfy one of these conditions?{id="test-9-1-1"}
-    - The complex form has no alternative.
-    - The complex form is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
+#### [Criterion 9.1](#crit-9-1) [A] Is each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape correctly ignored by assistive technologies? {id="crit-9-1"}
+- **Does each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape satisfy one of these conditions?{id="test-9-1-1"}
+    - The complex shape has no alternative.
+    - The complex shape is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -742,10 +742,10 @@ In this case, the criterion is not applicable.
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.2](#crit-9-2) [A] Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-9-2"}
-- **[Test 9.2.1](#test-9-2-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-9-2-1"}
-    - The complex form has a text alternative.
-    - A link adjacent to the complex form provides access to a text alternative.
+#### [Criterion 9.2](#crit-9-2) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-9-2"}
+- **[Test 9.2.1](#test-9-2-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-9-2-1"}
+    - The complex shape has a text alternative.
+    - A link adjacent to the complex shape provides access to a text alternative.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -753,9 +753,9 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify the complex information-conveying shapes in the original document.
-4. Check in PAC that each of them (FIGURE element) is accompanied by a filled-in alternative (ALT element).
-5. If this is not the case, check that the complex form is immediately followed by a link providing access to a text alternative (LINK element).
+3. Identify in the original document the complex shapes conveying information.
+4. Check in PAC that each of them (FIGURE element) is accompanied by a populated alternative (ALT element).
+5. If this is not the case, check that the complex shape is immediately followed by a link providing access to a text alternative (LINK element).
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -764,8 +764,8 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.3](#crit-9-3) [A] For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-9-3"}
-- **[Test 9.3.1](#test-9-3-1)** For each [complex form](glossaire.md#complex-form) [information carrier](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-9-3-1"}
+#### [Criterion 9.3](#crit-9-3) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-9-3"}
+- **[Test 9.3.1](#test-9-3-1)** For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-9-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -773,8 +773,8 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify the complex information-conveying shapes in the original document.
-4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the complex form is associated.
+3. Identify in the original document the complex shapes conveying information.
+4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the complex shape is associated.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -783,10 +783,10 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.4](#crit-9-4) [A] Does each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
-- **[Test 9.4.1](#test-9-4-1)** Does each [complex form](glossaire.md#complex-form) [information-conveying](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
-    - The [detailed description](glossaire.md#detailed-description) is adjacent to the complex form.
-    - A link adjacent to the complex form provides access to the [detailed description](glossaire.md#detailed-description).
+#### [Criterion 9.4](#crit-9-4) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
+- **[Test 9.4.1](#test-9-4-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
+    - The [detailed description](glossaire.md#detailed-description) is adjacent to the complex shape.
+    - A link adjacent to the complex shape provides access to the [detailed description](glossaire.md#detailed-description).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -794,7 +794,7 @@ In this case, the criterion is not applicable.
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Identify complex information-conveying shapes that require detailed description in the original document.
+3. Identify the complex shapes conveying information that require detailed description in the original document.
 4. Check in PAC that each of them is accompanied by an adjacent text that serves as a detailed description.
 5. If this is not the case, check that each one is accompanied by an adjacent link providing access to the detailed description.
 6. If this is the case, the criterion is validated.
@@ -805,9 +805,9 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.5](#crit-9-5) [A] For each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
-- **[Test 9.5.1](#test-9-5-1)** Does each [complex form](glossaire.md#complex-form) [conveying information](glossaire.md#conveying-information-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
-    - The [detailed description](glossaire.md#detailed-description) adjacent to the complex form is relevant.
+#### [Criterion 9.5](#crit-9-5) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
+- **[Test 9.5.1](#test-9-5-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
+    - The [detailed description](glossaire.md#detailed-description) adjacent to the complex shape is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -815,8 +815,8 @@ In this case, the criterion is not applicable.
 ###### With Acrobat Reader
 
 1. Open the PDF file.
-2. Identify the complex information-conveying shapes associated with a detailed description in the original document.
-4. Check that the adjacent detailed description or the one that can be consulted via an adjacent link includes all the information contained in the complex form.
+2. Identify the complex shapes conveying information associated with a detailed description in the original document.
+4. Check that the adjacent detailed description or the one that can be consulted via an adjacent link includes all the information contained in the complex shape.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -825,10 +825,10 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex form](glossaire.md#complex-form), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
-- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex form](glossaire.md#complex-form) satisfy these conditions {id="test-9-6-1"}?
-    - The [legend](glossaire.md#legend) is adjacent to the complex form.
-    - The alternative of the complex form contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-form) to the [legend](glossaire.md#legend).
+#### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex shape](glossaire.md#complex-shape), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
+- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions {id="test-9-6-1"}?
+    - The [legend](glossaire.md#legend) is adjacent to the complex shape.
+    - The alternative of the complex shape contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the [legend](glossaire.md#legend).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -905,8 +905,8 @@ In this case, the criterion is not applicable.
 
 ### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
 #### Introduction{class=no-summary}
-This topic only concerns interactive forms filled in with Acrobat Reader.
-PDF forms can only be created using Acrobat Pro or specialist PDF form editing software.
+This topic only covers interactive forms filled in with Acrobat Reader.
+PDF forms can only be created using Acrobat Pro or specialised PDF form editing software.
 
 In addition, the test methodology requires the use of a screen reader.
 For these reasons, this topic has been deliberately isolated to the last part of the framework.
@@ -915,7 +915,7 @@ The assessment methodology is based on the screen reader [NVDA](https://www.nvda
 
 The criteria for this theme aim to check that the form controls (input field, etc.) are correctly rendered to ensure basic accessibility.
 
-However, a test by a person with a disability using his or her own assistive technology is preferable to check 
+However, a test by a person with a disability using his or her own assistive technology is preferable to check:
 - that the PDF form is perfectly usable,
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.
@@ -923,14 +923,14 @@ However, a test by a person with a disability using his or her own assistive tec
 #### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
 - **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-input-field) satisfy these conditions? {id="test-10-1-1"}
     - the [label](glossaire.md#label) is visible;
-    - the [label](glossaire.md#label) is correctly rendered (by assistive technologies).
+    - the [label](glossaire.md#label) is correctly rendered by assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### With Acrobat Reader and NVDA
 
 1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check
+2. With NVDA, use the tab key to activate each field and check that:
     - the label is visible;
     - a name is rendered vocally.
 3. If this is the case, the criterion is validated.
@@ -945,15 +945,15 @@ However, a test by a person with a disability using his or her own assistive tec
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
-    - The heading of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
-    - The visible label of the [label](glossaire.md#label) is contained in the label accessible to assistive technologies.
+    - The title of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
+    - The visible title of the [label](glossaire.md#label) is contained in the title accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### With Acrobat Reader and NVDA
 
 1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that the name spoken
+2. With NVDA, use the tab key to activate each field and check that the name rendered vocally
     - indicates the exact function of the associated field;
     - and contains at least the visible label.
 3. If this is the case, the criterion is validated.
@@ -977,7 +977,7 @@ However, a test by a person with a disability using his or her own assistive tec
 ###### With Acrobat Reader and NVDA
 
 1. Open the PDF file and activate NVDA.
-2. Locate the form fields with the same functions in the document.
+2. Locate in the document the form fields with the same functions.
 3. With NVDA, use the tab key to activate each field and check that the names rendered vocally are consistent with each other.
 4. Check that the visible labels are also consistent.
 5. If this is the case, the criterion is validated.
@@ -988,7 +988,7 @@ However, a test by a person with a disability using his or her own assistive tec
     - [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html).
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
 
-#### [Criterion 10.4](#crit-10-4) [A] Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#accoles-etiquette-and-champ-accoles)? {id="crit-10-4"}
+#### [Criterion 10.4](#crit-10-4) [A] Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)? {id="crit-10-4"}
 - **[Test 10.4.1](#test-10-4-1)** Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)?{id="test-10-4-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1007,7 +1007,7 @@ However, a test by a person with a disability using his or her own assistive tec
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-input-field) meet these conditions {id="test-10-5-1"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-input-field) meet these conditions? {id="test-10-5-1"}
     - The mandatory character is visible and explicit.
     - The mandatory character is accessible to assistive technologies.
 
@@ -1044,7 +1044,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
 #### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-input-field), is the expected data type and/or format available? {id="crit-10-6"}
-- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions {id="test-10-6-1"}
+- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
     - The data type and/or format is accessible to assistive technologies.
 
@@ -1055,11 +1055,11 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Open the PDF file and activate NVDA.
 2. Locate the mandatory fields in the document.
 3. With NVDA, use the tab key to activate each field.
-4. Fill in fields with values that are likely to cause input errors (an invalid format for an e-mail address, for example). 
+4. Fill in the fields with values that are likely to cause input errors (an invalid format for an e-mail address, for example). 
 5. Use the tab key to exit fields or, if the form allows it, to send the form.
-6. For each error message displayed, check that the expected data type and/or format
-    - is indicated by visible text near the field or via an information window;
-    - is spoken when the field is activated.
+6. For each error message displayed, check that the expected data type and/or format is
+    - indicated by visible text near the field or via an information window;
+    - spoken when the field is activated.
 7. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1071,7 +1071,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
-- **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions {id="test-10-7-1"}
+- **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions? {id="test-10-7-1"}
     - The error message is visible.
     - The error message is accessible to assistive technologies.
 
@@ -1083,9 +1083,9 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 2. With NVDA, use the tab key to activate each field.
 3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
 4. Use the tab key to exit fields or, if the form allows it, to send the form.
-5. For each error message displayed, check
-    - it is indicated by visible text near the field;
-    - it is spoken when the field is activated.
+5. For each error message displayed, check that it is
+    - indicated by visible text near the field;
+    - spoken when the field is activated.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1114,7 +1114,7 @@ In these situations, the criterion is not applicable:
 3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
 4. Use the tab key to exit fields or, if the form allows it, to send the form.
 5. For each error message relating to a data type, format or expected value, check 
-    - that the error message includes an example of a real input (for an email address, check that the "jean.dupont@sample.com" model mentions a real address);
+    - that the error message includes an example of a real input (for an email address, check that a real address is indicated based on the "jean.dupont@sample.com" pattern);
     - that the real input example is played back vocally when the field is activated.
 5. If this is the case, the criterion is validated.
 
@@ -1125,8 +1125,8 @@ In these situations, the criterion is not applicable:
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
 
 
-#### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
-- **[Test 10.9.1](#test-10-9-1)** Does each form button have a heading? {id="test-10-9-1"}
+#### [Criterion 10.9](#crit-10-9) [A] Does each form button have a title? {id="crit-10-9"}
+- **[Test 10.9.1](#test-10-9-1)** Does each form button have a title? {id="test-10-9-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1145,9 +1145,9 @@ In these situations, the criterion is not applicable:
 - EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
 
 #### [Criterion 10.10](#crit-10-10) [A] Is the title of each form button relevant? {id="crit-10-10"}
-- **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions {id="test-10-10-1"}
+- **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions? {id="test-10-10-1"}
     - The title of the button accessible to assistive technologies is relevant.
-    - The visible label of the button is contained in the label accessible to assistive technologies.
+    - The visible title of the button is contained in the title accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1156,8 +1156,8 @@ In these situations, the criterion is not applicable:
 1. Open the PDF file and activate NVDA.
 2. With NVDA, use the tab key to activate each button.
 3. Check that
-    - that the voice rendered label is relevant;
-    - that the visible label is contained in the voice output label.
+    - the voice rendered title is relevant;
+    - the visible title is contained in the voice output title.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1184,9 +1184,9 @@ In these situations, the criterion is not applicable:
     - explicitly confirm the sending of this data using a dedicated mechanism (e.g. by ticking a confirmation box).
 4. For each mechanism (e.g. a button) used to modify or delete data entered, check that the user can
     - cancel the changes made;
-    - recover deleted data; or
+    - recover deleted data;
     - or explicitly confirm the modification or deletion of this data using a dedicated mechanism (e.g. a checkbox).
-4. If this is the case, the criterion is validated.
+5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 

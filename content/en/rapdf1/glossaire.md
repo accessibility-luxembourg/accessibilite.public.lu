@@ -33,7 +33,7 @@ A complex data table cannot be rendered correctly when produced using office sof
 
 It is necessary to provide an alternative in the form of structured text containing the same information.
 
-#### Complex form
+#### Complex shape
 This refers to content such as diagrams or schemas created by the drawing, schema and diagram generation tools offered by office editing tools.
 
 **Note about tools for automatically generating complex shapes**: some office editing tools offer components for automatically generating diagrams.  
@@ -255,15 +255,15 @@ When these formats or styles are used to create presentation effects, rendering 
 
 **Note on the use of paragraphs**: the presence of an empty paragraph after structured content, for example a title, a list or a paragraph of text at the end of a page, is not considered to be non-compliant. Only the use of several successive empty paragraphs is concerned.
 
-#### Summary
-List of content titles, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each title may be accompanied by the corresponding page number.
-Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
-
 ### T
 
 #### Tab order
 The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
 Similarly, in a PDF form, the tab order of input fields and buttons can become inconsistent when they are incorrectly positioned.
+
+#### Table of contents
+List of content titles, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each title may be accompanied by the corresponding page number.
+Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 #### Text alternative
 Text associated with an image or complex form that provides information equivalent to that conveyed by the image or complex form.
