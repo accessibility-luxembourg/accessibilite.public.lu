@@ -768,7 +768,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 
 1. Locate pre-recorded time-based media with captions on the screen.
 1. Modify the subtitle presentation settings from the platform: 
-	- Go to *Settings &gt; Accessibility &gt; Closed captions and SM &gt; Style*;
+	- Go to Settings &gt; Accessibility &gt; Closed captions and SM &gt; Style;
 	- Select **Create a style** to define a personalised and recognisable subtitle style. 
 	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity (check that the **Override custom settings** parameter at the bottom of the screen is deactivated).
 1. Check that the settings defined at platform level are applied to the captions.
@@ -780,7 +780,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 
 1. Locate pre-recorded time-based media with captions on the screen.
 1. Modify the subtitle presentation settings from the platform: 
-	- Go to *Settings &gt; Accessibility &gt; Preference for captions &gt; Style and size of captions*;
+	- Go to Settings &gt; Accessibility &gt; Preference for captions &gt; Style and size of captions;
 	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity.
 1. Check that the platform settings are applied to the captions.
 1. If this is not the case, check the media for a function that allows you to modify the subtitle presentation parameters.
@@ -971,7 +971,7 @@ What's more, as with the web, there is no technical documentation to describe ho
 1. Connect the iOS mobile device to the computer running macOS.
 1. Activate the **Accessibility Inspector** software.
 1. Choose the mobile device as the source and stay on the "Inspection" tab (buttons at top right).
-1. Use the arrows in *Accessibility Inspector* to access each element of the interface.
+1. Use the arrows in Accessibility Inspector to access each element of the interface.
 1. Check that 
 	- a role is available in the "Traits" parameter (for example, Button, Tab, Text Field); 
 	- the role is relevant to the associated functionality (for example, a component which triggers the opening of a modal window and which is presented as Static text has an irrelevant role; it should be identified as a button); 
@@ -1173,7 +1173,7 @@ This criterion only checks elements that should not be interactive (text element
 1. Check that the role returned by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and returns "Button", this is an error, no role is returned for the paragraphs).
 1. If this is the case, the criterion is validated.
 
-###### iOS With *Accessibility Inspector*
+###### iOS With Accessibility Inspector
 
 1. Connect the iOS mobile device to the computer running macOS.
 1. Activate the **Accessibility Inspector** software.
@@ -1215,7 +1215,7 @@ This criterion only checks elements that should not be interactive (text element
 		- that the text contained in the title makes it possible to understand the content of the titled section.
 1. If this is the case, the criterion is validated.
 
-###### iOS with *Accessibility Inspector*
+###### iOS with Accessibility Inspector
 
 1. Connect the iOS mobile device to the computer using macOS.
 1. Activate the **Accessibility Inspector** software.
@@ -2137,7 +2137,7 @@ The criterion does not apply to the following elements:
 
 1. Locate functions on the screen that require complex gestures (look for instructions in the interface or in documentation associated with the application), for example
 	- using two or more fingers simultaneously;
-	- tracing a trajectory (such as the *swipe* gesture).
+	- tracing a trajectory (such as the swipe gesture).
 1. Check that there is an alternative method of performing the associated action using a simple gesture, for example pressing a single key on the keyboard or a button. 
 1. If this is the case, the criterion is validated.
 
@@ -2391,7 +2391,7 @@ The criterion does not apply to features integrated into the platform.
 1. If this is the case, check for each item of documentation: 
 	- if it is a web page, that it complies with [RAWeb1](../raweb1/criteres.html); 
 	- if it is an office document in PDF format, that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
-	- if it is an office document in another format, that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1;
+	- if it is an office document in another format, that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1;
 	- if it is an application screen, that the present framework is complied with (the **[Requirements](../obligations.html)** page also details that screens relating to documentation must be included in the evaluation sample).
 1. If this is the case, the criterion is validated.
 
