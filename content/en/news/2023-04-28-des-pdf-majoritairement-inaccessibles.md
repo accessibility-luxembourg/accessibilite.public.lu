@@ -156,7 +156,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>11 of the 17 sites studied have an accessibility statement. These include</p>
 <ul>
 <li>8 invoke an exemption provided for by law for old documents (4) or for documents originating from third parties (7).</li>
-<li>7 invoke an derogation for disproportionate burden: the work involved in bringing their PDF documents into compliance would be too costly in relation to the estimated benefit for citizens.</li>
+<li>7 invoke a derogation for disproportionate burden: the work involved in bringing their PDF documents into compliance would be too costly in relation to the estimated benefit for citizens.</li>
 <li>3 mention PDFs as a non-compliance that will be corrected.</li>
 </ul>
 <p><strong>None of these statements make it possible to identify precisely which PDFs on their sites are not accessible.</strong></p>
