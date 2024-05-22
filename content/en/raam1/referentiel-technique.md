@@ -2313,7 +2313,7 @@ The criterion does not apply:
 1. Check that the documentation includes 
 	- a description of the application's accessibility features, for example 
 		- accessibility parameters integrated into the application, such as colour management, font sizes, animation management, etc;
-		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration (https://developer.apple.com/videos/play/wwdc2020/10116/)); 
+		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)); 
 		- gestures or device movements that trigger functions;  
 		- special keyboard shortcuts available for certain assistive technologies.
 	- a description of the complex components for which special management is in place depending on the assistive technology;
@@ -2336,10 +2336,10 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Locate the accessibility features described in the documentation in the application. For example 
+1. Locate in the application the accessibility features described in the documentation. For example 
 	- a feature that provides access to a simplified language version of the application;
 	- a feature that locks the orientation of a screen.
-1. Check that it is possible for users who need
+1. Check that it is possible for users who need to
 	- perceive the presence of this functionality in the interface;
 	- activate this functionality. For example, if a functionality is available that allows access to a simplified language version of the application, then all the components that make up the path to the functionality must be in simplified language.
 1. If this is the case, the criterion is validated. 
@@ -2426,7 +2426,7 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Identify the presence in the tool of help with creating accessible content. This may include 
+1. Identify in the tool the presence of help with creating accessible content. This may include 
 	- user documentation that explains how to define accessibility properties for each content item; 
 	- automatic or semi-automatic tests available from the editing functions; 
 	- manual tests available from the editing functions to guide authors in detecting errors.
@@ -2454,8 +2454,8 @@ The criterion is not applicable when the destination format does not allow the a
 	- in the editing function (for example, in the text editor); 
 	- in the content publication interface (for example, the publication web page).
 1. Check that 
-	- that accessibility information (e.g. alternative image, title levels) is preserved in the generated content;
-	- that the technology supports the accessibility information for the restructured form of the information (check that the transformation of the information is compatible with the technology, in particular to ensure that this information can be used by assistive technologies).
+	- accessibility information (e.g. alternative image, title levels) is preserved in the generated content;
+	- the technology supports the accessibility information for the restructured form of the information (check that the transformation of the information is compatible with the technology, in particular to ensure that this information can be used by assistive technologies).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2473,11 +2473,11 @@ The criterion is not applicable when the destination format does not allow the a
 1. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
 1. Activate the test functions.
 1. Check that 
-	- that the tool automatically repairs the error;
-    - or that the tool provides the author with repair suggestions.
-1. In the case of a semi-automatic test, check 
-	- the tool provides decision support and repair suggestions;
-    - or that the tool provides the author with explanations enabling him to carry out the repair.
+	- the tool automatically repairs the error;
+    - or the tool provides the author with repair suggestions.
+1. In the case of a semi-automatic test, check that the tool 
+	- provides decision support and repair suggestions;
+  - or provides the author with explanations enabling him to carry out the repair.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
