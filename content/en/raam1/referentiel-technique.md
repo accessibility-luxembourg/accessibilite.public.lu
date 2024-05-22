@@ -1397,7 +1397,7 @@ The criterion does not apply to the following elements:
 
 #### [Criterion 8.6](#crit-8-6) [A] In each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape-size-or-location). Is this rule respected? {id="crit-8-6"}
 
-This applies to words or sets of words, text, graphic element conveying informations and time-based media.
+This applies to words or sets of words, texts, graphic elements conveying information and time-based media.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1453,7 +1453,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
 1. Browse the screen and locate the additional content that appears when the focus is placed on a user interface component.
-1. Check that the additional content can be hidden by a key on the keyboard (generally the key or combination of keys that will have been associated in *Switch Access* for the *Return* parameter)
+1. Check that the additional content can be hidden by a key on the keyboard (generally the key or combination of keys that will have been associated in Switch Access for the Return parameter)
 1. Check that the additional content remains visible 
 	- until the focus is moved away from the user interface component and the additional content;
 	- or as long as the focus is positioned on the user interface component or in the additional content;
@@ -1480,11 +1480,11 @@ When the additional content does not mask or replace any information-bearing con
 
 ###### iOS and Android
 
-1. Locate the form fields on the screen (input field, radio button, tick box).
+1. Locate on the screen the form fields (input field, radio button, tick box).
 1. Check for the presence of an adjacent visible label.
 1. Activate the form input field (e.g. enter text).
 1. Check that the label remains visible.
-1. If so, the criterion is validated.
+1. If it is, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -1534,8 +1534,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
 1. Check that
-	- that the label returned by the screen reader is relevant (it allows you to understand the nature of the expected input);
-	- that the visible label is contained in the label returned by the screen reader.
+	- the label returned by the screen reader is relevant (it allows you to understand the nature of the expected input);
+	- the visible label is contained in the label returned by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ###### With voice control
@@ -1543,17 +1543,17 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate **voice control**.
 1. Locate all the form fields on the screen.
 1. Check that
-	- that the label detected by the voice control (grey tooltip) is relevant (it allows you to understand the nature of the expected input);
-	- that the visible label is contained in the label detected by the voice control (grey tooltip).
+	- the label detected by the voice control (grey tooltip) is relevant (it allows you to understand the nature of the expected input);
+	- the visible label is contained in the label detected by the voice control (grey tooltip).
 1. If this is the case, the criterion is validated.
 
-###### Android 
+###### Android
 
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
 1. Check that
-	- that the label returned by the screen reader is relevant (it allows you to understand the nature of the input required);
-	- that the visible label is contained in the label returned by the screen reader.
+	- the label returned by the screen reader is relevant (it allows you to understand the nature of the input required);
+	- the visible label is contained in the label returned by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1591,8 +1591,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
 1. Check that
-	- that the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
-	- that the visible label is contained in the label displayed by the screen reader.
+	- the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
+	- the visible label is contained in the label displayed by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ###### iOS with voice control
@@ -1600,8 +1600,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate **voice control**.
 1. Locate the form buttons on the screen.
 1. Check that
-	- that the heading detected by the voice control (grey tooltip) is relevant (it allows you to understand the action of the button);
-	- that the visible label is contained in the label detected by the voice control (grey tooltip);
+	- the heading detected by the voice control (grey tooltip) is relevant (it allows you to understand the action of the button);
+	- the visible label is contained in the label detected by the voice control (grey tooltip);
 1. If this is the case, the criterion is validated.
 
 ###### Android 
@@ -1609,8 +1609,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
 1. Check that
-	- that the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
-	- that the visible label is contained in the label displayed by the screen reader.
+	- the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
+	- the visible label is contained in the label displayed by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1629,10 +1629,10 @@ When the additional content does not mask or replace any information-bearing con
 ###### iOS and Android
 
 1. Activate the **screen reader**.
-1. Locate the fields of the same kind on the screen that need to be grouped together (for example, the fields for entering the different sequences of digits in a credit card code).
+1. Locate on the screen the fields of the same kind that need to be grouped together (for example, the fields for entering the different sequences of digits in a credit card code).
 1. Check that
 	- when the focus is placed on the first field, information is displayed identifying the group to which the field belongs (although this is important for users, it is not required that the grouping information is displayed on each of the form fields, but only on at least the first field in the grouping);
-	- that the information returned is relevant, i.e. that it enables the nature of the grouping to be understood.
+	- the information returned is relevant, i.e. that it enables the nature of the grouping to be understood.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1660,8 +1660,8 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 1. Activate the **screen reader**.
 1. Validate the form without entering any data in order to identify the mandatory fields.
-1. For each mandatory field, check
-	- that the information returned by the screen reader when focused on the field contains the compulsory character;
+1. For each mandatory field, check that
+	- the information returned by the screen reader when focused on the field contains the compulsory character;
 	- a visible text near the field indicates that the form field is mandatory.
 1. If this is the case, the criterion is validated.
 
@@ -1681,7 +1681,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 ###### iOS and Android 
 
 1. Activate the **screen reader**.
-1. Fill in form input fields with values that are likely to cause input errors (e.g. enter an incorrectly formed *e-mail* address).
+1. Fill in form input fields with values that are likely to cause input errors (e.g. enter an incorrectly formed e-mail address).
 1. Validate the form.
 1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check
 	- that the expected data type and/or format are rendered by the screen reader when focused on the field;
@@ -1706,9 +1706,9 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in form fields with values that are likely to cause input errors (leaving a field empty, entering a badly formed e-mail address, for example).
 1. Validate the form.
-1. For each field in error, check 
+1. For each field in error, check that
 	- the error message is visible near the field;
-	- that the error message is rendered by the screen reader when focused on the field.
+	- the error message is rendered by the screen reader when focused on the field.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1729,13 +1729,13 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in form input fields with values that are likely to cause input errors (e.g. entering an incorrectly formed e-mail address).
 1. Validate the form.
-1. For each field in error that has a format check, check that the error message includes a real example of an input (for example, for an *e-mail* address, check that the model "jean.schmitt@accessibilite.lu" refers to a real address).
+1. For each field in error that has a format check, check that the error message includes a real example of an input (for example, for an e-mail address, check that the pattern "jean.schmitt@accessibilite.lu" refers to a real address).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.3 Suggestion after an error (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion). 
-- EN 301 549 V3.2.1 (2021-03): *11.3.3.3 Error Suggestion (AA) *. 
+- EN 301 549 V3.2.1 (2021-03): *11.3.3.3 Error Suggestion (AA)*. 
 
 #### [Criterion 9.11](#crit-9-11) [AA] For each form that modifies or deletes data, or transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or retrieved by the user? {id="crit-9-11"} 
 
@@ -1747,10 +1747,10 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Fill in the form.
 1. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
 	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled);
-    - or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
+  - or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
 1. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
-    - retrieve the deleted data during input;
-    - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
+  - retrieve the deleted data during input;
+  - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1770,20 +1770,20 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 1. Access each of the form fields (tap on the input field, for example, to activate the appearance of input controls).
 1. For each field that expects personal data about the user, check that the [appropriate platform-native controls](glossaire.md#native-platform-controls) are presented to the user. For example
-	- for a field requesting the user's *e-mail* address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
+	- for a field requesting the user's e-mail address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
 	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user;
 	- and so on.
-1. Check that the form is compatible with an auto-fill mechanism. For example, iOS allows fields to be filled in automatically on the basis of the last values entered, depending on their nature (postal address, town, surname, first name, *e-mail* address). Check that relevant values are suggested for these fields.
+1. Check that the form is compatible with an auto-fill mechanism. For example, iOS allows fields to be filled in automatically on the basis of the last values entered, depending on their nature (postal address, town, surname, first name, e-mail address). Check that relevant values are suggested for these fields.
 1. If so, the criterion is validated.
 
 ###### Android 
 
 1. Access each of the form fields (tap on the input field, for example, to activate the appearance of input controls).
 1. For each field that expects personal data about the user, check that the [appropriate platform-native controls](glossaire.md#native-platform-controls) are presented to the user. For example
-	- for a field requesting the user's *e-mail* address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
+	- for a field requesting the user's e-mail address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
 	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user;
 	- and so on.
-1. Check that the form is compatible with an autofill mechanism. For example, Google provides an auto-fill system on Android. Go to *Settings &gt; System &gt; Languages and input &gt; Advanced settings &gt; Auto-complete service* (depending on the version of the platform, the path may be different) to activate and set the parameters.
+1. Check that the form is compatible with an autofill mechanism. For example, Google provides an auto-fill system on Android. Go to Settings &gt; System &gt; Languages and input &gt; Advanced settings &gt; Auto-complete service (depending on the version of the platform, the path may be different) to activate and set the parameters.
 1. On the application form, check that the system offers you an option to fill in the data automatically.
 1. If it does, the criterion is validated.
 
@@ -1802,7 +1802,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
 1. Navigate through all the elements on the screen and check that the tab order remains consistent. The tab order does not have to follow the natural reading order (left to right and top to bottom, for example) as long as the elements are accessible in a consistent order.
-1. Locate components on the screen (buttons for example) that update content (display hidden elements, dynamic content updates for example): 
+1. Locate on the screen components (buttons for example) that update content (display hidden elements, dynamic content updates for example): 
 	1. activate the component;
 	1. after displaying the updated content, check that the tabulation remains consistent.
 1. If this is the case, the criterion is validated.
@@ -1849,19 +1849,19 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	 - the element currently in focus offers a method that can be used with the keyboard (for example, a keyboard shortcut) to reach the next or previous element.
 1. If this is the case, the criterion is validated.
 
-**Note:** Certain complex elements, often managed by the platform, can call on optimised navigations which generally use the direction arrows to move from one part of the component to another.
+**Note:** Some complex elements, often managed by the platform, can call on optimised navigations which generally use the direction arrows to move from one part of the component to another.
 The keyboard trap test is then limited to checking that the component can be reached and that it is possible to move on to the next component or return to the previous component. The actual use of the component is not checked in this criterion.
 
 ###### Android
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
-1. Navigate through all the elements on the screen using the keys on the keyboard (the keys or combination of keys that will have been associated in *Switch Access* for the "Go to next option" and "Go to previous option" parameters).
+1. Navigate through all the elements on the screen using the keys on the keyboard (the keys or combination of keys that will have been associated in Switch Access for the "Go to next option" and "Go to previous option" parameters).
 1. Check that
 	 - from the current position, the next or previous focusable element can be reached using the keyboard navigation key;
 	 - the element currently in focus offers a method that can be used with the keyboard (for example, a keyboard shortcut) to reach the next or previous element.
 1. If this is the case, the criterion is validated.
 
-**Note:** Certain complex elements, often managed by the platform, can call on optimised navigations which generally use the direction arrows to move from one part of the component to another.
+**Note:** Some complex elements, often managed by the platform, can call on optimised navigations which generally use the direction arrows to move from one part of the component to another.
 The keyboard trap test is then limited to checking that the component can be reached and that it is possible to move on to the next component or return to the previous component. The actual use of the component is not checked in this criterion.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1873,7 +1873,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 **[Test 10.4.1](#test-10-4-1):** In each screen, does each keyboard shortcut using a single key (lower or upper case letter, punctuation, number or symbol) meet one of these conditions? {id="test-10-4-1"}
 - A mechanism is available to disable the keyboard shortcut;
-- A mechanism is available for configuring the keyboard shortcut key using the modifier keys<kbd>(Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.);
+- A mechanism is available for configuring the keyboard shortcut key using the modifier keys (<kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.);
 - In the case of a user interface component, the associated keyboard shortcut can only be activated if the keyboard focus is on this component.
 
 ##### Evaluation methodology {class="disclosure methodo"} 
@@ -1885,7 +1885,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 1. If the keyboard shortcut is associated with a single component isolated from the screen, check that it can only be activated if the keyboard focus is inside that component.
 1. Otherwise, if an action is triggered, check that there is a configuration item in the application which allows you to
 	- disable these one-touch keyboard shortcuts;
-	- configure these keyboard shortcuts by adding a modifier key ( <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.). 
+	- configure these keyboard shortcuts by adding a modifier key (<kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.). 
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1912,10 +1912,10 @@ The criterion does not apply when the time limit is essential, in particular whe
 ###### iOS and Android
 
 1. Identify processes that limit session time (e.g. after authentication).
-1. Check for
-	- the presence of a mechanism enabling the user to remove the time limit (for example, a toggle button enabling the user to activate or deactivate the session time limit);
-	- or the presence of a mechanism allowing the user to increase the time limit (for example, a drop-down list with available connection time values);
-	- or the presence of a mechanism which warns the user of the imminence of the time limit and allows the user at least 20 seconds to increase the time limit (for example, the opening of a modal with a button allowing the time limit to be increased);
+1. Check 
+	- for the presence of a mechanism enabling the user to remove the time limit (for example, a toggle button enabling the user to activate or deactivate the session time limit);
+	- or for the presence of a mechanism allowing the user to increase the time limit (for example, a drop-down list with available connection time values);
+	- or for the presence of a mechanism which warns the user of the imminence of the time limit and allows the user at least 20 seconds to increase the time limit (for example, the opening of a modal with a button allowing the time limit to be increased);
 	- or that the time limit is at least twenty hours.
 1. If this is the case, the criterion is validated.
 
@@ -1971,12 +1971,12 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 1. If the alternative is offered in an office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- download the file containing the proposed alternative; 
 	- if this file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
-	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
+	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If the alternative is proposed in the application, check that the content complies with this framework.
 1. Otherwise, for documents in office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- upload the file; 
 	- if the file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
-	- if the file is in another format, check that it complies with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
+	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2046,7 +2046,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 1. Locate content on the screen that flashes or causes flash effects: animated graphic element, video or animation, formatting effect.
 1. Check that
 	- the frequency of the effect is less than 3 flashes per second;
-	- or that the total surface area is less than 21824 pixels.
+	- or that the total surface area is less than 21,824 pixels.
 1. If this is the case, the criterion is validated.
 
 Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse videos in .avi format.
@@ -2069,15 +2069,15 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 ###### iOS and Android
 
 1. Identify moving or flashing content on the screen (e.g. a graphic element, formatting effect or carousel) that is triggered automatically when the screen loads or when content is displayed (see note).
-1. Check that:
-	- the total duration of movement or flashing is less than 5 seconds;
+1. Check
+	- that the total duration of movement or flashing is less than 5 seconds;
 	- or that there is a mechanism (e.g. a button) to stop and restart the movement or flashing;
 	- or the presence of a mechanism (e.g. a button) that allows the moving or flashing content to be hidden and displayed again;
 	- or the presence of a mechanism (such as a button) that allows the content to be displayed without movement or flashing.
 1. If this is the case, the criterion is validated.
 
 **Note:**
-- the stopping or pausing of moving or flashing content via when focused (the effect is suspended only while focused, but resumes once the focus is lost) or by touching moving content (the effect is suspended only while pressure is applied to the content, but resumes once the pressure is released) are not considered to be compliant processes.
+- the stopping or pausing of moving or flashing content when focused (the effect is suspended only while focused, but resumes once the focus is lost) or by touching moving content (the effect is suspended only while pressure is applied to the content, but resumes once the pressure is released) are not considered to be compliant processes.
 - in some cases, the movement cannot be stopped, for example a progress bar, in which case the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2156,7 +2156,7 @@ The criterion does not apply to actions required by the platform.
 
 ###### iOS and Android
 
-1. Locate functions on the screen that require two or more actions to be performed simultaneously, for example 
+1. Locate on the screen functions that require two or more actions to be performed simultaneously, for example 
 	- using two or more keys on a keyboard at the same time;
 	- having to say a voice command and touch the screen at the same time to perform an action.
 1. Check that the screen or application provides an alternative method of performing the action associated with a single action, for example pressing a button. 
@@ -2251,7 +2251,7 @@ The criterion is not applicable when the conversion format does not have the nec
 
 ###### iOS and Android
 
-1. Identify the identification (authentication) and control functions on the screen that are based on the use of biological characteristics (e.g. voice recognition, fingerprint, facial recognition). 
+1. Locate on the screen the identification (authentication) and control functions that are based on the use of biological characteristics (e.g. voice recognition, fingerprint, facial recognition). 
 1. Check that there is an alternative method of performing the action, for example 
 	- for an authentication feature that uses fingerprint recognition, a button is available on the login screen to access password entry instead.
 	- for authentication functionality that involves voice recognition, the application also offers fingerprint recognition (if the alternative method also relies on a biological characteristic, it is desirable that it does not involve a similar biological characteristic. For example, if the initial method involves voice, the alternative method should not involve voice) 
