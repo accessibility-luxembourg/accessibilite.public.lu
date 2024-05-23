@@ -2472,9 +2472,9 @@ The criterion is not applicable when the destination format does not allow the a
 1. Identify the presence of automatic or semi-automatic test functions in the tool.
 1. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
 1. Activate the test functions.
-1. Check that 
-	- the tool automatically repairs the error;
-    - or the tool provides the author with repair suggestions.
+1. Check that the tool
+	- automatically repairs the error;
+  - or provides the author with repair suggestions.
 1. In the case of a semi-automatic test, check that the tool 
 	- provides decision support and repair suggestions;
   - or provides the author with explanations enabling him to carry out the repair.
@@ -2515,15 +2515,15 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.5 Templates*.
 
-### [Topic 14](#topic-14): Help desk services {id="topic-14"}
+### [Topic 14](#topic-14): Support services {id="topic-14"}
 
-#### [Criterion 14.1](#crit-14-1) [AA] Does each [help desk](glossaire.md#help-desk) provide information relating to the [accessibility features](glossaire.md#accessibility-feature) of the application described in the documentation? {id="crit-14-1"}
+#### [Criterion 14.1](#crit-14-1) [AA] Does each [support service](glossaire.md#support-services) provide information relating to the [accessibility features](glossaire.md#accessibility-feature) of the application described in the documentation? {id="crit-14-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify the availability of a help desk from the application.
+1. Find out whether a support service is available in the application.
 1. If this is the case, look for documentation in the application, for example: 
 	- a help screen;
 	- an [accessibility statement](../obligations.html#accessibility-statement); 
@@ -2531,7 +2531,7 @@ The criterion is not applicable when the destination format does not allow the a
 1. Identify the presence in the documentation of 
 	- a description of the application's accessibility features, for example 
 		- accessibility parameters built into the application, such as colour management, font sizes, animation management, etc;
-		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration (https://developer.apple.com/videos/play/wwdc2020/10116/)); 
+		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)); 
 		- gestures or device movements that trigger functions;  
 		- special keyboard shortcuts available for certain assistive technologies.
 	- a description of the complex components for which special management is in place depending on the assistive technology;
@@ -2545,14 +2545,14 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *12.2.2 Information on accessibility and compatibility features*.
 
-#### [Criterion 14.2](#crit-14-2) [A] The [help desk](glossaire.md#help-desk) meets the communication needs of people with disabilities directly or through [a relay service](glossaire.md#relay-service). Is this rule respected? {id="crit-14-2"}
+#### [Criterion 14.2](#crit-14-2) [A] The [support service](glossaire.md#support-services) meets the communication needs of people with disabilities directly or through [a relay service](glossaire.md#relay-service). Is this rule respected? {id="crit-14-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify the presence of a help desk in the application.
-1. If so, check that the help desk can be used by all people with disabilities. It may be useful to search the application documentation to find this information. For example, if the help desk is available from a telephone number, check that there are alternative means for users who cannot express themselves orally (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example 
+1. Identify the presence of a support service in the application.
+1. If so, check that the support service can be used by all people with disabilities. It may be useful to search the application documentation to find this information. For example, if the support service is available from a telephone number, check that there are alternative means for users who cannot express themselves orally (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example 
 	- instant messaging, which provides an equivalent service (real-time dialogue with a human operator); 
 	- the provision of simultaneous written or visual translation of oral or audio information, or the provision of a sign language interpreter (use of a relay service).
 1. If this is the case, the criterion is validated.
@@ -2564,7 +2564,7 @@ The criterion is not applicable when the destination format does not allow the a
 
 ### [Topic 15](#topic-15): Real-time communication {id="topic-15"}
 
-#### [Criterion 15.1](#crit-15-1) [A] For each [two-way voice communication application](glossaire.md#two-way-voice-communication-application), is the application capable of encoding and decoding this communication with a frequency range whose upper limit is at least 7 000 Hz? {id="crit-15-1"}
+#### [Criterion 15.1](#crit-15-1) [A] For each [two-way voice communication application](glossaire.md#two-way-voice-communication-application), is the application capable of encoding and decoding this communication with a frequency range whose upper limit is at least 7,000 Hz? {id="crit-15-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2583,15 +2583,15 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 **[Test 15.2.1](#test-15-2-1):** Does each application that enables two-way voice communication meet one of these conditions?  {id="test-15-2-1"}
 - The application has built-in real-time text (RTT) functionality;
-- The application can be connected to a terminal with built-in real-time text (RTT) functionality. 
+- The application can be connected to a terminal with built-in real-time text functionality. 
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Check that the application allows two-way voice communication.
-1. If it does, check that there is a real-time text (RTT) function (it may sometimes be necessary to activate a dedicated parameter in the application to enable real-time text (RTT)).
-1. If not, check whether the application can connect to a terminal with real-time text (RTT) functionality (this may be difficult to assess without a real-time communication terminal or if the network used by the terminal does not support real-time text protocols. A first step may be to search the documentation or ask the application publisher directly)
+1. If it does, check that there is a real-time text function (it may sometimes be necessary to activate a dedicated parameter in the application to enable real-time text).
+1. If not, check whether the application can connect to a terminal with real-time text functionality (this may be difficult to assess without a real-time communication terminal or if the network used by the terminal does not support real-time text protocols. A first step may be to search the documentation or ask the application publisher directly)
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2607,7 +2607,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 1. Check that the application allows two-way voice communication.
 1. If it does, check that it has a real-time text (RTT) function.
-1. If this is the case, check that it is possible to use both modes of communication at the same time, i.e. users can send real-time text messages at the same time as other users are speaking, for example.
+1. If this is the case, check that it is possible to use both modes of communication at the same time, i.e. users can send RTT messages at the same time as other users are speaking, for example.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2626,16 +2626,16 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 ##### Special cases
 
-The criterion is not applicable when the two-way voice communication functionality does not allow the participants to be identified, in which case the real-time text (RTT) communication functionality is not required to identify the authors of the messages.
+The criterion is not applicable when the two-way voice communication functionality does not allow the participants to be identified, in which case the RTT communication functionality is not required to identify the authors of the messages.
 
 ##### Assessment methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Activate the application and the application's real-time text (RTT) functionality on two terminals and connect them to the same session.
+1. Activate the application and the application's RTT functionality on two terminals and connect them to the same session.
 1. Send a text message from both terminals to obtain messages with different statuses (sent and received).
 1. Check that 
-	- that sent and received messages are visually separated (for example, sent messages are in one window and received messages in another, or there is a line break between each received and sent message if they are presented in the same window);
+	- sent and received messages are visually separated (for example, sent messages are in one window and received messages in another, or there is a line break between each received and sent message if they are presented in the same window);
 	- it is visually possible to distinguish between messages sent and messages received (for example, the words "Sent" near a message sent or "Received" near a message received);
 	- if the interlocutor is identified for oral communication (for example, the avatar of the person speaking), that the authors of written messages are also identified (for example, the presence of a name or an identifier preceding the message).
 1. Activate the **screen reader** and navigate through the messages.
@@ -2658,7 +2658,7 @@ The criterion is not applicable when the two-way voice communication functionali
 
 ###### iOS and Android
 
-1. Check that the application allows two-way voice communication and real-time text (RTT) communication or real-time video broadcasting.
+1. Check that the application allows two-way voice communication and RTT communication or real-time video broadcasting.
 1. If this is the case, activate the application on two terminals and connect them to the same session.
 1. Have a user speak from one of the terminals.
 1. Check that a visual indicator appears on the interface to identify that a person is speaking. It is not necessary for this criterion to identify who is speaking, but simply to identify that there is a person speaking. For example, a halo around or an icon near the avatar of the person speaking.
@@ -2677,7 +2677,7 @@ The criterion is not applicable when the two-way voice communication functionali
 
 No evaluation method is proposed for this criterion.
 
-**Important note:** This criterion is very complex to assess and requires a certain mastery of all interoperability concepts and standards. If the application you are assessing or developing needs to cover this criterion, we refer you to the full text of criterion *6.2.3 Interoperability* in standard EN 301 549.
+**Important note:** This criterion is very complex to assess and requires a certain mastery of all interoperability concepts and standards. If the application you are assessing or developing needs to cover this criterion, we refer you to the full text of criterion 6.2.3 Interoperability in standard EN 301 549.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2692,7 +2692,7 @@ No evaluation method is proposed for this criterion.
 
 1. Check that the application supports real-time text (RTT) communication.
 1. If so, activate the application and the written communication functionality on two separate terminals and connect them to the same session.
-1. Enter text on the first terminal and observe its appearance on the second terminal. The appearance on the second terminal must be instantaneous (less than half a second). Depending on how the functionality works, each character is not sent individually. In fact, if the real-time text (RTT) communication functionality implements word prediction, it is when the desired word is selected that it is sent, not when the first characters used to trigger the suggestion display are entered. A simple observation test may be sufficient to observe the instantaneous appearance on the terminal receiving the written message. 
+1. Enter text on the first terminal and observe its appearance on the second terminal. The appearance on the second terminal must be instantaneous (less than half a second). Depending on how the functionality works, each character is not sent individually. In fact, if the RTT communication functionality implements word prediction, it is when the desired word is selected that it is sent, not when the first characters used to trigger the suggestion display are entered. A simple observation test may be sufficient to observe the instantaneous appearance on the terminal receiving the written message. 
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2757,7 +2757,7 @@ No evaluation method is proposed for this criterion.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.4 Alternatives to voice-based services*.
 
-#### [Criterion 15.11](#crit-15-11) [AA] For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that has real-time video, is the quality of the video sufficient? {id="crit-15-11"}
+#### [Criterion 15.11](#crit-15-11) [AA] For each [two-way voice communication application](glossaire.md#two-way-voice-communication-application) that has real-time video, is the quality of the video sufficient? {id="crit-15-11"}
 
 **[Test 15.11.1](#test-15-11-1):** For each two-way voice communication application that has real-time video, are the following conditions met? {id="test-15-11-1"}
 - The video resolution is at least [QVGA](glossaire.md#qvga);
