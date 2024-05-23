@@ -11,7 +11,7 @@ This website
 is
 <strong>partially compliant</strong> with the European Standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> 
 and 
-<a href="https://accessibilite.public.lu/fr/raweb1" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>	
+<a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>	
 , due to the reasons listed below.
 </p>
 <h3>Non-accessible content</h3>

@@ -49,6 +49,6 @@ author: Dominique Nauroy
     <p>A screen reader is a technical assistance software designed for people who are blind or severely visually impaired: it reads by voice synthesis and/or on a Braille display what is displayed on a computer screen - content and structure - and allows interaction with the operating system and the applications.</p>
     <p>It cannot interpret a drawing or a graphic, hence the need to provide coherent alternative texts.</p>
     <p>Screen readers are usually built in the operating system (VoiceOver on macOS or iOS; Narrator on Windows; TalkBack on Android). It can also be independent software, such as JAWS or NVDA, to be downloaded and installed on Windows. </p>
-    <p>You can find out more about the screen readers used during compliance audits on our <a href="https://accessibilite.public.lu/en/rgaa4.1/index.html">Desktop</a> and <a href="https://accessibilite.public.lu/en/raam1/index.html">Mobile</a> Test Environment pages.</p>
+    <p>You can find out more about the screen readers used during compliance audits on our <a href="https://accessibilite.public.lu/fr/rgaa4.1/index.html" hreflang="fr">Desktop</a> and <a href="https://accessibilite.public.lu/en/raam1/index.html">Mobile</a> Test Environment pages.</p>
 </aside>
 </div>

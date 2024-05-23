@@ -281,7 +281,7 @@ Element using a visual representation such as images, pictograms or graphics.
 This element may be made up of one or more parts which need to be visible in order to be understood (for example, each point on each line of a statistics graph).
 
 The "Image" role is not rendered uniformly in all environments.
-- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application; the screen reader will render the description if it is defined but will not announce "image". However, for images embedded in [web views](glossairemd#web-views), the screen reader will display "Graphic elements".
+- TalkBack (Android): the nature of graphic elements is not rendered when they are integrated into a native application; the screen reader will render the description if it is defined but will not announce "image". However, for images embedded in [web views](glossaire.md#web-views), the screen reader will display "Graphic elements".
 - VoiceOver (iOS): whether in a native application or in a web view, VoiceOver renders "Image" for images it can access.
 
 Generally speaking, depending on the development method, it is also possible that the role is not rendered on either TalkBack or VoiceOver. In this case, observation alone will determine the nature of the element.
@@ -427,7 +427,7 @@ QVGA (Quarter Video Graphics Array) resolution is a display standard that corres
 
 ### R
 
-#### Real-time text communication (RTT)
+#### Real-time text communication
 
 Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the enter key).
 

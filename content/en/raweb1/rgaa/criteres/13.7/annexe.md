@@ -14,4 +14,4 @@ Norm:
 
 #### Note
 
-This criterion is subject to the [principle of non-interference](../obligations.html#principle-of-non-interference).
+This criterion is subject to the [principle of non-interference](../obligations.html#non-interference-principle).

@@ -63,9 +63,9 @@ A content structure that displays information in rows and columns using header c
 An image or complex shape that does not provide any information essential to understanding the content with which it is associated.
 
 #### Detailed description
-Content associated with an image or complex form, in addition to its alternative, which makes available all of the information contained in the image or complex form.
+Content associated with an image or complex shape, in addition to its alternative, which makes available all of the information contained in the image or complex shape.
 
-The detailed description must be adjacent to the image or complex form or available via an adjacent link.
+The detailed description must be adjacent to the image or complex shape or available via an adjacent link.
 
 #### Different states of a graphic element
 Sometimes a graphic element is presented in different states. For example, a star voting system where the number of stars of a certain colour represents the value of the score awarded. It is important that the colour ratio between the default colour and the colour of each state is sufficient.
@@ -80,7 +80,7 @@ Metadata used to give a title to the document, generally entered in the document
 #### Enlarged text size
 Text and image text at enlarged size is greater than or equal to 150% or 120% bold compared to the default size.
 
-#### Explicit reference (to an image caption or complex form)
+#### Explicit reference (to an image caption or complex shape)
 Explicit indication (e.g. "See caption below") or common term (e.g. "Image: [alternative]" and "Image: [caption]") between the alternative and the caption that makes it clear that the caption is associated with the image.
 
 ### F
@@ -149,7 +149,7 @@ Text associated with a form input field, allowing the nature of the input to be 
 The label and its field must be visually close so that the relationship between the two cannot lead to confusion.
 
 #### Legend
-Text containing information about the image or the complex form with which it is associated. For example, copyright information, date, author, location, technical characteristics, etc.
+Text containing information about the image or the complex shape with which it is associated. For example, copyright information, date, author, location, technical characteristics, etc.
 
 #### Linearised content
 The order in which the content of a presentation table is displayed when the content is scanned cell by cell.
@@ -266,9 +266,9 @@ List of content titles, presented at the beginning of the document, generally in
 Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 #### Text alternative
-Text associated with an image or complex form that provides information equivalent to that conveyed by the image or complex form.
+Text associated with an image or complex shape that provides information equivalent to that conveyed by the image or complex shape.
 
-**Note**: the text alternative is not necessarily a text that describes the image or complex form. Its purpose is to convey the essential information it provides in text form to people who cannot see the image or complex form.
+**Note**: the text alternative is not necessarily a text that describes the image or complex shape. Its purpose is to convey the essential information it provides in text form to people who cannot see the image or complex shape.
 
 #### Text image or text as image
 
