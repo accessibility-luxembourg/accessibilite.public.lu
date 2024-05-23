@@ -22,7 +22,7 @@ Evaluating and adapting these elements requires the intervention of specialists 
 
 The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
 
-### Type of non-compliant content {class="no-summary"}
+### Non-compliant content types {class="no-summary"}
 
 The following types of content will be considered non-compliant, as they may not be used satisfactorily by all people with disabilities:
 - multimedia, video or audio content
@@ -132,7 +132,7 @@ Only the content of the criteria and tests has normative value.
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-descriptiond), is this description relevant? {id="crit-1-5"}
+#### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
@@ -155,7 +155,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
-- **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions {id="test-1-6-1"}?
+- **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions? {id="test-1-6-1"}
     - The [legend](glossaire.md#legend) is adjacent to the image.
     - The alternative image contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the legend.
 
@@ -205,7 +205,7 @@ In these situations, the criterion does not apply:
 
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
-#### [Criterion 2.1](#crit-2-1) [A] Information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only-only). Is this rule respected? {id="crit-2-1"}
+#### [Criterion 2.1](#crit-2-1) [A] Information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected? {id="crit-2-1"}
 - **[Test 2.1.1](#test-2-1-1)** For each word or set of words whose colouring carries information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected? {id="test-2-1-1"}
 - **[Test 2.1.2](#test-2-1-2)** For each indication of colour given by text, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected? {id="test-2-1-2"}
 - **[Test 2.1.3](#test-2-1-3)** For each image conveying information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected? {id="test-2-1-3"}
@@ -237,7 +237,7 @@ In these situations, the criterion does not apply:
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 - **[Test 2.2.1](#test-2-2-1)** For [normal text size](glossaire.md#normal-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-1"}
     - The contrast ratio between the text and its background is at least 4.5:1.
-    - A [replacement mechanism](glossaire.md#replacement-mechanism-contrast-strength) is used to display the text with a contrast ratio of at least 4.5:1.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display the text with a contrast ratio of at least 4.5:1.
 - **[Test 2.2.2](#test-2-2-2)** For [enlarged text](glossaire.md#enlarged-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-2"}
     - The contrast ratio between the text and its background is at least 3:1.
     - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display the text with a contrast ratio of at least 3:1.
@@ -269,13 +269,13 @@ In these situations, the criterion does not apply:
 #### [Criterion 2.3](#crit-2-3) [AA] Are the colours used in the graphic elements conveying information sufficiently contrasting (excluding special cases)? {id="crit-2-3"}
 - **[Test 2.3.1](#test-2-3-1)** Does the contrast ratio of each colour required to understand a graphic element with the [adjacent colours](glossaire.md#adjacent-colours), meet one of these conditions (excluding special cases)?{id="test-2-3-1"}
     - The contrast ratio is at least 3:1.
-    - A [replacement mechanism](glossaire.md#replacement-mechanism-contrast-strength) allows graphic elements to be displayed with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) allows graphic elements to be displayed with sufficient contrast.
 - **[Test 2.3.2](#test-2-3-2)** Does the contrast ratio of each colour required to understand a graphic element with the background colour meet one of these conditions (excluding special cases)?{id="test-2-3-2"}
     - The contrast ratio is at least 3:1.
-    - A [replacement mechanism](glossaire.md#replacement-mechanism-contrast-strength) allows graphic elements to be displayed with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) allows graphic elements to be displayed with sufficient contrast.
 - **[Test 2.3.3](#test-2-3-3)** Does the contrast ratio between the colours of a graphic element in its [different states](glossaire.md#different-states-of-a-graphic-element) meet one of these conditions (excluding special cases)?{id="test-2-3-3"}
     - The contrast ratio is at least 3:1.
-    - A [replacement mechanism](glossaire.md#replacement-mechanism-contrast-strength) is used to display graphic elements with sufficient contrast.
+    - A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display graphic elements with sufficient contrast.
 
 ##### Special cases 
 In these situations, the criterion does not apply:
@@ -806,7 +806,7 @@ In this case, the criterion is not applicable.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.5](#crit-9-5) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
-- **[Test 9.5.1](#test-9-5-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information-form) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
+- **[Test 9.5.1](#test-9-5-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the complex shape is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
 
@@ -826,7 +826,7 @@ In this case, the criterion is not applicable.
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
 #### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex shape](glossaire.md#complex-shape), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
-- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions {id="test-9-6-1"}?
+- **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions? {id="test-9-6-1"}
     - The [legend](glossaire.md#legend) is adjacent to the complex shape.
     - The alternative of the complex shape contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the [legend](glossaire.md#legend).
 
@@ -921,7 +921,7 @@ However, a test by a person with a disability using his or her own assistive tec
 - and that the user has all the necessary information.
 
 #### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
-- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-input-field) satisfy these conditions? {id="test-10-1-1"}
+- **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-field) satisfy these conditions? {id="test-10-1-1"}
     - the [label](glossaire.md#label) is visible;
     - the [label](glossaire.md#label) is correctly rendered by assistive technologies.
 
@@ -943,7 +943,7 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.4.1.2 Name, role, value*.
 
-#### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) relevant? {id="crit-10-2"}
+#### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
     - The title of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
     - The visible title of the [label](glossaire.md#label) is contained in the title accessible to assistive technologies.
@@ -969,8 +969,8 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*, *10.2.5.3 Label in name*, *10.3.3.2 Labels or instructions*.
 
-#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
-- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-input-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
+#### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
+- **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1007,7 +1007,7 @@ However, a test by a person with a disability using his or her own assistive tec
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-input-field) meet these conditions? {id="test-10-5-1"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
     - The mandatory character is visible and explicit.
     - The mandatory character is accessible to assistive technologies.
 
@@ -1043,7 +1043,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
-#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-input-field), is the expected data type and/or format available? {id="crit-10-6"}
+#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), is the expected data type and/or format available? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
     - The data type and/or format is accessible to assistive technologies.

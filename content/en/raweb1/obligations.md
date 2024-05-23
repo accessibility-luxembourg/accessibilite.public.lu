@@ -121,7 +121,7 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the "accessibility" page;
 1. the "help" page;
 1. the page or set of pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
-1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#help-desk);
+1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#support-service);
 1. the "sitemap" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
@@ -214,7 +214,7 @@ The percentage of criteria met is obtained by dividing the number of validated c
 
 This compliance rate determines the compliance status to be mentioned in the [accessibility statement](#content-of-the-accessibility-statement).
 
-#### Principle of non-interference
+#### Non-interference principle
 
 In an audit sample, there may be content that is not subject to the accessibility obligation:
 

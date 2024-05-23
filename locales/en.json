@@ -84,5 +84,7 @@
   "Assessment carried out by a third-party": "Assessment carried out by a third-party",
   "(ex: accessibility@organisation.public.lu)": "(ex: accessibility@organisation.public.lu)",
   "(ex: \"Information and Press Service\")": "(ex: \"Information and Press Service\")",
-  "Auto-évaluation": "Auto-évaluation"
+  "Auto-évaluation": "Auto-évaluation",
+  "cookie-charter": "cookie-charter",
+  "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>."
 }

@@ -26,7 +26,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Two-way voice communication web application](glossaire.html#two-way-voice-communication-web-application)
 - [Biological characteristics](glossaire.html#biological-characteristics)
 - [Key features of captions](glossaire.html#key-features-of-captions)
-- [Real-time text communication](glossaire.html#real-time-text-communication-rtt)
+- [Real-time text communication](glossaire.html#real-time-text-communication)
 - [Documentation](glossaire.html#documentation)
 - [Accessibility feature](glossaire.html#accessibility-feature)
 - [Main features (of a time-based media)](glossaire.html#main-features-of-a-time-based-media)
@@ -38,7 +38,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Editing tool](glossaire.html#editing-tool)
 - [QVGA](glossaire.html#qvga)
 - [Digital accessibility rules](glossaire.html#digital-accessibility-rules)
-- [Help desk](glossaire.html#help-desk)
+- [Help desk](glossaire.html#support-service)
 - [Relay service](glossaire.html#relay-service)
 - [Translation subtitles](glossaire.html#translation-subtitles)
 - [Transformation](glossaire.html#transformation)
@@ -56,7 +56,7 @@ In addition, each criterion included in the principle of non-interference is ide
 
 #### Modification of the sample description for the audit of a website
 
-The section ["Website audit sample"](../obligations.html#Website-audit-sample) on the "Requirements" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the help desk.
+The section ["Website audit sample"](../obligations.html#website-audit-sample) on the "Requirements" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the help desk.
 
 #### Details of the compliance rate and general methodology
 

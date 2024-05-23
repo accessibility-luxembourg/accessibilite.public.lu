@@ -2,7 +2,7 @@
 title: Adjacent background colour and adjacent colour
 ---
 
-Adjacent background colour: background colour directly in contact with the outer edge of the user interface component or [graphic element](#element-graphique).
+Adjacent background colour: background colour directly in contact with the outer edge of the user interface component or [graphic element](#graphic-element).
 
 Examples:
 

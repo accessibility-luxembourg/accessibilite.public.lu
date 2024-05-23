@@ -142,7 +142,7 @@ Note: the case of CAPTCHAs and test graphic elements is dealt with specifically 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
-#### [Criterion 1.8](#crit-1-8) [AA] Each [text graphic element](glossaire.md#graphic-element-text) conveying information, in the absence of a [replacement mechanism](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#styled-text). Is this rule respected (excluding special cases)? {id="crit-1-8"}
+#### [Criterion 1.8](#crit-1-8) [AA] Each [text graphic element](glossaire.md#text-graphic-element) conveying information, in the absence of a [replacement mechanism](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#styled-text). Is this rule respected (excluding special cases)? {id="crit-1-8"}
 
 ##### Special cases
 
@@ -660,7 +660,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 - WCAG 2.1 [1.4.2 Sound control (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
 
-#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#control-of-viewing(of-time-based-media))?  {id="crit-3-13"}
+#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#viewing-control-time-based-media)?  {id="crit-3-13"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1794,7 +1794,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ### [Topic 10](#topic-10): Navigation {id="topic-10"}
 
-#### [Criteria 10.1](#crit-10-1) [A] In each screen, is the [tab order](glossaire.md#tab-order) on the keyboard [consistent](glossaire.md#coherent-read-order)? {id="crit-10-1"}
+#### [Criteria 10.1](#crit-10-1) [A] In each screen, is the [tab order](glossaire.md#tab-order) on the keyboard [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2579,7 +2579,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.1 Audio bandwidth for speech*.
 
-#### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way voice communication](glossaire.md#two-way-voice-communication-application) have [real-time-text-communication](glossaire.md#real-time-text-communication-rtt) functionality? {id="crit-15-2"}
+#### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way voice communication](glossaire.md#two-way-voice-communication-application) have [real-time-text-communication](glossaire.md#real-time-text-communication) functionality? {id="crit-15-2"}
 
 **[Test 15.2.1](#test-15-2-1):** Does each application that enables two-way voice communication meet one of these conditions?  {id="test-15-2-1"}
 - The application has built-in real-time text (RTT) functionality;
@@ -2599,7 +2599,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.1 RTT communication*.
 
-#### [Criterion 15.3](#crit-15-3) [A] For each application that allows [two-way voice communication](glossaire.md#two-way-voice-communication-application) and [real-time-text](glossaire.md#real-time-text-communication-rtt), are both modes usable simultaneously? {id="crit-15-3"}
+#### [Criterion 15.3](#crit-15-3) [A] For each application that allows [two-way voice communication](glossaire.md#two-way-voice-communication-application) and [real-time-text](glossaire.md#real-time-text-communication), are both modes usable simultaneously? {id="crit-15-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2615,7 +2615,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.1.2 Concurrent voice and text*.
 
-#### [Criterion 15.4](#crit-15-4) [A] For each [real-time text communication](glossaire.md#real-time-text-communication-rtt) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
+#### [Criterion 15.4](#crit-15-4) [A] For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
 
 **[Test 15.4.1](#test-15-4-1):** For each real-time text (RTT) functionality, do the messages respect these conditions? {id="test-15-4-1"}
 - Messages received and sent are separated in the presentation;
@@ -2669,7 +2669,7 @@ The criterion is not applicable when the two-way voice communication functionali
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*.
 
-#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time text communication](glossaire.md#real-time-text-communication-rtt) application that can interact with other [real-time text communication](glossaire.md#real-time-text-communication-rtt) applications comply with the interoperability rules in force? {id="crit-15-6"}
+#### [Criterion 15.6](#crit-15-6) [A] Does each [real-time text communication](glossaire.md#real-time-text-communication) application that can interact with other [real-time text communication](glossaire.md#real-time-text-communication) applications comply with the interoperability rules in force? {id="crit-15-6"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2684,7 +2684,7 @@ No evaluation method is proposed for this criterion.
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *6.2.3 Interoperability*.
 
-#### [Criterion 15.7](#crit-15-7) [AA] For each application that supports [real-time text (RTT) communication](glossaire.md#real-time-text-communication-rtt), the transmission delay for each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
+#### [Criterion 15.7](#crit-15-7) [AA] For each application that supports [real-time text (RTT) communication](glossaire.md#real-time-text-communication), the transmission delay for each [input unit](glossaire.md#input-unit) is 500ms or less. Is this rule respected? {id="crit-15-7"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

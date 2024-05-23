@@ -10,7 +10,7 @@ eleventyNavigation:
 
 Some RAWeb criteria, in particular those in the JavaScript theme, include rendering tests to be carried out on assistive technologies associated with browsers and operating systems.
 
-The tests carried out using these combinations (assistive technology, operating system, browser) enable a declaration to be made that an HTML / WAI-ARIA device is "compatible with accessibility" as defined by <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr>.
+The tests carried out using these combinations (assistive technology, operating system, browser) enable a declaration to be made that an HTML / WAI-ARIA device is "compatible with accessibility" as defined by <abbr title="web content accessibility guidelines">WCAG</abbr>.
 
 The combinations have been established on the basis of the list of assistive technologies whose use is sufficiently widespread, or in certain cases where it is provided natively and constitutes the preferred means of accessing information and features.
 

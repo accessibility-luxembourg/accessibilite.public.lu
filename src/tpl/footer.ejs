@@ -9,10 +9,11 @@
         </ul>
         <% 
             const urlSIP = `https://sip.gouvernement.lu/${lang}.html`;
-            const urlCookies = `${prefix}/html/${lang}/aspects-legaux.html#charte-des-cookies`;
+            const urlCookies = `${prefix}/html/${lang}/aspects-legaux.html#`;
+            const urlCookiesAnchor = __`cookie-charter`;
          %>
         <p>
-            <%- __`This site is published by the <a href="${urlSIP}">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href="${urlCookies}">cookies policy</a>.` %>
+            <%- __`This site is published by the <a href="${urlSIP}">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href="${urlCookies}${urlCookiesAnchor}">cookies policy</a>.` %>
         </p>
     </div>
 </footer>

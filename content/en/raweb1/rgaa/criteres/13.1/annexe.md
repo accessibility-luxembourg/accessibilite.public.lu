@@ -38,4 +38,4 @@ In these situations, the criterion is not applicable. For example, refreshing an
 
 #### Note
 
-Test 13.1.1 of this criterion is subject to the [principle of non-interference](../obligations.html#principle-of-non-interference).
+Test 13.1.1 of this criterion is subject to the [principle of non-interference](../obligations.html#non-interference-principle).
