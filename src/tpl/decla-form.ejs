@@ -29,7 +29,7 @@
         </div>
     </fieldset>
     <fieldset class="form-group">
-        <legend><%= __("Organisation name") %> (ex&thinsp;: "Service information et presse")</legend>
+        <legend><%= __("Organisation name") %> <%- __("(ex: \"Information and Press Service\")") %></legend>
         <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") + l.name %> <span class="symbol-required">* </span></label>
@@ -158,10 +158,10 @@
         <fieldset class="form-group">
             <legend><%= __("Type of assessment") %></legend>
             <div class="form-check">
-                <input type="radio" id="auto" name="eval_type" value="auto" checked class="form-check-input"><label for="auto" class="form-check-label">Auto-évaluation</label>
+                <input type="radio" id="auto" name="eval_type" value="auto" checked class="form-check-input"><label for="auto" class="form-check-label"><%= __("Self-assessment") %></label>
             </div>
             <div class="form-check">
-                <input type="radio" id="thirdparty" name="eval_type" value="thirdparty" class="form-check-input"><label for="thirdparty" class="form-check-label">Évaluation réalisée par un tiers</label>
+                <input type="radio" id="thirdparty" name="eval_type" value="thirdparty" class="form-check-input"><label for="thirdparty" class="form-check-label"><%= __("Assessment carried out by a third-party") %></label>
             </div>
         </fieldset>
         <div class="form-group"  id="thirdparty-blk">
@@ -180,7 +180,7 @@
     <div id="contact">
         <h4><%= __("Contact information") %></h4>    
         <div class="form-group">
-            <label for="email"><%= __("Contact e-mail") %> (ex: accessibilite@organisme.public.lu) <span class="symbol-required">* </span></label>
+            <label for="email"><%= __("Contact e-mail") %> <%- __("(ex: accessibility@organisation.public.lu)") %> <span class="symbol-required">* </span></label>
             <input type="email" class="form-control" id="email" name="email" required>
         </div> 
     </div>    
