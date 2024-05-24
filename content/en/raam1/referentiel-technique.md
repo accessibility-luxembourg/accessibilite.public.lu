@@ -185,9 +185,9 @@ The criterion does not apply to the following elements:
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
 
-#### [Criterion 2.1](#crit-2-1) [A] In each screen, [information must not be provided by colour alone](glossaire.md#information-provided-by-colour). Is this rule respected? {id="crit-2-1"}
+#### [Criterion 2.1](#crit-2-1) [A] On each screen, [information must not be provided by colour alone](glossaire.md#information-provided-by-colour). Is this rule respected? {id="crit-2-1"}
 
-**[Test 2.1.1](#test-2-1-1):** In each screen, does each element whose colour setting conveys information respect at least one of these conditions? {id="test-2-1-1"}
+**[Test 2.1.1](#test-2-1-1):** On each screen, does each element whose colour setting conveys information respect at least one of these conditions? {id="test-2-1-1"}
 - The information is not provided by colour alone;
 - A [replacement mechanism](glossaire.md#replacement-mechanism) allows the user to display an alternative to the colour.
 
@@ -215,7 +215,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.1.4.1 Use of colour*.
 
-#### [Criterion 2.2](#crit-2-2) [AA] In each screen, is the [contrast](glossaire.md#contrast) between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
+#### [Criterion 2.2](#crit-2-2) [AA] On each screen, is the [contrast](glossaire.md#contrast) between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 
 **[Test 2.2.1](#test-2-2-1):** For each text, does the contrast between the colour of the text and the colour of its background meet one of these conditions? {id="test-2-2-1"}
 - The contrast ratio between the text and its background is at least 4.5:1 for [normal text size](glossaire.md#contrast-text-size) and at least 3:1 for [large text size](glossaire.md#contrast-text-size);
@@ -264,12 +264,12 @@ Note: It is possible to use the **[Accessibility Scanner] application (methodolo
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.3 Contrast (Minimum)*, *11.7 User preferences*.
 
-#### [Criterion 2.3](#crit-2-3) [AA] In each screen, are the colours used in the [user interface components](glossaire.md#user-interface-component) and the graphic elements conveying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
+#### [Criterion 2.3](#crit-2-3) [AA] On each screen, are the colours used in the [user interface components](glossaire.md#user-interface-component) and the graphic elements conveying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
 
-- **[Test 2.3.1](#test-2-3-1):** In each screen, does the contrast ratio between the colours of a [user interface component](glossaire.md#user-interface-component) in its various states and the [adjacent colours](glossaire.md#adjacent-colour) satisfy one of these conditions (excluding special cases)? {id="test-2-3-1"}
+- **[Test 2.3.1](#test-2-3-1):** On each screen, does the contrast ratio between the colours of a [user interface component](glossaire.md#user-interface-component) in its various states and the [adjacent colours](glossaire.md#adjacent-colour) satisfy one of these conditions (excluding special cases)? {id="test-2-3-1"}
 	- The contrast ratio is 3:1, at least;
 	- A [replacement mechanism](glossaire.md#replacement-mechanism) is used to display the user interface component with a contrast ratio of at least 3:1.
-- **[Test 2.3.2](#test-2-3-2):** In each screen, does the contrast ratio of each colour required to understand a graphic element and the [adjacent colours](glossaire.md#adjacent-colour) meet one of these conditions (excluding special cases)? {id="test-2-3-2"}
+- **[Test 2.3.2](#test-2-3-2):** On each screen, does the contrast ratio of each colour required to understand a graphic element and the [adjacent colours](glossaire.md#adjacent-colour) meet one of these conditions (excluding special cases)? {id="test-2-3-2"}
 	- The contrast ratio is 3:1, at least;
 	- A [replacement mechanism](glossaire.md#replacement-mechanism) allows a contrast ratio of at least 3:1.
 
@@ -1092,7 +1092,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 - WCAG 2.1: [3.2.1 At focus (A)](https://www.w3.org/Translations/WCAG21-fr/#on-focus), [3.2.2 At input (A)](https://www.w3.org/Translations/WCAG21-fr/#on-input)
 - EN 301 549 V3.2.1 (2021-03): *11.3.2.1 On Focus*, *11.3.2.2 On Input*.
 
-#### [Criterion 5.4](#crit-5-4) [AA] In each screen, are the [status messages](glossaire.md#status-message) correctly rendered by assistive technologies? {id="crit-5-4"}
+#### [Criterion 5.4](#crit-5-4) [AA] On each screen, are the [status messages](glossaire.md#status-message) correctly rendered by assistive technologies? {id="crit-5-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1134,7 +1134,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 ### [Topic 6](#topic-6): Mandatory elements {id="topic-6"}
 
-#### [Criterion 6.1](#crit-6-1) [A] In each screen, are texts rendered by assistive technologies in the main language of the screen? {id="crit-6-1"}
+#### [Criterion 6.1](#crit-6-1) [A] On each screen, are texts rendered by assistive technologies in the main language of the screen? {id="crit-6-1"}
 
 **Note:** It is not required that language changes in the screen are identified (e.g. a foreign language term included in a paragraph) but that the screen is rendered at least correctly in the main language of the screen. However, in certain applications where language changes would be essential to the understanding of the content (such as a translation application or a foreign language course application) it will be necessary to ensure that foreign language texts are correctly rendered in the identified language.
 
@@ -1161,7 +1161,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 - WCAG 2.1 [3.1.1 Language of the page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
 - EN 301 549 V3.2.1 (2021-03) *11.3.1.1.1 Language of software*.
 
-#### [Criterion 6.2](#crit-6-2) [A] In each screen, interface elements must not be used [only for layout purposes](glossaire.md#only-for-layout-purposes). Is this rule respected? {id="crit-6-2"}
+#### [Criterion 6.2](#crit-6-2) [A] On each screen, interface elements must not be used [only for layout purposes](glossaire.md#only-for-layout-purposes). Is this rule respected? {id="crit-6-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1195,7 +1195,7 @@ This criterion only checks elements that should not be interactive (text element
 
 ### [Topic 7](#topic-7): Information structuring {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [A] In each screen, is the information structured by the appropriate use of titles? {id="crit-7-1"}
+#### [Criterion 7.1](#crit-7-1) [A] On each screen, is the information structured by the appropriate use of titles? {id="crit-7-1"}
 
 **[Test 7.1.1](#test-7-1-1)** Does each screen meet these conditions? {id="test-7-1-1"}
 - The content of each title is relevant;
@@ -1245,7 +1245,7 @@ This criterion only checks elements that should not be interactive (text element
 - WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 Headers and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
 
-#### [Criterion 7.2](#crit-7-2) [A] In each screen, is each list correctly structured? {id="crit-7-2"}
+#### [Criterion 7.2](#crit-7-2) [A] On each screen, is each list correctly structured? {id="crit-7-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1263,7 +1263,7 @@ This criterion only checks elements that should not be interactive (text element
 
 ### [Topic 8](#topic-8): Presentation of information {id="topic-8"}
 
-#### [Criterion 8.1](#crit-8-1) [A] In each screen, is the visible content carrying information accessible to assistive technologies? {id="crit-8-1"}
+#### [Criterion 8.1](#crit-8-1) [A] On each screen, is the visible content carrying information accessible to assistive technologies? {id="crit-8-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1281,7 +1281,7 @@ Note: In applications, items can be grouped together. For example, in a product 
 - WCAG 2.1 [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1.1 Non-text Content*, *11.1.3.1.1 Info and Relationships*, *11.5.2.10 Text*.
 
-#### [Criterion 8.2](#crit-8-2) [AA] In each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
+#### [Criterion 8.2](#crit-8-2) [AA] On each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
 **[Test 8.2.1](#test-8-2-1)** Does each screen meet these conditions? {id="test-8-2-1"}
 - The user can enlarge the size of the texts by 200% using the platform parameters;
@@ -1325,7 +1325,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.4 Text resizing (AA)](https://www.w3.org/Translations/WCAG21-fr/#resize-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.4.1 Resize Text (AA)*, *11.5.2.3 Use of accessibility services*, *11.7 User preferences*.
 
-#### [Criterion 8.3](#crit-8-3) [A] In each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
+#### [Criterion 8.3](#crit-8-3) [A] On each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1355,7 +1355,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
-#### [Criterion 8.4](#crit-8-4) [A] In each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
+#### [Criterion 8.4](#crit-8-4) [A] On each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1373,7 +1373,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of Colour*.
 
-#### [Criterion 8.5](#crit-8-5) [A] In each screen, for each element receiving the focus, is the [focus](glossaire.md#when-focused) visible? {id="crit-8-5"}
+#### [Criterion 8.5](#crit-8-5) [A] On each screen, for each element receiving the focus, is the [focus](glossaire.md#when-focused) visible? {id="crit-8-5"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1395,7 +1395,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibility of focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#when-focused) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.1 Use of Colour*, *11.2.4.7 Focus Visible*, *11.7 User preferences*.
 
-#### [Criterion 8.6](#crit-8-6) [A] In each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape-size-or-location). Is this rule respected? {id="crit-8-6"}
+#### [Criterion 8.6](#crit-8-6) [A] On each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape-size-or-location). Is this rule respected? {id="crit-8-6"}
 
 This applies to words or sets of words, texts, graphic elements conveying information and time-based media.
 
@@ -1413,7 +1413,7 @@ This applies to words or sets of words, texts, graphic elements conveying inform
 - WCAG 2.1: [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics), [1.4.1 Use of colour (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.3 Sensory Characteristics*, *11.1.4.1 Use of Colour*.
 
-#### [Criterion 8.7](#crit-8-7) [AA] In each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#user-interface-component) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
+#### [Criterion 8.7](#crit-8-7) [AA] On each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#user-interface-component) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
 
 - **[Test 8.7.1](#test-8-7-1):** Can any additional content which becomes visible when the focus is taken or when a user interface component is hovered over be hidden by a user action without moving the focus or the mouse pointer (excluding special cases)? {id="test-8-7-1"}
 - **[Test 8.7.2](#test-8-7-2)** Can any additional content which appears when a user interface component is hovered over be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
@@ -1794,7 +1794,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ### [Topic 10](#topic-10): Navigation {id="topic-10"}
 
-#### [Criteria 10.1](#crit-10-1) [A] In each screen, is the [tab order](glossaire.md#tab-order) on the keyboard [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-1"}
+#### [Criteria 10.1](#crit-10-1) [A] On each screen, is the [tab order](glossaire.md#tab-order) on the keyboard [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1812,7 +1812,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - WCAG 2.1: [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.3 Focus Order (A)*.
 
-#### [Criterion 10.2](#crit-10-2) [A] In each screen, is the order of playback by assistive technologies [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-2"}
+#### [Criterion 10.2](#crit-10-2) [A] On each screen, is the order of playback by assistive technologies [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1832,9 +1832,9 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*.
 
-#### [Criterion 10.3](#crit-10-3) [A] In each screen, the navigation must not contain any [keyboard traps](glossaire.md#keyboard-trap). Is this rule respected? {id="crit-10-3"}
+#### [Criterion 10.3](#crit-10-3) [A] On each screen, the navigation must not contain any [keyboard traps](glossaire.md#keyboard-trap). Is this rule respected? {id="crit-10-3"}
 
-**[Test 10.3.1](#test-10-3-1):** In each screen, does each element receiving focus meet one of these conditions? {id="test-10-3-1"}
+**[Test 10.3.1](#test-10-3-1):** On each screen, does each element receiving focus meet one of these conditions? {id="test-10-3-1"}
 - It is possible to use the keyboard to go to the next or previous element which can receive the focus;
 - The user is informed of a functional mechanism enabling the next or previous element that can receive focus to be reached using the keyboard.
 
@@ -1869,9 +1869,9 @@ The keyboard trap test is then limited to checking that the component can be rea
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 No keyboard traps (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*. 
 
-#### [Criterion 10.4](#crit-10-4) [A] In each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user?  {id="crit-10-4"}
+#### [Criterion 10.4](#crit-10-4) [A] On each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user?  {id="crit-10-4"}
 
-**[Test 10.4.1](#test-10-4-1):** In each screen, does each keyboard shortcut using a single key (lower or upper case letter, punctuation, number or symbol) meet one of these conditions? {id="test-10-4-1"}
+**[Test 10.4.1](#test-10-4-1):** On each screen, does each keyboard shortcut using a single key (lower or upper case letter, punctuation, number or symbol) meet one of these conditions? {id="test-10-4-1"}
 - A mechanism is available to disable the keyboard shortcut;
 - A mechanism is available for configuring the keyboard shortcut key using the modifier keys (<kbd>Ctrl</kbd>, <kbd>Alt</kbd>, <kbd>Shift</kbd>, etc.);
 - In the case of a user interface component, the associated keyboard shortcut can only be activated if the keyboard focus is on this component.
@@ -1951,7 +1951,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 - WCAG 2.1: [2.2.1 Timeout setting (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable*.
 
-#### [Criterion 11.3](#crit-11-3) [A] In each screen, does each office document available for download have, if necessary, an [accessible version](glossaire.md#accessible-version) (excluding special cases)? {id="crit-11-3"}
+#### [Criterion 11.3](#crit-11-3) [A] On each screen, does each office document available for download have, if necessary, an [accessible version](glossaire.md#accessible-version) (excluding special cases)? {id="crit-11-3"}
 
 **[Test 11.3.1](#test-11-3-1):** Does each office document meet one of these conditions?  {id="test-11-3-1"}
 - The document to be downloaded is compatible with accessibility;
@@ -2002,7 +2002,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
-#### [Criterion 11.5](#crit-11-5) [A] In each screen, does each cryptic content (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-11-5"}
+#### [Criterion 11.5](#crit-11-5) [A] On each screen, does each cryptic content (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-11-5"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2019,7 +2019,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
 
-#### [Criterion 11.6](#crit-11-6) [A] In each screen, for each cryptic content (ASCII art, emoticon, cryptic syntax) having an alternative, is this alternative relevant? {id="crit-11-6"}
+#### [Criterion 11.6](#crit-11-6) [A] On each screen, for each cryptic content (ASCII art, emoticon, cryptic syntax) having an alternative, is this alternative relevant? {id="crit-11-6"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2033,7 +2033,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 - WCAG 2.1: [1.1.1 Non-textual content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
 
-#### [Criterion 11.7](#crit-11-7) [A] In each screen, are [sudden change in brightness or flashing effects](glossaire.md#sudden-change-in-brightness-or-flashing-effect) used correctly? {id="crit-11-7"}
+#### [Criterion 11.7](#crit-11-7) [A] On each screen, are [sudden change in brightness or flashing effects](glossaire.md#sudden-change-in-brightness-or-flashing-effect) used correctly? {id="crit-11-7"}
 
 **[Test 11.7.1](#test-11-7-1):** Do sudden changes in brightness or flashing effects meet any of these conditions? {id="test-11-7-1"}
 - The effect frequency is less than 3 per second;
@@ -2056,7 +2056,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 - WCAG 2.1 [2.3.1 No more than three flashes or below the critical threshold (A)](https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold).
 - EN 301 549 V3.2.1 (2021-03) *11.2.3.1 Three Flashes or Below Threshold (A)*.
 
-#### [Criterion 11.8](#crit-11-8) [A] In each screen, is each moving or flashing content [controllable](glossaire.md#control-moving-or-flashing-content) by the user? {id="crit-11-8"}
+#### [Criterion 11.8](#crit-11-8) [A] On each screen, is each moving or flashing content [controllable](glossaire.md#control-moving-or-flashing-content) by the user? {id="crit-11-8"}
 
 **[Test 11.8.1](#test-11-8-1):** Does each moving or flashing content meet one of these conditions? {id="test-11-8-1"}
 - The duration of the movement or flashing is less than or equal to 5 seconds;
@@ -2123,7 +2123,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 - WCAG 2.1 [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.4 Orientation*.
 
-#### [Criterion 11.10](#crit-11-10) [A] In each screen, are the features that can be activated using a [complex gesture](glossaire.md#complex-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
+#### [Criterion 11.10](#crit-11-10) [A] On each screen, are the features that can be activated using a [complex gesture](glossaire.md#complex-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
 
 ##### Special cases
 
@@ -2146,7 +2146,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [2.5.1 Gestures for pointer control (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures). 
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*.
 
-#### [Criterion 11.11](#crit-11-11) [A] In each screen, are the features that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
+#### [Criterion 11.11](#crit-11-11) [A] On each screen, are the features that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
 
 ##### Special cases
 
@@ -2167,9 +2167,9 @@ The criterion does not apply to actions required by the platform.
 - WCAG 2.1: N/A 
 - EN 301 549 V3.2.1 (2021-03) *5.9 Simultaneous user actions*.
 
-#### [Criterion 11.12](#crit-11-12) [A] In each screen, can actions triggered by a pointing device on a single point on the screen be cancelled (excluding special cases)? {id="crit-11-12"}
+#### [Criterion 11.12](#crit-11-12) [A] On each screen, can actions triggered by a pointing device on a single point on the screen be cancelled (excluding special cases)? {id="crit-11-12"}
 
-**[Test 11.12.1](#test-11-12-1):** In each screen, do actions triggered using a pointing device on a single point on the screen meet one of these conditions (excluding special cases)? {id="test-11-12-1"}
+**[Test 11.12.1](#test-11-12-1):** On each screen, do actions triggered using a pointing device on a single point on the screen meet one of these conditions (excluding special cases)? {id="test-11-12-1"}
 - The action is triggered when the pointing device is released;
 - The action is triggered when the pointing device is pressed or put down and then cancelled when the pointing device is released;
 - The [action is complex](glossaire.md#complex-action) and a mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action.
@@ -2192,7 +2192,7 @@ The criterion is not applicable when the functionality requires the expected beh
 - WCAG 2.1: [2.5.2 Cancellation of pointer action (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.5.2 Pointer Cancellation (A)*.
 
-#### [Criterion 11.13](#crit-11-13) [A] In each screen, can the features involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
+#### [Criterion 11.13](#crit-11-13) [A] On each screen, can the features involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
 
 **[Test 11.13.1](#test-11-13-1):** Does each feature that involves movement to or from the device meet these conditions? {id="test-11-13-1"}
 - The functionality can be triggered using a user interface component;
