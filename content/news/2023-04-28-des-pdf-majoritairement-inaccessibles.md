@@ -64,26 +64,26 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <summary>Description du graphique 1</summary>
         <p>Ce diagramme présente, sous forme d'une carte proportionnelle, la répartition des 25&#8239;398 fichiers PDF collectés dans le cadre de cette étude&#8239;:</p>
         <ul>
-            <li>13&#8239;715 PDF visés par la loi (54&#8239;%)</li>
+            <li>13&#8239;781 PDF visés par la loi (54&#8239;%), dont</li>
             <ul>
-                <li>5&#8239;623 balisés (22&#8239;% du total ou 41&#8239;% des fichiers visés par la loi)</li>
+                <li>5&#8239;591 balisés (22&#8239;% du total ou 41&#8239;% des fichiers visés par la loi)</li>
                 <ul>
-                    <li>890 formulaires</li>
-                    <li>7&#8239;202 autres documents structurés</li>
+                    <li>642 formulaires</li>
+                    <li>4&#8239;949 autres documents structurés</li>
                 </ul>
-                <li>8&#8239;095 non balisés (32&#8239;% du total ou 59&#8239;% des fichiers visés par la loi)</li>
+                <li>8&#8239;185 non balisés (32&#8239;% du total ou 59&#8239;% des fichiers visés par la loi)</li>
                 <ul>
-                    <li>1&#8239;295 fichiers numérisés en mode image</li>
-                    <li>728 formulaires</li>
-                    <li>6&#8239;069 autres documents non structurés</li>
+                    <li>1&#8239;131 fichiers numérisés en mode image</li>
+                    <li>705 formulaires</li>
+                    <li>6&#8239;349 autres documents non structurés</li>
                 </ul>
             </ul>
-            <li>11&#8239;683 PDF exemptés (46&#8239;%)</li>
+            <li>11&#8239;617 PDF exemptés (46&#8239;%)</li>
         </ul>
     </details>
 </figure>
-<p>Concernant l’accessibilité de ces documents, nous avons détecté que 59&#8239;% sont non balisés. Parmi ces documents non balisés, 9&#8239;% sont des formulaires et 16&#8239;% sont des documents numérisés sur lesquels aucune reconnaissance optique de caractères n’a été réalisée.</p>
-<p>Dans une autre perspective, si on étudie le balisage de l'ensemble des PDF en fonction de leur nature, on constate que 10&#8239;% des documents PDF environ sont des formulaires. Ces documents sont donc particulièrement importants car ils supportent des procédures administratives actives. 52&#8239;% d’entre eux ne sont pas balisés.</p>
+<p>Concernant l’accessibilité de ces documents, nous avons détecté que 59&#8239;% sont non balisés. Parmi ces documents non balisés, 9&#8239;% sont des formulaires et 14&#8239;% sont des documents numérisés sur lesquels aucune reconnaissance optique de caractères n’a été réalisée.</p>
+<p>Dans une autre perspective, si on étudie l'ensemble des PDF en fonction de leur nature, on constate que 5&#8239;% des documents PDF environ sont des formulaires. Ces documents sont donc particulièrement importants car ils supportent des procédures administratives actives. 52&#8239;% d’entre eux ne sont pas balisés.</p>
 <p>Point positif&#8239;: très peu de documents sont protégés contre l’usage de technologies d’assistance (0,03&#8239;%).</p>
 <h5>Évolution temporelle</h5>
 <div class="charts-side-by-side">

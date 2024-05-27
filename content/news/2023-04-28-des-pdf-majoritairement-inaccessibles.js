@@ -66,60 +66,60 @@ function loadchart (chartid) {                                                  
                     data: [{
                         id: 'A',
                         color: '#E3E4DB',
-                        value: 11683
+                        value: 11617
                     }, {
                         id: 'B',
-                        value: 13715,
+                        value: 13781,
                         color: '#3F6C51'
                     }, {
                         name: 'PDF visés par la loi, balisés',
                         parent: 'B',
                         id: 'B1',
-                        value: 5623,
+                        value: 5591,
                         pct: 22,
                         sortIndex: 0
                     }, {
                         name: 'PDF visés par la loi, non balisés',
                         parent: 'B',
                         id: 'B2',
-                        value: 8092,
-                        pct: 32,
+                        value: 8185,
+                        pct: 32.2,
                         sortIndex: 1,
                         color: '#A30015'
                     }, {
                         name: 'Formu-<br>laires',
                         parent: 'B1',
-                        value: 890,
-                        pct: 3.5,
+                        value: 642,
+                        pct: 2.5,
                         sortIndex: 0
                     }, {
                         name: 'Formu-<br>laires',
                         parent: 'B2',
-                        value: 728,
-                        pct: 2.9,
+                        value: 705,
+                        pct: 2.8,
                         sortIndex: 1
                     },{
                         name: 'Autres documents structurés',
                         parent: 'B1',
-                        value: 7202,
-                        pct: 28.4,
+                        value: 4949,
+                        pct: 19,
                         sortIndex: 1
                     },  {
                         name: 'Images',
                         parent: 'B2',
-                        value: 1295,
-                        pct: 5,
+                        value: 1131,
+                        pct: 4,
                         sortIndex: 0
                     }, {
                         name: 'Autres documents non structurés',
                         parent: 'B2',
-                        value: 6069,
-                        pct: 23.9,
+                        value: 6349,
+                        pct: 25,
                         sortIndex: 2
                     }, {
                         name: 'PDF exemptés',
                         parent: 'A',
-                        value: 11683,
+                        value: 11617,
                         pct: 46
                     }]
                 }],
