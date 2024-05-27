@@ -64,21 +64,21 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <summary>Description of diagram 1</summary>
         <p>This diagram shows, in the form of a proportional map, the distribution of the 25,398 PDF files collected as part of this study:</p>
         <ul>
-            <li>13,715 PDFs in the scope of the law (54%)</li>
+            <li>13,781 PDFs in the scope of the law (54%)</li>
             <ul>
-                <li>5,623 tagged (22% of the total or 41% of files in the scope of the law)</li>
+                <li>5,591 tagged (22% of the total or 41% of files in the scope of the law)</li>
                 <ul>
-                    <li>890 forms</li>
-                    <li>7,202 other structured documents</li>
+                    <li>642 forms</li>
+                    <li>4,949 other structured documents</li>
                 </ul>
-                <li>8,095 untagged (32% of the total or 59% of the files covered by the Act)</li>
+                <li>8,185 untagged (32% of the total or 59% of the files covered by the Act)</li>
                 <ul>
-                    <li>1,295 files scanned in image mode</li>
-                    <li>728 forms</li>
-                    <li>6,069 other unstructured documents</li>
+                    <li>1,131 files scanned in image mode</li>
+                    <li>705 forms</li>
+                    <li>6,349 other unstructured documents</li>
                 </ul>
             </ul>
-            <li>11,683 exempt PDFs (46%)</li>
+            <li>11,617 exempt PDFs (46%)</li>
         </ul>
     </details>
 </figure>
@@ -121,7 +121,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>There are significant differences between the sites in terms of the proportion of tagged PDFs. Here we have analysed the sites with more than a hundred PDF files available. Guichet.lu leads the way with 82% and meteolux.lu comes in at just 3%.</p>
 <p>These results must be qualified, however, as our automatic tests do not allow us to determine whether the documents in question are exempt from the obligation to comply with accessibility standards. This is because a document may be issued by a third party and not be under the control of the publishing organisation, or an accessible alternative may be available. These two exceptions are provided for in the law.</p>
 <h5>Impact of production method</h5>
-<p>We then wanted to know the origin of tagged and untagged files. Fortunately, the PDF format has "<span lang="en">Creator</span>" and "<span lang="en">Producer</span>" metadata that can be used to identify the source.</p>
+<p>We then wanted to know the origin of tagged and untagged files. Fortunately, the PDF format has "Creator" and "Producer" metadata that can be used to identify the source.</p>
 <p>Below are the Top 5 software and hardware products that our tests identified as producing the most tagged and untagged documents:</p>
 <h6>Top 5 producers of tagged PDFs</h6>
 <ol>
@@ -152,7 +152,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 </figure>
 <p>The prevalence of documents digitised as images on public sites varies. Their number is very low on a site such as guichet.lu (2% of untagged PDFs on this site) but very high on that of the City of Luxembourg (52% of untagged PDFs on the site).</p>
 <h5>Analysis of accessibility statements</h5>
-<p>All public websites are required to publish an accessibility statement. This is generally available via an "Accessibility" link in the <span lang="en">footer of</span> each page. The organisations in charge of these sites must describe the level of accessibility achieved and any accessibility problems of which they are aware. We wanted to find out whether these organisations are aware of any accessibility problems with the PDF files they publish.</p>
+<p>All public websites are required to publish an accessibility statement. This is generally available via an "Accessibility" link in the footer of each page. The organisations in charge of these sites must describe the level of accessibility achieved and any accessibility problems of which they are aware. We wanted to find out whether these organisations are aware of any accessibility problems with the PDF files they publish.</p>
 <p>11 of the 17 sites studied have an accessibility statement. These include</p>
 <ul>
 <li>8 invoke an exemption provided for by law for old documents (4) or for documents originating from third parties (7).</li>
