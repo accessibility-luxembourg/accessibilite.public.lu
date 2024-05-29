@@ -6,7 +6,7 @@ Text close to the form field that indicates the nature, type or format of the in
 
 - By using a `<label>` tag;
 - By using the WAI-ARIA `aria-label` attribute;
-- By linking the text to the field using the WAI-ARIA attribute `aria-labelledby`;
+- By linking the text to the field using the WAI-ARIA `aria-labelledby` attribute;
 - By using the `title` attribute.
 
 Important note: when several of these techniques are used on the same field, the calculation of the "accessible name", i.e. what will be returned, follows a strict order:

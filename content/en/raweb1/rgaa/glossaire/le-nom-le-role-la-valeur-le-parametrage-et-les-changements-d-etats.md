@@ -10,7 +10,7 @@ The name can be the title of the component (the title of a button, for example).
 
 The value is, for example, the selected item in a drop-down list or the current value of a cursor (`slider`).
 
-The role corresponds to the type of element defined by the HTML or WAI-ARIA specification (such as the `<button>` tag or the WAI-ARIA attribute `role="button"`).
+The role corresponds to the type of element defined by the HTML or WAI-ARIA specification (such as the `<button>` tag or the WAI-ARIA `role="button"` attribute).
 
 Parameters correspond to specific information about a component, generally provided by WAI-ARIA. For example, `aria-controls` is a parameter that sends APIs the information that the component controls such and such content (referenced by its identifier -- attribute `id`).
 

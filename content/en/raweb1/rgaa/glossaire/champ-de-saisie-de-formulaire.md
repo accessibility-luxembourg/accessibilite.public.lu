@@ -52,4 +52,4 @@ The object of a form allowing the user to
   - `input type="image"`;
   - `input type="button"`;
   - `button`;
-  - wAI-ARIA attribute `role="button"`.
+  - WAI-ARIA `role="button"` attribute.

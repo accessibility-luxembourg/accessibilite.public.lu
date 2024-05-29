@@ -8,4 +8,4 @@ Note 1: Some frames are used solely for technical operations such as application
 
 If these frames do not have a frame title provided by the remote service, or if the frame titles are deemed irrelevant, generic terms may be used, for example `title="Facebook technical content"`.
 
-Note 2: If this does not hinder the operation of this type of frame, it is possible to make them unavailable to assistive technologies by using the WAI-ARIA attribute `aria-hidden="true"`. In this case, {% crit 2.1 %} and {% crit 2.2 %} will not apply.
+Note 2: If this does not hinder the operation of this type of frame, it is possible to make them unavailable to assistive technologies by using the WAI-ARIA `aria-hidden="true"` attribute. In this case, {% crit 2.1 %} and {% crit 2.2 %} will not apply.

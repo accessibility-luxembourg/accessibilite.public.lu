@@ -31,7 +31,7 @@ Image link
 
 In HTML, the "accessible name" corresponds to the text made up from the text alternative of one or more images in the link of the type
 
-- Image (element `<img>` or opening tag with WAI-ARIA attribute `role="img"`);
+- Image (element `<img>` or opening tag with WAI-ARIA `role="img"` attribute);
 - Object image (element `<object>`);
 - Bitmap image (element `<canvas>`);
 - Vector image (element `<svg>`).

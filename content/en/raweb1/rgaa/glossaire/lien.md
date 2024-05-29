@@ -5,7 +5,7 @@ title: Link
 In HTML
 
 - `<a>` tag with a `href` attribute;
-- Tag with a WAI-ARIA attribute `role="link"` and whose navigation action is handled by a script.
+- Tag with a WAI-ARIA `role="link"` attribute and whose navigation action is handled by a script.
 
 In SVG
 

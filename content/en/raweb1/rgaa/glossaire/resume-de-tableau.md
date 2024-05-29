@@ -8,4 +8,4 @@ Note: in HTML5, the only technique that can currently be used is to insert the s
 
 In previous versions of HTML, the summary could be inserted via a `summary` attribute on the `<table>` tag.
 
-In the case of a tag with the WAI-ARIA attribute `role="table"`, the summary must be provided using an `aria-describedby` attribute and be correctly rendered (by assistive technologies).
+In the case of a tag with the WAI-ARIA `role="table"` attribute, the summary must be provided using an `aria-describedby` attribute and be correctly rendered (by assistive technologies).

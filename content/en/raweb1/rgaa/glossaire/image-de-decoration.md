@@ -11,4 +11,4 @@ Examples
 - A rounded corner image to dress up a block of information;
 - An illustrative image that does not provide any information necessary for understanding the text to which it is associated.
 
-Note: tags with a WAI-ARIA attribute `role="img"` can only be used as decorative images if they have a WAI-ARIA attribute `aria-hidden="true"`.
+Note: tags with a WAI-ARIA `role="img"` attribute can only be used as decorative images if they have a WAI-ARIA `aria-hidden="true"` attribute.

@@ -6,11 +6,11 @@ WAI-ARIA provides roles for indicating the main areas (regions) of the document.
 
 The roles must be defined in the document according to the nature of the zone:
 
-- The [header region](#header-region) must have a WAI-ARIA attribute `role="banner"`;
-- The main [navigation menu](#menu-and-navigation-bar) must have a WAI-ARIA attribute `role="navigation"`;
-- The [main content region](#main-content-region) must have a WAI-ARIA attribute `role="main"`;
-- The [footer region](#footer-region) must have a WAI-ARIA attribute `role="contentinfo"`;
-- The [search engine](#search-engine-internal-to-a-website) region on the website must have a WAI-ARIA attribute `role="search"`.
+- The [header region](#header-region) must have a WAI-ARIA `role="banner"` attribute;
+- The main [navigation menu](#menu-and-navigation-bar) must have a WAI-ARIA `role="navigation"` attribute;
+- The [main content region](#main-content-region) must have a WAI-ARIA `role="main"` attribute;
+- The [footer region](#footer-region) must have a WAI-ARIA `role="contentinfo"` attribute;
+- The [search engine](#search-engine-internal-to-a-website) region on the website must have a WAI-ARIA `role="search"` attribute.
 
 Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. Skip links should therefore be used instead of landmarks.
 

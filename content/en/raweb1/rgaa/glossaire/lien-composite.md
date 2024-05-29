@@ -4,7 +4,7 @@ title: Composite link
 
 In HTML, [link](#link) containing both text and one or more image children:
 
-- Image (tag `<img>` or opening tag with WAI-ARIA attribute `role="img"`);
+- Image (tag `<img>` or opening tag with WAI-ARIA `role="img"` attribute);
 - Clickable area (tag `<area>`) with a `href` attribute;
 - Object image (tag `<object>`);
 - Bitmap image (tag `<canvas>`);

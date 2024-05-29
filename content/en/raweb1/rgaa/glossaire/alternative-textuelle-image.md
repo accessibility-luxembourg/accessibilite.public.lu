@@ -4,7 +4,7 @@ title: Text alternative (image)
 
 "Accessible name" rendered by assistive technologies for graphic elements such as
 
-- Image (`<img>` tag or opening tag with a WAI-ARIA attribute `role="img"`);
+- Image (`<img>` tag or opening tag with a WAI-ARIA `role="img"` attribute);
 - Image map area (`<area>` tag);
 - Image type button (`<input>` tag with the attribute `type="image"`);
 - Object image (`<object type="image/…">` tag);
@@ -14,14 +14,14 @@ title: Text alternative (image)
 
 In the case of a graphic element, the "accessible name" is obtained in the following order:
 
-- Passage of associated text via the WAI-ARIA attribute `aria-labelledby` for the tags
+- Passage of associated text via the WAI-ARIA `aria-labelledby` attribute for the tags
   - `<img>`;
   - `<input type="image"> `;
   - `<svg> `;
   - `<object type="image/…"> `;
   - `<embed type="image/…"> `;
   - `<canvas> `;
-  - tags with a WAI-ARIA attribute `role="img"`.
+  - tags with a WAI-ARIA `role="img"` attribute.
 - Otherwise, value of the WAI-ARIA `aria-label` attribute for elements
   - `<img>`;
   - `<area>`;
@@ -30,7 +30,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<object type="image/…">`;
   - `<embed type="image/…">`;
   - `<canvas>`;
-  - opening tags with a WAI-ARIA attribute `role="img"`.
+  - opening tags with a WAI-ARIA `role="img"` attribute.
 - Otherwise, value of the `alt` attribute for tags
   - `<img>`;
   - `<area>`;
