@@ -1,7 +1,7 @@
 <% if (message !== '') { %>
 <p id="intro"><%- message %></p>
 <% } %>
-<p><%- __("<strong>Warning:</strong> For each criterion in the framework, an assessment methodology is proposed. Nevertheless, this methodology has no prescriptive value, i.e. it is only provided as an aid to familiarize yourself with the framework, by giving an example of a possible evaluation method but other evaluation methods may exist. In addition, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. Finally, it is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criterion and the associated tests have normative value.") %></p>
+<p><%- __("<strong>Warning:</strong> For each criterion in the framework, an assessment methodology is proposed. However, this methodology is non-normative, i.e. it is only provided as an aid to familiarize yourself with the framework, by giving an example of a possible evaluation method but other evaluation methods may exist. In addition, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. Finally, it is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criterion and the associated tests have normative value.") %></p>
 <% topics.forEach(topic => { %>
     <%- include('topic-new', {lang: lang, topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion, '__': __}) %>
 <% }) %>
