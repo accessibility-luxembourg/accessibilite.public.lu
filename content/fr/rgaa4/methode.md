@@ -7,11 +7,11 @@ menu:
 layout: rgaa-accessibilite
 ---
 D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites publics et applications mobiles luxembourgeoises doivent être accessibles. 
-Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
+Le [Service information et presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
 
 Dans ce cadre, le référentiel général d'amélioration de l'accessibilité (RGAA), créé par la [DINUM](https://www.numerique.gouv.fr/dinum/), a été sélectionné comme référentiel d'accessibilité pour tous les organismes du secteur public concernés par la loi.
 
-La présente version est la version 4-LU, son contenu est directement issu du [RGAA 4 original](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/). Son contenu a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois.
+La présente version est la version 4-LU, son contenu est directement issu du [RGAA 4 original](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/). Son contenu a été adapté par le [Service information et presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois.
 
 La méthode technique du RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d'accessibilité. Dès lors, elle permet de vérifier qu’une page web – c’est-à-dire tout contenu HTML (HTML4, XHTML1 et HTML5) - est conforme aux 50 critères de succès des niveaux A et AA de la norme internationale WCAG 2.1 qui ont été retenus dans la [norme européenne de référence (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
 

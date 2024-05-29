@@ -10,7 +10,7 @@ eleventyNavigation:
 *Version 4.1.2-LU, publiée le 18 août 2023*
 
 D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
-Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
+Le [Service information et presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
 
 Dans ce cadre, le référentiel général d'amélioration de l'accessibilité (RGAA), créé par la [DINUM](https://www.numerique.gouv.fr/dinum/), a été sélectionné comme référentiel d'accessibilité pour tous les organismes du secteur public concernés par la loi.
 
@@ -26,7 +26,7 @@ Certains tests, concernant notamment les composants d’interface développés e
 
 La méthode technique du RGAA 4.1.2 couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1](../raam1/index.html).
 
-La présente version est la version 4.1.2-LU, son contenu est directement issu du [RGAA 4.1.2 original](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/RGAA](https://github.com/accessibility-luxembourg/RGAA).
+La présente version est la version 4.1.2-LU, son contenu est directement issu du [RGAA 4.1.2 original](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service information et presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/RGAA](https://github.com/accessibility-luxembourg/RGAA).
 En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
 
 ### Sommaire
