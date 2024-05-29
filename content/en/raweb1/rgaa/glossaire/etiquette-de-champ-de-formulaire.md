@@ -5,7 +5,7 @@ title: Form field label
 Text close to the form field that indicates the nature, type or format of the information expected. The label can be associated with the form field in several ways:
 
 - By using a `<label>` tag;
-- By using the WAI-ARIA attribute `aria-label`;
+- By using the WAI-ARIA `aria-label` attribute;
 - By linking the text to the field using the WAI-ARIA attribute `aria-labelledby`;
 - By using the `title` attribute.
 

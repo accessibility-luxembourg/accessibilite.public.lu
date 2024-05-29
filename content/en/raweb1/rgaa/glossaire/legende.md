@@ -4,7 +4,7 @@ title: Legend
 
 HTML provides a way of titling groups of fields of the same kind using the elements `<fieldset>` and `<legend>`.
 
-It is also possible to create groups with the WAI-ARIA role `group` and a passage of text, acting as a legend, linked by the WAI-ARIA attribute `aria-labelledby` or provided by a WAI-ARIA attribute `aria-label`.
+It is also possible to create groups with the WAI-ARIA role `group` and a passage of text, acting as a legend, linked by the WAI-ARIA attribute `aria-labelledby` or provided by a WAI-ARIA `aria-label` attribute.
 
 Note 1: Field groupings can use other methods that associate the grouping information directly into the field label.
 For example, via a `title` attribute, a WAI-ARIA `aria-label` attribute, a `aria-labelledby` link acting as a label, or the WAI-ARIA `aria-describedby` attribute associating additional text. In this case, field grouping becomes unnecessary because the labels are sufficiently relevant.

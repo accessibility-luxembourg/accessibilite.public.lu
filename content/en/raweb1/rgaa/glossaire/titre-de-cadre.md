@@ -2,7 +2,7 @@
 title: Frame title
 ---
 
-Content of the `title` attribute of the `<iframe>` or `<frame>` tag, used to identify the nature of the content displayed via the frame when the user navigates from frame to frame or displays the list of frames on the page, for example.
+value of the `title` attribute of the `<iframe>` or `<frame>` tag, used to identify the nature of the content displayed via the frame when the user navigates from frame to frame or displays the list of frames on the page, for example.
 
 Note 1: Some frames are used solely for technical operations such as application processing designed to prepare or control content displayed on the page, such as the frames used by certain social networks such as Facebook.
 

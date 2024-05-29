@@ -7,14 +7,14 @@ title: Title (or accessible name) of link
 In the case of an HTML link, the "accessible name" is obtained in the following order:
 
 - passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- otherwise, content of the WAI-ARIA attribute `aria-label`;
+- otherwise, value of the WAI-ARIA `aria-label` attribute;
 - otherwise, content of the link;
-- otherwise, content of the `title` attribute.
+- otherwise, value of the `title` attribute.
 
 This order must be used to determine what constitutes the title of the link. For example
 
 - if a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute are present together, the text passage referenced by the WAI-ARIA `aria-labelledby` attribute must be considered as the heading;
-- if there is both a WAI-ARIA `aria-label` attribute and content in the link, the content of the WAI-ARIA `aria-label` attribute must be considered as the heading.
+- if there is both a WAI-ARIA `aria-label` attribute and content in the link, the value of the WAI-ARIA `aria-label` attribute must be considered as the heading.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
@@ -47,16 +47,16 @@ In HTML, the "accessible name" corresponds to the text made up from the set
 In the case of an SVG link (version 1.1), the "accessible name" is obtained as follows:
 
 - Passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- Otherwise, content of the WAI-ARIA attribute `aria-label`;
+- Otherwise, value of the WAI-ARIA `aria-label` attribute;
 - Otherwise, content of the `<title>` element, the direct child of the link;
-- Otherwise, content of the `xlink:title` attribute;
+- Otherwise, value of the `xlink:title` attribute;
 - Otherwise, text content of one or more `<text>` elements.
 
 However, care must be taken as this calculation algorithm is not yet taken into account and effective within the various screen readers. To date, support is available with VoiceOver, but incomplete with JAWS and NVDA. As a result, the lowest common denominator on which it is possible to rely to provide a title for the link is the `<text>` element.
 
 Note 1: a link label will be considered as non-explicit if the "accessible name" does not include the [visible label](#visible-label) of the link.
 
-Note 2: due to the possible configuration of assistive technologies allowing the "accessible name" derived from the content of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. A link title will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
+Note 2: due to the possible configuration of assistive technologies allowing the "accessible name" derived from the value of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. A link title will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
 
 Note 3: In the case of several links with different destinations whose "accessible name" is identical. The link title alone will be considered non-explicit if the link context does not allow them to be differentiated.
 
