@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Fira+Sans:wght@300;400;500&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
@@ -22,7 +23,6 @@ html, body {
   max-width: 800px;
   margin: 0 auto;
 }
-
 
 .RAWebMaster #static-container {
   margin: 0 0.5rem;
@@ -146,6 +146,7 @@ html, body {
 .accordion button span.theme-name {
   display: inline-block;
   hyphens: auto;
+  max-width: 90%;
 }
 
 .accordion-trigger:focus .accordion-title {
@@ -289,19 +290,16 @@ html, body {
   line-height: 1.4rem !important;
 }
 
-.accordion h4 div.aa {
-  background-color: #B06316;
-  border: none;
-}
-
 .accordion a {
   color: black;
   border-bottom: 1px solid #19297c;
   text-decoration: none;
 }
 
-.accordion a:hover {
+.accordion a:hover, .accordion a:focus:visited, .accordion a:focus {  
   border-bottom: 2px solid #19297c;
+  color: black;
+  background-color: white;
 }
 
 .RAWebMaster details summary, .RAWebMasterHeader details summary {
@@ -372,7 +370,6 @@ html, body {
   padding: 0.1rem 0;
   text-align: center;
   width: 3rem;
-  
 }
 
 .accordion details ul li p {
@@ -439,7 +436,7 @@ html, body {
 }
 
 
-/* Notes panel */
+/* notes panel */
 .RAWebMasterHeader .rawebMargin {
   margin: 0 0.5rem;
 }
@@ -488,6 +485,8 @@ html, body {
   font: 400 0.9rem "Fira Sans";
 }
 
+
+/* modal mode */
 .floating {
   position: fixed;
   width: 100%;
@@ -571,23 +570,29 @@ aside button.settings {
   margin-bottom: 1rem;
 }
 
-.legends > div {
+.legends > ul, .legends > ul > li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.legends > ul > li {
   display: flex;
   flex-direction: row;
 }
 
-.legends > div > div {
+.legends > ul > li > div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.legends > div > div:nth-of-type(odd) {
+.legends > ul > li > div:nth-of-type(odd) {
   width: 3rem;
   height: 3rem;
 }
 
-.legends > div > div:nth-of-type(even) {
+.legends > ul > li > div:nth-of-type(even) {
   font: 300 1rem "Fira Sans";
 }
 
@@ -638,7 +643,6 @@ aside button.settings {
 }
 
 
-
 /* bug fix */
 .RAWebMaster article {
   margin: 0 !important;
@@ -650,7 +654,6 @@ aside button.settings {
 
 
 /* glossary */
-
 .glossary-anchor {
   width: 1rem;
   height: auto;

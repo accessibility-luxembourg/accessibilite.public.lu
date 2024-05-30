@@ -16,15 +16,17 @@
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
         let rawebonlyClass = "rawebOnly";
         let rawebonlyData = 'data-rawebOnly="true"';
+        let rawebCriterion = "nouveau critère RAWeb";
         if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) {
             rawebonlyClass = '';
             rawebonlyData = '';
+            rawebCriterion = "critère";
         }
         if (crit.criterium.references[0].wcag == undefined) {'rawebOnly'}
 %>
     <h4 id="<%= critId %>">
         <span class="<%- rawebonlyClass %>" <%- rawebonlyData %>>
-            <span class="sr-only">critère </span>
+            <span class="sr-only"><%= rawebCriterion %> </span>
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
         <p><%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="Lien vers le critère <%= topic.number %>-<%= crit.criterium.number %>" href="#<%= critId %>"><img aria-hidden="true" src="../../../img/hyperlink.svg"></a></p>

@@ -2,28 +2,25 @@
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable semi */
 
-
-
-
-
-
-
 function initControlPanel () {
     const observer = new window.IntersectionObserver(([entry]) => {
       const panel = document.getElementById('control-panel');
-      //console.log(entry.boundingClientRect.top)
       if (entry.isIntersecting) {
-        //console.log('Enter')
-        //console.log("VISIBLE")
         panel.classList.remove('floating');
+        panel.classList.remove('centered');
+        panel.removeAttribute("role");
+        panel.removeAttribute("aria-label");
+        panel.removeAttribute("aria-modal");
+        panel.removeAttribute("tabindex");
         return
       }
-      //console.log('Leave')
       if (entry.boundingClientRect.top > 0) {
-        //console.log("BELOW")
       } else {
-        //console.log("ABOVE")
         panel.classList.add('floating');
+        panel.setAttribute("role", "dialog");
+        panel.setAttribute("aria-label", "Fenêtre modale d'options");
+        panel.setAttribute("aria-modal", "true");
+        panel.setAttribute("tabindex", "-1");
       }
     }, {
       root: null,
@@ -48,10 +45,41 @@ function showSettings () {
   const panel = document.getElementById('control-panel');
   if (panel.classList.contains('centered')) {
     panel.classList.remove('centered')
+    document.getElementById("accordion-settings").firstChild.innerHTML = "Ouvrir les paramètres d'affichage";
   } else {
     panel.classList.add('centered')
+    document.getElementById("accordion-settings").firstChild.innerHTML = "Fermer les paramètres d'affichage";
   }
 }
 
 
-export {initControlPanel, showSettings}
+function trapFocus() {
+  var focusableEls = document.querySelectorAll('button.settings, input[type="checkbox"]');
+  var firstFocusableEl = focusableEls[0];  
+  var lastFocusableEl = focusableEls[focusableEls.length - 1];
+
+  document.addEventListener('keydown', function(e) {
+    var isTabPressed = (e.key === 'Tab');
+
+    if (!isTabPressed) { 
+      return; 
+    }
+
+    if (document.getElementById("control-panel").classList.contains("centered")) {
+      if ( e.shiftKey ) /* shift + tab */ {
+        if (document.activeElement === firstFocusableEl) {
+          lastFocusableEl.focus();
+            e.preventDefault();
+          }
+        } else /* tab */ {
+        if (document.activeElement === lastFocusableEl) {
+          firstFocusableEl.focus();
+            e.preventDefault();
+          }
+        }
+    }
+
+  });
+}
+
+export {initControlPanel, showSettings, trapFocus}

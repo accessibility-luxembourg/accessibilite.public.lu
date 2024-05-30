@@ -1,7 +1,7 @@
 import { initDisclosure } from "./disclosureMenu"
 
 import { initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, foldMeth, foldNotes, foldTests, rawebOnly } from "./accordion"
-import { initControlPanel, showSettings } from "./control-panel"
+import { initControlPanel, showSettings, trapFocus } from "./control-panel"
 
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
@@ -194,6 +194,7 @@ function rawebInit () {
   if (document.querySelector('.RAWebMaster')) {
     initAccordions();
     initControlPanel();
+    trapFocus();
   }
   document.getElementById('btnUnfoldThemes')?.addEventListener('click', unfoldThemes);
   document.getElementById('btnUnfoldAll')?.addEventListener('click', unfoldAll);
