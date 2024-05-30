@@ -12,7 +12,7 @@ The value is, for example, the selected item in a drop-down list or the current 
 
 The role corresponds to the type of element defined by the HTML or WAI-ARIA specification (such as the `<button>` tag or the WAI-ARIA `role="button"` attribute).
 
-Parameters correspond to specific information about a component, generally provided by WAI-ARIA. For example, `aria-controls` is a parameter that sends APIs the information that the component controls such and such content (referenced by its identifier -- attribute `id`).
+Parameters correspond to specific information about a component, generally provided by WAI-ARIA. For example, `aria-controls` is a parameter that sends APIs the information that the component controls such and such content (referenced by its identifier -- `id` attribute).
 
 Changes of state are also made available by WAI-ARIA. For example, `aria-expanded` is a state that tells APIs whether the component is "open" or "closed". Note that a state can also be transmitted via the name, when the title is dynamically changed to correspond to the state of the controlled zone in particular.
 

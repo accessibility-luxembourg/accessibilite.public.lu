@@ -6,7 +6,7 @@ title: Text alternative (image)
 
 - Image (`<img>` tag or opening tag with a WAI-ARIA `role="img"` attribute);
 - Image map area (`<area>` tag);
-- Image type button (`<input>` tag with the attribute `type="image"`);
+- Image type button (`<input>` tag with the `type="image"` attribute);
 - Object image (`<object type="image/…">` tag);
 - Vector image (`<svg>` tag);
 - Bitmap image (`<canvas>` tag);
@@ -64,7 +64,7 @@ Note 2: For a group of images, for example a voting system made up of several st
 
 Note 3: for image links, the alternative text must allow the function and destination of the link to be understood; this is covered in the links theme.
 
-Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a tag `<title>` or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<title>` tag or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
 
 Note 5: As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to a `<img>`, `<area>` and `<input type="image">` tag.
 

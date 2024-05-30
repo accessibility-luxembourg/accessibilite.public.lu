@@ -2,4 +2,4 @@
 title: Form
 ---
 
-Tag `<form>` or tag with a WAI-ARIA `role="form"` attribute.
+`<form>` tag or tag with a WAI-ARIA `role="form"` attribute.
