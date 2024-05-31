@@ -13,7 +13,7 @@ Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](htt
 #### Outils de test
 ##### Outil de test dédié
 
-L’outil de test dédié est PAC 2021 [PDF/UA Accessibility Checker - 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/){lang=en}
+L’outil de test dédié est [PAC 2024](https://pac.pdf-accessibility.org/en/download/){lang=en}
 
 ##### Lecteur d’écran utilisé pour les tests
 
