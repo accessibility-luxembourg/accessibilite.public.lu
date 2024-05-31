@@ -1,25 +1,25 @@
 Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments ou d’attributs, il est difficile de procéder de la même manière pour les documents au format PDF.
 En effet, l'inspection du code d'un document au format PDF ne peut se faire qu'au moyen du logiciel <span lang="en">Acrobat Pro</span> qui est un logiciel propriétaire payant dont l'utilisation nécessite une formation. 
 
-C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d'un outil dédié (PAC 2021) ou directement sur l’interface elle-même au moyen de tests de restitution vocale par l'intermédiaire d'un lecteur d'écran.
+C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d'un outil dédié (PAC 2024) ou directement sur l’interface elle-même au moyen de tests de restitution vocale par l'intermédiaire d'un lecteur d'écran.
 
 Par exemple, lorsque l’interface contient un élément graphique porteur d’information, le critère demande de vérifier qu’une alternative est disponible et pertinente sans donner plus de précisions sur les techniques à employer pour mettre à disposition une alternative à un élément graphique. Afin d’aider pour l’évaluation, chaque critère dispose d’une méthodologie pratique (**qui n’est pas normative**) exposant une méthode possible d’évaluation du critère.
 
 ### Ressources d'exemple
 
-[Des exemples (fichier zip, 9,24 Mo)](../files/ressources-rapdf1.zip) sont à votre disposition pour illustrer la méthodologie de test. Chaque critère est notamment illustré par une capture d'écran issue de l'outil PAC 2021.
+[Des exemples (fichier zip, 9,24 Mo)](../files/ressources-rapdf1.zip) sont à votre disposition pour illustrer la méthodologie de test. Chaque critère est notamment illustré par une capture d'écran issue de l'outil PAC 2024.
 
 
 ###  Outils d’évaluation
 
-Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC 2021 ou directement dans l'interface d'<span lang="en">Acrobat Reader</span> à l'exception de la thématique complémentaire «&nbsp;10 - Formulaire interactif&nbsp;» qui nécessite l'utilisation du lecteur d'écran NVDA.
+Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC 2024 ou directement dans l'interface d'<span lang="en">Acrobat Reader</span> à l'exception de la thématique complémentaire «&nbsp;10 - Formulaire interactif&nbsp;» qui nécessite l'utilisation du lecteur d'écran NVDA.
 
 Les sections ci-dessous décrivent les éléments essentiels à connaitre pour installer ces outils.
 
-#### PAC 2021
+#### PAC 2024
 Procédure d'installation :
 
-1. Télécharger [PAC 2021 - Le vérificateur PDF gratuit](https://pdfua.foundation/fr/pac-2021-le-verificateur-pdf-gratuit/).
+1. Télécharger [PAC 2024 - Le vérificateur PDF gratuit](https://pac.pdf-accessibility.org/en/download).
 2. Le téléchargement est constitué d'une archive au format ZIP qu'il faut désarchiver. Faire un clic droit et choisir «&nbsp;Extraire tout&nbsp;».
 3. Cliquer ensuite sur «&nbsp;PAC.exe&nbsp;» pour lancer l'outil.
 

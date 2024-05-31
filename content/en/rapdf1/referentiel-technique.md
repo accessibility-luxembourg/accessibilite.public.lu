@@ -51,7 +51,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -74,7 +74,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -94,7 +94,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -115,7 +115,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -161,7 +161,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -186,7 +186,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -354,7 +354,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -374,7 +374,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -393,7 +393,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021    
+###### With PAC 2024    
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -418,7 +418,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 4.1.1 with Acrobat Reader and PAC 2021
+###### Test 4.1.1 with Acrobat Reader and PAC 2024
 
 1. Open the PDF file with PAC.
 2. Open "Preview with screen reader", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -431,7 +431,7 @@ In these situations, the criterion does not apply:
 6. If this is not the case, check in PAC that the title immediately preceding the link (Hx element) makes it clear.
 7. If this is the case, the test is validated.
 
-###### Test 4.1.2 with Acrobat Reader and PAC 2021
+###### Test 4.1.2 with Acrobat Reader and PAC 2024
 
 1. Open the PDF file with Acrobat Reader.
 2. Look for identical links.
@@ -451,7 +451,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021    
+###### With PAC 2024    
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -478,7 +478,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.1.1 with PAC 2021
+###### Test 5.1.1 with PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -512,7 +512,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.2.1 with PAC 2021 
+###### Test 5.2.1 with PAC 2024 
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -540,7 +540,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -564,9 +564,9 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and PAC 2021
+###### With Acrobat Reader and PAC 2024
 
-###### Test 6.1.1 with Acrobat Reader and PAC 2021
+###### Test 6.1.1 with Acrobat Reader and PAC 2024
 
 1. Open the PDF file with PAC.
 2. Open "Preview with screen reader", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -603,16 +603,16 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and PAC 2021
+###### With Acrobat Reader and PAC 2024
 
-###### Test 6.2.1 with Acrobat Reader and PAC 2021
+###### Test 6.2.1 with Acrobat Reader and PAC 2024
 
 1. Open the file with Acrobat Reader.
 2. Locate the information in the text that uses a change in character type or style (bold, italic, font);
 3. Check that the information transmitted using a typeface or character style is associated with an equivalent text indication. 
 4. If this is the case, the test is validated.
 
-###### Test 6.2.2 with Acrobat Reader and PAC 2021
+###### Test 6.2.2 with Acrobat Reader and PAC 2024
 
 1. Open the file with Acrobat Reader.
 2. Locate information in the text that uses a visual indication by means of positioning or the presence of a special character (e.g. a mathematical or graphic symbol).
@@ -726,7 +726,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -749,7 +749,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -769,7 +769,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -790,7 +790,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -832,7 +832,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2021
+###### With PAC 2024
 
 1. Open the PDF file.
 2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
