@@ -227,17 +227,4 @@ function foldNotes (btn) {
 }
 
 
-function rawebOnly (btn) {
-  if (btn.target.checked) {
-    document.querySelectorAll('[data-rawebOnly]').forEach((spn) => {
-      spn.classList.add('rawebOnly');
-    });
-  } else {
-    document.querySelectorAll('[data-rawebOnly]').forEach((spn) => {
-      spn.classList.remove('rawebOnly');
-    });
-  }
-}
-
-
-export {initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, unfoldCorr, foldMeth, unfoldMeth, foldNotes, unfoldNotes, foldTests, unfoldTests, rawebOnly}
+export {initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, unfoldCorr, foldMeth, unfoldMeth, foldNotes, unfoldNotes, foldTests, unfoldTests}

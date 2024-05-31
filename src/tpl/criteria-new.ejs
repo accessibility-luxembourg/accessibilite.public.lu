@@ -13,46 +13,48 @@
                 <summary>Avertissement</summary>
                 <p>Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et les tests associés ont une valeur normative.</p>
             </details>
+            <button id="showModal">Légende et options d'affichage</button>
         </aside>
     </div>
 </div>
-<div class="RAWebMaster">
-    <div id="static-container">
-        <div id="control-panel" lang="fr">
-            <aside>
-                <button id="accordion-settings" class="settings" aria-live="polite"><span class='sr-only'>Paramètres d'affichage</span></button>
-                <div class="content">
-                    <h6>Légende</h6>
-                    <div class="legends">
-                        <ul>
-                            <li>
-                                <div><span class="crit">2.1</span></div>
-                                <div>Critère</div>
-                            </li>
-                            <li>
-                                <div><span class="critRAWeb">4.14</span></div>
-                                <div>Nouveau critère RAWeb</div>
-                            </li>
-                            <li>
-                                <div><span class="a">A</span></div>
-                                <div>Niveau de conformité</div>
-                            </li>
-                        </ul>
-                    </div>
-                    <h6>Options</h6>
-                    <fieldset>
-                        <div><input type="checkbox" id="rwc1"><label for="rwc1">Tout déplier</label></div>
-                        <div><input type="checkbox" id="rwc2"><label for="rwc2">Déplier les thématiques</label></div>
-                        <div><input type="checkbox" id="rwc3"><label for="rwc3">Déplier les tests</label></div>
-                        <div><input type="checkbox" id="rwc4"><label for="rwc4">Déplier les méthodologies</label></div>
-                        <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas</label></div>
-                        <div><input type="checkbox" id="rwc6"><label for="rwc6">Déplier les correspondances</label></div>
-                        <!-- <div><input type="checkbox" id="rwc7" checked><label for="rwc7">Différencier les nouveaux critères</label></div> //-->
-                    </fieldset>
-                </div>
-            </aside>
+
+<dialog id="control-panel-dialog">
+    <form method="dialog">
+        <button id="close-modal" title="Fermer la fenêtre modale"></button>
+      </form>
+    <div class="content">
+        <h6>Légende</h6>
+        <div class="legends">
+            <ul>
+                <li>
+                    <div><span class="crit">2.1</span></div>
+                    <div>Critère</div>
+                </li>
+                <li>
+                    <div><span class="critRAWeb">4.14</span></div>
+                    <div>Nouveau critère RAWeb</div>
+                </li>
+                <li>
+                    <div><span class="a">A</span></div>
+                    <div>Niveau de conformité</div>
+                </li>
+            </ul>
         </div>
+        <h6>Options</h6>
+        <fieldset>
+            <div><input type="checkbox" id="rwc1"><label for="rwc1">Tout déplier</label></div>
+            <div><input type="checkbox" id="rwc2"><label for="rwc2">Déplier les thématiques</label></div>
+            <div><input type="checkbox" id="rwc3"><label for="rwc3">Déplier les tests</label></div>
+            <div><input type="checkbox" id="rwc4"><label for="rwc4">Déplier les méthodologies</label></div>
+            <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas</label></div>
+            <div><input type="checkbox" id="rwc6"><label for="rwc6">Déplier les correspondances</label></div>
+        </fieldset>
     </div>
+</dialog>
+
+<button id="showModal-sticky" title="Légende et options d'affichage"></button>
+
+<div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">
         <% topics.forEach(topic => { %>
             <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>

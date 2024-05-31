@@ -33,7 +33,7 @@ html, body {
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .RAWebMaster .accordion {
@@ -441,7 +441,7 @@ html, body {
   margin: 0 0.5rem;
 }
 
-.RAWebMasterHeader aside, .RAWebMaster #control-panel aside {
+.RAWebMasterHeader aside {
   position: relative;
   margin: 0 auto 2rem auto;
   border: 1px solid grey;
@@ -450,7 +450,7 @@ html, body {
   border-radius: 2px;
 }
 
-.RAWebMasterHeader aside h6, .RAWebMaster aside h6 {
+.RAWebMasterHeader aside h6, dialog#control-panel-dialog h6 {
   font: 500 1rem "Fira Sans";
   padding: 0;
   margin: 0;
@@ -473,7 +473,18 @@ html, body {
   line-height: 1.6rem;
 }
 
-.RAWebMaster fieldset {
+.RAWebMasterHeader aside button#showModal {
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+  background-image: url(../img/settings.svg);
+  background-repeat: no-repeat;
+  background-position: center left 3%;
+  background-size: 1rem;
+  background-color: #313740;
+  color: white;
+}
+
+.RAWebMaster fieldset, dialog#control-panel-dialog fieldset {
   border: none;
 }
 
@@ -485,41 +496,10 @@ html, body {
   font: 400 0.9rem "Fira Sans";
 }
 
-
-/* modal mode */
-.floating {
+button#showModal-sticky {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 100%;
-  z-index: 3;
-  transition: left 1s ease-in-out, background-color 0.3s ease-in-out;
-  background-color: rgba(255,255,255,0);
-}
-
-.floating aside {
-  position: absolute;
-  background-color: white;
-  top: 50%;
-  transform: translate(0,-50%);
-  left: 0;
-  margin: 0 !important;
-  transition: all 1s ease-in-out;
-  max-width: 290px !important;
-  max-height: 90vh;
-}
-
-.floating aside .content {
-  overflow-y: auto;
-  max-height: 85vh;
-}
-
-aside button.settings {
-  display: none;
-}
-
-.floating aside button.settings {
+  right: 0;
+  bottom: 40%;
   display: block;
   background-image: url(../img/settings.svg);
   background-size: 80%;
@@ -528,40 +508,39 @@ aside button.settings {
   background-color: #313740;
   width: 2rem;
   height: 2rem;
-  position: absolute;
-  top: 0;
-  left: -2.5rem;
   border-style: none;
 }
 
-.floating.centered {
-  left: 0;
-  background-color: rgba(255,255,255,0.8);
-}
-
-.floating.centered aside {
-  left: 50%;
-  transform: translate(-45%,-50%);
-  transition: all 1s ease-in-out;
-}
-
-.floating.centered aside button.settings {
-  background-image: url(../img/settings-close.svg);
-}
-
-.floating aside button.settings:focus, .floating aside button.settings:focus-within, .floating aside button.settings:focus-visible {
+button#showModal-sticky:focus, button#showModal-sticky:focus-within, button#showModal-sticky:focus-visible,
+button#showModal:focus, button#showModal:focus-within, button#showModal:focus-visible,
+button#close-modal:focus, button#close-modal:focus-within, button#close-modal:focus-visible {
   border: solid 2px #881600;
-  background-color: #881600;
+  background-color: #881600 !important;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .floating {
-    transition: none;
-  }
+/* dialog */
+dialog#control-panel-dialog {
+  border: 1px solid black;
+  border-radius: 3px;
+}
 
-  .floating aside {
-    transition: none;
-  }
+dialog#control-panel-dialog::backdrop {
+  background-color: white;
+  opacity: 0.6;
+}
+
+dialog#control-panel-dialog button#close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../img/settings-close.svg);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #313740;
+  width: 2rem;
+  height: 2rem;
+  border-style: none;
 }
 
 
@@ -648,7 +627,7 @@ aside button.settings {
   margin: 0 !important;
 }
 
-.RAWebMaster #control-panel input {
+dialog#control-panel-dialog input {
   margin-right: 0.3rem !important;
 }
 
