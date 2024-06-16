@@ -191,7 +191,7 @@ class DisclosureNav {
 }
 
 /* Initialize Disclosure Menus */
-function initDisclosure() {
+function initDisclosureMenu() {
     new DisclosureNav(document.querySelector('.disclosure-nav'));
     document.querySelector('.toggle-menu').addEventListener('click', toggleIsOpen);
 }
@@ -204,4 +204,4 @@ function toggleIsOpen() {
   }
 }
 
-export { toggleIsOpen, initDisclosure }
+export { toggleIsOpen, initDisclosureMenu }
