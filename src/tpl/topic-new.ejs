@@ -85,8 +85,8 @@
         <summary>Afficher les correspondances</summary>
         <div>
             <ul>
-                <li><p>Critères de succès WCAG 2.1</p>
                 <% if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) { %>
+                <li><p>Critères de succès WCAG 2.1</p>
                 <p>
                         <% let SC = crit.criterium.references[0].wcag.map(e => { return e.trim() })
                         SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
