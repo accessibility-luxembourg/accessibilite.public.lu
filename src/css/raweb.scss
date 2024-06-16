@@ -240,7 +240,7 @@ html, body {
   height: 1rem;
 }
 
-.accordion h4 span {
+.accordion h4 span:not(.level) {
   position: absolute;
   top: 0;
   left: -2.5rem;
@@ -271,7 +271,7 @@ html, body {
   top: -0.4rem;
 }
 
-.accordion h4 div {
+.accordion h4 span.level {
   position: absolute;
   top: 0;
   right: -2.3rem;
@@ -285,7 +285,7 @@ html, body {
   background: #881600 content-box;
 }
 
-.accordion h4 p {
+.accordion h4 {
   margin: 1rem 0;
   line-height: 1.4rem !important;
 }
@@ -354,12 +354,12 @@ html, body {
   line-height: 1.4rem;
 }
 
-.RAWebMaster details h5 p {
+.RAWebMaster details h5 span.test-content {
   margin-left: 2rem;
   line-height: 1.4rem !important;
 }
 
-.accordion details h5 span {
+.accordion details h5 span:not(.test-content) {
   position: absolute;
   top: 0;
   left: -1.6rem;
