@@ -218,7 +218,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdC
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, 'ol', 'Thématiques', deprecationMessage)
+    renderWithSummary(str, "RGAA 4.1.2: Critères et tests", outputPath+"/fr/rgaa4.1.2/criteres.html", "rgaa4.1.2/criteres", prefix, undefined, 'Thématiques', deprecationMessage)
 })
 
 // RAWeb 1: generate criteria page
@@ -241,7 +241,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresMonit.topics, md: m
     if (err !== null) {
         console.log(err)
     }
-    renderWithSummary(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix, 'ol', 'Thématiques')
+    renderWithSummary(str, "Critères pour le contrôle simplifié", outputPath+"/fr/monitoring/audit-simpl.html", "monitoring/audit-simpl", prefix, undefined, 'Thématiques')
 })
 
 // generate glossary in FR
