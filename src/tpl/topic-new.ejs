@@ -8,7 +8,7 @@
             <span class="theme-name"><%= md.renderInline(topic.topic) %></span>
         </span>
     </button>
-    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="Lien vers le thème <%= topic.number %>">&nbsp;</a>
+    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="Thème <%= topic.number %>">&nbsp;</a>
 </h3>
 <div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
 <% topic.criteria.forEach(crit => { 
@@ -29,11 +29,11 @@
             <span class="sr-only"><%= rawebCriterion %> </span>
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
-        <p><%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="Lien vers le critère <%= topic.number %>-<%= crit.criterium.number %>" href="#<%= critId %>"><img aria-hidden="true" src="../../../img/hyperlink.svg"></a></p>
-        <div>
+        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="Critère <%= topic.number %>-<%= crit.criterium.number %>" href="#<%= critId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a>
+        <span class="level">
             <span class="sr-only">Niveau de conformité </span>
             <%= levels[topic.number+'.'+crit.criterium.number] %>
-        </div>
+        </span>
     </h4>
     <details class="discover rawebTests">
         <summary>Tests</summary>
@@ -48,14 +48,14 @@
                 <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>
             </span>
             <% if (typeof test == 'object') { %>
-                <p><%- md.renderInline(test[0]) %>   <a class="anchor" title="Lien vers le test <%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" src="../../../img/hyperlink.svg"></a></p></h5>
+                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
                 <ul>
                 <% for (let i=1; i< test.length; i++) { %>
                     <li><p><%- md.renderInline(test[i]) %></p></li>
                 <% } %>
                 </ul>
             <% } else { %>
-                <p><%- md.renderInline(test) %>  <a class="anchor" title="Lien vers le test <%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" src="../../../img/hyperlink.svg"></a></p></h5>
+                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
             <% } %>
         <% if (metho !== '') { %>
             <details class="methodo">
