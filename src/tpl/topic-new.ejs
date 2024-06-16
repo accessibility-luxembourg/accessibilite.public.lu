@@ -36,7 +36,7 @@
         </div>
     </h4>
     <details class="discover rawebTests">
-        <summary>Parcourir les tests</summary>
+        <summary>Tests</summary>
         <% Object.keys(crit.criterium.tests).forEach(testId => {
             let test = crit.criterium.tests[testId]
             let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
@@ -59,7 +59,7 @@
             <% } %>
         <% if (metho !== '') { %>
             <details class="methodo">
-                <summary aria-live="polite">Découvrir la méthodologie du test</summary>
+                <summary aria-live="polite">Méthodologie du test</summary>
                 <div>
                     <%- metho %>
                 </div>
@@ -82,7 +82,7 @@
     <% } %>
 
     <details class="discover rawebCorr">
-        <summary>Afficher les correspondances</summary>
+        <summary>Correspondances</summary>
         <div>
             <ul>
                 <% if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) { %>
