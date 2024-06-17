@@ -57,7 +57,7 @@
 <div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">
         <% topics.forEach(topic => { %>
-            <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
+            <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion, notesTitles: notesTitles}) %>
         <% }) %>
     </div>
 </div>

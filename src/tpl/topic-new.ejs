@@ -70,13 +70,11 @@
 
     <% if (crit.criterium.notes !== '') { %>
         <%
-        let firstLine = crit.criterium.notes.toString().split('<p>')[0];
-            const noteTitle = firstLine.slice(4,-6);
-            let noteContent = crit.criterium.notes.replace(/<h5>(.*?)<\/h5>/, '');
-        
+        const noteContent = crit.criterium.notes.toString()
+        const firstLine = notesTitles(noteContent)
         %>
         <details class="discover rawebNotes">
-            <summary><%- noteTitle %></summary>
+            <summary><%- firstLine %></summary>
             <%- noteContent %>
         </details>
     <% } %>
