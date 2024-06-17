@@ -69,13 +69,9 @@
     </details>
 
     <% if (crit.criterium.notes !== '') { %>
-        <%
-        const noteContent = crit.criterium.notes.toString()
-        const firstLine = notesTitles(noteContent)
-        %>
         <details class="discover rawebNotes">
-            <summary><%- firstLine %></summary>
-            <%- noteContent %>
+            <summary>Notes et cas particuliers</summary>
+            <%- crit.criterium.notes.toString() %>
         </details>
     <% } %>
 

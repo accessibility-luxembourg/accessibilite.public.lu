@@ -46,7 +46,7 @@
             <div><input type="checkbox" id="rwc2"><label for="rwc2">Déplier les thématiques</label></div>
             <div><input type="checkbox" id="rwc3"><label for="rwc3">Déplier les tests</label></div>
             <div><input type="checkbox" id="rwc4"><label for="rwc4">Déplier les méthodologies</label></div>
-            <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas</label></div>
+            <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas particuliers</label></div>
             <div><input type="checkbox" id="rwc6"><label for="rwc6">Déplier les correspondances</label></div>
         </fieldset>
     </div>
@@ -57,7 +57,7 @@
 <div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">
         <% topics.forEach(topic => { %>
-            <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion, notesTitles: notesTitles}) %>
+            <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
         <% }) %>
     </div>
 </div>

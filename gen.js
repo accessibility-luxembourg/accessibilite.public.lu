@@ -177,16 +177,6 @@ function langOnEUNorm(str) {
     return str.replace(/^([0-9.]+\s)(.*)$/, "$1<span lang='en'>$2</span>")
 }
 
-function notesTitles(str) {
-    const $ = cheerio.load(str)
-    let titles = []
-    $('h5').each((i,e) => titles.push($(e).text()))
-    const head = titles.shift()
-    titles = titles.map(e => e.toLowerCase())
-    titles.unshift(head)
-    return titles.join(', ')
-}
-
 // generate criteria in FR
 function mdCriteres(filePath = '') {
     return MarkdownIt({
@@ -227,7 +217,7 @@ ejs.renderFile('./src/tpl/criteria.ejs',{topics: criteres41.topics, md: mdCriter
 const criteres412 = genNewRGAA.generateCriteria('./content/rgaa4.1.2')
 //console.log(JSON.stringify(criteres412, null, 2))
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (2018-08)", notesTitles: notesTitles}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (2018-08)"}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
@@ -238,7 +228,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteres412.topics, md: mdC
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/raweb1')
 const niveauxRAWeb1 = require('./content/raweb1/niveaux.json')
 prefix = "../../.."
-ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)", notesTitles: notesTitles}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: mdCriteres(), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
@@ -250,7 +240,7 @@ ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresRAWeb1.topics, md: 
 const criteresMonit = genNewRGAA.generateCriteria('./content/raweb1', '../../../html/fr/raweb1/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresMonit.topics, md: mdCriteres('../raweb1/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)", notesTitles: notesTitles}, function(err, str) {
+ejs.renderFile('./src/tpl/criteria-new.ejs',{topics: criteresMonit.topics, md: mdCriteres('../raweb1/'), prefix: prefix, slugify: slugifySC, tech2URL: tech2URL, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}, function(err, str) {
     if (err !== null) {
         console.log(err)
     }
