@@ -98,6 +98,9 @@ function renderWithSummary(data, title, file, name, prefix, summary, summaryTitl
                 p.html(content)
             }
         })
+        $('.RAWebMaster code').each(function(i, elem) {
+            $(elem).attr('lang', 'en')
+        })
         data = $('body').html()
         renderToFile(data, title, file, name, prefix, false, error)
     }
