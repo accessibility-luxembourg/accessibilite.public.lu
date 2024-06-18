@@ -1,4 +1,6 @@
-import { initDisclosure } from "./disclosureMenu"
+import { initDisclosureMenu } from "./disclosureMenu"
+
+import { initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, foldMeth, foldNotes, foldTests } from "./accordion"
 
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
@@ -87,7 +89,7 @@ function handleIntersect(className) {
 }
 
 
-function createObserver() {
+function initStickySideMenu() {
   if (document.getElementById('toc') !== null) {
     if ('IntersectionObserver' in window &&
     'IntersectionObserverEntry' in window &&
@@ -106,27 +108,20 @@ function createObserver() {
   }
 }
 
-window.addEventListener('DOMContentLoaded', function (event) {
-
-    // Disclosure menu
-    initDisclosure()
-
-    // Sticky menu
-    createObserver()
-
-    // create disclosures where we have a heading with the class "disclosure"
-    if (Element.prototype.matches) { // progressive enhancement (IE is out)
-      var disclosures = document.querySelectorAll("#contenu h3.disclosure, #contenu h4.disclosure, #contenu h5.disclosure, #contenu h6.disclosure")
-      if (disclosures.length != 0) {
-        document.getElementById('disc-control').style.display = 'block'
-        disclosures.forEach(function(e) {
-          disclosure(e)
-        })
-        changeAllCollapsibleStates('mapping')()
-        changeAllCollapsibleStates('methodo')()
-        document.getElementById('open-disclosure-mapping').addEventListener('change', changeAllCollapsibleStates('mapping'))
-        document.getElementById('open-disclosure-methodo').addEventListener('change', changeAllCollapsibleStates('methodo'))
-      } 
+function initOldStyleDisclosure() {
+  // create disclosures where we have a heading with the class "disclosure"
+  if (Element.prototype.matches) { // progressive enhancement (IE is out)
+    var disclosures = document.querySelectorAll("#contenu h3.disclosure, #contenu h4.disclosure, #contenu h5.disclosure, #contenu h6.disclosure")
+    if (disclosures.length != 0) {
+      document.getElementById('disc-control').style.display = 'block'
+      disclosures.forEach(function(e) {
+        disclosure(e)
+      })
+      changeAllCollapsibleStates('mapping')()
+      changeAllCollapsibleStates('methodo')()
+      document.getElementById('open-disclosure-mapping').addEventListener('change', changeAllCollapsibleStates('mapping'))
+      document.getElementById('open-disclosure-methodo').addEventListener('change', changeAllCollapsibleStates('methodo'))
+    } 
 
       // particular case of the criteria
       var critDisclosures = document.querySelectorAll("#contenu div.crit.disclosure")
@@ -137,9 +132,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
         })
         changeAllCollapsibleStates('crit')()
         document.getElementById('open-disclosure-crit').addEventListener('change', changeAllCollapsibleStates('crit'))
-      } else {
-        Array.from(document.querySelectorAll('.open-disclosure-crit-control')).map(e => e.style.display = 'none')       
-      }
+      } 
       document.getElementById('contenu').addEventListener('click', function(e) {
         for (var target = e.target; target && target != this; target = target.parentNode) {
           if (target.matches && target.matches('button.disclosure')) {
@@ -149,37 +142,54 @@ window.addEventListener('DOMContentLoaded', function (event) {
         }      
       }, false)
 
-      // HOTFIX for criteria 8.7
-      if (window.location.pathname.match(/rgaa.*\/glossaire\.html$/)) {
-        document.getElementById('landmarks').innerHTML = '<span lang="en">Landmarks</span>';
-      }
-
-      const filterRGAACheckbox = document.getElementById('filter-rgaa')
-      if (filterRGAACheckbox !== null) {  
-        if (Array.from(document.querySelectorAll('.topic.en-norm')).length == 0) {
-          filterRGAACheckbox.style.display = 'none'
-          document.getElementById('filter-rgaa-label').style.display = 'none'
-        } else {
-          filterRGAACheckbox.addEventListener('change', () => {
-            Array.from(document.querySelectorAll('.topic.en-norm, .crit.en-norm, .summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'block')
-            Array.from(document.querySelectorAll('.summary-topic.en-norm')).map(e => e.style.display = filterRGAACheckbox.checked?'none':'list-item')
-          })
-        }
-      }
-
-      // manage anchors for tests on the criteria page
-      if (window.location.pathname.match(/raweb.*\/criteres(\.html)?$/)) {
-        const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
-        if (test) {
-          const crit = test[1]+'-'+test[2]
-          console.log(crit)
-          console.log(document.getElementById('summary-crit-'+crit))
-          setExpanded(document.getElementById('summary-crit-'+crit), 'true')
-          document.querySelector(window.location.hash).scrollIntoView();
-        }
-
-      }
+    // HOTFIX for criteria 8.7
+    if (window.location.pathname.match(/rgaa.*\/glossaire\.html$/)) {
+      document.getElementById('landmarks').innerHTML = '<span lang="en">Landmarks</span>';
     }
+  }
+}
 
+
+function initRAWeb () {
+  if (document.querySelector('.RAWebMaster')) {
+    initAccordions();
+    document.getElementById('btnUnfoldThemes')?.addEventListener('click', unfoldThemes);
+    document.getElementById('btnUnfoldAll')?.addEventListener('click', unfoldAll);
+    document.getElementById('btnFoldAll')?.addEventListener('click', foldAll);
+    document.getElementById('rwc1')?.addEventListener('click', foldAll);
+    document.getElementById('rwc2')?.addEventListener('click', foldThemes);
+    document.getElementById('rwc3')?.addEventListener('click', foldTests);
+    document.getElementById('rwc4')?.addEventListener('click', foldMeth);
+    document.getElementById('rwc5')?.addEventListener('click', foldNotes);
+    document.getElementById('rwc6')?.addEventListener('click', foldCorr);
+    document.getElementById('showModal')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
+    document.getElementById('showModal-sticky')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
+
+    const dialog = document.querySelector('dialog');
+    dialog.addEventListener('click', function(event) {
+      var rect = dialog.getBoundingClientRect();
+      var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        dialog.close();
+      }
+    });
+  }
+}
+
+
+window.addEventListener('DOMContentLoaded', function (event) {
+
+    // Disclosure menu
+    initDisclosureMenu()
+
+    // Sticky menu (only created if #toc is present in the DOM)
+    initStickySideMenu()
+
+    // RGAA / RAAM / RAPDF disclosures, nav, and filters
+    initOldStyleDisclosure()
+
+    // RAWeb disclosures and filters
+    initRAWeb()
     
 }, false);
