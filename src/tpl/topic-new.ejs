@@ -88,7 +88,7 @@
             </li>
                 <% } %>            
                 <% if (crit.criterium.references[1].techniques !== undefined && crit.criterium.references[1].techniques.length !== 0) { %>
-                <li><p>Technique(s) suffisante(s) et/ou échec(s) WCAG 2.1</p>
+                <li><p>Techniques suffisantes et/ou échecs WCAG 2.1</p>
                     <p>
                             <% let techs = crit.criterium.references[1].techniques.map(e => { return e.trim() })
                                 techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
