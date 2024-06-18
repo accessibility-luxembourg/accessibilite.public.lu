@@ -237,24 +237,6 @@ html, body {
   font-size: 0.8rem;
 }
 
-.accordion h4 span.rawebOnly {
-  background-color: #914BDC;
-}
-
-.accordion h4 span.rawebOnly::before, .accordion h4 span.rawebOnly::after, .legends span.critRAWeb::before, .legends span.critRAWeb::after {
-  content: "•";
-  position: absolute;
-  left: 0.8rem;
-}
-
-.accordion h4 span.rawebOnly::before {
-  bottom: -0.5rem;
-}
-
-.accordion h4 span.rawebOnly::after {
-  top: -0.4rem;
-}
-
 .accordion h4 span.level {
   position: absolute;
   top: 0;
@@ -597,16 +579,10 @@ dialog#control-panel-dialog button#close-modal {
   font-size: 0.8rem;
 }
 
-.legends span.critRAWeb {
+.accordion h4 span.rawebOnly, .legends span.critRAWeb {
   background-color: #914BDC;
-}
+  clip-path: polygon(30% 0%, 100% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 100%, 0% 30%);
 
-.legends span.critRAWeb::before {
-  bottom: -0.3rem;
-}
-
-.legends span.critRAWeb::after {
-  top: -0.3rem;
 }
 
 

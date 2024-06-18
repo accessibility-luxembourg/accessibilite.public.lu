@@ -103,8 +103,8 @@ function unfoldThemes () {
 }
 
 
-function foldThemes (btn) {
-  if (btn.target.checked) {
+function foldThemes () {
+  if (document.getElementById('rwc2').checked) {
     unfoldThemes();
   } else {
     document.querySelectorAll('.accordion-trigger').forEach((btn) => {
@@ -122,6 +122,9 @@ function unfoldAll () {
     }
   });
   unfoldThemes();
+  document.querySelectorAll('#control-panel-dialog input').forEach((elt) => {
+    elt.checked = true;
+  })
 }
 
 
@@ -134,6 +137,9 @@ function foldAll (btn) {
         box.open = false;
       }
     });
+    document.querySelectorAll('#control-panel-dialog input').forEach((elt) => {
+      elt.checked = false;
+    })
     foldThemes();
   }
 }

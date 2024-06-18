@@ -169,11 +169,19 @@ function initRAWeb () {
     const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
     if (test) {
       const crit = test[1]+'-'+test[2]
-      console.log(crit)
-      console.log(document.getElementById('summary-crit-'+crit))
       setExpanded(document.getElementById('summary-crit-'+crit), 'true')
       document.querySelector(window.location.hash).scrollIntoView();
     }
+
+    const dialog = document.querySelector('dialog');
+    dialog.addEventListener('click', function(event) {
+      var rect = dialog.getBoundingClientRect();
+      var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        dialog.close();
+      }
+    });
   }
 }
 
