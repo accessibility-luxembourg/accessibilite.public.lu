@@ -164,14 +164,6 @@ function initRAWeb () {
     document.getElementById('rwc6')?.addEventListener('click', foldCorr);
     document.getElementById('showModal')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
     document.getElementById('showModal-sticky')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
-    
-    // manage anchors for tests on the criteria page
-    const test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
-    if (test) {
-      const crit = test[1]+'-'+test[2]
-      setExpanded(document.getElementById('summary-crit-'+crit), 'true')
-      document.querySelector(window.location.hash).scrollIntoView();
-    }
 
     const dialog = document.querySelector('dialog');
     dialog.addEventListener('click', function(event) {

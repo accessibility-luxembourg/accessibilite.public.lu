@@ -48,13 +48,6 @@ class Accordion {
 }
 
 
-function getAnchor () {                                              // generic function to get the URL anchor
-  const currentUrl = document.URL;
-  const urlParts = currentUrl.split('#');
-  return (urlParts.length > 1) ? urlParts[1] : null;
-}
-
-
 function initAccordions () {
   if ('onbeforematch' in document.body) {
     document.querySelector('.noonbeforematch').style.display = 'none';
@@ -83,13 +76,27 @@ function initAccordions () {
       document.querySelector('[aria-controls="' + section.id + '"]').click();
     };
   });
-  if (getAnchor() !== '' && getAnchor() !== null) {
-    unfoldThemes();
-    unfoldTests();
-    window.location.href = '#' + getAnchor();
-    window.scrollBy(0, -20);
-    document.getElementById('rwc1').checked = true;
-    document.getElementById('rwc2').checked = true;
+
+  
+  // manage anchors for topics or tests on the criteria page
+  const h_topic = window.location.hash.match(/#topic-(\d+)/)
+  const h_crit = window.location.hash.match(/#crit-(\d+)-(\d+)/)
+  const h_test = window.location.hash.match(/#test-(\d+)-(\d+)-(\d+)/)
+
+  if (h_topic) {
+    document.querySelector('[aria-controls="sect' + h_topic[1] + '"]').click();
+    document.querySelector(window.location.hash).scrollIntoView();
+  }
+
+  if (h_crit) {
+    document.querySelector('[aria-controls="sect' + h_crit[1] + '"]').click();
+    document.querySelector(window.location.hash).scrollIntoView();
+  }
+
+  if (h_test) {
+    document.querySelector('[aria-controls="sect' + h_test[1] + '"]').click();
+    document.querySelector(h_test[0]).parentElement.open = true;
+    document.querySelector(window.location.hash).scrollIntoView();
   }
 }
 
