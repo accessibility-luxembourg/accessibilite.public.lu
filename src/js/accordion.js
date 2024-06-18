@@ -60,16 +60,6 @@ function initAccordions () {
     new Accordion(accordionEl);
   });
 
-  const methodoDetails = document.querySelectorAll('.methodo');
-  methodoDetails.forEach(function (elt) {
-    elt.addEventListener('toggle', (e) => {
-      e.target.firstChild.innerHTML = 'Découvrir la méthodologie de test';
-      if (e.target.open) {
-        e.target.firstChild.innerHTML = 'Refermer la méthodologie de test';
-      }
-    })
-  });
-
   document.querySelectorAll('.accordion-panel').forEach((section) => {
     section.onbeforematch = () => {
       section.removeAttribute('hidden');
