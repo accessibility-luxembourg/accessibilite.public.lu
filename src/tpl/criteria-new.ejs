@@ -19,36 +19,37 @@
 </div>
 
 <dialog id="control-panel-dialog">
-    <form method="dialog">
+    <form method="dialog" autocomplete="off">
         <button id="close-modal" title="Fermer la fenêtre modale"></button>
-      </form>
-    <div class="content">
-        <h6>Légende</h6>
-        <div class="legends">
-            <ul>
-                <li>
-                    <div><span class="crit">2.1</span></div>
-                    <div>Critère</div>
-                </li>
-                <li>
-                    <div><span class="critRAWeb">4.14</span></div>
-                    <div>Nouveau critère RAWeb</div>
-                </li>
-                <li>
-                    <div><span class="a">A</span></div>
-                    <div>Niveau de conformité</div>
-                </li>
-            </ul>
-        </div>
-        <h6>Options</h6>
-        <fieldset>
-            <div><input type="checkbox" id="rwc1"><label for="rwc1">Tout déplier</label></div>
-            <div><input type="checkbox" id="rwc2"><label for="rwc2">Déplier les thématiques</label></div>
-            <div><input type="checkbox" id="rwc3"><label for="rwc3">Déplier les tests</label></div>
-            <div><input type="checkbox" id="rwc4"><label for="rwc4">Déplier les méthodologies</label></div>
-            <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas particuliers</label></div>
-            <div><input type="checkbox" id="rwc6"><label for="rwc6">Déplier les correspondances</label></div>
-        </fieldset>
+        <div class="content">
+            <h6>Légende</h6>
+            <div class="legends">
+                <ul>
+                    <li>
+                        <div><span class="crit">2.1</span></div>
+                        <div>Critère</div>
+                    </li>
+                    <li>
+                        <div><span class="critRAWeb">4.14</span></div>
+                        <div>Nouveau critère RAWeb</div>
+                    </li>
+                    <li>
+                        <div><span class="a">A</span></div>
+                        <div>Niveau de conformité</div>
+                    </li>
+                </ul>
+            </div>
+
+            <fieldset>
+                <legend>Options</legend>
+                <div><input type="checkbox" id="rwc1"><label for="rwc1">Tout déplier</label></div>
+                <div><input type="checkbox" id="rwc2"><label for="rwc2">Déplier les thématiques</label></div>
+                <div><input type="checkbox" id="rwc3"><label for="rwc3">Déplier les tests</label></div>
+                <div><input type="checkbox" id="rwc4"><label for="rwc4">Déplier les méthodologies</label></div>
+                <div><input type="checkbox" id="rwc5"><label for="rwc5">Déplier les notes et cas particuliers</label></div>
+                <div><input type="checkbox" id="rwc6"><label for="rwc6">Déplier les correspondances</label></div>
+            </fieldset>
+        </form>
     </div>
 </dialog>
 
