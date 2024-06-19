@@ -49,11 +49,13 @@
             </span>
             <% if (typeof test == 'object') { %>
                 <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
+                <% if (test.length > 1) { %>
                 <ul>
                 <% for (let i=1; i< test.length; i++) { %>
                     <li><p><%- md.renderInline(test[i]) %></p></li>
                 <% } %>
                 </ul>
+                <% } %>
             <% } else { %>
                 <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
             <% } %>

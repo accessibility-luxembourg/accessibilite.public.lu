@@ -21,7 +21,7 @@ html, body {
   }
 
   .RAWebMaster .accordion {
-    width: 700px;
+    width: 900px;
     order: 1;
   }
 
@@ -492,6 +492,8 @@ button#close-modal:focus, button#close-modal:focus-within, button#close-modal:fo
 dialog#control-panel-dialog {
   border: 1px solid black;
   border-radius: 3px;
+  color: black;
+  background-color: white;
 }
 
 dialog#control-panel-dialog::backdrop {
