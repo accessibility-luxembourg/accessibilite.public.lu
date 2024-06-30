@@ -1,6 +1,6 @@
 import { initDisclosureMenu } from "./disclosureMenu"
 
-import { initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, foldMeth, foldNotes, foldTests } from "./accordion"
+import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails, loading } from "./accordion"
 
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
@@ -153,17 +153,16 @@ function initOldStyleDisclosure() {
 function initRAWeb () {
   if (document.querySelector('.RAWebMaster')) {
     initAccordions();
-    document.getElementById('btnUnfoldThemes')?.addEventListener('click', unfoldThemes);
     document.getElementById('btnUnfoldAll')?.addEventListener('click', unfoldAll);
-    document.getElementById('btnFoldAll')?.addEventListener('click', foldAll);
-    document.getElementById('rwc1')?.addEventListener('click', foldAll);
-    document.getElementById('rwc2')?.addEventListener('click', foldThemes);
-    document.getElementById('rwc3')?.addEventListener('click', foldTests);
-    document.getElementById('rwc4')?.addEventListener('click', foldMeth);
-    document.getElementById('rwc5')?.addEventListener('click', foldNotes);
-    document.getElementById('rwc6')?.addEventListener('click', foldCorr);
+    document.getElementById('rwc1')?.addEventListener('click', unfoldAll);
+    document.getElementById('rwc2')?.addEventListener('click', unfoldThemes);
+    document.getElementById('rwc3')?.addEventListener('click', unfoldDetails('rawebTests'));
+    document.getElementById('rwc4')?.addEventListener('click', unfoldDetails('methodo'));
+    document.getElementById('rwc5')?.addEventListener('click', unfoldDetails('rawebNotes'));
+    document.getElementById('rwc6')?.addEventListener('click', unfoldDetails('rawebCorr'));
     document.getElementById('showModal')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
     document.getElementById('showModal-sticky')?.addEventListener('click', function () {document.getElementById('control-panel-dialog').showModal()});
+    document.getElementById('close-modal')?.addEventListener('click', closeModal)
 
     const dialog = document.querySelector('dialog');
     dialog.addEventListener('click', function(event) {
@@ -171,12 +170,19 @@ function initRAWeb () {
       var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
         rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
       if (!isInDialog) {
-        dialog.close();
+        closeModal()
       }
     });
   }
 }
 
+function closeModal() {
+  loading(true)
+  setTimeout(() => {
+    document.querySelector('dialog').close()
+    loading(false)
+  }, 100)
+}
 
 window.addEventListener('DOMContentLoaded', function (event) {
 

@@ -8,6 +8,28 @@ html, body {
   margin: 0 auto;
 }
 
+#loading {
+  display: none;
+}
+
+/* inspired from bootstrap 5 */
+.spinner {
+  display: block;
+  border: 0.25em solid black;
+  border-radius: 50%;
+  border-right-color: transparent;
+  width: 2em;
+  height: 2em;
+  animation: 0.75s linear infinite spinner;
+  margin: auto;
+}
+
+@keyframes spinner {
+  to { 
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .RAWebMaster {
     max-width: 1200px;
@@ -148,6 +170,7 @@ html, body {
 .accordion-panel {
   margin: 0;
   padding: 1rem 1.5rem;
+  will-change: display;
 }
 
 .accordion-panel[hidden] {
@@ -520,18 +543,18 @@ dialog#control-panel-dialog button#close-modal {
   flex-direction: row;
 }
 
-.legends > ul > li > div {
+.legends > ul > li > p {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.legends > ul > li > div:nth-of-type(odd) {
+.legends > ul > li > p:nth-of-type(odd) {
   width: 3rem;
-  height: 3rem;
+  height: 2.5rem;
 }
 
-.legends > ul > li > div:nth-of-type(even) {
+.legends > ul > li > p:nth-of-type(even) {
   font: 300 1rem "Fira Sans";
 }
 

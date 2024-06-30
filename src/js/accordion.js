@@ -17,6 +17,7 @@ class Accordion {
     this.contentEl = document.getElementById(controlsId);
     this.open = this.buttonEl.getAttribute('aria-expanded') === 'true';
     this.buttonEl.addEventListener('click', this.onButtonClick.bind(this));
+    this.buttonEl.toggle = this.onButtonClick.bind(this);
   }
 
   onButtonClick () {
@@ -90,144 +91,96 @@ function initAccordions () {
   }
 }
 
-
-function unfoldThemes () {
-  document.querySelectorAll('.accordion-trigger').forEach((btn) => {
-    if (btn.ariaExpanded === 'false') {
-      btn.click();
-    }
-  });
+async function unfoldThemes(evt) {
+  updateCheckboxesStates(evt.target.checked, false)
+  const themes = Array.from(document.querySelectorAll(`#accordionGroup button.accordion-trigger[aria-expanded=${!evt.target.checked}]`))
+  await throttle(themes, (e) => {e.toggle()}, 1)  
+  evt.stopPropagation()
 }
 
+async function unfoldAll(evt) {
+  await unfoldDetails()(evt)
+  await unfoldThemes(evt)
+  evt.stopPropagation()
+}
 
-function foldThemes () {
-  if (document.getElementById('rwc2').checked) {
-    unfoldThemes();
-  } else {
-    document.querySelectorAll('.accordion-trigger').forEach((btn) => {
-      if (btn.ariaExpanded === 'true') {
-        btn.click();
-      }
-    });
+function unfoldDetails(className){
+  return async function (evt) {
+    const selectorDetailsPrefix = '#accordionGroup '+((className !== undefined)?`details.${className}`:'details')
+    const selectorDetails = selectorDetailsPrefix + (evt.target.checked?':not([open])':'[open]')
+
+    updateCheckboxesStates(evt.target.checked, (className === undefined))
+
+    // update details states
+    const details = Array.from(document.querySelectorAll(selectorDetails))
+    await throttle(details, (e) => {e.open = evt.target.checked }, 10)
+    evt.stopPropagation()
   }
 }
 
-function unfoldAll () {
-  document.querySelectorAll('details').forEach((box) => {
-    if (box.open === false) {
-      box.open = true;
+// the checkboxes are interrelated, this function updates their state accordingly
+function updateCheckboxesStates(checked, isGlobal) {
+  const all = document.getElementById('rwc1')
+  const selectorInputPrefix = '#control-panel-dialog input.rw-filter'
+  const selectorInput = selectorInputPrefix + (checked?':not(:checked)':':checked')
+  const inputs = document.querySelectorAll(selectorInput)
+
+  if (isGlobal) {
+    all.indeterminate = false
+    inputs.forEach(e => {
+      e.checked = checked
+    })
+  } else {
+    if (all.indeterminate) {
+      if (inputs.length == 0) {
+        all.indeterminate = false
+        all.checked = checked
+      }
+    } else {
+      if (all.checked !== checked) {
+        all.indeterminate = true
+      }
     }
-  });
-  unfoldThemes();
-  document.querySelectorAll('#control-panel-dialog input').forEach((elt) => {
-    elt.checked = true;
+  }
+}
+
+// show or hide a loading indicator
+function loading(display) {
+  const loading = document.getElementById('loading')
+  const spinner = '<span class="sr-only spinner">Chargement</span>'
+  if (display) {
+    loading.style.display = 'block'
+    loading.className = 'spinner'
+    loading.innerHTML = spinner
+  } else {
+    loading.style.display = 'none'
+    loading.className = ''
+    loading.innerHTML = ''
+  }
+}
+
+// progressively do some operations on a list of items without blocking the main thread
+function throttle(items, operation, itemsPerBatch) {
+  return new Promise(resolve => {
+    loading(true)
+    const len = items.length
+    let cur = 0
+    function step() {
+      const start = cur * itemsPerBatch
+      const end = Math.min((cur + 1) * itemsPerBatch, len) 
+      if (start < end) {
+        for (let i=start; i<end; i++){
+          operation(items[i])
+        }
+        cur = cur + 1
+        requestAnimationFrame(step)
+      } else {
+        loading(false)
+        resolve()
+      }
+    } 
+    requestAnimationFrame(step)
   })
 }
 
-
-function foldAll (btn) {
-  if (btn.target.checked) {
-    unfoldAll();
-  } else {
-    document.querySelectorAll('details').forEach((box) => {
-      if (box.open === true) {
-        box.open = false;
-      }
-    });
-    document.querySelectorAll('#control-panel-dialog input').forEach((elt) => {
-      elt.checked = false;
-    })
-    foldThemes();
-  }
-}
-
-
-function unfoldTests () {
-  document.querySelectorAll('.rawebTests').forEach((box) => {
-    if (box.open === false) {
-      box.open = true;
-    }
-  });
-}
-
-
-function foldTests (btn) {
-  if (btn.target.checked) {
-    unfoldTests();
-  } else {
-    document.querySelectorAll('.rawebTests').forEach((box) => {
-      if (box.open === true) {
-        box.open = false;
-      }
-    });
-  }
-}
-
-
-function unfoldMeth () {
-  document.querySelectorAll('.methodo').forEach((box) => {
-    if (box.open === false) {
-      box.open = true;
-    }
-  });
-}
-
-
-function foldMeth (btn) {
-  if (btn.target.checked) {
-    unfoldMeth();
-  } else {
-    document.querySelectorAll('.methodo').forEach((box) => {
-      if (box.open === true) {
-        box.open = false;
-      }
-    });
-  }
-}
-
-
-function unfoldCorr () {
-  document.querySelectorAll('.rawebCorr').forEach((box) => {
-    if (box.open === false) {
-      box.open = true;
-    }
-  });
-}
-
-
-function foldCorr (btn) {
-  if (btn.target.checked) {
-    unfoldCorr();
-  } else {
-    document.querySelectorAll('.rawebCorr').forEach((box) => {
-      if (box.open === true) {
-        box.open = false;
-      }
-    });
-  }
-}
-
-
-function unfoldNotes () {
-  document.querySelectorAll('.rawebNotes').forEach((box) => {
-    if (box.open === false) {
-      box.open = true;
-    }
-  });
-}
-
-
-function foldNotes (btn) {
-  if (btn.target.checked) {
-    unfoldNotes();
-  } else {
-    document.querySelectorAll('.rawebNotes').forEach((box) => {
-      if (box.open === true) {
-        box.open = false;
-      }
-    });
-  }
-}
-
-
-export {initAccordions, foldThemes, unfoldThemes, foldAll, unfoldAll, foldCorr, unfoldCorr, foldMeth, unfoldMeth, foldNotes, unfoldNotes, foldTests, unfoldTests}
+export {initAccordions, unfoldThemes, unfoldAll, unfoldDetails, loading}
