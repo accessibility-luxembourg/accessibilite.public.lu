@@ -48,6 +48,8 @@ class Accordion {
   }
 }
 
+const throttling = (new URL(document.location.toString()).searchParams.get("throttling") == "1")
+console.log('throttling', throttling)
 
 function initAccordions () {
   if ('onbeforematch' in document.body) {
@@ -94,7 +96,16 @@ function initAccordions () {
 async function unfoldThemes(evt) {
   updateCheckboxesStates(evt.target.checked, false)
   const themes = Array.from(document.querySelectorAll(`#accordionGroup button.accordion-trigger[aria-expanded=${!evt.target.checked}]`))
-  await throttle(themes, (e) => {e.toggle()}, 1)  
+  if (throttling) {
+    await throttle(themes, (e) => {e.toggle()}, 1)  
+  } else {
+    loading(true)
+    themes.forEach(e => {
+      e.toggle()
+    })
+    loading(false)
+  }
+
   evt.stopPropagation()
 }
 
@@ -113,7 +124,15 @@ function unfoldDetails(className){
 
     // update details states
     const details = Array.from(document.querySelectorAll(selectorDetails))
-    await throttle(details, (e) => {e.open = evt.target.checked }, 10)
+    if (throttling) {
+      await throttle(details, (e) => {e.open = evt.target.checked }, 10)
+    } else {
+      loading(true)
+      details.forEach(e => {
+        e.open = evt.target.checked
+      })
+      loading(false)
+    }
     evt.stopPropagation()
   }
 }
@@ -144,15 +163,19 @@ function updateCheckboxesStates(checked, isGlobal) {
   }
 }
 
+let start = 0
+
 // show or hide a loading indicator
 function loading(display) {
   const loading = document.getElementById('loading')
   const spinner = '<span class="sr-only spinner">Chargement</span>'
   if (display) {
+    start = performance.now()
     loading.style.display = 'block'
     loading.className = 'spinner'
     loading.innerHTML = spinner
   } else {
+    console.log(performance.now()-start) 
     loading.style.display = 'none'
     loading.className = ''
     loading.innerHTML = ''
