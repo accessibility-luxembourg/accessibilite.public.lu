@@ -176,12 +176,15 @@ function initRAWeb () {
   }
 }
 
-function closeModal() {
+function closeModal(e) {
   loading(true)
   setTimeout(() => {
     document.querySelector('dialog').close()
     loading(false)
   }, 100)
+  if (e !== undefined) {
+    e.preventDefault()
+  }
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
