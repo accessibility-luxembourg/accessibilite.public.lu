@@ -8,28 +8,6 @@ html, body {
   margin: 0 auto;
 }
 
-#loading {
-  display: none;
-}
-
-/* inspired from bootstrap 5 */
-.spinner {
-  display: block;
-  border: 0.25em solid black;
-  border-radius: 50%;
-  border-right-color: transparent;
-  width: 2em;
-  height: 2em;
-  animation: 0.75s linear infinite spinner;
-  margin: auto;
-}
-
-@keyframes spinner {
-  to { 
-    transform: rotate(360deg);
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .RAWebMaster {
     max-width: 1200px;

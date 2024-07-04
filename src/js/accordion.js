@@ -48,9 +48,6 @@ class Accordion {
   }
 }
 
-const throttling = (new URL(document.location.toString()).searchParams.get("throttling") == "1")
-console.log('throttling', throttling)
-
 function initAccordions () {
   if ('onbeforematch' in document.body) {
     document.querySelector('.noonbeforematch').style.display = 'none';
@@ -93,30 +90,26 @@ function initAccordions () {
   }
 }
 
-async function unfoldThemes(evt) {
+function unfoldThemes(evt) {
   updateCheckboxesStates(evt.target.checked, false)
   const themes = Array.from(document.querySelectorAll(`#accordionGroup button.accordion-trigger[aria-expanded=${!evt.target.checked}]`))
-  if (throttling) {
-    await throttle(themes, (e) => {e.toggle()}, 1)  
-  } else {
-    loading(true)
-    themes.forEach(e => {
-      e.toggle()
-    })
-    loading(false)
-  }
-
+  themes.forEach(e => {
+    e.toggle()
+  })
   evt.stopPropagation()
 }
 
-async function unfoldAll(evt) {
-  await unfoldDetails()(evt)
-  await unfoldThemes(evt)
+function unfoldAll(evt) {
+  if (evt.target?.checked === undefined) {
+    evt.target.checked = true
+  }
+  unfoldDetails()(evt)
+  unfoldThemes(evt)
   evt.stopPropagation()
 }
 
 function unfoldDetails(className){
-  return async function (evt) {
+  return function (evt) {
     const selectorDetailsPrefix = '#accordionGroup '+((className !== undefined)?`details.${className}`:'details')
     const selectorDetails = selectorDetailsPrefix + (evt.target.checked?':not([open])':'[open]')
 
@@ -124,15 +117,9 @@ function unfoldDetails(className){
 
     // update details states
     const details = Array.from(document.querySelectorAll(selectorDetails))
-    if (throttling) {
-      await throttle(details, (e) => {e.open = evt.target.checked }, 10)
-    } else {
-      loading(true)
-      details.forEach(e => {
-        e.open = evt.target.checked
-      })
-      loading(false)
-    }
+    details.forEach(e => {
+      e.open = evt.target.checked
+    })
     evt.stopPropagation()
   }
 }
@@ -146,6 +133,7 @@ function updateCheckboxesStates(checked, isGlobal) {
 
   if (isGlobal) {
     all.indeterminate = false
+    all.checked = checked
     inputs.forEach(e => {
       e.checked = checked
     })
@@ -163,47 +151,4 @@ function updateCheckboxesStates(checked, isGlobal) {
   }
 }
 
-let start = 0
-
-// show or hide a loading indicator
-function loading(display) {
-  const loading = document.getElementById('loading')
-  const spinner = '<span class="sr-only spinner">Chargement</span>'
-  if (display) {
-    start = performance.now()
-    loading.style.display = 'block'
-    loading.className = 'spinner'
-    loading.innerHTML = spinner
-  } else {
-    console.log(performance.now()-start) 
-    loading.style.display = 'none'
-    loading.className = ''
-    loading.innerHTML = ''
-  }
-}
-
-// progressively do some operations on a list of items without blocking the main thread
-function throttle(items, operation, itemsPerBatch) {
-  return new Promise(resolve => {
-    loading(true)
-    const len = items.length
-    let cur = 0
-    function step() {
-      const start = cur * itemsPerBatch
-      const end = Math.min((cur + 1) * itemsPerBatch, len) 
-      if (start < end) {
-        for (let i=start; i<end; i++){
-          operation(items[i])
-        }
-        cur = cur + 1
-        requestAnimationFrame(step)
-      } else {
-        loading(false)
-        resolve()
-      }
-    } 
-    requestAnimationFrame(step)
-  })
-}
-
-export {initAccordions, unfoldThemes, unfoldAll, unfoldDetails, loading}
+export {initAccordions, unfoldThemes, unfoldAll, unfoldDetails }
