@@ -97,7 +97,7 @@ The final phase of the audit is the accessibility statement, which reports on co
 
 The audit (or evaluation) meets the following criteria:
 
-- it is reliable: it is the responsibility of the organisation concerned to ensure the reliability of its declaration by all possible means (recourse to an external service provider, training of internal experts, cross-audits, etc.);
+- it is reliable: it is the responsibility of the organisation concerned to ensure the reliability of its statement by all possible means (recourse to an external service provider, training of internal experts, cross-audits, etc.);
 - it is representative: it is based on a representative sample (see "Sample" section below).
 
 The accessibility of applications must be assessed by applying the technical method of the framework in question.

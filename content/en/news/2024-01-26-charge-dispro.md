@@ -7,7 +7,7 @@ author: Dominique Nauroy
 
 <script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
 <h2>From year to year, a less disproportionate burden?</h2>
-<h3>How have accessibility statements on the issue of disproportionate burden evolved over the past three years?</h3>
+<h3>What has been the evolution of accessibility statements on the issue of disproportionate burden in three years?</h3>
 <hr>
 <div class="intro">
     <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is "reasonably impossible to make a content or feature accessible". This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
@@ -16,13 +16,13 @@ author: Dominique Nauroy
     <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustration of an office worker overloaded with files">
     <figcaption>Photo: iStock / cyano66</figcaption>
 </figure>
-<p>This content and functionality must be precisely listed in the declaration. Alternatives must be able to offer equivalent content and functions... provided that their production does not itself constitute a disproportionate burden.</p>
+<p>This content and functionality must be precisely listed in the statement. Alternatives must be able to offer equivalent content and functions... provided that their production does not itself constitute a disproportionate burden.</p>
 <h4>One website in two now has an accessibility statement</h4>
-<p>In December 2023, we took a look at all the public websites in Luxembourg and came to this initial conclusion: although this is a <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo#art_5">legal obligation</a>, just over half of these sites (51%) currently have an accessibility statement. As far as mobile apps are concerned, the situation is even worse: only 13% have one.</p>
-<p>It is this declaration that tells disabled users whether the site is compliant (non-compliant, partially compliant, compliant) in terms of digital accessibility and specifies, point by point, each feature and content that has been deemed non-compliant following an audit. Finally, it is in this frame that the derogations for disproportionate burden are listed.</p>
-<p>Check our page on digital accessibility obligations, which includes a <a href="https://accessibilite.public.lu/en/obligations.html#accessibility-statement">section dedicated to the accessibility statement</a>, to check whether yours has the essential elements. It goes without saying that this declaration must be... accessible. There is a <a href="https://accessibilite.public.lu/en/tools/decla.html">form you can use to create your declaration</a>.</p>
-<h4>The declaration exists... is it up to date?</h4>
-<p>Just as digital accessibility is an ongoing process, the declaration should be regularly updated. But many of the declarations submitted in 2020 have never been updated. In total, of the 418 declarations recorded, only 68 have been updated and sent to the Information and Press Service... that's around 16%.</p>
+<p>In December 2023, we took a look at all the public websites in Luxembourg and came to this initial conclusion: although this is a <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo#art_5">legal obligation</a>, just over half of these sites (51%) currently have an accessibility statement. As for mobile apps, the situation is even worse: only 13% have one.</p>
+<p>It is precisely this statement that informs users with disabilities whether the site is compliant (non-compliant, partially compliant, compliant) in terms of digital accessibility and specifies, point by point, each feature and content that has been deemed non-compliant following an audit. Finally, it lists the inaccessible elements on the grounds of disproportionate burden.</p>
+<p>Check our page on digital accessibility obligations, which includes a <a href="https://accessibilite.public.lu/en/obligations.html#accessibility-statement">section on the accessibility statement</a>, to check whether yours covers the essential elements. It goes without saying that this statement must be... accessible. To this end, <a href="https://accessibilite.public.lu/en/tools/decla.html">a form for drafting the statement is at your disposal</a>.</p>
+<h4>The statement exists... is it up to date?</h4>
+<p>Just as digital accessibility is an ongoing process, the statement should be regularly updated. But many of the statements submitted in 2020 have never been updated. In total, of the 418 statements recorded, only 68 have been updated and sent to the Information and Press Service... that's around 16%.</p>
 <h4>PDF, browsing, authentication: the top 3 exemptions</h4>
 <p>Three points clearly dominate the derogations for disproportionate burden, first and foremost office documents (PDF and Office files), which are used massively by certain administrations and whose accessibility is more difficult to ensure than information published in HTML format.</p>
 <p>This is closely followed by issues relating to keyboard navigation and the accessibility of navigation menus: if these features are not compliant, disabled users are de facto prevented from accessing the entire site or, in a better case, they find it particularly difficult to use.</p>
@@ -38,9 +38,9 @@ author: Dominique Nauroy
 </figure>
 <p>Other, less frequently mentioned issues relate to search features, old content, links with irrelevant titles, poorly formatted lists and headings, videos without captions or text transcripts, and unidentified language changes.</p>
 <h4>Fewer claims for disproportionate burden: good news?</h4>
-<p>In 2021, two-thirds of sites and apps that submitted an accessibility statement mentioned one or more disproportionate burdens. This rate has fallen sharply to just one third of declarations in 2023. Although this change is to be welcomed a priori, and would suggest that measures have been taken to remedy certain cases that were considered too difficult to deal with at the time, the most likely explanation is undoubtedly to be found in the more representative number of declarations, which has almost quadrupled in the space of three years, rising from 118 to 418 by the end of 2023.</p>
+<p>In 2021, two-thirds of sites and apps that submitted an accessibility statement mentioned one or more disproportionate burdens. This rate has fallen sharply to just one third of statements in 2023. Although this change is to be welcomed a priori, and would suggest that measures have been taken to remedy certain cases that were considered too difficult to deal with at the time, the most likely explanation is undoubtedly to be found in the more representative number of statements, which has almost quadrupled in the space of three years, rising from 118 to 418 by the end of 2023.</p>
 <h4>A point of methodology</h4>
-<p>Any public sector body that publishes a website or mobile app must publish an accessibility statement and inform the Information and Press Service. It is on this basis that we produced this article, but not only. A crawler went through all the sites listed in the SIP inventory to check for any declarations that had not been sent to us, in order to obtain the most up-to-date results.</p>
+<p>Any public sector body that publishes a website or mobile app must publish an accessibility statement and inform the Information and Press Service. It is on this basis that we produced this article, but not only. A crawler went through all the sites listed in the SIP inventory to check for statements that had not been sent to us, in order to obtain the most up-to-date results.</p>
 <aside class="more">
     <h5>To find out more (XLSX format)</h5>
     <ul>
