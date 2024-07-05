@@ -1,6 +1,6 @@
 import { initDisclosureMenu } from "./disclosureMenu"
 
-import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails, loading } from "./accordion"
+import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails } from "./accordion"
 
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
@@ -177,11 +177,7 @@ function initRAWeb () {
 }
 
 function closeModal(e) {
-  loading(true)
-  setTimeout(() => {
-    document.querySelector('dialog').close()
-    loading(false)
-  }, 100)
+  document.querySelector('dialog').close()
   if (e !== undefined) {
     e.preventDefault()
   }
