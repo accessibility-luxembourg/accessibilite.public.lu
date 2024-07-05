@@ -15,15 +15,11 @@ Highcharts.setOptions({                                                         
 const graph_translations = {
     "fr": {
         "categories": "Catégories",
-        "title": "Graphique 1. Niveau de conformité des sites audités en 2023"
+        "title": "Graphique 1. Dérogations pour charge disproportionnée"
     },
     "en": {
       "categories": "Categories",
-      "title": "Graph 1. Level of compliance of audited sites in 2023"
-    },
-    "de": {
-      "categories": "Categories",
-      "title": "Graph 1. Level of compliance of audited sites in 2023"
+      "title": "Chart 1. Derogations for disproportionate burden"
     }
 }
 

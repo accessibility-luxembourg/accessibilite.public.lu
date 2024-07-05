@@ -20,7 +20,7 @@ On this page you will find all the documents published in *open data* by the SIP
 - [Full digital accessibility monitoring 2020-2021](https://data.public.lu/en/datasets/audits-complets-de-laccessibilite-numerique-2020-2021/)
 
 ### Frameworks
-- [General Accessibility Improvement Framework (RGAA)](https://data.public.lu/en/datasets/referentiel-general-damelioration-de-laccessibilite/)
+- [Web Accessibility Assessment Framework (RAWeb)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-web/)
 - [Mobile Applications Accessibility Assessment Framework (RAAM)](https://data.public.lu/en/datasets/referentiel-devaluation-de-laccessibilite-des-applications-mobiles/)
 
 ### Inventories of sites and applications 
