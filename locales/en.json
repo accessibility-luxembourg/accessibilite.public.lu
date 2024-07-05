@@ -14,10 +14,10 @@
   "WCAG 2.1 success criteria": "WCAG 2.1 success criteria",
   "Sufficient techniques and/or failures": "Sufficient techniques and/or failures",
   "Axe rule": "Axe rule",
-  "Sitemap": "Sitemap",
+  "Site map": "Site map",
   "Create your statement": "Create your statement",
   "<strong>This page is obsolete: </strong> please consult the equivalent page of %s. <br />For more information, we invite you to read <a href=\"%s\">revision notes</a>.": "<strong>This page is obsolete: </strong> please consult the equivalent page of %s. <br />For more information, we invite you to read <a href=\"%s\">revision notes</a>.",
-  "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s\">cookies policy</a>.",
+  "This site is published by the <a href=\"%s\">Information and Press Service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s\">cookies policy</a>.",
   "Digital accessibility portal": "Digital accessibility portal",
   "Frameworks": "Frameworks",
   "Latest news": "Latest news",
@@ -84,5 +84,7 @@
   "(ex: accessibility@organisation.public.lu)": "(ex: accessibility@organisation.public.lu)",
   "(ex: \"Information and Press Service\")": "(ex: \"Information and Press Service\")",
   "cookie-charter": "cookie-charter",
-  "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>."
+  "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.",
+  "This site is published by the <a href=\"%s\">Information and Press Service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.": "This site is published by the <a href=\"%s\">Information and Press Service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.",
+  "Sitemap": "Sitemap"
 }

@@ -1,4 +1,4 @@
-### Notions of disability and digital accessibility
+### Understanding disability and digital accessibility
 
 <blockquote><p>Disability is not just one health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives. Overcoming the difficulties faced by people with disabilities requires interventions to remove environmental and social barriers.</p><footer>World Health Organisation</footer></blockquote>
 Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
@@ -10,27 +10,27 @@ Digital accessibility involves making websites and mobile applications accessibl
 
 ### Reminder of the scope of application
 
-#### Relevant content
+#### Concerned content
 
 According to Articles 1 and 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this law are as follows:
 
 - the State;
 - municipalities;
-- bodies governed by public law. According to Article 2, letter d), of the amended law of 8 April 2018 on public contracts, these are bodies with all the following characteristics
+- bodies governed by public law. According to article 2, letter d), of the amended law of 8 April 2018 on public procurement contracts, these are bodies with all the following characteristics:
     - it has been established for the specific purpose of meeting needs in the general interest, not having an industrial or commercial character;
     - it has legal personality; and
     - it is financed for the most part by the State, local authorities or other bodies governed by public law, or its management is subject to supervision by these authorities or bodies, or its administrative, management or supervisory body is made up of members, more than half of whom are appointed by the State, local authorities or other bodies governed by public law.
     - associations formed by one or more of these authorities or one or more of these bodies governed by public law, if these associations have been created specifically to meet needs in the general interest that are not of an industrial or commercial nature;
 
-This does not apply to
+This does not apply to:
 
 - websites and mobile applications of public service broadcasters and their subsidiaries, and of other bodies or their subsidiaries fulfilling a public service broadcasting remit;
-- websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities.
+- websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities;
 - websites and mobile applications of primary and secondary schools or nurseries, except for the content thereof relating to essential online administrative functions.
 
 Article 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) defines what constitutes a mobile application:
 
-<blockquote><p>application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware.</p></blockquote>
+<blockquote><p>Application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware.</p></blockquote>
 
 #### Exempt content
 
@@ -68,7 +68,7 @@ In order to determine the existence of such a burden, the organisation concerned
 
 The size of the organisation is determined by the composition of its workforce, the number, location and distribution of its users or customers, the scale, diversity and volume of its activities and services, and the territorial extent of its operations.
 
-The estimate of resources takes into account
+The estimate of resources takes into account:
 
 - its budget,
 - fees and remuneration received,
@@ -130,7 +130,7 @@ The sample on which the audit of a website is carried out covers at least the fo
 
 The selection of pages audited and their number must be representative of the site or mobile application. Viewing statistics can be taken into account when selecting the sample.
 
-Finally, randomly selected pages representing at least 10% of the elements in the sample described above are added.
+Finally, randomly selected pages representing at least 10% of the elements in the sample described above are also taken into account.
 
 ##### Sample for auditing a mobile application
 
@@ -172,7 +172,7 @@ Each of our two frameworks proposes a test environment to be used to carry out t
 - [RAWeb test environment for website evaluation](../../html/en/raweb1/environnement.md);
 - [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environnement.md).
 
-This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. When it is possible to know the configuration of the workstations and the hardware used, the reference base is then made up of the services actually used in this environment.
+This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the reference base is composed of the services actually used in this environment.
 
 #### Testing pages or screens
 
@@ -180,14 +180,14 @@ Each page or screen in the sample must be checked against the criteria applicabl
 
 There are 3 reasons why a criterion may not be applicable to a page or screen:
 
-  1. The criterion relates to content or functionality that does not exist, for example if the page or screen does not include a video, the criteria relating to videos will not be applicable.
-  2. The criterion relates to exempt content or a service which is therefore not subject to the accessibility obligation.
+  1. The criterion relates to content or a functionality that does not exist. For example: if the page or screen does not include a video, the criteria relating to videos will not be applicable.
+  2. The criterion relates to an exempt content or service which is therefore not subject to the accessibility obligation.
   3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
       Please note: if the content subject to derogation for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
 
-The pages or screens are then tested against the applicable criteria. These tests provide
+The pages or screens are then tested against the applicable criteria. These tests provide:
 
-  * the number of validated and non-validated criteria for each page or screen
+  * the number of validated and non-validated criteria for each page or screen;
   * the compliance rate for each page or screen.
 
 Please note: 
@@ -197,9 +197,9 @@ Please note:
   * if the page or screen is part of a process (making a declaration, taking part in a public consultation, making an appointment), a criterion is validated for a page in the process only if it is validated for all the pages or screens in the process.
 
 Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered as not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
-  * Criterion 12.3 Is the "sitemap" page relevant?
-  * Theme 14. Documentation and accessibility features
-  * Theme 16. Help desk services.
+  * Criterion 12.3: Is the site map page relevant?
+  * Theme 14: Documentation and accessibility features
+  * Theme 16: Support services.
 
 #### Compliance rate with the standard
 
@@ -209,7 +209,7 @@ This rate indicates the percentage of criteria met by the online service.
 
 The percentage of criteria met is obtained by dividing the number of validated criteria by the number of applicable criteria.
 
-  * Validated criteria: a criterion is validated if it is validated on all the pages or screens in the sample. If a criterion is invalidated on only one page or screen in the sample, it cannot be considered valid for calculating the rate.
+  * Validated criterion: a criterion is validated if it is validated on all the pages or screens in the sample. If a criterion is invalidated on only one page or screen in the sample, it cannot be considered valid for calculating the rate.
   * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one page or screen in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the pages or screens in the sample without exception.
 
 This compliance rate determines the compliance status to be mentioned in the [accessibility statement](#content-of-the-accessibility-statement).
@@ -227,10 +227,10 @@ It is essential to ensure that this content does not prevent users from accessin
 Therefore, although the compliance of this content is not required, it must comply with the following criteria and tests:
 
 - [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10): Is each automatically triggered sound controllable by the user?
-- [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): On every web page, navigation must not contain any keyboard traps. Is this rule respected?
+- [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): On each web page, navigation must not contain any keyboard traps. Is this rule respected?
 - [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (`<object>` tag, `<embed>` tag, `<svg>` tag, `<canvas>` tag, `<meta>` tag) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each Web page, are sudden changes in luminosity or flashing effects used appropriately?
-- [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each Web page, can each moving or blinking content be controlled by the user?
+- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in luminosity or flashing effects used appropriately?
+- [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each web page, can each moving or blinking content be controlled by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
 
@@ -242,16 +242,16 @@ The principle of non-interference is identified in standard EN 301 549 in criter
 
 The accessibility statement is the result of an effective assessment of the compliance of the website or mobile application with the reference standard.
 
-The accessibility statement includes
+The accessibility statement includes:
 
-- a compliance status:
+- A compliance status:
     - Full compliance: if all the control criteria in the framework are met;
     - Partial compliance: if at least 50% of the control criteria in the framework have been met;
     - Non-compliance: if there are no valid audit results enabling compliance with the criteria to be measured, or if less than 50% of the control criteria in the framework are complied with;
-- notification of content that is not accessible, with a distinction being made between content that does not comply with the framework, content that is exempt or content that is subject to a disproportionate burden derogation. In the latter case, exemptions must be explained and justified. Where appropriate, the notice should be accompanied by a presentation of the alternatives available;
-- assistance and contact facilities:
-    - an accessible mechanism (e-mail address or form) to enable any person to report any accessibility shortcomings to the body concerned and a disabled person to request the relevant information or an accessible alternative solution;
-- mention of the option for the person concerned to refer the matter to the SIP or the ombudsman.
+- A notification of content that is not accessible, with a distinction being made between content that does not comply with the framework, content that is exempt or content that is subject to a disproportionate burden derogation. In the latter case, exemptions must be explained and justified. Where appropriate, the notice should be accompanied by a presentation of the alternatives available;
+- Assistance and contact options:
+    - an accessible mechanism (e-mail address or form) to enable any person to report any accessibility shortcomings to the body concerned and a person with disabilities to request the relevant information or an accessible alternative solution;
+- A mention of the option for the person concerned to refer the matter to the SIP or the ombudsman.
 
 The accessibility statement can be generated in several languages using the [statement creation form](../../html/en/tools/decla.html). 
 

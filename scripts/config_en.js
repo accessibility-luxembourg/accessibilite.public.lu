@@ -352,8 +352,8 @@ const config = {
             "prefix": "../.."
         },        
         {
-            "title": "Sitemap",
-            "menu": "Sitemap",
+            "title": "Site map",
+            "menu": "Site map",
             "name": "plan-site"
         },
         {

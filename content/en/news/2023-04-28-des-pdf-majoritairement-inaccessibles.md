@@ -14,7 +14,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <h3>The accessibility of these documents, which are sometimes present on a massive scale on Luxembourg's most visited public portals in 2023, is nevertheless tending to improve</h3>
 <hr>
 <div class="intro">
-    <p>The presence on public sites of a large number of inaccessible PDF files is a key problem for disabled people. Indeed, certain accessibility problems can completely block access to information or the implementation of administrative procedures in the case of forms. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
+    <p>The presence on public sites of a large number of inaccessible PDF files is a key problem for people with disabilities. Indeed, certain accessibility problems can completely block access to information or the implementation of administrative procedures in the case of forms. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
     <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">

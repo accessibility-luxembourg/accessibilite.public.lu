@@ -25,7 +25,7 @@ author: Dominique Nauroy
 <p>Just as digital accessibility is an ongoing process, the statement should be regularly updated. But many of the statements submitted in 2020 have never been updated. In total, of the 418 statements recorded, only 68 have been updated and sent to the Information and Press Service... that's around 16%.</p>
 <h4>PDF, browsing, authentication: the top 3 exemptions</h4>
 <p>Three points clearly dominate the derogations for disproportionate burden, first and foremost office documents (PDF and Office files), which are used massively by certain administrations and whose accessibility is more difficult to ensure than information published in HTML format.</p>
-<p>This is closely followed by issues relating to keyboard navigation and the accessibility of navigation menus: if these features are not compliant, disabled users are de facto prevented from accessing the entire site or, in a better case, they find it particularly difficult to use.</p>
+<p>This is closely followed by issues relating to keyboard navigation and the accessibility of navigation menus: if these features are not compliant, users with disabilities are de facto prevented from accessing the entire site or, in a better case, they find it particularly difficult to use.</p>
 <p>Finally, sites and apps that use authentication procedures systematically cite the LuxTrust login system, a third-party service over which they have no control.</p>
 <figure class="chart">
     <div id="dispro">

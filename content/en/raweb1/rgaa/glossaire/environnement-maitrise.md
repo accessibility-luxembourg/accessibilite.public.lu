@@ -6,7 +6,7 @@ Any environment in which access to information, technologies, conditions of use 
 
 - Browser type and version;
 - Supported technologies, their version and activation (JavaScript, WAI-ARIA, etc.);
-- Assistive technologies and any devices used specifically by disabled users;
+- Assistive technologies and any devices used specifically by users with disabilities;
 - Operating systems and accessibility APIs supported;
 - Training for users of assistive technologies in the use of any specific device (interface, online application, etc.).
 
