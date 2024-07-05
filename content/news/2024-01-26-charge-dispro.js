@@ -32,7 +32,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        "Graphique 1. Niveau de conformité des sites audités en 2023",                 // char title
+                        "Graphique 1. Dérogations pour charge disproportionnée",                       // char title
                         "dispro",                                                                      // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type

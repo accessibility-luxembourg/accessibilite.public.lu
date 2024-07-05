@@ -22,7 +22,7 @@ Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{l
 - [Audits complets de l'accessibilité numérique 2020-2021](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2020-2021/)
 
 ### Référentiels
-- [Référentiel Général d'Amélioration de l'Accessibilité (RGAA)](https://data.public.lu/fr/datasets/referentiel-general-damelioration-de-laccessibilite/)
+- [Référentiel d'Évaluation de l'Accessibilité Web (RAWeb)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-web/)
 - [Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-des-applications-mobiles/)
 
 ### Inventaires de sites et d'applications 
