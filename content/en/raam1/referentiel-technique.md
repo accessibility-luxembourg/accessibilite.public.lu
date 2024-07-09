@@ -19,7 +19,7 @@
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) have an alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies)? {id="crit-1-2"}
@@ -37,7 +37,7 @@
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each [graphic element conveying information](glossaire.md#graphic-element-conveying-information), is the alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) relevant (excluding special cases)? {id="crit-1-3"}
@@ -61,7 +61,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.4](#crit-1-4) [A] For each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) or as a [test graphic element](glossaire.md#test-graphic-element), does the alternative rendered by the assistive technologies make it possible to identify the nature and function of the graphic element? {id="crit-1-4"}
@@ -77,7 +77,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criteria 1.5](#crit-1-5) [A] Does each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) have an alternative? {id="crit-1-5"}
@@ -98,7 +98,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.6](#crit-1-6) [A] Does each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-6"}
@@ -124,7 +124,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.7](#crit-1-7) [A] For each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-7"}
@@ -139,7 +139,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 1.8](#crit-1-8) [AA] Each [text graphic element](glossaire.md#text-graphic-element) conveying information, in the absence of a [replacement mechanism](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#styled-text). Is this rule respected (excluding special cases)? {id="crit-1-8"}
@@ -180,7 +180,7 @@ The criterion does not apply to the following elements:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
@@ -635,7 +635,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content) 
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
 
 #### [Criterion 3.12](#crit-3-12) [A] Is each automatically triggered sound sequence [controllable](glossaire.md#control-automatically-triggered-sound) by the user? {id="crit-3-12"}
@@ -1278,7 +1278,7 @@ Note: In applications, items can be grouped together. For example, in a product 
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships) 
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1.1 Non-text Content*, *11.1.3.1.1 Info and Relationships*, *11.5.2.10 Text*.
 
 #### [Criterion 8.2](#crit-8-2) [AA] On each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
@@ -1981,7 +1981,7 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
 #### [Criterion 11.4](#crit-11-4) [A] For each office document with an [accessible version](glossaire.md#accessible-version), does this version offer the same information (excluding special cases)? {id="crit-11-4"}
@@ -1999,7 +1999,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
 #### [Criterion 11.5](#crit-11-5) [A] On each screen, does each cryptic content (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-11-5"}
@@ -2016,7 +2016,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
 
 #### [Criterion 11.6](#crit-11-6) [A] On each screen, for each cryptic content (ASCII art, emoticon, cryptic syntax) having an alternative, is this alternative relevant? {id="crit-11-6"}
@@ -2030,7 +2030,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
 
 #### [Criterion 11.7](#crit-11-7) [A] On each screen, are [sudden change in brightness or flashing effects](glossaire.md#sudden-change-in-brightness-or-flashing-effect) used correctly? {id="crit-11-7"}
