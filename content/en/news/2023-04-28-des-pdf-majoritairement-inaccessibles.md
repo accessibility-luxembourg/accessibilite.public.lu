@@ -10,11 +10,11 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 }
 </style>
 <script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
-<h2>Most PDFs on the most visited public sites are inaccessible</h2>
-<h3>The accessibility of these documents, which are sometimes present on a massive scale on Luxembourg's most visited public portals in 2023, is nevertheless tending to improve</h3>
+<h2>PDFs often inaccessible on most visited websites</h2>
+<h3>However, the accessibility of these documents, which are often available in large quantities on Luxembourg's most visited public portals in 2023, is steadily improving</h3>
 <hr>
 <div class="intro">
-    <p>The presence on public sites of a large number of inaccessible PDF files is a key problem for people with disabilities. Indeed, certain accessibility problems can completely block access to information or the implementation of administrative procedures in the case of forms. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
+    <p>The prevalence of inaccessible PDF files on public websites is a significant problem for people with disabilities. These accessibility issues can completely prevent access to vital information and hinder the completion of administrative procedures, particularly when forms are concerned. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
     <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
@@ -43,7 +43,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <li>vdl.lu.</li>
 </ul>
 <aside class="contextbox">
-    <h4>The three most problematic accessibility issues for PDFs</h4>
+    <h4>The top three PDF accessibility issues</h4>
     <h5>Untagged PDFs</h5>
     <p>The PDF format was originally designed for printing. In 2001, a new version of this format introduced the concept of tagging, which provides assistive technologies with structured information about the content of pages, making them accessible to people with disabilities. In practice, tagging enables blind people to identify and interact with different types of content, such as titles, lists, paragraphs, tables, images, form fields, etc. The main office suites and DTP (Desktop Publishing) software can export tagged PDFs.</p>
     <h5>Documents scanned in image mode</h5>
@@ -93,7 +93,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description of graph 2</summary>
-            <p>This column chart shows the change over four years, from 2019 to 2022, in the proportion of untagged PDFs analysed as part of this study.</p>
+            <p>This column chart shows the evolution of the share of unlabelled PDF files analysed as part of this study over a four-year period, from 2019 to 2022.</p>
         </details>
     </figure>
     <figure class="chart">
@@ -102,7 +102,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description of graph 3</summary>
-            <p>This column chart shows the change over four years, from 2019 to 2022, in the number of PDFs published as part of this study.</p>
+            <p>This column chart shows the evolution of the number of PDF files analysed as part of this study over a four-year period, from 2019 to 2022.</p>
         </details>
     </figure>
 </div>
@@ -118,7 +118,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <p>This line graph shows the proportion of tagged PDF documents on the eight sites covered by the study.</p>
     </details>
 </figure>
-<p>There are significant differences between the sites in terms of the proportion of tagged PDFs. Here we have analysed the sites with more than a hundred PDF files available. Guichet.lu leads the way with 82% and meteolux.lu comes in at just 3%.</p>
+<p>There are significant differences between the sites in terms of the proportion of tagged PDFs. We are selecting here the sites that have more than a hundred PDF files available. Guichet.lu leads the way with 82% and meteolux.lu comes in at just 3%.</p>
 <p>These results must be qualified, however, as our automatic tests do not allow us to determine whether the documents in question are exempt from the obligation to comply with accessibility standards. This is because a document may be issued by a third party and not be under the control of the publishing organisation, or an accessible alternative may be available. These two exceptions are provided for in the law.</p>
 <h5>Impact of production method</h5>
 <p>We then wanted to know the origin of tagged and untagged files. Fortunately, the PDF format has "Creator" and "Producer" metadata that can be used to identify the source.</p>
@@ -160,9 +160,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <li>3 mention PDFs as a non-compliance that will be corrected.</li>
 </ul>
 <p><strong>None of these statements make it possible to identify precisely which PDFs on their sites are not accessible.</strong></p>
-<p>The majority of the organisations responsible for these sites are therefore aware of the problem but are not necessarily in a position to resolve it simply.</p>
+<p>Most of the organisations responsible for these sites are therefore aware of the problem, but are not necessarily in a position to resolve it in a simple way.</p>
 <h4>How can PDF documents be made accessible?</h4>
-<p>As we saw above, the top three producers of untagged PDFs are DTP software, scanners and the PDF printing function. We therefore feel it is important to raise awareness and train the teams responsible for producing brochures. If this is outsourced, it should be possible to include accessibility in the request (see our page on <a href="https://accessibilite.public.lu/en/tools/cahier-des-charges.html">specifications</a>).</p>
+<p>As we saw above, the top three producers of untagged PDFs are DTP software, scanners and the PDF printing function. That is why we believe it is important to raise awareness and to train the teams in charge of the production of brochures. If this is outsourced, it should be possible to include accessibility in the request (see our page on <a href="https://accessibilite.public.lu/en/tools/cahier-des-charges.html">specifications</a>).</p>
 <p>It would also be appropriate to put in place processes to manage the accessibility of digitised documents (OCR and tagging stages or provision of an accessible alternative such as the source document before printing and digitisation) and, finally, to raise awareness among administrations to avoid using the PDF printing function as much as possible and to favour PDF export, which produces tagged documents.</p>
 <p>To go further and work on the accessibility of the PDF documents produced, the SIP is making available the <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> framework, which sets out all the criteria to be met, and is offering a training course for the public sector entitled "<a href="https://fonction-publique.public.lu/fr/formation-developpement/catalogue-formations/secteur-etatique/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibility of PDF documents in practice</a>". If you are interested, don't hesitate to sign up.</p>
 <aside class="contextbox">

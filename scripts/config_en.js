@@ -87,8 +87,8 @@ const config = {
             "name": "tools",
             "children": [
                 {
-                    "title": "Taking accessibility into account right from the specifications",
-                    "menu": "Procurement",
+                    "title": "Integrating Accessibility from the ground up",
+                    "menu": "Specifications",
                     "name": "tools/cahier-des-charges",
                     "md": "./content/en/cahier-des-charges.md", 
                     "html": true,
@@ -108,7 +108,7 @@ const config = {
                     "name": "tools/decla"
                 },
                 {
-                    "title": "Complaint mechanism",
+                    "title": "Complaints procedure",
                     "menu": "Complaints",
                     "name": "tools/reclamations",
                     "md": "./content/en/reclamation.md", 

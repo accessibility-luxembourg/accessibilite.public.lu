@@ -9,7 +9,7 @@
 <noscript class="alert alert-danger"><%- __`Please note: this form requires JavaScript to function correctly. If you are unable to activate JavaScript, we also offer a <a href="${urlNoscript}">statement template in Word format</a> (28 KB).` %></noscript>
 
 <div id="form">
-<p><%= __("This form enables you to generate an accessibility statement.") %></p>
+<p><%= __("You can use this form to create an accessibility statement.") %></p>
 
     <h3><%= __("Instructions") %></h3>
     <p><%= __("The accessibility statement must be easy for the user to find. A link to the statement should be available on every web page, for example in a fixed footer. For mobile applications, the statement must be available on the website of the organisation responsible for the mobile application in question or appear with other information available when the application is downloaded. If the site is available in several languages, it is recommended that the statement be provided in each language of the site.") %></p>
@@ -23,7 +23,7 @@
         <% langs.forEach(l => { %>
             <input type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
             <label for="lang_<%= l.code %>" class="form-check-inline">
-                <%= l.name %>
+                <%- __(l.name) %>
               </label>          
         <% }) %>
         </div>
@@ -32,7 +32,7 @@
         <legend><%= __("Organisation name") %> <%- __("(ex: \"Information and Press Service\")") %></legend>
         <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
-                <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") + l.name %> <span class="symbol-required">* </span></label>
+                <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") +__(l.name) %> <span class="symbol-required">* </span></label>
                 <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
             </div>          
         <% }) %>                     
@@ -79,7 +79,7 @@
         <legend><%= __("Accessibility features") %></legend>         
         <% langs.forEach(l => { %>              
             <div class="form-group" data-lang="<%= l.code %>">
-                <label for="access_features_<%= l.code %>"><%= __("Accessibility features") + __("in") + l.name %></label>
+                <label for="access_features_<%= l.code %>"><%= __("Accessibility features") + __("in") + __(l.name) %></label>
                 <textarea id="access_features_<%= l.code %>" name="access_features_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-access_features"></textarea>
             </div>          
         <% }) %>
@@ -96,7 +96,7 @@
             <legend><%= __("Non-compliant contents") %> (<%= __("one per line") %>)</legend>         
             <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="nc_<%= l.code %>"><%= __("Non-compliant contents") + __("in") + l.name %></label>
+                    <label for="nc_<%= l.code %>"><%= __("Non-compliant contents") + __("in") + __(l.name) %></label>
                     <textarea id="nc_<%= l.code %>" name="nc_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-nc"></textarea>
                 </div>          
             <% }) %>
@@ -110,7 +110,7 @@
             <legend><%= __("Disproportionate burden") %> (<%= __("one per line") %>)</legend>         
             <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="cd_<%= l.code %>"><%= __("Disproportionate burden") + __("in") + l.name %></label>
+                    <label for="cd_<%= l.code %>"><%= __("Disproportionate burden") + __("in") + __(l.name) %></label>
                     <textarea id="cd_<%= l.code %>" name="cd_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-cd"></textarea>
                 </div>          
             <% }) %>
@@ -124,7 +124,7 @@
             <legend><%= __("Exempt content") %> (<%= __("one per line") %>)</legend>         
             <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="ce_<%= l.code %>"><%= __("Exempt content") + __("in") + l.name %></label>
+                    <label for="ce_<%= l.code %>"><%= __("Exempt content") + __("in") + __(l.name) %></label>
                     <textarea id="ce_<%= l.code %>" name="ce_<%= l.code %>"  rows="5" class="form-control" aria-describedby="help-ce"></textarea>
                 </div>          
             <% }) %>
