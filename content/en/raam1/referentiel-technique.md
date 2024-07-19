@@ -468,7 +468,7 @@ The criterion does not apply to the following elements:
 	- that it is relevant (all the important visual information is present);
 	- and that it is correctly synchronised (the audio description soundtrack coincides correctly with the video).
 1. If there is an "audio only" version, check 
-	- that it is relevant (all important audio or visual information is present, including dialogue and inset text).
+	- that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -584,7 +584,7 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Identify pre-recorded video-only and synchronised time-based media on the screen that require audio description.
-1. Check:
+1. Check for:
 	- the presence of a synchronised audio description;
 	- or the presence of an alternative version with a synchronised audio description adjacent to or accessible via an adjacent component (a button or a link).
 1. If this is the case, the criterion is validated.
@@ -594,7 +594,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/TR/WCAG21/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio Description (Pre-recorded)*.
 
-#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), is the description relevant? {id="crit-3-10"}
+#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded video-only or synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), is the description relevant? {id="crit-3-10"}
 
 **[Test 3.10.1](#test-3-10-1):** For each pre-recorded video-only or synchronised time-based media with an audio description, does it meet these conditions? {id="test-3-10-1"}
 - The audio description is relevant;
@@ -628,7 +628,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 ###### iOS and Android
 
 1. Identify pre-recorded synchronised or audio only or video only time-based media on the screen.
-1. Check
+1. Check that:
 	- a text passage (a title or paragraph, for example) that identifies the time-based media immediately precedes or follows it;
 	- that the text passage is located outside the media content player.
 1. If this is the case, the criterion is validated.
@@ -722,7 +722,7 @@ Note: Although volume and playback controls may be physical components of the de
 	- whether the captions are still present; 
 	- whether the captions can be displayed;
 	- whether the captions are correctly synchronised;
-	- whether the key features of captions are retained (for example, if in the original media the captions were coloured according to the speaker, this colouring must be retained in the media resulting from the functionality).
+	- whether the key features of captions are preserved (for example, if in the original media the captions were coloured according to the speaker, this colouring must be retained in the media resulting from the functionality).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -743,7 +743,7 @@ Note: Although volume and playback controls may be physical components of the de
 
 1. Identify the functions used to transmit (e.g. send content to another device), convert or record time-based media.
 1. Execute each function (transmit, convert and record).
-1. For each of the media resulting from the function, assess
+1. For each of the media resulting from the function, check
 	- whether audio description is present; 
 	- whether audio description can be activated;
 	- whether the audio description is correctly synchronised: 
@@ -760,7 +760,7 @@ Note: Although volume and playback controls may be physical components of the de
 
 ##### Special cases
 
-The criterion does not apply to overlaid subtitles (*open captions*).
+The criterion does not apply to embedded subtitles (*open captions*).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -794,7 +794,7 @@ The criterion does not apply to overlaid subtitles (*open captions*).
 
 #### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded synchronised time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised subtitles](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded time-synchronised media with synchronised subtitles meet one of these conditions? {id="test-3-18-1"}
+**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded synchronised time-based media with synchronised subtitles meet one of these conditions? {id="test-3-18-1"}
 - The subtitles are in a standardised format;
 - There is an additional audio track containing the subtitles.
 
@@ -941,7 +941,7 @@ There is special case management for [test 5.1.2](#test-5-1-2) where
 
 **Note:** if the visible label represents a mathematical expression, the mathematical symbols can be used literally to label the accessible name (e.g. "A&gt;B"). It is left to the user to work out the correspondence between the expression and what they have to spell, taking into account their knowledge of how their voice input software works ("A greater than B" or "A superior to B").
 
-##### Assessment methodology {class="disclosure methodo"}
+##### Evaluation methodology {class="disclosure methodo"}
 
 The most comprehensive test is a playback test using a screen reader. All the elements to be evaluated, if present, are rendered by the screen readers. Other tests with other assistive technologies may be necessary to ensure compatibility. Several more or less comprehensive evaluation methods are described below.
 
@@ -956,7 +956,7 @@ What's more, as with the web, there is no technical documentation to describe ho
 1. Activate the **screen reader**.
 1. Identify interactive components on the screen (e.g. button, link).
 1. Access each interactive component using the screen reader gestures.
-1. Check 
+1. Check that
 	- a role is displayed (e.g. button, edit zone, link); 
 	- the role returned is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is returned as a "modification zone" has an irrelevant role; it should be identified as a button); 
 	- a name is rendered and that this name is relevant, i.e. that it enables the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
@@ -1014,7 +1014,7 @@ Procedure:
 1. Identify the interactive components on the screen (e.g. button, link).
 1. Access each interactive component using the screen reader gestures.
 1. Check that
-	- a role is restored (e.g. button, edit zone, link); 
+	- a role is rendered (e.g. button, edit zone, link); 
 	- the role rendered is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is rendered as a "modification zone" has an irrelevant role; it should be identified as a button); 
 	- a name is rendered and that this name is relevant, i.e. that it allows the function of the element to be understood (for form fields, please refer to the ["Forms"](#topic-9) theme to evaluate them);
 	- if the component has a visible name (a visible text), the label is rendered;
@@ -1170,7 +1170,7 @@ This criterion only checks elements that should not be interactive (text element
 ###### iOS with VoiceOver
 
 1. Activate the **screen reader** and browse all the elements on the screen.
-1. Check that the role returned by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and returns "Button", this is an error, no role is returned for the paragraphs).
+1. Check that the role rendered by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and renders "Button", this is an error, no role is rendered for the paragraphs).
 1. If this is the case, the criterion is validated.
 
 ###### iOS With Accessibility Inspector
@@ -1234,7 +1234,7 @@ This criterion only checks elements that should not be interactive (text element
 1. Use the playback controls menu and select "Titles".
 1. Scroll through the titles by sliding your finger up or down.
 1. Check that 
-	- each text structure on the screen is reached in this way and is displayed as a title; 
+	- each text structure on the screen is reached in this way and is rendered as a title; 
 	- that each title is relevant, i.e. 
 		- the title is useful for structuring the screen;
 		- that the text contained in the title makes it possible to understand the content of the section thus titled.
@@ -1242,7 +1242,7 @@ This criterion only checks elements that should not be interactive (text element
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.4.6 Headers and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
+- WCAG 2.1: [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
 
 #### [Criterion 7.2](#crit-7-2) [A] On each screen, is each list correctly structured? {id="crit-7-2"}
@@ -2628,7 +2628,7 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 The criterion is not applicable when the two-way voice communication functionality does not allow the participants to be identified, in which case the RTT communication functionality is not required to identify the authors of the messages.
 
-##### Assessment methodology {class="disclosure methodo"}
+##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 

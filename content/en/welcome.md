@@ -28,7 +28,7 @@ If you have any questions, feel free to [contact us](contact.html).
 
 </div>
 
-### Claim
+### Complaints
 <div class="right-column-content">
 
 If you have a problem with the accessibility of a public sector website or mobile application, you can contact us using the form below:
