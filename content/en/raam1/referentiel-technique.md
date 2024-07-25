@@ -55,7 +55,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 1. Activate the **screen reader**.
 1. Identify the graphic element conveying informations on the screen ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)).
 1. Check 
-	- that the alternative displayed by the screen reader is relevant; 
+	- that the alternative rendered by the screen reader is relevant; 
 	- or that the information retrieved from another element on the screen is relevant.
 1. If this is the case, the criterion is validated.
 
@@ -877,7 +877,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 1. Identify the data tables on the screen.
 1. Activate the **screen reader**. 
-1. Check that a title is displayed when the screen reader reaches the table.
+1. Check that a title is rendered when the screen reader reaches the table.
 1. If so, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -957,8 +957,8 @@ What's more, as with the web, there is no technical documentation to describe ho
 1. Identify interactive components on the screen (e.g. button, link).
 1. Access each interactive component using the screen reader gestures.
 1. Check that
-	- a role is displayed (e.g. button, edit zone, link); 
-	- the role returned is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is returned as a "modification zone" has an irrelevant role; it should be identified as a button); 
+	- a role is rendered (e.g. button, edit zone, link); 
+	- the role rendered is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is rendered as a "modification zone" has an irrelevant role; it should be identified as a button); 
 	- a name is rendered and that this name is relevant, i.e. that it enables the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
 	- if the component has a visible label (a visible text), the title is rendered;
 	- if the component has a perceptible state (activated, deactivated, selected), this state is rendered;
@@ -1063,7 +1063,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibility of focus (AA)](https://www.w3.org/TR/WCAG21/#when-focused) 
+- WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Focus visible (AA)](https://www.w3.org/TR/WCAG21/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
 
 #### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#context-change) meet one of these conditions? {id="crit-5-3"}
@@ -1185,7 +1185,7 @@ This criterion only checks elements that should not be interactive (text element
 ###### Android
 
 1. Activate the **screen reader** and browse all the elements on the screen.
-1. Check that the role returned by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and returns "Button", this is an error - no role is returned for the paragraphs).
+1. Check that the role rendered by the screen reader corresponds to the nature of the element (for example, when the screen reader reaches what appears to be a paragraph and returns "Button", this is an error - no role is rendered for the paragraphs).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1253,7 +1253,7 @@ This criterion only checks elements that should not be interactive (text element
 
 1. Activate the **screen reader**.
 1. Find items on the screen in the form of lists.
-1. Check that the screen reader plays "List" when it reaches the group of items.
+1. Check that the screen reader renders "List" when it reaches the group of items.
 1. If it does, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1322,7 +1322,7 @@ The criterion does not apply to the following elements:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.4.4 Text resizing (AA)](https://www.w3.org/TR/WCAG21/#resize-text)
+- WCAG 2.1: [1.4.4 Resize text (AA)](https://www.w3.org/TR/WCAG21/#resize-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.4.1 Resize Text (AA)*, *11.5.2.3 Use of accessibility services*, *11.7 User preferences*.
 
 #### [Criterion 8.3](#crit-8-3) [A] On each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
@@ -1392,7 +1392,7 @@ The criterion does not apply to the following elements:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color), [2.4.7 Visibility of focus (AA)](https://www.w3.org/TR/WCAG21/#when-focused) 
+- WCAG 2.1: [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color), [2.4.7 Focus visible (AA)](https://www.w3.org/TR/WCAG21/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.1 Use of Colour*, *11.2.4.7 Focus Visible*, *11.7 User preferences*.
 
 #### [Criterion 8.6](#crit-8-6) [A] On each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape-size-or-location). Is this rule respected? {id="crit-8-6"}
@@ -1416,7 +1416,7 @@ This applies to words or sets of words, texts, graphic elements conveying inform
 #### [Criterion 8.7](#crit-8-7) [AA] On each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#user-interface-component) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
 
 - **[Test 8.7.1](#test-8-7-1):** Can any additional content which becomes visible when the focus is taken or when a user interface component is hovered over be hidden by a user action without moving the focus or the mouse pointer (excluding special cases)? {id="test-8-7-1"}
-- **[Test 8.7.2](#test-8-7-2)** Can any additional content which appears when a user interface component is hovered over be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
+- **[Test 8.7.2](#test-8-7-2)** Can any additional content which appears when hovering over an interface component with the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
 - **[Test 8.7.3](#test-8-7-3)** Does any additional content which appears when focused or when hovering over a user interface component meet one of these conditions (excluding special cases)? {id="test-8-7-3"}
 	- The additional content remains visible until the user removes the mouse pointer or the focus from the additional content and the user interface component that triggered its appearance;
 	- The additional content remains visible until the user performs an action that hides this content without moving the focus or mouse pointer of the user interface component that triggered its appearance;
@@ -1469,7 +1469,7 @@ When the additional content does not mask or replace any information-bearing con
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.4.13 Content on mouseover or focus (AA)](https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus) 
+- WCAG 2.1: [1.4.13 Content on hover or focus (AA)](https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.13 Content on Hover or Focus*.
 
 ### [Topic 9](#topic-9): Forms {id="topic-9"}
@@ -1499,7 +1499,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
-1. Check that a label is displayed when the focus of the screen reader is on the form field.
+1. Check that a label is rendered when the focus of the screen reader is on the form field.
 1. If it is, the criterion is validated.
 
 ###### iOS with voice control
@@ -1513,7 +1513,7 @@ When the additional content does not mask or replace any information-bearing con
 
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
-1. Check that a label is displayed when the focus of the screen reader is on the form field.
+1. Check that a label is rendered when the focus of the screen reader is on the form field.
 1. If it is, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1534,8 +1534,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
 1. Check that
-	- the label returned by the screen reader is relevant (it allows you to understand the nature of the expected input);
-	- the visible label is contained in the label returned by the screen reader.
+	- the label rendered by the screen reader is relevant (it allows you to understand the nature of the expected input);
+	- the visible label is contained in the label rendered by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ###### With voice control
@@ -1552,8 +1552,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to form elements using screen reader gestures.
 1. Check that
-	- the label returned by the screen reader is relevant (it allows you to understand the nature of the input required);
-	- the visible label is contained in the label returned by the screen reader.
+	- the label rendered by the screen reader is relevant (it allows you to understand the nature of the input required);
+	- the visible label is contained in the label rendered by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1591,8 +1591,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
 1. Check that
-	- the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
-	- the visible label is contained in the label displayed by the screen reader.
+	- the heading rendered by the screen reader is relevant (it allows you to understand the action of the button);
+	- the visible label is contained in the label rendered by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ###### iOS with voice control
@@ -1609,8 +1609,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Navigate to the form buttons using the screen reader gestures.
 1. Check that
-	- the heading returned by the screen reader is relevant (it allows you to understand the action of the button);
-	- the visible label is contained in the label displayed by the screen reader.
+	- the heading rendered by the screen reader is relevant (it allows you to understand the action of the button);
+	- the visible label is contained in the label rendered by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1631,8 +1631,8 @@ When the additional content does not mask or replace any information-bearing con
 1. Activate the **screen reader**.
 1. Identify on the screen the fields of the same kind that need to be grouped together (for example, the fields for entering the different sequences of digits in a credit card code).
 1. Check that
-	- when the focus is placed on the first field, information is displayed identifying the group to which the field belongs (although this is important for users, it is not required that the grouping information is displayed on each of the form fields, but only on at least the first field in the grouping);
-	- the information returned is relevant, i.e. that it enables the nature of the grouping to be understood.
+	- when the focus is placed on the first field, information is rendered identifying the group to which the field belongs (although this is important for users, it is not required that the grouping information is rendered on each of the form fields, but only on at least the first field in the grouping);
+	- the information rendered is relevant, i.e. that it enables the nature of the grouping to be understood.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1661,7 +1661,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Validate the form without entering any data in order to identify the mandatory fields.
 1. For each mandatory field, check that
-	- the information returned by the screen reader when focused on the field contains the compulsory character;
+	- the information rendered by the screen reader when focused on the field contains the compulsory character;
 	- a visible text near the field indicates that the form field is mandatory.
 1. If this is the case, the criterion is validated.
 
@@ -1683,7 +1683,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 1. Fill in form input fields with values that are likely to cause input errors (e.g. enter an incorrectly formed e-mail address).
 1. Validate the form.
-1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check
+1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check that
 	- that the expected data type and/or format are rendered by the screen reader when focused on the field;
 	- a visible text near the field indicates the expected data type and/or format.
 1. If this is the case, the criterion is validated.
