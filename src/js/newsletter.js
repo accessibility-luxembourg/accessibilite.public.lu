@@ -5,7 +5,11 @@ const messages = {
     "AlreadyExistingAddress": "Cette adresse e-mail existe déjà dans notre base. Veuillez réessayer s\'il vous plaît avec une autre adresse.",
     "EmailSent": "Merci. Un e-mail vient de vous être envoyé&thinsp;: veuillez cliquer sur le lien qui s\'y trouve pour activer votre abonnement.",
     "GeneralEmailError": "Une erreur s\'est produite au moment de l\'envoi d\'une demande de confirmation par email. Veuillez nous en avertir en nous écrivant à l\'adresse <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a> Nous vous prions de bien vouloir nous excuser pour ce désagrément",  
+    "MethodNotAllowed": "Service non disponible, veuillez réessayer plus tard.",
+    "InvalidParams": "Service non disponible, veuillez réessayer plus tard.",
+    "InternalServerError": "Service non disponible, veuillez réessayer plus tard."
 }
+
 
 
 function checkForm () {
@@ -36,16 +40,17 @@ function checkForm () {
 }
 
 function newUserRequest () {
-    const data = new URLSearchParams();
-    data.append('sip_email', document.getElementById('sip_email').value);
-    data.append('lang', document.documentElement.lang);
+    const data = {
+        "sip_email": document.getElementById('sip_email').value,
+        'lang': document.documentElement.lang
+    }
     fetch('/api/1/contact_create', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, */*;q=0.8',
-                'Content-Type': 'application/x-www-form-urlencoded'
+                'Content-Type': 'application/json;charset=utf-8'
             },
-            body: data
+            body: JSON.stringify(data)
     })
     .then(response => response.json())
     .then(response => newUserRequestFeedback(response))
