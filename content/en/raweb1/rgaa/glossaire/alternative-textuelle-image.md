@@ -47,8 +47,8 @@ However, in the case of partial support of the algorithm for calculating the "ac
 
 For example
 
-- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on a `<img>` tag, it is the text passage referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the text passage is actually rendered by the assistive technologies used in the test environment;
-- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and an `alt` attribute on a `<img>` tag, it is the value of the WAI-ARIA `aria-label` attribute that must be considered as the alternative text if the content of the WAI-ARIA `aria-label` attribute is actually rendered by the assistive technologies used in the test environment.
+- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on an `<img>` tag, it is the text passage referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the text passage is actually rendered by the assistive technologies used in the test environment;
+- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and an `alt` attribute on an `<img>` tag, it is the value of the WAI-ARIA `aria-label` attribute that must be considered as the alternative text if the content of the WAI-ARIA `aria-label` attribute is actually rendered by the assistive technologies used in the test environment.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
@@ -66,6 +66,6 @@ Note 3: for image links, the alternative text must allow the function and destin
 
 Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<title>` or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
 
-Note 5: As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to a `<img>`, `<area>` and `<input type="image">` tag.
+Note 5: As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to an `<img>`, `<area>` and `<input type="image">` tag.
 
 Note 6: although the `title` attribute is considered to be a possible text alternative (image), its use can cause problems, in particular because an image with an absent or empty `alt` attribute is considered to be an image with a `role="presentation"` by WAI-ARIA: <a href="https://www.w3.org/TR/html-aam-1.0/#details-id-54">https://www.w3.org/TR/html-aam-1.0/#details-id-54</a>. It is important to ensure that the assistive technologies present in the selected test environment correctly render the alternative proposed by the `title` attribute.

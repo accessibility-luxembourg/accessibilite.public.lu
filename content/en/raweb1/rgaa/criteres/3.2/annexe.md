@@ -20,7 +20,7 @@ Norm:
 
 #### Special cases
 
-In these situations, the criteria do not apply to these elements:
+In these situations, the criteria do not apply to the following elements:
 
 - The text is part of a logo or brand name of an organisation or company;
 - The text or image of text is purely decorative;

@@ -24,6 +24,6 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when the image is used as a [CAPTCHA](#captcha) or as a [test image](#test-image). In this situation, where it is not possible to provide a relevant alternative without destroying the object of the CAPTCHA or test, the criterion is not applicable.
+There are special considerations when the image is used as a [CAPTCHA](#captcha) or as a [test image](#test-image). In this case, where it is not possible to provide a relevant alternative without destroying the object of the CAPTCHA or test, the criterion is not applicable.
 
-Note: the case of CAPTCHAs and test images is dealt with specifically by criterion 1.4.
+Note: the case of CAPTCHAs and test images is addressed specifically in criterion 1.4.

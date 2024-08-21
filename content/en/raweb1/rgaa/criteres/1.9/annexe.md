@@ -19,7 +19,7 @@ Norm:
 
 #### Technical note
 
-The implementation of a WAI-ARIA `role="group"` or `role="figure"` attribute on the parent `<figure>` element is intended to compensate for the current lack of support for `<figure>` elements by assistive technologies. The use of a `<figcaption>` element to associate a [legend](#image-caption) with an image requires at least the use of a WAI-ARIA `aria-label` attribute on the parent `<figure>` element, the content of which will be identical to the content of the `<figcaption>` element. To ensure optimal support, an explicit association can also be made between the content of the image's [text alternative](#text-alternative-image) and the content of the `<figcaption>` element, for example:
+The implementation of a WAI-ARIA `role="group"` or `role="figure"` attribute on the `<figure>` parent element is intended to compensate for the current lack of support for `<figure>` elements by assistive technologies. The use of a `<figcaption>` element to associate an [image caption](#image-caption) with an image requires at least the use of a WAI-ARIA `aria-label` attribute on the `<figure>` parent element, the content of which will be identical to the content of the `<figcaption>` element. To ensure optimal support, an explicit association can also be made between the content of the image's [text alternative](#text-alternative-image) and the content of the `<figcaption>` element, for example:
 
 `<img src="image.png" alt="Photo soleil couchant" /><figcaption>Photo: credit xxx</figcaption>`
 

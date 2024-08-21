@@ -5,7 +5,7 @@ The [Information and Press Service (SIP)](https://sip.gouvernement.lu/en.html) i
 
 In this context, the Web Accessibility Assessment Framework (RAWeb) has been defined as the accessibility framework for all public sector bodies in the scope of the law.
 
-The RAWeb technical method makes it possible to check that a web page - i.e. all HTML content (HTML4, XHTML1 and HTML5) - complies with the success criteria of [European standard EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) to establish the level of legal requirements in terms of digital accessibility.
+The RAWeb technical method makes it possible to check that a web page - i.e. all HTML content (HTML4, XHTML1 and HTML5) - complies with the success criteria of the [Harmonised European standard EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) to establish the level of legal requirements in terms of digital accessibility.
 
 The RAWeb technical method provides an operational framework for checking compliance with accessibility requirements.
 

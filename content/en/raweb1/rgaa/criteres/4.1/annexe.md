@@ -27,7 +27,7 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when
+There are special considerations with the following special cases:
 
 - [Time-based media](#time-based-media-audio-video-and-synchronised) is used for decorative purposes (i.e. it doesn't provide any information);
 - [Time-based media](#time-based-media-audio-video-and-synchronised) is itself an alternative to content on the page (a video in sign language or the vocalisation of a text, for example);
