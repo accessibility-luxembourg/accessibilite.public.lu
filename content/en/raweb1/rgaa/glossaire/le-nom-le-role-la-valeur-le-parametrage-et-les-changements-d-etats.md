@@ -1,5 +1,5 @@
 ---
-title: Name, role, value, settings and status changes
+title: name, role, value, properties and status changes
 ---
 
 A component must have an appropriate role and name. Its values, states and any parameters must also be accessible and correctly passed on to the accessibility APIs in particular.

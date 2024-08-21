@@ -14,7 +14,7 @@ Norm:
 
 #### Special cases
 
-In the case of data tables with headers on a single row or column, the headers can be structured using the `<th>` tag without the `scope` attribute.
+In the case of data tables with headers on a single row or column, the headers can be implemented using the `<th>` tag without the `scope` attribute.
 
 #### Technical notes
 

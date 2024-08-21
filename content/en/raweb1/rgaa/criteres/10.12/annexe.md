@@ -18,6 +18,6 @@ Norm:
 
 The exception to this criterion is content for which the user has no possibility of personalisation:
 
-- Subtitles directly integrated into a video;
+- Subtitles or captions directly integrated into a video;
 - Image of text;
 - Text within a `<canvas>` tag.

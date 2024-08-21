@@ -10,4 +10,4 @@ Content associated with an image in addition to its text alternative in order to
 
 Note 1: If the `aria-describedby` attribute is not supported, it is possible to use one or more passages of text identified by an `id` and linked by a WAI-ARIA `aria-labelledby` attribute following the text alternative.
 
-Note 2: To ensure maximum compatibility with user agents, in particular Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on tags which contain a text passage and which are not interactive elements (buttons, links, form elements, etc.).
+Note 2: To ensure maximum compatibility with user agents, in particular Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on tags which contain a passage of text and which are not interactive elements (buttons, links, form elements, etc.).

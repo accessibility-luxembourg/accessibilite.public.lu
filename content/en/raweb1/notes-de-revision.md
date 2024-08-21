@@ -11,9 +11,9 @@ All the other criteria are new and transcribe, in the form of operational tests,
 These are the following criteria and themes:
 - [Criterion 4.14: For each time-based media that has a synchronised caption or audio description track, are the control features for these alternatives presented at the same level as the main features?](criteres.html#crit-4-14)
 - [Criterion 4.15: For each feature that transmits, converts or records pre-recorded time-synchronised media that has a caption track, at the end of the process, are the captions correctly preserved?](criteres.html#crit-4-15)
-- [Criterion 4.16: For each feature that transmits, converts or records pre-recorded time-based media with a synchronised audio description, at the end of the process is the audio description correctly preserved?](criteres.html#crit-4-16)
+- [Criterion 4.16: For each feature that transmits, converts or records pre-recorded time-based media with an audio description, at the end of the process is the audio description correctly preserved?](criteres.html#crit-4-16)
 - [Criterion 4.17: For each pre-recorded time-based medium, is the presentation of the captions controllable by the user (excluding special cases)?](criteres.html#crit-4-17)
-- [Criterion 4.18: For each pre-recorded synchronised time-based medium that has synchronised translation subtitles, can these be vocalised (excluding special cases)?](criteres.html#crit-4-18)
+- [Criterion 4.18: For each pre-recorded synchronised time-based medium that has subtitles, can these be vocalised (excluding special cases)?](criteres.html#crit-4-18)
 - [Criterion 13.13: For each document conversion feature, is the accessibility information available in the source document retained in the destination document (excluding special cases)?](criteres.html#crit-13-13)
 - [Criterion 13.14: Is an alternative method available for each identification or control functionality that relies on the use of the user's biological characteristics?](criteres.html#crit-13-14)
 - [Theme 14: Documentation and accessibility features](criteres.html#topic-14)
@@ -40,7 +40,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Digital accessibility rules](glossaire.html#digital-accessibility-rules)
 - [Help desk](glossaire.html#support-service)
 - [Relay service](glossaire.html#relay-service)
-- [Translation subtitles](glossaire.html#translation-subtitles)
+- [Subtitles](glossaire.html#subtitles)
 - [Transformation](glossaire.html#transformation)
 - [Input unit](glossaire.html#input-unit)
 
@@ -113,7 +113,7 @@ The test [4.4.1](criteres.html#test-4-4-1) has been rewritten to specify the tes
 
 Test 4.4.1 in the RGAA 4.1.2 
 
-<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with synchronised captions, are these captions relevant?</blockquote>
+<blockquote>Test 4.4.1: For each pre-recorded time-synchronised media with captions, are these captions relevant?</blockquote>
 
 It has been rewritten in RAWeb 1 to introduce 3 test conditions to be verified: 
 
@@ -131,7 +131,7 @@ References to Flash, Silverlight and Java have been removed from the criteria, g
 
 The framework elements affected are as follows: 
 
-- Methodology of criterion [4.7](criteres.html#crit-4-7): deletion of the test <q>the text passage is located outside the multimedia content player if the latter uses Flash technology</q>.
+- Methodology of criterion [4.7](criteres.html#crit-4-7): deletion of the test <q>the passage of text is located outside the multimedia content player if the latter uses Flash technology</q>.
 - "Controlled environment" glossary entry: references to Flash and Silverlight have been removed from the second list item <q>Supported technologies, their version and activation (JavaScript, WAI-ARIA, Flash, Silverlight</q>, etc.).
 - The "Non-time-based media" glossary entry: all references to Flash, Java and Silverlight and their properties have been removed.
 - The glossary entry "Time-based media (audio, video and synchronised)": all references to Flash and its properties have been removed. Note 1 is deleted: Note 2 becomes Note 1, and Note 3 becomes Note 2.

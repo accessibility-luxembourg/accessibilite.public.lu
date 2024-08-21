@@ -25,4 +25,4 @@ Norm:
 
 #### Special cases
 
-For test 11.9.2, see special cases criterion 11.2.
+For test 11.9.2, see special cases in criterion 11.2.

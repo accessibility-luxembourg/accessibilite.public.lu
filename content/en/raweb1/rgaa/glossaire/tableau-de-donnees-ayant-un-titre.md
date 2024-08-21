@@ -4,7 +4,7 @@ title: Data table with a title
 
 Data table with an attribute or containing a tag whose content acts as a title.
 
-Data table preceded or followed by a text passage associated with the table acting as the title.
+Data table preceded or followed by a passage of text associated with the table acting as the title.
 
 Provided it is correctly rendered and associated with the data table by assistive technologies, the associated title can be
 

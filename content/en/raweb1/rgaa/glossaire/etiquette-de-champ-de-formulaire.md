@@ -22,7 +22,7 @@ Reference: [Accessible name and description calculation](https://www.w3.org/TR/h
 
 Important note about the use of `placeholder`: when the `placeholder` attribute is present, it is likely to be returned instead of the `title` attribute. Consequently, when these two attributes `title` and `placeholder` are present, they must be identical.
 
-Note about labels linked with `aria-labelledby`: these are one or more text passages identified by `id`s and linked by `aria-labelledby` according to the following model: `aria-labelledby="ID1 ID2 ID3..."`. 
-To ensure maximum compatibility with user agents, in particular Internet Explorer 11, we recommend implementing a `tabindex="-1"` on text passages that are not interactive elements (buttons, links, form elements, etc.).
+Note about labels linked with `aria-labelledby`: these are one or more passages of text identified by `id`s and linked by `aria-labelledby` according to the following model: `aria-labelledby="ID1 ID2 ID3..."`. 
+To ensure maximum compatibility with user agents, in particular Internet Explorer 11, we recommend implementing a `tabindex="-1"` on passages of text that are not interactive elements (buttons, links, form elements, etc.).
 
 Note: the `aria-label` attribute cannot be used to indicate the mandatory nature of a field.

@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), are the [fields of same kind](#fields-of-same-kind) grouped together, if necessary?
+title: In each [form](#form), are the [fields of same kind](#related-form-controls) grouped together, if necessary?
 ---

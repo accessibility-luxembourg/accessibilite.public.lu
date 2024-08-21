@@ -6,4 +6,4 @@ An "audio only" version is an audio version, in the form of a simple file in MP3
 
 The "audio only" version must contain all the important visual information in the video.
 
-It is generally easier to produce an audio version than a text version when the video is very descriptive (transcript often requires a great deal of editorial work). It should be remembered, however, that only a text transcript provides universal access to the information in the video, in the event that a user is unable to launch the video, for example.
+It is generally easier to produce an audio version than a text version when the video is very descriptive (transcript often requires a great deal of editorial work). It should be remembered, however, that only a transcript provides universal access to the information in the video, in the event that a user is unable to launch the video, for example.

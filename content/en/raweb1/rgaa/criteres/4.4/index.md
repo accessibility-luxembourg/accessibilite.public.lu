@@ -1,3 +1,3 @@
 ---
-title: For each pre-recorded synchronised [time-based media](#time-based-media-audio-video-and-synchronised) with synchronised [subtitles](#synchronised-captions-media-object), are these subtitles relevant?
+title: For each pre-recorded synchronised [time-based media](#time-based-media-audio-video-and-synchronised) with synchronised [captions](#captions-media-object), are these captions relevant?
 ---

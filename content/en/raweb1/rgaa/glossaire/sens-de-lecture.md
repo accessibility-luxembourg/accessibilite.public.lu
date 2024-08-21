@@ -2,7 +2,7 @@
 title: Reading direction
 ---
 
-Indicates the reading direction of the document or a text passage via the `dir` attribute, `dir="ltr"`, for example. The two recognised values are
+Indicates the reading direction of the document or a passage of text via the `dir` attribute, `dir="ltr"`, for example. The two recognised values are
 
 - `ltr` (left to right) indicates a reading direction from left to right;
 - `rtl` (right to left) indicates a reading direction from right to left.

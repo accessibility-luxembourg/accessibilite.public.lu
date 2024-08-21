@@ -1,3 +1,3 @@
 ---
-title: Is each web page defined by a [document type](#document-type)?
+title: Has each web page a defined [document type](#document-type)?
 ---

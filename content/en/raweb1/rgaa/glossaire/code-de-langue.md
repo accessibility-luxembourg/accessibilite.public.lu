@@ -2,7 +2,7 @@
 title: Language code
 ---
 
-A 2-character (ISO 639-1) or 3-character (ISO 639-2 and following) code used to indicate the language of a document or text passage. The language code is made up of two parts separated by a hyphen on the `lang="[code]-[option]"` model.
+A 2-character (ISO 639-1) or 3-character (ISO 639-2 and following) code used to indicate the language of a document or passage of text. The language code is made up of two parts separated by a hyphen on the `lang="[code]-[option]"` model.
 
 - [code] represents a valid language code of 2 or 3 characters;
 - [option] is an indication left to the author's discretion.

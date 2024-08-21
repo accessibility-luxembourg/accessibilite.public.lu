@@ -47,7 +47,7 @@ However, in the case of partial support of the algorithm for calculating the "ac
 
 For example
 
-- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on an `<img>` tag, it is the text passage referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the text passage is actually rendered by the assistive technologies used in the test environment;
+- In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on an `<img>` tag, it is the passage of text referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the passage of text is actually rendered by the assistive technologies used in the test environment;
 - In the case of the joint presence of a WAI-ARIA `aria-label` attribute and an `alt` attribute on an `<img>` tag, it is the value of the WAI-ARIA `aria-label` attribute that must be considered as the alternative text if the content of the WAI-ARIA `aria-label` attribute is actually rendered by the assistive technologies used in the test environment.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.

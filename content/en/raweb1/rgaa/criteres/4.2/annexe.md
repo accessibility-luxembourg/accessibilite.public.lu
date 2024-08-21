@@ -22,4 +22,4 @@ Norm:
 
 #### Special cases
 
-See special cases criterion 4.1.
+see special cases in criterion 4.1.

@@ -2,7 +2,7 @@
 title: Legend
 ---
 
-HTML provides a way of titling groups of fields of the same kind using the elements `<fieldset>` and `<legend>`.
+HTML provides a way of titling groups of related form controls using the elements `<fieldset>` and `<legend>`.
 
 It is also possible to create groups with the WAI-ARIA role `group` and a passage of text, acting as a legend, linked by the WAI-ARIA `aria-labelledby` attribute or provided by a WAI-ARIA `aria-label` attribute.
 

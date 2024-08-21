@@ -14,7 +14,7 @@ It is also possible to render a button using the WAI-ARIA role `button`.
 
 The button label can be of six types:
 
-- The content of the text passage associated with the button via the `aria-labelledby` WAI-ARIA attribute when it is present;
+- The content of the passage of text associated with the button via the `aria-labelledby` WAI-ARIA attribute when it is present;
 - The value of the `aria-label` attribute when it is present;
 - The value of the `alt` attribute of an `image` type button;
 - The value of the `value` attribute for buttons of type `submit`, `reset` or `button`;
@@ -30,7 +30,7 @@ Important note: when several of these techniques are present on the same button,
 - Otherwise the content of the `<button>` tag;
 - Otherwise `title`.
 
-This order should be used to assess the relevance of the button's "accessible name". For example, even if there is a `title` and a text passage referenced by `aria-labelledby` on the same button, it is the text passage referenced by `aria-labelledby` that should be evaluated.
+This order should be used to assess the relevance of the button's "accessible name". For example, even if there is a `title` and a passage of text referenced by `aria-labelledby` on the same button, it is the passage of text referenced by `aria-labelledby` that should be evaluated.
 
 Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
