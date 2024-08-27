@@ -1,85 +1,138 @@
 <% if (shortList.length == 0 || topic.criteria.filter(crit => shortList.includes(topic.number+'.'+crit.criterium.number)).length !== 0) { %> 
 <article>
-<h3 id="topic-<%= topic.number %>" class="topic <%= (topic.criteria.map(e => e.criterium.references[0].wcag !== undefined && e.criterium.references[0].wcag.length !== 0).reduce((a, c) => a || c, false)) ? 'rgaa' : 'en-norm' %>">
-    <a href="#topic-<%= topic.number %>"><%= __("Theme") %> <%= topic.number %></a><%- __("fSpace") %> 
-    <%= md.renderInline(topic.topic) %>
+<h3 id="topic-<%= topic.number %>">
+    <button aria-expanded="false" aria-controls="sect<%= topic.number %>" class="accordion-trigger" id="accordion<%= topic.number %>id">
+        <span class="accordion-title">
+            <span class="accordion-icon"></span>
+            <span class="chapter"><%= topic.number %></span>
+            <span class="theme-name"><%= md.renderInline(topic.topic) %></span>
+        </span>
+    </button>
+    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>">&nbsp;</a>
 </h3>
+<div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
 <% topic.criteria.forEach(crit => { 
     let critId = `crit-${topic.number}-${crit.criterium.number}`
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
+        let rawebonlyClass = "rawebOnly";
+        let rawebonlyData = 'data-rawebOnly="true"';
+        let rawebCriterion = "nouveau critère RAWeb";
+        if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) {
+            rawebonlyClass = '';
+            rawebonlyData = '';
+            rawebCriterion = "critère";
+        }
+        if (crit.criterium.references[0].wcag == undefined) {'rawebOnly'}
 %>
-<div class="crit disclosure <%= (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) ? 'rgaa' : 'en-norm' %>">
     <h4 id="<%= critId %>">
-    <a href="#<%= critId %>"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></a> [<%= levels[topic.number+'.'+crit.criterium.number] %>]<%- __("fSpace") %> <%- md.renderInline(crit.criterium.title) %></h4>
-    <p class="summary" id="summary-<%= critId %>"><%= __("Criterion tests") %> <%= topic.number %>.<%= crit.criterium.number %></p>
-    <div class="details" id="details-<%= critId %>">
-            <% Object.keys(crit.criterium.tests).forEach(testId => {
-                let test = crit.criterium.tests[testId]
-                let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
-                let metho = crit.criterium.metho[testId]
-            %>
-            <h5 id="<%= ref %>"><a href="#<%= ref %>">Test <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></a>
+        <span class="<%- rawebonlyClass %>" <%- rawebonlyData %>>
+            <span class="sr-only"><%= rawebCriterion %> </span>
+            <%= topic.number %>.<%= crit.criterium.number %>
+        </span>
+        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a>
+        <span class="level">
+            <span class="sr-only"><%= __('Compliance level') %> </span>
+            <%= levels[topic.number+'.'+crit.criterium.number] %>
+        </span>
+    </h4>
+    <details class="discover rawebTests">
+        <summary><%= __('Tests') %></summary>
+        <% Object.keys(crit.criterium.tests).forEach(testId => {
+            let test = crit.criterium.tests[testId]
+            let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
+            let metho = crit.criterium.metho[testId]
+        %>
+        <h5 id="<%= ref %>">
+            <span>
+                <span class="sr-only"><%= __('Test') %> </span>
+                <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>
+            </span>
             <% if (typeof test == 'object') { %>
-                <%- md.renderInline(test[0]) %></h5>
+                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
+                <% if (test.length > 1) { %>
                 <ul>
                 <% for (let i=1; i< test.length; i++) { %>
-                    <li><%- md.renderInline(test[i]) %></li>
+                    <li><p><%- md.renderInline(test[i]) %></p></li>
                 <% } %>
                 </ul>
-            <% } else { %>
-                <%- md.renderInline(test) %></h5>
-            <% } %>
-            <% if (metho !== '') { %>
-            <h6 id="method-<%= ref %>" class="disclosure methodo"><%= __("Test methodology") %> <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %></h6>
-            <%- metho %>
-            <% } %>
-            <% }) %>
-        <%- crit.criterium.notes %>           
-        <h5 id="mapping<%= critId %>" class="disclosure mapping"><%= __("Mapping") %></h5>
-
-        <ul>
-            <% if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) { %>
-            <li><%= __("WCAG 2.1 success criteria") %><%- __("fSpace") %>
-            <% let SC = crit.criterium.references[0].wcag.map(e => { return e.trim() })
-                SC.forEach(e => { %><a href="<%= __('https://www.w3.org/TR/WCAG21/') %>#<%= slugify(e) %>"><%- langOnWCAG(e, lang) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
-            </li>
-            <% } %>            
-            <% if (crit.criterium.references[1].techniques !== undefined && crit.criterium.references[1].techniques.length !== 0) { %>
-                <li><%= __("Sufficient techniques and/or failures") %><%- __("fSpace") %>
-                <% let techs = crit.criterium.references[1].techniques.map(e => { return e.trim() })
-                    techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
-                %>
-                </li>
-            <% } %>
-            <% if (crit.criterium.references[2].norm !== undefined) { %>
-                <% if (Array.isArray(crit.criterium.references[2].norm) && crit.criterium.references[2].norm.length !== 0) { %>
-            <li><%= normVersion %><%- __("fSpace") %> <% crit.criterium.references[2].norm.forEach(e => { %>
-                <%- langOnEUNorm(e.trim()); %><%= (crit.criterium.references[2].norm.indexOf(e) != (crit.criterium.references[2].norm.length-1))?', ': '.' %>
-                <% }) %> 
-            </li>           
-                <% } else { %>
-                    <li><%= normVersion %><%- __("fSpace") %> <%= crit.criterium.references[2].norm %></li>
-                <% } %>    
-            <% } %>
-        </ul>
-        <% if (autoTests[topic.number+'.'+crit.criterium.number] !== undefined) { %>
-            <h6><%= __("Automated tests mapping") %></h6>
-            <ul>
-            <% autoTests[topic.number+'.'+crit.criterium.number].forEach(e => { %>
-                <li>
-                <% if (e.id !== undefined) { %>
-                    <%= ("Axe rule") %><%- __("fSpace") %> <a href="https://dequeuniversity.com/rules/axe/4.1/<%= e.id %>"><%= e.id %> - <span lang="en">"<%= e.msg %>"</span></a>
-                <% } else { %>
-                    <%- e.msg %>
                 <% } %>
-                </li>
-            <% }) %>
-            </ul>           
+            <% } else { %>
+                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
+            <% } %>
+        <% if (metho !== '') { %>
+            <details class="methodo">
+                <summary>Méthodologie du test</summary>
+                <div>
+                    <%- metho %>
+                </div>
+            </details>            
         <% } %>
-    </div>
-</div>        
+        <% }) %>
+    </details>
+
+    <% if (crit.criterium.notes !== '') { %>
+        <details class="discover rawebNotes">
+            <summary>Notes et cas particuliers</summary>
+            <%- crit.criterium.notes.toString() %>
+        </details>
+    <% } %>
+
+    <details class="discover rawebCorr">
+        <summary>Correspondances</summary>
+        <div>
+            <ul>
+                <% if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) { %>
+                <li><p>Critères de succès WCAG 2.1</p>
+                <p>
+                        <% let SC = crit.criterium.references[0].wcag.map(e => { return e.trim() })
+                        SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e, lang) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
+                </p>
+            </li>
+                <% } %>            
+                <% if (crit.criterium.references[1].techniques !== undefined && crit.criterium.references[1].techniques.length !== 0) { %>
+                <li><p>Techniques suffisantes et/ou échecs WCAG 2.1</p>
+                    <p>
+                            <% let techs = crit.criterium.references[1].techniques.map(e => { return e.trim() })
+                                techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
+                            %>
+                    </p>
+                </li>
+                <% } %>
+                <% if (crit.criterium.references[2].norm !== undefined) { %>
+                    <% if (Array.isArray(crit.criterium.references[2].norm) && crit.criterium.references[2].norm.length !== 0) { %>
+                        <li><p><%= normVersion %></p>
+                            <p><% crit.criterium.references[2].norm.forEach(e => { %>
+                                    <%- langOnEUNorm(e.trim()); %><%= (crit.criterium.references[2].norm.indexOf(e) != (crit.criterium.references[2].norm.length-1))?', ': '.' %>
+                                    <% }) %>
+                            </p> 
+                        </li>           
+                            <% } else { %>
+                                <li><p><%= normVersion %></p>
+                                    <p><%= crit.criterium.references[2].norm %></p>
+                                </li>
+                    <% } %>    
+                <% } %>
+            </ul>
+            <% if (autoTests[topic.number+'.'+crit.criterium.number] !== undefined) { %>
+                <h6>Correspondances tests automatisés</h6>
+                <ul>
+                <% autoTests[topic.number+'.'+crit.criterium.number].forEach(e => { %>
+                    <li>
+                    <% if (e.id !== undefined) { %>
+                        Règle Axe: <a href="https://dequeuniversity.com/rules/axe/4.1/<%= e.id %>"><%= e.id %> - <span lang="en">"<%= e.msg %>"</span></a>
+                    <% } else { %>
+                        <%- e.msg %>
+                    <% } %>
+                    </li>
+                <% }) %>
+                </ul>           
+            <% } %>
+        </div>
+    </details>
+       
 <% 
     }
 })%>
+</div> 
 </article>
 <% } %>

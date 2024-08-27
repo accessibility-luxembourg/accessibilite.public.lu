@@ -1,5 +1,5 @@
 ---
-teaser: 2024-05-RAAM-preview.jpg
+teaser: 2024-05-RAAM-teaser.jpg
 tags:
 - référentiel
 - RAAM
