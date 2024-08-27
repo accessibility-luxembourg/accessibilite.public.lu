@@ -1,11 +1,13 @@
 <script src="../../js/newsletter.js"></script>
 
-Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://twitter.com/accessibilityLu">Twitter</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.
+<p>Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://twitter.com/accessibilityLu">Twitter</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.</p>
 
-N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire ci-dessous&nbsp;:
+<p>N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire ci-dessous&nbsp;:</p>
+
+<h3>Inscription à la lettre d'information</h3>
+<p id="output" role="alert"></p>
 
 <form class="newsletter" id="newsletter" method="POST">
-    <h3>Inscription à la lettre d'information</h3>
     <p>Le champ et la case à cocher sont obligatoires</p>
     <div>
         <label id="sip_email_label" for="sip_email">Adresse e-mail (exemple&thinsp;: nom.prenom@domaine.com)</label>
@@ -22,4 +24,3 @@ N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire 
     </div>
     <button type="button" id="submitbtn">Je m'inscris</button>
 </form>
-<div><p id="output" role="alert"></p></div>

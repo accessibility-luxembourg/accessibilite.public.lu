@@ -11,10 +11,17 @@ const messages = {
 function getURLparams () {
     const urlParams = new URLSearchParams(window.location.search);
     const email_validation = urlParams.get('email_validation');
-    if (email_validation == null || email_validation == "") {
-        document.getElementById("output").innerHTML = "<p>Désolé, les paramètres renseignés ne sont pas valides.</p>";
+    const demoMode = urlParams.get('demo') !== null;
+    if (demoMode) {
+        newUserRequestFeedback ({code:"Success", success: "true"});
     } else {
-        validateNewUser(email_validation);
+        if (email_validation == null || email_validation == "") {
+            document.getElementById("output").classList.add("alert");
+            document.getElementById("output").classList.add("alert-danger");
+            document.getElementById("output").innerHTML = "<p>Désolé, les paramètres renseignés ne sont pas valides.</p>";
+        } else {
+            validateNewUser(email_validation);
+        }
     }
 }
 
@@ -36,6 +43,8 @@ function validateNewUser (email_validation) {
 
 function newUserRequestFeedback (output) {
     if (output.code !== undefined && messages[output.code] !== undefined) {
+        document.getElementById("output").classList.add("alert");
+        document.getElementById("output").classList.add((output.success === "true")?"alert-success":"alert-danger");
         document.getElementById("output").innerHTML = messages[output.code];
     } 
 }
