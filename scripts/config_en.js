@@ -55,8 +55,8 @@ const config = {
             "name": "monitoring",
             "children": [ 
                 {
-                    "title": "Digital accessibility requirements",
-                    "menu": "Requirements",
+                    "title": "Legal requirements regarding digital accessibility ",
+                    "menu": "Legal requirements",
                     "name": "obligations",
                     "md": "./content/en/raweb1/obligations.md", 
                     "html": true,
@@ -65,8 +65,8 @@ const config = {
                     "summaryTitle": "Summary"
                 },
                 {
-                    "title": "Digital accessibility control mission",
-                    "menu": "Control mission",
+                    "title": "Digital accessibility monitoring",
+                    "menu": "Monitoring",
                     "name": "monitoring/mission",
                     "md": "./content/en/mission.md",
                     "prefix": "../../.." 
