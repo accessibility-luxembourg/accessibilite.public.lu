@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#ffffff">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Service information et presse">
+    <meta name="author" content="<%= __("Information and Press Service") %>">
     <% if (ogDesc) { %>
       <meta name="description" content="<%= ogDesc %>">
     <% } %>
@@ -27,7 +27,7 @@
 
     <meta name="twitter:site" content="https://twitter.com/accessibilityLU" />
     <meta name="twitter:creator" content="https://twitter.com/accessibilityLU">
-    <meta name="twitter:title" content="<%= title %> - Portail de l'accessibilité numérique du Luxembourg" />
+    <meta name="twitter:title" content="<%= title %> - <%=__("Luxembourg Digital Accessibility Portal") %>" />
     <% if (ogDesc) { %>
       <meta name="twitter:description" content="<%= ogDesc %>">
     <% } %>
@@ -40,7 +40,7 @@
     <% } else { %>
       <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
     <% } %>
-    <meta property='og:site_name' content="Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg"/>
+    <meta property='og:site_name' content="<%= __("Digital accessibility portal of the Grand Duchy of Luxembourg") %>"/>
     <meta property='og:url' content='https://accessibilite.public.lu<%= file %>'/>
     <meta property="og:type" content="website">
 
@@ -53,7 +53,7 @@
 
     <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
     <link rel="canonical" href='https://accessibilite.public.lu<%= file %>'/>
-    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/<%= lang %>/news/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/<%= lang %>/news/feed.xml" />
     
     <% if (prod) { %>
       <meta name="google-site-verification" content="<%= process.env.GSITEVERIF %>" />

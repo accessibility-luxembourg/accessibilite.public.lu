@@ -12,7 +12,7 @@
   "Methodology": "Méthodologie",
   "WCAG criteria only": "Critères WCAG uniquement",
   "WCAG 2.1 success criteria": "Critères de succès WCAG 2.1",
-  "Sufficient techniques and/or failures": "Technique(s) suffisante(s) et/ou échec(s) WCAG 2.1",
+  "Sufficient techniques and/or failures": "Techniques suffisantes et/ou échecs WCAG 2.1",
   "Axe rule": "Règle Axe",
   "<strong>This page is obsolete: </strong> please consult the equivalent page of %s. <br />For more information, we invite you to read <a href=\"%s\">revision notes</a>.": "<strong>Cette page est obsolète: </strong>  veuillez consulter la page équivalente du %s. <br />Pour plus d'informations, nous vous invitons à prendre connaissance des <a href=\"%s\">notes de révision</a>.",
   "Digital accessibility portal": "Portail de l'accessibilité numérique",
@@ -111,5 +111,13 @@
   "Unfold notes and special cases": "Déplier les notes et cas particuliers",
   "Unfold mappings": "Déplier les correspondances",
   "Tests": "Tests",
-  "Test": "Test"
+  "Test": "Test",
+  "Information and Press Service": "Service information et presse",
+  "Luxembourg Digital Accessibility Portal": "Portail de l'accessibilité numérique du Luxembourg",
+  "Digital accessibility portal of the Grand Duchy of Luxembourg": "Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg",
+  "Skip to content": "Aller au contenu",
+  "Notes and special cases": "Notes et cas particuliers",
+  "format: dd/mm/yyyy, ex: 20/04/2020": "format: jj/mm/aaaa, ex&thinsp;: 20/04/2020",
+  "Summary": "Sommaire",
+  "Close the modal window": "Fermer la fenêtre modale"
 }
