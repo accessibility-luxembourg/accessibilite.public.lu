@@ -143,6 +143,8 @@ function getParams() {
     } else {
         params.main_title = true
     }
+    const disable_en = form.getAttribute('data-disable-en')
+    params.disable_en = (disable_en !== undefined && disable_en === "true")
     return params;
 }
 

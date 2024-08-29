@@ -4,6 +4,7 @@
   </div> 
   <div class="menu-container" id="top">
     <h1><%= __('Digital accessibility portal') %></h1>
+    <% if (process.env.DISABLE_EN!=="true") { %>
     <ul class="menu-lang">
       <li>
         <% if (lang === "fr") { %>
@@ -20,6 +21,7 @@
         <% } %>
       </li>
     </ul>
+    <% } %>
     <nav role="navigation" id="navi" aria-label="menu principal">
       <div id="frameworks-<%- lang %>" aria-hidden="true"><%= __('Frameworks') %></div>
       <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>

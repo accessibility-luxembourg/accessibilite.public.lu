@@ -6,7 +6,10 @@ const y18n = require('y18n')
 
 dotenv.config()
 
-const langs = ['fr', 'en']
+const langs = ['fr']
+if (process.env.DISABLE_EN !== 'true') {
+    langs.push('en')
+}
 const config = {}
 config['fr'] = require('./scripts/config_fr.js').config
 config['en'] = require('./scripts/config_en.js').config
