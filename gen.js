@@ -28,7 +28,6 @@ langs.forEach(lang => {
     const currentFramework = '<a href=\"../raweb1/index.html\">RAWeb1</a>'
     const revisionNotesURL = '../raweb1/notes-revision.html'
     const deprecationMessage = __`<strong>This page is obsolete: </strong> please consult the equivalent page of ${currentFramework}. <br />For more information, we invite you to read <a href=\"${revisionNotesURL}\">revision notes</a>.`
-    // <strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raweb1/index.html">RAWeb1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raweb1/notes-revision.html">notes de révision</a>.')
     const level1 = config[lang].mainMenu.concat(config[lang].footer).concat(config[lang].hidden).filter(e => e.md !== undefined)
     const level2 = config[lang].mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
     let md = level1.concat(level2)
@@ -36,7 +35,6 @@ langs.forEach(lang => {
     md = md.filter(x => {return x.name != 'index'})
 
     md.forEach(e => { 
-        //console.log(e.title)
         lib.renderWithSummary(config, lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, __)          
     })
 
