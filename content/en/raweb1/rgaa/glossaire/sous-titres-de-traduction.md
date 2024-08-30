@@ -1,5 +1,5 @@
 ---
-title: subtitles
+title: Subtitles
 ---
 
 Subtitles are in a language other than the language of the video. 
