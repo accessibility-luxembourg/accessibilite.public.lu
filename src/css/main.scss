@@ -76,26 +76,6 @@ main, header, footer {
   }
 }
 
-
-#topics aside {
-  margin-bottom: 3em;
-  border-left: 3px solid #ccc;
-  padding-left: 1em;
-}
-
-#topics article > ul > li {
-  margin-left: 0;
-}
-
-#topics article > ul > li > ul  {
-  padding-left: 3em;
-  list-style-type: disc;
-}
-
-#topics article > ul > li > ul > li {
-  margin-top: 0.5em;
-}
-
 .site-logo {
     width: 100px;
     height: 100px;
@@ -170,12 +150,8 @@ h1.disclosure, h2.disclosure, h3.disclosure, h4.disclosure, h5.disclosure, h6.di
 }
 
 
-#topics article {
-  margin: 3em 0 3em 0;
-}
-
 #topics, #intro {
-  max-width: 50em;
+  max-width: 53em;
 }
 
 #result {
@@ -203,22 +179,37 @@ button.clipboard {
 #toc {
   position: absolute;
   overflow-y: auto;
-  top: 250px;
+  top: 265px;
   margin-left: 55rem;
-  background-color: $gray-10;
   padding: 1rem;
   min-width:10rem;
   max-width: 20rem;
-  max-height: calc(100% - 250px);
+  max-height: calc(100% - 265px);
   font-size: $font-size-sm;
   line-height: $line-height-sm;
+  color: $body-color;
+  background-color: $body-bg; 
+  border: 1px solid grey;
+  border-radius: 2px; 
+}
+
+#toc a {
+  color: $body-color;
+  text-decoration: none;
+}
+
+#toc a:visited {
+  color: $body-color;
+}
+
+#toc a:active, #toc a:focus {
+  color: white;
 }
 
 #toc.noNavi.noFooter {
   position: fixed;
   top: 0px;
-  max-height: 100%;
-}
+  max-height: 100%;}
 
 #toc h3 {
   font-size: 1.5em;

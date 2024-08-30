@@ -42,9 +42,18 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
     if (summary !== undefined) {
         const $ = cheerio.load(data)
         const topics = []
+
         $('h3:not(.no-summary)').each(function(i, elem) {
             if (!$(this).next().is('h3')) {
-                let text = $(this).text().split(':').pop().trim()
+                // manage the new raweb structure
+                const maybeRawebTopic = $(this).find('.theme-name') 
+                let text = ''
+                if (maybeRawebTopic.length !== 0) {
+                    text = maybeRawebTopic.text().trim()
+                } else {
+                    text = $(this).text().split(':').pop().trim()
+                }
+
                 text = text.replace(/\s\(.+\)/, '')
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
