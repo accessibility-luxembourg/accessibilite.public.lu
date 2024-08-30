@@ -176,8 +176,8 @@ const config = {
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RAWeb 1: Review notes",
-                    "menu": "Review notes",
+                    "title": "RAWeb 1: Changelog",
+                    "menu": "Changelog",
                     "name": "raweb1/notes-revision",
                     "html": true,
                     "md": "./content/en/raweb1/notes-de-revision.md", 
