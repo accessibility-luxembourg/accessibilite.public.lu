@@ -48,6 +48,7 @@ header {
       background-color: $menu-dark-blue;
       position: absolute;
       top: 103px;
+      z-index: 1;
   
       .hide-element {
         border: 0;
