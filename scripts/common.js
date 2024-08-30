@@ -75,6 +75,10 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 $(this).html(text)
             }
         })
+        // copy the script elements to the body
+        $('head script').each((e, a) => {
+            $('body').prepend(a)
+        })
         data = $('body').html()
 
         ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary, summaryTitle: summaryTitle, __}, function(err, str) {
@@ -107,6 +111,10 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         })
         $('.RAWebMaster code').each(function(i, elem) {
             $(elem).attr('lang', 'en')
+        })
+        // copy the script elements to the body
+        $('head script').each((e, a) => {
+            $('body').prepend(a)
         })
         data = $('body').html()
         renderToFile(config, data, title, lang, file, name, prefix, __, false, error)
