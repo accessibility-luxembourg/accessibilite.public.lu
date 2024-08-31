@@ -197,7 +197,7 @@ function mdCriteres(filePath = '') {
     return MarkdownIt({
         'html': true,
         replaceLink: function (link, env) {
-            if (!link.match(/^#test-|#crit-|https?:\/\/|\.\./)) {
+            if (!link.match(/^#test-\d|#crit-\d|https?:\/\/|\.\./)) {
                 return filePath+'glossaire.html'+link
             }
             return link
@@ -208,7 +208,7 @@ function mdCriteres(filePath = '') {
 const mdGlossary = MarkdownIt({
     'html': true,
     replaceLink: function (link, env) {
-        if (link.match(/^#test-|^#crit-/)) {
+        if (link.match(/^#test-\d|^#crit-\d/)) {
             return 'criteres.html'+link
         }
         return link
