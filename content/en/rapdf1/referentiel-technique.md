@@ -62,7 +62,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
@@ -85,7 +85,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -104,7 +104,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -126,7 +126,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
@@ -148,7 +148,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
@@ -172,7 +172,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -198,7 +198,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.5 Text as an image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text):
+- WCAG 2.1 [1.4.5 Text as an image (AA)](https://www.w3.org/TR/WCAG21/#images-of-text):
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7);
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*.
@@ -226,7 +226,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14);
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
@@ -261,7 +261,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum):
+- WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/TR/WCAG21/#contrast-minimum):
     - [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html);
     - [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.3 Contrast (minimum)*.
@@ -299,7 +299,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.11 Non-text content contrast (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast):
+- WCAG 2.1 [1.4.11 Non-text content contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast):
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html);
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*.
@@ -325,7 +325,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
@@ -344,7 +344,7 @@ In these situations, the criterion does not apply:
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
@@ -364,7 +364,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6);
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
@@ -384,7 +384,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.2 Meaningful sequence*.
 
@@ -403,7 +403,7 @@ In these situations, the criterion does not apply:
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -440,7 +440,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context):
+- WCAG 2.1 [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
@@ -463,9 +463,9 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context):
+- WCAG 2.1: [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*, *10.1.1.1 Non-text content*.
 
@@ -500,9 +500,9 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
-- WCAG 2.1 [2.4.6 Headers and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels):
+- WCAG 2.1 [2.4.6 Headers and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.2.4.6 Headings and labels*.
 
@@ -530,7 +530,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -552,7 +552,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -587,11 +587,11 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- WCAG 2.1 [2.1.1 Keyboard (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard):
+- WCAG 2.1 [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- WCAG 2.1 [2.4.3 Focus path (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order):
+- WCAG 2.1 [2.4.3 Focus path (A)](https://www.w3.org/TR/WCAG21/#focus-order):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*, *10.2.1.1 Keyboard*, *10.2.4.3 Focus order*.
@@ -621,7 +621,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.3 Sensory characteristics (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics):
+- WCAG 2.1 [1.3.3 Sensory characteristics (A)](https://www.w3.org/TR/WCAG21/#sensory-characteristics):
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.3 Sensory characteristics*.
 
@@ -639,7 +639,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
 
@@ -664,7 +664,7 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.5 Multiple Access (MA)](https://www.w3.org/Translations/WCAG21-fr/#multiple-ways):
+- WCAG 2.1 [2.4.5 Multiple Access (MA)](https://www.w3.org/TR/WCAG21/#multiple-ways):
     - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2);
     - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
@@ -690,7 +690,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
+- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
@@ -713,7 +713,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled):
+- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
@@ -737,7 +737,7 @@ In this case, the criterion is not applicable.
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
@@ -760,7 +760,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -779,7 +779,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -801,7 +801,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -821,7 +821,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content):
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -843,7 +843,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -861,7 +861,7 @@ In this case, the criterion is not applicable.
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -879,7 +879,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content);
+- WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
@@ -897,7 +897,7 @@ In this case, the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.2.2 Pause, stop, hide (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide):
+- WCAG 2.1 [2.2.2 Pause, stop, hide (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide):
     - [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html);
     - [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html);
     - [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
@@ -911,7 +911,7 @@ PDF forms can only be created using Acrobat Pro or specialised PDF form editing 
 In addition, the test methodology requires the use of a screen reader.
 For these reasons, this topic has been deliberately isolated to the last part of the framework.
 
-The assessment methodology is based on the screen reader [NVDA](https://www.nvda-fr.org/), which can be freely installed and used on a Windows computer.
+The assessment methodology is based on the screen reader [NVDA](https://www.nvaccess.org/download/), which can be freely installed and used on a Windows computer.
 
 The criteria for this theme aim to check that the form controls (input field, etc.) are correctly rendered to ensure basic accessibility.
 
@@ -937,9 +937,9 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
- - WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
+ - WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.4.1.2 Name, role, value*.
 
@@ -960,12 +960,12 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels):
+- WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G131](https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html).
-- WCAG 2.1 [2.5.3 Label in the name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name):
+- WCAG 2.1 [2.5.3 Label in the name (A)](https://www.w3.org/TR/WCAG21/#label-in-name):
     - [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html);
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
-- WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
+- WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*, *10.2.5.3 Label in name*, *10.3.3.2 Labels or instructions*.
 
@@ -984,7 +984,7 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.2.4 Consistent identification (AA)](https://www.w3.org/Translations/WCAG21-fr/#consistent-identification):
+- WCAG 2.1 [3.2.4 Consistent identification (AA)](https://www.w3.org/TR/WCAG21/#consistent-identification):
     - [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html).
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
 
@@ -1001,7 +1001,7 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
+- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html);
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
@@ -1035,11 +1035,11 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html).
-- WCAG 2.1 [3.3.1 Error identification (E)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
+- WCAG 2.1 [3.3.1 Error identification (E)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
-- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
+- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
@@ -1064,9 +1064,9 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
+- WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions):
+- WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
@@ -1090,7 +1090,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification):
+- WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*.
 
@@ -1120,7 +1120,7 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.3 Suggestion after an error (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion):
+- WCAG 2.1 [3.3.3 Suggestion after an error (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
 
@@ -1138,9 +1138,9 @@ In these situations, the criterion is not applicable:
 4. If it is, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
+- WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
 - EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
 
@@ -1162,10 +1162,10 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.5.3 Label in name (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name):
+- WCAG 2.1 [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name):
     - [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html);
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
- - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value):
+ - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html);
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*, *10.4.1.2 Name, role, value*.
@@ -1190,7 +1190,7 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data):
+- WCAG 2.1 [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data):
     - [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99);
     - [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
 - EN 301 549 V3.2.1 (2021-03): *10.3.3.4 Error prevention (legal, financial, data)*.

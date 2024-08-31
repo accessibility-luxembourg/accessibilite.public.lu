@@ -162,11 +162,10 @@ Cependant, selon les différents navigateurs existants, des moyens différents p
 
 Pour en savoir plus vous pouvez suivre les liens référencés ci-dessous :
 
-- [Microsoft Internet Explorer](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies)
+- [Microsoft Edge](https://support.microsoft.com/fr-fr/windows/g%C3%A9rer-les-cookies-dans-microsoft-edge-afficher-autoriser-bloquer-supprimer-et-utiliser-168dab11-0753-043d-7c16-ede5947fc64d)
 - [Google Chrome](https://support.google.com/accounts/answer/61416?hl=fr)
 - [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
 - [Firefox](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur?redirectslug=activer-desactiver-cookies&redirectlocale=fr)
-- [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
 
 Veuillez noter que si vous refusez, depuis votre navigateur internet, l’enregistrement de cookies sur votre terminal, vous serez toujours en mesure de naviguer sur ce site.
 

@@ -1,5 +1,5 @@
 ### Introduction
-Each EU Member State may define its own simplified control method, but this method must meet the requirements set out in the [Implementing Decision EU 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). The goal of this simplified control method is to detect non-compliances, it does not aim at the completeness of the in-depth control. This method is based on a [subset of RAWeb criteria](./audit-simpl.html) applied to a sample of 3 pages.
+Each EU Member State may define its own simplified control method, but this method must meet the requirements set out in the [Implementing Decision EU 2018/1524](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018D1524). The goal of this simplified control method is to detect non-compliances, it does not aim at the completeness of the in-depth control. This method is based on a [subset of RAWeb criteria](./audit-simpl.html) applied to a sample of 3 pages.
 
 ### Simplified website control method
 

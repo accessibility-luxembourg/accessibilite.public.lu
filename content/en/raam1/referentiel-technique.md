@@ -811,7 +811,7 @@ The criterion does not apply in the following cases:
 1. Identify pre-recorded synchronised time-based media with translation subtitles on the screen.
 1. Check that the subtitles are in a standardised format (for example, .srt format).
 1. If not, activate the **screen reader** and navigate to the media player.
-1. [Activate the rotor](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios).
+1. [Activate the rotor](https://support.apple.com/en-gb/guide/iphone/iph3e2e3a6d/ios).
 1. Scroll through the rotor settings and find the "Multimedia Description" option. 
 1. If so, scroll up and select the "Enunciation" option.
 1. Activate the video subtitles and play the video.
@@ -2101,7 +2101,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 ###### iOS
 
 1. Open the **Control Center**.
-1. Check that the screen orientation is not locked in the platform settings ([see official documentation](https://support.apple.com/fr-fr/guide/iphone/iph3badf94ec/ios)).
+1. Check that the screen orientation is not locked in the platform settings ([see official documentation](https://support.apple.com/en-gb/guide/iphone/iph3badf94ec/ios)).
 1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
 	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read; 
@@ -2111,7 +2111,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 ###### Android
 
 1. Open the **Quick configuration** panel.
-1. Check that "Automatic rotation" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=fr)).
+1. Check that "Automatic rotation" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=en)).
 1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
 	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read;
@@ -2355,21 +2355,21 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS
 
-1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning the accessibility features provided by iOS](https://www.apple.com/fr/accessibility/?afid=p238%7CsfxtLHWp4-dc_mtid_2092576239937_pcrid_483515907294_pgrid_110868765821_&amp;cid=wwa-fr-kwgo-features--slid---productid---Accessibility-Accessibility-)).
+1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning the accessibility features provided by iOS](https://www.apple.com/uk/accessibility/).
 1. Check that the application does not prevent their use, for example
 	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features such as the screen reader or other touch-based features from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted; 
-	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([VoiceOver can be used with a keyboard](https://support.apple.com/fr-fr/guide/iphone/iph6c494dc6/ios) for example, the proposed shortcuts must not interfere);
+	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([VoiceOver can be used with a keyboard](https://support.apple.com/en-gb/guide/iphone/iph6c494dc6/ios) for example, the proposed shortcuts must not interfere);
 	- or any other application functionality.
 1. If this is the case, the criterion is validated.
 
 ###### Android
 
-1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning accessibility features provided by Android](https://support.google.com/accessibility/android/answer/6006564?hl=fr)).
+1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning accessibility features provided by Android](https://support.google.com/accessibility/android/answer/6006564?hl=en)).
 1. Check that the application does not prevent their use, for example
 	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features, such as the screen reader or other touch-based features, from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted;
-	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([TalkBack can be used with a keyboard](https://support.google.com/accessibility/android/answer/6110948?hl=fr&amp;ref_topic=10602074) for example, the proposed shortcuts must not interfere); 
+	- if the application implements keyboard shortcuts, these do not use key combinations already employed by the platform for accessibility features ([TalkBack can be used with a keyboard](https://support.google.com/accessibility/android/answer/6110948?hl=en&amp;ref_topic=10602074) for example, the proposed shortcuts must not interfere); 
 	- or any other application functionality.
 1. If this is the case, the criterion is validated.
 
@@ -2572,7 +2572,7 @@ The criterion is not applicable when the destination format does not allow the a
 
 The safest way to assess this criterion is to search either the interface or the application documentation for this information. It is also recommended that you ask the application publisher to provide this information. 
 
-An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-G.722/fr) for example seems to be an optimal solution.
+An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-G.722/en) for example seems to be an optimal solution.
 
 ##### Mapping {class="disclosure mapping"}
 

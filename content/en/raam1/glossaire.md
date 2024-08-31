@@ -26,7 +26,7 @@ Pointing devices in a mobile environment can be, but are not limited to:
 - touch; 
 - mouse;
 - eye tracking devices; 
-- [point analysis](https://support.apple.com/fr-fr/HT201370) devices on iOS (or [point search](https://support.google.com/accessibility/android/answer/6395627?hl=fr) on Android); 
+- [point analysis](https://support.apple.com/en-gb/119835) devices on iOS (or [point search](https://support.google.com/accessibility/android/answer/6395627?hl=en) on Android); 
 - voice command.
 
 A user interface component (link, button, form field, etc.) can be accessed by any pointing device when the user 
