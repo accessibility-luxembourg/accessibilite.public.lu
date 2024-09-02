@@ -147,7 +147,7 @@ const config = {
                     "prefix": "../../.."
                 },        
                 {
-                    "title": "RAWeb 1: Critères et tests",
+                    "title": "RAWeb 1 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "raweb1/criteres", 
                     "type": "criteres",
@@ -158,7 +158,7 @@ const config = {
                     "summaryTitle": "Thématiques"
                 },
                 {
-                    "title": "RAWeb 1: Glossaire",
+                    "title": "RAWeb 1 : Glossaire",
                     "menu": "Glossaire",
                     "name": "raweb1/glossaire",
                     "type": "glossaire",
@@ -169,7 +169,7 @@ const config = {
                     "summaryTitle": "Index"
                 }, 
                 {
-                    "title": "RAWeb 1: Méthodologie de test",
+                    "title": "RAWeb 1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "raweb1/methodo-test",
                     "md": "./content/fr/raweb1/methodologie-de-test.md",
@@ -177,7 +177,7 @@ const config = {
                     "prefix": "../../.." 
                 },                
                 {
-                    "title": "RAWeb 1: Environnement de test",
+                    "title": "RAWeb 1 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "raweb1/environnement",
                     "md": "./content/fr/raweb1/environnement-de-test.md",
@@ -185,7 +185,7 @@ const config = {
                     "prefix": "../../.."
                 },                        
                 {
-                    "title": "RAWeb 1: Références",
+                    "title": "RAWeb 1 : Références",
                     "menu": "Références",
                     "name": "raweb1/references",
                     "md": "./content/fr/raweb1/references.md", 
@@ -193,7 +193,7 @@ const config = {
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RAWeb 1: Notes de révision",
+                    "title": "RAWeb 1 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "raweb1/notes-revision",
                     "html": true,
@@ -411,7 +411,7 @@ const config = {
                     "prefix": "../../.."
                 },        
                 {
-                    "title": "RGAA 4.1.2: Critères et tests",
+                    "title": "RGAA 4.1.2 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "rgaa4.1.2/criteres", 
                     "type": "criteres",
@@ -423,7 +423,7 @@ const config = {
                     "deprecation": deprecationMessage
                 },
                 {
-                    "title": "RGAA 4.1.2: Glossaire",
+                    "title": "RGAA 4.1.2 : Glossaire",
                     "menu": "Glossaire",
                     "name": "rgaa4.1.2/glossaire",
                     "type": "glossaire",
@@ -435,7 +435,7 @@ const config = {
                     "deprecation": deprecationMessage
                 }, 
                 {
-                    "title": "RGAA 4.1.2: Méthodologie de test",
+                    "title": "RGAA 4.1.2 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "rgaa4.1.2/methodo-test",
                     "md": "./content/fr/rgaa4.1.2/methodologie-de-test.md",
@@ -443,7 +443,7 @@ const config = {
                     "prefix": "../../.." 
                 },                
                 {
-                    "title": "RGAA 4.1.2: Environnement de test",
+                    "title": "RGAA 4.1.2 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4.1.2/environnement",
                     "md": "./content/fr/rgaa4.1.2/environnement-de-test.md",
@@ -451,7 +451,7 @@ const config = {
                     "prefix": "../../.."
                 },                        
                 {
-                    "title": "RGAA 4.1.2: Références",
+                    "title": "RGAA 4.1.2 : Références",
                     "menu": "Références",
                     "name": "rgaa4.1.2/references",
                     "md": "./content/fr/rgaa4.1.2/references.md", 
@@ -459,7 +459,7 @@ const config = {
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RGAA 4.1.2: Notes de révision",
+                    "title": "RGAA 4.1.2 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4.1.2/notes-revision",
                     "html": true,
@@ -480,7 +480,7 @@ const config = {
                     "prefix": "../../.."
                 },       
                 {
-                    "title": "RGAA 4: Critères et tests",
+                    "title": "RGAA 4 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "rgaa4/criteres",
                     "type": "criteres",
@@ -490,7 +490,7 @@ const config = {
                     "deprecation": deprecationMessage
                 },
                 {
-                    "title": "RGAA 4: Glossaire",
+                    "title": "RGAA 4 : Glossaire",
                     "menu": "Glossaire",
                     "name": "rgaa4/glossaire",
                     "type": "glossaire",
@@ -500,7 +500,7 @@ const config = {
                     "deprecation": deprecationMessage
                 }, 
                 {
-                    "title": "RGAA 4: Environnement de test",
+                    "title": "RGAA 4 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4/environnement",
                     "md": "./content/fr/rgaa4/environnement.md",
@@ -508,7 +508,7 @@ const config = {
                     "prefix": "../../.."
                 },  
                 {
-                    "title": "RGAA 4: Méthodologie de test",
+                    "title": "RGAA 4 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "rgaa4/methodo-test",
                     "md": "./content/fr/rgaa4/methodologie.md",
@@ -516,7 +516,7 @@ const config = {
                     "prefix": "../../.." 
                 },                                       
                 {
-                    "title": "RGAA 4: Références",
+                    "title": "RGAA 4 : Références",
                     "menu": "Références",
                     "name": "rgaa4/references",
                     "md": "./content/fr/rgaa4/references.md", 
@@ -524,7 +524,7 @@ const config = {
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RGAA 4: Notes de révision",
+                    "title": "RGAA 4 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4/notes-revision",
                     "md": "./content/fr/rgaa4/notes-revision.md", 
@@ -544,7 +544,7 @@ const config = {
                     "prefix": "../../.."
                 },        
                 {
-                    "title": "RGAA 4.1: Critères et tests",
+                    "title": "RGAA 4.1 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "rgaa4.1/criteres",
                     "type": "criteres",
@@ -554,7 +554,7 @@ const config = {
                     "deprecation": deprecationMessage
                 },
                 {
-                    "title": "RGAA 4.1: Glossaire",
+                    "title": "RGAA 4.1 : Glossaire",
                     "menu": "Glossaire",
                     "name": "rgaa4.1/glossaire",
                     "type": "glossaire",
@@ -564,7 +564,7 @@ const config = {
                     "deprecation": deprecationMessage
                 }, 
                 {
-                    "title": "RGAA 4.1: Méthodologie de test",
+                    "title": "RGAA 4.1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "rgaa4.1/methodo-test",
                     "md": "./content/fr/rgaa4.1/methodologie.md",
@@ -572,7 +572,7 @@ const config = {
                     "prefix": "../../.." 
                 },                
                 {
-                    "title": "RGAA 4.1: Environnement de test",
+                    "title": "RGAA 4.1 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4.1/environnement",
                     "md": "./content/fr/rgaa4.1/environnement.md",
@@ -580,7 +580,7 @@ const config = {
                     "prefix": "../../.."
                 },                        
                 {
-                    "title": "RGAA 4.1: Références",
+                    "title": "RGAA 4.1 : Références",
                     "menu": "Références",
                     "name": "rgaa4.1/references",
                     "md": "./content/fr/rgaa4.1/references.md", 
@@ -588,7 +588,7 @@ const config = {
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RGAA 4.1: Notes de révision",
+                    "title": "RGAA 4.1 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4.1/notes-revision",
                     "md": "./content/fr/rgaa4.1/notes-revision.md", 
