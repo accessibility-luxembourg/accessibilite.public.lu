@@ -420,8 +420,8 @@ The criterion does not apply to the following elements:
 **[Test 3.3.1](#test-3-3-1):** Does each pre-recorded video-only time-based media satisfy, if necessary, one of these conditions (excluding special cases)? {id="test-3-3-1"}
 - There is a [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) [alternative "audio only" version](glossaire.md#alternative-audio-only-version);
 - There is a [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) accessible [transcript](glossaire.md#transcript-time-based-media);
-- There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
-- There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
+- There is a [synchronised audio description](glossaire.md#audio-description-time-based-media);
+- There is an alternative version with a [synchronised audio description](glossaire.md#audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
 
@@ -450,7 +450,7 @@ The criterion does not apply to the following elements:
 
 **[Test 3.4.1](#test-3-4-1):** Does each pre-recorded video-only time-based media meet one of these conditions? {id="test-3-4-1"}
 - The [transcript](glossaire.md#transcript-time-based-media) is relevant;
-- The [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) is relevant and correctly synchronised;
+- The [synchronised audio description](glossaire.md#audio-description-time-based-media) is relevant and correctly synchronised;
 - The [alternative version "audio only"](glossaire.md#alternative-audio-only-version) is relevant.
 
 ##### Special cases
@@ -480,8 +480,8 @@ The criterion does not apply to the following elements:
 
 **[Test 3.5.1](#test-3-5-1):** If necessary, does each pre-recorded synchronised time-based medium satisfy one of these conditions (excluding special cases)? {id="test-3-5-1"}
 - There is a [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) accessible [transcript](glossaire.md#transcript-time-based-media);
-- There is a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media);
-- There is an alternative version with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) accessible via an adjacent component (a button or a link).
+- There is a [synchronised audio description](glossaire.md#audio-description-time-based-media);
+- There is an alternative version with a [synchronised audio description](glossaire.md#audio-description-time-based-media) accessible via an adjacent component (a button or a link).
 	
 ##### Special cases
 
@@ -573,7 +573,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.2 Subtitles (pre-recorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*.
 
-#### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media) (excluding special cases)? {id="crit-3-9"}
+#### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#audio-description-time-based-media) (excluding special cases)? {id="crit-3-9"}
 
 ##### Special cases
 
@@ -594,7 +594,7 @@ The criterion does not apply to the following elements:
 - WCAG 2.1: [1.2.5 Audio description (pre-recorded) (AA)](https://www.w3.org/TR/WCAG21/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio Description (Pre-recorded)*.
 
-#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded video-only or synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), is the description relevant? {id="crit-3-10"}
+#### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded video-only or synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#audio-description-time-based-media), is the description relevant? {id="crit-3-10"}
 
 **[Test 3.10.1](#test-3-10-1):** For each pre-recorded video-only or synchronised time-based media with an audio description, does it meet these conditions? {id="test-3-10-1"}
 - The audio description is relevant;
@@ -730,7 +730,7 @@ Note: Although volume and playback controls may be physical components of the de
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.1.3 Preservation of captioning*.
 
-#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) pre-recorded with a [synchronised audio description](glossaire.md#synchronised-audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
+#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) pre-recorded with a [synchronised audio description](glossaire.md#audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
 
 **[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions? {id="test-3-16-1"}
 - The audio description is present;

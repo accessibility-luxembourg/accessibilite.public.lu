@@ -33,7 +33,7 @@ There are special considerations with the following special cases:
 - [Time-based media](#time-based-media-audio-video-and-synchronised) is itself an alternative to content on the page (a video in sign language or the vocalisation of a text, for example);
 - [Time-based media](#time-based-media-audio-video-and-synchronised) is used to access a larger version;
 - [Time-based media](#time-based-media-audio-video-and-synchronised) is used as a [CAPTCHA](#captcha);
-- [Time-based media](#time-based-media-audio-video-and-synchronised) is part of a test that would become useless if the [transcript](#transcript-time-based-media), the [captions](#captions-media-object) or the [audio description](#synchronised-audio-description-time-based-media) were communicated;
+- [Time-based media](#time-based-media-audio-video-and-synchronised) is part of a test that would become useless if the [transcript](#transcript-time-based-media), the [captions](#captions-media-object) or the [audio description](#audio-description-time-based-media) were communicated;
 - Time-based media was published before 23 September 2020 (in accordance with the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)).
 
 In these situations, the criterion does not apply.
