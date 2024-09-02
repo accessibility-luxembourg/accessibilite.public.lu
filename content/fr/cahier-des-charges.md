@@ -13,7 +13,7 @@ Pour vous aider dans la rédaction de vos cahiers des charges, nous vous proposo
 ### Exemple de clauses à intégrer dans votre cahier des charges
 
 
-Ces exemples de clauses sont publiées sous licence [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). Il s'agit d'un travail dérivé d'un document produit par la société [Access42](https://access42.net/).
+Ces exemples de clauses sont publiés sous licence [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). Il s'agit d'un travail dérivé d'un document produit par la société [Access42](https://access42.net/).
 
 <button class="clipboard">Copier dans le presse-papier</button>
 [Télécharger au format Word](../files/exemple-cahier-des-charges-accessibilite-10032023.docx)
@@ -49,7 +49,7 @@ Pour toute fonctionnalité ou contenu non-conforme dont la mise en conformité r
 
 #### Vérification
 
-Il est rappelé que l'ORGANISME se réserve le droit de faire vérifier, au moyen d'audits ou de recette, par un prestataire expert en accessibilité numérique, le respect de ces exigences minimales lors de toutes les phases du projet et des livraisons (maquettes, templates, développements, etc.).
+Il est rappelé que l'ORGANISME se réserve le droit de faire vérifier, au moyen d'audits ou de recette, par un prestataire expert en accessibilité numérique, le respect de ces exigences minimales lors de toutes les phases du projet et des livraisons (maquettes, *templates*{lang=en}, développements, etc.).
 
 Dans le cas où le niveau minimal requis ne serait pas atteint du fait d'une défaillance du TITULAIRE DU MARCHÉ, celui-ci devra procéder à toutes les actions correctives nécessaires.
 

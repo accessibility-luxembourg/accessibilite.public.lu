@@ -1,7 +1,7 @@
 <div class="welcome-wrapper">
 <div class="left-column">
 
-Bienvenue sur le portail de l'accessibilité numérique du Grand-Duché de Luxembourg. Vous trouverez ici un ensemble de ressources vous permettant de rendre vos sites et applications mobiles accessibles à toutes et à tous, notamment:
+Bienvenue sur le portail de l'accessibilité numérique du Grand-Duché de Luxembourg. Vous trouverez ici un ensemble de ressources vous permettant de rendre vos sites et applications mobiles accessibles à toutes et à tous, notamment&#8239;:
 - pour les sites web, [Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1)](raweb1/index.html)&#8239;;
 - pour les applications mobiles, [le Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1](raam1/index.html). 
 

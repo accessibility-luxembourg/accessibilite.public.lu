@@ -41,7 +41,7 @@
     <fieldset class="form-group">
         <legend><%= __("Purpose(s) of the statement") %> <span class="symbol-required">*</span> (<%= __("fill in at least one of the following two fields") %>)</legend>
         <div class="form-group">
-            <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, ex: https://www.gouvernement.lu)</label>
+            <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, <%- __("ex:") %> https://www.gouvernement.lu)</label>
             <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
         </div>
         <div class="form-group">
@@ -85,7 +85,7 @@
         <% }) %>
         <p id="help-access_features" class="form-text text-muted">
         <small>
-            <%= __("Examples of accessibility features: enhanced contrast mode, font size enlargement, simplified language, etc. Describe the accessibility features available. Explain how to use the accessibility features. Describe the components that are not compatible with assistive technologies.") %>
+            <%- __("Examples of accessibility features: enhanced contrast mode, font size enlargement, simplified language, etc. Describe the accessibility features available. Explain how to use the accessibility features. Describe the components that are not compatible with assistive technologies.") %>
         </small>
         </p>                                               
     </fieldset>
@@ -102,7 +102,7 @@
             <% }) %>
             <p id="help-nc" class="form-text text-muted">
             <small>
-                <%= __("List non-compliance(s) of the website(s)/mobile application(s) and/or describe which section(s)/content(s)/function(s) are not yet compliant. Indicate alternatives if they exist. Describe in non-technical terms, as far as possible, why content is not accessible, specifying the applicable requirement(s) that are not met. Example: \"the login form for the document sharing application is not fully keyboard usable (requirement no XXX (if applicable))\".") %>
+                <%- __("List non-compliance(s) of the website(s)/mobile application(s) and/or describe which section(s)/content(s)/function(s) are not yet compliant. Indicate alternatives if they exist. Describe in non-technical terms, as far as possible, why content is not accessible, specifying the applicable requirement(s) that are not met. Example: \"the login form for the document sharing application is not fully keyboard usable (requirement no XXX (if applicable))\".") %>
             </small>
             </p>                                               
         </fieldset>
