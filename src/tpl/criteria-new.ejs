@@ -1,7 +1,62 @@
 <% if (message !== '') { %>
 <p id="intro"><%- message %></p>
 <% } %>
-<p><strong>Avertissement&nbsp;:</strong> Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et les tests associés ont une valeur normative.</p>
-<% topics.forEach(topic => { %>
-    <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
-<% }) %>
+<div class="RAWebMasterHeader">
+    <div class="rawebMargin">
+        <aside>
+            <details>
+                <summary><%= __('Search') %></summary>
+                <p class="noonbeforematch"><%= __('To search the entire page using your browser\'s search function, you will first need to') %> <button id="btnUnfoldAll"><%= __('unfold all') %></button>.</p>
+                <p class="onbeforematch"><%= __('You can search the entire page using your browser\'s search function, even when sections are closed.') %></p>
+            </details>
+            <details>
+                <summary><%= __('Warning') %></summary>
+                <p><%= __('For each criterion in the framework, an assessment methodology is proposed. It should be noted that this methodology has no normative value. It is intended to serve as a reference point for familiarising oneself with the standard, and to illustrate a potential evaluation method. However, it is acknowledged that other evaluation methods may exist. In addition, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. Finally, it is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criterion and the associated tests have normative value.') %></p>
+            </details>
+            <button id="showModal"><%= __('Legend and display options') %></button>
+        </aside>
+    </div>
+</div>
+<dialog id="control-panel-dialog">
+    <form method="dialog" autocomplete="off">
+        <button id="close-modal" title="<%= __("Close the modal window") %>"></button>
+        <div class="content">
+            <h6><%= __('Legend') %></h6>
+            <div class="legends">
+                <ul>
+                    <li>
+                        <p><span class="crit">2.1</span></p>
+                        <p> <%= __('Criterion') %></p>
+                    </li>
+                    <li>
+                        <p><span class="critRAWeb">4.14</span></p>
+                        <p> <%= __('New RAWeb Criterion') %></p>
+                    </li>
+                    <li>
+                        <p><span class="a">A</span></p>
+                        <p> <%= __('Compliance level') %></p>
+                    </li>
+                </ul>
+            </div>
+            <fieldset>
+                <legend><%= __('Options') %></legend>
+                <div><input type="checkbox" id="rwc1"><label for="rwc1"><%= __('Unfold all') %></label></div>
+                <div><input type="checkbox" id="rwc2" class="rw-filter"><label for="rwc2"><%= __('Unfold themes') %></label></div>
+                <div><input type="checkbox" id="rwc3" class="rw-filter"><label for="rwc3"><%= __('Unfold tests') %></label></div>
+                <div><input type="checkbox" id="rwc4" class="rw-filter"><label for="rwc4"><%= __('Unfold methodologies') %></label></div>
+                <div><input type="checkbox" id="rwc5" class="rw-filter"><label for="rwc5"><%= __('Unfold notes and special cases') %></label></div>
+                <div><input type="checkbox" id="rwc6" class="rw-filter"><label for="rwc6"><%= __('Unfold mappings') %></label></div>
+            </fieldset>
+        </form>
+    </div>
+</dialog>
+
+<button id="showModal-sticky" title="<%= __('Legend and display options') %>"></button>
+
+<div class="RAWebMaster">
+    <div id="accordionGroup" class="accordion">
+        <% topics.forEach(topic => { %>
+            <%- include('topic-new', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
+        <% }) %>
+    </div>
+</div>

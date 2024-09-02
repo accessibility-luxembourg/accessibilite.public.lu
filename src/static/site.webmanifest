@@ -1,6 +1,6 @@
 {
-    "name": "Portail de l'accessibilité",
-    "short_name": "Accessibilité",
+    "name": "Luxembourg Digital Accessibility Portal",
+    "short_name": "Accessibility",
     "icons": [
         {
             "src": "./android-chrome-192x192.png",

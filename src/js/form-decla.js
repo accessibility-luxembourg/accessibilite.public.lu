@@ -1,9 +1,46 @@
 import ejs from 'ejs'
-import {lang } from '../../conf.json'
 import { copyTextToClipboard } from './clipboard.js';
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import formDataEntries from 'form-data-entries'
+
+const lang = [
+    {"name": "français", "code": "fr"},
+    {"name": "allemand", "code": "de"},
+    {"name": "anglais", "code": "en"},
+    {"name": "luxembourgeois", "code": "lb"}
+]
+
+const pgLang = document.documentElement.lang;
+
+let errorMsg = [];
+errorMsg["fr"] = {
+    pgTitle : "Votre déclaration - Portail de l'accessibilité numérique",
+    altPgTitle : "Créez votre déclaration - Portail de l'accessibilité numérique",
+    mainTitle : "Votre déclaration",
+    altMainTitle : "Créez votre déclaration",
+    erLang : "Veuillez sélectionner au moins une langue",
+    erField : "Veuillez compléter ce champ",
+    erEmail : "Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)",
+    erDate : "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)",
+    erNext : "Veuillez compléter ce champ et/ou le champ ci-dessous",
+    erPrev : "Veuillez compléter ce champ et/ou le champ ci-dessus",
+    erGlobal : "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème."
+}
+
+errorMsg["en"] = {
+    pgTitle : "Your statement - Digital accessibility portal",
+    altPgTitle : "Create your statement - Digital accessibility portal",
+    mainTitle : "Votre déclaration",
+    altMainTitle : "Create your statement",
+    erLang : "Please select at least one language",
+    erField : "Please fill in this field",
+    erEmail : "Please fill in a valid e-mail address\n (example: jean.reuter@etat.lu)",
+    erDate : "Please enter a valid date in dd/mm/yyyy format\n (example: 20/12/2023)",
+    erNext : "Please complete this field and/or the field below",
+    erPrev : "Please complete this field and/or the field above",
+    erGlobal : "Errors have been detected in the form, and the focus is repositioned to the first field with a problem."
+}
 
 function errorMessage(inputElt, textMsg) { 
     if (textMsg !== null && arguments.length > 1) {
@@ -82,6 +119,18 @@ function getParams() {
         params['date_prepa'] = date
     }
 
+    if (params['date_renewal'].length != 0) {
+
+        let match = params['date_renewal'].match(/([0-9]{2})\/([0-9]{2})\/([0-9]{4})/)
+
+        let date = new Date(
+            match[3],    // year
+            match[2]-1,  // monthIndex
+            match[1]     // day
+        );
+        params['date_renewal'] = date
+    }    
+
     if (params.renow === undefined) {
         params.renow = false
     } else {
@@ -94,6 +143,8 @@ function getParams() {
     } else {
         params.main_title = true
     }
+    const disable_en = form.getAttribute('data-disable-en')
+    params.disable_en = (disable_en !== undefined && disable_en === "true")
     return params;
 }
 
@@ -123,14 +174,14 @@ document.addEventListener('DOMContentLoaded', function(e) {
         if (location.hash == '#result') {
             document.getElementById('form').style['display'] = 'none'
             document.getElementById('result').style['display'] = 'block'
-            document.title = "Votre déclaration - Portail de l'accessibilité numérique"
-            document.querySelector('#contenu>h2').innerHTML = "Votre déclaration"
+            document.title = errorMsg[pgLang].pgTitle
+            document.querySelector('#contenu>h2').innerHTML = errorMsg[pgLang].mainTitle
             document.querySelector('#contenu>h2').focus()
         } else {
             document.getElementById('form').style['display'] = 'block'
             document.getElementById('result').style['display'] = 'none'
-            document.title = "Créez votre déclaration - Portail de l'accessibilité numérique"
-            document.querySelector('#contenu>h2').innerHTML = "Créez votre déclaration"
+            document.title = errorMsg[pgLang].altPgTitle
+            document.querySelector('#contenu>h2').innerHTML = errorMsg[pgLang].altMainTitle
             document.querySelector('#contenu>h2').focus()
         }
         // scroll back to top of the page
@@ -195,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             });
 
             if (!checkLang) {
-                errorMessage(document.getElementById('lang_fr'), "Veuillez sélectionner au moins une langue");
+                errorMessage(document.getElementById('lang_fr'), errorMsg[pgLang].erLang);
             }
             
             if (eval_type == "thirdparty") {
@@ -208,31 +259,31 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
             orgaFields.forEach(f => {
                 if (f.validity.valueMissing) {
-                    errorMessage(f, "Veuillez compléter ce champ");
+                    errorMessage(f, errorMsg[pgLang].erField);
                 } 
             });
 
             if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
-                errorMessage(emailField, "Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)");
+                errorMessage(emailField, errorMsg[pgLang].erEmail);
             }
 
             if (dateField.validity.patternMismatch || dateField.validity.typeMismatch || dateField.validity.valueMissing) {
-                errorMessage(dateField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
+                errorMessage(dateField, errorMsg[pgLang].erDate);
             }
 
             if (renewalField.validity.patternMismatch || renewalField.validity.typeMismatch) {
-                errorMessage(renewalField, "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)");
+                errorMessage(renewalField, errorMsg[pgLang].erDate);
             }
 
             if (eval_type == "thirdparty") {
                 if (thirdpartyField.validity.valueMissing) {
-                    errorMessage(thirdpartyField, "Veuillez compléter ce champ");
+                    errorMessage(thirdpartyField, errorMsg[pgLang].erField);
                 }                
             }
 
             if (sitesField.validity.valueMissing && appsField.validity.valueMissing) {
-                errorMessage(sitesField, "Veuillez compléter ce champ et/ou le champ ci-dessous");
-                errorMessage(appsField, "Veuillez compléter ce champ et/ou le champ ci-dessus");
+                errorMessage(sitesField, errorMsg[pgLang].erNext);
+                errorMessage(appsField, errorMsg[pgLang].erPrev);
             }
 
             if (!sitesField.validity.valueMissing) {
@@ -270,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             } else {
                 errorPanel.style.display = "block";
                 window.setTimeout(function () {
-                    errorPanel.innerHTML = "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème.";
+                    errorPanel.innerHTML = errorMsg[pgLang].erGlobal;
                     if (!checkLang) {
                         document.getElementById('lang_fr').focus();
                         document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);

@@ -1,209 +1,201 @@
 <script>
     window.tpl = []
-    <% lang.forEach(function(e) { %>
+    <% langs.forEach(function(e) { %>
         window.tpl['<%= e.code %>'] = `<%- tpl[e.code] %>`
     <% }) %>
 </script>
 <script src="<%= prefix %>/js/form-decla.js"></script>
-<noscript class="alert alert-danger">Attention: ce formulaire nécessite JavaScript pour fonctionner correctement. Si vous ne pouvez activer JavaScript, nous proposons aussi un <a href="<%= prefix %>/html/fr/files/template-decla-fr.docx">template de déclaration au format Word</a> (28 ko).</noscript>
+<% const urlNoscript = `${prefix}/html/fr/files/template-decla-fr.docx`; %>
+<noscript class="alert alert-danger"><%- __`Please note: this form requires JavaScript to function correctly. If you are unable to activate JavaScript, we also offer a <a href="${urlNoscript}">statement template in Word format</a> (28 KB).` %></noscript>
 
 <div id="form">
-<p>Ce formulaire vous permet de générer une déclaration sur l'accessibilité.</p>
+<p><%= __("You can use this form to create an accessibility statement.") %></p>
 
-    <h3>Instructions</h3>
-    <p>
-La déclaration sur l'accessibilité doit être facile à trouver pour l'utilisateur. Un lien vers la déclaration sera disponible sur chaque page internet, par exemple dans un pied de page fixe.
+    <h3><%= __("Instructions") %></h3>
+    <p><%= __("The accessibility statement must be easy for the user to find. A link to the statement should be available on every web page, for example in a fixed footer. For mobile applications, the statement must be available on the website of the organisation responsible for the mobile application in question or appear with other information available when the application is downloaded. If the site is available in several languages, it is recommended that the statement be provided in each language of the site.") %></p>
 
-Pour les applications mobiles, la déclaration doit être disponible sur le site internet de l'organisme responsable pour l'application mobile concernée ou apparaît avec d'autres informations disponibles lors du téléchargement de l'application.
-
-Si le site est disponible en plusieurs langues, il est recommandé de fournir la déclaration dans chaque langue du site.
-</p>
-
-<h3>Générez votre déclaration</h3>
-<p>Les champs marqués d’un <span class="symbol-required">* </span>sont obligatoires.</p>
-<form id="decla">
+<h3><%= __("Complete your statement") %></h3>
+<p><%- __("Fields marked with a <span class=\"symbol-required\">*</span> are mandatory.") %></p>
+<form id="decla" <%= (process.env.DISABLE_EN !== 'true')?'data-disable-en="true"':'' %>>
     <fieldset class="form-group">
-        <legend>Langues de la déclaration</legend>
+        <legend><%= __("Statement languages") %></legend>
         <div class="form-group">
-        <% lang.forEach(l => { %>
+        <% langs.forEach(l => { %>
             <input type="checkbox" <%= (l.code == 'fr')?'checked':'' %> value="<%= l.code %>" id="lang_<%= l.code %>" name="lang_<%= l.code %>">
             <label for="lang_<%= l.code %>" class="form-check-inline">
-                <%= l.name %>
+                <%- __(l.name) %>
               </label>          
         <% }) %>
         </div>
     </fieldset>
     <fieldset class="form-group">
-        <legend>Nom de l'organisme (ex&thinsp;: "Service information et presse")</legend>
-        <% lang.forEach(l => { %>  
+        <legend><%= __("Organisation name") %> <%- __("(ex: \"Information and Press Service\")") %></legend>
+        <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
-                <label for="name_<%= l.code %>">Nom de l'organisme en <%= l.name %> <span class="symbol-required">* </span></label>
+                <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") +__(l.name) %> <span class="symbol-required">* </span></label>
                 <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
             </div>          
         <% }) %>                     
     </fieldset>
 
     <fieldset class="form-group">
-        <legend>Objet(s) de la déclaration <span class="symbol-required">*</span> (remplir au moins l'un des deux champs suivants)</legend>
+        <legend><%= __("Purpose(s) of the statement") %> <span class="symbol-required">*</span> (<%= __("fill in at least one of the following two fields") %>)</legend>
         <div class="form-group">
-            <label for="sites">URLs des sites à déclarer (une par ligne, ex: https://www.gouvernement.lu)</label>
+            <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, <%- __("ex:") %> https://www.gouvernement.lu)</label>
             <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
         </div>
         <div class="form-group">
-            <label for="apps">URLs des apps à déclarer (une par ligne, URLs des apps sur les stores Apple et Google)</label>
+            <label for="apps"><%= __("URLs of apps to be declared") %> (<%= __("one per line") %>, <%= __("App URLs on the Apple and Google stores") %>)</label>
             <textarea id="apps" rows="5" class="form-control" name="apps" required></textarea>
         </div>
     </fieldset>
 
     <fieldset class="form-group">
-        <legend>État de la conformité</legend>
+        <legend><%= __("Compliance status") %></legend>
         <div class="form-check">
-            <input type="radio" id="total" name="conformity" value="total" class="form-check-input" aria-describedby="help-total"><label for="total" class="form-check-label">Conformité totale</label>
+            <input type="radio" id="total" name="conformity" value="total" class="form-check-input" aria-describedby="help-total"><label for="total" class="form-check-label"><%= __("Full compliance") %></label>
         </div>
         <div class="form-check">
-            <input type="radio" id="partial" name="conformity" value="partial" checked class="form-check-input" aria-describedby="help-partial"><label for="partial" class="form-check-label">Conformité partielle</label>
+            <input type="radio" id="partial" name="conformity" value="partial" checked class="form-check-input" aria-describedby="help-partial"><label for="partial" class="form-check-label"><%= __("Partial compliance") %></label>
         </div>
         <div class="form-check">
-            <input type="radio" id="none" name="conformity" value="none" class="form-check-input"><label for="none" class="form-check-label" aria-describedby="help-none">Non-conformité</label>
+            <input type="radio" id="none" name="conformity" value="none" class="form-check-input"><label for="none" class="form-check-label" aria-describedby="help-none"><%= __("Non-compliance") %></label>
         </div>
-        <p class="form-text text-muted"><small>L'état de la conformité est déterminé par un audit de conformité.</small></p>
+        <p class="form-text text-muted"><small><%= __("The compliance status is assessed by a compliance audit.") %></small></p>
             <ul>
                 <li id="help-total" class="text-muted">
-                    <small>Sélectionnez "Conformité totale" uniquement si le niveau de conformité suite à l'audit est de 100 %.</small>    
+                    <small><%= __("Select \"Full compliance\" only if the level of compliance following the audit is 100%.") %></small>    
                 </li>
                 <li id="help-partial" class="text-muted">
-                    <small>Sélectionnez "Conformité partielle" si le niveau de conformité suite à l'audit est compris entre 50 % et 100 %.</small>
+                    <small><%= __("Select \"Partial compliance\" if the level of compliance following the audit is between 50% and 100%.") %></small>
                 </li>
                 <li id="help-none" class="text-muted">
-                    <small>Sélectionnez "Non-conformité" si aucun audit de conformité n'a encore été réalisé ou si le niveau de conformité suite à l'audit est inférieur à 50 %.</small>
+                    <small><%= __("Select \"Non-compliant\" if a compliance audit has not yet been carried out or if the level of compliance following the audit is less than 50%.") %></small>
                 </li>
             </ul>
         </p>                
     </fieldset>
     <fieldset class="form-group" id="features-access">
-        <legend>Fonctionnalités d'accessibilité</legend>         
-        <% lang.forEach(l => { %>              
+        <legend><%= __("Accessibility features") %></legend>         
+        <% langs.forEach(l => { %>              
             <div class="form-group" data-lang="<%= l.code %>">
-                <label for="access_features_<%= l.code %>">Fonctionnalités d'accessibilité en <%= l.name %></label>
+                <label for="access_features_<%= l.code %>"><%= __("Accessibility features") + __("in") + __(l.name) %></label>
                 <textarea id="access_features_<%= l.code %>" name="access_features_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-access_features"></textarea>
             </div>          
         <% }) %>
         <p id="help-access_features" class="form-text text-muted">
         <small>
-            Exemples de fonctionnalités d'accessibilité : mode contraste renforcé, agrandissement de la taille des caractères, langage simplifié, etc. Décrire les fonctionnalités d’accessibilité proposées. Expliquer comment utiliser les fonctionnalités d’accessibilité. Décrire les composants qui présentent des défauts de compatibilité avec les technologies d’assistance.
+            <%- __("Examples of accessibility features: enhanced contrast mode, font size enlargement, simplified language, etc. Describe the accessibility features available. Explain how to use the accessibility features. Describe the components that are not compatible with assistive technologies.") %>
         </small>
         </p>                                               
     </fieldset>
 
     <div id="non-accessible">
-        <h4>Contenus non accessibles</h4>
+        <h4><%= __("Non-accessible content") %></h4>
         <fieldset class="form-group" id="non-conformes">
-            <legend>Contenus non-conformes (un par ligne)</legend>         
-            <% lang.forEach(l => { %>              
+            <legend><%= __("Non-compliant contents") %> (<%= __("one per line") %>)</legend>         
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="nc_<%= l.code %>">Contenus non-conformes en <%= l.name %></label>
+                    <label for="nc_<%= l.code %>"><%= __("Non-compliant contents") + __("in") + __(l.name) %></label>
                     <textarea id="nc_<%= l.code %>" name="nc_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-nc"></textarea>
                 </div>          
             <% }) %>
             <p id="help-nc" class="form-text text-muted">
             <small>
-                Lister la/les non-conformité(s) du/de la/des site(s) internet/application(s) mobile(s) et/ou décrire quels section(s)/contenu(s)/fonction(s) ne sont pas encore conformes. Indiquer les alternatives si elles existent.
-                Décrire en termes non techniques, autant que possible, pourquoi le contenu n'est pas accessible, en précisant la ou les exigences applicables qui ne sont pas remplies. Exemples: "le formulaire de connexion de l'application de partage de documents n'est pas entièrement utilisable au clavier [exigence no XXX (le cas échéant)]"
+                <%- __("List non-compliance(s) of the website(s)/mobile application(s) and/or describe which section(s)/content(s)/function(s) are not yet compliant. Indicate alternatives if they exist. Describe in non-technical terms, as far as possible, why content is not accessible, specifying the applicable requirement(s) that are not met. Example: \"the login form for the document sharing application is not fully keyboard usable (requirement no XXX (if applicable))\".") %>
             </small>
             </p>                                               
         </fieldset>
         <fieldset class="form-group">
-            <legend>Charge disproportionnée (une par ligne)</legend>         
-            <% lang.forEach(l => { %>              
+            <legend><%= __("Disproportionate burden") %> (<%= __("one per line") %>)</legend>         
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="cd_<%= l.code %>">Charge disproportionnée en <%= l.name %></label>
+                    <label for="cd_<%= l.code %>"><%= __("Disproportionate burden") + __("in") + __(l.name) %></label>
                     <textarea id="cd_<%= l.code %>" name="cd_<%= l.code %>" rows="5" class="form-control" aria-describedby="help-cd"></textarea>
                 </div>          
             <% }) %>
             <p id="help-cd" class="form-text text-muted">
             <small>
-                Lister la/le/les section(s)/contenu(s)/fonction(s) non accessible(s) pour laquelle/lequel/lesquels l'exemption pour charge disproportionnée, au sens de l'article 4 de la loi du 28 mai 2019 relative à l'accessibilité numérique, est invoquée.
-                Indiquer les alternatives si elles existent.
+                <%= __("List the non-accessible section(s)/content(s)/function(s) for which the derogation for disproportionate burden, within the meaning of Article 4 of the Digital Accessibility law of 28 May 2019, is claimed. Indicate the alternatives if any.") %>
             </small>
             </p>                                                 
         </fieldset>
         <fieldset class="form-group">
-            <legend>Contenu exempté (un par ligne)</legend>         
-            <% lang.forEach(l => { %>              
+            <legend><%= __("Exempt content") %> (<%= __("one per line") %>)</legend>         
+            <% langs.forEach(l => { %>              
                 <div class="form-group" data-lang="<%= l.code %>">
-                    <label for="ce_<%= l.code %>">Contenu exempté en <%= l.name %></label>
+                    <label for="ce_<%= l.code %>"><%= __("Exempt content") + __("in") + __(l.name) %></label>
                     <textarea id="ce_<%= l.code %>" name="ce_<%= l.code %>"  rows="5" class="form-control" aria-describedby="help-ce"></textarea>
                 </div>          
             <% }) %>
             <p id="help-ce" class="form-text text-muted">
             <small>
-                Lister la/le/les section(s)/contenu(s)/fonction(s) non accessible(s) qui n'entre(nt) pas dans le champ d'application de la législation applicable.
-                Indiquer les alternatives si elles existent.
+                <%= __("List the section(s)/content(s)/function(s) that are not accessible and that do not fall within the scope of the applicable legislation. Indicate alternatives if any.") %>
             </small>
             </p>                                                
         </fieldset>        
     </div>
     <div id="prepa-decla">
-        <h4>Préparation de la déclaration</h4>
+        <h4><%= __("Preparing the statement") %></h4>
         <div class="form-group">
-            <label for="date_prepa">Date de la préparation (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020) <span class="symbol-required">* </span></label>
+            <label for="date_prepa"><%= __("Preparation date") %> (<%- __("format: dd/mm/yyyy, ex: 20/04/2020") %>) <span class="symbol-required">* </span></label>
             <input type="text" class="form-control" id="date_prepa" name="date_prepa" aria-describedby="help-date_prepa" required  pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
             <p id="help-date_prepa" class="form-text text-muted">
             <small>
-                Insérez la date de la première rédaction, ou d'une actualisation ultérieure, de la déclaration sur l'accessibilité, après évaluation du site internet ou de l'application mobile auquel/à laquelle elle s'applique. Il est recommandé de réaliser une évaluation et d'actualiser la déclaration après une révision importante du site internet ou de l'application mobile.
+                <%= __("Insert the date on which the accessibility statement was first drafted, or subsequently updated, following evaluation of the website or mobile application to which it applies. It is recommended that you carry out an evaluation and update the statement after a major revision of the website or mobile application.") %>
             </small>
             </p>   
         </div>
         <div class="form-group">
-            <label for="date_renewal">Date du dernier réexamen (format: jj/mm/yyyy, ex&thinsp;: 20/04/2020)</label>
+            <label for="date_renewal"><%= __("Last review date") %> (<%- __("format: dd/mm/yyyy, ex: 20/04/2020") %>)</label>
             <input type="text" class="form-control" id="date_renewal" name="date_renewal" aria-describedby="help-date_renewal" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
             <p id="help-date_renewal" class="form-text text-muted">
             <small>
-                Facultatif. Il est recommandé de réexaminer les affirmations mentionnées dans la déclaration sur l'accessibilité, pour en vérifier l'exactitude, de manière régulière et au moins une fois par an. Si ce réexamen a eu lieu sans une évaluation complète du site internet ou de l'application mobile, qu'il ait entraîné ou non des modifications de la déclaration d'accessibilité, veuillez indiquer la date de ce dernier réexamen.
+                <%= __("Optional. It is recommended that the claims made in the accessibility statement are reviewed for accuracy on a regular basis and at least once a year. If this review has taken place without a full evaluation of the website or mobile application, whether or not it has resulted in changes to the accessibility statement, please indicate the date of the last review.") %>
             </small>
             </p>   
         </div>
         <fieldset class="form-group">
-            <legend>Type d'évaluation</legend>
+            <legend><%= __("Type of assessment") %></legend>
             <div class="form-check">
-                <input type="radio" id="auto" name="eval_type" value="auto" checked class="form-check-input"><label for="auto" class="form-check-label">Auto-évaluation</label>
+                <input type="radio" id="auto" name="eval_type" value="auto" checked class="form-check-input"><label for="auto" class="form-check-label"><%= __("Self-assessment") %></label>
             </div>
             <div class="form-check">
-                <input type="radio" id="thirdparty" name="eval_type" value="thirdparty" class="form-check-input"><label for="thirdparty" class="form-check-label">Évaluation réalisée par un tiers</label>
+                <input type="radio" id="thirdparty" name="eval_type" value="thirdparty" class="form-check-input"><label for="thirdparty" class="form-check-label"><%= __("Assessment carried out by a third-party") %></label>
             </div>
         </fieldset>
         <div class="form-group"  id="thirdparty-blk">
-            <label for="thirdparty_name">Nom du tiers  <span class="symbol-required">* </span></label>
+            <label for="thirdparty_name"><%= __("Third party name") %> <span class="symbol-required">* </span></label>
             <input type="text" class="form-control" id="thirdparty_name" name="thirdparty_name" required>
         </div>
         <div class="form-group">
-            <input  type="checkbox" name="renow" id="renow" aria-describedby="help-renow"> <label for="renow">La procédure de contrôle Renow a été réalisée par le CTIE</label>
+            <input  type="checkbox" name="renow" id="renow" aria-describedby="help-renow"> <label for="renow"><%= __("The Renow control procedure was carried out by the CTIE") %></label>
             <p id="help-renow" class="form-text text-muted">
             <small>
-                Facultatif. Uniquement pour les sites et apps réalisés par le CTIE.
+                <%= __("Optional. Only for sites and apps produced by the CTIE.") %>
             </small>
             </p> 
         </div>        
     </div>
     <div id="contact">
-        <h4>Coordonnées de contact</h4>    
+        <h4><%= __("Contact information") %></h4>    
         <div class="form-group">
-            <label for="email">Email de contact (ex: accessibilite@organisme.public.lu) <span class="symbol-required">* </span></label>
+            <label for="email"><%= __("Contact e-mail") %> <%- __("(ex: accessibility@organisation.public.lu)") %> <span class="symbol-required">* </span></label>
             <input type="email" class="form-control" id="email" name="email" required>
         </div> 
     </div>    
     <div id="hierarchie">
-        <h4>Hiérarchie de titres de votre déclaration</h4> 
+        <h4><%= __("Heading hierarchy for your declaration") %></h4> 
         <div class="form-group">
-            <input type="checkbox" name="main_title" id="main_title" > <label for="main_title">Ajouter un titre à votre déclaration</label>
+            <input type="checkbox" name="main_title" id="main_title" > <label for="main_title"><%= __("Add a title to your statement") %></label>
             <p id="help-main_title" class="form-text text-muted">
             <small>
-                Via cette option, vous pouvez rajouter un titre au début de votre déclaration (ex: <code>&lt;h1&gt;Déclaration sur l'accessibilité&lt;/h1&gt;</code>), par exemple si votre CMS (système de gestion de contenu) ne gère pas ce titre lui-même.
+                <%- __("Using this option, you can add a title at the beginning of your declaration (e.g. <code>&lt;h1&gt; Accessibility statement&lt;/h1&gt;</code>), for example if your CMS (content management system) does not manage this title itself.") %>
             </small> 
             </p>  
         </div>    
         <div class="form-group">
-            <label for="title_level">Niveau de titre initial</label>
+            <label for="title_level"><%= __("Initial heading level") %></label>
             <select name="title_level" id="title_level">
                 <option value="1">h1</option>
                 <option value="2" selected="selected">h2</option>
@@ -212,31 +204,30 @@ Si le site est disponible en plusieurs langues, il est recommandé de fournir la
               </select>
             <p id="help-title_hierarchy" class="form-text text-muted">
             <small>
-                La déclaration d'accessibilité doit être accessible. Sa hiérarchie de titre doit être cohérente avec celle de votre site. Choisissez un niveau de titre à partir duquel la hiérarchie de titre de la déclaration pourra démarrer. Si vous avez ajouté un titre de page via l'option précédente, le niveau de titre initial sera appliqué à ce titre.
+                <%= __("The accessibility statement must be accessible. Its heading hierarchy must be consistent with that of your site. Choose a title level from which the declaration's heading hierarchy can start. If you have added a page title using the previous option, the initial heading level will be applied to this title.") %>
             </small>
             </p>
         </div> 
     </div>    
 
-    <button type="button" id="decla_btn" class="btn btn-primary">Générer votre déclaration</button>
+    <button type="button" id="decla_btn" class="btn btn-primary"><%= __("Create your statement") %></button>
     <p id="errorPanel" role="alert"></p>
 </form>
 </div>
 
 
 <div id="result">
-    <p class="alert alert-success">Les différentes versions de votre déclaration ont été générées avec succès&nbsp;! <br />Vous pouvez modifier votre saisie en utilisant le bouton ci-après ou le bouton "retour" de votre navigateur.<br />
-    Pour chaque version de votre déclaration, vous pouvez copier-coller leur contenu dans votre CMS.</p>
+    <p class="alert alert-success"><%- __("The different versions of your statement were successfully created.<br />You can change your input using the button below or the \"back\" button on your browser.<br />For each version of your statement, you can copy and paste their content into your CMS.") %></p>
     <div class="alert alert-warning">
-        <p class="alert-content"><strong>Attention&nbsp;! </strong> Une fois votre déclaration publiée, vous avez un mois pour informer le SIP de cette publication. Envoyez-nous l'URL de votre déclaration par mail à <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>. Merci&nbsp;!</p>
+        <p class="alert-content"><%- __("<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Thank you!") %></p>
     </div>
-    <button id="back">Modifier votre saisie</button>
+    <button id="back"><%= __("Edit your input") %></button>
 
-    <% lang.forEach(function(e) { %>
+    <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
-            <h3>Déclaration en <%= e.name %></h3>
-            <button class="clipboard">Copier dans le presse-papier</button>
-            <button class="download">Télécharger au format html</button>
+            <h3><%= __("Statement") + __("in") + e.name %></h3>
+            <button class="clipboard"><%= __("Copy to clipboard") %></button>
+            <button class="download"><%= __("Download HTML") %></button>
             <section id="decla-<%= e.code %>-result" class="decla-result"></section>
         </div>    
     <% }) %>

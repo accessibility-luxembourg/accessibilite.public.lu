@@ -48,6 +48,7 @@ header {
       background-color: $menu-dark-blue;
       position: absolute;
       top: 103px;
+      z-index: 1;
   
       .hide-element {
         border: 0;
@@ -60,7 +61,7 @@ header {
         width: 1px;
       }
   
-      div#frameworks {
+      div#frameworks-fr, div#frameworks-en, div#frameworks-de {
         position: absolute;
         top: -1000px;
       }
@@ -264,6 +265,58 @@ header {
     }
   }
   
+  header ul.menu-lang {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+header ul.menu-lang li p {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font: 500 1.1rem "Fira Sans", sans-serif;
+}
+
+header ul.menu-lang li a {
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    color: white;
+    font: 300 1rem "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul.menu-lang li a:hover {
+    background-color: $menu-navy-blue;
+}
+
+header ul.menu-lang li a:focus {
+  background-color: $menu-navy-blue;
+  border: 1px solid white;
+}
+
+header ul.menu-lang .sr-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+
   header nav ul li ul {
     flex-direction: column;
     background-color: $menu-dark-blue;
@@ -353,6 +406,13 @@ header {
     }
   }
   
+  @media screen and (min-width: 720px) {
+    header ul.menu-lang li {
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+
   @media screen and (min-width: 755px) {
     header {
       height: 170px;
@@ -408,10 +468,22 @@ header {
         }
       }
   
-      div#frameworks {
+      div#frameworks-fr {
         color: $menu-dark-blue;
         top: 110px;
         left: 392px;
+        width: 0;
+        border-bottom: 4px solid $menu-navy-blue;
+        font: normal 200 1rem "Fira Sans", sans-serif;
+        text-align: left;
+        padding-bottom: 3px;
+        animation: drawline 0.5s 0s forwards;
+      }
+
+      div#frameworks-en, div#frameworks-de {
+        color: $menu-dark-blue;
+        top: 110px;
+        left: 355px;
         width: 0;
         border-bottom: 4px solid $menu-navy-blue;
         font: normal 200 1rem "Fira Sans", sans-serif;
@@ -444,18 +516,23 @@ header {
       }
   
       80% {
-        width: 250px;
+        width: 205px;
       }
   
       100% {
-        width: 250px;
+        width: 205px;
         color: white;
       }
     }
-  
+
     @media (prefers-reduced-motion: reduce) {
-      header nav div#frameworks {
-        width: 280px;
+      header nav div#frameworks-fr {
+        width: 250px;
+        color: white;
+        animation: none;
+      }
+      header nav div#frameworks-en, header nav div#frameworks-de {
+        width: 205px;
         color: white;
         animation: none;
       }
@@ -524,8 +601,32 @@ header {
       right: -60px;
     }
   
-    header nav div#frameworks {
+    header nav div#frameworks-fr {
       left: 522px;
+    }
+
+    header nav div#frameworks-en, header nav div#frameworks-de {
+      left: 487px;
+    }
+
+    @keyframes drawline {
+      0% {
+        width: 0;
+        color: $menu-dark-blue;
+      }
+  
+      20% {
+        color: $menu-dark-blue;
+      }
+  
+      80% {
+        width: 250px;
+      }
+  
+      100% {
+        width: 250px;
+        color: white;
+      }
     }
   }
   

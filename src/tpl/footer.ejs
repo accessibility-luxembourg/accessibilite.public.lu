@@ -3,11 +3,17 @@
         <ul class="footer-links">
             <% links.forEach(e => { %>
                 <li>
-                    <a href="<%= prefix %>/html/fr/<%= e.name %>.html"><%= e.menu %></a>
+                    <a href="<%= prefix %>/html/<%= lang %>/<%= e.name %>.html"><%= e.menu %></a>
                 </li>
             <% }) %>
         </ul>
-        <p>Ce site est édité par le <a href="https://sip.gouvernement.lu">Service Information et Presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l'analyse des statistiques d'utilisation. Pour plus d’information, veuillez consulter notre <a href="<%= prefix %>/html/fr/aspects-legaux.html#charte-des-cookies">charte des cookies</a>.</p>
-
+        <% 
+            const urlSIP = `https://sip.gouvernement.lu/${lang}.html`;
+            const urlCookies = `${prefix}/html/${lang}/aspects-legaux.html#`;
+            const urlCookiesAnchor = __`cookie-charter`;
+         %>
+        <p>
+            <%- __`This site is published by the <a href="${urlSIP}">Information and Press Service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href="${urlCookies}${urlCookiesAnchor}">cookies policy</a>.` %>
+        </p>
     </div>
 </footer>

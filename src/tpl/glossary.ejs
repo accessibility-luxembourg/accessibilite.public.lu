@@ -7,7 +7,7 @@
             </dt>
             <dd>
                 <% e.dd.forEach(f => { %>
-                    <%- include('leaf', {'e': f, 'md': md, depth: 0}) %>
+                    <%- include('leaf', {'e': f, 'md': md, depth: 0, '__': __}) %>
                 <% }) %>
             </dd>
         </dl>

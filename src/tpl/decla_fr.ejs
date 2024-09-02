@@ -234,7 +234,7 @@
     <% } %>
     
     <% if (date_renewal !== '') { %>
-        Le dernier réexamen de la déclaration a eu lieu le <span class="basic-information statement-renewal-date"><%= date_renewal %></span>. 
+        Le dernier réexamen de la déclaration a eu lieu le <span class="basic-information statement-renewal-date"><%= date_renewal.toLocaleDateString('fr', {year: 'numeric', month: 'long', day: 'numeric' }) %></span>. 
     <% } %> 
 </p>
 <% if (renow) { %>

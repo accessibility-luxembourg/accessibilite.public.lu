@@ -71,13 +71,13 @@
     <% if (conformity == 'total') { %>
          mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
          <% if (sites.length != 0 ) { %>
-            dem <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
+            dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
          <% } %>
          <% if (sites.length != 0 && apps.length !=0) { %>
              und
          <% } %>
          <% if (apps.length != 0 ) { %>
-            dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+            dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
          <% } %>,
          <% if (sites.length != 0 && apps.length !=0) { %>
             die diese Norm umsetzen,
@@ -88,13 +88,13 @@
     <% } else if (conformity == 'partial') { %>
         wegen der folgenden Punkte <strong>teilweise</strong> mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
         <% if (sites.length != 0 ) { %>
-           dem <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
+           dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
         <% } %>
         <% if (sites.length != 0 && apps.length !=0) { %>
             und
         <% } %>
         <% if (apps.length != 0 ) { %>
-           dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+           dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
         <% } %>, 
         <% if (sites.length != 0 && apps.length !=0) { %>
             die diese Norm umsetzen,
@@ -105,13 +105,13 @@
     <% } else { %>
         <strong>nicht vereinbar</strong> mit der europäischen Norm <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> und <% } %>
         <% if (sites.length != 0 ) { %>
-           dem <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
+           dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit im Web (RAWeb) v1</a>
         <% } %>
         <% if (sites.length != 0 && apps.length !=0) { %>
             und
         <% } %>
         <% if (apps.length != 0 ) { %>
-           dem <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
+           dem <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">Referenzwerk zur Bewertung der Barrierefreiheit mobiler Anwendungen (RAAM) v1</a>
         <% } %>, 
         <% if (sites.length != 0 && apps.length !=0) { %>
             die diese Norm umsetzen.
@@ -194,13 +194,13 @@
     
     mit den Anforderungen
     <% if (sites.length != 0 ) { %>
-        des <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">RAWeb 1</a>
+        des <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/" hreflang="<%= (disable_en)?'fr':'en' %>">RAWeb 1</a>
     <% } %>
     <% if (sites.length != 0 && apps.length !=0) { %>
         und
     <% } %>
     <% if (apps.length != 0 ) { %>
-        des <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">RAAM 1</a>
+        des <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">RAAM 1</a>
     <% } %>    
     beispielsweise 
     <% if (eval_type == 'auto') { %>
@@ -210,7 +210,7 @@
     <% } %>
     
     <% if (date_renewal !== '') { %>
-        Die Erklärung wurde zuletzt am <span class="basic-information statement-renewal-date"><%= date_renewal %></span> überprüft. 
+        Die Erklärung wurde zuletzt am <span class="basic-information statement-renewal-date"><%= date_renewal.toLocaleDateString('de', {year: 'numeric', month: 'long', day: 'numeric' }) %></span> überprüft. 
     <% } %> 
 </p>
 <% if (renow) { %>

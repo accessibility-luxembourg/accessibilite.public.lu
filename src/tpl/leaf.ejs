@@ -8,13 +8,13 @@
     <% if (e.ul !== undefined) { %>
         <ul>
         <% e.ul.forEach(f => { %>
-            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1}) %></li>
+            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1, '__': __}) %></li>
         <% }) %>
         </ul>
     <% } else if (e.ol !== undefined) { %>
         <ol>
         <% e.ol.forEach(f => { %>
-            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1}) %></li>
+            <li><%- include('leaf', {'e': f, 'md': md, 'depth': depth+1, '__': __}) %></li>
         <% }) %>
         </ol>
     <% } %>

@@ -1,11 +1,29 @@
 <header role="banner" id="banner" class="banner">
   <div class="skip-link">
-      <a href="#main">Aller au contenu</a>
+      <a href="#main"><%= __("Skip to content") %></a>
   </div> 
   <div class="menu-container" id="top">
-    <h1>Portail de l'accessibilité numérique</h1>
+    <h1><%= __('Digital accessibility portal') %></h1>
+    <% if (process.env.DISABLE_EN!=="true") { %>
+    <ul class="menu-lang">
+      <li>
+        <% if (lang === "fr") { %>
+          <p><span class="sr-only">Version française - </span>FR</p>
+        <% } else { %>
+          <a title="Version française - FR" lang="fr" hreflang="fr" href="<%= genURL(config, 'fr', name, file) %>"><span class="sr-only">Version française - </span>FR</a>
+        <% } %>
+      </li>
+      <li>
+        <% if (lang === "en") { %>
+          <p><span class="sr-only">English version - </span>EN</p>
+        <% } else { %>
+          <a title="English version - EN" lang="en" hreflang="en" href="<%= genURL(config, 'en', name, file) %>"><span class="sr-only">English version - </span>EN</a>
+        <% } %>
+      </li>
+    </ul>
+    <% } %>
     <nav role="navigation" id="navi" aria-label="menu principal">
-      <div id="frameworks" aria-hidden="true">référentiels</div>
+      <div id="frameworks-<%- lang %>" aria-hidden="true"><%= __('Frameworks') %></div>
       <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>
       <ul class="disclosure-nav">
             <% nav.forEach(e => { %>
@@ -26,7 +44,7 @@
                           <% if (f.url !== undefined) { %>
                             href="<%= f.url %>"><%= f.menu %>
                           <% } else { %>
-                            href="<%= prefix %>/html/fr/<%= f.name %>.html"><%= f.menu %>
+                            href="<%= prefix %>/html/<%= lang %>/<%= f.name %>.html"><%= f.menu %>
                           <% } %>
                           
                         </a>
@@ -37,7 +55,7 @@
               <% } else {%>
                 <li <%- (e.name === name)?'class="selected"':'' %>>
                   <a <%- (e.name === name)?'aria-current="page"':'' %><%- (e.name === 'index')?'class="home"':''  %> 
-                    href="<%= prefix %>/html/fr/<%= e.name %>.html"><%- e.menu %></a>
+                    href="<%= prefix %>/html/<%= lang %>/<%= e.name %>.html"><%- e.menu %></a>
                 </li>          
               <% } %>
             <% }) %>

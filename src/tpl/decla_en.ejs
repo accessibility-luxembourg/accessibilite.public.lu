@@ -73,13 +73,13 @@
             <strong>fully compliant</strong> with the European Standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raweb1" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
             <% } %>            
             implementing it.
         <% } else if (conformity == 'partial') { %>
@@ -87,13 +87,13 @@
             <% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raweb1" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
             <% } %>            
             , due to the reasons listed below.
         <% } else { %>
@@ -101,13 +101,13 @@
             <% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raweb1" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
             <% } %>            
             . The reasons for this non-compliance are listed below.
         <% } %>
@@ -187,13 +187,13 @@
         
         compliance with the requirements defined in 
         <% if (sites.length != 0 ) { %>
-            <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">RAWeb 1</a>
+            <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/" hreflang="<%= (disable_en)?'fr':'en' %>">RAWeb 1</a>
         <% } %>
         <% if (sites.length != 0 && apps.length !=0) { %>
             and
         <% } %>
         <% if (apps.length != 0 ) { %>
-            <a href="https://accessibilite.public.lu/fr/raam1/" hreflang="fr">RAAM 1</a>
+            <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">RAAM 1</a>
         <% } %>        
         , such as 
         <% if (eval_type == 'auto') { %>
@@ -203,7 +203,7 @@
         <% } %>
         
         <% if (date_renewal !== '') { %>
-            The statement was last reviewed on <span class="basic-information statement-renewal-date"><%= date_renewal %></span>. 
+            The statement was last reviewed on <span class="basic-information statement-renewal-date"><%= date_renewal.toLocaleDateString('en-GB', {year: 'numeric', month: 'long', day: 'numeric' }) %></span>. 
         <% } %> 
     </p>
     <% if (renow) { %>

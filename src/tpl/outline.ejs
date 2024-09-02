@@ -1,16 +1,16 @@
 <ul>
-<% config.mainMenu.concat(config.footer).forEach(element => { if (element.name !== 'plan-site' && element.children === undefined) { %>
-    <li><a href="<%= prefix %>/html/fr/<%= element.name %>.html"><%= element.title %></a></li>
+<% config[lang].mainMenu.concat(config[lang].footer).forEach(element => { if (element.name !== 'plan-site' && element.children === undefined) { %>
+    <li><a href="<%= prefix %>/html/<%= lang %>/<%= element.name %>.html"><%= element.title %></a></li>
 <% }}); %>
 </ul>
-<% config.mainMenu.concat(config.footer).forEach(element => { if (element.name !== 'plan-site' && element.children !== undefined) { %>
+<% config[lang].mainMenu.concat(config[lang].footer).forEach(element => { if (element.name !== 'plan-site' && element.children !== undefined) { %>
     <h3><%= element.title %></h3>
     <ul>
         <% element.children.forEach(child => { %>
             <% if (child.url !== undefined) { %>
-                <li><a href="<%= prefix %>/html/fr/<%= child.url %>"><%= child.menu %></a></li> 
+                <li><a href="<%= prefix %>/html/<%= lang %>/<%= child.url %>"><%= child.menu %></a></li> 
             <% } else { %>
-                <li><a href="<%= prefix %>/html/fr/<%= child.name %>.html"><%= child.menu %></a></li> 
+                <li><a href="<%= prefix %>/html/<%= lang %>/<%= child.name %>.html"><%= child.menu %></a></li> 
             <% } %>
         <% }) %>
     </ul>

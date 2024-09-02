@@ -34,13 +34,13 @@
             <% if (crit.criterium.technicalNote !== undefined) { %>
                 <h5>Notes techniques</h5>
                 <% crit.criterium.technicalNote.forEach(e => { %>
-                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0}) %>
+                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0, '__': __}) %>
                 <% }) %>
             <% } %>
             <% if (crit.criterium.particularCases !== undefined) { %>
                 <h5>Cas particuliers</h5>
                 <% crit.criterium.particularCases.forEach(e => { %>
-                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0}) %>
+                    <%- include('./leaf.ejs', {e: e, md: md, depth: 0, '__': __}) %>
                 <% }) %>
             <% } %>            
             <h5>Correspondances WCAG 2.1</h5>
@@ -48,7 +48,7 @@
             <ul>
                 <li>Critères de succès WCAG 2.1 :
                 <% let SC = crit.criterium.references[0].wcag.map(e => { return e.split('/')[1].trim() })
-                    SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
+                    SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e, lang) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
                 </li>
                 <% if (crit.criterium.references[1].techniques.length !== 0) { %>
                     <li>Technique(s) suffisante(s) et/ou échec(s) WCAG 2.1 :

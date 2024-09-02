@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr" class="no-js">
+<html lang="<%= lang %>" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title><%= title %> - Portail de l'accessibilité numérique</title>
+    <title><%= title %> - <%= __("Digital accessibility portal") %></title>
     <link rel="apple-touch-icon" sizes="180x180" href="<%= prefix %>/html/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= prefix %>/html/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= prefix %>/html/favicon-16x16.png">
@@ -12,14 +12,14 @@
     <meta name="theme-color" content="#ffffff">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Service information et presse">
+    <meta name="author" content="<%= __("Information and Press Service") %>">
     <% if (ogDesc) { %>
       <meta name="description" content="<%= ogDesc %>">
     <% } %>
 
     <% if (imgTwitter) { %>
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:image" content="https://accessibilite.public.lu/fr/news/og/<%= (imgTwitter + '?' + Date.now()) %>" />
+      <meta name="twitter:image" content="https://accessibilite.public.lu/<%= lang %>/news/og/<%= (imgTwitter + '?' + Date.now()) %>" />
     <% } else { %>   
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="https://accessibilite.public.lu/twitter.jpg" />
@@ -27,7 +27,7 @@
 
     <meta name="twitter:site" content="https://twitter.com/accessibilityLU" />
     <meta name="twitter:creator" content="https://twitter.com/accessibilityLU">
-    <meta name="twitter:title" content="<%= title %> - Portail de l'accessibilité numérique du Luxembourg" />
+    <meta name="twitter:title" content="<%= title %> - <%=__("Luxembourg Digital Accessibility Portal") %>" />
     <% if (ogDesc) { %>
       <meta name="twitter:description" content="<%= ogDesc %>">
     <% } %>
@@ -36,11 +36,11 @@
     
     <meta property='og:title' content="<%= title %>"/>
     <% if (imgLinkedin) { %>
-      <meta property='og:image' content="https://accessibilite.public.lu/fr/news/og/<%= imgLinkedin %>"/>
+      <meta property='og:image' content="https://accessibilite.public.lu/<%= lang %>/news/og/<%= imgLinkedin %>"/>
     <% } else { %>
       <meta property='og:image' content="https://accessibilite.public.lu/linkedin.jpg"/>
     <% } %>
-    <meta property='og:site_name' content="Portail de l'accessibilité numérique du Gouvernement du Grand-Duché de Luxembourg"/>
+    <meta property='og:site_name' content="<%= __("Digital accessibility portal of the Grand Duchy of Luxembourg") %>"/>
     <meta property='og:url' content='https://accessibilite.public.lu<%= file %>'/>
     <meta property="og:type" content="website">
 
@@ -53,7 +53,7 @@
 
     <link rel="stylesheet" type="text/css" href="<%= prefix %>/css/main.scss" media="screen" />
     <link rel="canonical" href='https://accessibilite.public.lu<%= file %>'/>
-    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/fr/news/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/<%= lang %>/news/feed.xml" />
     
     <% if (prod) { %>
       <meta name="google-site-verification" content="<%= process.env.GSITEVERIF %>" />
@@ -72,7 +72,7 @@
         <%- process.env.GOVBAR %>
       <% } %>
        <!-- <%- name %> -->     
-    <%- include('header', {'nav': config.mainMenu, 'name': name, 'prod': prod, 'prefix': prefix}) %>
+    <%- include('header', {'nav': config[lang].mainMenu, 'name': name, 'prod': prod, 'prefix': prefix, 'lang': lang, 'file': file, 'genURL': genURL, '__': __}) %>
     <main role="main" id="main" class="main">
       <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %> <%= (full_width)?'full_width':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
         <% if (!withoutTitle) { %>
@@ -88,12 +88,12 @@
         <%- data %>
       </div>
     </main>
-    <%- include('footer', {'links': config.footer, 'name': name, 'prefix': prefix}) %>
-    <a href="#top" class="back" title="Haut de page">
+    <%- include('footer', {'links': config[lang].footer, 'name': name, 'prefix': prefix, 'lang': lang, 'editorsNote': config[lang].footerEditor, '__': __}) %>
+    <a href="#top" class="back" title="<%= __("Back to top") %>">
       <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
         <path d="M1.5 19.5c-.2 0-.4-.1-.6-.2-.4-.3-.5-1-.1-1.4l10.5-13c.2-.2.5-.4.8-.4s.6.1.8.4l11 13c.4.4.3 1.1-.1 1.4-.4.4-1.1.3-1.4-.1L12 7.1l-9.7 12c-.2.3-.5.4-.8.4"></path>
       </svg>
-      <span>Haut de page</span>
+      <span><%= __("Back to top") %></span>
     </a>
 </body>
 </html>
