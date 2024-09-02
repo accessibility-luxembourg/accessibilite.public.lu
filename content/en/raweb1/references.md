@@ -17,7 +17,6 @@ The RAWeb has been compiled using a number of references and documentary sources
 
 - [Accessibility requirements for ICT products and services, EN 301 549 V3.2.1 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) (2021-03);
 - [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) - reference to September 2023;
-- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-fr/) - approved French translation;
 - [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/) - reference to June 2023;
 - [Techniques for WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/) - reference to June 2023;
 - [HTML 4.01 Specification](http://www.w3.org/TR/html401/);

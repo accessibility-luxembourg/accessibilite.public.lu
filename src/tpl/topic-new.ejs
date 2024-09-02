@@ -85,7 +85,7 @@
                 <li><p><%= __("WCAG 2.1 success criteria") %></p>
                 <p>
                         <% let SC = crit.criterium.references[0].wcag.map(e => { return e.trim() })
-                        SC.forEach(e => { %><a href="https://www.w3.org/Translations/WCAG21-fr/#<%= slugify(e) %>"><%- langOnWCAG(e, lang) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
+                        SC.forEach(e => { %><a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG21-fr/':'https://www.w3.org/TR/WCAG21/'%>#<%= slugify(e) %>"><%- langOnWCAG(e, lang) %></a><%= (SC.indexOf(e) != (SC.length-1))?', ': '.' %><%}) %>
                 </p>
             </li>
                 <% } %>            

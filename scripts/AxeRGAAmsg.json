@@ -31,9 +31,6 @@
     "6.2": [
         {"id": "link-name", "msg": "Links must have discernible text"}
     ],
-    "8.1": [
-        {"msg": "Validateur <a href=\"https://validator.w3.org/nu/\" lang=\"en\">nu HTML checker</a> accompagné du bookmarklet <span lang=\"en\">« Check for WCAG 2.0 parsing compliance »</span> disponible sur la <a href=\"https://validator.w3.org/nu/about.html\">page <span lang=\"en\">\"about\"</span></a> de cet outil."}
-    ],
 	"8.2": [
         {"id": "aria-required-attr", "msg": "Required ARIA attributes must be provided"},
         {"id": "aria-allowed-attr", "msg": "Elements must only use allowed ARIA attributes"},
@@ -48,8 +45,7 @@
         {"id": "duplicate-id-active", "msg": "IDs of active elements must be unique"},
         {"id": "duplicate-id-aria", "msg": "IDs used in ARIA and labels must be unique"},
         {"id": "list", "msg": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements"},
-        {"id": "listitem", "msg": "<li> elements must be contained in a <ul> or <ol>"},
-        {"msg": "Validateur <a href=\"https://validator.w3.org/nu/\" lang=\"en\">nu HTML checker</a> accompagné du bookmarklet <span lang=\"en\">« Check for WCAG 2.0 parsing compliance »</span> disponible sur la <a href=\"https://validator.w3.org/nu/about.html\">page <span lang=\"en\">\"about\"</span></a> de cet outil."}
+        {"id": "listitem", "msg": "<li> elements must be contained in a <ul> or <ol>"}
     ],
     "8.3": [
         {"id": "html-has-lang", "msg": "<html> element must have a lang attribute"}

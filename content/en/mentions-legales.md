@@ -67,7 +67,7 @@ Any dispute relating to the use of this site and its Services shall be subject t
 
 #### General information
 
-Personal data provided by the user is processed in accordance with [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016](https://cnpd.public.lu/fr/legislation/droit-europ/union-europeenne/rgpd.html) on the protection of individuals with regard to the processing of personal data and on the free movement of data.
+Personal data provided by the user is processed in accordance with [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016](https://cnpd.public.lu/en/legislation/droit-europ/union-europeenne/rgpd.html) on the protection of individuals with regard to the processing of personal data and on the free movement of data.
 
 As the Information and Press Service does not collect any personal data apart from IP addresses in the logs of the website servers for security reasons, the user's consent is not required before visiting this website.
 
@@ -164,11 +164,10 @@ However, different browsers may have different ways of disabling cookies.
 
 To find out more, follow the links below:
 
-- [Microsoft Internet Explorer](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies)
-- [Google Chrome](https://support.google.com/accounts/answer/61416?hl=fr)
-- [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
-- [Firefox](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur?redirectslug=activer-desactiver-cookies&amp;redirectlocale=fr)
-- [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
+- [Microsoft Edge](https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d)
+- [Google Chrome](https://support.google.com/accounts/answer/61416?hl=en)
+- [Safari](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
+- [Firefox](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop)
 
 Please note that if you refuse to accept cookies on your device, you will still be able to browse this site.
 

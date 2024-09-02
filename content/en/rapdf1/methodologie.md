@@ -33,10 +33,10 @@ The procedure below provides additional details to ensure that the output is com
 
 ##### Installation
 
-**Note**: the [NVDA website](https://www.nvda-fr.org/)
+**Note**: the [NVDA website](hhttps://www.nvaccess.org/download/)
 always offers the latest stable version for download.
 
-1.  Download the [latest version of NVDA](https://www.nvda-fr.org/cat.php?id=2).
+1.  Download the [latest version of NVDA](https://www.nvaccess.org/download/).
 2.  You have the choice of installing NVDA on your computer,
     make a portable version or run the software without installing it. If you wish to obtain a portable version of NVDA, simply create a folder and specify during installation where the files for the portable version are to be copied, in particular to USB media so that it can run on any computer.
 3.  NVDA can be launched as soon as the installation is complete, with no need to restart the computer.
@@ -60,7 +60,7 @@ dialog box appears. It asks you to
 
 If you're using Windows 10 and above, you can use the voices of the
 Narrator voices, known as *OneCore* voices. If you don't have
-the necessary voices, you first need to [download the text-to-speech languages for Windows](https://support.office.com/fr-fr/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3).
+the necessary voices, you first need to [download the text-to-speech languages for Windows](https://support.office.com/en-gb/article/T%C3%A9l%C3%A9charger-les-langues-de-synth%C3%A8se-vocale-pour-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3).
 
 Once you have installed the extension that suits you best, you can change the text-to-speech language by pressing [<kbd>NVDA</kbd> + <kbd>Control</kbd> + <kbd>S</kbd>] at the same time. Select the desired synthesis using the
 <kbd>up</kbd> and <kbd>down</kbd><kbd>arrows</kbd> and confirm by pressing <kbd>Enter</kbd>.
