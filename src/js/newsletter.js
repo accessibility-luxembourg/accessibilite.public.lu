@@ -29,7 +29,7 @@ const validationMessages = {
         "checkbox": "Veuillez cocher cette case"
     },
     "en": {
-        "email": "Please enter a valid email address\n (exemple : jean.reuter@etat.lu)",
+        "email": "Please enter a valid email address\n (example: jean.reuter@etat.lu)",
         "checkbox": "Please check this box"
     }
 }
