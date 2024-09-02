@@ -51,7 +51,7 @@ Pour la convenance des usagers, ce site peut contenir des liens vers d’autres 
 
 #### Propriété intellectuelle
 
-Tous les contenus de ce site sont édités par le [Service information et presse](https://sip.gouvernement.lu) et placés sous [Licence Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). Pour plus d'information, veuillez consulter notre page [licence](licence.html).
+Tous les contenus de ce site sont édités par le [Service information et presse](https://sip.gouvernement.lu) et placés sous [Licence *Creative Commons*{lang=en} Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). Pour plus d'information, veuillez consulter notre page [licence](licence.html).
 
 #### Modification des conditions générales d'utilisation
 

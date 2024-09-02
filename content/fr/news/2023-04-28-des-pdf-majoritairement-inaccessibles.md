@@ -125,19 +125,19 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Vous trouverez ci-dessous les Top 5 des logiciels et matériels que nos tests ont pu identifier et qui ont produit le plus de documents balisés et non balisés&#8239;:</p>
 <h6>Top 5 des producteurs de PDF balisés</h6>
 <ol>
-<li>Microsoft Word</li>
-<li>Adobe Acrobat PDFMaker</li>
-<li>Adobe InDesign</li>
-<li>Adobe LiveCycle Designer</li>
-<li>Microsoft Powerpoint</li>
+<li><p lang="en">Microsoft Word</p></li>
+<li><p lang="en">Adobe Acrobat PDFMaker</p></li>
+<li><p lang="en">Adobe InDesign</p></li>
+<li><p lang="en">Adobe LiveCycle Designer</p></li>
+<li><p lang="en">Microsoft Powerpoint</p></li>
 </ol>
 <h6>Top 5 des producteurs de PDF non balisés</h6>
 <ol>
-<li>Adobe InDesign</li>
-<li>Konica Minolta</li>
-<li>Pscript5.dll (Acrobat Distiller ou GhostScript)</li>
-<li>Microsoft Print to PDF</li>
-<li>Adobe Acrobat</li>
+<li><p lang="en">Adobe InDesign</p></li>
+<li><p lang="en">Konica Minolta</p></li>
+<li><p lang="en">Pscript5.dll (Acrobat Distiller / GhostScript)</p></li>
+<li><p lang="en">Microsoft Print to PDF</p></li>
+<li><p lang="en">Adobe Acrobat</p></li>
 </ol>
 <p>On note tout de même une part importante (35&#8239;%) des fichiers dont on n’a pu identifier l’origine via leurs métadonnées.</p>
 <p>Les principaux producteurs de PDF non balisés sont le logiciel de PAO InDesign, des scanners et la fonctionnalité d’impression en PDF incluse dans la plupart des systèmes d’exploitation récents.</p>
