@@ -8,16 +8,16 @@
     <ul class="menu-lang">
       <li>
         <% if (lang === "fr") { %>
-          <p><span class="sr-only">Version française</span>FR</p>
+          <p><span class="sr-only">Version française - </span>FR</p>
         <% } else { %>
-          <a title="Version française - FR" lang="fr" hreflang="fr" href="<%= genURL(config, 'fr', name, file) %>">FR</a>
+          <a title="Version française - FR" lang="fr" hreflang="fr" href="<%= genURL(config, 'fr', name, file) %>"><span class="sr-only">Version française - </span>FR</a>
         <% } %>
       </li>
       <li>
         <% if (lang === "en") { %>
-          <p><span class="sr-only">English version</span>EN</p>
+          <p><span class="sr-only">English version - </span>EN</p>
         <% } else { %>
-          <a title="English version - EN" lang="en" hreflang="en" href="<%= genURL(config, 'en', name, file) %>">EN</a>
+          <a title="English version - EN" lang="en" hreflang="en" href="<%= genURL(config, 'en', name, file) %>"><span class="sr-only">English version - </span>EN</a>
         <% } %>
       </li>
     </ul>

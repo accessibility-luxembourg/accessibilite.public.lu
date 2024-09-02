@@ -592,3 +592,7 @@ dialog#control-panel-dialog input {
   width: 1rem;
   height: auto;
 }
+
+a:focus > .glossary-anchor, a:active > .glossary-anchor {
+  filter: invert(100%);
+}
