@@ -1,16 +1,18 @@
 #!/bin/bash
 set -e
-branch=$(git rev-parse --abbrev-ref HEAD)
-if [ $branch == "prod" ]; then
-    export NODE_ENV="production";
-fi
-#export NODE_ENV="production"
 
 #import .env
 if [ -f .env ]
 then
     set -a && source .env && set +a
 fi
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ $branch == "prod" ]; then
+    export NODE_ENV="production";
+    export DISABLE_EN="true";
+fi
+#export NODE_ENV="production"
 
 rm -rf ./src/html/* ./dist/*
 
