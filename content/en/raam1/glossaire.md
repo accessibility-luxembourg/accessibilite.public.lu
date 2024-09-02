@@ -499,7 +499,7 @@ A support service can be
 - a [relay service](#relay-service),
 - a training service.
 
-#### Synchronised audio description (time-based media)
+#### Audio description (time-based media)
 
 Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by an application device linked to the media player.
 
