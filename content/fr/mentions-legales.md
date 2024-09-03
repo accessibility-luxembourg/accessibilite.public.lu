@@ -103,9 +103,9 @@ Les procédures de mise en œuvre de ces sondages sont telles qu’aucune donné
 
 Le responsable de ces traitements et le destinataire des données est l’Organisme responsable de ce site ayant commandé le sondage.
 
-#### Traitements liés à la gestion de la newsletter
+#### Traitements liés à la gestion de la lettre d'information
 
-L'adresse e-mail saisie lors de l'abonnement à la newsletter de ce site sera communiquée aux seules fins de distribution de la newsletter à un sous-traitant, notamment la société "Mailjet" établie à Paris, France, qui est soumise aux mêmes obligations légales concernant la protection de données à caractère personnel. Pour limiter les abus, l'usager doit valider son inscription en cliquant sur un lien envoyé à l'adresse e-mail donnée.
+L'adresse e-mail saisie lors de l'abonnement à la lettre d'information de ce site sera communiquée aux seules fins de distribution de la lettre d'information à un sous-traitant, notamment la société "Mailjet" établie à Paris, France, qui est soumise aux mêmes obligations légales concernant la protection de données à caractère personnel. Pour limiter les abus, l'usager doit valider son inscription en cliquant sur un lien envoyé à l'adresse e-mail donnée.
 
 L'usager peut, à tout moment, se désinscrire via un lien fourni dans chaque e-mail ou en contactant l'organisme responsable du site. La durée de conservation des données de l'usager n'excède pas deux semaines suivant la demande de désinscription, sauf dans les cas où une conservation partielle ou totale des données serait nécessaire au responsable de ces traitements, dans le respect des obligations légales en la matière.
 
