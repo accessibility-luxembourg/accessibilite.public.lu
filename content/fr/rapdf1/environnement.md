@@ -8,7 +8,7 @@ La plateforme de tests retenue est la plateforme <span class="en">Windows</span>
 
 Les versions des technologies d’assistance à utiliser sont la dernière disponible sur le système d’exploitation retenu.
 
-Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](https://get.adobe.com/fr/reader/?promoid=TTGWL47M){lang=en}.
+Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](https://get.adobe.com/fr/reader/){lang=en}.
 
 #### Outils de test
 ##### Outil de test dédié
