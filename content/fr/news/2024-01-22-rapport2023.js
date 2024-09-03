@@ -28,10 +28,10 @@ const graph_translations = {
             "title": "Graphique 3. Taux de conformité des apps auditées en 2023"
         },
         "simple_compliance_top10": {
-            "title": "Graphique 4. Top 10 public sites targeted by a simplified audit"
+            "title": "Graphique 4. Top 10 des sites publics cibles d'un audit simplifié"
         },
         "simple_compliance": {
-            "title": "Graphique 5. Level of compliance by administrative area"
+            "title": "Graphique 5. Niveau de conformité par domaine administratif"
         }
     },
     "en": {

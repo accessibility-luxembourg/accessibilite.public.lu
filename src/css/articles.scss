@@ -103,10 +103,6 @@ div.articles_summary p.date {
     div.articles_summary ul li:nth-child(4n+2),  div.articles_summary ul li:nth-child(4n+3) {
         background-color: var(--light_blue);
     }
-
-    div.articles_summary ul li a h3, div.articles_summary p.subtitle {
-        height: 3em;
-    }
 }
 
 @media screen and (min-width: 930px) {
