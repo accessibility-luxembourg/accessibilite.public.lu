@@ -1684,7 +1684,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Fill in form input fields with values that are likely to cause input errors (e.g. enter an incorrectly formed e-mail address).
 1. Validate the form.
 1. For each mandatory form field that has a format check (which will be displayed with an error after validation), check that
-	- that the expected data type and/or format are rendered by the screen reader when focused on the field;
+	- the expected data type and/or format are rendered by the screen reader when focused on the field;
 	- a visible text near the field indicates the expected data type and/or format.
 1. If this is the case, the criterion is validated.
 
@@ -1734,7 +1734,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [3.3.3 Suggestion after an error (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion). 
+- WCAG 2.1: [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion). 
 - EN 301 549 V3.2.1 (2021-03): *11.3.3.3 Error Suggestion (AA)*. 
 
 #### [Criterion 9.11](#crit-9-11) [AA] For each form that modifies or deletes data, or transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or retrieved by the user? {id="crit-9-11"} 
@@ -1744,14 +1744,14 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 ###### iOS and Android 
 
 1. Activate the **screen reader**.
-1. Fill in the form.
-1. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
+2. Fill in the form.
+3. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
 	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled);
   - or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
-1. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
+4. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
   - retrieve the deleted data during input;
   - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
-1. If this is the case, the criterion is validated.
+5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
