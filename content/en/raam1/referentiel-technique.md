@@ -1747,10 +1747,10 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 2. Fill in the form.
 3. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
 	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled);
-  - or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
+	- or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
 4. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
-  - retrieve the deleted data during input;
-  - or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
+	- retrieve the deleted data during input;
+	- or explicitly confirm the deletion of this data via a dedicated mechanism (for example, a form field or an additional step).
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1789,7 +1789,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.3.5 Identify the purpose of the input (AA)](https://www.w3.org/TR/WCAG21/#identify-input-purpose)
+- WCAG 2.1: [1.3.5 Identify input purpose (AA)](https://www.w3.org/TR/WCAG21/#identify-input-purpose)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.5.1 Identify Input Purpose (AA)*.
 
 ### [Topic 10](#topic-10): Navigation {id="topic-10"}
@@ -1809,7 +1809,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.4.3 Focus path (A)](https://www.w3.org/TR/WCAG21/#focus-order) 
+- WCAG 2.1: [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.3 Focus Order (A)*.
 
 #### [Criterion 10.2](#crit-10-2) [A] On each screen, is the order of playback by assistive technologies [consistent](glossaire.md#consistent-reading-order)? {id="crit-10-2"}
@@ -1825,11 +1825,11 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	1. after displaying the updated content, check that the screen reader's path remains consistent.
 1. If this is the case, the criterion is validated.
 
-**An arrival time and a departure time are displayed on the screen in the form of two blocks of visual information (arrival time 17:00; departure time 18:00). The screen reader sequentially reaches "arrival time" then "departure time" then "17:00" and finally "18:00". The reading order does not correspond to the visual order, and the reading order is problematic because it does not allow the information to be linked together.
+**Example of content whose implementation causes comprehension problems:** An arrival time and a departure time are displayed on the screen in the form of two blocks of visual information (arrival time 17:00; departure time 18:00). The screen reader sequentially reaches "arrival time" then "departure time" then "17:00" and finally "18:00". The reading order does not correspond to the visual order, and the reading order is problematic because it does not allow the information to be linked together.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.3 Focus path (A)](https://www.w3.org/TR/WCAG21/#focus-order)
+- WCAG 2.1: [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*.
 
 #### [Criterion 10.3](#crit-10-3) [A] On each screen, the navigation must not contain any [keyboard traps](glossaire.md#keyboard-trap). Is this rule respected? {id="crit-10-3"}
@@ -1890,7 +1890,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.1.4 Keyboard shortcuts using characters (A)](https://www.w3.org/TR/WCAG21/#character-key-shortcuts). 
+- WCAG 2.1: [2.1.4 Character key shortcuts (A)](https://www.w3.org/TR/WCAG21/#character-key-shortcuts). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.4.1 Character Key Shortcuts (A)*.
 
 ### [Topic 11](#topic-11): Consultation {id="topic-11"}
@@ -1921,7 +1921,7 @@ The criterion does not apply when the time limit is essential, in particular whe
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.2.1 Setting the delay (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pausing, stopping, hiding (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide). 
+- WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
 
 #### [Criterion 11.2](#crit-11-2) [A] For each screen, can each process limiting the time of a session be stopped or deleted (excluding special cases)? {id="crit-11-2"}
@@ -1948,7 +1948,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.2.1 Timeout setting (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable)
+- WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable*.
 
 #### [Criterion 11.3](#crit-11-3) [A] On each screen, does each office document available for download have, if necessary, an [accessible version](glossaire.md#accessible-version) (excluding special cases)? {id="crit-11-3"}
@@ -1960,7 +1960,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 
 ##### Special cases
 
-The criterion is not applicable when office documents (e.g. PDF, Microsoft or libreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the purposes of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+The criterion is not applicable when office documents (e.g. PDF, Microsoft or LibreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the purposes of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1974,21 +1974,21 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or li
 	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If the alternative is proposed in the application, check that the content complies with this framework.
 1. Otherwise, for documents in office format (pdf, odt, doc, docx, EPUB/DAISY): 
-	- upload the file; 
+	- download the file; 
 	- if the file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Language of Page (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
 #### [Criterion 11.4](#crit-11-4) [A] For each office document with an [accessible version](glossaire.md#accessible-version), does this version offer the same information (excluding special cases)? {id="crit-11-4"}
 
 ##### Special cases
 
-The criterion is not applicable when the office documents (e.g. PDF, Microsoft or libreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+The criterion is not applicable when the office documents (e.g. PDF, Microsoft or LibreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
