@@ -1981,7 +1981,7 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or Li
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Language of Page (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Language of Page (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value).
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
 #### [Criterion 11.4](#crit-11-4) [A] For each office document with an [accessible version](glossaire.md#accessible-version), does this version offer the same information (excluding special cases)? {id="crit-11-4"}
@@ -1999,7 +1999,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus traversal (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Page language (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
+- WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.1 Bypassing blocks (A)](https://www.w3.org/TR/WCAG21/#bypass-blocks), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order), [3.1.1 Language of Page (A)](https://www.w3.org/TR/WCAG21/#language-of-page), [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value). 
 - EN 301 549 V3.2.1 (2021-03): all the criteria in section 10 *Non-web documents*.
 
 #### [Criterion 11.5](#crit-11-5) [A] On each screen, does each cryptic content (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-11-5"}
@@ -2012,7 +2012,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 1. Check that a definition is available in the adjacent context (immediately before or after the cryptic content, in the adjacent text or via the activation of a user interface component).
 1. If not, activate the **screen reader**.
 1. Navigate to the cryptic content and check that an alternative is rendered.
-1. If it is, the criterion is validated.
+1. If this is the case, the criterion is validated.
 
 ##### Matches {class="disclosure mapping"}
 
@@ -2026,7 +2026,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 ###### iOS and Android
 
 1. For each cryptic content item that has an alternative, check that the alternative given is relevant (it enables the content or function to be understood).
-1. If it is, the criterion is validated.
+1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2053,7 +2053,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 
 ##### Matches {class="disclosure mapping"}
 
-- WCAG 2.1 [2.3.1 No more than three flashes or below the critical threshold (A)](https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold).
+- WCAG 2.1 [2.3.1 Three Flashes or Below Threshold (A)](https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold).
 - EN 301 549 V3.2.1 (2021-03) *11.2.3.1 Three Flashes or Below Threshold (A)*.
 
 #### [Criterion 11.8](#crit-11-8) [A] On each screen, is each moving or flashing content [controllable](glossaire.md#control-moving-or-flashing-content) by the user? {id="crit-11-8"}
@@ -2082,7 +2082,7 @@ Note: The [PEAT] tool (https://trace.umd.edu/peat/) can be used to analyse video
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.2.1 Setting delay (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pausing, stopping, hiding (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide)
+- WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
 
 #### [Criterion 11.9](#crit-11-9) [AA] On each screen, is the content offered viewable regardless of screen orientation (portrait or landscape) (excluding special cases)? {id="crit-11-9"}
@@ -2104,8 +2104,8 @@ If the interface is the only means of accessing the proposed service, an alterna
 1. Check that the screen orientation is not locked in the platform settings ([see official documentation](https://support.apple.com/en-gb/guide/iphone/iph3badf94ec/ios)).
 1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
-	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read; 
-	- that the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
+	- the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read; 
+	- the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
 1. If this is the case, the criterion is validated.
 
 ###### Android
@@ -2114,8 +2114,8 @@ If the interface is the only means of accessing the proposed service, an alterna
 1. Check that "Automatic rotation" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=en)).
 1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
-	- that the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read;
-	- that the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
+	- the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read;
+	- the content available in one orientation is still available in the other orientation (directly or by activating an additional component, for example).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2129,7 +2129,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 The criterion does not apply to the following elements:
 - Gestures required by the platform.
-- features for which a complex gesture is essential (e.g. drawing a signature).
+- Features for which a complex gesture is essential (e.g. drawing a signature).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2143,7 +2143,7 @@ The criterion does not apply to the following elements:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.5.1 Gestures for pointer control (A)](https://www.w3.org/TR/WCAG21/#pointer-gestures). 
+- WCAG 2.1: [2.5.1 Pointer gestures (A)](https://www.w3.org/TR/WCAG21/#pointer-gestures). 
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*.
 
 #### [Criterion 11.11](#crit-11-11) [A] On each screen, are the features that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
@@ -2189,7 +2189,7 @@ The criterion is not applicable when the functionality requires the expected beh
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.5.2 Cancellation of pointer action (A)](https://www.w3.org/TR/WCAG21/#pointer-cancellation) 
+- WCAG 2.1: [2.5.2 Pointer Cancellation (A)](https://www.w3.org/TR/WCAG21/#pointer-cancellation) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.5.2 Pointer Cancellation (A)*.
 
 #### [Criterion 11.13](#crit-11-13) [A] On each screen, can the features involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
@@ -2209,14 +2209,14 @@ The criterion is not applicable when
 ###### iOS and Android
 
 1. Identify functions on the screen that are triggered by a movement of the device or a gesture towards the device (for example, look for instructions in the interface or in documentation associated with the application that describe this type of triggering).
-1. Check that
+2. Check
 	- that the functionality can be triggered without movement, for example by activating a button or a link;
 	- and that the application provides a method for deactivating motion detection (for example, a parameter in the application).
-1. If this is the case, the criterion is validated.
+3. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.5.4 Motion Activation (A)](https://www.w3.org/TR/WCAG21/#motion-actuation)
+- WCAG 2.1: [2.5.4 Motion Actuation (A)](https://www.w3.org/TR/WCAG21/#motion-actuation)
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*.
 
 #### [Criterion 11.14](#crit-11-14) [AA] For each document conversion feature, is the [accessibility information](glossaire.md#accessibility-information) available in the source document retained in the destination document (excluding special cases)? {id="crit-11-14"}
@@ -2470,15 +2470,15 @@ The criterion is not applicable when the destination format does not allow the a
 ###### iOS and Android
 
 1. Identify the presence of automatic or semi-automatic test functions in the tool.
-1. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
-1. Activate the test functions.
-1. Check that the tool
+2. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
+3. Activate the test functions.
+4. Check that the tool
 	- automatically repairs the error;
-  - or provides the author with repair suggestions.
-1. In the case of a semi-automatic test, check that the tool 
+	- or provides the author with repair suggestions.
+5. In the case of a semi-automatic test, check that the tool 
 	- provides decision support and repair suggestions;
-  - or provides the author with explanations enabling him to carry out the repair.
-1. If this is the case, the criterion is validated.
+	- or provides the author with explanations enabling him to carry out the repair.
+6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2776,7 +2776,7 @@ For the last condition concerning the time lag between video and audio, the test
 1. Check that speech and video are synchronised (lip-sync, lip movement).
 1. If this is the case, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *6.5.2 Resolution, 6.5.3 Frame rate, 6.5.4 Synchronization between audio and video*.
