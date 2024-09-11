@@ -38,7 +38,7 @@ Norm:
 
 #### Special cases
 
-There is special case management for tests 6.1.1, 6.1.2, 6.1.3 and 6.1.4 when the link is [ambiguous for everybody](#ambiguous-for-everybody). In this situation, where it is not possible to make the link explicit in its context, the criterion is not applicable.
+There is special case management for tests 6.1.1, 6.1.2, 6.1.3 and 6.1.4 when the link is [ambiguous to users in general](#ambiguous-to-users-in-general). In this situation, where it is not possible to make the link explicit in its context, the criterion is not applicable.
 
 There is special case management for test 6.1.5 when
 

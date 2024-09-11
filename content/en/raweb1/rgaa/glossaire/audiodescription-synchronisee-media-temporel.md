@@ -2,7 +2,7 @@
 title: Audio description (time-based media)
 ---
 
-Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by an application device linked to the player itself or provided by the developer, for example with JavaScript.
+Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by a feature of the player itself or provided by the developer, for example with JavaScript.
 
 Note 1: the audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
 
