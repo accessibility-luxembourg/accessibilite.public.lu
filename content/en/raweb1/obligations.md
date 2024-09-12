@@ -234,7 +234,7 @@ Therefore, although the compliance of this content is not required, it must comp
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
 
-The principle of non-interference is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
+The non-interference principle is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
 
 ### Accessibility statement
 

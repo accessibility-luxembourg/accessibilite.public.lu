@@ -10,6 +10,6 @@ Example: `<div>`, `paragraphs in a simulated block of text`, `<br>`, `using seve
 
 Note 2: WAI-ARIA offers a `presentation` role which can be used to suppress the semantics of an element, for example `<h1 role="presentation">Title</h1>`. In this case, the text will be rendered correctly but its title role will no longer be rendered. The `presentation` role may be required when using a WAI-ARIA [design pattern](#design-pattern).
 
-The `presentation` WAI-ARIA role can also be used to remove semantics from an element when it is used only for layout purposes, e.g. `<blockquote role="presentation">` will have the same effect as no `<blockquote>` element.
+The WAI-ARIA `presentation` role can also be used to remove semantics from an element when it is used only for layout purposes, e.g. `<blockquote role="presentation">` will have the same effect as no `<blockquote>` element.
 
 Even if this use is strongly discouraged (in the case of assistive technologies that do not implement WAI-ARIA, for example), it can be considered <abbr lang="en" title="web content accessibility guidelines">WCAG-compliant</abbr>. On the other hand, the use of a WAI-ARIA `presentation` role on an element whose nature (e.g. semantics) is essential to the understanding of the content is a violation of the <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> rules (particularly failure [F92](https://www.w3.org/WAI/WCAG21/Techniques/failures/F92)) and invalidates the criterion.

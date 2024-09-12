@@ -93,7 +93,7 @@ Interactive object allowing the user to enter data. Form input fields cover a wi
 
 - free input fields,
 - checkboxes or radio buttons,
-- selection lists,
+- listboxes,
 - specific fields such as date entry fields, etc.
 
 ### H

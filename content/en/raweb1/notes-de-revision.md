@@ -48,11 +48,11 @@ The glossary entries corresponding to these new criteria have been added:
 
 This update also includes changes to content from RGAA 4.1.2.
 
-#### Introduction of the principle of non-interference
+#### Introduction of the non-interference principle
 
 A new section ["Non-interference principle"](../obligations.html#non-interference-principle) has been introduced into the "Requirements" page in order to comply fully with standard EN 301 549.
 
-In addition, each criterion included in the principle of non-interference is identified in the technical framework by the words "This criterion is subject to the principle of non-interference".
+In addition, each criterion included in the non-interference principle is identified in the technical framework by the words "This criterion is subject to the non-interference principle".
 
 #### Modification of the sample description for the audit of a website
 
