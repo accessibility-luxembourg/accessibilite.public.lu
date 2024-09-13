@@ -1,0 +1,51 @@
+form.newsletter input[type=email] {
+    display: block;
+    margin: 10px 0 20px 0;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #555;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+}
+
+form.newsletter input[type=checkbox] + label {
+    padding-left: 1rem;
+}
+
+form.newsletter div {
+    padding-left: 0.5rem;
+    border-left: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+form.newsletter div.error {
+    border-left-color: #e7222e;
+}
+
+form.newsletter button {
+    margin: 2rem 0 2rem 0;
+    display: block;
+    background-color: #07142b;
+    border: none;
+    padding: 0.7rem 1rem;
+    color: white;
+    border-radius: 3px;
+    border: 3px solid #07142b;
+}
+
+form.newsletter button:hover {
+    cursor: pointer;
+}
+
+form.newsletter button:disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+    cursor: not-allowed;
+}
+
+form.newsletter button:focus, form.newsletter button:focus-visible {
+    outline: solid 3px #c55a11;
+}

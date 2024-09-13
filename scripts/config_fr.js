@@ -390,12 +390,12 @@ const config = {
             "prefix": "../.."
         }, 
         {
-            "title": "Inscription réussie !",
-            "name": "nl-success",
-            "md": "./content/fr/nl-success.md",
+            "title": "Inscription à la newsletter",
+            "name": "nl-subscribe",
+            "md": "./content/nl-subscribe.md",
             "html": true,
             "prefix": "../.."
-        }           
+        }            
     ],
     "deprecated": [
         {
