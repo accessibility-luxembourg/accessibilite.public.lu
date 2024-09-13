@@ -13,11 +13,7 @@ is
 and 
 <a href="https://accessibilite.public.lu/fr/raweb1/" hreflang="fr">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>	
 , due to the reasons listed below.
-</p>
-<h3>Non-accessible content</h3>
-<p>The content listed below is non-accessible for the following reason(s):</p>
-<h4>Non-compliance</h4>
-<p class="technical-information accessibility-limitations non-compliant">We have put a component on the <a href="../newsletter.html">Newsletter</a> page, allowing you to subscribe to our newsletter. Making this form fully accessible now represents a disproportionate burden. The same content is published on our <a href="../news/feed.xml">RSS feed</a>, and subscribing to this feed is an accessible alternative.</p> 			
+</p>			
 <h3>Preparation of this accessibility statement</h3>
 <p>
 This statement was prepared on <span class="basic-information statement-created-date">14 August 2020</span>.
