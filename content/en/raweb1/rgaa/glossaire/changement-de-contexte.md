@@ -1,11 +1,11 @@
 ---
-title: Context change
+title: Changes of context
 ---
 
-Major changes in the content of a web page which, if made without the user being aware of them, can disorientate the user who cannot see the whole page at once. Context changes include
+Major changes in the content of a web page which, if made without the user being aware of them, can disorientate the user who cannot see the whole page at once. Changes of context include changes of:
 
 - user agent;
-- rendition space;
+- viewport;
 - focus;
 - content that modifies the meaning of the web page.
 

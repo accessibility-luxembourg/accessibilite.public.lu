@@ -49,7 +49,7 @@ Note: if the visible label represents a mathematical expression, the mathematica
 
 #### Technical notes
 
-When the visible label is supplemented by another expression in the accessible name
+When the visible label is supplemented by another expression in the accessible name:
 
 - WCAG insists on placing the visible label at the beginning of the accessible name without reserving exclusive use of this location;
 - WCAG considers a non-exact match of the visible label character string within the accessible name to be a case of failure.
