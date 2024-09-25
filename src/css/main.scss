@@ -68,6 +68,10 @@ main, header, footer {
     border-radius: 3px;
   }
 
+  .form-control {
+    border-color: #919191;
+  }
+
   .form-control:focus {
     box-shadow: inherit;
     border: 3px solid $primary-color;
@@ -524,7 +528,6 @@ form#decla p.errorMessage {
 }
 
 form#decla p#errorPanel {
-  display: none;
   color: #e7222e;
   font-size: 0.8rem;
   padding: 0.7rem 0.7rem 0.7rem 3rem;
