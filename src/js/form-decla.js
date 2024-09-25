@@ -296,7 +296,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
             errorPanel.innerHTML = "";
-            errorPanel.classList.add('sr-only');
 
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
@@ -319,9 +318,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 });
                 location.hash = 'result';
             } else {
-                errorPanel.classList.remove('sr-only');
                 window.setTimeout(function () {
-                    errorPanel.innerHTML = errorMsg[pgLang].erGlobal;
+                    errorPanel.innerHTML = '<p class="errorPanel">' + errorMsg[pgLang].erGlobal + '</p>';
                     if (!checkLang) {
                         document.getElementById('lang_fr').focus();
                         document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
