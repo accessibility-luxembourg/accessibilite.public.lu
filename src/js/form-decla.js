@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 location.hash = 'result';
             } else {
                 window.setTimeout(function () {
-                    errorPanel.innerHTML = '<p class="errorPanel">' + errorMsg[pgLang].erGlobal + '</p>';
+                    errorPanel.innerHTML = '<p class="errorPanel" role="none">' + errorMsg[pgLang].erGlobal + '</p>';
                     if (!checkLang) {
                         document.getElementById('lang_fr').focus();
                         document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
