@@ -318,20 +318,20 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 });
                 location.hash = 'result';
             } else {
-                window.setTimeout(function () {
-                    errorPanel.innerHTML = '<p class="errorPanel" role="none">' + errorMsg[pgLang].erGlobal + '</p>';
-                    if (!checkLang) {
-                        document.getElementById('lang_fr').focus();
-                        document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
-                    } else  {
-                        for (let f = 0; f < fields.length; f++) {
-                            if (!fields[f].reportValidity()) {
-                                fields[f].focus();
-                                fields[f].parentElement.parentElement.before(errorPanel);
-                                break;
-                            }
+                if (!checkLang) {
+                    document.getElementById('lang_fr').focus();
+                    document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
+                } else  {
+                    for (let f = 0; f < fields.length; f++) {
+                        if (!fields[f].reportValidity()) {
+                            fields[f].focus();
+                            fields[f].parentElement.parentElement.before(errorPanel);
+                            break;
                         }
                     }
+                }
+                window.setTimeout(function () {
+                    errorPanel.innerHTML = '<p class="errorPanel" role="none">' + errorMsg[pgLang].erGlobal + '</p>';
                 }, 200);
             }
         })
