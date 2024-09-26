@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
                             }
                         }
                     }
-                }, 10);
+                }, 200);
             }
         })
     }
