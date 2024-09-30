@@ -60,7 +60,7 @@ RAWeb considers three types of text alternative linked to the nature of the imag
 
 Note 1: for a [CAPTCHA](#captcha) image, the alternative could be, for example: "Anti-spam security code" or "code to verify that you are a human" or any other alternative that allows the user to understand the nature and function of the image.
 
-Note 2: For a group of images, for example a voting system made up of several star images, it is strongly recommended to use either the first image of the group to give a coherent alternative to the group of images (see [WCAG2.1 technique G196](https://www.w3.org/WAI/WCAG21/Techniques/general/G196)), or a container tag with a WAI-ARIA role `img` and a text alternative (image). In the first case, the other images in the group are considered to be decorative images. In the second case, all the images in the group are considered to be decorative images.
+Note 2: For a group of images, for example a voting system made up of several star images, it is strongly recommended to use either the first image of the group to give a coherent alternative to the group of images (see [WCAG2.1 technique G196](https://www.w3.org/WAI/WCAG21/Techniques/general/G196)), or a container tag with a WAI-ARIA `img` role and a text alternative (image). In the first case, the other images in the group are considered to be decorative images. In the second case, all the images in the group are considered to be decorative images.
 
 Note 3: for image links, the alternative text must allow the function and destination of the link to be understood; this is covered in the links theme.
 

@@ -122,7 +122,7 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the "help" page;
 1. the page or set of pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
 1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#support-service);
-1. the "sitemap" page;
+1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. the set of pages making up a process (for example, an input form or a multi-page transaction);
@@ -234,7 +234,7 @@ Therefore, although the compliance of this content is not required, it must comp
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
 
-The principle of non-interference is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
+The non-interference principle is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
 
 ### Accessibility statement
 

@@ -40,8 +40,8 @@ const config = {
                     "name": "news/index"
                 },
                 {
-                    "title": "Newsletter",
-                    "menu": "Newsletter",
+                    "title": "Follow us",
+                    "menu": "Follow us",
                     "name": "newsletter",
                     "md": "./content/en/newsletter.md", 
                     "html": true,
@@ -371,14 +371,14 @@ const config = {
             "name": "404",
             "md": "./content/en/404.md",
             "prefix": "../.."
-        }, 
+        },
         {
-            "title": "Successful registration!",
-            "name": "nl-success",
-            "md": "./content/en/nl-success.md",
+            "title": "Newsletter subscription",
+            "name": "nl-subscribe",
+            "md": "./content/nl-subscribe.md",
             "html": true,
             "prefix": "../.."
-        }           
+        }                 
     ]
 }
 

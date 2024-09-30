@@ -52,12 +52,12 @@ fi
 
 node gen.js
 
-en_files="./src/html/en/404.html ./src/html/en/nl-success.html ./src/html/en/monitoring/audit-simpl.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html"
+en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/monitoring/audit-simpl.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html"
 if [[ "$DISABLE_EN" == "true" ]]
 then
     en_files=""
 fi
-npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-success.html ./src/html/fr/monitoring/audit-simpl.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html $en_files
+npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-subscribe.html ./src/html/fr/monitoring/audit-simpl.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html $en_files
 
 # english only
 # npx parcel build ./src/html/index.html $en_files

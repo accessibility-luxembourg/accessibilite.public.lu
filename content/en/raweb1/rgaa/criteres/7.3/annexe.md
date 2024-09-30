@@ -30,4 +30,4 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when the functionality depends on the use of an event handler with no universal equivalent; for example, a freehand drawing application cannot be made controllable using the keyboard. In these situations, the criterion is not applicable.
+There are special considerations when the functionality depends on the use of an event handler with no universal equivalent; for example, a freehand drawing application cannot be made controllable using the keyboard. In these situations, the criterion is not applicable.

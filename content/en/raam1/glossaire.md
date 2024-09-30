@@ -33,9 +33,9 @@ A user interface component (link, button, form field, etc.) can be accessed by a
 - can focus on the component, regardless of the device;
 - can initiate the action provided for by the user interface component by means of a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen, for example);
 
-**Warning:** for certain user interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component.  On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
+**Warning:** for certain user interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component. On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
 
-In this framework, the expression "controllable by keyboard and any pointing device" also refers to this definition.
+In this framework, the expression "accessible and operable by keyboard and any pointing device" also refers to this definition.
 
 **Important note:** the use of certain technologies may make focus management too complex or too unstable to rely solely on tab, arrow and enter keys. In this case, providing keyboard shortcuts may be the only way to make the component usable. The criterion can only be considered compliant if the keyboard shortcuts used are properly documented, functional and comply with [criterion 10.4](referentiel-technique.md#crit-10-4).
 
@@ -395,10 +395,6 @@ Platforms have native controls, for example a native color picker for colour sel
 
 Use of interface elements for a purpose other than that stated in the specifications. For example, a misuse in an application could be the use of an interactive element (button for example) as plain text.
 
-##### Other replacement mechanisms not provided by the platforms
-
-If the platform does not provide a replacement mechanism for certain parameters, the application can provide one from its interface.
-
 ### P
 
 #### Personal user data
@@ -461,6 +457,10 @@ Platforms offer users several replacement mechanisms. The activation of these re
 There are no replacement mechanisms in Android that are equivalent to those in iOS, or that are sufficiently robust.
 
 The replacement mechanism available on Android ("**High-contrast text**") is still experimental. Its use is not currently recommended.
+
+##### Other replacement mechanisms not provided by the platforms
+
+If the platform does not provide a replacement mechanism for certain parameters, the application can provide one from its interface.
 
 ### S
 

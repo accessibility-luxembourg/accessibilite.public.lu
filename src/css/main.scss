@@ -17,6 +17,8 @@
 @import "./navigation.scss";
 @import "rwd-utils.scss";
 @import "articles.scss";
+@import "newsletter.scss";
+
 @import "raweb.scss";
 
 body {
@@ -64,6 +66,10 @@ main, header, footer {
     outline: 3px solid $primary-color;
     padding: 4px;
     border-radius: 3px;
+  }
+
+  .form-control {
+    border-color: #919191;
   }
 
   .form-control:focus {
@@ -521,8 +527,7 @@ form#decla p.errorMessage {
   font-size: 0.8rem;
 }
 
-form#decla p#errorPanel {
-  display: none;
+form#decla p.errorPanel {
   color: #e7222e;
   font-size: 0.8rem;
   padding: 0.7rem 0.7rem 0.7rem 3rem;

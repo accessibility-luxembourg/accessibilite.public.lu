@@ -48,11 +48,11 @@ The glossary entries corresponding to these new criteria have been added:
 
 This update also includes changes to content from RGAA 4.1.2.
 
-#### Introduction of the principle of non-interference
+#### Introduction of the non-interference principle
 
 A new section ["Non-interference principle"](../obligations.html#non-interference-principle) has been introduced into the "Requirements" page in order to comply fully with standard EN 301 549.
 
-In addition, each criterion included in the principle of non-interference is identified in the technical framework by the words "This criterion is subject to the principle of non-interference".
+In addition, each criterion included in the non-interference principle is identified in the technical framework by the words "This criterion is subject to the non-interference principle".
 
 #### Modification of the sample description for the audit of a website
 
@@ -65,7 +65,7 @@ In the section ["Testing pages or screens"](../obligations.html#testing-pages-or
 <blockquote>
 Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
 
-- Criterion 12.3 Is the "sitemap" page relevant?
+- Criterion 12.3 Is the "site map" page relevant?
 - Theme 14. Documentation and accessibility features
 - Theme 16. Help desk services
 </blockquote>

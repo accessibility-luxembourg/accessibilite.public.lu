@@ -9,5 +9,5 @@ When information (provided by colour) is accompanied by another method aimed at 
 Means of conveying information other than by colour may be
 
 - A visible text indication;
-- A means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement to the code (`aria-label`, `title`, hidden text, `aria-current`, etc.);
+- Means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement to the code (`aria-label`, `title`, hidden text, `aria-current`, etc.);
 - A different typographic style (bold, italic, text size, different font, etc.) and by means of a supplement in the code (`aria-label`, `title`, hidden text, `aria-current`, etc.).

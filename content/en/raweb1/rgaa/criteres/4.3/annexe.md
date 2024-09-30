@@ -19,4 +19,4 @@ Norm:
 
 #### Special cases
 
-see special cases in criterion 4.1.
+See special cases in criterion 4.1.
