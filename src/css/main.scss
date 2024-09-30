@@ -536,3 +536,7 @@ form#decla p#errorPanel {
   background-position: center left 15px;
   background-color: rgba(231,34,46,0.015);
 }
+
+div.withSummary div.alert.alert-danger {
+  max-width:53em;
+}
