@@ -1284,22 +1284,22 @@ Note: In applications, items can be grouped together. For example, in a product 
 #### [Criterion 8.2](#crit-8-2) [AA] On each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
 **[Test 8.2.1](#test-8-2-1)** Does each screen meet these conditions? {id="test-8-2-1"}
-- The user can enlarge the size of the texts by 200% using the platform parameters;
+- The user can enlarge the size of all the texts by 200% using the platform parameters;
 - All the texts on the screen are enlarged;
 - All enlarged texts remain legible and the interactive components usable.
 
 ##### Special cases
 
 The criterion does not apply to the following elements:
-- Text graphic elements;
-- Video subtitles.
+- image of text;
+- captions.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS
 
-1. Access the font size settings for the platform: Settings &gt; Accessibility &gt; Text display and size &gt; Larger font.
-1. Activate the "Larger font size" button and increase the value of the font size (slider at the bottom of the screen) until a magnification of 200% is reached (the maximum of the gauge allows a zoom greater than 200%, so the test can be limited to increasing the zoom using the penultimate position of the slider).
+1. Access the font size settings for the platform: Settings &gt; Accessibility &gt; Display and text size &gt; Larger text.
+1. Activate the "Larger accessibility sizes" button and increase the value of the font size (slider at the bottom of the screen) until a magnification of 200% is reached (the maximum of the gauge allows a zoom greater than 200%, so the test can be limited to increasing the zoom using the penultimate position of the slider).
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
 	- all the texts in the interface have been enlarged; 
