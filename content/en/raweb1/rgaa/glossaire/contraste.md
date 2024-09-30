@@ -2,7 +2,7 @@
 title: Contrast
 ---
 
-Marked contrast between the luminosity of a foreground colour and a background colour.
+Marked opposition between the luminosity of a foreground colour and a background colour.
 The contrast ratio is based on the difference in relative luminance between the background and foreground according to the rule
 (L1 + 0.05) / (L2 + 0.05) where L1 is the brightest relative luminance and L2 is the darkest relative luminance. Luminosity is calculated using the following formula: L = 0.2126 \* R + 0.7152 \* G + 0.0722 \* B. Where R, G and B are defined by
 

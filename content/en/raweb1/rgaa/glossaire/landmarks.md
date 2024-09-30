@@ -12,6 +12,6 @@ The roles must be defined in the document according to the nature of the zone:
 - The [footer region](#footer-region) must have a WAI-ARIA `role="contentinfo"` attribute;
 - The [search engine](#search-engine-internal-to-a-website) region on the website must have a WAI-ARIA `role="search"` attribute.
 
-Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. Skip links should therefore be used instead of landmarks.
+Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. The implementation of skip links therefore remains to be favored over landmarks.
 
 Note 2: The WAI-ARIA `banner`, `main` and `contentinfo` roles must be unique in the page. The WAI-ARIA `navigation` role is reserved for main and secondary navigation zones. When there are several WAI-ARIA `navigation` roles, it may be useful to differentiate them by specifying a name for each of the zones using the WAI-ARIA `aria-label` or `aria-labelledby` attribute.

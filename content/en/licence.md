@@ -9,6 +9,6 @@ The contents of [RAAM](./raam1/index.html) are edited by the [Information and Pr
 - [DISIC/RGAA-Apps](https://github.com/DISIC/rgaa-apps) (version dated 16/08/2017)
 - [DISIC/rgaa_methodologie](https://github.com/DISIC/rgaa_methodologie) (version of 31/07/2017)
 
-The contents of the [RAPDF](./rapdf1/index.html) are published by the [information and press service](https://sip.gouvernement.lu) and are licensed under a Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/).
+The contents of the [RAPDF](./rapdf1/index.html) are published by the [Information and Press Service](https://sip.gouvernement.lu) and are licensed under a Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/).
 
 All other content is published by the [Information and Press Service](https://sip.gouvernement.lu) and <a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/">licensed under a Creative Commons Attribution 3.0 Luxembourg Licence</a>.

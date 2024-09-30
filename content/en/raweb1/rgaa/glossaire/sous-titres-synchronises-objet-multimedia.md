@@ -6,4 +6,5 @@ Text of audio information (a character's words, noise that is important for unde
 
 Note 1: to differentiate between audio sources (different characters, voice-over, etc.), it is recommended that an appropriate mechanism be used (bracketing, italics, explicit announcement such as "voice-over: ...").
 
-Note 2: subtitling for translation (the `kind="subtitles"` attribute of the `<track>` tag in HTML5, for example) should not be confused with subtitling for the deaf and hard of hearing (the `kind="captions"` attribute of the `<track>` tag in HTML5, for example). These two types of subtitling serve different purposes. Only the presence and relevance of subtitling for the deaf and hard of hearing will ensure compliance.
+Note 2: subtitling for translation (the `kind="subtitles"` attribute of the `<track>` tag in HTML5, for example) should not be confused with captioning for the deaf and hard of hearing (the `kind="captions"` attribute of the `<track>` tag in HTML5, for example). Subtitling and captioning serve different purposes. Only the presence and relevance of captions for the deaf and hard of hearing will ensure compliance.
+ 

@@ -26,7 +26,7 @@ a self-assessment done by "Information and Press Service".
 The statement was last reviewed on <span class="basic-information statement-renewal-date">25 January 2024</span>. 	
 </p>
 <h3>Feedback and contact information</h3>
-<p class="basic-information feedback h-card">If you notice a lack of accessibility, send us an email to <a class="email u-email" href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>: describe your problem and specify the page on which it occured.
+<p class="basic-information feedback h-card">If you notice a lack of accessibility, please send us an email to <a class="email u-email" href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>: describe your problem and specify the page on which it occured.
 We commit to replying to you within 1 month. Within reasonable limits, the correction of the accessibility issue will preferably be carried out online such as to remedy the problem in a sustainable way.
 
 Should this not be possible, the information you requested can be made available to you in an accessible format of your choice:</p>
@@ -37,5 +37,5 @@ Should this not be possible, the information you requested can be made available
 <h3>Enforcement procedure</h3> 
 <p>Should the reply be unsatisfactory, you also have the possibility of informing the <a href="https://sip.gouvernement.lu/en.html">Information and Press Service</a>, the body responsible for supervising accessibility, via its <a href="https://sip.gouvernement.lu/en/support/reclamation-accessibilite.html">online complaint form</a> or the <a href="http://www.ombudsman.lu/" hreflang="fr">Ombudsperson</a>, the mediator of the Grand Duchy of Luxembourg.</p>
 <hr>
-<p><small>This statement is based on the model set out in the <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1523" hreflang="en">Implementing Decision (EU) 2018/1523</a>. This model is owned by the European Union and licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" hreflang="en">Creative Commons Attribution 4.0 International license.</a></small></p>
+<p><small>This statement is based on the model set out in the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018D1523" hreflang="en">Implementing Decision (EU) 2018/1523</a>. This model is owned by the European Union and licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" hreflang="en">Creative Commons Attribution 4.0 International license.</a></small></p>
 </div>	

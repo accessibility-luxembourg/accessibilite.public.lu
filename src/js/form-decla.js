@@ -296,7 +296,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
             errorPanel.innerHTML = "";
-            errorPanel.style.display = "none";
 
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
@@ -319,22 +318,21 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 });
                 location.hash = 'result';
             } else {
-                errorPanel.style.display = "block";
-                window.setTimeout(function () {
-                    errorPanel.innerHTML = errorMsg[pgLang].erGlobal;
-                    if (!checkLang) {
-                        document.getElementById('lang_fr').focus();
-                        document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
-                    } else  {
-                        for (let f = 0; f < fields.length; f++) {
-                            if (!fields[f].reportValidity()) {
-                                fields[f].focus();
-                                fields[f].parentElement.parentElement.before(errorPanel);
-                                break;
-                            }
+                if (!checkLang) {
+                    document.getElementById('lang_fr').focus();
+                    document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
+                } else  {
+                    for (let f = 0; f < fields.length; f++) {
+                        if (!fields[f].reportValidity()) {
+                            fields[f].focus();
+                            fields[f].parentElement.parentElement.before(errorPanel);
+                            break;
                         }
                     }
-                }, 10);
+                }
+                window.setTimeout(function () {
+                    errorPanel.innerHTML = '<p class="errorPanel" role="none">' + errorMsg[pgLang].erGlobal + '</p>';
+                }, 200);
             }
         })
     }
