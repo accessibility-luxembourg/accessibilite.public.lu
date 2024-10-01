@@ -548,3 +548,7 @@ form#decla p.errorPanel {
 .back {
   bottom: 2rem;
 }
+
+div.withSummary div.alert.alert-danger {
+  max-width: 53em;
+}
