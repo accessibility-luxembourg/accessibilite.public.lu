@@ -54,7 +54,7 @@ Only the content of the criteria and tests has normative value.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the decorative images in the original document.
 4. Check in PAC that each of them is absent from the rendered content (absence of the FIGURE element).
 5. If this is not the case, check that each image has no alternative (empty ALT element).
@@ -77,7 +77,7 @@ Only the content of the criteria and tests has normative value.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the images conveying information in the original document.
 4. Check in PAC that each image (FIGURE element) is accompanied by an alternative (ALT element).
 5. If this is not the case, check that the image is immediately followed by a link to a text alternative (LINK element).
@@ -97,7 +97,7 @@ Only the content of the criteria and tests has normative value.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the images conveying information in the original document.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the image is associated.
 6. If this is the case, the criterion is validated.
@@ -118,7 +118,7 @@ Only the content of the criteria and tests has normative value.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify the images conveying information that require detailed description in the original document.
 4. Check in PAC that each image (FIGURE element) is accompanied by an adjacent text that serves as a detailed description.
 5. If this is not the case, check that each image is accompanied by an adjacent link providing access to the detailed description.
@@ -164,7 +164,7 @@ Only the content of the criteria and tests has normative value.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate images associated with legends in the original document.
 4. Check in PAC that the legend is adjacent to the image (there is no content between the legend and the image).
 5. Check that the alternative image contains an explicit reference to the legend.
@@ -189,7 +189,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 2. Locate all text that may be presented as an image in the original document.
 3. Check in PAC that each text is actually presented in image form (FIGURE element).
 3. Check that the image is accompanied by an anchor (LINK element) enabling an alternative text version to be consulted.
@@ -357,7 +357,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the data tables in the original document.
 4. Check in PAC that each cell used as a header is correctly structured (TH element).
 5. If this is the case, the criterion is validated.
@@ -377,7 +377,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the layout tables in the original document.
 4. Check in PAC that when the cells are browsed in the order in which they are presented, the content remains understandable.
 5. If this is the case, the criterion is validated.
@@ -396,7 +396,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024    
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the presentation tables in the original document.
 4. Check in PAC that the table has no TH elements.
 5. If this is the case, the criterion is validated.
@@ -421,7 +421,7 @@ In these situations, the criterion does not apply:
 ###### Test 4.1.1 with Acrobat Reader and PAC 2024
 
 1. Open the PDF file with PAC.
-2. Open "Preview with screen reader", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
 3. Locate the links in the original document.
 4. Check in PAC that the link has a self-explanatory heading:
     - text content of the LINK element;
@@ -454,7 +454,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024    
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the image links in the original document.
 4. Check in PAC that the image has an alternative content (ALT element contained in the LINK element).
 5. Identify links built with a complex shape in the original document.
@@ -481,7 +481,7 @@ In these situations, the criterion does not apply:
 ###### Test 5.1.1 with PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the text passages that should be titles in the original document.
 4. Check in PAC that the title is presented using an Hx element where x is the title level, for example H1.
 5. If this is the case, the test is validated.
@@ -515,7 +515,7 @@ In these situations, the criterion does not apply:
 ###### Test 5.2.1 with PAC 2024 
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify the content presented as an unordered and ordered list in the original document.
 4. Check in PAC that
     - the list is presented using an L element;
@@ -543,7 +543,7 @@ In these situations, the criterion does not apply:
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Check that all the content uses appropriate elements, and in particular that there are no
     - blocks of text associated with an Hx element (for example a block of text associated with an H1 element);
     - successive empty paragraphs;
@@ -569,7 +569,7 @@ In these situations, the criterion does not apply:
 ###### Test 6.1.1 with Acrobat Reader and PAC 2024
 
 1. Open the PDF file with PAC.
-2. Open "Preview with screen reader", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
 3. Locate content in PAC that appears
     - as a column in the original document;
     - in the form of independent text zones, whether or not associated with a block of text in the original document.
@@ -729,7 +729,7 @@ In this case, the criterion is not applicable.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify the complex decorative shapes in the original document.
 4. Check in PAC that each of them is absent from the rendered content (absence of the FIGURE element).
 5. If this is not the case, check that each of them has no alternative (empty ALT element).
@@ -752,7 +752,7 @@ In this case, the criterion is not applicable.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify in the original document the complex shapes conveying information.
 4. Check in PAC that each of them (FIGURE element) is accompanied by a populated alternative (ALT element).
 5. If this is not the case, check that the complex shape is immediately followed by a link providing access to a text alternative (LINK element).
@@ -772,7 +772,7 @@ In this case, the criterion is not applicable.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify in the original document the complex shapes conveying information.
 4. Check in PAC that the alternatives (ALT element or content linked by an adjacent link) contain all the information needed to understand the content with which the complex shape is associated.
 6. If this is the case, the criterion is validated.
@@ -793,7 +793,7 @@ In this case, the criterion is not applicable.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify the complex shapes conveying information that require detailed description in the original document.
 4. Check in PAC that each of them is accompanied by an adjacent text that serves as a detailed description.
 5. If this is not the case, check that each one is accompanied by an adjacent link providing access to the detailed description.
@@ -835,7 +835,7 @@ In this case, the criterion is not applicable.
 ###### With PAC 2024
 
 1. Open the PDF file.
-2. Open "Preview with screen reader", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Identify the complex shapes associated with legends in the original document.
 4. Check in PAC that the legend is adjacent to the complex shape (there is no content between the legend and the complex shape).
 5. Check that the alternative for the complex shape contains an explicit reference to the legend.
