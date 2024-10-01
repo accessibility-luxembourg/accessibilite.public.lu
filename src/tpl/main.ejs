@@ -2,7 +2,7 @@
 <html lang="<%= lang %>" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title><%= title %> - <%= __("Digital accessibility portal") %></title>
+    <title><%= title %> - <%= __("Digital accessibility portal") %> <%= (process.env.PREVIEW !== undefined)?'PREVIEW':'' %></title>
     <link rel="apple-touch-icon" sizes="180x180" href="<%= prefix %>/html/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= prefix %>/html/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= prefix %>/html/favicon-16x16.png">
