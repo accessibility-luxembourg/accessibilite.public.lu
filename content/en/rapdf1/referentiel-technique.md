@@ -60,7 +60,7 @@ Only the content of the criteria and tests has normative value.
 5. If this is not the case, check that each image has no alternative (empty ALT element).
 6. If this is the case, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
@@ -170,7 +170,7 @@ Only the content of the criteria and tests has normative value.
 5. Check that the alternative image contains an explicit reference to the legend.
 6. If it does, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
@@ -342,7 +342,7 @@ In these situations, the criterion does not apply:
 4. Check that the alternative provides the same information as the complex data table.
 5. If it does, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
@@ -401,7 +401,7 @@ In these situations, the criterion does not apply:
 4. Check in PAC that the table has no TH elements.
 5. If this is the case, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
@@ -735,7 +735,7 @@ In this case, the criterion is not applicable.
 5. If this is not the case, check that each of them has no alternative (empty ALT element).
 6. If this is the case, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
@@ -859,7 +859,7 @@ In this case, the criterion is not applicable.
 4. Check that a definition is available in the adjacent context (immediately before or after the cryptic content).
 6. If so, the criterion is validated.
 
-##### Matches {class="disclosure mapping"}
+##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
