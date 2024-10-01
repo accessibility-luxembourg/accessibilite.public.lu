@@ -33,7 +33,7 @@
         <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") +__(l.name) %> <span class="symbol-required">* </span></label>
-                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
+                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required>
             </div>          
         <% }) %>                     
     </fieldset>
@@ -62,18 +62,17 @@
             <input type="radio" id="none" name="conformity" value="none" class="form-check-input"><label for="none" class="form-check-label" aria-describedby="help-none"><%= __("Non-compliance") %></label>
         </div>
         <p class="form-text text-muted"><small><%= __("The compliance status is assessed by a compliance audit.") %></small></p>
-            <ul>
-                <li id="help-total" class="text-muted">
-                    <small><%= __("Select \"Full compliance\" only if the level of compliance following the audit is 100%.") %></small>    
-                </li>
-                <li id="help-partial" class="text-muted">
-                    <small><%= __("Select \"Partial compliance\" if the level of compliance following the audit is between 50% and 100%.") %></small>
-                </li>
-                <li id="help-none" class="text-muted">
-                    <small><%= __("Select \"Non-compliant\" if a compliance audit has not yet been carried out or if the level of compliance following the audit is less than 50%.") %></small>
-                </li>
-            </ul>
-        </p>                
+        <ul>
+            <li id="help-total" class="text-muted">
+                <small><%= __("Select \"Full compliance\" only if the level of compliance following the audit is 100%.") %></small>    
+            </li>
+            <li id="help-partial" class="text-muted">
+                <small><%= __("Select \"Partial compliance\" if the level of compliance following the audit is between 50% and 100%.") %></small>
+            </li>
+            <li id="help-none" class="text-muted">
+                <small><%= __("Select \"Non-compliant\" if a compliance audit has not yet been carried out or if the level of compliance following the audit is less than 50%.") %></small>
+            </li>
+        </ul>               
     </fieldset>
     <fieldset class="form-group" id="features-access">
         <legend><%= __("Accessibility features") %></legend>         

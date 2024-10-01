@@ -20,15 +20,20 @@ if (chart_lang == "fr") {
             axis: {
                 rangeCategories: "Plage de données : {numCategories} catégories.",
                 rangeFromTo: "La plage de données s'étend de {rangeFrom} à {rangeTo}.",
-                xAxisDescriptionSingular: "L'axe des ordonnées présente les {names[0]}. {ranges[0]}",
-                yAxisDescriptionSingular: "L'axe des abscisses présente les Scores"
+                xAxisDescriptionSingular: "",
+                yAxisDescriptionSingular: ""
             },
             chartTypes: {
-                barSingle: "Diagramme en barres avec {numPoints} {#plural(numPoints, barres, barre)}.",
-                columnSingle: "Diagramme en colonnes avec {numPoints} {#plural(numPoints, barres, barre)}."
+                barSingle: "",
+                barMultiple: "",
+                defaultSingle: "",
+                defaultMultiple: "",
+                columnSingle: "",
+                columnMultiple: ""
             },
             table: {
-                viewAsDataTableButtonText: "Afficher en tableau"
+                viewAsDataTableButtonText: "Afficher en tableau",
+                tableSummary: "Affichage des données du graphique en tableau"
             },
             exporting: {
                 menuButtonLabel: "Ouvrir le menu du diagramme",
@@ -38,8 +43,34 @@ if (chart_lang == "fr") {
                 annotations: {
                     heading: "Sommaire des annotations"
                 },
-                endOfChartMarker: "Fin du diagramme interactif"
-            }
+                endOfChartMarker: ""
+            },
+            svgContainerLabel: '',
+            chartContainerLabel: ''
+        }
+    }
+}
+
+if (chart_lang == "en") {
+    Highcharts_translations =  {
+        accessibility: {
+            axis: {
+                xAxisDescriptionSingular: "",
+                yAxisDescriptionSingular: ""
+            },
+            chartTypes: {
+                barSingle: "",
+                barMultiple: "",
+                defaultSingle: "",
+                defaultMultiple: "",
+                columnSingle: "",
+                columnMultiple: ""
+            },
+            screenReaderSection: {
+                endOfChartMarker: ""
+            },
+            svgContainerLabel: '',
+            chartContainerLabel: ''
         }
     }
 }

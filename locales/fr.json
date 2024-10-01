@@ -120,5 +120,6 @@
   "format: dd/mm/yyyy, ex: 20/04/2020": "format&nbsp;: jj/mm/aaaa, ex&thinsp;: 20/04/2020",
   "Summary": "Sommaire",
   "Close the modal window": "Fermer la fenêtre modale",
-  "ex:": "ex&nbsp;:"
+  "ex:": "ex&nbsp;:",
+  "browse by article": "navigation par article"
 }

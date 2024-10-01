@@ -143,7 +143,14 @@ body article.news h2, body article.news h3 {
 }
 
 body article.news h2 {
-    font: normal 600 2.5em var(--article_font), sans-serif;
+    font: normal 600 2.1em var(--article_font), sans-serif;
+    word-break: break-word;
+}
+
+@media screen and (min-width: 400px) {
+    body article.news h2 {
+        font-size: 2.5em;
+    }
 }
 
 body article.news h3 {

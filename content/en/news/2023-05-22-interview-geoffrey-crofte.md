@@ -4,7 +4,7 @@ tags:
 - interview
 author: Dominique Nauroy
 ---
-<h2>"Few people know that people with disabilities can use digital tools"</h2>
+<h2>"<q>Few people know that people with disabilities can use digital tools</q>"</h2>
 <h3>Geoffrey Crofte is a UX designer at Foyer and puts digital accessibility issues at the heart of his work.</h3>
 <hr>
 <div class="intro">

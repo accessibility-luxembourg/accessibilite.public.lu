@@ -10,7 +10,7 @@ author: Dominique Nauroy
 <h3>What has been the evolution of accessibility statements on the issue of disproportionate burden in three years?</h3>
 <hr>
 <div class="intro">
-    <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is "reasonably impossible to make a content or feature accessible". This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
+    <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is "<q>reasonably impossible to make a content or feature accessible</q>". This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
     <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustration of an office worker overloaded with files">
