@@ -336,7 +336,7 @@ header ul.menu-lang .sr-only {
         text-decoration: none;
         font: normal 300 1rem "Fira Sans", sans-serif;
   
-        &:hover, &:focus {
+        &:hover, &:focus, &:focus:visited {
           background-color: $menu-navy-blue;
           color: white;
           text-decoration: none;

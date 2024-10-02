@@ -43,12 +43,12 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <li>vdl.lu.</li>
 </ul>
 <aside class="contextbox">
-    <h4>The top three PDF accessibility issues</h4>
-    <h5>Untagged PDFs</h5>
+    <h5>The top three PDF accessibility issues</h5>
+    <h6>Untagged PDFs</h6>
     <p>The PDF format was originally designed for printing. In 2001, a new version of this format introduced the concept of tagging, which provides assistive technologies with structured information about the content of pages, making them accessible to people with disabilities. In practice, tagging enables blind people to identify and interact with different types of content, such as titles, lists, paragraphs, tables, images, form fields, etc. The main office suites and DTP (Desktop Publishing) software can export tagged PDFs.</p>
-    <h5>Documents scanned in image mode</h5>
+    <h6>Documents scanned in image mode</h6>
     <p>When a paper document is scanned in image mode and exported in PDF format, optical character recognition (OCR) is required. Without this step, the document will consist solely of images for each page, which will not be accessible. Character recognition can be carried out using Adobe Acrobat Pro or any software specialising in OCR.</p>
-    <h5>Protection against the use of assistive technologies</h5>
+    <h6>Protection against the use of assistive technologies</h6>
     <p>The PDF format offers a number of options for protecting documents, for example against modification. One of these options protects the document against the use of assistive technologies by people with disabilities. This option can be activated by mistake and should be avoided overall.</p>
 </aside>
 <p>The analysis focused essentially on the three most blocking accessibility problems. There are, of course, many other potential accessibility problems (see the <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> PDF accessibility assessment framework for all the criteria to be met for producing accessible PDFs), but tagging is a prerequisite. If it is missing, a PDF is immediately considered not accessible.</p>
@@ -166,14 +166,14 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>It would also be appropriate to put in place processes to manage the accessibility of digitised documents (OCR and tagging stages or provision of an accessible alternative such as the source document before printing and digitisation) and, finally, to raise awareness among administrations to avoid using the PDF printing function as much as possible and to favour PDF export, which produces tagged documents.</p>
 <p>To go further and work on the accessibility of the PDF documents produced, the SIP is making available the <a href="https://accessibilite.public.lu/en/rapdf1/">RAPDF</a> framework, which sets out all the criteria to be met, and is offering a training course for the public sector entitled "<a href="https://fonction-publique.public.lu/fr/formation-developpement/catalogue-formations/secteur-etatique/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibility of PDF documents in practice</a>". If you are interested, don't hesitate to sign up.</p>
 <aside class="contextbox">
-    <h5>Evaluation methodology</h5>
-    <h6>Setting up the sample</h6>
+    <h4>Evaluation methodology</h4>
+    <h5>Setting up the sample</h5>
     <p>The sample of sites was obtained from <a href="https://github.com/zakird/crux-top-lists">the list of sites in the Top 1 Million of the Google Chrome UX Report</a> (see also the <a href="https://developer.chrome.com/docs/crux/methodology/">methodology</a> used by Google to compile this list). We searched for all .lu sites and detected sites in <a href="https://data.public.lu/en/datasets/inventaire-des-sites-publics/">the inventory of public sites</a> published by the SIP as open data. To simplify the exercise, we kept only State and local authority sites and excluded sites requiring identification as well as duplicates (e.g. www.services-publics.lu and guichet.public.lu). This method produced the list of 17 sites presented at the beginning of this article.</p>
-    <h6>File analysis</h6>
+    <h5>File analysis</h5>
     <p>The <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler">simplA11yPDFCrawler</a> tool, developed at SIP, was used to collect and analyse the PDFs on these 17 sites. Only the office documents present on these sites were downloaded; external links were not taken into account. In order to carry out the study in a reasonable timeframe, this collection was limited to 24 hours per site, which means that some sites may make more documents available than those analysed in this study.</p>
-    <h6>Limitations of the study</h6>
+    <h5>Limitations of the study</h5>
     <p>The tests do not verify the presence of an accessible alternative. Nor do they check whether the PDFs published are under the control of the publishing authority (exemption provided for in the law).</p>
     <p>The law provides an exemption from the obligation to comply for all files published before 23 September 2018. Technically, we have no way of knowing the date of publication of a file. To get an approximation of this date, we have used the date on which the file was last modified, on the assumption that this date would be fairly close to the publication date and that a document cannot be published before it has been created or modified. This is a conservative assumption, and potentially underestimates the number of files falling within the scope of the law.</p>
-    <h6 lang="en">Open data</h6>
+    <h5 lang="en">Open data</h5>
     <p>All the data used in this study is available in <span lang="en">Open data</span> in the dataset <a href="https://data.public.lu/en/datasets/analyse-de-laccessibilite-numerique-des-fichiers-pdf-presents-sur-les-17-sites-publics-les-plus-visites-avril-2023/">Analysis of the digital accessibility of PDF files on the 17 most visited public sites - April 2023</a>, under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr">CC0 licence</a>.</p>
 </aside>

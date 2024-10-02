@@ -39,7 +39,7 @@
 <p>En dépit de ces garde-fous, c’est bien à un changement de paradigme dans l’ensemble de l’Union européenne que prépare cet Acte européen, avec l’ambition de voir sur le marché des produits et services réellement utilisables par tout le monde.</p>
 <p>Cet article a été mis à jour le 29 mars 2023.</p>
 <aside class="more">
-    <h5>Sur le même sujet</h5>
+    <h4>Sur le même sujet</h4>
     <ul>
         <li><a href="2023-02-20-rapport2022.html">2022, l’année de la prise de conscience</a></li>
         <li><a href="2023-02-24-complaints2022.html">Des utilisateurs toujours en quête de solutions</a></li>

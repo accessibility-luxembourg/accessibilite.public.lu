@@ -39,7 +39,7 @@
 <p>Despite these safeguards, this European Act is preparing for a paradigm shift throughout the European Union, with the ambition of seeing products and services on the market that are genuinely usable by everyone.</p>
 <p>This article was updated on 29 March 2023.</p>
 <aside class="more">
-    <h5>On the same subject</h5>
+    <h4>On the same subject</h4>
     <ul>
         <li><a href="2023-02-20-rapport2022.html">2022, the year of awareness</a></li>
         <li><a href="2023-02-24-complaints2022.html">Users still looking for solutions</a></li>

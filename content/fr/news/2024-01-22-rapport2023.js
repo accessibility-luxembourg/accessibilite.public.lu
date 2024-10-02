@@ -55,28 +55,6 @@ const graph_translations = {
         "simple_compliance": {
             "title": "Graph 5. Level of compliance by administrative area"
         }
-    },
-    "de": {
-        "categories": "Categories",
-        "admin_level": "Administrative area",
-        "theme": "Theme",
-        "compliance": "Partial<br>compliance",
-        "compliance_desc": "Partial compliance is reached at 50%.",
-        "full_compliance": {
-            "title": "Graph 1. Level of compliance of audited sites in 2023, as a percentage"
-        },
-        "full_themes": {
-            "title": "Graph 2. Top 10 non-compliances found in the sample"
-        },
-        "full_app_compliance": {
-            "title": "Graph 3. Compliance rate for apps audited in 2023"
-        },
-        "simple_compliance_top10": {
-            "title": "Graph 4. Top 10 public sites targeted by a simplified audit"
-        },
-        "simple_compliance": {
-            "title": "Graph 5. Level of compliance by administrative area"
-        }
     }
 }
 

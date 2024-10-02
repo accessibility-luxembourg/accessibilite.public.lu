@@ -43,12 +43,12 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <li>vdl.lu.</li>
 </ul>
 <aside class="contextbox">
-    <h4>Les trois problèmes d’accessibilité des PDF les plus bloquants</h4>
-    <h5>Les PDF non balisés</h5>
+    <h5>Les trois problèmes d’accessibilité des PDF les plus bloquants</h5>
+    <h6>Les PDF non balisés</h6>
     <p>Le format PDF est à la base un format destiné à l’impression. En 2001, une nouvelle version de ce format a introduit le concept de balisage («&#8239;<span lang="en">tagging</span>&#8239;») qui permet de fournir aux technologies d’assistance des informations structurées sur le contenu des pages et ainsi de le rendre accessible aux personnes en situation de handicap. En pratique, le balisage permet aux personnes aveugles d’identifier et d’interagir avec les différents types de contenus comme les titres, les listes, les paragraphes, les tableaux, les images, les champs de formulaires, etc. Les principales suites bureautiques et logiciels de PAO (Publication Assistée par Ordinateur) permettent d’exporter des PDF balisés.</p>
-    <h5>Les documents numérisés en mode image</h5>
+    <h6>Les documents numérisés en mode image</h6>
     <p>Lorsqu’un document papier est numérisé en mode image et exporté au format PDF, il est nécessaire d’opérer une reconnaissance optique des caractères (en anglais «&#8239;<span lang="en">optical character recognition</span>&#8239;» ou OCR). Sans cette étape, le document sera constitué uniquement d’images pour chaque page qui ne seront pas accessibles. La reconnaissance des caractères peut être réalisée via Adobe Acrobat Pro ou via tout logiciel spécialisé dans l’OCR.</p>
-    <h5>La protection contre l’utilisation de technologies d’assistance</h5>
+    <h6>La protection contre l’utilisation de technologies d’assistance</h6>
     <p>Le format PDF propose de nombreuses options de protection des documents, par exemple contre la modification. Une de ces options protège le document contre l’utilisation de technologies d’assistance par les personnes handicapées. Cette option peut être activée par erreur et est globalement à proscrire.</p>
 </aside>
 <p>L’analyse a porté essentiellement sur les trois problèmes d’accessibilité les plus bloquants. Il existe bien entendu de nombreux autres problèmes d’accessibilité potentiels (voir le référentiel d'évaluation de l'accessibilité des documents au format PDF <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a> pour l’ensemble des critères à respecter pour la production de PDF accessibles) mais le balisage est un prérequis. S’il est absent, un PDF est directement considéré comme non accessible.</p>
@@ -166,14 +166,14 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Il serait aussi pertinent de mettre en place des processus permettant de gérer l’accessibilité des documents numérisés (étapes d’OCR et de balisage ou fourniture d’une alternative accessible comme le document source avant impression et numérisation) et enfin de sensibiliser les administrations pour éviter le plus possible le recours à la fonction d’impression en PDF et de privilégier l’export en PDF qui, lui, produit des documents balisés.</p>
 <p>Pour aller plus loin et travailler sur l’accessibilité des PDF produits, le SIP met à disposition le référentiel <a href="https://accessibilite.public.lu/fr/rapdf1/">RAPDF</a>, qui présente l’ensemble des critères à respecter, et propose pour le secteur public une formation intitulée «&#8239;<a href="https://fonction-publique.public.lu/fr/formation-developpement/catalogue-formations/secteur-etatique/04organisat/04-6-egalch/et_04-6-3-31.html">Accessibilité des documents PDF par la pratique</a>&#8239;». Si vous êtes concernés, n’hésitez pas à vous y inscrire.</p>
 <aside class="contextbox">
-    <h5>Méthodologie d’évaluation</h5>
-    <h6>Constitution de l’échantillon</h6>
+    <h4>Méthodologie d’évaluation</h4>
+    <h5>Constitution de l’échantillon</h5>
     <p>L’échantillon de sites a été obtenu à partir de <a href="https://github.com/zakird/crux-top-lists">la liste des sites dans le Top 1 Million de l’UX Report de Google Chrome</a> (voir aussi la <a href="https://developer.chrome.com/docs/crux/methodology/">méthodologie</a> utilisée par Google pour établir cette liste). Nous y avons recherché tous les sites en .lu et détecté les sites présents dans <a href="https://data.public.lu/fr/datasets/inventaire-des-sites-publics/">l’inventaire des sites publics</a> publié par le SIP en open data. Pour simplifier l’exercice, nous avons gardé uniquement les sites de l’État et des communes et exclu les sites demandant une identification ainsi que les doublons (ex&#8239;: www.services-publics.lu et guichet.public.lu). Cette méthode a permis d’obtenir la liste des 17 sites présentée en début d’article.</p>
-    <h6>Analyse des fichiers</h6>
+    <h5>Analyse des fichiers</h5>
     <p>L’outil <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler">simplA11yPDFCrawler</a>, développé au SIP, a été utilisé pour collecter les PDF sur ces 17 sites et les analyser. Seuls les documents bureautiques présents sur ces sites ont été téléchargés, les liens externes n’ont pas été pris en compte. Afin de pouvoir réaliser l’étude en un temps raisonnable, cette collecte a été limitée à 24 heures par site, ce qui signifie que certains sites peuvent mettre à disposition plus de documents que ceux analysés dans le cadre de cette étude.</p>
-    <h6>Limites de l’étude</h6>
+    <h5>Limites de l’étude</h5>
     <p>Les tests ne vérifient pas la présence d’une alternative accessible. Ils ne vérifient pas non plus si les PDF publiés sont sous le contrôle de l’administration qui le publie (exemption prévue dans la loi).</p>
     <p>La loi prévoit une exemption de l’obligation de conformité pour tous les fichiers publiés avant le 23 septembre 2018. Nous n’avons techniquement pas moyen de connaitre la date de publication d’un fichier. Pour avoir une approximation de cette date, nous avons utilisé la date de dernière modification du fichier, en supposant que cette date serait assez proche de la date de publication et qu’un document ne peut être publié avant d’avoir été créé ou modifié. Il s’agit d’une hypothèse conservatrice, elle sous-estime potentiellement le nombre de fichiers entrant dans le cadre de la loi.</p>
-    <h6 lang="en">Open data</h6>
+    <h5 lang="en">Open data</h5>
     <p>L’ensemble des données ayant servi à cette étude est disponible en <span lang="en">Open data</span> dans le jeu de données <a href="https://data.public.lu/fr/datasets/analyse-de-laccessibilite-numerique-des-fichiers-pdf-presents-sur-les-17-sites-publics-les-plus-visites-avril-2023/">Analyse de l'accessibilité numérique des fichiers PDF présents sur les 17 sites publics les plus visités - avril 2023</a>, sous <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr">licence CC0</a>.</p>
 </aside>

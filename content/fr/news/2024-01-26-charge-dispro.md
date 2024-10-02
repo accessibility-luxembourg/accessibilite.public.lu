@@ -42,7 +42,7 @@ auteur: Dominique Nauroy
 <h4>Un point de méthodologie</h4>
 <p>Tout organisme du secteur public qui publie un site Internet ou une app mobile a l’obligation de publier une déclaration d’accessibilité et d’en informer le Service information et presse. C’est sur cette base que nous avons réalisé cet article, mais pas uniquement. Un <span lang="en">crawler</span> a parcouru l’ensemble des sites répertoriés dans l’inventaire du SIP pour s’assurer que des déclarations qui ne nous seraient pas parvenues existaient, cela afin d’obtenir les résultats les plus actuels.</p>
 <aside class="more">
-    <h5>Pour en savoir plus (formats XLSX)</h5>
+    <h4>Pour en savoir plus (formats XLSX)</h4>
     <ul>
         <li><a href="https://data.public.lu/fr/datasets/r/2c6ba70f-a41f-4c50-a224-033a94d00fa9">L'inventaire des sites publics</a></li>
         <li><a href="https://data.public.lu/fr/datasets/r/756ecd5c-75d2-49a6-9cf4-aa4c70a28f8c">L'inventaire des apps publiques</a></li>

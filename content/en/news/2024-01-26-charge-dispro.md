@@ -42,7 +42,7 @@ author: Dominique Nauroy
 <h4>A point of methodology</h4>
 <p>Any public sector body that publishes a website or mobile app must publish an accessibility statement and inform the Information and Press Service. It is on this basis that we produced this article, but not only. A crawler went through all the sites listed in the SIP inventory to check for statements that had not been sent to us, in order to obtain the most up-to-date results.</p>
 <aside class="more">
-    <h5>To find out more (XLSX format)</h5>
+    <h4>To find out more (XLSX format)</h4>
     <ul>
         <li><a href="https://data.public.lu/en/datasets/r/2c6ba70f-a41f-4c50-a224-033a94d00fa9">Inventory of public sites</a></li>
         <li><a href="https://data.public.lu/en/datasets/r/756ecd5c-75d2-49a6-9cf4-aa4c70a28f8c">Inventory of public apps</a></li>
