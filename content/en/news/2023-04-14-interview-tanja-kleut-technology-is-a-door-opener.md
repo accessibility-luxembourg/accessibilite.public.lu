@@ -5,7 +5,7 @@ tags:
 author: Dominique Nauroy
 ---
 <div lang="en">
-<h2>Tanja Kleut: "<q>Technology is a door opener</q>"</h2>
+<h2>Tanja Kleut: <q>Technology is a door opener</q></h2>
 <h3>In this interview we discuss accessibility, digital barriers and how technology is helping blind people to be more independent in their daily lives</h3>
 <hr>
 <div class="intro">

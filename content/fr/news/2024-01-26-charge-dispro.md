@@ -10,7 +10,7 @@ auteur: Dominique Nauroy
 <h3>En trois ans, comment ont évolué les déclarations d’accessibilité sur la question de la charge disproportionnée&#8239;?</h3>
 <hr>
 <div class="intro">
-    <p>Les organismes publics peuvent déroger certains contenus publiés en ligne des règles d’accessibilité, en invoquant le motif de la «&#8239;charge disproportionnée&#8239;» lorsqu’il lui est «&#8239;<q>raisonnablement impossible de rendre un contenu ou une fonctionnalité accessible</q>&#8239;». Derrière cette formulation, il est tenu compte notamment des coûts qui devraient être engagés par rapport à l’avantage estimé pour les personnes handicapées.</p>
+    <p>Les organismes publics peuvent déroger certains contenus publiés en ligne des règles d’accessibilité, en invoquant le motif de la «&#8239;charge disproportionnée&#8239;» lorsqu’il lui est <q>raisonnablement impossible de rendre un contenu ou une fonctionnalité accessible</q>. Derrière cette formulation, il est tenu compte notamment des coûts qui devraient être engagés par rapport à l’avantage estimé pour les personnes handicapées.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
     <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Image d'illustration représentant un employé de bureau croulant sous les dossiers">

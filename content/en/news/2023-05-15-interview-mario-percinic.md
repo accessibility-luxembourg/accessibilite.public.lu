@@ -5,7 +5,7 @@ tags:
 author: Dominique Nauroy
 ---
 <div lang="en">
-<h2>"<q>I know what I would not be able to achieve without accessibility</q>"</h2>
+<h2><q>I know what I would not be able to achieve without accessibility</q></h2>
 <h3>Mario Perčinić has lived and worked in Luxembourg since 2016. With him, we have talked about music, programming, shopping and, of course, accessibility.</h3>
 <hr>
 <div class="intro">

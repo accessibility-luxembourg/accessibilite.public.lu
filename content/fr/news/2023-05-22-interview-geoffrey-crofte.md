@@ -4,7 +4,7 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<h2>«&#8239;<q>Peu de gens savent que les handicapés peuvent utiliser les outils numériques</q>&#8239;»</h2>
+<h2><q>Peu de gens savent que les handicapés peuvent utiliser les outils numériques</q></h2>
 <h3>Geoffrey Crofte est <span lang="en">UX designer</span> chez Foyer et place les questions d’accessibilité numérique au cœur de son travail.</h3>
 <hr>
 <div class="intro">

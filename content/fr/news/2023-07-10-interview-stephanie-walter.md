@@ -4,7 +4,7 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<h2>«&#8239;<q>Les bonnes pratiques des développeurs rejaillissent sur l’accessibilité</q>&#8239;»</h2>
+<h2><q>Les bonnes pratiques des développeurs rejaillissent sur l’accessibilité</q></h2>
 <h3>L’accessibilité numérique devient un impératif pour nombre d’entreprises. Stéphanie Walter, experte en design inclusif, insiste sur le choix du bon partenaire.</h3>
 <hr>
 <div class="intro">

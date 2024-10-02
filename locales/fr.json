@@ -78,13 +78,13 @@
   "Statement": "Déclaration",
   "Copy to clipboard": "Copier dans le presse-papier",
   "Download HTML": "Télécharger au format html",
-  "<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Thank you!": "<strong>Attention&nbsp;! </strong> Une fois votre déclaration publiée, vous avez un mois pour informer le SIP de cette publication. Envoyez-nous l'URL de votre déclaration par mail à <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Merci&nbsp;!",
+  "<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Thank you!": "<strong>Attention&nbsp;! </strong> Une fois votre déclaration publiée, vous avez un mois pour informer le SIP de cette publication. Envoyez-nous l'URL de votre déclaration par mail à <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite<wbr>@sip.etat.lu</a>. Merci&nbsp;!",
   "previous article": "article précédent",
   "next article": "article suivant",
   "Back to top": "Haut de page",
   "Self-assessment": "Auto-évaluation",
   "Assessment carried out by a third-party": "Évaluation réalisée par un tiers",
-  "(ex: accessibility@organisation.public.lu)": "(ex&thinsp;: accessibilite@organisme.public.lu)",
+  "(ex: accessibility@organisation.public.lu)": "(ex&thinsp;: accessibilite<wbr>@organisme.public.lu)",
   "(ex: \"Information and Press Service\")": "(ex&thinsp;: \"Service information et presse\")",
   "cookie-charter": "charte-des-cookies",
   "This site is published by the <a href=\"%s\">Information and Press Service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s%s\">cookies policy</a>.": "Ce site est édité par le <a href=\"%s\">Service information et presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l'analyse des statistiques d'utilisation. Pour plus d’information, veuillez consulter notre <a href=\"%s%s\">charte des cookies</a>.",
@@ -121,5 +121,6 @@
   "Summary": "Sommaire",
   "Close the modal window": "Fermer la fenêtre modale",
   "ex:": "ex&nbsp;:",
-  "browse by article": "navigation par article"
+  "browse by article": "navigation par article",
+  "<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite<wbr>@sip.etat.lu</a>. Thank you!": "<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite<wbr>@sip.etat.lu</a>. Thank you!"
 }

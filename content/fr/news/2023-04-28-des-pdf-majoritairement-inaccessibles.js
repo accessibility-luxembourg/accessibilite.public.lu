@@ -31,7 +31,7 @@ const graph_translations = {
         "pdf-20230503-3": {
           "year": "Année",
           "title": "Graphique 3. Quantité de PDF publiés par année",
-          "quantity": "Quantité"
+          "quantity": "PDF"
         },
         "pdf-20230503-4": {
           "title": "Graphique 4. Part des PDF balisés en pourcentage",
@@ -40,7 +40,8 @@ const graph_translations = {
         "pdf-20230503-5": {
           "title": "Graphique 5. Part des PDF numérisés parmi les non balisés en %",
           "pct": "Part en pourcentage"
-        }
+        },
+        "pct": "Pourcentage"
     },
     "en": {
       "pdf-20230503-1": {
@@ -60,7 +61,7 @@ const graph_translations = {
       "pdf-20230503-3": {
         "year": "Year",
         "title": "Graph 3. Number of PDFs published per year",
-        "quantity": "Amount"
+        "quantity": "PDF"
       },
       "pdf-20230503-4": {
         "title": "Graph 4. Percentage of tagged PDFs",
@@ -69,36 +70,8 @@ const graph_translations = {
       "pdf-20230503-5": {
         "title": "Graph 5. Percentage of digitised PDFs among non-tagged PDFs",
         "pct": "Percentage share"
-      }
-    },
-    "de": {
-      "pdf-20230503-1": {
-        "taggedPDF": "Tagged PDFs covered by the law",
-        "untaggedPDF": "Non-tagged PDFs covered by the law",
-        "forms": "Forms",
-        "taggedOthers": "Other structured documents",
-        "untaggedOthers": "Other unstructured documents",
-        "exemptPDF": "Exempt PDFs",
-        "title": "Graph 1. Breakdown of PDFs available for download",
-        "subtitle": "Out of a total of 25,398 files"
       },
-      "pdf-20230503-2": {
-        "year": "Year",
-        "title": "Graph 2. Percentage of non-tagged PDFs by year"
-      },
-      "pdf-20230503-3": {
-        "year": "Year",
-        "title": "Graph 3. Number of PDFs published per year",
-        "quantity": "Amount"
-      },
-      "pdf-20230503-4": {
-        "title": "Graph 4. Percentage of tagged PDFs",
-        "pct": "Percentage share"
-      },
-      "pdf-20230503-5": {
-        "title": "Graph 5. Percentage of digitised PDFs among non-tagged PDFs",
-        "pct": "Percentage share"
-      }
+        "pct": "Percentage"
     }
 }
 
@@ -272,7 +245,7 @@ function loadchart (chartid) {                                                  
                         Highcharts,
                         graph_translations[Graph.chart_lang]["pdf-20230503-2"].title, 
                         "pdf-20230503-2", 
-                        [{data: Graph.get_num(results.data, 'pct-non-tagged'), name: "Pourcentage"}],
+                        [{data: Graph.get_num(results.data, 'pct-non-tagged'), name: graph_translations[Graph.chart_lang].pct}],
                         'column', 
                         "", 
                         c_x, 
