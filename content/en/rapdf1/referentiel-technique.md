@@ -198,7 +198,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.5 Text as an image (AA)](https://www.w3.org/TR/WCAG21/#images-of-text):
+- WCAG 2.1 [1.4.5 Images of text (AA)](https://www.w3.org/TR/WCAG21/#images-of-text):
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7);
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*.
@@ -226,7 +226,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14);
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
@@ -325,7 +325,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
@@ -344,7 +344,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
@@ -384,7 +384,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.2 Meaningful sequence*.
 
@@ -428,7 +428,7 @@ In these situations, the criterion does not apply:
     - text content of the ALT element of the image (FIGURE element) contained in the link;
     - or a combination of the two.
 5. If this is not the case, check in PAC that the sentence containing the link makes it explicit.
-6. If this is not the case, check in PAC that the title immediately preceding the link (Hx element) makes it clear.
+6. If this is not the case, check in PAC that the title immediately preceding the link (Hx element) makes it explicit.
 7. If this is the case, the test is validated.
 
 ###### Test 4.1.2 with Acrobat Reader and PAC 2024
@@ -440,7 +440,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
+- WCAG 2.1 [2.4.4 Link purpose in context (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
@@ -463,7 +463,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.4.4 Function of the link (according to context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
+- WCAG 2.1: [2.4.4 Link purpose in context (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
@@ -490,7 +490,7 @@ In these situations, the criterion does not apply:
 
 1. Open the PDF file and consult the table of contents or display the list of titles ("bookmark" icon in the left-hand side panel).
 2. Check that the tree structure is consistent (the proposed tree structure represents the levels of titles).
-3. If it is, the test is validated.
+3. If this is the case, the test is validated.
 
 ###### Test 5.1.3 with Acrobat Reader
 
@@ -587,11 +587,11 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.2 Logical sequential order (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
+- WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - WCAG 2.1 [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- WCAG 2.1 [2.4.3 Focus path (A)](https://www.w3.org/TR/WCAG21/#focus-order):
+- WCAG 2.1 [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*, *10.2.1.1 Keyboard*, *10.2.4.3 Focus order*.
@@ -639,7 +639,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
 
@@ -660,7 +660,7 @@ In these situations, the criterion is not applicable:
 1. Open the PDF file.
 2. Check that the contents are preceded by a table of contents.
 3. If not, check that there is a table of contents in the left-hand side panel ("bookmark" icon) of Acrobat Reader.
-6. If it is, the criterion is validated.
+6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -686,11 +686,11 @@ In this case, the criterion is not applicable.
 1. Open the PDF file.
 2. Consult the properties panel ("File" menu, then "Properties" option) and the "Description" tab.
 3. Check that the "Title" field is filled in.
-4. If it is, the criterion is validated.
+4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/TR/WCAG21/#page-titled):
+- WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
@@ -709,18 +709,18 @@ In this case, the criterion is not applicable.
 1. Open the PDF file.
 2. View the properties panel ("File" menu, then "Properties" option) and the "Description" tab.
 3. Check that the text entered in the "Title" field is relevant.
-4. If it is, the criterion is validated.
+4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.2 Page title (A)](https://www.w3.org/TR/WCAG21/#page-titled):
+- WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
 
 ### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
 #### [Criterion 9.1](#crit-9-1) [A] Is each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape correctly ignored by assistive technologies? {id="crit-9-1"}
-- **Does each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape satisfy one of these conditions?{id="test-9-1-1"}
+- **[Test 9.1.1](#test-9-1-1)** Does each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape satisfy one of these conditions?{id="test-9-1-1"}
     - The complex shape has no alternative.
     - The complex shape is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
 
@@ -908,7 +908,7 @@ In this case, the criterion is not applicable.
 This topic only covers interactive forms filled in with Acrobat Reader.
 PDF forms can only be created using Acrobat Pro or specialised PDF form editing software.
 
-In addition, the test methodology requires the use of a screen reader.
+In addition, the testing methodology requires the use of a screen reader.
 For these reasons, this topic has been deliberately isolated to the last part of the framework.
 
 The assessment methodology is based on the screen reader [NVDA](https://www.nvaccess.org/download/), which can be freely installed and used on a Windows computer.
@@ -997,7 +997,7 @@ However, a test by a person with a disability using his or her own assistive tec
 
 1. Open the PDF file.
 2. Check that the visible labels are attached to the fields with which they are associated.
-3. If so, the criterion is validated.
+3. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -1031,13 +1031,13 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - it is a text indication (e.g. "mandatory");
     - or it is a visual indication (e.g. "\*") defined before the form by a text indication (e.g. "Fields preceded by (\*) are mandatory").
 4. With NVDA, use the tab key to activate each field and check that the mandatory nature of the input is rendered vocally.
-5. If it is, the criterion is validated.
+5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (E)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html).
-- WCAG 2.1 [3.3.1 Error identification (E)](https://www.w3.org/TR/WCAG21/#error-identification):
+- WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
@@ -1120,7 +1120,7 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [3.3.3 Suggestion after an error (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
+- WCAG 2.1 [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
 
@@ -1135,7 +1135,7 @@ In these situations, the criterion is not applicable:
 1. Open the PDF file and activate NVDA.
 2. With NVDA, use the tab key to activate each button.
 3. Check that a title is rendered vocally.
-4. If it is, the criterion is validated.
+4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 - WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):

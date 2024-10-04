@@ -1,8 +1,8 @@
 ### A
 
-#### Absent from playback (decorative image)
+#### Absent from rendering (decorative image)
 
-The image is declared as "decorative" (for example in Microsoft Office) or "artefact" (Acrobat Pro), so that it is not part of the content made available for playback.
+The image is declared as "decorative" (for example in Microsoft Office) or "artefact" (Acrobat Pro), so that it is not part of the content made available for rendering.
 
 #### Adjacent colours
 Colour directly in contact with the colours of the graphic element, such as the background colour or any other colour in direct contact.
@@ -215,8 +215,13 @@ The default size is the size of the body text.
 
 ### P
 
-#### Playback order
-In an office environment, the playback order is determined by the order in which content is written. 
+#### Presentation table
+A table used to display information in cells without the need for a column or row header.
+
+### R
+
+#### Rendering order
+In an office environment, the rendering order is determined by the order in which content is written. 
 However, certain bad practices can disrupt the order in which content is rendered.
 
 For example
@@ -234,11 +239,6 @@ If the text zone and the content block have no logical relationship, the criteri
 Conversely, if the text zone and content block must be rendered in a particular order and the wrapping or anchoring does not respect this order, the criterion will be non-compliant.
 
 Other problems with the order of rendering may be found, but it is not possible to specify them here.
-
-#### Presentation table
-A table used to display information in cells without the need for a column or row header.
-
-### R
 
 #### Replacement mechanism (enhanced contrast)
 Method that allows the user to get a version of the document with sufficient contrast. 

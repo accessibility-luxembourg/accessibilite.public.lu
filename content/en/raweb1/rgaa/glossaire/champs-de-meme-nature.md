@@ -1,5 +1,5 @@
 ---
-title: Related form controls
+title: related form controls
 ---
 
 In a form, a set of fields which can be grouped together according to the nature of the information required. The purpose of grouping is to identify which fields should be treated as a whole.
