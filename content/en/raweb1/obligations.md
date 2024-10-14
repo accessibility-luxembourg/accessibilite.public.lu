@@ -229,7 +229,7 @@ Therefore, although the compliance of this content is not required, it must comp
 - [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10): Is each automatically triggered sound controllable by the user?
 - [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): On each web page, navigation must not contain any keyboard traps. Is this rule respected?
 - [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (`<object>` tag, `<embed>` tag, `<svg>` tag, `<canvas>` tag, `<meta>` tag) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in luminosity or flashing effects used appropriately?
+- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in brightness or flashing used appropriately?
 - [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each web page, can each moving or blinking content be controlled by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.

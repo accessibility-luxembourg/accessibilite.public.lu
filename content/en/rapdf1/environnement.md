@@ -1,6 +1,6 @@
 Some of the tests in the PDF accessibility assessment framework are carried out using a dedicated test tool and the assistive technologies made available on the platforms.
 
-### Test environment
+### Testing environment
 
 Although PDF documents can be used on the macOS platform, there is no tool for checking the accessibility of PDF documents.
 

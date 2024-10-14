@@ -51,7 +51,7 @@ For the convenience of users, this site may contain links to other sites that ma
 
 #### Intellectual property
 
-All content on this website is published by the [Information and Press Service](https://sip.gouvernement.lu) and licensed under [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). For more information, please consult our [licence](licence.html) page.
+All content on this website is published by the [Information and Press Service](https://sip.gouvernement.lu/en) and licensed under [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/). For more information, please consult our [licence](licence.html) page.
 
 #### Modification of the general conditions of use
 
@@ -75,7 +75,7 @@ The person responsible for this processing is the Information and Press Service.
 
 Users may lodge complaints regarding the protection of their data via the respective communication channels provided and with the party responsible, in this case the Information and Press Service. Users may also submit their complaints to the Data Protection Officer of the Information and Press Service at the following e-mail address: [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
 
-Users may also contact the [Commission nationale pour la protection des données](https://cnpd.public.lu/), whose registered office is at 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette, for any dispute in this area.
+Users may also contact the [Commission nationale pour la protection des données](https://cnpd.public.lu/en.html), whose registered office is at 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette, for any dispute in this area.
 
 
 

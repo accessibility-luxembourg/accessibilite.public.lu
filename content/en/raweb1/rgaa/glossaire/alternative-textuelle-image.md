@@ -2,7 +2,7 @@
 title: Text alternative (image)
 ---
 
-"Accessible name" rendered by assistive technologies for graphic elements such as
+"Accessible name" rendered by assistive technologies for graphic elements such as:
 
 - Image (`<img>` tag or opening tag with a WAI-ARIA `role="img"` attribute);
 - Image map area (`<area>` tag);
@@ -14,7 +14,7 @@ title: Text alternative (image)
 
 In the case of a graphic element, the "accessible name" is obtained in the following order:
 
-- Passage of associated text via the WAI-ARIA `aria-labelledby` attribute for the tags
+- Passage of associated text via the WAI-ARIA `aria-labelledby` attribute for the tags:
   - `<img>`;
   - `<input type="image"> `;
   - `<svg> `;
@@ -22,7 +22,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<embed type="image/…"> `;
   - `<canvas> `;
   - tags with a WAI-ARIA `role="img"` attribute.
-- Otherwise, value of the WAI-ARIA `aria-label` attribute for elements
+- Otherwise, value of the WAI-ARIA `aria-label` attribute for elements:
   - `<img>`;
   - `<area>`;
   - `<input type="image">`;
@@ -31,7 +31,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<embed type="image/…">`;
   - `<canvas>`;
   - opening tags with a WAI-ARIA `role="img"` attribute.
-- Otherwise, value of the `alt` attribute for tags
+- Otherwise, value of the `alt` attribute for tags:
   - `<img>`;
   - `<area>`;
   - `<input type="image"> `.
@@ -45,12 +45,12 @@ This order must be used to determine what constitutes the text alternative.
 
 However, in the case of partial support of the algorithm for calculating the "accessible name", it is the value actually rendered by the assistive technologies used in the test environment (or "baseline") that should be considered as the text alternative.
 
-For example
+For example:
 
 - In the case of the joint presence of a WAI-ARIA `aria-label` attribute and a WAI-ARIA `aria-labelledby` attribute on an `<img>` tag, it is the passage of text referenced by the WAI-ARIA `aria-labelledby` attribute that must be considered as the alternative text if the content of the passage of text is actually rendered by the assistive technologies used in the test environment;
 - In the case of the joint presence of a WAI-ARIA `aria-label` attribute and an `alt` attribute on an `<img>` tag, it is the value of the WAI-ARIA `aria-label` attribute that must be considered as the alternative text if the content of the WAI-ARIA `aria-label` attribute is actually rendered by the assistive technologies used in the test environment.
 
-Reference: <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
+Reference: <span lang="en">[Accessible Name and Description Computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.
 
 RAWeb considers three types of text alternative linked to the nature of the image:
 
