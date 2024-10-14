@@ -11,5 +11,5 @@ This concerns both the technology and its features and uses:
 
 Verifying compatibility with assistive technologies requires carrying out a number of tests specific to the technology used, for example
 
-- Checking the name, role, value, properties and status changes of user interface components;
+- Checking the name, role, value, settings and status changes of user interface components;
 - Checking that a user interface component is correctly rendered (by assistive technologies).
