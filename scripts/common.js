@@ -3,6 +3,7 @@ const MarkdownIt = require('markdown-it')
 const fs = require('fs')
 const cheerio = require('cheerio')
 const en301549 = require('en301549-links')
+const postprocessing = require('./postprocessing')
 const wcagTrad = {
     "fr": require('../locales/WCAG-SC-Translations-fr.json'),
     "en": require('../locales/WCAG-SC-Translations-en.json')
@@ -34,6 +35,7 @@ function renderToFile(config, data, title, lang, file, name, prefix, __, withSum
         if (err !== null) {
             console.log(err)
         }
+        str = postprocessing.main(str, name)
         fs.writeFileSync(file, str)
     });
 }
@@ -81,10 +83,15 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         })
         data = $('body').html()
 
+        // if (['raam1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
+        //     data = postprocessing.singleMDCriteria(data)
+        // } else 
+
+
         ejs.renderFile('./src/tpl/criteria_for_md.ejs', {topics: topics, data: data, list_type: summary, summaryTitle: summaryTitle, __}, function(err, str) {
             if (err !== null) {
                 console.log(err)
-            }
+            }    
             renderToFile(config, str, title, lang, file, name, prefix, __, true, error)
         })
     } else {
