@@ -2,17 +2,17 @@
     <ul>
     <% data.forEach(e => { %>
         <li>
-            <a href="./<%= e.meta.filename %>.html" <%= (e.meta.lang !== undefined)?'lang='+e.meta.lang:'' %>>
-                <div>
+            <div>
+                <a href="./<%= e.meta.filename %>.html" <%= (e.meta.lang !== undefined)?'lang='+e.meta.lang:'' %>>
                     <h3><%- e.meta.title_html %></h3>
                     <p class="subtitle"><%- e.meta.subtitle_html %></p>
-                    <img class="article_teaser" src="<%= e.meta.img %>" alt="" />
-                    <p class="intro"><%- e.meta.intro_html %></p>
-                </div>
-                <div>
-                    <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:__('Lang'), { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
-                </div>
-            </a>
+                </a>
+                <img class="article_teaser" src="<%= e.meta.img %>" alt="" />
+                <p class="intro"><%- e.meta.intro_html %></p>
+            </div>
+            <div>
+                <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:__('Lang'), { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+            </div>
         </li>
     <% }) %>
     </ul>

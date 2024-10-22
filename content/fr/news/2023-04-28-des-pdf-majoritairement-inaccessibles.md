@@ -10,8 +10,10 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 }
 </style>
 <script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
-<h2>Sur les sites publics les plus visités, des PDF majoritairement inaccessibles</h2>
-<h3>L’accessibilité de ces documents présents parfois massivement sur les portails publics luxembourgeois les plus visités en 2023 tend cependant à s’améliorer</h3>
+<hgroup>
+	<h1>Sur les sites publics les plus visités, des PDF majoritairement inaccessibles</h1>
+	<p>L’accessibilité de ces documents présents parfois massivement sur les portails publics luxembourgeois les plus visités en 2023 tend cependant à s’améliorer</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>La présence sur les sites publics d’une grande quantité de fichiers PDF non accessibles est un problème clé pour les personnes handicapées. En effet, certains problèmes d’accessibilité peuvent bloquer totalement l’accès à l’information ou la mise en œuvre de procédures administratives dans le cas de formulaires. Nous étudions dans cet article l’accessibilité des PDF présents sur les 17 sites publics luxembourgeois les plus visités.</p>
@@ -62,23 +64,26 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </div>
     <details>
         <summary>Description du graphique 1</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>Ce diagramme présente, sous forme d'une carte proportionnelle, la répartition des 25&#8239;398 fichiers PDF collectés dans le cadre de cette étude&#8239;:</p>
         <ul>
-            <li>13&#8239;781 PDF visés par la loi (54&#8239;%), dont</li>
+            <li>13&#8239;781 PDF visés par la loi, dont</li>
             <ul>
-                <li>5&#8239;591 balisés (22&#8239;% du total ou 41&#8239;% des fichiers visés par la loi)</li>
+                <li>5&#8239;591 balisés</li>
                 <ul>
                     <li>642 formulaires</li>
                     <li>4&#8239;949 autres documents structurés</li>
                 </ul>
-                <li>8&#8239;185 non balisés (32&#8239;% du total ou 59&#8239;% des fichiers visés par la loi)</li>
+                <li>8&#8239;185 non balisés</li>
                 <ul>
                     <li>1&#8239;131 fichiers numérisés en mode image</li>
                     <li>705 formulaires</li>
                     <li>6&#8239;349 autres documents non structurés</li>
                 </ul>
             </ul>
-            <li>11&#8239;617 PDF exemptés (46&#8239;%)</li>
+            <li>11&#8239;617 PDF exemptés</li>
         </ul>
     </details>
 </figure>
@@ -93,6 +98,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description du graphique 2</summary>
+            <div>
+                <div class="highcharts-data-table"></div>
+            </div>
             <p>Ce diagramme en colonnes présente l'évolution sur quatre ans, de 2019 à 2022, de la part des PDF non balisés analysés dans le cadre de cette étude.</p>
         </details>
     </figure>
@@ -102,6 +110,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description du graphique 3</summary>
+            <div>
+                <div class="highcharts-data-table"></div>
+            </div>
             <p>Ce diagramme en colonnes présente l'évolution sur quatre ans, de 2019 à 2022, de la quantité des PDF publiés dans le cadre de cette étude.</p>
         </details>
     </figure>
@@ -115,6 +126,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </div>
     <details>
         <summary>Description du graphique 4</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>Ce diagramme en lignes présente, dans huit sites couverts par l'étude, la part des documents PDF balisés.</p>
     </details>
 </figure>
@@ -147,6 +161,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </div>
     <details>
         <summary>Description du graphique 5</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>Ce diagramme en lignes présente, dans six sites couverts par l'étude, la part des documents PDF numérisés en mode image parmi les non balisés, en pourcentage.</p>
     </details>
 </figure>

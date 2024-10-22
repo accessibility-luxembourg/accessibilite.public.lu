@@ -1,5 +1,7 @@
-<h2>Pour le secteur privé aussi, il est grand temps de s’y mettre</h2>
-<h3>En 2025 entre en vigueur une nouvelle loi qui étend les obligations de conformité relatives à l’accessibilité</h3>
+<hgroup>
+	<h1>Pour le secteur privé aussi, il est grand temps de s’y mettre</h1>
+	<p>En 2025 entre en vigueur une nouvelle loi qui étend les obligations de conformité relatives à l’accessibilité</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Si le respect des règles d’accessibilité concerne aujourd’hui les sites et apps des services publics, dans deux ans la règle sera élargie à de nombreuses sphères du privé. Dès juin 2025, elle s’appliquera à l’ensemble de l’Union européenne et tous les services de commerce électronique comme les sites et apps dédiés à la mobilité seront concernés, sous certaines conditions.</p>

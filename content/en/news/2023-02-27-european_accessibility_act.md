@@ -1,5 +1,7 @@
-<h2>It's high time for the private sector to get on board, too</h2>
-<h3>In 2025, a new law will come into force extending accessibility compliance obligations</h3>
+<hgroup>
+	<h1>It's high time for the private sector to get on board, too</h1>
+	<p>In 2025, a new law will come into force extending accessibility compliance obligations</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>While compliance with accessibility rules currently applies to public service websites and apps, in two years' time the rule will be extended to many areas of the private sector. From June 2025, it will apply to the whole of the European Union, and all e-commerce services as well as sites and apps dedicated to mobility will be concerned, under certain conditions.</p>

@@ -6,8 +6,10 @@ auteur: Dominique Nauroy
 ---
 
 <script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
-<h2>D’année en année, une charge moins disproportionnée&#8239;?</h2>
-<h3>En trois ans, comment ont évolué les déclarations d’accessibilité sur la question de la charge disproportionnée&#8239;?</h3>
+<hgroup>
+	<h1>D’année en année, une charge moins disproportionnée&#8239;?</h1>
+	<p>En trois ans, comment ont évolué les déclarations d’accessibilité sur la question de la charge disproportionnée&#8239;?</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Les organismes publics peuvent déroger certains contenus publiés en ligne des règles d’accessibilité, en invoquant le motif de la «&#8239;charge disproportionnée&#8239;» lorsqu’il lui est <q>raisonnablement impossible de rendre un contenu ou une fonctionnalité accessible</q>. Derrière cette formulation, il est tenu compte notamment des coûts qui devraient être engagés par rapport à l’avantage estimé pour les personnes handicapées.</p>
@@ -33,6 +35,9 @@ auteur: Dominique Nauroy
     </div>
     <details>
         <summary>Description du graphique 1</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>Ce diagramme en barres présente, par ordre décroissant, les éléments les plus fréquemment mentionnés comme charge disproportionnée dans les déclarations d’accessibilité, en commençant par les documents bureautiques, la navigation au clavier et les procédures d’authentification, présents dans respectivement 31, 29 et 13% des déclarations.</p>
     </details>
 </figure>

@@ -4,8 +4,10 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<h2><q>Les bonnes pratiques des développeurs rejaillissent sur l’accessibilité</q></h2>
-<h3>L’accessibilité numérique devient un impératif pour nombre d’entreprises. Stéphanie Walter, experte en design inclusif, insiste sur le choix du bon partenaire.</h3>
+<hgroup>
+	<h1><q>Les bonnes pratiques des développeurs rejaillissent sur l’accessibilité</q></h1>
+	<p>L’accessibilité numérique devient un impératif pour nombre d’entreprises. Stéphanie Walter, experte en design inclusif, insiste sur le choix du bon partenaire.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Stéphanie Walter a débuté sa carrière professionnelle en Allemagne, avant de la poursuivre à Strasbourg, où elle s’initie à l’accessibilité. Elle est aujourd’hui basée à Luxembourg, spécialisée en <span lang="en">Enterprise UX</span>. Consultante pour le compte de Maltem, elle conçoit des interfaces métiers complexes, pour la Banque européenne d’investissement (BEI).</p>

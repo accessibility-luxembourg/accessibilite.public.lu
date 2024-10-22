@@ -3,7 +3,11 @@
       <a href="#main"><%= __("Skip to content") %></a>
   </div> 
   <div class="menu-container" id="top">
-    <h1><%= __('Digital accessibility portal') %> <%= (process.env.PREVIEW !== undefined)?'[PREVIEW]':'' %></h1>
+    <% if (name === "index") { %>
+      <h1><%= __('Digital accessibility portal') %> <%= (process.env.PREVIEW !== undefined)?'[PREVIEW]':'' %></h1>
+    <% } else { %> 
+      <div class="header-title"><%= __('Digital accessibility portal') %> <%= (process.env.PREVIEW !== undefined)?'[PREVIEW]':'' %></div>
+    <% } %> 
     <% if (process.env.DISABLE_EN!=="true") { %>
     <ul class="menu-lang">
       <li>

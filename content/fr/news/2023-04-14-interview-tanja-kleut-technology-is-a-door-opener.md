@@ -5,8 +5,10 @@ tags:
 auteur: Dominique Nauroy
 ---
 <div lang="en">
-<h2>Tanja Kleut: <q>Technology is a door opener</q></h2>
-<h3>In this interview we discuss accessibility, digital barriers and how technology is helping blind people to be more independent in their daily lives</h3>
+<hgroup>
+	<h1>Tanja Kleut: <q>Technology is a door opener</q></h1>
+	<p>In this interview we discuss accessibility, digital barriers and how technology is helping blind people to be more independent in their daily lives</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Tanja Kleut is working on digital accessibility at the European Parliament. She has lived and worked in Luxembourg since 2014. In nine years, she has seen the progress made in terms of accessibility in the capital, but also online. Do these improvements enable blind people to live, work, communicate and move around independently? Not yet, there is still a long way to go. She explains us why.</p>

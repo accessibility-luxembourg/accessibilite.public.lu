@@ -7,8 +7,10 @@ tags:
 auteur: Dominique Nauroy
 ---
 
-<h2>Having trouble with RAAM?</h2>
-<h3>The framework for assessing the accessibility of mobile apps is about to get a facelift. But first... tell us how to improve it.</h3>
+<hgroup>
+	<h1>Having trouble with RAAM?</h1>
+	<p>The framework for assessing the accessibility of mobile apps is about to get a facelift. But first... tell us how to improve it.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>On 21 June, RAAM celebrates its third birthday. This is your chance to tell us about your experience and expectations.</p>

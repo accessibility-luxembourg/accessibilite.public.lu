@@ -6,8 +6,10 @@ author: Dominique Nauroy
 ---
 
 <script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
-<h2>From year to year, a less disproportionate burden?</h2>
-<h3>What has been the evolution of accessibility statements on the issue of disproportionate burden in three years?</h3>
+<hgroup>
+	<h1>From year to year, a less disproportionate burden?</h1>
+	<p>What has been the evolution of accessibility statements on the issue of disproportionate burden in three years?</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is <q>reasonably impossible to make a content or feature accessible</q>. This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
@@ -33,6 +35,9 @@ author: Dominique Nauroy
     </div>
     <details>
         <summary>Description of graph 1</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>This bar chart shows, in descending order, the elements most frequently mentioned as a disproportionate burden in accessibility statements, starting with office documents, keyboard navigation and authentication procedures, present in 31, 29 and 13% of statements respectively.</p>
     </details>
 </figure>

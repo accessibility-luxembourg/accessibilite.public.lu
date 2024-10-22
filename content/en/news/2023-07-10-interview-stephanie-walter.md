@@ -4,8 +4,10 @@ tags:
 - interview
 author: Dominique Nauroy
 ---
-<h2>The impact of developer best practices on accessibility</h2>
-<h3>Digital accessibility is becoming an imperative for many companies. Stéphanie Walter, an expert in inclusive design, stresses the importance of choosing the right partner.</h3>
+<hgroup>
+	<h1>The impact of developer best practices on accessibility</h1>
+	<p>Digital accessibility is becoming an imperative for many companies. Stéphanie Walter, an expert in inclusive design, stresses the importance of choosing the right partner.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Stéphanie Walter began her professional career in Germany, before moving to Strasbourg, where she learned about accessibility. She is now based in Luxembourg, specialising in <span lang="en">Enterprise UX</span>. As a consultant for Maltem, she designs complex business interfaces for the European Investment Bank (EIB).</p>

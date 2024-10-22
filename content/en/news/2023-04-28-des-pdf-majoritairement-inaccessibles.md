@@ -10,8 +10,10 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 }
 </style>
 <script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
-<h2>PDFs often inaccessible on most visited websites</h2>
-<h3>However, the accessibility of these documents, which are often available in large quantities on Luxembourg's most visited public portals in 2023, is steadily improving</h3>
+<hgroup>
+	<h1>PDFs often inaccessible on most visited websites</h1>
+	<p>However, the accessibility of these documents, which are often available in large quantities on Luxembourg's most visited public portals in 2023, is steadily improving</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>The prevalence of inaccessible PDF files on public websites is a significant problem for people with disabilities. These accessibility issues can completely prevent access to vital information and hinder the completion of administrative procedures, particularly when forms are concerned. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
@@ -62,23 +64,26 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </div>
     <details>
         <summary>Description of diagram 1</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>This diagram shows, in the form of a proportional map, the distribution of the 25,398 PDF files collected as part of this study:</p>
         <ul>
-            <li>13,781 PDFs in the scope of the law (54%)</li>
+            <li>13,781 PDFs in the scope of the law</li>
             <ul>
-                <li>5,591 tagged (22% of the total or 41% of files in the scope of the law)</li>
+                <li>5,591 tagged</li>
                 <ul>
                     <li>642 forms</li>
                     <li>4,949 other structured documents</li>
                 </ul>
-                <li>8,185 untagged (32% of the total or 59% of the files covered by the Act)</li>
+                <li>8,185 untagged</li>
                 <ul>
                     <li>1,131 files scanned in image mode</li>
                     <li>705 forms</li>
                     <li>6,349 other unstructured documents</li>
                 </ul>
             </ul>
-            <li>11,617 exempt PDFs (46%)</li>
+            <li>11,617 exempt PDFs</li>
         </ul>
     </details>
 </figure>
@@ -93,6 +98,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description of graph 2</summary>
+            <div>
+                <div class="highcharts-data-table"></div>
+            </div>
             <p>This column chart shows the evolution of the share of unlabelled PDF files analysed as part of this study over a four-year period, from 2019 to 2022.</p>
         </details>
     </figure>
@@ -102,6 +110,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         </div>
         <details>
             <summary>Description of graph 3</summary>
+            <div>
+                <div class="highcharts-data-table"></div>
+            </div>
             <p>This column chart shows the evolution of the number of PDF files analysed as part of this study over a four-year period, from 2019 to 2022.</p>
         </details>
     </figure>
@@ -115,6 +126,9 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </div>
     <details>
         <summary>Description of graph 4</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>This line graph shows the proportion of tagged PDF documents on the eight sites covered by the study.</p>
     </details>
 </figure>
@@ -146,7 +160,10 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Percentage of digitised PDFs among non-tagged PDFs (see description below).">
     </div>
     <details>
-        <summary>Description of Chart 5</summary>
+        <summary>Description of graph 5</summary>
+        <div>
+            <div class="highcharts-data-table"></div>
+        </div>
         <p>This line graph shows the percentage of untagged PDF documents scanned in image mode in the six sites covered by the study.</p>
     </details>
 </figure>

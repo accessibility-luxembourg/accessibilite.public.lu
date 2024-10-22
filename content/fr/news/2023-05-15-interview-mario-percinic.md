@@ -5,8 +5,10 @@ tags:
 auteur: Dominique Nauroy
 ---
 <div lang="en">
-<h2><q>I know what I would not be able to achieve without accessibility</q></h2>
-<h3>Mario Perčinić has lived and worked in Luxembourg since 2016. With him, we have talked about music, programming, shopping and, of course, accessibility.</h3>
+<hgroup>
+	<h1><q>I know what I would not be able to achieve without accessibility</q></h1>
+	<p>Mario Perčinić has lived and worked in Luxembourg since 2016. With him, we have talked about music, programming, shopping and, of course, accessibility.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Mr. Perčinić is working for the <span lang="fr">Centre pour le développement des compétences relatives à la vue (CDV)</span> in Bertrange. He is transcriber, adapting books for pupils and students who are blind or partially sighted, in various formats (ePub, Braille or print, to list some of them). He is also a multi-talented musician, plays in a hard rock band The Velvet in Luxembourg, records albums and performs concerts all over the country. Last but not least, he is interested in technology and accessibility of all possible gadgets, which can provide better quality of life to blind people. As a blind person, he gets by in a world that does not always place accessibility at the centre of its concerns.</p>
@@ -52,6 +54,27 @@ auteur: Dominique Nauroy
         <iframe src="https://www.youtube.com/embed/xULJa1Wm8h8" title="The Velvet - Electric wizard, video on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">The Velvet's "Electric Wizard" music video</p>
+    <details class="lyrics">
+        <summary>Lyrics</summary>
+        <p>To the thunder and lightnings of a whirling storm</p>
+        <p>A visionary genius a prodigy was born</p>
+        <p>Destined to unravel the secret of the gods</p>
+        <p>Destined to ignite the wrath of the lords</p>
+        <p>Wizard without hat and tricks</p>
+        <p>Witchcraft without cans and bricks</p>
+        <p>Wizard without hat and tricks</p>
+        <p>Witchcraft without cans and bricks</p>
+        <p>The electric wizard</p>
+        <p>Neon messiah, master of the lightning</p>
+        <p>exploited by the thiefs</p>
+        <p>His gift of enlightment</p>
+        <p>destroyed by the kings</p>
+        <p>Wizard without hat and tricks</p>
+        <p>Witchcraft without cans and bricks</p>
+        <p>Wizard without hat and tricks</p>
+        <p>Witchcraft without cans and bricks</p>
+        <p>The electric wizard</p>
+    </details>
 </div>
 <p>My second keyboard, called Crumar Seven, is more complex and has a great system of deep editing. I can login into its web app through its Wi-Fi receiver and make all the changes. The interface shows up to be very accessible to all screen readers.</p>
 <p>Blind people can be very good audio engineers and music producers. However, the tools needed for such jobs must be accessible. As a Windows user, I found out that I can make all the things by using Reaper as my main multitrack audio editor. It is cheap, very flexible and the developers of Reaper are very responsive when it comes to accessibility fixes. At the same time, the blind community from the developers to power users provides great additional library of scripts and add-ons enhancing the usability of Reaper (check here the <a href="https://reaperaccessibility.com/index.php/Main_Page">Reaper Accessibility Wiki</a>). Logic Pro is another good example: this app available on macOS is totally accessible via VoiceOver.</p>

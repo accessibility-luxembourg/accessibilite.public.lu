@@ -4,8 +4,10 @@ tags:
 - interview
 author: Dominique Nauroy
 ---
-<h2><q>Few people know that people with disabilities can use digital tools</q></h2>
-<h3>Geoffrey Crofte is a UX designer at Foyer and puts digital accessibility issues at the heart of his work.</h3>
+<hgroup>
+	<h1><q>Few people know that people with disabilities can use digital tools</q></h1>
+	<p>Geoffrey Crofte is a UX designer at Foyer and puts digital accessibility issues at the heart of his work.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Do creativity and accessibility go hand in hand? Is it easy to make a website compliant? How do we become sensitive to these issues? Geoffrey Crofte was happy to answer our questions. Interview.</p>
