@@ -13,15 +13,15 @@
 </figure>
 <p>On 28 June 2025, businesses will have to ensure that they comply with accessibility standards. In other words, the days are numbered. In the case of websites and mobile apps alone, it can take many months from the time a specification is drawn up to the time a new portal goes online. When it comes to future redesigns, accessibility is no longer an extra option. On the contrary, it must become an integral part of the design process from the earliest stages, thereby limiting any additional costs incurred by compliance. The Luxembourg law of 2019 considers a site to be compliant only when it achieves 100% compliance, which is no mean feat and which some sites have already achieved by 2022.</p>
 <aside class="contextbox">
-    <h4>What will be the scope of the future law?</h4>
-    <h5>Products (hardware and software running on it):</h5>
+    <h2>What will be the scope of the future law?</h2>
+    <h3>Products (hardware and software running on it):</h3>
     <ul>
         <li>consumer hardware such as computers, smartphones and tablets and their respective operating systems;</li>
         <li>payment terminals, check-in kiosks, ticket or travelcard dispensers - excluding those located aboard any means of transport, subject to exceptions provided for by law;</li>
         <li>intelligent televisions or equipment providing access to audiovisual services;</li>
         <li>e-readers.</li>
     </ul>
-    <h5>Services</h5>
+    <h3>Services</h3>
     <ul>
         <li>electronic communication services;</li>
         <li>audiovisual services (video on demand, replay, etc.);</li>
@@ -34,14 +34,14 @@
     </ul>
 </aside>
 <p>According to the European Commission, making these services and devices accessible to everyone will make life easier for at least 87 million people, or one in four European adults.</p>
-<h4>Potential financial penalties</h4>
+<h2>Potential financial penalties</h2>
 <p>The <a href="https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo">law</a> transposing the European act also provides for the possibility of prohibiting a non-compliant product or service from being made available on the market, and lists administrative and criminal penalties, the latter of which can be up to €500,000 and €1 million in the event of a repeat offence. The fine is proportionate to the extent and seriousness of the non-compliance. To this end, a new body, the Office de la surveillance de l'accessibilité des produits et services (OSAPS), will be set up and will have, among other tasks, the role of accessibility watchdog. Anyone will be able to report non-compliant products to the OSAPS.</p>
 <p>Certain public bodies covered by the first law on accessibility - that of 2019 - could also be affected by the new law, particularly in the area of mobility.</p>
 <p>On the other hand, micro-businesses (fewer than ten employees, annual balance sheet not exceeding €2 million) would be exempt from the obligation to comply with accessibility requirements. Similarly, transitional measures provide for exemptions for self-service terminals, as well as for service providers who will be able to continue to supply these terminals using products considered non-compliant from 2025 onwards. Finally, it will also be possible to put forward the argument of a disproportionate burden in the face of the obligation to modify the product or service in depth. These transitional provisions are due to expire in 2030.</p>
 <p>Despite these safeguards, this European Act is preparing for a paradigm shift throughout the European Union, with the ambition of seeing products and services on the market that are genuinely usable by everyone.</p>
 <p>This article was updated on 29 March 2023.</p>
 <aside class="more">
-    <h4>On the same subject</h4>
+    <h2>On the same subject</h2>
     <ul>
         <li><a href="2023-02-20-rapport2022.html">2022, the year of awareness</a></li>
         <li><a href="2023-02-24-complaints2022.html">Users still looking for solutions</a></li>

@@ -142,31 +142,24 @@ function obCallback (loadchart) {
 }
 
 
-function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_stacking) {
+function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_stacking, ch_heading=3) {
     replaceTableDesc(highcharts,ch_dest);
+    highcharts.AST.allowedAttributes.push('onfocus', 'onclick', 'onblur');
     const ch_height = document.getElementById(ch_dest).getBoundingClientRect().height;
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let newSkipLink = "Passer à la description du graphique";
+    if (document.querySelector('html').getAttribute('lang') === "en") {newSkipLink = "Skip to the chart description";}
     const chart = highcharts.chart(ch_dest, {
         chart: {
-            type: ch_type,
-            events: {
-                
-                render: function () {
-                    const btnToReplace = document.getElementById(this.container.id).parentNode.querySelector('button');
-                    const newSkipLink = document.createElement("button");
-                    btnToReplace.parentNode.parentNode.parentNode.appendChild(newSkipLink);
-                    newSkipLink.innerHTML = "Passer à la description du graphique";
-                    if (document.querySelector('html').getAttribute('lang') === "en") {newSkipLink.innerHTML = "Skip to the chart description";}
-                    newSkipLink.setAttribute("class", "skipchart");
-                    newSkipLink.setAttribute("onclick", "this.parentNode.parentNode.parentNode.querySelector('summary').focus()");
-                }
-                
-            }
+            type: ch_type
         },
         accessibility: {
             point: {
                 valueDescriptionFormat: '{xDescription} {separator} {point.y}',
                 valueDecimals: 1
+            },
+            screenReaderSection: {
+                beforeChartFormat: '<h'+ ch_heading +'>{chartTitle}</h' + ch_heading + '><div><button onfocus="document.getElementById(\''+ ch_dest +'\').querySelector(\'.highcharts-subtitle\').style.opacity = 1" onblur="document.getElementById(\''+ ch_dest +'\').querySelector(\'.highcharts-subtitle\').style.opacity = 0" onclick="document.getElementById(\''+ ch_dest + '\').parentNode.querySelector(\'summary\').focus()" class="skipchart">'+ newSkipLink +'</button></div><div>{xAxisDescription}</div><div>{yAxisDescription}</div><div>{annotationsTitle}{annotationsList}</div>'
             }
         },
         credits: false,
@@ -177,6 +170,13 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
                 fontFamily: "Fira Sans",
                 fontWeight: 400,
                 fontSize: '16px'
+            }
+        },
+        subtitle: {
+            useHTML: true,
+            text: '<button style="border: 1px solid black; background: none; padding: 0.5em; cursor: pointer" onclick="document.getElementById(\''+ ch_dest + '\').parentNode.querySelector(\'summary\').focus()">'+ newSkipLink +'</button>',
+            style: {
+                opacity: 0
             }
         },
         legend: {

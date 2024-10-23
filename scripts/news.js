@@ -76,7 +76,7 @@ function genNews(config, lang, outputPath, baseURL, __) {
         }
     
         // add the date to the html code
-        $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
+        $('hgroup').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     
         // copy the script elements to the body
         $('head script').each((e, a) => {

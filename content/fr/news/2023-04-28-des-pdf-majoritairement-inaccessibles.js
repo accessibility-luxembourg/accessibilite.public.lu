@@ -116,7 +116,8 @@ function loadchart (chartid) {                                                  
                         true,
                         0.21,
                         'rgba(46, 117, 182, .9)',
-                        'normal');
+                        'normal',
+                        4);
                 }
             });
         break;
@@ -148,7 +149,8 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'transparent',
-                        undefined);
+                        undefined,
+                        4);
                 }
             });
         break;
@@ -180,7 +182,8 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'transparent',
-                        undefined);
+                        undefined,
+                        4);
                 }
             });
         break;
@@ -212,7 +215,8 @@ function loadchart (chartid) {                                                  
                         false,
                         0.17,
                         'rgb(46, 117, 182)',
-                        undefined);
+                        undefined,
+                        4);
                 }
             });
         break;
@@ -244,7 +248,8 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'rgb(46, 117, 182)',
-                        undefined);
+                        undefined,
+                        5);
                 }
             });
         break;
