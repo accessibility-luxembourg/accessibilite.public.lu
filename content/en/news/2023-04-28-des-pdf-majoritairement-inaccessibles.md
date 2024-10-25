@@ -63,7 +63,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graph 1. Breakdown of PDFs available for download (see description below).">
     </div>
     <details>
-        <summary>Description of graph 1</summary>
+        <summary><h5>Description of graph 1</h5></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
@@ -97,7 +97,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
             <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graph 2. Percentage of non-tagged PDFs by year (see description below).">
         </div>
         <details>
-            <summary>Description of graph 2</summary>
+            <summary><h5>Description of graph 2</h5></summary>
             <div>
                 <div class="highcharts-data-table"></div>
             </div>
@@ -109,7 +109,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
             <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graph 3. Number of PDFs published per year (see description below).">
         </div>
         <details>
-            <summary>Description of graph 3</summary>
+            <summary><h5>Description of graph 3</h5></summary>
             <div>
                 <div class="highcharts-data-table"></div>
             </div>
@@ -125,7 +125,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graph 4. Percentage of tagged PDFs (see description below).">
     </div>
     <details>
-        <summary>Description of graph 4</summary>
+        <summary><h5>Description of graph 4</h5></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
@@ -160,7 +160,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Percentage of digitised PDFs among non-tagged PDFs (see description below).">
     </div>
     <details>
-        <summary>Description of graph 5</summary>
+        <summary><h6>Description of graph 5</h6></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>

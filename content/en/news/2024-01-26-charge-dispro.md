@@ -34,7 +34,7 @@ author: Dominique Nauroy
         <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Level of compliance of audited sites in 2023 (see description below).">
     </div>
     <details>
-        <summary>Description of graph 1</summary>
+        <summary><h4>Description of graph 1</h4></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
