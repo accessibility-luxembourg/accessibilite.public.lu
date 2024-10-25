@@ -18,7 +18,7 @@ auteur: Dominique Nauroy
 
 <h2>Qu’est-ce qui t’a mené à t’intéresser à l’accessibilité&#8239;?</h2>
 <p>J’ai débuté ma carrière au Luxembourg en 2011 après un cursus d'étude en école d'ingénieur à Nancy.</p>
-<p>Après dix ans dans le développement mobile et web, j’ai rejoint le CTIE. Depuis deux ans, je suis le référent en accessibilité numérique pour le service Web&UX (User experience ou expérience utilisateur, ndlr) du CTIE. Ma principale mission est de conseiller les équipes afin d'améliorer l'accessibilité des sites web et des applications développés par l'État.</p>
+<p>Après dix ans dans le développement mobile et web, j’ai rejoint le CTIE. Depuis deux ans, je suis le référent en accessibilité numérique pour le service <span lang="en">Web&UX</span> (<span lang="en">User experience</span> ou expérience utilisateur, ndlr) du CTIE. Ma principale mission est de conseiller les équipes afin d'améliorer l'accessibilité des sites web et des applications développés par l'État.</p>
 <p>Contrairement à la majorité des personnes qui s’engagent dans cette voie, ce n’est pas la présence de personnes handicapées dans mon entourage qui m’a poussé dans ce domaine. Perfectionniste, je souhaite améliorer la qualité des sites web et applications via des bonnes pratiques&#8239;: pas seulement en termes d'accessibilité, mais également en termes de référencement, de sécurité, d'optimisation des performances, de normalisation, etc.</p>
 <p>L’aspect accessibilité est ce qui me permet le plus de rendre service aux utilisateurs car ce qui est bénéfique pour les personnes en situation de handicap est bénéfique à tous.</p>
 <h2>Concrètement, que fait ce service <span lang="en">Web&UX</span>&#8239;?</h2>
