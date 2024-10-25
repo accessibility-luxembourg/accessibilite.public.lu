@@ -34,7 +34,7 @@ auteur: Dominique Nauroy
         <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graphique 1. Éléments les plus fréquemment mentionnés comme charge disproportionnée (voir description ci-dessous).">
     </div>
     <details>
-        <summary>Description du graphique 1</summary>
+        <summary><h4>Description du graphique 1</h4></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>

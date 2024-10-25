@@ -63,7 +63,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graphique 1. Répartition des PDF disponibles en téléchargement (voir description ci-dessous).">
     </div>
     <details>
-        <summary>Description du graphique 1</summary>
+        <summary><h5>Description du graphique 1</h5></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
@@ -97,7 +97,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
             <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graphique 2. Part des PDF non balisés par année (voir description ci-dessous).">
         </div>
         <details>
-            <summary>Description du graphique 2</summary>
+            <summary><h5>Description du graphique 2</h5></summary>
             <div>
                 <div class="highcharts-data-table"></div>
             </div>
@@ -109,7 +109,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
             <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graphique 3. Quantité de PDF publiés par année (voir description ci-dessous).">
         </div>
         <details>
-            <summary>Description du graphique 3</summary>
+            <summary><h5>Description du graphique 3</h5></summary>
             <div>
                 <div class="highcharts-data-table"></div>
             </div>
@@ -125,7 +125,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graphique 4. Part des PDF balisés en pourcentage (voir description ci-dessous).">
     </div>
     <details>
-        <summary>Description du graphique 4</summary>
+        <summary><h5>Description du graphique 4</h5></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
@@ -160,7 +160,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
         <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graphique 5. Part des PDF numérisés en mode image parmi les non balisés en pourcentage (voir description ci-dessous).">
     </div>
     <details>
-        <summary>Description du graphique 5</summary>
+        <summary><h6>Description du graphique 5</h6></summary>
         <div>
             <div class="highcharts-data-table"></div>
         </div>
