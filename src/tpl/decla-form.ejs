@@ -42,11 +42,11 @@
         <legend><%= __("Purpose(s) of the statement") %> <span class="symbol-required">*</span> (<%= __("fill in at least one of the following two fields") %>)</legend>
         <div class="form-group">
             <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, <%- __("ex:") %> https://www.gouvernement.lu)</label>
-            <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
+            <textarea id="sites" rows="5" class="form-control" name="sites"></textarea>
         </div>
         <div class="form-group">
             <label for="apps"><%= __("URLs of apps to be declared") %> (<%= __("one per line") %>, <%= __("App URLs on the Apple and Google stores") %>)</label>
-            <textarea id="apps" rows="5" class="form-control" name="apps" required></textarea>
+            <textarea id="apps" rows="5" class="form-control" name="apps"></textarea>
         </div>
     </fieldset>
 
@@ -224,9 +224,9 @@
 
     <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
-            <h3><%= __("Statement") + __("in") + e.name %></h3>
-            <button class="clipboard"><%= __("Copy to clipboard") %></button>
-            <button class="download"><%= __("Download HTML") %></button>
+            <h3 id="decla-<%= e.code %>-title"><%= __("Statement") + __("in") + e.name %></h3>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="clipboard"><%= __("Copy to clipboard") %></button>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="download"><%= __("Download HTML") %></button>
             <section id="decla-<%= e.code %>-result" class="decla-result"></section>
         </div>    
     <% }) %>

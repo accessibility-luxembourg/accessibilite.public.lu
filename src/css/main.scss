@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 2em; /* aligner sur le style h2 */
+}
+
 h6 { 
   font-weight: bold;
 }
@@ -522,7 +526,7 @@ form.newsletter div.error, form#decla div.error {
   box-sizing: border-box;
 }
 
-form#decla p.errorMessage {
+form#decla p.errorMessage, form#newsletter p.errorMessage {
   color: #e7222e;
   font-size: 0.8rem;
 }

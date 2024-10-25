@@ -33,24 +33,37 @@ div.articles_summary ul {
 }
 
 div.articles_summary li {
-    padding: 0;
+    padding: 1em;
     margin: 0;
     list-style: none;
-}
-
-div.articles_summary ul li a, div.articles_summary ul li a:visited {
-    padding: 1em;
+    position: relative;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid white;
+}
+
+div.articles_summary ul li a, div.articles_summary ul li a:visited {
+    padding: 0;
     text-decoration: none;
-    color: black;
+    color: black;   
+}
+
+div.articles_summary ul li a, div.articles_summary ul li a::before {
+    cursor: pointer;
+}
+
+div.articles_summary ul li a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
 }
 
-div.articles_summary ul li a:hover, div.articles_summary ul li a:focus, div.articles_summary ul li a:focus:visited {
+div.articles_summary ul li a:focus::before, div.articles_summary ul li a:hover::before {
     border: 1px solid var(--green);
     background-color: transparent;
 }
@@ -59,7 +72,7 @@ div.articles_summary ul li:nth-child(odd) {
     background-color: var(--light_blue);
 }
 
-div.articles_summary ul li a h3 {
+div.articles_summary ul li a h2 {
     font: normal 600 1.5em var(--article_font), sans-serif;
     color: var(--article_links);
     font-weight: 500;
@@ -130,48 +143,50 @@ body article.news, body nav.articles_nav {
 
 
 /* article.news title & header section */
-body article.news h2 {
+body article.news hgroup h1 {
     color: var(--article_title);
 }
 
-body article.news h3, body article.news h4, body article.news h5 {
+body article.news hgroup p, body article.news h2, body article.news h3 {
     color: var(--article_subtitles);
 }
 
-body article.news h2, body article.news h3 {
+body article.news hgroup h1, body article.news hgroup p {
     text-align: center;
 }
 
-body article.news h2 {
+body article.news hgroup h1 {
     font: normal 600 2.1em var(--article_font), sans-serif;
     word-break: break-word;
 }
 
 @media screen and (min-width: 400px) {
-    body article.news h2 {
+    body article.news hgroup h1 {
         font-size: 2.5em;
     }
 }
 
-body article.news h3 {
+body article.news hgroup p {
     margin: 1em auto 2em auto;
 }
 
-body article.news h3, body article.news h4 {
+body article.news hgroup p, body article.news h2 {
     font: normal 600 1.2em var(--article_font), sans-serif;
 }
 
-body article.news h4, body article.news h5 {
+body article.news h2, body article.news h3 {
     max-width: 750px;
     margin: 1.5em auto;
 }
 
-body article.news h6 {
+body article.news h4 {
     max-width: 750px;
     margin: 1em auto;
+    font-weight: 700;
+    font-size: 1em;
 }
 
-body article.news h5 {
+body article.news h3 {
     font: normal 600 1em var(--article_font), sans-serif;
 }
 
@@ -254,14 +269,14 @@ body article.news aside.contextbox {
     margin: auto;
 }
 
-body article.news aside.contextbox h4 {
+body article.news aside.contextbox h2 {
     font-weight: 500;
     color: var(--green);
     margin: 0 0 1em 0;
     font-size: 1em;
 }
 
-body article.news aside.contextbox h5 {
+body article.news aside.contextbox h3 {
     font-size: 0.9em;
     margin: 2em 0 0 0;
 }
@@ -272,7 +287,7 @@ body article.news aside.more {
     margin: 0 0 0 auto;
 }
 
-body article.news aside.more h4, body article.news aside.more h5 {
+body article.news aside.more h2, body article.news aside.more h3 {
     background-color: var(--article_title);
     color: white;
     font: normal 500 1em var(--article_font), sans-serif;
@@ -293,12 +308,16 @@ body article.news aside.more li a, body article aside.more li a:visited {
     text-decoration: none;
 }
 
-body article.news aside.more li a:hover, body article aside.more li a:focus {
+body article.news aside.more li a:hover {
     background-color: transparent;
     text-decoration: underline;
     text-decoration-color: var(--article_links);
     text-decoration-thickness: .125em;
     text-underline-offset: 1.5px;
+}
+
+body article.news aside.more li a:focus {
+    color: white;
 }
 
 figure.pic {
@@ -351,6 +370,10 @@ figure.chart > div#pdf-20230503-5 {
     height: 320px;
 }
 
+figure.chart > div.h550 {
+    height: 550px;
+}
+
 article.news details {
     width: 100%;
     max-width: 650px; 
@@ -375,7 +398,7 @@ article.news summary {
     cursor: pointer;
 }
 
-figure.chart > p {
+figure.chart > p.chart-legend {
     text-align: center;
     margin-top: 0;
     order: 2;
@@ -419,8 +442,9 @@ figure.chart .highcharts-data-table table {
     border-spacing: 0;
     background: white;
     min-width: 100%;
-    margin-top: 10px;
+    margin: auto;
     font: normal 300 0.9em var(--article_font), sans-serif;
+    display: table;
 }
 
 figure.chart .highcharts-data-table td, figure.chart .highcharts-data-table th, figure.chart .highcharts-data-table caption {
@@ -524,8 +548,9 @@ body nav.articles_nav a p:nth-of-type(2) {
     margin: 0.3em 0 0 0;
 }
 
-body nav.articles_nav a:focus {
-    background-color: transparent;
+body nav.articles_nav a:focus p, body nav.articles_nav a:focus  {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 body nav.articles_nav a:hover p:nth-of-type(2), body nav.articles_nav a:focus p:nth-of-type(2) {
@@ -566,7 +591,7 @@ body nav.articles_nav a:nth-of-type(2)::after, body nav.articles_nav.next-only a
 }
 
 @media screen and (min-width: 600px) {
-    body nav.articles_nav a h3 {
+    body nav.articles_nav a hgroup p {
         font-weight: 1.2em;
     }
 
@@ -662,9 +687,10 @@ div.home-content-container aside.articles_home div a p {
 
 div.home-content-container aside.articles_home div a:focus {
     background-color: transparent;
+    border: 1px solid $menu-dark-blue;
 }
 
-div.home-content-container aside.articles_home div a:hover p, div.home-content-container aside.articles_home div a:focus p {
+div.home-content-container aside.articles_home div a:hover p {
     color: var(--article_title);
     text-decoration: underline;
     text-decoration-color: var(--article_links);

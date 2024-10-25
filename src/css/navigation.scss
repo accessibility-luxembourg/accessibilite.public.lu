@@ -17,7 +17,7 @@ header {
       justify-content: space-between;
     }
   
-    h1 {
+    h1, div.header-title {
       margin: 0;
       padding: 40px 0 0 80px;
       font: normal 200 1.3rem "Fira Sans", sans-serif;
@@ -401,7 +401,7 @@ header ul.menu-lang .sr-only {
   }
   
   @media screen and (min-width: 355px) {
-    header h1 {
+    header h1, header div.header-title {
       font-size: 1.5rem;
     }
   }
@@ -417,7 +417,7 @@ header ul.menu-lang .sr-only {
     header {
       height: 170px;
   
-      h1 {
+      h1, div.header-title {
         font: normal 200 2.1rem "Fira Sans", sans-serif;
         padding: 40px 0 0 90px;
   
@@ -571,7 +571,7 @@ header ul.menu-lang .sr-only {
   
   @media screen and (min-width: 920px) {
     header {
-      h1 {
+      h1, div.header-title {
         padding: 50px 0 0 140px;
   
         &::before {

@@ -15,11 +15,11 @@ Highcharts.setOptions({                                                         
 const graph_translations = {
     "fr": {
         "categories": "Catégories",
-        "title": "Graphique 1. Dérogations pour charge disproportionnée"
+        "title": "Graphique 1. Dérogations pour charge disproportionnée, en pourcentage"
     },
     "en": {
       "categories": "Categories",
-      "title": "Chart 1. Derogations for disproportionate burden"
+      "title": "Chart 1. Derogations for disproportionate burden, in percentage"
     }
 }
 
@@ -42,7 +42,7 @@ function loadchart (chartid) {                                                  
                     };
                     Graph.build_chart(
                         Highcharts,
-                        graph_translations[Graph.chart_lang].title,                 // char title
+                        graph_translations[Graph.chart_lang].title,                                    // char title
                         "dispro",                                                                      // div ID
                         [{data: Graph.get_num(results.data, 'Score'), name: "Score"}],                 // dataset(s)
                         'bar',                                                                         // chart type
@@ -52,7 +52,7 @@ function loadchart (chartid) {                                                  
                         false,                                                                         // show legend
                         0.2,                                                                           // group padding
                         'transparent',                                                                 // label background color
-                        '{y}%');                                                                       // label format
+                        undefined);                                                                    // stacking
                 }
             });
         break;
@@ -69,13 +69,5 @@ document.addEventListener('DOMContentLoaded', function () {                 // c
             loadchart(document.querySelectorAll("figure.chart > div:first-of-type:not([data-highcharts-chart])")[q].id);
         } 
     };
-    
-    for (let d=0; d<document.getElementsByTagName("details").length; d++) {
-        let accessible_div = document.createElement("div");
-        accessible_div.setAttribute("class", "highcharts-description");
-        accessible_div.setAttribute("style", "display: none");
-        accessible_div.innerHTML = document.getElementsByTagName("details")[d].getElementsByTagName("p")[0].innerHTML;
-        let parentDiv = document.getElementsByTagName("details")[d].parentNode;
-        parentDiv.insertBefore(accessible_div, document.getElementsByTagName("details")[d]);
-    }
+
 });
