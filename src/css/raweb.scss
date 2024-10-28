@@ -510,30 +510,32 @@ dialog#control-panel-dialog button#close-modal {
   margin-bottom: 1rem;
 }
 
-.legends > ul, .legends > ul > li {
+.legends > dl {
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
-.legends > ul > li {
+.legends > dl > div {
   display: flex;
   flex-direction: row;
 }
 
-.legends > ul > li > p {
+.legends > dl > div > dt {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.legends > ul > li > p:nth-of-type(odd) {
+.legends > dl > div > dt {
   width: 3rem;
   height: 2.5rem;
 }
 
-.legends > ul > li > p:nth-of-type(even) {
+.legends > dl > div > dd {
   font: 300 1rem "Fira Sans";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .legends span.a, .legends span.aa {
