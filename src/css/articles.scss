@@ -398,10 +398,11 @@ article.news summary {
     cursor: pointer;
 }
 
-article.news summary h4, article.news summary h5, article.news summary h6 {
+article.news summary h3, article.news summary h4, article.news summary h5, article.news summary h6 {
     display: inline;
     font-weight: normal;
     font-size: 0.9em;
+    color: black;
 }
 
 figure.chart > p.chart-legend {
