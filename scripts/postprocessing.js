@@ -40,7 +40,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         break;
       }
     }
-    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, "Légende et options d'affichage", ["id"], ["showModal"]);
+    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, "Légende et options d'affichage", ["id", "aria-haspopup"], ["showModal", "dialog"]);
     addelt(document, "dialog", mainFrame, null, ["id"], ["control-panel-dialog"]);
     addelt(document, "form", mainFrame.lastChild, null, ["method", "autocomplete"], ["dialog", "off"]);
     addelt(document, "button", mainFrame.lastChild.lastChild, null, ["id", "title"], ["close-modal", "Fermer la fenêtre modale"]);
@@ -76,7 +76,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc6"]);
     addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les correspondances", ["for"], ["rwc6"]);
-    addelt(document, "button", mainFrame, null, ["id", "title"], ["showModal-sticky", "Légende et options d'affichage"]);
+    addelt(document, "button", mainFrame, null, ["id", "title", "aria-haspopup"], ["showModal-sticky", "Légende et options d'affichage", "dialog"]);
     addelt(document, "div", mainFrame, null, ["class"], ["RAWebMaster"]);
     addelt(document, "div", mainFrame.lastChild, null, ["id", "class"], ["accordionGroup", "accordion"]);
   
