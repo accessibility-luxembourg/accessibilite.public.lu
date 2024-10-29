@@ -149,9 +149,9 @@ Le caractère «&nbsp;^&nbsp;» est l’opérateur de puissance.
 
 La norme distingue plusieurs tailles de textes à évaluer, chaque taille relevant d’un seuil de contraste. Ces tailles sont évaluées en pixel ou en point. Plus un texte est grand (supérieur à 18,5px avec effet de graisse ou 24px sans effet de graisse) moins le rapport requis est élevé (3:1).
 
-Compte tenu de la difficulté à évaluer les tailles de polices sur mobile, tous les textes devraient être considérés en taille normale sauf pour des textes significativement très grands.
-
-Par exemple, on pourrait considérer un texte &laquo;&nbsp;significativement très grand&nbsp;&raquo; si les lettres qui le composent ont une hauteur et/ou largeur au moins égales à 1,5&nbsp;cm.
+Dans le référentiel&nbsp;:
+- un texte en taille normale est un texte d'une taille calculée de moins de 24px sans effet de graisse ou de moins de 18,5px avec effet de graisse&nbsp;;
+- un texte de grande taille est un texte d'une taille calculée de 24px ou plus sans effet de graisse ou de moins 18,5px ou plus avec effet de graisse.
 
 #### Contrôle (contenu en mouvement ou clignotant)
 
@@ -240,6 +240,13 @@ La couleur de fond d’un bouton d’envoi de formulaire par exemple (&laquo;&nb
 
 Contenu associé à un [élément graphique](#element-graphique) en complément de son alternative textuelle afin de décrire en totalité l’information véhiculée par l’élément.
 
+#### Documentation 
+
+La documentation d'une application ou d’un [service d’assistance](#service-d-assistance) peut être :
+- un écran d’aide ;
+- une [déclaration d’accessibilité](obligations.md#declaration-d-accessibilité) ;
+- tout autre contenu qui fait office de documentation (document PDF, page HTML externe lisible dans un navigateur web).
+
 #### Donnée personnelle de l’utilisateur
 
 Les données personnelles concernant l’utilisateur dans un formulaire peuvent être&nbsp;: 
@@ -304,7 +311,10 @@ Il n’est pas recommandé d’utiliser des éléments graphiques contenant du t
 Exemple de fonctionnalité d’accessibilité&nbsp;: 
 - un dispositif permettant de charger une palette de couleurs plus contrastées pour les utilisateurs&nbsp;;
 - un dispositif d’agrandissement de taille des caractères&nbsp;; 
-- un composant permettant d’accéder à une version en langage simplifié.
+- un composant permettant d’accéder à une version en langage simplifié ;
+- des raccourcis clavier spéciaux disponibles pour certaines technologies d’assistance ;
+- des gestes ou mouvements d’appareil qui déclenchent des fonctionnalités ;
+- un rotor personnalisé sur certains écrans (le rotor est une fonctionnalité des lecteurs d’écran qui permet une navigation rapide entre des types d’éléments d’un écran, certaines plateformes permettent de définir des éléments de navigation rapide spécifique à une application dans ce rotor. [Voir une démonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)).
 
 #### Fonctionnalités vocales
 
@@ -362,12 +372,13 @@ Les informations d’accessibilité sont toutes les informations (attributs, rel
 
 Par exemple, en HTML, l’attribut `alt` d’une image est une information d’accessibilité.
 
-Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible&nbsp;: 
+Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible, par exemple&nbsp;: 
 - pouvoir définir l’alternative d’une image ou au contraire pouvoir la déclarer décorative&nbsp;;
 - pouvoir définir des titres de section&nbsp;;
+- pouvoir définir la langue d'un passage de texte ;
 - pouvoir définir des étiquettes aux champs de formulaires.
 
-Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du RAWeb de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
+Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du [RAWeb](../raweb1/criteres.html) de niveau A et AA qui doivent pouvoir être respectés. Pour la création d’un document au format PDF, ce sont tous les critères du référentiel d’évaluation de l’accessibilité des documents au format PDF ([RAPDF](../rapdf1/index.html)) de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
 
 #### Indication donnée par la forme, la taille ou la position
 
@@ -420,6 +431,14 @@ Un mécanisme de remplacement permettant de remplacer les éléments graphiques 
 
 Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités de l’application ou de l’écran qu’il modifie.
 
+#### Mécanisme qui permet d’activer une fonctionnalité d’accessibilité
+
+Composant d’interface ou ensemble de composants d’interface permettant d’activer une fonctionnalité qui prend en compte un ou des besoins d’adaptation de l’interface. Par exemple : un bouton permettant d’afficher un écran avec des contrastes conformes ou un bouton permettant d’augmenter l’interlignage des paragraphes.
+
+On parle également d’**ensemble de composants** lorsque dans certaines interfaces, le composant qui permet d’activer la fonctionnalité n’est rendu disponible que depuis l’activation nécessaire préalable d’un ou plusieurs autres composants. Par exemple : un bouton permet d’afficher une fenêtre modale qui elle-même contient un bouton qui permet d’afficher un écran avec des contrastes conformes. Dans ce cas, le bouton qui affiche la fenêtre modale **et** le bouton permettant d’activer l’affichage des contrastes conformes constituent à eux deux le mécanisme.
+
+Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités de l'application ou de l'écran qu’il modifie.
+
 #### Média temporel (type son, vidéo et synchronisé)
 
 - Média temporel seulement audio&nbsp;: contenu sonore (*wave*{lang=en}, MP3…).
@@ -466,7 +485,7 @@ L’auditeur doit également vérifier que, lorsqu’ils sont présents, ces par
 
 #### Outil d’édition
 
-Application permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
+Application ou composant d’édition présent dans une application permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
 
 Un outil d’édition peut être&nbsp;:
 - l’outil tel qu’il est délivré par l’éditeur&nbsp;;
@@ -475,18 +494,21 @@ Un outil d’édition peut être&nbsp;:
 
 Exemples d’outils d’édition&nbsp;:
 - application permettant d’éditer et de contrôler le contenu de sites web ou application, par exemple, les CMS (*Content Management System*{lang=en}), LMS (*Learning Management System*{lang=en}), LCMS (*Learning Content Management System*{lang="en"}), agrégateur de contenus&nbsp;;
+- application permettant de créer des documents bureautiques (par exemple pour une diffusion au format PDF)&nbsp;;
 - outils d’édition multimédia&nbsp;;
 - application permettant la création d’applications web&nbsp;;
 - application permettant l’édition de code&nbsp;;
 - application permettant d’exporter au format d’une technologie web (par exemple, un logiciel qui permet de sauvegarder en HTML)&nbsp;;
 - application qui génère du contenu sur la base de gabarits, scripts, ligne de commande etc.&nbsp;;
-- application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, wiki et forums)&nbsp;;
+- application ou fonctionnalité d’une application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, les fonctionnalités de commentaires sur les sites web, les forums ou encore les systèmes wiki)&nbsp;;
 - application mail permettant d’envoyer des *e-mails*{lang=en}.
 
 Exemples d’outils d’édition qui ne sont pas inclus dans le champ d’application&nbsp;:
 - Une application dont le contenu créé n’est pas mis à disposition d’autres utilisateurs (application de prise de note sans fonctionnalité de partage par exemple). Dans ce cas, le contenu édité n’est disponible que pour le propriétaire et n’est pas mis à destination d’autres utilisateurs.
 - Les formulaires à destination des utilisateurs. Par exemple, un formulaire de commande d’une application e-commerce. Bien que les formulaires permettent d’éditer des contenus, ces contenus ne sont pas mis à disposition d’autres utilisateurs.
 - Les outils de contrôles d’accessibilité indépendants&nbsp;: ces outils ne modifient pas le contenu qu’ils contrôlent.
+
+Les outils d’édition ne sont pas à intégrer systématiquement dans l’échantillon. Par exemple, lors de l’audit d’une application d’actualités, le RAAM ne réclame pas à ce que l’outil d’édition (par exemple un CMS) qui permet de créer les contenus, soit lui-même audité. Si l’objet de l’audit est d’évaluer l’interface publique de consultation, l’échantillon ne doit contenir que les écrans publics représentatifs, mais pas l’outil de gestion des contenus. 
 
 #### Ordre de tabulation
 
@@ -527,6 +549,10 @@ La résolution QVGA (*Quarter Video Graphics Array*{lang=en}) est une norme d’
 
 Un moyen de déclencher une action associée à un composant de l’interface utilisateur en appuyant sur une ou plusieurs touches d’un clavier.
 
+#### Règles d’accessibilité numérique
+
+La dénomination générique «&nbsp;règles d’accessibilité numérique&nbsp;» désigne le [RAWeb](../raweb1/index.html), le [RAAM](../raam1/index.html), le [RAPDF](../rapdf1/index.html) ou encore la norme [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) selon le contexte d’utilisation.
+
 #### Répétition des touches
 
 Fonctionnalité qui consiste à imprimer (à l’écran, dans une zone de saisie par exemple) un caractère plusieurs fois tant que la touche correspondante sur le clavier (visuel ou physique) est activée.
@@ -541,18 +567,25 @@ Un résumé est un passage de texte associé à un tableau de données complexe.
 
 #### Service de relais
 
-Les services de relais permettent aux utilisateurs, quel que soit leur mode de communication (le texte, les signes, la parole) d’interagir à distance au cours d’une communication en temps réel avec d’autres participants, en fournissant une conversion entre les modes de communication. 
+Les services de relais permettent aux utilisateurs, quel que soit leur mode de communication (le texte, les signes, la parole) d’interagir au cours d’une communication en temps réel à distance avec d’autres participants, en fournissant une conversion entre les modes de communication. 
 
-Par exemple, il existe des relais permettant à un utilisateur qui communique avec la langue des signes de communiquer avec un interlocuteur ne la pratiquant pas, par le biais d’un service qui fournit un service d’interprétariat en direct.
+Par exemple : un utilisateur qui communique avec la langue des signes veut échanger avec un interlocuteur ne la pratiquant pas, un service de relais va fournir un interprétariat en direct pour qu’ils puissent communiquer.
 
 #### Service d’assistance
 
-Un service d’assistance peut être un&nbsp;: 
-- *help desk*{lang=en}, 
+Un service d’assistance peut être&nbsp;: 
+- le mécanisme de retour d’information identifié dans la déclaration d’accessibilité de l’application,
+- un *help desk*{lang=en}, 
 - un centre d’appel, 
 - un support technique,
 - un [service de relais](#service-de-relais),
 - un service de formation.
+
+#### Sous-titres de traduction
+
+Les sous-titres de traduction sont des sous-titres dans une langue différente de la langue de la vidéo.
+
+Les sous-titres de traduction (*subtitles*{lang=en}) sont différents des [sous-titres pour sourds et malentendants](#sous-titres-synchronisés-objet-multimédia) (*captions*{lang=en}).
 
 #### Sous-titres synchronisés (objet multimédia)
 
