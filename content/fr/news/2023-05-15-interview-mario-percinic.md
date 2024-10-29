@@ -55,7 +55,7 @@ auteur: Dominique Nauroy
     </div>
     <p class="video-desc">The Velvet's "Electric Wizard" music video</p>
     <details class="lyrics">
-        <summary>Lyrics</summary>
+        <summary><h3>Lyrics</h3></summary>
         <p>To the thunder and lightnings of a whirling storm</p>
         <p>A visionary genius a prodigy was born</p>
         <p>Destined to unravel the secret of the gods</p>
