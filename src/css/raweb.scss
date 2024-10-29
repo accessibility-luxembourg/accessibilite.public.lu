@@ -250,9 +250,16 @@ html, body {
   text-decoration: none;
 }
 
-.accordion a:hover, .accordion a:focus:visited, .accordion a:focus {  
+.accordion a:hover {  
   border-bottom: 2px solid #19297c;
   color: black;
+  background-color: white;
+}
+
+.accordion a:focus:visited, .accordion a:focus {  
+  outline: thin solid black;
+  color: black;
+  outline-offset: 1px;
   background-color: white;
 }
 
