@@ -51,14 +51,17 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "2.1", ["class"], ["crit"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond bleu précédant l'intitulé du critère", ["class"], ["sr-only"]);
     addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Critère");
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "4.14", ["class"], ["critRAWeb"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond mauve précédant l'intitulé du critère", ["class"], ["sr-only"]);
     addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Nouveau critère RAWeb");
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "A", ["class"], ["a"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "lettre A sur fond rouge", ["class"], ["sr-only"]);
     addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Niveau de conformité");
     addelt(document, "fieldset", mainFrame.lastChild.lastChild);
     addelt(document, "legend", mainFrame.lastChild.lastChild.lastChild, "Options");
