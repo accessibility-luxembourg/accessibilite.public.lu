@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 }                
             }
 
-            if (sitesField.validity.valueMissing && appsField.validity.valueMissing) {
+            if (sitesField.value === '' && appsField.value === '') {
                 errorMessage(sitesField, errorMsg[pgLang].erNext);
                 errorMessage(appsField, errorMsg[pgLang].erPrev);
             }
