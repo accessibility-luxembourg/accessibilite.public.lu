@@ -32,10 +32,10 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
+There is a special case management when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
 
 In these situations, the criterion is not applicable. For example, refreshing an RSS feed on a page is not an essential time limit: the criterion is applicable. On the other hand, an automatic redirect to the new version of a page from an obsolete URL is essential: the criterion is not applicable.
 
 #### Note
 
-Test 13.1.1 of this criterion is subject to the [principle of non-interference](../obligations.html#non-interference-principle).
+Test 13.1.1 of this criterion is subject to the [non-interference principle](../obligations.html#non-interference-principle).

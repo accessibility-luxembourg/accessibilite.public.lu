@@ -13,7 +13,7 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when
+There is a special case management when
 
 - The page is the home page;
 - The website consists of a single page;

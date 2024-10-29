@@ -1,3 +1,3 @@
 ---
-title: Is each [label](#form-field-label) associated with a [form field](#form-input-field) relevant (excluding special cases)?
+title: Is each [label](#form-field-label) associated with a [form input field](#form-input-field) relevant (excluding special cases)?
 ---

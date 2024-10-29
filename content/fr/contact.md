@@ -6,9 +6,17 @@ L-2450 Luxembourg
 Luxembourg
 </address>
 
-- Tél.&nbsp;: [(+352) 247-82181](tel:+35224782181) 
-- E-Mail&nbsp;: [accessibilite@sip.public.lu](mailto:accessibilite@sip.public.lu)
-- Mastodon&nbsp;: [@AccessibilityLu@mas.to](https://mas.to/@accessibilityLu){rel=me}
-- LinkedIn&nbsp;: [Digital Accessibility Luxembourg](https://www.linkedin.com/company/accessilibity-lu/)
-- GitHub&nbsp;: [AccessibilityLU](https://github.com/accessibility-luxembourg)
-- Twitter&nbsp;: [@AccessibilityLU](https://twitter.com/AccessibilityLu)
+<dl>
+  <dt>Tél.</dt>
+  <dd><a href="tel:+35224782181">(+352) 247-82181</a></dd>
+  <dt>E-Mail</dt>
+  <dd><a href="mailto:accessibilite@ sip.public.lu">accessibilite@sip.public.lu</a></dd>
+  <dt>Mastodon</dt>
+  <dd><a href="https://mas.to/@accessibilityLu" rel="me">@AccessibilityLu@mas.to</a></dd>
+  <dt>LinkedIn</dt>
+  <dd><a href="https://www.linkedin.com/company/accessilibity-lu/">Digital Accessibility Luxembourg</a></dd>
+  <dt>GitHub</dt>
+  <dd><a href="https://github.com/accessibility-luxembourg">AccessibilityLU</a></dd>
+  <dt>Twitter</dt>
+  <dd><a href="https://twitter.com/AccessibilityLu">@AccessibilityLU</a></dd>
+</dl>

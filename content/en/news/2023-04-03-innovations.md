@@ -6,8 +6,10 @@ tags:
 - digital accessibility
 author: Dominique Nauroy
 ---
-<h2>Innovations driven by the world of disability</h2>
-<h3>Far from stifling creativity, accessibility has been the source of inventions and products that today meet the needs of everyone</h3>
+<hgroup>
+	<h1>Innovations driven by the world of disability</h1>
+	<p>Far from stifling creativity, accessibility has been the source of inventions and products that today meet the needs of everyone</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>We live in a world of technologies, many of which were originally designed to compensate for disabilities, and some of which were developed by people with disabilities. Their uses have rapidly spread beyond their initial sphere to conquer the general public.</p>

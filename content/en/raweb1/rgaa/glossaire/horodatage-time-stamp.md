@@ -2,7 +2,7 @@
 title: Time stamp
 ---
 
-The video time stamp is the time value declared in the subtitle file.
+The video time stamp is the time value declared in the caption file.
 
 <pre><code>1
 00:00:03,000 --&gt; 00:00:06,999

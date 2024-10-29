@@ -13,7 +13,7 @@
                 <summary><%= __('Warning') %></summary>
                 <p><%= __('For each criterion in the framework, an assessment methodology is proposed. It should be noted that this methodology has no normative value. It is intended to serve as a reference point for familiarising oneself with the standard, and to illustrate a potential evaluation method. However, it is acknowledged that other evaluation methods may exist. In addition, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. Finally, it is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criterion and the associated tests have normative value.') %></p>
             </details>
-            <button id="showModal"><%= __('Legend and display options') %></button>
+            <button aria-haspopup="dialog" id="showModal"><%= __('Legend and display options') %></button>
         </aside>
     </div>
 </div>
@@ -23,20 +23,20 @@
         <div class="content">
             <h6><%= __('Legend') %></h6>
             <div class="legends">
-                <ul>
-                    <li>
-                        <p><span class="crit">2.1</span></p>
-                        <p> <%= __('Criterion') %></p>
-                    </li>
-                    <li>
-                        <p><span class="critRAWeb">4.14</span></p>
-                        <p> <%= __('New RAWeb Criterion') %></p>
-                    </li>
-                    <li>
-                        <p><span class="a">A</span></p>
-                        <p> <%= __('Compliance level') %></p>
-                    </li>
-                </ul>
+                <dl>
+                    <div>
+                        <dt><span class="crit">2.1</span><span class="sr-only"> <%= __('explain criterion') %></span></dt>
+                        <dd> <%= __('Criterion') %></dd>
+                    </div>
+                    <div>
+                        <dt><span class="critRAWeb">4.14</span><span class="sr-only"> <%= __('explain RAWeb criterion') %></span></dt>
+                        <dd> <%= __('New RAWeb Criterion') %></dd>
+                    </div>
+                    <div>
+                        <dt><span class="a">A</span><span class="sr-only"> <%= __('explain level') %></span></dt>
+                        <dd> <%= __('Compliance level') %></dd>
+                    </div>
+                </dl>
             </div>
             <fieldset>
                 <legend><%= __('Options') %></legend>
@@ -51,7 +51,7 @@
     </div>
 </dialog>
 
-<button id="showModal-sticky" title="<%= __('Legend and display options') %>"></button>
+<button id="showModal-sticky" aria-haspopup="dialog" title="<%= __('Legend and display options') %>"></button>
 
 <div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">

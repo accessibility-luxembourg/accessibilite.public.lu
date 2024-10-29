@@ -56,7 +56,6 @@ class DisclosureNav {
       }
       });
 
-      this.rootNode.addEventListener('focusout', this.onBlur.bind(this));
   }
 
   controlFocusByKey(keyboardEvent, nodeList, currentIndex) {
@@ -85,16 +84,6 @@ class DisclosureNav {
           keyboardEvent.preventDefault();
           nodeList[nodeList.length - 1].focus();
           break;
-      }
-  }
-
-  onBlur(event) {
-      var menuContainsFocus = this.rootNode.contains(event.relatedTarget);
-      if (!menuContainsFocus && this.openIndex !== null) {
-          this.toggleExpand(this.openIndex, false);
-      }
-      if (!menuContainsFocus && document.querySelector('.toggle-menu').getAttribute('aria-expanded') === "true") {
-          toggleIsOpen();
       }
   }
 
@@ -194,6 +183,18 @@ class DisclosureNav {
 function initDisclosureMenu() {
     new DisclosureNav(document.querySelector('.disclosure-nav'));
     document.querySelector('.toggle-menu').addEventListener('click', toggleIsOpen);
+    document.querySelector('.disclosure-nav').addEventListener('focusout', function (e) {
+        if (this.contains(e.relatedTarget)) return;
+        document.querySelectorAll('.submenu').forEach(function (elt) {
+            elt.setAttribute('aria-expanded', 'false');
+            document.getElementById(elt.getAttribute('aria-controls')).style.display = "none";
+    
+        })
+        window.setTimeout(function () {
+            document.querySelector('.toggle-menu').setAttribute('aria-expanded', 'false');
+        }, 200)
+    });
+
 }
 
 

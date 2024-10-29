@@ -2,7 +2,7 @@
 title: Accessibility information
 ---
 
-Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) required to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an online frame, etc.
+Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) required to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an iframe, etc.
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 

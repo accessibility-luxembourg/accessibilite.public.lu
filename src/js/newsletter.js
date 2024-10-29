@@ -40,46 +40,6 @@ function getMessage(code, messages) {
     return messages[lang][code];
 }
 
-function checkForm () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const demoMode = urlParams.get('demo') !== null;
-    const demoError = urlParams.get('demo') === "2";
-
-    const btn = document.getElementById('submitbtn');
-    const emailField   = document.getElementById('sip_email');
-    const checkConsent = document.getElementById('sip_consent');
-
-    emailField.setCustomValidity("");
-    checkConsent.setCustomValidity("");
-    emailField.parentElement.classList.remove('error');
-    checkConsent.parentElement.classList.remove('error');
-
-    if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
-        emailField.setCustomValidity(getMessage('email', validationMessages));
-        emailField.parentElement.classList.add('error');
-    }
-
-    if (checkConsent.validity.valueMissing) {
-        checkConsent.setCustomValidity(getMessage('checkbox', validationMessages));
-        checkConsent.parentElement.classList.add('error');
-    }
-    
-    if (emailField.reportValidity() && checkConsent.reportValidity()) {
-        btn.setAttribute("disabled", "");
-        document.getElementById("output").innerHTML = '';
-        document.getElementById("output").classList.remove("alert");
-        document.getElementById("output").classList.remove("alert-danger");
-        document.getElementById("output").classList.remove("alert-success");
-        if (demoMode) {
-            const demoParams = (demoError)?{code:"AlreadyExistingAddress", success: "false"}:{code:"EmailSent", success: "true"};
-            newUserRequestFeedback(demoParams);
-        } else {
-            newUserRequest();
-        }
-        
-    }
-}
-
 function newUserRequest () {
     const data = {
         "sip_email": document.getElementById('sip_email').value,
@@ -115,5 +75,72 @@ function newUserRequestFeedback (output) {
 }
 
 document.addEventListener('DOMContentLoaded', function(e) {
-    document.querySelector('#submitbtn').addEventListener('click', checkForm)
+    document.addEventListener('invalid', (function(){
+        return function(e) {
+          //prevent the browser from showing default error bubble / hint
+          e.preventDefault();
+        };
+    })(), true);
+
+    document.querySelector('#submitbtn').addEventListener('click', function (e) {
+        document.querySelectorAll('.errorMessage').forEach(function (elt) {
+            elt.remove();
+        });
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const demoMode = urlParams.get('demo') !== null;
+        const demoError = urlParams.get('demo') === "2";
+    
+        const btn = document.getElementById('submitbtn');
+        const emailField   = document.getElementById('sip_email');
+        const checkConsent = document.getElementById('sip_consent');
+    
+
+        emailField.parentElement.classList.remove('error');
+        checkConsent.parentElement.classList.remove('error');
+        emailField.removeAttribute("aria-invalid");
+        emailField.removeAttribute("aria-describedby");
+        checkConsent.removeAttribute("aria-invalid");
+        checkConsent.removeAttribute("aria-describedby");
+    
+        if (emailField.validity.patternMismatch || emailField.validity.typeMismatch || emailField.validity.valueMissing) {
+            emailField.parentElement.classList.add('error');
+            emailField.setAttribute("aria-invalid", true);
+            emailField.setAttribute("aria-describedby", emailField.id + "Error");
+            const newelement = document.createElement("p");
+            newelement.setAttribute("class", "errorMessage");
+            newelement.setAttribute("id", emailField.id + "Error");
+            emailField.parentNode.appendChild(newelement);
+            newelement.innerHTML = getMessage('email', validationMessages);
+        }
+        
+        if (checkConsent.validity.valueMissing) {
+            checkConsent.parentElement.classList.add('error');
+            checkConsent.setAttribute("aria-invalid", true);
+            checkConsent.setAttribute("aria-describedby", checkConsent.id + "Error");
+            const newelement = document.createElement("p");
+            newelement.setAttribute("class", "errorMessage");
+            newelement.setAttribute("id", checkConsent.id + "Error");
+            checkConsent.parentNode.appendChild(newelement);
+            newelement.innerHTML = getMessage('checkbox', validationMessages);
+        }
+
+        if (emailField.reportValidity() && checkConsent.reportValidity()) {
+            btn.setAttribute("disabled", "");
+            document.getElementById("output").innerHTML = '';
+            document.getElementById("output").classList.remove("alert");
+            document.getElementById("output").classList.remove("alert-danger");
+            document.getElementById("output").classList.remove("alert-success");
+            if (demoMode) {
+                const demoParams = (demoError)?{code:"AlreadyExistingAddress", success: "false"}:{code:"EmailSent", success: "true"};
+                newUserRequestFeedback(demoParams);
+            } else {
+                newUserRequest();
+            }
+            
+        }
+        
+        
+        
+    })
 })

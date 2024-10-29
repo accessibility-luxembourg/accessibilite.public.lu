@@ -6,8 +6,10 @@ tags:
 - accessibilité numérique
 auteur: Dominique Nauroy
 ---
-<h2>Ces innovations que le monde du handicap a portées</h2>
-<h3>Loin de brider la créativité, l’accessibilité a été à la source d’inventions et de produits qui répondent aujourd’hui aux besoins de tous</h3>
+<hgroup>
+	<h1>Ces innovations que le monde du handicap a portées</h1>
+	<p>Loin de brider la créativité, l’accessibilité a été à la source d’inventions et de produits qui répondent aujourd’hui aux besoins de tous</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Nous baignons dans un univers de technologies&#8239;; nombre d’entre elles ont été à l’origine conçues pour pallier des handicaps et certaines innovations ont été développées par des personnes handicapées. Leurs usages ont rapidement dépassé leur première sphère pour conquérir le grand public.</p>

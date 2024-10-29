@@ -23,8 +23,8 @@ errorMsg["fr"] = {
     erField : "Veuillez compléter ce champ",
     erEmail : "Veuillez renseigner une adresse e-mail valide\n (exemple : jean.reuter@etat.lu)",
     erDate : "Veuillez indiquer une date valide au format jj/mm/aaaa\n (exemple : 20/12/2023)",
-    erNext : "Veuillez compléter ce champ et/ou le champ ci-dessous",
-    erPrev : "Veuillez compléter ce champ et/ou le champ ci-dessus",
+    erNext : "Veuillez compléter ce champ et/ou le champ « URL des apps à déclarer »",
+    erPrev : "Veuillez compléter ce champ et/ou le champ « URL des sites à déclarer »",
     erGlobal : "Des erreurs ont été détectées dans le formulaire, le focus est repositionné dans le premier champ posant problème."
 }
 
@@ -37,8 +37,8 @@ errorMsg["en"] = {
     erField : "Please fill in this field",
     erEmail : "Please fill in a valid e-mail address\n (example: jean.reuter@etat.lu)",
     erDate : "Please enter a valid date in dd/mm/yyyy format\n (example: 20/12/2023)",
-    erNext : "Please complete this field and/or the field below",
-    erPrev : "Please complete this field and/or the field above",
+    erNext : "Please complete this field and/or the field “URLs of apps to be declared”",
+    erPrev : "Please complete this field and/or the field “URLs of sites to be declared”",
     erGlobal : "Errors have been detected in the form, and the focus is repositioned to the first field with a problem."
 }
 
@@ -84,7 +84,7 @@ if (location.hash !== '') {
     location.hash = ''
 }
 
-document.querySelector('#contenu>h2').setAttribute('tabindex', '-1')
+document.querySelector('#contenu>h1').setAttribute('tabindex', '-1')
 
 function multilineToArray(e) {
     return (e.length === 0)? Array(): e.replace('\r\n', '\n').split('\n')
@@ -226,8 +226,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
             const eval_type       = document.querySelector("[name='eval_type']:checked").value;
             const sitesField      = document.getElementById('sites');
             const appsField       = document.getElementById('apps');
-            sitesField.required   = true;
-            appsField.required    = true;
 
             let fields            = [sitesField, appsField, dateField, renewalField, emailField];
             let checkLang         = false;
@@ -286,17 +284,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 errorMessage(appsField, errorMsg[pgLang].erPrev);
             }
 
-            if (!sitesField.validity.valueMissing) {
-                appsField.required = false;
-            }
-
-            if (!appsField.validity.valueMissing) {
-                sitesField.required = false;
-            }
-
             document.getElementById('lang_fr').setCustomValidity(document.querySelectorAll(".form-lang-input:checked").length == 0  ? 'Sélectionnez au moins une case à cocher' : '');
             errorPanel.innerHTML = "";
-            errorPanel.style.display = "none";
 
             // if ok, submit it
             const okToSubmit = fields.map(e => e.reportValidity()).reduce((a,b) => a && b, true);
@@ -319,22 +308,21 @@ document.addEventListener('DOMContentLoaded', function(e) {
                 });
                 location.hash = 'result';
             } else {
-                errorPanel.style.display = "block";
-                window.setTimeout(function () {
-                    errorPanel.innerHTML = errorMsg[pgLang].erGlobal;
-                    if (!checkLang) {
-                        document.getElementById('lang_fr').focus();
-                        document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
-                    } else  {
-                        for (let f = 0; f < fields.length; f++) {
-                            if (!fields[f].reportValidity()) {
-                                fields[f].focus();
-                                fields[f].parentElement.parentElement.before(errorPanel);
-                                break;
-                            }
+                if (!checkLang) {
+                    document.getElementById('lang_fr').focus();
+                    document.getElementById('lang_fr').parentElement.parentElement.before(errorPanel);
+                } else  {
+                    for (let f = 0; f < fields.length; f++) {
+                        if (!fields[f].reportValidity()) {
+                            fields[f].focus();
+                            fields[f].parentElement.parentElement.before(errorPanel);
+                            break;
                         }
                     }
-                }, 10);
+                }
+                window.setTimeout(function () {
+                    errorPanel.innerHTML = '<p class="errorPanel" role="none">' + errorMsg[pgLang].erGlobal + '</p>';
+                }, 200);
             }
         })
     }

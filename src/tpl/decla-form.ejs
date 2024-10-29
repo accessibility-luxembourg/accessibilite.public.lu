@@ -33,7 +33,7 @@
         <% langs.forEach(l => { %>  
               <div class="form-group" data-lang="<%= l.code %>">
                 <label for="name_<%= l.code %>"><%= __("Organisation name") + __("in") +__(l.name) %> <span class="symbol-required">* </span></label>
-                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required="true">
+                <input type="text" class="form-control" id="name_<%= l.code %>" name="name_<%= l.code %>" required>
             </div>          
         <% }) %>                     
     </fieldset>
@@ -42,11 +42,11 @@
         <legend><%= __("Purpose(s) of the statement") %> <span class="symbol-required">*</span> (<%= __("fill in at least one of the following two fields") %>)</legend>
         <div class="form-group">
             <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, <%- __("ex:") %> https://www.gouvernement.lu)</label>
-            <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
+            <textarea id="sites" rows="5" class="form-control" name="sites"></textarea>
         </div>
         <div class="form-group">
             <label for="apps"><%= __("URLs of apps to be declared") %> (<%= __("one per line") %>, <%= __("App URLs on the Apple and Google stores") %>)</label>
-            <textarea id="apps" rows="5" class="form-control" name="apps" required></textarea>
+            <textarea id="apps" rows="5" class="form-control" name="apps"></textarea>
         </div>
     </fieldset>
 
@@ -62,18 +62,17 @@
             <input type="radio" id="none" name="conformity" value="none" class="form-check-input"><label for="none" class="form-check-label" aria-describedby="help-none"><%= __("Non-compliance") %></label>
         </div>
         <p class="form-text text-muted"><small><%= __("The compliance status is assessed by a compliance audit.") %></small></p>
-            <ul>
-                <li id="help-total" class="text-muted">
-                    <small><%= __("Select \"Full compliance\" only if the level of compliance following the audit is 100%.") %></small>    
-                </li>
-                <li id="help-partial" class="text-muted">
-                    <small><%= __("Select \"Partial compliance\" if the level of compliance following the audit is between 50% and 100%.") %></small>
-                </li>
-                <li id="help-none" class="text-muted">
-                    <small><%= __("Select \"Non-compliant\" if a compliance audit has not yet been carried out or if the level of compliance following the audit is less than 50%.") %></small>
-                </li>
-            </ul>
-        </p>                
+        <ul>
+            <li id="help-total" class="text-muted">
+                <small><%= __("Select \"Full compliance\" only if the level of compliance following the audit is 100%.") %></small>    
+            </li>
+            <li id="help-partial" class="text-muted">
+                <small><%= __("Select \"Partial compliance\" if the level of compliance following the audit is between 50% and 100%.") %></small>
+            </li>
+            <li id="help-none" class="text-muted">
+                <small><%= __("Select \"Non-compliant\" if a compliance audit has not yet been carried out or if the level of compliance following the audit is less than 50%.") %></small>
+            </li>
+        </ul>               
     </fieldset>
     <fieldset class="form-group" id="features-access">
         <legend><%= __("Accessibility features") %></legend>         
@@ -211,7 +210,7 @@
     </div>    
 
     <button type="button" id="decla_btn" class="btn btn-primary"><%= __("Create your statement") %></button>
-    <p id="errorPanel" role="alert"></p>
+    <div id="errorPanel" role="alert" aria-live="polite"></div>
 </form>
 </div>
 
@@ -219,15 +218,15 @@
 <div id="result">
     <p class="alert alert-success"><%- __("The different versions of your statement were successfully created.<br />You can change your input using the button below or the \"back\" button on your browser.<br />For each version of your statement, you can copy and paste their content into your CMS.") %></p>
     <div class="alert alert-warning">
-        <p class="alert-content"><%- __("<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite@sip.etat.lu</a>. Thank you!") %></p>
+        <p class="alert-content"><%- __("<strong>Please note!</strong> Once your statement has been published, you have one month to inform the SIP of this publication. Send us the URL of your statement by e-mail to <a href=\"mailto:accessibilite@sip.etat.lu\">accessibilite<wbr>@sip.etat.lu</a>. Thank you!") %></p>
     </div>
     <button id="back"><%= __("Edit your input") %></button>
 
     <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
-            <h3><%= __("Statement") + __("in") + e.name %></h3>
-            <button class="clipboard"><%= __("Copy to clipboard") %></button>
-            <button class="download"><%= __("Download HTML") %></button>
+            <h3 id="decla-<%= e.code %>-title"><%= __("Statement") + __("in") + e.name %></h3>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="clipboard"><%= __("Copy to clipboard") %></button>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="download"><%= __("Download HTML") %></button>
             <section id="decla-<%= e.code %>-result" class="decla-result"></section>
         </div>    
     <% }) %>

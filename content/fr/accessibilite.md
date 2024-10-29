@@ -17,10 +17,6 @@ qu'au <a href="https://accessibilite.public.lu/fr/raweb1/">Référentiel d'éval
 qui l’implémente,
 en raison des éléments énumérés ci-dessous.
 </p>
-<h3>Contenu non accessible</h3>
-<p>Le contenu visé ci-après n'est pas accessible pour la/les raison(s) suivante(s)&nbsp;:</p>
-<h4>Charge disproportionnée</h4>
-<p class="technical-information accessibility-limitations disproportionate-burden">Nous avons placé sur la page <a href="../newsletter.html">"suivre nos actualités"</a> un composant permettant de s'inscrire à notre lettre d'information. Rendre totalement accessible ce formulaire représente aujourd'hui une charge disproportionnée. Les mêmes contenus sont publiés sur notre <a href="../news/feed.xml">fil RSS</a>, l'abonnement à ce fil constituant une alternative accessible.</p>
 <h3>Préparation de la présente déclaration sur l'accessibilité</h3>
 <p>
 La présente déclaration a été préparée le <span class="basic-information statement-created-date">14 août 2020</span>.

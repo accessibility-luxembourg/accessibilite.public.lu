@@ -7,4 +7,4 @@ Norm:
 
 #### Special cases
 
-The criterion does not apply if the subtitles are embedded in the video (open captions).
+The criterion does not apply for subtitles embedded in the video (open captions).

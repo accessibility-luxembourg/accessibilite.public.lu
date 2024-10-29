@@ -48,10 +48,10 @@ function genNews(config, lang, outputPath, baseURL, __) {
         data.html = newsMarkdownIt(cbfm).render(fs.readFileSync('./content/'+lang+'/news/'+e).toString())
         $ = cheerio.load(data.html)
         data.meta.lang = $('body').children().first().attr('lang')
-        data.meta.title_html = $('h2').first().html()
-        data.meta.title = $('h2').first().text()
-        data.meta.subtitle_html = $('h3').first().html()
-        data.meta.subtitle = $('h3').first().text()
+        data.meta.title_html = $('h1').first().html()
+        data.meta.title = $('h1').first().text()
+        data.meta.subtitle_html = $('hgroup > p').first().html()
+        data.meta.subtitle = $('hgroup > p').first().text()
         data.meta.intro_html = $('.intro > p').first().html()
         data.meta.intro = $('.intro > p').first().text()
         data.meta.img = $('img').first().attr('src')
@@ -76,7 +76,7 @@ function genNews(config, lang, outputPath, baseURL, __) {
         }
     
         // add the date to the html code
-        $('h3').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
+        $('hgroup').first().after('<p class="date">'+data.date.toLocaleDateString((data.meta.lang !== undefined)?data.meta.lang:lang, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })+'</p>')
     
         // copy the script elements to the body
         $('head script').each((e, a) => {

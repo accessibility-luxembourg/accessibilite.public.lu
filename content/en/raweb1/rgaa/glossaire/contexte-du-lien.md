@@ -2,7 +2,7 @@
 title: Link context
 ---
 
-The link context represents the additional information (referred to as context information) that can be related by a computer program to the [link title](#title-or-accessible-name-of-link). The contextual information used to complete the [link title](#title-or-accessible-name-of-link) is as follows:
+The link context represents the additional information (referred to as context information) that can be related by a computer program to the [accessible name of a link](#title-or-accessible-name-of-link). The contextual information used to complete the [accessible name of a link](#title-or-accessible-name-of-link) is as follows:
 
 - The content of the sentence in which the text link is present;
 - The content of the paragraph (`<p>` tag) in which the text link is present;
@@ -13,4 +13,4 @@ The link context represents the additional information (referred to as context i
 
 Note 1: One of the 6 link contexts combined with the [accessible name of a link](#title-or-accessible-name-of-link) should make it possible to understand the function and destination of the link.
 
-Note 2: RAWeb considers that an e-mail address of the type `xxx@xxx.yyy` is sufficient link text to understand the function of the link and does not require the action to be indicated more explicitly.
+Note 2: RAWeb considers that an e-mail address of the type `xxx@xxx.yyy` is a sufficient link text to understand the function of the link and does not require the action to be indicated more explicitly.

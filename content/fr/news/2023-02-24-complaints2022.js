@@ -76,7 +76,7 @@ function loadchart (chartid) {                                                  
                         true,
                         0.2,
                         'rgb(46, 117, 182)',
-                        '{y}');
+                        undefined);
                 }
             });
         break;
@@ -106,7 +106,7 @@ function loadchart (chartid) {                                                  
                         true,
                         0.05,
                         'rgb(46, 117, 182)',
-                        '{y}%');
+                        undefined);
                 }
             });
         break;
@@ -125,12 +125,4 @@ document.addEventListener('DOMContentLoaded', function () {               // cre
         } 
     };
     
-    for (let d=0; d<document.getElementsByTagName("details").length; d++) {
-        let accessible_div = document.createElement("div");
-        accessible_div.setAttribute("class", "highcharts-description");
-        accessible_div.setAttribute("style", "display: none");
-        accessible_div.innerHTML = document.getElementsByTagName("details")[d].getElementsByTagName("p")[0].innerHTML;
-        let parentDiv = document.getElementsByTagName("details")[d].parentNode;
-        parentDiv.insertBefore(accessible_div, document.getElementsByTagName("details")[d]);
-    }
 });

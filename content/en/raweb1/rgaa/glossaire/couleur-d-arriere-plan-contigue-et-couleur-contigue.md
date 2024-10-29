@@ -11,7 +11,7 @@ Examples:
 - For a white button with a green border which becomes black when focused and hovered, the white background outside the green border of the default state and the black border of the state when focused and hovered corresponds to the adjacent background colour.
 
 Adjacent colour: colour directly in contact with another colour.
-For example, in a "one-way" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
+For example, in a "no entry" sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
 Note 1: in the case of a gradient, the adjacent colour with the least contrast in the gradient is considered to be the adjacent colour or adjacent background colour.
 

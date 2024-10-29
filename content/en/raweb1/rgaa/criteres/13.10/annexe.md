@@ -17,4 +17,4 @@ Norm:
 There are two types of special case management:
 
 - The criterion only applies to features implemented by the site author. It does not therefore apply to actions required by the user agent or the operating system;
-- The criterion does not apply to functions that require a complex gesture to be performed (for example, drawing a signature).
+- The criterion does not apply to functions where a complex gesture is essential (for example, drawing a signature).

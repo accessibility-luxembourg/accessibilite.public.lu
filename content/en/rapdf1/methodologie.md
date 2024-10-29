@@ -7,7 +7,7 @@ For example, when the interface contains a graphic element conveying information
 
 ### Example resources
 
-[Examples (zip file, 9.24 MB)](../files/ressources-rapdf1.zip) are available to illustrate the test methodology. Each criterion is illustrated by a screen shot taken from the PAC 2024 tool.
+[Examples (zip file, 9.24 MB)](../files/ressources-rapdf1.zip) are available to illustrate the testing methodology. Each criterion is illustrated by a screen shot taken from the PAC 2024 tool.
 
 
 ### Assessment tools
@@ -23,7 +23,7 @@ Installation procedure
 2. The download consists of a ZIP archive that needs to be unarchived. Right-click and choose "Extract all".
 3. Then click on "PAC.exe" to launch the tool.
 
-How to use the tool to perform the tests is described in detail in the test methodology associated with each criterion in the framework.
+How to use the tool to perform the tests is described in detail in the testing methodology associated with each criterion in the framework.
 
 #### NVDA
 
@@ -33,7 +33,7 @@ The procedure below provides additional details to ensure that the output is com
 
 ##### Installation
 
-**Note**: the [NVDA website](hhttps://www.nvaccess.org/download/)
+**Note**: the [NVDA website](https://www.nvaccess.org/download/)
 always offers the latest stable version for download.
 
 1.  Download the [latest version of NVDA](https://www.nvaccess.org/download/).

@@ -122,7 +122,7 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the "help" page;
 1. the page or set of pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
 1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#support-service);
-1. the "sitemap" page;
+1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. the set of pages making up a process (for example, an input form or a multi-page transaction);
@@ -229,12 +229,12 @@ Therefore, although the compliance of this content is not required, it must comp
 - [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10): Is each automatically triggered sound controllable by the user?
 - [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): On each web page, navigation must not contain any keyboard traps. Is this rule respected?
 - [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (`<object>` tag, `<embed>` tag, `<svg>` tag, `<canvas>` tag, `<meta>` tag) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in luminosity or flashing effects used appropriately?
+- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in brightness or flashing used appropriately?
 - [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each web page, can each moving or blinking content be controlled by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
 
-The principle of non-interference is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
+The non-interference principle is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
 
 ### Accessibility statement
 

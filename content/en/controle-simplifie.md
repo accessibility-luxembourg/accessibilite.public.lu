@@ -52,7 +52,7 @@ As good practices do not strictly speaking correspond to accessibility problems,
 ##### Criteria that can be tested manually
 
 Here is the list of criteria that can be tested manually: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 3.1, 3.2, 4.1, 4.2, 4.3, 4.4, 4.8, 4.9, 4.10, 4.11, 5.6, 5.7, 6.1, 6.2,7.3, 8.4, 8.5, 8.6, 8.7, 8.8, 9.1, 9.2, 10.7, 10.9, 10.10, 10.14, 11.1, 11.2, 11.5, 11.6, 11.7, 11.10, 12.6, 12.7, 12.8, 12.9, 12.11, 13.1, 13.7, 13.8.
-These criteria are listed on the [simplified audit - criteria] page (./audit-simpl.html).
+These criteria are listed on the [Criteria for simplified control](./audit-simpl.html) page.
 To run the manual tests, use the RAWeb test methodology (a link is provided in each test on the page mentioned above).
 If an accessibility problem is detected during the manual audit and does not correspond to one of these criteria, it is recommended that this problem be mentioned in the report.
 
@@ -430,7 +430,7 @@ If an accessibility problem is detected during the manual audit and does not cor
 <p>&lt;object&gt; elements must have alternate text</p>
 </td>
 <td >
-<p>1.1 ou 1.2</p>
+<p>1.1 or 1.2</p>
 </td>
 </tr>
 <tr>

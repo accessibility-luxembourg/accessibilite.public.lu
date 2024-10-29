@@ -14,7 +14,8 @@
         <input type="email" 
                 maxlength="100"
                 id="sip_email" 
-                name="sip_email"           
+                name="sip_email" 
+                autocomplete="email" 
                 required 
                 title="Veuillez renseigner une adresse e-mail (exemple : jean.reuter@etat.lu)">
     </div>

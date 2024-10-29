@@ -2,7 +2,7 @@
 title: Accessible version (for a downloadable document)
 ---
 
-Downloadable documents whose format types are recognised as compatible with accessibility must be made accessible either directly or via an accessible version or a version in HTML. The document formats recognised as compatible are
+Downloadable documents whose format types are recognised as compatible with accessibility must be made accessible either directly or via an accessible version or a version in HTML. The document formats recognised as compatible are:
 
 - Microsoft Office (Word 2003, OOXML);
 - Open Office Org (ODF);

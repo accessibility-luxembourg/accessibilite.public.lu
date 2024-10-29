@@ -13,7 +13,7 @@ Norm:
 
 #### Special cases
 
-Special cases are managed when
+There is a special case management when
 
 - Movement is essential to the feature (e.g. pedometer);
 - Motion detection is used to control functionality via an interface that is compatible with accessibility.
