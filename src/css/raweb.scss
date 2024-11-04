@@ -175,8 +175,6 @@ html, body {
   display: block;
   width: 1.9rem;
   height: 1.9rem;
-  background-image: url(../img/hyperlink.svg);
-  background-size: 80%;
   background-color: white;
   border: 1px solid grey;
   border-radius: 50%;
@@ -324,7 +322,7 @@ html, body {
   line-height: 1.4rem !important;
 }
 
-.accordion details h5 span:not(.test-content) {
+.accordion details h5 span:not(.test-content, [lang]) {
   position: absolute;
   top: 0;
   left: -1.6rem;
