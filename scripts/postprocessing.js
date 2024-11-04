@@ -117,7 +117,12 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", el.lastChild.lastChild, themeTitle, ["class"], ["theme-name"]);
         addelt(document, "span", el.lastChild.lastChild, themeNumber, ["class"], ["chapter"]);
         addelt(document, "span", el.lastChild.lastChild, null, ["class"], ["accordion-icon"]);
-        addelt(document, "a", el, "&nbsp;", ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
+        addelt(document, "a", el, null, ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
+        addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", el.lastChild.lastChild, themePrefix);
+        addelt(document, "img", el.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+
+
     });
   
     // 4. Créer les <details> de méthodologie
@@ -210,6 +215,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         let critLevel = el.innerHTML.match(re)[1];
         el.innerHTML = '<span><span class="sr-only">critère </span>' + critNumber + '</span>' + critTitle ;
         addelt(document, "a", el, null, ["class", "title", "href"], ["anchor", "Critère " + critNumber, "#" + el.id]);
+        addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", el.lastChild.lastChild, "Critère " + critNumber);
         addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
         addelt(document, "span", el, '<span class="sr-only">Niveau de conformité </span>' + critLevel, ["class"], ["level"]);
     });
@@ -224,6 +231,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.id]);
+        addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
         el.parentNode.insertBefore(newLayout, el); 
         el.remove();
@@ -244,6 +253,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     //         addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
     //         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
     //         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
+    //         addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+    //         addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
     //         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
     //         el.parentNode.insertBefore(newLayout, el.previousElementSibling);
     //     }
