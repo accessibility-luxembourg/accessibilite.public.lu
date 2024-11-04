@@ -8,7 +8,7 @@
             <span class="theme-name"><%= md.renderInline(topic.topic) %></span>
         </span>
     </button>
-    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>">&nbsp;</a>
+    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>"><span class="sr-only"><%= __("Theme") %> <%= topic.number %></span><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a>
 </h3>
 <div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
 <% topic.criteria.forEach(crit => { 
@@ -29,7 +29,7 @@
             <span class="sr-only"><%= rawebCriterion %> </span>
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
-        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a>
+        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a>
         <span class="level">
             <span class="sr-only"><%= __('Compliance level') %> </span>
             <%= levels[topic.number+'.'+crit.criterium.number] %>
@@ -48,7 +48,7 @@
                 <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>
             </span>
             <% if (typeof test == 'object') { %>
-                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
+                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
                 <% if (test.length > 1) { %>
                 <ul>
                 <% for (let i=1; i< test.length; i++) { %>
@@ -57,7 +57,7 @@
                 </ul>
                 <% } %>
             <% } else { %>
-                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
+                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../../img/hyperlink.svg"></a></span></h5>
             <% } %>
         <% if (metho !== '') { %>
             <details class="methodo">

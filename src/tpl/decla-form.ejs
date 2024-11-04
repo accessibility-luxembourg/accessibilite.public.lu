@@ -186,7 +186,7 @@
     <div id="hierarchie">
         <h4><%= __("Heading hierarchy for your declaration") %></h4> 
         <div class="form-group">
-            <input type="checkbox" name="main_title" id="main_title" > <label for="main_title"><%= __("Add a title to your statement") %></label>
+            <input type="checkbox" name="main_title" id="main_title" aria-describedby="help-main_title"> <label for="main_title"><%= __("Add a title to your statement") %></label>
             <p id="help-main_title" class="form-text text-muted">
             <small>
                 <%- __("Using this option, you can add a title at the beginning of your declaration (e.g. <code>&lt;h1&gt; Accessibility statement&lt;/h1&gt;</code>), for example if your CMS (content management system) does not manage this title itself.") %>
@@ -195,7 +195,7 @@
         </div>    
         <div class="form-group">
             <label for="title_level"><%= __("Initial heading level") %></label>
-            <select name="title_level" id="title_level">
+            <select name="title_level" id="title_level" aria-describedby="help-title_hierarchy">
                 <option value="1">h1</option>
                 <option value="2" selected="selected">h2</option>
                 <option value="3">h3</option>
