@@ -324,7 +324,7 @@ html, body {
   line-height: 1.4rem !important;
 }
 
-.accordion details h5 span:not(.test-content) {
+.accordion details h5 span:not(.test-content, [lang]) {
   position: absolute;
   top: 0;
   left: -1.6rem;
