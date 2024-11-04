@@ -34,17 +34,6 @@ const graph_translations = {
         "burden": {
             "title": "Graph 8. The five main reasons given for disproportionate burden, as a percentage"
         }
-    },
-    "de": {
-        "reasons": "Reasons",
-        "complaint": "Complaints",
-        "solutions": "Proposed short-term solutions",
-        "complaints": {
-            "title": "Graph 7. Complaints received and short-term solutions proposed"
-        },
-        "burden": {
-            "title": "Graph 8. The five main reasons given for disproportionate burden, as a percentage"
-        }
     }
 }
 
