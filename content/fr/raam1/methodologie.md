@@ -102,11 +102,11 @@ Il est indispensable de s’assurer que ces contenus n’empêchent pas les util
 
 Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obligatoire qu’ils se conforment aux critères et tests suivants&nbsp;:
 
-- [Critère 3.12](./referentiel-technique.html#crit-3-12)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur ?
-- [Critère 10.3](./referentiel-technique.html#crit-10-3)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?
-- [Critère 11.1](./referentiel-technique.html#crit-11-1)&nbsp;: Pour chaque écran, l’utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers) ?
-- [Critère 11.7](./referentiel-technique.html#crit-11-7)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
-- [Critère 11.8](./referentiel-technique.html#crit-11-8)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?
+- [Critère 3.12](./referentiel-technique.html#crit-3-12)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur&nbsp;?
+- [Critère 10.3](./referentiel-technique.html#crit-10-3)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
+- [Critère 11.1](./referentiel-technique.html#crit-11-1)&nbsp;: Pour chaque écran, l’utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers)&nbsp;?
+- [Critère 11.7](./referentiel-technique.html#crit-11-7)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés&nbsp;?
+- [Critère 11.8](./referentiel-technique.html#crit-11-8)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur&nbsp;?
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
 

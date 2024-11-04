@@ -1,4 +1,4 @@
-**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
+**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et les tests associés ont une valeur normative.
 
 **Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être dérogé. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
 
@@ -243,7 +243,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### iOS
 
-1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Déterminer la taille de l’écran du terminal de test&nbsp;:
 	- activer Safari et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
 	- repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
@@ -275,7 +275,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Inspec
 
 ###### Android
 
-1. S’il existe dans l’application, activer le mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. S’il existe dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Déterminer la taille de l’écran du terminal de test&nbsp;:
 	- activer Chrome et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
 	- repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
@@ -335,7 +335,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### iOS
 
-1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant.
+1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le [mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les éléments graphiques porteurs d’information et pour chacun&nbsp;: 
 	- Identifier quelle(s) couleur(s) du composant sont nécessaires à l’identification de la localisation et/ou de l’information véhiculée (cela peut être la bordure, la couleur d’une icône, la couleur de fond)&nbsp;;
 	- Identifier les couleurs adjacentes qui ont un impact sur la visibilité de la ou les couleurs du composant.
@@ -352,7 +352,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Inspec
 
 ###### Android
 
-1. S’il existe dans l’application, activer le mécanisme de remplacement de l’application permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant.
+1. S’il existe dans l’application, activer le [mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les éléments graphiques porteurs d’information et pour chacun&nbsp;: 
 	- Identifier quelle(s) couleur(s) du composant sont nécessaires à l’identification de la localisation et/ou de l’information véhiculée (cela peut être la bordure, la couleur d’une icône, la couleur de fond)&nbsp;;
 	- Identifier les couleurs adjacentes qui ont un impact sur la visibilité de la ou les couleurs du composant.
@@ -373,14 +373,14 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.11 Non-text Contrast*{lang=en}, *11.7 User preference*{lang=en}.
 - APPT&nbsp;: [Non-text Contrast](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11){lang=en}.
 
-#### [Critère 2.4](#crit-2-4) [AA] Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-de-l-application-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé&nbsp;? {id="crit-2-4"}
+#### [Critère 2.4](#crit-2-4) [AA] Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé&nbsp;? {id="crit-2-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS
 
 1. Vérifier que l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) est désactivée.
-1. Repérer la présence d’un mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Repérer la présence d’un [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Vérifier qu’il n’est pas activé (c’est-à-dire que l’écran est diffusé avec les contrastes par défaut).
 1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
 	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
@@ -396,7 +396,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 
 ###### Android
 
-1. Repérer la présence d’un mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Repérer la présence d’un [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Vérifier qu’il n’est pas activé (c’est-à-dire que l’écran est diffusé avec les contrastes par défaut).
 1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
 	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
@@ -611,7 +611,9 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 #### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents&nbsp;? {id="crit-3-8}
 
 **[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-8-1"}
-- Les sous-titres sont pertinents&nbsp;;
+
+- Les sous-titres sont dans la langue de la vidéo ;
+- Les sous-titres sont pertinents ;
 - Les sous-titres sont correctement synchronisés.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
@@ -621,6 +623,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 1. Repérer dans l’écran les médias temporels synchronisés possédant des sous-titres.
 1. Vérifier que les sous-titres sont&nbsp;:
 	- pertinents (toutes les informations sonores importantes sont présentes, les dialogues notamment)&nbsp;;
+	- dans la langue de la vidéo&nbsp;;
 	- et correctement synchronisés. Si vous n’observez pas de décalage entre le discours oralisé et l’apparition des sous-titres, les sous-titres sont correctement synchronisés. La norme de référence spécifie que les sous-titres doivent apparaître dans les 100 ms suivant l’[horodatage du sous-titre](glossaire.md#horodatage-time-stamp).
 1. Si c’est le cas, le critère est validé.
 
@@ -705,6 +708,10 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 - La séquence sonore peut être stoppée sur action de l’utilisateur&nbsp;;
 - Le volume de la séquence sonore peut être contrôlé par l’utilisateur indépendamment du contrôle de volume du système.
 
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
@@ -740,15 +747,15 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 Pas de piège au clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap
+- WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 Pas de piège au clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap)
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.1.2 No Keyboard Trap*{lang=en}.
 - APPT&nbsp;: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2){lang=en}.
 
-#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisée-média-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#controle-primaire-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
+#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisée-média-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
 
 **[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisée-média-temporel), les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
-- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les [fonctionnalités principales](glossaire.md#controle-primaire-d-un-media-temporel)&nbsp;;
-- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les [fonctionnalités principales](glossaire.md#controle-primaire-d-un-media-temporel).
+- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;;
+- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -758,7 +765,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 1. Vérifier qu’il est possible d’activer et désactiver les sous-titres ou l’audiodescription sans étape supplémentaire par rapport aux fonctionnalités principales (lecture, pause…).
 1. Si c’est le cas, le critère est validé.
 
-*Exemple* : Si le bouton de lecture peut être activé depuis l’interface par un simple tap (sans la nécessité d’activer un premier composant pour afficher un menu déroulant par exemple), la fonction de sous-titres doit être disponible de manière équivalente, avec un simple tap. À l’inverse, si la fonction des sous-titres est disponible depuis un menu déroulant qui doit être activé au préalable (par un tap par exemple), elle ne sera pas considérée comme étant au même niveau puisqu’il y aura une étape supplémentaire à réaliser.
+*Exemple*&nbsp;: Si le bouton de lecture peut être activé depuis l’interface par un simple tap (sans la nécessité d’activer un premier composant pour afficher un menu déroulant par exemple), la fonction de sous-titres doit être disponible de manière équivalente, avec un simple tap. À l’inverse, si la fonction des sous-titres est disponible depuis un menu déroulant qui doit être activé au préalable (par un tap par exemple), elle ne sera pas considérée comme étant au même niveau puisqu’il y aura une étape supplémentaire à réaliser.
 
 Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des composants physiques des terminaux (boutons de volume d’un smartphone par exemple), il n’est pas requis que ces terminaux possèdent des contrôles physiques dédiés à l’activation des sous-titres et de l’audiodescription ou que ces contrôles, s’ils existent, soient situés au même niveau.
 
@@ -770,7 +777,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 #### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
 
-**[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
+**[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres synchronisés, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
 - Les sous-titres sont présents&nbsp;;
 - Les sous-titres peuvent être affichés&nbsp;;
 - Les sous-titres sont correctement synchronisés&nbsp;;
@@ -782,7 +789,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 1. Repérer les fonctionnalités qui permettent de transmettre (envoyer un contenu vers un autre terminal ou envoyer une vidéo par e-mail par exemple), convertir (convertir une vidéo au format .avi dans un format .mpg par exemple) ou enregistrer un média temporel synchronisé pré-enregistré (enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel par exemple).
 1. Exécuter chacune des fonctionnalités (transmettre, convertir et enregistrer).
-1. Pour chacun des médias résultant de la fonctionnalité, vérifier si les sous-titres&nbsp;:
+1. Pour chaque fonctionnalité, vérifier si les sous-titres&nbsp;:
 	- sont toujours présents&nbsp;; 
 	- peuvent être affichés&nbsp;;
 	- sont correctement synchronisés&nbsp;;
@@ -807,11 +814,11 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 1. Repérer les fonctionnalités qui permettent de transmettre, convertir ou enregistrer un média temporel. Par exemple&nbsp;: envoyer un contenu vers un autre terminal ou par mail, convertir une vidéo au format .avi dans un format .mpg, enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel.
 1. Exécuter chacune des fonctionnalités (transmettre, convertir et enregistrer).
-1. Pour chacun des médias résultant de la fonctionnalité, vérifier si l’audiodescription&nbsp;:
+1. Pour chaque fonctionnalité, vérifier si l’audiodescription&nbsp;:
 	- est présente&nbsp;; 
 	- peut être activée&nbsp;;
 	- est correctement synchronisée&nbsp;: 
-	    - les sons et paroles de l’audiodescription ne chevauchent pas ceux de la bande-son originale pour provoquer des problèmes de perception et de compréhension&nbsp;;
+	    - les sons et paroles de l’audiodescription ne chevauchent pas ceux de la bande-son originale et ne provoquent pas de problèmes de perception et de compréhension&nbsp;;
 	    - les informations véhiculées dans l’audiodescription sont données au moment où apparaissent les informations visuelles équivalentes.
 1. Si c’est le cas, le critère est validé.
 
@@ -838,10 +845,11 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 1. Modifier les paramètres de présentation des sous-titres depuis la plateforme&nbsp;: 
 	- Aller dans *Réglages > Accessibilité > Sous-titres codés et SM > Style*&nbsp;;
 	- Sélectionner **Créer un style** pour définir un style de sous-titres personnalisé et reconnaissable. 
-	- Définir un ou plusieurs paramètres parmi&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan ou encore l’opacité de l’arrière-plan (vérifier que le paramètre **Ignorer les réglages personnalisés** en bas d’écran est désactivé).
+	- Vérifier que le paramètre **Ignorer les réglages personnalisés** en bas d’écran est désactivé.
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par le système d’exploitation, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
 1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
-1. Si ce n’est pas le cas, vérifier dans le média la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres.
-1. Vérifier que les paramètres définis ci-avant sont appliqués aux sous-titres.
+1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
+1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
 1. Si c’est le cas, le critère est validé.
 
 ###### Android
@@ -849,10 +857,10 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 1. Repérer dans l’écran les médias temporels pré-enregistrés qui possèdent des sous-titres.
 1. Modifier les paramètres de présentation des sous-titres depuis la plateforme&nbsp;: 
 	- Aller dans *Paramètres > Accessibilité > Préférence pour les sous-titres > Style et taille des sous-titres*&nbsp;;
-	- Définir un ou plusieurs paramètres parmi&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan ou encore l’opacité de l’arrière-plan.
-1. Vérifier que les paramètres au niveau de la plateforme sont appliqués aux sous-titres.
-1. Si ce n’est pas le cas, vérifier dans le média la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres.
-1. Vérifier que les paramètres définis ci-avant sont appliqués aux sous-titres.
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par le système d’exploitation, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
+1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
+1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
+1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -862,12 +870,12 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 
 #### [Critère 3.18](#crit-3-18) [AA] Pour chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers)&nbsp;? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) respecte-t-il une de ces conditions ? {id="test-3-18-1"}
+**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) verifie-t-il une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-18-1"}
 
 - Une piste sonore contenant une vocalisation de l’ensemble des sous-titres de traduction peut être activée par l’utilisateur.
 - Une fonctionnalité est disponible qui permet de vocaliser les sous-titres de traduction.
 - Les sous-titres de traduction peuvent être vocalisés par les technologies d’assistance.
-- Il existe une version alternative contenant une vocalisation de l’ensemble des sous-titres de traduction, accessible via un lien ou bouton adjacent
+- Il existe une version alternative contenant une vocalisation de l’ensemble des sous-titres de traduction, accessible via un lien ou bouton adjacent.
 
 ##### Cas particuliers
 
@@ -877,7 +885,7 @@ Le critère est non applicable pour les sous-titres incrustés dans la vidéo (*
 
 ###### iOS
 
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés qui possèdent des sous-titres de traduction.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec des sous-titres de traduction.
 1. Vérifier la présence d’une piste sonore qui serait la version vocalisée des sous-titres de traduction&nbsp;:
 	- activer la piste sonore&nbsp;;
 	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
@@ -906,7 +914,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 
 ###### Android
 
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés qui possèdent des sous-titres de traduction.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec des sous-titres de traduction.
 1. Vérifier la présence d’une piste sonore qui serait la version vocalisée des sous-titres de traduction&nbsp;:
 	- activer la piste sonore&nbsp;;
 	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
@@ -1024,7 +1032,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 	- Une alternative [adjacente clairement identifiable](glossaire.md#adjacente-clairement-identifiable) compatible avec une API d’accessibilité permet d’accéder aux mêmes fonctionnalités.
 - **[Test 5.1.2](#test-5-1-2)&nbsp;:** Chaque composant d’interface vérifie-t-il ces conditions (hors cas particuliers)&nbsp;? {id="test-5-1-2"}
 	- Le composant possède un nom pertinent&nbsp;;
-	- Le nom accessible du composant contient au moins l’intitulé visible&nbsp;;
+	- Le nom accessible du composant contient au moins l’[intitulé visible](glossaire.md#intitule-visible) &nbsp;;
 	- Le composant possède un rôle pertinent&nbsp;;
 	- Le composant possède une valeur pertinente&nbsp;;
 	- Le composant possède un état pertinent.
@@ -1359,7 +1367,7 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ###### iOS et Android
 
 1. Activer le **lecteur d’écran**.
-1. Repérer dans l’écran les éléments rassemblés sous forme de liste.
+1. Repérer dans l’écran les éléments [regroupées visuellement sous forme de liste](glossaire.html#listes).
 1. Vérifier que le lecteur d’écran restitue &laquo;&nbsp;Liste&nbsp;&raquo; lorsqu’il atteint le groupe d’éléments.
 1. Si c’est le cas, le critère est validé.
 
@@ -1699,7 +1707,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 
 **[Test 9.5.1](#test-9-5-1)&nbsp;:** Chaque bouton de formulaire respecte-t-il ces conditions&nbsp;? {id="test-9-5-1"}
 - L’intitulé du bouton accessible aux technologies d’assistance est pertinent&nbsp;;
-- L’intitulé visible du bouton est contenu dans l’intitulé accessible aux technologies d’assistance.
+- L’[intitulé visible](glossaire.md#intitule-visible) du bouton est contenu dans l’intitulé accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1781,9 +1789,10 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 
 1. Activer le **lecteur d’écran**.
 1. Valider le formulaire sans saisir de données afin d’identifier les champs obligatoires.
-1. Pour chaque champ obligatoire, Vérifier&nbsp;:
+1. Pour chaque champ obligatoire, vérifier&nbsp;:
 	- que les informations restituées par le lecteur d’écran à la prise de focus sur le champ contiennent la mention du caractère obligatoire&nbsp;;
-	- et qu’un texte visible à proximité du champ indique le caractère obligatoire du champ de formulaire.
+	- et qu’une [indication visible](glossaire.md#indication-de-champ-obligatoire) à proximité du champ indique le caractère obligatoire du champ de formulaire.
+1. Si l’[indication visible](glossaire.md#indication-de-champ-obligatoire) est réalisée de manière non textuelle  (icône, "\*", "!", etc.), l’explication de la signification de cette indication se situe visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -1792,7 +1801,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
 - APPT&nbsp;: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
-#### [Critère 9.8](#crit-9-8) [A] Pour chaque champ de formulaire obligatoire, le type de données et/ou de format attendu est-il disponible&nbsp;? {id="crit-9-8"}
+#### [Critère 9.8](#crit-9-8) [A] Pour chaque champ de formulaire obligatoire, le [type de données et/ou de format](glossaire.md#type-et-format-de-donnees) attendu est-il disponible&nbsp;? {id="crit-9-8"}
 
 **[Test 9.8.1](#test-9-8-1)&nbsp;:** Chaque champ de formulaire obligatoire respecte-t-il ces conditions&nbsp;? {id="test-9-8-1"}
 - Le type de données et/ou de format est visible&nbsp;;
@@ -1871,7 +1880,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 1. Activer le **lecteur d’écran**.
 1. Remplir le formulaire.
 1. Pour chaque donnée à caractère financier (par exemple, une indication de revenu), juridique (par exemple, une référence d’acte administratif), personnelle (par exemple, un numéro de téléphone), pour chaque formulaire qui transmet des réponses à un test ou à un examen, vérifier que l’utilisateur peut&nbsp;:
-	- modifier ou annuler les données et les actions effectuées sur ces données en cours de saisie (par exemple la saisie du champ et la fonctionnalité d’annulation d’édition de la plateforme ne sont pas désactivées)&nbsp;;
+	- [modifier ou annuler les données et les actions effectuées](glossaire.md#modifier-ou-annuler-les-donnees-et-les-actions-effectuees) sur ces données en cours de saisie (par exemple la saisie du champ et la fonctionnalité d’annulation d’édition de la plateforme ne sont pas désactivées)&nbsp;;
     - ou confirmer, de manière explicite, l’envoi de ces données via un mécanisme dédié (par exemple, un champ de formulaire ou une étape supplémentaire).
 1. Pour chaque formulaire qui modifie ou supprime des données (par exemple la suppression d’une adresse postale), vérifier que l’utilisateur peut&nbsp;:
     - récupérer les données supprimées en cours de saisie&nbsp;;
@@ -1967,6 +1976,10 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 - Il est possible d’atteindre l’élément suivant ou précédent pouvant recevoir le focus avec le clavier&nbsp;;
 - L’utilisateur est informé d’un mécanisme fonctionnel permettant d’atteindre au clavier l’élément suivant ou précédent pouvant recevoir le focus.
 
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS
@@ -2037,6 +2050,10 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ##### Cas particuliers
 
 Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2174,6 +2191,10 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 - La fréquence de l’effet est inférieure ou égale à 3 par seconde&nbsp;;
 - La surface totale cumulée des effets est inférieure ou égale à 21 824 pixels.
 
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
@@ -2199,6 +2220,10 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 - L’utilisateur peut arrêter et relancer le mouvement ou le clignotement&nbsp;;
 - L’utilisateur peut afficher et masquer le contenu en mouvement ou clignotant&nbsp;;
 - L’utilisateur peut afficher la totalité de l’information sans le mouvement ou le clignotement.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2309,8 +2334,8 @@ Le critère est non applicable pour les actions requises par la plateforme.
 #### [Critère 11.12](#crit-11-12) [A] Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers)&nbsp;? {id="crit-11-12"}
 
 **[Test 11.12.1](#test-11-12-1)&nbsp;:** Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran vérifient-elles l’une de ces conditions (hors cas particuliers)&nbsp;? {id="test-11-12-1"}
-- L’action est déclenchée au moment où le dispositif de pointage est relâché ou relevé&nbsp;;
-- L’action est déclenchée au moment où le dispositif de pointage est pressé ou posé puis annulée lorsque le dispositif de pointage est relâché ou relevé&nbsp;;
+- L’action est déclenchée au moment où le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve)&nbsp;;
+- L’action est déclenchée au moment où le dispositif de pointage est [pressé ou posé](glossaire.md#presse-ou-pose) puis annulée lorsque le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve)&nbsp;;
 - L’[action est complexe](glossaire.md#action-complexe) et un mécanisme est disponible pour abandonner (avant achèvement de l’action) ou annuler (après achèvement) l’exécution de l’action.
 
 ##### Cas particuliers
@@ -2451,7 +2476,7 @@ Le critère est non applicable pour&nbsp;:
 1. Repérer dans l’application la présence d’une documentation.
 1. Repérer dans l’application la présence de fonctionnalités d’accessibilité.
 1. Vérifier la présence dans la documentation&nbsp;: 
-	- de la description des fonctionnalités d’accessibilité de l’application, par exemple&nbsp;: 
+	- de la description des fonctionnalités d’accessibilité de l’application&nbsp;;
 	- d’explications sur les modalités d’utilisation de ces fonctionnalités (leur localisation, les méthodes pour les activer)&nbsp;; 
 	- de la description des composants complexes pour lesquels il est mis en place une gestion particulière selon les technologies d’assistance&nbsp;;
 	- de la description des éléments non conformes ou non compatibles avec certaines technologies d’assistance, et de la présence d’alternatives le cas échéant.
@@ -2477,8 +2502,8 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 	- agrandir la taille du texte.
 1. Vérifier que les utilisateurs concernés par chaque fonctionnalité d’accessibilité sont en mesure d’y accéder. Par exemple&nbsp;:
 	- Version alternative en langage simplifié&nbsp;: le mécanisme ou l’ensemble des mécanismes qui permettent d’activer la fonctionnalité doit être compréhensible et identifiable par une personne qui bénéficie du langage simplifié (par exemple, l’emploi du [logo « Facile à lire »](https://www.inclusion-europe.eu/easy-to-read/) pour identifier le mécanisme est une solution conforme).
-	- Agrandissement de la taille des caractères&nbsp;: si le mécanisme contient du texte, alors le texte doit être affiché par défaut avec une taille de police équivalent à 200% de la taille de police.
-1. Vérifier qu’il est possible d’activer cette fonctionnalité
+	- Agrandissement de la taille des caractères&nbsp;: si le mécanisme contient du texte, alors le texte doit être affiché par défaut avec une taille de police équivalent à 200% de la taille de police initiale.
+1. Vérifier qu’il est possible d’activer cette fonctionnalité.
 1. Si c’est le cas, le critère est validé. 
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2517,27 +2542,18 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 #### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-12-4"}
 
-**[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
+- **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
+- **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
+- **[Test 12.4.3](#test-12-4-3)&nbsp;:** La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-12-4-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
-1. Repérer la présence d’une documentation au format web (HTML, CSS).
-1. Vérifier pour chaque élément de documentation qu’il est conforme au [RAWeb](../raweb1/criteres.html).
-1. Si c’est le cas, le test est validé.
 
-**[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-1. Repérer la présence d’une documentation au format PDF.
-1. Vérifier pour chaque élément de documentation qu’il est conforme au [RAPDF](../rapdf1/index.html).
-1. Si c’est le cas, le test est validé.
-
-**[Test 12.4.3](#test-12-4-3)&nbsp;:** La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-12-4-3"}
-1. Repérer la présence d’une documentation au format non web (hors PDF).
-1. Vérifier pour chaque élément de documentation qu’il est conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
+1. Repérer la présence d’une documentation d'application ou accessible depuis l'application.
+1. Pour une documentation au format web (HTML, CSS), vérifier pour chaque élément de documentation qu’il est conforme au [RAWeb](../raweb1/criteres.html).
+1. Pour une documentation au format PDF, vérifier pour chaque élément de documentation qu’il est conforme au [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier pour chaque élément de documentation qu’il est conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
 1. Si c’est le cas, le test est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2549,40 +2565,24 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 #### [Critère 13.1](#crit-13-1) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-13-1"}
 
-**[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html) &nbsp;?  {id="test-13-1-1"}
+- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html) &nbsp;?  {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) &nbsp;? {id="test-13-1-2"}
+- **[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-13-1-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés) qui permettent de créer du contenu au format web (HTML, CSS). 
-1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAWeb](../raweb1/index.html). Par exemple&nbsp;: 
+1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés).  
+1. Pour les fonctionnalités qui permettent de créer du contenu au format web (HTML, CSS), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAWeb](../raweb1/index.html). Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
-1. Si c’est le cas, le critère est validé.
-
-**[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) &nbsp;?  {id="test-13-1-2"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés) qui permettent de créer du contenu au format PDF. 
-1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAPDF](../rapdf1/index.html). Par exemple&nbsp;: 
+1. Pour les fonctionnalités qui permettent de créer du contenu au format PDF, vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAPDF](../rapdf1/index.html). Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
-1. Si c’est le cas, le critère est validé.
-
-**[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-13-1-3"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés) qui permettent de créer du contenu au format non web (hors PDF).
-1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Par exemple&nbsp;: 
+1. Pour les fonctionnalités qui permettent de créer du contenu au format non web (hors PDF), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
@@ -2593,7 +2593,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
-#### [Critère 13.2](#crit-13-2) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des aides à la création de contenus conformes aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-13-2"}
+#### [Critère 13.2](#crit-13-2) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des [aides à la création de contenus conformes](glossaire.md#aide-a-la-creation-de-contenus-accessibles) aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-13-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2667,34 +2667,18 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 #### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
 
-**[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
+- **[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
+- **[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
+- **[Test 13.5.3](#test-13-5-3)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Cette règle est-elle respectée&nbsp;? {id="test-13-5-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer la présence de gabarits au format web (HTML, CSS) mis à disposition par l’outil d’édition.
-1. Vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAWeb](../raweb1/index.html).
-1. Si c’est le cas, le critère est validé.
-
-**[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Repérer la présence de gabarits au format PDF mis à disposition par l’outil d’édition.
-1. Vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAPDF](../rapdf1/index.html).
-1. Si c’est le cas, le critère est validé.
-
-**[Test 13.5.3](#test-13-5-3)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Cette règle est-elle respectée&nbsp;? {id="test-13-5-3"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Repérer la présence de gabarits au format non-web (hors PDF) mis à disposition par l’outil d’édition.
-1. Vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
+1. Repérer la présence de gabarits mis à disposition par l’outil d’édition.
+1. Pour les gabarits au format web (HTML, CSS), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAWeb](../raweb1/index.html).
+1. Pour les gabarits au format PDF, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAPDF](../rapdf1/index.html).
+1. Pour les gabarits au format non-web (hors PDF), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2719,7 +2703,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 ### [Thématique 14](#topic-14)&nbsp;: Services d’assistance {id="topic-14"}
 
-#### [Critère 14.1](#crit-14-1) [AA] Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application décrites dans la [documentation](glossaire.md#documentation)&nbsp;? {id="crit-14-1"}
+#### [Critère 14.1](#crit-14-1) [AA] Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) et à la compatibilité avec l’accessibilité, décrites dans la [documentation](glossaire.md#documentation)&nbsp;? {id="crit-14-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2786,9 +2770,9 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 1. Activer l’application et lancer un appel entre les deux terminaux.
 1. Vérifier que la qualité de l’activité orale avec l’application web est au moins équivalente à la qualité de l’activité orale lors d’un appel avec un téléphone fixe.
-1. Si le test n’est pas satisfaisant (par exemple, mauvaise compréhension de certains mots énoncés par l’interlocuteur, présence de bruits parasites, etc.), vérifier dans la documentation de l’application :
+1. Si le test n’est pas satisfaisant (par exemple, mauvaise compréhension de certains mots énoncés par l’interlocuteur, présence de bruits parasites, etc.), vérifier dans la documentation de l’application&nbsp;:
 	- la présence d’une référence à l’implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T-REC-G.722/fr)&nbsp;;
-	- ou la présence d’une référence à l’utilisation du [codec opus de l’API WebRTC](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs) ;
+	- ou la présence d’une référence à l’utilisation du [codec opus de l’API WebRTC](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs)&nbsp;;
 	- ou la présence d’une référence à l’utilisation d’un encodage et décodage dont la fréquence est supérieure ou égale à 7 000 Hz.
 1. Sinon, il est recommandé de demander à l’éditeur de l’application de fournir ces détails techniques, notamment en demandant si l’application web implémente par exemple la recommandation UIT-T G.722 ou utilise le codec opus de l’API WebRTC.
 1. Si c’est le cas, le test est validé.
@@ -2840,35 +2824,26 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 
 #### [Critère 15.4](#crit-15-4) [A] Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés (hors cas particuliers)&nbsp;? {id="crit-15-4"}
 
-**[Test 15.4.1](#test-15-4-1)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-1"}
-- Les messages reçus et envoyés sont séparés dans la présentation&nbsp;;
-- La présentation permet d’identifier la nature du message (reçu ou envoyé)&nbsp;;
-- La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance&nbsp;;
+- **[Test 15.4.1](#test-15-4-1)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-1"}
+	- Les messages reçus et envoyés sont séparés dans la présentation&nbsp;;
+	- La présentation permet d’identifier la nature du message (reçu ou envoyé)&nbsp;;
+	- La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance&nbsp;;
+- **[Test 15.4.2](#test-15-4-2)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) utilisée avec une fonctionnalité de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui identifie les intervenants, les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-2"}
+	- La présentation permet d’identifier les auteurs des messages&nbsp;;
+	- L’identification de l’auteur du message est accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Activer l’application et la fonctionnalité de communication écrite en temps réel de l’application sur deux terminaux et les connecter à une même session.
-1. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages avec des statuts différents (envoyé et reçu).
+1. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages avec des statuts différents (envoyé et reçu) et avec des auteurs différents.
 1. Vérifier&nbsp;: 
 	- que les messages envoyés et reçus sont visuellement séparés (par exemple, les messages envoyés sont dans une fenêtre et les messages reçus dans une autre, ou il y a un saut de ligne entre chaque message reçu et envoyé s’ils sont présentés dans une même fenêtre)&nbsp;;
 	- qu’il est possible visuellement de distinguer les messages envoyés et les messages reçus. Par exemple, par une mise en forme ou une couleur qui les différencie ou par une annotation textuelle visible (repérer la mention &laquo;&nbsp;Envoyé&nbsp;&raquo; à proximité d’un message envoyé ou &laquo;&nbsp;Reçu&nbsp;&raquo; à proximité d’un message reçu)&nbsp;;
-	- que l’information de la nature du message (reçu ou envoyé) est accessible aux technologies d’assistance (une information textuelle est disponible pour apporter cette information).
+	- que l’information de la nature du message (reçu ou envoyé) est accessible aux technologies d’assistance (une information textuelle est disponible pour apporter cette information)&nbsp;;
+	- que les auteurs des messages écrits sont identifiés (par exemple, la présence d’un nom ou un identifiant précédant le message).
 1. Si c’est le cas, le critère est validé. 
-
-**[Test 15.4.2](#test-15-4-2)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) utilisée avec une fonctionnalité de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui identifie les intervenants, les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-2"}
-- La présentation permet d’identifier les auteurs des messages&nbsp;;
-- L’identification de l’auteur du message est accessible aux technologies d’assistance.
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Activer l’application et la fonctionnalité de communication écrite en temps réel de l’application sur deux terminaux et les connecter à une même session.
-1. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages avec des auteurs différents.
-1. Vérifier que les auteurs des messages écrits sont identifiés (par exemple, la présence d’un nom ou un identifiant précédant le message).
-1. Si c’est le cas, le test est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -2912,7 +2887,9 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 
 ###### iOS et Android
 
-Ce critère est très complexe à évaluer et demande une certaine maîtrise de l’ensemble des concepts et normes d’interopérabilité. Si l’application que vous évaluez ou développez doit couvrir ce critère, nous vous renvoyons à la lecture intégrale du critère *6.2.3 Interoperability*{lang=en} dans la norme EN 301 549.
+Ce critère est très complexe à évaluer et demande une certaine maîtrise de l’ensemble des concepts et normes d’interopérabilité. 
+
+Il est recommandé de demander à l’éditeur de l’application de vérifier que l’ensemble des exigences décrites dans le critère *6.2.3 Interoperability*{lang=en} de la norme EN 301 549 sont respectées. 
 
 Il est également conseillé de rechercher dans la documentation ou de questionner directement l’éditeur de l’application.
 
