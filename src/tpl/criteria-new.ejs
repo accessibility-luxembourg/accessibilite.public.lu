@@ -19,7 +19,7 @@
 </div>
 <dialog id="control-panel-dialog">
     <form method="dialog" autocomplete="off">
-        <button id="close-modal" title="<%= __("Close the modal window") %>"></button>
+        <button id="close-modal" title="<%= __("Close the modal window") %>"><span class="sr-only"><%= __("Close the modal window") %></span></button>
         <div class="content">
             <h6><%= __('Legend') %></h6>
             <div class="legends">
@@ -51,7 +51,7 @@
     </div>
 </dialog>
 
-<button id="showModal-sticky" aria-haspopup="dialog" title="<%= __('Legend and display options') %>"></button>
+<button id="showModal-sticky" aria-haspopup="dialog" title="<%= __('Legend and display options') %>"><span class="sr-only"><%= __('Legend and display options') %></span></button>
 
 <div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">
