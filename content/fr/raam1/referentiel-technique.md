@@ -1,4 +1,4 @@
-**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et les tests associés ont une valeur normative.
+**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d'une méthodologie ne saurait se substituer à une formation, notamment à l'usage des outils d'évaluation (comme les lecteurs d'écrans) ou à la compréhension des enjeux d'accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d'un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
 
 **Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être dérogé. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
 
@@ -457,7 +457,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS et Android
 
 1. Repérer dans l’écran les transcriptions textuelles des médias temporels seulement audio.
-1. Vérifier que chaque transcription textuelle est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
+1. Vérifier que chaque transcription textuelle est pertinente (toutes les informations sonores importantes sont présentes, les dialogues notamment).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2786,17 +2786,12 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 
 #### [Critère 15.2](#crit-15-2) [A] Chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel)&nbsp;? {id="crit-15-2"}
 
-**[Test 15.2.1](#test-15-2-1)&nbsp;:** Chaque application qui permet une communication orale bidirectionnelle respecte-t-elle une de ces conditions&nbsp;?  {id="test-15-2-1"}
-- L’application dispose d’une fonctionnalité intégrée de communication écrite en temps réel&nbsp;;
-- L’application peut être connectée à un terminal qui intègre une fonctionnalité de communication écrite en temps réel. 
-
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Vérifier que l’application permet la communication orale bidirectionnelle.
 1. Si c’est le cas, vérifier la présence d’une fonctionnalité de communication écrite en temps réel (il peut être parfois nécessaire d’activer un paramètre dédié dans l’application pour permettre la communication écrite en temps réel).
-1. Sinon, vérifier si l’application peut se connecter à un terminal intégrant une fonctionnalité de communication écrite en temps réel. Cette évaluation peut être complexe à mener sans la mise à disposition d’un terminal de communication en temps réel ou si le réseau utilisé par le terminal ne supporte pas les protocoles de texte en temps réel. Une première étape peut être de rechercher dans la documentation ou de questionner directement l’éditeur de l’application.
 1. Si c’est le cas, le critère est validé.
 
  Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.

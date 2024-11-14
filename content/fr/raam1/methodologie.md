@@ -262,14 +262,14 @@ Si vous disposez d’un ordinateur avec Windows, Windows met à disposition une 
 
 Si la diffusion des terminaux mobiles sur l’écran d’ordinateur est impossible, une alternative satisfaisante est de réaliser des captures d’écrans depuis votre terminal mobile et d’importer ensuite ces captures, par la méthode de votre choix, sur votre ordinateur.
 
-Pour les critères 2.2, 2.3 et 2.4 pour l’évaluation des contrastes, nous vous invitons fortement à privilégier cette méthode de capture des écrans de sorte à pouvoir évaluer précisément les tailles des textes. En effet, la capture d’écran depuis le terminal garanti des proportions préservées contrairement à une capture qui serait faite depuis un terminal projeté sur un environnement de bureau.
+Pour les critères 2.2, 2.3 et 2.4 pour l’évaluation des contrastes, nous vous invitons fortement à privilégier cette méthode de capture des écrans de sorte à pouvoir évaluer précisément les tailles des textes. En effet, la capture d’écran depuis le terminal garantit des proportions préservées contrairement à une capture qui serait faite depuis un terminal projeté sur un environnement de bureau.
 
 - [Effectuer une capture d’écran de votre appareil Android](https://support.google.com/android/answer/9075928?hl=fr).
 - [Réaliser une capture d’écran sur un iPhone](https://support.apple.com/fr-fr/HT200289).
 
 ##### Importer des captures d’écrans sur l’ordinateur
 
-De manière générale, indépendamment de la plateforme mobile ou de l’environnement de bureau la méthode principale pour faciliter le transit des photos depuis le terminal mobile vers l’ordinateur de bureau est de **paramétrer un utilitaire de sauvegarde de photos en ligne** sur le terminal mobile, comme peuvent le faire par exemple des services tel que Dropbox, OneDrive ou Google (Photos ou Drive), et accéder à la sauvegarde depuis l’ordinateur de bureau. 
+De manière générale, indépendamment de la plateforme mobile ou de l’environnement de bureau, la méthode principale pour faciliter le transit des photos depuis le terminal mobile vers l’ordinateur de bureau est de **paramétrer un utilitaire de sauvegarde de photos en ligne** sur le terminal mobile, comme peuvent le faire par exemple des services tels que Dropbox, OneDrive ou Google (Photos ou Drive), et accéder à la sauvegarde depuis l’ordinateur de bureau. 
 
 Il peut ensuite exister des méthodes spécifiques en fonction des plateformes&nbsp;: 
 - Depuis iOS vers macOS&nbsp;: la fonctionnalité [AirDrop](https://support.apple.com/fr-fr/119857).
@@ -277,4 +277,29 @@ Il peut ensuite exister des méthodes spécifiques en fonction des plateformes&n
 - Depuis Android vers macOS&nbsp;: la solution [MacDroid](https://www.macdroid.app/fr/).
 - Depuis Android ou iOS vers Windows&nbsp;: [la connexion directe par USB](https://support.microsoft.com/fr-fr/windows/importer-des-photos-et-des-vid%C3%A9os-aed09800-f826-4d40-a243-7640de229d9d).
 
-Il existe également d’autres utilitaires (gratuits ou payants) qui peuvent convenir, la présente liste n’est pas exhaustive.
+D'autres utilitaires peuvent convenir, la présente liste n'est pas exhaustive.
+
+##### Évaluer la taille d'un texte
+
+Si lors des évaluations, la taille de certains textes n'est pas évidente (par exemple, il n'est pas évident à l'évaluation à l'oeil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d'obtenir cette mesure : 
+1. Déterminer la taille de l'écran du terminal de test&nbsp;:
+  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu'à [https://mydevice.io](https://mydevice.io)&nbsp;;
+  - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l'écran). 
+1. Réaliser une capture d'écran depuis le terminal mobile et l'importer sur l'ordinateur (voir ci-dessus, c'est la méthode à privilégier afin de garantir que les tailles seront préservées).
+1. Ouvrir la capture dans un logiciel de retouche d'images&nbsp;: 
+  - Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
+    - dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
+    - paramétrer les unités en pixels&nbsp;;
+    - dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l'écran déterminée précédemment.
+  - Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
+    - dans la barre d'outils, choisir l'option &laquo;&nbsp;Redimenssionner&nbsp;&raquo;&nbsp;;
+    - paramétrer les unités en pixels&nbsp;;
+    - dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l'écran déterminée précédemment.
+1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille : 
+  - depuis la capture d'écran ouverte dans le logiciel de retouche, activer l'outil de sélection rectangulaire&nbsp;;
+  - dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
+    - le mieux est de démarrer depuis une majuscule, sinon d'inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
+    - vous pouvez zoomer sur la capture d'écran pour réaliser la sélection la plus précise possible, cela n'influe pas sur le calcul de la hauteur.
+  - repérer dans le logiciel la hauteur du rectangle ainsi défini : 
+    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s'affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
+    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs d'affichent dans la barre d'état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.

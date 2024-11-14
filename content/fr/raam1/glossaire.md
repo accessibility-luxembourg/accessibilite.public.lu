@@ -134,6 +134,8 @@ Cela concerne, à la fois, la technologie, ses fonctionnalités et ses usages&nb
 
 Un composant d’interface est un élément avec lequel l’utilisateur peut interagir, par exemple un bouton, un lien, une zone de saisie. Certains composants peuvent être plus complexes comme un menu, une fenêtre de dialogue, un système d’onglets. Enfin un composant d’interface peut être basé sur des éléments natifs du langage de la plateforme ou développés de toutes pièces.
 
+Note&nbsp;: Les composants d’interface natifs HTML ne se retrouvent pas tous dans les langages de développement d’applications mobiles. Par exemple, les boutons radio ou les cases à cocher n’existent pas en tant que tels pour les applications développées pour iOS. Il s’agira alors pour les développeurs d’utiliser les composants disponibles dans les langages de développement les plus adaptés pour remplir une fonction similaire. Pour reproduire ce qui serait une liste de boutons radio, il est possible par exemple d’utiliser des listes de boutons associés à un état sélectionné ou non sélectionné. Ainsi, lors des tests qui seront réalisés au lecteur d’écran, il est possible que le rôle annoncé ne corresponde pas au rôle figuré par l’interface (par exemple, un bouton qui aurait l’apparence d’un bouton radio). Néanmoins, si le rôle et l’état du composant sont pertinents et accessibles aux technologies d’assistance, alors le critère sera considéré conforme pour ce composant.
+
 #### Composant dont la nature n’est pas évidente
 
 Composant interactif mêlé à des éléments non interactifs (du texte par exemple) et qui n’est pas différenciable visuellement des éléments non interactifs.
@@ -686,7 +688,7 @@ Indication textuelle permettant à l’utilisateur de savoir quel est le type de
 
 - Date (jj/mm/aaaa)&nbsp;;
 - Montant en euros&nbsp;;
-- Code postal (5 chiffres&nbsp;: ex. 75001).
+- Code postal (4 chiffres&nbsp;: ex. L-2450).
 
 Note&nbsp;: lorsque le type de champ de formulaire propose un masque de saisie, notamment par l’affichage d’un contrôle natif (par exemple, le composant natif de choix de date), l’indication de format n’est pas nécessaire.
 
