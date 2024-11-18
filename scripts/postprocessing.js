@@ -1,7 +1,6 @@
 const fs = require('fs')
 const MarkdownIt = require('markdown-it')
 const jsdom = require("jsdom");
-const polyfill = require("polyfill-pseudoclass-has");
 
 const { JSDOM } = jsdom;
 
@@ -189,16 +188,16 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.firstElementChild.after(el);
     });
   
-    // // 8. Créer les <details> pour les tests multiples
-    // els = (new polyfill.SelectorHandler('ul:has( > li[id^=test])')).queryAll(document);
-    // // els = document.querySelectorAll('ul:has( > li[id^=test])');
-    // els.forEach(el => {
-    //     const detailRAAM = document.createElement("details");
-    //     detailRAAM.setAttribute("class", "discover rawebTests");
-    //     addelt(document, "summary", detailRAAM, "Tests");
-    //     el.parentNode.insertBefore(detailRAAM, el);       
-    //     detailRAAM.firstElementChild.after(el);
-    // });
+    // 8. Créer les <details> pour les tests multiples
+    els = document.querySelectorAll('div.accordion-panel > h4 + ul');
+    // els = document.querySelectorAll('ul:has( > li[id^=test])');
+    els.forEach(el => {
+        const detailRAAM = document.createElement("details");
+        detailRAAM.setAttribute("class", "discover rawebTests");
+        addelt(document, "summary", detailRAAM, "Tests");
+        el.parentNode.insertBefore(detailRAAM, el);       
+        detailRAAM.firstElementChild.after(el);
+    });
   
     // 9. Note baladeuse du critère 6.1
     let el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
@@ -240,28 +239,30 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         el.remove();
     });
   
-    // 12. redessiner l'apparence des tests multiples
+    // //12. redessiner l'apparence des tests multiples
+    els = document.querySelectorAll('div.accordion-panel > details > ul');
     //els = document.querySelectorAll('ul:has( > li[id^=test])');
-    // els = (new polyfill.SelectorHandler('ul:has( > li[id^=test])')).queryAll(document);
-    // els.forEach(el => {
-    //     for (let i = 0; i < el.childElementCount; i++) {
-    //         if (el.children[i].lastElementChild.nodeName === "UL") {
-    //             el.parentNode.insertBefore(el.children[i].lastElementChild, el);
-    //         }
-    //         let testTitle = el.children[i].innerHTML.split("</strong> ").pop();
-    //         let testNumber = el.children[i].id.split("test-").pop().replace(/-/g, '.');
-    //         let newLayout = document.createElement("H5");
-    //         newLayout.setAttribute("id", el.children[i].id);
-    //         addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
-    //         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
-    //         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
-    //         addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
-    //         addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
-    //         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
-    //         el.parentNode.insertBefore(newLayout, el.previousElementSibling);
-    //     }
-    //     el.remove();
-    // });
+    els.forEach(el => {
+        if (el.querySelectorAll('li[id^=test]').length !== 0) {
+            for (let i = 0; i < el.childElementCount; i++) {
+                if (el.children[i].lastElementChild.nodeName === "UL") {
+                    el.parentNode.insertBefore(el.children[i].lastElementChild, el);
+                }
+                let testTitle = el.children[i].innerHTML.split("</strong> ").pop();
+                let testNumber = el.children[i].id.split("test-").pop().replace(/-/g, '.');
+                let newLayout = document.createElement("H5");
+                newLayout.setAttribute("id", el.children[i].id);
+                addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
+                addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
+                addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
+                addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+                addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
+                addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+                el.parentNode.insertBefore(newLayout, el.previousElementSibling);
+            }
+            el.remove();
+        }
+    });
     return dom.serialize();
   }
   
