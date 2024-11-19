@@ -1,4 +1,4 @@
-**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d'une méthodologie ne saurait se substituer à une formation, notamment à l'usage des outils d'évaluation (comme les lecteurs d'écrans) ou à la compréhension des enjeux d'accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d'un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
+**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d’une méthodologie ne saurait se substituer à une formation, notamment à l’usage des outils d’évaluation (comme les lecteurs d’écrans) ou à la compréhension des enjeux d’accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d’un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
 
 **Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être dérogé. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
 
@@ -244,30 +244,13 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
-1. Déterminer la taille de l’écran du terminal de test&nbsp;:
-	- activer Safari et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
-	- repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
-1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur ([voir la méthodologie](methodologie.md), c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
-1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
-	- Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
-		- dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
-		- paramétrer les unités en pixels&nbsp;;
-		- dans le champ &laquo;&nbsp;largeur&nbsp;&raquo;, inscrire la valeur de la largeur de l’écran déterminée précédemment.
-	- Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
-		- dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
-		- paramétrer les unités en pixels&nbsp;;
-		- dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo;, inscrire la valeur de la largeur de l’écran déterminée précédemment.
-1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille&nbsp;: 
-	- depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
-	- dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
-		- le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
-		- vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
-	- repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;:	
-		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo;, la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
-		- dans &laquo;&nbsp;Paint&nbsp;&raquo;, les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
-1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan.
+1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste.
+1. Pour les textes dont [la taille (normale ou agrandie)](glossaire.md#contraste-taille-des-textes) ne peut être appréciée à l’œil nu, vous devrez la mesurer ([voir la section dédiée dans la méthodologie](methodologie.md#evaluer-la-taille-d-un-texte)).
+1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan&nbsp;: 
+	- en [diffusant l’écran du terminal mobile](methodologie.md#diffuser-l-ecran-du-terminal-mobile) sur l’ordinateur&nbsp;;
+	- ou en [réalisant des captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les [important sur l’ordinateur](methodologie.md#importer-des-captures-d-ecrans-sur-l-ordinateur)).
 1. Pour les textes problématiques identifiés précédemment, vérifier&nbsp;:
-	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de plus de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
+	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
 	- Pour les textes dont la taille est de 24 px ou plus sans effet de graisse, ou de 18,5 px ou plus avec effet de graisse, que la valeur de contraste est de 3:1 au moins.
 1. Si c’est le cas, le critère est validé.
 
@@ -276,30 +259,13 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Inspec
 ###### Android
 
 1. S’il existe dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
-1. Déterminer la taille de l’écran du terminal de test&nbsp;:
-	- activer Chrome et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
-	- repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
-1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur ([voir la méthodologie](methodologie.md), afin de garantir que les tailles seront préservées, c’est la méthode à privilégier).
-1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
-	- Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
-		- dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
-		- paramétrer les unités en pixels&nbsp;;
-		- dans le champ &laquo;&nbsp;largeur&nbsp;&raquo;, inscrire la valeur de la largeur de l’écran déterminée précédemment.
-	- Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
-		- dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
-		- paramétrer les unités en pixels&nbsp;;
-		- dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo;, inscrire la valeur de la largeur de l’écran déterminée précédemment.
-1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille&nbsp;: 
-	- depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
-	- dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
-		- le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
-		- vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
-	- repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;:	
-		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo;, la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
-		- dans &laquo;&nbsp;Paint&nbsp;&raquo;, les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
-1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan.
+1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste.
+1. Pour les textes dont [la taille (normale ou agrandie)](glossaire.md#contraste-taille-des-textes) ne peut être appréciée à l’œil nu, vous devrez la mesurer ([voir la section dédiée dans la méthodologie](methodologie.md#evaluer-la-taille-d-un-texte)).
+1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan&nbsp;: 
+	- en [diffusant l’écran du terminal mobile](methodologie.md#diffuser-l-ecran-du-terminal-mobile) sur l’ordinateur&nbsp;;
+	- ou en [réalisant des captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les [important sur l’ordinateur](methodologie.md#importer-des-captures-d-ecrans-sur-l-ordinateur)).
 1. Pour les textes problématiques identifiés précédemment, vérifier&nbsp;:
-	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de plus de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
+	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
 	- Pour les textes dont la taille est de 24 px ou plus sans effet de graisse, ou de 18,5 px ou plus avec effet de graisse, que la valeur de contraste est de 3:1 au moins.
 1. Si c’est le cas, le critère est validé.
 
@@ -529,7 +495,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 - APPT&nbsp;: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}, [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
-#### [Critère 3.5](#crit-3-5) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-5}
+#### [Critère 3.5](#crit-3-5) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-5"}
 
 **[Test 3.5.1](#test-3-5-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré vérifie-t-il, si nécessaire, l’une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-5-1"}
 - Il existe une [transcription textuelle](glossaire.md#transcription-textuelle-media-temporel) accessible [adjacente clairement identifiable](glossaire.md#adjacente-clairement-identifiable)&nbsp;;
@@ -586,7 +552,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 - APPT&nbsp;: [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
-#### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7}
+#### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7"}
 
 ##### Cas particuliers
 
@@ -608,12 +574,12 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.2 Captions (Prerecorded)*{lang=en}.
 - APPT&nbsp;: [Captions (Prerecorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2){lang=en}.
 
-#### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents&nbsp;? {id="crit-3-8}
+#### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents&nbsp;? {id="crit-3-8"}
 
 **[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-8-1"}
 
-- Les sous-titres sont dans la langue de la vidéo ;
-- Les sous-titres sont pertinents ;
+- Les sous-titres sont dans la langue de la vidéo&nbsp;;
+- Les sous-titres sont pertinents&nbsp;;
 - Les sous-titres sont correctement synchronisés.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
@@ -1261,7 +1227,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 
 ###### Android 
 
-1. Aller dans *Paramètres > Accessibilité > TalkBack > Paramètres > Paramètres de la synthèse vocale*  (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;: 
+1. Aller dans *Paramètres > Accessibilité > TalkBack > Paramètres > Synthèse vocale*  (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;: 
 	- Vérifier que le paramètre &laquo;&nbsp;Moteur préféré&nbsp;&raquo; est &laquo;&nbsp;Synthèse vocale Google&nbsp;&raquo;&nbsp;; 
 	- Activer les paramètres de la synthèse (bouton à droite de &laquo;&nbsp;Moteur préféré&nbsp;&raquo;) et vérifier que le paramètre &laquo;&nbsp;Détection de la langue&nbsp;&raquo; est sur &laquo;&nbsp;Forcée&nbsp;&raquo;.
 1. Activer le **lecteur d’écran** et parcourir l’ensemble des éléments de l’écran.
@@ -1416,7 +1382,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
-1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (le maximum de la jauge permet d’atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l’avant-dernière position du potentiomètre).
+1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo;.
+1. Ouvrir le centre de contrôle et activer le [paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; (bouton « aA »)](methodologie.md#modifier-la-taille-de-police-sur-iOS) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1428,7 +1395,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### Android
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Paramètres > Accessibilité > Taille de la police* (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;; 
-1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
+1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) au maximum (voir note technique).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1436,6 +1403,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 	- que des contenus ne disparaissent pas&nbsp;; 
 	- si des textes ont disparu, qu’il existe une méthode dans l’écran pour afficher les textes à la demande (par exemple avec l’appui prolongé sur une icône).
 1. Si c’est le cas, le critère est validé.
+
+**Note technique**&nbsp;: Avant Android 14, sur les terminaux sans surcouche constructeur, le paramètre de taille de la police ne permet pas d’agrandir à 200% de la taille par défaut. Ce n’est qu’à partir d’Android 14 que cela est rendu possible. Si vous testez sur un terminal Android avec une version antérieure à 14, vous pouvez cumuler le paramètre de taille de la police et le paramètre de la taille de l’affichage pour atteindre un zoom approchant des 200%. À partir d’Android 14, le paramètre de taille de la police vous permet d’atteindre les 200%. À l’inverse, sur certaines versions d’Android, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -1501,13 +1470,15 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
 1. Activer tous les [paramètres disponibles de style de focus](methodologie.md#clavier-externe). 
-1. Naviguer dans l’application et évaluer si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
+1. Naviguer au clavier dans l’application et vérifier si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
 1. Si c’est le cas, le critère est validé.
 
 ###### Android
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
-1. Naviguer dans l’application et évaluer si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
+1. Connecter un **clavier externe** et [paramétrer la navigation au clavier](methodologie.md#clavier-externe).
+1. Naviguer au clavier dans l’application et vérifier&nbsp;:
+	* si le test est réalisé sans activation d’un service d’accessibilité, que le focus est visible&nbsp;;
+	* si le test est réalisé avec l’activation d’un service d’accessibilité, que le focus tel que défini dans le service est visible sur l’ensemble des éléments de l’application.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2550,7 +2521,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### iOS et Android
 
-1. Repérer la présence d’une documentation d'application ou accessible depuis l'application.
+1. Repérer la présence d’une documentation d’application ou accessible depuis l’application.
 1. Pour une documentation au format web (HTML, CSS), vérifier pour chaque élément de documentation qu’il est conforme au [RAWeb](../raweb1/criteres.html).
 1. Pour une documentation au format PDF, vérifier pour chaque élément de documentation qu’il est conforme au [RAPDF](../rapdf1/index.html).
 1. Pour une documentation au format non web (hors PDF), vérifier pour chaque élément de documentation qu’il est conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
@@ -2847,25 +2818,14 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 
 #### [Critère 15.5](#crit-15-5) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle), un indicateur visuel de l’activité orale est-il présent&nbsp;? {id="crit-15-5"} 
 
-**[Test 15.5.1](#test-15-5-1)&nbsp;:** Pour chaque application de communication orale et écrite en temps réel, un indicateur visuel de l’activité orale est-il présent&nbsp;?  {id="test-15-5-1"}
+- **[Test 15.5.1](#test-15-5-1)&nbsp;:** Pour chaque application de communication orale et écrite en temps réel, un indicateur visuel de l’activité orale est-il présent&nbsp;?  {id="test-15-5-1"}
+- **[Test 15.5.2](#test-15-5-2)&nbsp;:** Pour chaque application de communication orale bidirectionnelle qui dispose d’une vidéo en temps réel, un indicateur visuel de l’activité orale est-il présent&nbsp;? {id="test-15-5-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Vérifier que l’application permet la communication orale bidirectionnelle et la communication écrite en temps réel.
-1. Si c’est le cas, activer l’application sur deux terminaux et les connecter à une même session.
-1. Faire parler un utilisateur depuis un des terminaux.
-1. Vérifier sur l’interface l’apparition d’un indicateur visuel permettant d’identifier qu’une personne est en train de parler. Il n’est pas nécessaire pour ce critère d’identifier qui parle, mais simplement d’identifier qu’il y a une personne qui est en train de parler. Par exemple, un halo autour ou une icône à proximité de l’avatar de la personne qui parle.
-1. Si c’est le cas, le critère est validé.
-
-**[Test 15.5.2](#test-15-5-2)&nbsp;:** Pour chaque application de communication orale bidirectionnelle qui dispose d’une vidéo en temps réel, un indicateur visuel de l’activité orale est-il présent&nbsp;? {id="test-15-5-2"}
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### iOS et Android
-
-1. Vérifier que l’application permet la communication orale bidirectionnelle et la diffusion de la vidéo en temps réel.
+1. Vérifier que l’application  permet la communication orale bidirectionnelle et la communication écrite en temps réel ou la diffusion de la vidéo en temps réel.
 1. Si c’est le cas, activer l’application sur deux terminaux et les connecter à une même session.
 1. Faire parler un utilisateur depuis un des terminaux.
 1. Vérifier sur l’interface l’apparition d’un indicateur visuel permettant d’identifier qu’une personne est en train de parler. Il n’est pas nécessaire pour ce critère d’identifier qui parle, mais simplement d’identifier qu’il y a une personne qui est en train de parler. Par exemple, un halo autour ou une icône à proximité de l’avatar de la personne qui parle.

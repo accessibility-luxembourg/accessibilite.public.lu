@@ -118,7 +118,7 @@ Changements majeurs dans le contenu d’un écran qui, s’ils sont faits sans q
 
 La communication écrite en temps réel (*Real-time text*{lang=en}, RTT) est un mode de communication écrite qui permet aux interlocuteurs de lire le texte en train d’être écrit par l’expéditeur, sans attendre que l’expéditeur valide (par exemple avec la touche <kbd>entrée</kbd>).
 
-Les outils d’éditions collaboratifs (par exemple, les suites bureautiques en ligne) sont un exemple du principe de fonctionnement de la communication écrite en temps réel&nbp;: les différents intervenants peuvent voir les textes écrits et modifiés par chacun au moment même de l’application des modifications aux textes. Ce fonctionnement est très différent d’un système de conversation en ligne courant (comme les messageries instantanées), qui ne transmet un message écrit aux interlocuteurs qu’à l’activation d’une touche ou d’un bouton (par exemple, la touche <kbd>entrée</kbd>).
+Les outils d’éditions collaboratifs (par exemple, les suites bureautiques en ligne) sont un exemple du principe de fonctionnement de la communication écrite en temps réel&nbsp;: les différents intervenants peuvent voir les textes écrits et modifiés par chacun au moment même de l’application des modifications aux textes. Ce fonctionnement est très différent d’un système de conversation en ligne courant (comme les messageries instantanées), qui ne transmet un message écrit aux interlocuteurs qu’à l’activation d’une touche ou d’un bouton (par exemple, la touche <kbd>entrée</kbd>).
 
 Exemple de communication écrite en temps réel intégrée à une plateforme&nbsp;: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033){lang=en}
 
@@ -158,7 +158,7 @@ et RsRGB, GsRGB et BsRGB sont définis par&nbsp;:
 
 Le caractère «&nbsp;^&nbsp;» est l’opérateur de puissance.
 
-**Note&nbsp;:** la mesure de contraste concerne le texte, le contenu dans les éléments graphiques, le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos. Les textes présents dans les éléments d’un élément graphique ou d’une vidéo (par exemple un écriteau, une affiche etc.) ne sont pas concernés.
+**Note&nbsp;:** la mesure de contraste concerne le texte, le contenu dans les éléments graphiques, le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos. Les textes présents dans les éléments d’un élément graphique ou d’une vidéo (par exemple un écriteau, une affiche, etc.) ne sont pas concernés.
 
 **Source&nbsp;:** [Procédure de calcul de contraste des WCAG (en anglais)](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
 
@@ -257,7 +257,7 @@ Contenu associé à un [élément graphique](#element-graphique) en complément 
 
 La documentation d’une application ou d’un [service d’assistance](#service-d-assistance) peut être&nbsp;:
 - un écran d’aide&nbsp;;
-- une [déclaration d’accessibilité](obligations.md#declaration-d-accessibilité)&nbsp;;
+- une [déclaration d’accessibilité](../obligations.html#declaration-d-accessibilité)&nbsp;;
 - tout autre contenu qui fait office de documentation (document PDF, page HTML externe lisible dans un navigateur web).
 
 #### Donnée personnelle de l’utilisateur
@@ -552,7 +552,7 @@ Exemples d’outils d’édition&nbsp;:
 - application permettant la création d’applications web&nbsp;;
 - application permettant l’édition de code&nbsp;;
 - application permettant d’exporter au format d’une technologie web (par exemple, un logiciel qui permet de sauvegarder en HTML)&nbsp;;
-- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande etc.&nbsp;;
+- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande, etc.&nbsp;;
 - application ou fonctionnalité d’une application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, les fonctionnalités de commentaires sur les sites web, les forums ou encore les systèmes wiki)&nbsp;;
 - application mail permettant d’envoyer des *e-mails*{lang=en}.
 
@@ -582,8 +582,6 @@ La prise de focus est l’état renvoyé par un élément qui reçoit l’attent
 - en atteignant l’élément par une touche d’un clavier externe (tabulation, flèche de direction)&nbsp;;
 - en atteignant l’élément en utilisant un commutateur externe (*switch*{lang=en}, *joystick*{lang=en}).
 
-La prise de focus sur environnement mobile doit s’évaluer avec les technologies d’assistance et les paramètres adéquats activés. En effet, le simple fait de connecter un contacteur externe (clavier, *switch*{lang=en} par exemple) n’est pas suffisant pour que la gestion au clavier soit pleinement fonctionnelle. Ainsi, la visibilité de la prise de focus ne devrait être évaluée que lorsque ces éléments sont activés et paramétrés. La page [**Méthodologie**](methodologie.md) décrit les procédures nécessaires à la [configuration d’un clavier externe](methodologie.md#clavier-externe). 
-
 #### Procédé de rafraîchissement
 
 Technique visant à modifier le contenu d’un ou de plusieurs éléments de l’écran. L’utilisateur doit pouvoir contrôler chaque procédé de rafraîchissement de manière indépendante.
@@ -610,7 +608,11 @@ Correspond aux gestionnaires d’événement considérés comme des événements
 
 #### Répétition des touches
 
-Fonctionnalité qui consiste à imprimer (à l’écran, dans une zone de saisie par exemple) un caractère plusieurs fois tant que la touche correspondante sur le clavier (visuel ou physique) est activée.
+Fonctionnalité qui consiste à imprimer (à l’écran, dans une zone de saisie par exemple) un caractère plusieurs fois tant que la touche correspondante sur le clavier (visuel ou physique) est activée. 
+
+Lorsque les touches sont associées à des fonctionnalités dans une application, ce n’est plus le caractère qui est imprimé plusieurs fois, mais la fonctionnalité qui peut alors être répétée plusieurs fois.
+
+Le délai de déclenchement et le délai entre deux répétitions de touches est un paramètre qui peut se définir au niveau de la plateforme, mais une application pourrait permettre de configurer également ce paramètre. Voir [les paramètres de configuration possible sur iOS](https://support.apple.com/fr-fr/guide/iphone/ipha7c3927eb/ios) par exemple.
 
 #### Résumé (de tableau)
 

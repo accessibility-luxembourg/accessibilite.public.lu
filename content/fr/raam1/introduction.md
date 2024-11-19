@@ -23,7 +23,6 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 
 ### Sommaire
 
-- [Obligations](obligations.md)
 - [Critères et tests](referentiel-technique.md)
 - [Glossaire](glossaire.md)
 - [Méthodologie de test](methodologie.md)

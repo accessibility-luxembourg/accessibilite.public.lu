@@ -88,14 +88,14 @@ Le pourcentage de critères respectés s’obtient en divisant le nombre de crit
   * Critère validé&nbsp;: un critère est validé s’il est validé sur toutes les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable&nbsp;: pour qu’un critère soit applicable, il suffit qu’il le soit sur un seul écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur tous les écrans de l’échantillon sans exception.
 
-Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](./obligations.md#contenu-de-la-déclaration-daccessibilité).
+Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-daccessibilité).
 
 #### Principe de non-interférence
 
 Dans un échantillon d’audit, il peut y avoir des contenus qui ne sont pas soumis à l’obligation de mise en accessibilité&nbsp;:
 
-- les [contenus exemptés](./obligations.md#contenus-exemptés)&nbsp;;
-- les [contenus dérogés pour charge disproportionnée](./obligations.md#dérogation-pour-charge-disproportionnée)&nbsp;;
+- les [contenus exemptés](../obligations.md#contenus-exemptés)&nbsp;;
+- les [contenus dérogés pour charge disproportionnée](../obligations.md#dérogation-pour-charge-disproportionnée)&nbsp;;
 - les contenus non accessibles qui disposent d’une alternative accessible.
 
 Il est indispensable de s’assurer que ces contenus n’empêchent pas les utilisateurs d’accéder au reste de l’écran ou de l’application.
@@ -160,7 +160,7 @@ Pour prendre en main VoiceOver, nous vous renvoyons vers la documentation offici
 - [Utiliser VoiceOver sur l’iPhone avec un clavier externe Apple](https://support.apple.com/fr-fr/guide/iphone/iph6c494dc6/ios)
 - [Modifier les réglages de VoiceOver sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iphfa3d32c50/ios)
 - [Apprendre les gestes VoiceOver sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e2281/ios)&nbsp;: cette page vous détaille les gestes disponibles pour naviguer dans les interfaces avec VoiceOver.
-- [Contrôler VoiceOver à l’aide du rotor sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios)&nbsp;: le rotor est un élément central dans la navigation avec VoiceOver. Il permet de sélectionner un type d’élément (lien, bouton, entête etc.) comme cible de la navigation rapide (glisser haut/bas). Il est important de connaître son existence et de savoir l’utiliser. Consultez également [la liste des paramètres qu’il est possible de trouver dans le rotor](https://support.apple.com/fr-fr/HT204783).
+- [Contrôler VoiceOver à l’aide du rotor sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios)&nbsp;: le rotor est un élément central dans la navigation avec VoiceOver. Il permet de sélectionner un type d’élément (lien, bouton, entête, etc.) comme cible de la navigation rapide (glisser haut/bas). Il est important de connaître son existence et de savoir l’utiliser. Consultez également [la liste des paramètres qu’il est possible de trouver dans le rotor](https://support.apple.com/fr-fr/HT204783).
 
 ###### Affichage de la sortie vocale
 
@@ -176,7 +176,7 @@ Pour prendre en main TalkBack, nous vous renvoyons vers la documentation officie
 - [Activer ou désactiver TalkBack](https://support.google.com/accessibility/android/answer/6007100?hl=fr&ref_topic=10601570).
 - [Les paramètres TalkBack](https://support.google.com/accessibility/android/answer/6006589?hl=fr&ref_topic=10601570).
 - [Utiliser les gestes TalkBack](https://support.google.com/accessibility/android/answer/6151827?hl=fr&ref_topic=10601570).
-- [Utiliser le menu TalkBack et le contrôle de la lecture](https://support.google.com/accessibility/android/answer/6007066?hl=fr)&nbsp;: le contrôle de la lecture (ou commandes de lecture) est une fonctionnalité similaire au rotor de VoiceOver, il permet de sélectionner des types d’éléments (liens, boutons, entêtes etc.) pour la navigation rapide (glisser haut/bas).
+- [Utiliser le menu TalkBack et le contrôle de la lecture](https://support.google.com/accessibility/android/answer/6007066?hl=fr)&nbsp;: le contrôle de la lecture (ou commandes de lecture) est une fonctionnalité similaire au rotor de VoiceOver, il permet de sélectionner des types d’éléments (liens, boutons, entêtes, etc.) pour la navigation rapide (glisser haut/bas).
 
 ###### Affichage de la sortie vocale
 
@@ -202,15 +202,27 @@ iOS permet de spécifier un style de focus pour les utilisateurs qui utilisent u
 
 ##### Android
 
-L’utilisation d’un clavier externe avec Android demande quelques paramétrages supplémentaires pour être efficace. En effet, pour que les interfaces et fonctionnalités soient pleinement accessibles au clavier il est nécessaire d’utiliser l’application [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr) avec un clavier externe. 
+L’utilisation d’un clavier externe avec Android peut se faire de plusieurs façons, et la norme EN 301 549 n’impose pas de méthode. 
 
-Un guide de configuration vous permet de configurer pas à pas votre clavier externe en définissant des commutateurs, il est disponible dans *Préférences > Accessibilité > Switch Access > Paramètres > Ouvrir le guide de configuration*. Vous allez associer deux actions&nbsp;: 
-- *Passer à l’option suivante*&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Tab</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
-- *Sélectionner*&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Entrée</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
+###### Accès clavier seul
 
-Une fois la première étape de configuration terminée (avec le guide de configuration), il sera nécessaire de vous paramétrer d’autres touches de navigation&nbsp;: 
-- *Switch Access*{lang=en} *> Paramètres > Attribuer des commutateurs pour la recherche*&nbsp;: Associer le paramètre *Passer à l’option précédente* avec une touche ou combinaison de touches (nous vous recommandons <kbd>Shift + Tab</kbd>)
-- *Switch Access*{lang=en} *> Paramètres > Attribuer des commutateurs à des actions*&nbsp;: Associer le paramètre *Retour* avec une touche ou combinaison de touches (nous vous recommandons <kbd>ESC</kbd>)
+La méthode la plus simple est de connecter un clavier externe en USB ou <span lang="en">Bluetooth</span> au terminal mobile, et de réaliser les tests sans aucun paramétrage. 
+
+Vous pouvez consulter la [liste des raccourcis claviers disponibles pour Android](https://appt.org/en/docs/android/features/keyboard-access) afin de naviguer efficacement.
+
+###### Accès clavier avec un service d’accessibilité
+
+Si les tests ne sont pas satisfaisants, il est possible de réaliser des tests complémentaires en utilisant le service d’accessibilité [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr){lang=en}. 
+
+Un guide vous permet de configurer pas à pas votre clavier externe en définissant des commutateurs, il est disponible dans <em>Préférences &gt; Accessibilité &gt; <span lanf="en">Switch Access</span> &gt; Paramètres &gt; Ouvrir le guide de configuration</em>. Vous allez associer deux actions :
+
+* <em>Passer à l’option suivante</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Tab</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
+* <em>Sélectionner</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Entrée</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
+
+Une fois la première étape de configuration terminée (avec le guide de configuration), il sera nécessaire de paramétrer d’autres touches de navigation :
+
+* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs pour la recherche_ : Associer le paramètre _Passer à l’option précédente_ avec une touche ou combinaison de touches (nous vous recommandons <kbd>Shift + Tab</kbd>)
+* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs à des actions_ : Associer le paramètre <em>Retour</em> avec une touche ou combinaison de touches (nous vous recommandons <kbd>ESC</kbd>)
 
 #### Applications de tests
 
@@ -231,6 +243,14 @@ Pour réaliser certains tests sur des applications Android, des applications tie
 
 - [Color Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/){lang=en}&nbsp;: outil d’évaluation des contrastes depuis l’ordinateur disponible sur Mac et Windows.
 
+#### Modifier la taille de police sur iOS
+
+Dans iOS, il est possible d’afficher une jauge des tailles de textes qui donne la valeur du ratio d’agrandissement. Pour cela, il faut ajouter le paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; au centre de contrôle. 
+
+Selon la version d’iOS, il existe des méthodes différentes pour personnaliser le centre de contrôle et ainsi ajouter le paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo;. [La documentation officielle les détaille pour les versions iOS 12 à 18](https://support.apple.com/fr-fr/guide/iphone/iph59095ec58/ios#iph83c5f986c). 
+
+On peut constater que le paramètre permet d’atteindre 190% ou 235% d’agrandissement, mais jamais 200%, ce palier n’existe pas pour l’instant. 190% étant plus proche de 200%, c’est la valeur que la méthodologie suggère de tester.
+
 #### Diffuser l’écran du terminal mobile
 
 La diffusion de l’écran du terminal mobile sur votre ordinateur peut vous permettre d’enregistrer certaines interactions et de faire des captures d’écran lorsque vous devez rédiger des rapports d’audit. La diffusion peut également être utile pour faire des démonstrations au cours de restitution d’audit.
@@ -246,7 +266,7 @@ La diffusion du terminal mobile n’est pas un requis indispensable pour l’év
 1. Une fenêtre s’ouvre, si elle diffuse l’image en provenance de la caméra de votre ordinateur, cliquer à droite du bouton rouge d’enregistrement pour modifier la source à diffuser et choisir votre terminal.
 1. L’écran de votre terminal mobile s’affiche maintenant sur votre ordinateur.
 
-###### Vous disposez d’un ordinateur avec Windows 
+###### Vous disposez d’un ordinateur avec Windows
 
 Il existe un certain nombre de logiciels (gratuits ou payants) permettant de diffuser le terminal iOS sur un ordinateur Windows.
 
@@ -277,29 +297,29 @@ Il peut ensuite exister des méthodes spécifiques en fonction des plateformes&n
 - Depuis Android vers macOS&nbsp;: la solution [MacDroid](https://www.macdroid.app/fr/).
 - Depuis Android ou iOS vers Windows&nbsp;: [la connexion directe par USB](https://support.microsoft.com/fr-fr/windows/importer-des-photos-et-des-vid%C3%A9os-aed09800-f826-4d40-a243-7640de229d9d).
 
-D'autres utilitaires peuvent convenir, la présente liste n'est pas exhaustive.
+D’autres utilitaires peuvent convenir, la présente liste n’est pas exhaustive.
 
-##### Évaluer la taille d'un texte
+##### Évaluer la taille d’un texte
 
-Si lors des évaluations, la taille de certains textes n'est pas évidente (par exemple, il n'est pas évident à l'évaluation à l'oeil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d'obtenir cette mesure : 
-1. Déterminer la taille de l'écran du terminal de test&nbsp;:
-  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu'à [https://mydevice.io](https://mydevice.io)&nbsp;;
-  - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l'écran). 
-1. Réaliser une capture d'écran depuis le terminal mobile et l'importer sur l'ordinateur (voir ci-dessus, c'est la méthode à privilégier afin de garantir que les tailles seront préservées).
-1. Ouvrir la capture dans un logiciel de retouche d'images&nbsp;: 
+Si lors des évaluations, la taille de certains textes n’est pas évidente (par exemple, il n’est pas évident à l’évaluation à l’œil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d’obtenir cette mesure&nbsp;: 
+1. Déterminer la taille de l’écran du terminal de test&nbsp;:
+  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
+  - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
+1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur (voir ci-dessus, c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
+1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
   - Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
     - dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
     - paramétrer les unités en pixels&nbsp;;
-    - dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l'écran déterminée précédemment.
+    - dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
   - Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
-    - dans la barre d'outils, choisir l'option &laquo;&nbsp;Redimenssionner&nbsp;&raquo;&nbsp;;
+    - dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
     - paramétrer les unités en pixels&nbsp;;
-    - dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l'écran déterminée précédemment.
-1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille : 
-  - depuis la capture d'écran ouverte dans le logiciel de retouche, activer l'outil de sélection rectangulaire&nbsp;;
+    - dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
+1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille&nbsp;: 
+  - depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
   - dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
-    - le mieux est de démarrer depuis une majuscule, sinon d'inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
-    - vous pouvez zoomer sur la capture d'écran pour réaliser la sélection la plus précise possible, cela n'influe pas sur le calcul de la hauteur.
-  - repérer dans le logiciel la hauteur du rectangle ainsi défini : 
-    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s'affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
-    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs d'affichent dans la barre d'état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
+    - le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
+    - vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
+  - repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
+    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
+    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.

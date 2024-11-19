@@ -272,15 +272,7 @@ const config = {
                     "md": "./content/fr/raam1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
-                },  
-                {
-                    "title": "RAAM 1 : Obligations",
-                    "menu": "Obligations",
-                    "name": "raam1/obligations",
-                    "md": "./content/fr/raam1/obligations.md",
-                    "html": true,
-                    "prefix": "../../.."
-                },                
+                },                  
                 {
                     "title": "RAAM 1 : Références",
                     "menu": "Références",
