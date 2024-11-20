@@ -1,7 +1,6 @@
 const fs = require('fs')
 const MarkdownIt = require('markdown-it')
 const jsdom = require("jsdom");
-const polyfill = require("polyfill-pseudoclass-has");
 
 const { JSDOM } = jsdom;
 
@@ -13,7 +12,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         newElement.setAttribute(attrType[key], attrValue[key]);
         });
     }
-    if (textNode !== null && arguments.length > 2) { newElement.innerHTML = textNode; }
+    if (textNode !== null && arguments.length > 3) { newElement.innerHTML = textNode; }
   }
   
   
@@ -40,22 +39,30 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         break;
       }
     }
-    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, "Légende et options d'affichage", ["id"], ["showModal"]);
+    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, "Légende et options d'affichage", ["id", "aria-haspopup"], ["showModal", "dialog"]);
     addelt(document, "dialog", mainFrame, null, ["id"], ["control-panel-dialog"]);
     addelt(document, "form", mainFrame.lastChild, null, ["method", "autocomplete"], ["dialog", "off"]);
     addelt(document, "button", mainFrame.lastChild.lastChild, null, ["id", "title"], ["close-modal", "Fermer la fenêtre modale"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild, "Fermer la fenêtre modale", ["class"], ["sr-only"]);
     addelt(document, "div", mainFrame.lastChild.lastChild, null, ["class"], ["content"]);
     addelt(document, "h6", mainFrame.lastChild.lastChild, "Légende");
     addelt(document, "div", mainFrame.lastChild.lastChild, null, ["class"], ["legends"]);
-    addelt(document, "ul", mainFrame.lastChild.lastChild.lastChild);
-    addelt(document, "li", mainFrame.lastChild.lastChild.lastChild.lastChild);
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "dl", mainFrame.lastChild.lastChild.lastChild);
+    addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "2.1", ["class"], ["crit"]);
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Critère");
-    addelt(document, "li", mainFrame.lastChild.lastChild.lastChild.lastChild);
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond bleu précédant l'intitulé du critère", ["class"], ["sr-only"]);
+    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Critère");
+    addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "4.14", ["class"], ["critRAWeb"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond mauve précédant l'intitulé du critère", ["class"], ["sr-only"]);
+    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Nouveau critère RAWeb");
+    addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
+    addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "A", ["class"], ["a"]);
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Niveau de conformité");
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "lettre A sur fond rouge", ["class"], ["sr-only"]);
+    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Niveau de conformité");
     addelt(document, "fieldset", mainFrame.lastChild.lastChild);
     addelt(document, "legend", mainFrame.lastChild.lastChild.lastChild, "Options");
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
@@ -76,7 +83,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc6"]);
     addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les correspondances", ["for"], ["rwc6"]);
-    addelt(document, "button", mainFrame, null, ["id", "title"], ["showModal-sticky", "Légende et options d'affichage"]);
+    addelt(document, "button", mainFrame, null, ["id", "title", "aria-haspopup"], ["showModal-sticky", "Légende et options d'affichage", "dialog"]);
+    addelt(document, "span", mainFrame.lastChild, "Légende et options d'affichage", ["class"], ["sr-only"]);
     addelt(document, "div", mainFrame, null, ["class"], ["RAWebMaster"]);
     addelt(document, "div", mainFrame.lastChild, null, ["id", "class"], ["accordionGroup", "accordion"]);
   
@@ -110,7 +118,12 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", el.lastChild.lastChild, themeTitle, ["class"], ["theme-name"]);
         addelt(document, "span", el.lastChild.lastChild, themeNumber, ["class"], ["chapter"]);
         addelt(document, "span", el.lastChild.lastChild, null, ["class"], ["accordion-icon"]);
-        addelt(document, "a", el, "&nbsp;", ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
+        addelt(document, "a", el, null, ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
+        addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", el.lastChild.lastChild, themePrefix);
+        addelt(document, "img", el.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+
+
     });
   
     // 4. Créer les <details> de méthodologie
@@ -175,16 +188,16 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.firstElementChild.after(el);
     });
   
-    // // 8. Créer les <details> pour les tests multiples
-    // els = (new polyfill.SelectorHandler('ul:has( > li[id^=test])')).queryAll(document);
-    // // els = document.querySelectorAll('ul:has( > li[id^=test])');
-    // els.forEach(el => {
-    //     const detailRAAM = document.createElement("details");
-    //     detailRAAM.setAttribute("class", "discover rawebTests");
-    //     addelt(document, "summary", detailRAAM, "Tests");
-    //     el.parentNode.insertBefore(detailRAAM, el);       
-    //     detailRAAM.firstElementChild.after(el);
-    // });
+    // 8. Créer les <details> pour les tests multiples
+    els = document.querySelectorAll('div.accordion-panel > h4 + ul');
+    // els = document.querySelectorAll('ul:has( > li[id^=test])');
+    els.forEach(el => {
+        const detailRAAM = document.createElement("details");
+        detailRAAM.setAttribute("class", "discover rawebTests");
+        addelt(document, "summary", detailRAAM, "Tests");
+        el.parentNode.insertBefore(detailRAAM, el);       
+        detailRAAM.firstElementChild.after(el);
+    });
   
     // 9. Note baladeuse du critère 6.1
     let el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
@@ -203,6 +216,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         let critLevel = el.innerHTML.match(re)[1];
         el.innerHTML = '<span><span class="sr-only">critère </span>' + critNumber + '</span>' + critTitle ;
         addelt(document, "a", el, null, ["class", "title", "href"], ["anchor", "Critère " + critNumber, "#" + el.id]);
+        addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", el.lastChild.lastChild, "Critère " + critNumber);
         addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
         addelt(document, "span", el, '<span class="sr-only">Niveau de conformité </span>' + critLevel, ["class"], ["level"]);
     });
@@ -217,31 +232,37 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.id]);
+        addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+        addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
         el.parentNode.insertBefore(newLayout, el); 
         el.remove();
     });
   
-    // 12. redessiner l'apparence des tests multiples
+    // //12. redessiner l'apparence des tests multiples
+    els = document.querySelectorAll('div.accordion-panel > details > ul');
     //els = document.querySelectorAll('ul:has( > li[id^=test])');
-    // els = (new polyfill.SelectorHandler('ul:has( > li[id^=test])')).queryAll(document);
-    // els.forEach(el => {
-    //     for (let i = 0; i < el.childElementCount; i++) {
-    //         if (el.children[i].lastElementChild.nodeName === "UL") {
-    //             el.parentNode.insertBefore(el.children[i].lastElementChild, el);
-    //         }
-    //         let testTitle = el.children[i].innerHTML.split("</strong> ").pop();
-    //         let testNumber = el.children[i].id.split("test-").pop().replace(/-/g, '.');
-    //         let newLayout = document.createElement("H5");
-    //         newLayout.setAttribute("id", el.children[i].id);
-    //         addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
-    //         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
-    //         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
-    //         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
-    //         el.parentNode.insertBefore(newLayout, el.previousElementSibling);
-    //     }
-    //     el.remove();
-    // });
+    els.forEach(el => {
+        if (el.querySelectorAll('li[id^=test]').length !== 0) {
+            for (let i = 0; i < el.childElementCount; i++) {
+                if (el.children[i].lastElementChild.nodeName === "UL") {
+                    el.parentNode.insertBefore(el.children[i].lastElementChild, el);
+                }
+                let testTitle = el.children[i].innerHTML.split("</strong> ").pop();
+                let testNumber = el.children[i].id.split("test-").pop().replace(/-/g, '.');
+                let newLayout = document.createElement("H5");
+                newLayout.setAttribute("id", el.children[i].id);
+                addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
+                addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
+                addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
+                addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+                addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
+                addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+                el.parentNode.insertBefore(newLayout, el.previousElementSibling);
+            }
+            el.remove();
+        }
+    });
     return dom.serialize();
   }
   
