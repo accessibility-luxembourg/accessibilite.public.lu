@@ -13,7 +13,7 @@ Ce référentiel propose un cadre opérationnel de vérification de la conformit
 - 11 *Software*{lang=en}
 - 12 *Documentation and support services*{lang=en}
 
-Il comporte 107 critères de contrôle. 
+Il comporte 108 critères de contrôle. 
 
 En cas d’absence de mise à jour du référentiel sous 3 ans pour prendre en compte de nouveaux standards ou spécifications techniques, il est possible de créer ses propres tests en complément de ceux existants.
 
