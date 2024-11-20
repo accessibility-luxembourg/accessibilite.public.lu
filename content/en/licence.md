@@ -3,7 +3,7 @@ The contents of the RAWeb are licensed under a Creative Commons [CC-BY 3.0 LU](h
 
 These contents have been adapted to the Luxembourg legal context by the [Information and Press Service](https://sip.gouvernement.lu) and are listed in the [review notes](./raweb1/notes-revision.html).
 
-The contents of [RAAM](./raam1/index.html) are edited by the [Information and Press Service](https://sip.gouvernement.lu) and are licensed under a Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/) licence. They are derivative works of the following documents published by the [DINUM](https://www.numerique.gouv.fr/dinum/): 
+The contents of [RAAM](./raam1.1/index.html) are edited by the [Information and Press Service](https://sip.gouvernement.lu) and are licensed under a Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/) licence. They are derivative works of the following documents published by the [DINUM](https://www.numerique.gouv.fr/dinum/): 
 
 - [DISIC/RGAA](https://github.com/DISIC/RGAA) (version of 21/05/2021) 
 - [DISIC/RGAA-Apps](https://github.com/DISIC/rgaa-apps) (version dated 16/08/2017)

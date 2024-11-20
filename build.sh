@@ -22,6 +22,7 @@ mkdir -p ./src/html/fr/rgaa4.1/files
 mkdir -p ./src/html/fr/rgaa4.1.2/files
 mkdir -p ./src/html/fr/raweb1/files
 mkdir -p ./src/html/fr/raam1
+mkdir -p ./src/html/fr/raam1.1
 mkdir -p ./src/html/fr/rapdf1
 mkdir -p ./src/html/fr/tools
 mkdir -p ./src/html/fr/support
@@ -38,7 +39,7 @@ if [[ "$DISABLE_EN" != "true" ]]
 then
     mkdir -p ./src/html/en/files
     mkdir -p ./src/html/en/raweb1/files
-    mkdir -p ./src/html/en/raam1
+    mkdir -p ./src/html/en/raam1.1
     mkdir -p ./src/html/en/rapdf1
     mkdir -p ./src/html/en/tools
     mkdir -p ./src/html/en/support

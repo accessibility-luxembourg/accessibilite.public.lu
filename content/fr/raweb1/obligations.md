@@ -91,7 +91,7 @@ Lorsqu’un site Internet ou une application mobile relève simultanément des o
 Afin d’évaluer la conformité du site ou de l’application mobile avec la norme de référence, l’organisme doit conduire un audit d’accessibilité. L’audit (ou évaluation) peut être effectué par l’organisme lui-même (auto-évaluation) ou par un tiers. L’évaluation est réalisée sur un échantillon de pages représentatif du site ou un échantillon d’écrans représentatif de l’application. 
 
 - Pour un site web, la vérification de la conformité des pages de l’échantillon avec les critères applicables s’effectue à l’aide des critères de contrôle du [référentiel d’évaluation de l’accessibilité web (RAWeb)](./raweb1/index.html). 
-- Pour une application mobile, la vérification de la conformité des écrans de l’échantillon avec les critères applicables s’effectue à l’aide du [référentiel d’évaluation de l’accessibilité des applications mobiles (RAAM)](./raam1/index.html). 
+- Pour une application mobile, la vérification de la conformité des écrans de l’échantillon avec les critères applicables s’effectue à l’aide du [référentiel d’évaluation de l’accessibilité des applications mobiles (RAAM)](./raam1.1/index.html). 
 
 La phase finale de l’audit est la déclaration d’accessibilité qui rend compte de la conformité avec les règles applicables.
 
@@ -161,7 +161,7 @@ Quelques [critères RAWeb](../../html/fr/raweb1/criteres.html), notamment ceux d
 
 Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments et d’attributs, il est très difficile pour les applications mobiles de procéder de la même manière. D’une part, parce que cela demanderait des compétences techniques élevées (on accède au logiciel, mais rarement à son code contrairement à un site web). D’autre part, parce que contrairement au web et aux technologies (HTML/CSS/JavaScript) il existe une diversité d’environnements de développement qui rend difficile la définition d’une liste de tests basée sur la revue de code.
 
-Une certaine partie des tests du [référentiel d’évaluation de l’accessibilité des applications mobiles](../../html/fr/raam1/index.html) se réalise avec les technologies d’assistance mises à disposition sur les plateformes.
+Une certaine partie des tests du [référentiel d’évaluation de l’accessibilité des applications mobiles](../../html/fr/raam1.1/index.html) se réalise avec les technologies d’assistance mises à disposition sur les plateformes.
 
 ##### Définition de l’environnement de test
 
@@ -170,7 +170,7 @@ Pour valider ces critères, il convient de définir un environnement de test (ou
 Chacun de nos deux référentiels propose un environnement de test à utiliser pour réaliser les tests d’évaluation :
 
 - [Environnement de test du RAWeb pour l’évaluation de sites web](../../html/fr/raweb1/environnement.md) ;
-- [Environnement de test du RAAM pour l’évaluation d’applications mobiles](../../html/fr/raam1/environnement.md).
+- [Environnement de test du RAAM pour l’évaluation d’applications mobiles](../../html/fr/raam1.1/environnement.md).
 
 Cet environnement de test minimal peut être complété, le cas échéant, par des solutions libres et gratuites disponibles ou par des technologies plus anciennes, en fonction de l’usage du site ou de l’application mobile. Lorsqu’il est possible de connaître la configuration des postes de travail, ainsi que le matériel utilisé, la base de référence est alors constituée des services réellement utilisés dans cet environnement.
 

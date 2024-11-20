@@ -19,7 +19,7 @@ auteur: Dominique Nauroy
     <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Illustration showing a young man apparently confused in front of his phone">
     <figcaption>Photo: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
 </figure>
-<p>We didn't expect it - or, to be more accurate, we didn't dare believe it. However, three years after its creation, <a href="../raam1/index.html">RAAM</a> is known, used and appreciated beyond the borders of the Grand Duchy, where it continues to be an active reference in the day-to-day evaluation of the accessibility of mobile apps.</p>
+<p>We didn't expect it - or, to be more accurate, we didn't dare believe it. However, three years after its creation, <a href="../raam1.1/index.html">RAAM</a> is known, used and appreciated beyond the borders of the Grand Duchy, where it continues to be an active reference in the day-to-day evaluation of the accessibility of mobile apps.</p>
 
 <p>Designed to offer an evaluation approach that takes full account of the criteria in European standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a>, RAAM provides an operational framework for checking compliance with accessibility requirements, based on 107 control criteria.</p>
 

@@ -4,6 +4,7 @@ const axeRgaa = require('./AxeRGAAmsg.json')
 const fs = require('fs')
 
 const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raweb1/index.html">RAWeb1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raweb1/notes-revision.html">notes de révision</a>.'
+const deprecationMessageRAAM = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raam1.1/index.html">RAAM 1.1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raam1.1/notes-revision.html">notes de révision</a>.'
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
 const niveauxRAWeb1 = require('../content/fr/raweb1/niveaux.json')
@@ -224,21 +225,21 @@ const config = {
         {
             "title": "Référentiel mobile",
             "menu": "<span class='mobile-only'>Référentiel</span> mobile",
-            "name": "raam1",
+            "name": "raam1.1",
             "children": [ 
                 {
-                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 1) : Introduction",
+                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 1.1) : Introduction",
                     "menu": "Introduction",
-                    "name": "raam1/index",
-                    "md": "./content/fr/raam1/introduction.md", 
+                    "name": "raam1.1/index",
+                    "md": "./content/fr/raam1.1/introduction.md", 
                     "html": true,
                     "prefix": "../../.."
                 },                
                 {
-                    "title": "RAAM 1 : Critères et tests",
+                    "title": "RAAM 1.1 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "raam1/referentiel-technique",
-                    "md": "./content/fr/raam1/referentiel-technique.md",
+                    "name": "raam1.1/referentiel-technique",
+                    "md": "./content/fr/raam1.1/referentiel-technique.md",
                     "prefix": "../../..", 
                     "html": true, 
                     "slugify": "slugifyA42",
@@ -246,10 +247,10 @@ const config = {
                     "summaryTitle": "Thématiques"
                 }, 
                 {
-                    "title": "RAAM 1 : Glossaire",
+                    "title": "RAAM 1.1 : Glossaire",
                     "menu": "Glossaire",
-                    "name": "raam1/glossaire",
-                    "md": "./content/fr/raam1/glossaire.md",
+                    "name": "raam1.1/glossaire",
+                    "md": "./content/fr/raam1.1/glossaire.md",
                     "prefix": "../../..", 
                     "html": true,                    
                     "slugify": "slugifyA42", 
@@ -257,27 +258,35 @@ const config = {
                     "summaryTitle": "Index"
                 },                          
                 {
-                    "title": "RAAM 1 : Méthodologie de test",
+                    "title": "RAAM 1.1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raam1/methodologie",
-                    "md": "./content/fr/raam1/methodologie.md",
+                    "name": "raam1.1/methodologie",
+                    "md": "./content/fr/raam1.1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
                     "slugify": "slugifyA42"
                 },
                 {
-                    "title": "RAAM 1 : Environnement de test",
+                    "title": "RAAM 1.1 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raam1/environnement",
-                    "md": "./content/fr/raam1/environnement.md",
+                    "name": "raam1.1/environnement",
+                    "md": "./content/fr/raam1.1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
-                },                  
+                },    
                 {
-                    "title": "RAAM 1 : Références",
+                    "title": "RAAM 1.1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "raam1.1/notes-revision",
+                    "html": true,
+                    "md": "./content/fr/raam1.1/notes-de-revision.md", 
+                    "prefix": "../../.."
+                },                              
+                {
+                    "title": "RAAM 1.1 : Références",
                     "menu": "Références",
-                    "name": "raam1/references",
-                    "md": "./content/fr/raam1/references.md",
+                    "name": "raam1.1/references",
+                    "md": "./content/fr/raam1.1/references.md",
                     "prefix": "../../.." 
                 }
             ]
@@ -593,6 +602,68 @@ const config = {
                     "name": "rgaa4.1/notes-revision",
                     "md": "./content/fr/rgaa4.1/notes-revision.md", 
                     "prefix": "../../.."
+                }
+            ]
+        },
+        {
+            "title": "Référentiel mobile",
+            "name": "raam1",
+            "children": [ 
+                {
+                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "raam1/index",
+                    "md": "./content/fr/raam1/introduction.md", 
+                    "html": true,
+                    "prefix": "../../.."
+                },                
+                {
+                    "title": "RAAM 1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "raam1/referentiel-technique",
+                    "md": "./content/fr/raam1/referentiel-technique.md",
+                    "prefix": "../../..", 
+                    "html": true, 
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques",
+                    "deprecation": deprecationMessageRAAM
+                }, 
+                {
+                    "title": "RAAM 1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "raam1/glossaire",
+                    "md": "./content/fr/raam1/glossaire.md",
+                    "prefix": "../../..", 
+                    "html": true,                    
+                    "slugify": "slugifyA42", 
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index",
+                    "deprecation": deprecationMessageRAAM
+                },                          
+                {
+                    "title": "RAAM 1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "raam1/methodologie",
+                    "md": "./content/fr/raam1/methodologie.md",
+                    "html": true, 
+                    "prefix": "../../..", 
+                    "slugify": "slugifyA42"
+                },
+                {
+                    "title": "RAAM 1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "raam1/environnement",
+                    "md": "./content/fr/raam1/environnement.md",
+                    "html": true,
+                    "prefix": "../../.."
+                },                  
+                {
+                    "title": "RAAM 1 : Références",
+                    "menu": "Références",
+                    "name": "raam1/references",
+                    "md": "./content/fr/raam1/references.md",
+                    "prefix": "../../.." 
                 }
             ]
         }

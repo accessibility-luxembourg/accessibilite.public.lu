@@ -91,7 +91,7 @@ When a website or mobile application is simultaneously subject to the accessibil
 In order to assess the compliance of the website or mobile application with the reference standard, the organisation must conduct an accessibility audit. The audit (or evaluation) may be carried out by the organisation itself (self-evaluation) or by a third party. The evaluation is carried out on a sample of pages representative of the site or a sample of screens representative of the application. 
 
 - For a website, the compliance of the sample pages with the applicable criteria is checked using the control criteria of the [Web Accessibility Assessment Framework (RAWeb)](./raweb1/index.html). 
-- For a mobile application, the compliance of the screens in the sample with the applicable criteria is checked using the [mobile applications accessibility assessment framework (RAAM)](./raam1/index.html). 
+- For a mobile application, the compliance of the screens in the sample with the applicable criteria is checked using the [mobile applications accessibility assessment framework (RAAM)](./raam1.1/index.html). 
 
 The final phase of the audit is the accessibility statement, which reports on compliance with the applicable rules.
 
@@ -161,7 +161,7 @@ Some [RAWeb criteria](../../html/en/raweb1/criteres.html), particularly those in
 
 Unlike web content, where it is possible to inspect the source code to determine the presence of elements and attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can have access to the software, but rarely to its code, unlike a website). Secondly, because unlike the web and HTML/CSS/JavaScript technologies, there is a diversity of development environments that makes it difficult to define a list of tests based on code review.
 
-Some of the tests in the [mobile applications accessibility assessment framework](../../html/en/raam1/index.html) are carried out using the assistive technologies available on the platforms.
+Some of the tests in the [mobile applications accessibility assessment framework](../../html/en/raam1.1/index.html) are carried out using the assistive technologies available on the platforms.
 
 ##### Definition of the test environment
 
@@ -170,7 +170,7 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 Each of our two frameworks proposes a test environment to be used to carry out the evaluation tests:
 
 - [RAWeb test environment for website evaluation](../../html/en/raweb1/environnement.md);
-- [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environnement.md).
+- [RAAM test environment for evaluating mobile applications](../../html/en/raam1.1/environnement.md).
 
 This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the reference base is composed of the services actually used in this environment.
 
