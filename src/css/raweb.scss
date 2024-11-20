@@ -175,8 +175,6 @@ html, body {
   display: block;
   width: 1.9rem;
   height: 1.9rem;
-  background-image: url(../img/hyperlink.svg);
-  background-size: 80%;
   background-color: white;
   border: 1px solid grey;
   border-radius: 50%;
@@ -250,9 +248,16 @@ html, body {
   text-decoration: none;
 }
 
-.accordion a:hover, .accordion a:focus:visited, .accordion a:focus {  
+.accordion a:hover {  
   border-bottom: 2px solid #19297c;
   color: black;
+  background-color: white;
+}
+
+.accordion a:focus:visited, .accordion a:focus {  
+  outline: thin solid black;
+  color: black;
+  outline-offset: 1px;
   background-color: white;
 }
 
@@ -317,7 +322,7 @@ html, body {
   line-height: 1.4rem !important;
 }
 
-.accordion details h5 span:not(.test-content) {
+.accordion details h5 span:not(.test-content, [lang]) {
   position: absolute;
   top: 0;
   left: -1.6rem;
@@ -514,30 +519,32 @@ dialog#control-panel-dialog button#close-modal {
   margin-bottom: 1rem;
 }
 
-.legends > ul, .legends > ul > li {
+.legends > dl {
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
-.legends > ul > li {
+.legends > dl > div {
   display: flex;
   flex-direction: row;
 }
 
-.legends > ul > li > p {
+.legends > dl > div > dt {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.legends > ul > li > p:nth-of-type(odd) {
+.legends > dl > div > dt {
   width: 3rem;
   height: 2.5rem;
 }
 
-.legends > ul > li > p:nth-of-type(even) {
+.legends > dl > div > dd {
   font: 300 1rem "Fira Sans";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .legends span.a, .legends span.aa {

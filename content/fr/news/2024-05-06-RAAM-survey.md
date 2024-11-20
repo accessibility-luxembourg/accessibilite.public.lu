@@ -7,8 +7,10 @@ tags:
 auteur: Dominique Nauroy
 ---
 
-<h2>À la ramasse avec le RAAM ?</h2>
-<h3>Le référentiel évaluant l’accessibilité des apps mobiles va s’offrir un petit lifting. Mais avant... dites-nous comment l’améliorer.</h3>
+<hgroup>
+	<h1>À la ramasse avec le RAAM ?</h1>
+	<p>Le référentiel évaluant l’accessibilité des apps mobiles va s’offrir un petit lifting. Mais avant... dites-nous comment l’améliorer.</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Le 21 juin, le RAAM souffle ses trois bougies. L’occasion de nous faire part de vos expériences et de vos attentes.</p>

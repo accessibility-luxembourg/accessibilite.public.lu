@@ -5,8 +5,10 @@ tags:
 auteur: Dominique Nauroy
 ---
 <div lang="en">
-<h2>Tanja Kleut: <q>Technology is a door opener</q></h2>
-<h3>In this interview we discuss accessibility, digital barriers and how technology is helping blind people to be more independent in their daily lives</h3>
+<hgroup>
+	<h1>Tanja Kleut: <q>Technology is a door opener</q></h1>
+	<p>In this interview we discuss accessibility, digital barriers and how technology is helping blind people to be more independent in their daily lives</p>
+</hgroup>
 <hr>
 <div class="intro">
     <p>Tanja Kleut is working on digital accessibility at the European Parliament. She has lived and worked in Luxembourg since 2014. In nine years, she has seen the progress made in terms of accessibility in the capital, but also online. Do these improvements enable blind people to live, work, communicate and move around independently? Not yet, there is still a long way to go. She explains us why.</p>
@@ -15,10 +17,10 @@ auteur: Dominique Nauroy
     <img src="../../../../content/fr/news/img/itw-t-kleut.jpg" alt="Photo of Tanja Kleut at the Information and Press Service">
     <figcaption>Tanja Kleut. Photo&#8239;: Dominique Nauroy</figcaption>
 </figure>
-<h4>How important is digital accessibility to you?</h4>
+<h2>How important is digital accessibility to you?</h2>
 <p>I have always been focused on accessibility. If I want to get access to any content, it is through the technology. I lost my sight when I was 12 years old. Very early, I realised that the only way to get access to books and learning materials was with usage of technology. At that time, schoolbooks were available in paper format only, and I was not able to continue reading and studying in that way anymore. Thus, I was digitizing paper books in accessible digital formats with optical character recognition (OCR) software and then reading books with a screen reader and refreshable braille display. In that way I had access to learning materials. Technology was a door opener for me. Since then, technology has become more mainstream, and accessibility has evolved in the publishing industry.</p>
 <p>Among other things, the disability rights movement asks for the right to access information: if the information is digital, then it is a matter of digital accessibility. Digital accessibility is my first passion: it is at the same time work, passion and daily reality. Seeing that I can help as an accessibility expert by providing constructive feedback, collaborate with the teams that are able to implement the changes so that information becomes accessible: this is rewarding.</p>
-<h4>As a user, what are the most common digital barriers you have to deal with?</h4>
+<h2>As a user, what are the most common digital barriers you have to deal with?</h2>
 <p>Number one: inaccessible online forms. You just cannot navigate with the keyboard, select a radio button option, tick a check box or validate the Captcha. It happens usually on e-commerce websites, most often on web pages, but PDF forms can also suffer from the same problem.</p>
 <blockquote><p>“It would be helpful (...) that the alternative text of the image gives basic information of the shown product.”</p></blockquote>
 <p>Second challenge: unlabelled buttons or icons. Often, images of products do not have alternative text. Even when a picture has an alternative text, this one is often too vague, especially for shopping, it does not give all the details that are shown on the picture. Basically, you get the name of the product, but the image conveys much more information than what is written in the product description. It would be helpful that product descriptions are more extensive (for everyone) and that the alternative text of the image gives basic information of the shown product.</p>
@@ -26,26 +28,26 @@ auteur: Dominique Nauroy
 <p>Third: menus that cannot be expanded with the keyboard.</p>
 <blockquote><p>“It is anyway impossible to use real estate websites.”</p></blockquote>
 <p>The list can quickly become long, we may also mention for instance 3D virtual tours, making property searches even more inaccessible – it is anyway impossible to use real estate websites. Pictures shown in 3D tours show real estate, but again, the description does not provide the same level of information. The real estate agencies should provide a detailed textual description.</p>
-<h4>Do you notice a difference between public and private sites here in Luxembourg?</h4>
+<h2>Do you notice a difference between public and private sites here in Luxembourg?</h2>
 <p>Yes, since the first accessibility directive started to be implemented. Public sites and apps have been improved over the last two years, I am glad for that, and the distinction with the private sector is becoming clear. When I browse a website that I visited already and discover suddenly that a component or functionality has become accessible, this is a very nice surprise. Not much seems to happen yet in the private domain as this was not a priority. Sometimes a few accessibility improvements are being made, but then because there is no real internal commitment, when a new major update is published, accessibility is impacted.</p>
 <blockquote><p>“I am much more independent, and this is very important.”</p></blockquote>
-<h4>How do these digital accessibility improvements make your life easier?</h4>
+<h2>How do these digital accessibility improvements make your life easier?</h2>
 <p>I am much more independent, and this is very important. I can fill out administrative forms without having to ask anyone for help – this can already be a burden. Moreover, I do not have to share confidential information with someone else anymore. I can get more information related to cultural events, even purchase tickets; I am able to check schedules for bus lines, trains and so on.</p>
 <p>This is not purely digital accessibility, but I have to mention that the tram is accessible. There is not this gap between the tram and the sidewalk – which happens with the train. I am just wondering why the doors do not open automatically: you have to find the door, then the button to open the door. Often, I have my hands full, and it is difficult to search for the button to open the door. Globally, Luxembourg City has become, over the years, much more accessible than it was when I arrived in 2014. I feel safe in the city centre.</p>
 <p>A long time ago, I went to the Mersch municipal park for the first time thanks to the navigation app on my phone. I was so happy! I found where it was, I found it myself on my own, I felt like I can see. Nowadays I have plenty of navigation apps. The accuracy of the path depends on how well the map is supported.</p>
-<h4>When you find a service that is much more accessible than other ones, do you recommend it?</h4>
+<h2>When you find a service that is much more accessible than other ones, do you recommend it?</h2>
 <p>It is a difficult question. Ideally yes. But perhaps in its next update, my banking app won’t be as accessible as it was... then I may be criticized because I was advocating for that application. This is rather the responsibility of the service provider to declare the level of accessibility of their product.</p>
 <p>It is true that there is not much information on accessibility of the services. First, at this moment I do not speak Luxembourgish, this is a barrier. Even if Luxembourgers speak French, I often feel some social exclusion. Besides, when it comes to visual impairment, everyone knows everyone here in Luxembourg. It seems like persons with disabilities are a bit hesitant when it comes to advocating for their own rights. Let’s take an example: in Croatia, organisations representing persons with disabilities are chaired by persons with disabilities. I think this is important: they are really fighting for their own rights as persons with disabilities. This helps to have a true understanding of the challenges. Here, this is not happening so much. I complained to different associations of the blind and they are not fighting for the rights of persons with disabilities as much as I think they should.</p>
-<h4>Do you feel confident that the new law dedicated to accessibility and targeting the private sector will bring real changes?</h4>
+<h2>Do you feel confident that the new law dedicated to accessibility and targeting the private sector will bring real changes?</h2>
 <p>As a user, I am really looking forward to it, because there are so many barriers. I know there will be a transition phase. But the sooner it starts, the better it is. The new European Accessibility Act allows users to address complaints and, because of infringements, economic operators will have to pay penalties. I am eager to discover how this Act will become a reality.</p>
-<h4>Public websites must display an “accessibility statement”, listing what is not accessible and linking the user with an accessibility complaint form. How do you feel about this initiative?</h4>
+<h2>Public websites must display an “accessibility statement”, listing what is not accessible and linking the user with an accessibility complaint form. How do you feel about this initiative?</h2>
 <p>It is important that persons with disabilities use the feedback mechanism and complain about accessibility issues. However, public sector organisations have to take responsibility and build internal accessibility knowledge: introduce regular accessibility trainings, modify recruiting and procurement processes, and then receive feedback based on the digital accessibility they are working on.</p>
-<h4>Digital accessibility is not only a question of website and app compliance. Screen readers also come into play. NVDA, JAWS, VoiceOver... which one are you using?</h4>
+<h2>Digital accessibility is not only a question of website and app compliance. Screen readers also come into play. NVDA, JAWS, VoiceOver... which one are you using?</h2>
 <p>These three. On Windows, I switch between NVDA and JAWS, it depends on the application I am using. Some actions cannot be performed by NVDA then I am using JAWS and vice versa. If the website is not accessible, I try to access it by using different screen readers. I sometimes must use NVDA and Jaws to get the information or to interact with the elements displayed on the HTML page. I may even have to try with another browser if this is really something that I want to access. For instance, online payments can trigger a pop-up, but the screen reader does not see the close button, so it is impossible to process to the payment. No solution is 100% reliable. It is a combination of three technologies – operating systems, browsers and screen readers, all of them regularly updated and following the common accessibility standards.</p>
 <p>At the beginning, JAWS was the only choice. Then came NVDA. This one is free, open-source and allows more customisations. Even Narrator can be easier for some specific tasks inside Microsoft applications.</p>
 <p>I use VoiceOver on my iPhone. At some point, I used an Android to get familiar with TalkBack. It is a matter of preference. I am glad that I can choose between mainstream devices, like everyone else!</p>
 <aside class="contextbox">
-    <h4>What is a screen reader?</h4>
+    <h2>What is a screen reader?</h2>
     <p>A screen reader is a technical assistance software designed for people who are blind or severely visually impaired: it reads by voice synthesis and/or on a Braille display what is displayed on a computer screen – content and structure – and allows interaction with the operating system and the applications.</p>
     <p>It cannot interpret a drawing or a graphic, hence the need to provide coherent alternative texts.</p>
     <p>Screen readers are usually built in the operating system (VoiceOver on macOS or iOS; Narrator on Windows; TalkBack on Android). It can also be independent software, such as JAWS or NVDA, to be downloaded and installed on Windows. </p>

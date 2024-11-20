@@ -76,7 +76,11 @@
     <main role="main" id="main" class="main">
       <div id="contenu" class="container main-container <%= (withSummary)?'withSummary':'' %> <%= (full_width)?'full_width':'' %>"> <% // keep this ID, it is used by some links in the original RGAA %>
         <% if (!withoutTitle) { %>
-        <h2><%= title %></h2>
+          <% if (name === "index") { %>
+            <h2><%= title %></h2>
+          <% } else { %>
+            <h1><%= title %></h1>
+          <% } %>
         <% } %>
         <% if (error !== '') { %>
           <div class="alert alert-danger">

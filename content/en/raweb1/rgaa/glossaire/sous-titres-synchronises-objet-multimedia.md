@@ -1,5 +1,5 @@
 ---
-title: Captions (media object)
+title: Synchronised captions (media object)
 ---
 
 Text of audio information (a character's words, noise that is important for understanding the action, etc.) present in a time-based medium and displayed synchronously with the flow of the multimedia object.

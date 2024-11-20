@@ -19,19 +19,19 @@ const graph_translations = {
         "compliance": "Conformité<br>partielle",
         "compliance_desc": "La conformité partielle est atteinte à partir de 50%.",
         "full_compliance": {
-            "title": "Graphique 1. Niveau de conformité des sites audités en 2023, en pourcentage"
+            "title": "Graphique 1. Niveau de conformité des sites audités en 2023, en %"
         },
         "full_themes": {
-            "title": "Graphique 2. Top 10 des non-conformités décelées dans l'échantillon"
+            "title": "Graphique 2. Top 10 des non-conformités décelées dans l'échantillon, en %"
         },
         "full_app_compliance": {
-            "title": "Graphique 3. Taux de conformité des apps auditées en 2023"
+            "title": "Graphique 3. Taux de conformité des apps auditées en 2023, en %"
         },
         "simple_compliance_top10": {
-            "title": "Graphique 4. Top 10 des sites publics cibles d'un audit simplifié"
+            "title": "Graphique 4. Top 10 des sites publics cibles d'un audit simplifié, en %"
         },
         "simple_compliance": {
-            "title": "Graphique 5. Niveau de conformité par domaine administratif"
+            "title": "Graphique 5. Niveau de conformité par domaine administratif, en %"
         }
     },
     "en": {
@@ -41,19 +41,19 @@ const graph_translations = {
         "compliance": "Partial<br>compliance",
         "compliance_desc": "Partial compliance is reached at 50%.",
         "full_compliance": {
-            "title": "Graph 1. Level of compliance of audited sites in 2023, as a percentage"
+            "title": "Graph 1. Compliance rate of audited sites in 2023, as a percentage"
         },
         "full_themes": {
-            "title": "Graph 2. Top 10 non-compliances found in the sample"
+            "title": "Graph 2. Top 10 non-compliances found in the sample, as a percentage"
         },
         "full_app_compliance": {
-            "title": "Graph 3. Compliance rate for apps audited in 2023"
+            "title": "Graph 3. Compliance rate of audited apps in 2023, as a percentage"
         },
         "simple_compliance_top10": {
-            "title": "Graph 4. Top 10 public sites targeted by a simplified audit"
+            "title": "Graph 4. Top 10 public sites targeted by a simplified audit, as a percentage"
         },
         "simple_compliance": {
-            "title": "Graph 5. Level of compliance by administrative area"
+            "title": "Graph 5. Compliance rate by administrative area, as a percentage"
         }
     }
 }
@@ -105,7 +105,7 @@ function loadchart (chartid) {                                                  
                         false,                                                                         // show legend
                         0.2,                                                                           // group padding
                         'transparent',                                                                 // label background color
-                        '{y}%');                                                                       // label format
+                        undefined);                                                                       // label format
                 }
             });
         break;
@@ -136,7 +136,7 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'transparent',
-                        '{y}');
+                        undefined);
                 }
             });
         break;
@@ -173,7 +173,7 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'transparent',
-                        '{y}%');
+                        undefined);
                 }
             });
         break;
@@ -210,7 +210,7 @@ function loadchart (chartid) {                                                  
                         false,                                                                         // show legend
                         0.2,                                                                           // group padding
                         'transparent',                                                                 // label background color
-                        '{y}%');                                                                       // label format
+                        undefined);                                                                       // label format
                 }
             });
         break;
@@ -241,7 +241,7 @@ function loadchart (chartid) {                                                  
                         false,
                         0.2,
                         'transparent',
-                        '{y}%');
+                        undefined);
                 }
             });
         break;
@@ -263,12 +263,4 @@ document.addEventListener('DOMContentLoaded', function () {                 // c
         } 
     };
     
-    for (let d=0; d<document.getElementsByTagName("details").length; d++) {
-        let accessible_div = document.createElement("div");
-        accessible_div.setAttribute("class", "highcharts-description");
-        accessible_div.setAttribute("style", "display: none");
-        accessible_div.innerHTML = document.getElementsByTagName("details")[d].getElementsByTagName("p")[0].innerHTML;
-        let parentDiv = document.getElementsByTagName("details")[d].parentNode;
-        parentDiv.insertBefore(accessible_div, document.getElementsByTagName("details")[d]);
-    }
 });

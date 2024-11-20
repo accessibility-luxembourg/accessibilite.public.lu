@@ -1,5 +1,5 @@
 ---
-title: Audio description (time-based media)
+title: Synchronised audio description (time-based media)
 ---
 
 Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by a feature of the player itself or provided by the developer, for example with JavaScript.

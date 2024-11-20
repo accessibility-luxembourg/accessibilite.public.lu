@@ -60,11 +60,10 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
-        $('h5.disclosure.mapping + ul>li, .rawebCorr ul>li').each(function(i, elem) {
-            let text = $(this).text()
-            if (text.match(/^EN\s301\s549/)) {
+        $('h5.disclosure.mapping + ul>li, .rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
+            let text = $(this).html()
+            if (text.match(/^<p>EN\s301\s549/) || text.match(/^EN\s301\s549/)) { // matches one of the two patterns
                 const version = text.match(/V(\d\.\d\.\d)/)[1]
-                
                 text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
                     let link = ''
                     try {
@@ -72,6 +71,8 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     } catch(e) {
                         console.log(e, criterion, version)
                     }
+                    
+
                     return link
                 })
                 $(this).html(text)
@@ -96,11 +97,10 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         })
     } else {
         const $ = cheerio.load(data)
-        $('.rawebCorr ul>li').each(function(i, elem) {
-            let text = $(this).text()
-            if (text.match(/^EN\s301\s549/)) {
+        $('.rawebCorr ul>li, .rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
+            let text = $(this).html()
+            if (text.match(/^<p>EN\s301\s549/) || text.match(/^EN\s301\s549/)) { // matches one of the two patterns
                 const version = text.match(/V(\d\.\d\.\d)/)[1]
-
                 let p  =  $(this).find('p:last-child')
                 let content =  p.text()
                 

@@ -42,11 +42,11 @@
         <legend><%= __("Purpose(s) of the statement") %> <span class="symbol-required">*</span> (<%= __("fill in at least one of the following two fields") %>)</legend>
         <div class="form-group">
             <label for="sites"><%= __("URLs of sites to be declared") %> (<%= __("one per line") %>, <%- __("ex:") %> https://www.gouvernement.lu)</label>
-            <textarea id="sites" rows="5" class="form-control" name="sites" required></textarea>
+            <textarea id="sites" rows="5" class="form-control" name="sites"></textarea>
         </div>
         <div class="form-group">
             <label for="apps"><%= __("URLs of apps to be declared") %> (<%= __("one per line") %>, <%= __("App URLs on the Apple and Google stores") %>)</label>
-            <textarea id="apps" rows="5" class="form-control" name="apps" required></textarea>
+            <textarea id="apps" rows="5" class="form-control" name="apps"></textarea>
         </div>
     </fieldset>
 
@@ -59,7 +59,7 @@
             <input type="radio" id="partial" name="conformity" value="partial" checked class="form-check-input" aria-describedby="help-partial"><label for="partial" class="form-check-label"><%= __("Partial compliance") %></label>
         </div>
         <div class="form-check">
-            <input type="radio" id="none" name="conformity" value="none" class="form-check-input"><label for="none" class="form-check-label" aria-describedby="help-none"><%= __("Non-compliance") %></label>
+            <input type="radio" id="none" name="conformity" value="none" class="form-check-input" aria-describedby="help-none"><label for="none" class="form-check-label"><%= __("Non-compliance") %></label>
         </div>
         <p class="form-text text-muted"><small><%= __("The compliance status is assessed by a compliance audit.") %></small></p>
         <ul>
@@ -186,7 +186,7 @@
     <div id="hierarchie">
         <h4><%= __("Heading hierarchy for your declaration") %></h4> 
         <div class="form-group">
-            <input type="checkbox" name="main_title" id="main_title" > <label for="main_title"><%= __("Add a title to your statement") %></label>
+            <input type="checkbox" name="main_title" id="main_title" aria-describedby="help-main_title"> <label for="main_title"><%= __("Add a title to your statement") %></label>
             <p id="help-main_title" class="form-text text-muted">
             <small>
                 <%- __("Using this option, you can add a title at the beginning of your declaration (e.g. <code>&lt;h1&gt; Accessibility statement&lt;/h1&gt;</code>), for example if your CMS (content management system) does not manage this title itself.") %>
@@ -195,7 +195,7 @@
         </div>    
         <div class="form-group">
             <label for="title_level"><%= __("Initial heading level") %></label>
-            <select name="title_level" id="title_level">
+            <select name="title_level" id="title_level" aria-describedby="help-title_hierarchy">
                 <option value="1">h1</option>
                 <option value="2" selected="selected">h2</option>
                 <option value="3">h3</option>
@@ -224,9 +224,9 @@
 
     <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
-            <h3><%= __("Statement") + __("in") + e.name %></h3>
-            <button class="clipboard"><%= __("Copy to clipboard") %></button>
-            <button class="download"><%= __("Download HTML") %></button>
+            <h3 id="decla-<%= e.code %>-title"><%= __("Statement") + __("in") + e.name %></h3>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="clipboard"><%= __("Copy to clipboard") %></button>
+            <button aria-labelledby="decla-<%= e.code %>-title" class="download"><%= __("Download HTML") %></button>
             <section id="decla-<%= e.code %>-result" class="decla-result"></section>
         </div>    
     <% }) %>

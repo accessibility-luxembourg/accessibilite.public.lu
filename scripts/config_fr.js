@@ -17,7 +17,7 @@ const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raw
 
 const criteres412 = genNewRGAA.generateCriteria('./content/fr/rgaa4.1.2')
 const niveaux = require('../content/fr/rgaa4.1.2/niveaux.json')
-const data412 = {topics: criteres412.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (2018-08)"}
+const data412 = {topics: criteres412.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNormFromWCAG, shortList: [], message:'', autoTests: {}, levels: niveaux, normVersion: "EN 301 549 V2.1.2 (08-2018)"}
 const glossary412 = {glossary: genNewRGAA.generateGlossary('./content/fr/rgaa4.1.2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteres40 = JSON.parse(fs.readFileSync('./content/fr/rgaa4/criteres.json'))
