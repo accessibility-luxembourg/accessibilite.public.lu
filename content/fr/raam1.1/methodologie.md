@@ -303,7 +303,7 @@ D’autres utilitaires peuvent convenir, la présente liste n’est pas exhausti
 
 Si lors des évaluations, la taille de certains textes n’est pas évidente (par exemple, il n’est pas évident à l’évaluation à l’œil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d’obtenir cette mesure&nbsp;: 
 1. Déterminer la taille de l’écran du terminal de test&nbsp;:
-  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [https://mydevice.io](https://mydevice.io)&nbsp;;
+  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [https://www.mydevice.io](https://www.mydevice.io)&nbsp;;
   - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
 1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur (voir ci-dessus, c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
 1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 

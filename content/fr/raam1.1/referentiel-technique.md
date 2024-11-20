@@ -676,7 +676,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -717,9 +717,9 @@ Ce critère est soumis au [principe de non-interférence](methodologie.md#princi
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.1.2 No Keyboard Trap*{lang=en}.
 - APPT&nbsp;: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2){lang=en}.
 
-#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisée-média-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
+#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisée-média-temporel), les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
+**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
 - Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;;
 - Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel).
 
@@ -741,7 +741,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}.
 
-#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronisés-objet-multimédia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
+#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
 
 **[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres synchronisés, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
 - Les sous-titres sont présents&nbsp;;
@@ -793,9 +793,9 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.2.3 Preservation of audio description*{lang=en}.
 
-#### [Critère 3.17](#crit-3-17) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronisés-objet-multimédia) est-elle contrôlable par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-3-17"}
+#### [Critère 3.17](#crit-3-17) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronises-objet-multimedia) est-elle contrôlable par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-3-17"}
 
-**[Test 3.17.1](#test-3-17-1)&nbsp;:** Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronisés-objet-multimédia) respecte-t-elle une de ces conditions&nbsp;? {id="test-3-17-1"}
+**[Test 3.17.1](#test-3-17-1)&nbsp;:** Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronises-objet-multimedia) respecte-t-elle une de ces conditions&nbsp;? {id="test-3-17-1"}
 - Les paramètres système de présentation des sous-titres définis par l’utilisateur s’appliquent aux sous-titres.
 - Il existe une fonctionnalité dans l’écran qui permet à l’utilisateur de modifier les paramètres de présentation des sous-titres.
 
@@ -1383,7 +1383,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
 1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo;.
-1. Ouvrir le centre de contrôle et activer le [paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; (bouton « aA »)](methodologie.md#modifier-la-taille-de-police-sur-iOS) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
+1. Ouvrir le centre de contrôle et activer le [paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; (bouton « aA »)](methodologie.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1949,7 +1949,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2024,7 +2024,7 @@ Le critère est non applicable lorsque la limite de temps est essentielle, notam
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2164,7 +2164,7 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2194,7 +2194,7 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2458,7 +2458,7 @@ Le critère est non applicable pour&nbsp;:
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.1 Accessibility and compatibility features*{lang=en}.
 
-#### [Critère 12.2](#crit-12-2) [A] Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la [documentation](glossaire.md#documentation), le [mécanisme qui permet de l’activer](glossaire.md#mécanisme-qui-permet-dactiver-une-fonctionnalité-daccessibilité) répond aux besoins d’accessibilité des utilisateurs concernés. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-12-2"}
+#### [Critère 12.2](#crit-12-2) [A] Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la [documentation](glossaire.md#documentation), le [mécanisme qui permet de l’activer](glossaire.md#mecanisme-qui-permet-d-activer-une-fonctionnalite-d-accessibilite) répond aux besoins d’accessibilité des utilisateurs concernés. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-12-2"}
 
 ##### Cas particuliers
 
@@ -2511,7 +2511,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.6.2 No disruption of accessibility features*{lang=en}.
 
-#### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-12-4"}
+#### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-12-4"}
 
 - **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
 - **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
@@ -2534,11 +2534,11 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ### [Thématique 13](#topic-13)&nbsp;: Outils d’édition {id="topic-13"}
 
-#### [Critère 13.1](#crit-13-1) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-13-1"}
+#### [Critère 13.1](#crit-13-1) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-13-1"}
 
-- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html) &nbsp;?  {id="test-13-1-1"}
-- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) &nbsp;? {id="test-13-1-2"}
-- **[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-dédition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-daccessibilité) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-13-1-3"}
+- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html) &nbsp;?  {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) &nbsp;? {id="test-13-1-2"}
+- **[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;?  {id="test-13-1-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2564,7 +2564,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
-#### [Critère 13.2](#crit-13-2) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des [aides à la création de contenus conformes](glossaire.md#aide-a-la-creation-de-contenus-accessibles) aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-13-2"}
+#### [Critère 13.2](#crit-13-2) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des [aides à la création de contenus conformes](glossaire.md#aide-a-la-creation-de-contenus-accessibles) aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-13-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2583,7 +2583,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
-#### [Critère 13.3](#crit-13-3) [A] Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique) (hors cas particuliers)&nbsp;? {id="crit-13-3"}
+#### [Critère 13.3](#crit-13-3) [A] Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) (hors cas particuliers)&nbsp;? {id="crit-13-3"}
 
 ##### Cas particuliers
 
@@ -2636,7 +2636,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}.
 
-#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
+#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
 
 - **[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
 - **[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
@@ -2657,7 +2657,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
-#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique) est-il clairement identifiable&nbsp;? {id="crit-13-6"}
+#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) est-il clairement identifiable&nbsp;? {id="crit-13-6"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2713,7 +2713,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.2.3 Effective communication*{lang=en}.
 
-#### [Critère 14.3](#crit-14-3) [A] La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-dassistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#règles-daccessibilité-numérique)&nbsp;? {id="crit-14-3"}
+#### [Critère 14.3](#crit-14-3) [A] La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-14-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
