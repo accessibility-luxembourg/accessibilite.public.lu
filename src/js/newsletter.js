@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
         const btn = document.getElementById('submitbtn');
         const emailField   = document.getElementById('sip_email');
         const checkConsent = document.getElementById('sip_consent');
+        let emailInError = false;
     
 
         emailField.parentElement.classList.remove('error');
@@ -112,6 +113,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
             newelement.setAttribute("id", emailField.id + "Error");
             emailField.parentNode.appendChild(newelement);
             newelement.innerHTML = getMessage('email', validationMessages);
+            emailInError = true;
+            emailField.focus();
         }
         
         if (checkConsent.validity.valueMissing) {
@@ -123,6 +126,9 @@ document.addEventListener('DOMContentLoaded', function(e) {
             newelement.setAttribute("id", checkConsent.id + "Error");
             checkConsent.parentNode.appendChild(newelement);
             newelement.innerHTML = getMessage('checkbox', validationMessages);
+            if (!emailInError) {
+                checkConsent.focus();
+            }
         }
 
         if (emailField.reportValidity() && checkConsent.reportValidity()) {

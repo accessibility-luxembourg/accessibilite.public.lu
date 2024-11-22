@@ -149,9 +149,24 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let newSkipLink = "Passer à la description du graphique";
     if (document.querySelector('html').getAttribute('lang') === "en") {newSkipLink = "Skip to the chart description";}
+
     const chart = highcharts.chart(ch_dest, {
         chart: {
-            type: ch_type
+            type: ch_type,
+            events: {
+                render() {
+                    // HOTFIX for the jump when navigating with the keyboard on charts with a legend
+                    // the problem appears when the page is already scrolled and the page loads, then the top css attribute gets a wrong value
+                    // examples of articles with a chart containing a legend:
+                    // /fr/news/2023-02-24-complaints2022.html
+                    // /fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles
+                    setTimeout(() => {
+                        document.querySelectorAll('.highcharts-a11y-proxy-button').forEach((button) => {
+                            button.style.top = 0;
+                        });
+                    }, 250);
+                }
+            }
         },
         accessibility: {
             point: {
