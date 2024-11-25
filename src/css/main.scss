@@ -266,51 +266,6 @@ blockquote {
   @include blockquote();
 }
 
-// button "back to top"
-.back {
-    background: #fff;
-    position: fixed;
-    bottom: 0;
-    right: 2rem;
-    z-index: 1;
-    height: 48px;
-    width: 48px;
-    -webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out;
-    transition: background 200ms ease-in-out,color 200ms ease-in-out;
-}
-.back span {
-    clip: rect(1px,1px,1px,1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute !important;
-    width: 1px;
-}
-.back svg {
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-
-}
-.back:hover, .back:focus {
-    background: $primary-color;
-    color: #fff;
-}
-
-.is-hidden {
-    display: none;
-}
-
-.icon {
-
-    width: 24px;
-    height: 24px;
-    fill: currentColor;
-}
-
 /* govbar */
 .govbar {
   background: #FFF;
