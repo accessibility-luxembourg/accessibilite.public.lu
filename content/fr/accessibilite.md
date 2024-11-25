@@ -3,7 +3,7 @@
 L'organisme déclarant <span class="basic-information organization-name">"Service information et presse"</span> s'engage à rendre son site internet
 accessible, conformément à la <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019</a> relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public.    
 La présente déclaration sur l'accessibilité s'applique à :
-<span class="basic-information website-name"><a href="https://accessibilite.public.lu/">https://accessibilite.public.lu/</a></span></p>
+<span class="basic-information website-name"><a href="https://accessibilite.public.lu/">accessibilite.public.lu</a></span></p>
 <h2>Qu’est-ce que l’accessibilité numérique ?</h2>
 <p>Chacun doit pouvoir utiliser et consulter facilement les informations figurant sur un site web ou une application notamment les personnes présentant un handicap et/ou utilisant des logiciels d’assistance ou du matériel spécialisé (ex : handicaps visuels, auditifs, physiques, cognitifs, etc.).
 </p>

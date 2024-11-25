@@ -1,7 +1,7 @@
 <div class="decla-access">
 <p>
 The body making the statement <span class="basic-information organization-name">"Information and Press Service"</span> is committed to making its website accessible, in accordance with the <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo" hreflang="fr">law of 28 May 2019</a> on the accessibility of websites and mobile applications of public sector bodies.    
-This accessibility statement applies to: <span class="basic-information website-name"><a href="https://accessibilite.public.lu">https://accessibilite.public.lu</a></span></p>		
+This accessibility statement applies to: <span class="basic-information website-name"><a href="https://accessibilite.public.lu">accessibilite.public.lu</a></span></p>		
 <h2>What is digital accessibility?</h2>
 <p>Everyone should be able to easily use and consult the information on a website or an app, in particular people with disabilities and/or using assistive software or specialised equipment (blind, partially sighted or otherwise disabled people).</p>
 <h2>Compliance status</h2>
