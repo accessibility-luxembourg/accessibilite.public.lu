@@ -3,50 +3,49 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<hgroup>
-	<h1>L’accessibilité au cœur du service <span lang="en">Web&UX</span> du CTIE</h1>
-	<p>Nicolas Ambroise, expert accessibilité numérique au Centre des technologies de l’information de l’État (CTIE), lève le voile sur la manière dont se vit l’accessibilité numérique au quotidien dans le service <span lang="en">Web&UX</span>.</p>
+<hgroup> 
+    <h1>Accessibility at the heart of the CTIE Web&amp;UX service</h1> 
+    <p>Nicolas Ambroise, digital accessibility expert at the State Information Technology Center (CTIE), lifts the veil on how digital accessibility is experienced on a daily basis in the Web&amp;UX service.</p>
 </hgroup>
 <hr>
-<div class="intro">
-    <p>Comment le service <span lang="en">Web&UX</span> accompagne-t-il ses clients pour veiller à une meilleure accessibilité&#8239;? Quels sont en la matière les défis majeurs à venir&#8239;? <span lang="en">UX</span> et accessibilité font-ils bon ménage&#8239;? Nicolas Ambroise s'est prêté au jeu des questions - réponses.</p>
+<div class="intro"> 
+    <p>How does the Web&amp;UX department support its clients to ensure better accessibility? What are the major challenges ahead? Do UX and accessibility go well together? Nicolas Ambroise took part in the Q&amp;A game.</p>
 </div>
-<figure role="group" aria-label="Nicolas Ambroise. Photo: Dominique Nauroy" class="pic">
-    <img src="../../../../content/fr/news/img/2024-10-ambroise.jpg" alt="Une photo de Nicolas Ambroise dans les locaux du Service Information et Presse">
-    <figcaption>Nicolas Ambroise. Photo&#8239;: Dominique Nauroy</figcaption>
+<figure role="group" aria-label="Nicolas Ambroise. Photo: Dominique Nauroy" class="pic"> 
+    <img src="../../../../content/fr/news/img/2024-10-ambroise.jpg" alt="A photo of Nicolas Ambroise in the offices of the Information and Press Service"> 
+    <figcaption>Nicolas Ambroise. Photo: Dominique Nauroy</figcaption>
 </figure>
-
-<h2>Qu’est-ce qui t’a mené à t’intéresser à l’accessibilité&#8239;?</h2>
-<p>J’ai débuté ma carrière au Luxembourg en 2011 après un cursus d'étude en école d'ingénieur à Nancy.</p>
-<p>Après dix ans dans le développement mobile et web, j’ai rejoint le CTIE. Depuis deux ans, je suis le référent en accessibilité numérique pour le service Web&UX (User experience ou expérience utilisateur, ndlr) du CTIE. Ma principale mission est de conseiller les équipes afin d'améliorer l'accessibilité des sites web et des applications développés par l'État.</p>
-<p>Contrairement à la majorité des personnes qui s’engagent dans cette voie, ce n’est pas la présence de personnes handicapées dans mon entourage qui m’a poussé dans ce domaine. Perfectionniste, je souhaite améliorer la qualité des sites web et applications via des bonnes pratiques&#8239;: pas seulement en termes d'accessibilité, mais également en termes de référencement, de sécurité, d'optimisation des performances, de normalisation, etc.</p>
-<p>L’aspect accessibilité est ce qui me permet le plus de rendre service aux utilisateurs car ce qui est bénéfique pour les personnes en situation de handicap est bénéfique à tous.</p>
-<h2>Concrètement, que fait ce service <span lang="en">Web&UX</span>&#8239;?</h2>
-<p>Il est constitué d'une vingtaine de personnes aux profils variés (chef de projet, <span lang="en">designer UX & UI</span>, intégrateur <span lang="en">front</span>, développeur <span lang="en">back</span>, expert accessibilité). Il s'occupe de la création technique et graphique des sites web étatique ainsi que de leur maintenance. Le portefeuille contient plus de 250 sites (portails thématiques *.public.lu hors MyGuichet.lu, sites des ministères et administrations *.gouvernement.lu, sites d’ambassades *.mae.lu). Les contenus sont élaborés par les clients eux-mêmes.</p>
-<h2>Au CTIE et au-delà, quels alliés t’épaulent pour porter la cause de l’accessibilité numérique&#8239;?</h2>
-<p>Dans l’ensemble, les équipes du CTIE sont sensibilisées et parviennent de plus en plus à anticiper et ainsi éviter des problèmes simples ou récurrents.</p>
-<p>Le CTIE mène ses propres audits d’accessibilité, ce qui permet d’avoir une appréciation objective de notre propre travail. Les conclusions et conseils nous aident à améliorer constamment les sites web.</p>
-<p>Le service information et presse (SIP) est l’organisme de contrôle de l’accessibilité des sites. Il travaille sur les référentiels d’accessibilité utilisés au Luxembourg comme le RAWeb.</p>
-<p>L’INAP nous aide pour mettre à disposition des formations afin de sensibiliser les rédacteurs à cette thématique. Il faut être conscient que l’accessibilité d’un site ne se traduit pas uniquement par du code HTML accessible mais également par des contenus (textes, médias, etc.)  accessibles.</p>
-<p>Citons enfin l’Office de la surveillance de l’accessibilité des produits et services (OSAPS), créé récemment. Il doit guider et, le cas échéant, sanctionner les entreprises dans leur processus d’amélioration de l’accessibilité. C’est un acteur qui contribue à sensibiliser sur les questions d’accessibilité au Luxembourg, mais il n’est pas lié directement à notre activité.</p>
-<h2>Comment se passe le travail au quotidien avec les développeurs&#8239;?</h2>
-<p>Mon objectif est de conseiller et de détecter les problèmes d'accessibilité le plus tôt possible dans le processus de création ou de refonte des sites. Par exemple, il est possible de détecter un problème de contraste dès l’étape de réalisation de la maquette.</p>
-<p>Après chaque création ou refonte de site, un audit est effectué afin de vérifier l'accessibilité. À la suite de l’audit, une phase de réflexion avec les développeurs permet de choisir la meilleure solution pour corriger les problèmes remontés.</p>
-<h2>L’accessibilité des sites et apps tend-elle à s’améliorer&#8239;?</h2>
-<p>Depuis la <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">loi du 28 mai 2019 relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public</a>, le sujet a bien gagné en visibilité. Les équipes du CTIE sont de plus en plus réceptives, sensibilisées et les questions qui me sont posées gagnent en pertinence.</p>
-<p>Les audits d'accessibilité remontent des taux de conformité en constante progression. Ces résultats, <a href="https://accessibilite.public.lu/fr/news/2024-01-22-rapport2023.html">publiés annuellement par le SIP</a>, encouragent les autres partenaires à suivre cette croissance.</p>
-<h2>Comment le CTIE accompagne-t-il ses clients, en particulier les rédacteurs, pour veiller à ce que les nouveaux contenus soient accessibles&#8239;?</h2>
-<p>Le service <span lang="en">Web&UX</span> met à disposition des clients une plateforme d’édition de contenus (Content management system, CMS) qui leur permet d'atteindre un taux de conformité au RAWeb 1 très élevé. Cependant, il faut former les rédacteurs qui saisissent du contenu afin d’être vigilant pour ne pas faire baisser ce taux.</p>
-<p>Nous donnons des formations et accompagnons les rédacteurs sur les thématiques d'accessibilité. Nous travaillons actuellement à la réalisation de tutoriels vidéo à destination des rédacteurs afin de les sensibiliser davantage aux problèmes les plus souvent observé lors des audits d'accessibilité sur le contenu (présence d’alternative sur les images, changement de langue dans le texte, structure des tableaux et des listes, etc.)</p>
-<h2><span lang="en">UX</span> et accessibilité font-ils bon ménage&#8239;?</h2>
-<p>Les deux thématiques sont très liées et une analyse de site fait remonter régulièrement des observations communes. La frontière est assez poreuse et pour le moment il n'y a pas encore eu de conflit important.</p>
-<p>Nous avons eu par exemple une discussion sur la notion de <span lang="en">mobile first</span>. Côté <span lang="en">UX</span>, le souhait était de proposer un minimum d’informations en mode mobile et davantage de détails en vue <span lang="en">desktop</span>. Côté accessibilité, demeurait la nécessité d’avoir la même information en <span lang="en">desktop</span> qu'en mode mobile ou zoom. Cela a débouché sur des compromis comme le placement de certains contenus dans des éléments accordéon, etc.</p>
-<p>Les graphistes qui travaillent sur nos projets sont tous sensibilisés et formés sur les problématiques d’accessibilité (p.ex. les contrastes).  Lorsque le client arrive avec une maquette qui a été réalisée en amont sans notre conseil, cela entraîne souvent plusieurs aller-retours pour l’adapter.</p>
-<h2>Le CTIE est en train de mettre sur pied un <span lang="en">design system</span>, quel en sera l’impact sur l’accessibilité&#8239;?</h2>
-<p>Ce <span lang="en">design system</span>, actuellement en phase d’ébauche, aura pour but de délivrer au citoyen une expérience utilisateur qualitative et cohérente à travers les services en ligne de l’État. Il sera avant tout à destination du CTIE et des prestataires sous contrat avec l’État.</p>
-<p>Le <span lang="en">design system</span> permettra également de fluidifier la collaboration entre les équipes et de gagner en efficacité et en vélocité sur le développement de projets digitaux, grâce à une base de référence commune. Celui-ci contiendra les principes ergonomiques, graphiques et d’accessibilité applicables aux projets numériques de l’État.</p>
-<p>Contrairement à la majorité des <span lang="en">design systems</span>, nous sommes partis sur une normalisation des composants sans charte graphique et sans <span lang="en">framework</span>. Cela permettra au <span lang="en">design system</span> de convenir à une majorité de projet digitaux et d’être facilement réutilisé.</p>
-<h2>Quels sont pour toi les défis majeurs à venir&#8239;?</h2>
-<p>Nous travaillons à l’amélioration de la détection des principales erreurs d'accessibilité lors de la rédaction de contenu et de la configuration des sites. Une extension de navigateur et un <span lang="en">bookmarklet</span> sont en développement. L’idéal serait d’intégrer ce module directement dans le CMS afin que les erreurs soient remontées lors de la saisie par le rédacteur, avant même la publication en ligne du contenu.</p>
-<p>Toujours dans cette veine, il reste essentiel de guider les utilisateurs pour améliorer l’accessibilité de leurs contenus bureautique (PDF) et de leurs vidéos.</p>
-<p>Un dernier mot&#8239;: être conforme à 100% à un référentiel ne suffit pas à l’inclusion de l’ensemble des utilisateurs. Il est important de garder de l’humain et de récupérer des <span lang="en">feedbacks</span> pour l’ensemble de nos processus.</p>
+<h2>What led you to become interested in accessibility?</h2>
+<p>I started my career in Luxembourg in 2011 after studying at an engineering school in Nancy.</p>
+<p>After ten years in mobile and web development, I joined the CTIE. For the past two years, I have been the digital accessibility referent for the CTIE's Web&amp;UX (User experience) department. My main mission is to advise teams in order to improve the accessibility of websites and applications developed by the State.</p>
+<p>Unlike most people who embark on this path, it was not the presence of disabled people in my entourage that pushed me into this field. A perfectionist, I want to improve the quality of websites and applications through best practices: not only in terms of accessibility, but also in terms of SEO, security, performance optimization, standardization, etc.</p>
+<p>The accessibility aspect is what allows me to be of the greatest service to users because what is beneficial for people with disabilities is beneficial to everyone.</p>
+<h2>Concretely, what does this Web&amp;UX service do?</h2>
+<p>It is made up of around twenty people with varied profiles (project manager, UX &amp; UI designer, front-end developer, back-end developer, accessibility expert). It is responsible for the technical and graphic creation of state websites as well as their maintenance. The portfolio contains more than 250 sites (thematic portals *.public.lu excluding MyGuichet.lu, sites of ministries and administrations *.gouvernement.lu, embassy sites *.mae.lu). The content is developed by the clients themselves.</p>
+<h2>At CTIE and beyond, which allies support you in carrying forward the cause of digital accessibility?</h2>
+<p>Overall, the CTIE teams are aware and are increasingly able to anticipate and thus avoid simple or recurring problems.</p>
+<p>CTIE conducts its own accessibility audits, which allows us to have an objective assessment of our own work. The findings and advice help us to constantly improve the websites.</p>
+<p>The information and press service (SIP) is the body responsible for monitoring the accessibility of sites. It works on the accessibility standards used in Luxembourg, such as RAWeb.</p>
+<p>INAP helps us to provide training to raise awareness among editors on this topic. We must be aware that the accessibility of a site does not only mean accessible HTML code but also accessible content (texts, media, etc.).</p>
+<p>Finally, let us mention the Office for Monitoring the Accessibility of Products and Services (OSAPS), which was recently created. It must guide and, where appropriate, sanction companies in their process of improving accessibility. It is an actor who contributes to raising awareness of accessibility issues in Luxembourg, but it is not directly linked to our activity.</p>
+<h2>How does the day-to-day work with developers go?</h2>
+<p>My goal is to advise and detect accessibility issues as early as possible in the process of creating or redesigning sites. For example, it is possible to detect a contrast problem as early as the mockup stage.</p>
+<p>After each creation or redesign of a site, an audit is carried out to check accessibility. Following the audit, a reflection phase with the developers allows the best solution to be chosen to correct the problems reported.</p>
+<h2>Is the accessibility of sites and apps tending to improve?</h2>
+<p>Since the <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">law of May 28, 2019 relating to the accessibility of websites and mobile applications of public sector organizations</a>, the subject has gained visibility. The CTIE teams are increasingly receptive, aware and the questions I am asked are becoming more relevant.</p>
+<p>Accessibility audits report constantly increasing compliance rates. These results, <a href="https://accessibilite.public.lu/fr/news/2024-01-22-rapport2023.html">published annually by the SIP</a>, encourage other partners to follow this growth.</p>
+<h2>How does CTIE support its clients, particularly editors, to ensure that new content is accessible?</h2>
+<p>The Web&amp;UX service provides customers with a content editing platform (Content management system, CMS) that allows them to achieve a very high RAWeb 1 compliance rate. However, editors who enter content must be trained to be vigilant so as not to lower this rate.</p>
+<p>We provide training and support to editors on accessibility issues. We are currently working on creating video tutorials for editors to raise their awareness of the issues most often observed during accessibility audits on content (presence of alternatives on images, change of language in the text, structure of tables and lists, etc.)</p>
+<h2>Do UX and accessibility go well together?</h2>
+<p>The two themes are closely linked and a site analysis regularly brings up common observations. The border is quite porous and for the moment there has not yet been any major conflict.</p>
+<p>For example, we had a discussion about the notion of mobile first. On the UX side, the desire was to offer a minimum of information in mobile mode and more details in desktop view. On the accessibility side, the need remained to have the same information on desktop as in mobile or zoom mode. This led to compromises such as placing certain content in accordion elements, etc.</p>
+<p>The graphic designers who work on our projects are all aware of and trained in accessibility issues (e.g. contrasts). When the client arrives with a model that was created in advance without our advice, this often results in several round trips to adapt it.</p>
+<h2>The CTIE is currently setting up a design system, what impact will this have on accessibility?</h2>
+<p>This design system, currently in the draft phase, will aim to provide citizens with a qualitative and consistent user experience through the State's online services. It will be primarily intended for the CTIE and service providers under contract with the State.</p>
+<p>The design system will also make it possible to streamline collaboration between teams and to gain efficiency and speed in the development of digital projects, thanks to a common reference base. This will contain the ergonomic, graphic and accessibility principles applicable to the State's digital projects.</p>
+<p>Unlike most design systems, we have gone for a standardization of components without a graphic charter and without a framework. This will allow the design system to be suitable for a majority of digital projects and to be easily reused.</p>
+<h2>What do you see as the major challenges ahead?</h2>
+<p>We are working on improving the detection of major accessibility errors when writing content and configuring sites. A browser extension and a bookmarklet are in development. The ideal would be to integrate this module directly into the CMS so that errors are reported when the editor enters, even before the content is published online.</p>
+<p>In this vein, it remains essential to guide users to improve the accessibility of their office content (PDF) and their videos.</p>
+<p>A final word: being 100% compliant with a standard is not enough to include all users. It is important to keep the human element and collect feedback for all our processes.</p>
