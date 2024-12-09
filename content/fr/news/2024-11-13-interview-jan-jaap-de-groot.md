@@ -3,52 +3,38 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<div lang="en">
-<hgroup>
-	<h1><q>Native apps will become more popular</q></h1>
-	<p>Jan Jaap de Groot was in Luxembourg last week. We met this recognized Dutch expert in mobile app accessibility.</p>
+ <hgroup> <h1><q>Les applications natives deviendront plus populaires</q></h1> 
+ <p>Jan Jaap de Groot était de passage au Luxembourg la semaine dernière. Nous avons rencontré cet expert néerlandais reconnu en matière d'accessibilité des applications mobiles.</p>
 </hgroup>
 <hr>
-<div class="intro">
-    <p>Chairman of the Appt Foundation, which shares a great knowledge base on app accessibility and offers a dedicated handbook, co-founder of Abra, where he develops accessible mobile apps and offers his services as a consultant, invited expert at the W3C and facilitator of the Mobile Accessibility Task Force, Jan Jaap de Groot was invited to speak on the subject at the GovTech Lab.</p>
+<div class="intro"> 
+    <p>Président de la Fondation Appt, qui partage une grande base de connaissances sur l'accessibilité des applications et propose un manuel dédié, co-fondateur d'Abra, où il développe des applications mobiles accessibles et propose ses services en tant que consultant, expert invité au W3C et facilitateur de la <span lang="en">Mobile Accessibility Task Force</span>, Jan Jaap de Groot a été invité à s'exprimer sur le sujet au GovTech Lab.</p>
 </div>
-<figure role="group" aria-label="Jan Jaap de Groot. Photo: Dominique Nauroy" class="pic">
-    <img src="../../../../content/fr/news/img/2024-11-jjdegroot.jpg" alt="Photo of Jan Jaap de Groot at the Information and Press Service, in November 2024">
-    <figcaption>Jan Jaap de Groot. Photo&#8239;: Dominique Nauroy</figcaption>
+<figure role="group" aria-label="Jan Jaap de Groot. Photo : Dominique Nauroy" class="pic"> <img src="../../../../content/fr/news/img/2024-11-jjdegroot.jpg" alt="Photo de Jan Jaap de Groot au Service d'information et de presse, en novembre 2024"> <figcaption>Jan Jaap de Groot. Photo : Dominique Nauroy</figcaption>
 </figure>
-
-<h2>When, and why, did you become interested in digital accessibility?</h2>
-<p>For me, it started during my third year at the university, in a class called Advanced Mobile Development. As soon as Android and iOS came out, I was interested in building apps. Around ten years ago, the Accessibility Foundation in the Netherlands had the idea to develop an accessible app for blind people. They were the first target audience, before releasing the app to everyone. The idea was to offer a city trip and, at some dedicated locations, thanks to the GPS you had an audio description of the place. At that time, I didn’t know it was possible for blind people to use a smartphone. It was my first project for people with disabilities.</p>
-
-<h2>You are a member of the Mobile Accessibility Task Force at the W3C: what is its current goal?</h2>
-<p>It’s difficult just to stick to the European standard EN 301 549 when you’re auditing mobile apps. This is the reason why we [at the Appt Foundation] have written our own methodology, trying to explain step by step how you can apply success criteria to mobile apps. A lot of people are using this methodology, however some of them think it’s the truth whereas, for some points, we just give our opinion. </p>
-<p>It’s difficult to write guidelines, especially if you want them to be used not only in your company or in your country but also elsewhere. So, at some point, you have to collaborate. This eventually led to my participation, two and a half years ago, in the Mobile Accessibility Task Force (MATF), part of the W3C. I was appointed in January as the new lead of this MATF. Ten to twenty mobile accessibility experts are actively contributing and we expect to publish new guidance in December – it will be a first draft, but still it will be an event since not much has been published over the last ten years. The goal would be to create guidance that could be used worldwide, in order to fully apply WCAG to apps.</p>
-
-<h2>What is your view on app accessibility? Does it tend to improve over time?</h2>
-<p>I think so. This is what we see when we look at the national dashboard where the Dutch government tracks accessibility statements. You can have five statuses, from A to E. Anyway, it’s quite hard to get status A, many stay stuck in status B. This is particularly true for apps: you can have restrictions depending on your framework, especially if you develop cross-platform apps. I believe that native apps will become more popular because then you have full control and there is no limitation due to third party frameworks.</p>
-
-<h2>What are the most common issues you encounter?</h2>
-<p>Issues related to the WCAG criterion named “4.1.2 Name, Role, Value”. A lot of apps don’t have accessible names for interactive components. You can have a pin code screen where the ten buttons (1, 2, 3…) are just rendered by screen readers as “button”, “button”, “button” and so on. You must guess which button is which number. This is the feedback we get from audits and from our hotline.</p>
-
-<h2>Is developing apps for portrait and landscape mode really that complicated?</h2>
-<p>Landscape mode is clearly one of the most common issues. But users never complain about this. Landscape mode is much more difficult to support for a developer, especially if you design it after you have already released the app. For instance on Android, when you switch to landscape mode, the app “recreates” itself, so you have to add some logic. Example: the user is entering data, then they rotate. If the developer didn’t add support for caching the input, then it’s gone. It’s not that hard if you do it from the start.</p>
-
-<h2>You offer a software solution to analyze the accessibility of an Android or iOS app from macOS: how many criteria of the European standard can be automatically analyzed?</h2>
-<p>You can test around 20% of the criteria, but those criteria cover maybe around 50% of the issues. In the near future, with AI you can maybe push it a little bit further. Example: AI could visually determine if the screen contains a header, where it is precisely, and then check if this header is properly coded. It would otherwise be difficult to do it programmatically.</p>
-
-<h2>Do you notice a difference between public sector apps and apps from private companies?</h2>
-<p>It really depends: if the public app is built by a third-party commercial company, usually it is worse than if it is an in-house app built by the government: those are usually a lot better than commercial apps.</p>
-
-<h2>Do you plan to continue investing your time in app accessibility?</h2>
-<p>I really enjoy it. At the beginning I was not finding like-minded people. Very few people are exclusively focusing on building accessible mobile apps. And this is what I like with the MATF: the daily job of these people is to work on the accessibility of mobile apps. We also share knowledge in a Slack group: this is something that was missing.</p>
-
-<aside class="more">
-    <h2>On the same subject</h2>
-    <ul>
-        <li><a href="https://appt.org/en">Appt knowledge base</a></li>
-        <li><a href="https://appt.li/slack">Appt Slack group</a></li>
-        <li><a href="https://www.w3.org/WAI/about/groups/task-forces/matf/">Mobile Accessibility Task Force</a></li>
-        <li><a href="https://abra.ai/">Abra software</a></li>
+<h2>Quand et pourquoi vous êtes-vous intéressé à l’accessibilité numérique&nbsp;?</h2>
+<p>Pour moi, ça a commencé en troisième année à l'université, dans un cours qui s'appelait <span lang="en">Advanced Mobile Development</span>. Dès la sortie d'Android et d'iOS, je me suis intéressé à la création d'applications. Il y a une dizaine d'années, la Fondation pour l'accessibilité aux Pays-Bas a eu l'idée de développer une application accessible aux personnes aveugles. C'était le premier public cible, avant de lancer l'application à tout le monde. L'idée était de proposer un <span lang="en">city trip</span> et, à certains endroits dédiés, grâce au GPS, on avait une description audio du lieu. À cette époque, je ne savais pas qu'il était possible pour les personnes aveugles d'utiliser un <span lang="en">smartphone</span>. C'était mon premier projet pour les personnes handicapées.</p>
+<h2>Vous êtes membre de la <span lang="en">Mobile Accessibility Task Force</span> du W3C&nbsp;: quel est son objectif actuel&nbsp;?</h2>
+<p>Il est difficile de s'en tenir à la norme européenne EN 301 549 lorsqu'on audite des applications mobiles. C'est la raison pour laquelle nous [à la Fondation Appt] avons rédigé notre propre méthodologie, en essayant d'expliquer étape par étape comment appliquer les critères de réussite aux applications mobiles. Beaucoup de gens utilisent cette méthodologie, mais certains pensent que c'est la vérité alors que, sur certains points, nous donnons simplement notre avis.</p>
+<p>Il est difficile de rédiger des directives, surtout si vous souhaitez qu'elles soient utilisées non seulement dans votre entreprise ou dans votre pays, mais aussi ailleurs. Il faut donc, à un moment donné, collaborer. Cela m'a finalement conduit à participer, il y a deux ans et demi, à la <span lang="en">Mobile Accessibility Task Force</span> (MATF), qui fait partie du W3C. J'ai été nommé en janvier à la tête de cette MATF. Dix à vingt experts en accessibilité mobile y contribuent activement et nous prévoyons de publier de nouvelles directives en décembre. Ce sera une première ébauche, mais ce sera tout de même un événement, car peu de choses ont été publiées au cours des dix dernières années. L'objectif serait de créer des directives qui pourraient être utilisées dans le monde entier, afin d'appliquer pleinement les WCAG aux applications.</p>
+<h2>Quel est votre point de vue sur l’accessibilité des applications&nbsp;? A-t-elle tendance à s’améliorer au fil du temps&nbsp;?</h2>
+<p>Je pense que oui. C'est ce que nous voyons lorsque nous examinons le tableau de bord national où le gouvernement néerlandais suit les déclarations d'accessibilité. Vous pouvez avoir cinq statuts, de A à E. De toute façon, il est assez difficile d'obtenir le statut A, beaucoup restent bloqués dans le statut B. C'est particulièrement vrai pour les applications&nbsp;: vous pouvez avoir des restrictions en fonction de votre framework, surtout si vous développez des applications multiplateformes. Je pense que les applications natives deviendront plus populaires car vous aurez alors un contrôle total et il n'y aura aucune limitation due à des frameworks tiers.</p>
+<h2>Quels sont les problèmes les plus courants que vous rencontrez&nbsp;?</h2>
+<p>Problèmes liés au critère WCAG intitulé « 4.1.2 Nom, rôle, valeur ». De nombreuses applications n'ont pas de noms accessibles pour les composants interactifs. Vous pouvez avoir un écran de code PIN où les dix boutons (1, 2, 3…) sont simplement rendus par les lecteurs d'écran sous la forme « bouton », « bouton », « bouton », etc. Vous devez deviner quel bouton correspond à quel numéro. C'est le retour que nous recevons des audits et de notre hotline.</p>
+<h2>Développer des applications pour les modes portrait et paysage est-il vraiment si compliqué&nbsp;?</h2>
+<p>Le mode paysage est clairement l'un des problèmes les plus courants. Mais les utilisateurs ne s'en plaignent jamais. Le mode paysage est beaucoup plus difficile à prendre en charge pour un développeur, surtout si vous le concevez après avoir déjà publié l'application. Par exemple, sur Android, lorsque vous passez en mode paysage, l'application se « recrée », vous devez donc ajouter une certaine logique. Par exemple, l'utilisateur saisit des données, puis il les fait pivoter. Si le développeur n'a pas ajouté la prise en charge de la mise en cache des données saisies, alors elles disparaîssent. Ce n'est pas si difficile si vous le prenez en compte dès le début.</p>
+<h2>Vous proposez une solution logicielle permettant d'analyser l'accessibilité d'une application Android ou iOS depuis macOS&nbsp;: combien de critères de la norme européenne peuvent être analysés automatiquement&nbsp;?</h2>
+<p>Vous pouvez tester environ 20 % des critères, mais ces critères couvrent peut-être environ 50 % des problèmes. Dans un avenir proche, avec l'IA, vous pourrez peut-être aller un peu plus loin. L'IA pourrait déterminer visuellement si l'écran contient un titre, où il se trouve précisément, puis vérifier si ce titre est correctement codé. Il serait autrement difficile de le faire par programmation.</p>
+<h2>Remarquez-vous une différence entre les applications du secteur public et les applications des entreprises privées&nbsp;?</h2>
+<p>Cela dépend vraiment&nbsp;: si l'application du secteur public est créée par une société commerciale tierce, elle est généralement pire que s'il s'agit d'une application interne créée par le gouvernement&nbsp;: celles-ci sont généralement bien meilleures que les applications commerciales.</p>
+<h2>Prévoyez-vous de continuer à investir votre temps dans l’accessibilité des applications&nbsp;?</h2>
+<p>J'aime beaucoup cela. Au début, je ne trouvais pas de personnes partageant les mêmes idées. Très peu de personnes se consacrent exclusivement à la création d'applications mobiles accessibles. Et c'est ce que j'aime avec la MATF&nbsp;: le travail quotidien de ces personnes consiste à travailler sur l'accessibilité des applications mobiles. Nous partageons également nos connaissances dans un groupe Slack, c'est quelque chose qui manquait.</p>
+<aside class="more"> 
+    <h2>Sur le même sujet</h2> 
+    <ul> 
+        <li><a href="https://appt.org/en">Base de connaissances Appt</a></li> 
+        <li><a href="https://appt.li/slack">Groupe Slack Appt</a></li> 
+        <li><a href="https://www.w3.org/WAI/about/groups/task-forces/matf/">Groupe de travail sur l'accessibilité mobile</a></li>
+        <li><a href="https://abra.ai/">Logiciel Abra</a></li> 
     </ul>
 </aside>
-</div>

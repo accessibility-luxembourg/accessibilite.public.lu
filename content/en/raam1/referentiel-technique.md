@@ -780,10 +780,10 @@ The criterion does not apply to embedded subtitles (*open captions*).
 
 1. Identify pre-recorded time-based media with captions on the screen.
 1. Modify the subtitle presentation settings from the platform: 
-	- Go to Settings &gt; Accessibility &gt; Preference for captions &gt; Style and size of captions;
-	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity.
+	- Go to Settings &gt; Accessibility &gt; Caption preferences &gt; Caption size and style;
+	- Define one or more of the following parameters: text size, colour, caption border style, background colour or background opacity.
 1. Check that the platform settings are applied to the captions.
-1. If this is not the case, check the media for a function that allows you to modify the subtitle presentation parameters.
+1. If this is not the case, check the media for a function that allows you to modify the captions presentation parameters.
 1. Check that the parameters defined above are applied to the captions.
 1. If this is the case, the criterion is validated.
 
@@ -1231,13 +1231,13 @@ This criterion only checks elements that should not be interactive (text element
 ###### Android
 
 1. Activate the **screen reader**.
-1. Use the playback controls menu and select "Titles".
-1. Scroll through the titles by sliding your finger up or down.
+1. Use the playback controls menu and select "Headings".
+1. Scroll through the headings by sliding your finger up or down.
 1. Check that 
-	- each text structure on the screen is reached in this way and is rendered as a title; 
-	- that each title is relevant, i.e. 
-		- the title is useful for structuring the screen;
-		- that the text contained in the title makes it possible to understand the content of the section thus titled.
+	- each text structure on the screen is reached in this way and is rendered as a heading; 
+	- that each heading is relevant, i.e. 
+		- the heading is useful for structuring the screen;
+		- that the text contained in the heading makes it possible to understand the content of the section thus titled.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1783,7 +1783,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 	- for a field requesting the user's e-mail address, the keyboard shown has the @ character without the user having to perform any keyboard operations (such as displaying the secondary keyboard);
 	- for a field asking the user to enter a telephone number, the numeric keypad is presented directly to the user;
 	- and so on.
-1. Check that the form is compatible with an autofill mechanism. For example, Google provides an auto-fill system on Android. Go to Settings &gt; System &gt; Languages and input &gt; Advanced settings &gt; Auto-complete service (depending on the version of the platform, the path may be different) to activate and set the parameters.
+1. Check that the form is compatible with an autofill mechanism. For example, Google provides an auto-fill system on Android. Go to Settings &gt; System &gt; Languages and input &gt; Advanced settings &gt; Autofill service (depending on the version of the platform, the path may be different) to activate and set the parameters.
 1. On the application form, check that the system offers you an option to fill in the data automatically.
 1. If it does, the criterion is validated.
 
@@ -1855,7 +1855,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 ###### Android
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
-1. Navigate through all the elements on the screen using the keys on the keyboard (the keys or combination of keys that will have been associated in Switch Access for the "Go to next option" and "Go to previous option" parameters).
+1. Navigate through all the elements on the screen using the keys on the keyboard (the keys or combination of keys that will have been associated in Switch Access for the "Next" and "Previous" parameters).
 1. Check that
 	 - from the current position, the next or previous focusable element can be reached using the keyboard navigation key;
 	 - the element currently in focus offers a method that can be used with the keyboard (for example, a keyboard shortcut) to reach the next or previous element.
@@ -2110,8 +2110,8 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 ###### Android
 
-1. Open the **Quick configuration** panel.
-1. Check that "Automatic rotation" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=en)).
+1. Open the **Quick settings** panel.
+1. Check that "Auto-rotate" is enabled ([see official documentation](https://support.google.com/android/answer/9083864?hl=en)).
 1. Display the application and toggle the device between landscape and portrait mode.
 1. Check that 
 	- the application can be used in both orientations, i.e. that the elements of the application are repositioned so that they can be read;

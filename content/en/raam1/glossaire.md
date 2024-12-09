@@ -456,7 +456,7 @@ Platforms offer users several replacement mechanisms. The activation of these re
 
 There are no replacement mechanisms in Android that are equivalent to those in iOS, or that are sufficiently robust.
 
-The replacement mechanism available on Android ("**High-contrast text**") is still experimental. Its use is not currently recommended.
+The replacement mechanism available on Android ("**High contrast text**") is still experimental. Its use is not currently recommended.
 
 ##### Other replacement mechanisms not provided by the platforms
 

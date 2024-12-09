@@ -12,7 +12,7 @@ We would also refer you to the documentation provided by language publishers and
 - [Android Accessibility Help](https://support.google.com/accessibility/android): description of the assistive technologies and accessibility features available on Android systems.
 - [Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing): presentation of tools and methods for evaluating the accessibility of Android applications.
 - [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps): general development principles for complying with certain accessibility rules.
-- [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility): a set of resources for designing and developing accessible Android applications.
+- [Build accessible apps](https://developer.android.com/guide/topics/ui/accessibility): a set of resources for designing and developing accessible Android applications.
 
 #### iOS
 - [iOS Accessibility](https://www.apple.com/accessibility/): description of assistive technologies and accessibility features available on iOS systems.
@@ -38,10 +38,10 @@ VoiceOver is the screen reader integrated into iOS.
 ###### Documentation 
 
 To get started with VoiceOver, we refer you to the official documentation, which explains the first steps for activating and using gestures.
-- [Activate VoiceOver and practise using gestures on the iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios).
-- [Modifying VoiceOver settings on the iPhone](https://support.apple.com/en-ca/guide/iphone/iphfa3d32c50/ios)
-- [Learn VoiceOver gestures on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e2281/ios): this page explains the gestures available for navigating interfaces with VoiceOver.
-- [Controlling VoiceOver using the rotor on the iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e3a6d/ios): the rotor is a central element in VoiceOver navigation. It lets you select a type of element (link, button, header, etc.) as the target for quick navigation (drag up/down). It is important to know that it exists and how to use it. See also [the list of parameters that can be found in the rotor](https://support.apple.com/en-ca/HT204783).
+- [Turn on and practice VoiceOver on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios).
+- [Change your VoiceOver settings on iPhone](https://support.apple.com/en-ca/guide/iphone/iphfa3d32c50/ios)
+- [Use VoiceOver gestures on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e2281/ios): this page explains the gestures available for navigating interfaces with VoiceOver.
+- [Control VoiceOver using the rotor on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e3a6d/ios): the rotor is a central element in VoiceOver navigation. It lets you select a type of element (link, button, header, etc.) as the target for quick navigation (drag up/down). It is important to know that it exists and how to use it. See also [the list of parameters that can be found in the rotor](https://support.apple.com/en-ca/HT204783).
 
 ###### Voice output display
 
@@ -49,15 +49,15 @@ It is useful to be able to view the voice output. In iOS you can activate the ca
 
 ##### TalkBack on Android
 
-TalkBack is Android's built-in screen reader. To take advantage of more options, you may need to install a third-party application (developed by Android): [Android Accessibility Tools](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;gl=US).
+TalkBack is Android's built-in screen reader. To take advantage of more options, you may need to install a third-party application (developed by Android): [Android Accessibility Suite](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;gl=US).
 
 ###### Documentation 
 
 To get started with TalkBack, we refer you to the official documentation, which details the first steps for activating and using gestures.
-- [Activate or deactivate TalkBack](https://support.google.com/accessibility/android/answer/6007100?ref_topic=10601570).
-- [TalkBack settings](https://support.google.com/accessibility/android/answer/6006589?ref_topic=10601570).
-- [Using TalkBack gestures](https://support.google.com/accessibility/android/answer/6151827?ref_topic=10601570).
-- [Using the TalkBack menu and playback control](https://support.google.com/accessibility/android/answer/6007066): playback control (or playback controls) is a feature similar to VoiceOver's rotor, allowing you to select types of item (links, buttons, headings, etc.) for quick navigation (drag up/down).
+- [Turn on TalkBack](https://support.google.com/accessibility/android/answer/6007100?ref_topic=10601570).
+- [Learn about TalkBack settings](https://support.google.com/accessibility/android/answer/6006589?ref_topic=10601570).
+- [Use TalkBack gestures](https://support.google.com/accessibility/android/answer/6151827?ref_topic=10601570).
+- [Use the TalkBack menu & reading controls](https://support.google.com/accessibility/android/answer/6007066): playback control (or playback controls) is a feature similar to VoiceOver's rotor, allowing you to select types of item (links, buttons, headings, etc.) for quick navigation (drag up/down).
 
 ###### Voice output display
 
@@ -85,13 +85,13 @@ iOS allows you to specify a focus style for users using an external device (*Set
 
 Using an external keyboard with Android requires a few additional settings to be effective. In order for the interfaces and functions to be fully accessible from the keyboard, you need to use the [Switch Access](https://support.google.com/accessibility/android/answer/6122836) application with an external keyboard. 
 
-A configuration guide allows you to configure your external keyboard step by step by defining switches. It is available in *Preferences &gt; Accessibility &gt; Switch Access &gt; Settings &gt; Open configuration guide*. You will associate two actions: 
-- *Move to the next option*: press the key on the keyboard you wish to associate (we recommend <kbd>Tab</kbd> to retain the keys used when browsing on a computer).
+A configuration guide allows you to configure your external keyboard step by step by defining switches. It is available in *Settings &gt; Accessibility &gt; Switch Access &gt; Settings &gt; Open setup guide*. You will associate two actions: 
+- *Next*: press the key on the keyboard you wish to associate (we recommend <kbd>Tab</kbd> to retain the keys used when browsing on a computer).
 - *Select*: press the key on the keyboard you wish to associate (we recommend <kbd>Enter</kbd> to retain the keys used when navigating on a computer).
 
 Once you have completed the first configuration stage (using the configuration guide), you will need to set up other navigation keys: 
-- *Switch Access* *&gt; Settings &gt; Assign search switches*: Associate the *Go to previous option* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
-- *Switch Access* *&gt; Parameters &gt; Assign switches to actions*: Associate the *Back* parameter with a key or key combination (we recommend <kbd>ESC</kbd>)
+- *Switch Access* *&gt; Settings &gt; Assign switches for scanning*: Associate the *Previous* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
+- *Switch Access* *&gt; Settings &gt; Assign switches to global actions*: Associate the *Back* parameter with a key or key combination (we recommend <kbd>ESC</kbd>)
 
 #### Test applications
 
@@ -105,7 +105,7 @@ The **[Accessibility Inspector](https://developer.apple.com/library/archive/docu
 
 To carry out certain tests on Android applications, third-party applications are required or can help you with the evaluation.
 
-- [**Android Accessibility Tools**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&gl=US): Android application for adding options and gestures to the Talkback screen reader.
+- [**Android Accessibility Suite**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&gl=US): Android application for adding options and gestures to the Talkback screen reader.
 - [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;gl=US) Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*{lang="en"}.
 
 ##### iOS and Android
