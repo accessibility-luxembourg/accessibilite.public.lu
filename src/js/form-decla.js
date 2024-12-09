@@ -175,14 +175,14 @@ document.addEventListener('DOMContentLoaded', function(e) {
             document.getElementById('form').style['display'] = 'none'
             document.getElementById('result').style['display'] = 'block'
             document.title = errorMsg[pgLang].pgTitle
-            document.querySelector('#contenu>h2').innerHTML = errorMsg[pgLang].mainTitle
-            document.querySelector('#contenu>h2').focus()
+            document.querySelector('#contenu>h1').innerHTML = errorMsg[pgLang].mainTitle
+            document.querySelector('#contenu>h1').focus()
         } else {
             document.getElementById('form').style['display'] = 'block'
             document.getElementById('result').style['display'] = 'none'
             document.title = errorMsg[pgLang].altPgTitle
-            document.querySelector('#contenu>h2').innerHTML = errorMsg[pgLang].altMainTitle
-            document.querySelector('#contenu>h2').focus()
+            document.querySelector('#contenu>h1').innerHTML = errorMsg[pgLang].altMainTitle
+            document.querySelector('#contenu>h1').focus()
         }
         // scroll back to top of the page
         document.body.scrollTop = 0; // For Safari
