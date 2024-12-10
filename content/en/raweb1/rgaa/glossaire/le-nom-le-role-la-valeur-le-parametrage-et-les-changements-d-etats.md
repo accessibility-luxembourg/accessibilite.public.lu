@@ -6,7 +6,7 @@ A component must have an appropriate role and name. Its values, states and any p
 
 A component can be based on an interactive HTML element or on a non-interactive element overloaded by WAI-ARIA via an ad hoc role. Important: buttons (`<button>` or `<input type="button">` tags) when controlled via JavaScript must be evaluated with {% crit 7.1 %}.
 
-The name can be the label of the component (the accessible name of a button, for example).
+The name is the accessible name of the component (the accessible name of a button, for example).
 
 The value is, for example, the selected item in a drop-down list or the current value of a cursor (`slider`).
 

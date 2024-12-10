@@ -994,7 +994,7 @@ Criterion 5.1 in its entirety cannot be assessed with voice control, but one voi
 Voice control will enable us to detect the components that can be used by touch but are not interactive components detectable by assistive technologies, the presence of a label and its relevance, and the presence of the visible label in the accessible label.
 
 1. Activate voice control: Settings &gt; Accessibility &gt; Voice control.
-1. Display the labels of interactive components: from the voice control settings screen, go to the "Overlay" button and activate it, then choose "Element names".
+1. Display the accessible names of interactive components: from the voice control settings screen, go to the "Overlay" button and activate it, then choose "Element names".
 1. From now on, when voice control is activated, grey tooltips will appear above interactive elements that have labels. Note that if the screen has a very large number of interactive controls, the labels will be displayed in successive groups (one group of labels disappears and another appears).
 
 What you need to know: only elements with interactive roles recognised by the Accessibility API will have a label. This will allow you to quickly identify which elements that can be used by touch are not recognised by the voice control and are therefore not interactive elements (which constitutes non-compliance).
