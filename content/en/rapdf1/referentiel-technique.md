@@ -1,6 +1,6 @@
 ### Introduction {class="no-summary"}
 
-This framework is designed to check that PDF documents produced by word processors have basic accessibility. The aim is to enable people with disabilities to access and understand content and to use navigation functions.
+This framework is designed to check that PDF documents produced by office suites have basic accessibility. The aim is to enable people with disabilities to access and understand content and to use navigation functions.
 It does not take into account certain types of complex content or structures specific to the PDF format. These can only be edited using Acrobat Pro or similar software.
 
 These types of content include
@@ -26,7 +26,7 @@ The same applies when the PDF document is produced using specialised software, i
 
 The following types of content will be considered non-compliant, as they may not be used satisfactorily by all people with disabilities:
 - multimedia, video or audio content
-- sudden changes in brightness or flashing effects (multimedia content or animated graphic elements).
+- sudden changes in brightness or blinking effects (multimedia content or animated graphic elements).
 
 Their presence renders the whole document non compliant with accessibility and requires the provision of an alternative version of the document in which all the information conveyed by this content is present in text form.
 
@@ -47,7 +47,7 @@ Only the content of the criteria and tests has normative value.
 #### [Criterion 1.1](#crit-1-1) [A] Is each [decorative image](glossaire.md#decoration) correctly ignored by assistive technologies? {id="crit-1-1"}
 - **[Test 1.1.1](#test-1-1-1)** Does each [decorative image](glossaire.md#decoration) meet one of these conditions {id="test-1-1-1"}
     - The image has no alternative.
-    - The image is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
+    - The image is [absent from rendering](glossaire.md#absent-from-rendering-decorative-image).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -176,8 +176,8 @@ Only the content of the criteria and tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 1.7](#crit-1-7) [AA] Each [text image](glossaire.md#text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
-- **[Test 1.7.1](#test-1-7-1)** Each [text image](glossaire.md##text-image-or-text-as-image) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
+#### [Criterion 1.7](#crit-1-7) [AA] Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of an [alternative text version](glossaire.md#alternative-text-version), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
+- **[Test 1.7.1](#test-1-7-1)** Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
 
 ##### Special cases 
 In these situations, the criterion does not apply:
@@ -250,12 +250,12 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and the Color Contrast Analyser tool
+###### With Acrobat Reader and the Colour Contrast Analyser tool
 
 1. Open the PDF file.
-2. Using the Color Contrast Analyser tool, check that
-    - the default body text and image text of equivalent size has a contrast ratio with the background colour of 4.5:1, at least;
-    - the text and image text in a significantly enlarged size have a contrast ratio with the background colour of at least 3:1.
+2. Using the Colour Contrast Analyser tool, check that
+    - the default body text and image of text of equivalent size has a contrast ratio with the background colour of 4.5:1, at least;
+    - the text and image of text in a significantly enlarged size have a contrast ratio with the background colour of at least 3:1.
 3. If this is not the case, check that there is a way of obtaining a version of the document with sufficient contrast.
 4. If this is the case, the criterion is validated.
 
@@ -285,11 +285,11 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and the Color Contrast Analyser tool
+###### With Acrobat Reader and the Colour Contrast Analyser tool
 
 1. Open the PDF file.
 3. Identify the graphic elements that carry information.
-4. Using the Color Contrast Analyser tool, check that
+4. Using the Colour Contrast Analyser tool, check that
     - the contrast ratio between each of the information-conveying colours and its adjacent colour(s) is at least 3:1;
     - the contrast ratio between each of the information-conveying colours and the background colour is at least 3:1;
     - the contrast ratio between each state of the same graphic element is at least 3:1;
@@ -369,8 +369,8 @@ In these situations, the criterion does not apply:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
-#### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still comprehensible? {id="crit-3-4"}
-- **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still comprehensible? {id="test-3-4-1"}
+#### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="crit-3-4"}
+- **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="test-3-4-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -411,10 +411,10 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 4.1](#crit-4-1) [A] Is each [link](glossaire.md#link) explicit? {id="crit-4-1"}
 - **[Test 4.1.1](#test-4-1-1)** Does each [link](glossaire.md#link) meet one of these conditions? {id="test-4-1-1"}
-    - The [link title](glossaire.md#link-title) alone is self-explanatory;
+    - The [accessible name of a link](glossaire.md#accessible-name-of-a-link) alone is self-explanatory;
     - The [link context](glossaire.md#link-context) makes the link explicit.
 
-- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossaire.md#identical-links) have the same function and destination? {id="test-4-1-2"}
+- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossaire.md#identical-title-of-a-link) have the same function and destination? {id="test-4-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -423,7 +423,7 @@ In these situations, the criterion does not apply:
 1. Open the PDF file with PAC.
 2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
 3. Locate the links in the original document.
-4. Check in PAC that the link has a self-explanatory heading:
+4. Check in PAC that the link has a self-explanatory accessible name:
     - text content of the LINK element;
     - text content of the ALT element of the image (FIGURE element) contained in the link;
     - or a combination of the two.
@@ -445,9 +445,9 @@ In these situations, the criterion does not apply:
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
 
-#### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have a title? {id="crit-4-2"}
-- **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have a heading? {id="test-4-2-1"}
-- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossaire.md#link) using a complex shape have a heading? {id="test-4-2-2"}
+#### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have an accessible name? {id="crit-4-2"}
+- **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have an accessible name? {id="test-4-2-1"}
+- **[Test 4.2.2](#test-4-2-2)** Does each [link](glossaire.md#link) using a complex shape have an accessible name? {id="test-4-2-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -471,10 +471,10 @@ In these situations, the criterion does not apply:
 
 ### [Topic 5](#topic-5): Information structure {id="topic-5"}
 
-#### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of titles? {id="crit-5-1"}
-- **[Test 5.1.1](#test-5-1-1)** Does each title use a [title style](glossaire.md#title-style)? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** Where [title styles](glossaire.md#title-style) allow, is the [titling hierarchy](glossaire.md#title-hierarchy) consistent? {id="test-5-1-2"}
-- **[Test 5.1.3](#test-5-1-3)** Is each title relevant? {id="test-5-1-3"}
+#### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of headings? {id="crit-5-1"}
+- **[Test 5.1.1](#test-5-1-1)** Does each heading use a [heading style](glossaire.md#heading-style)? {id="test-5-1-1"}
+- **[Test 5.1.2](#test-5-1-2)** Where [heading styles](glossaire.md#heading-style) allow, is the [headings hierarchy](glossaire.md#headings-hierarchy) consistent? {id="test-5-1-2"}
+- **[Test 5.1.3](#test-5-1-3)** Is each heading relevant? {id="test-5-1-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -482,19 +482,19 @@ In these situations, the criterion does not apply:
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the text passages that should be titles in the original document.
+3. Locate the text passages that should be headings in the original document.
 4. Check in PAC that the title is presented using an Hx element where x is the title level, for example H1.
 5. If this is the case, the test is validated.
 
 ###### Test 5.1.2 with Acrobat Reader
 
-1. Open the PDF file and consult the table of contents or display the list of titles ("bookmark" icon in the left-hand side panel).
-2. Check that the tree structure is consistent (the proposed tree structure represents the levels of titles).
+1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
+2. Check that the tree structure is consistent (the proposed tree structure represents the levels of headings).
 3. If this is the case, the test is validated.
 
 ###### Test 5.1.3 with Acrobat Reader
 
-1. Open the PDF file and consult the table of contents or display the list of titles ("bookmark" icon in the left-hand side panel).
+1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
 2. Check that each title provides a satisfactory description of the content to which it relates.
 3. If so, the test is validated.
 
@@ -558,9 +558,9 @@ In these situations, the criterion does not apply:
 
 ### [Topic 6](#topic-6): Presentation of information {id="topic-6"}
 
-#### [Criterion 6.1](#crit-6-1) [A] Is the [playback order](glossaire.md#playback-order) of the content consistent? {id="crit-6-1"}
-- **[Test 6.1.1](#test-6-1-1)** Is the [playback order](glossaire.md#playback-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [tab order](glossaire.md#tab-order) of the content consistent? {id="test-6-1-2"}
+#### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
+- **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -582,7 +582,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ###### Test 6.1.2 with Acrobat Reader
 1. Open the PDF file.
 2. Use the tab key to scroll through the items that can be tabbed.
-3. Check that the tab order is consistent: the tab items are presented in a logical and consistent order.
+3. Check that the navigation sequence is consistent: the tab items are presented in a logical and consistent order.
 4. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -597,7 +597,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*, *10.2.1.1 Keyboard*, *10.2.4.3 Focus order*.
 
 #### [Criterion 6.2](#crit-6-2) [A] Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="crit-6-2"}
-- **[Test 6.2.1](#test-6-2-1)** For each change to the type or style of a character that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
+- **[Test 6.2.1](#test-6-2-1)** For each change to the character type or style that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
 - **[Test 6.2.2](#test-6-2-2)** For each visual indication conveyed by positioning or the presence of a special character conveying information, the information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-2"}
 
 
@@ -630,11 +630,11 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and the *Color Contrast Analyser* tool
+###### With Acrobat Reader and the *Colour Contrast Analyser* tool
 
 1. Open the PDF file.
 2. Identify links inserted in blocks of text (paragraphs, titles, lists, etc.) and indicated only by colour.
-3. Using the Color Contrast Analyser tool, check that the contrast ratio between the font colour of the link and the font colour of the surrounding text is greater than or equal to 3:1.
+3. Using the Colour Contrast Analyser tool, check that the contrast ratio between the font colour of the link and the font colour of the surrounding text is greater than or equal to 3:1.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -651,7 +651,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ##### Special cases 
 In these situations, the criterion is not applicable:
 - The document consists of just a few pages.
-- The content is not intended to be structured by a tree of titles.
+- The content is not intended to be structured by a headings structure.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -722,7 +722,7 @@ In this case, the criterion is not applicable.
 #### [Criterion 9.1](#crit-9-1) [A] Is each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape correctly ignored by assistive technologies? {id="crit-9-1"}
 - **[Test 9.1.1](#test-9-1-1)** Does each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape satisfy one of these conditions?{id="test-9-1-1"}
     - The complex shape has no alternative.
-    - The complex shape is [absent from playback](glossaire.md#absent-from-playback-decorative-image).
+    - The complex shape is [absent from rendering](glossaire.md#absent-from-rendering-decorative-image).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -883,16 +883,16 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
 
-#### [Criterion 9.9](#crit-9-8) [A] Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
-- **[Test 9.9.1](#test-9-9-1)** Each [flashing or moving content](glossaire.md#flashing-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="test-9-9-1"}
+#### [Criterion 9.9](#crit-9-8) [A] Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
+- **[Test 9.9.1](#test-9-9-1)** Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="test-9-9-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### With Acrobat Reader
 
 1. Open the PDF file.
-3. Look for flashing or moving content.
-4. Check that the duration of the flashing or movement is less than or equal to 5 seconds.
+3. Look for blinking or moving content.
+4. Check that the duration of the blinking or movement is less than or equal to 5 seconds.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -953,7 +953,7 @@ However, a test by a person with a disability using his or her own assistive tec
 ###### With Acrobat Reader and NVDA
 
 1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that the name rendered vocally
+2. With NVDA, use the tab key to activate each field and check that the name is rendered vocally
     - indicates the exact function of the associated field;
     - and contains at least the visible label.
 3. If this is the case, the criterion is validated.
@@ -1008,8 +1008,8 @@ However, a test by a person with a disability using his or her own assistive tec
 
 #### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
 - **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
-    - The mandatory character is visible and explicit.
-    - The mandatory character is accessible to assistive technologies.
+    - The required nature is visible and explicit.
+    - The required nature is accessible to assistive technologies.
 
 ##### Special cases 
 In these situations, the criterion is not applicable:
@@ -1094,8 +1094,8 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*.
 
-#### [Criterion 10.8](#crit-10-8) [AA] Is the [input control](glossaire.md#input-control) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
-- **[Test 10.8.1](#test-10-8-1)** Does the [input control](glossaire.md#input-control) meet these conditions? {id="test-10-8-1"}
+#### [Criterion 10.8](#crit-10-8) [AA] Is the [error management](glossaire.md#error-management) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
+- **[Test 10.8.1](#test-10-8-1)** Does the [error management](glossaire.md#error-management) meet these conditions? {id="test-10-8-1"}
     - The input check is accompanied, if necessary, by suggestions for the expected data types and formats.
     - The input check is accompanied, if necessary, by suggestions for expected values.
 
@@ -1147,7 +1147,7 @@ In these situations, the criterion is not applicable:
 #### [Criterion 10.10](#crit-10-10) [A] Is the title of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions? {id="test-10-10-1"}
     - The title of the button accessible to assistive technologies is relevant.
-    - The visible title of the button is contained in the title accessible to assistive technologies.
+    - The visible text of the button is contained in the title accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

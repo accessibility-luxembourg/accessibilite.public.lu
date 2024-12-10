@@ -18,6 +18,6 @@ and R sRGB, G sRGB and B sRGB are defined by
 
 The "^" character is the power operator.
 
-Note: the contrast measurement concerns text, image text, text and image text in animations, subtitle text and embedded text in videos. For text and image text in animations, subtitle text and inlay text in videos, the font size should be measured in relation to the default display size (as displayed). Text present in the elements of an image or video (e.g. a sign, poster, etc.) is not affected.
+Note: the contrast measurement concerns text, image of text, text and image of text in animations, subtitle text and embedded text in videos. For text and image of text in animations, subtitle text and inlay text in videos, the font size should be measured in relation to the default display size (as displayed). Text present in the elements of an image or video (e.g. a sign, poster, etc.) is not affected.
 
 Source: [WCAG contrast calculation procedure](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).

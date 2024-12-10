@@ -14,7 +14,7 @@ title: Text alternative (image)
 
 In the case of a graphic element, the "accessible name" is obtained in the following order:
 
-- Passage of associated text via the WAI-ARIA `aria-labelledby` attribute for the tags:
+- Passage of text associated via the WAI-ARIA `aria-labelledby` attribute for the tags:
   - `<img>`;
   - `<input type="image"> `;
   - `<svg> `;

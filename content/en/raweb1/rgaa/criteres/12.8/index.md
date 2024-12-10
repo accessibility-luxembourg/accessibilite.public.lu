@@ -1,3 +1,3 @@
 ---
-title: On each web page, is the [tab order](#tab-order) [consistent](#understandable-reading-order)?
+title: On each web page, is the [navigation sequence](#navigation-sequence) [consistent](#understandable-reading-order)?
 ---

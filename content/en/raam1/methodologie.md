@@ -110,7 +110,7 @@ To carry out certain tests on Android applications, third-party applications are
 
 ##### iOS and Android
 
-- [Color Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/): tool for evaluating contrasts from the computer, available on Mac and Windows.
+- [Colour Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/): tool for evaluating contrasts from the computer, available on Mac and Windows.
 
 #### Broadcast the screen of the mobile device
 

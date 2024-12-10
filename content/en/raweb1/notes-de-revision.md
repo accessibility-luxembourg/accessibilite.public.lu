@@ -29,7 +29,7 @@ The glossary entries corresponding to these new criteria have been added:
 - [Real-time text communication](glossaire.html#real-time-text-communication)
 - [Documentation](glossaire.html#documentation)
 - [Accessibility feature](glossaire.html#accessibility-feature)
-- [Main features (of a time-based media)](glossaire.html#main-features-of-a-time-based-media)
+- [Main features (of a time-based media player)](glossaire.html#main-features-of-a-time-based-media-player)
 - [Voice-based services](glossaire.html#voice-based-services)
 - [Template](glossaire.html#template)
 - [Timestamp](glossaire.html#time-stamp)
