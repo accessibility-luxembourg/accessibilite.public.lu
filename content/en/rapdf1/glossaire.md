@@ -115,8 +115,8 @@ By using specific paragraph styles, the reader software can associate each headi
 
 ### I
 
-#### Identical title of a link
-Links whose titles, combined with the link context (previous title, sentence) are identical.
+#### Identical accessible names of links
+Links whose accessible names, combined with the link context (previous heading, sentence) are identical.
 
 For example
 - In the following two sentences, the two "click here" links are not identical, because they have a different context: "To consult our catalogue: click here" and "To contact us: click here". 
@@ -195,17 +195,17 @@ In the office environment, the contexts that can be used are
 
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
 
-#### Link whose title is not obvious
+#### Link whose nature is not obvious
 
-Link whose title makes it impossible to understand its title, which may lead visually impaired people to ignore it.
+Link whose accessible name makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
 
-Example of a link whose title is obvious: "The general conditions of use of our services have been updated, click to view them online"
+Example of a link whose nature is obvious: "The general conditions of use of our services have been updated, click to view them online"
 
-If the text "Click to view them online" is a link, its title is obvious.
+If the text "Click to view them online" is a link, its nature is obvious.
 
-Example of a link whose title is not obvious: "The Web Content Accessibility Guidelines (WCAG) 2.1 define how to make web content more accessible to people with disabilities"
+Example of a link whose nature is not obvious: "The Web Content Accessibility Guidelines (WCAG) 2.1 define how to make web content more accessible to people with disabilities"
 
-Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, its title is not sufficient to understand its title.
+Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, its accessible name is not sufficient to understand its nature.
 
 **Important note**: only links inserted in blocks of text are concerned.
 
