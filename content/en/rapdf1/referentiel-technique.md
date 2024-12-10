@@ -1125,8 +1125,8 @@ In these situations, the criterion is not applicable:
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
 
 
-#### [Criterion 10.9](#crit-10-9) [A] Does each form button have a title? {id="crit-10-9"}
-- **[Test 10.9.1](#test-10-9-1)** Does each form button have a title? {id="test-10-9-1"}
+#### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
+- **[Test 10.9.1](#test-10-9-1)** Does each form button have a label? {id="test-10-9-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1134,7 +1134,7 @@ In these situations, the criterion is not applicable:
 
 1. Open the PDF file and activate NVDA.
 2. With NVDA, use the tab key to activate each button.
-3. Check that a title is rendered vocally.
+3. Check that a label is rendered vocally.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1144,10 +1144,10 @@ In these situations, the criterion is not applicable:
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
 - EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
 
-#### [Criterion 10.10](#crit-10-10) [A] Is the title of each form button relevant? {id="crit-10-10"}
+#### [Criterion 10.10](#crit-10-10) [A] Is the label of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions? {id="test-10-10-1"}
-    - The title of the button accessible to assistive technologies is relevant.
-    - The visible text of the button is contained in the title accessible to assistive technologies.
+    - The label of the button accessible to assistive technologies is relevant.
+    - The visible text of the button is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

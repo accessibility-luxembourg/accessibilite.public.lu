@@ -1576,10 +1576,10 @@ When the additional content does not mask or replace any information-bearing con
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
 
-#### [Criterion 9.5](#crit-9-5) [A] In each form, is the title of each button relevant? {id="crit-9-5"}
+#### [Criterion 9.5](#crit-9-5) [A] In each form, is the label of each button relevant? {id="crit-9-5"}
 
 **[Test 9.5.1](#test-9-5-1)** Does each form button meet these conditions? {id="test-9-5-1"}
-- The title of the button accessible to assistive technologies is relevant;
+- The label of the button accessible to assistive technologies is relevant;
 - The visible text of the button is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}

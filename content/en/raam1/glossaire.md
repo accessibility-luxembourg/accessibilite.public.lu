@@ -30,7 +30,7 @@ Pointing devices in a mobile environment can be, but are not limited to:
 - voice control.
 
 A user interface component (link, button, form field, etc.) can be accessed by any pointing device when the user 
-- sets the focus on the component, regardless of the device;
+- can set the focus on the component, regardless of the device;
 - can initiate the action provided for by the user interface component by means of a manipulation specific to the device (a certain key on the keyboard, a gesture on the screen, for example);
 
 **Warning:** for certain user interface components such as potentiometers (slider, rotary knob), several interactions are possible and therefore several manipulations specific to the device may be required to interact with the component. On the keyboard, for example for potentiometers, the direction arrows (right, left, up and down) are used to interact with and modify the component. 
