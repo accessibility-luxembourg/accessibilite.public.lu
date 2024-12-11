@@ -4,10 +4,17 @@
 
 The image is declared as "decorative" (for example in Microsoft Office) or "artefact" (Acrobat Pro), so that it is not part of the content made available for rendering.
 
+#### Accessible name (of a link)
+
+The accessible name of a link may consist of
+- the link text for text links;
+- the image alternative for image links;
+- a combination of the link text and the image alternative for composite links.
+
 #### Adjacent colours
 Colour directly in contact with the colours of the graphic element, such as the background colour or any other colour in direct contact.
 
-Example: in a "do not enter" traffic sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
+Example: in a "no entry" traffic sign, the red of the sign is the colour adjacent to the white line in the centre of the sign.
 
 It is important to understand that [criterion 2.3](referentiel-technique.md#crit-2-3) on the contrast of graphic elements only evaluates non-text elements. When it comes to assessing the contrast of text, even if it is present in a graphic element, [criterion 2.2](referentiel-technique.md#crit-2-2) applies.
 
@@ -19,10 +26,10 @@ On the other hand, if a legend gives the values and all the useful information f
 
 #### Activation time
 
-Activation time for flashing or moving content: time during which the flashing or movement is active.
+Activation time for blinking or moving content: time during which the blinking or movement is active.
 
 #### Alternative text version
-Text identical to the content of a text image. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the text image is replaced by text.
+Text identical to the content of an image of text. The alternative version can be made available by means of an anchor adjacent to the image or a link enabling an alternative version of the document to be consulted in which the images of text are replaced by text.
 
 ### C
 
@@ -46,7 +53,7 @@ Form field labels present in the same document and requiring the same informatio
 A complex image or form that contains at least one piece of information essential to understanding the content with which it is associated.
 
 #### Cryptic content
-This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. slt for 'hello') is also considered to be cryptic content.
+This refers to content written using hijacked characters. For example, emoticons or figures written with characters are considered to be cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (*leetspeak*) or that divert characters from their usual uses, such as the use of capitals, numbers or special characters in the body of a word. Finally, the use of unconventional abbreviations (e.g. acty for 'accessibility') is also considered to be cryptic content.
 
 Here are a few examples:
 - emoticon: :), ^^, O_o;
@@ -73,19 +80,19 @@ Sometimes a graphic element is presented in different states. For example, a sta
 #### Document title
 Metadata used to give a title to the document, generally entered in the document properties.
 
-**Note**: the first content title or the cover title is not the document title.
+**Note**: the first content heading or the cover title is not the document title.
 
 ### E
 
 #### Enlarged text size
-Text and image text at enlarged size is greater than or equal to 150% or 120% bold compared to the default size.
+Text and image of text at enlarged size is greater than or equal to 150% or 120% bold compared to the default size.
 
 #### Explicit reference (to an image caption or complex shape)
 Explicit indication (e.g. "See caption below") or common term (e.g. "Image: [alternative]" and "Image: [caption]") between the alternative and the caption that makes it clear that the caption is associated with the image.
 
 ### F
 
-#### Flashing or moving content
+#### Blinking or moving content
 This is generally content produced using animated images (e.g. GIF format).
 
 #### Form field
@@ -101,14 +108,23 @@ Interactive object allowing the user to enter data. Form input fields cover a wi
 #### Header (table)
 Cell used as a heading for a column, a row, part of a column, part of a row or groups of rows or columns (merged header).
 
+#### Heading style
+In office content, headings must be declared using a heading style.
+For example, office suites provide a library of styles reserved for headings.
+By using specific paragraph styles, the reader software can associate each heading with an ad hoc tagged format.
+
 ### I
 
-#### Identical links
-Links whose titles, combined with the link context (previous title, sentence) are identical.
+#### Identical accessible names of links
+Links whose accessible names, combined with the link context (previous heading, sentence) are identical.
 
 For example
 - In the following two sentences, the two "click here" links are not identical, because they have a different context: "To consult our catalogue: click here" and "To contact us: click here". 
 - In the following sentence, the two "on this page" links are identical, because the context does not allow them to be differentiated: "You can contact us on this page or on this page"
+
+#### Image of text
+
+Image displaying text.
 
 #### Indication conveyed only by shape, size or location
 Any essential indication that is conveyed only by a change in the shape or size of text content or by the position of an element in a text.
@@ -132,12 +148,22 @@ The alternative content used depends on the nature of the content concerned. For
 
 Note: in the case of the use of an image associated with text, the image must have a relevant alternative (criteria [1.1](referentiel-technique.md#crit-1-1) and [1.2](referentiel-technique.md#crit-1-2)).
 
-#### Input control
+#### Error management
 
 All the processes that warn the user:
 - mandatory fields,
 - expected type or format indications,
 - input errors in a form.
+
+### H
+
+#### Headings hierarchy
+In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
+
+The headings hierarchy is coherent when
+- All text passages intended to be a title use a title style.
+- The first heading in the content is level 1.
+- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
 
 ### L
 
@@ -157,11 +183,11 @@ The order in which the content of a presentation table is displayed when the con
 #### Link
 A link can take three different forms:
 - a text link, the title of which consists of text only;
-- an image link, the heading of which is made up of the alternative of the image;
-- a composite link combining text and an image, in which case the heading consists of the text and the alternative image.
+- an image link, the heading of which is made up of the image alternative;
+- a composite link combining text and an image, in which case the heading consists of the text and the image alternative.
 
 #### Link context
-Additional information that can be associated with the title of the link by means of keyboard shortcuts or manipulations.
+Additional information that can be associated with the accessible name of a link by means of keyboard shortcuts or manipulations.
 
 In the office environment, the contexts that can be used are
 - the previous title;
@@ -169,16 +195,9 @@ In the office environment, the contexts that can be used are
 
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
 
-#### Link title
-
-The link title may consist of
-- the link text for text links;
-- the alternative image for image links;
-- a combination of the link text and the alternative image for composite links.
-
 #### Link whose nature is not obvious
 
-Link whose title makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
+Link whose accessible name makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
 
 Example of a link whose nature is obvious: "The general conditions of use of our services have been updated, click to view them online"
 
@@ -186,14 +205,14 @@ If the text "Click to view them online" is a link, its nature is obvious.
 
 Example of a link whose nature is not obvious: "The Web Content Accessibility Guidelines (WCAG) 2.1 define how to make web content more accessible to people with disabilities"
 
-Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, its title is not sufficient to understand its nature.
+Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, its accessible name is not sufficient to understand its nature.
 
 **Important note**: only links inserted in blocks of text are concerned.
 
 #### List style
 
 In office content, lists must be declared using a list style.
-For example, desktop publishing software provides a library of styles reserved for unordered lists (bulleted lists) and ordered lists (numbered lists).
+For example, office suites provides a library of styles reserved for unordered lists (bulleted lists) and ordered lists (numbered lists).
 By using specific list styles, the reader software can associate each list and its items with an ad hoc format.
 
 ### N
@@ -209,7 +228,7 @@ This type of document, which in reality simulates a form to be printed, cannot b
 In this case, the document must be recreated as an interactive form.
 
 #### Normal text size
-Text and image text in normal size is less than 150% or 120% bold compared to the default size.
+Text and image of text in normal size is less than 150% or 120% bold compared to the default size.
 
 The default size is the size of the body text.
 
@@ -228,7 +247,7 @@ For example
 - using tabs or spaces to create column effects;
 - using functions that allow you to create text zones positioned freely on the content.
 
-Most desktop publishing programs have functions for managing columns, "anchoring" or choosing a "skin" to link the content zone to a block of text.
+Most office suites have functions for managing columns, "anchoring" or choosing a "skin" to link the content zone to a block of text.
 
 If these functions are not used, the order in which the content is displayed will be inconsistent.
 
@@ -257,35 +276,18 @@ When these formats or styles are used to create presentation effects, rendering 
 
 ### T
 
-#### Tab order
+#### Navigation sequence
 The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
-Similarly, in a PDF form, the tab order of input fields and buttons can become inconsistent when they are incorrectly positioned.
+Similarly, in a PDF form, the navigation sequence of input fields and buttons can become inconsistent when they are incorrectly positioned.
 
 #### Table of contents
-List of content titles, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each title may be accompanied by the corresponding page number.
+List of content headings, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each heading may be accompanied by the corresponding page number.
 Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 #### Text alternative
 Text associated with an image or complex shape that provides information equivalent to that conveyed by the image or complex shape.
 
 **Note**: the text alternative is not necessarily a text that describes the image or complex shape. Its purpose is to convey the essential information it provides in text form to people who cannot see the image or complex shape.
-
-#### Text image or text as image
-
-Image displaying text.
-
-#### Title hierarchy
-In most office publishing software, the style library proposes a particular style for each level of title, generally up to 8 levels.
-
-The title hierarchy is coherent when
-- All text passages intended to be a title use a title style.
-- The first title in the content is level 1.
-- There is no break in the title hierarchy (for example, you do not go directly from a level 2 title to a level 4 title).
-
-#### Title style
-In office content, titles must be declared using a title style.
-For example, desktop publishing software provides a library of styles reserved for titles.
-By using specific paragraph styles, the reader software can associate each title with an ad hoc tagged format.
 
 ### U
 

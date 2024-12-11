@@ -120,12 +120,12 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the contact page;
 1. the "accessibility" page;
 1. the "help" page;
-1. the page or set of pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
-1. the page or set of pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#support-service);
+1. the web page or set of web pages making up the website [documentation](../../html/en/raweb1/glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
+1. the web page or set of web pages making up the [documentation](../../html/en/raweb1/glossaire.html#documentation) for the [help desk](../../html/en/raweb1/glossaire.html#support-service);
 1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
-1. the set of pages making up a process (for example, an input form or a multi-page transaction);
+1. the set of web pages making up a process (for example, an input form or a multi-page transaction);
 1. examples of pages with a significantly distinct appearance or different type of content (e.g. a page containing data tables, multimedia elements, illustrations, forms, real-time communication functionality, etc.).
 
 The selection of pages audited and their number must be representative of the site or mobile application. Viewing statistics can be taken into account when selecting the sample.
@@ -172,7 +172,7 @@ Each of our two frameworks proposes a test environment to be used to carry out t
 - [RAWeb test environment for website evaluation](../../html/en/raweb1/environnement.md);
 - [RAAM test environment for evaluating mobile applications](../../html/en/raam1/environnement.md).
 
-This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the reference base is composed of the services actually used in this environment.
+This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
 
 #### Testing pages or screens
 
@@ -229,7 +229,7 @@ Therefore, although the compliance of this content is not required, it must comp
 - [Criterion 4.10](../../html/en/raweb1/criteres.html#crit-4-10): Is each automatically triggered sound controllable by the user?
 - [Criterion 12.9](../../html/en/raweb1/criteres.html#crit-12-9): On each web page, navigation must not contain any keyboard traps. Is this rule respected?
 - [Test 13.1.1](../../html/en/raweb1/criteres.html#test-13-1-1): For each web page, does each refresh process (`<object>` tag, `<embed>` tag, `<svg>` tag, `<canvas>` tag, `<meta>` tag) meet one of these conditions (excluding special cases)?
-- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in brightness or flashing used appropriately?
+- [Criterion 13.7](../../html/en/raweb1/criteres.html#crit-13-7): On each web page, are sudden changes in brightness or blinking used appropriately?
 - [Criterion 13.8](../../html/en/raweb1/criteres.html#crit-13-8): On each web page, can each moving or blinking content be controlled by the user?
 
 Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.

@@ -3,7 +3,6 @@ tags:
 - interview
 auteur: Dominique Nauroy
 ---
-<div lang="en">
 <hgroup>
 	<h1><q>Native apps will become more popular</q></h1>
 	<p>Jan Jaap de Groot was in Luxembourg last week. We met this recognized Dutch expert in mobile app accessibility.</p>
@@ -51,4 +50,3 @@ auteur: Dominique Nauroy
         <li><a href="https://abra.ai/">Abra software</a></li>
     </ul>
 </aside>
-</div>
