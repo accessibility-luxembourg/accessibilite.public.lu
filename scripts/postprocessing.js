@@ -276,6 +276,19 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         }
         mainFrame.append(dl);
     });
+    // remettre l'alphabet
+    let firstLetter = '-';
+    let entries = mainFrame.querySelectorAll('dl');
+    entries.forEach(el => {
+        if (el.textContent.charAt(0) !== firstLetter) {
+            firstLetter = el.textContent.charAt(0);
+            let alphaKey = document.createElement("h3");
+            alphaKey.setAttribute('id', firstLetter.toLowerCase());
+            alphaKey.setAttribute('style', 'text-transform: uppercase');
+            alphaKey.innerHTML = firstLetter;
+            mainFrame.insertBefore(alphaKey, el)
+        }
+    });
     mainDiv.remove();
     mainFrame.setAttribute('id', 'topics');
     document.getElementById("contenu").append(mainFrame);
