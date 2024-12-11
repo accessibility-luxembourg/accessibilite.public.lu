@@ -60,7 +60,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
-        if (['raam1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
+        if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
             $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
                 let text = $(this).text()
                 if (text.match(/^EN\s301\s549/)) {
