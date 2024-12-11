@@ -612,3 +612,16 @@ dialog#control-panel-dialog input {
 a:focus > .glossary-anchor, a:active > .glossary-anchor {
   filter: invert(100%);
 }
+
+dt.glossary {
+  font-size: 1.1rem;
+}
+
+h5.glossary {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+ul.glossary {
+  margin-left: 1rem;
+}

@@ -268,10 +268,11 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     let els = mainDiv.querySelectorAll('h4'); 
     els.forEach(el => {
         let dl = document.createElement("dl");
-        const dlLink = ' <a href="#' + el.id + '" title="' + el.innerHTML + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
-        addelt(document, "dt", dl, el.innerHTML + dlLink, ["id"], [el.id]);
+        const dlLink = ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
+        addelt(document, "dt", dl, el.innerHTML + dlLink, ["id", "class"], [el.id, "glossary"]);
         addelt(document, "dd", dl);
         while (el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
+            el.nextElementSibling.setAttribute("class", "glossary");
             dl.lastChild.append(el.nextElementSibling);
         }
         mainFrame.append(dl);
