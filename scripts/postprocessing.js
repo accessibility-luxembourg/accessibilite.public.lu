@@ -280,12 +280,13 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     let firstLetter = '-';
     let entries = mainFrame.querySelectorAll('dl');
     entries.forEach(el => {
-        if (el.textContent.charAt(0) !== firstLetter) {
-            firstLetter = el.textContent.charAt(0);
+        // on extrait la première lettre et on enlève les accents (ex: É devient E)
+        let letter = el.textContent.charAt(0).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        if (letter !== firstLetter) {
+            firstLetter = letter;
             let alphaKey = document.createElement("h3");
-            alphaKey.setAttribute('id', firstLetter.toLowerCase());
-            alphaKey.setAttribute('style', 'text-transform: uppercase');
-            alphaKey.innerHTML = firstLetter;
+            alphaKey.setAttribute('id', firstLetter);
+            alphaKey.innerHTML = firstLetter.toUpperCase();
             mainFrame.insertBefore(alphaKey, el)
         }
     });
