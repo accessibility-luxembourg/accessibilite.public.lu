@@ -11,4 +11,4 @@ Here are a few examples:
 - A block for entering the user's identity and address, when the form contains several contact blocks;
 - A set of radio buttons or tick boxes relating to a question.
 
-These fields must be grouped together when the label headings are not sufficient to inform the user that the fields are part of a group.
+These fields must be grouped together when the labels are not sufficient to inform the user that the fields are part of a group.

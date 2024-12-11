@@ -310,7 +310,7 @@ html, body {
 
 .RAWebMaster details h5, .accordion p, .accordion ul, .accordion ol {
   font: 300 1rem "Fira Sans" !important;
-  line-height: 1.4rem;
+  line-height: 1.4rem !important;
 }
 
 .RAWebMaster details.rawebNotes h5 {
@@ -335,8 +335,12 @@ html, body {
   width: 3rem;
 }
 
-.accordion details ul li p {
+.accordion details ul li {
   margin: 0.3rem 0;
+}
+
+.accordion details ul li p {
+  margin: 0;
 }
 
 .accordion details ul li p:last-child {
@@ -370,9 +374,14 @@ html, body {
   margin: 0 0 0 0.5rem;
 }
 
-.accordion details.methodo ol, .accordion details.methodo ul {
+.accordion details.methodo ol, .accordion details.methodo ul, .accordion details.methodo h6 {
   padding: 5px 5px 5px 25px;
   border-radius: 2px;
+}
+
+.accordion details.methodo h6 {
+  padding: 10px 0 0 25px;
+  margin: 0;
 }
 
 .accordion details.methodo ul {
@@ -602,4 +611,17 @@ dialog#control-panel-dialog input {
 
 a:focus > .glossary-anchor, a:active > .glossary-anchor {
   filter: invert(100%);
+}
+
+dt.glossary {
+  font-size: 1.1rem;
+}
+
+h5.glossary {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+ul.glossary {
+  margin-left: 1rem;
 }

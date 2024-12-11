@@ -2,7 +2,7 @@
 title: Help with creating accessible content
 ---
 
-Any feature available from a content editing interface, whatever the target format, that supports the author of the content in considering digital accessibility rules.
+Any feature available from a content editing interface, whatever the target format, which supports the author of the content in taking into account digital accessibility rules.
 
 Help with creating accessible content can be an automatic assistance tool or documentation. Aids to content creation include 
 - automatic or semi-automatic tests available from the editing functions;

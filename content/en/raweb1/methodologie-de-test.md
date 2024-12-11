@@ -41,7 +41,7 @@ Various tools are available for checking colour contrasts:
 
 - [WCAG Contrast checker for Firefox](https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/): Firefox extension that automatically checks text colour contrasts in a document;
 - [WCAG Contrast checker for Chrome](https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf): same extension as above for Chrome;
-- [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): Windows or Mac application for checking colour contrasts.
+- [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): Windows or Mac application for checking colour contrasts.
 
 A very useful extension is available for checking the document tree structure and title hierarchy:
 

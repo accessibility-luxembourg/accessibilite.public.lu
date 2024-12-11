@@ -1,5 +1,5 @@
 ---
-title: Main features (of a time-based media)
+title: Main features (of a time-based media player)
 
 ---
 

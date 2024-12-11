@@ -191,10 +191,11 @@ window.addEventListener('DOMContentLoaded', function (event) {
     // Sticky menu (only created if #toc is present in the DOM)
     initStickySideMenu()
 
-    // RGAA / RAAM / RAPDF disclosures, nav, and filters
-    initOldStyleDisclosure()
-
     // RAWeb disclosures and filters
     initRAWeb()
     
 }, false);
+
+
+
+

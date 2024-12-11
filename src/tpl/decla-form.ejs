@@ -210,7 +210,7 @@
     </div>    
 
     <button type="button" id="decla_btn" class="btn btn-primary"><%= __("Create your statement") %></button>
-    <div id="errorPanel" role="alert" aria-live="polite"></div>
+    <div id="errorPanel" role="alert"></div>
 </form>
 </div>
 
@@ -225,8 +225,8 @@
     <% langs.forEach(function(e) { %>
         <div class="decla" id="decla-<%= e.code %>">
             <h3 id="decla-<%= e.code %>-title"><%= __("Statement") + __("in") + e.name %></h3>
-            <button aria-labelledby="decla-<%= e.code %>-title" class="clipboard"><%= __("Copy to clipboard") %></button>
-            <button aria-labelledby="decla-<%= e.code %>-title" class="download"><%= __("Download HTML") %></button>
+            <button id="copy-<%= e.code %>" aria-labelledby="copy-<%= e.code %> decla-<%= e.code %>-title" class="clipboard"><%= __("Copy to clipboard") %></button>
+            <button id="download-<%= e.code %>" aria-labelledby="download-<%= e.code %> decla-<%= e.code %>-title" class="download"><%= __("Download HTML") %></button>
             <section id="decla-<%= e.code %>-result" class="decla-result"></section>
         </div>    
     <% }) %>

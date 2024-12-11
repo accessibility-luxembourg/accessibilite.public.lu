@@ -6,7 +6,7 @@ Toute personne faisant usage des informations, documents, produits, logiciels et
 
 L’accès au site se fait par Internet. L’usager déclare en connaître les risques et les accepter. Il doit se prémunir contre les effets de la piraterie informatique en adoptant une configuration informatique adaptée et sécurisée.
 
-Le service information et presse ne saurait être tenu pour responsable d'un quelconque dommage que l’usager subirait directement ou indirectement en relation avec sa navigation sur ce site et l’utilisation de ses services ainsi que les sites Internet auxquels il renvoie.
+Le Service information et presse ne saurait être tenu pour responsable d'un quelconque dommage que l’usager subirait directement ou indirectement en relation avec sa navigation sur ce site et l’utilisation de ses services ainsi que les sites Internet auxquels il renvoie.
 
 L'utilisation du site est gratuite.
 
@@ -22,19 +22,19 @@ L'utilisation de certaines fonctionnalités du site peut être limitée ou désa
 
 #### Modification du site
 
-Le service information et presse se réserve la liberté de faire évoluer, de modifier ou de suspendre, sans préavis, ce site pour des raisons de maintenance, de mise à jour ou pour tout autre motif jugé nécessaire.
+Le Service information et presse se réserve la liberté de faire évoluer, de modifier ou de suspendre, sans préavis, ce site pour des raisons de maintenance, de mise à jour ou pour tout autre motif jugé nécessaire.
 
-Le service information et presse pourra notamment à tout moment retirer, ajouter, compléter ou préciser tout ou une partie des informations et services contenus ou proposés sur le site. Aucune responsabilité pour un quelconque dommage direct ou indirect en relation avec de telles modifications ne pourra être retenue à l’encontre de Le service information et presse.
+Le Service information et presse pourra notamment à tout moment retirer, ajouter, compléter ou préciser tout ou une partie des informations et services contenus ou proposés sur le site. Aucune responsabilité pour un quelconque dommage direct ou indirect en relation avec de telles modifications ne pourra être retenue à l’encontre du Service information et presse.
 
 #### Limitations générales de responsabilité
 
-Le service information et presse assurera au mieux une disponibilité maximale de ce site. Toutefois, sa responsabilité ne saurait être retenue en cas d’indisponibilité momentanée ou totale du site.
+Le Service information et presse assurera au mieux une disponibilité maximale de ce site. Toutefois, sa responsabilité ne saurait être retenue en cas d’indisponibilité momentanée ou totale du site.
 
-Le service information et presse assurera au mieux une disponibilité maximale de ce site.
+Le Service information et presse assurera au mieux une disponibilité maximale de ce site.
 
-Le service information et presse assurera au mieux la sécurité du système informatique. Toutefois, sa responsabilité ne saurait être retenue en cas d’attaque du système informatique ou d’indisponibilité momentanée ou totale du site.
+Le Service information et presse assurera au mieux la sécurité du système informatique. Toutefois, sa responsabilité ne saurait être retenue en cas d’attaque du système informatique ou d’indisponibilité momentanée ou totale du site.
 
-Le service information et presse assurera au mieux l’exactitude des informations contenues sur le site, publiées sur les réseaux sociaux. Cependant, sa responsabilité ne saurait être retenue notamment, en cas d’omission de mise à jour d’une information ou d’un formulaire, en cas d’erreurs de manipulation du système ou d’encodage, d’inexactitudes, de lacunes dans les informations fournies ou d’éventuelles erreurs, inexactitudes. En effet, l'objectif est de diffuser des informations exactes et à jour provenant de diverses sources mais le service information et presse ne saurait toutefois éviter tout risque d'erreur matérielle. Aucune des informations publiées sur ce site n'a une vocation d'exhaustivité ou constitue un engagement de la part de Le service information et presse. Les vulgarisations et traductions sont proposées à titre informatif. Seuls font foi les textes légaux publiés au Mémorial (Journal Officiel du Grand-Duché de Luxembourg). Les informations qui figurent sur ce site sont de nature générale. Les informations ne sont pas adaptées à des circonstances personnelles ou spécifiques et ne peuvent donc pas être considérées comme des conseils personnels, professionnels ou juridiques à l’usager. Si l’usager a besoin de conseils personnels ou spécifiques, il devra toujours consulter les services compétents au sein des différentes administrations.
+Le Service information et presse assurera au mieux l’exactitude des informations contenues sur le site, publiées sur les réseaux sociaux. Cependant, sa responsabilité ne saurait être retenue notamment, en cas d’omission de mise à jour d’une information ou d’un formulaire, en cas d’erreurs de manipulation du système ou d’encodage, d’inexactitudes, de lacunes dans les informations fournies ou d’éventuelles erreurs, inexactitudes. En effet, l'objectif est de diffuser des informations exactes et à jour provenant de diverses sources mais le Service information et presse ne saurait toutefois éviter tout risque d'erreur matérielle. Aucune des informations publiées sur ce site n'a une vocation d'exhaustivité ou constitue un engagement de la part du Service information et presse. Les vulgarisations et traductions sont proposées à titre informatif. Seuls font foi les textes légaux publiés au Mémorial (Journal Officiel du Grand-Duché de Luxembourg). Les informations qui figurent sur ce site sont de nature générale. Les informations ne sont pas adaptées à des circonstances personnelles ou spécifiques et ne peuvent donc pas être considérées comme des conseils personnels, professionnels ou juridiques à l’usager. Si l’usager a besoin de conseils personnels ou spécifiques, il devra toujours consulter les services compétents au sein des différentes administrations.
 
 #### Limite de responsabilité du site
 
@@ -47,7 +47,7 @@ La responsabilité de ce site est expressément exclue pour toutes les conséque
 
 #### Liens vers sites liés
 
-Pour la convenance des usagers, ce site peut contenir des liens vers d’autres sites qui peuvent leur être utiles ou qui peuvent les intéresser. Le service information et presse ne contrôle pas systématiquement le contenu de ces sites. Il ne saurait dès lors être tenus responsables des contenus présentés sur ces sites Internet et ce, que ce soit au niveau de leur légalité ou de l'exactitude des informations qui s'y trouvent.
+Pour la convenance des usagers, ce site peut contenir des liens vers d’autres sites qui peuvent leur être utiles ou qui peuvent les intéresser. Le Service information et presse ne contrôle pas systématiquement le contenu de ces sites. Il ne saurait dès lors être tenus responsables des contenus présentés sur ces sites Internet et ce, que ce soit au niveau de leur légalité ou de l'exactitude des informations qui s'y trouvent.
 
 #### Propriété intellectuelle
 
@@ -69,13 +69,13 @@ Tout litige relatif à l'utilisation de ce site et ses Services sera soumis à l
 
 Les données à caractère personnel communiquées par l’usager sont traitées en conformité avec le [Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016](https://cnpd.public.lu/fr/legislation/droit-europ/union-europeenne/rgpd.html) relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation des données.
 
-Le service information et presse ne récoltant pas de données personnelles mis à part les adresses IP dans les logs des serveurs web pour des questions de sécurité, le consentement de l’usager n’est pas nécessaire avant de visiter ce site.
+Le Service information et presse ne récoltant pas de données personnelles mis à part les adresses IP dans les logs des serveurs web pour des questions de sécurité, le consentement de l’usager n’est pas nécessaire avant de visiter ce site.
 
-Le responsable de ces traitements est le service information et presse.
+Le responsable de ces traitements est le Service information et presse.
 
-L’usager peut adresser des réclamations relatives à la protection des données le concernant via les canaux de communication respectifs mis à disposition ainsi qu’auprès du responsable, en l’occurrence le service information et presse. L'usager peut, par ailleurs, déposer sa réclamation auprès du délégué à la protection des données du Service information et presse via l'adresse e-mail suivante : [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
+L’usager peut adresser des réclamations relatives à la protection des données le concernant via les canaux de communication respectifs mis à disposition ainsi qu’auprès du responsable, en l’occurrence le Service information et presse. L'usager peut, par ailleurs, déposer sa réclamation auprès du délégué à la protection des données du Service information et presse via l'adresse e-mail suivante : [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
 
-L'usager peut, en outre, s'adresser à la [Commission nationale pour la protection des données](https://cnpd.public.lu/)  ayant son siège à 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette pour tout litige dans ce domaine.
+L'usager peut, en outre, s'adresser à la [Commission nationale pour la protection des données](https://cnpd.public.lu/)  ayant son siège 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette pour tout litige dans ce domaine.
 
 
 
@@ -89,7 +89,7 @@ Ces données sont conservées et hébergées en Europe dans une solution fournie
 
 La durée de conservation de données n’excède pas celle nécessaire pour observer l’évolution des audiences en fonction de l’évolution des navigateurs, résolutions utilisées, ou autres données statistiques disponibles.
 
-Le responsable de ces traitements est le service information et presse.
+Le responsable de ces traitements est le Service information et presse.
 
 #### Traitements liés aux sondages en ligne
 
