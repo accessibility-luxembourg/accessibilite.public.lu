@@ -22,14 +22,13 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
 
     // 1. créer le canevas général
     const mainDiv = document.getElementById("topics");
-    console.log(mainDiv)
     let mainFrame = document.createElement('div');
     addelt(document, "div", mainFrame, null, ["class"], ["RAWebMasterHeader"]);
     addelt(document, "div", mainFrame.lastChild, null, ["class"], ["rawebMargin"]);
     addelt(document, "aside", mainFrame.lastChild.lastChild, null);
     addelt(document, "details", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Search"));
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, __("To search the entire page using your browser's search function, you will first need to")+' <button id="btnUnfoldAll">'+ __('unfold all')+'</button>.', ["class", "style"], ["noonbeforematch", "display: none"]);
+    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, __("To search the entire page using your browser's search function, you will first need to")+' <button id="btnUnfoldAll">'+ __('unfold all')+'</button>.', ["class"], ["noonbeforematch"]);
     addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, __("You can search the entire page using your browser's search function, even when sections are closed."), ["class"], ["onbeforematch"]);
     addelt(document, "details", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Warning"));
@@ -39,52 +38,47 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         break;
       }
     }
-    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, "Légende et options d'affichage", ["id", "aria-haspopup"], ["showModal", "dialog"]);
+    addelt(document, "button", mainFrame.lastChild.lastChild.lastChild, __("Legend and display options"), ["id", "aria-haspopup"], ["showModal", "dialog"]);
     addelt(document, "dialog", mainFrame, null, ["id"], ["control-panel-dialog"]);
     addelt(document, "form", mainFrame.lastChild, null, ["method", "autocomplete"], ["dialog", "off"]);
     addelt(document, "button", mainFrame.lastChild.lastChild, null, ["id", "title"], ["close-modal", "Fermer la fenêtre modale"]);
-    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild, "Fermer la fenêtre modale", ["class"], ["sr-only"]);
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild, __("Close the modal window"), ["class"], ["sr-only"]);
     addelt(document, "div", mainFrame.lastChild.lastChild, null, ["class"], ["content"]);
-    addelt(document, "h6", mainFrame.lastChild.lastChild, "Légende");
+    addelt(document, "h6", mainFrame.lastChild.lastChild, __("Legend"));
     addelt(document, "div", mainFrame.lastChild.lastChild, null, ["class"], ["legends"]);
     addelt(document, "dl", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "2.1", ["class"], ["crit"]);
-    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond bleu précédant l'intitulé du critère", ["class"], ["sr-only"]);
-    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Critère");
-    addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
-    addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
-    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "4.14", ["class"], ["critRAWeb"]);
-    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "chiffre sur fond mauve précédant l'intitulé du critère", ["class"], ["sr-only"]);
-    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Nouveau critère RAWeb");
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, __("explain criterion"), ["class"], ["sr-only"]);
+    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, __("Criterion"));
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "dt", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild);
     addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "A", ["class"], ["a"]);
-    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, "lettre A sur fond rouge", ["class"], ["sr-only"]);
-    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, "Niveau de conformité");
+    addelt(document, "span", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.lastChild, __("explain level"), ["class"], ["sr-only"]);
+    addelt(document, "dd", mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild, __("Compliance level"));
     addelt(document, "fieldset", mainFrame.lastChild.lastChild);
-    addelt(document, "legend", mainFrame.lastChild.lastChild.lastChild, "Options");
+    addelt(document, "legend", mainFrame.lastChild.lastChild.lastChild, __("Options"));
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc1"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Tout déplier", ["for"], ["rwc1"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold all"), ["for"], ["rwc1"]);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc2"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les thématiques", ["for"], ["rwc2"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold themes"), ["for"], ["rwc2"]);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc3"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les tests", ["for"], ["rwc3"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold tests"), ["for"], ["rwc3"]);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc4"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les méthodologies", ["for"], ["rwc4"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold methodologies"), ["for"], ["rwc4"]);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc5"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les notes et cas particuliers", ["for"], ["rwc5"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold notes and special cases"), ["for"], ["rwc5"]);
     addelt(document, "div", mainFrame.lastChild.lastChild.lastChild);
     addelt(document, "input", mainFrame.lastChild.lastChild.lastChild.lastChild, null, ["type", "id"], ["checkbox", "rwc6"]);
-    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, "Déplier les correspondances", ["for"], ["rwc6"]);
-    addelt(document, "button", mainFrame, null, ["id", "title", "aria-haspopup"], ["showModal-sticky", "Légende et options d'affichage", "dialog"]);
-    addelt(document, "span", mainFrame.lastChild, "Légende et options d'affichage", ["class"], ["sr-only"]);
+    addelt(document, "label", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Unfold mappings"), ["for"], ["rwc6"]);
+    addelt(document, "button", mainFrame, null, ["id", "title", "aria-haspopup"], ["showModal-sticky", __("Legend and display options"), "dialog"]);
+    addelt(document, "span", mainFrame.lastChild, __("Legend and display options"), ["class"], ["sr-only"]);
     addelt(document, "div", mainFrame, null, ["class"], ["RAWebMaster"]);
     addelt(document, "div", mainFrame.lastChild, null, ["id", "class"], ["accordionGroup", "accordion"]);
   
@@ -119,11 +113,8 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", el.lastChild.lastChild, themeNumber, ["class"], ["chapter"]);
         addelt(document, "span", el.lastChild.lastChild, null, ["class"], ["accordion-icon"]);
         addelt(document, "a", el, null, ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
-        addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
-        addelt(document, "span", el.lastChild.lastChild, themePrefix);
-        addelt(document, "img", el.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
-
-
+        addelt(document, "span", el.lastChild, themePrefix, ["class"], ["sr-only"]);
+        addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
     });
   
     // 4. Créer les <details> de méthodologie
@@ -132,7 +123,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "methodo");
-        addelt(document, "summary", detailRAAM, "Méthodologie d'évaluation");
+        addelt(document, "summary", detailRAAM, __("Test methodology"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
         while(el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
@@ -146,7 +137,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebCorr");
-        addelt(document, "summary", detailRAAM, "Correspondances");
+        addelt(document, "summary", detailRAAM, __("Mapping"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
         let wcagCorr = el.nextElementSibling.children[0];
@@ -165,7 +156,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebNotes");
-        addelt(document, "summary", detailRAAM, "Notes et cas particuliers");
+        addelt(document, "summary", detailRAAM, __("Notes and special cases"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
         while(el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
@@ -180,7 +171,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebTests");
-        addelt(document, "summary", detailRAAM, "Test");
+        addelt(document, "summary", detailRAAM, __("Test"));
         el.parentNode.insertBefore(detailRAAM, el);
         while (el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
             detailRAAM.append(el.nextElementSibling);
@@ -194,7 +185,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebTests");
-        addelt(document, "summary", detailRAAM, "Tests");
+        addelt(document, "summary", detailRAAM, __("Tests"));
         el.parentNode.insertBefore(detailRAAM, el);       
         detailRAAM.firstElementChild.after(el);
     });
@@ -214,12 +205,12 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         let critTitle = el.innerHTML.split("] ").pop();
         let re = /\[(.*)\]/i;
         let critLevel = el.innerHTML.match(re)[1];
-        el.innerHTML = '<span><span class="sr-only">critère </span>' + critNumber + '</span>' + critTitle ;
-        addelt(document, "a", el, null, ["class", "title", "href"], ["anchor", "Critère " + critNumber, "#" + el.id]);
+        el.innerHTML = '<span><span class="sr-only">' + __("Criterion") + ' </span>' + critNumber + '</span>' + critTitle ;
+        addelt(document, "a", el, null, ["class", "title", "href"], ["anchor", __("Criterion") + ' ' + critNumber, "#" + el.id]);
         addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
-        addelt(document, "span", el.lastChild.lastChild, "Critère " + critNumber);
+        addelt(document, "span", el.lastChild.lastChild, __("Criterion") + ' ' + critNumber);
         addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
-        addelt(document, "span", el, '<span class="sr-only">Niveau de conformité </span>' + critLevel, ["class"], ["level"]);
+        addelt(document, "span", el, '<span class="sr-only">' + __("Compliance level") + ' </span>' + critLevel, ["class"], ["level"]);
     });
   
     // 11. redessiner l'apparence des tests simples
@@ -229,11 +220,11 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         let testNumber = el.id.split("test-").pop().replace(/-/g, '.');
         let newLayout = document.createElement("H5");
         newLayout.setAttribute("id", el.id);
-        addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
+        addelt(document, "span", newLayout, '<span class="sr-only">' + __("Test") + ' </span>' + testNumber);
         addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
-        addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.id]);
+        addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + el.id]);
         addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
-        addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
+        addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
         addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
         el.parentNode.insertBefore(newLayout, el); 
         el.remove();
@@ -254,9 +245,9 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
                 newLayout.setAttribute("id", el.children[i].id);
                 addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
                 addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
-                addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", "Test " + testNumber, "#" + el.children[i].id]);
+                addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + el.children[i].id]);
                 addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
-                addelt(document, "span", newLayout.lastChild.lastChild.lastChild, "Test " + testNumber);
+                addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
                 addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
                 el.parentNode.insertBefore(newLayout, el.previousElementSibling);
             }
