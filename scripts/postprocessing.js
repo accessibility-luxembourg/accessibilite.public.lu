@@ -16,7 +16,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
   
   
-  function singleMDCriteria(data) {
+  function singleMDCriteria(data, __) {
     const dom = new JSDOM(data);
     const document = dom.window.document;
 
@@ -28,11 +28,11 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     addelt(document, "div", mainFrame.lastChild, null, ["class"], ["rawebMargin"]);
     addelt(document, "aside", mainFrame.lastChild.lastChild, null);
     addelt(document, "details", mainFrame.lastChild.lastChild.lastChild);
-    addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, "Recherche");
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, 'Pour effectuer une recherche dans l’ensemble de la page via la fonction de recherche de votre navigateur, vous devrez au préalable <button id="btnUnfoldAll">tout déplier</button>.', ["class", "style"], ["noonbeforematch", "display: none"]);
-    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, 'Vous pouvez effectuer une recherche dans l’ensemble de la page via la fonction de recherche de votre navigateur, même lorsque les sections sont refermées.', ["class"], ["onbeforematch"]);
+    addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Search"));
+    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, __("To search the entire page using your browser's search function, you will first need to")+' <button id="btnUnfoldAll">'+ __('unfold all')+'</button>.', ["class", "style"], ["noonbeforematch", "display: none"]);
+    addelt(document, "p", mainFrame.lastChild.lastChild.lastChild.lastChild, __("You can search the entire page using your browser's search function, even when sections are closed."), ["class"], ["onbeforematch"]);
     addelt(document, "details", mainFrame.lastChild.lastChild.lastChild);
-    addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, "Note importante");
+    addelt(document, "summary", mainFrame.lastChild.lastChild.lastChild.lastChild, __("Warning"));
     while (mainDiv.firstElementChild) {
       mainFrame.lastChild.lastChild.lastChild.lastChild.lastChild.after(mainDiv.firstElementChild);
       if (mainDiv.firstElementChild.hasAttribute('id') && mainDiv.firstElementChild.id.indexOf('topic-') > -1) {
@@ -267,7 +267,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
   
   
-  function singleMDGlossary(data) {
+  function singleMDGlossary(data, __) {
     const dom = new JSDOM(data);
     const document = dom.window.document;
 
@@ -291,12 +291,12 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     return dom.serialize();
   }
 
-function main(html, name) {
+function main(html, name, __) {
     if (['raam1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
-        html = singleMDCriteria(html)
+        html = singleMDCriteria(html, __)
     }    
     if (['raam1/glossaire', 'rapdf1/glossaire'].includes(name)) {
-        html = singleMDGlossary(html)
+        html = singleMDGlossary(html, __)
     }
     return html
 }

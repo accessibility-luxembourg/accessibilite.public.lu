@@ -35,7 +35,7 @@ function renderToFile(config, data, title, lang, file, name, prefix, __, withSum
         if (err !== null) {
             console.log(err)
         }
-        str = postprocessing.main(str, name)
+        str = postprocessing.main(str, name, __)
         fs.writeFileSync(file, str)
     });
 }
