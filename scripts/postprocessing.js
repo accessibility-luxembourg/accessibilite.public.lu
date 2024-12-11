@@ -123,7 +123,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "methodo");
-        addelt(document, "summary", detailRAAM, __("Test methodology"));
+        addelt(document, "summary", detailRAAM, __("Assessment methodology"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
         while(el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
