@@ -20,9 +20,9 @@ Users can decide for themselves whether or not the server hosting this website i
 
 The use of certain site functions may be limited or deactivated if the user refuses the site's cookies. Users are therefore advised to set their browser to accept cookies from the site.
 
-#### Modification of the site
+#### Changes to the site
 
-The Information and Press Service reserves the right to change, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
+The Information and Press Service reserves the right to develop, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
 
 In particular, the Information and Press Service may at any time withdraw, add to, supplement or clarify all or part of the information and services contained or offered on the site. The Information and Press Service may not be held liable for any direct or indirect damage arising from such modifications.
 
@@ -132,7 +132,7 @@ As far as possible, all questions/comments will be answered in the user's langua
 
 We present to you how and why we use cookies on this site, in full transparency.
 
-This site may use client cookies, which are small text files that make it possible to analyse information relating to user browsing (frequency of visits, length of visits, pages consulted, language preferences, etc.). They are deposited by this site in a directory provided for this purpose on the user's computer. They contain in particular the name of the server, an identifier in the form of a unique number and an expiry date. The unique identifier enables this site to recognise the user's computer on each visit.
+This site may use client cookies, which are small text files that make it possible to analyse information relating to user browsing (frequency of visits, length of visits, pages consulted, language preferences, etc.). They are sent by the website and stored in a special folder on the user's computer. They contain in particular the name of the server, an identifier in the form of a unique number and an expiry date. The unique identifier enables this site to recognise the user's computer on each visit.
 
 Users can decide for themselves whether or not the Website server is authorised to store cookies on their computer. They may at any time set their browser options so that cookies are not accepted and stored. In addition, users can delete stored cookies at any time via their browser.
 
