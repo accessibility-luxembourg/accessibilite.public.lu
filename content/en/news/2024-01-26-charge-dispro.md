@@ -41,7 +41,7 @@ author: Dominique Nauroy
         <p>This bar chart shows, in descending order, the elements most frequently mentioned as a disproportionate burden in accessibility statements, starting with office documents, keyboard navigation and authentication procedures, present in 31, 29 and 13% of statements respectively.</p>
     </details>
 </figure>
-<p>Other, less frequently mentioned issues relate to search features, old content, links with irrelevant titles, poorly formatted lists and headings, videos without captions or text transcripts, and unidentified language changes.</p>
+<p>Other, less frequently mentioned issues relate to search features, old content, links with irrelevant accessible names, poorly formatted lists and headings, videos without captions or text transcripts, and unidentified language changes.</p>
 <h2>Fewer claims for disproportionate burden: good news?</h2>
 <p>In 2021, two-thirds of sites and apps that submitted an accessibility statement mentioned one or more disproportionate burdens. This rate has fallen sharply to just one third of statements in 2023. Although this change is to be welcomed a priori, and would suggest that measures have been taken to remedy certain cases that were considered too difficult to deal with at the time, the most likely explanation is undoubtedly to be found in the more representative number of statements, which has almost quadrupled in the space of three years, rising from 118 to 418 by the end of 2023.</p>
 <h2>A point of methodology</h2>

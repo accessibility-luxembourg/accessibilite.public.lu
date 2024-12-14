@@ -8,7 +8,7 @@ Note 1: the use of `<div>` or `<span>` elements or several `<br>` elements to vi
 
 Example: `<div>`, `paragraphs in a simulated block of text`, `<br>`, `using several <br> tags`, `</div>`
 
-Note 2: WAI-ARIA offers a `presentation` role which can be used to suppress the semantics of an element, for example `<h1 role="presentation">Title</h1>`. In this case, the text will be rendered correctly but its title role will no longer be rendered. The `presentation` role may be required when using a WAI-ARIA [design pattern](#design-pattern).
+Note 2: WAI-ARIA offers a `presentation` role which can be used to suppress the semantics of an element, for example `<h1 role="presentation">Heading</h1>`. In this case, the text will be rendered correctly but its heading role will no longer be rendered. The `presentation` role may be required when using a WAI-ARIA [design pattern](#design-pattern).
 
 The WAI-ARIA `presentation` role can also be used to remove semantics from an element when it is used only for layout purposes, e.g. `<blockquote role="presentation">` will have the same effect as no `<blockquote>` element.
 

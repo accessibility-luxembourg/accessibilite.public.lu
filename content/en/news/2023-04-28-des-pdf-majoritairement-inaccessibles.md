@@ -47,7 +47,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <aside class="contextbox">
     <h3>The top three PDF accessibility issues</h3>
     <h4>Untagged PDFs</h4>
-    <p>The PDF format was originally designed for printing. In 2001, a new version of this format introduced the concept of tagging, which provides assistive technologies with structured information about the content of pages, making them accessible to people with disabilities. In practice, tagging enables blind people to identify and interact with different types of content, such as titles, lists, paragraphs, tables, images, form fields, etc. The main office suites and DTP (Desktop Publishing) software can export tagged PDFs.</p>
+    <p>The PDF format was originally designed for printing. In 2001, a new version of this format introduced the concept of tagging, which provides assistive technologies with structured information about the content of pages, making them accessible to people with disabilities. In practice, tagging enables blind people to identify and interact with different types of content, such as headings, lists, paragraphs, tables, images, form fields, etc. The main office suites and DTP (Desktop Publishing) software can export tagged PDFs.</p>
     <h4>Documents scanned in image mode</h4>
     <p>When a paper document is scanned in image mode and exported in PDF format, optical character recognition (OCR) is required. Without this step, the document will consist solely of images for each page, which will not be accessible. Character recognition can be carried out using Adobe Acrobat Pro or any software specialising in OCR.</p>
     <h4>Protection against the use of assistive technologies</h4>

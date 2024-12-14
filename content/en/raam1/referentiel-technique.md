@@ -113,7 +113,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 ###### iOS and Android
 
 1. Identify the graphic elements conveying information on the screen that require a detailed description ([see glossary note on the particularities of rendering](glossaire.md#graphic-element)). For example
-	- graphic elements for which the alternative to be provided is too long (more than one sentence, for example) or requires structuring (titles, lists or tables); 
+	- graphic elements for which the alternative to be provided is too long (more than one sentence, for example) or requires structuring (headings, lists or tables); 
 	- graphic elements which combine several issues (information through colour, text graphic element, contrasts, etc.) such as graphs or maps.
 1. Check for 
 	- the presence of a clearly identifiable detailed description adjacent to the graphic element; 
@@ -541,7 +541,7 @@ The criterion does not apply to the following elements:
 
 ###### iOS and Android
 
-1. Identify on the screen synchronised time-based media that require subtitles (i.e. where the soundtrack provides information, such as a person's speech).
+1. Identify on the screen synchronised time-based media that require captions (i.e. where the soundtrack provides information, such as a person's speech).
 1. Check
 	- that there are synchronised captions;
 	- or that there is an alternative version with synchronised captions accessible via an adjacent component (a button or a link).
@@ -549,12 +549,12 @@ The criterion does not apply to the following elements:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.2.2 Subtitles (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
+- WCAG 2.1: [1.2.2 Captions (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.2 Captions (Prerecorded)*.
 
 #### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant? {id="crit-3-8}
 
-**[Test 3.8.1](#test-3-8-1):** For each pre-recorded synchronised time-based media with synchronised captions, do the subtitles meet these conditions? {id="test-3-8-1"}
+**[Test 3.8.1](#test-3-8-1):** For each pre-recorded synchronised time-based media with synchronised captions, do the captions meet these conditions? {id="test-3-8-1"}
 - Captions are relevant;
 - Captions are correctly synchronised.
 
@@ -562,15 +562,15 @@ The criterion does not apply to the following elements:
 
 ###### iOS and Android
 
-1. Identify synchronised time-based media with subtitles on the screen.
-1. Check that the subtitles are
+1. Identify synchronised time-based media with captions on the screen.
+1. Check that the captions are
 	- relevant (all important audio information is present, including dialogue);
-	- correctly synchronised. If there is no delay between the spoken word and the appearance of the subtitles, the subtitles are correctly synchronised. The reference standard specifies that subtitles should appear within 100 ms of the [caption time stamp](glossaire.md#time-stamp).
+	- correctly synchronised. If there is no delay between the spoken word and the appearance of the captions, the captions are correctly synchronised. The reference standard specifies that captions should appear within 100 ms of the [caption time stamp](glossaire.md#time-stamp).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.2.2 Subtitles (pre-recorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
+- WCAG 2.1: [1.2.2 Captions (pre-recorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*.
 
 #### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#audio-description-time-based-media) (excluding special cases)? {id="crit-3-9"}
@@ -629,7 +629,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 1. Identify pre-recorded synchronised or audio only or video only time-based media on the screen.
 1. Check that:
-	- a text passage (a title or paragraph, for example) that identifies the time-based media immediately precedes or follows it;
+	- a text passage (a heading or paragraph, for example) that identifies the time-based media immediately precedes or follows it;
 	- that the text passage is located outside the media content player.
 1. If this is the case, the criterion is validated.
 
@@ -760,7 +760,7 @@ Note: Although volume and playback controls may be physical components of the de
 
 ##### Special cases
 
-The criterion does not apply to embedded subtitles (*open captions*).
+The criterion does not apply to embedded captions (*open captions*).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -960,7 +960,7 @@ What's more, as with the web, there is no technical documentation to describe ho
 	- a role is rendered (e.g. button, edit zone, link); 
 	- the role rendered is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is rendered as a "edit zone" has an irrelevant role; it should be identified as a button); 
 	- a name is rendered and that this name is relevant, i.e. that it enables the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
-	- if the component has a visible label (a visible text), the title is rendered;
+	- if the component has a visible label (a visible text), the text is rendered;
 	- if the component has a perceptible state (activated, deactivated, selected), this state is rendered;
 	- if the component can change state (e.g. toggle button, slider), perform the necessary actions to test the different states and check that each change of state is correctly rendered (switching to the selected state, increasing the slider);
 	- if the component has a perceptible value (value of a slider), this value is rendered.
@@ -1195,7 +1195,7 @@ This criterion only checks elements that should not be interactive (text element
 
 ### [Topic 7](#topic-7): Information structure {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [A] On each screen, is the information structured by the appropriate use of titles? {id="crit-7-1"}
+#### [Criterion 7.1](#crit-7-1) [A] On each screen, is the information structured by the appropriate use of headings? {id="crit-7-1"}
 
 **[Test 7.1.1](#test-7-1-1)** Does each screen meet these conditions? {id="test-7-1-1"}
 - The content of each heading is relevant;
@@ -1622,7 +1622,7 @@ When the additional content does not mask or replace any information-bearing con
 
 **[Test 9.6.1](#test-9-6-1):** Do the related form controls respect these conditions, if necessary? {id="test-9-6-1"}
 - The fields are grouped together in a common element;
-- The grouping has a relevant title.
+- The grouping has a relevant name.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1941,7 +1941,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 
 1. Identify session time limits (for example, logging out of a customer account).
 1. Check
-	- the presence of a mechanism enabling the user to remove the time limit (for example, a button with an explicit title);
+	- the presence of a mechanism enabling the user to remove the time limit (for example, a button with an explicit label);
 	- or the presence of a mechanism enabling the user to increase the time limit (for example, a parameter available in the application to manage session times);
 	- or that the duration of the session is at least twenty hours.
 1. If this is the case, the criterion is validated.

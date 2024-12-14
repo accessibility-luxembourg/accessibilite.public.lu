@@ -128,7 +128,7 @@ W3C provides full documentation on the accessibility of this type of test: [Inac
 
 #### Clearly identifiable adjacent
 
-The element is made available adjacent to the object identified by the criterion in the graphical representation and in the keyboard navigation order. If necessary, the item may be available elsewhere in the software and be accessible with a function (a button for example) which is adjacent to the object identified in the criterion, explicit and clearly identifiable (the title of the function is explicit).
+The element is made available adjacent to the object identified by the criterion in the graphical representation and in the keyboard navigation order. If necessary, the item may be available elsewhere in the software and be accessible with a function (a button for example) which is adjacent to the object identified in the criterion, explicit and clearly identifiable (the name of the function is explicit).
 
 #### Complex action
 
@@ -189,7 +189,7 @@ and RsRGB, GsRGB and BsRGB are defined by
 
 The "^" character is the power operator.
 
-**Note:** the contrast measurement concerns text, content in graphic elements, text and image of text in animations, subtitle text and embedded text in videos. Text in the elements of a graphic element or video (e.g. a sign, poster, etc.) is not affected.
+**Note:** the contrast measurement concerns text, content in graphic elements, text and image of text in animations, captions text and embedded text in videos. Text in the elements of a graphic element or video (e.g. a sign, poster, etc.) is not affected.
 
 **Source:** [WCAG contrast calculation procedure](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
 
@@ -337,7 +337,7 @@ For some speech recognition systems, the text is not retranscribed until an enti
 
 #### Key features of captions
 
-It is possible to apply presentation effects to subtitles (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
+It is possible to apply presentation effects to captions (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
 
 #### Key repeat
 
@@ -373,7 +373,7 @@ The role corresponds to the type of element defined in the specification of the 
 
 Parameters correspond to specific information about a component. For example, a parameter that transmits to the APIs the information that the component controls such and such content.
 
-Changes of state must also be made available. For example, using a property to tell the APIs that the component is "open" or "closed". Note: a state can also be transmitted via the name, when the title is dynamically changed to correspond to the state of the controlled zone in particular.
+Changes of state must also be made available. For example, using a property to tell the APIs that the component is "open" or "closed". Note: a state can also be transmitted via the name, when it is dynamically changed to correspond to the state of the controlled zone in particular.
 
 These parameters are not mandatory, but may be required if they are essential for making the component accessible. It is up to the auditor to consider the cases where these parameters are essential, depending on the context in which the component is used.
 

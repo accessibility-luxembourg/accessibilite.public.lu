@@ -414,7 +414,7 @@ In these situations, the criterion does not apply:
     - The [accessible name of a link](glossaire.md#accessible-name-of-a-link) alone is self-explanatory;
     - The [link context](glossaire.md#link-context) makes the link explicit.
 
-- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossaire.md#identical-title-of-a-link) have the same function and destination? {id="test-4-1-2"}
+- **[Test 4.1.2](#test-4-1-2)** Does each [identical link](glossaire.md#identical-accessible-names-of-links) have the same function and destination? {id="test-4-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -428,7 +428,7 @@ In these situations, the criterion does not apply:
     - text content of the ALT element of the image (FIGURE element) contained in the link;
     - or a combination of the two.
 5. If this is not the case, check in PAC that the sentence containing the link makes it explicit.
-6. If this is not the case, check in PAC that the title immediately preceding the link (Hx element) makes it explicit.
+6. If this is not the case, check in PAC that the heading immediately preceding the link (Hx element) makes it explicit.
 7. If this is the case, the test is validated.
 
 ###### Test 4.1.2 with Acrobat Reader and PAC 2024
@@ -483,7 +483,7 @@ In these situations, the criterion does not apply:
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the text passages that should be headings in the original document.
-4. Check in PAC that the title is presented using an Hx element where x is the title level, for example H1.
+4. Check in PAC that the heading is presented using an Hx element where x is the heading level, for example H1.
 5. If this is the case, the test is validated.
 
 ###### Test 5.1.2 with Acrobat Reader
@@ -495,7 +495,7 @@ In these situations, the criterion does not apply:
 ###### Test 5.1.3 with Acrobat Reader
 
 1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that each title provides a satisfactory description of the content to which it relates.
+2. Check that each heading provides a satisfactory description of the content to which it relates.
 3. If so, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -633,7 +633,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ###### With Acrobat Reader and the *Colour Contrast Analyser* tool
 
 1. Open the PDF file.
-2. Identify links inserted in blocks of text (paragraphs, titles, lists, etc.) and indicated only by colour.
+2. Identify links inserted in blocks of text (paragraphs, headings, lists, etc.) and indicated only by colour.
 3. Using the Colour Contrast Analyser tool, check that the contrast ratio between the font colour of the link and the font colour of the surrounding text is greater than or equal to 3:1.
 4. If this is the case, the criterion is validated.
 
@@ -945,8 +945,8 @@ However, a test by a person with a disability using his or her own assistive tec
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
-    - The title of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
-    - The visible title of the [label](glossaire.md#label) is contained in the title accessible to assistive technologies.
+    - The text of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
+    - The visible text of the [label](glossaire.md#label) is contained in the text accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1156,8 +1156,8 @@ In these situations, the criterion is not applicable:
 1. Open the PDF file and activate NVDA.
 2. With NVDA, use the tab key to activate each button.
 3. Check that
-    - the voice rendered title is relevant;
-    - the visible title is contained in the voice output title.
+    - the voice rendered label is relevant;
+    - the visible text is contained in the voice voice rendered label.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
