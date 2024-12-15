@@ -407,7 +407,7 @@ Personal data concerning the user in a form can be
 
 #### Primary control (of a time-based media)
 
-Primary control functions are the basic functions of a media player: play, pause, stop, sound control.
+Primary control functions are the basic functions of a media player: play, pause, stop, audio control.
 
 ### Q
 

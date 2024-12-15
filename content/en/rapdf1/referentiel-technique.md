@@ -226,12 +226,12 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14);
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*.
 
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
@@ -299,7 +299,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.11 Non-text content contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast):
+- WCAG 2.1 [1.4.11 Non-text contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast):
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html);
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*.
@@ -364,7 +364,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6);
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
@@ -403,7 +403,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -500,7 +500,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
 - WCAG 2.1 [2.4.6 Headers and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
@@ -530,7 +530,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -552,7 +552,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
@@ -639,9 +639,9 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*.
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
@@ -937,9 +937,9 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
- - WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
+ - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.4.1.2 Name, role, value*.
 
@@ -962,7 +962,7 @@ However, a test by a person with a disability using his or her own assistive tec
 
 - WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G131](https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html).
-- WCAG 2.1 [2.5.3 Label in the name (A)](https://www.w3.org/TR/WCAG21/#label-in-name):
+- WCAG 2.1 [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name):
     - [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html);
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
@@ -1035,13 +1035,13 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [1.4.1 Use of colour (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
+- WCAG 2.1 [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html).
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of colour*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
+- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
 #### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), is the expected data type and/or format available? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-6-1"}
@@ -1138,9 +1138,9 @@ In these situations, the criterion is not applicable:
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
-- WCAG 2.1 [1.3.1 Information and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- WCAG 2.1 [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
+- WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
 - EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
 
@@ -1165,7 +1165,7 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1 [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name):
     - [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html);
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
- - WCAG 2.1: [4.1.2 Name, role and value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
+ - WCAG 2.1: [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html);
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*, *10.4.1.2 Name, role, value*.
