@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= lang %>" class="no-js">
+<html lang="<%= (lang==='en')?'en-GB':lang %>" class="no-js">
 <head>
     <meta charset="utf-8">
     <title><%= title %> - <%= __("Digital accessibility portal") %> <%= (process.env.PREVIEW !== undefined)?'PREVIEW':'' %></title>
