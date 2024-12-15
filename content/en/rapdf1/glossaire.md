@@ -87,6 +87,13 @@ Metadata used to give a title to the document, generally entered in the document
 #### Enlarged text size
 Text and image of text at enlarged size is greater than or equal to 150% or 120% bold compared to the default size.
 
+#### Error management
+
+All the processes that warn the user:
+- mandatory fields,
+- expected type or format indications,
+- input errors in a form.
+
 #### Explicit reference (to an image caption or complex shape)
 Explicit indication (e.g. "See caption below") or common term (e.g. "Image: [alternative]" and "Image: [caption]") between the alternative and the caption that makes it clear that the caption is associated with the image.
 
@@ -112,6 +119,14 @@ Cell used as a heading for a column, a row, part of a column, part of a row or g
 In office content, headings must be declared using a heading style.
 For example, office suites provide a library of styles reserved for headings.
 By using specific paragraph styles, the reader software can associate each heading with an ad hoc tagged format.
+
+#### Headings hierarchy
+In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
+
+The headings hierarchy is coherent when
+- All text passages intended to be a heading use a heading style.
+- The first heading in the content is level 1.
+- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
 
 ### I
 
@@ -148,22 +163,6 @@ The alternative content used depends on the nature of the content concerned. For
 
 Note: in the case of the use of an image associated with text, the image must have a relevant alternative (criteria [1.1](referentiel-technique.md#crit-1-1) and [1.2](referentiel-technique.md#crit-1-2)).
 
-#### Error management
-
-All the processes that warn the user:
-- mandatory fields,
-- expected type or format indications,
-- input errors in a form.
-
-### H
-
-#### Headings hierarchy
-In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
-
-The headings hierarchy is coherent when
-- All text passages intended to be a heading use a heading style.
-- The first heading in the content is level 1.
-- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
 
 ### L
 

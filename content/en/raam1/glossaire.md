@@ -134,9 +134,9 @@ The element is made available adjacent to the object identified by the criterion
 
 A complex action is one in which the downward and upward actions of the pointer are inseparable events in the action, so that it is not possible for the user to cancel the downward action simply by moving the pointer outside the interactive zone. This is the case, for example, with drag'n'drop mechanisms, where the downward action of the pointer selects an item and the upward action of the pointer positions the item.
 
-#### Context change
+#### Changes of context
 
-Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. Context changes include changes to:
+Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. change of contexts include changes to:
 - application;
 - user agent;
 - rendition space;
@@ -145,7 +145,7 @@ Major changes in the content of a screen which, if made without the user being a
 
 **Note:** a change in content is not always a change in context. A change in content, such as the expansion of a tree structure, a dynamic menu or moving a tab, does not necessarily change the context, unless it also changes one of the elements listed above (the focus, for example).
 
-**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a context change.
+**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a change of context.
 
 #### Compatible with assistive technologies
 
@@ -474,7 +474,7 @@ If the platform does not provide a replacement mechanism for certain parameters,
 
 #### Status message
 
-A status message informs the user of a change in content on the screen without interrupting their main activity (there is no context change, such as repositioning the focus on the message).
+A status message informs the user of a change in content on the screen without interrupting their main activity (there is no change of context, such as repositioning the focus on the message).
 
 A status message can inform about
 - The success or result of an action;
@@ -521,7 +521,7 @@ Text of audio information (a character's words, important noise to understand th
 
 The order in which the keyboard focus moves (to the next element or to the previous element). 
 
-**Warning:** when an element initiates a change in the screen (context change, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
+**Warning:** when an element initiates a change in the screen (change of context, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
 
 #### Template
 

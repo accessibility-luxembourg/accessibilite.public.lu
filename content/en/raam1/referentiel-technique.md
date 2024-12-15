@@ -1066,17 +1066,17 @@ For the external keyboard, [some settings are necessary for the device to be ful
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Focus visible (AA)](https://www.w3.org/TR/WCAG21/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
 
-#### [Criteria 5.3](#crit-5-3) [A] Does each [context change](glossaire.md#context-change) meet one of these conditions? {id="crit-5-3"}
+#### [Criteria 5.3](#crit-5-3) [A] Does each [change of context](glossaire.md#changes-of-context) meet one of these conditions? {id="crit-5-3"}
 
-**[Test 5.3.1](#test-5-3-1):** Does each context change meet one of these conditions? {id="test-5-3-1"}
+**[Test 5.3.1](#test-5-3-1):** Does each change of context meet one of these conditions? {id="test-5-3-1"}
 - The user is warned of the type of change by a text before it is triggered;
-- The context change is initiated by a user action on a component with an explicit name.
+- The change of context is initiated by a user action on a component with an explicit name.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify all events in the screen that initiate a context change, for example
+1. Identify all events in the screen that initiate a change of context, for example
 	- dynamic updating of form fields;
 	- opening a new page when a list entry is selected;
 	- updating an essential part of the screen without user action;
@@ -1084,7 +1084,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 	- focus manipulation that changes the user's current position on the screen.
 1. Check that:
 	- the user is warned by text of the type of change before it is triggered;
-	- or the context change is initiated by an explicit button or link.
+	- or the change of context is initiated by an explicit button or link.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1716,9 +1716,9 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 - WCAG 2.1: [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.1.1 Error Identification (A)*.
 
-#### [Criterion 9.10](#crit-9-10) [AA] In each form, is the [input control](glossaire.md#input-control-form) accompanied, if necessary, by suggestions of expected data types, formats or values? {id="crit-9-10"}
+#### [Criterion 9.10](#crit-9-10) [AA] In each form, is the [error management](glossaire.md#error-management-form) accompanied, if necessary, by suggestions of expected data types, formats or values? {id="crit-9-10"}
 
-**[Test 9.10.1](#test-9-10-1):** In each form, does the input control (form) check these conditions?  {id="test-9-10-1"}
+**[Test 9.10.1](#test-9-10-1):** In each form, does the error management check these conditions?  {id="test-9-10-1"}
 - If necessary, the input check is accompanied by suggestions for the expected data types and formats;
 - The input check is accompanied, if necessary, by suggestions for expected values.
 
