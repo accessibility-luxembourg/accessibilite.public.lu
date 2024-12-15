@@ -440,7 +440,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.4 Link purpose in context (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
+- WCAG 2.1 [2.4.4 Link purpose (in context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
@@ -463,7 +463,7 @@ In these situations, the criterion does not apply:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.4.4 Link purpose in context (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
+- WCAG 2.1: [2.4.4 Link purpose (in context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
@@ -502,7 +502,7 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
-- WCAG 2.1 [2.4.6 Headers and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
+- WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.2.4.6 Headings and labels*.
 
@@ -664,7 +664,7 @@ In these situations, the criterion is not applicable:
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1 [2.4.5 Multiple Access (MA)](https://www.w3.org/TR/WCAG21/#multiple-ways):
+- WCAG 2.1 [2.4.5 Multiple ways (MA)](https://www.w3.org/TR/WCAG21/#multiple-ways):
     - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2);
     - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
 - EN 301 549 V3.2.1 (2021-03): no related criteria.
