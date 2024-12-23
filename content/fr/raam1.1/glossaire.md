@@ -385,7 +385,7 @@ Il est donc important de pouvoir empêcher la restitution de ces éléments. La 
 
 Indication textuelle ou graphique (icône) permettant à l’utilisateur de savoir que la saisie d’un champ est obligatoire préalablement à la saisie.
 
-Note&nbsp;: Dans le cas où cette indication n’est pas réalisée de manière textuelle explicite (icône, "\*", "!", etc.), l’explication de la signification de cette indication doit se situer, visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
+Note&nbsp;: Dans le cas où cette indication n’est pas réalisée de manière textuelle explicite (icône, «&nbsp;\*&nbsp;», «&nbsp;!&nbsp;», etc.), l’explication de la signification de cette indication doit se situer, visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
 
 #### Information d’accessibilité
 
@@ -476,7 +476,7 @@ Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalit�
 
 #### Mécanisme qui permet d’afficher un rapport de contraste conforme
 
-Composant d’interface dont l’activation permet de modifier l’apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d’interface devra être conforme au critère [critère 2.2](referentiel-technique.md#crit-2-2) et au [critère 2.3](referentiel-technique.md#crit-2-3) sans avoir recours lui-même à un mécanisme permettant d’afficher un rapport de contraste conforme. Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités du site ou de la page qu’il modifie.
+Composant d’interface dont l’activation permet de modifier l’apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d’interface devra être conforme au [critère 2.2](referentiel-technique.md#crit-2-2) et au [critère 2.3](referentiel-technique.md#crit-2-3) sans avoir recours lui-même à un mécanisme permettant d’afficher un rapport de contraste conforme. Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités du site ou de la page qu’il modifie.
 
 #### Média temporel (type son, vidéo et synchronisé)
 
@@ -573,7 +573,7 @@ Il existe des cas particuliers pour lesquels il est nécessaire de capturer le f
 
 #### Pressé ou posé
 
-Correspond aux gestionnaires d’événement considérés comme des événements descendants (*mousedown*{lang=en}, *touchstart*{lang=en} par exemple).
+Correspond aux gestionnaires d’événement considérés comme des événements descendants. Par exemple *ACTION_DOWN*{lang=en} sur Android ou *UITouch.Phase.began*{lang=en} sur iOS.
 
 #### Prise de focus 
 
@@ -604,7 +604,7 @@ La dénomination générique «&nbsp;règles d’accessibilité numérique&nbsp;
 
 #### Relâché ou relevé
 
-Correspond aux gestionnaires d’événement considérés comme des événements ascendants (*mouseup, touchend*{lang=en} par exemple).
+Correspond aux gestionnaires d’événement considérés comme des événements ascendants (*mouseup, touchend*{lang=en} par exemple). Par exemple *ACTION_UP*{lang=en} sur Android ou *UITouch.Phase.ended*{lang=en} sur iOS.
 
 #### Répétition des touches
 
