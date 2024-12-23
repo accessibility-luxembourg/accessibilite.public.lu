@@ -43,7 +43,7 @@ Various tools are available for checking colour contrasts:
 - [WCAG Contrast checker for Chrome](https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf): same extension as above for Chrome;
 - [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): Windows or Mac application for checking colour contrasts.
 
-A very useful extension is available for checking the document tree structure and title hierarchy:
+A very useful extension is available for checking the document tree structure and headings hierarchy:
 
 - [HeadingsMap for Firefox](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Firefox extension that lets you preview the document map and its tree structure;
 - [HeadingsMap for Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi): same extension as above for Chrome.

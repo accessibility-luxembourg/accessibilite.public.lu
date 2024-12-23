@@ -329,8 +329,8 @@ const config = {
     ],
     "footer": [
         {
-            "title": "License",
-            "menu": "License",
+            "title": "Licence",
+            "menu": "Licence",
             "name": "licence",
             "md": "./content/en/licence.md",
             "html": true,
@@ -345,10 +345,11 @@ const config = {
             "prefix": "../../.."
         }, 
         {
-            "title": "Legal aspects",
-            "menu": "Legal aspects",
+            "title": "General legal notice",
+            "menu": "General legal notice",
             "name": "aspects-legaux",
             "md": "./content/en/mentions-legales.md",
+            "html": true,
             "prefix": "../.."
         },        
         {

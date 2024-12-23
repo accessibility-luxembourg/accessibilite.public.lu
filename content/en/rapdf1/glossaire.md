@@ -80,12 +80,19 @@ Sometimes a graphic element is presented in different states. For example, a sta
 #### Document title
 Metadata used to give a title to the document, generally entered in the document properties.
 
-**Note**: the first content heading or the cover title is not the document title.
+**Note**: the first content heading or the heading on the cover is not the document title.
 
 ### E
 
 #### Enlarged text size
 Text and image of text at enlarged size is greater than or equal to 150% or 120% bold compared to the default size.
+
+#### Error management
+
+All the processes that warn the user:
+- mandatory fields,
+- expected type or format indications,
+- input errors in a form.
 
 #### Explicit reference (to an image caption or complex shape)
 Explicit indication (e.g. "See caption below") or common term (e.g. "Image: [alternative]" and "Image: [caption]") between the alternative and the caption that makes it clear that the caption is associated with the image.
@@ -112,6 +119,14 @@ Cell used as a heading for a column, a row, part of a column, part of a row or g
 In office content, headings must be declared using a heading style.
 For example, office suites provide a library of styles reserved for headings.
 By using specific paragraph styles, the reader software can associate each heading with an ad hoc tagged format.
+
+#### Headings hierarchy
+In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
+
+The headings hierarchy is coherent when
+- All text passages intended to be a heading use a heading style.
+- The first heading in the content is level 1.
+- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
 
 ### I
 
@@ -148,22 +163,6 @@ The alternative content used depends on the nature of the content concerned. For
 
 Note: in the case of the use of an image associated with text, the image must have a relevant alternative (criteria [1.1](referentiel-technique.md#crit-1-1) and [1.2](referentiel-technique.md#crit-1-2)).
 
-#### Error management
-
-All the processes that warn the user:
-- mandatory fields,
-- expected type or format indications,
-- input errors in a form.
-
-### H
-
-#### Headings hierarchy
-In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
-
-The headings hierarchy is coherent when
-- All text passages intended to be a title use a title style.
-- The first heading in the content is level 1.
-- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
 
 ### L
 
@@ -182,15 +181,15 @@ The order in which the content of a presentation table is displayed when the con
 
 #### Link
 A link can take three different forms:
-- a text link, the title of which consists of text only;
-- an image link, the heading of which is made up of the image alternative;
-- a composite link combining text and an image, in which case the heading consists of the text and the image alternative.
+- a text link, whose accessible name consists of text only;
+- an image link, whose accessible name is made up of the image alternative;
+- a composite link combining text and an image, in which case the accessible name consists of the text and the image alternative.
 
 #### Link context
 Additional information that can be associated with the accessible name of a link by means of keyboard shortcuts or manipulations.
 
 In the office environment, the contexts that can be used are
-- the previous title;
+- the previous heading;
 - the sentence or paragraph in which the link appears.
 
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
@@ -269,10 +268,10 @@ The alternative document must be accessible from the original PDF document in th
 ### S
 
 #### Structure elements
-These are the formats and styles used to structure content (titles, lists, paragraphs, etc.).
-When these formats or styles are used to create presentation effects, rendering can be profoundly affected. For example, using a title style to format a paragraph, using paragraphs to create margin effects, and so on.
+These are the formats and styles used to structure content (headings, lists, paragraphs, etc.).
+When these formats or styles are used to create presentation effects, rendering can be profoundly affected. For example, using a heading style to format a paragraph, using paragraphs to create margin effects, and so on.
 
-**Note on the use of paragraphs**: the presence of an empty paragraph after structured content, for example a title, a list or a paragraph of text at the end of a page, is not considered to be non-compliant. Only the use of several successive empty paragraphs is concerned.
+**Note on the use of paragraphs**: the presence of an empty paragraph after structured content, for example a heading, a list or a paragraph of text at the end of a page, is not considered to be non-compliant. Only the use of several successive empty paragraphs is concerned.
 
 ### T
 
@@ -292,7 +291,7 @@ Text associated with an image or complex shape that provides information equival
 ### U
 
 #### Untagged documents
-These are documents in which the structural elements (title, lists, paragraph, etc.) are absent.
+These are documents in which the structural elements (headings, lists, paragraphs, etc.) are absent.
 
 In this case, the document must be thoroughly revised or completely recreated.
 

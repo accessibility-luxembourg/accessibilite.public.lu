@@ -14,7 +14,7 @@ The role corresponds to the type of element defined by the HTML or WAI-ARIA spec
 
 Properties correspond to specific information about a component, generally provided by WAI-ARIA. For example, `aria-controls` is a property that sends APIs the information that the component controls any given content (referenced by its identifier -- `id` attribute).
 
-Changes of state are also made available by WAI-ARIA. For example, `aria-expanded` is a state that tells APIs whether the component is "open" or "closed". Note that a state can also be transmitted via the name, when the title is dynamically changed to correspond to the state of the controlled zone in particular.
+Changes of state are also made available by WAI-ARIA. For example, `aria-expanded` is a state that tells APIs whether the component is "open" or "closed". Note that a state can also be transmitted via the name, when it is dynamically changed to correspond to the state of the controlled zone in particular.
 
 These properties are not mandatory, but may be required if they are essential to make the component accessible. It is up to the auditor to consider the cases where these properties are essential, depending on the context in which the component is used.
 

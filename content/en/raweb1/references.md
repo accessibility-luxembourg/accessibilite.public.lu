@@ -10,8 +10,6 @@ eleventyNavigation:
 
 The RAWeb has been compiled using a number of references and documentary sources. This document lists the references that were used.
 
-<small>Unless otherwise stated, all documents are in English.</small>
-
 
 ### Reference documents
 

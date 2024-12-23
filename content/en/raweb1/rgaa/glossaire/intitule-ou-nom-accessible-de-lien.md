@@ -52,7 +52,7 @@ In the case of an SVG link (version 1.1), the "accessible name" is obtained as f
 - Otherwise, value of the `xlink:title` attribute;
 - Otherwise, text content of one or more `<text>` elements.
 
-However, care must be taken as this calculation algorithm is not yet taken into account and effective within the various screen readers. To date, support is available with VoiceOver, but incomplete with JAWS and NVDA. As a result, the lowest common denominator on which it is possible to rely to provide a title for the link is the `<text>` element.
+However, care must be taken as this calculation algorithm is not yet taken into account and effective within the various screen readers. To date, support is available with VoiceOver, but incomplete with JAWS and NVDA. As a result, the lowest common denominator on which it is possible to rely to provide an accessible name for the link is the `<text>` element.
 
 Note 1: the accessible name of a link will be considered as non-explicit if it does not include the [visible label](#visible-label) of the link.
 

@@ -20,9 +20,9 @@ Users can decide for themselves whether or not the server hosting this website i
 
 The use of certain site functions may be limited or deactivated if the user refuses the site's cookies. Users are therefore advised to set their browser to accept cookies from the site.
 
-#### Modification of the site
+#### Changes to the site
 
-The Information and Press Service reserves the right to change, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
+The Information and Press Service reserves the right to develop, modify or suspend this site without prior notice for maintenance, updating or any other reason deemed necessary.
 
 In particular, the Information and Press Service may at any time withdraw, add to, supplement or clarify all or part of the information and services contained or offered on the site. The Information and Press Service may not be held liable for any direct or indirect damage arising from such modifications.
 
@@ -34,7 +34,7 @@ The Information and Press Service will do its utmost to ensure maximum availabil
 
 The Information and Press Service will do its utmost to ensure the security of the computer system. However, it may not be held liable in the event of an attack on the computer system or the temporary or total unavailability of the site.
 
-The Information and Press Service will do its utmost to ensure the accuracy of the information contained on the site and published on social networks. However, it may not be held liable, in particular, for failing to update any information or form, for system manipulation or encoding errors, inaccuracies, gaps in the information provided or any errors or inaccuracies. Although the aim is to provide accurate and up-to-date information from a variety of sources, the Information and Press Service cannot avoid all risks of material error. None of the information published on this site is intended to be exhaustive or to constitute a commitment on the part of the Information and Press Service. Popularisations and translations are provided for information purposes only. Only legal texts published in the Mémorial (Official Journal of the Grand Duchy of Luxembourg) are deemed authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and cannot therefore be considered as personal, professional or legal advice to the user. If the user requires personal or specific advice, he/she should always consult the competent services within the various administrations.
+The Information and Press Service will do its utmost to ensure the accuracy of the information contained on the site and published on social networks. However, it may not be held liable, in particular, for failing to update any information or form, for system manipulation or encoding errors, inaccuracies, gaps in the information provided or any errors or inaccuracies. Although the aim is to provide accurate and up-to-date information from a variety of sources, the Information and Press Service cannot avoid all risks of material error. None of the information published on this site is intended to be exhaustive or to constitute a commitment on the part of the Information and Press Service. Popularisations and translations are provided for information purposes only. Only legal texts published in the <span lang="fr">Mémorial</span> (Official Journal of the Grand Duchy of Luxembourg) are deemed authentic. The information on this site is of a general nature. The information is not adapted to personal or specific circumstances and cannot therefore be considered as personal, professional or legal advice to the user. If the user requires personal or specific advice, he/she should always consult the competent services within the various administrations.
 
 #### Limitation of liability of the site
 
@@ -75,7 +75,7 @@ The person responsible for this processing is the Information and Press Service.
 
 Users may lodge complaints regarding the protection of their data via the respective communication channels provided and with the party responsible, in this case the Information and Press Service. Users may also submit their complaints to the Data Protection Officer of the Information and Press Service at the following e-mail address: [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
 
-Users may also contact the [Commission nationale pour la protection des données](https://cnpd.public.lu/en.html), whose registered office is at 1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette, for any dispute in this area.
+Users may also contact the *[Commission nationale pour la protection des données](https://cnpd.public.lu/en.html)*{lang=fr}, whose registered office is at *1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette*{lang=fr}, for any dispute in this area.
 
 
 
@@ -132,7 +132,7 @@ As far as possible, all questions/comments will be answered in the user's langua
 
 We present to you how and why we use cookies on this site, in full transparency.
 
-This site may use client cookies, which are small text files that make it possible to analyse information relating to user browsing (frequency of visits, length of visits, pages consulted, language preferences, etc.). They are deposited by this site in a directory provided for this purpose on the user's computer. They contain in particular the name of the server, an identifier in the form of a unique number and an expiry date. The unique identifier enables this site to recognise the user's computer on each visit.
+This site may use client cookies, which are small text files that make it possible to analyse information relating to user browsing (frequency of visits, length of visits, pages consulted, language preferences, etc.). They are sent by the website and stored in a special folder on the user's computer. They contain in particular the name of the server, an identifier in the form of a unique number and an expiry date. The unique identifier enables this site to recognise the user's computer on each visit.
 
 Users can decide for themselves whether or not the Website server is authorised to store cookies on their computer. They may at any time set their browser options so that cookies are not accepted and stored. In addition, users can delete stored cookies at any time via their browser.
 

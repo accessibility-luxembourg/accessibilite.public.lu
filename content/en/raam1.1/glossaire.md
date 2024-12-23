@@ -128,15 +128,15 @@ W3C provides full documentation on the accessibility of this type of test: [Inac
 
 #### Clearly identifiable adjacent
 
-The element is made available adjacent to the object identified by the criterion in the graphical representation and in the keyboard navigation order. If necessary, the item may be available elsewhere in the software and be accessible with a function (a button for example) which is adjacent to the object identified in the criterion, explicit and clearly identifiable (the title of the function is explicit).
+The element is made available adjacent to the object identified by the criterion in the graphical representation and in the keyboard navigation order. If necessary, the item may be available elsewhere in the software and be accessible with a function (a button for example) which is adjacent to the object identified in the criterion, explicit and clearly identifiable (the name of the function is explicit).
 
 #### Complex action
 
 A complex action is one in which the downward and upward actions of the pointer are inseparable events in the action, so that it is not possible for the user to cancel the downward action simply by moving the pointer outside the interactive zone. This is the case, for example, with drag'n'drop mechanisms, where the downward action of the pointer selects an item and the upward action of the pointer positions the item.
 
-#### Context change
+#### Changes of context
 
-Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. Context changes include changes to:
+Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. change of contexts include changes to:
 - application;
 - user agent;
 - rendition space;
@@ -145,7 +145,7 @@ Major changes in the content of a screen which, if made without the user being a
 
 **Note:** a change in content is not always a change in context. A change in content, such as the expansion of a tree structure, a dynamic menu or moving a tab, does not necessarily change the context, unless it also changes one of the elements listed above (the focus, for example).
 
-**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a context change.
+**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a change of context.
 
 #### Compatible with assistive technologies
 
@@ -189,7 +189,7 @@ and RsRGB, GsRGB and BsRGB are defined by
 
 The "^" character is the power operator.
 
-**Note:** the contrast measurement concerns text, content in graphic elements, text and image of text in animations, subtitle text and embedded text in videos. Text in the elements of a graphic element or video (e.g. a sign, poster, etc.) is not affected.
+**Note:** the contrast measurement concerns text, content in graphic elements, text and image of text in animations, captions text and embedded text in videos. Text in the elements of a graphic element or video (e.g. a sign, poster, etc.) is not affected.
 
 **Source:** [WCAG contrast calculation procedure](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
 
@@ -337,7 +337,7 @@ For some speech recognition systems, the text is not retranscribed until an enti
 
 #### Key features of captions
 
-It is possible to apply presentation effects to subtitles (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
+It is possible to apply presentation effects to captions (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
 
 #### Key repeat
 
@@ -373,7 +373,7 @@ The role corresponds to the type of element defined in the specification of the 
 
 Parameters correspond to specific information about a component. For example, a parameter that transmits to the APIs the information that the component controls such and such content.
 
-Changes of state must also be made available. For example, using a property to tell the APIs that the component is "open" or "closed". Note: a state can also be transmitted via the name, when the title is dynamically changed to correspond to the state of the controlled zone in particular.
+Changes of state must also be made available. For example, using a property to tell the APIs that the component is "open" or "closed". Note: a state can also be transmitted via the name, when it is dynamically changed to correspond to the state of the controlled zone in particular.
 
 These parameters are not mandatory, but may be required if they are essential for making the component accessible. It is up to the auditor to consider the cases where these parameters are essential, depending on the context in which the component is used.
 
@@ -407,7 +407,7 @@ Personal data concerning the user in a form can be
 
 #### Primary control (of a time-based media)
 
-Primary control functions are the basic functions of a media player: play, pause, stop, sound control.
+Primary control functions are the basic functions of a media player: play, pause, stop, audio control.
 
 ### Q
 
@@ -474,7 +474,7 @@ If the platform does not provide a replacement mechanism for certain parameters,
 
 #### Status message
 
-A status message informs the user of a change in content on the screen without interrupting their main activity (there is no context change, such as repositioning the focus on the message).
+A status message informs the user of a change in content on the screen without interrupting their main activity (there is no change of context, such as repositioning the focus on the message).
 
 A status message can inform about
 - The success or result of an action;
@@ -521,7 +521,7 @@ Text of audio information (a character's words, important noise to understand th
 
 The order in which the keyboard focus moves (to the next element or to the previous element). 
 
-**Warning:** when an element initiates a change in the screen (context change, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
+**Warning:** when an element initiates a change in the screen (change of context, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
 
 #### Template
 
