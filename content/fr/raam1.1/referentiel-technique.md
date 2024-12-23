@@ -554,9 +554,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 #### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7"}
 
-**[Test 3.7.1](#test-3-7-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-1"}
-
-**[Test 3.7.2](#test-3-7-2)&nbsp;:** Chaque média temporel synchronisé en direct a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-2"}
+- **[Test 3.7.1](#test-3-7-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-1"}
+- **[Test 3.7.2](#test-3-7-2)&nbsp;:** Chaque média temporel synchronisé en direct a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-2"}
 
 ##### Cas particuliers
 
@@ -582,17 +581,14 @@ Les médias temporels synchronisés en direct diffusés via une application mobi
 
 #### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents (hors cas particuliers)&nbsp;? {id="crit-3-8"}
 
-**[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-1"}
-
-- Les sous-titres sont dans la langue de la vidéo&nbsp;;
-- Les sous-titres sont pertinents&nbsp;;
-- Les sous-titres sont correctement synchronisés.
-
-**[Test 3.8.2](#test-3-8-2)&nbsp;:** Pour chaque média temporel synchronisé en direct ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-2"}
-
-- Les sous-titres sont dans la langue de la vidéo&nbsp;;
-- Les sous-titres sont pertinents&nbsp;;
-- Les sous-titres sont correctement synchronisés.
+- **[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-1"}
+	- Les sous-titres sont dans la langue de la vidéo&nbsp;;
+	- Les sous-titres sont pertinents&nbsp;;
+	- Les sous-titres sont correctement synchronisés.
+- **[Test 3.8.2](#test-3-8-2)&nbsp;:** Pour chaque média temporel synchronisé en direct ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-2"}
+	- Les sous-titres sont dans la langue de la vidéo&nbsp;;
+	- Les sous-titres sont pertinents&nbsp;;
+	- Les sous-titres sont correctement synchronisés.
 
 ##### Cas particuliers
 
