@@ -12,7 +12,8 @@ Nous présentons ci-dessous la liste des modifications notables dans les documen
 
 #### Thématique 3 «&nbsp;Multimédia&nbsp;»
 
-- [Critère 3.8](./referentiel-technique.html#crit-3-8)&nbsp;: ajout d’une condition sur la langue des sous-titres.
+- [Critère 3.7](./referentiel-technique.html#crit-3-7)&nbsp;: ajout d’un test pour les médias synchronisés en direct afin de couvrir les entités soumises à la loi du 8 mars 2023 relative aux exigences en matière d’accessibilité applicables aux produits et services.
+- [Critère 3.8](./referentiel-technique.html#crit-3-8)&nbsp;: ajout d’une condition sur la langue des sous-titres et d’un test pour les médias synchronisés en direct.
 - [Critère 3.14](./referentiel-technique.html#crit-3-14)&nbsp;: la méthodologie a été allégée et un exemple a été ajouté.
 - [Critères 3.15](./referentiel-technique.html#crit-3-15) et [3.16](./referentiel-technique.html#crit-3-16)&nbsp;: la méthodologie décrit des exemples.
 - [Critère 3.17](./referentiel-technique.html#crit-3-17)&nbsp;: la rédaction du critère a été revue et la méthodologie a été améliorée et précisée.
@@ -27,12 +28,15 @@ Nous présentons ci-dessous la liste des modifications notables dans les documen
 
 - [Critère 12.1](./referentiel-technique.html#crit-12-1)&nbsp;: la méthodologie a été revue.
 - [Critère 12.2](./referentiel-technique.html#crit-12-2)&nbsp;: la méthodologie a été revue.
+- [Critère 12.4](./referentiel-technique.html#crit-12-4)&nbsp;: ajout d’une note pour préciser le périmètre d’évaluation de la documentation.
 
 #### Thématique 13 «&nbsp;Outils d’édition&nbsp;»
 
 - [Critère 13.1](./referentiel-technique.html#crit-13-1)&nbsp;: création d’un test pour chaque format.
 - [Critère 13.2](./referentiel-technique.html#crit-13-2)&nbsp;: la méthodologie a été revue.
-- [Critère 13.3](./referentiel-technique.html#crit-13-3)&nbsp;: la méthodologie a été revue.
+- [Critère 13.3](./referentiel-technique.html#crit-13-3)&nbsp;: la méthodologie a été revue pour prendre en compte tous les formats.
+
+Note&bsp;: pour les critères 13.1 et 13.3, les méthodologies ont été revues pour inclure l’évaluation des contenus à destination d’une publication dans une application mobile. Bien que les critères de la norme EN 301 549 correspondants (11.8.2 *Accessible content creation*{lang="en"} et 11.8.3 *Preservation of accessibility information in transformations*{lang="en"}) ne ciblent que les sections 9 (*Web content*{lang="en"}) et 10 *(*Non-web content*{lang="en"}), et pas la section 11 (*Software*{lang="en"}, dédiée au contexte mobile), il a semblé essentiel d’inclure tout de même l’évaluation des éléments visés par ces critères s’ils apparaissaient dans une application mobile.
 
 #### Thématique 14 «&nbsp;Services d’assistance&nbsp;»
 

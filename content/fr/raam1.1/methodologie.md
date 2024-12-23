@@ -305,6 +305,9 @@ Si lors des évaluations, la taille de certains textes n’est pas évidente (pa
 1. Déterminer la taille de l’écran du terminal de test&nbsp;:
   - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [https://www.mydevice.io](https://www.mydevice.io)&nbsp;;
   - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
+1. Réinitialiser la taille de la police par défaut dans l’application pour évaluer le texte à 100%. 
+  - Dans iOS, le plus simple est de passer par la jauge disponible dans [le centre de contrôle](methodologie.md#modifier-la-taille-de-police-sur-ios) pour rétablir la taille à 100%. 
+  - Dans Android, s’il existe dans l’écran des paramètres de taille (*Paramètres > Accessibilité > Taille de la police*), activez la fonction permettant de réinitialiser la taille de la police. Sinon, réduire la taille pour atteindre le premier ou le second pas de la jauge, selon la taille initiale. 
 1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur (voir ci-dessus, c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
 1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
   - Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 

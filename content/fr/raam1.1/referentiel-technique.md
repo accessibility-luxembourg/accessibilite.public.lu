@@ -2531,16 +2531,20 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 - **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
 - **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
 - **[Test 12.4.3](#test-12-4-3)&nbsp;:** La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-12-4-3"}
+- **[Test 12.4.4](#test-12-4-4)&nbsp;:** La documentation mise à disposition dans une application mobile est-elle conforme au RAAM&nbsp;? {id="test-12-4-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer la présence d’une documentation d’application ou accessible depuis l’application.
-1. Pour une documentation au format web (HTML, CSS), vérifier pour chaque élément de documentation qu’il est conforme au [RAWeb](../raweb1/criteres.html).
-1. Pour une documentation au format PDF, vérifier pour chaque élément de documentation qu’il est conforme au [RAPDF](../rapdf1/index.html).
-1. Pour une documentation au format non web (hors PDF), vérifier pour chaque élément de documentation qu’il est conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
-1. Si c’est le cas, le test est validé.
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
+1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
+1. Si c’est le cas, le critère est validé.
+
+Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -2740,16 +2744,23 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 #### [Critère 14.3](#crit-14-3) [A] La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-14-3"}
 
+- **[Test 14.3.1](#test-14-3-1)&nbsp;:** La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-14-3-1"}
+- **[Test 14.3.2](#test-14-3-2)&nbsp;:** La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-14-3-2"}
+- **[Test 14.3.3](#test-14-3-3)&nbsp;:** La documentation fournie par le service d’assistance dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-14-3-3"}
+- **[Test 14.3.4](#test-14-3-4)&nbsp;:** La documentation fournie par le service d’assistance dans une application mobile est-elle conforme auRAAM&nbsp;?  {id="test-14-3-4"}
+
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer la présence d’une documentation fournie par le service d’assistance.
-1. Vérifier pour chaque élément de documentation&nbsp;: 
-	- s’il s’agit d’une page web (HTML, CSS), qu’il respecte le [RAWeb](../raweb1/index.html)&nbsp;;
-	- s’il s’agit d’un document bureautique au format PDF, qu’il respecte le [(RAPDF)](../rapdf1/index.html)&nbsp;;
-	- s’il s’agit d’un document non web qui n’est pas au format PDF, qu’il respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
+1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
 1. Si c’est le cas, le critère est validé.
+
+Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.
 
 ##### Correspondances {class="disclosure mapping"}
 
