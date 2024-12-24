@@ -85,7 +85,7 @@ Ce taux indique le pourcentage de critères respectés du service en ligne.
 
 Le pourcentage de critères respectés s’obtient en divisant le nombre de critères validés par le nombre de critères applicables.
 
-  * Critère validé&nbsp;: un critère est validé s’il est validé sur toutes les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
+  * Critère validé&nbsp;: un critère est validé s’il est validé sur tous les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable&nbsp;: pour qu’un critère soit applicable, il suffit qu’il le soit sur un seul écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur tous les écrans de l’échantillon sans exception.
 
 Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-daccessibilité).
@@ -208,7 +208,7 @@ L’utilisation d’un clavier externe avec Android peut se faire de plusieurs f
 
 La méthode la plus simple est de connecter un clavier externe en USB ou <span lang="en">Bluetooth</span> au terminal mobile, et de réaliser les tests sans aucun paramétrage. 
 
-Vous pouvez consulter la [liste des raccourcis claviers disponibles pour Android](https://appt.org/en/docs/android/features/keyboard-access) afin de naviguer efficacement.
+Vous pouvez consulter la [liste des raccourcis clavier disponibles pour Android](https://appt.org/en/docs/android/features/keyboard-access) afin de naviguer efficacement.
 
 ###### Accès clavier avec un service d’accessibilité
 

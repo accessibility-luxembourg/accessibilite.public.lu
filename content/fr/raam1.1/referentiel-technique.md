@@ -1,4 +1,4 @@
-**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d’une méthodologie ne saurait se substituer à une formation, notamment à l’usage des outils d’évaluation (comme les lecteurs d’écrans) ou à la compréhension des enjeux d’accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d’un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
+**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d’une méthodologie ne saurait se substituer à une formation, notamment à l’usage des outils d’évaluation (comme les lecteurs d’écrans) ou à la compréhension des enjeux d’accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d’un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et des tests ont une valeur normative.
 
 **Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être exempté. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
 
@@ -97,7 +97,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 1. Repérer dans l’écran les éléments graphiques utilisés comme CAPTCHA ([voir la note de glossaire concernant les particularités de restitution](glossaire.md#element-graphique)).
 1. Vérifier&nbsp;:
 	- la présence d’une alternative non graphique (CAPTCHA sonore ou logique)&nbsp;;
-	- ou la présence d’une autre solution d’accès à la fonctionnalité sécurisée par le CAPTCHA (envoi d’un code sms, envoi d’un email de confirmation, etc.).
+	- ou la présence d’une autre solution d’accès à la fonctionnalité sécurisée par le CAPTCHA (envoi d’un code sms, envoi d’un e-mail de confirmation, etc.).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -205,7 +205,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Activer l’option **Différencier sans couleur** (*Réglages > Accessibilité > Affichage et taille du texte > Différencier sans couleur*).
-1. Repérer dans l’écran les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
+1. Repérer dans l’écran les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
 1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.
 1. Avec le **lecteur d’écran**, accéder à l’information donnée par la couleur.  
 1. Vérifier qu’une information équivalente est restituée par le lecteur d’écran (par exemple l’état &laquo;&nbsp;sélectionné&nbsp;&raquo; d’un bouton vert).
@@ -213,7 +213,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### Android
 
-1. Repérer dans l’écran les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
+1. Repérer dans l’écran les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
 1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.).
 1. Avec le **lecteur d’écran**, accéder à l’information donnée par la couleur. 
 1. Vérifier qu’une information équivalente est restituée par le lecteur d’écran (par exemple l’état &laquo;&nbsp;sélectionné&nbsp;&raquo; d’un bouton vert).
@@ -567,7 +567,7 @@ Les médias temporels synchronisés en direct diffusés via une application mobi
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias en direct qui nécessitent des sous-titres (c’est-à-dire dont la bande son apporte de l’information, comme le discours d’une personne).
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias temporels synchronisés en direct qui nécessitent des sous-titres (c’est-à-dire dont la bande son apporte de l’information, comme le discours d’une personne).
 1. Vérifier&nbsp;:
 	- qu’il existe des sous-titres synchronisés&nbsp;;
 	- ou qu’il existe une version alternative possédant des sous-titres synchronisés accessible via un composant adjacent (un bouton ou un lien).
@@ -601,7 +601,7 @@ Les médias temporels synchronisés en direct diffusés via une application mobi
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias en direct possédant des sous-titres.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias temporels synchronisés en direct possédant des sous-titres.
 1. Vérifier que les sous-titres sont&nbsp;:
 	- pertinents (toutes les informations sonores importantes sont présentes, les dialogues notamment)&nbsp;;
 	- dans la langue de la vidéo&nbsp;;
@@ -732,9 +732,9 @@ Ce critère est soumis au [principe de non-interférence](methodologie.md#princi
 - EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.1.2 No Keyboard Trap*{lang=en}.
 - APPT&nbsp;: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2){lang=en}.
 
-#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
+#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque média temporel qui dispose d’une piste de sous-titres synchronisés ou d’une audiodescription, les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
+**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré qui dispose d’une piste de sous-titres synchronisés ou d’une audiodescription, les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
 - Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les fonctionnalités principales&nbsp;;
 - Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les fonctionnalités principales.
 
@@ -742,7 +742,7 @@ Ce critère est soumis au [principe de non-interférence](methodologie.md#princi
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels pré-enregistrés avec une piste de sous-titres synchronisés ou une audiodescription.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec une piste de sous-titres synchronisés ou une audiodescription.
 1. Vérifier qu’il est possible d’activer et désactiver les sous-titres ou l’audiodescription sans étape supplémentaire par rapport aux fonctionnalités principales (lecture, pause…).
 1. Si c’est le cas, le critère est validé.
 
@@ -756,7 +756,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 - WCAG 2.1&nbsp;: N/A
 - EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}.
 
-#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
+#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
 
 **[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres synchronisés, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
 - Les sous-titres sont présents&nbsp;;
@@ -782,9 +782,9 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 - WCAG 2.1&nbsp;: N/A
 - EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.1.3 Preservation of captioning*{lang=en}.
 
-#### [Critère 3.16](#crit-3-16) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée&nbsp;? {id="crit-3-16"}
+#### [Critère 3.16](#crit-3-16) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée&nbsp;? {id="crit-3-16"}
 
-**[Test 3.16.1](#test-3-16-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions&nbsp;? {id="test-3-16-1"}
+**[Test 3.16.1](#test-3-16-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions&nbsp;? {id="test-3-16-1"}
 - L’audiodescription est présente&nbsp;;
 - L’audiodescription peut être activée&nbsp;;
 - L’audiodescription est correctement synchronisée.
@@ -793,7 +793,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 ###### iOS et Android
 
-1. Repérer les fonctionnalités qui permettent de transmettre, convertir ou enregistrer un média temporel. Par exemple&nbsp;: envoyer un contenu vers un autre terminal ou par mail, convertir une vidéo au format .avi dans un format .mpg, enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel.
+1. Repérer les fonctionnalités qui permettent de transmettre, convertir ou enregistrer un média temporel synchronisé. Par exemple&nbsp;: envoyer un contenu vers un autre terminal ou par mail, convertir une vidéo au format .avi dans un format .mpg, enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel.
 1. Exécuter chacune des fonctionnalités (transmettre, convertir et enregistrer).
 1. Pour chaque fonctionnalité, vérifier si l’audiodescription&nbsp;:
 	- est présente&nbsp;; 
@@ -827,7 +827,7 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 	- Aller dans *Réglages > Accessibilité > Sous-titres codés et SM > Style*&nbsp;;
 	- Sélectionner **Créer un style** pour définir un style de sous-titres personnalisé et reconnaissable. 
 	- Vérifier que le paramètre **Ignorer les réglages personnalisés** en bas d’écran est désactivé.
-	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par le système d’exploitation, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par la plateforme, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
 1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
 1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
 1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
@@ -838,7 +838,7 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 1. Repérer dans l’écran les médias temporels pré-enregistrés qui possèdent des sous-titres.
 1. Modifier les paramètres de présentation des sous-titres depuis la plateforme&nbsp;: 
 	- Aller dans *Paramètres > Accessibilité > Préférence pour les sous-titres > Style et taille des sous-titres*&nbsp;;
-	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par le système d’exploitation, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par la plateforme, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
 1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
 1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
 1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
@@ -851,7 +851,7 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 
 #### [Critère 3.18](#crit-3-18) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers)&nbsp;? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres de traduction verifie-t-il une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-18-1"}
+**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres de traduction vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-18-1"}
 
 - Une piste sonore contenant une vocalisation de l’ensemble des sous-titres de traduction peut être activée par l’utilisateur.
 - Une fonctionnalité est disponible qui permet de vocaliser les sous-titres de traduction.
@@ -864,7 +864,7 @@ Le critère est non applicable pour les sous-titres incrustés dans la vidéo (*
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### iOS
+######  iOS et Android
 
 1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec des sous-titres de traduction.
 1. Vérifier la présence d’une piste sonore qui serait la version vocalisée des sous-titres de traduction&nbsp;:
@@ -881,38 +881,12 @@ Le critère est non applicable pour les sous-titres incrustés dans la vidéo (*
  	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
 1. Sinon&nbsp;: 
 	- activer le **lecteur d’écran** et naviguer jusqu’au lecteur multimédia&nbsp;;
-	- [activer le rotor](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios)&nbsp;;
-	- faire défiler les paramètres du rotor et trouver l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo;&nbsp;; 
-	- si c’est le cas, en balayant vers le haut, sélectionner l’option &laquo;&nbsp;Énonciation&nbsp;&raquo;&nbsp;;
 	- activer les sous-titres de traduction dans le lecteur multimédia et lancer la vidéo&nbsp;;
 	- vérifier que les sous-titres affichés sont restitués par le lecteur d’écran.
 1. Sinon&nbsp;: 
 	- rechercher la présence d’un média alternatif dont la bande son contient les sous-titres de traduction vocalisés&nbsp;;
-	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
+ 	- vérifier que les sous-titres affichés sont restitués par le lecteur d’écran.
 1. Si c’est le cas, le critère est validé.
-
-Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’est pas disponible dans le rotor, déplacer le focus du lecteur d’écran pour atteindre la vidéo et utiliser à nouveau le rotor.
-
-###### Android
-
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec des sous-titres de traduction.
-1. Vérifier la présence d’une piste sonore qui serait la version vocalisée des sous-titres de traduction&nbsp;:
-	- activer la piste sonore&nbsp;;
-	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
-1. Sinon&nbsp;: 
-	- vérifier la présence d’une fonctionnalité qui permet de vocaliser des sous-titres&nbsp;; 
-	- activer la fonctionnalité&nbsp;;
-	- lancer la lecture du contenu multimédia&nbsp;;
-	- vérifier que les textes affichés par ce moyen sont vocalisés.
-1. Sinon&nbsp;:
-	- activer le **lecteur d’écran** et naviguer jusqu’au lecteur multimédia&nbsp;;
-	- activer les sous-titres de traduction&nbsp;;
- 	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
-1. Sinon&nbsp;: 
-	- rechercher la présence d’un média alternatif dont la bande son contient les sous-titres de traduction vocalisés&nbsp;;
-	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
-1. Si c’est le cas, le critère est validé.
-
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -1348,7 +1322,7 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ###### iOS et Android
 
 1. Activer le **lecteur d’écran**.
-1. Repérer dans l’écran les éléments [regroupées visuellement sous forme de liste](glossaire.html#listes).
+1. Repérer dans l’écran les éléments [regroupés visuellement sous forme de liste](glossaire.html#listes).
 1. Vérifier que le lecteur d’écran restitue &laquo;&nbsp;Liste&nbsp;&raquo; lorsqu’il atteint le groupe d’éléments.
 1. Si c’est le cas, le critère est validé.
 
@@ -1504,7 +1478,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 #### [Critère 8.6](#crit-8-6) [A] Dans chaque écran, l’information ne doit pas être donnée uniquement par [la forme, taille ou position](glossaire.md#indication-donnee-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;? {id="crit-8-6"}
 
-Sont concernés les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’informations et les médias temporels.
+Sont concernés les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’informations et les médias temporels.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2010,7 +1984,7 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ###### iOS et Android
 
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
-1. Depuis l’application, appuyer successivement sur chacune des touches de caractère imprimable (les lettres minuscules a-z, les majuscules A-Z, les chiffres 0-9, tous les symboles comme $,\*,%,! etc. à partir du moment où ils peuvent être inscrits à l’écran).
+1. Depuis l’application, appuyer successivement sur chacune des touches de caractère imprimable (les lettres minuscules a-z, les majuscules A-Z, les chiffres 0-9, tous les symboles comme $, \*, %, ! etc. à partir du moment où ils peuvent être inscrits à l’écran).
 1. Si le raccourci clavier est associé à un seul composant isolé de l’écran, vérifier qu’il ne peut être activé que si le focus clavier est à l’intérieur de ce composant.
 1. Sinon, si une action est déclenchée, vérifier la présence dans l’application d’un élément de configuration permettant&nbsp;:
 	- de désactiver ces raccourcis clavier à touche unique&nbsp;;
@@ -2224,8 +2198,8 @@ Ce critère est soumis au [principe de non-interférence](methodologie.md#princi
 1. Si c’est le cas, le critère est validé.
 
 **Note&nbsp;:**
-- l’arrêt ou la mise en pause d’un contenu en mouvement ou clignotant via la prise de focus (l’effet est suspendu uniquement pendant la prise de focus mais reprend une fois la prise de focus perdue) ou au toucher sur le contenu en mouvement (l’effet est suspendu uniquement pendant qu’une pression est effectuée sur le contenu, mais reprend une fois la pression relâchée) ne sont pas considérés comme des procédés conformes.
-- dans certains cas, le mouvement ne peut pas être arrêté, par exemple, une barre de progression, dans ce cas, le critère est non applicable.
+- L’arrêt ou la mise en pause d’un contenu en mouvement ou clignotant via la prise de focus (l’effet est suspendu uniquement pendant la prise de focus mais reprend une fois la prise de focus perdue) ou au toucher sur le contenu en mouvement (l’effet est suspendu uniquement pendant qu’une pression est effectuée sur le contenu, mais reprend une fois la pression relâchée) ne sont pas considérés comme des procédés conformes.
+- Dans certains cas, le mouvement ne peut pas être arrêté, par exemple, une barre de progression, dans ce cas, le critère est non applicable.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -2537,7 +2511,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### iOS et Android
 
-1. Repérer la présence d’une documentation d’application ou accessible depuis l’application.
+1. Repérer la présence d’une documentation dans l’application ou accessible depuis l’application.
 1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
 1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
 1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
@@ -2747,7 +2721,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - **[Test 14.3.1](#test-14-3-1)&nbsp;:** La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-14-3-1"}
 - **[Test 14.3.2](#test-14-3-2)&nbsp;:** La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-14-3-2"}
 - **[Test 14.3.3](#test-14-3-3)&nbsp;:** La documentation fournie par le service d’assistance dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-14-3-3"}
-- **[Test 14.3.4](#test-14-3-4)&nbsp;:** La documentation fournie par le service d’assistance dans une application mobile est-elle conforme auRAAM&nbsp;?  {id="test-14-3-4"}
+- **[Test 14.3.4](#test-14-3-4)&nbsp;:** La documentation fournie par le service d’assistance dans une application mobile est-elle conforme au RAAM&nbsp;?  {id="test-14-3-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2942,7 +2916,7 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 	- sinon, réaliser des gestes devant la caméra (voir note) et vérifier l’affichage automatique d’une information permettant d’identifier cette activité visuelle.
 1. Si c’est le cas, le test est validé. 
 
-Note&nbsp;: dans les applications de communication, l’identification d’une activité orale ne repose pas sur l’identification d’un message verbal intelligible (mot ou phrase par exemple) mais uniquement sur l’identification d’un son (un bruit par exemple). Ainsi, une activité visuelle, même si elle ne correspond pas à un élément compréhensible en langue des signes, pourrait être détectée automatiquement par cette application et servirait donc comme mécanisme pour identifier l’activité d’une personne signante. Il est donc possible de tester en réalisant des gestes même s’ils ne correspondent pas à un élément de sens en langue des signes.
+Note&nbsp;: dans les applications de communication, l’identification d’une activité orale ne repose pas sur l’identification d’un message verbal intelligible (mot ou phrase par exemple), mais uniquement sur l’identification d’un son (un bruit par exemple). Ainsi, une activité visuelle, même si elle ne correspond pas à un élément compréhensible en langue des signes, pourrait être détectée automatiquement par cette application et servirait donc comme mécanisme pour identifier l’activité d’une personne signante. Il est donc possible de tester en réalisant des gestes même s’ils ne correspondent pas à un élément de sens en langue des signes.
 
 ##### Correspondances {class="disclosure mapping"}
 

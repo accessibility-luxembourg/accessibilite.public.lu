@@ -134,7 +134,7 @@ Cela concerne, à la fois, la technologie, ses fonctionnalités et ses usages&nb
 
 Un composant d’interface est un élément avec lequel l’utilisateur peut interagir, par exemple un bouton, un lien, une zone de saisie. Certains composants peuvent être plus complexes comme un menu, une fenêtre de dialogue, un système d’onglets. Enfin un composant d’interface peut être basé sur des éléments natifs du langage de la plateforme ou développés de toutes pièces.
 
-Note&nbsp;: Les composants d’interface natifs HTML ne se retrouvent pas tous dans les langages de développement d’applications mobiles. Par exemple, les boutons radio ou les cases à cocher n’existent pas en tant que tels pour les applications développées pour iOS. Il s’agira alors pour les développeurs d’utiliser les composants disponibles dans les langages de développement les plus adaptés pour remplir une fonction similaire. Pour reproduire ce qui serait une liste de boutons radio, il est possible par exemple d’utiliser des listes de boutons associés à un état sélectionné ou non sélectionné. Ainsi, lors des tests qui seront réalisés au lecteur d’écran, il est possible que le rôle annoncé ne corresponde pas au rôle figuré par l’interface (par exemple, un bouton qui aurait l’apparence d’un bouton radio). Néanmoins, si le rôle et l’état du composant sont pertinents et accessibles aux technologies d’assistance, alors le critère sera considéré conforme pour ce composant.
+Note&nbsp;: Les composants d’interface natifs HTML ne se retrouvent pas tous dans les langages de développement d’applications mobiles. Par exemple, les boutons radio ou les cases à cocher n’existent pas en tant que tels pour les applications développées pour iOS. Il s’agira alors pour les développeurs d’utiliser les composants les plus adaptés disponibles dans les langages de développement pour remplir une fonction similaire. Pour reproduire ce qui serait une liste de boutons radio, il est possible par exemple d’utiliser des listes de boutons associés à un état sélectionné ou non sélectionné. Ainsi, lors des tests qui seront réalisés au lecteur d’écran, il est possible que le rôle annoncé ne corresponde pas au rôle figuré par l’interface (par exemple, un bouton qui aurait l’apparence d’un bouton radio). Néanmoins, si le rôle et l’état du composant sont pertinents et accessibles aux technologies d’assistance, alors le critère sera considéré conforme pour ce composant.
 
 #### Composant dont la nature n’est pas évidente
 
@@ -228,13 +228,13 @@ Les plateformes disposent de contrôles natifs, par exemple un *color picker*{la
 
 Couleur directement en contact avec les couleurs du composant ou de l’élément graphique, cela peut être la couleur d’arrière-plan ou toute autre couleur en jonction directe.
 
-**Exemple&nbsp;:** dans un panneau de «&nbsp;sens interdit&nbsp;» le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.
+**Exemple&nbsp;:** dans un panneau de «&nbsp;sens interdit&nbsp;», le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.
 
 Il est important de comprendre que le [critère 2.3](referentiel-technique.md#crit-2-3) sur les contrastes des composants d’interfaces et des éléments graphiques évalue uniquement les éléments **non textuels**. Dès qu’il s’agira d’évaluer le contraste d’un texte, même s’il est présent dans un composant d’interface, c’est le [critère 2.2](referentiel-technique.md#crit-2-2) qui s’applique.
 
 Toutes les couleurs d’un élément graphique ou d’un composant d’interface ne sont pas à évaluer. Il est essentiel d’évaluer&nbsp;: 
 - **Les mises en couleur porteuses d’information** (toutes les mises en couleur ne sont pas porteuses d’information)&nbsp;: 
-	- Par exemple, dans le panneau de navigation d’une application, les boutons de navigation ont une couleur de fond grise, mais le bouton de l’écran actif a une couleur de fond verte. Il est nécessaire de vérifier que la couleur verte en jonction directe avec la couleur de fond grise, a un rapport de contraste de 3:1 au moins.
+	- Par exemple, dans le panneau de navigation d’une application, les boutons de navigation ont une couleur de fond grise, mais le bouton de l’écran actif a une couleur de fond verte. Il est nécessaire de vérifier que la couleur verte en jonction directe avec la couleur de fond grise a un rapport de contraste de 3:1 au moins.
 - **Les mises en couleur permettant d’identifier la localisation d’un élément ou les zones interactives**, par exemple&nbsp;: 
 	- La bordure d’un champ de formulaire, si celle-ci est le seul moyen d’identifier la localisation de l’interaction, doit avoir une couleur qui présente un rapport de contraste de 3:1 au moins avec la couleur adjacente, généralement la couleur de fond&nbsp;;
 	- Les bordures des cases à cocher et boutons radio, ainsi que leur état (sélectionné ou non). Il est essentiel ici d’évaluer le rapport de contraste de la bordure de ces composants avec les couleurs adjacentes (généralement la couleur de fond) mais également d’évaluer le rapport de contraste de ces composants lorsqu’ils sont sélectionnés. Il faut évaluer si l’élément visuel utilisé pour signifier la sélection a un rapport de contraste suffisant.
@@ -458,7 +458,7 @@ Les plateformes proposent aux utilisateurs plusieurs mécanismes de remplacement
 
 ##### Mécanismes de remplacement disponibles dans Android
 
-Il n’existe pas de mécanisme de remplacement dans Android équivalent à ceux d’iOS, ou qui soient suffisamment robuste.
+Il n’existe pas de mécanisme de remplacement dans Android équivalent à ceux d’iOS, ou qui soit suffisamment robuste.
 
 Le mécanisme de remplacement disponible sur Android (&laquo;&nbsp;**Texte avec contraste élevé**&nbsp;&raquo;) est encore expérimental. Son utilisation n’est pour l’instant pas recommandée.
 
