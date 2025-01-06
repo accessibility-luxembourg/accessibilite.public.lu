@@ -261,39 +261,11 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   function singleMDGlossary(data, __) {
     const dom = new JSDOM(data);
     const document = dom.window.document;
-
     const mainDiv = document.getElementById("topics");
-    let mainFrame = document.createElement('div');
-    let tagsToFetch = ["H5", "UL", "P"];
     let els = mainDiv.querySelectorAll('h4'); 
     els.forEach(el => {
-        let dl = document.createElement("dl");
-        const dlLink = ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
-        addelt(document, "dt", dl, el.innerHTML + dlLink, ["id", "class"], [el.id, "glossary"]);
-        addelt(document, "dd", dl);
-        while (el.nextElementSibling && tagsToFetch.includes(el.nextElementSibling.nodeName)) {
-            el.nextElementSibling.setAttribute("class", "glossary");
-            dl.lastChild.append(el.nextElementSibling);
-        }
-        mainFrame.append(dl);
+        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
     });
-    // remettre l'alphabet
-    let firstLetter = '-';
-    let entries = mainFrame.querySelectorAll('dl');
-    entries.forEach(el => {
-        // on extrait la première lettre et on enlève les accents (ex: É devient E)
-        let letter = el.textContent.charAt(0).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        if (letter !== firstLetter) {
-            firstLetter = letter;
-            let alphaKey = document.createElement("h3");
-            alphaKey.setAttribute('id', firstLetter);
-            alphaKey.innerHTML = firstLetter.toUpperCase();
-            mainFrame.insertBefore(alphaKey, el)
-        }
-    });
-    mainDiv.remove();
-    mainFrame.setAttribute('id', 'topics');
-    document.getElementById("contenu").append(mainFrame);
     return dom.serialize();
   }
 
