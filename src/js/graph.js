@@ -1,6 +1,6 @@
 let Highcharts_translations = {};
 
-let chart_lang = document.querySelector('html').getAttribute('lang');
+let chart_lang = document.querySelector('html').getAttribute('lang').substring(0,2);
 
 if (chart_lang == "fr") {
     Highcharts_translations =  {
