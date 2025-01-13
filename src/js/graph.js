@@ -148,7 +148,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
     const ch_height = document.getElementById(ch_dest).getBoundingClientRect().height;
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let newSkipLink = "Passer à la description du graphique";
-    if (document.querySelector('html').getAttribute('lang') === "en") {newSkipLink = "Skip to the chart description";}
+    if (document.querySelector('html').getAttribute('lang').substring(0,2) === "en") {newSkipLink = "Skip to the chart description";}
 
     const chart = highcharts.chart(ch_dest, {
         chart: {
@@ -163,6 +163,9 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
                     setTimeout(() => {
                         document.querySelectorAll('.highcharts-a11y-proxy-button').forEach((button) => {
                             button.style.top = 0;
+                        });
+                        document.querySelectorAll('.highcharts-subtitle').forEach((elt) => {
+                            elt.ariaHidden = "false";
                         });
                     }, 250);
                 }
