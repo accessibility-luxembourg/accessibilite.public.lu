@@ -143,8 +143,8 @@ function obCallback (loadchart) {
 
 
 function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_stacking, ch_heading=3) {
-    //replaceTableDesc(highcharts,ch_dest);
-    //highcharts.AST.allowedAttributes.push('onfocus', 'onclick', 'onblur');
+    replaceTableDesc(highcharts,ch_dest);
+    highcharts.AST.allowedAttributes.push('onfocus', 'onclick', 'onblur');
     const ch_height = document.getElementById(ch_dest).getBoundingClientRect().height;
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let newSkipLink = "Passer à la description du graphique";
@@ -162,7 +162,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
                     // /fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles
                     setTimeout(() => {
                         document.querySelectorAll('.highcharts-a11y-proxy-button').forEach((button) => {
-                            //button.style.top = 0;
+                            button.style.top = 0;
                         });
                     }, 250);
                 }
@@ -252,7 +252,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
             }
         },
         exporting: {
-            enabled: true, // désactive le menu burger
+            enabled: false, // désactive le menu burger
             showTable: true
         }
     });
