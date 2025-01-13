@@ -25,7 +25,8 @@ const graph_translations = {
             "title": "Graphique 2. Contrôle simplifié des sites Web, scores moyens de conformité par niveau administratif, comparaison des campagnes 2020 - 2021 et 2022 - 2024"
         },
         "complaints": {
-            "title": "Graphique 3. Nombre de réclamations par thème, de 2022 à 2024"
+            "title": "Graphique 3. Nombre de réclamations par thème, de 2022 à 2024",
+            "name": "Réclamations"
         }
     },
     "en": {
@@ -41,7 +42,8 @@ const graph_translations = {
             "title": "Graph 2. Simplified monitoring of websites, average compliance scores by administrative level, comparison between 2020 - 2021 and 2022 - 2024 campaigns"
         },
         "complaints": {
-            "title": "Graph 3. Number of complaints by theme, from 2022 to 2024"
+            "title": "Graph 3. Number of complaints by theme, from 2022 to 2024",
+            "name": "Complaints"
         }
     }
 }
@@ -104,7 +106,7 @@ function loadchart (chartid) {                                                  
                 complete: results => {
                     let c_x = {
                         categories: Graph.get_cat(results.data, 'Level'),
-                        title: {text: graph_translations[Graph.chart_lang].reasons, x: -100}
+                        title: {text: graph_translations[Graph.chart_lang].admin_level, x: -100}
                     };
                     let c_y = {
                         title: {
@@ -145,7 +147,7 @@ function loadchart (chartid) {                                                  
                         Highcharts,
                         graph_translations[Graph.chart_lang].complaints.title, 
                         "complaints", 
-                        [{data: Graph.get_num(results.data, 'Complaints'), name: "Réclamations"}],
+                        [{data: Graph.get_num(results.data, 'Complaints'), name: graph_translations[Graph.chart_lang].complaints.name}],
                         'bar', 
                         "", 
                         c_x, 
