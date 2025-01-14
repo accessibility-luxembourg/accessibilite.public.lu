@@ -73,13 +73,13 @@
             <strong>fully compliant</strong> with the European Standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a><% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Web Accessibility Assessment Framework (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Mobile App Accessibility Assessment Framework (RAAM) version 1</a>
             <% } %>            
             implementing it.
         <% } else if (conformity == 'partial') { %>
@@ -87,13 +87,13 @@
             <% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Web Accessibility Assessment Framework (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/" hreflang="<%= (disable_en)?'fr':'en' %>">the Mobile App Accessibility Assessment Framework (RAAM) version 1</a>
             <% } %>            
             , due to the reasons listed below.
         <% } else { %>
@@ -101,13 +101,13 @@
             <% if (sites.length != 0 && apps.length !=0) { %>,<% } else { %> and <% } %>
             
             <% if (sites.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raweb1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Web Accessibility Assessment Framework (RAWeb) version 1</a>
             <% } %>
             <% if (sites.length != 0 && apps.length !=0) { %>
                 and
             <% } %>
             <% if (apps.length != 0 ) { %>
-                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Framework for Assessing the Accessibility of Mobile Applications (RAAM) version 1</a>
+                <a href="https://accessibilite.public.lu/<%= (disable_en)?'fr':'en' %>/raam1/"  hreflang="<%= (disable_en)?'fr':'en' %>">the Mobile App Accessibility Assessment Framework (RAAM) version 1</a>
             <% } %>            
             . The reasons for this non-compliance are listed below.
         <% } %>
@@ -233,7 +233,7 @@
         <p>Our employees have the knowledge and skills required to correctly apply the Internet guidelines.</p>
     <% } %>    
     <h<%= title_level+1 %>>Feedback and contact information</h<%= title_level+1 %>>
-    <p class="basic-information feedback h-card">If you notice a lack of accessibility, send us an email to <a class="email u-email" href="mailto:<%= email %>"><%= email %></a>: describe your problem and specify the page on which it occured.
+    <p class="basic-information feedback h-card">If you notice a lack of accessibility, send us an email to <a class="email u-email" href="mailto:<%= email %>"><%= email %></a>: describe your problem and specify the page on which it occurred.
         We commit to replying to you within 1 month. Within reasonable limits, the correction of the accessibility issue will preferably be carried out online such as to remedy the problem in a sustainable way.
 
         Should this not be possible, the information you requested can be made available to you in an accessible format of your choice:</p>

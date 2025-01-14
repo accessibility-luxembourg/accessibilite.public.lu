@@ -3,7 +3,7 @@ teaser: 2025-01-multilingue-teaser.jpg
 auteur: Dominique Nauroy
 ---
  <hgroup> <h1>Finally! The digital accessibility portal available in English</h1> 
- <p>Long requested, the multilingual version of our portal is finally available</p>
+ <p>Long requested, the multilingual version of our portal is finally online</p>
 </hgroup>
 <hr>
 <div class="intro"> 

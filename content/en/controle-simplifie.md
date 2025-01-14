@@ -12,10 +12,7 @@ The testing method can be carried out without the following tools. However, impl
 These tools are free and open source, or based on open source technologies.
 
 #### Document templates 
-Here are the document templates for carrying out a simplified audit.
-
-- [Audit report template](../files/template-rapport-audit-simplifie.docx "Simplified audit report template, Docx format (21 Kb)"), Docx format (21 Kb)
-- [Audit grid](../files/template-grille-audit-simplifie.xlsx "Simplified audit grid template, Xlsx format (81 Kb)"), Xlsx format (81 Kb)
+To carry out a simplified audit, the [audit grid](../files/template-grille-audit-simplifie.xlsx "Simplified audit grid template, Xlsx format (81 Kb)"), Xlsx format (81 Kb) can be used.
 
 #### Definition of the sample of pages
 The sample of pages to be tested is 3 pages. We recommend the following three pages:
