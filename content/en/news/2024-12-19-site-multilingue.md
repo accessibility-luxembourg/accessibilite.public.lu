@@ -2,7 +2,7 @@
 teaser: 2024-12-multilingue-teaser.jpg
 auteur: Dominique Nauroy
 ---
- <hgroup> <h1>Finally! The digital access portal available in English</h1> 
+ <hgroup> <h1>Finally! The digital accessibility portal available in English</h1> 
  <p>Long requested, the multilingual version of our portal is finally available</p>
 </hgroup>
 <hr>
