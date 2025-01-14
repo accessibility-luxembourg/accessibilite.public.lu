@@ -37,7 +37,7 @@ The CONTRACT HOLDER must undertake to do everything necessary to achieve this le
 
 #### Minimum requirements
 
-Taking into account the characteristics of the project as defined in this contract, the CONTRACTOR must ensure that the developments, content and features present a level of compliance at least equal to 80%.
+Taking into account the characteristics of the project as defined in this contract, the CONTRACT HOLDER must ensure that the developments, content and features present a level of compliance at least equal to 80%.
 
 This minimum requirement does not replace the requirement linked to the legal level (i.e. a compliance rate of 100%), but constitutes the threshold below which a failure on the part of the service provider could be observed.
 
@@ -45,7 +45,7 @@ This minimum requirement concerns all the functions and content developed by the
 
 This minimum level of requirement does not apply to content produced by the ORGANISATION's own teams or to [content that may be subject to exemptions](https://accessibilite.public.lu/en/obligations.html#exempt-content) as defined by law.
 
-For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/en/obligations.html#derogation-for-disproportionate-burden) for the CONTRACT HOLDER, any derogation for disproportionate burden must be validated by the ORGANIZATION.
+For any non-compliant functionality or content for which compliance may represent a [disproportionate burden](https://accessibilite.public.lu/en/obligations.html#derogation-for-disproportionate-burden) for the CONTRACT HOLDER, any derogation for disproportionate burden must be validated by the ORGANISATION.
 
 #### Verification
 
@@ -63,7 +63,7 @@ In this case, the service provider will be the technical contact with the CONTRA
 
 #### Response elements
 
-Candidates must provide all the necessary information within the framework of this contract, indicating precisely the methodology, processes and resources put in place to meet these requirements.
+Candidates must provide all the necessary information within the framework of this contract, precisely indicating the methodology, processes and resources put in place to meet these requirements.
 
 Particular attention will be paid to the methodology and processes put in place to guarantee the conformity of the developments, content and features presented for delivery; this may include, for example (non-exhaustive list):
 

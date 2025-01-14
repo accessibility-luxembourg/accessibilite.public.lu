@@ -1,15 +1,15 @@
 ---
-teaser: 2024-12-multilingue-teaser.jpg
+teaser: 2025-01-multilingue-teaser.jpg
 auteur: Dominique Nauroy
 ---
- <hgroup> <h1>Finally! The digital access portal available in English</h1> 
+ <hgroup> <h1>Finally! The digital accessibility portal available in English</h1> 
  <p>Long requested, the multilingual version of our portal is finally available</p>
 </hgroup>
 <hr>
 <div class="intro"> 
     <p>For the frameworks, and in particular the RAWeb, derived from the French RGAA, the exercise consisted in taking up, as much as possible, the terminologies present in WCAG and in the European standard, in order to give the auditors, already familiar with these tools, frameworks, equipped with tests and concrete methodologies, relating to known universes.</p>
 </div>
-<figure role="group" aria-label="Photo: © Getty Images / istockphoto.com / 1001gece" class="pic"> <img src="../../../../content/fr/news/img/2024-12-multilingue.jpg" alt="Closeup of English dictionary page with word ACCESSIBLE"> <figcaption>Photo&nbsp;: © Getty Images / istockphoto.com / 1001gece</figcaption>
+<figure role="group" aria-label="Photo: © Getty Images / istockphoto.com / 1001gece" class="pic"> <img src="../../../../content/fr/news/img/2025-01-multilingue.jpg" alt="Closeup of English dictionary page with word ACCESSIBLE"> <figcaption>Photo&nbsp;: © Getty Images / istockphoto.com / 1001gece</figcaption>
 </figure>
 <p>We have taken the greatest care in proofreading frameworks, news articles and other content available on this site. This work is notably the fruit of a valuable collaboration with the teams of the Information and Press Service. Of course, we remain at your disposal if you think that a translation could be improved, by letting you suggest to us which English term, which expression borrowed from the language of Shakespeare could be more suitable.</p>
 <h2>How to contact us?</h2>

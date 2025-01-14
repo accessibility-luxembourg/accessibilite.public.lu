@@ -10,7 +10,6 @@ fi
 branch=$(git rev-parse --abbrev-ref HEAD)
 if [ $branch == "prod" ]; then
     export NODE_ENV="production";
-    export DISABLE_EN="true";
 fi
 #export NODE_ENV="production"
 
