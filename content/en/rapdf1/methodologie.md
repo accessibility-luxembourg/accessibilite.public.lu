@@ -7,7 +7,7 @@ For example, when the interface contains a graphic element conveying information
 
 ### Example resources
 
-[Examples (zip file, 9.24 MB)](../files/ressources-rapdf1.zip) are available to illustrate the testing methodology. Each criterion is illustrated by a screen shot taken from the PAC 2024 tool.
+[Examples (zip file, 9.24 MB, in French)](/fr/files/ressources-rapdf1.zip) are available to illustrate the testing methodology. Each criterion is illustrated by a screen shot taken from the PAC 2024 tool.
 
 
 ### Assessment tools
