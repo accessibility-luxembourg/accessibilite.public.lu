@@ -11,7 +11,7 @@ const lang = [
     {"name": "luxembourgeois", "code": "lb"}
 ]
 
-const pgLang = document.documentElement.lang;
+const pgLang = document.documentElement.lang.substring(0,2);
 
 let errorMsg = [];
 errorMsg["fr"] = {

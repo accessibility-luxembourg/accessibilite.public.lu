@@ -43,7 +43,7 @@ function getMessage(code, messages) {
 function newUserRequest () {
     const data = {
         "sip_email": document.getElementById('sip_email').value,
-        'lang': document.documentElement.lang
+        'lang': document.documentElement.lang.substring(0,2)
     }
     fetch('/api/1/contact_create', {
             method: 'POST',
