@@ -31,7 +31,7 @@ errorMsg["fr"] = {
 errorMsg["en"] = {
     pgTitle : "Your statement - Digital accessibility portal",
     altPgTitle : "Create your statement - Digital accessibility portal",
-    mainTitle : "Votre déclaration",
+    mainTitle : "Your statement",
     altMainTitle : "Create your statement",
     erLang : "Please select at least one language",
     erField : "Please fill in this field",
