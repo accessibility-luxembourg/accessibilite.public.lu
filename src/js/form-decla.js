@@ -11,7 +11,7 @@ const lang = [
     {"name": "luxembourgeois", "code": "lb"}
 ]
 
-const pgLang = document.documentElement.lang;
+const pgLang = document.documentElement.lang.substring(0,2);
 
 let errorMsg = [];
 errorMsg["fr"] = {
@@ -31,7 +31,7 @@ errorMsg["fr"] = {
 errorMsg["en"] = {
     pgTitle : "Your statement - Digital accessibility portal",
     altPgTitle : "Create your statement - Digital accessibility portal",
-    mainTitle : "Votre déclaration",
+    mainTitle : "Your statement",
     altMainTitle : "Create your statement",
     erLang : "Please select at least one language",
     erField : "Please fill in this field",

@@ -16,11 +16,11 @@
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
         let rawebonlyClass = "rawebOnly";
         let rawebonlyData = 'data-rawebOnly="true"';
-        let rawebCriterion = "nouveau critère RAWeb";
+        let rawebCriterion = __("New RAWeb Criterion");
         if (crit.criterium.references[0].wcag !== undefined && crit.criterium.references[0].wcag.length !== 0) {
             rawebonlyClass = '';
             rawebonlyData = '';
-            rawebCriterion = "critère";
+            rawebCriterion = __("Criterion");
         }
         if (crit.criterium.references[0].wcag == undefined) {'rawebOnly'}
 %>
