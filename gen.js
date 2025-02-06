@@ -25,9 +25,13 @@ langs.forEach(lang => {
     // generate from all Markdown files
 
     const __ = y18n({locale: lang, directory: './locales'}).__;
-    const currentFramework = '<a href=\"../raweb1/index.html\">RAWeb1</a>'
-    const revisionNotesURL = '../raweb1/notes-revision.html'
-    const deprecationMessage = __`<strong>This page is obsolete: </strong> please consult the equivalent page of ${currentFramework}. <br />For more information, we invite you to read <a href=\"${revisionNotesURL}\">revision notes</a>.`
+    let deprecation = config[lang].deprecation
+    for (const pattern in deprecation) {
+        const currentFramework = deprecation[pattern][0]
+        const changelogURL = deprecation[pattern][1]
+        deprecation[pattern] = __`<strong>This page is obsolete: </strong> please consult the equivalent page of ${currentFramework}. <br />For more information, we invite you to read <a href=\"${changelogURL}\">changelog</a>.`
+    }
+    
     const level1 = config[lang].mainMenu.concat(config[lang].footer).concat(config[lang].hidden).filter(e => e.md !== undefined)
     const level2 = config[lang].mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
     let md = level1.concat(level2)
@@ -43,20 +47,35 @@ langs.forEach(lang => {
         const deprecated = rawDeprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => e.md !== undefined)
 
         deprecated.forEach(e => { 
+            const deprecationMessage = lib.getDeprecationMessage(deprecation, e.name)
             lib.renderWithSummary(config, lib.genericMarkdownIt(e).render(fs.readFileSync(e.md).toString()), e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, __, deprecationMessage)          
         })
     } 
 
     // generate criteria and glossary
-    const critLevel1 = config[lang].mainMenu.concat(rawDeprecated).filter(e => ["criteres", "glossaire"].includes(e.type) )
-    const critLevel2 = config[lang].mainMenu.concat(rawDeprecated).filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => ["criteres", "glossaire"].includes(e.type) )
+    const critLevel1 = config[lang].mainMenu.filter(e => ["criteres", "glossaire"].includes(e.type) )
+    const critLevel2 = config[lang].mainMenu.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => ["criteres", "glossaire"].includes(e.type) )
     let crit = critLevel1.concat(critLevel2)
 
     crit.forEach(e => {
         if (e.genSummary !== undefined) {
-            lib.genFileWithSummary(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, __, (e.deprecation !== undefined)?e.deprecation:'') 
+            lib.genFileWithSummary(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, __) 
         } else {
-            lib.genFile(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, __, false, (e.deprecation !== undefined)?e.deprecation:'') 
+            lib.genFile(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, __, false) 
+        }
+    })
+
+    // generate deprecated criteria and glossary
+    const dCritLevel1 = rawDeprecated.filter(e => ["criteres", "glossaire"].includes(e.type) )
+    const dCritLevel2 = rawDeprecated.filter(e => (e.children !== undefined)).flatMap(e => e.children).filter(e => ["criteres", "glossaire"].includes(e.type) )
+    let dCrit = dCritLevel1.concat(dCritLevel2)
+
+    dCrit.forEach(e => {
+        const deprecationMessage = lib.getDeprecationMessage(deprecation, e.name)
+        if (e.genSummary !== undefined) {
+            lib.genFileWithSummary(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, e.genSummary, e.summaryTitle, __, deprecationMessage) 
+        } else {
+            lib.genFile(config, './src/tpl/'+e.template, e.data, e.title, lang, outputPath+'/'+lang+'/'+e.name+'.html', e.name, e.prefix, __, false, deprecationMessage) 
         }
     })
 

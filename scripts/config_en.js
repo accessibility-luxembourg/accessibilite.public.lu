@@ -20,6 +20,10 @@ const config = {
         {"name": "english", "code": "en"},
         {"name": "luxembourgish", "code": "lb"}
     ],
+    "deprecation": {
+        "rgaa": ["<a href=\"../raweb1/index.html\">RAWeb 1</a>", "../raweb1/notes-revision.html"],
+        "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
+    },
     "mainMenu": [
         {
             "title": "Home",

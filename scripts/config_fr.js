@@ -3,9 +3,6 @@ const lib = require('./common.js')
 const axeRgaa = require('./AxeRGAAmsg.json')
 const fs = require('fs')
 
-const deprecationMessage = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raweb1/index.html">RAWeb1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raweb1/notes-revision.html">notes de révision</a>.'
-const deprecationMessageRAAM = '<strong>Cette page est obsolète : </strong> veuillez consulter la page équivalente du <a href="../raam1.1/index.html">RAAM 1.1</a>. <br />Pour plus d\'informations, nous vous invitons à prendre connaissance des <a href="../raam1.1/notes-revision.html">notes de révision</a>.'
-
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
 const niveauxRAWeb1 = require('../content/fr/raweb1/niveaux.json')
 const dataRAWeb1 = {topics: criteresRAWeb1.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
@@ -38,6 +35,10 @@ const config = {
         {"name": "anglais", "code": "en"},
         {"name": "luxembourgeois", "code": "lb"}
     ],
+    "deprecation": {
+        "rgaa": ["<a href=\"../raweb1/index.html\">RAWeb 1</a>", "../raweb1/notes-revision.html"],
+        "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
+    },
     "mainMenu": [
         {
             "title": "Accueil",
@@ -428,8 +429,7 @@ const config = {
                     "data": data412,
                     "prefix": "../../..",
                     "genSummary": "ol",
-                    "summaryTitle": "Thématiques",
-                    "deprecation": deprecationMessage
+                    "summaryTitle": "Thématiques"
                 },
                 {
                     "title": "RGAA 4.1.2 : Glossaire",
@@ -440,8 +440,7 @@ const config = {
                     "data": glossary412,
                     "prefix": "../../..",
                     "genSummary": "ul",
-                    "summaryTitle": "Index",
-                    "deprecation": deprecationMessage
+                    "summaryTitle": "Index"
                 }, 
                 {
                     "title": "RGAA 4.1.2 : Méthodologie de test",
@@ -495,8 +494,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria.ejs", 
                     "data": data40,
-                    "prefix": "../../..",
-                    "deprecation": deprecationMessage
+                    "prefix": "../../.."
                 },
                 {
                     "title": "RGAA 4 : Glossaire",
@@ -505,8 +503,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary.ejs", 
                     "data": dataGlossary40,
-                    "prefix": "../../..",
-                    "deprecation": deprecationMessage
+                    "prefix": "../../.."
                 }, 
                 {
                     "title": "RGAA 4 : Environnement de test",
@@ -559,8 +556,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria.ejs", 
                     "data": data41,
-                    "prefix": "../../..",
-                    "deprecation": deprecationMessage
+                    "prefix": "../../.."
                 },
                 {
                     "title": "RGAA 4.1 : Glossaire",
@@ -569,8 +565,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary.ejs", 
                     "data": dataGlossary41,
-                    "prefix": "../../..",
-                    "deprecation": deprecationMessage
+                    "prefix": "../../.."
                 }, 
                 {
                     "title": "RGAA 4.1 : Méthodologie de test",
@@ -626,8 +621,7 @@ const config = {
                     "html": true, 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
-                    "summaryTitle": "Thématiques",
-                    "deprecation": deprecationMessageRAAM
+                    "summaryTitle": "Thématiques"
                 }, 
                 {
                     "title": "RAAM 1 : Glossaire",
@@ -638,8 +632,7 @@ const config = {
                     "html": true,                    
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
-                    "summaryTitle": "Index",
-                    "deprecation": deprecationMessageRAAM
+                    "summaryTitle": "Index"
                 },                          
                 {
                     "title": "RAAM 1 : Méthodologie de test",
