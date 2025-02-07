@@ -259,14 +259,22 @@ const config = {
                     "md": "./content/en/raam1.1/environnement.md",
                     "html": true,
                     "prefix": "../../.."
-                },  
+                },
+                {
+                    "title": "RAAM 1.1 : Changelog",
+                    "menu": "Changelog",
+                    "name": "raam1.1/notes-revision",
+                    "html": true,
+                    "md": "./content/en/raam1.1/notes-de-revision.md", 
+                    "prefix": "../../.."
+                },                    
                 {
                     "title": "RAAM 1.1: References",
                     "menu": "References",
                     "name": "raam1.1/references",
                     "md": "./content/en/raam1.1/references.md",
                     "prefix": "../../.." 
-                }
+                }, 
             ]
         },
         {
