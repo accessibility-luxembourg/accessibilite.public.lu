@@ -1699,6 +1699,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name), [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03): *11.2.5.3.1 Label in Name (A)*, *11.4.1.2.1 Name, role, value (A)*, *11.5.2.5 Object information*, *11.5.2.8 Label relationships*.
+- APPT: [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3), [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2).
 
 #### [Criterion 9.6](#crit-9-6) [A] In each form, are the [related form controls](glossaire.md#related-form-controls) identified, if necessary? {id="crit-9-6"}
 
@@ -1721,6 +1722,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2).
 
 #### [Criterion 9.7](#crit-9-7) [A] Are the mandatory form fields correctly identified (excluding special cases)? {id="crit-9-7"}
 
@@ -1744,17 +1746,19 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Validate the form without entering any data in order to identify the mandatory fields.
 1. For each mandatory field, check that
 	- the information rendered by the screen reader when focused on the field contains the required nature;
-	- a visible text near the field indicates that the form field is mandatory.
+	- a [visible indication](glossaire.md#mandatory-field-indication) near the field indicates that the form field is mandatory.
+1. If the [visible indication](glossary.md#mandatory-field-indication) is made in a non-textual way (icon, '*', '!', etc.), the explanation of the meaning of this indication is placed visually, and in the reading order, before the first use of the indication.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
+- APPT: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2).
 
-#### [Criterion 9.8](#crit-9-8) [A] For each mandatory form field, is the expected data type and/or format available? {id="crit-9-8"}
+#### [Criterion 9.8](#crit-9-8) [A] For each form field expecting a specific [data type and/or format](glossaire.md#data-type-and-format), is the related information available? {id="crit-9-8"}
 
-**[Test 9.8.1](#test-9-8-1):** Does each mandatory form field meet these conditions? {id="test-9-8-1"}
+**[Test 9.8.1](#test-9-8-1):** Does each form field expecting a specific data type and/or format meet these conditions? {id="test-9-8-1"}
 - The data type and/or format is visible;
 - The data type and/or format is accessible to assistive technologies.
 
@@ -1774,6 +1778,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*. 
+- APPT: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2).
 
 #### [Criterion 9.9](#crit-9-9) [A] In each form, are input errors accessible? {id="crit-9-9"}
 
@@ -1797,6 +1802,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.1.1 Error Identification (A)*.
+- APPT: [Error Identification](https://appt.org/en/guidelines/wcag/success-criterion-3-3-1).
 
 #### [Criterion 9.10](#crit-9-10) [AA] In each form, is the [error management](glossaire.md#error-management-form) accompanied, if necessary, by suggestions of expected data types, formats or values? {id="crit-9-10"}
 
@@ -1818,6 +1824,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion). 
 - EN 301 549 V3.2.1 (2021-03): *11.3.3.3 Error Suggestion (AA)*. 
+- APPT: [Error Suggestion](https://appt.org/en/guidelines/wcag/success-criterion-3-3-3).
 
 #### [Criterion 9.11](#crit-9-11) [AA] For each form that modifies or deletes data, or transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or rendered by the user? {id="crit-9-11"} 
 
@@ -1828,7 +1835,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. Activate the **screen reader**.
 2. Fill in the form.
 3. For all data of a financial (e.g. income), legal (e.g. reference to an administrative act) or personal (e.g. telephone number) nature, for each form that transmits answers to a test or examination, check that the user can:
-	- modify or cancel data and carried out actions on that data while it is being entered (e.g. field entry and the browser's undo editing functionality are not disabled);
+	- [modify or cancel data and carried out actions](glossaire.md#modifying-or-cancelling-data-and-actions-taken) on that data while it is being entered (e.g. field entry and the platform's undo editing functionality are not disabled);
 	- or explicitly confirm the sending of this data via a dedicated mechanism (for example, a form field or an additional step).
 4. For each form that modifies or deletes data (for example, deleting a postal address), check that the user can
 	- retrieve the deleted data during input;
@@ -1839,6 +1846,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data). 
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*.
+- APPT: [Error Prevention (Legal, Financial, Data)](https://appt.org/en/guidelines/wcag/success-criterion-3-3-4).
 
 #### [Criterion 9.12](#crit-9-12) [AA] For each field that expects [personal user data](glossaire.md#personal-user-data), is input facilitated? {id="crit-9-12"}
 
@@ -1873,6 +1881,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [1.3.5 Identify input purpose (AA)](https://www.w3.org/TR/WCAG21/#identify-input-purpose)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.5.1 Identify Input Purpose (AA)*.
+- APPT: [Identify Input Purpose](https://appt.org/en/guidelines/wcag/success-criterion-1-3-5).
 
 ### [Topic 10](#topic-10): Navigation {id="topic-10"}
 
