@@ -282,5 +282,14 @@ function genRawFile(template, data, file) {
     });
 }
 
+function getDeprecationMessage(deprecation, name) {
+    for (const pattern in deprecation) {
+        if (name.match(new RegExp('^'+pattern+'.*'))) {
+            return deprecation[pattern]
+        }
+    }
+    return null
+}
 
-module.exports = {renderToFile, renderWithSummary, renderHome, slugify, slugifyDINUM, slugifyA42, slugifySC, tech2URL, langOnWCAG, langOnEUNormDeprecated, langOnEUNormFromWCAG, langOnEUNorm, mdCriteres, mdGlossary, genericMarkdownIt, isProd, genFile, genFileWithSummary, genRawFile}
+
+module.exports = {renderToFile, renderWithSummary, renderHome, slugify, slugifyDINUM, slugifyA42, slugifySC, tech2URL, langOnWCAG, langOnEUNormDeprecated, langOnEUNormFromWCAG, langOnEUNorm, mdCriteres, mdGlossary, genericMarkdownIt, isProd, genFile, genFileWithSummary, genRawFile, getDeprecationMessage}

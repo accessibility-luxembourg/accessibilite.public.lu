@@ -14,7 +14,7 @@
   "WCAG 2.1 success criteria": "Critères de succès WCAG 2.1",
   "Sufficient techniques and/or failures": "Techniques suffisantes et/ou échecs WCAG 2.1",
   "Axe rule": "Règle Axe",
-  "<strong>This page is obsolete: </strong> please consult the equivalent page of %s. <br />For more information, we invite you to read <a href=\"%s\">revision notes</a>.": "<strong>Cette page est obsolète: </strong>  veuillez consulter la page équivalente du %s. <br />Pour plus d'informations, nous vous invitons à prendre connaissance des <a href=\"%s\">notes de révision</a>.",
+  "<strong>This page is obsolete: </strong> please consult the equivalent page of %s. <br />For more information, we invite you to read <a href=\"%s\">changelog</a>.": "<strong>Cette page est obsolète: </strong>  veuillez consulter la page équivalente du %s. <br />Pour plus d'informations, nous vous invitons à prendre connaissance des <a href=\"%s\">notes de révision</a>.",
   "Digital accessibility portal": "Portail de l'accessibilité numérique",
   "Frameworks": "Référentiels",
   "This site is published by the <a href=\"%s\">Information and press service</a>. We use cookies to guarantee you better access to information by analyzing usage statistics. For more information, please consult our <a href=\"%s\">cookies policy</a>.": "Ce site est édité par le <a href=\"%s\">Service information et presse</a>. Nous utilisons des cookies pour vous garantir un meilleur accès à l’information via l'analyse des statistiques d'utilisation. Pour plus d’information, veuillez consulter notre <a href=\"%s\">charte des cookies</a>.",
