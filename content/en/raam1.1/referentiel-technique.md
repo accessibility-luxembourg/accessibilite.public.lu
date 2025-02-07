@@ -1,6 +1,6 @@
-**Warning:** For each criterion in the framework, an assessment methodology is proposed. It should be noted that this methodology has no normative value. It is intended to serve as a reference point for familiarising oneself with the standard, and to illustrate a potential evaluation method. However, it is acknowledged that other evaluation methods may exist. In addition, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. Finally, it is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criteria and the tests have normative value.
+**Warning:** For each criterion in the framework, an assessment methodology is proposed. It should be noted that this methodology has no normative value. It is intended to serve as a reference point for familiarising oneself with the standard, and to illustrate a potential evaluation method. However, it is acknowledged that other evaluation methods may exist. In addition, the presence of a methodology is no substitute for training, particularly in the use of evaluation tools (such as screen readers) or in understanding the challenges of digital accessibility in a mobile environment. The methodology also requires time to get to grips with before an effective and comprehensive audit can be carried out, and does not dispense with careful reading of the criteria themselves. Finally, the content of this methodology and these steps cannot be used as a basis in the event of a dispute. It is possible that errors will not be detected solely on the basis of this methodology. Only the content of the criteria and the tests have normative value.
 
-**Note concerning [web views](glossaire.md#web-views):** in applications, some screens (or all screens) are embedded web pages, also called [web views](glossaire.md#web-views). If the content of these web views is the responsibility of the application publisher, then they must comply with this framework in the same way as other screens in the application developed in a language specific to mobile applications. If these web views are not under the responsibility of the publisher, their content may be derogated from. Nevertheless, depending on the importance of the content for users, an alternative or means of compensation may be required.
+**Note concerning [web views](glossaire.md#web-views):** in applications, some screens (or all screens) are embedded web pages, also called [web views](glossaire.md#web-views). If the content of these web views is the responsibility of the application publisher, then they must comply with this framework in the same way as other screens in the application developed in a language specific to mobile applications. If these web views are not under the responsibility of the publisher, their content may be exempted. Nevertheless, depending on the importance of the content for users, an alternative or means of compensation may be required.
 
 ### [Topic 1](#topic-1): Graphic elements {id="topic-1"}
 
@@ -21,6 +21,7 @@
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) have an alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies)? {id="crit-1-2"}
 
@@ -39,6 +40,7 @@
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.3](#crit-1-3) [A] For each [graphic element conveying information](glossaire.md#graphic-element-conveying-information), is the alternative [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) relevant (excluding special cases)? {id="crit-1-3"}
 
@@ -63,6 +65,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.4](#crit-1-4) [A] For each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) or as a [test graphic element](glossaire.md#test-graphic-element), does the alternative rendered by the assistive technologies make it possible to identify the nature and function of the graphic element? {id="crit-1-4"}
 
@@ -79,6 +82,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criteria 1.5](#crit-1-5) [A] Does each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) have an alternative? {id="crit-1-5"}
 
@@ -100,6 +104,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.6](#crit-1-6) [A] Does each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-6"}
 
@@ -126,6 +131,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.7](#crit-1-7) [A] For each [graphic element conveying information](glossaire.md#graphic-element-conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-7"}
 
@@ -141,6 +147,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 1.8](#crit-1-8) [AA] Each [text graphic element](glossaire.md#text-graphic-element) conveying information, in the absence of a [replacement mechanism](glossaire.md#replacement-mechanism), must, if possible, be replaced by [styled text](glossaire.md#styled-text). Is this rule respected (excluding special cases)? {id="crit-1-8"}
 
@@ -166,6 +173,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.4.5 Images of Text (AA)](https://www.w3.org/TR/WCAG21/#images-of-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.5.1 Images of text*.
+- APPT: [Images of Text](https://appt.org/en/guidelines/wcag/success-criterion-1-4-5).
 
 #### [Criterion 1.9](#crit-1-9) [AA] Is each [graphic element with legend](glossaire.md#graphic-element-with-legend) correctly rendered by assistive technologies? {id="crit-1-9"}
 
@@ -182,6 +190,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content)
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
 
@@ -214,6 +223,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.1.4.1 Use of color*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1), [Use of Color](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1).
 
 #### [Criterion 2.2](#crit-2-2) [AA] On each screen, is the [contrast](glossaire.md#contrast) between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 
@@ -233,7 +243,7 @@ The criterion does not apply to the following elements:
 
 ###### iOS
 
-1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or if present in the application, activate the replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
+1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or if present in the application, activate the [replacement mechanism enabling the application to be displayed with a sufficient contrast ratio](glossaire.md#).
 1. Identify  on the screen the texts, the texts contained in graphic elements and the texts embedded in videos that could cause contrast problems.
 1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
 	- by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
@@ -263,6 +273,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.3 Contrast (Minimum)*, *11.7 User preferences*.
+- APPT: [Contrast (Minimum)](https://appt.org/en/guidelines/wcag/success-criterion-1-4-3).
 
 #### [Criterion 2.3](#crit-2-3) [AA] On each screen, are the colours used in the [user interface components](glossaire.md#user-interface-component) and the graphic elements conveying information sufficiently contrasted (excluding special cases)? {id="crit-2-3"}
 
@@ -288,7 +299,7 @@ The criterion does not apply to the following elements:
 
 ###### iOS
 
-1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or, if present in the application, activate the replacement mechanism enabling graphic elements to be displayed with a sufficient contrast ratio.
+1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or, if present in the application, activate the application's [replacement mechanism to display graphic elements with a sufficient contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio).
 1. Identify on the screen the graphic elements conveying information and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
@@ -305,7 +316,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#test
 
 ###### Android
 
-1. If it exists in the application, activate the application's replacement mechanism to display graphic elements with a sufficient contrast ratio.
+1. If it exists in the application, activate the application's [replacement mechanism to display graphic elements with a sufficient contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio).
 1. Identify on the screen the graphic element conveying informations and for each 
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed (this could be the border, the colour of an icon, the background colour);
 	- Identify the adjacent colours that have an impact on the visibility of the component colour(s).
@@ -324,6 +335,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 
 - WCAG 2.1 [1.4.11 Non-text contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.11 Non-text Contrast*, *11.7 User preference*.
+- APPT: [Non-text Contrast](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11).
 
 #### [Criterion 2.4](#crit-2-4) [AA] Is the contrast ratio of each [replacement mechanism for displaying a correct contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio) sufficiently high? {id="crit-2-4"}
 
@@ -332,7 +344,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 ###### iOS
 
 1. Check that the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) is deactivated.
-1. Check for the presence of a replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
+1. Check for the presence of a [replacement mechanism enabling the application to be displayed with a sufficient contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio).
 1. Check that it is not activated (i.e. the screen is displayed with the default contrast).
 1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device 
 	- either by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
@@ -348,7 +360,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 
 ###### Android
 
-1. Identify the presence of a replacement mechanism enabling the application to be displayed with a sufficient contrast ratio.
+1. Identify the presence of a [replacement mechanism enabling the application to be displayed with a sufficient contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio).
 1. Check that it is not activated (i.e. the screen is displayed with the default contrast).
 1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device  
 	- either by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
@@ -366,6 +378,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/TR/WCAG21/#contrast-minimum), [1.4.11 Non-text contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast)
 - EN 301 549 V3.2.1 (2021-03): *5.2 Activation of accessibility features*, *11.1.4.3 Contrast (Minimum)*, *11.1.4.11 Non-text Contrast*.
+- APPT: [Contrast (Minimum)](https://appt.org/en/guidelines/wcag/success-criterion-1-4-3){lang=en}, [Non-text Contrast](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11).
 
 ### [Topic 3](#topic-3): Multimedia {id="topic-3"}
 
@@ -395,6 +408,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1 [1.2.1 Audio only and video only (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or media alternative (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- APPT: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}, [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3).
 
 #### [Criterion 3.2](#crit-3-2) [A] For each pre-recorded audio-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [transcript](glossaire.md#transcript-time-based-media), is this transcript relevant (excluding special cases)? {id="crit-3-2"}
 
@@ -407,13 +421,14 @@ The criterion does not apply to the following elements:
 ###### iOS and Android
 
 1. Identify on the screen text transcripts of audio-only time-based media.
-1. Check that each text transcript is relevant (all important audio or visual information is present, including dialogue and embedded text).
+1. Check that each text transcript is relevant (all important audio information is present, including dialogue).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.1 Audio only and video only (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*.
+- APPT: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1).
 
 #### [Criterion 3.3](#crit-3-3) [A] Does each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-3"}
 
@@ -445,6 +460,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1 [1.2.1 Audio only and video only (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or media alternative (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- APPT: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1), [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3).
 
 #### [Criterion 3.4](#crit-3-4) [A] For each pre-recorded video-only [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-4"}
 
@@ -475,6 +491,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1 [1.2.1 Audio only and video only (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded), [1.2.3 Audio description or media alternative (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- APPT: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1), [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3).
 
 #### [Criterion 3.5](#crit-3-5) [A] Does each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, if necessary, an alternative (excluding special cases)? {id="crit-3-5}
 
@@ -503,6 +520,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.2.3 Audio description or media alternative (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- APPT: [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3).
 
 #### [Criterion 3.6](#crit-3-6) [A] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with an alternative, is the alternative relevant (excluding special cases)? {id="crit-3-6"}
 
@@ -530,18 +548,24 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.2.3 Audio description or media alternative (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded). 
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*.
+- APPT: [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3).
 
-#### [Criterion 3.7](#crit-3-7) [A] Does each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where appropriate, [synchronised captions](glossaire.md#synchronised-captions-media-object) (excluding special cases)? {id="crit-3-7}
+#### [Criterion 3.7](#crit-3-7) [A] Does each synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where appropriate, [synchronised captions](glossaire.md#synchronised-captions-media-object) (excluding special cases)? {id="crit-3-7}
+
+- **[Test 3.7.1](#test-3-7-1):** Does each pre-recorded time-based media have, if necessary, synchronised captions (excluding special cases)?{id="test-3-7-1"}
+- **[Test 3.7.2](#test-3-7-2):** Does each lived time-based media have, if necessary, synchronised captions (excluding special cases)?{id="test-3-7-2"}
 
 ##### Special cases
 
 [See special cases in criterion 3.1](#crit-3-1) 
 
+Live synchronised time-based media broadcast via a mobile application subject to the [law of 28 May 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) are exempt.
+
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify on the screen synchronised time-based media that require captions (i.e. where the soundtrack provides information, such as a person's speech).
+1. Identify on the screen pre-recorded synchronised time-based media and live synchronised time-based media that require captions (i.e. where the soundtrack provides information, such as a person's speech).
 1. Check
 	- that there are synchronised captions;
 	- or that there is an alternative version with synchronised captions accessible via an adjacent component (a button or a link).
@@ -551,27 +575,42 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.2.2 Captions (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.2 Captions (Prerecorded)*.
+- APPT: [Captions (Prerecorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2), [Captions (Live)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-4).
 
-#### [Criterion 3.8](#crit-3-8) [A] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant? {id="crit-3-8}
+#### [Criterion 3.8](#crit-3-8) [A] For each synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant (excluding special cases)? {id="crit-3-8}
 
-**[Test 3.8.1](#test-3-8-1):** For each pre-recorded synchronised time-based media with synchronised captions, do the captions meet these conditions? {id="test-3-8-1"}
+**[Test 3.8.1](#test-3-8-1):** For each pre-recorded synchronised time-based media with synchronised captions, do the captions meet these conditions (excluding special cases)? {id="test-3-8-1"}
+- Captions are in the language of the video;
 - Captions are relevant;
 - Captions are correctly synchronised.
+
+- **[Test 3.8.2](#test-3-8-2)** For each live synchronised time-based media with synchronised captions, do the captions meet these conditions (excluding special cases)?? {id="test-3-8-2"}
+- Captions are in the language of the video;
+- Captions are relevant;
+- Captions are correctly synchronised.
+
+##### Special cases
+
+[See special cases in criterion 3.1](#crit-3-1) 
+
+Live synchronised time-based media broadcast via a mobile application subject to the [law of 28 May 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) are exempt.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify synchronised time-based media with captions on the screen.
+1. Identify on the screen pre-recorded synchronised time-based media and live synchronised time-based media that require captions.
 1. Check that the captions are
 	- relevant (all important audio information is present, including dialogue);
+	- in the language of the video;
 	- correctly synchronised. If there is no delay between the spoken word and the appearance of the captions, the captions are correctly synchronised. The reference standard specifies that captions should appear within 100 ms of the [caption time stamp](glossaire.md#time-stamp).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [1.2.2 Captions (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*.
+- WCAG 2.1: [1.2.2 Captions (prerecorded) (A)](https://www.w3.org/TR/WCAG21/#captions-prerecorded), [1.2.4 Sous-titres (en direct) (AA)](https://www.w3.org/TR/WCAG21/#captions-live)
+- EN 301 549 V3.2.1 (2021-03): *7.1.2 Captioning synchronization*, *11.1.2.2 Captions (Prerecorded)*, *11.1.2.4 Captions (live)*.
+- APPT: [Captions (Prerecorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2), [Captions (Live)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-4).
 
 #### [Criterion 3.9](#crit-3-9) [AA] Does each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) (video only or synchronised) have, where appropriate, a [synchronised audio description](glossaire.md#audio-description-time-based-media) (excluding special cases)? {id="crit-3-9"}
 
@@ -593,6 +632,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.2.5 Audio description (prerecorded) (AA)](https://www.w3.org/TR/WCAG21/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03) *11.1.2.5 Audio description (prerecorded)*.
+- APPT: [Audio Description (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5).
 
 #### [Criterion 3.10](#crit-3-10) [AA] For each pre-recorded video-only or synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#audio-description-time-based-media), is the description relevant? {id="crit-3-10"}
 
@@ -610,12 +650,13 @@ The criterion does not apply to the following elements:
 	- correctly synchronised 
 		- the sounds and words of the audio description do not overlap with those of the original soundtrack to cause perception and comprehension problems; 
 		- the information conveyed in the audio description is given at the same time as the equivalent visual information appears.
-1. If this is the case, the criterion is met.
+1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.2.5 Audio description (prerecorded) (AA)](https://www.w3.org/TR/WCAG21/#audio-description-prerecorded)
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.5 Audio description (prerecorded)*.
+- APPT: [Audio Description (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5).
 
 #### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), does the adjacent text content clearly identify the time-based media (excluding special cases)?  {id="crit-3-11"}
 
@@ -637,6 +678,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.1.1.1 Non-text Content*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 3.12](#crit-3-12) [A] Is each automatically triggered sound sequence [controllable](glossaire.md#control-automatically-triggered-sound) by the user? {id="crit-3-12"}
 
@@ -644,6 +686,10 @@ The criterion does not apply when the time-based media is used for decorative pu
 - The sound sequence lasts 3 seconds or less;
 - The sound sequence can be stopped by the user;
 - The volume of the sound sequence can be controlled by the user independently of the system volume control.
+
+##### Note
+
+This criterion is subject to the [non-interference principle](methodologie.md#non-interference-principle).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -659,6 +705,7 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 - WCAG 2.1 [1.4.2 Audio control (A)](https://www.w3.org/TR/WCAG21/#audio-control)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
+- APPT: [Audio Control](https://appt.org/en/guidelines/wcag/success-criterion-1-4-2).
 
 #### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#viewing-control-time-based-media)?  {id="crit-3-13"}
 
@@ -679,23 +726,25 @@ The criterion does not apply when the time-based media is used for decorative pu
 
 ##### Mapping {class="disclosure mapping"}
 
-- WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard)
-- EN 301 549 V3.2.1 (2021-03): *7.1.1 Captioning playback*, *7.2.1 Audio description playback*, *11.2.1.1.1 Keyboard*.
+- WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.1.2 No Keyboard Trap (A)](https://www.w3.org/TR/WCAG21/#no-keyboard-trap)
+- EN 301 549 V3.2.1 (2021-03): *7.1.1 Captioning playback*, *7.2.1 Audio description playback*, *11.2.1.1.1 Keyboard*, *11.2.1.2 No Keyboard Trap*.
+- APPT: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1), [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2).
 
-#### [Criterion 3.14](#crit-3-14) [AA] For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control features presented at the same level as other [primary control](glossaire.md#primary-control-of-a-time-based-media) features? {id="crit-3-14"}
+#### [Criterion 3.14](#crit-3-14) [AA] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), that has [synchronised captions](glossaire.md#synchronised-captions-media-object) or [audio description](glossaire.md#audio-description-time-based-media), are the control features for these alternatives presented at the same level as other [primary features](glossaire.md#primary-features-of-a-time-based-media)? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1):** For each time-based media, do the alternative control features meet these conditions? {id="test-3-14-1"}
-- For each time-based media, the functionality that enables captions to be activated and deactivated is presented at the same level as the other primary control features;
-- For each time-based media, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other primary control features.
+**[Test 3.14.1](#test-3-14-1):** For each pre-recorded synchronised time-based media, that has synchronised captions or audio description, are the alternative control features presented at the same level as the main features? {id="test-3-14-1"}
+- For each time-based media, the functionality that enables captions to be activated and deactivated is presented at the same level as the other main control features;
+- For each time-based media, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other main control features.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify pre-recorded time-based media with an alternative (synchronised captions or audio description) on the screen.
-1. If captions are present, check that the functionality that enables captions to be activated and deactivated is presented at the same level as the other features (such as the playback functionality, for example), i.e. that it is not necessary to perform more actions to trigger captions than to trigger the other features. For example, if the play button can be activated from the interface by a simple tap gesture (without the need to activate a first component), the captions function should be available in the same way, with a simple tap gesture. If the captions function is available from a drop-down menu that needs to be activated (by a tap gesture, for example), it will not be considered to be at the same level because there will be an additional step to perform.
-1. If audio description is present, check that the function that enables you to activate and deactivate audio description is presented at the same level as the other functions.
+1. Identify on the screen pre-recorded synchronised time-based media with a synchronised caption track or audio description.
+1. Check that it is possible to activate and deactivate captions or audio description without any additional steps compared to the main features (play, pause, etc.).
 1. If this is the case, the criterion is validated.
+
+*Example*: If the play button can be activated from the interface by a simple tap (without the need to activate a component first to display a drop-down menu, for example), the captions feature must be available in the same way, with a simple tap. Conversely, if the captions feature is available from a drop-down menu that has to be activated first (by a tap, for example), it will not be considered to be at the same level, as there will be an additional step to perform.
 
 Note: Although volume and playback controls may be physical components of the devices (volume buttons on a smartphone for example), it is not required that these devices have physical controls dedicated to activating captions and audio description or that these controls, if they exist, are located at the same level.
 
@@ -704,9 +753,9 @@ Note: Although volume and playback controls may be physical components of the de
 - WCAG 2.1 N/A
 - EN 301 549 V3.2.1 (2021-03) *7.3 User controls for captions and audio description*.
 
-#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has a captions track, at the end of the process, are the captions correctly preserved? {id="crit-3-15"}
+#### [Criterion 3.15](#crit-3-15) [AA] For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has a [synchronised captions track](glossaire.md#synchronised-captions-media-object), at the end of the process, are the captions correctly preserved? {id="crit-3-15"}
 
-**[Test 3.15.1](#test-3-15-1):** For each feature that transmits, converts or records a video that has a captions track, at the end of the process, do the captions respect these conditions? {id="test-3-15-1"}
+**[Test 3.15.1](#test-3-15-1):** For each feature that transmits, converts or records a pre-recorded synchronised time-based media that has a captions track, at the end of the process, do the captions respect these conditions? {id="test-3-15-1"}
 - The captions are present;
 - The captions can be displayed;
 - The captions are correctly synchronised;
@@ -716,13 +765,13 @@ Note: Although volume and playback controls may be physical components of the de
 
 ###### iOS and Android
 
-1. Identify the functions used to transmit (e.g. send content to another device), convert or record time-based media.
+1. Identify the functions used to transmit (e.g. send content to another device or send a video by e-mail), convert (convert a video in .avi format into an .mpg format, for example) or record pre-recorded synchronised time-based media (record a video from a broadcast platform onto a personal computer, for example).
 1. Execute each function (transmit, convert and record).
-1. For each of the media resulting from the function, check
-	- whether the captions are still present; 
-	- whether the captions can be displayed;
-	- whether the captions are correctly synchronised;
-	- whether the key features of captions are preserved (for example, if in the original media the captions were coloured according to the speaker, this colouring must be retained in the media resulting from the functionality).
+1. For each function, check if captions:
+	- are still present; 
+	- can be displayed;
+	- are correctly synchronised;
+	- keep their key features (for example, if in the original media the captions were coloured according to the speaker, these colours must be reused).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -730,9 +779,9 @@ Note: Although volume and playback controls may be physical components of the de
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.1.3 Preservation of captioning*.
 
-#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) pre-recorded with a [synchronised audio description](glossaire.md#audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
+#### [Criterion 3.16](#crit-3-16) [AA] For each feature that transmits, converts or records a pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#audio-description-time-based-media), at the end of the process, is the audio description correctly preserved? {id="crit-3-16"}
 
-**[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions? {id="test-3-16-1"}
+**[Test 3.16.1](#test-3-16-1):** For each feature that transmits, converts or records pre-recorded synchronised time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions? {id="test-3-16-1"}
 - The audio description is present;
 - The audio description can be activated;
 - The audio description is correctly synchronised.
@@ -741,22 +790,26 @@ Note: Although volume and playback controls may be physical components of the de
 
 ###### iOS and Android
 
-1. Identify the functions used to transmit (e.g. send content to another device), convert or record time-based media.
+1. Identify the functions used to transmit, convert or record synchronised time-based media For example: send content to another device or by e-mail, convert a video in .avi format into an .mpg format, record a video from a broadcast platform onto a personal computer.
 1. Execute each function (transmit, convert and record).
-1. For each of the media resulting from the function, check
-	- whether audio description is present; 
-	- whether audio description can be activated;
-	- whether the audio description is correctly synchronised: 
-	    - the sounds and words of the audio description do not overlap with those of the original soundtrack to cause perception and comprehension problems;
+1. For each of these functions, check that audio description:
+	- is present; 
+	- can be activated;
+	- is correctly synchronised: 
+	    - the sounds and words of the audio description do not overlap with those of the original soundtrack and do not cause perception and comprehension problems;
 	    - the information conveyed in the audio description is given at the same time as the equivalent visual information appears.
-1. If this is the case, the criterion is met.
+1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *5.4 Preservation of accessibility information during conversion*, *7.2.3 Preservation of audio description*.
 
-#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), is the presentation of captions controllable by the user (excluding special cases)? {id="crit-3-17"}
+#### [Criterion 3.17](#crit-3-17) [AA] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), is the presentation of [captions](glossaire.md#synchronised-captions-media-object) controllable by the user (excluding special cases)? {id="crit-3-17"}
+
+**[Test 3.17.1](#test-3-17-1):** For each pre-recorded time-based media, does the presentation of captions meet one of these conditions? {id="test-3-17-1"}
+- User-defined caption presentation system settings apply to captions.
+- There is a feature on the screen that allows the user to change the presentation settings for captions.
 
 ##### Special cases
 
@@ -769,11 +822,12 @@ The criterion does not apply to embedded captions (*open captions*).
 1. Identify pre-recorded time-based media with captions on the screen.
 1. Modify the subtitle presentation settings from the platform: 
 	- Go to Settings &gt; Accessibility &gt; Subtitles and Captioning &gt; Style;
-	- Select **Create a style** to define a personalised and recognisable subtitle style. 
-	- Define one or more of the following parameters: subtitle size, colour, subtitle border style, background colour or background opacity (check that the **Video Override** parameter at the bottom of the screen is deactivated).
+	- Select **Create a style** to define a personalised and recognisable subtitle style.
+	- Check that the **Override custom settings** parameter at the bottom of the screen is deactivated.
+	- Define one or more caption presentation parameters from the customisation options provided by the platform, for example: caption size, colour, caption border style, background colour, background opacity, etc. (Note: the standard does not give a precise list of parameters that must be defined, so the possibility of modifying a single caption characteristic is sufficient to make the criterion compliant).
 1. Check that the settings defined at platform level are applied to the captions.
-1. If this is not the case, check the media for a function that allows you to modify the subtitle presentation settings.
-1. Check that the parameters defined above are applied to the captions.
+1. If this is not the case, look for a feature on the screen that allows you to change the caption presentation settings (on-screen or directly from the media player).
+1. Check that the defined parameters are applied to the captions.
 1. If this is the case, the criterion is validated.
 
 ###### Android
@@ -792,42 +846,42 @@ The criterion does not apply to embedded captions (*open captions*).
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *7.1.4 Captions characteristics, 11.7 User preferences*.
 
-#### [Criterion 3.18](#crit-3-18) [AA] For each [pre-recorded synchronised time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised subtitles](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
+#### [Criterion 3.18](#crit-3-18) [AA] For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [subtitles](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded synchronised time-based media with synchronised subtitles meet one of these conditions? {id="test-3-18-1"}
-- The subtitles are in a standardised format;
-- There is an additional audio track containing the subtitles.
+**[Test 3.18.1](#test-3-18-1):** Does each pre-recorded synchronised time-based media with subtitles meet one of these conditions? {id="test-3-18-1"}
+- The user can activate a soundtrack containing vocalisations of all subtitles.
+- A function is available to vocalise subtitles.
+- Subtitles can be vocalised by assistive technologies.
+- There is an alternative version with all vocalised subtitles, accessible via an adjacent link or button.
 
 ##### Special cases
 
-The criterion does not apply in the following cases: 
-- The subtitles are embedded in the video.
-- The video and subtitles are in the same language. The criterion only applies to translation subtitles.
+The criterion does not apply for subtitles embedded in the video (*open captions*).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### iOS
+###### iOS and Android
 
-1. Identify pre-recorded synchronised time-based media with translation subtitles on the screen.
-1. Check that the subtitles are in a standardised format (for example, .srt format).
-1. If not, activate the **screen reader** and navigate to the media player.
-1. [Activate the rotor](https://support.apple.com/en-gb/guide/iphone/iph3e2e3a6d/ios).
-1. Scroll through the rotor settings and find the "Multimedia Description" option. 
-1. If so, scroll up and select the "Enunciation" option.
-1. Activate the video subtitles and play the video.
-1. Check that the subtitles displayed are rendered by the screen reader.
-1. If this is not the case, check that there is an additional sound track in the media player, which would be the vocalised version of the subtitles.
-1. Activate the additional audio track and check that the spoken subtitles correspond to the subtitles displayed.
-1. If this is the case, the criterion is validated.
-
-Note: If the "Multimedia description" option is not available in the rotor, move the focus of the screen reader to the video and use the rotor again. If the option still does not appear, the screen reader will not be able to render the subtitles and the criterion is not met.
-
-###### Android
-
-1. Identify pre-recorded synchronised time-based media with translation subtitles on the screen.
-1. Check that the subtitles are in a standardised format (e.g. .srt).
-1. If not, check that there is an additional sound track in the media player that is the vocalised version of the subtitles.
-1. Activate the additional audio track and check that the spoken subtitles correspond to the subtitles displayed.
+1. Identify on the screen pre-recorded synchronised time-based media with subtitles.
+1. Check for the presence of a sound track that would be the vocalised version of the subtitles:
+	- activate the sound track;
+	- check that the vocalised subtitles match the displayed subtitles.
+1. If this is not the case: 
+	- check that there is a feature that allows you to vocalise subtitles; 
+	- activate the feature;
+	- start playing the multimedia content;
+	- check that the texts displayed by this means are vocalised.
+1. If this is not the case:
+	- activate the **screen reader** and navigate to the media player;
+	- activate the subtitles;
+ 	- check that the vocalised subtitles match the subtitles displayed.
+1. If this is not the case: 
+	- activate the **screen reader** and navigate to the media player;
+	- activate the subtitles in the media player and play the video;
+	- check that the displayed subtitles are rendered by the screen reader.
+1. If this is not the case: 
+	- check for alternative media with a soundtrack containing subtitles for vocalised translation;
+ 	- check that the displayed subtitles are rendered by the screen reader.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -854,6 +908,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 #### [Criterion 4.2](#crit-4-2) [A] For each [complex data table](glossaire.md#complex-data-table) with a [summary](glossaire.md#summary-of-table), is the summary relevant? {id="crit-4-2"}
 
@@ -868,6 +923,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 #### [Criteria 4.3](#crit-4-3) [A] Does each [data table](glossaire.md#data-table) have a [title](glossaire.md#data-table-title)? {id="crit-4-3"}
 
@@ -884,6 +940,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 #### [Criterion 4.4](#crit-4-4) [A] For each [data table](glossaire.md#data-table) with a [title](glossaire.md#data-table-title), is the title relevant? {id="crit-4-4"}
 
@@ -898,6 +955,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 #### [Criteria 4.5](#crit-4-5) [A] For each [data table](glossaire.md#data-table), are the row and column headings correctly linked to the data cells? {id="crit-4-5"}
 
@@ -914,6 +972,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.6 Row, column, and headers*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 ### [Topic 5](#topic-5): Interactive components {id="topic-5"}
 
@@ -924,7 +983,7 @@ Note: If the "Multimedia description" option is not available in the rotor, move
 	- A [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) alternative compatible with an accessibility API provides access to the same accessibility features.
 - **[Test 5.1.2](#test-5-1-2)** Does each user interface component meet these conditions (excluding special cases)? {id="test-5-1-2"}
 	- The component has a relevant name;
-	- The accessible name of the component contains at least the visible label;
+	- The accessible name of the component contains at least the [visible label](glossaire.md#visible-label);
 	- The component has a relevant role;
 	- The component has a relevant value;
 	- The component has a relevant state.
@@ -960,7 +1019,7 @@ What's more, as with the web, there is no technical documentation to describe ho
 	- a role is rendered (e.g. button, edit zone, link); 
 	- the role rendered is relevant to the associated functionality (for example, a component that triggers the opening of a modal window and is rendered as a "edit zone" has an irrelevant role; it should be identified as a button); 
 	- a name is rendered and that this name is relevant, i.e. that it enables the function of the element to be understood (for form fields, please refer to the "Forms" theme for an assessment);
-	- if the component has a visible label (a visible text), the text is rendered;
+	- if the component has a visible name (a visible text), the text is rendered;
 	- if the component has a perceptible state (activated, deactivated, selected), this state is rendered;
 	- if the component can change state (e.g. toggle button, slider), perform the necessary actions to test the different states and check that each change of state is correctly rendered (switching to the selected state, increasing the slider);
 	- if the component has a perceptible value (value of a slider), this value is rendered.
@@ -1027,6 +1086,7 @@ Procedure:
 
 - WCAG 2.1: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name), [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *5.6.1 Tactile or auditory status*, *11.2.4.4 Link Purpose (in context)*, *11.2.5.3.1 Label in Name*, *11.4.1.2.1 Name, role, value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.7 Values*, *11.5.2.8 Label relationships*, *11.5.2.9 Parent-child relationships*, *11.5.2.11 List of available actions*, *11.5.2.12 Execution of available actions*, *11.5.2.16 Modifications of states and properties*, *11.6.2 No disruption of accessibility features*.
+- APPT: [Link Purpose (in context)](https://appt.org/en/guidelines/wcag/success-criterion-2-4-4){lang=en}, [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3), [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2).
 
 #### [Criteria 5.2](#crit-5-2) [A] Is every [user interface component](glossaire.md#user-interface-component) [accessible and operable by keyboard and any pointing device](glossaire.md#accessible-and-operable-by-keyboard-and-any-pointing-device) (excluding special cases)? {id="crit-5-2"}
 
@@ -1065,6 +1125,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 - WCAG 2.1: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Focus visible (AA)](https://www.w3.org/TR/WCAG21/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.1.1.1 Keyboard*, *11.2.4.7 Focus Visible*, *11.5.2.3 Use of accessibility services*, *11.5.2.7 Values*, *11.5.2.12 Execution of available actions*, *11.5.2.13 Tracking of focus and selection attributes*, *11.5.2.14 Modification of focus and selection attributes*, *11.5.2.17 Modifications of values and text*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1), [ Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7).
 
 #### [Criteria 5.3](#crit-5-3) [A] Does each [change of context](glossaire.md#changes-of-context) meet one of these conditions? {id="crit-5-3"}
 
@@ -1110,6 +1171,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 - WCAG 2.1: [4.1.3 Status messages (SA)](https://www.w3.org/TR/WCAG21/#status-messages)
 - EN 301 549 V3.2.1 (2021-03): *11.4.1.3.1 Status Messages*, *11.5.2.3 Use of accessibility services*, *11.5.2.15 Change notification*.
+- APPT: [On Focus](https://appt.org/en/guidelines/wcag/success-criterion-3-2-1), [On Input](https://appt.org/en/guidelines/wcag/success-criterion-3-2-2).
 
 #### [Criterion 5.5](#crit-5-5) [A] Is each state of a [toggle control](glossaire.md#toggle-control) presented to the user perceptible? {id="crit-5-5"}
 
@@ -1160,6 +1222,7 @@ For the external keyboard, [some settings are necessary for the device to be ful
 
 - WCAG 2.1 [3.1.1 Language of page (A)](https://www.w3.org/TR/WCAG21/#language-of-page)
 - EN 301 549 V3.2.1 (2021-03) *11.3.1.1.1 Language of software*.
+- APPT: [Language of page](https://appt.org/en/guidelines/wcag/success-criterion-3-1-1).
 
 #### [Criterion 6.2](#crit-6-2) [A] On each screen, interface elements must not be used [only for layout purposes](glossaire.md#only-for-layout-purposes). Is this rule respected? {id="crit-6-2"}
 
@@ -1192,6 +1255,7 @@ This criterion only checks elements that should not be interactive (text element
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 ### [Topic 7](#topic-7): Information structure {id="topic-7"}
 
@@ -1244,6 +1308,7 @@ This criterion only checks elements that should not be interactive (text element
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels), [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.1.1 Info and Relationships*, *11.2.4.6 Headings and Labels*, *11.4.1.2 Name, Role, Value*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1), [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6), [Name, Role, Value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2).
 
 #### [Criterion 7.2](#crit-7-2) [A] On each screen, is each list correctly structured? {id="crit-7-2"}
 
@@ -1252,7 +1317,7 @@ This criterion only checks elements that should not be interactive (text element
 ###### iOS and Android
 
 1. Activate the **screen reader**.
-1. Find items on the screen in the form of lists.
+1. Find on the screen items [grouped together visually in the form a list](glossaire.md#lists).
 1. Check that the screen reader renders "List" when it reaches the group of items.
 1. If it does, the criterion is validated.
 
@@ -1260,6 +1325,7 @@ This criterion only checks elements that should not be interactive (text element
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1.1 Info and Relationships*, *11.5.2.5 Object information*, *11.5.2.9 Parent-child relationships*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 ### [Topic 8](#topic-8): Presentation of information {id="topic-8"}
 
@@ -1280,6 +1346,7 @@ Note: In applications, items can be grouped together. For example, in a product 
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content), [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1.1 Non-text Content*, *11.1.3.1.1 Info and Relationships*, *11.5.2.10 Text*.
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1), [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1).
 
 #### [Criterion 8.2](#crit-8-2) [AA] On each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
@@ -1299,7 +1366,8 @@ The criterion does not apply to the following elements:
 ###### iOS
 
 1. Access the font size settings for the platform: Settings &gt; Accessibility &gt; Display and text size &gt; Larger text.
-1. Activate the "Larger accessibility sizes" button and increase the value of the font size (slider at the bottom of the screen) until a magnification of 200% is reached (the maximum of the gauge allows a zoom greater than 200%, so the test can be limited to increasing the zoom using the penultimate position of the slider).
+1. Activate the "Larger accessibility sizes" button.
+1. Open Control Centre and activate the [Text size parameter (‘aA’ button)](methodologie.md#change-font-size-on-ios) to display the font size gauge. Increase the value to 190%.
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
 	- all the texts in the interface have been enlarged; 
@@ -1311,7 +1379,7 @@ The criterion does not apply to the following elements:
 ###### Android
 
 1. Access the font size settings for the platform: Settings &gt; Accessibility &gt; Font size (depending on the version of the platform, the access path may be different); 
-1. Increase the value of the font size (slider at the bottom of the screen) until you reach a magnification of 200% (on some devices, the slider gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so check that the test is only carried out for a value of 200%).
+1. Increase the font size value (slider at the bottom of the screen) to the maximum (see technical note).
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
 	- all the texts in the interface have been enlarged; 
@@ -1320,10 +1388,13 @@ The criterion does not apply to the following elements:
 	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
 1. If this is the case, the criterion is validated.
 
+**Technical note**: Before Android 14, on devices without a manufacturer's overlay, the font size setting did not allow you to enlarge to 200% of the default size. This is only possible from Android 14 onwards. If you are testing on an Android device with a version prior to 14, you can combine the font size setting and the display size setting to achieve a zoom close to 200%. From Android 14 onwards, the font size setting allows you to reach 200%. On the other hand, on some versions of Android, the slider gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so you'll need to check that the test is only performed for a value of 200%.
+
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.4 Resize text (AA)](https://www.w3.org/TR/WCAG21/#resize-text)
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.4.1 Resize Text (AA)*, *11.5.2.3 Use of accessibility services*, *11.7 User preferences*.
+- APPT: [Resize Text](https://appt.org/en/guidelines/wcag/success-criterion-1-4-4).
 
 #### [Criterion 8.3](#crit-8-3) [A] On each screen, does each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious) have a contrast ratio greater than or equal to 3:1 in relation to the surrounding text? {id="crit-8-3"}
 
@@ -1354,6 +1425,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of color*.
+- APPT: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1).
 
 #### [Criterion 8.4](#crit-8-4) [A] On each screen, for each [component in a text environment whose nature is not obvious](glossaire.md#component-whose-nature-is-not-obvious), is there an indication other than colour to indicate when focused and hovered with the mouse? {id="crit-8-4"}
 
@@ -1372,6 +1444,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.1 Use of color*.
+- APPT: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1).
 
 #### [Criterion 8.5](#crit-8-5) [A] On each screen, for each element receiving the focus, is the [focus](glossaire.md#when-focused) visible? {id="crit-8-5"}
 
@@ -1381,19 +1454,22 @@ The criterion does not apply to the following elements:
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
 1. Enable all [available focus style settings](methodologie.md#external-keyboard). 
-1. Navigate through the application and assess whether the focus visibility as defined at system level is preserved for all elements of the application.
+1. Navigate through the application and check whether the focus visibility as defined at system level is preserved for all elements of the application.
 1. If this is the case, the criterion is validated.
 
 ###### Android
 
 1. Connect an **external keyboard** (and [configure keyboard navigation](methodologie.md#external-keyboard)).
-1. Navigate through the application and assess whether the focus visibility as defined at system level is preserved for all elements of the application.
+1. Navigate through the application and check:
+	* if the test is carried out without activation of an accessibility service, that the focus is visible;
+	* if the test is carried out with an accessibility service activated, that the focus as defined in the service is visible on all the elements of the application.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color), [2.4.7 Focus visible (AA)](https://www.w3.org/TR/WCAG21/#focus-visible) 
 - EN 301 549 V3.2.1 (2021-03): *11.1.4.1 Use of color*, *11.2.4.7 Focus Visible*, *11.7 User preferences*.
+- APPT: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1), [Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7).
 
 #### [Criterion 8.6](#crit-8-6) [A] On each screen, information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-by-shape-size-or-location). Is this rule respected? {id="crit-8-6"}
 
@@ -1412,6 +1488,7 @@ This applies to words or sets of words, texts, graphic elements conveying inform
 
 - WCAG 2.1: [1.3.3 Sensory characteristics (A)](https://www.w3.org/TR/WCAG21/#sensory-characteristics), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.3 Sensory Characteristics*, *11.1.4.1 Use of color*.
+- APPT: [Sensory Characteristics](https://appt.org/en/guidelines/wcag/success-criterion-1-3-3), [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1).
 
 #### [Criterion 8.7](#crit-8-7) [AA] On each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#user-interface-component) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
 
@@ -1471,6 +1548,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [1.4.13 Content on hover or focus (AA)](https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus) 
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.13 Content on Hover or Focus*.
+- APPT: [Content on Hover or Focus](https://appt.org/en/guidelines/wcag/success-criterion-1-4-13).
 
 ### [Topic 9](#topic-9): Forms {id="topic-9"}
 
@@ -1490,6 +1568,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels)
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.6 Headings and Labels*.
+- APPT: [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6).
 
 #### [Criterion 9.2](#crit-9-2) [A] Does each form field have a label that is accessible to assistive technologies? {id="crit-9-2"}
 
@@ -1520,6 +1599,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions), [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.1 Info and Relationships (A)*, *11.3.3.2 Labels or Instructions (A)*, *11.4.1.2.1 Name, role, value (A)*, *11.5.2.3 Use of accessibility services*, *11.5.2.5 Object information*, *11.5.2.8 Label relationships*.
+- APPT: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2), [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2).
 
 #### [Criterion 9.3](#crit-9-3) [A] Is each label associated with a form field relevant? {id="crit-9-3"}
 
@@ -1560,6 +1640,7 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels), [2.5.3 Label in name (A)](https://www.w3.org/TR/WCAG21/#label-in-name), [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions).
 - EN 301 549 V3.2.1 (2021-03): *11.2.4.6 Headings and Labels*, *11.2.5.3.1 Label in Name*, *11.3.3.2 Labels or Instructions (A)*, *11.5.2.5 Object information*.
+- APPT: [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6), [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3), [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2).
 
 #### [Criterion 9.4](#crit-9-4) [A] Are each field label and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)? {id="crit-9-4"}
 
@@ -1575,12 +1656,13 @@ When the additional content does not mask or replace any information-bearing con
 
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions)
 - EN 301 549 V3.2.1 (2021-03) *11.3.3.2 Labels or Instructions (A)*.
+- APPT: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2).
 
 #### [Criterion 9.5](#crit-9-5) [A] In each form, is the label of each button relevant? {id="crit-9-5"}
 
 **[Test 9.5.1](#test-9-5-1)** Does each form button meet these conditions? {id="test-9-5-1"}
 - The label of the button accessible to assistive technologies is relevant;
-- The visible text of the button is contained in the label accessible to assistive technologies.
+- The [visible label](glossaire.md#visible-label) of the button is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2712,7 +2794,7 @@ No evaluation method is proposed for this criterion.
 
 1. Activate the **screen reader** from a terminal.
 1. From a second terminal, make a call to the first terminal.
-1. When the incoming call appears, check
+1. When the incoming call appears, check:
 	- that the caller identification is available in visible text format (for example, a name or a telephone number);
 	- and that this identification is correctly rendered by **the screen reader**.
 1. If this is the case, the criterion is validated. 

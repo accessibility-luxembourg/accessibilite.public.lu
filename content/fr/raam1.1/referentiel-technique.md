@@ -214,7 +214,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### Android
 
 1. Repérer dans l’écran les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
-1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.).
+1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.
 1. Avec le **lecteur d’écran**, accéder à l’information donnée par la couleur. 
 1. Vérifier qu’une information équivalente est restituée par le lecteur d’écran (par exemple l’état &laquo;&nbsp;sélectionné&nbsp;&raquo; d’un bouton vert).
 1. Si c’est le cas, le critère est validé.
@@ -292,7 +292,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - Composant d’interface inactif (par exemple, un bouton désactivé) sur lequel aucune action n’est possible.
 - Composant d’interface géré par la plateforme et pour lequel il n’existe pas de méthode simple de développement pour le modifier.
 - Composant d’interface dont la couleur n’est pas nécessaire pour identifier le composant ou son état (par exemple, le soulignement des liens qui aurait un rapport de contraste inférieur à 3:1 mais dont le texte a un rapport de contraste de 4.5:1).
-- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran).
+- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique faisant partie d’un logo ou du nom de marque d’un organisme ou d’une société.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dont la présentation est essentielle à l’information véhiculée (par exemple, drapeaux, logotypes, photos de personnes ou de scènes, captures d’écran, diagrammes médicaux, carte de chaleurs).
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dynamique dont le contraste peut varier si d’autres éléments sont survolés (ou reçoivent le focus), mais dont le survol ou focus permet de le rendre suffisamment contrasté (par exemple, un diagramme en camembert composé de plusieurs sections suffisamment contrastées, mais lorsque la souris survole une section du camembert, les autres sections ne sont plus suffisamment contrastées, leur opacité est réduite pour mettre en avant la section survolée).
