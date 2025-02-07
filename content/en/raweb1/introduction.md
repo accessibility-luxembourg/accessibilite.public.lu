@@ -15,7 +15,7 @@ If the framework is not updated within 3 years, and in order to take into accoun
 
 Some tests, in particular those concerning user interface components developed in JavaScript, require content to be assessed using assistive technologies associated with browsers and operating systems. The test environment (or "baseline") is described on the [Test environment](environnement.html) page. 
 
-The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1](../raam1.1/index.html).
+The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1.1](../raam1.1/index.html).
 
 The current version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service](https://sip.gouvernement.lu/en.html) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
 If you find any issue in this framework, feel free to create a ticket in this repository.

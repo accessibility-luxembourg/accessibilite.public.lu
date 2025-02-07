@@ -384,6 +384,68 @@ const config = {
             "html": true,
             "prefix": "../.."
         }                 
+    ],
+    "deprecated": [
+    {
+        "title": "Mobile framework",
+        "menu": "Mobile <span class='mobile-only'>framework</span>",
+        "name": "raam1",
+        "children": [ 
+            {
+                "title": "Mobile App Accessibility Assessment Framework (RAAM 1): Introduction",
+                "menu": "Introduction",
+                "name": "raam1/index",
+                "md": "./content/en/raam1/introduction.md", 
+                "html": true,
+                "prefix": "../../.."
+            },                
+            {
+                "title": "RAAM 1: Criteria and tests",
+                "menu": "Criteria and tests",
+                "name": "raam1/referentiel-technique",
+                "md": "./content/en/raam1/referentiel-technique.md",
+                "prefix": "../../..", 
+                "html": true, 
+                "slugify": "slugifyA42",
+                "genSummary": "ol", 
+                "summaryTitle": "Themes"
+            }, 
+            {
+                "title": "RAAM 1: Glossary",
+                "menu": "Glossary",
+                "name": "raam1/glossaire",
+                "md": "./content/en/raam1/glossaire.md",
+                "prefix": "../../..", 
+                "html": true,                    
+                "slugify": "slugifyA42", 
+                "genSummary": "ul", 
+                "summaryTitle": "Index"
+            },                          
+            {
+                "title": "RAAM 1: Testing methodology",
+                "menu": "Testing methodology",
+                "name": "raam1/methodologie",
+                "md": "./content/en/raam1/methodologie.md",
+                "html": true, 
+                "prefix": "../../..", 
+                "slugify": "slugifyA42"
+            },
+            {
+                "title": "RAAM 1: Testing environment",
+                "menu": "Testing environment",
+                "name": "raam1/environnement",
+                "md": "./content/en/raam1/environnement.md",
+                "html": true,
+                "prefix": "../../.."
+            },  
+            {
+                "title": "RAAM 1: References",
+                "menu": "References",
+                "name": "raam1/references",
+                "md": "./content/en/raam1/references.md",
+                "prefix": "../../.." 
+            }]
+        }
     ]
 }
 

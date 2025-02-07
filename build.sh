@@ -38,6 +38,7 @@ if [[ "$DISABLE_EN" != "true" ]]
 then
     mkdir -p ./src/html/en/files
     mkdir -p ./src/html/en/raweb1/files
+    mkdir -p ./src/html/en/raam1    
     mkdir -p ./src/html/en/raam1.1
     mkdir -p ./src/html/en/rapdf1
     mkdir -p ./src/html/en/tools
@@ -52,7 +53,7 @@ fi
 
 node gen.js
 
-en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/monitoring/audit-simpl.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html"
+en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/monitoring/audit-simpl.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html ./src/html/en/raam1/*.html"
 if [[ "$DISABLE_EN" == "true" ]]
 then
     en_files=""
