@@ -86,7 +86,7 @@ Note: specific consideration is given to CAPTCHAs and test graphic elements in [
 
 #### [Criteria 1.5](#crit-1-5) [A] Does each [graphic element](glossaire.md#graphic-element) used as a [CAPTCHA](glossaire.md#captcha) have an alternative? {id="crit-1-5"}
 
-**[Test 1.5.1](#test-1-5-1)** Does each graphic element used as a CAPTCHA meet one of these conditions? {id="test-1-5-1"}
+**[Test 1.5.1](#test-1-5-1):** Does each graphic element used as a CAPTCHA meet one of these conditions? {id="test-1-5-1"}
 - There is another form of non-graphic CAPTCHA, at least;
 - There is another solution for accessing the functionality secured by the CAPTCHA.
 
@@ -584,7 +584,7 @@ Live synchronised time-based media broadcast via a mobile application subject to
 - Captions are relevant;
 - Captions are correctly synchronised.
 
-- **[Test 3.8.2](#test-3-8-2)** For each live synchronised time-based media with synchronised captions, do the captions meet these conditions (excluding special cases)?? {id="test-3-8-2"}
+- **[Test 3.8.2](#test-3-8-2):** For each live synchronised time-based media with synchronised captions, do the captions meet these conditions (excluding special cases)?? {id="test-3-8-2"}
 - Captions are in the language of the video;
 - Captions are relevant;
 - Captions are correctly synchronised.
@@ -981,9 +981,9 @@ The criterion does not apply for subtitles embedded in the video (*open captions
 - **[Test 5.1.1](#test-5-1-1):** Does each user interface component meet one of these conditions, if necessary? {id="test-5-1-1"}
 	- [The name, role, value, properties and changes of state](glossaire.md#name-role-value-properties-and-changes-of-state) are [accessible to assistive technologies](glossaire.md#accessible-to-assistive-technologies) via an accessibility API;
 	- A [clearly identifiable adjacent](glossaire.md#clearly-identifiable-adjacent) alternative compatible with an accessibility API provides access to the same accessibility features.
-- **[Test 5.1.2](#test-5-1-2)** Does each user interface component meet these conditions (excluding special cases)? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2):** Does each user interface component meet these conditions (excluding special cases)? {id="test-5-1-2"}
 	- The component has a relevant name;
-	- The accessible name of the component contains at least the [visible label](glossaire.md#visible-label);
+	- The accessible name of the component contains at least the [visible text](glossaire.md#visible-text);
 	- The component has a relevant role;
 	- The component has a relevant value;
 	- The component has a relevant state.
@@ -995,7 +995,7 @@ The criterion is not applicable for the following elements:
 - Maps and online mapping services, provided that the essential information is provided in an accessible digital form for navigational maps.
 
 There is special case management for [test 5.1.2](#test-5-1-2) where
-- Punctuation and capital letters are present in the text of the visible label: they can be ignored in the accessible name without consequence.
+- Punctuation and capital letters are present in the text of the visible text: they can be ignored in the accessible name without consequence.
 - The text of the visible label is used as a symbol: the text must not be interpreted literally in the accessible name. The name must express the function conveyed by the symbol (for example, "B" in a text editor will have the accessible name "Bold", the sign "&gt;", depending on the context, will mean "Next" or "Start video"). The exception is mathematical symbols (see note below).
 
 **Note:** if the visible label represents a mathematical expression, the mathematical symbols can be used literally to label the accessible name (e.g. "A&gt;B"). It is left to the user to work out the correspondence between the expression and what they have to spell, taking into account their knowledge of how their voice input software works ("A greater than B" or "A superior to B").
@@ -1261,7 +1261,7 @@ This criterion only checks elements that should not be interactive (text element
 
 #### [Criterion 7.1](#crit-7-1) [A] On each screen, is the information structured by the appropriate use of headings? {id="crit-7-1"}
 
-**[Test 7.1.1](#test-7-1-1)** Does each screen meet these conditions? {id="test-7-1-1"}
+**[Test 7.1.1](#test-7-1-1):** Does each screen meet these conditions? {id="test-7-1-1"}
 - The content of each heading is relevant;
 - Each passage of text that makes up a heading is identified as a heading.
 
@@ -1350,7 +1350,7 @@ Note: In applications, items can be grouped together. For example, in a product 
 
 #### [Criterion 8.2](#crit-8-2) [AA] On each screen, can the user increase the font size by at least 200% (excluding special cases)? {id="crit-8-2"}
 
-**[Test 8.2.1](#test-8-2-1)** Does each screen meet these conditions? {id="test-8-2-1"}
+**[Test 8.2.1](#test-8-2-1):** Does each screen meet these conditions? {id="test-8-2-1"}
 - The user can enlarge the size of all the texts by 200% using the platform parameters;
 - All the texts on the screen are enlarged;
 - All enlarged texts remain legible and the interactive components usable.
@@ -1493,8 +1493,8 @@ This applies to words or sets of words, texts, graphic elements conveying inform
 #### [Criterion 8.7](#crit-8-7) [AA] On each screen, is the additional content that appears when the focus is set or when a [user interface component](glossaire.md#user-interface-component) is hovered over controllable by the user (excluding special cases)? {id="crit-8-7"}
 
 - **[Test 8.7.1](#test-8-7-1):** Can each additional content which becomes visible when a user interface component is focused or hovered over be hidden by a user action without moving the focus or the mouse pointer (excluding special cases)? {id="test-8-7-1"}
-- **[Test 8.7.2](#test-8-7-2)** Can each additional content that appears when hovering over an interface component be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
-- **[Test 8.7.3](#test-8-7-3)** Does any additional content which appears when focusing or when hovering over a user interface component meet one of these conditions (excluding special cases)? {id="test-8-7-3"}
+- **[Test 8.7.2](#test-8-7-2):** Can each additional content that appears when hovering over an interface component be hovered over by the mouse pointer without disappearing (excluding special cases)? {id="test-8-7-2"}
+- **[Test 8.7.3](#test-8-7-3):** Does any additional content which appears when focusing or when hovering over a user interface component meet one of these conditions (excluding special cases)? {id="test-8-7-3"}
 	- The additional content remains visible until the user removes the mouse pointer or the focus from the additional content and the user interface component that triggered its appearance;
 	- The additional content remains visible until the user performs an action that hides this content without moving the focus or mouse pointer of the user interface component that triggered its appearance;
 	- The additional content remains visible until it is no longer valid.
@@ -1603,7 +1603,7 @@ When the additional content does not mask or replace any information-bearing con
 
 #### [Criterion 9.3](#crit-9-3) [A] Is each label associated with a form field relevant? {id="crit-9-3"}
 
-**[Test 9.3.1](#test-9-3-1)** Does each label associated with a form field meet these conditions? {id="test-9-3-1"}
+**[Test 9.3.1](#test-9-3-1):** Does each label associated with a form field meet these conditions? {id="test-9-3-1"}
 - The label accessible to assistive technologies is relevant;
 - The visible label is contained in the label accessible to assistive technologies.
 
@@ -1660,9 +1660,9 @@ When the additional content does not mask or replace any information-bearing con
 
 #### [Criterion 9.5](#crit-9-5) [A] In each form, is the label of each button relevant? {id="crit-9-5"}
 
-**[Test 9.5.1](#test-9-5-1)** Does each form button meet these conditions? {id="test-9-5-1"}
+**[Test 9.5.1](#test-9-5-1):** Does each form button meet these conditions? {id="test-9-5-1"}
 - The label of the button accessible to assistive technologies is relevant;
-- The [visible label](glossaire.md#visible-label) of the button is contained in the label accessible to assistive technologies.
+- The [visible text](glossaire.md#visible-text) of the button is contained in the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1726,7 +1726,7 @@ When the additional content does not mask or replace any information-bearing con
 
 #### [Criterion 9.7](#crit-9-7) [A] Are the mandatory form fields correctly identified (excluding special cases)? {id="crit-9-7"}
 
-**[Test 9.7.1](#test-9-7-1)** Does each mandatory form field meet these conditions? {id="test-9-7-1"}
+**[Test 9.7.1](#test-9-7-1):** Does each mandatory form field meet these conditions? {id="test-9-7-1"}
 - The required nature is visible;
 - The required nature is accessible to assistive technologies.
 
@@ -1782,7 +1782,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 #### [Criterion 9.9](#crit-9-9) [A] In each form, are input errors accessible? {id="crit-9-9"}
 
-**[Test 9.9.1](#test-9-9-1)** Does each input error meet these conditions? {id="test-9-9-1"}
+**[Test 9.9.1](#test-9-9-1):** Does each input error meet these conditions? {id="test-9-9-1"}
 - The input error is visible;
 - The input error is accessible to assistive technologies.
 
@@ -1902,6 +1902,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.4.3 Focus Order (A)*.
+- APPT: [Focus Order](https://appt.org/en/guidelines/wcag/success-criterion-2-4-3).
 
 #### [Criterion 10.2](#crit-10-2) [A] On each screen, is the reading sequence by assistive technologies [consistent](glossaire.md#consistent-reading-sequence)? {id="crit-10-2"}
 
@@ -1922,12 +1923,17 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 - WCAG 2.1: [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence), [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order)
 - EN 301 549 V3.2.1 (2021-03): *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*.
+- APPT: [Meaningful Sequence](https://appt.org/en/guidelines/wcag/success-criterion-1-3-2), [Focus Order](https://appt.org/en/guidelines/wcag/success-criterion-2-4-3).
 
 #### [Criterion 10.3](#crit-10-3) [A] On each screen, the navigation must not contain any [keyboard traps](glossaire.md#keyboard-trap). Is this rule respected? {id="crit-10-3"}
 
 **[Test 10.3.1](#test-10-3-1):** On each screen, does each focusable element meet one of these conditions? {id="test-10-3-1"}
 - It is possible to use the keyboard to go to the next or previous focusable element;
 - The user is informed of a functional mechanism enabling the next or previous focusable element to be reached using the keyboard.
+
+##### Note
+
+This criterion is subject to the [non-interference principle](methodologie.md#non-interference-principle).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1959,6 +1965,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 - WCAG 2.1: [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.1.2 No keyboard trap (A)](https://www.w3.org/TR/WCAG21/#no-keyboard-trap). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*. 
+- APPT: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1), [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2).
 
 #### [Criterion 10.4](#crit-10-4) [A] On each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user?  {id="crit-10-4"}
 
@@ -1983,6 +1990,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 
 - WCAG 2.1: [2.1.4 Character key shortcuts (A)](https://www.w3.org/TR/WCAG21/#character-key-shortcuts). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.4.1 Character Key Shortcuts (A)*.
+- APPT: [Character Key Shortcuts](https://appt.org/en/guidelines/wcag/success-criterion-2-1-4).
 
 ### [Topic 11](#topic-11): Consultation {id="topic-11"}
 
@@ -1997,6 +2005,10 @@ The keyboard trap test is then limited to checking that the component can be rea
 ##### Special cases
 
 The criterion does not apply when the time limit is essential, in particular when it could not be removed without fundamentally changing the content or the features linked to the content.
+
+##### Note
+
+This criterion is subject to the [non-interference principle](methodologie.md#non-interference-principle).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2014,6 +2026,7 @@ The criterion does not apply when the time limit is essential, in particular whe
 
 - WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide). 
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
+- APPT: [Timing adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1), [Pause, Stop, Hide](https://appt.org/en/guidelines/wcag/success-criterion-2-2-2).
 
 #### [Criterion 11.2](#crit-11-2) [A] For each screen, can each process limiting the time of a session be stopped or deleted (excluding special cases)? {id="crit-11-2"}
 
@@ -2041,6 +2054,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 
 - WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing adjustable*.
+- APPT: [Timing adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1).
 
 #### [Criterion 11.3](#crit-11-3) [A] On each screen, does each office document available for download have, if necessary, an [accessible version](glossaire.md#accessible-version) (excluding special cases)? {id="crit-11-3"}
 
@@ -2109,6 +2123,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 11.6](#crit-11-6) [A] On each screen, for each cryptic content (ASCII art, emoticon, cryptic syntax) having an alternative, is this alternative relevant? {id="crit-11-6"}
 
@@ -2123,12 +2138,17 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 - WCAG 2.1: [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content). 
 - EN 301 549 V3.2.1 (2021-03): *11.1.1.1 Non-text Content (A)*. 
+- APPT: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1).
 
 #### [Criterion 11.7](#crit-11-7) [A] On each screen, are [sudden change in brightness or blinking effects](glossaire.md#sudden-change-in-brightness-or-blinking-effect) used correctly? {id="crit-11-7"}
 
 **[Test 11.7.1](#test-11-7-1):** Do sudden changes in brightness or blinking effects meet any of these conditions? {id="test-11-7-1"}
-- The effect frequency is less than 3 per second;
+- The effect frequency is less than or equal to 3 per second;
 - The total cumulative area of the effects is less than or equal to 21,824 pixels.
+
+##### Note
+
+This criterion is subject to the [non-interference principle](methodologie.md#non-interference-principle).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2136,7 +2156,7 @@ The criterion is not applicable when the office documents (e.g. PDF, Microsoft o
 
 1. Identify content on the screen that flashes or causes flash effects: animated graphic element, video or animation, formatting effect.
 1. Check that
-	- the frequency of the effect is less than 3 flashes per second;
+	- the frequency of the effect is less than or equal to 3 flashes per second;
 	- or that the total surface area is less than 21,824 pixels.
 1. If this is the case, the criterion is validated.
 
@@ -2146,6 +2166,7 @@ Note: The [PEAT](https://trace.umd.edu/peat/) tool can be used to analyse videos
 
 - WCAG 2.1 [2.3.1 Three Flashes or Below Threshold (A)](https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold).
 - EN 301 549 V3.2.1 (2021-03) *11.2.3.1 Three Flashes or Below Threshold (A)*.
+- APPT: [Three Flashes or Below Threshold](https://appt.org/en/guidelines/wcag/success-criterion-2-3-1).
 
 #### [Criterion 11.8](#crit-11-8) [A] On each screen, is each moving or blinking content [controllable](glossaire.md#control-moving-or-blinking-content) by the user? {id="crit-11-8"}
 
@@ -2154,6 +2175,10 @@ Note: The [PEAT](https://trace.umd.edu/peat/) tool can be used to analyse videos
 - The user can stop and restart the movement or blinking;
 - The user can display and hide moving or blinking content;
 - The user can display all the information without the movement or blinking.
+
+##### Note
+
+This criterion is subject to the [non-interference principle](methodologie.md#non-interference-principle).
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2168,19 +2193,20 @@ Note: The [PEAT](https://trace.umd.edu/peat/) tool can be used to analyse videos
 1. If this is the case, the criterion is validated.
 
 **Note:**
-- the stopping or pausing of moving or blinking content when focused (the effect is suspended only while focused, but resumes once the focus is lost) or by touching moving content (the effect is suspended only while pressure is applied to the content, but resumes once the pressure is released) are not considered to be compliant processes.
-- in some cases, the movement cannot be stopped, for example a progress bar, in which case the criterion is not applicable.
+- The stopping or pausing of moving or blinking content when focused (the effect is suspended only while focused, but resumes once the focus is lost) or by touching moving content (the effect is suspended only while pressure is applied to the content, but resumes once the pressure is released) are not considered to be compliant processes.
+- In some cases, the movement cannot be stopped, for example a progress bar, in which case the criterion is not applicable.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1: [2.2.1 Timing adjustable (A)](https://www.w3.org/TR/WCAG21/#timing-adjustable), [2.2.2 Pause, stop, hide (A)](https://www.w3.org/TR/WCAG21/#pause-stop-hide)
 - EN 301 549 V3.2.1 (2021-03): *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*.
+- APPT: [Timing Adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1), [Pause, Stop, Hide](https://appt.org/en/guidelines/wcag/success-criterion-2-2-2).
 
 #### [Criterion 11.9](#crit-11-9) [AA] On each screen, is the content offered viewable regardless of screen orientation (portrait or landscape) (excluding special cases)? {id="crit-11-9"}
 
-**[Test 11.9.1](#test-11-9-1)** On each screen, does all content meet these conditions? {id="test-11-9-1"}
-- Consultation is possible regardless of the screen orientation;
-- The content offered remains the same whatever the screen orientation, even though its presentation and the means of accessing it may differ.
+**[Test 11.9.1](#test-11-9-1):** On each screen, does all content meet these conditions? {id="test-11-9-1"}
+- Consultation is possible, regardless of the screen orientation;
+- The content offered remains the same, whatever the screen orientation, even though its presentation and the means of accessing it may differ.
 
 ##### Special cases
 
@@ -2213,6 +2239,7 @@ If the interface is the only means of accessing the proposed service, an alterna
 
 - WCAG 2.1 [1.3.4 Orientation (AA)](https://www.w3.org/TR/WCAG21/#orientation)
 - EN 301 549 V3.2.1 (2021-03) *11.1.3.4 Orientation*.
+- APPT: [Orientation](https://appt.org/en/guidelines/wcag/success-criterion-1-3-4).
 
 #### [Criterion 11.10](#crit-11-10) [A] On each screen, are the features that can be activated using a [complex gesture](glossaire.md#complex-and-simple-gestures) able to be activated using a [simple gesture](glossaire.md#complex-and-simple-gestures) (excluding special cases)? {id="crit-11-10"}
 
@@ -2236,6 +2263,7 @@ The criterion does not apply to the following elements:
 
 - WCAG 2.1: [2.5.1 Pointer gestures (A)](https://www.w3.org/TR/WCAG21/#pointer-gestures). 
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*.
+- APPT: [Pointer Gestures](https://appt.org/en/guidelines/wcag/success-criterion-2-5-1).
 
 #### [Criterion 11.11](#crit-11-11) [A] On each screen, are the features that can be activated by performing simultaneous actions activated by means of a single action? Is this rule respected (excluding special cases)? {id="crit-11-11"}
 
@@ -2261,8 +2289,8 @@ The criterion does not apply to actions required by the platform.
 #### [Criterion 11.12](#crit-11-12) [A] On each screen, can actions triggered by a pointing device on a single point on the screen be cancelled (excluding special cases)? {id="crit-11-12"}
 
 **[Test 11.12.1](#test-11-12-1):** On each screen, do actions triggered using a pointing device on a single point on the screen meet one of these conditions (excluding special cases)? {id="test-11-12-1"}
-- The action is triggered when the pointing device is released;
-- The action is triggered when the pointing device is pressed (down-event) and then cancelled when the pointing device is released (up-event);
+- The action is triggered when the pointing device is [released](glossaire.md#released);
+- The action is triggered when the pointing device is [pressed](glossaire.md#pressed) (down-event) and then cancelled when the pointing device is [released](glossaire.md#released) (up-event);
 - The [action is complex](glossaire.md#complex-action) and a mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action.
 
 ##### Special cases
@@ -2282,6 +2310,7 @@ The criterion is not applicable when the functionality requires the expected beh
 
 - WCAG 2.1: [2.5.2 Pointer Cancellation (A)](https://www.w3.org/TR/WCAG21/#pointer-cancellation) 
 - EN 301 549 V3.2.1 (2021-03) *11.2.5.2 Pointer Cancellation (A)*.
+- APPT: [Pointer Cancellation](https://appt.org/en/guidelines/wcag/success-criterion-2-5-2).
 
 #### [Criterion 11.13](#crit-11-13) [A] On each screen, can the features involving movement from or to the device be satisfied in an alternative way (excluding special cases)? {id="crit-11-13"}
 
@@ -2309,6 +2338,7 @@ The criterion is not applicable when
 
 - WCAG 2.1: [2.5.4 Motion Actuation (A)](https://www.w3.org/TR/WCAG21/#motion-actuation)
 - EN 301 549 V3.2.1 (2021-03): *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*.
+- APPT: [Motion Actuation](https://appt.org/en/guidelines/wcag/success-criterion-2-5-4).
 
 #### [Criterion 11.14](#crit-11-14) [AA] For each document conversion feature, is the [accessibility information](glossaire.md#accessibility-information) available in the source document retained in the destination document (excluding special cases)? {id="crit-11-14"}
 
@@ -2332,21 +2362,23 @@ The criterion is not applicable when the conversion format does not have the nec
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *5.4 Preservation of accessibility information during conversion*.
 
-#### [Criterion 11.15](#crit-11-15) [A] Is an alternative method available for each identification or control functionality of the application that relies on the use of [biological characteristics](glossaire.md#biological-characteristics) of the user? {id="crit-11-15"}
+#### [Criterion 11.15](#crit-11-15) [A] Is an alternative method available for each identification or control functionality that relies on the use of [biological characteristics](glossaire.md#biological-characteristics) of the user? {id="crit-11-15"}
 
-**[Test 11.15.1](#test-11-15-1):** Does each identification or control functionality of the application that relies on the use of a user's biological characteristics meet one of these conditions? {id="test-11-15-1"}
-- There is an alternative that does not rely on a user's biological characteristics;
-- There is an alternative that relies on a biological characteristic of the user that is sufficiently different.
+**[Test 11.15.1](#test-11-15-1):** Does each identification or control functionality that relies on the use of a user's [biological characteristics](glossaire.md#biological-characteristics) meet one of these conditions? {id="test-11-15-1"}
+- There is an alternative that does not rely on a user's biological characteristics.
+- There is an alternative that relies on a biological characteristic of the user that is sufficiently different from the biological characteristic initially requested.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify on the screen the identification (authentication) and control functions that are based on the use of biological characteristics (e.g. voice recognition, fingerprint, facial recognition). 
-1. Check that there is an alternative method of performing the action, for example 
-	- for an authentication feature that uses fingerprint recognition, a button is available on the login screen to access password entry instead.
-	- for authentication functionality that involves voice recognition, the application also offers fingerprint recognition (if the alternative method also relies on a biological characteristic, it is desirable that it does not involve a similar biological characteristic. For example, if the initial method involves voice, the alternative method should not involve voice) 
+1. Check that there is an alternative method of performing the action:
+	- For an authentication feature that uses fingerprint recognition, a button is available on the login screen to access password entry.
+	- For authentication functionality that involves voice recognition, the application also offers fingerprint recognition. 
 1. If this is the case, the criterion is validated.
+
+If the alternative method also relies on a biological characteristic, it is essential that it does not involve a similar biological characteristic. For example, if the initial method involves voice, the alternative method must not use voice.
 
 ##### Matches {class="disclosure mapping"}
 
@@ -2361,9 +2393,9 @@ The criterion is not applicable when the conversion format does not have the nec
 
 ##### Special cases
 
-The criterion does not apply: 
-- For key repetitions managed at the platform level;
-- For applications that have a method for deactivating the key repeat functionality.
+The criterion does not apply for: 
+- key repetitions managed at the platform level;
+- applications that have a method for deactivating the key repeat functionality.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2385,30 +2417,23 @@ The criterion does not apply:
 
 ### [Topic 12](#topic-12): Documentation and accessibility features {id="topic-12"}
 
-#### [Criterion 12.1](#crit-12-1) [AA] Does the application documentation describe the [accessibility features](glossaire.md#accessibility-feature) of the application and their use? {id="crit-12-1"}
+#### [Criterion 12.1](#crit-12-1) [AA] Does the application [documentation](glossaire.md#documentation) describe the [accessibility features](glossaire.md#accessibility-feature) available and information on accessibility compatibility? {id="crit-12-1"}
 
-**[Test 12.1.1](#test-12-1-1):** Does the application documentation include at least the following elements? {id="test-12-1-1"}
-- A description of the application's accessibility features;
-- An explanation of how the application's accessibility features are used; 
-- Information about the accessibility of the platform and its compatibility with assistive technologies.
+**[Test 12.1.1](#test-12-1-1):** Does the application [documentation](glossaire.md#documentation) include at least the following elements? {id="test-12-1-1"}
+- A description of the [accessibility features](glossaire.md#accessibility-feature) offered by the application;
+- A user guide to the [accessibility features](glossaire.md#accessibility-feature) offered by the application; 
+- A description of components that are not compatible with assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify the presence of documentation in the application, for example 
-	- a help screen;
-	- an [accessibility statement](../obligations.html#accessibility-statement); 
-	- any other content that serves as documentation.
+1. Identify the presence of documentation in the application. 
 1. Identify the presence of accessibility features in the application.
 1. Check that the documentation includes 
-	- a description of the application's accessibility features, for example 
-		- accessibility parameters integrated into the application, such as colour management, font sizes, animation management, etc;
-		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)); 
-		- gestures or device movements that trigger functions;  
-		- special keyboard shortcuts available for certain assistive technologies.
+	- a description of the application's accessibility features.
+	- explanations of how to use these functions (where they are located, how to activate them);
 	- a description of the complex components for which special management is in place depending on the assistive technology;
-	- explanations of how to use these functions (where they are located, how to activate them); 
 	- a description of the elements that do not comply or are not compatible with certain assistive technologies, and the presence of alternatives where appropriate.
 1. If this is the case, the criterion is validated.
 
@@ -2417,7 +2442,7 @@ The criterion does not apply:
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *12.1.1 Accessibility and compatibility features*.
 
-#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the documentation, the entire path that enables it to be activated meets the accessibility needs of the users who require it. Is this rule respected (excluding special cases)? {id="crit-12-2"}
+#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the [documentation](glossaire.md#documentation), the [mechanism used to activate it](glossaire.md#mechanism-enabling-an-accessibility-feature) meets the accessibility needs of the users concerned. Is this rule respected (excluding special cases)? {id="crit-12-2"}
 
 ##### Special cases
 
@@ -2427,12 +2452,13 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS and Android
 
-1. Identify in the application the accessibility features described in the documentation. For example 
-	- a feature that provides access to a simplified language version of the application;
-	- a feature that locks the orientation of a screen.
-1. Check that it is possible for users who need to
-	- perceive the presence of this functionality in the interface;
-	- activate this functionality. For example, if a functionality is available that allows access to a simplified language version of the application, then all the components that make up the path to the functionality must be in simplified language.
+1. Identify the accessibility features described in the documentation. For example:
+	- access a version of the content in simplified language;
+	- enlarge text size.
+1. Check that the users concerned by each accessibility feature are able to access it. For example:
+	- Alternative version in simplified language: the mechanism or set of mechanisms which enable the functionality to be activated must be understandable and identifiable by a person who benefits from simplified language (for example, the use of the [Easy to read logo](https://www.inclusion-europe.eu/easy-to-read/) to identify the mechanism is a compliant solution).
+	- Larger font size: if the mechanism contains text, then the text must be displayed by default with a font size equivalent to 200% of the initial font size.
+1. Check that it is possible to activate this feature.
 1. If this is the case, the criterion is validated. 
 
 ##### Mapping {class="disclosure mapping"}
@@ -2446,7 +2472,7 @@ The criterion does not apply to features integrated into the platform.
 
 ###### iOS
 
-1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning the accessibility features provided by iOS](https://www.apple.com/uk/accessibility/).
+1. Identify the accessibility features made available to users in the platform [documentation](glossaire.md#documentation) (see the [documentation concerning the accessibility features provided by iOS](https://www.apple.com/uk/accessibility/).
 1. Check that the application does not prevent their use, for example
 	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features such as the screen reader or other touch-based features from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted; 
@@ -2456,7 +2482,7 @@ The criterion does not apply to features integrated into the platform.
 
 ###### Android
 
-1. Identify the accessibility features made available to users in the platform documentation (see the [documentation concerning accessibility features provided by Android](https://support.google.com/accessibility/android/answer/6006564?hl=en)).
+1. Identify the accessibility features made available to users in the platform [documentation](glossaire.md#documentation) (see the [documentation concerning accessibility features provided by Android](https://support.google.com/accessibility/android/answer/6006564?hl=en)).
 1. Check that the application does not prevent their use, for example
 	- if the application implements interactions that trigger features, these interactions do not prevent the platform's accessibility features, such as the screen reader or other touch-based features, from working properly;
 	- if the application includes voice recognition, then the use of the voice command integrated into the platform is not disrupted;
@@ -2469,22 +2495,25 @@ The criterion does not apply to features integrated into the platform.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *11.6.2 No disruption of accessibility features*.
 
-#### [Criterion 12.4](#crit-12-4) [A] Is the application documentation accessible? {id="crit-12-4"}
+#### [Criterion 12.4](#crit-12-4) [A] Does the application documentation comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-12-4"}
+
+- **[Test 12.4.1](#test-12-4-1):** Does the [documentation](glossaire.md#documentation) made available in web format (HTML, CSS) comply with the [RAWeb](../raweb1/criteres.html)? {id="test-12-4-1"}
+- **[Test 12.4.2](#test-12-4-2):** Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1/index.html)?  {id="test-12-4-2"}
+- **[Test 12.4.3](#test-12-4-3):** Does the documentation made available in a non-web format (other than PDF) comply with the criteria of the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1?  {id="test-12-4-3"}
+- **[Test 12.4.4](#test-12-4-4):** Does the documentation made available in a mobile application comply with the RAAM? {id="test-12-4-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify the presence of documentation in the application, for example 
-	- a help screen;
-	- an [accessibility statement](../obligations.html#accessibility-statement); 
-	- any other content that acts as documentation (this could be a pdf document or an external HTML page readable in a web browser).
-1. If this is the case, check for each item of documentation: 
-	- If this is the case a web page, that it complies with [RAWeb1](../raweb1/criteres.html); 
-	- If this is the case an office document in PDF format, that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
-	- If this is the case an office document in another format, that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1;
-	- If this is the case an application screen, that the present framework is complied with (the **[Requirements](../obligations.html)** page also details that screens relating to documentation must be included in the evaluation sample).
+1. Identify the presence of a documentation in the application or accessible from the application.
+1. For a documentation in web format (HTML, CSS), check that it complies with the [RAWeb](../raweb1/criteres.html) criteria.
+1. For a documentation in PDF format, check that it complies with the [RAPDF](../rapdf1/index.html) criteria.
+1. For a documentation in non-web format (other than PDF), check that it complies with the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN301549 v3.2.1.
+1. For a documentation made available in a mobile application, check that it complies with the RAAM criteria.
 1. If this is the case, the criterion is validated.
+
+Note: the documentation will be considered non-compliant as soon as an error is identified with regard to the target criteria, even if the error is part of the template elements (menu, footer) and not just part of the content of the isolated documentation.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2493,16 +2522,29 @@ The criterion does not apply to features integrated into the platform.
 
 ### [Topic 13](#topic-13): Editing tools {id="topic-13"}
 
-#### [Criterion 13.1](#crit-13-1) [A] Can the [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) required to create compliant content? {id="crit-13-1"}
+#### [Criterion 13.1](#crit-13-1) [A] Can each [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-13-1"}
+
+- **[Test 13.1.1](#test-13-1-1):** Can each [editing tool](glossaire.md#editing-tool) that creates content in web format (HTML, CSS) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [RAWeb](../raweb1/index.html)?  {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2):** Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [RAPDF](../rapdf1/index.html)? {id="test-13-1-2"}
+- **[Test 13.1.3](#test-13-1-3):** Can each [editing tool](glossaire.md#editing-tool) that creates content in non-web format (other than PDF) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN301549 v3.2.1? {id="test-13-1-3"}
+- **[Test 13.1.4](#test-13-1-4):** Can each [editing tool](glossaire.md#editing-tool) that creates content that is delivered in a mobile application have the ability to define the [accessibility information](glossaire.md#accessibility-information) needed to create content compliant with RAAM? {id="test-13-1-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify the editing functions in the tool (for example, a text editor, but it could also be a media library or any other interface that lets you enter text or define properties).
-1. Check that it is possible to define the accessibility information needed to make the content RAWeb-compliant. For example 
+1. For functions that allow content to be created in web format (HTML, CSS), check that it is possible to define the accessibility information needed to make the content compliant with [RAWeb](../raweb1/index.html). For example:
+ 	 - defining a text alternative for an image from the text editor or a media library;
+	 - defining an accessible name (of a link);
+	 - etc.
+1. For functions that allow content to be created in non-web format (other than PDF), check that it is possible to define the accessibility information required to make the content compliant with the criteria in [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1. For example:
+	 - defining a text alternative for an image from the text editor or a media library;
+	 - defining an accessible name (of a link);
+	 - etc.
+1. For functions that enable content to be created and delivered in a mobile application, check that it is possible to define the accessibility information needed to make the content compliant with RAAM criteria. For example:
 	 - defining the text alternative for an image from the text editor or a media library;
-	 - define an accessible name (of a link);
+	 - defining an accessible name (of a link);
 	 - etc.
 1. If this is the case, the criterion is validated.
 
@@ -2511,17 +2553,18 @@ The criterion does not apply to features integrated into the platform.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.2 Accessible content creation*.
 
-#### [Criterion 13.2](#crit-13-2) [A] Does the [editing tool](glossaire.md#editing-tool) provide help with creating accessible content? {id="crit-13-2"}
+#### [Criterion 13.2](#crit-13-2) [A] Does each [editing tool](glossaire.md#editing-tool) provide [help with creating accessible content](glossaire.md#help-with-creating-accessible-content) compliant with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-13-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify in the tool the presence of help with creating accessible content. This may include 
-	- user documentation that explains how to define accessibility properties for each content item; 
 	- automatic or semi-automatic tests available from the editing functions; 
+	- other automatic tools (a chatbot for instance);
+	- documentation that explains how to define accessibility properties for each content item; 
 	- manual tests available from the editing functions to guide authors in detecting errors.
-1. Check that the help with creating accessible content is relevant, i.e. that it enables accessible content to be created.
+1. Check that the help with creating accessible content is relevant, i.e. that the given results or indications enable to create content that complies with digital accessibility rules.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2529,11 +2572,11 @@ The criterion does not apply to features integrated into the platform.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.2 Accessible content creation*.
 
-#### [Criterion 13.3](#crit-13-3) [A] Is the content generated by each content [transformation](glossaire.md#transformation) accessible (excluding special cases)? {id="crit-13-3"}
+#### [Criterion 13.3](#crit-13-3) [A] Does the content generated by each content [transformation](glossaire.md#transformation) comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules) (excluding special cases)? {id="crit-13-3"}
 
 ##### Special cases
 
-The criterion is not applicable when the destination format does not allow the accessibility information present in the input content to be retained.
+The criterion Does not applicable when the destination format does not allow the accessibility information present in the input content to be retained.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2541,12 +2584,21 @@ The criterion is not applicable when the destination format does not allow the a
 
 1. From the editing functions (a text editor, but it can also be a media library or any other interface that lets you enter text or define properties), enter the types of content proposed by the editor (heading, list, table, image, etc.). Also use the various parameters for defining accessibility information (enter the text alternative for an image, add a description to a link, etc.)
 1. Save your entries.
-1. View the generated content 
-	- in the editing function (for example, in the text editor); 
-	- in the content publication interface (for example, the publication web page).
-1. Check that 
-	- accessibility information (e.g. alternative image, heading levels) is preserved in the generated content;
-	- the technology supports the accessibility information for the restructured form of the information (check that the transformation of the information is compatible with the technology, in particular to ensure that this information can be used by assistive technologies).
+1. View the generated content:
+	- in the editing function (for example, in the text editor);
+	- and in the content publication interface (for example, the publication web page).
+1. For each piece of content in web format (HTML, CSS), check that:
+	- the information necessary for it to comply with the [RAWeb](../raweb1/index.html) (e.g. the alternative of an image, the headings levels) is preserved in the generated content;
+	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters an HTML table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
+1. For each content item in PDF format, check that:
+	- the information necessary for it to comply with the [RAPDF](../rapdf1/index.html) (e.g. alternative image, title levels) is preserved in the generated content;
+	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters a table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
+1. For all content in non-web format that is not PDF, check that:
+	- the information required to comply with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1 is preserved in the generated content;
+	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters a table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
+1. For each piece of content displayed in a mobile application, check that:
+	- the information necessary for it to comply with RAAM (e.g. alternative image, identification of headings) is preserved in the content generated;
+	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters an HTML table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2554,18 +2606,18 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*.
 
-#### [Criterion 13.4](#crit-13-4) [AA] For each accessibility error identified by an automatic or semi-automatic accessibility test, does the editing tool provide suggestions for repair? {id="crit-13-4"}
+#### [Criterion 13.4](#crit-13-4) [AA] For each accessibility error identified by an automatic or semi-automatic accessibility test, does the [editing tool](glossaire.md#editing-tool) provide suggestions for repair? {id="crit-13-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify the presence of automatic or semi-automatic test functions in the tool.
-2. Modify the values or content in the editing zones to create accessibility errors in the content generated (web and non-web).
+1. Generate web and non-web content with accessibility errors, using the editing tool.
 3. Activate the test functions.
 4. Check that the tool
-	- automatically repairs the error;
-	- or provides the author with repair suggestions.
+	- automatically repairs the error (automatic test);
+	- or provides the author with repair suggestions (semi-automatic test).
 5. In the case of a semi-automatic test, check that the tool 
 	- provides decision support and repair suggestions;
 	- or provides the author with explanations enabling him to carry out the repair.
@@ -2576,14 +2628,22 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.4 Repair Assistance*.
 
-#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template meets the requirements of the [RAWeb](../raweb1/criteres.html). Is this rule respected? {id="crit-13-5"}
+#### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template meets the requirements of [digital accessibility rules](glossaire.md#digital-accessibility-rules). Is this rule respected? {id="crit-13-5"}
+
+- **[Test 13.5.1](#test-13-5-1):** For each set of [templates](glossary.md#template) in web format (HTML, CSS), at least one template complies with the [RAWeb](../raweb1/index.html). Is this rule respected? {id="test-13-5-1"}
+- **[Test 13.5.2](#test-13-5-2):** For each set of [templates](glossary.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1/index.html). Is this rule respected? {id="test-13-5-2"}
+- **[Test 13.5.3](#test-13-5-3):** For each set of [templates](glossary.md#template) in non-web format (other than PDF), at least one template complies with the criteria in section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1. Is this rule respected? {id="test-13-5-3"}
+- **[Test 13.5.4](#test-13-5-4):** For each set of [templates](glossary.md#template) used to deliver content in a mobile application, at least one template complies with the RAAM criteria. Is this rule respected? {id="test-13-5-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify the presence of templates provided by the editing tool.
-1. Test compliance with the [RAWeb](../raweb1/criteres.html) criteria and check that at least one of the templates is fully compliant.
+1. For templates in web format (HTML, CSS), check that at least one template meets all the [RAWeb] criteria (../raweb1/index.html).
+1. For templates in PDF format, check that at least one template complies with all the [RAPDF] criteria(../rapdf1/index.html).
+1. For templates in non-web format (other than PDF), check that at least one template meets all the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1.
+1. For templates used to distribute content in a mobile application, check that at least one template meets all the RAAM criteria.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2591,13 +2651,13 @@ The criterion is not applicable when the destination format does not allow the a
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03): *11.8.1 Content technology, 11.8.5 Templates*.
 
-#### [Criterion 13.6](#crit-13-6) [A] Is each [template](glossaire.md#template) that enables the RAWeb requirements to be met clearly identifiable? {id="crit-13-6"}
+#### [Criterion 13.6](#crit-13-6) [A] Is each [template](glossaire.md#template) that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules) clearly identifiable? {id="crit-13-6"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
-1. Identify the presence of templates fully compliant with the [RAWeb](../raweb1/criteres.html) provided by the editing tool.
+1. Identify the presence of templates fully compliant with [digital accessibility rules](glossaire.md#digital-accessibility-rules) provided by the editing tool.
 1. Check that there is an explicit reference to identify them. For example, in the list of templates, compliant templates have an "accessible template" label.
 1. If this is the case, the criterion is validated.
 
@@ -2743,7 +2803,7 @@ The criterion is not applicable when the two-way voice communication functionali
 #### [Criterion 15.5](#crit-15-5) [A] For each [two-way voice communication application](glossaire.md#two-way-voice-communication-application), is a visual indicator of oral activity present? {id="crit-15-5"} 
 
 - **[Test 15.5.1](#test-15-5-1):** For each real-time text (RTT) and oral communication application, is there a visual indicator of spoken activity?  {id="test-15-5-1"}
-- **[Test 15.5.2](#test-15-5-2)** For each two-way voice communication application that has real-time video, is there a visual indicator of spoken activity? {id="test-15-5-2"}
+- **[Test 15.5.2](#test-15-5-2):** For each two-way voice communication application that has real-time video, is there a visual indicator of spoken activity? {id="test-15-5-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 

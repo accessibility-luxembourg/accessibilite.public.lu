@@ -706,7 +706,7 @@ If the player does not allow a second audio track to be included for audio descr
 
 **Note:** If there is no sound in a time-based media, there is no point in adding a sound activation/deactivation feature. However, if this functionality is present and requires a text alternative to be understood by certain users, then it should be given one since the user is likely to access it and want to activate it.
 
-#### Visible label 
+#### Text label 
 
 Text displayed as a visible label on the screen within a button or link.
 
