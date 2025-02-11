@@ -207,7 +207,7 @@ The criterion does not apply to the following elements:
 1. Activate the **Differentiate without colour** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Differentiate without colour*).
 1. Identify on the screen words or sets of words, texts, graphic elements conveying information and time-based media whose colouring conveys information.
 1. Check that there is another visual way of retrieving this information: the presence of an icon or a graphic effect of shape or position, a typographic effect, etc.
-1. Using the **screen reader**, access the information provided by the colour.  
+1. Using the **screen reader**, access the information provided by the colour.
 1. Check that equivalent information is rendered by the screen reader (for example the "selected" status of a green button).
 1. If this is the case, the criterion is validated.
 
@@ -244,7 +244,7 @@ The criterion does not apply to the following elements:
 ###### iOS
 
 1. Activate the **Increase contrast** option (*Settings &gt; Accessibility &gt; Text display and size &gt; Increase contrast*) or if present in the application, activate the [replacement mechanism enabling the application to be displayed with a sufficient contrast ratio](glossaire.md#).
-1. Identify  on the screen the texts, the texts contained in graphic elements and the texts embedded in videos that could cause contrast problems.
+1. Identify on the screen the texts, the texts contained in graphic elements and the texts embedded in videos that could cause contrast problems.
 1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
 	- by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
 	- by taking [screenshots](methodologie.md#take-screenshots) of the elements to be evaluated (and importing them onto the computer).
@@ -258,7 +258,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#test
 ###### Android
 
 1. If it exists in the application, activate the replacement mechanism to display the application with a sufficient contrast ratio.
-1. Identify  on the screen the texts, the texts contained in graphic elements and the texts embedded in videos that could cause contrast problems.
+1. Identify on the screen the texts, the texts contained in graphic elements and the texts embedded in videos that could cause contrast problems.
 1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device either 
 	- by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
 	- by taking [screenshots](methodologie.md#take-screenshots) of the elements to be evaluated (and importing them onto the computer).
@@ -323,7 +323,7 @@ Note: It is possible to use the **[Accessibility Inspector](methodologie.md#test
 1. Identify on the screen the interactive components that may have several states (hovered, focused, activated, checked) and for each
 	- Identify which colour(s) of the component are necessary to identify the location and/or the information conveyed and the state (this could be the border, the colour of an icon, the background colour) for each of the states;
 	- Identify the adjacent colours that have an impact on the visibility of the component's colour(s).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device  
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device 
 	- either by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
 	- or by taking [screenshots](methodologie.md#take-screenshots) of the elements to be evaluated (and importing them onto the computer).
 1. Check that the contrast ratio between the colours identified is at least 3:1.
@@ -362,7 +362,7 @@ Note: It is possible to use the **[Accessibility Scanner](methodologie.md#test-a
 
 1. Identify the presence of a [replacement mechanism enabling the application to be displayed with a sufficient contrast ratio](glossaire.md#application-mechanism-for-displaying-a-correct-contrast-ratio).
 1. Check that it is not activated (i.e. the screen is displayed with the default contrast).
-1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device  
+1. Activate the **Colour Contrast Analyser** software on the computer and capture the foreground and background colours on the mobile device 
 	- either by [broadcasting the screen of the mobile device to the computer](methodologie.md#broadcast-the-screen-of-the-mobile-device);
 	- or by taking [screenshots](methodologie.md#take-screenshots) of the elements to be evaluated (and importing them onto the computer).
 1. If the replacement mechanism is identified by text, capture the foreground and background colours and check 
@@ -502,7 +502,7 @@ The criterion does not apply to the following elements:
 	
 ##### Special cases
 
-[See special cases in criterion 3.1](#crit-3-1)  
+[See special cases in criterion 3.1](#crit-3-1)
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -526,7 +526,7 @@ The criterion does not apply to the following elements:
 
 **[Test 3.6.1](#test-3-6-1):** Does each synchronised pre-recorded time-based media meet one of these conditions? {id="test-3-6-1"}
 - The audio description is relevant and correctly synchronised;
-- The text transcription is relevant.
+- The text transcript is relevant.
 
 ##### Special cases
 
@@ -541,7 +541,7 @@ The criterion does not apply to the following elements:
 	- that it is relevant (all the important visual information is present);
 	- and that it is correctly synchronised (the audio description soundtrack coincides correctly with the video).
 1. If a text transcript is present, check
-	-  that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
+	- that it is relevant (all important audio or visual information is present, including dialogue and embedded text).
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -658,7 +658,7 @@ Live synchronised time-based media broadcast via a mobile application subject to
 - EN 301 549 V3.2.1 (2021-03): *7.2.2 Audio description synchronization*, *11.1.2.5 Audio description (prerecorded)*.
 - APPT: [Audio Description (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5).
 
-#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), does the adjacent text content clearly identify the time-based media (excluding special cases)?  {id="crit-3-11"}
+#### [Criterion 3.11](#crit-3-11) [A] For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), does the adjacent text content clearly identify the time-based media (excluding special cases)? {id="crit-3-11"}
 
 ##### Special cases
 
@@ -707,7 +707,7 @@ This criterion is subject to the [non-interference principle](methodologie.md#no
 - EN 301 549 V3.2.1 (2021-03) *11.1.4.2 Audio Control*.
 - APPT: [Audio Control](https://appt.org/en/guidelines/wcag/success-criterion-1-4-2).
 
-#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#viewing-control-time-based-media)?  {id="crit-3-13"}
+#### [Criterion 3.13](#crit-3-13) [A] Does each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where necessary, the [viewing control features](glossaire.md#viewing-control-time-based-media)? {id="crit-3-13"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -1806,7 +1806,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 #### [Criterion 9.10](#crit-9-10) [AA] In each form, is the [error management](glossaire.md#error-management-form) accompanied, if necessary, by suggestions of expected data types, formats or values? {id="crit-9-10"}
 
-**[Test 9.10.1](#test-9-10-1):** In each form, does the error management check these conditions?  {id="test-9-10-1"}
+**[Test 9.10.1](#test-9-10-1):** In each form, does the error management check these conditions? {id="test-9-10-1"}
 - If necessary, the input check is accompanied by suggestions for the expected data types and formats;
 - The input check is accompanied, if necessary, by suggestions for expected values.
 
@@ -1850,7 +1850,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 #### [Criterion 9.12](#crit-9-12) [AA] For each field that expects [personal user data](glossaire.md#personal-user-data), is input facilitated? {id="crit-9-12"}
 
-**[Test 9.12.1](#test-9-12-1):** Does each field that expects personal data from the user respect these conditions?  {id="test-9-12-1"}
+**[Test 9.12.1](#test-9-12-1):** Does each field that expects personal data from the user respect these conditions? {id="test-9-12-1"}
 - The [appropriate native platform controls](glossaire.md#native-platform-controls) are presented to the user;
 - The field is compatible with an auto-fill functionality.
 
@@ -1967,7 +1967,7 @@ The keyboard trap test is then limited to checking that the component can be rea
 - EN 301 549 V3.2.1 (2021-03): *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*. 
 - APPT: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1), [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2).
 
-#### [Criterion 10.4](#crit-10-4) [A] On each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user?  {id="crit-10-4"}
+#### [Criterion 10.4](#crit-10-4) [A] On each screen, are [keyboard shortcuts](glossaire.md#keyboard-shortcut) using only one key (upper or lower case letter, punctuation, number or symbol) controllable by the user? {id="crit-10-4"}
 
 **[Test 10.4.1](#test-10-4-1):** On each screen, does each keyboard shortcut using a single key (lower or upper case letter, punctuation, number or symbol) meet one of these conditions? {id="test-10-4-1"}
 - A mechanism is available to disable the keyboard shortcut;
@@ -2058,7 +2058,7 @@ The criterion is not applicable when the time limit is essential, in particular 
 
 #### [Criterion 11.3](#crit-11-3) [A] On each screen, does each office document available for download have, if necessary, an [accessible version](glossaire.md#accessible-version) (excluding special cases)? {id="crit-11-3"}
 
-**[Test 11.3.1](#test-11-3-1):** Does each office document meet one of these conditions?  {id="test-11-3-1"}
+**[Test 11.3.1](#test-11-3-1):** Does each office document meet one of these conditions? {id="test-11-3-1"}
 - The document to be downloaded is compatible with accessibility;
 - There is an alternative version of the document available for download that is compatible with accessibility;
 - There is an alternative version of the downloadable document in the application that is accessible to assistive technologies.
@@ -2498,8 +2498,8 @@ The criterion does not apply to features integrated into the platform.
 #### [Criterion 12.4](#crit-12-4) [A] Does the application documentation comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-12-4"}
 
 - **[Test 12.4.1](#test-12-4-1):** Does the [documentation](glossaire.md#documentation) made available in web format (HTML, CSS) comply with the [RAWeb](../raweb1/criteres.html)? {id="test-12-4-1"}
-- **[Test 12.4.2](#test-12-4-2):** Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1/index.html)?  {id="test-12-4-2"}
-- **[Test 12.4.3](#test-12-4-3):** Does the documentation made available in a non-web format (other than PDF) comply with the criteria of the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1?  {id="test-12-4-3"}
+- **[Test 12.4.2](#test-12-4-2):** Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1/index.html)? {id="test-12-4-2"}
+- **[Test 12.4.3](#test-12-4-3):** Does the documentation made available in a non-web format (other than PDF) comply with the criteria of the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1? {id="test-12-4-3"}
 - **[Test 12.4.4](#test-12-4-4):** Does the documentation made available in a mobile application comply with the RAAM? {id="test-12-4-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -2524,17 +2524,17 @@ Note: the documentation will be considered non-compliant as soon as an error is 
 
 #### [Criterion 13.1](#crit-13-1) [A] Can each [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-13-1"}
 
-- **[Test 13.1.1](#test-13-1-1):** Can each [editing tool](glossaire.md#editing-tool) that creates content in web format (HTML, CSS) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [RAWeb](../raweb1/index.html)?  {id="test-13-1-1"}
-- **[Test 13.1.2](#test-13-1-2):** Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [RAPDF](../rapdf1/index.html)? {id="test-13-1-2"}
+- **[Test 13.1.1](#test-13-1-1):** Can each [editing tool](glossaire.md#editing-tool) that creates content in web format (HTML, CSS) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAWeb](../raweb1/index.html)? {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2):** Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAPDF](../rapdf1/index.html)? {id="test-13-1-2"}
 - **[Test 13.1.3](#test-13-1-3):** Can each [editing tool](glossaire.md#editing-tool) that creates content in non-web format (other than PDF) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN301549 v3.2.1? {id="test-13-1-3"}
-- **[Test 13.1.4](#test-13-1-4):** Can each [editing tool](glossaire.md#editing-tool) that creates content that is delivered in a mobile application have the ability to define the [accessibility information](glossaire.md#accessibility-information) needed to create content compliant with RAAM? {id="test-13-1-4"}
+- **[Test 13.1.4](#test-13-1-4):** Can each [editing tool](glossaire.md#editing-tool) that creates content that is delivered in a mobile application have the ability to define the [accessibility information](glossaire.md#accessibility-information) needed to create content compliant with the RAAM? {id="test-13-1-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify the editing functions in the tool (for example, a text editor, but it could also be a media library or any other interface that lets you enter text or define properties).
-1. For functions that allow content to be created in web format (HTML, CSS), check that it is possible to define the accessibility information needed to make the content compliant with [RAWeb](../raweb1/index.html). For example:
+1. For functions that allow content to be created in web format (HTML, CSS), check that it is possible to define the accessibility information needed to make the content compliant with the [RAWeb](../raweb1/index.html). For example:
  	 - defining a text alternative for an image from the text editor or a media library;
 	 - defining an accessible name (of a link);
 	 - etc.
@@ -2542,7 +2542,7 @@ Note: the documentation will be considered non-compliant as soon as an error is 
 	 - defining a text alternative for an image from the text editor or a media library;
 	 - defining an accessible name (of a link);
 	 - etc.
-1. For functions that enable content to be created and delivered in a mobile application, check that it is possible to define the accessibility information needed to make the content compliant with RAAM criteria. For example:
+1. For functions that enable content to be created and delivered in a mobile application, check that it is possible to define the accessibility information needed to make the content compliant with the RAAM criteria. For example:
 	 - defining the text alternative for an image from the text editor or a media library;
 	 - defining an accessible name (of a link);
 	 - etc.
@@ -2597,7 +2597,7 @@ The criterion Does not applicable when the destination format does not allow the
 	- the information required to comply with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN301549 v3.2.1 is preserved in the generated content;
 	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters a table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
 1. For each piece of content displayed in a mobile application, check that:
-	- the information necessary for it to comply with RAAM (e.g. alternative image, identification of headings) is preserved in the content generated;
+	- the information necessary for it to comply with the RAAM (e.g. alternative image, identification of headings) is preserved in the content generated;
 	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters an HTML table and, after saving, the tool linearises the table, the restructured information must be comprehensible to assistive technology users as it would have been in its original form).
 1. If this is the case, the criterion is validated.
 
@@ -2642,7 +2642,7 @@ The criterion Does not applicable when the destination format does not allow the
 1. Identify the presence of templates provided by the editing tool.
 1. For templates in web format (HTML, CSS), check that at least one template meets all the [RAWeb] criteria (../raweb1/index.html).
 1. For templates in PDF format, check that at least one template complies with all the [RAPDF] criteria(../rapdf1/index.html).
-1. For templates in non-web format (other than PDF), check that at least one template meets all the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1.
+1. For templates in non-web format (other than PDF), check that at least one template meets all the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1.
 1. For templates used to distribute content in a mobile application, check that at least one template meets all the RAAM criteria.
 1. If this is the case, the criterion is validated.
 
@@ -2668,23 +2668,16 @@ The criterion Does not applicable when the destination format does not allow the
 
 ### [Topic 14](#topic-14): Support services {id="topic-14"}
 
-#### [Criterion 14.1](#crit-14-1) [AA] Does each [support service](glossaire.md#support-services) provide information relating to the [accessibility features](glossaire.md#accessibility-feature) of the application described in the documentation? {id="crit-14-1"}
+#### [Criterion 14.1](#crit-14-1) [AA] Does each [support service](glossaire.md#support-services) provide information relating to [accessibility features](glossaire.md#accessibility-feature) and accessibility compatibility, described in the [documentation](glossaire.md#documentation)? {id="crit-14-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Find out whether a support service is available in the application.
-1. If this is the case, look for documentation in the application, for example: 
-	- a help screen;
-	- an [accessibility statement](../obligations.html#accessibility-statement); 
-	- any other content that serves as documentation.
+1. If this is the case, look for documentation in the application.
 1. Identify the presence in the documentation of 
-	- a description of the application's accessibility features, for example 
-		- accessibility parameters built into the application, such as colour management, font sizes, animation management, etc;
-		- a customised rotor on certain screens (the rotor is a screen reader feature that enables rapid navigation between different types of elements on a screen; some platforms allow you to define application-specific rapid navigation elements in this rotor. [See a demonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)); 
-		- gestures or device movements that trigger functions;  
-		- special keyboard shortcuts available for certain assistive technologies.
+	- a description of the accessibility features offered by the application;
 	- a description of the complex components for which special management is in place depending on the assistive technology;
 	- explanations of how to use these functions (where they are located, how to activate them); 
 	- a description of the elements that do not comply or are not compatible with certain assistive technologies, and the presence of alternatives where appropriate.
@@ -2703,8 +2696,9 @@ The criterion Does not applicable when the destination format does not allow the
 ###### iOS and Android
 
 1. Identify the presence of a support service in the application.
-1. If so, check that the support service can be used by all people with disabilities. It may be useful to search the application documentation to find this information. For example, if the support service is available from a telephone number, check that there are alternative means for users who cannot express themselves orally (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example 
-	- instant messaging, which provides an equivalent service (real-time dialogue with a human operator); 
+1. If this is the case, check that the support service can be used by all people with disabilities. It may be useful to search the application [documentation](glossaire.md#documentation) to find this information. For example, if the support service is available from a telephone number, check that there are alternative means for users who have little or no access to spoken language (deaf or hard of hearing people) or who cannot use verbal language (people with aphasia). For example 
+	- an e-mail address or an online form;
+	- instant messaging; 
 	- the provision of simultaneous written or visual translation of oral or audio information, or the provision of a sign language interpreter (use of a relay service).
 1. If this is the case, the criterion is validated.
 
@@ -2712,6 +2706,31 @@ The criterion Does not applicable when the destination format does not allow the
 
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *12.2.3 Effective communication*.
+
+#### [Criterion 14.3](#crit-14-3) [A] Does the [documentation](glossaire.md#documentation) provided by the [support service](glossaire.md#support-services) comply with the [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-14-3"}
+
+- **[Test 14.3.1](#test-14-3-1):** Does the [documentation](glossaire.md#documentation) provided by the support service in web format (HTML, CSS) comply with the [RAWeb](../raweb1/index.html)? {id="test-14-3-1"}
+- **[Test 14.3.2](#test-14-3-2):** Does the [documentation](glossaire.md#documentation) provided by the support service in PDF format comply with the [RAPDF](../rapdf1/index.html)? {id="test-14-3-2"}
+- **[Test 14.3.3](#test-14-3-3):** Does the [documentation](glossaire.md#documentation) provided by the support service in a non-web format (other than PDF) comply with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1? {id="test-14-3-3"}
+- **[Test 14.3.4](#test-14-3-4):** Does the [documentation](glossaire.md#documentation) provided by the support service in a mobile application comply with the RAAM? {id="test-14-3-4"}
+
+##### Evaluation methodology {class="disclosure methodo"}
+
+###### iOS and Android
+
+1. Identify the presence of a documentation provided by the support service.
+1. For documentation in web format (HTML, CSS), check that it complies with the [RAWeb] criteria (../raweb1/criteres.html).
+1. For documentation in PDF format, check that it complies with the [RAPDF] criteria(../rapdf1/index.html).
+1. For documentation in non-web format (other than PDF), check that it complies with the criteria in [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1;
+1. For documentation provided in a mobile application, check that it complies with the RAAM criteria.
+1. If it does, the criterion is validated.
+
+Note: the documentation will be considered non-compliant as soon as an error is identified with regard to the target criteria, even if the error is part of the template elements (menu, footer) and not just part of the content of the isolated documentation.
+
+##### Mapping {class="disclosure mapping"}
+
+- WCAG 2.1: N/A
+- EN301549 V3.2.1 (2021-03): *12.2.4 Accessible documentation*.
 
 ### [Topic 15](#topic-15): Real-time communication {id="topic-15"}
 
@@ -2721,9 +2740,16 @@ The criterion Does not applicable when the destination format does not allow the
 
 ###### iOS and Android
 
-The safest way to assess this criterion is to search either the interface or the application documentation for this information. It is also recommended that you ask the application publisher to provide this information. 
+1. Activate the application and launch a call between the two terminals.
+1. Check that the quality of oral activity with the web application is at least equivalent to the quality of oral activity during a call with a fixed telephone.
+1. If the test is unsatisfactory (e.g. poor understanding of certain words spoken by the caller, presence of extraneous noise, etc.), check the application documentation to ensure:
+	- the presence of a reference to the implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-G.722/fr);
+	- or the presence of a reference to the use of the [WebRTC API opus codec](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs);
+	- or the presence of a reference to the use of encoding and decoding with a frequency greater than or equal to 7,000 Hz.
+1. Otherwise, it is recommended that you ask the application publisher to provide these technical details, in particular by asking whether the web application implements, for example, ITU-T Recommendation G.722 or uses the WebRTC API opus codec.
+1. If this is the case, the test is validated.
 
-An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-G.722/en) for example seems to be an optimal solution.
+If the information cannot be found in the interface or its documentation, and the editor of the application is unable to answer about this technical characteristic, the criterion will be considered non-compliant.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2731,10 +2757,6 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 - EN 301 549 V3.2.1 (2021-03) *6.1 Audio bandwidth for speech*.
 
 #### [Criterion 15.2](#crit-15-2) [A] Does each application that supports [two-way voice communication](glossaire.md#two-way-voice-communication-application) have [real-time text communication](glossaire.md#real-time-text-communication) functionality? {id="crit-15-2"}
-
-**[Test 15.2.1](#test-15-2-1):** Does each application that enables two-way voice communication meet one of these conditions?  {id="test-15-2-1"}
-- The application has built-in real-time text (RTT) functionality;
-- The application can be connected to a terminal with built-in real-time text functionality. 
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -2744,6 +2766,8 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 1. If it does, check that there is a real-time text function (it may sometimes be necessary to activate a dedicated parameter in the application to enable real-time text).
 1. If not, check whether the application can connect to a terminal with real-time text functionality (this may be difficult to assess without a real-time communication terminal or if the network used by the terminal does not support real-time text protocols. A first step may be to search the documentation or ask the application publisher directly)
 1. If this is the case, the criterion is validated.
+
+If the information cannot be found in the interface or its documentation, and the editor of the application is unable to answer about this technical characteristic, the criterion will be considered non-compliant.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2758,7 +2782,8 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 1. Check that the application allows two-way voice communication.
 1. If it does, check that it has a real-time text (RTT) function.
-1. If this is the case, check that it is possible to use both modes of communication at the same time, i.e. users can send RTT messages at the same time as other users are speaking, for example.
+1. If this is the case, check that it is possible to use both modes of communication at the same time, i.e. that it is possible for the same user to speak and use the RTT function simultaneously.
+
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2768,31 +2793,26 @@ An implementation of [ITU-T Recommendation G.722](https://www.itu.int/rec/T-REC-
 
 #### [Criterion 15.4](#crit-15-4) [A] For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
 
-**[Test 15.4.1](#test-15-4-1):** For each real-time text (RTT) functionality, do the messages respect these conditions? {id="test-15-4-1"}
+**[Test 15.4.1](#test-15-4-1):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, do the messages respect these conditions? {id="test-15-4-1"}
 - Messages received and sent are separated in the presentation;
 - The presentation can be used to identify the nature of the message (received or sent);
-- The presentation is used to identify the authors of the messages;
 - The nature of the message (received or sent) is accessible to assistive technologies;
-- Identification of the author of the message is accessible to assistive technologies.
 
-##### Special cases
-
-The criterion is not applicable when the two-way voice communication functionality does not allow the participants to be identified, in which case the RTT communication functionality is not required to identify the authors of the messages.
+- **[Test 15.4.2](#test-15-4-2):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality used with a [two-way voice communication](glossary.md#two-way-voice-communication-application) feature that identifies the speakers, do the messages meet these conditions? {id="test-15-4-2"}
+	- The presentation is used to identify the authors of the messages;
+	- Identification of the author of the message is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Activate the application and the application's RTT functionality on two terminals and connect them to the same session.
-1. Send a text message from both terminals to obtain messages with different statuses (sent and received).
+1. Send a text message from both terminals to obtain messages with different statuses (sent and received) and with different authors.
 1. Check that 
 	- sent and received messages are visually separated (for example, sent messages are in one window and received messages in another, or there is a line break between each received and sent message if they are presented in the same window);
-	- it is visually possible to distinguish between messages sent and messages received (for example, the words "Sent" near a message sent or "Received" near a message received);
-	- if the interlocutor is identified for oral communication (for example, the avatar of the person speaking), that the authors of written messages are also identified (for example, the presence of a name or an identifier preceding the message).
-1. Activate the **screen reader** and navigate through the messages.
-1. Check that the screen reader displays
-	- the sent or received status of each message; 
-	- identification of the author of the message.
+	- it is visually possible to distinguish between messages sent and messages received. For example, by a layout or colour that differentiates them or by a visible text annotation (look for the words "Sent" near a sent message or "Received" near a received message);
+	- information about the nature of the message (received or sent) is accessible to assistive technologies (text information is available to provide this information);
+	- the authors of text messages are identified (for example, the presence of a name or identifier preceding the message).
 1. If this is the case, the criterion is validated. 
 
 ##### Mapping {class="disclosure mapping"}
@@ -2802,7 +2822,7 @@ The criterion is not applicable when the two-way voice communication functionali
 
 #### [Criterion 15.5](#crit-15-5) [A] For each [two-way voice communication application](glossaire.md#two-way-voice-communication-application), is a visual indicator of oral activity present? {id="crit-15-5"} 
 
-- **[Test 15.5.1](#test-15-5-1):** For each real-time text (RTT) and oral communication application, is there a visual indicator of spoken activity?  {id="test-15-5-1"}
+- **[Test 15.5.1](#test-15-5-1):** For each real-time text (RTT) and oral communication application, is there a visual indicator of spoken activity? {id="test-15-5-1"}
 - **[Test 15.5.2](#test-15-5-2):** For each two-way voice communication application that has real-time video, is there a visual indicator of spoken activity? {id="test-15-5-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -2826,9 +2846,14 @@ The criterion is not applicable when the two-way voice communication functionali
 
 ###### iOS and Android
 
-No evaluation method is proposed for this criterion.
+This criterion is very complex to assess and requires a certain mastery of all interoperability concepts and standards.
 
-**Important note:** This criterion is very complex to assess and requires a certain mastery of all interoperability concepts and standards. If the application you are assessing or developing needs to cover this criterion, we refer you to the full text of criterion 6.2.3 Interoperability in the EN 301 549 standard.
+We recommend that you ask the application publisher to check that all the requirements described in criterion *6.2.3 Interoperability* of European standard EN&nbsp;301&nbsp;549 are met.
+
+It is also advisable to search the documentation or ask the application publisher directly.
+
+If the information cannot be found in the interface or its documentation, and the application publisher is unable to provide an answer on this technical characteristic, the criterion will be considered non-compliant.
+
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2843,7 +2868,7 @@ No evaluation method is proposed for this criterion.
 
 1. Check that the application supports real-time text (RTT) communication.
 1. If so, activate the application and the written communication functionality on two separate terminals and connect them to the same session.
-1. Enter text on the first terminal and observe its appearance on the second terminal. The appearance on the second terminal must be instantaneous (less than half a second). Depending on how the functionality works, each character is not sent individually. In fact, if the RTT communication functionality implements word prediction, it is when the desired word is selected that it is sent, not when the first characters used to trigger the suggestion display are entered. A simple observation test may be sufficient to observe the instantaneous appearance on the terminal receiving the written message. 
+1. Enter text on the first terminal and observe its appearance on the second terminal. The appearance on the second terminal must be instantaneous (less than half a second). Depending on how the functionality is configured, each character is not sent individually. In fact, if the RTT communication functionality implements word prediction, it is when the desired word is selected that it is sent, and not when the first characters used to trigger the suggestion display are entered. A simple observation test may be sufficient to observe the instantaneous appearance on the terminal receiving the written message. 
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2861,11 +2886,11 @@ No evaluation method is proposed for this criterion.
 
 ###### iOS and Android
 
-1. Activate the **screen reader** from a terminal.
+1. Activate the application and the **screen reader** from a terminal.
 1. From a second terminal, make a call to the first terminal.
-1. When the incoming call appears, check:
-	- that the caller identification is available in visible text format (for example, a name or a telephone number);
-	- and that this identification is correctly rendered by **the screen reader**.
+1. When the incoming call appears, check that:
+	- the caller identification is visually available in the form of text of an understandable nature (for example, a name or a telephone number);
+	- this identification is correctly rendered by **the screen reader**.
 1. If this is the case, the criterion is validated. 
 
 ##### Mapping {class="disclosure mapping"}
@@ -2873,15 +2898,20 @@ No evaluation method is proposed for this criterion.
 - WCAG 2.1: N/A
 - EN 301 549 V3.2.1 (2021-03) *6.3 Caller ID*.
 
-#### [Criterion 15.9](#crit-15-9) [A] For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that provides caller identification, is there a way to present this identification for sign language users? {id="crit-15-9"}
+#### [Criterion 15.9](#crit-15-9) [A] For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that makes it possible to identify the activity of a speaker, it is possible to identify the activity of a signer. Is this rule respected? {id="crit-15-9"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Activate the application and launch a video call between the two terminals.
-1. Check that the terminal receiving the call has a method enabling sign language users to identify the caller. 
-1. If this is the case, the criterion is validated. 
+1. Initiate an oral activity, and check that the second terminal has information to identify this activity (for example, the presence of a coloured halo around the thumbnail of the speaker in activity).
+1. If this is the case:
+	- look for the presence of a manual mechanism (e.g. a button) that would allow the person signing to indicate that they are signing;
+	- if not, perform gestures in front of the camera (see note) and check that information is automatically displayed to identify this visual activity.
+1. If this is the case, the criterion is validated.
+
+Note: in communication applications, the identification of a spoken activity is not based on the identification of an intelligible verbal message (a word or sentence, for example), but solely on the identification of a sound (a noise, for example). In this way, visual activity, even if it does not correspond to an element that can be understood in sign language, could be detected automatically by this application and would therefore serve as a mechanism for identifying the activity of a person who signs. It is therefore possible to test by performing gestures even if they do not correspond to an element of meaning in sign language.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2894,13 +2924,13 @@ No evaluation method is proposed for this criterion.
 
 ###### iOS and Android
 
-1. Identify the features available (apart from the oral communication feature) that are based on listening to information or issuing commands, for example
+1. Identify in the application the features available (apart from the oral communication feature) that are based on listening to information or issuing commands, for example
 	- voicemail; 
 	- an automatic switchboard (e.g. one that requires you to say a number between 1 and 4 to be redirected to a service);
 	- or any other interactive voice server.
-1. Check: 
-	- that the information is available without having to listen or speak; 
-	- that the actions can be carried out without having to listen or speak, or that there is an alternative to the functionality that can be used without having to listen or speak.
+1. Check that: 
+	- the information is available without having to listen or speak (e.g. via a text transcript or a chat system); 
+	- the actions can be carried out without having to listen or speak, or that there is an alternative to the functionality that can be used without having to listen or speak.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2920,6 +2950,8 @@ No evaluation method is proposed for this criterion.
 ###### iOS and Android
 
 For conditions relating to resolution and frame rate, the safest way to assess this criterion is to search either the interface or the application's documentation for this information. It is also advisable to ask the application's publisher to provide these technical details.
+
+If the information cannot be found in the interface or its documentation, and the application publisher is unable to provide an answer on this technical characteristic, these conditions cannot be validated, the criterion will be considered non-compliant.
 
 For the last condition concerning the time lag between video and audio, the test can be established by simple observation:
 1. Activate the application on two devices.
