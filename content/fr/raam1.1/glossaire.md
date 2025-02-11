@@ -408,7 +408,7 @@ Information transmise visuellement par l’intermédiaire d’une couleur. L’i
 L’indication donnée uniquement par la couleur doit être accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas ou perçoivent mal les couleurs ou leurs associations.
 
 L’indication donnée par la couleur doit être fournie&nbsp;: 
-- un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) ou un autre style typographique (gras, italique, taille de texte, autre police, etc) pour les utilisateurs qui perçoivent mal les couleurs&nbsp;;
+- par un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) ou un autre style typographique (gras, italique, taille de texte, autre police, etc) pour les utilisateurs qui perçoivent mal les couleurs&nbsp;;
 - et par une information descriptive (non visible) présente sur l’élément afin que les lecteurs d’écran restituent l’information aux utilisateurs qui ne voient pas.
 
 #### Indication donnée par la forme, la taille ou la position
