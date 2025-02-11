@@ -1747,7 +1747,7 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 1. For each mandatory field, check that
 	- the information rendered by the screen reader when focused on the field contains the required nature;
 	- a [visible indication](glossaire.md#mandatory-field-indication) near the field indicates that the form field is mandatory.
-1. If the [visible indication](glossary.md#mandatory-field-indication) is made in a non-textual way (icon, '*', '!', etc.), the explanation of the meaning of this indication is placed visually, and in the reading order, before the first use of the indication.
+1. If the [visible indication](glossaire.md#mandatory-field-indication) is made in a non-textual way (icon, '*', '!', etc.), the explanation of the meaning of this indication is placed visually, and in the reading order, before the first use of the indication.
 1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -2630,18 +2630,18 @@ The criterion Does not applicable when the destination format does not allow the
 
 #### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template meets the requirements of [digital accessibility rules](glossaire.md#digital-accessibility-rules). Is this rule respected? {id="crit-13-5"}
 
-- **[Test 13.5.1](#test-13-5-1):** For each set of [templates](glossary.md#template) in web format (HTML, CSS), at least one template complies with the [RAWeb](../raweb1/index.html). Is this rule respected? {id="test-13-5-1"}
-- **[Test 13.5.2](#test-13-5-2):** For each set of [templates](glossary.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1/index.html). Is this rule respected? {id="test-13-5-2"}
-- **[Test 13.5.3](#test-13-5-3):** For each set of [templates](glossary.md#template) in non-web format (other than PDF), at least one template complies with the criteria in section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1. Is this rule respected? {id="test-13-5-3"}
-- **[Test 13.5.4](#test-13-5-4):** For each set of [templates](glossary.md#template) used to deliver content in a mobile application, at least one template complies with the RAAM criteria. Is this rule respected? {id="test-13-5-4"}
+- **[Test 13.5.1](#test-13-5-1):** For each set of [templates](glossaire.md#template) in web format (HTML, CSS), at least one template complies with the [RAWeb](../raweb1/index.html). Is this rule respected? {id="test-13-5-1"}
+- **[Test 13.5.2](#test-13-5-2):** For each set of [templates](glossaire.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1/index.html). Is this rule respected? {id="test-13-5-2"}
+- **[Test 13.5.3](#test-13-5-3):** For each set of [templates](glossaire.md#template) in non-web format (other than PDF), at least one template complies with the criteria in section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1. Is this rule respected? {id="test-13-5-3"}
+- **[Test 13.5.4](#test-13-5-4):** For each set of [templates](glossaire.md#template) used to deliver content in a mobile application, at least one template complies with the RAAM criteria. Is this rule respected? {id="test-13-5-4"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
 ###### iOS and Android
 
 1. Identify the presence of templates provided by the editing tool.
-1. For templates in web format (HTML, CSS), check that at least one template meets all the [RAWeb] criteria (../raweb1/index.html).
-1. For templates in PDF format, check that at least one template complies with all the [RAPDF] criteria(../rapdf1/index.html).
+1. For templates in web format (HTML, CSS), check that at least one template meets all the [RAWeb](../raweb1/index.html) criteria.
+1. For templates in PDF format, check that at least one template complies with all the [RAPDF](../rapdf1/index.html) criteria.
 1. For templates in non-web format (other than PDF), check that at least one template meets all the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1.
 1. For templates used to distribute content in a mobile application, check that at least one template meets all the RAAM criteria.
 1. If this is the case, the criterion is validated.
@@ -2719,8 +2719,8 @@ The criterion Does not applicable when the destination format does not allow the
 ###### iOS and Android
 
 1. Identify the presence of a documentation provided by the support service.
-1. For documentation in web format (HTML, CSS), check that it complies with the [RAWeb] criteria (../raweb1/criteres.html).
-1. For documentation in PDF format, check that it complies with the [RAPDF] criteria(../rapdf1/index.html).
+1. For documentation in web format (HTML, CSS), check that it complies with the [RAWeb](../raweb1/criteres.html) criteria.
+1. For documentation in PDF format, check that it complies with the [RAPDF](../rapdf1/index.html) criteria.
 1. For documentation in non-web format (other than PDF), check that it complies with the criteria in [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN301549 v3.2.1;
 1. For documentation provided in a mobile application, check that it complies with the RAAM criteria.
 1. If it does, the criterion is validated.
@@ -2793,12 +2793,11 @@ If the information cannot be found in the interface or its documentation, and th
 
 #### [Criterion 15.4](#crit-15-4) [A] For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, can the messages be identified (excluding special cases)? {id="crit-15-4"}
 
-**[Test 15.4.1](#test-15-4-1):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, do the messages respect these conditions? {id="test-15-4-1"}
-- Messages received and sent are separated in the presentation;
-- The presentation can be used to identify the nature of the message (received or sent);
-- The nature of the message (received or sent) is accessible to assistive technologies;
-
-- **[Test 15.4.2](#test-15-4-2):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality used with a [two-way voice communication](glossary.md#two-way-voice-communication-application) feature that identifies the speakers, do the messages meet these conditions? {id="test-15-4-2"}
+- **[Test 15.4.1](#test-15-4-1):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, do the messages respect these conditions? {id="test-15-4-1"}
+	- Messages received and sent are separated in the presentation;
+	- The presentation can be used to identify the nature of the message (received or sent);
+	- The nature of the message (received or sent) is accessible to assistive technologies.
+- **[Test 15.4.2](#test-15-4-2):** For each [real-time text communication](glossaire.md#real-time-text-communication) functionality used with a [two-way voice communication](glossaire.md#two-way-voice-communication-application) feature that identifies the speakers, do the messages meet these conditions? {id="test-15-4-2"}
 	- The presentation is used to identify the authors of the messages;
 	- Identification of the author of the message is accessible to assistive technologies.
 

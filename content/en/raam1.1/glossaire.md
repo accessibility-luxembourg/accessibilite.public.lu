@@ -227,12 +227,13 @@ Element used to structure information in rows and columns using data cells and h
 
 Text linked to the table that identifies the content of a data table clearly and concisely.
 
-### Data type and format
+#### Data type and format
 
 Text indication enabling the user to know what type of data and/or input format is required by a field, before filling it in. For example:
 - Date (dd/mm/yyyy);
 - Amount in euros;
 - Postcode (5 digits: e.g. 75001).
+
 **Important note:** when the type of form input field offers an input mask, for example the date or time fields, the format indication is not necessary.
 
 #### Decorative graphic element
