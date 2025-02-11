@@ -103,7 +103,7 @@ const config = {
                     "menu": "Auditing kit",
                     "name": "tools/kit",
                     "html": true,
-                    "md": "./content/en/raweb1/kit-audit.md", 
+                    "md": "./content/en/kit-audit.md", 
                     "prefix": "../../.."
                 },
                 {

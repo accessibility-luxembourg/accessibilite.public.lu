@@ -118,7 +118,7 @@ const config = {
                     "menu": "Kit d'audit",
                     "name": "tools/kit",
                     "html": true,
-                    "md": "./content/fr/raweb1/kit-audit.md", 
+                    "md": "./content/fr/kit-audit.md", 
                     "prefix": "../../.."
                 },
                 {
