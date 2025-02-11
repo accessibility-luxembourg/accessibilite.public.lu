@@ -6,7 +6,7 @@ Here are some tools and sample documents for carrying out an audit.
 * [Instructions for carrying out the audit of a website](../raweb1/methodo-test.html#assessment-of-compliance-with-the-reference-standard), sampling of pages, applicable criteria, compliance rate, etc.
 
 ## Mobile application audit
-* [Mobile application audit grid template](../files/modele-grille-audit-appli-mobiles.xlsx), Xlsx format (433 kb)
+* [Mobile application audit grid template](../files/modele-grille-audit-appli-mobiles.xlsx), Xlsx format (411 kb)
 * [Instructions for carrying out the audit of a mobile application](../raam1.1/methodologie.html#assessment-of-compliance-with-the-reference-standard), sampling of screens, applicable criteria, compliance rate, etc.
 
 ## Accessibility statement
