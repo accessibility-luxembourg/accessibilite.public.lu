@@ -56,11 +56,11 @@ In addition, each criterion included in the non-interference principle is identi
 
 #### Modification of the sample description for the audit of a website
 
-The section ["Website audit sample"](./methodo-test.html#website-audit-sample) on the "Testing Methodology" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the support service.
+The section ["Website audit sample"](./methodo-test.html#sample) on the "Testing Methodology" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the support service.
 
 #### Details of the compliance rate and general methodology
 
-In the section ["Testing pages or screens"](./methodo-test.html#testing-pages-or-screens) of the "Testing Methodology" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
+In the section ["Testing pages or screens"](./methodo-test.html#testing-pages) of the "Testing Methodology" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
 
 <blockquote>
 Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:

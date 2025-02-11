@@ -88,7 +88,7 @@ Le pourcentage de critères respectés s’obtient en divisant le nombre de crit
   * Critère validé&nbsp;: un critère est validé s’il est validé sur tous les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable&nbsp;: pour qu’un critère soit applicable, il suffit qu’il le soit sur un seul écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur tous les écrans de l’échantillon sans exception.
 
-Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-daccessibilité).
+Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-d’accessibilité).
 
 #### Principe de non-interférence
 

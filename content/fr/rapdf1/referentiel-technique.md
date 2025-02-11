@@ -911,7 +911,7 @@ Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Acrobat Pro ou
 Par ailleurs, la méthodologie de test nécessite l’utilisation d’un lecteur d’écran.
 Ce sont les raisons pour lesquelles cette thématique a volontairement été isolée en dernière partie du référentiel.
 
-La méthodologie d’évaluation est fondée sur le lecteur d’écran [NVDA](https://www.nvda-fr.org/) librement installable et utilisable sur un ordinateur Windows.
+La méthodologie d’évaluation est fondée sur le lecteur d’écran [NVDA](https://www.nvda.fr/) librement installable et utilisable sur un ordinateur Windows.
 
 Les critères de cette thématique visent à vérifier que les contrôles de formulaire (champ de saisie, etc.) sont correctement restitués pour assurer une accessibilité de base.
 

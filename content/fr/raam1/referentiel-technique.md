@@ -2307,7 +2307,7 @@ Le critère est non applicable&nbsp;:
 
 1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation.
 1. Repérer dans l’application la présence de fonctionnalités d’accessibilité.
 1. Vérifier la présence dans la documentation&nbsp;: 
@@ -2386,7 +2386,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
 1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
 	- s’il s’agit d’une page web, qu’il respecte le [RAWeb1](../raweb1/criteres.html)&nbsp;; 
@@ -2526,7 +2526,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 1. Repérer la mise à disposition d’un service d’assistance depuis l’application.
 1. Si c’est le cas, repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation.
 1. Repérer la présence dans la documentation&nbsp;: 
 	- de la description des fonctionnalités d’accessibilité de l’application, par exemple&nbsp;: 

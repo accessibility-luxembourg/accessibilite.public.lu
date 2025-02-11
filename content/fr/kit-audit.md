@@ -9,7 +9,7 @@ Voici des outils et des modèles de documents pour réaliser un audit.
 ## Audit d'application mobile
 
 * [Modèle de grille d'audit d'applications mobiles](../files/modele-grille-audit-appli-mobiles.xlsx), format Xlsx (433 ko)
-* [Instructions pour mener l'audit d'une application mobile](../raam1.1/methodologie.html#Évaluation-de-la-conformité-à-la-norme-de-référence), échantillonnage des écrans, critères applicables, taux de conformité…. 
+* [Instructions pour mener l'audit d'une application mobile](../raam1.1/methodologie.html#evaluation-de-la-conformite-a-la-norme-de-reference), échantillonnage des écrans, critères applicables, taux de conformité…. 
 
 ## Déclaration d'accessibilité
 
