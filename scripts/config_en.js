@@ -198,7 +198,7 @@ const config = {
                 {
                     "title": "Criteria for simplified control",
                     "menu": "Criteria for simplified control",
-                    "name": "monitoring/audit-simpl", 
+                    "name": "raweb1/audit-simpl", 
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
