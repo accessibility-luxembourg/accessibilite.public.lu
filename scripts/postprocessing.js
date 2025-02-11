@@ -264,7 +264,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     const mainDiv = document.getElementById("topics");
     let els = mainDiv.querySelectorAll('h4'); 
     els.forEach(el => {
-        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
+        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
     });
     return dom.serialize();
   }
