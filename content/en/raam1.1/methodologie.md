@@ -1,3 +1,122 @@
+### Assessment of compliance with the reference standard
+
+#### General framework
+
+In order to assess the compliance of the mobile application with the reference standard, the organisation must conduct an accessibility audit. The audit (or evaluation) may be carried out by the organisation itself (self-evaluation) or by a third party. The evaluation is carried out on a sample of screens representative of the application. 
+
+The verification of conformity of the screens, parts of the sample of a mobile application, with the applicable criteria is carried out using the [Mobile Application Accessibility Assessment Framework (RAAM)](./index.html). 
+
+The final phase of the audit is the accessibility statement, which reports on compliance with the applicable rules.
+
+The audit (or evaluation) meets the following criteria:
+
+- it is reliable: it is the responsibility of the organisation concerned to ensure the reliability of its statement by all possible means (recourse to an external service provider, training of internal experts, cross-audits, etc.);
+- it is representative: it is based on a representative sample (see "Sample" section below).
+
+The accessibility of applications must be assessed by applying the technical method of the framework in question.
+
+It is possible to use another test method, subject to three conditions:
+
+- ensure that the test method used can be communicated on request to a user or an administration;
+- produce an explicit mapping table between the criteria and tests and the chosen reference standard;
+- indicate this information in the accessibility statement.
+
+#### Sample
+
+The sample on which the audit of a mobile application is carried out covers at least the following screens, where they exist:
+
+1. the home screen;
+1. the legal information screen;
+1. the authentication screen or process;
+1. the contact screen;
+1. the screens that make up the documentation of the application;
+1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
+1. at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
+1. all the screens that make up a process (for example, an input form or a multi-screen transaction);
+examples of screens with a substantially distinct appearance or different type of content (e.g. a screen containing data tables, multimedia elements, illustrations, forms, real-time communication functionality, etc.).
+
+The selection of screens audited and their number must be representative of the mobile application. The number of visitors per screen can be taken into account when selecting the sample.
+
+Finally, randomly selected screens representing at least 10% of the screens in the sample described above are added.
+
+#### Test environment (or "baseline")
+
+
+Unlike web content, where it is possible to inspect the source code to determine the presence of elements and attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can have access to the software, but rarely to its code, unlike a website). Secondly, because unlike the web and HTML/CSS/JavaScript technologies, there is a diversity of development environments that makes it difficult to define a list of tests based on code review.
+
+Some of the tests in the [mobile applications accessibility assessment framework](./index.html) are carried out using the assistive technologies available on the platforms.
+
+##### Definition of the test environment
+
+To validate these criteria, a test environment (or "baseline") needs to be defined. By default, it is made up of the platforms and assistive technologies most commonly used by people with disabilities. 
+
+To perform the evaluation tests within the framework of RAAM, it is necessary to take into account the [RAAM test environment for the evaluation of mobile applications](./environnement.md).
+
+This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
+
+#### Testing screens
+
+Each screen in the sample must be checked against the criteria applicable to it.
+
+There are 3 reasons why a criterion may not be applicable to a screen:
+
+  1. The criterion relates to content or a functionality that does not exist. For example: if the screen does not include a video, the criteria relating to videos will not be applicable.
+  2. The criterion relates to an exempt content or service which is therefore not subject to the accessibility obligation.
+  3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
+      Please note: if the content subject to derogation for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
+
+The screens are then tested against the applicable criteria. These tests provide:
+
+  * the number of validated and non-validated criteria for each screen;
+  * the compliance rate for each screen.
+
+Please note: 
+
+  * a criterion is validated for a given screen when all the elements of the screen have passed the tests used to validate the criterion;
+  * if a single element of the screen does not pass the tests for a criterion, the criterion cannot be validated;
+  * if the screen is part of a process (making a declaration, taking part in a public consultation, making an appointment), a criterion is validated for a screen in the process only if it is validated for all the screens in the process.
+
+Some criteria or themes are applicable to the whole app and not to a particular screen, so it is not necessary to evaluate them on all the screens in the sample. In this case, they may, for example, be evaluated on a single screen in the sample and considered as not applicable to all the other screens. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
+  * Theme 12: Documentation and accessibility features
+  * Theme 14: Support services.
+
+#### Compliance rate with the standard
+
+The compliance rate measures the progress made by the online service in complying with accessibility requirements. 
+
+This rate indicates the percentage of criteria met by the online service.
+
+The percentage of criteria met is obtained by dividing the number of validated criteria by the number of applicable criteria.
+
+  * Validated criterion: a criterion is validated if it is validated on all the screens in the sample. If a criterion is invalidated on only one screen in the sample, it cannot be considered valid for calculating the rate.
+  * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one screen in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the screens in the sample without exception.
+
+This compliance rate determines the compliance status to be mentioned in the [accessibility statement](../obligations.md#content-of-the-accessibility-statement).
+
+#### Non-interference principle
+
+In an audit sample, there may be content that is not subject to the accessibility obligation:
+
+- [exempt content](../obligations.md#exempt-content);
+- [content derogated for disproportionate burden](../obligations.md#derogation-for-disproportionate-burden);
+- non-accessible content that has an accessible alternative.
+
+It is essential to ensure that this content does not prevent users from accessing the rest of the screen or the app.
+
+Therefore, although the compliance of this content is not required, it must comply with the following criteria and tests:
+
+- [Criterion 3.12](./referentiel-technique.html#crit-3-12): Is each automatically triggered sound sequence controllable by the user?
+- [Criterion 10.3](./referentiel-technique.html#crit-10-3): On each screen, the navigation must not contain any keyboard traps. Is this rule respected?
+- [Criterion 11.1](./referentiel-technique.html#crit-11-1): For each screen, does the user have control over each time limit modifying content (excluding special cases)?
+- [Criterion 11.7](./referentiel-technique.html#crit-11-7): On each screen, are sudden change in brightness or blinking effects used correctly?
+- [Criterion 11.8](./referentiel-technique.html#crit-11-8): On each screen, is each moving or blinking content controllable by the user?
+
+Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
+
+The non-interference principle is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
+
+### Elements of methodology
+
 Unlike web content, where it is possible to inspect the source code to determine the presence of elements or attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can access the software, but rarely its code, unlike a website). On the other hand, because unlike the web and HTML / CSS / JavaScript technologies there is a diversity of development environments which makes it difficult to define a list of tests based on code review.
 
 This is why the chosen approach is to test for the presence of certain elements using specialised tools (interface inspectors, assistive technologies, external switches) or directly on the interface itself.

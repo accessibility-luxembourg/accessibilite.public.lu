@@ -8,7 +8,7 @@ The evaluation spreadsheet has been updated.
 
 - The [warning](./referentiel-technique.html#topics) has been enriched.
 - When possible, a correspondence to the [APPT](https://appt.org/) documentation has been made on criteria.
-- For the criteria subject to the [non-interference principle](./methodologie.html#principe-de-non-interference), a note has been added.
+- For the criteria subject to the [non-interference principle](./methodologie.html#non-interference-principle), a note has been added.
 
 #### Theme 2 "Colors"
 
