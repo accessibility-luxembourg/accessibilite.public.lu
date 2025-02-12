@@ -10,13 +10,13 @@ eleventyNavigation:
 
 This document has been drawn up as part of the resources to accompany the introduction of version 1 of the Web Accessibility Assessment Framework (RAWeb).
 
-It is intended for anyone wishing to check that web content complies with the RAWeb. It is a test methodology that documents the steps involved in checking whether or not a RAWeb criterion is met. This methodology is therefore to be used in addition to the RAWeb technical framework and cannot be used on its own. It does not replace a thorough reading of the technical framework, nor does it replace a RAWeb training.
+It is intended for anyone wishing to check that web content complies with the RAWeb. It is a testing methodology that documents the steps involved in checking whether or not a RAWeb criterion is met. This methodology is therefore to be used in addition to the RAWeb technical framework and cannot be used on its own. It does not replace a thorough reading of the technical framework, nor does it replace a RAWeb training.
 
 For each of the tests of a criterion, there is a corresponding test procedure. The implementation of this procedure may sometimes require the use of specific tools, otherwise a browser is sufficient to perform most of the tests.
 A list of tools is also provided to assist in carrying out the tests. They have been selected both because they are frequently used by experts in the field and because they make it easier to find certain results.
 
 <div class="fr-callout"><p class="fr-text--lg">
-The test methodology is now available for each test on the <a href="criteres.html">criteria and tests</a> page.</p>
+The testing methodology is now available for each test on the <a href="criteres.html">criteria and tests</a> page.</p>
 </div>
 
 ### Assessment of compliance with the reference standard
@@ -33,8 +33,6 @@ The audit (or evaluation) meets the following criteria:
 
 - it is reliable: it is the responsibility of the organisation concerned to ensure the reliability of its statement by all possible means (recourse to an external service provider, training of internal experts, cross-audits, etc.);
 - it is representative: it is based on a representative sample (see "Sample" section below).
-
-The accessibility of applications must be assessed by applying the technical method of the framework in question.
 
 It is possible to use another test method, subject to three conditions:
 
@@ -53,7 +51,7 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the "accessibility" page;
 1. the "help" page;
 1. the web page or set of web pages making up the website [documentation](./glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
-1. the web page or set of web pages making up the [documentation](./glossaire.html#documentation) for the [help desk](./glossaire.html#support-service);
+1. the web page or set of web pages making up the [documentation](./glossaire.html#documentation) for the [support service](./glossaire.html#support-service);
 1. the "site map" page;
 1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
@@ -74,7 +72,7 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 
 To carry out the evaluation tests within the framework of RAWeb, it is necessary to take into account the [RAWeb test environment](./environnement.md).
 
-This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
+This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the site. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
 
 #### Testing pages
 
@@ -84,7 +82,7 @@ There are 3 reasons why a criterion may not be applicable to a page:
 
   1. The criterion relates to content or a functionality that does not exist. For example: if the page does not include a video, the criteria relating to videos will not be applicable.
   2. The criterion relates to an exempt content or service which is therefore not subject to the accessibility obligation.
-  3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
+  3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a text alternative. In this case, the criteria applicable to content subject to derogation will not apply. 
       Please note: if the content subject to derogation for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
 
 The pages are then tested against the applicable criteria. These tests provide:

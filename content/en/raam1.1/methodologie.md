@@ -52,7 +52,7 @@ To validate these criteria, a test environment (or "baseline") needs to be defin
 
 To perform the evaluation tests within the framework of RAAM, it is necessary to take into account the [RAAM test environment for the evaluation of mobile applications](./environnement.md).
 
-This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the mobile site or application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
+This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
 
 #### Testing screens
 
@@ -76,7 +76,7 @@ Please note:
   * if a single element of the screen does not pass the tests for a criterion, the criterion cannot be validated;
   * if the screen is part of a process (making a declaration, taking part in a public consultation, making an appointment), a criterion is validated for a screen in the process only if it is validated for all the screens in the process.
 
-Some criteria or themes are applicable to the whole app and not to a particular screen, so it is not necessary to evaluate them on all the screens in the sample. In this case, they may, for example, be evaluated on a single screen in the sample and considered as not applicable to all the other screens. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
+Some criteria or themes are applicable to the whole app and not to a particular screen, so it is not necessary to evaluate them on all the screens in the sample. In this case, they may, for example, be evaluated on a single screen in the sample and considered as not applicable to all the other screens. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the application's overall compliance rate. This is particularly the case for the following criteria and themes:
   * Theme 12: Documentation and accessibility features
   * Theme 14: Support services.
 

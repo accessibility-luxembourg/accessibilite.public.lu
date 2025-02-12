@@ -13,12 +13,12 @@ When the application is intended for a public whose equipment is managed, the te
 <table>
 	<caption>Mobile test environment </caption>
 	<tr>
-		<th scope="col">iOS (latest version)</th>
-		<th scope="col">Android (latest version)</th>
+		<th scope="col">iOS (latest or previous version)</th>
+		<th scope="col">Android (latest or previous version)</th>
 	</tr>
 	<tr>
-		<td>VoiceOver (latest version)</td>
-		<td>TalkBack (latest version)</td>
+		<td>VoiceOver</td>
+		<td>TalkBack</td>
 	</tr>
 </table>
 
