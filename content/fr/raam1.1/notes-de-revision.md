@@ -51,7 +51,7 @@ La grille d’évaluation a été mise à jour.
 - [Critère 13.5](./referentiel-technique.html#crit-13-5)&nbsp;: révision de la rédaction du critère et ajout de tests pour couvrir chaque format.
 - [Critère 13.6](./referentiel-technique.html#crit-13-6)&nbsp;: révision de la rédaction du critère pour couvrir tous les formats.
 
-Note&nbsp;: pour les critères 13.1, 13.3 et 13.5, les méthodologies ont été revues pour inclure l’évaluation des contenus à destination d’une publication dans une application mobile. Bien que les critères de la norme EN 301 549 correspondants (11.8.2 *Accessible content creation*{lang="en"} et 11.8.3 *Preservation of accessibility information in transformations*{lang="en"}) ne ciblent que les sections 9 (*Web content*{lang="en"}) et 10 *(*Non-web content*{lang="en"}), et pas la section 11 (*Software*{lang="en"}, dédiée au contexte mobile), il a semblé essentiel d’inclure tout de même l’évaluation des éléments visés par ces critères s’ils apparaissaient dans une application mobile.
+Note&nbsp;: pour les critères 13.1, 13.3 et 13.5, les méthodologies ont été revues pour inclure l’évaluation des contenus à destination d’une publication dans une application mobile. Bien que les critères de la norme EN 301 549 correspondants (11.8.2 *Accessible content creation*{lang="en"} et 11.8.3 *Preservation of accessibility information in transformations*{lang="en"}) ne ciblent que les sections 9 (*Web content*{lang="en"}) et 10 (*Non-web content*{lang="en"}), et pas la section 11 (*Software*{lang="en"}, dédiée au contexte mobile), il a semblé essentiel d’inclure tout de même l’évaluation des éléments visés par ces critères s’ils apparaissaient dans une application mobile.
 
 #### Thématique 14 «&nbsp;Services d’assistance&nbsp;»
 
