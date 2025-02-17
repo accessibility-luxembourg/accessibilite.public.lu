@@ -231,6 +231,14 @@ To carry out certain tests on Android applications, third-party applications are
 
 - [Colour Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/): tool for evaluating contrasts from the computer, available on Mac and Windows.
 
+#### Change the font size on iOS
+
+On iOS, it is possible to display a text size gauge that gives the value of the magnification ratio. To do this, you must add the "Text Size" parameter to the control center.
+
+Depending on the version of iOS, there are different methods to customize the control center and thus add the "Text Size" parameter. [The official documentation details them for iOS versions 12 to 18](https://support.apple.com/en-gb/guide/iphone/iph59095ec58/ios#iph83c5f986c).
+
+We can see that the parameter allows you to reach 190% or 235% magnification, but never 200%, this level does not exist for the moment. 190% being closer to 200%, this is the value that the methodology suggests testing.
+
 #### Broadcast the screen of the mobile device
 
 Broadcasting the screen of your mobile device on your computer will make it easier for you to carry out certain tests, such as contrast tests. It can also be used to record certain interactions and take screenshots when writing audit reports.
@@ -262,8 +270,49 @@ Windows provides an integrated "Connect" function for broadcasting certain exter
 
 #### Take screenshots
 
-If it is not possible to broadcast from mobile devices onto the computer screen, a satisfactory alternative is to take screen captures from your mobile device and then import these captures, using the method of your choice, onto your computer.
+If it is not possible to broadcast mobile devices on the computer screen, a satisfactory alternative is to take screenshots from your mobile device and then import these captures, by the method of your choice, onto your computer.
 
-- [Take a screenshot or record the screen of your Android device](https://support.google.com/android/answer/9075928).
-- [Take a screenshot on an iPhone](https://support.apple.com/en-ca/HT200289).
+For criteria 2.2, 2.3 and 2.4 for the evaluation of contrasts, we strongly recommend that you use this method of capturing screens so that you can accurately evaluate the sizes of the texts. Indeed, capturing a screen from the device guarantees preserved proportions, unlike a capture that would be taken from a device projected onto a desktop environment.
 
+- [Take a screenshot of your Android device](https://support.google.com/android/answer/9075928?hl=fr).
+- [Take a screenshot on an iPhone](https://support.apple.com/fr-fr/HT200289).
+
+##### Import screenshots onto the computer
+
+Generally speaking, regardless of the mobile platform or the desktop environment, the main method to facilitate the transit of photos from the mobile device to the desktop computer is to **set up an online photo backup utility** on the mobile device, as can be done for example by services such as Dropbox, OneDrive or Google (Photos or Drive), and access the backup from the desktop computer.
+
+There may then be specific methods depending on the platforms:
+- From iOS to macOS: the [AirDrop](https://support.apple.com/fr-fr/119857) functionality.
+- From iOS to macOS and Windows: the [iCloud](https://support.apple.com/fr-fr/guide/photos/phtf5e48489c/mac) solution. This method works with both macOS and [Windows](https://support.apple.com/en-us/103232).
+- From Android to macOS: the [MacDroid](https://www.macdroid.app/en-us/) solution.
+- From Android or iOS to Windows: [direct USB connection](https://support.microsoft.com/en-us/windows/importing-photos-and-videos-aed09800-f826-4d40-a243-7640de229d9d).
+
+Other utilities may be suitable, this list is not exhaustive.
+
+##### Evaluate the size of a text
+
+If during the evaluations, the size of some texts is not obvious (for example, it is not obvious to the naked eye whether a text is in normal size or enlarged size), then it will be necessary to measure it to determine the minimum contrast ratio required. Here is a methodology that allows you to obtain this measurement:
+1. Determine the screen size of the test device:
+  - activate Safari (on iOS) or Chrome (on Android) and navigate to [https://www.mydevice.io](https://www.mydevice.io);
+  - locate the <code>JS screen.width</code> value (which corresponds to the physical width of the screen).
+1. Reset the default font size in the application to evaluate the text at 100%.
+  - On iOS, the easiest way is to go through the gauge available in [the control center](methodologie.md#change-the-font-size-on-ios) to restore the size to 100%.
+  - On Android, if font size settings are available (*Settings > Accessibility > Font size*), activate the function to reset the font size. Otherwise, reduce the size to reach the first or second step of the gauge, depending on the initial size.
+1. Take a screenshot from the mobile device and import it on the computer (see above, this is the preferred method to ensure that the sizes are preserved).
+1. Open the capture in an image editing software:
+  - On macOS, open the capture with the "Preview" software:
+    - in the "Tools" menu, choose "Adjust size";
+    - set the units to pixels;
+    - in the "Width" field, enter the value of the screen width determined previously. 
+  - On Windows, open the capture with the "Paint" software:
+    - in the toolbar, select the "Resize" option;
+    - set the units in pixels;
+    - in the "Horizontal" field, enter the value of the screen width determined previously.
+1. Locate texts on the screen, texts contained in graphic elements and texts embedded in videos, that could cause contrast problems and determine their size:
+  - from the screenshot opened in the editing software, activate the rectangular selection tool;
+  - draw a rectangle around the text for which you want to determine the size:
+    - it is best to start with a capital letter, otherwise include a letter such as "d", "t" or "b";
+    - you can zoom in on the screenshot to make the most precise selection possible, this does not affect the calculation of the height. 
+  - locate the height of the rectangle thus defined in the software:
+    - in "Preview" the value is displayed right next to the selection, the height is the second value;
+    - in "Paint" the values ​​are displayed in the status bar at the bottom of the software window, the height is the second value.

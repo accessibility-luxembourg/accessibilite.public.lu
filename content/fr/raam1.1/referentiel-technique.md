@@ -543,7 +543,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 	- que celle-ci est pertinente (toutes les informations visuelles importantes sont présentes)&nbsp;;
 	- et que celle-ci est correctement synchronisée (la bande-son de l’audiodescription coïncide correctement avec la bande vidéo).
 1. Si une transcription textuelle est présente, vérifier&nbsp;:
-	-  que celle-ci est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
+	- que celle-ci est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
