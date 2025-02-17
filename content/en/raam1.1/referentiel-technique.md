@@ -1373,7 +1373,7 @@ The criterion does not apply to the following elements:
 	- all the texts in the interface have been enlarged; 
 	- all the text in the interface remains legible and the functions usable; 
 	- content has not disappeared; 
-	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
+	- if any text has not been enlarged or has disappeared, that there is a method on the screen for displaying the text on demand (for example, by a long press on an icon).
 1. If this is the case, the criterion is validated.
 
 ###### Android
@@ -1385,7 +1385,7 @@ The criterion does not apply to the following elements:
 	- all the texts in the interface have been enlarged; 
 	- all the text in the interface remains legible and the functions usable;
 	- content has not disappeared; 
-	- if any text has disappeared, that there is a method on the screen for displaying the text on demand (for example, by holding down an icon).
+	- if any text has not been enlarged or has disappeared, that there is a method on the screen for displaying the text on demand (for example, by a long press on an icon).
 1. If this is the case, the criterion is validated.
 
 **Technical note**: Before Android 14, on devices without a manufacturer's overlay, the font size setting did not allow you to enlarge to 200% of the default size. This is only possible from Android 14 onwards. If you are testing on an Android device with a version prior to 14, you can combine the font size setting and the display size setting to achieve a zoom close to 200%. From Android 14 onwards, the font size setting allows you to reach 200%. On the other hand, on some versions of Android, the slider gauge may be different and offer values that allow you to achieve a zoom greater than 200%, so you'll need to check that the test is only performed for a value of 200%.
