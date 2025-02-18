@@ -324,5 +324,5 @@ Si lors des évaluations, la taille de certains textes n’est pas évidente (pa
     - le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
     - vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
   - repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
-    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
-    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
+    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;;
+    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur.
