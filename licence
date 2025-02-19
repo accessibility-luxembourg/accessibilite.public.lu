@@ -46,7 +46,7 @@
     
     
    
-    <script src="/js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
     
       <meta name="robots" content="noindex">
     

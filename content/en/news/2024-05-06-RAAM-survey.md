@@ -30,7 +30,7 @@ auteur: Dominique Nauroy
 <p>We invite you to complete the form below, which will ask you, in four pages and four minutes in total, a few questions about your use of the framework. You can also write to us at <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> with the subject "RAAM: suggestions for improvement". Put pen to paper!</p>
 
 <div lang="fr" style="max-width: 650px; margin: auto">
-   <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>
+   <script type="module" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&__output=embedjs&__ref=' + escape(document.location.href) + '" type="module" ></scr' + 'ipt>');</script><noscript><a href=http://survey.alchemer.eu/s3/90710274/f03874603b4e?__no_style=true&?jsfallback=true>N'hésitez pas à compléter notre questionnaire</a></noscript><style>.sg-survey{display:none; }</style>
 </div>
 
 <style>

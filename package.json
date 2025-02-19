@@ -4,10 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "bash ./build.sh",
-    "watch:dev": "npm-watch",
-    "watch": "concurrently -k 'npm:serve' 'npm:watch:dev'",
-    "serve": "http-server ./dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "checklinks": "npx check-html-links dist/ --validate-externals --absolute-base-url https://accessibilite.public.lu",
     "checkaccess": "node ./test/accessTests.js",
     "test:links": "concurrently -k -s first 'npm:serve' 'npm:checklinks'",
@@ -72,9 +71,10 @@
     "markdown-it-front-matter": "^0.2.3",
     "markdown-it-replace-link": "^1.0.1",
     "npm-watch": "^0.6.0",
-    "parcel-bundler": "^1.12.4",
     "patch-package": "^6.5.1",
     "sass": "^1.26.10",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "sass-embedded": "^1.83.4",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "vite": "^6.1.0"
   }
 }
