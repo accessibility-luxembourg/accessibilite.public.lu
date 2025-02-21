@@ -488,7 +488,7 @@ Composant d’interface dont l’activation permet de modifier l’apparence du 
 
 Un média temporel peut être diffusé en temps réel ou être proposé en lecture de manière asynchrone (média préenregistré).
 
-Note 1&nbsp;: les gif animés, les animations d’images par un script dans l’application ne sont pas considérés comme étant des médias temporels.
+**Note 1&nbsp;:** les gif animés, les animations d’images par un script dans l’application ne sont pas considérés comme étant des médias temporels.
 
 #### Message de statut
 

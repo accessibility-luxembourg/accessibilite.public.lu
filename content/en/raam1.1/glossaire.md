@@ -16,7 +16,7 @@ Accessibility information is all the information (attributes, programmatic relat
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 
-An editing tool should have functions that enable all the information needed to create accessible content to be defined: 
+An editing tool should have functions that enable all the information needed to create accessible content to be defined, for example: 
 - the ability to define the alternative of an image or, on the contrary, declaring it decorative;
 - the ability to definee section headings;
 - the ability to define the language of a passage of text;
@@ -111,7 +111,7 @@ Narration added (via a sound file) to an audio track to describe important visua
 
 #### Biological characteristics
 
-User identification or control methods based on usable biological characteristics may include 
+User identification or control methods based on usable biological characteristics may include, for example:
 - fingerprint recognition; 
 - facial recognition; 
 - voice recognition.
@@ -232,9 +232,9 @@ Text linked to the table that identifies the content of a data table clearly and
 Text indication enabling the user to know what type of data and/or input format is required by a field, before filling it in. For example:
 - Date (dd/mm/yyyy);
 - Amount in euros;
-- Postcode (5 digits: e.g. 75001).
+- Postcode (4 digits: e.g. L-2450).
 
-**Important note:** when the type of form input field offers an input mask, for example the date or time fields, the format indication is not necessary.
+**Note:** when the form field type provides an input mask, such as by displaying a native control (for example, the native date picker component), the format indication is not necessary.
 
 #### Decorative graphic element
 
@@ -253,9 +253,9 @@ The generic term "digital accessibility rules" refers to the <a href="https://ac
 
 #### Documentation 
 
-The documentation of an application or support service can be:
+The documentation of an application or [support service](#support-services) can be:
 - a help screen;
-- an accessibility statement; 
+- an [accessibility statement](../obligations.html#accessibility-statement); 
 - any other content that serves as documentation (PDF document, external HTML page readable in a web browser).
 
 ### E
@@ -325,9 +325,9 @@ When a graphic element is captioned, it is necessary to associate the legend wit
 #### Help with creating accessible content
 Any feature available from a content editing interface, whatever the target format, which helps the author of the content to take account of digital accessibility rules.
 
-An automatic assistance tool or a documentation can help in order to create accessible content.
+An help in creating accessible content can be an automatic assistance tool or a documentation.
 
-Help with creating content includes:
+An help in creating content includes:
 - automatic or semi-automatic tests available from the editing features;
 - other automatic tools (a chatbot, for example);
 - documentation explaining how to define accessibility properties for each content item;
@@ -347,8 +347,8 @@ Information transmitted visually by means of a colour. The indication that field
 
 Indication by colour alone must be accompanied by another method for users who do not see or perceive colours or their associations well.
 
-The indication given by colour must be provided 
-- by means of formatting for users with limited colour perception;
+The indication given by colour must be provided: 
+- by a means involving graphics (pictogram, background image, shape, different border style, etc.) or another typographic style (bold, italic, text size, other font, etc.) for users with limited colour perception.
 - and by descriptive (non-visible) information present on the element so that screen readers can render the information to users who cannot see.
 
 #### Indication conveyed by shape, size or location
@@ -416,13 +416,17 @@ Textual or graphic indication (icon) letting the user know that a field is manda
 
 **Note:** If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in reading order, before the indication is used for the first time.
 
-#### Mechanism enabling an accessibility feature 
+#### Mechanism enabling to activate an accessibility feature 
 
-Interface component or set of interface components used to activate a functionality that takes into account one or more adaptation needs of the interface. For example: a button displaying a screen with compliant contrasts or a button increasing paragraph spacing.
+Interface component or set of interface components used to activate a feature that takes into account one or more adaptation needs of the interface. For example: a button enabling to display a screen with compliant contrasts or a button enabling to increase paragraph spacing.
 
-We also talk about a **set of components** when, in some interfaces, the component that enables the functionality to be activated is only made available once one or more other components have been activated. For example: a button can be used to display a modal window, which itself contains a button that can be used to display a screen with the correct contrast. In this case, the button that displays the modal window **and** the button that activates the display of compliant contrasts together constitute the mechanism.
+We also talk about a **set of components** when, in some interfaces, the component that enables the feature to be activated is only made available once one or more other components have been activated. For example: a button can be used to display a modal window, which itself contains a button that can be used to display a screen with the correct contrast. In this case, the button that displays the modal window **and** the button that activates the display of compliant contrasts together constitute the mechanism.
 
-This mechanism must keep the content and functionality of the application or screen it modifies unchanged.
+This mechanism must keep the content and features of the application or screen it modifies unchanged.
+
+#### Mechanism that enables a compliant contrast ratio to be displayed
+
+Interface component whose activation enables the appearance of the site or page to be modified so as to display the contents with a sufficient contrast ratio. The design of this interface component must comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without using itself a mechanism for displaying a compliant contrast ratio. This mechanism must keep the content and features of the application or screen it modifies unchanged.
 
 #### Modifying or cancelling data and actions taken
 
@@ -634,7 +638,7 @@ The use of graphic elements containing text is not recommended. Where it is poss
 
 #### Time-based media (audio, video and synchronised)
 
-- Time-based media audio-only: sound content (wave, MP3...).
+- Time-based media audio-only: sound content (Wav, MP3...).
 - Time-based media video-only: moving or sequential images or photos.
 - Synchronised time-based media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
 	- as a downloadable file that can be viewed with external software;
@@ -642,7 +646,7 @@ The use of graphic elements containing text is not recommended. Where it is poss
 
 Time-based media can be broadcast in real time or played back asynchronously (pre-recorded media).
 
-**Note:** animated gifs and images animated by a script in the application are not considered to be temporal media.
+**Note 1:** animated gifs and images animated by a script in the application are not considered to be temporal media.
 
 #### Time stamp
 
@@ -707,9 +711,9 @@ If the player does not allow a second audio track to be included for audio descr
 
 **Note:** If there is no sound in a time-based media, there is no point in adding a sound activation/deactivation feature. However, if this functionality is present and requires a text alternative to be understood by certain users, then it should be given one since the user is likely to access it and want to activate it.
 
-#### Text label 
+#### Visible text 
 
-Text displayed as a visible label on the screen within a button or link.
+Text displayed as a visible text on the screen within a button or link.
 
 Text displayed as a label for a form field.
 
