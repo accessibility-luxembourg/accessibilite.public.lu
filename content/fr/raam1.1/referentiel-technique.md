@@ -1129,7 +1129,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.4.7 Visibilité du focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
 - EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.13 Tracking of focus and selection attributes*{lang=en}, *11.5.2.14 Modification of focus and selection attributes*{lang=en}, *11.5.2.17 Modifications of values and text*{lang=en}.
-- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [ Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7){lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7){lang=en}.
 
 #### [Critère 5.3](#crit-5-3) [A] Chaque [changement de contexte](glossaire.md#changement-de-contexte) respecte-t-il une de ces conditions&nbsp;? {id="crit-5-3"}
 
@@ -2477,7 +2477,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### iOS
 
-1. Identifier dans la [documentation](glossaire.md#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par iOS](https://www.apple.com/fr/accessibility/?afid=p238%7CsfxtLHWp4-dc_mtid_2092576239937_pcrid_483515907294_pgrid_110868765821_&cid=wwa-fr-kwgo-features--slid---productid---Accessibility-Accessibility-)).
+1. Identifier dans la [documentation](glossaire.md#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par iOS](https://www.apple.com/fr/accessibility/)).
 1. Vérifier que l’application n’empêche pas leur utilisation, par exemple&nbsp;:
 	- si l’application implémente des interactions qui déclenchent des fonctionnalités, ces interactions n’empêchent pas le bon fonctionnement des fonctionnalités d’accessibilité de la plateforme comme le lecteur d’écran ou les autres fonctionnalités basées sur le toucher&nbsp;;
 	- si l’application embarque une reconnaissance vocale, alors l’utilisation de la commande vocale intégrée à la plateforme n’est pas perturbée&nbsp;; 
