@@ -33,7 +33,7 @@ The sample on which the audit of a mobile application is carried out covers at l
 1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
 1. at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
 1. all the screens that make up a process (for example, an input form or a multi-screen transaction);
-examples of screens with a substantially distinct appearance or different type of content (e.g. a screen containing data tables, multimedia elements, illustrations, forms, real-time communication functionality, etc.).
+examples of screens with a substantially distinct appearance or different type of content (e.g. a screen containing data tables, multimedia elements, illustrations, forms, real-time communication feature, etc.).
 
 The selection of screens audited and their number must be representative of the mobile application. The number of visitors per screen can be taken into account when selecting the sample.
 
@@ -150,6 +150,8 @@ The screen reader is one of the tools that will be most widely used to evaluate 
 
 Some criteria involve assessing the compatibility of components with assistive technologies (including the screen reader), but the screen reader is also used to assess criteria that also have an impact on other assistive technologies.
 
+The preferred navigation methods are gesture navigation or navigation combined with an external keyboard. Both methods produce the same effects.
+
 ##### VoiceOver on iOS
 
 VoiceOver is the screen reader integrated into iOS.
@@ -158,9 +160,10 @@ VoiceOver is the screen reader integrated into iOS.
 
 To get started with VoiceOver, we refer you to the official documentation, which explains the first steps for activating and using gestures.
 - [Turn on and practice VoiceOver on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios).
+- [Use VoiceOver on iPhone with an Apple external keyboard](https://support.apple.com/uk/guide/iphone/iph6c494dc6/ios)
 - [Change your VoiceOver settings on iPhone](https://support.apple.com/en-ca/guide/iphone/iphfa3d32c50/ios)
 - [Use VoiceOver gestures on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e2281/ios): this page explains the gestures available for navigating interfaces with VoiceOver.
-- [Control VoiceOver using the rotor on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e3a6d/ios): the rotor is a central element in VoiceOver navigation. It lets you select a type of element (link, button, header, etc.) as the target for quick navigation (drag up/down). It is important to know that it exists and how to use it. See also [the list of parameters that can be found in the rotor](https://support.apple.com/en-ca/HT204783).
+- [Control VoiceOver using the rotor on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e3a6d/ios): the rotor is a central element in VoiceOver navigation. It lets you select a type of element (link, button, header, etc.) as the target for quick navigation (swipe up/down). It is important to know that it exists and how to use it. See also [the list of parameters that can be found in the rotor](https://support.apple.com/en-ca/HT204783).
 
 ###### Voice output display
 
@@ -176,7 +179,7 @@ To get started with TalkBack, we refer you to the official documentation, which 
 - [Turn on TalkBack](https://support.google.com/accessibility/android/answer/6007100?ref_topic=10601570).
 - [Learn about TalkBack settings](https://support.google.com/accessibility/android/answer/6006589?ref_topic=10601570).
 - [Use TalkBack gestures](https://support.google.com/accessibility/android/answer/6151827?ref_topic=10601570).
-- [Use the TalkBack menu & reading controls](https://support.google.com/accessibility/android/answer/6007066): playback control (or playback controls) is a feature similar to VoiceOver's rotor, allowing you to select types of item (links, buttons, headings, etc.) for quick navigation (drag up/down).
+- [Use the TalkBack menu & reading controls](https://support.google.com/accessibility/android/answer/6007066): playback control (or playback controls) is a feature similar to VoiceOver's rotor, allowing you to select types of item (links, buttons, headings, etc.) for quick navigation (swipe up/down).
 
 ###### Voice output display
 
@@ -202,15 +205,27 @@ iOS allows you to specify a focus style for users using an external device (*Set
 
 ##### Android
 
-Using an external keyboard with Android requires a few additional settings to be effective. In order for the interfaces and functions to be fully accessible from the keyboard, you need to use the [Switch Access](https://support.google.com/accessibility/android/answer/6122836) application with an external keyboard. 
+Using an external keyboard with Android can be done in several ways, and the EN 301 549 standard does not impose a method.
 
-A configuration guide allows you to configure your external keyboard step by step by defining switches. It is available in *Settings &gt; Accessibility &gt; Switch Access &gt; Settings &gt; Open setup guide*. You will associate two actions: 
-- *Next*: press the key on the keyboard you wish to associate (we recommend <kbd>Tab</kbd> to retain the keys used when browsing on a computer).
-- *Select*: press the key on the keyboard you wish to associate (we recommend <kbd>Enter</kbd> to retain the keys used when navigating on a computer).
+###### Keyboard access only
 
-Once you have completed the first configuration stage (using the configuration guide), you will need to set up other navigation keys: 
-- *Switch Access* *&gt; Settings &gt; Assign switches for scanning*: Associate the *Previous* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
-- *Switch Access* *&gt; Settings &gt; Assign switches to global actions*: Associate the *Back* parameter with a key or key combination (we recommend <kbd>ESC</kbd>)
+The simplest method is to connect an external keyboard via USB or *Bluetooth* to the mobile terminal, and perform the tests without any settings.
+
+You can consult the [list of keyboard shortcuts available for Android](https://appt.org/en/docs/android/features/keyboard-access) in order to navigate efficiently.
+
+###### Keyboard access with an accessibility service
+
+If the tests are not satisfactory, it is possible to perform additional tests using the accessibility service [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr).
+
+A guide allows you to configure your external keyboard step by step by defining switches, it is available in <em>Settings &gt; Accessibility &gt; <span lanf="en">Switch Access</span> &gt; Settings &gt; Open setup guide</em>. You will associate two actions:
+
+- *Next*: press the keyboard key you wish to associate (we recommend <kbd>Tab</kbd> to keep the keys used when browsing on a computer).
+- *Select*: press the keyboard key you wish to associate (we recommend <kbd>Enter</kbd> to keep the keys used when navigating on a computer).
+
+Once the first configuration step is completed (using the configuration guide), it will be necessary to configure other navigation keys:
+
+- *Switch Access &gt; Settings &gt; Assign switches for scanning*: Associate the  *Previous* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
+- *Switch Access &gt; Settings &gt; Assign switches to global actions*: Associate the *Back* setting with a key or key combination (we recommend <kbd>ESC</kbd>)
 
 #### Test applications
 
@@ -225,7 +240,7 @@ The **[Accessibility Inspector](https://developer.apple.com/library/archive/docu
 To carry out certain tests on Android applications, third-party applications are required or can help you with the evaluation.
 
 - [**Android Accessibility Suite**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&gl=US): Android application for adding options and gestures to the Talkback screen reader.
-- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;gl=US) Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*{lang="en"}.
+- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;gl=US) Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*.
 
 ##### iOS and Android
 
@@ -241,8 +256,7 @@ We can see that the parameter allows you to reach 190% or 235% magnification, bu
 
 #### Broadcast the screen of the mobile device
 
-Broadcasting the screen of your mobile device on your computer will make it easier for you to carry out certain tests, such as contrast tests. It can also be used to record certain interactions and take screenshots when writing audit reports.
-
+Broadcasting your mobile device screen to your computer can allow you to record certain interactions and take screenshots when you need to write audit reports. Casting can also be useful for demonstrations during audit feedback.
 Broadcasting the mobile device is not an essential requirement for evaluating applications, but it is nevertheless useful because it can facilitate certain evaluation activities.
 
 ##### iOS
@@ -263,10 +277,7 @@ There are a number of software (free or paid) that allow you to stream your iOS 
 There is an open source application that allows you to stream an Android application to **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy). 
 
 Installing it on a macOS environment may require some technical knowledge. On Windows, it can be used like a standard application. However, it is not essential that you project your mobile device, you can do without this installation (another method is detailed later in the document).
-
-###### If you have a computer running Windows 
-
-Windows provides an integrated "Connect" function for broadcasting certain external sources. [See documentation](https://support.google.com/pixelphone/answer/2865484?ref_topic=7084202).
+Windows provides an integrated "Connect" function for broadcasting certain external sources. [See documentation](https://support.google.com/pixelphone/answer/2865484?ref_topic=7084202)
 
 #### Take screenshots
 
