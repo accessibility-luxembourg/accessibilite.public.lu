@@ -1,4 +1,4 @@
-Nous présentons ci-dessous la liste des modifications notables dans les documents principaux du référentiel.
+Nous présentons ci-dessous la liste des modifications notables apparues dans la version 1.1 du RAAM.
 
 ### Outils
 
@@ -23,7 +23,7 @@ La grille d’évaluation a été mise à jour.
 - [Critère 3.17](./referentiel-technique.html#crit-3-17)&nbsp;: révision de la rédaction du critère et amélioration de la méthodologie.
 - [Critère 3.18](./referentiel-technique.html#crit-3-18)&nbsp;: révision de la rédaction du critère, ajout de conditions et amélioration de la méthodologie.
 
-#### Thématique 8 «&nbsp;Présentation&nbsp;»
+#### Thématique 8 «&nbsp;Présentation de l'information&nbsp;»
 
 - [Critère 8.2](./referentiel-technique.html#crit-8-2)&nbsp;: amélioration de la méthodologie.
 
