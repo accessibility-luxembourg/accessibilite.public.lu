@@ -43,7 +43,7 @@ If you have a problem with the accessibility of a public sector website or mobil
 - [Newsletter](./newsletter.md)
 - [Mastodon](https://mas.to/@accessibilityLu){rel=me}
 - [LinkedIn](https://www.linkedin.com/company/accessilibity-lu/)
-- [Twitter](https://twitter.com/accessibilityLu)
+- [Bluesky](https://bsky.app/profile/accessibilite.public.lu)
 - [RSS feed](news/feed.xml)
 
 </div>
