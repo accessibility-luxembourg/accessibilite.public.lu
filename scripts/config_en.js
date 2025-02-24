@@ -66,7 +66,7 @@ const config = {
                     "html": true,
                     "prefix": "../..",
                     "genSummary": "ol", 
-                    "summaryTitle": "Summary"
+                    "summaryTitle": "Table of contents"
                 },
                 {
                     "title": "Digital accessibility monitoring",
@@ -161,7 +161,9 @@ const config = {
                     "name": "raweb1/methodo-test",
                     "md": "./content/en/raweb1/methodologie-de-test.md",
                     "html": true,
-                    "prefix": "../../.." 
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
                 },                
                 {
                     "title": "RAWeb 1: Testing environment",
@@ -185,7 +187,9 @@ const config = {
                     "name": "raweb1/notes-revision",
                     "html": true,
                     "md": "./content/en/raweb1/notes-de-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
                 },
                 {
                     "title": "Simplified accessibility control method v1.2.1",
@@ -250,7 +254,9 @@ const config = {
                     "md": "./content/en/raam1.1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
-                    "slugify": "slugifyA42"
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
                 },
                 {
                     "title": "RAAM 1.1: Testing environment",

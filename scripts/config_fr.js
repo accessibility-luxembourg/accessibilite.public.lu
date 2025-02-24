@@ -176,7 +176,9 @@ const config = {
                     "name": "raweb1/methodo-test",
                     "md": "./content/fr/raweb1/methodologie-de-test.md",
                     "html": true,
-                    "prefix": "../../.." 
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
                 },                
                 {
                     "title": "RAWeb 1 : Environnement de test",
@@ -200,7 +202,9 @@ const config = {
                     "name": "raweb1/notes-revision",
                     "html": true,
                     "md": "./content/fr/raweb1/notes-de-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
                 },
                 {
                     "title": "Méthode de contrôle simplifié de l'accessibilité v1.2.1",
@@ -265,6 +269,8 @@ const config = {
                     "md": "./content/fr/raam1.1/methodologie.md",
                     "html": true, 
                     "prefix": "../../..", 
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire",
                     "slugify": "slugifyA42"
                 },
                 {
