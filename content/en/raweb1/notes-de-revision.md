@@ -1,11 +1,11 @@
 ---
-title: RAWeb 1 revision notes
+title: RAWeb 1 changelog 
 ---
 
 RAWeb 1 is the first Luxembourg accessibility framework to cover all the requirements of the European standard EN 301 549 v3.2.1 currently in force.
 
 For all WCAG-compatible criteria, RAWeb 1 is based on the RGAA 4.1.2. The RGAA is published by DINUM on the website [accessibilite.numerique.gouv.fr](https://accessibilite.numerique.gouv.fr/) and the sources are available on this <a href="https://github.com/DISIC/accessibilite.numerique.gouv.fr/" rel="noreferrer noopener">GitHub repository</a>.
-The RGAA 4.1.2 has its own [revision notes](../../fr/rgaa4.1.2/notes-revision.html).
+The RGAA 4.1.2 has its own [changelog](../../fr/rgaa4.1.2/notes-revision.html).
 
 All the other criteria are new and transcribe, in the form of operational tests, the criteria from European standard EN 301 549 v3.2.1 which are not based on WCAG.
 These are the following criteria and themes:
