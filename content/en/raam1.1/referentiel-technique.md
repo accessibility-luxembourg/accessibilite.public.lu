@@ -1370,7 +1370,7 @@ The criterion does not apply to the following elements:
 
 1. Access the font size settings for the platform: Settings &gt; Accessibility &gt; Display and text size &gt; Larger text.
 1. Activate the "Larger accessibility sizes" button.
-1. Open Control Centre and activate the [Text size parameter (‘aA’ button)](methodologie.md#change-font-size-on-ios) to display the font size gauge. Increase the value to 190%.
+1. Open Control Centre and activate the [Text size parameter (‘aA’ button)](methodologie.md#change-the-font-size-on-ios) to display the font size gauge. Increase the value to 190%.
 1. If necessary, restart the application to ensure that the parameter is taken into account by the application.
 1. Check that 
 	- all the texts in the interface have been enlarged; 
@@ -2445,7 +2445,7 @@ The criterion does not apply for:
 - WCAG 2.1: N/A
 - EN&nbsp;301&nbsp;549 V3.2.1 (2021-03) *12.1.1 Accessibility and compatibility features*.
 
-#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the [documentation](glossaire.md#documentation), the [mechanism used to activate it](glossaire.md#mechanism-enabling-an-accessibility-feature) meets the accessibility needs of the users concerned. Is this rule respected (excluding special cases)? {id="crit-12-2"}
+#### [Criterion 12.2](#crit-12-2) [A] For each [accessibility feature](glossaire.md#accessibility-feature) described in the [documentation](glossaire.md#documentation), the [mechanism used to activate it](glossaire.md#mechanism-enabling-to-activate-an-accessibility-feature) meets the accessibility needs of the users concerned. Is this rule respected (excluding special cases)? {id="crit-12-2"}
 
 ##### Special cases
 

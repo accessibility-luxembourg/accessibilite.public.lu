@@ -2,7 +2,7 @@ Below we present the list of notable changes that appeared in version 1.1 of RAA
 
 ### Tools
 
-The evaluation spreadsheet has been updated.
+The <a href="/en/files/modele-grille-audit-appli-mobiles.xlsx">evaluation spreadsheet</a> has been updated.
 
 ### Criteria and tests
 
@@ -91,17 +91,17 @@ Note: for criteria 13.1, 13.3 and 13.5, the methodologies have been revised to i
 3. [Contrast (text size)](./glossaire.html#contrast-text-size): revised the definition of text size, aligned with the RAWeb regarding sizes in px.
 4. Primary control is renamed [Primary features (of a time-based media)](./glossaire.html#primary-features-of-a-time-based-media)
 5. [Accessibility feature](./glossaire.html#accessibility-feature): added additional examples.
-6. [Time-based media (sound, video and synchronized)](./glossaire.html#temporal-media-sound-video-and-synchronized-type): added a note.
+6. [Time-based media (sound, video and synchronized)](./glossaire.html#time-based-media-audio-video-and-synchronised): added a note.
 7. [Support services](./glossaire.html#support-services): added the feedback mechanism of the accessibility statement to the examples of support services.
 8. [Relay service](./glossaire.html#relay-service): editorial changes.
 
 ### Methodology
 
 - The document has undergone a major modification. The section ["Assessment of compliance with the reference standard"](./methodologie.html#assessment-of-compliance-with-the-reference-standard) previously present in the page "Obligations" has been taken up at the beginning of this page.
-- The [principle of non-interference](./methodologie.html#principle-of-non-interference) is taken up, as in the RAWeb, and adapted to the criteria of the RAAM.
+- The [non-interference principle](./methodologie.html#non-interference-principle) is taken up, as in the RAWeb, and adapted to the criteria of the RAAM.
 - The section [« External keyboard »](./methodologie.html#external-keyboard) now explains that it is possible to test with or without a keyboard accessibility service on Android.
-- The section [« Taking screenshots »](./methodologie.html#realiser-des-captures-d-ecran) has been revised in depth, in particular to meet the needs of calculating text sizes for criterion 2.2.
+- The section [« Taking screenshots »](./methodologie.html#take-screenshots) has been revised in depth, in particular to meet the needs of calculating text sizes for criterion 2.2.
 
 ### Test environment
 
-- It is now noted [in the table](./environnement.html#environnement-de-test) that previous versions are authorized to perform the tests.
+- It is now noted [in the table](./environnement.html#testing-environment) that previous versions are authorized to perform the tests.

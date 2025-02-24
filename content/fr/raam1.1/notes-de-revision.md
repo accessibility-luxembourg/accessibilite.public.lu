@@ -2,7 +2,7 @@ Nous présentons ci-dessous la liste des modifications notables apparues dans la
 
 ### Outils
 
-La grille d’évaluation a été mise à jour.
+La <a href="/fr/files/modele-grille-audit-appli-mobiles.xlsx">grille d’évaluation</a> a été mise à jour.
 
 ### Critères et tests
 

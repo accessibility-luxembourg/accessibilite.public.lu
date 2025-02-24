@@ -1,6 +1,6 @@
 Some of the tests in the mobile applications accessibility assessment framework are carried out using the assistive technologies available on the platforms.
 
-### Test environment 
+### Testing environment 
 
 The operating systems selected are iOS and Android. These are the operating systems most commonly used by blind and partially-sighted people in French-speaking countries (see the [international survey on the use of assistive technologies by visually impaired people](https://access42.net/enquete-internationale-usage-technologies-assistance-deficients-visuels)).
 
