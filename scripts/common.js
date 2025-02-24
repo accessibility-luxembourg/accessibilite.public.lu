@@ -78,7 +78,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 }
             })
         }
-        if (['raweb1/referentiel-technique'].includes(name)) {
+        if (['raweb1/criteres'].includes(name)) {
             $('.rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
                 let text = $(this).html()
                 if (text.match(/^<p>EN\s301\s549/) || text.match(/^EN\s301\s549/)) { // matches one of the two patterns
