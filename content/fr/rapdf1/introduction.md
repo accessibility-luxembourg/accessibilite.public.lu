@@ -8,8 +8,6 @@ Ce référentiel propose un cadre opérationnel de vérification de la conformit
 
 Il comporte 46 critères de contrôle.
 
-En cas d’absence de mise à jour du référentiel sous 3 ans pour prendre en compte de nouveaux standards ou spécifications techniques, il est possible de créer ses propres tests en complément de ceux existants.
-
 Ce référentiel est édité par le [Service information et presse](https://sip.gouvernement.lu/) et distribué sous licence [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/). Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/ReferentielAccessibilitePDF](https://github.com/accessibility-luxembourg/ReferentielAccessibilitePDF).
 En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
 

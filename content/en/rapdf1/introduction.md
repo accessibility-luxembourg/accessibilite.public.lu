@@ -8,8 +8,6 @@ The RAPDF provides an operational framework for checking compliance with accessi
 
 It contains 46 control criteria.
 
-If the framework is not updated within 3 years to take account of new standards or technical specifications, it is possible to create your own tests in addition to the existing ones.
-
 This framework is published by the [Information and Press Service](https://sip.gouvernement.lu/en.html) and distributed under a [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/) licence. The sources are available on the GitHub repository [accessibility-luxembourg/ReferentielAccessibilitePDF](https://github.com/accessibility-luxembourg/ReferentielAccessibilitePDF).
 If you find any issue in this framework, feel free to create a ticket in this repository.
 
