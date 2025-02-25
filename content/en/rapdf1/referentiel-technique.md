@@ -431,7 +431,7 @@ In these situations, the criterion does not apply:
 6. If this is not the case, check in PAC that the heading immediately preceding the link (Hx element) makes it explicit.
 7. If this is the case, the test is validated.
 
-###### Test 4.1.2 with Acrobat Reader and PAC 2024
+###### Test 4.1.2 with Acrobat Reader
 
 1. Open the PDF file with Acrobat Reader.
 2. Look for identical links.
@@ -603,16 +603,16 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and PAC 2024
+###### With Acrobat Reader
 
-###### Test 6.2.1 with Acrobat Reader and PAC 2024
+###### Test 6.2.1 with Acrobat Reader
 
 1. Open the file with Acrobat Reader.
 2. Locate the information in the text that uses a change in character type or style (bold, italic, font);
 3. Check that the information transmitted using a typeface or character style is associated with an equivalent text indication. 
 4. If this is the case, the test is validated.
 
-###### Test 6.2.2 with Acrobat Reader and PAC 2024
+###### Test 6.2.2 with Acrobat Reader
 
 1. Open the file with Acrobat Reader.
 2. Locate information in the text that uses a visual indication by means of positioning or the presence of a special character (e.g. a mathematical or graphic symbol).
