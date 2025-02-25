@@ -431,7 +431,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 6. Si ce n’est pas le cas, dans PAC, vérifier que le titre précédent immédiatement le lien (élément Hx) permet de l’expliciter.
 7. Si c’est le cas, le test est validé.
 
-###### Test 4.1.2 avec Acrobat Reader et PAC 2024
+###### Test 4.1.2 avec Acrobat Reader
 
 1. Ouvrir le fichier PDF avec Acrobat Reader.
 2. Repérer les liens identiques.
@@ -603,16 +603,16 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et PAC 2024
+###### Avec Acrobat Reader
 
-###### Test 6.2.1 avec Acrobat Reader et PAC 2024
+###### Test 6.2.1 avec Acrobat Reader
 
 1. Ouvrir le fichier avec Acrobat Reader.
 2. Repérer dans le texte les informations qui utilisent une modification du type ou d’un style de caractère (graisse, italique, police)&nbsp;;
 3. Vérifier que l’information transmise au moyen d’un type ou d’un style de caractère est associée à une indication textuelle équivalente. 
 4. Si c’est le cas, le test est validé.
 
-###### Test 6.2.2 avec Acrobat Reader et PAC 2024
+###### Test 6.2.2 avec Acrobat Reader
 
 1. Ouvrir le fichier avec Acrobat Reader.
 2. Repérer dans le texte les informations qui utilisent une indication visuelle au moyen d’un positionnement ou la présence d’un caractère spécial (par exemple un symbole mathématique ou graphique).
