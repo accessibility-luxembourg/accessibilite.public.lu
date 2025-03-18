@@ -14,17 +14,13 @@ Highcharts.setOptions({                                                         
 
 const graph_translations = {
     "fr": {
-        "Category": "Catégorie",
-        "WithMenu": "Avec menu",
-        "WithoutMenu": "Sans menu",
+        "category": "Catégorie",
         "menu": {
             "title": "Graphique 1. Score d’accessibilité de différentes catégories de sites de la campagne d’audit 2024, en %"
         }
     },
     "en": {
-        "Category": "Category",
-        "WithMenu": "With menu",
-        "WithoutMenu": "Without menu",        
+        "category": "Category",       
         "menu": {
             "title": "Graph 1. Accessibility score of different categories of sites from the 2024 audit campaign, as a percentage"
         }
@@ -34,7 +30,7 @@ const graph_translations = {
 function loadchart (chartid) {                                                                     // load charts when entering viewport
     switch (chartid) {
         case "menu_compliance":
-            Papa.parse('datasource/2024-report/menu.csv', {
+            Papa.parse('datasource/2025-03-menu.csv', {
                 download: true,
                 header: true,
                 complete: results => {
