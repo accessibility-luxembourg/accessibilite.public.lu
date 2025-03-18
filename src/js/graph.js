@@ -255,7 +255,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
             }
         },
         exporting: {
-            enabled: false, // désactive le menu burger
+            enabled: true, // désactive le menu burger
             showTable: true
         }
     });
