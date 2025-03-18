@@ -153,7 +153,6 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
     const chart = highcharts.chart(ch_dest, {
         chart: {
             type: ch_type,
-            /*
             events: {
                 render() {
                     // HOTFIX for the jump when navigating with the keyboard on charts with a legend
@@ -170,7 +169,6 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
                         });
                     }, 250);
                 }
-                    */
             }
         },
         accessibility: {
@@ -257,7 +255,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
             }
         },
         exporting: {
-            enabled: true, // désactive le menu burger
+            enabled: false, // désactive le menu burger
             showTable: true
         }
     });
