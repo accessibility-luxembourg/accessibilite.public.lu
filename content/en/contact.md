@@ -14,7 +14,7 @@ Luxembourg
   <dt>Mastodon</dt>
   <dd><a href="https://mas.to/@accessibilityLu" rel="me">@AccessibilityLu@mas.to</a></dd>
   <dt>LinkedIn</dt>
-  <dd><a href="https://www.linkedin.com/company/accessilibity-lu/">Digital Accessibility Luxembourg</a></dd>
+  <dd><a href="https://www.linkedin.com/company/accessibility-lu/">Digital Accessibility Luxembourg</a></dd>
   <dt>GitHub</dt>
   <dd><a href="https://github.com/accessibility-luxembourg">AccessibilityLU</a></dd>
   <dt>Twitter</dt>

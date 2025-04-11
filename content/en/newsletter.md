@@ -1,6 +1,6 @@
 <script src="../../js/newsletter.js"></script>
 
-<p>You can follow our news via our newsletter, our accounts on <a href="https://www.linkedin.com/company/accessilibity-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> and <a href="https://twitter.com/accessibilityLu">Twitter</a>, and our <a href="./news/feed.xml">RSS feed</a>.</p>
+<p>You can follow our news via our newsletter, our accounts on <a href="https://www.linkedin.com/company/accessibility-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> and <a href="https://twitter.com/accessibilityLu">Twitter</a>, and our <a href="./news/feed.xml">RSS feed</a>.</p>
 
 <p>Feel free to subscribe to our newsletter via the form below:</p>
 

@@ -42,7 +42,7 @@ Vous rencontrez un problème d'accessibilité sur un site ou une application mob
 
 - [Lettre d'information](./newsletter.md)
 - [Mastodon](https://mas.to/@accessibilityLu){rel=me}
-- [LinkedIn](https://www.linkedin.com/company/accessilibity-lu/)
+- [LinkedIn](https://www.linkedin.com/company/accessibility-lu/)
 - [Bluesky](https://bsky.app/profile/accessibilite.public.lu)
 - [Fil RSS](news/feed.xml)
 
