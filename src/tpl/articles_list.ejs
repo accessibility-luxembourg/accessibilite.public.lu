@@ -8,7 +8,7 @@
                     <p class="subtitle"><%- e.meta.subtitle_html %></p>
                 </a>
                 <img class="article_teaser" src="<%= e.meta.img %>" alt="" />
-                <p class="intro"><%= e.meta.intro_html %></p>
+                <p class="intro"><%- e.meta.intro_html %></p>
             </div>
             <div>
                 <p class="date"><%= new Date(e.meta.date).toLocaleDateString((e.meta.lang !== undefined)?e.meta.lang:__('Lang'), { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
