@@ -264,16 +264,16 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     const mainDiv = document.getElementById("topics");
     let els = mainDiv.querySelectorAll('h4'); 
     els.forEach(el => {
-        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
+        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
     });
     return dom.serialize();
   }
 
 function main(html, name, __) {
-    if (['raam1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
+    if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
         html = singleMDCriteria(html, __)
     }    
-    if (['raam1/glossaire', 'rapdf1/glossaire'].includes(name)) {
+    if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire'].includes(name)) {
         html = singleMDGlossary(html, __)
     }
     return html

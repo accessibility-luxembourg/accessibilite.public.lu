@@ -75,7 +75,7 @@ function mdCriteres(cbFM, rgaaPath) {
         'html': true,
         'linkify': true,
         replaceLink: function (link, env) {
-            if (!link.match(/^#test-\d|#crit-|https?:\/\/|\.\./)) {
+            if (!link.match(/^#test-\d|#crit-|https?:\/\/|\.\.|\./)) {
                 return `${rgaaPath}glossaire.html${link}`
             }
             return link

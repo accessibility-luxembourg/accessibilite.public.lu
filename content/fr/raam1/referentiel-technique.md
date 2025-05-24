@@ -279,7 +279,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - Composant d’interface inactif (par exemple, un bouton désactivé) sur lequel aucune action n’est possible.
 - Composant d’interface géré par la plateforme et pour lequel il n’existe pas de méthode simple de développement pour le modifier.
 - Composant d’interface dont la couleur n’est pas nécessaire pour identifier le composant ou son état (par exemple, le soulignement des liens qui aurait un rapport de contraste inférieur à 3:1 mais dont le texte a un rapport de contraste de 4.5:1).
-- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran).
+- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique faisant partie d’un logo ou du nom de marque d’un organisme ou d’une société.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dont la présentation est essentielle à l’information véhiculée (par exemple, drapeaux, logotypes, photos de personnes ou de scènes, captures d’écran, diagrammes médicaux, carte de chaleurs).
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dynamique dont le contraste peut varier si d’autres éléments sont survolés (ou reçoivent le focus), mais dont le survol ou focus permet de le rendre suffisamment contrasté (par exemple, un diagramme en camembert composé de plusieurs sections suffisamment contrastées, mais lorsque la souris survole une section du camembert, les autres sections ne sont plus suffisamment contrastées, leur opacité est réduite pour mettre en avant la section survolée).
@@ -2307,7 +2307,7 @@ Le critère est non applicable&nbsp;:
 
 1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation.
 1. Repérer dans l’application la présence de fonctionnalités d’accessibilité.
 1. Vérifier la présence dans la documentation&nbsp;: 
@@ -2386,7 +2386,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
 1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
 	- s’il s’agit d’une page web, qu’il respecte le [RAWeb1](../raweb1/criteres.html)&nbsp;; 
@@ -2526,7 +2526,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 1. Repérer la mise à disposition d’un service d’assistance depuis l’application.
 1. Si c’est le cas, repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
 	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
+	- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation.
 1. Repérer la présence dans la documentation&nbsp;: 
 	- de la description des fonctionnalités d’accessibilité de l’application, par exemple&nbsp;: 

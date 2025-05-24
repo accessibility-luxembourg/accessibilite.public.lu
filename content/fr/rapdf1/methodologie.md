@@ -33,10 +33,10 @@ La procédure ci-dessous donne des détails supplémentaires pour s'assurer d'un
 
 ##### Installation
 
-**Note** : le [site francophone de NVDA](https://www.nvda-fr.org/)
+**Note** : le [site francophone de NVDA](https://www.nvda.fr/)
 propose toujours la dernière version stable en téléchargement.
 
-1.  Télécharger la [dernière version de NVDA](https://www.nvda-fr.org/cat.php?id=2).
+1.  Télécharger la [dernière version de NVDA](https://www.nvda.fr/cat.php?id=2).
 1.  Vous avez le choix d\'installer NVDA sur votre ordinateur,
     d\'en faire une version portable ou d\'exécuter le logiciel sans
     l\'installer. Si vous souhaitez obtenir une version portable de

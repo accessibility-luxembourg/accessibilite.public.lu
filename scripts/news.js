@@ -53,6 +53,9 @@ function genNews(config, lang, outputPath, baseURL, __) {
         data.meta.subtitle_html = $('hgroup > p').first().html()
         data.meta.subtitle = $('hgroup > p').first().text()
         data.meta.intro_html = $('.intro > p').first().html()
+        if (data.meta.intro_html) {
+            data.meta.intro_html = data.meta.intro_html.replaceAll( /<\/?a.*?>/g, "")
+        }
         data.meta.intro = $('.intro > p').first().text()
         data.meta.img = $('img').first().attr('src')
         if (data.meta.img !== undefined) {

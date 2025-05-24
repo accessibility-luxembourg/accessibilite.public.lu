@@ -60,7 +60,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
-        if (['raam1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
+        if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
             $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
                 let text = $(this).text()
                 if (text.match(/^EN\s301\s549/)) {
@@ -78,7 +78,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 }
             })
         }
-        if (['raweb1/referentiel-technique'].includes(name)) {
+        if (['raweb1/criteres'].includes(name)) {
             $('.rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
                 let text = $(this).html()
                 if (text.match(/^<p>EN\s301\s549/) || text.match(/^EN\s301\s549/)) { // matches one of the two patterns
@@ -282,5 +282,14 @@ function genRawFile(template, data, file) {
     });
 }
 
+function getDeprecationMessage(deprecation, name) {
+    for (const pattern in deprecation) {
+        if (name.match(new RegExp('^'+pattern+'.*'))) {
+            return deprecation[pattern]
+        }
+    }
+    return null
+}
 
-module.exports = {renderToFile, renderWithSummary, renderHome, slugify, slugifyDINUM, slugifyA42, slugifySC, tech2URL, langOnWCAG, langOnEUNormDeprecated, langOnEUNormFromWCAG, langOnEUNorm, mdCriteres, mdGlossary, genericMarkdownIt, isProd, genFile, genFileWithSummary, genRawFile}
+
+module.exports = {renderToFile, renderWithSummary, renderHome, slugify, slugifyDINUM, slugifyA42, slugifySC, tech2URL, langOnWCAG, langOnEUNormDeprecated, langOnEUNormFromWCAG, langOnEUNorm, mdCriteres, mdGlossary, genericMarkdownIt, isProd, genFile, genFileWithSummary, genRawFile, getDeprecationMessage}

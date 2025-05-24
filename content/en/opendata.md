@@ -1,7 +1,16 @@
 On this page you will find all the documents published in *open data* by the SIP as part of its activities on digital accessibility:
 
+### 2026 Monitoring
+- [Sample for the 2026 digital accessibility monitoring](https://data.public.lu/fr/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2026/)
+
+### 2025 Monitoring
+- [Sample for the 2025 digital accessibility monitoring](https://data.public.lu/fr/datasets/echantillons-pour-le-controle-de-laccessibilite-numerique-2024-2025/)
+
 ### 2024 Monitoring
+- [Digital accessibility monitoring report - 2022-2024](https://data.public.lu/fr/datasets/rapport-sur-le-controle-de-laccessibilite-des-sites-internet-et-applications-mobiles-du-secteur-public-au-luxembourg-2022-2024/)
 - [Sample for the 2024 and 2025 digital accessibility monitoring](https://data.public.lu/en/datasets/echantillons-pour-le-controle-de-laccessibilite-numerique-2024-2025/)
+- [Full digital accessibility monitoring 2024](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2024-1/)
+- [Simplified digital accessibility monitoring 2024](https://data.public.lu/en/datasets/audits-simplifies-de-laccessibilite-numerique-2024/)
 
 ### 2023 Monitoring
 - [Sample for the 2023 digital accessibility monitoring](https://data.public.lu/en/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2023/)
@@ -22,6 +31,7 @@ On this page you will find all the documents published in *open data* by the SIP
 ### Frameworks
 - [Web Accessibility Assessment Framework (RAWeb)](https://data.public.lu/en/datasets/referentiel-devaluation-de-laccessibilite-web/)
 - [Mobile Applications Accessibility Assessment Framework (RAAM)](https://data.public.lu/en/datasets/referentiel-devaluation-de-laccessibilite-des-applications-mobiles/)
+- [PDF Accessibility Assessment Framework (RAPDF)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-des-documents-au-format-pdf/)
 
 ### Inventories of sites and applications 
 - [Inventory of public sites](https://data.public.lu/en/datasets/inventaire-des-sites-publics/)

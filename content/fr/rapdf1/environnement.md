@@ -17,6 +17,6 @@ L’outil de test dédié est [PAC 2024](https://pac.pdf-accessibility.org/en/do
 
 ##### Lecteur d’écran utilisé pour les tests
 
-Le lecteur d’écran utilisé pour effectuer les tests de restitution pour la thématique «&nbsp;Formulaire interactif&nbsp;» est [NVDA](https://www.nvda-fr.org/).
+Le lecteur d’écran utilisé pour effectuer les tests de restitution pour la thématique «&nbsp;Formulaire interactif&nbsp;» est [NVDA](https://www.nvda.fr/).
 
 La section [Méthodologie](methodologie.md) du présent référentiel présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 

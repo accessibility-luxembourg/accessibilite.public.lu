@@ -473,6 +473,12 @@ blockquote {
   clip: auto;
 }
 
+.skip-link a.in-article:focus, .skip-link a.in-article:focus-visible {
+  position: relative;
+  right:0; 
+  top:0;
+}
+
 /* declaration form error management */
 form.newsletter div.error, form#decla div.error {
   padding-left: 0.5rem;

@@ -21,6 +21,7 @@ mkdir -p ./src/html/fr/rgaa4.1/files
 mkdir -p ./src/html/fr/rgaa4.1.2/files
 mkdir -p ./src/html/fr/raweb1/files
 mkdir -p ./src/html/fr/raam1
+mkdir -p ./src/html/fr/raam1.1
 mkdir -p ./src/html/fr/rapdf1
 mkdir -p ./src/html/fr/tools
 mkdir -p ./src/html/fr/support
@@ -37,7 +38,8 @@ if [[ "$DISABLE_EN" != "true" ]]
 then
     mkdir -p ./src/html/en/files
     mkdir -p ./src/html/en/raweb1/files
-    mkdir -p ./src/html/en/raam1
+    mkdir -p ./src/html/en/raam1    
+    mkdir -p ./src/html/en/raam1.1
     mkdir -p ./src/html/en/rapdf1
     mkdir -p ./src/html/en/tools
     mkdir -p ./src/html/en/support
@@ -51,17 +53,17 @@ fi
 
 node gen.js
 
-en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/monitoring/audit-simpl.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html"
+en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html ./src/html/en/raam1/*.html"
 if [[ "$DISABLE_EN" == "true" ]]
 then
     en_files=""
 fi
-npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-subscribe.html ./src/html/fr/monitoring/audit-simpl.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html $en_files
+npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-subscribe.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html $en_files
 
 # english only
 # npx parcel build ./src/html/index.html $en_files
 
-cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/static/web.config ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
+cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
 
 cp -r ./content/fr/news/datasource ./dist/fr/news
 cp -r ./src/html/fr/news/og ./dist/fr/news
