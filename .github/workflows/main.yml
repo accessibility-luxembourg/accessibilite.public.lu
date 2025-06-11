@@ -50,4 +50,4 @@ jobs:
         curl -X POST "${{ secrets.WEBHOOK_URL }}" \
         -H "Content-Type: application/json" \
         -H "Authorization: Bearer ${{ secrets.WEBHOOK_TOKEN }}" \
-        -d '{"status": "success", "repository": "${{ github.repository }}", "commit": "${{ github.sha }}"}' > /dev/null
+        -d '{"status": "success", "repository": "${{ github.repository }}", "commit": "${{ github.sha }}", "run": "${{ github.run_id }}"}'
