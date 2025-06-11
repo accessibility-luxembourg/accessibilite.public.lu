@@ -47,6 +47,7 @@ jobs:
     - name: Call Webhook
       if: success()
       run: |
+        sleep 30
         curl -X POST "${{ secrets.WEBHOOK_URL }}" \
         -H "Content-Type: application/json" \
         -H "Authorization: Bearer ${{ secrets.WEBHOOK_TOKEN }}" \
