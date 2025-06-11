@@ -45,4 +45,4 @@ Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{l
 - [Historique des réclamations relatives à l'accessibilité numérique](https://data.public.lu/fr/datasets/historique-des-reclamations-relatives-a-laccessibilite-numerique/)
 
 ### Open Source{lang=en}
-Le SIP publie en outre l'ensemble des logiciels nécessaires à sa mission sur la plateforme Github, sur l'organisation [Accessibility-Luxembourg](https://github.com/accessibility-luxembourg){lang=en}..
+Le SIP publie en outre l'ensemble des logiciels nécessaires à sa mission sur la plateforme Github, sur l'organisation [Accessibility-Luxembourg](https://github.com/accessibility-luxembourg){lang=en}.
