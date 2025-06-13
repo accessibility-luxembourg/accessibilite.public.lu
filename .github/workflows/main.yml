@@ -44,3 +44,10 @@ jobs:
       with:
         name: dist
         path: dist/
+    - name: Call Webhook
+      if: success()
+      run: |
+        curl -X POST "${{ secrets.WEBHOOK_URL }}" \
+        -H "Content-Type: application/json" \
+        -H "Authorization: Bearer ${{ secrets.WEBHOOK_TOKEN }}" \
+        -d '{"status": "success", "repository": "${{ github.repository }}", "commit": "${{ github.sha }}", "run": "${{ github.run_id }}"}'
