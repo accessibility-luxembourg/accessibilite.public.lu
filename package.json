@@ -10,9 +10,12 @@
     "serve": "http-server ./dist",
     "checklinks": "npx check-html-links dist/ --validate-externals --absolute-base-url https://accessibilite.public.lu",
     "checkaccess": "node ./test/accessTests.js",
+    "visual": "node ./test/visualTests.js",
+    "visual:update": "node ./test/visualTests.js --update-baseline",
     "test:links": "concurrently -k -s first 'npm:serve' 'npm:checklinks'",
     "test:access": "concurrently -k -s first 'npm:serve' 'npm:checkaccess'",
-    "test": "npm run test:links && npm run test:access",
+    "test:visual": "concurrently -k -s first 'npm:serve' 'npm:visual'",
+    "test": "npm run test:links && npm run test:access && npm run test:visual",
     "postinstall": "patch-package"
   },
   "watch": {
@@ -74,6 +77,9 @@
     "npm-watch": "^0.6.0",
     "parcel-bundler": "^1.12.4",
     "patch-package": "^6.5.1",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.11.1",
     "sass": "^1.26.10",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }

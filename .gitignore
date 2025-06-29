@@ -8,3 +8,8 @@ dist.zip
 todo.txt
 .DS_Store
 .env
+
+# Visual regression test output
+test/screenshots/actual/
+test/screenshots/diff/
+# Keep baseline screenshots in git for CI/CD

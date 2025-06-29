@@ -126,4 +126,37 @@ function genNews(config, lang, outputPath, baseURL, __) {
     return articles
 }
 
-module.exports = {genNews}
+function getAllArticles(lang) {
+    const news = fs.readdirSync('./content/'+lang+'/news')
+
+    let articles = news.filter(e => { return e.match(/\.md$/)}).map(e => {
+        const data = {}
+        data.meta = {}
+    
+        // add date and name to the meta from the file name
+        data.meta.filename = e.replace(/\.md$/, '')
+        data.meta.slug = data.meta.filename
+        data.meta.date = e.substring(0,10)
+        data.date = new Date(data.meta.date)
+    
+        // get the metadata from the frontmatter
+        function cbfm(fm) {
+            data.meta = {...data.meta, ...fm}
+        }
+    
+        const content = fs.readFileSync('./content/'+lang+'/news/'+e).toString()
+        newsMarkdownIt(cbfm).render(content)
+        $ = cheerio.load('<div>' + content + '</div>')
+        data.meta.title = $('h1').first().text()
+
+        return data
+    }).sort((a, b) => { return (b.date - a.date)})
+    
+    if (lib.isProd()) {
+        articles = articles.filter(e => {return e.date <= new Date()})
+    }
+    
+    return articles
+}
+
+module.exports = {genNews, getAllArticles}

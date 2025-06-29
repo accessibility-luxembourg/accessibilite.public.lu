@@ -1,0 +1,5 @@
+# Visual regression test output
+screenshots/actual/
+screenshots/diff/
+# Keep baseline screenshots in git for CI/CD
+# screenshots/baseline/
