@@ -608,31 +608,31 @@ kbd kbd {
     height: auto
 }
 
-.table {
+table, .table {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1em
 }
 
 @media (max-width:50em) {
-    .table {
+    table, .table {
         display: block;
         overflow-x: auto
     }
 }
 
-.table caption {
+table caption, .table caption {
     padding: .75rem .4rem;
     color: #313740;
     width: 100%
 }
 
-.table caption,
-.table th {
+table caption, .table caption,
+table th, .table th {
     text-align: left
 }
 
-.table td,
+table td, table th, .table td,
 .table th {
     padding: .75rem .4rem;
     vertical-align: top;
@@ -640,15 +640,15 @@ kbd kbd {
     color: #313740
 }
 
-.table .thead th,
-.table thead th {
+table .thead th, .table .thead th,
+table thead th, .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dadde2;
     background-color: #dadde2;
     color: #313740
 }
 
-.table tbody + tbody {
+table tbody + tbody, .table tbody + tbody {
     border-top: 2px solid #dadde2
 }
 
