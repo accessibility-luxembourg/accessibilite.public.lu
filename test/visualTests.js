@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer')
 const fs = require('fs')
 const path = require('path')
-const pixelmatch = require('pixelmatch')
+const pixelmatch = require('pixelmatch').default
 const { PNG } = require('pngjs')
 const dotenv = require('dotenv')
 
@@ -92,6 +92,9 @@ async function takeScreenshot(page, url, filename) {
     console.log(`Taking screenshot: ${filename}`)
     
     try {
+        await page.emulateMediaFeatures([
+            {name: 'prefers-reduced-motion', value: 'reduce'},
+        ]);
         await page.goto(url, { 
             waitUntil: 'networkidle2',
             timeout: 30000 
