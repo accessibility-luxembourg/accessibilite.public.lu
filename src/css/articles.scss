@@ -1,4 +1,4 @@
-@import url('./fonts.css');
+@import './fonts.scss';
 
 
 /* colors and global body & article.news layout */
@@ -703,7 +703,7 @@ div.home-content-container aside.articles_home div a p {
 
 div.home-content-container aside.articles_home div a:focus {
     background-color: transparent;
-    border: 1px solid var(--menu-dark-blue);
+    border: 1px solid $menu-dark-blue;
 }
 
 div.home-content-container aside.articles_home div a:hover p {
