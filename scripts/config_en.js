@@ -31,7 +31,7 @@ const config = {
             "name": "index",
             "md": "./content/en/welcome.md", 
             "html": true,
-            "prefix": "../.."
+            "prefix": ".."
         },
         {
             "title": "News",

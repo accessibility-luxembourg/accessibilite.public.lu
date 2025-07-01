@@ -1,6 +1,6 @@
-import { initDisclosureMenu } from "./disclosureMenu"
+import { initDisclosureMenu } from "./disclosureMenu.js"
 
-import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails } from "./accordion"
+import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails } from "./accordion.js"
 
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)

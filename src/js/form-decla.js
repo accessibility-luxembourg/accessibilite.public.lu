@@ -1,8 +1,8 @@
-import ejs from 'ejs'
+//import ejs from 'ejs'
 import { copyTextToClipboard } from './clipboard.js';
-import "core-js/stable";
+/*import "core-js/stable";
 import "regenerator-runtime/runtime";
-import formDataEntries from 'form-data-entries'
+import formDataEntries from 'form-data-entries'*/
 
 const lang = [
     {"name": "français", "code": "fr"},

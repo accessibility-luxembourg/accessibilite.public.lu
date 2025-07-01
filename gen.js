@@ -15,7 +15,7 @@ config['fr'] = require('./scripts/config_fr.js').config
 config['en'] = require('./scripts/config_en.js').config
 
 const production = lib.isProd()
-const outputPath = './src/html'
+const outputPath = './dist'
 const baseURL = production?'https://accessibilite.public.lu':'http://localhost:8080'
 
 console.log('prod', production)

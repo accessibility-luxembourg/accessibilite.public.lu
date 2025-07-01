@@ -13,65 +13,57 @@ if [ $branch == "prod" ]; then
 fi
 #export NODE_ENV="production"
 
-rm -rf ./src/html/* ./dist/*
+rm -rf ./dist/*
 
-mkdir -p ./src/html/fr/files
-mkdir -p ./src/html/fr/rgaa4/files
-mkdir -p ./src/html/fr/rgaa4.1/files
-mkdir -p ./src/html/fr/rgaa4.1.2/files
-mkdir -p ./src/html/fr/raweb1/files
-mkdir -p ./src/html/fr/raam1
-mkdir -p ./src/html/fr/raam1.1
-mkdir -p ./src/html/fr/rapdf1
-mkdir -p ./src/html/fr/tools
-mkdir -p ./src/html/fr/support
-mkdir -p ./src/html/fr/monitoring
-mkdir -p ./src/html/fr/news/og
-cp ./src/files/fr/rgaa4/* ./src/html/fr/rgaa4/files
-cp ./src/files/fr/rgaa4.1/* ./src/html/fr/rgaa4.1/files
-cp ./src/files/fr/rgaa4.1.2/* ./src/html/fr/rgaa4.1.2/files
-cp ./src/files/fr/raweb1/* ./src/html/fr/raweb1/files
-cp ./src/files/fr/general/* ./src/html/fr/files
-cp ./src/static/* ./src/html
+mkdir -p ./dist/fr/files
+mkdir -p ./dist/fr/rgaa4/files
+mkdir -p ./dist/fr/rgaa4.1/files
+mkdir -p ./dist/fr/rgaa4.1.2/files
+mkdir -p ./dist/fr/raweb1/files
+mkdir -p ./dist/fr/raam1
+mkdir -p ./dist/fr/raam1.1
+mkdir -p ./dist/fr/rapdf1
+mkdir -p ./dist/fr/tools
+mkdir -p ./dist/fr/support
+mkdir -p ./dist/fr/monitoring
+mkdir -p ./dist/fr/news/og
+cp ./src/files/fr/rgaa4/* ./dist/fr/rgaa4/files
+cp ./src/files/fr/rgaa4.1/* ./dist/fr/rgaa4.1/files
+cp ./src/files/fr/rgaa4.1.2/* ./dist/fr/rgaa4.1.2/files
+cp ./src/files/fr/raweb1/* ./dist/fr/raweb1/files
+cp ./src/files/fr/general/* ./dist/fr/files
+cp ./src/static/* ./dist
 
 if [[ "$DISABLE_EN" != "true" ]]
 then
-    mkdir -p ./src/html/en/files
-    mkdir -p ./src/html/en/raweb1/files
-    mkdir -p ./src/html/en/raam1    
-    mkdir -p ./src/html/en/raam1.1
-    mkdir -p ./src/html/en/rapdf1
-    mkdir -p ./src/html/en/tools
-    mkdir -p ./src/html/en/support
-    mkdir -p ./src/html/en/monitoring
-    mkdir -p ./src/html/en/news/og
-    cp ./src/files/en/raweb1/* ./src/html/en/raweb1/files
-    cp ./src/files/en/general/* ./src/html/en/files
+    mkdir -p ./dist/en/files
+    mkdir -p ./dist/en/raweb1/files
+    mkdir -p ./dist/en/raam1    
+    mkdir -p ./dist/en/raam1.1
+    mkdir -p ./dist/en/rapdf1
+    mkdir -p ./dist/en/tools
+    mkdir -p ./dist/en/support
+    mkdir -p ./dist/en/monitoring
+    mkdir -p ./dist/en/news/og
+    cp ./src/files/en/raweb1/* ./dist/en/raweb1/files
+    cp ./src/files/en/general/* ./dist/en/files
 else
     echo "English version disabled!"
 fi
 
 node gen.js
 
-en_files="./src/html/en/404.html ./src/html/en/nl-subscribe.html ./src/html/en/news/feed.xml ./src/html/en/raweb1/*.html ./src/html/en/raam1/*.html"
-if [[ "$DISABLE_EN" == "true" ]]
-then
-    en_files=""
-fi
-npx parcel build ./src/html/index.html ./src/html/fr/404.html ./src/html/fr/nl-subscribe.html ./src/html/fr/news/feed.xml ./src/html/fr/rgaa4/*.html ./src/html/fr/rgaa4.1/*.html ./src/html/fr/rgaa4.1.2/*.html ./src/html/fr/raweb1/*.html $en_files
-
-# english only
-# npx parcel build ./src/html/index.html $en_files
-
-cp ./src/html/robots.txt ./src/static/browserconfig.xml ./src/static/favicon.ico ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
+cp ./src/static/browserconfig.xml ./src/static/site.webmanifest ./src/static/favicon.ico ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
 
 cp -r ./content/fr/news/datasource ./dist/fr/news
-cp -r ./src/html/fr/news/og ./dist/fr/news
 cp -r ./content/fr/news/img ./dist/fr/news
+cp -r ./src/css ./dist/
+cp -r ./src/js ./dist/
+cp -r ./src/img ./dist/
+cp -r ./src/fonts ./dist/
 
 if [[ "$DISABLE_EN" != "true" ]]
 then
     mkdir -p ./dist/en/news
     cp -r ./content/en/news/datasource ./dist/en/news
-    cp -r ./src/html/en/news/og ./dist/en/news
 fi
