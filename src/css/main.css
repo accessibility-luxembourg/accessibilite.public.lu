@@ -3,6 +3,7 @@
 @import url("./articles.css");
 @import url("./newsletter.css");
 @import url("./raweb.css");
+@import url('./fonts.css');
 
 :root {
   --menu-dark-blue: #07142b;

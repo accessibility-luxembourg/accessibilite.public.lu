@@ -5,7 +5,7 @@ tags:
 author: Dominique Nauroy
 ---
 
-<script src="../../../../content/fr/news/2024-01-26-charge-dispro.js"></script>
+<script type="module" src="../../fr/news/2024-01-26-charge-dispro.js"></script>
 <hgroup>
 	<h1>From year to year, a less disproportionate burden?</h1>
 	<p>What has been the evolution of accessibility statements on the issue of disproportionate burden in three years?</p>
@@ -15,7 +15,7 @@ author: Dominique Nauroy
     <p>Public bodies may exempt certain content published online from the accessibility rules on the grounds of "disproportionate burden" when it is <q>reasonably impossible to make a content or feature accessible</q>. This wording takes into account the costs that would have to be incurred in relation to the estimated benefit for people with disabilities.</p>
 </div>
 <figure role="group" aria-label="Photo: iStock / cyano66" class="pic">
-    <img src="../../../../content/fr/news/img/2024-01-charge-dispro.jpg" alt="Illustration of an office worker overloaded with files">
+    <img src="../../fr/news/img/2024-01-charge-dispro.jpg" alt="Illustration of an office worker overloaded with files">
     <figcaption>Photo: iStock / cyano66</figcaption>
 </figure>
 <p>This content and functionality must be precisely listed in the statement. Alternatives must be able to offer equivalent content and functions... provided that their production does not itself constitute a disproportionate burden.</p>
@@ -31,7 +31,7 @@ author: Dominique Nauroy
 <p>Finally, sites and apps that use authentication procedures systematically cite the LuxTrust login system, a third-party service over which they have no control.</p>
 <figure class="chart">
     <div id="dispro" class="h550">
-        <img src="../../../../content/fr/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Level of compliance of audited sites in 2023 (see description below).">
+        <img src="../../fr/news/img/2024-01-dispro-burden.svg" alt="Graph 1. Level of compliance of audited sites in 2023 (see description below).">
     </div>
     <details>
         <summary><h4>Description of graph 1</h4></summary>

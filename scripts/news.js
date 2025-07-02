@@ -59,11 +59,11 @@ function genNews(config, lang, outputPath, baseURL, __) {
         data.meta.intro = $('.intro > p').first().text()
         data.meta.img = $('img').first().attr('src')
         if (data.meta.img !== undefined) {
-            data.meta.imgName = data.meta.img.replace(/^.*\/img\/(.+)$/, '$1')
+            data.meta.imgName = data.meta.img.replace(/^.*[/]?img\/(.+)$/, '$1')
         } 
     
         if (data.meta.teaser) {
-            data.meta.img = 'img/'+data.meta.teaser
+            data.meta.img = '../../fr/news/img/'+data.meta.teaser
             data.meta.imgName = data.meta.teaser
         }
     
@@ -121,7 +121,7 @@ function genNews(config, lang, outputPath, baseURL, __) {
     lib.genRawFile('./src/tpl/atom_feed.ejs', {data: articles, lang: lang, __: __, date: (articles[0] !== undefined)?articles[0].date.toISOString():new Date().toISOString(), hash: globalHash }, outputPath+'/'+lang+'/news/feed.xml')
     
     articles.forEach((e, i, ar) => {
-        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../..", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../../', __, false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
+        lib.genFile(config, './src/tpl/article.ejs', {data: e.html, meta: e.meta, prefix: "../..", previous: ar[i+1], next: ar[i-1]}, e.meta.title, lang, outputPath+'/'+lang+'/news/'+e.meta.filename+'.html', e.meta.filename, '../../', __, false, '', true, e.meta.subtitle, e.meta.imgTwitter, e.meta.imgLinkedin, true)
     })
     return articles
 }

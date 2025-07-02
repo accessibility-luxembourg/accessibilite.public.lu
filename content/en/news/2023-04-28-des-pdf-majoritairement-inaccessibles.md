@@ -9,7 +9,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display: none;
 }
 </style>
-<script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
+<script type="module" src="../../fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
 <hgroup>
 	<h1>PDFs often inaccessible on most visited websites</h1>
 	<p>However, the accessibility of these documents, which are often available in large quantities on Luxembourg's most visited public portals in 2023, is steadily improving</p>
@@ -19,7 +19,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <p>The prevalence of inaccessible PDF files on public websites is a significant problem for people with disabilities. These accessibility issues can completely prevent access to vital information and hinder the completion of administrative procedures, particularly when forms are concerned. In this article, we look at the accessibility of PDF files on the 17 most frequently visited public websites in Luxembourg.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
-    <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
+    <img src="../../fr/news/img/rotary-press.jpg" alt="Photo of a publication being printed on a rotary press">
     <figcaption>Photo: Getty Images / istockphoto.com / nyvltart</figcaption>
 </figure>
 <p>When a PDF document is digitised as an image or not tagged, a blind or partially sighted user has no access at all to its content (for more details on this subject, see the article "<a href="https://access42.net/pdf-accessibilite?lang=fr">PDF and accessibility, the false good idea</a>").</p>
@@ -60,7 +60,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Of all the PDF documents available for download, 46% are a priori exempt from the accessibility obligation, as they were published before 23 September 2018 (exemption provided for in <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">the law of 28 May 2019</a>). In the remainder of this article, we will only consider PDF documents that are subject to the accessibility obligation, i.e. forms and documents published after 23 September 2018.</p>
 <figure class="chart">
     <div id="pdf-20230503-1">
-        <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graph 1. Breakdown of PDFs available for download (see description below).">
+        <img src="../../fr/news/img/pdf-20230503-1.svg" alt="Graph 1. Breakdown of PDFs available for download (see description below).">
     </div>
     <details>
         <summary><h5>Description of graph 1</h5></summary>
@@ -94,7 +94,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <div class="charts-side-by-side">
     <figure class="chart">
         <div id="pdf-20230503-2">
-            <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graph 2. Percentage of non-tagged PDFs by year (see description below).">
+            <img src="../../fr/news/img/pdf-20230503-2.svg" alt="Graph 2. Percentage of non-tagged PDFs by year (see description below).">
         </div>
         <details>
             <summary><h5>Description of graph 2</h5></summary>
@@ -106,7 +106,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </figure>
     <figure class="chart">
         <div id="pdf-20230503-3">
-            <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graph 3. Number of PDFs published per year (see description below).">
+            <img src="../../fr/news/img/pdf-20230503-3.svg" alt="Graph 3. Number of PDFs published per year (see description below).">
         </div>
         <details>
             <summary><h5>Description of graph 3</h5></summary>
@@ -122,7 +122,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <h3>Comparison of the main sites</h3>
 <figure class="chart">
     <div id="pdf-20230503-4">
-        <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graph 4. Percentage of tagged PDFs (see description below).">
+        <img src="../../fr/news/img/pdf-20230503-4.svg" alt="Graph 4. Percentage of tagged PDFs (see description below).">
     </div>
     <details>
         <summary><h5>Description of graph 4</h5></summary>
@@ -157,7 +157,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>The main producers of untagged PDFs are InDesign DTP software, scanners and the PDF printing functionality included in most recent operating systems.</p>
 <figure class="chart">
     <div id="pdf-20230503-5">
-        <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Percentage of digitised PDFs among non-tagged PDFs (see description below).">
+        <img src="../../fr/news/img/pdf-20230503-5.svg" alt="Graph 5. Percentage of digitised PDFs among non-tagged PDFs (see description below).">
     </div>
     <details>
         <summary><h6>Description of graph 5</h6></summary>

@@ -57,6 +57,7 @@ cp ./src/static/browserconfig.xml ./src/static/site.webmanifest ./src/static/fav
 
 cp -r ./content/fr/news/datasource ./dist/fr/news
 cp -r ./content/fr/news/img ./dist/fr/news
+cp -r ./content/fr/news/*.js ./dist/fr/news
 cp -r ./src/css ./dist/
 cp -r ./src/js ./dist/
 cp -r ./src/img ./dist/

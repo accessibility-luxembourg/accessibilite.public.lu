@@ -12,7 +12,7 @@ auteur: Dominique Nauroy
     <p>Comment le service <span lang="en">Web&UX</span> accompagne-t-il ses clients pour veiller à une meilleure accessibilité&#8239;? Quels sont en la matière les défis majeurs à venir&#8239;? <span lang="en">UX</span> et accessibilité font-ils bon ménage&#8239;? Nicolas Ambroise s'est prêté au jeu des questions - réponses.</p>
 </div>
 <figure role="group" aria-label="Nicolas Ambroise. Photo: Dominique Nauroy" class="pic">
-    <img src="../../../../content/fr/news/img/2024-10-ambroise.jpg" alt="Une photo de Nicolas Ambroise dans les locaux du Service Information et Presse">
+    <img src="img/2024-10-ambroise.jpg" alt="Une photo de Nicolas Ambroise dans les locaux du Service Information et Presse">
     <figcaption>Nicolas Ambroise. Photo&#8239;: Dominique Nauroy</figcaption>
 </figure>
 
