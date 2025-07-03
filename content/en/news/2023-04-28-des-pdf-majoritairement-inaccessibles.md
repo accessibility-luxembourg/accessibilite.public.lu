@@ -9,6 +9,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display: none;
 }
 </style>
+<script src="../../js/charts/papaparse.min.js"></script>
 <script type="module" src="../../fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
 <hgroup>
 	<h1>PDFs often inaccessible on most visited websites</h1>

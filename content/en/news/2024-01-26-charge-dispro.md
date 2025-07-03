@@ -4,7 +4,7 @@ tags:
 - accessibility statement
 author: Dominique Nauroy
 ---
-
+<script src="../../js/charts/papaparse.min.js"></script>
 <script type="module" src="../../fr/news/2024-01-26-charge-dispro.js"></script>
 <hgroup>
 	<h1>From year to year, a less disproportionate burden?</h1>

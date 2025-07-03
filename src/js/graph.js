@@ -82,34 +82,6 @@ if (chart_lang == "en") {
 }
 
 
-function replaceTableDesc(H, ch_dest) {
-    H.wrap(H.Chart.prototype, 'toggleDataTable', function(proceed, show) {
-      show = H.pick(show, !this.isDataTableVisible);
-      // Create the div
-      const createContainer = show && !this.dataTableDiv;
-      if (createContainer) {
-        this.dataTableDiv = document.getElementById(ch_dest).parentElement.querySelector('.highcharts-data-table');
-      }
-      // Toggle the visibility
-      if (this.dataTableDiv) {
-        const style = this.dataTableDiv.style,
-          oldDisplay = style.display;
-        style.display = show ? 'block' : 'none';
-        // Generate the data table
-        if (show) {
-          this.dataTableDiv.innerHTML = H.AST.emptyHTML;
-          const ast = new H.AST([this.getTableAST()]);
-          ast.addToDOM(this.dataTableDiv);
-          H.fireEvent(this, 'afterViewData', {
-            element: this.dataTableDiv,
-            wasHidden: createContainer || oldDisplay !== style.display
-          });
-        }
-      }
-    });
-};
-
-
 function get_cat (elt, col) {                                                                      // generic function returning an array of categories
     let data = [];
     for (let i = 0; i < elt.length; i++) {
@@ -143,7 +115,6 @@ function obCallback (loadchart) {
 
 
 function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annotations, ch_xaxis, ch_yaxis, ch_legend, ch_gpadding, ch_label_bgColor, ch_stacking, ch_heading=3) {
-    replaceTableDesc(highcharts,ch_dest);
     highcharts.AST.allowedAttributes.push('onfocus', 'onclick', 'onblur');
     const ch_height = document.getElementById(ch_dest).getBoundingClientRect().height;
     const ch_animation = ! window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -155,6 +126,13 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
             type: ch_type,
             events: {
                 render() {
+                    // HOTFIX to put the datatable in the DETAILS tag
+                    setTimeout(() => {
+                        const detailElt = document.getElementById(ch_dest).parentElement.querySelector('details');
+                        const table = this.exporting.dataTableDiv;
+                        if (table) {detailElt.appendChild(table)}
+                    }, 1);
+                   
                     // HOTFIX for the jump when navigating with the keyboard on charts with a legend
                     // the problem appears when the page is already scrolled and the page loads, then the top css attribute gets a wrong value
                     // examples of articles with a chart containing a legend:
@@ -166,7 +144,7 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
                         });
                         document.querySelectorAll('.highcharts-subtitle').forEach((elt) => {
                             elt.ariaHidden = "false";
-                        });
+                        });    
                     }, 250);
                 }
             }
@@ -262,4 +240,4 @@ function build_chart (highcharts, ch_title, ch_dest, ch_data, ch_type, ch_annota
 }
 
 
-export default { 'Highcharts_translations': Highcharts_translations, 'replaceTableDesc': replaceTableDesc, 'get_cat': get_cat, 'get_num': get_num, 'obCallback': obCallback, 'build_chart': build_chart, 'chart_lang': chart_lang }
+export default { 'Highcharts_translations': Highcharts_translations, 'get_cat': get_cat, 'get_num': get_num, 'obCallback': obCallback, 'build_chart': build_chart, 'chart_lang': chart_lang }

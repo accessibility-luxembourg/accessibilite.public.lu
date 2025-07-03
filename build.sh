@@ -34,22 +34,18 @@ cp ./src/files/fr/raweb1/* ./dist/fr/raweb1/files
 cp ./src/files/fr/general/* ./dist/fr/files
 cp ./src/static/* ./dist
 
-if [[ "$DISABLE_EN" != "true" ]]
-then
-    mkdir -p ./dist/en/files
-    mkdir -p ./dist/en/raweb1/files
-    mkdir -p ./dist/en/raam1    
-    mkdir -p ./dist/en/raam1.1
-    mkdir -p ./dist/en/rapdf1
-    mkdir -p ./dist/en/tools
-    mkdir -p ./dist/en/support
-    mkdir -p ./dist/en/monitoring
-    mkdir -p ./dist/en/news/og
-    cp ./src/files/en/raweb1/* ./dist/en/raweb1/files
-    cp ./src/files/en/general/* ./dist/en/files
-else
-    echo "English version disabled!"
-fi
+
+mkdir -p ./dist/en/files
+mkdir -p ./dist/en/raweb1/files
+mkdir -p ./dist/en/raam1    
+mkdir -p ./dist/en/raam1.1
+mkdir -p ./dist/en/rapdf1
+mkdir -p ./dist/en/tools
+mkdir -p ./dist/en/support
+mkdir -p ./dist/en/monitoring
+mkdir -p ./dist/en/news/og
+cp ./src/files/en/raweb1/* ./dist/en/raweb1/files
+cp ./src/files/en/general/* ./dist/en/files
 
 node gen.js
 
@@ -62,9 +58,6 @@ cp -r ./src/css ./dist/
 cp -r ./src/js ./dist/
 cp -r ./src/img ./dist/
 cp -r ./src/fonts ./dist/
-
-if [[ "$DISABLE_EN" != "true" ]]
-then
-    mkdir -p ./dist/en/news
-    cp -r ./content/en/news/datasource ./dist/en/news
-fi
+mkdir -p ./dist/en/news
+cp -r ./content/en/news/datasource ./dist/en/news
+cp -r ./content/en/news/img ./dist/en/news
