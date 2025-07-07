@@ -1,0 +1,4 @@
+# Visual regression test output
+screenshots/actual/
+screenshots/diff/
+screenshots/baseline/
