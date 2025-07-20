@@ -218,14 +218,10 @@ const mdGlossary = MarkdownIt({
 }).use(require('markdown-it-replace-link')).use(require('markdown-it-attrs'))
 
 function genericMarkdownIt(page) {
-    let html = false
-    if (page.html !== undefined) {
-        html = page.html
-    }
     let customSlug = (page.slugify == "slugifyA42")?slugifyA42:slugifyDINUM
 
     return MarkdownIt({
-                'html': html,
+                'html': true,
                 replaceLink: function (link, env) {
                     let res = link.match(/^\/publications\/rgaa-accessibilite\/(.*)\/#(.*)/)
                     if (res) {
