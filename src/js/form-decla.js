@@ -1,8 +1,4 @@
-//import ejs from 'ejs'
 import { copyTextToClipboard } from './clipboard.js';
-/*import "core-js/stable";
-import "regenerator-runtime/runtime";
-import formDataEntries from 'form-data-entries'*/
 
 const lang = [
     {"name": "français", "code": "fr"},
@@ -93,9 +89,8 @@ function multilineToArray(e) {
 function getParams() {
     let form = document.getElementById('decla')
 
-    // as always, there is an elegant way of doing things, and there is the polyfill way for IE11
     let params = {}
-    for (const [key, val] of formDataEntries(form)) {
+    for (const [key, val] of new FormData(form).entries()) {
           params[key] = val
     }
     params.sites = multilineToArray(params.sites)
