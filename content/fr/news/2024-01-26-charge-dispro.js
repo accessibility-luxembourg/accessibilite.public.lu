@@ -1,12 +1,11 @@
 'use strict';
-import Highcharts from 'highcharts/es-modules/masters/highcharts.src.js';
-import 'highcharts/es-modules/masters/modules/annotations.src.js';
-import 'highcharts/es-modules/masters/modules/exporting.src.js';
-import 'highcharts/es-modules/masters/modules/export-data.src.js';
-import 'highcharts/es-modules/masters/modules/accessibility.src.js';
-import 'highcharts/es-modules/masters/modules/pattern-fill.src.js';
-import Papa from 'papaparse';
-import Graph from '../../../src/js/graph.js';
+import Highcharts from '../../js/charts/highcharts.js';
+import '../../js/charts/modules/exporting.js';
+import '../../js/charts/modules/accessibility.js';
+import '../../js/charts/modules/annotations.js';
+import '../../js/charts/modules/export-data.js';
+import '../../js/charts/modules/pattern-fill.js';
+import Graph from '../../js/graph.js';
 
 Highcharts.setOptions({                                                                            // highcharts french translations
     lang: Graph.Highcharts_translations

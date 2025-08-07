@@ -45,8 +45,7 @@ const config = {
             "menu": "<span class='hide-element'>Accueil</span>",
             "name": "index",
             "md": "./content/fr/welcome.md", 
-            "html": true,
-            "prefix": "../.."
+            "prefix": ".."
         },
         {
             "title": "Actualités",
@@ -63,8 +62,7 @@ const config = {
                     "menu": "Suivre nos actualités",
                     "name": "newsletter",
                     "md": "./content/fr/newsletter.md", 
-                    "html": true,
-                    "prefix": "../.."
+                    "prefix": ".." 
                 }
             ]
         },
@@ -78,8 +76,7 @@ const config = {
                     "menu": "Les obligations",
                     "name": "obligations",
                     "md": "./content/fr/raweb1/obligations.md", 
-                    "html": true,
-                    "prefix": "../..",
+                    "prefix": ".." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
                 },
@@ -88,15 +85,14 @@ const config = {
                     "menu": "La mission de contrôle",
                     "name": "monitoring/mission",
                     "md": "./content/fr/mission.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 },
                 {
                     "title": "Données ouvertes",
                     "menu": "Les données ouvertes",
                     "name": "monitoring/open-data",
                     "md": "./content/fr/opendata.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }     
             ]
         },       
@@ -110,16 +106,14 @@ const config = {
                     "menu": "Cahier des charges",
                     "name": "tools/cahier-des-charges",
                     "md": "./content/fr/cahier-des-charges.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                
                 {
                     "title": "Kit d'audit d'accessibilité",
                     "menu": "Kit d'audit",
                     "name": "tools/kit",
-                    "html": true,
                     "md": "./content/fr/kit-audit.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },
                 {
                     "title": "Créez votre déclaration",
@@ -131,7 +125,7 @@ const config = {
                     "menu": "Réclamations",
                     "name": "tools/reclamations",
                     "md": "./content/fr/reclamation.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }    
             ]
         },         
@@ -144,9 +138,8 @@ const config = {
                     "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1) : Introduction",
                     "menu": "Introduction",
                     "name": "raweb1/index",
-                    "html": true,
                     "md": "./content/fr/raweb1/introduction.md",
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },        
                 {
                     "title": "RAWeb 1 : Critères et tests",
@@ -155,7 +148,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
                     "data": dataRAWeb1,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
@@ -166,7 +159,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossaryRAWeb1,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
@@ -175,8 +168,7 @@ const config = {
                     "menu": "Méthodologie de test",
                     "name": "raweb1/methodo-test",
                     "md": "./content/fr/raweb1/methodologie-de-test.md",
-                    "html": true,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
                 },                
@@ -185,24 +177,21 @@ const config = {
                     "menu": "Environnement de test",
                     "name": "raweb1/environnement",
                     "md": "./content/fr/raweb1/environnement-de-test.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                        
                 {
                     "title": "RAWeb 1 : Références",
                     "menu": "Références",
                     "name": "raweb1/references",
-                    "md": "./content/fr/raweb1/references.md", 
-                    "html": true,                    
-                    "prefix": "../../.."
+                    "md": "./content/fr/raweb1/references.md",                 
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RAWeb 1 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "raweb1/notes-revision",
-                    "html": true,
                     "md": "./content/fr/raweb1/notes-de-revision.md", 
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
                 },
@@ -211,8 +200,7 @@ const config = {
                     "menu": "La méthode de contrôle simplifié",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/fr/controle-simplifie.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },
                 {
                     "title": "Critères pour le contrôle simplifié",
@@ -221,7 +209,7 @@ const config = {
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 }
@@ -237,16 +225,14 @@ const config = {
                     "menu": "Introduction",
                     "name": "raam1.1/index",
                     "md": "./content/fr/raam1.1/introduction.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                
                 {
                     "title": "RAAM 1.1 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "raam1.1/referentiel-technique",
                     "md": "./content/fr/raam1.1/referentiel-technique.md",
-                    "prefix": "../../..", 
-                    "html": true, 
+                    "prefix": "../.." , 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Thématiques"
@@ -256,8 +242,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "raam1.1/glossaire",
                     "md": "./content/fr/raam1.1/glossaire.md",
-                    "prefix": "../../..", 
-                    "html": true,                    
+                    "prefix": "../.." ,                  
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -267,8 +252,7 @@ const config = {
                     "menu": "Méthodologie de test",
                     "name": "raam1.1/methodologie",
                     "md": "./content/fr/raam1.1/methodologie.md",
-                    "html": true, 
-                    "prefix": "../../..", 
+                    "prefix": "../.." , 
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire",
                     "slugify": "slugifyA42"
@@ -278,23 +262,21 @@ const config = {
                     "menu": "Environnement de test",
                     "name": "raam1.1/environnement",
                     "md": "./content/fr/raam1.1/environnement.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },    
                 {
                     "title": "RAAM 1.1 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "raam1.1/notes-revision",
-                    "html": true,
                     "md": "./content/fr/raam1.1/notes-de-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                              
                 {
                     "title": "RAAM 1.1 : Références",
                     "menu": "Références",
                     "name": "raam1.1/references",
                     "md": "./content/fr/raam1.1/references.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 }
             ]
         },
@@ -308,16 +290,14 @@ const config = {
                     "menu": "Introduction",
                     "name": "rapdf1/index",
                     "md": "./content/fr/rapdf1/introduction.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                
                 {
                     "title": "RAPDF 1 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "rapdf1/referentiel-technique",
                     "md": "./content/fr/rapdf1/referentiel-technique.md",
-                    "prefix": "../../..", 
-                    "html": true, 
+                    "prefix": "../.." , 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Thématiques"
@@ -327,8 +307,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "rapdf1/glossaire",
                     "md": "./content/fr/rapdf1/glossaire.md",
-                    "prefix": "../../..", 
-                    "html": true,                    
+                    "prefix": "../.." ,            
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -338,8 +317,7 @@ const config = {
                     "menu": "Méthodologie de test",
                     "name": "rapdf1/methodologie",
                     "md": "./content/fr/rapdf1/methodologie.md",
-                    "html": true, 
-                    "prefix": "../../..", 
+                    "prefix": "../.." , 
                     "slugify": "slugifyA42"
                 },
                 {
@@ -347,15 +325,14 @@ const config = {
                     "menu": "Environnement de test",
                     "name": "rapdf1/environnement",
                     "md": "./content/fr/rapdf1/environnement.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },  
                 {
                     "title": "RAPDF 1 : Références",
                     "menu": "Références",
                     "name": "rapdf1/references",
                     "md": "./content/fr/rapdf1/references.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 }
             ]
         }
@@ -366,23 +343,21 @@ const config = {
             "menu": "Licence",
             "name": "licence",
             "md": "./content/fr/licence.md",
-            "html": true,
-            "prefix": "../.."
+            "prefix": ".." 
         }, 
         {
             "title": "Déclaration d'accessibilité",
             "menu": "Déclaration d'accessibilité",
             "name": "support/accessibilite",
             "md": "./content/fr/accessibilite.md", 
-            "html": true, 
-            "prefix": "../../.."
+            "prefix": "../.." 
         }, 
         {
             "title": "Aspects légaux",
             "menu": "Aspects légaux",
             "name": "aspects-legaux",
             "md": "./content/fr/mentions-legales.md",
-            "prefix": "../.."
+            "prefix": ".." 
         },        
         {
             "title": "Plan du site",
@@ -394,8 +369,7 @@ const config = {
             "menu": "Contact",
             "name": "contact",
             "md": "./content/fr/contact.md", 
-            "html": true,
-            "prefix": "../.."
+            "prefix": ".." 
         }                
     ], 
     "hidden": [
@@ -403,15 +377,8 @@ const config = {
             "title": "Erreur 404",
             "name": "404",
             "md": "./content/fr/404.md",
-            "prefix": "../.."
-        }, 
-        {
-            "title": "Inscription à la newsletter",
-            "name": "nl-subscribe",
-            "md": "./content/nl-subscribe.md",
-            "html": true,
-            "prefix": "../.."
-        }            
+            "prefix": ".." 
+        }          
     ],
     "deprecated": [
         {
@@ -422,9 +389,8 @@ const config = {
                     "title": "Référentiel Général d'Amélioration de l'Accessibilité web (RGAA 4.1.2) : Introduction",
                     "menu": "Introduction",
                     "name": "rgaa4.1.2/index",
-                    "html": true,
                     "md": "./content/fr/rgaa4.1.2/introduction.md",
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },        
                 {
                     "title": "RGAA 4.1.2 : Critères et tests",
@@ -433,7 +399,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
                     "data": data412,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
@@ -444,7 +410,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossary412,
-                    "prefix": "../../..",
+                    "prefix": "../.." ,
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
@@ -453,32 +419,28 @@ const config = {
                     "menu": "Méthodologie de test",
                     "name": "rgaa4.1.2/methodo-test",
                     "md": "./content/fr/rgaa4.1.2/methodologie-de-test.md",
-                    "html": true,
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 },                
                 {
                     "title": "RGAA 4.1.2 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4.1.2/environnement",
                     "md": "./content/fr/rgaa4.1.2/environnement-de-test.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                        
                 {
                     "title": "RGAA 4.1.2 : Références",
                     "menu": "Références",
                     "name": "rgaa4.1.2/references",
-                    "md": "./content/fr/rgaa4.1.2/references.md", 
-                    "html": true,                    
-                    "prefix": "../../.."
+                    "md": "./content/fr/rgaa4.1.2/references.md",              
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RGAA 4.1.2 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4.1.2/notes-revision",
-                    "html": true,
                     "md": "./content/fr/rgaa4.1.2/notes-de-revision-4-1-2.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }
             ]
         },
@@ -491,7 +453,7 @@ const config = {
                     "menu": "Introduction",
                     "name": "rgaa4/index",
                     "md": "./content/fr/rgaa4/methode.md",
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },       
                 {
                     "title": "RGAA 4 : Critères et tests",
@@ -500,7 +462,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria.ejs", 
                     "data": data40,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RGAA 4 : Glossaire",
@@ -509,38 +471,35 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary.ejs", 
                     "data": dataGlossary40,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }, 
                 {
                     "title": "RGAA 4 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4/environnement",
                     "md": "./content/fr/rgaa4/environnement.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },  
                 {
                     "title": "RGAA 4 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "rgaa4/methodo-test",
                     "md": "./content/fr/rgaa4/methodologie.md",
-                    "html": true,
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 },                                       
                 {
                     "title": "RGAA 4 : Références",
                     "menu": "Références",
                     "name": "rgaa4/references",
                     "md": "./content/fr/rgaa4/references.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RGAA 4 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4/notes-revision",
                     "md": "./content/fr/rgaa4/notes-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }
             ]
         },
@@ -553,7 +512,7 @@ const config = {
                     "menu": "Introduction",
                     "name": "rgaa4.1/index",
                     "md": "./content/fr/rgaa4.1/introduction.md",
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },        
                 {
                     "title": "RGAA 4.1 : Critères et tests",
@@ -562,7 +521,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria.ejs", 
                     "data": data41,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RGAA 4.1 : Glossaire",
@@ -571,38 +530,35 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary.ejs", 
                     "data": dataGlossary41,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }, 
                 {
                     "title": "RGAA 4.1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
                     "name": "rgaa4.1/methodo-test",
                     "md": "./content/fr/rgaa4.1/methodologie.md",
-                    "html": true,
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 },                
                 {
                     "title": "RGAA 4.1 : Environnement de test",
                     "menu": "Environnement de test",
                     "name": "rgaa4.1/environnement",
                     "md": "./content/fr/rgaa4.1/environnement.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                        
                 {
                     "title": "RGAA 4.1 : Références",
                     "menu": "Références",
                     "name": "rgaa4.1/references",
-                    "md": "./content/fr/rgaa4.1/references.md", 
-                    "html": true,                    
-                    "prefix": "../../.."
+                    "md": "./content/fr/rgaa4.1/references.md",                   
+                    "prefix": "../.." 
                 },
                 {
                     "title": "RGAA 4.1 : Notes de révision",
                     "menu": "Notes de révision",
                     "name": "rgaa4.1/notes-revision",
                     "md": "./content/fr/rgaa4.1/notes-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 }
             ]
         },
@@ -615,16 +571,14 @@ const config = {
                     "menu": "Introduction",
                     "name": "raam1/index",
                     "md": "./content/fr/raam1/introduction.md", 
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                
                 {
                     "title": "RAAM 1 : Critères et tests",
                     "menu": "Critères et tests",
                     "name": "raam1/referentiel-technique",
                     "md": "./content/fr/raam1/referentiel-technique.md",
-                    "prefix": "../../..", 
-                    "html": true, 
+                    "prefix": "../.." ,   
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Thématiques"
@@ -634,8 +588,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "raam1/glossaire",
                     "md": "./content/fr/raam1/glossaire.md",
-                    "prefix": "../../..", 
-                    "html": true,                    
+                    "prefix": "../.." ,                  
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -645,8 +598,7 @@ const config = {
                     "menu": "Méthodologie de test",
                     "name": "raam1/methodologie",
                     "md": "./content/fr/raam1/methodologie.md",
-                    "html": true, 
-                    "prefix": "../../..", 
+                    "prefix": "../.." , 
                     "slugify": "slugifyA42"
                 },
                 {
@@ -654,15 +606,14 @@ const config = {
                     "menu": "Environnement de test",
                     "name": "raam1/environnement",
                     "md": "./content/fr/raam1/environnement.md",
-                    "html": true,
-                    "prefix": "../../.."
+                    "prefix": "../.." 
                 },                  
                 {
                     "title": "RAAM 1 : Références",
                     "menu": "Références",
                     "name": "raam1/references",
                     "md": "./content/fr/raam1/references.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.."  
                 }
             ]
         }

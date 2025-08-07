@@ -9,7 +9,8 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     display: none;
 }
 </style>
-<script src="../../../../content/fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
+<script src="../../js/charts/papaparse.min.js"></script>
+<script type="module" src="../../fr/news/2023-04-28-des-pdf-majoritairement-inaccessibles.js"></script>
 <hgroup>
 	<h1>Sur les sites publics les plus visités, des PDF majoritairement inaccessibles</h1>
 	<p>L’accessibilité de ces documents présents parfois massivement sur les portails publics luxembourgeois les plus visités en 2023 tend cependant à s’améliorer</p>
@@ -19,7 +20,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     <p>La présence sur les sites publics d’une grande quantité de fichiers PDF non accessibles est un problème clé pour les personnes handicapées. En effet, certains problèmes d’accessibilité peuvent bloquer totalement l’accès à l’information ou la mise en œuvre de procédures administratives dans le cas de formulaires. Nous étudions dans cet article l’accessibilité des PDF présents sur les 17 sites publics luxembourgeois les plus visités.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / nyvltart" class="pic">
-    <img src="../../../../content/fr/news/img/rotary-press.jpg" alt="Photo d'une publication en cours d'impression sur une presse rotative">
+    <img src="img/rotary-press.jpg" alt="Photo d'une publication en cours d'impression sur une presse rotative">
     <figcaption>Photo&#8239;: Getty Images / istockphoto.com / nyvltart</figcaption>
 </figure>
 <p>Lorsqu’un document PDF est numérisé comme une image ou non balisé, un utilisateur aveugle ou grand malvoyant n’a pas du tout accès à son contenu (pour plus de détails à ce sujet, voir l’article «&#8239;<a href="https://access42.net/pdf-accessibilite?lang=fr">PDF et accessibilité, la fausse bonne idée</a>&#8239;»).</p>
@@ -60,7 +61,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Sur l’ensemble des documents PDF disponibles en téléchargement, 46&#8239;% sont a priori exemptés de l’obligation d’accessibilité car publiés avant le 23 septembre 2018 (exemption prévue dans <a href="https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo">la loi du 28 mai 2019</a>). Dans la suite de cet article, nous considérons uniquement les documents PDF qui sont soumis à l’obligation d’accessibilité, c’est-à-dire les formulaires et les documents publiés après le 23 septembre 2018.</p>
 <figure class="chart">
     <div id="pdf-20230503-1">
-        <img src="../../../../content/fr/news/img/pdf-20230503-1.svg" alt="Graphique 1. Répartition des PDF disponibles en téléchargement (voir description ci-dessous).">
+        <img src="img/pdf-20230503-1.svg" alt="Graphique 1. Répartition des PDF disponibles en téléchargement (voir description ci-dessous).">
     </div>
     <details>
         <summary><h5>Description du graphique 1</h5></summary>
@@ -94,7 +95,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <div class="charts-side-by-side">
     <figure class="chart">
         <div id="pdf-20230503-2">
-            <img src="../../../../content/fr/news/img/pdf-20230503-2.svg" alt="Graphique 2. Part des PDF non balisés par année (voir description ci-dessous).">
+            <img src="img/pdf-20230503-2.svg" alt="Graphique 2. Part des PDF non balisés par année (voir description ci-dessous).">
         </div>
         <details>
             <summary><h5>Description du graphique 2</h5></summary>
@@ -106,7 +107,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
     </figure>
     <figure class="chart">
         <div id="pdf-20230503-3">
-            <img src="../../../../content/fr/news/img/pdf-20230503-3.svg" alt="Graphique 3. Quantité de PDF publiés par année (voir description ci-dessous).">
+            <img src="img/pdf-20230503-3.svg" alt="Graphique 3. Quantité de PDF publiés par année (voir description ci-dessous).">
         </div>
         <details>
             <summary><h5>Description du graphique 3</h5></summary>
@@ -122,7 +123,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <h3>Comparatif des principaux sites</h3>
 <figure class="chart">
     <div id="pdf-20230503-4">
-        <img src="../../../../content/fr/news/img/pdf-20230503-4.svg" alt="Graphique 4. Part des PDF balisés en pourcentage (voir description ci-dessous).">
+        <img src="img/pdf-20230503-4.svg" alt="Graphique 4. Part des PDF balisés en pourcentage (voir description ci-dessous).">
     </div>
     <details>
         <summary><h5>Description du graphique 4</h5></summary>
@@ -157,7 +158,7 @@ div#pdf-20230503-1 button#hc-linkto-highcharts-data-table-0 {
 <p>Les principaux producteurs de PDF non balisés sont le logiciel de PAO InDesign, des scanners et la fonctionnalité d’impression en PDF incluse dans la plupart des systèmes d’exploitation récents.</p>
 <figure class="chart">
     <div id="pdf-20230503-5">
-        <img src="../../../../content/fr/news/img/pdf-20230503-5.svg" alt="Graphique 5. Part des PDF numérisés en mode image parmi les non balisés en pourcentage (voir description ci-dessous).">
+        <img src="img/pdf-20230503-5.svg" alt="Graphique 5. Part des PDF numérisés en mode image parmi les non balisés en pourcentage (voir description ci-dessous).">
     </div>
     <details>
         <summary><h6>Description du graphique 5</h6></summary>

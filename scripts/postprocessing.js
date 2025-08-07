@@ -114,7 +114,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "span", el.lastChild.lastChild, null, ["class"], ["accordion-icon"]);
         addelt(document, "a", el, null, ["class", "title", "href"], ["topic-anchor", themePrefix, "#topic-"+themeNumber]);
         addelt(document, "span", el.lastChild, themePrefix, ["class"], ["sr-only"]);
-        addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+        addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
     });
   
     // 4. Créer les <details> de méthodologie
@@ -209,7 +209,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "a", el, null, ["class", "title", "href"], ["anchor", __("Criterion") + ' ' + critNumber, "#" + el.id]);
         addelt(document, "span", el.lastChild, null, ["class"], ["sr-only"]);
         addelt(document, "span", el.lastChild.lastChild, __("Criterion") + ' ' + critNumber);
-        addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+        addelt(document, "img", el.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
         addelt(document, "span", el, '<span class="sr-only">' + __("Compliance level") + ' </span>' + critLevel, ["class"], ["level"]);
     });
   
@@ -225,7 +225,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + el.id]);
         addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
         addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
-        addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+        addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
         el.parentNode.insertBefore(newLayout, el); 
         el.remove();
     });
@@ -248,7 +248,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
                 addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + el.children[i].id]);
                 addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
                 addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
-                addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../../img/hyperlink.svg", ""]);
+                addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
                 el.parentNode.insertBefore(newLayout, el.previousElementSibling);
             }
             el.remove();
@@ -264,7 +264,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     const mainDiv = document.getElementById("topics");
     let els = mainDiv.querySelectorAll('h4'); 
     els.forEach(el => {
-        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../../img/hyperlink.svg"></a>';
+        el.innerHTML = el.innerHTML + ' <a href="#' + el.id + '" title="' + el.textContent + '"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../img/hyperlink.svg"></a>';
     });
     return dom.serialize();
   }

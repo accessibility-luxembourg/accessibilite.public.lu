@@ -13,7 +13,7 @@ auteur: Dominique Nauroy
     <p>M. Perčinić travaille au Centre pour le développement des compétences relatives à la vue (CDV) à Bertrange. Il est transcripteur et adapte des livres pour les élèves et étudiants aveugles ou malvoyants, sous différents formats (ePub, Braille ou imprimé, pour n’en citer que quelques-uns). Il est également un musicien aux multiples talents, joue dans un groupe de hard rock <span lang="en">The Velvet</span> au Luxembourg, enregistre des albums et donne des concerts dans tout le pays. Enfin, il s’intéresse à la technologie et à l’accessibilité de tous les gadgets possibles, qui peuvent offrir une meilleure qualité de vie aux personnes aveugles. En tant que personne aveugle, il se débrouille dans un monde qui ne place pas toujours l’accessibilité au centre de ses préoccupations.</p>
 </div>
 <figure role="group" aria-label="Mario Perčinić. Photo : Dominique Nauroy" class="pic"> 
-    <img src="../../../../content/fr/news/img/itw-m-percinic.jpg" alt="Photo de Mario Perčinić au Service d'information et de presse"> 
+    <img src="img/itw-m-percinic.jpg" alt="Photo de Mario Perčinić au Service d'information et de presse"> 
     <figcaption>Mario Perčinić. Photo : Dominique Nauroy</figcaption>
 </figure>
 <h2>Quelle importance accordez-vous à l’accessibilité numérique&nbsp;?</h2>

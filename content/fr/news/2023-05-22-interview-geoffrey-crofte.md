@@ -13,7 +13,7 @@ auteur: Dominique Nauroy
     <p>Créativité et accessibilité font-elles bon ménage&#8239;? Rendre un site conforme, est-ce simple&#8239;? Par quel chemin devient-on sensible à ces questions&#8239;? Geoffrey Crofte s’est prêté de bonne grâce au jeu des questions – réponses. Entretien.</p>
 </div>
 <figure role="group" aria-label="Geoffrey Crofte. Photo: Rémy Chautard" class="pic">
-    <img src="../../../../content/fr/news/img/itw-g-crofte.jpg" alt="Une photo de Geoffrey Crofte donnant une présentation à DevFest 2020 Nantes">
+    <img src="img/itw-g-crofte.jpg" alt="Une photo de Geoffrey Crofte donnant une présentation à DevFest 2020 Nantes">
     <figcaption>Geoffrey Crofte. Photo&#8239;: Rémy Chautard</figcaption>
 </figure>
 

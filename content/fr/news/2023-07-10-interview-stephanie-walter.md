@@ -14,7 +14,7 @@ auteur: Dominique Nauroy
     <p><a href="https://stephaniewalter.design/">Son blog</a> regorge de ressources notamment liées à l’accessibilité numérique et, sur ce thème, elle propose déjà une initiation en anglais. Cette formation sera également donnée aux étudiants en design de l’Université de Strasbourg dès la rentrée 2025. Une formation qui tombe à pic, alors que l’<a href="https://accessibilite.public.lu/fr/news/2023-02-27-european_accessibility_act.html">Acte européen sur l’accessibilité</a> sera tout juste entré en vigueur.</p>
 </div>
 <figure role="group" aria-label="Stéphanie Walter. Photo: Rémy Chautard" class="pic">
-    <img src="../../../../content/fr/news/img/itw-s-walter.jpg" alt="Une photo de Stéphanie Walter donnant une présentation à DevFest 2020 Nantes">
+    <img src="img/itw-s-walter.jpg" alt="Une photo de Stéphanie Walter donnant une présentation à DevFest 2020 Nantes">
     <figcaption>Stéphanie Walter. Photo&#8239;: Rémy Chautard</figcaption>
 </figure>
 

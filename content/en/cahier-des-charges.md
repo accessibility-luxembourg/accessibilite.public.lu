@@ -1,4 +1,4 @@
-<script src="../../../js/cdc.js"></script>
+<script type="module" src="../../../js/cdc.js"></script>
 
 Digital accessibility is often seen as an additional cost when the first contact with this discipline occurs on an existing project for which accessibility had not previously been taken into account. Similar to the construction industry, it is often said that it is much more expensive to add a lift to an existing building than to include it in the project from the outset.
 

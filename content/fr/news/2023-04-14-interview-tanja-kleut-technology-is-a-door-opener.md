@@ -13,7 +13,7 @@ auteur: Dominique Nauroy
     <p>Tanja Kleut travaille sur l’accessibilité numérique au Parlement européen. Elle vit et travaille à Luxembourg depuis 2014. En neuf ans, elle a pu constater les progrès réalisés en matière d’accessibilité dans la capitale, mais aussi en ligne. Ces améliorations permettent-elles aux personnes aveugles de vivre, travailler, communiquer et se déplacer de manière autonome&nbsp;? Pas encore, il reste encore beaucoup de chemin à parcourir. Elle nous explique pourquoi.</p>
 </div>
 <figure role="group" aria-label="Tanja Kleut. Photo : Dominique Nauroy" class="pic"> 
-    <img src="../../../../content/fr/news/img/itw-t-kleut.jpg" alt="Photo de Tanja Kleut au Service d'information et de presse"> 
+    <img src="img/itw-t-kleut.jpg" alt="Photo de Tanja Kleut au Service d'information et de presse"> 
     <figcaption>Tanja Kleut. Photo : Dominique Nauroy</figcaption>
 </figure>
 <h2>Quelle importance accordez-vous à l’accessibilité numérique&nbsp;?</h2>

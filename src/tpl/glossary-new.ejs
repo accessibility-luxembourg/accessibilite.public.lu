@@ -2,7 +2,7 @@
     <h3 id="<%= section %>"><%= section %></h3>
     <% glossary[section].forEach(e => { %>
             <h4 class="glossary" id="<%= slugify(e.id) %>">
-                <%- md.renderInline(e.title) %> <a href="#<%= slugify(e.id) %>" title="<%= e.id %>"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../../img/hyperlink.svg"></a>
+                <%- md.renderInline(e.title) %> <a href="#<%= slugify(e.id) %>" title="<%= e.id %>"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../img/hyperlink.svg"></a>
             </h4>
             <%- e.body %>
     <% }); %>

@@ -30,7 +30,7 @@ npm run visual:update
 
 1. Build the website: `npm run build`
 2. Create baseline images: `npm run visual:update`
-3. Commit baseline images to git
+3. Commit baseline images to git (don't do : too heavy (500MB images))
 4. Run tests: `npm run test:visual`
 
 ### Directory Structure

@@ -12,7 +12,7 @@ auteur: Dominique Nauroy
     <p>Chairman of the Appt Foundation, which shares a great knowledge base on app accessibility and offers a dedicated handbook, co-founder of Abra, where he develops accessible mobile apps and offers his services as a consultant, invited expert at the W3C and facilitator of the Mobile Accessibility Task Force, Jan Jaap de Groot was invited to speak on the subject at the GovTech Lab.</p>
 </div>
 <figure role="group" aria-label="Jan Jaap de Groot. Photo: Dominique Nauroy" class="pic">
-    <img src="../../../../content/fr/news/img/2024-11-jjdegroot.jpg" alt="Photo of Jan Jaap de Groot at the Information and Press Service, in November 2024">
+    <img src="../../fr/news/img/2024-11-jjdegroot.jpg" alt="Photo of Jan Jaap de Groot at the Information and Press Service, in November 2024">
     <figcaption>Jan Jaap de Groot. Photo&#8239;: Dominique Nauroy</figcaption>
 </figure>
 

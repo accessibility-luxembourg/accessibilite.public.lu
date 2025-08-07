@@ -16,7 +16,7 @@ auteur: Dominique Nauroy
     <p>Le 21 juin, le RAAM souffle ses trois bougies. L’occasion de nous faire part de vos expériences et de vos attentes.</p>
 </div>
 <figure role="group" aria-label="Photo : Getty Images / istockphoto.com / Ivan Pantic" class="pic">
-    <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Image d'illustration représentant un jeune homme apparemment déboussolé devant son téléphone">
+    <img src="img/2024-05-RAAM.jpg" alt="Image d'illustration représentant un jeune homme apparemment déboussolé devant son téléphone">
     <figcaption>Photo&#8239;: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
 </figure>
 <p>On ne s’y attendait pas – ou, pour être plus exact, on n’osait trop y croire. Pourtant, trois ans après sa naissance, le <a href="../raam1/index.html">RAAM</a> est connu, utilisé, apprécié... au-delà des frontières du Grand-Duché, où il continue d’être une référence active au quotidien dans l’exercice d’évaluation de l’accessibilité des apps mobiles.</p>

@@ -3,13 +3,13 @@
         <ul class="footer-links">
             <% links.forEach(e => { %>
                 <li>
-                    <a href="<%= prefix %>/html/<%= lang %>/<%= e.name %>.html"><%= e.menu %></a>
+                    <a href="<%= prefix %>/<%= lang %>/<%= e.name %>.html"><%= e.menu %></a>
                 </li>
             <% }) %>
         </ul>
         <% 
             const urlSIP = `https://sip.gouvernement.lu/${lang}.html`;
-            const urlCookies = `${prefix}/html/${lang}/aspects-legaux.html#`;
+            const urlCookies = `${prefix}/${lang}/aspects-legaux.html#`;
             const urlCookiesAnchor = __`cookie-charter`;
          %>
         <p>

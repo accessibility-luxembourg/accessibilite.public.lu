@@ -12,7 +12,7 @@ auteur: Dominique Nauroy
     <p>How does the Web&amp;UX department support its clients to ensure better accessibility? What are the major challenges ahead? Do UX and accessibility go well together? Nicolas Ambroise took part in the Q&amp;A game.</p>
 </div>
 <figure role="group" aria-label="Nicolas Ambroise. Photo: Dominique Nauroy" class="pic"> 
-    <img src="../../../../content/fr/news/img/2024-10-ambroise.jpg" alt="A photo of Nicolas Ambroise in the offices of the Information and Press Service"> 
+    <img src="../../fr/news/img/2024-10-ambroise.jpg" alt="A photo of Nicolas Ambroise in the offices of the Information and Press Service"> 
     <figcaption>Nicolas Ambroise. Photo: Dominique Nauroy</figcaption>
 </figure>
 <h2>What led you to become interested in accessibility?</h2>

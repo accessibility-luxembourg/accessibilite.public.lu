@@ -16,7 +16,7 @@ auteur: Dominique Nauroy
     <p>On 21 June, RAAM celebrates its third birthday. This is your chance to tell us about your experience and expectations.</p>
 </div>
 <figure role="group" aria-label="Photo: Getty Images / istockphoto.com / Ivan Pantic" class="pic">
-    <img src="../../../../content/fr/news/img/2024-05-RAAM.jpg" alt="Illustration showing a young man apparently confused in front of his phone">
+    <img src="../../fr/news/img/2024-05-RAAM.jpg" alt="Illustration showing a young man apparently confused in front of his phone">
     <figcaption>Photo: © Getty Images / istockphoto.com / Ivan Pantic</figcaption>
 </figure>
 <p>We didn't expect it - or, to be more accurate, we didn't dare believe it. However, three years after its creation, <a href="../raam1.1/index.html">RAAM</a> is known, used and appreciated beyond the borders of the Grand Duchy, where it continues to be an active reference in the day-to-day evaluation of the accessibility of mobile apps.</p>

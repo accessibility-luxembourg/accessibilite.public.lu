@@ -30,8 +30,7 @@ const config = {
             "menu": "<span class='hide-element'>Home</span>",
             "name": "index",
             "md": "./content/en/welcome.md", 
-            "html": true,
-            "prefix": "../.."
+            "prefix": ".."
         },
         {
             "title": "News",
@@ -48,7 +47,6 @@ const config = {
                     "menu": "Follow us",
                     "name": "newsletter",
                     "md": "./content/en/newsletter.md", 
-                    "html": true,
                     "prefix": "../.."
                 }
             ]
@@ -63,7 +61,6 @@ const config = {
                     "menu": "Legal requirements",
                     "name": "obligations",
                     "md": "./content/en/raweb1/obligations.md", 
-                    "html": true,
                     "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
@@ -80,7 +77,6 @@ const config = {
                     "menu": "Open data",
                     "name": "monitoring/open-data",
                     "md": "./content/en/opendata.md", 
-                    "html": true,
                     "prefix": "../../.."
                 }     
             ]
@@ -95,14 +91,12 @@ const config = {
                     "menu": "Specifications",
                     "name": "tools/cahier-des-charges",
                     "md": "./content/en/cahier-des-charges.md", 
-                    "html": true,
                     "prefix": "../../.."
                 },                
                 {
                     "title": "Accessibility auditing kit",
                     "menu": "Auditing kit",
                     "name": "tools/kit",
-                    "html": true,
                     "md": "./content/en/kit-audit.md", 
                     "prefix": "../../.."
                 },
@@ -129,7 +123,6 @@ const config = {
                     "title": "Web Accessibility Assessment Framework (RAWeb 1): Introduction",
                     "menu": "Introduction",
                     "name": "raweb1/index",
-                    "html": true,
                     "md": "./content/en/raweb1/introduction.md",
                     "prefix": "../../.."
                 },        
@@ -160,7 +153,6 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "raweb1/methodo-test",
                     "md": "./content/en/raweb1/methodologie-de-test.md",
-                    "html": true,
                     "prefix": "../../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
@@ -170,7 +162,6 @@ const config = {
                     "menu": "Testing environment",
                     "name": "raweb1/environnement",
                     "md": "./content/en/raweb1/environnement-de-test.md",
-                    "html": true,
                     "prefix": "../../.."
                 },                        
                 {
@@ -178,14 +169,12 @@ const config = {
                     "menu": "References",
                     "name": "raweb1/references",
                     "md": "./content/en/raweb1/references.md", 
-                    "html": true,                    
                     "prefix": "../../.."
                 },
                 {
                     "title": "RAWeb 1: Changelog",
                     "menu": "Changelog",
                     "name": "raweb1/notes-revision",
-                    "html": true,
                     "md": "./content/en/raweb1/notes-de-revision.md", 
                     "prefix": "../../..",
                     "genSummary": "ol", 
@@ -196,7 +185,6 @@ const config = {
                     "menu": "Simplified control method",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/en/controle-simplifie.md", 
-                    "html": true,
                     "prefix": "../../.."
                 },
                 {
@@ -222,7 +210,6 @@ const config = {
                     "menu": "Introduction",
                     "name": "raam1.1/index",
                     "md": "./content/en/raam1.1/introduction.md", 
-                    "html": true,
                     "prefix": "../../.."
                 },                
                 {
@@ -231,7 +218,6 @@ const config = {
                     "name": "raam1.1/referentiel-technique",
                     "md": "./content/en/raam1.1/referentiel-technique.md",
                     "prefix": "../../..", 
-                    "html": true, 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Themes"
@@ -241,8 +227,7 @@ const config = {
                     "menu": "Glossary",
                     "name": "raam1.1/glossaire",
                     "md": "./content/en/raam1.1/glossaire.md",
-                    "prefix": "../../..", 
-                    "html": true,                    
+                    "prefix": "../../..",                   
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -252,7 +237,6 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "raam1.1/methodologie",
                     "md": "./content/en/raam1.1/methodologie.md",
-                    "html": true, 
                     "prefix": "../../..", 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
@@ -263,14 +247,12 @@ const config = {
                     "menu": "Testing environment",
                     "name": "raam1.1/environnement",
                     "md": "./content/en/raam1.1/environnement.md",
-                    "html": true,
                     "prefix": "../../.."
                 },
                 {
                     "title": "RAAM 1.1 : Changelog",
                     "menu": "Changelog",
                     "name": "raam1.1/notes-revision",
-                    "html": true,
                     "md": "./content/en/raam1.1/notes-de-revision.md", 
                     "prefix": "../../.."
                 },                    
@@ -293,7 +275,6 @@ const config = {
                     "menu": "Introduction",
                     "name": "rapdf1/index",
                     "md": "./content/en/rapdf1/introduction.md", 
-                    "html": true,
                     "prefix": "../../.."
                 },                
                 {
@@ -302,7 +283,6 @@ const config = {
                     "name": "rapdf1/referentiel-technique",
                     "md": "./content/en/rapdf1/referentiel-technique.md",
                     "prefix": "../../..", 
-                    "html": true, 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Themes"
@@ -312,8 +292,7 @@ const config = {
                     "menu": "Glossary",
                     "name": "rapdf1/glossaire",
                     "md": "./content/en/rapdf1/glossaire.md",
-                    "prefix": "../../..", 
-                    "html": true,                    
+                    "prefix": "../../..",                    
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -322,8 +301,7 @@ const config = {
                     "title": "RAPDF 1: Testing methodology",
                     "menu": "Testing methodology",
                     "name": "rapdf1/methodologie",
-                    "md": "./content/en/rapdf1/methodologie.md",
-                    "html": true, 
+                    "md": "./content/en/rapdf1/methodologie.md",    
                     "prefix": "../../..", 
                     "slugify": "slugifyA42"
                 },
@@ -331,8 +309,7 @@ const config = {
                     "title": "RAPDF 1: Testing environment",
                     "menu": "Testing environment",
                     "name": "rapdf1/environnement",
-                    "md": "./content/en/rapdf1/environnement.md",
-                    "html": true,
+                    "md": "./content/en/rapdf1/environnement.md",        
                     "prefix": "../../.."
                 },  
                 {
@@ -350,24 +327,21 @@ const config = {
             "title": "Licence",
             "menu": "Licence",
             "name": "licence",
-            "md": "./content/en/licence.md",
-            "html": true,
+            "md": "./content/en/licence.md",           
             "prefix": "../.."
         }, 
         {
             "title": "Accessibility statement",
             "menu": "Accessibility statement",
             "name": "support/accessibilite",
-            "md": "./content/en/accessibilite.md", 
-            "html": true, 
+            "md": "./content/en/accessibilite.md",            
             "prefix": "../../.."
         }, 
         {
             "title": "General legal notice",
             "menu": "General legal notice",
             "name": "aspects-legaux",
-            "md": "./content/en/mentions-legales.md",
-            "html": true,
+            "md": "./content/en/mentions-legales.md",           
             "prefix": "../.."
         },        
         {
@@ -380,7 +354,6 @@ const config = {
             "menu": "Contact",
             "name": "contact",
             "md": "./content/en/contact.md", 
-            "html": true,
             "prefix": "../.."
         }                
     ], 
@@ -390,14 +363,7 @@ const config = {
             "name": "404",
             "md": "./content/en/404.md",
             "prefix": "../.."
-        },
-        {
-            "title": "Newsletter subscription",
-            "name": "nl-subscribe",
-            "md": "./content/nl-subscribe.md",
-            "html": true,
-            "prefix": "../.."
-        }                 
+        }              
     ],
     "deprecated": [
     {
@@ -409,8 +375,7 @@ const config = {
                 "title": "Mobile App Accessibility Assessment Framework (RAAM 1): Introduction",
                 "menu": "Introduction",
                 "name": "raam1/index",
-                "md": "./content/en/raam1/introduction.md", 
-                "html": true,
+                "md": "./content/en/raam1/introduction.md",                 
                 "prefix": "../../.."
             },                
             {
@@ -418,8 +383,7 @@ const config = {
                 "menu": "Criteria and tests",
                 "name": "raam1/referentiel-technique",
                 "md": "./content/en/raam1/referentiel-technique.md",
-                "prefix": "../../..", 
-                "html": true, 
+                "prefix": "../../..",                 
                 "slugify": "slugifyA42",
                 "genSummary": "ol", 
                 "summaryTitle": "Themes"
@@ -429,8 +393,7 @@ const config = {
                 "menu": "Glossary",
                 "name": "raam1/glossaire",
                 "md": "./content/en/raam1/glossaire.md",
-                "prefix": "../../..", 
-                "html": true,                    
+                "prefix": "../../..",                                     
                 "slugify": "slugifyA42", 
                 "genSummary": "ul", 
                 "summaryTitle": "Index"
@@ -439,8 +402,7 @@ const config = {
                 "title": "RAAM 1: Testing methodology",
                 "menu": "Testing methodology",
                 "name": "raam1/methodologie",
-                "md": "./content/en/raam1/methodologie.md",
-                "html": true, 
+                "md": "./content/en/raam1/methodologie.md",                 
                 "prefix": "../../..", 
                 "slugify": "slugifyA42"
             },
@@ -448,8 +410,7 @@ const config = {
                 "title": "RAAM 1: Testing environment",
                 "menu": "Testing environment",
                 "name": "raam1/environnement",
-                "md": "./content/en/raam1/environnement.md",
-                "html": true,
+                "md": "./content/en/raam1/environnement.md",                
                 "prefix": "../../.."
             },  
             {

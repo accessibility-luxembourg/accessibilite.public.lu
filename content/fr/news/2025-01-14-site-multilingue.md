@@ -9,7 +9,7 @@ auteur: Dominique Nauroy
 <div class="intro"> 
     <p>Pour les référentiels, et en particulier le RAWeb, dérivé du RGAA français, l’exercice a consisté à reprendre, autant que possible, les terminologies présentes dans WCAG et au sein de la norme européenne, afin de présenter aux auditeurs et auditrices, déjà familiarisés avec ces outils, des référentiels, pourvus de tests et de méthodologies concrètes, se rapportant à des univers connus.</p>
 </div>
-<figure role="group" aria-label="Photo: © Getty Images / istockphoto.com / 1001gece" class="pic"> <img src="../../../../content/fr/news/img/2025-01-multilingue.jpg" alt="Photo d'une page de dictionnaire, centrée sur le mot anglais 'accessible'"> <figcaption>Photo&nbsp;: © Getty Images / istockphoto.com / 1001gece</figcaption>
+<figure role="group" aria-label="Photo: © Getty Images / istockphoto.com / 1001gece" class="pic"> <img src="img/2025-01-multilingue.jpg" alt="Photo d'une page de dictionnaire, centrée sur le mot anglais 'accessible'"> <figcaption>Photo&nbsp;: © Getty Images / istockphoto.com / 1001gece</figcaption>
 </figure>
 <p>Nous avons apporté le plus grand soin à la relecture des référentiels, des articles d’actualité et des autres contenus disponibles sur ce site. Ce travail est notamment le fruit d’une collaboration précieuse et fructueuse avec les équipes du Service information et presse. Bien entendu, nous restons à votre écoute si vous jugez qu’une traduction pourrait être améliorée, en vous laissant nous suggérer quel terme anglais, quelle expression empruntée à la langue de Shakespeare pourraient mieux convenir.</p>
 <h2>Comment nous contacter ?</h2>
