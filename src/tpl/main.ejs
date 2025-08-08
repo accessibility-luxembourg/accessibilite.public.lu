@@ -31,7 +31,9 @@
     <% if (ogDesc) { %>
       <meta name="twitter:description" content="<%= ogDesc %>">
     <% } %>
-    
+    <%
+    file = file.replace("./dist", "")
+    %>
     <meta property='twitter:url' content='https://accessibilite.public.lu<%= file %>'/>    
     
     <meta property='og:title' content="<%= title %>"/>
