@@ -331,13 +331,18 @@ figure.pic {
     margin: 1em auto;
 }
 
+figure.smallpic {
+    max-width: 300px;
+    margin: 1em auto;
+}
+
 figure img {
     width: 100%; 
     max-width: 650px; 
     height: auto;
 }
 
-figure.pic figcaption, div.video-parent-container p.video-desc {
+figure.pic figcaption, figure.smallpic figcaption, div.video-parent-container p.video-desc {
     font: normal 200 0.9em var(--article_font), sans-serif;
     text-align: right;
 }
