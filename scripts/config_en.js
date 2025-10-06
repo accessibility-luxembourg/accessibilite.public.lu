@@ -363,7 +363,14 @@ const config = {
             "name": "404",
             "md": "./content/en/404.md",
             "prefix": "../.."
-        }              
+        },
+        {
+            "title": "Newsletter subscription",
+            "name": "nl-subscribe",
+            "md": "./content/nl-subscribe.md",
+            "html": true,
+            "prefix": "../.."
+        }                  
     ],
     "deprecated": [
     {
