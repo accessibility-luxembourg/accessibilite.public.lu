@@ -42,6 +42,7 @@ const config = {
     ],
     "deprecation": {
         "rgaa": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
+        "raweb": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
         "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
     },
     "mainMenu": [
