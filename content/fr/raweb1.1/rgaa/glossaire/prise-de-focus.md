@@ -6,7 +6,9 @@ La prise de focus est l’état renvoyé par un élément qui reçoit l’attent
 
 - En activant l’élément par un dispositif de pointage (exemple : souris) ;
 - En atteignant l’élément par la touche tabulation ou majuscule + tabulation ;
-- En activant l’élément par un raccourci clavier (`accesskey`).
+- En activant l’élément par un raccourci clavier.
+
+<b>Le critère {% crit 10.7 %} ne s’intéresse qu’au focus du clavier (tabulation, majuscule + tabulation, raccourci clavier).</b>
 
 Certains éléments reçoivent naturellement le focus, par exemple : `<a href>`, `<area href>`, `<button>`, `<input>`, `<object>`, `<select>`, `<label>`, `<legend>`, `<optgroup>`, `<option>` et `<textarea>`.
 Le comportement de l’élément, lors de la prise de focus, dépend de sa nature ; un lien, par exemple, devra être activé après la prise de focus (sauf utilisation de script). En revanche, un élément de formulaire, comme `<textarea>`, devra autoriser la saisie suite à la prise de focus. Les éléments `<label>` et `<legend>` ne reçoivent la prise de focus que via le pointeur souris. Pour l’élément `<label>`, le comportement attendu est de transférer la prise de focus sur l’élément qui lui est associé.

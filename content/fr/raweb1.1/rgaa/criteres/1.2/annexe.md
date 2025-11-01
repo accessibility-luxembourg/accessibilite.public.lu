@@ -27,3 +27,5 @@ Lorsqu’une image est associée à une [légende](#legende-d-image), la note te
 Dans le cas d’une image vectorielle (balise `<svg>`) de décoration qui serait affichée au travers d’un élément `<use href="…">` enfant de l’élément `<svg>`, le test 1.2.4 s’appliquera également à l’élément `<svg>` associé par le biais de l’élément `<use>`.
 
 Un attribut WAI-ARIA `role="presentation"` peut être utilisé sur les images de décoration et les zones non cliquables de décoration. Le rôle `"none"` introduit en ARIA 1.1 et synonyme du rôle `"presentation"` peut être aussi utilisé. Il reste préférable cependant d’utiliser le rôle `"presentation"` en attendant un support satisfaisant du rôle `"none"`.
+
+Si une image se trouve imbriquée dans une balise possédant un attribut `aria-hidden="true"`, alors elle sera considérée comme étant masquée pour les technologies d’assistance.

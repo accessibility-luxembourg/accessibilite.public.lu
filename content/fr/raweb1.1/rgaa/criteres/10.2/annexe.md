@@ -8,7 +8,6 @@ WCAG:
     level: A
 Techniques:
   - F3
-  - F87
   - G140
 Norm:
   - criterion: 9.1.1.1

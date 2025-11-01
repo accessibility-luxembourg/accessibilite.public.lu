@@ -2,16 +2,26 @@
 title: <em lang="en">Landmarks</em>
 ---
 
-WAI-ARIA propose des rôles permettant d’indiquer les zones principales (régions) du document. Ces rôles sont très profitables aux utilisateurs de lecteurs d’écran notamment, mais également aux utilisateurs de la navigation au clavier qui peuvent ainsi bénéficier de fonctionnalités de navigation rapide dans la [structure du document](#structure-du-document).
+WAI-ARIA propose des rôles permettant d’identifier des repères de navigation. Ces rôles sont très profitables aux utilisateurs de lecteurs d’écran notamment, mais également aux utilisateurs de la navigation au clavier qui peuvent ainsi bénéficier de fonctionnalités de navigation rapide.
 
-Les rôles doivent être définis dans le document en fonction de la nature de la zone :
+Les rôles doivent être définis dans le document en fonction de la nature de la zone (grâce à l’attribut WAI-ARIA `role` ou une balise HTML ayant un rôle implicite). WAI-ARIA désigne 8 landmarks. 
 
-- La zone d’[en-tête](#zone-d-en-tete) doit avoir un attribut WAI-ARIA `role="banner"` ;
-- Le [menu de navigation](#menu-et-barre-de-navigation) principal doit avoir un attribut WAI-ARIA `role="navigation"` ;
-- La zone de [contenu principal](#zone-de-contenu-principal) doit avoir un attribut WAI-ARIA `role="main"` ;
-- La zone de [pied de page](#zone-de-pied-de-page) doit avoir un attribut WAI-ARIA `role="contentinfo"` ;
-- La zone de [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) sur le site doit avoir un attribut WAI-ARIA `role="search"`.
+5 landmarks sont exploités dans la structure du document (critère 9.2) : 
+- `banner`
+- `contentinfo`
+- `main`
+- `navigation`
+- `search`
 
-Note 1 : Si la plupart des lecteurs d’écran mettent à disposition ces fonctionnalités, les navigateurs n’ont pas encore proposé de fonctionnalité de navigation dédiée pour les utilisateurs qui ne peuvent pas utiliser la souris. La mise en place des liens d’évitement reste donc à privilégier par rapport aux <span lang="en">landmarks</span>.
+3 landmarks sont disponibles pour identifier d’autres régions : 
+- `form` (`<form>` ou `role="form"`)
+- `complementary` (`<aside>` ou `role="complementary"`)
+- `region` (`role="region"`).
 
-Note 2 : Les rôles WAI-ARIA `banner`, `main` et `contentinfo` doivent être uniques dans la page. Le rôle WAI-ARIA `navigation` est réservé aux zones de navigations principales et secondaires. Lorsqu’il y a plusieurs rôles WAI-ARIA `navigation`, il peut être utile de les différencier en précisant un nom à chacune des zones via l’attribut WAI-ARIA `aria-label` ou `aria-labelledby`.
+Les landmarks `form` et `region` ne sont identifiés comme repère de navigation que s’il possède un nom accessible.
+
+Voir la section [Landmark Roles](https://www.w3.org/TR/wai-aria-1.1/#landmark_roles) dans la documentation.
+
+Note 1 : compte-tenu du support variable des landmarks `form`, `complementary` et `region`, s’ils sont utilisés dans la page en tant que repères de navigation, ils devront faire l’objet de tests de navigation et de restitution sur l’environnement de test.
+
+Note 2 : Il n’est pas obligatoire d’identifier des repères de navigation autre que ceux requis par le critère 9.2 si le contexte ne le nécessite pas. Par exemple, il n’est pas obligatoire d’identifier tous les formulaires avec un élément `form`, mais seulement si un contexte de navigation plus ou moins complexe (applicatif par exemple) nécessiterait d’offrir plus de repères de navigation que ne le réclame déjà le critère 9.2. 

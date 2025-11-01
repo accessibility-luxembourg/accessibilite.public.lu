@@ -35,17 +35,12 @@ Norm:
 
 #### Cas particuliers
 
-Le test 11.10.1 et le test 11.10.2 seront considérés comme non applicables lorsque le formulaire comporte un seul [champ de formulaire](#champ-de-saisie-de-formulaire) ou qu’il indique les champs optionnels de manière :
-
-- Visible ;
-- Dans la balise `<label>` ou dans la [légende](#legende) associée au champ.
+Le test 11.10.1 et le test 11.10.2 seront considérés comme non applicables lorsque : 
+* le formulaire comporte un seul [champ de formulaire](#champ-de-saisie-de-formulaire)&nbsp;;
+* le formulaire comporte uniquement un champ d’identifiant et un champ de mot de passe (dans le cas d’un formulaire d’identification).
 
 Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les tests 11.10.1 et 11.10.2 restent applicables.
 
 #### Notes techniques
 
-Dans un long formulaire dont la majorité des champs sont obligatoires, on pourrait constater que ce sont les quelques champs restés facultatifs qui sont explicitement signalés comme tels. Dans ce cas, il faudrait s’assurer que :
-
-- Un message précise visuellement en haut de formulaire que &laquo;&nbsp;tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs&nbsp;&raquo; ;
-- Une mention &laquo;&nbsp;facultatif&nbsp;&raquo; est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
-- Un attribut `required` ou `aria-required="true"` reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif.
+Le test 11.10.1 et le test 11.10.2 traitent des critères de manière isolée, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.
