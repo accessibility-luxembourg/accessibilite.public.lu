@@ -62,6 +62,39 @@ La sélection des pages auditées ainsi que leur nombre doivent être représent
 
 Enfin, s’ajoutent des pages sélectionnées au hasard représentant au moins 10 % des éléments de l’échantillon décrit supra.
 
+##### Cas des entités concernées par la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo)
+
+Pour les entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), des pages et processus spécifiques obligatoires doivent obligatoirement faire partie de l'échantillon d'évaluation, en fonction des services.
+
+Par exemple, pour les services bancaires, les pages et fonctionnalités suivantes doivent être évaluées, si elles existent&nbsp;: 
+* Une page avec signature électronique&nbsp;;
+* Informations sur les comptes&nbsp;:
+  * Liste des comptes&nbsp;;
+  * Détail d’un compte&nbsp;;
+  * Informations du compte&nbsp;;
+  * Dernières opérations&nbsp;;
+  * Détail d’une opération.
+* Gestion des comptes&nbsp;:
+  * Ouverture&nbsp;;
+  * Clôture&nbsp;;
+  * Gestion du découvert.
+* Virements et ordres permanents&nbsp;:
+  * Virement&nbsp;;
+  * Ordre permanent (création, modification, suppression)&nbsp;;
+  * Bénéficiaire (création, modification, suppression).
+* Commande de carte&nbsp;;
+* Investissements&nbsp;:
+  * Gestion de portefeuille&nbsp;;
+  * Conseil en investissement&nbsp;;
+  * Exécution d’ordres.
+* Système de validation de paiement (3D Secure).
+
+Et de manière générale pour tous les services confondus, on pourra aussi intégrer,si elles existent&nbsp;: 
+* La fonctionnalité de communication électronique (messagerie sécurisée)&nbsp;;
+* La fonctionnalité e-commerce (tunnel d'achat jusqu'au paiement).
+
+Cette liste n'est pas exhaustive, elle vise juste à illustrer l'obligation spécifique qui incombe aux entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo).
+
 
 #### Environnement de test (ou «&nbsp;base de référence&nbsp;»)
 
@@ -77,7 +110,7 @@ Cet environnement de test minimal peut être complété, le cas échéant, par d
 
 #### Test des pages
 
-Chaque page de l’échantillon doit être vérifié au regard des critères qui lui sont applicables.
+Chaque page de l’échantillon doit être vérifiée au regard des critères qui lui sont applicables.
 
 Il existe 3 raisons pour qu’un critère ne soit pas applicable à une page&nbsp;:
 

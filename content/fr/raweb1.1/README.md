@@ -10,8 +10,8 @@ Les pages HTML sont organisées de la manière suivante :
 * [Accueil](./introduction.md)
 * [Obligations](./obligations.md)
 * Méthode technique
-  * [Critères et tests](./raweb1.1/criteres)
-  * [Glossaire](./raweb1.1/glossaire)
+  * [Critères et tests](./raweb1/criteres)
+  * [Glossaire](./raweb1/glossaire)
   * [Environnement de test](./environnement-de-test.md)
   * [Références](./references.md)
 * Documentation
