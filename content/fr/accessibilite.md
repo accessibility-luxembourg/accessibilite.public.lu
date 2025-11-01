@@ -9,7 +9,7 @@ La présente déclaration sur l'accessibilité s'applique à :
 </p>
 <h2>État de conformité</h2>
 <p class="basic-information conformance-status total">
-Le présent site internet est en <strong>totale conformité</strong> avec la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> ainsi qu'au <a href="https://accessibilite.public.lu/fr/raweb1/">Référentiel d'évaluation de l'Accessibilité Web (RAWeb) v1</a> qui l’implémente.
+Le présent site internet est en <strong>totale conformité</strong> avec la norme européenne <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> ainsi qu'au <a href="https://accessibilite.public.lu/fr/raweb1.1/">Référentiel d'évaluation de l'Accessibilité Web (RAWeb) v1.1</a> qui l’implémente.
 </p>
 <h2>Contenu non accessible</h2>
 <p>Le contenu visé ci-après n'est pas accessible pour la/les raison(s) suivante(s)&nbsp;:</p>
@@ -18,7 +18,7 @@ Le présent site internet est en <strong>totale conformité</strong> avec la nor
 <h2>Préparation de la présente déclaration sur l'accessibilité</h2>
 <p>
 La présente déclaration a été préparée le <span class="basic-information statement-created-date">14 août 2020</span>.
-Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité du présent site internet avec les exigences fixées dans le <a href="https://accessibilite.public.lu/fr/raweb1/">RAWeb 1</a>, telle qu'une évaluation réalisée par un tiers&nbsp;: Ideance. Le dernier réexamen de la déclaration a eu lieu le <span class="basic-information statement-renewal-date">25 novembre 2024</span>. 
+Les mentions figurant dans cette déclaration sont exactes et fondées sur une évaluation effective de la conformité du présent site internet avec les exigences fixées dans le <a href="https://accessibilite.public.lu/fr/raweb1.1/">RAWeb 1.1</a>, telle qu'une évaluation réalisée par un tiers&nbsp;: Ideance. Le dernier réexamen de la déclaration a eu lieu le <span class="basic-information statement-renewal-date">25 novembre 2024</span>. 
 </p>
 <h2>Retour d'information et coordonnées de contact</h2>
 <p class="basic-information feedback h-card">Si vous constatez un défaut d’accessibilité, envoyez-nous un courriel à <a class="email u-email" href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> : décrivez votre problème et indiquez-nous la page concernée. Nous nous engageons à vous répondre par courriel dans un délai d'un mois au plus tard. Pour remédier au problème de manière durable et dans la mesure du raisonnable, la correction en ligne du défaut d’accessibilité sera privilégiée. Si cela ne peut être fait, l’information souhaitée vous sera transmise dans un format accessible selon vos souhaits :</p>

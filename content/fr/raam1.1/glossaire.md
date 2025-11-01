@@ -399,7 +399,7 @@ Un outil d’édition devrait disposer de fonctionnalités qui permettent de dé
 - pouvoir définir la langue d’un passage de texte&nbsp;;
 - pouvoir définir des étiquettes aux champs de formulaires.
 
-Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du [RAWeb](../raweb1/criteres.html) de niveau A et AA qui doivent pouvoir être respectés. Pour la création d’un document au format PDF, ce sont tous les critères du référentiel d’évaluation de l’accessibilité des documents au format PDF ([RAPDF](../rapdf1/index.html)) de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
+Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du [RAWeb](../raweb1.1/criteres.html) de niveau A et AA qui doivent pouvoir être respectés. Pour la création d’un document au format PDF, ce sont tous les critères du référentiel d’évaluation de l’accessibilité des documents au format PDF ([RAPDF](../rapdf1/index.html)) de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
 
 #### Information donnée par la couleur
 
@@ -600,7 +600,7 @@ Un moyen de déclencher une action associée à un composant de l’interface ut
 
 #### Règles d’accessibilité numérique
 
-La dénomination générique «&nbsp;règles d’accessibilité numérique&nbsp;» désigne le [RAWeb](../raweb1/index.html), le [RAAM](../raam1.1/index.html), le [RAPDF](../rapdf1/index.html) ou encore la norme [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) selon le contexte d’utilisation.
+La dénomination générique «&nbsp;règles d’accessibilité numérique&nbsp;» désigne le [RAWeb](../raweb1.1/index.html), le [RAAM](../raam1.1/index.html), le [RAPDF](../rapdf1/index.html) ou encore la norme [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) selon le contexte d’utilisation.
 
 #### Relâché ou relevé
 

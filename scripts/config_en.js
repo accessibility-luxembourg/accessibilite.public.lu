@@ -3,15 +3,21 @@ const lib = require('./common.js')
 const axeRgaa = require('./AxeRGAAmsg.json')
 const fs = require('fs')
 
+const criteresRAWeb11 = genNewRGAA.generateCriteria('./content/en/raweb1.1')
+const niveauxRAWeb11 = require('../content/en/raweb1.1/niveaux.json')
+const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb1.1', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
+
+
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
 const niveauxRAWeb1 = require('../content/en/raweb1/niveaux.json')
 const dataRAWeb1 = {topics: criteresRAWeb1.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 const glossaryRAWeb1 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb1', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
 
-const criteresMonit = genNewRGAA.generateCriteria('./content/en/raweb1', '../../../html/en/raweb1/')
+const criteresMonit = genNewRGAA.generateCriteria('./content/en/raweb1.1', '../../../html/en/raweb1.1/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Warning:</strong> this list of criteria is to be used only within the framework of the <a href="../../../html/en/monitoring/controle-simplifie.html">simplified control method</a>.<br />If automated test rules can contribute to testing a criterion, these are mentioned in the correlation tables available at the end of the criterion.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb1/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb1.1/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 
 const config = {
     "declaLangs": [
@@ -21,7 +27,7 @@ const config = {
         {"name": "luxembourgish", "code": "lb"}
     ],
     "deprecation": {
-        "rgaa": ["<a href=\"../raweb1/index.html\">RAWeb 1</a>", "../raweb1/notes-revision.html"],
+        "rgaa": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
         "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
     },
     "mainMenu": [
@@ -60,7 +66,7 @@ const config = {
                     "title": "Legal requirements regarding digital accessibility ",
                     "menu": "Legal requirements",
                     "name": "obligations",
-                    "md": "./content/en/raweb1/obligations.md", 
+                    "md": "./content/en/raweb1.1/obligations.md", 
                     "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
@@ -117,65 +123,65 @@ const config = {
         {
             "title": "Web framework",
             "menu": "Web <span class='mobile-only'>framework</span>",
-            "name": "raweb1",
+            "name": "raweb1.1",
             "children": [
                 {
-                    "title": "Web Accessibility Assessment Framework (RAWeb 1): Introduction",
+                    "title": "Web Accessibility Assessment Framework (RAWeb 1.1): Introduction",
                     "menu": "Introduction",
-                    "name": "raweb1/index",
-                    "md": "./content/en/raweb1/introduction.md",
+                    "name": "raweb1.1/index",
+                    "md": "./content/en/raweb1.1/introduction.md",
                     "prefix": "../../.."
                 },        
                 {
-                    "title": "RAWeb 1: Criteria and tests",
+                    "title": "RAWeb 1.1: Criteria and tests",
                     "menu": "Criteria and tests",
-                    "name": "raweb1/criteres", 
+                    "name": "raweb1.1/criteres", 
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
-                    "data": dataRAWeb1,
+                    "data": dataRAWeb11,
                     "prefix": "../../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 },
                 {
-                    "title": "RAWeb 1: Glossary",
+                    "title": "RAWeb 1.1: Glossary",
                     "menu": "Glossary",
-                    "name": "raweb1/glossaire",
+                    "name": "raweb1.1/glossaire",
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
-                    "data": glossaryRAWeb1,
+                    "data": glossaryRAWeb11,
                     "prefix": "../../..",
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
                 {
-                    "title": "RAWeb 1: Testing methodology",
+                    "title": "RAWeb 1.1: Testing methodology",
                     "menu": "Testing methodology",
-                    "name": "raweb1/methodo-test",
-                    "md": "./content/en/raweb1/methodologie-de-test.md",
+                    "name": "raweb1.1/methodo-test",
+                    "md": "./content/en/raweb1.1/methodologie-de-test.md",
                     "prefix": "../../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },                
                 {
-                    "title": "RAWeb 1: Testing environment",
+                    "title": "RAWeb 1.1: Testing environment",
                     "menu": "Testing environment",
-                    "name": "raweb1/environnement",
-                    "md": "./content/en/raweb1/environnement-de-test.md",
+                    "name": "raweb1.1/environnement",
+                    "md": "./content/en/raweb1.1/environnement-de-test.md",
                     "prefix": "../../.."
                 },                        
                 {
-                    "title": "RAWeb 1: References",
+                    "title": "RAWeb 1.1: References",
                     "menu": "References",
-                    "name": "raweb1/references",
-                    "md": "./content/en/raweb1/references.md", 
+                    "name": "raweb1.1/references",
+                    "md": "./content/en/raweb1.1/references.md", 
                     "prefix": "../../.."
                 },
                 {
-                    "title": "RAWeb 1: Changelog",
+                    "title": "RAWeb 1.1: Changelog",
                     "menu": "Changelog",
-                    "name": "raweb1/notes-revision",
-                    "md": "./content/en/raweb1/notes-de-revision.md", 
+                    "name": "raweb1.1/notes-revision",
+                    "md": "./content/en/raweb1.1/notes-de-revision.md", 
                     "prefix": "../../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
@@ -190,7 +196,7 @@ const config = {
                 {
                     "title": "Criteria for simplified control",
                     "menu": "Criteria for simplified control",
-                    "name": "raweb1/audit-simpl", 
+                    "name": "raweb1.1/audit-simpl", 
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
@@ -373,11 +379,97 @@ const config = {
         }                  
     ],
     "deprecated": [
-    {
-        "title": "Mobile framework",
-        "menu": "Mobile <span class='mobile-only'>framework</span>",
-        "name": "raam1",
-        "children": [ 
+        {
+            "title": "Web framework",
+            "menu": "Web <span class='mobile-only'>framework</span>",
+            "name": "raweb1",
+            "children": [
+                {
+                    "title": "Web Accessibility Assessment Framework (RAWeb 1): Introduction",
+                    "menu": "Introduction",
+                    "name": "raweb1/index",
+                    "md": "./content/en/raweb1/introduction.md",
+                    "prefix": "../../.."
+                },        
+                {
+                    "title": "RAWeb 1: Criteria and tests",
+                    "menu": "Criteria and tests",
+                    "name": "raweb1/criteres", 
+                    "type": "criteres",
+                    "template": "criteria-new.ejs", 
+                    "data": dataRAWeb1,
+                    "prefix": "../../..",
+                    "genSummary": "ol",
+                    "summaryTitle": "Themes"
+                },
+                {
+                    "title": "RAWeb 1: Glossary",
+                    "menu": "Glossary",
+                    "name": "raweb1/glossaire",
+                    "type": "glossaire",
+                    "template": "glossary-new.ejs", 
+                    "data": glossaryRAWeb1,
+                    "prefix": "../../..",
+                    "genSummary": "ul",
+                    "summaryTitle": "Index"
+                }, 
+                {
+                    "title": "RAWeb 1: Testing methodology",
+                    "menu": "Testing methodology",
+                    "name": "raweb1/methodo-test",
+                    "md": "./content/en/raweb1/methodologie-de-test.md",
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
+                },                
+                {
+                    "title": "RAWeb 1: Testing environment",
+                    "menu": "Testing environment",
+                    "name": "raweb1/environnement",
+                    "md": "./content/en/raweb1/environnement-de-test.md",
+                    "prefix": "../../.."
+                },                        
+                {
+                    "title": "RAWeb 1: References",
+                    "menu": "References",
+                    "name": "raweb1/references",
+                    "md": "./content/en/raweb1/references.md", 
+                    "prefix": "../../.."
+                },
+                {
+                    "title": "RAWeb 1: Changelog",
+                    "menu": "Changelog",
+                    "name": "raweb1/notes-revision",
+                    "md": "./content/en/raweb1/notes-de-revision.md", 
+                    "prefix": "../../..",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
+                },
+                {
+                    "title": "Simplified accessibility control method v1.2.1",
+                    "menu": "Simplified control method",
+                    "name": "monitoring/controle-simplifie",
+                    "md": "./content/en/controle-simplifie.md", 
+                    "prefix": "../../.."
+                },
+                {
+                    "title": "Criteria for simplified control",
+                    "menu": "Criteria for simplified control",
+                    "name": "raweb1/audit-simpl", 
+                    "type": "criteres", 
+                    "template": "criteria-new.ejs", 
+                    "data": dataAuditSimpl,
+                    "prefix": "../../..",
+                    "genSummary": "ol",
+                    "summaryTitle": "Themes"
+                }
+            ]
+        },
+        {
+            "title": "Mobile framework",
+            "menu": "Mobile <span class='mobile-only'>framework</span>",
+            "name": "raam1",
+            "children": [ 
             {
                 "title": "Mobile App Accessibility Assessment Framework (RAAM 1): Introduction",
                 "menu": "Introduction",

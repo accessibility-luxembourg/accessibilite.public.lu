@@ -4,7 +4,7 @@ Checks are carried out within monitoring periods. The first monitoring period be
 
 There are three types of inspection: 
 
-- **In-depth site monitoring**: This is a compliance audit based on the [RAWeb framework](../raweb1/index.html). The result of the audit shows whether the site is accessible and any accessibility problems encountered.
+- **In-depth site monitoring**: This is a compliance audit based on the [RAWeb framework](../raweb1.1/index.html). The result of the audit shows whether the site is accessible and any accessibility problems encountered.
 - **Simplified monitoring**: The aim of this audit is to detect non-compliances and to raise awareness among the various parties involved. It does not allow compliance to be assessed, but it can be carried out more quickly and therefore on a larger number of sites. The method is described on the page ["simplified control method"](./controle-simplifie.html).
 - **Mobile application monitoring**: this is a compliance audit based on the [RAAM framework](../raam1.1/index.html). The result of the audit shows whether the application is accessible and if any accessibility issues have been encountered.
 

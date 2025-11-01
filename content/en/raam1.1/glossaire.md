@@ -22,7 +22,7 @@ An editing tool should have functions that enable all the information needed to 
 - the ability to define the language of a passage of text;
 - the ability to define form field labels.
 
-All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the [RAWeb](../raweb1/criteres.html) level A and AA criteria must be met. For the production of a PDF document, it must be possible to meet all the criteria of the PDF Accessibility Assessment Framework ([RAPDF](../rapdf1/index.html)) levels A and AA. For an application, all the criteria in this framework must be met.
+All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the [RAWeb](../raweb1.1/criteres.html) level A and AA criteria must be met. For the production of a PDF document, it must be possible to meet all the criteria of the PDF Accessibility Assessment Framework ([RAPDF](../rapdf1/index.html)) levels A and AA. For an application, all the criteria in this framework must be met.
 
 #### Accessible and operable by keyboard and any pointing device
 
@@ -250,7 +250,7 @@ Content associated with a [graphic element](#graphic-element) in addition to its
 
 #### Digital accessibility rules 
 
-The generic term "digital accessibility rules" refers to the <a href="https://accessibilite.public.lu/en/raweb1/index.html">RAWeb</a>, the <a href="https://accessibilite.public.lu/en/raam1/index.html">RAAM</a>, the RAPDF or the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 standard</a>, depending on the context of use.
+The generic term "digital accessibility rules" refers to the <a href="https://accessibilite.public.lu/en/raweb1.1/index.html">RAWeb</a>, the <a href="https://accessibilite.public.lu/en/raam1/index.html">RAAM</a>, the RAPDF or the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 standard</a>, depending on the context of use.
 
 #### Documentation 
 
