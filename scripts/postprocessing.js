@@ -270,10 +270,10 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
 
 function main(html, name, __) {
-    if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
+    if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
         html = singleMDCriteria(html, __)
     }    
-    if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire'].includes(name)) {
+    if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire', 'rapdf1.1/glossaire'].includes(name)) {
         html = singleMDGlossary(html, __)
     }
     return html

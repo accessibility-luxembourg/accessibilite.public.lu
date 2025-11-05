@@ -2078,12 +2078,12 @@ The criterion is not applicable when office documents (e.g. PDF, Microsoft or Li
 1. For each file offered for download in an office format, check that an alternative version is presented as accessible.
 1. If the alternative is offered in an office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- download the file containing the proposed alternative; 
-	- if this file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
+	- if this file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1.1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1.
 1. If the alternative is proposed in the application, check that the content complies with this framework.
 1. Otherwise, for documents in office format (pdf, odt, doc, docx, EPUB/DAISY): 
 	- download the file; 
-	- if the file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
+	- if the file is in PDF format, check that it complies with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1.1/index.html).
 	- if the file is in another format, check that it complies with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1.
 1. If this is the case, the criterion is validated.
 
@@ -2501,7 +2501,7 @@ The criterion does not apply to features integrated into the platform.
 #### [Criterion 12.4](#crit-12-4) [A] Does the application documentation comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-12-4"}
 
 - **[Test 12.4.1](#test-12-4-1):** Does the [documentation](glossaire.md#documentation) made available in web format (HTML, CSS) comply with the [RAWeb](../raweb1/criteres.html)? {id="test-12-4-1"}
-- **[Test 12.4.2](#test-12-4-2):** Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1/index.html)? {id="test-12-4-2"}
+- **[Test 12.4.2](#test-12-4-2):** Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1.1/index.html)? {id="test-12-4-2"}
 - **[Test 12.4.3](#test-12-4-3):** Does the documentation made available in a non-web format (other than PDF) comply with the criteria of the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN&nbsp;301&nbsp;549 v3.2.1? {id="test-12-4-3"}
 - **[Test 12.4.4](#test-12-4-4):** Does the documentation made available in a mobile application comply with the RAAM? {id="test-12-4-4"}
 
@@ -2511,7 +2511,7 @@ The criterion does not apply to features integrated into the platform.
 
 1. Identify the presence of a documentation in the application or accessible from the application.
 1. For a documentation in web format (HTML, CSS), check that it complies with the [RAWeb](../raweb1/criteres.html) criteria.
-1. For a documentation in PDF format, check that it complies with the [RAPDF](../rapdf1/index.html) criteria.
+1. For a documentation in PDF format, check that it complies with the [RAPDF](../rapdf1.1/index.html) criteria.
 1. For a documentation in non-web format (other than PDF), check that it complies with the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN&nbsp;301&nbsp;549 v3.2.1.
 1. For a documentation made available in a mobile application, check that it complies with the RAAM criteria.
 1. If this is the case, the criterion is validated.
@@ -2528,7 +2528,7 @@ Note: the documentation will be considered non-compliant as soon as an error is 
 #### [Criterion 13.1](#crit-13-1) [A] Can each [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-13-1"}
 
 - **[Test 13.1.1](#test-13-1-1):** Can each [editing tool](glossaire.md#editing-tool) that creates content in web format (HTML, CSS) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAWeb](../raweb1/index.html)? {id="test-13-1-1"}
-- **[Test 13.1.2](#test-13-1-2):** Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAPDF](../rapdf1/index.html)? {id="test-13-1-2"}
+- **[Test 13.1.2](#test-13-1-2):** Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAPDF](../rapdf1.1/index.html)? {id="test-13-1-2"}
 - **[Test 13.1.3](#test-13-1-3):** Can each [editing tool](glossaire.md#editing-tool) that creates content in non-web format (other than PDF) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN&nbsp;301&nbsp;549 v3.2.1? {id="test-13-1-3"}
 - **[Test 13.1.4](#test-13-1-4):** Can each [editing tool](glossaire.md#editing-tool) that creates content that is delivered in a mobile application have the ability to define the [accessibility information](glossaire.md#accessibility-information) needed to create content compliant with the RAAM? {id="test-13-1-4"}
 
@@ -2541,7 +2541,7 @@ Note: the documentation will be considered non-compliant as soon as an error is 
  	 - defining a text alternative for an image from the text editor or a media library;
 	 - defining the accessible name of a link;
 	 - etc.
-1. For functions that allow content to be created in PDF format, check that it is possible to define the accessibility information required to make the content compliant with the [RAPDF](../rapdf1/index.html). For example:
+1. For functions that allow content to be created in PDF format, check that it is possible to define the accessibility information required to make the content compliant with the [RAPDF](../rapdf1.1/index.html). For example:
 	 - defining a text alternative for an image from the text editor or a media library;
 	 - defining the accessible name of a link;
 	 - etc.	 
@@ -2598,7 +2598,7 @@ The criterion is not applicable when the destination format does not allow the a
 	- the information necessary for it to comply with the [RAWeb](../raweb1/index.html) (e.g. the alternative of an image, the headings levels) is preserved in the generated content;
 	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters an HTML table and, after saving, the tool linearises the table, the restructured information must be understandable to assistive technology users as it would have been in its original form).
 1. For each content item in PDF format, check that:
-	- the information necessary for it to comply with the [RAPDF](../rapdf1/index.html) (e.g. alternative image, headings levels) is preserved in the generated content;
+	- the information necessary for it to comply with the [RAPDF](../rapdf1.1/index.html) (e.g. alternative image, headings levels) is preserved in the generated content;
 	- the information, if restructured, remains compatible with assistive technologies (for example, if the author enters a table and, after saving, the tool linearises the table, the restructured information must be understandable to assistive technology users as it would have been in its original form).
 1. For all content in non-web format that is not PDF, check that:
 	- the information required to comply with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN&nbsp;301&nbsp;549 v3.2.1 is preserved in the generated content;
@@ -2638,7 +2638,7 @@ The criterion is not applicable when the destination format does not allow the a
 #### [Criterion 13.5](#crit-13-5) [A] For each set of [templates](glossaire.md#template), at least one template meets the requirements of [digital accessibility rules](glossaire.md#digital-accessibility-rules). Is this rule respected? {id="crit-13-5"}
 
 - **[Test 13.5.1](#test-13-5-1):** For each set of [templates](glossaire.md#template) in web format (HTML, CSS), at least one template complies with the [RAWeb](../raweb1/index.html). Is this rule respected? {id="test-13-5-1"}
-- **[Test 13.5.2](#test-13-5-2):** For each set of [templates](glossaire.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1/index.html). Is this rule respected? {id="test-13-5-2"}
+- **[Test 13.5.2](#test-13-5-2):** For each set of [templates](glossaire.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1.1/index.html). Is this rule respected? {id="test-13-5-2"}
 - **[Test 13.5.3](#test-13-5-3):** For each set of [templates](glossaire.md#template) in non-web format (other than PDF), at least one template complies with the criteria in section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1. Is this rule respected? {id="test-13-5-3"}
 - **[Test 13.5.4](#test-13-5-4):** For each set of [templates](glossaire.md#template) used to deliver content in a mobile application, at least one template complies with the RAAM criteria. Is this rule respected? {id="test-13-5-4"}
 
@@ -2648,7 +2648,7 @@ The criterion is not applicable when the destination format does not allow the a
 
 1. Identify the presence of templates provided by the editing tool.
 1. For templates in web format (HTML, CSS), check that at least one template meets all the [RAWeb](../raweb1/index.html) criteria.
-1. For templates in PDF format, check that at least one template complies with all the [RAPDF](../rapdf1/index.html) criteria.
+1. For templates in PDF format, check that at least one template complies with all the [RAPDF](../rapdf1.1/index.html) criteria.
 1. For templates in non-web format (other than PDF), check that at least one template meets all the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1.
 1. For templates used to distribute content in a mobile application, check that at least one template meets all the RAAM criteria.
 1. If this is the case, the criterion is validated.
@@ -2717,7 +2717,7 @@ The criterion is not applicable when the destination format does not allow the a
 #### [Criterion 14.3](#crit-14-3) [A] Does the [documentation](glossaire.md#documentation) provided by the [support service](glossaire.md#support-services) comply with the [digital accessibility rules](glossaire.md#digital-accessibility-rules)? {id="crit-14-3"}
 
 - **[Test 14.3.1](#test-14-3-1):** Does the [documentation](glossaire.md#documentation) provided by the support service in web format (HTML, CSS) comply with the [RAWeb](../raweb1/index.html)? {id="test-14-3-1"}
-- **[Test 14.3.2](#test-14-3-2):** Does the [documentation](glossaire.md#documentation) provided by the support service in PDF format comply with the [RAPDF](../rapdf1/index.html)? {id="test-14-3-2"}
+- **[Test 14.3.2](#test-14-3-2):** Does the [documentation](glossaire.md#documentation) provided by the support service in PDF format comply with the [RAPDF](../rapdf1.1/index.html)? {id="test-14-3-2"}
 - **[Test 14.3.3](#test-14-3-3):** Does the [documentation](glossaire.md#documentation) provided by the support service in a non-web format (other than PDF) comply with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1? {id="test-14-3-3"}
 - **[Test 14.3.4](#test-14-3-4):** Does the [documentation](glossaire.md#documentation) provided by the support service in a mobile application comply with the RAAM? {id="test-14-3-4"}
 
@@ -2727,7 +2727,7 @@ The criterion is not applicable when the destination format does not allow the a
 
 1. Identify the presence of a documentation provided by the support service.
 1. For documentation in web format (HTML, CSS), check that it complies with the [RAWeb](../raweb1/criteres.html) criteria.
-1. For documentation in PDF format, check that it complies with the [RAPDF](../rapdf1/index.html) criteria.
+1. For documentation in PDF format, check that it complies with the [RAPDF](../rapdf1.1/index.html) criteria.
 1. For documentation in non-web format (other than PDF), check that it complies with the criteria in [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN&nbsp;301&nbsp;549 v3.2.1;
 1. For documentation provided in a mobile application, check that it complies with the RAAM criteria.
 1. If it does, the criterion is validated.

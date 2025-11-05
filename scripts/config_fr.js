@@ -38,6 +38,7 @@ const config = {
     "deprecation": {
         "rgaa": ["<a href=\"../raweb1/index.html\">RAWeb 1</a>", "../raweb1/notes-revision.html"],
         "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
+        "rapdf": ["<a href=\"../raam1.1/index.html\">RAPDF 1.1</a>", "../rapdf1.1/notes-revision.html"]
     },
     "mainMenu": [
         {
@@ -283,55 +284,55 @@ const config = {
         {
             "title": "Référentiel PDF",
             "menu": "<span class='mobile-only'>Référentiel</span> PDF",
-            "name": "rapdf1",
+            "name": "rapdf1.1",
             "children": [ 
                 {
-                    "title": "Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1) : Introduction",
+                    "title": "Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1.1) : Introduction",
                     "menu": "Introduction",
-                    "name": "rapdf1/index",
-                    "md": "./content/fr/rapdf1/introduction.md", 
+                    "name": "rapdf1.1/index",
+                    "md": "./content/fr/rapdf1.1/introduction.md", 
                     "prefix": "../.." 
                 },                
                 {
-                    "title": "RAPDF 1 : Critères et tests",
+                    "title": "RAPDF 1.1 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "rapdf1/referentiel-technique",
-                    "md": "./content/fr/rapdf1/referentiel-technique.md",
+                    "name": "rapdf1.1/referentiel-technique",
+                    "md": "./content/fr/rapdf1.1/referentiel-technique.md",
                     "prefix": "../.." , 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Thématiques"
                 }, 
                 {
-                    "title": "RAPDF 1 : Glossaire",
+                    "title": "RAPDF 1.1 : Glossaire",
                     "menu": "Glossaire",
-                    "name": "rapdf1/glossaire",
-                    "md": "./content/fr/rapdf1/glossaire.md",
+                    "name": "rapdf1.1/glossaire",
+                    "md": "./content/fr/rapdf1.1/glossaire.md",
                     "prefix": "../.." ,            
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
                 },                          
                 {
-                    "title": "RAPDF 1 : Méthodologie de test",
+                    "title": "RAPDF 1.1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "rapdf1/methodologie",
-                    "md": "./content/fr/rapdf1/methodologie.md",
+                    "name": "rapdf1.1/methodologie",
+                    "md": "./content/fr/rapdf1.1/methodologie.md",
                     "prefix": "../.." , 
                     "slugify": "slugifyA42"
                 },
                 {
-                    "title": "RAPDF 1 : Environnement de test",
+                    "title": "RAPDF 1.1 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "rapdf1/environnement",
-                    "md": "./content/fr/rapdf1/environnement.md",
+                    "name": "rapdf1.1/environnement",
+                    "md": "./content/fr/rapdf1.1/environnement.md",
                     "prefix": "../.." 
                 },  
                 {
-                    "title": "RAPDF 1 : Références",
+                    "title": "RAPDF 1.1 : Références",
                     "menu": "Références",
-                    "name": "rapdf1/references",
-                    "md": "./content/fr/rapdf1/references.md",
+                    "name": "rapdf1.1/references",
+                    "md": "./content/fr/rapdf1.1/references.md",
                     "prefix": "../.."  
                 }
             ]
@@ -388,6 +389,62 @@ const config = {
         }             
     ],
     "deprecated": [
+        {
+            "title": "Référentiel PDF",
+            "menu": "<span class='mobile-only'>Référentiel</span> PDF",
+            "name": "rapdf1",
+            "children": [ 
+                {
+                    "title": "Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "rapdf1/index",
+                    "md": "./content/fr/rapdf1/introduction.md", 
+                    "prefix": "../.." 
+                },                
+                {
+                    "title": "RAPDF 1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "rapdf1/referentiel-technique",
+                    "md": "./content/fr/rapdf1/referentiel-technique.md",
+                    "prefix": "../.." , 
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques"
+                }, 
+                {
+                    "title": "RAPDF 1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "rapdf1/glossaire",
+                    "md": "./content/fr/rapdf1/glossaire.md",
+                    "prefix": "../.." ,            
+                    "slugify": "slugifyA42", 
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index"
+                },                          
+                {
+                    "title": "RAPDF 1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "rapdf1/methodologie",
+                    "md": "./content/fr/rapdf1/methodologie.md",
+                    "prefix": "../.." , 
+                    "slugify": "slugifyA42"
+                },
+                {
+                    "title": "RAPDF 1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "rapdf1/environnement",
+                    "md": "./content/fr/rapdf1/environnement.md",
+                    "prefix": "../.." 
+                },  
+                {
+                    "title": "RAPDF 1 : Références",
+                    "menu": "Références",
+                    "name": "rapdf1/references",
+                    "md": "./content/fr/rapdf1/references.md",
+                    "prefix": "../.."  
+                }
+            ]
+        },
         {
             "title": "RGAA 4.1.2",
             "name": "rgaa4.1.2",
