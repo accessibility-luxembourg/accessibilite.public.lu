@@ -4,7 +4,7 @@ title: Légende d’image
 
 Lorsqu’un texte, adjacent à une image, contient des informations sur l’image (par exemple un copyright, une date, un auteur…) ou est destiné à compléter les informations apportées par l’image (par exemple un texte associé à une image dans une galerie d’images), on parle de légende d’image.
 
-Lorsqu’une image est légendée il est nécessaire d’associer la légende de l’image à l’image par une relation de structure, de telle sorte que les technologies d’assistance puissent traiter l’image et sa légende comme un ensemble unique.
+Lorsqu’une image est légendée, il est nécessaire d’associer la légende de l’image à l’image par une relation de structure, de telle sorte que les technologies d’assistance puissent traiter l’image et sa légende comme un ensemble unique.
 
 HTML5 propose d’associer une légende à une image via les éléments `figure` (l’ensemble de l’image et la légende) et `figcaption` (la légende).
 

@@ -53,9 +53,9 @@ L’échantillon sur lequel est réalisé l’audit d’un site web porte au moi
 1. la page ou un ensemble de pages constituant la [documentation](./glossaire.html#documentation) du site web (si elles sont différentes de la page «&nbsp;accessibilité&nbsp;» et de la page «&nbsp;aide&nbsp;»)&nbsp;;
 1. la page ou un ensemble de pages constituant la [documentation](./glossaire.html#documentation) du [service d’assistance](./glossaire.html#service-d-assistance)&nbsp;;
 1. la page «&nbsp;plan du site&nbsp;»&nbsp;;
-1. au moins une page pertinente pour chaque type de service fourni et toute autre utilisation principale prévue (ex.&nbsp;: rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche&nbsp;;
+1. au moins une page pertinente pour chaque type de service fourni et toute autre utilisation principale prévue (ex.&nbsp;: rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche (voir ci-dessous si vous êtes concernés par la loi du 8 mars 2023)&nbsp;;
 1. une page contenant au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue&nbsp;;
-1. l’ensemble des pages constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs pages)&nbsp;;
+1. l’ensemble des pages constituant un processus, par exemple, un formulaire de saisie ou une transaction sur plusieurs pages (voir ci-dessous si vous êtes concernés par la loi du 8 mars 2023)&nbsp;;
 1. des exemples de pages ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex.&nbsp;: page contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, une fonctionnalité de communication en temps réel, etc.).
 
 La sélection des pages auditées ainsi que leur nombre doivent être représentatifs du site. Les statistiques de consultation peuvent notamment être prises en compte lors de la constitution de l’échantillon.
@@ -64,9 +64,9 @@ Enfin, s’ajoutent des pages sélectionnées au hasard représentant au moins 1
 
 ##### Cas des entités concernées par la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo)
 
-Pour les entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), des pages et processus spécifiques obligatoires doivent obligatoirement faire partie de l'échantillon d'évaluation, en fonction des services.
+Pour les entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), des pages et processus spécifiques obligatoires doivent faire partie de l’échantillon d’évaluation, en fonction des services.
 
-Par exemple, pour les services bancaires, les pages et fonctionnalités suivantes doivent être évaluées, si elles existent&nbsp;: 
+Par exemple, pour les services bancaires de type &laquo;&nbsp;banque en ligne&nbsp;&raquo;, les pages et fonctionalités suivantes devraient être en priorité inclues dans l’échantillon, si elles existent :&nbsp;: 
 * Une page avec signature électronique&nbsp;;
 * Informations sur les comptes&nbsp;:
   * Liste des comptes&nbsp;;
@@ -88,13 +88,12 @@ Par exemple, pour les services bancaires, les pages et fonctionnalités suivante
   * Conseil en investissement&nbsp;;
   * Exécution d’ordres.
 * Système de validation de paiement (3D Secure).
-
-Et de manière générale pour tous les services confondus, on pourra aussi intégrer,si elles existent&nbsp;: 
 * La fonctionnalité de communication électronique (messagerie sécurisée)&nbsp;;
-* La fonctionnalité e-commerce (tunnel d'achat jusqu'au paiement).
+* La fonctionnalité e-commerce (tunnel d’achat jusqu’au paiement).
 
-Cette liste n'est pas exhaustive, elle vise juste à illustrer l'obligation spécifique qui incombe aux entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo).
+Un tel éventail devra être dressé pour chaque service proposé en ligne, qu’il s’agisse d’une fonctionnalité de communication électronique (messagerie sécurisée), ou encore d’une fonctionnalité e-commerce (tunnel d’achat jusqu’au paiement).
 
+Cette liste n’est pas exhaustive, elle vise juste à illustrer l’obligation spécifique qui incombe aux entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo).
 
 #### Environnement de test (ou «&nbsp;base de référence&nbsp;»)
 
@@ -185,7 +184,7 @@ Les barres d’outils suivantes sont des extensions de navigateur qui vont facil
 
 Au-delà de la simple barre d’outil, d’autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d’accessibilité ou à l’inverse les éléments qui lui sont bénéfiques. Des filtres permettent alors souvent de n’afficher que certains de ces aspects. C’est ce que propose Wave, une solution disponible à la fois en ligne (http://wave.webaim.org) et comme extension de navigateur (https://wave.webaim.org/extension/).
 
-Bien qu’il ne soit plus requis de contrôler la validité du code source, il peut être utile, à des fins de recherches d’anomalies, d'utiliser le validateur HTML. La validation du code source d’un document HTML utilise le validateur en ligne du W3C (https://validator.w3.org/nu/). À noter que pour valider le code source généré par le navigateur, il faut utiliser l’option "Text input" de la liste de sélection intitulé "Check by" et copier dans la zone de saisie multiligne qui est alors proposée, la source HTML disponible à partir de l’inspecteur de code du navigateur.
+Bien qu’il ne soit plus requis de contrôler la validité du code source, il peut être utile, à des fins de recherches d’anomalies, d’utiliser le validateur HTML. La validation du code source d’un document HTML utilise le validateur en ligne du W3C (https://validator.w3.org/nu/). À noter que pour valider le code source généré par le navigateur, il faut utiliser l’option "Text input" de la liste de sélection intitulé "Check by" et copier dans la zone de saisie multiligne qui est alors proposée, la source HTML disponible à partir de l’inspecteur de code du navigateur.
 Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
 
 La vérification des contrastes de couleurs bénéficie de différents outils :

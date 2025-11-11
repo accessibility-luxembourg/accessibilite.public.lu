@@ -28,4 +28,4 @@ Norm:
 
 Voir cas particuliers critère 4.1.
 
-Les médias temporels synchronisés en direct diffusés via un site web soumise à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés.
+Les médias temporels synchronisés en direct diffusés via un site web soumis à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés.

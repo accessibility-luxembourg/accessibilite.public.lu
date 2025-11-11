@@ -43,4 +43,4 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les
 
 #### Notes techniques
 
-Le test 11.10.1 et le test 11.10.2 traitent des critères de manière isolée, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.
+Le test 11.10.1 et le test 11.10.2 traitent des champs de manière indépendante, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.

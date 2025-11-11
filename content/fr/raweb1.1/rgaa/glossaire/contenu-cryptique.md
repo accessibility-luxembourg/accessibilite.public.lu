@@ -7,7 +7,6 @@ Contenu écrit à l’aide de caractères détournés. Par exemple, des émotic�
 Quelques exemples :
 * émoticône : :) (sourire), ^^ (sourire les yeux plissés), O_o (interloqué) ;
 * syntaxe cryptique : m4gic (magique) ;
-* caractères mathématiques ressemblant à des lettres : 𝒉𝒆𝒍𝒍𝒐  (hello) ;
-* caractères symboles : <code>♥</code> (c&oelig;ur).
+* caractères mathématiques ressemblant à des lettres : 𝒉𝒆𝒍𝒍𝒐 (hello).
 
 Note : les « hashtags » (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.
