@@ -2,7 +2,7 @@
 title: Notes de révision du RAWeb 1 vers RAWeb 1.1
 ---
 
-Le [RAWeb 1.1](/fr/raweb1.1/) est le référentiel d’accessibilité luxembourgeois qui couvre l’ensemble des exigences de la norme européenne [EN 301 549 v3.2.1]() actuellement en vigueur dans toute l'Europe.
+Le [RAWeb 1.1](/fr/raweb1.1/) est le référentiel d’accessibilité luxembourgeois qui couvre l’ensemble des exigences de la norme européenne [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) actuellement en vigueur dans toute l'Europe.
 Il s'agit d'une mise à jour du [RAWeb 1.0](/fr/raweb1/), lui-même dérivé du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) publié par la DINUM en France.
 Le RAWeb 1.0 dispose de ses propres [notes de révision](/fr/raweb1/notes-revision.html).
 

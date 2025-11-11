@@ -1,4 +1,4 @@
-*Version 1, publiée le 8 février 2024*
+*Version 1.1, publiée le xx xx xxxx*
 
 D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. 
 Le [Service information et presse (SIP)](https://sip.gouvernement.lu/) est en charge de l’évaluation de leur accessibilité.
@@ -15,7 +15,7 @@ Certains tests, concernant notamment les composants d’interface développés e
 
 La méthode technique du RAWeb couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1.1](../raam1.1/index.html).
 
-La présente version est la version 1, et contient des contenus issus du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service information et presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb).
+La présente version est la version 1.1, et contient des contenus issus du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). Ce référentiel a été adapté par le [Service information et presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb).
 En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
 
 ### Sommaire
