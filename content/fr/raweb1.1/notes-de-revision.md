@@ -6,7 +6,7 @@ Le [RAWeb 1.1](/fr/raweb1.1/) est le référentiel d’accessibilité luxembour
 Il s'agit d'une mise à jour du [RAWeb 1.0](/fr/raweb1/), lui-même dérivé du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) publié par la DINUM en France.
 Le RAWeb 1.0 dispose de ses propres [notes de révision](/fr/raweb1/notes-revision.html).
 
-L'ensemble des évolutions réalisées entre les versions 1.1 et 1.0 du RAWeb sont détaillées ci-dessous :
+L'ensemble des évolutions réalisées entre les versions 1.1 et 1.0 du RAWeb sont détaillées ci-dessous&nbsp;:
 
 
 ### Méthodologie
@@ -19,7 +19,7 @@ L'ensemble des évolutions réalisées entre les versions 1.1 et 1.0 du RAWeb so
 
 L'intitulé du [critère 1.2](/fr/raweb1.1/criteres.html#crit-1-2) est modifié pour intégrer la notion &laquo;&nbsp;sans légende&nbsp;&raquo;, comme c'est déjà le cas sur l'intitulé du test.
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -27,7 +27,7 @@ Chaque image de décoration est-elle correctement ignorée par les technologies 
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -57,7 +57,7 @@ Les méthodologies sont modifiées en conséquence.
 
 <b>Attention&nbsp;:</b> Il y a ici un cas de **défaut de rétrocompatibilité avec le RAWeb 1**. En effet, des images masquées avec le `role="presentation"` mais avec un nommage `title`, `aria-label` ou `aria-labelledby` ont pu être considérées conformes. Elles seront considérées non conformes avec cette nouvelle version du test. 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -73,7 +73,7 @@ steps:
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -101,7 +101,7 @@ Au [test 1.2.4](/fr/raweb1.1/criteres.html#test-1-2-4), le RAWeb 1 demandait de 
 
 La méthodologie est modifiée en conséquence.
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -114,7 +114,7 @@ Chaque image vectorielle (balise `<svg>`) de décoration, sans légende, vérifi
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -128,7 +128,7 @@ La note technique du [critère 1.6](/fr/raweb1.1/criteres.html#crit-1-6) est mod
 - l'intégration de l'élément `<title>` dans le calcul du nom accessible d'un élément `<svg>` (voir l'évolution de l'entrée de glossaire [Alternative textuelle (image)](glossaire.html#alternative-textuelle-image))&nbsp;;
 - l'évolution du [critère 1.9](/fr/raweb1.1/criteres.html#crit-1-9) et la suppression des exigences liées à la présence d'un attribut `role` et `aria-label`.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -140,7 +140,7 @@ La description détaillée adjacente peut être implémentée via une balise `<f
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -173,7 +173,7 @@ La note technique est également modifiée pour prendre en compte ces changement
 
 ##### Note technique
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -187,7 +187,7 @@ Note : les images légendées doivent par ailleurs respecter le critère 1.1 et
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -199,7 +199,7 @@ Les images légendées doivent par ailleurs respecter le critère 1.1 et le crit
 
 Les méthodologies des tests du [critère 3.1](/fr/raweb1.1/criteres.html#crit-3-1) étaient incomplètes, elles sont modifiées pour mieux refléter ce qui est effectivement attendu en termes d’implémentation de graphique et de code. Pour chacun des 6 tests, la deuxième étape est modifiée.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -207,7 +207,7 @@ Les méthodologies des tests du [critère 3.1](/fr/raweb1.1/criteres.html#crit-3
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -221,7 +221,7 @@ Les méthodologies des tests du [critère 3.1](/fr/raweb1.1/criteres.html#crit-3
 
 Le cas particulier référencé au [critère 4.1](/fr/raweb1.1/criteres.html#crit-4-1) est modifié pour prendre en compte l’entrée en vigueur de la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) afin de conditionner l’exemption des média temporel publié avant le 23 septembre 2020, uniquement aux organismes du secteur public soumis à la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -229,7 +229,7 @@ Le cas particulier référencé au [critère 4.1](/fr/raweb1.1/criteres.html#cri
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -247,7 +247,7 @@ Le [critère 4.3](/fr/raweb1.1/criteres.html#crit-4-3) est modifié afin de pren
 
 ##### Critère 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -255,7 +255,7 @@ Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -283,7 +283,7 @@ Le [critère 4.4](/fr/raweb1.1/criteres.html#crit-4-4) est modifié afin de pren
 
 ##### Critère 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -291,7 +291,7 @@ Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres 
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -323,7 +323,7 @@ L'intitulé du [test 6.2.2](/fr/raweb1.1/criteres.html#test-6-2-2) est modifié 
 
 Cette évolution accompagne l'évolution de la note de glossaire [Intitulé (ou nom accessible) de lien](glossaire.html#intitule-ou-nom-accessible-de-lien) qui ne demande plus à invalider le critère 6.2 et 10.2 dans le cas où un lien n'aurait pas de contenu entre les balises. Le [critère 6.2](/fr/raweb1.1/criteres.html#crit-6-2) ne s'intéresse plus qu'à la présence d'un nom accessible.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -331,7 +331,7 @@ Dans chaque page web, chaque lien a-t-il un intitulé entre `<a>` et `</a>` ?
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -341,9 +341,9 @@ Dans chaque page web, chaque lien a-t-il un intitulé&nbsp;?
 
 #### 7.1
 
-La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modifiée. Elle faisait référence au nom accessible et l'intitulé visible comme deux dénominations d'un même élément.
+La méthodologie du [test 6.2.2](/fr/raweb1.1/criteres.html#test-6-2-2) est modifiée. Elle faisait référence au nom accessible et l'intitulé visible comme deux dénominations d'un même élément.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -353,7 +353,7 @@ La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modi
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -368,14 +368,14 @@ La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modi
 Le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2) est modifié afin de prendre en compte l'évolution du support par les technologies d'assistance des balises HTML permettant de structurer les grandes régions de la page. Il n'est plus obligatoire de recourir à l'implémentation conjointe d'une balise HTML5 et d'un `role` ARIA équivalent. Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est d'ailleurs également modifié en ce sens.
 
 - La notion de [rôle calculé](glossaire.html#role-calcule) est introduite dans le glossaire à cette fin.
-- Le test [test 9.2.1](/fr/raweb1.1/criteres.html#test-9-2-1)  est modifié ainsi que sa méthodologie.
+- Le [test 9.2.1](/fr/raweb1.1/criteres.html#test-9-2-1) est modifié ainsi que sa méthodologie.
 - Les tests [9.2.2](/fr/raweb1.1/criteres.html#test-9-2-2), [9.2.3](/fr/raweb1.1/criteres.html#test-9-2-3) et [9.2.4](/fr/raweb1.1/criteres.html#test-9-2-4) sont créés ainsi que leurs méthodologies. 
-- Le cas particuliers relatif au DOCTYPE est supprimé.
+- Le cas particulier relatif au DOCTYPE est supprimé.
 - La note technique est modifiée pour refléter ces changements.
 
 ##### Cas particulier
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 Pour mémoire, le cas particulier supprimé&nbsp;:
 
@@ -387,7 +387,7 @@ Lorsque le doctype déclaré dans la page n’est pas le doctype HTML5, ce crit�
 
 ##### Note technique
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 La balise `<main>` peut être utilisée plusieurs fois dans le même document HTML. Néanmoins, il ne peut y avoir en permanence qu’une seule balise visible et lisible par les technologies d’assistances, les autres devant disposer d’un attribut `hidden` ou d’un style permettant de les masquer aux technologies d’assistances. À noter cependant que l’utilisation d’un style seul restera insuffisante pour assurer l’unicité d’une balise `<main>` visible en cas de désactivation des feuilles de styles.
 
@@ -399,7 +399,7 @@ Il peut y avoir plusieurs éléments ayant le rôle calculé de `main` dans le m
 
 ##### 9.2.1
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -414,13 +414,13 @@ Dans chaque page web, la structure du document vérifie-t-elle ces conditions (h
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
 Dans chaque page web, les zones principales de la page constituant la structure du document vérifient-elles ces conditions&nbsp;?
 
-- L’élément contenant lazone d’en-tête de la page a un rôle calculé de `banner`.
+- L’élément contenant la zone d’en-tête de la page a un rôle calculé de `banner`.
 - Les éléments contenant les zones de navigation principales et secondaires ont un rôle calculé de `navigation`.
 - L’élément contenant la zone de moteur de recherche a un rôle calculé de `search`.
 - L’élément contenant la zone de contenu principal a un rôle calculé de `main`.
@@ -432,7 +432,7 @@ Dans chaque page web, les zones principales de la page constituant la structure 
 
 La méthodologie du [test 10.1.2](/fr/raweb1.1/criteres.html#test-10-1-2) est modifiée afin d'ajouter les éléments `<iframe>`, `<source>` et les enfants de `<svg>` à l'exception de l'usage des attributs `width` ou `height`. La première condition de la méthodologie est modifiée.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -440,7 +440,7 @@ La méthodologie du [test 10.1.2](/fr/raweb1.1/criteres.html#test-10-1-2) est mo
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -451,12 +451,13 @@ La méthodologie du [test 10.1.2](/fr/raweb1.1/criteres.html#test-10-1-2) est mo
 
 #### 10.2
 
-Le [critère 10.2](/fr/raweb1.1/criteres.html#crit-10-2)  et le [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1) sont reformulé pour une meilleure compréhension de l'exigence et du périmètre d'évaluation. La méthodologie du [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1) est également mise à jour.
+Le [critère 10.2](/fr/raweb1.1/criteres.html#crit-10-2)  et le [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1)  sont reformulés pour une meilleure compréhension de l'exigence et du périmètre d'évaluation. La méthodologie du [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1) est également mise à jour.
+
 Cette évolution accompagne la modification de la note de glossaire [Contenu visible](glossaire.html#contenu-visible).
 
 #### Critère 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -464,7 +465,7 @@ Dans chaque page web, le contenu visible porteur d’information reste-t-il pré
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -474,7 +475,7 @@ Dans chaque page web, le contenu visible porteur d’information est-il accessib
 
 #### 10.2.1 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -482,7 +483,7 @@ Dans chaque page web, l’information reste-t-elle présente lorsque les feuille
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -492,9 +493,9 @@ Dans chaque page web, le contenu visible porteur d’information est-il accessib
 
 #### 10.4
 
-Les méthodologies des tests [10.4.1](/fr/raweb1.1/criteres.html#test-10-4-1) et [10.4.2](/fr/raweb1.1/criteres.html#test-10-4-2) sont modifiées pour expliciter le fait qu'une seule des conditions doit être remplie. 
+Les méthodologies des tests [test 10.4.1](/fr/raweb1.1/criteres.html#test-10-4-1) et [test 10.4.2](/fr/raweb1.1/criteres.html#test-10-4-2) sont modifiées pour expliciter le fait qu'une seule des conditions doit être remplie. 
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -504,7 +505,7 @@ Les méthodologies des tests [10.4.1](/fr/raweb1.1/criteres.html#test-10-4-1) et
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -516,13 +517,13 @@ Les méthodologies des tests [10.4.1](/fr/raweb1.1/criteres.html#test-10-4-1) et
 
 #### 10.7
 
-Le [critère 10.7](/fr/raweb1.1/criteres.html#crit-10-7) et le [test 10.7.1](/fr/raweb1.1/criteres.html#test-10-7-1) sont modifiées pour expliciter le fait qu'il est uniquement question du focus du clavier et non pas du focus souris.
+Le [critère 10.7](/fr/raweb1.1/criteres.html#crit-10-7) et le [test 10.7.1](/fr/raweb1.1/criteres.html#test-10-7-1) sont modifiés pour expliciter le fait qu'il est uniquement question du focus du clavier et non pas du focus souris.
 
 La méthodologie est également modifiée en conséquence.
 
 ##### Critère 
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -530,7 +531,7 @@ Dans chaque page web, pour chaque élément recevant le focus, la prise de focus
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -540,7 +541,7 @@ Dans chaque page web, pour chaque élément recevant le focus du clavier, la pri
 
 ##### 10.7.1
 
-###### Dans le RAWeb 1&nbsp;:
+###### Dans le RAWeb 1
 
 <blockquote>
 
@@ -548,7 +549,7 @@ Pour chaque élément recevant le focus, la prise de focus vérifie-t-elle une d
 
 </blockquote>
 
-###### Dans le RAWeb 1.1&nbsp;:
+###### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -558,9 +559,9 @@ Pour chaque élément recevant le focus du clavier, la prise de focus vérifie-t
 
 #### 10.12 
 
-Les conditions du [test 10.12.1](/fr/raweb1.1/criteres.html#test-10-12-1) sont reformulées pour refléter au mieux l'attendu&nbsp;: &laquo;&nbsp;augmenté jusqu’à&nbsp;&raquo; est remplacé par &laquo;&nbsp;défini à au moins&nbsp;&raquo;.
+Les conditions du [test 10.12.1](/fr/raweb1.1/criteres.html#test-10-12-1)  sont reformulées pour refléter au mieux l'attendu&nbsp;: &laquo;&nbsp;augmenté jusqu’à&nbsp;&raquo; est remplacé par &laquo;&nbsp;défini à au moins&nbsp;&raquo;.
 
-##### Dans le RAWeb 1&nbsp;:
+##### Dans le RAWeb 1
 
 <blockquote>
 
@@ -571,7 +572,7 @@ Les conditions du [test 10.12.1](/fr/raweb1.1/criteres.html#test-10-12-1) sont r
 
 </blockquote>
 
-##### Dans le RAWeb 1.1&nbsp;:
+##### Dans le RAWeb 1.1
 
 <blockquote>
 
@@ -579,6 +580,496 @@ Les conditions du [test 10.12.1](/fr/raweb1.1/criteres.html#test-10-12-1) sont r
 - L’espacement suivant les paragraphes (balise `<p>`) est défini à au moins 2 fois la taille de la police.
 - L’espacement des lettres (`letter-spacing`) est défini à au moins 0,12 fois la taille de la police.
 - L’espacement des mots (`word-spacing`) est défini à au moins 0,16 fois la taille de la police.
+
+</blockquote>
+
+#### 11.4
+
+Les tests [test 11.4.2](/fr/raweb1.1/criteres.html#test-11-4-2) et [11.4.3](/fr/raweb1.1/criteres.html#test-11-4-3) sont supprimés ainsi que le cas particulier. [@@TODO à réédiger]
+
+Le critère est réécrit pour supprimer la mention &laquo;&nbsp;(hors cas particuliers)&nbsp;&raquo;.
+
+Pour mémoire, les tests 11.4.2 et 11.4.3 dans le RAWeb 1 
+
+<blockquote>
+
+Test 11.4.2&nbsp;: Chaque étiquette accolée à un champ (à l’exception des cases à cocher, bouton radio ou balises ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"`), vérifie-t-elle ces conditions (hors cas particuliers) ?
+
+- L’étiquette est visuellement accolée immédiatement au-dessus ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l’étiquette est de gauche à droite.
+- L’étiquette est visuellement accolée immédiatement au-dessus ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l’étiquette est de droite à gauche.
+
+Test 11.4.3&nbsp;: Chaque étiquette accolée à un champ de type `checkbox` ou `radio` ou à une balise ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"`, vérifie-t-elle ces conditions (hors cas particuliers) ?
+
+- L’étiquette est visuellement accolée immédiatement au-dessous ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l’étiquette est de gauche à droite.
+- L’étiquette est visuellement accolée immédiatement au-dessous ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l’étiquette est de droite à gauche.
+
+</blockquote>
+
+Pour mémoire, le cas particulier Dans le RAWeb 1
+
+<blockquote>
+
+Les tests 11.4.2 et 11.4.3 seront considérés comme non applicables :
+
+- Dans le cas où l’étiquette mélange une portion de texte qui se lit de droite à gauche avec une portion de texte qui se lit de gauche à droite ;
+- Dans le cas où un formulaire contient des labels de plusieurs langues qui se liraient de droite à gauche et inversement. Par exemple, un formulaire de commande en arabe qui propose une liste de cases à cocher de produit en langue française ou mixant des produits en langue arabe ou en langue française ;
+- Dans le cas où les champs de type `radio` ou `checkbox` et les balises ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"` ne sont pas visuellement présentés sous forme de bouton radio ou de case à cocher ;
+- Dans le cas où les champs seraient utilisés dans un contexte où il pourrait être légitime, du point de vue de l’expérience utilisateur, de placer les étiquettes de manière différente à celle requise dans les tests 11.4.2 et 11.4.3.
+
+</blockquote>
+
+#### 11.10 
+
+Les tests du [critère 11.10](/fr/raweb1.1/criteres.html#crit-11-10) sont modifiés&nbsp;: 
+- pour introduire les champs optionnels dans les tests (référencés avant uniquement en cas particuliers) ; 
+- pour étendre les possibilités d'identification des champs obligatoires (test 11.10.2) ;
+- pour étendre l'obligation d'indication des formats de saisie à tous les champs dont le format est contrôlé, et pas uniquement aux champs obligatoires (test 11.10.4).
+
+Les méthodologies sont modifiées en conséquence.
+
+Les cas particuliers sont modifiés pour refléter ces changements. Un cas particulier pour l'identification des champs obligatoires est ajouté afin d'exclure les cas où l'usage permet de déduire le caractère obligatoire des champs (les formulaires de connexion par exemple).
+
+La note technique est modifiée pour refléter ces changements.
+
+La note de glossaire [Indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire-ou-facultatif) est renommée &laquo;&nbsp;Indication de champ obligatoire ou facultatif&nbsp;&raquo; et modifiée pour accompagner ce changement.
+
+##### 11.10.1
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Les indications du caractère obligatoire de la saisie des champs vérifient-elles une de ces conditions (hors cas particuliers) ?
+
+- Une indication de champ obligatoire est visible et permet d’identifier nommément le champ concerné préalablement à la validation du formulaire.
+- Le champ obligatoire dispose de l’attribut `aria-required="true"` ou `required` préalablement à la validation du formulaire.
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Les indications du caractère obligatoire **ou facultatif** de la saisie des champs vérifient-elles une de ces conditions (hors cas particuliers) ?
+
+- Une indication de champ obligatoire est visible et permet d’identifier nommément le champ concerné préalablement à la validation du formulaire.
+- Le champ obligatoire dispose de l’attribut `aria-required="true"` ou `required` préalablement à la validation du formulaire.
+- **Une indication de champ facultatif est visible et permet d’identifier nommément le champ concerné préalablement à la validation du formulaire.**
+
+</blockquote>
+
+##### 11.10.2
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Les champs obligatoires ayant l’attribut `aria-required="true"` ou `required` vérifient-ils une de ces conditions ?
+
+- Une indication de champ obligatoire est visible et située dans l’étiquette associée au champ préalablement à la validation du formulaire.
+- Une indication de champ obligatoire est visible et située dans le passage de texte associé au champ préalablement à la validation du formulaire.
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Les champs obligatoires ayant l’attribut `aria-required="true"` ou `required` vérifient-ils une de ces conditions ?
+
+- **Une indication de champ obligatoire est visible et permet d’identifier nommément le champ concerné préalablement à la validation du formulaire.**
+- Une indication de champ obligatoire est visible et située dans l’étiquette associée au champ préalablement à la validation du formulaire.
+- Une indication de champ obligatoire est visible et située dans le passage de texte associé au champ préalablement à la validation du formulaire.
+- **Une indication de champ obligatoire est visible et située dans la légende associée au champ préalablement à la validation du formulaire.**
+
+</blockquote>
+
+##### 11.10.4
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Les champs obligatoires ayant l’attribut `aria-invalid="true"` vérifient-ils une de ces conditions ?
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Les champs ayant l’attribut `aria-invalid="true"` vérifient-ils une de ces conditions ?
+
+</blockquote>
+
+##### Cas particuliers
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Le test 11.10.1 et le test 11.10.2 seront considérés comme non applicables lorsque le formulaire comporte un seul champ de formulaire ou qu’il indique les champs optionnels de manière :
+
+- Visible ;
+- Dans la balise `<label>` ou dans la légende associée au champ.
+
+Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les tests 11.10.1 et 11.10.2 restent applicables.
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Le test 11.10.1 et le test 11.10.2 seront considérés comme non applicables lorsque : 
+* le formulaire comporte un seul [champ de formulaire](#champ-de-saisie-de-formulaire)&nbsp;;
+* le formulaire comporte uniquement un champ d’identifiant et un champ de mot de passe (dans le cas d’un formulaire d’identification).
+
+Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, les tests 11.10.1 et 11.10.2 restent applicables.
+
+</blockquote>
+
+##### Notes techniques
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Dans un long formulaire dont la majorité des champs sont obligatoires, on pourrait constater que ce sont les quelques champs restés facultatifs qui sont explicitement signalés comme tels. Dans ce cas, il faudrait s’assurer que :
+
+- Un message précise visuellement en haut de formulaire que &laquo;&nbsp;tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs&nbsp;&raquo; ;
+- Une mention &laquo;&nbsp;facultatif&nbsp;&raquo; est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;
+- Un attribut `required` ou `aria-required="true"` reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif.
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Le test 11.10.1 et le test 11.10.2 traitent des champs de manière indépendante, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.
+
+</blockquote>
+
+#### 12.6
+
+Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est modifié pour prendre en compte l'évolution des exigences sur l'implémentation des landamrks (voir l'[évolution du critère 9.2](#9.2))&nbsp;: il n'est plus obligatoire de recourir à l'implémentation conjointe d'une balise HTML5 et d'un `role` ARIA équivalent. 
+
+Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est ainsi modifié pour ne s'appliquer qu'aux régions autres que les zones principales déjà identifiées dans le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2).
+
+La définition de [Landmarks](#landmarks---modification) est modifiée pour refléter ces changements.
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+Critère 12.6&nbsp;: Les zones de regroupement de contenus présentes dans plusieurs pages web (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) peuvent-elles être atteintes ou évitées ?
+
+Test 12.6.1&nbsp;: Dans chaque page web où elles sont présentes, la zone d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche respectent-elles au moins une de ces conditions ?
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+Critère 12.6&nbsp;: Les zones de regroupement de contenus présentes dans plusieurs pages web **(à l’exception des zones principales constituant la structure du document)** peuvent-elles être atteintes ou évitées, **si nécessaire** ?
+
+Test 12.6.1&nbsp;: Les zones de regroupement de contenus présentes dans plusieurs pages web **(à l’exception des zones principales constituant la structure du document)** respectent-elles au moins une de ces conditions, **si nécessaire** ?
+
+</blockquote>
+
+#### 13.1
+
+La méthodologie du [test 13.1.2](/fr/raweb1.1/criteres.html#test-13-1-2)  est modifiée pour plus de précisions.
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+1. Retrouver dans le document une redirection automatique initiée par un élément `<meta http-equiv="refresh" content="0;URL='[URL ciblée]'" />`.
+2. Vérifier que la redirection est immédiate.
+3. Si c’est le cas, **le test est validé**.
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+1. Retrouver dans le document une redirection automatique initiée par un élément `<meta http-equiv="refresh" />`.
+2. Si un procédé de redirection existe, vérifier :
+    - soit que la redirection est immédiate (la propriété `content` doit avoir la valeur `0`, par exemple `content="0; URL=’https://url.com’"`)
+    - soit que la limite de temps avant la redirection est de vingt heures, au moins (la propriété `content` a alors une valeur supérieure ou égale à `72000`, par exemple `content="80000; URL=’https://url.com’"`).
+3. Si c’est le cas, **le test est validé**.
+
+</blockquote>
+
+#### 13.2
+
+La méthodologie du [test 13.2.1](/fr/raweb1.1/criteres.html#test-13-2-1)  est modifiée pour plus de précisions.
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+1. Vérifier qu’à l’ouverture du document, aucune nouvelle fenêtre (pop-up ou pop-under, par exemple) n’est ouverte.
+2. Si c’est le cas, **le test est validé**.
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+1. Pendant la consultation d’une page, vérifier qu’aucune nouvelle fenêtre (fenêtre de navigateur ou nouvel onglet) n’est ouverte sans action de l’utilisateur.
+2. Si c’est le cas, **le test est validé**.
+
+</blockquote>
+
+#### 13.3
+
+Le cas particulier référencé au [critère 13.3](/fr/raweb1.1/criteres.html#crit-13-3) est modifié pour prendre en compte l’entrée en vigueur de la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) afin de conditionner l’exemption des fichiers bureautiques publié avant le 23 septembre 2020, uniquement aux organismes du secteur public soumis à la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+Il existe une gestion de cas particuliers :
+
+- Si les fichiers bureautiques (ex : PDF, documents Microsoft ou libreOffice, etc.) ont été publiés avant le 23 septembre 2018 (sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné), ils sont exemptés de l’obligation d’accessibilité, d’après la loi du [28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+Il existe une gestion de cas particuliers :
+
+- Si les fichiers bureautiques (ex : PDF, documents Microsoft ou libreOffice, etc.) ont été publiés avant le 23 septembre 2018 sur un site internet d’un organisme du secteur public soumis à la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) (sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné), ils sont exemptés de l’obligation d’accessibilité.
+
+</blockquote>
+
+#### 13.5 
+
+Le [critère 13-5](/fr/raweb1.1/criteres.html#crit-13-5) est modifié afin de mieux définir la portée du critère (la définition [Contenu cryptique](glossaire.html#contenu-cryptique) a d'ailleurs été créée) et les cas d'implémentations jugés compatibles avec l'accessibilité.
+
+Le [test 13.5.1](/fr/raweb1.1/criteres.html#test-13-5-1) est modifié&nbsp;: l'attribut `title` n'est plus référencé en tant que méthode valide. Il est nécessaire de garantir une implémentation compatible avec l'accessibilité et supportée sur l'environnement de test. 
+
+Le [test 13.5.2](/fr/raweb1.1/criteres.html#test-13-5-2) est ajouté pour vérifier que les contenus cryptiques sont bien ignorés par les technologies d'assistance, et que seule la définition reste disponible.
+
+Les méthodologies sont modifiées en conséquence et une note technique est ajoutée. 
+
+##### Critère
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative ?
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique est-il correctement identifié ?
+
+</blockquote>
+
+##### 13.5.1
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) vérifie-t-il une de ces conditions ?
+
+- Un attribut `title` est disponible.
+- Une définition est donnée par le contexte adjacent.
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique porteur d’information vérifie-t-il une de ces conditions ?
+
+- La signification du contenu est donnée dans le contexte adjacent.
+- La signification du contenu est mise à disposition par une méthode compatible avec l’accessibilité.
+
+</blockquote>
+
+##### 13.5.2
+
+Nouveau test dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique de décoration est-il correctement ignoré par les technologies d’assistance au moyen d’un attribut WAI-ARIA `aria-hidden="true"` ?
+
+</blockquote>
+
+##### Note technique
+
+Nouvelle note technique dans le RAWeb 1.1
+
+<blockquote>
+
+Si un contenu cryptique informatif se trouve imbriqué dans une balise possédant un attribut WAI-ARIA `role="img"`, il sera évalué sur les critères 1.1 et 1.3 et le critère 13.5 sera considéré non applicable.
+
+Si un contenu cryptique décoratif se trouve imbriqué dans une balise possédant un attribut WAI-ARIA `aria-hidden="true"`, quel que soit le niveau d’imbrication, alors il sera considéré comme étant masqué pour les technologies d’assistance.
+
+Du fait du faible support de la balise `<abbr>` et de l'attribut `title`, la mise à disposition de la signification d'un contenu cryptique avec cette implémentation ne permet pas de rendre le critère conforme.
+
+</blockquote>
+
+#### 13.6 
+
+Le [critère 13.6](/fr/raweb1.1/criteres.html#crit-13-6) est modifié pour prendre en compte les modifications opérées sur le [critère 13.5](/fr/raweb1.1/criteres.html#crit-13-5).
+
+##### Critère
+
+###### Dans le RAWeb 1
+
+<blockquote>
+
+Dans chaque page web, pour chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, pour chaque contenu cryptique ayant une alternative, cette alternative est-elle pertinente ?
+
+</blockquote>
+
+##### 13.6.1
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) vérifie-t-il une de ces conditions ?
+
+- Le contenu de l’attribut `title` est pertinent.
+- La définition donnée par le contexte adjacent est pertinente
+
+</blockquote>
+
+###### Dans le RAWeb 1.1
+
+<blockquote>
+
+Dans chaque page web, chaque contenu cryptique vérifie-t-il une de ces conditions ?
+
+- La signification donnée dans le contexte adjacent est pertinente.
+- La signification mise à disposition par une méthode compatible avec l’accessibilité est pertinente.
+
+</blockquote>
+
+#### 13.7
+
+La première condition des 3 tests du [critère 13.7](/fr/raweb1.1/criteres.html#crit-13-7) est modifiée, car elle était plus restrictive que la norme (&laquo;&nbsp;inférieure&nbsp;&raquo; au lieu de &laquo;&nbsp;inférieure ou égale&nbsp;&raquo;).
+
+Les méthodologies sont également modifiées en conséquence.
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+La fréquence de l’effet est inférieure à 3 par seconde. 
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+La fréquence de l’effet est inférieure ou égale à 3 par seconde.
+
+</blockquote>
+
+#### 13.8
+
+Un cas particulier est ajouté au critère [critère 13.8](/fr/raweb1.1/criteres.html#crit-13-8) (la mention &laquo;&nbsp;(hors cas particuliers)&nbsp;&raquo; est ajoutée au critère et aux tests). Ce cas particulier est récupéré de la note 3 définition de glossaire [Contrôle (contenu en mouvement ou clignotant)](), qui en est supprimé.
+
+<blockquote>
+
+Lorsque le mouvement, le clignotement ou le défilement est un élément essentiel au bon déroulement ou à la compréhension d’une fonctionnalité, le critère est non applicable.
+
+Dans certains cas, le mouvement fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement. Dans ce cas, le critère est non applicable.
+
+</blockquote>
+
+#### 14.1
+
+Une condition est ajoutée au [critère 14.1](/fr/raweb1.1/criteres.html#crit-14-1) et la méthodologie est modifiée en conséquence.
+
+<blockquote>
+
+Une liste des non-conformités ou une description des éléments non conformes. 
+
+</blockquote>
+
+#### 15.1
+
+Le [test 15.1.4](/fr/raweb1.1/criteres.html#test-15-1-4) est créé afin de couvrir les technologies mobiles de diffusion de contenus. La méthodologie est créée en conséquence.
+
+<blockquote>
+
+Chaque outil d’édition qui crée du contenu diffusé dans une application mobile permet-il de définir les informations d’accessibilité nécessaires pour créer un contenu conforme au RAAM ?
+
+</blockquote>
+
+#### 15.3
+
+La méthodologie du [test 15.3.1](/fr/raweb1.1/criteres.html#test-15-3-1) est modifiée afin de couvrir les technologies mobiles de diffusion de contenus. 
+
+<blockquote>
+
+7. Pour chaque contenu diffusé dans une application mobile, vérifier : 
+  - que les informations nécessaires pour qu’il soit conforme au RAAM (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré.
+  - que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
+
+</blockquote>
+
+#### 15.5
+
+Le [test 15.5.4](/fr/raweb1.1/criteres.html#test-15-5-4) est créé afin de couvrir les technologies mobiles de diffusion de contenus. La méthodologie est créée en conséquence.
+
+<blockquote>
+
+Pour chaque ensemble de gabarits permettant de diffuser des contenus dans une application mobile, un gabarit au moins est conforme aux critères du RAAM. Cette règle est-elle respectée ?
+
+</blockquote>
+
+#### 16.2
+
+Le [critère 16.2](/fr/raweb1.1/criteres.html#crit-16-2) et le [test 16.2.1](/fr/raweb1.1/criteres.html#test-16-2-1) sont modifiés pour couvrir la possibilité d'avoir plusieurs services d'assistance. La méthodologie est modifiée en conséquence.
+
+##### Dans le RAWeb 1
+
+<blockquote>
+
+16.2&nbsp;: title: Le service d’assistance répond aux besoins de communication des personnes handicapées directement ou par l’intermédiaire d’un service de relais. Cette règle est-elle respectée ?
+
+Test 16.2.1&nbsp;: Le service d’assistance répond aux besoins de communication des personnes handicapées directement ou par l’intermédiaire d’un service de relais. Cette règle est-elle respectée ?
+
+</blockquote>
+
+##### Dans le RAWeb 1.1
+
+<blockquote>
+
+16.2&nbsp;: **Chaque** service d’assistance répond aux besoins de communication des personnes handicapées directement ou par l’intermédiaire d’un service de relais. Cette règle est-elle respectée ?
+
+Test 16.2.1&nbsp;: **Chaque** service d’assistance répond aux besoins de communication des personnes handicapées directement ou par l’intermédiaire d’un service de relais. Cette règle est-elle respectée ?
 
 </blockquote>
 
@@ -669,7 +1160,7 @@ Création de l’entrée de glossaire [Contenu cryptique](glossaire.html#contenu
 
 #### Contenu visible - modification
 
-L’entrée de glossaire [Contenu visible](glossaire.html#contenu-visible) a été modifiée pour accompagner la révision du [critère 10.2](/fr/raweb1.1/criteres.html#crit-10-2), réalisée pour faciliter la compréhension de la portée du critère.
+L’entrée de glossaire [Contenu visible](glossaire.html#contenu-visible) a été modifiée pour accompagner la révision du  [critère 10.2](/fr/raweb1.1/criteres.html#crit-10-2), réalisée pour faciliter la compréhension de la portée du critère.
 
 ##### Dans le RAWeb 1 :
 
@@ -687,14 +1178,14 @@ Note : la pratique qui consiste à gérer des images en propriété de fond d�
 
 Un contenu est visible lorsqu’il est apparent sur la page web, au chargement de la page ou après l’activation d’un composant d’interface (par exemple, l’affichage d’une fenêtre modale ou d’un sous-menu).
 
-Le [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1) demande à ce que le contenu visible soit accessible aux technologies d’assistance. Cela signifie que tout contenu visible qui serait implémenté au travers d’une méthode qui nativement ne dispose pas de moyen pour fournir d’alternative devrait être accompagné d’une méthode secondaire pour fournir cette alternative. Par exemple, une image porteuse d’information en propriété de fond CSS sur un élément qui contient un texte visuellement caché valide ce test, car l’information est accessible aux technologies d’assistance. Sans ce texte caché, le test est invalidé.
+Le test 10.2.1 demande à ce que le contenu visible soit accessible aux technologies d’assistance. Cela signifie que tout contenu visible qui serait implémenté au travers d’une méthode qui nativement ne dispose pas de moyen pour fournir d’alternative devrait être accompagné d’une méthode secondaire pour fournir cette alternative. Par exemple, une image porteuse d’information en propriété de fond CSS sur un élément qui contient un texte visuellement caché valide ce test, car l’information est accessible aux technologies d’assistance. Sans ce texte caché, le test est invalidé.
 
 </blockquote>
 
 #### Contrôle (contenu en mouvement ou clignotant)  - modification
 
 L’entrée de glossaire [Contrôle (contenu en mouvement ou clignotant)](glossaire.html#controle-contenu-en-mouvement-ou-clignotant) a été modifiée pour :
-- déplacer la note 3 en tant que cas particuliers du [critère 13.8](/fr/raweb1.1/criteres.html#crit-13-8)&nbsp;;
+- déplacer la note 3 en tant que cas particuliers du critère [critère 13.8](/fr/raweb1.1/criteres.html#crit-13-8)nbsp;;
 - reviser la note 2 décrivant un exemple non conforme afin de le rendre plus explicite.
 
 ##### Dans le RAWeb 1 :
@@ -717,13 +1208,24 @@ En conséquence, l’arrêt ou la mise en pause via un événement déclenché u
 
 </blockquote>
 
+
+##### Note 3
+
+Pour mémoire, la note 3 dans le RAWeb 1
+
+<blockquote>
+
+Note 3 : Dans certains cas, le mouvement fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement. Dans ce cas le critère est Non Applicable.
+
+</blockquote>
+
 #### Document - création
 
 Création de l’entrée de glossaire [Document](glossaire.html#document).
 
 #### En-tête de colonne ou de ligne  - modification
 
-L’entrée de glossaire [En-tête de colonne ou de ligne](glossaire.html#en-tete-de-colonne-ou-de-ligne) a été modifiée pour prendre en compte l’évolution du [critère 5.7](/fr/raweb1.1/criteres.html#crit-5-7) quant à la prise en charge des groupes de colonnes et des groupes de lignes.
+L’entrée de glossaire [En-tête de colonne ou de ligne](glossaire.html#en-tete-de-colonne-ou-de-ligne) a été modifiée pour prendre en compte l’[évolution du critère 5-7](#5.7) quant à la prise en charge des groupes de colonnes et des groupes de lignes.
 
 Dans le RAWeb 1.1, la notion de groupe est ajoutée dans la phrase :
 
@@ -735,7 +1237,7 @@ Contenu d’une cellule dans un tableau de données (la première cellule d’un
 
 #### Indication de champ obligatoire - modification
 
-L’entrée de glossaire [Indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire-ou-facultatif) a été renommée et modifiée pour accompagner l'introduction des champs optionnels dans les tests du  [critère 11.10](/fr/raweb1.1/criteres.html#crit-11-10). 
+L’entrée de glossaire [Indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire-ou-facultatif) a été renommée et modifiée pour accompagner l'introduction des champs optionnels dans les tests du [critère 11.10](/fr/raweb1.1/criteres.html#crit-11-10). 
 
 ##### Dans le RAWeb 1 : 
 
@@ -835,7 +1337,7 @@ La note 4 est supprimée, car l’absence de contenu dans un lien ne peut plus �
 
 <blockquote>
 
-Note 4 : lorsqu’un lien ne comporte aucun contenu, il sera non conforme au regard du [critère 10.2](/fr/raweb1.1/criteres.html#crit-10-2) et du [critère 6.2](/fr/raweb1.1/criteres.html#crit-6-2).
+Note 4 : lorsqu’un lien ne comporte aucun contenu, il sera non conforme au regard du critère 10.2 et du critère 6.2.
 
 </blockquote>
 
@@ -851,7 +1353,7 @@ Note 5 : bien que le calcul du nom accessible d’un lien tienne compte de cont
 
 #### Landmarks - modification 
 
-L’entrée de glossaire [Landmarks](#landmarks) est modifiée pour prendre en compte la modification des critères [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2) et [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6).
+L’entrée de glossaire [Landmarks](#landmarks) est modifiée pour prendre en compte la [modification du critère 9.2](#9.2) et [la modification du critère 12.6](#12.6).
 
 ##### Dans le RAWeb 1 : 
 
@@ -925,7 +1427,7 @@ Par exemple, dans ce texte &laquo;&nbsp;Nouveaux horaires d’été&nbsp;&raquo;
 
 #### Lien identique - création
 
-Création de l’entrée de glossaire [Lien identique](glossaire.html#lien-identique) pour venir documenter le nouveau [test 6.1.6](/fr/raweb1.1/criteres.html#test-6-1-6).
+Création de l’entrée de glossaire [Lien identique](glossaire.html#lien-identique) pour venir documenter le nouveau [test 6.1.6](/fr/raweb1.1/criteres.html#test-16-1-6).
 
 #### Présentation de l’information - modification
 
@@ -951,7 +1453,7 @@ Les attributs `width` et `height` sont interdits sauf sur les éléments `<canva
 
 L’entrée de glossaire [Prise de focus](glossaire.html#prise-de-focus) pour : 
 - supprimer la référence à accesskey&nbsp;; 
-- spécifier explicitement que le critère associé [10.7](/fr/raweb1.1/criteres.html#crit-10-7) ne s’intéresse qu’à la prise de focus clavier. 
+- spécifier explicitement que le critère associé ([critère 10.7](/fr/raweb1.1/criteres.html#crit-10-7)) ne s’intéresse qu’à la prise de focus clavier. 
 
 Ajout d’une phrase :
 
@@ -963,7 +1465,7 @@ Le [critère 10.7](/fr/raweb1.1/criteres.html#crit-10-7) ne s’intéresse qu’
 
 #### Rôle calculé - création
 
-Création de l’entrée de glossaire [Rôle calculé](glossaire.html#role-calcule) pour supporter les modifications des [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2) et [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6). 
+Création de l’entrée de glossaire [Rôle calculé](glossaire.html#role-calcule) pour supporter la [modification du critère 9.2](#9.2) et la [modification du critère 12.6](#12.6). 
 
 ####  Tableau de données complexe - modification
 
