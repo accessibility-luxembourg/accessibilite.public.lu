@@ -47,7 +47,7 @@ Si une image se trouve imbriquée dans une balise possédant un attribut `aria-h
 
 ##### Restriction sur l'usage du `role="presentation"` et introduction du `role="none"` pour les éléments `<img>` ou `<area>`
 
-Aux [test 1.2.1](/fr/raweb1.1/criteres.html#test-1-2-1) et [1.2.2](/fr/raweb1.1/criteres.html#test-1-2-2), le RAWeb 1 prévoyait qu'il était possible de masquer une image (`<img>` ou `<area>`) avec le `role="presentation"`, sans autre condition. 
+Aux [tests 1.2.1](/fr/raweb1.1/criteres.html#test-1-2-1) et [1.2.2](/fr/raweb1.1/criteres.html#test-1-2-2), le RAWeb 1 prévoyait qu'il était possible de masquer une image (`<img>` ou `<area>`) avec le `role="presentation"`, sans autre condition. 
 
 Des tests récents sur l'environnement de test ont montré qu'une image avec le `role="presentation"` et un attribut `title` ou une propriété de nommmage ARIA n'était pas ignorée. Les tests sont réécrits pour prendre en compte ces particularités. 
 
@@ -694,7 +694,7 @@ Le [test 10.2.1](/fr/raweb1.1/criteres.html#test-10-2-1) demande à ce que le co
 #### Contrôle (contenu en mouvement ou clignotant)  - modification
 
 L’entrée de glossaire [Contrôle (contenu en mouvement ou clignotant)](glossaire.html#controle-contenu-en-mouvement-ou-clignotant) a été modifiée pour :
-- déplacer la note 3 en tant que cas particuliers du critère [critère 13.8](/fr/raweb1.1/criteres.html#crit-13-8)&nbsp;;
+- déplacer la note 3 en tant que cas particuliers du [critère 13.8](/fr/raweb1.1/criteres.html#crit-13-8)&nbsp;;
 - reviser la note 2 décrivant un exemple non conforme afin de le rendre plus explicite.
 
 ##### Dans le RAWeb 1 :
@@ -951,7 +951,7 @@ Les attributs `width` et `height` sont interdits sauf sur les éléments `<canva
 
 L’entrée de glossaire [Prise de focus](glossaire.html#prise-de-focus) pour : 
 - supprimer la référence à accesskey&nbsp;; 
-- spécifier explicitement que le critère associé [critère 10.7](/fr/raweb1.1/criteres.html#crit-10-7) ne s’intéresse qu’à la prise de focus clavier. 
+- spécifier explicitement que le critère associé [10.7](/fr/raweb1.1/criteres.html#crit-10-7) ne s’intéresse qu’à la prise de focus clavier. 
 
 Ajout d’une phrase :
 
