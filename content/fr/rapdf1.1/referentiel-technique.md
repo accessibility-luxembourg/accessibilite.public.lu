@@ -677,7 +677,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 ### [Thématique 7](#topic-7)&nbsp;: Navigation {id="topic-7"}
 
-#### [Critère 7.1](#crit-7-1) Obsolète {id="crit-7-1"}
+#### [Critère 7.1](#crit-7-1) [A] Obsolète {id="crit-7-1"}
 
 Ce critère n’avait aucune correspondance dans la norme EN 301 549. Il a été supprimé du référentiel. 
 
