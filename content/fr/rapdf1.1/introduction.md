@@ -19,4 +19,4 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 - [Méthodologie de test](methodologie.md)
 - [Environnement de test](environnement.md)
 - [Références](references.md)
-- [Notes de révision](notes-de-revision.md)
+- [Notes de révision](notes-revision.md)

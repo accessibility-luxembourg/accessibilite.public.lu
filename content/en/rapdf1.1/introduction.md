@@ -19,5 +19,5 @@ If you find any issue in this framework, feel free to create a ticket in this re
 - [Testing Methodology](methodologie.md)
 - [Testing environment](environnement.md)
 - [References](references.md)
-- [Changelog](notes-de-revision.md)
+- [Changelog](notes-revision.md)
 
