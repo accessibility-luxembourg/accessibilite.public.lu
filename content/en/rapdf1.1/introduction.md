@@ -1,4 +1,4 @@
-*Version 1.0, published on 5 April 2023*
+*Version 1.1, published on xx xx xxxx*
 
 According to the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector bodies must be accessible. The [Information and Press Service](https://sip.gouvernement.lu/en.html) is responsible for checking their accessibility.
 
@@ -19,4 +19,5 @@ If you find any issue in this framework, feel free to create a ticket in this re
 - [Testing Methodology](methodologie.md)
 - [Testing environment](environnement.md)
 - [References](references.md)
+- [Changelog](notes-de-revision.md)
 

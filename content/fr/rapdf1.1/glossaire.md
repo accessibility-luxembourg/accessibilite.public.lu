@@ -25,7 +25,7 @@ Objet interactif permettant à l’utilisateur de saisir des données. Les champ
 #### Contrôle de saisie
 Ensemble des processus qui préviennent l’utilisateur&nbsp;:
 
-- des champs obligatoires,
+- des champs obligatoires ou facultatifs,
 - des indications de type ou de format attendus,
 - des erreurs de saisie dans un formulaire.
 
@@ -122,14 +122,15 @@ Dans ce cas, le document doit être recréé sous la forme d’un formulaire int
 
 ### H
 #### Hiérarchie du titrage
-Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 8 niveaux.
 
-La hiérarchie du titrage est cohérente lorsque&nbsp;:
-- Tous les passages de textes ayant vocation à être un titre utilisent un style de titre.
-- Le premier titre du contenu est de niveau 1.
-- Il n’y a pas de rupture dans la hiérarchie de titrage (par exemple on ne passe pas directement d’un titre de niveau 2 à un titre de niveau 4).
+Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.
+
+La hiérarchie du titrage est cohérente lorsque l'imbrication des niveaux de titres est cohérente (les niveaux d'imbrication des titres reflètent le niveau de dépendance des contenus les uns par rapport aux autres).
+
+Note : la présence de sauts hiérarchiques (par exemple, passage d’un titre de niveau 2 à un titre de niveau 4) n’invalide pas le critère.
 
 ### I
+
 #### Indication donnée uniquement par la forme, la taille ou la position
 Toute indication essentielle qui est transmise uniquement par un changement de forme ou de taille d’un contenu texte ou par la position d’un élément dans un texte.
 
@@ -168,15 +169,9 @@ Un lien peut être de trois formes différentes&nbsp;:
 - lien image dont l’intitulé est constitué de l’alternative de l’image&nbsp;;
 - lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.
 #### Lien dont la nature n’est pas évidente
-Il s’agit d’un lien dont l’intitulé ne permet pas d’en comprendre la nature, ce qui peut amener les personnes déficientes visuelles à l'ignorer.
+Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains types d’utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte «&nbsp;Nouveaux horaires d'été&nbsp;», si le mot «&nbsp;horaires&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
 
-Exemple d’un lien dont la nature est évidente&nbsp;: «&nbsp;Les conditions générales d’utilisation de nos services ont été mises à jour, cliquez pour les consulter en ligne.&nbsp;»
-
-Si le texte «&nbsp;Cliquez pour les consulter en ligne&nbsp;» est un lien, sa nature est évidente.
-
-Exemple d’un lien dont la nature n’est pas évidente&nbsp;: «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1 définissent la façon de rendre les contenus Web plus accessibles aux personnes en situation de handicap.&nbsp;»
-
-Si le texte «&nbsp;Les Règles pour l’accessibilité des contenus Web (WCAG) 2.1&nbsp;» est un lien, son intitulé est insuffisant pour en comprendre la nature.
+Note : «&nbsp;signalé uniquement par la couleur&nbsp;» signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure…). En conséquence, un lien de la même couleur que le texte environnant est concerné par ce critère.
 
 **Note importante**&nbsp;: seuls les liens qui sont insérés dans des blocs de texte sont concernés.
 
@@ -230,9 +225,6 @@ Image ou forme complexe qui contient au moins une information essentielle à la 
 Indication explicite (exemple&nbsp;: «&nbsp;Voir la légende ci-après&nbsp;») ou terme commun (par exemple «&nbsp;Image&nbsp;: [alternative]&nbsp;» et «&nbsp;Image&nbsp;: [légende]&nbsp;») entre l’alternative et la légende qui permet de comprendre que la légende est associée à l’image.
 
 ### S
-#### Sommaire
-Liste des titres du contenu, présentée en introduction du document, généralement sous la forme de liens permettant d’accéder directement aux parties concernées. Chaque titre peut être accompagné du numéro de page correspondant.
-Selon le logiciel utilisé pour éditer le contenu, le sommaire peut être structuré avec des éléments TOC et TOCI ou des éléments L et LI.
 
 #### Style de titre
 Dans les contenus bureautiques, les titres doivent être déclarés au moyen d’un style de titre.

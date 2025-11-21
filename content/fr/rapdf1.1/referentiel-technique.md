@@ -14,13 +14,13 @@ Parmi les structures spécifiques, on peut citer&nbsp;:
 - les indications de langue de passage de texte,
 - les indications de changement de sens de lecture,
 - les déclarations d’éléments décoratifs spécifiques au format PDF,
-- l'association d'une infobulle aux liens.
+- l’association d’une infobulle aux liens.
 
 Par ailleurs, les contenus de type formulaire sont abordés dans une thématique additionnelle et sont réduits aux éléments essentiels.
 
 L’évaluation et l’adaptation de ces éléments nécessitent l’intervention de spécialistes et l’utilisation de logiciels techniques (lecteurs d’écran, logiciels de mise en page compatibles avec le format PDF ou l’environnement de travail Acrobat Pro).
 
-Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaine d'édition spécialisée, dans ce cas il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
+Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaîne d’édition spécialisée, dans ce cas, il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
 
 ### Type de contenus non conformes {class="no-summary"}
 
@@ -31,10 +31,10 @@ Les types de contenus suivants seront considérés comme non conformes, car ils 
 Leur présence rend l’ensemble du document non conforme avec l’accessibilité et nécessite la mise à disposition d’une version alternative du document dans laquelle toute l’information véhiculée par ces contenus est présente sous forme textuelle.
 
 ### Type de documents non conformes {class="no-summary"}
-Certaines types de documents pourraient ne pas être utilisés de façon satisfaisante par toutes les personnes en situation de handicap, il s'agit :
+Certains types de documents pourraient ne pas être utilisés de façon satisfaisante par toutes les personnes en situation de handicap, il s’agit&nbsp;:
 - des [documents non balisés](glossaire.md#documents-non-balises),
 - des [formulaires non interactifs](glossaire.md#formulaire-non-interactif).
-Dans ces cas, il est inutile d'auditer les documents qui devront faire l'objet d'une refonte totale ou de la mise à disposition d'une alternative pertinente.
+Dans ces cas, il est inutile d’auditer les documents qui devront faire l’objet d’une refonte totale ou de la mise à disposition d’une alternative pertinente.
 
 ### Avertissement {class="no-summary"}
 
@@ -66,6 +66,7 @@ Seul le contenu du critère et des tests a une valeur normative.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.3.2 Use of the Artifact structure element*{lang=en}, *8.9.2.4.14 Printer’s mark*{lang=en}.
 
 #### [Critère 1.2](#crit-1-2) [A] Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle une [alternative textuelle](glossaire.md#alternative-textuelle)&nbsp;? {id="crit-1-2"}
 - **[Test 1.2.1](#test-1-2-1)** Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) vérifie-t-elle une de ces conditions&nbsp;? {id="test-1-2-1"}
@@ -88,6 +89,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 1.3](#crit-1-3) [A] Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente&nbsp;? {id="crit-1-3"}
 - **[Test 1.3.1](#test-1-3-1)** Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente&nbsp;? {id="test-1-3-1"}
@@ -107,6 +109,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 1.4](#crit-1-4) [A] Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](glossaire.md#description-detaillee)&nbsp;? {id="crit-1-4"}
 - **[Test 1.4.1](#test-1-4-1)** Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) qui nécessite une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions&nbsp;?{id="test-1-4-1"}
@@ -131,8 +134,9 @@ Seul le contenu du critère et des tests a une valeur normative.
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;;
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.27 Caption*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
-#### [Critère 1.5](#crit-1-5) [A] Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente ? {id="crit-1-5"}
+#### [Critère 1.5](#crit-1-5) [A] Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente&nbsp;? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions&nbsp;?{id="test-1-5-1"}
     - La [description détaillée](glossaire.md#description-detaillee) adjacente à l’image est pertinente.
     - La [description détaillée](glossaire.md#description-detaillee) consultable au moyen d’un lien adjacent est pertinente.
@@ -153,6 +157,7 @@ Seul le contenu du critère et des tests a une valeur normative.
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;;
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 1.6](#crit-1-6) [A] Chaque [légende](glossaire.md#legende) d’image est-elle, si nécessaire, correctement reliée à l’image correspondante&nbsp;? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Chaque [légende](glossaire.md#legende) associée à une image vérifie-t-elle ces conditions&nbsp;?{id="test-1-6-1"}
@@ -182,7 +187,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Cas particuliers 
 Dans ces situations, le critère est non applicable&nbsp;:
 - Le texte fait partie d’un logo ou d’un nom de marque d’un organisme ou d’une société.
-- La présentation du texte est considérée comme essentielle à l’information véhiculée par l’image, par exemple une image utilisée pour illustrer l'aspect graphique d'une police.
+- La présentation du texte est considérée comme essentielle à l’information véhiculée par l’image, par exemple une image utilisée pour illustrer l’aspect graphique d’une police.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -232,7 +237,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;;
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}.
-
+- PDF/UA-2&nbsp;: *8.9.2.3 Markup annotations*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.16 Watermark*{lang=en}, *8.9.2.4.17 Redaction*{lang=en}, *8.9.2.4.18 Projection*{lang=en}, *8.9.2.4.20 Other*{lang=en}.
 
 #### [Critère 2.2](#crit-2-2) [AA] Le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers)&nbsp;? {id="crit-2-2"}
 - **[Test 2.2.1](#test-2-2-1)** Pour le [texte en taille normale](glossaire.md#texte-en-taille-normale), le rapport de contraste entre le texte et son arrière-plan vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?{id="test-2-2-1"}
@@ -254,8 +259,8 @@ Dans ces situations, le critère est non applicable.
 
 1. Ouvrir le fichier PDF.
 2. Vérifier, avec l’outil Color Contrast Analyser, que&nbsp;:
-    - le corps de texte par défaut et le texte en image d'une taille équivalente a un rapport de contraste avec la couleur de fond de 4,5:1, au moins&nbsp;;
-    - le texte et le texte en image d'une taille significativement agrandie a un rapport de contraste avec la couleur de fond de 3:1, au moins.
+    - le corps de texte par défaut et le texte en image d’une taille équivalente a un rapport de contraste avec la couleur de fond de 4,5:1, au moins&nbsp;;
+    - le texte et le texte en image d’une taille significativement agrandie a un rapport de contraste avec la couleur de fond de 3:1, au moins.
 3. Si ce n’est pas le cas, vérifier qu’il existe un moyen d’obtenir une version du document avec des contrastes suffisants.
 4. Si c’est le cas, le critère est validé.
 
@@ -303,6 +308,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html)&nbsp;;
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.11 Non-text contrast*{lang=en}.
+- PDF/UA-2&nbsp;: *8.9.2.4.13 Widget*{lang=en}.
 
 ### [Thématique 3](#topic-3)&nbsp;: Tableaux {id="topic-3"}
 
@@ -329,6 +335,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
 #### [Critère 3.2](#crit-3-2) [A] Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant une alternative, celle-ci est-elle pertinente&nbsp;? {id="crit-3-2"}
 - **[Test 3.2.1](#test-3-2-1)** Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant une alternative, celle-ci est-elle pertinente&nbsp;? {id="test-3-2-1"}
@@ -348,6 +355,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
 #### [Critère 3.3](#crit-3-3) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees) les [en-têtes](glossaire.md#en-tete-tableau) sont-ils correctement déclarés&nbsp;? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), chaque [en-tête](glossaire.md#en-tete-tableau) utilise-t-il un élément TH&nbsp;? {id="test-3-3-1"}
@@ -368,6 +376,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6)&nbsp;;
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
 #### [Critère 3.4](#crit-3-4) [A] Pour chaque [tableau de présentation](glossaire.md#tableau-de-presentation), le [contenu linéarisé](glossaire.md#contenu-linearise) reste-t-il compréhensible&nbsp;? {id="crit-3-4"}
 - **[Test 3.4.1](#test-3-4-1)** Pour chaque [tableau de présentation](glossaire.md#tableau-de-presentation), le [contenu linéarisé](glossaire.md#contenu-linearise) reste-t-il compréhensible&nbsp;? {id="test-3-4-1"}
@@ -433,7 +442,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ###### Test 4.1.2 avec Acrobat Reader
 
-1. Ouvrir le fichier PDF avec Acrobat Reader.
+1. Ouvrir le fichier PDF.
 2. Repérer les liens identiques.
 3. Cliquer sur les liens et vérifier que les ressources associées sont identiques.
 4. Si c’est le cas, le test est validé.
@@ -444,6 +453,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11)&nbsp;;
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.4 Link purpose (in context)*{lang=en}.
+- PDF/UA-2&nbsp;:  *8.2.3 Logical content order*{lang=en}, *8.9.2.4.2 Link*{lang=en}, *8.9.2.4.10 File attachment*{lang=en}.
 
 #### [Critère 4.2](#crit-4-2) [A] Chaque [lien](glossaire.md#lien) a-t-il un intitulé&nbsp;? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Chaque [lien](glossaire.md#lien) image a-t-il un intitulé&nbsp;? {id="test-4-2-1"}
@@ -473,7 +483,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 #### [Critère 5.1](#crit-5-1) [A] L’information est-elle structurée par l’utilisation appropriée de titres&nbsp;? {id="crit-5-1"}
 - **[Test 5.1.1](#test-5-1-1)** Chaque titre utilise-t-il un [style de titre](glossaire.md#style-de-titre)&nbsp;? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** Lorsque les [styles de titre](glossaire.md#style-de-titre) le permettent, la [hiérarchie du titrage](glossaire.md#hierarchie-du-titrage) est-elle cohérente&nbsp;? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2)** Lorsque les [styles de titres](glossaire.md#style-de-titre) le permettent, la [hiérarchie du titrage](glossaire.md#hierarchie-du-titrage) est-elle cohérente&nbsp;? {id="test-5-1-2"}
 - **[Test 5.1.3](#test-5-1-3)** Chaque titre est-il pertinent&nbsp;? {id="test-5-1-3"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
@@ -505,6 +515,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels)&nbsp;:
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}, *10.2.4.6 Headings and labels*{lang=en}.
+- PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H)*{lang=en}.
 
 #### [Critère 5.2](#crit-5-2) [A] Chaque contenu présenté sous forme de liste utilise-t-il un [style de liste](glossaire.md#style-de-liste)&nbsp;? {id="crit-5-2"}
 - **[Test 5.2.1](#test-5-1-1)** Chaque contenu présenté sous forme de liste non ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié&nbsp;? {id="test-5-2-1"}
@@ -533,7 +544,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)&nbsp;:
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
-
+- PDF/UA-2&nbsp;: *8.2.5.25 List (L, LI, LBody)*{lang=en}.
 
 #### [Critère 5.3](#crit-5-3) [A] Les [éléments de structure](glossaire.md#elements-de-structure) ne doivent pas être utilisés uniquement à des fins de présentation, cette règle est-elle respectée&nbsp;? {id="crit-5-3"}
 - **[Test 5.3.1](#test-5-3-1)** Les [éléments de structure](glossaire.md#elements-de-structure) ne doivent pas être utilisés uniquement à des fins de présentation, cette règle est-elle respectée&nbsp;? {id="test-5-3-1"}
@@ -555,6 +566,26 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)&nbsp;:
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.11 Paragraph (P)*{lang=en}, *8.2.5.16 Label (Lbl)*{lang=en}, *8.2.5.17 Span*{lang=en}, *8.2.5.19 Emphasis (Em) and Strong*{lang=en}, *8.9.2.4.12 Screen*{lang=en}.
+
+#### [Critère 5.4](#crit-5-4) [A] Chaque bloc de citation est-il correctement indiqué&nbsp;? {id="crit-5-4"}
+- **[Test 5.4.1](#test-5-4-1)** Chaque bloc de citation est-il correctement indiqué&nbsp;? {id="test-5-4-1"}
+
+##### Méthodologie d’évaluation {class="disclosure methodo"}
+
+###### Avec PAC 2024
+
+1. Ouvrir le fichier PDF.
+2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
+3. Pour chaque bloc de citation, vérifier que le bloc de citation est structuré au moyen d’un élément BlockQuote.
+4. Si c’est le cas, le critère est validé.
+
+##### Correspondances {class="disclosure mapping"}
+
+- WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)&nbsp;:
+    - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.7 Block quotation (BlockQuote)*{lang=en}.
 
 ### [Thématique 6](#topic-6)&nbsp;: Présentation de l’information {id="topic-6"}
 
@@ -595,11 +626,11 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3)&nbsp;;
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}, *10.2.1.1 Keyboard*{lang=en}, *10.2.4.3 Focus order*{lang=en}.
+- PDF/UA-2&nbsp;:  *8.2.3 Logical content order*{lang=en}, *8.9.2.4.1 Text*{lang=en}, *8.9.2.4.3 Free text*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.9 Popup*{lang=en}, *8.9.2.4.11	Sound, movie*{lang=en}, *8.9.3.2 Association with content*{lang=en}, *8.9.3.3 Tab order*{lang=en}, *8.10.3.5 Signature fields*{lang=en}.
 
 #### [Critère 6.2](#crit-6-2) [A] L’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** Pour chaque modification du type ou d’un style de caractère, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;?{id="test-6-2-1"}
 - **[Test 6.2.2](#test-6-2-2)** Pour chaque indication visuelle donnée au moyen d’un positionnement ou la présence d’un caractère spécial, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;?{id="test-6-2-2"}
-
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -607,14 +638,14 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 ###### Test 6.2.1 avec Acrobat Reader
 
-1. Ouvrir le fichier avec Acrobat Reader.
+1. Ouvrir le fichier PDF.
 2. Repérer dans le texte les informations qui utilisent une modification du type ou d’un style de caractère (graisse, italique, police)&nbsp;;
 3. Vérifier que l’information transmise au moyen d’un type ou d’un style de caractère est associée à une indication textuelle équivalente. 
 4. Si c’est le cas, le test est validé.
 
 ###### Test 6.2.2 avec Acrobat Reader
 
-1. Ouvrir le fichier avec Acrobat Reader.
+1. Ouvrir le fichier PDF.
 2. Repérer dans le texte les informations qui utilisent une indication visuelle au moyen d’un positionnement ou la présence d’un caractère spécial (par exemple un symbole mathématique ou graphique).
 3. Vérifier que l’information transmise au moyen d’un positionnement ou la présence d’un caractère spécial est associée à une indication textuelle équivalente. 
 4. Si c’est le cas, le test est validé.
@@ -624,6 +655,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 - WCAG 2.1&nbsp;: [1.3.3 Caractéristiques sensorielles (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics)&nbsp;:
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.3 Sensory characteristics*{lang=en}.
+- PDF/UA-2&nbsp;: *8.9.2.3 Markup annotations*{lang=en}, *8.9.2.4.4 Line, square, circle, polygon and polyline*{lang=en}, *8.9.2.4.16 Watermark*{lang=en}, *8.9.2.4.17 Redaction*{lang=en},  *8.9.2.4.18 Projection*{lang=en}, *8.9.2.4.20 Other*{lang=en}.
 
 #### [Critère 6.3](#crit-6-3) [A] Chaque lien signalé uniquement par la couleur et dont [la nature n’est pas évidente](glossaire.md#lien-dont-la-nature-n-est-pas-evidente) est-il visible, par rapport au texte environnant&nbsp;? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Chaque lien signalé uniquement par la couleur et dont [la nature n’est pas évidente](glossaire.md#lien-dont-la-nature-n-est-pas-evidente) a-t-il un rapport de contraste supérieur ou égal à 3:1, par rapport au texte environnant&nbsp;? {id="test-6-3-1"}
@@ -641,33 +673,13 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)&nbsp;:
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.6 Caret*{lang=en}.
 
 ### [Thématique 7](#topic-7)&nbsp;: Navigation {id="topic-7"}
 
-#### [Critère 7.1](#crit-7-1) [AA] Le document possède-t-il un [sommaire](glossaire.md#sommaire) (hors cas particuliers)&nbsp;? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Le document possède-t-il un [sommaire](glossaire.md#sommaire) (hors cas particuliers)&nbsp;? {id="test-7-1-1"}
+#### [Critère 7.1](#crit-7-1) Obsolète {id="crit-7-1"}
 
-##### Cas particuliers 
-Dans ces situations, le critère est non applicable&nbsp;:
-- Le document n’est constitué que de quelques pages.
-- Le contenu n’a pas vocation à être structuré par une arborescence de titres.
-
-##### Méthodologie d’évaluation {class="disclosure methodo"}
-
-###### Avec Acrobat Reader
-
-1. Ouvrir le fichier PDF.
-2. Vérifier que le contenu est précédé d’un sommaire.
-3. Si ce n’est pas le cas, vérifier la présence d’un sommaire dans le panneau latéral gauche (icône «&nbsp;signet&nbsp;») d’Acrobat Reader.
-6. Si c’est le cas, le critère est validé.
-
-##### Correspondances {class="disclosure mapping"}
-
-- WCAG 2.1&nbsp;: [2.4.5 Accès multiples (AA)](https://www.w3.org/Translations/WCAG21-fr/#multiple-ways)&nbsp;:
-    - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2)&nbsp;;
-    - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: pas de critère lié.
+Ce critère n’avait aucune correspondance dans la norme EN 301 549. Il a été supprimé du référentiel. 
 
 ### [Thématique 8](#topic-8)&nbsp;: Éléments obligatoires {id="topic-8"}
 
@@ -693,6 +705,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [2.4.2 Titre de page (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled)&nbsp;:
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.2 Document titled*{lang=en}.
+- PDF/UA-2&nbsp;:  *8.11.2 Interactive aspects*{lang=en}.
 
 #### [Critère 8.2](#crit-8-2) [A] Le [titre de document](glossaire.md#titre-de-document) est-il pertinent (sauf cas particulier)&nbsp;? {id="crit-8-2"}
 - **[Test 8.2.1](#test-8-2-1)** Le [titre de document](glossaire.md#titre-de-document) est-il pertinent (sauf cas particulier)&nbsp;? {id="test-8-2-1"}
@@ -716,6 +729,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [2.4.2 Titre de page (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled)&nbsp;:
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.2 Document titled*{lang=en}.
+- PDF/UA-2&nbsp;: *8.11.2 Interactive aspects*{lang=en}.
 
 ### [Thématique 9](#topic-9)&nbsp;: Consultation {id="topic-9"}
 
@@ -741,6 +755,7 @@ Dans ce cas, le critère est non applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;;
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.3.2 Use of the Artifact structure element*{lang=en}, *8.9.2.4.14 Printer’s mark*{lang=en}.
 
 #### [Critère 9.2](#crit-9-2) [A] Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle une [alternative textuelle](glossaire.md#alternative-textuelle)&nbsp;? {id="crit-9-2"}
 - **[Test 9.2.1](#test-9-2-1)** Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) vérifie-t-elle une de ces conditions&nbsp;? {id="test-9-2-1"}
@@ -763,6 +778,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.5.2 Use of ActualText*{lang=en}, *8.9.2.2 Annotations as artifacts*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 9.3](#crit-9-3) [A] Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente&nbsp;? {id="crit-9-3"}
 - **[Test 9.3.1](#test-9-3-1)** Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente&nbsp;? {id="test-9-3-1"}
@@ -782,6 +798,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.5.2 Use of ActualText*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 9.4](#crit-9-4) [A] Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](glossaire.md#description-detaillee)&nbsp;? {id="crit-9-4"}
 - **[Test 9.4.1](#test-9-4-1)** Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) qui nécessite une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions&nbsp;?{id="test-9-4-1"}
@@ -804,8 +821,9 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.2.5.27 Caption*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
-#### [Critère 9.5](#crit-9-5) [A] Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente ? {id="crit-9-5"}
+#### [Critère 9.5](#crit-9-5) [A] Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente&nbsp;? {id="crit-9-5"}
 - **[Test 9.5.1](#test-9-5-1)** Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions&nbsp;?{id="test-9-5-1"}
     - La [description détaillée](glossaire.md#description-detaillee) adjacente à la forme complexe est pertinente.
     - La [description détaillée](glossaire.md#description-detaillee) consultable au moyen d’un lien adjacent est pertinente.
@@ -824,6 +842,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;:
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
 #### [Critère 9.6](#crit-9-6) [A] Chaque [légende](glossaire.md#legende) de [forme complexe](glossaire.md#forme-complexe) est-elle, si nécessaire, correctement reliée à l’image correspondante&nbsp;? {id="crit-9-6"}
 - **[Test 9.6.1](#test-9-6-1)** Chaque [légende](glossaire.md#legende) associée à une [forme complexe](glossaire.md#forme-complexe) vérifie-t-elle ces conditions&nbsp;?{id="test-9-6-1"}
@@ -846,6 +865,7 @@ Dans ce cas, le critère est non applicable.
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)&nbsp;;
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
+- PDF/UA-2&nbsp;: *8.9.2.4.19 3D and RichMedia.
 
 #### [Critère 9.7](#crit-9-7) [A] Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative&nbsp;? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative&nbsp;?{id="test-9-7-1"}
@@ -904,36 +924,33 @@ Dans ce cas, le critère est non applicable.
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.2.2 Pause, stop, hide*{lang=en}.
 
 ### [Thématique 10](#topic-10)&nbsp;: Formulaire interactif (thématique complémentaire){id="topic-10"} 
+
 #### Introduction{class=no-summary}
+
 Cette thématique concerne uniquement les formulaires interactifs remplis avec Acrobat Reader.
 Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Acrobat Pro ou de logiciels spécialisés dans l’édition de formulaire au format PDF.
 
-Par ailleurs, la méthodologie de test nécessite l’utilisation d’un lecteur d’écran.
-Ce sont les raisons pour lesquelles cette thématique a volontairement été isolée en dernière partie du référentiel.
+En plus des évaluations proposées dans cette thématique, le recours à un test par une personne en situation de handicap au moyen de sa propre technologie d’assistance est à privilégier pour vérifier&nbsp;: 
 
-La méthodologie d’évaluation est fondée sur le lecteur d’écran [NVDA](https://www.nvda.fr/) librement installable et utilisable sur un ordinateur Windows.
-
-Les critères de cette thématique visent à vérifier que les contrôles de formulaire (champ de saisie, etc.) sont correctement restitués pour assurer une accessibilité de base.
-
-Néanmoins, le recours à un test par une personne en situation de handicap au moyen de sa propre technologie d’assistance est à privilégier pour vérifier&nbsp;: 
 - que le formulaire PDF est parfaitement utilisable,
 - que tous les champs de saisie peuvent être remplis,
 - et que l’utilisateur dispose de toutes les informations nécessaires.
 
 #### [Critère 10.1](#crit-10-1) [A] Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) a-t-il une [étiquette](glossaire.md#etiquette)&nbsp;? {id="crit-10-1"}
 - **[Test 10.1.1](#test-10-1-1)** Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) vérifie-t-il ces conditions&nbsp;?{id="test-10-1-1"}
-    - l'[étiquette](glossaire.md#etiquette) est visible&nbsp;;
-    - l'[étiquette](glossaire.md#etiquette) est correctement restituée par les technologies d'assistance.
+    - l’[étiquette](glossaire.md#etiquette) est visible&nbsp;;
+    - l’[étiquette](glossaire.md#etiquette) est accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ et vérifier :
-    - que l'étiquette est visible&nbsp;;
-    - qu’un nom est vocalement restitué.
-3. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Pour chaque champ de formulaire, vérifier&nbsp;:
+    - que l’étiquette est visible dans le document&nbsp;;
+    - qu’au survol, une infobulle est affichée.
+3. Vérifier que chaque champ est présent
+4. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -942,20 +959,21 @@ Néanmoins, le recours à un test par une personne en situation de handicap au m
  - WCAG 2.1&nbsp;: [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)&nbsp;:
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
 #### [Critère 10.2](#crit-10-2) [A] Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) est-elle pertinente&nbsp;? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Chaque [étiquette](glossaire.md#etiquette) vérifie-t-elle ces conditions&nbsp;?{id="test-10-2-1"}
-    - L’intitulé de l'[étiquette](glossaire.md#etiquette) accessible aux technologies d’assistance est pertinent&nbsp;;
-    - L’intitulé visible de l'[étiquette](glossaire.md#etiquette) est contenu dans l’intitulé accessible aux technologies d’assistance.
+    - L’[étiquette](glossaire.md#etiquette) accessible aux technologies d’assistance est pertinente&nbsp;;
+    - L’[étiquette](glossaire.md#etiquette) visible est contenue dans l’[étiquette](glossaire.md#etiquette) accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ et vérifier que le nom vocalement restitué&nbsp;:
-    - permet de connaitre la fonction exacte du champ associé&nbsp;;
-    - et contient au moins l’étiquette visible.
+1. Ouvrir le fichier PDF.
+2. Pour chaque champ de formulaire qui dispose d’une infobulle au survol, vérifier que le contenu de l’infobulle&nbsp;:
+    - permet de connaître la fonction exacte du champ associé&nbsp;;
+    - contient au moins l’étiquette visible dans le document.
 3. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -968,17 +986,18 @@ Néanmoins, le recours à un test par une personne en situation de handicap au m
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)&nbsp;:
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
 #### [Critère 10.3](#crit-10-3) [AA] Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) ayant la même fonction et répété plusieurs fois dans un même document est-elle [cohérente](glossaire.md#etiquettes-coherentes)&nbsp;? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) ayant la même fonction et répété plusieurs fois dans un même document est-elle [cohérente](glossaire.md#etiquettes-coherentes)&nbsp;?{id="test-10-3-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
+1. Ouvrir le fichier PDF.
 2. Repérer dans le document les champs de formulaire ayant les mêmes fonctions.
-3. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ et vérifier que les noms vocalement restitués sont cohérents entre eux.
+3. Vérifier que les contenus des infobulles des champs sont cohérents entre eux.
 4. Vérifier que les étiquettes visibles sont également cohérentes entre elles.
 5. Si c’est le cas, le critère est validé.
 
@@ -1002,36 +1021,39 @@ Néanmoins, le recours à un test par une personne en situation de handicap au m
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)&nbsp;:
-    - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html) ;
+    - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html)&nbsp;;
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.2 Labels or instructions*{lang=en}.
 
-#### [Critère 10.5](#crit-10-5) [A] Les [champs de formulaire](glossaire.md#champ-de-formulaire) obligatoires sont-ils correctement identifiés (hors cas particuliers)&nbsp;? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) obligatoire vérifie-t-il ces conditions&nbsp;?{id="test-10-5-1"}
-    - Le caractère obligatoire est visible et explicite.
-    - Le caractère obligatoire est accessible aux technologies d’assistance.
+#### [Critère 10.5](#crit-10-5) [A] Les [champs de formulaire](glossaire.md#champ-de-formulaire) obligatoires ou facultatifs sont-ils correctement identifiés (hors cas particuliers)&nbsp;? {id="crit-10-5"}
+- **[Test 10.5.1](#test-10-5-1)** Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) obligatoire ou facultatif vérifie-t-il ces conditions&nbsp;?{id="test-10-5-1"}
+    - Le caractère obligatoire ou facultatif est visible et explicite.
+    - Le caractère obligatoire ou facultatif est accessible aux technologies d’assistance.
 
 ##### Cas particuliers 
-Dans ces situations, le critère est non applicable&nbsp;:
 
-- Le formulaire ne comporte qu’un seul champ.
-- Les champs optionnels sont indiqués de manière&nbsp;:
-    - visible et explicite&nbsp;;
-    - dans l’étiquette du champ.
+Lorsque le formulaire ne comporte qu’un seul champ, le critère est non applicable.
 
 Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le critère reste applicable.
 
+##### Notes techniques
+
+Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.
+
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Repérer dans le document les champs indiqués comme obligatoires.
-3. Vérifier que l’indication visuelle est explicite&nbsp;:
-    - il s’agit d’une indication textuelle (par exemple «&nbsp;obligatoire&nbsp;»)&nbsp;;
-    - ou il s’agit d’une indication visuelle (par exemple «&nbsp;\*&nbsp;») définie avant le formulaire par une mention textuelle (par exemple «&nbsp;Les champs précédés de (\*) sont obligatoires&nbsp;»).
-4. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ et vérifier que le caractère obligatoire de la saisie est vocalement restitué.
-5. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
+3. Repérer dans le document les champs signalés comme obligatoires.
+4. Vérifier que la mention du caractère obligatoire ou facultatif est explicite&nbsp;:
+    - il s’agit d’une indication textuelle (par exemple « obligatoire »)&nbsp;;
+    - ou il s’agit d’une indication visuelle (par exemple « * ») définie avant le formulaire par une mention textuelle (par exemple « Les champs précédés de (*) sont obligatoires »).
+5. Vérifier que la mention du caractère obligatoire ou facultatif est&nbsp;:
+    - visible dans le document, préalablement à la validation du formulaire&nbsp;;
+    - contenue dans l’infobulle, préalablement à la validation du formulaire.
+6. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -1043,24 +1065,23 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}, *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 
-#### [Critère 10.6](#crit-10-6) [A] Pour chaque [champ de formulaire](glossaire.md#champ-de-formulaire) obligatoire, le type de données et/ou de format attendu est-il disponible&nbsp;? {id="crit-10-6"}
-- **[Test 10.6.1](#test-10-6-1)** Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) obligatoire vérifie-t-il ces conditions&nbsp;?{id="test-10-6-1"}
+#### [Critère 10.6](#crit-10-6) [A] Les instructions du type de données et/ou de format vérifient-elles ces conditions&nbsp;? {id="crit-10-6"}
+- **[Test 10.6.1](#test-10-6-1)** Les instructions et indications du type de données et/ou de format obligatoires vérifient-elles ces conditions&nbsp;?{id="test-10-6-1"}
     - Le type de données et/ou de format est visible.
+    - Le type de données et/ou de format est indiqué préalablement à la validation du formulaire.
     - Le type de données et/ou de format est accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Repérer dans le document les champs obligatoires.
-3. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ.
-4. Remplir les champs avec des valeurs susceptibles de provoquer des erreurs de saisie (un format invalide pour une adresse e-mail par exemple). 
-5. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
-6. Pour chaque message d’erreur affiché, vérifier que le type de données et/ou le format attendu&nbsp;:
-    - est indiqué au moyen d’un texte visible à proximité du champ ou par l'intermédiaire d'une fenêtre d'information&nbsp;;
-    - est vocalement restitué au moment de l’activation du champ.
-7. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Remplir les champs de formulaire avec des valeurs susceptibles de provoquer des erreurs de saisies (entrer une adresse <em lang="en">e-mail</em> mal formée par exemple).
+3. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
+4. Pour chaque champ de formulaire qui possède un contrôle du format, vérifier que l’instruction ou l’indication du type de données&nbsp;:
+    - est indiquée au moyen d’un texte visible à proximité du champ, préalablement à la validation du formulaire&nbsp;;
+    - est contenue dans l’infobulle du champ, préalablement à la validation du formulaire.
+5. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -1069,6 +1090,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)&nbsp;:
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3	Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
 #### [Critère 10.7](#crit-10-7) [A] Chaque message d’erreur de saisie est-il correctement restitué&nbsp;? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Chaque message d’erreur de saisie vérifie-t-il ces conditions&nbsp;?{id="test-10-7-1"}
@@ -1077,15 +1099,15 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ.
-3. Remplir les champs avec des valeurs susceptibles de provoquer des erreurs de saisie (un format invalide pour une adresse e-mail par exemple). 
-4. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
-5. Pour chaque message d’erreur affiché, vérifier&nbsp;:
-    - qu'il est indiqué au moyen d’un texte visible à proximité du champ&nbsp;;
-    - qu'il est vocalement restitué au moment de l’activation du champ.
+1. Ouvrir le fichier PDF.
+2. Remplir les champs de formulaire avec des valeurs susceptibles de provoquer des erreurs de saisies (entrer une adresse <em lang="en">e-mail</em> mal formée par exemple).
+3. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
+4. Pour chaque message d’erreur affiché, vérifier qu’il est indiqué par l’intermédiaire d’une fenêtre d’information.
+5. Sinon, pour chaque champ, vérifier que le message d’erreur&nbsp;:
+    - est indiqué au moyen d’un texte visible dans le document à proximité du champ&nbsp;;
+    - que l’infobulle contient une information similaire au texte visible dans le document.
 6. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -1093,6 +1115,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 - WCAG 2.1&nbsp;: [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification)&nbsp;:
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.1 Error identification*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3	Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
 #### [Critère 10.8](#crit-10-8) [AA] Le [contrôle de saisie](glossaire.md#controle-de-saisie) est-il accompagné, si nécessaire, de suggestions des types, formats de données ou valeurs attendus (hors cas particuliers)&nbsp;? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Le [contrôle de saisie](glossaire.md#controle-de-saisie) vérifie-t-il ces conditions&nbsp;?{id="test-10-8-1"}
@@ -1100,42 +1123,40 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
     - Le contrôle de saisie est accompagné, si nécessaire, de suggestions de valeurs attendues.
 
 ##### Cas particuliers 
-Dans ces situations, le critère est non applicable&nbsp;:
 
-- Le message d’erreur est généré automatiquement par le logiciel d’édition PDF.
-- La personnalisation des messages d’erreur nécessite l’utilisation d’un langage de script.
+Le critère est non applicable lorsque le message d’erreur est généré automatiquement par le logiciel d’édition PDF.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque champ.
-3. Remplir les champs avec des valeurs susceptibles de provoquer des erreurs de saisies (un format invalide pour une adresse e-mail par exemple). 
-4. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
-5. Pour chaque message d'erreur relatif à un type ou un format de donnée ou une valeur attendue, vérifier&nbsp;: 
-    - qu'un exemple de saisie réelle est présent dans le message d’erreur (pour une adresse e-mail, vérifier la mention d’une adresse réelle sur le modèle &laquo;&nbsp;jean.dupont@sample.com&nbsp;&raquo;)&nbsp;;
-    - que l’exemple de saisie réelle est vocalement restitué au moment de l’activation du champ.
-5. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Remplir les champs de formulaire avec des valeurs susceptibles de provoquer des erreurs de saisies (entrer une adresse <em lang="en">e-mail</em> mal formée par exemple).
+3. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
+4. Pour chaque message d’erreur relatif à un type ou un format de donnée ou une valeur attendue indiqué par l’intermédiaire d’une fenêtre d’information, vérifier qu’un exemple de saisie réelle est présent dans le message d’erreur (pour une adresse e-mail, vérifier la mention d’une adresse réelle sur le modèle « jean.dupont@sample.com »).
+5. Pour chaque message d’erreur relatif à un type ou un format de donnée ou une valeur attendue indiqué directement dans le document, vérifier&nbsp;:
+    - qu’il contient un exemple de saisie réelle (pour une adresse e-mail, vérifier la mention d’une adresse réelle sur le modèle « jean.dupont@sample.com »)
+    - qu’il est visible à proximité du champ&nbsp;;
+    - que l’infobulle contient une information similaire au texte visible.
+6. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.3 Suggestion après une erreur (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion)&nbsp;:
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.3 Error suggestion*{lang=en}.
-
+- PDF/UA-2&nbsp;: *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
 #### [Critère 10.9](#crit-10-9) [A] Chaque bouton de formulaire a-t-il un intitulé&nbsp;? {id="crit-10-9"}
 - **[Test 10.9.1](#test-10-9-1)** Chaque bouton de formulaire a-t-il un intitulé&nbsp;?{id="test-10-9-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque bouton.
-3. Vérifier qu’un intitulé est vocalement restitué.
-4. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Pour chaque bouton de formulaire, vérifier qu’au survol, une infobulle est affichée.
+3. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)&nbsp;:
@@ -1143,6 +1164,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - WCAG 2.1&nbsp;: [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)&nbsp;:
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.4.1.2 Name, role, value*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.3.2.2 Push-button*{lang=en}.
 
 #### [Critère 10.10](#crit-10-10) [A] L’intitulé de chaque bouton de formulaire est-il pertinent&nbsp;? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Chaque bouton de formulaire respecte-t-il ces conditions&nbsp;?{id="test-10-10-1"}
@@ -1151,14 +1173,13 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et NVDA
+###### Avec Acrobat Reader
 
-1. Ouvrir le fichier PDF et activer NVDA.
-2. Avec NVDA, utiliser la touche de tabulation pour activer chaque bouton.
-3. Vérifier&nbsp;:
-    - que l’intitulé vocalement restitué est pertinent&nbsp;;
-    - que l’intitulé visible est contenu dans l’intitulé vocalement restitué.
-4. Si c’est le cas, le critère est validé.
+1. Ouvrir le fichier PDF.
+2. Pour chaque bouton de formulaire qui dispose d’une infobulle au survol, vérifier que le contenu de l’infobulle&nbsp;:
+    - permet de connaître la fonction exacte du bouton&nbsp;;
+    - contient au moins l’étiquette visible dans le document.
+3. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -1169,6 +1190,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html)&nbsp;;
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.5.3 Label in name*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
+- PDF/UA-2&nbsp;: *8.10.3.2.2 Push-button*{lang=en}.
 
 #### [Critère 10.11](#crit-10-11) [AA] Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;? {id="crit-10-11"}
 - **[Test 10.11.1](#test-10-11-1)** Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;?{id="test-10-11-1"}
@@ -1194,5 +1216,3 @@ Dans ces situations, le critère est non applicable&nbsp;:
     - [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99)&nbsp;;
     - [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.4 Error prevention (legal, financial, data)*{lang=en}.
-
-

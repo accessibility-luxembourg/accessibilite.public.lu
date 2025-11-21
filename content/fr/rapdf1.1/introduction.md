@@ -1,4 +1,4 @@
-*Version 1.0, publiée le 5 avril 2023*
+*Version 1.1, publiée le xx xx xxxx*
 
 D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/) est en charge du contrôle de leur accessibilité.
 
@@ -19,4 +19,4 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 - [Méthodologie de test](methodologie.md)
 - [Environnement de test](environnement.md)
 - [Références](references.md)
-
+- [Notes de révision](notes-de-revision.md)

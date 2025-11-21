@@ -334,7 +334,16 @@ const config = {
                     "name": "rapdf1.1/references",
                     "md": "./content/fr/rapdf1.1/references.md",
                     "prefix": "../.."  
-                }
+                },
+                {
+                    "title": "RAPDF 1.1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "rapdf1.1/notes-revision",
+                    "md": "./content/fr/rapdf1.1/notes-de-revision.md", 
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
+                },
             ]
         }
     ],

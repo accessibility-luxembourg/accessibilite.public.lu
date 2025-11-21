@@ -319,7 +319,16 @@ const config = {
                     "name": "rapdf1.1/references",
                     "md": "./content/en/rapdf1.1/references.md",
                     "prefix": "../../.." 
-                }
+                },
+                {
+                    "title": "RAPDF 1.1 : Changelog",
+                    "menu": "Changelog",
+                    "name": "rapdf1.1/notes-revision",
+                    "md": "./content/en/rapdf1.1/notes-de-revision.md", 
+                    "prefix": "../../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Table of contents"
+                }               
             ]
         }
     ],
