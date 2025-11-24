@@ -229,32 +229,36 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         el.parentNode.insertBefore(newLayout, el); 
         el.remove();
     });
-
-    // FIXME bug RAPDF 
-    // // //12. redessiner l'apparence des tests multiples
-    // els = document.querySelectorAll('div.accordion-panel > details > ul');
-    // //els = document.querySelectorAll('ul:has( > li[id^=test])');
-    // els.forEach(el => {
-    //     if (el.querySelectorAll('li[id^=test]').length !== 0) {
-    //         for (let i = 0; i < el.childElementCount; i++) {
-    //             if (el.children[i].lastElementChild.nodeName === "UL") {
-    //                 el.parentNode.insertBefore(el.children[i].lastElementChild, el);
-    //             }
-    //             let testTitle = el.children[i].innerHTML.split("</strong> ").pop();
-    //             let testNumber = el.children[i].id.split("test-").pop().replace(/-/g, '.');
-    //             let newLayout = document.createElement("H5");
-    //             newLayout.setAttribute("id", el.children[i].id);
-    //             addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
-    //             addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
-    //             addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + el.children[i].id]);
-    //             addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
-    //             addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
-    //             addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
-    //             el.parentNode.insertBefore(newLayout, el.previousElementSibling);
-    //         }
-    //         el.remove();
-    //     }
-    // });
+  
+    //12. redessiner l'apparence des tests multiples
+    // on détecte ici la liste de tests quand un critère a plusieurs tests
+    els = document.querySelectorAll('div.accordion-panel > details > ul');
+    els.forEach(ul => {
+        if (ul.querySelectorAll('li[id^=test]').length !== 0) {
+            for (let i = 0; i < ul.childElementCount; i++) { // on itère sur les li[id^=test] 
+                let hasConditions = false
+                if (ul.children[i].lastElementChild.nodeName === "UL") { // on a une liste de conditions dans le test
+                    //console.log('has conditions')
+                    hasConditions = true
+                    ul.parentNode.insertBefore(ul.children[i].lastElementChild, ul);
+                }
+                let testTitle = ul.children[i].innerHTML.split("</strong> ").pop().replace('</p>', '');
+                let testNumber = ul.children[i].id.split("test-").pop().replace(/-/g, '.');
+                //console.log(testNumber)
+                let newLayout = document.createElement("H5");
+                newLayout.setAttribute("id", ul.children[i].id);
+                addelt(document, "span", newLayout, '<span class="sr-only">Test </span>' + testNumber);
+                addelt(document, "span", newLayout, testTitle, ["class"], ["test-content"]);
+                addelt(document, "a", newLayout.lastChild, null, ["class", "title", "href"], ["anchor", __("Test") + ' ' + testNumber, "#" + ul.children[i].id]);
+                addelt(document, "span", newLayout.lastChild.lastChild, null, ["class"], ["sr-only"]);
+                addelt(document, "span", newLayout.lastChild.lastChild.lastChild, __("Test") + ' ' + testNumber);
+                addelt(document, "img", newLayout.lastChild.lastChild, null, ["aria-hidden", "src", "alt"], ["true", "../../img/hyperlink.svg", ""]);
+                // attention au point d'insertion ! Si on a une liste de conditions, on doit insérer avant cette liste de conditions, si on n'en a pas on insère directement
+                ul.parentNode.insertBefore(newLayout, hasConditions?ul.previousElementSibling:ul);
+            }
+            ul.remove();
+        }
+    });
     return dom.serialize();
   }
   
