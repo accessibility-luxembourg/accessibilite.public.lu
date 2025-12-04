@@ -4,6 +4,8 @@ WCAG:
     title: Audio Description (Prerecorded)
     level: AA
 Techniques:
+  - F113
+  - G226
   - SM1
   - SM2
   - SM6

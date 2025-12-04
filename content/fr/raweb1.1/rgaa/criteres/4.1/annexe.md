@@ -15,6 +15,7 @@ Techniques:
   - G159
   - G166
   - G173
+  - G226
   - H96
   - SM6
   - SM7

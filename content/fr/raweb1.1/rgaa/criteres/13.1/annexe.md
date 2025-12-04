@@ -10,19 +10,13 @@ Techniques:
   - F40
   - F41
   - F58
-  - F61
-  - G75
-  - G76
-  - G110
   - G133
   - G180
   - G186
   - G198
-  - H76
   - SCR1
   - SCR16
   - SCR36
-  - SVR1
 Norm:
   - criterion: 9.2.2.1
     title: Timing Adjustable

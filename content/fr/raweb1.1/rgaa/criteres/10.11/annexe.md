@@ -12,6 +12,8 @@ Techniques:
   - C38
   - F102
   - G206
+  - G224
+  - G225
 Norm:
   - criterion: 9.1.4.10
     title: Reflow

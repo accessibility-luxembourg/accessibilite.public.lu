@@ -16,9 +16,9 @@ Les rôles doivent être définis dans le document en fonction de la nature de l
 3 landmarks sont disponibles pour identifier d’autres régions : 
 - `form` (`<form>` ou `role="form"`)
 - `complementary` (`<aside>` ou `role="complementary"`)
-- `region` (`role="region"`).
+- `region` (`<section>` ou `role="region"`).
 
-Les landmarks `form` et `region` ne sont identifiés comme repère de navigation que s’il possède un nom accessible.
+Les landmarks `form` et `region` ne sont identifiés comme repère de navigation que s’ils possèdent un nom accessible.
 
 Voir la section [Landmark Roles](https://www.w3.org/TR/wai-aria-1.1/#landmark_roles) dans la documentation.
 

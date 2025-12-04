@@ -9,6 +9,7 @@ WCAG:
 Techniques:
   - C15
   - C40
+  - C45
   - F73
   - F78
   - G149

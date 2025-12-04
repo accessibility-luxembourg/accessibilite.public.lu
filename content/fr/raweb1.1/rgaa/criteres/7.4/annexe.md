@@ -7,13 +7,10 @@ WCAG:
     title: On Input
     level: A
 Techniques:
-  - F9
-  - F22
   - F36
   - F37
   - F41
   - G13
-  - G76
   - G80
   - G107
   - H32

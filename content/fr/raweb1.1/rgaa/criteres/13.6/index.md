@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, pour chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?
+title: Dans chaque page web, pour chaque [contenu cryptique](#contenu-cryptique) ayant une alternative, cette alternative est-elle pertinente ?
 ---

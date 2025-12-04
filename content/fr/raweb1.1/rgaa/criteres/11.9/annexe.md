@@ -11,6 +11,7 @@ Techniques:
   - ARIA9
   - ARIA14
   - F96
+  - F111
   - G208
   - G211
   - H36

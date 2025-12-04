@@ -18,12 +18,12 @@ Techniques:
   - F59
   - F79
   - F96
+  - F111
   - G10
   - G135
   - G136
   - G208
   - G211
-  - SCR21
 Norm:
   - criterion: 9.2.5.3
     title: Label in Name

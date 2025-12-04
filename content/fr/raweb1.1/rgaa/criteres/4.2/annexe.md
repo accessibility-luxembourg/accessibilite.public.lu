@@ -9,6 +9,7 @@ WCAG:
 Techniques:
   - F30
   - F67
+  - G226
   - SM6
   - SM7
 Norm:

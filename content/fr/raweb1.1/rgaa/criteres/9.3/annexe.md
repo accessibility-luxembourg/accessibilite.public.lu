@@ -6,8 +6,6 @@ WCAG:
 Techniques:
   - F2
   - G115
-  - G153
-  - H40
   - H48
 Norm:
   - criterion: 9.1.3.1
