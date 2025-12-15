@@ -1599,6 +1599,6 @@ Note importante&nbsp;: lorsque le type de champ de formulaire propose un masque 
 
 </blockquote>
 
-###  Version accessible (pour un document en téléchargement) - modification
+#### Version accessible (pour un document en téléchargement) - modification
 
 L’entrée de glossaire [Version accessible (pour un document en téléchargement)](glossaire.html#version-accessible-pour-un-document-en-telechargement) a été modifiée pour remplacer la référence à Open Office Org (ODF) par LibreOffice.
