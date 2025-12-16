@@ -2,6 +2,6 @@
 title: Visible content
 ---
 
-For the {% test '10.2.1' %}: "Present content" means that visible content remains present when CSS is deactivated. For example, an image conveying information as a CSS background property invalidates this test because the information is no longer "present" when CSS is deactivated. On the other hand, an image conveying information as a CSS background property but accompanied by hidden text validates this test because the information is indeed "present" when CSS is deactivated.
+Content is visible when it is shown on the web page, either when the page loads or after an interface component is activated (e.g., displaying a modal window or submenu).
 
-Note: the practice of managing images as background properties of elements via CSS is formally not recommended, even if accompanied by hidden text.
+Test 10.2.1 requires that visible content be accessible to assistive technologies. This means that any visible content that is implemented using a method that does not natively provide an alternative should be accompanied by a secondary method to provide that alternative. For example, an image conveying information in CSS background property on an element that contains visually hidden text passes this test because the information is accessible to assistive technologies. Without this hidden text, the test fails.

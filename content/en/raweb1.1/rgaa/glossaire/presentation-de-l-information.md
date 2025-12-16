@@ -7,6 +7,6 @@ The elements (`basefont`, `big`, `blink`, `center`, `font`, `marquee`, `s`, `str
 
 Notes
 
-- The `width` and `height` attributes used on elements other than the `<img>`, `<object>`, `<embed>`, `<canvas>` and `<svg>` elements are also prohibited;
+- The `width` and `height` attributes are prohibited except on `<canvas>`, `<embed>`, `<iframe>`, `<img>`, `<object>`, `<source>` elements, as well as `<svg>` and its children;
 - The `size` attribute used on elements other than the `<select>` element is also prohibited;
 - The `<u>` element is prohibited only if the DOCTYPE of the document does not correspond to HTML 5.

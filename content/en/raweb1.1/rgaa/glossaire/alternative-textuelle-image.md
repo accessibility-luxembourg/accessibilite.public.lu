@@ -22,7 +22,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<embed type="image/…"> `;
   - `<canvas> `;
   - tags with a WAI-ARIA `role="img"` attribute.
-- Otherwise, value of the WAI-ARIA `aria-label` attribute for elements:
+- Otherwise, the value of the WAI-ARIA `aria-label` attribute for elements:
   - `<img>`;
   - `<area>`;
   - `<input type="image">`;
@@ -31,7 +31,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<embed type="image/…">`;
   - `<canvas>`;
   - opening tags with a WAI-ARIA `role="img"` attribute.
-- Otherwise, value of the `alt` attribute for tags:
+- Otherwise, the value of the `alt` attribute for tags:
   - `<img>`;
   - `<area>`;
   - `<input type="image"> `.
@@ -40,6 +40,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<input type="image"> `;
   - `<object type="image/…"> `;
   - `<embed type="image/…"> `.
+- Otherwise, the value of the `title` element for the `svg` tag.
 
 This order must be used to determine what constitutes the text alternative.
 
@@ -64,8 +65,6 @@ Note 2: For a group of images, for example a voting system made up of several st
 
 Note 3: for image links, the alternative text must allow the function and destination of the link to be understood; this is covered in the links theme.
 
-Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<title>` or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<text>` tag, whether or not this tag is visible, even if this is not the role assigned to this element in SVG.
 
-Note 5: As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to an `<img>`, `<area>` and `<input type="image">` tag.
-
-Note 6: although the `title` attribute is considered to be a possible text alternative (image), its use can cause problems, in particular because an image with an absent or empty `alt` attribute is considered to be an image with a `role="presentation"` by WAI-ARIA: <a href="https://www.w3.org/TR/html-aam-1.0/#details-id-54">https://www.w3.org/TR/html-aam-1.0/#details-id-54</a>. It is important to ensure that the assistive technologies present in the selected test environment correctly render the alternative proposed by the `title` attribute.
+Note 5: although the `title` attribute is considered to be a possible text alternative (image), its use can cause problems, in particular because an image with an absent or empty `alt` attribute is considered to be an image with a `role="presentation"` by WAI-ARIA: <a href="https://www.w3.org/TR/html-aam-1.0/#details-id-54">https://www.w3.org/TR/html-aam-1.0/#details-id-54</a>. It is important to ensure that the assistive technologies present in the selected test environment correctly render the alternative proposed by the `title` attribute.

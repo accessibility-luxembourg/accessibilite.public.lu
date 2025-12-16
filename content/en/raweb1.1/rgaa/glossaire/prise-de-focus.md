@@ -6,7 +6,9 @@ Focus is the state returned by an element that receives attention following a us
 
 - By activating the element using a pointing device (e.g. mouse);
 - By reaching the element using the tab or shift + tab key;
-- By activating the element using a keyboard shortcut (`accesskey`).
+- By activating the element using a keyboard shortcut.
+
+<b>{% crit 10.7 %} only concerns keyboard focus (tab, shift + tab, keyboard shortcut).</b>
 
 Some elements naturally receive the focus, for example: `<a href>`, `<area href>`, `<button>`, `<input>`, `<object>`, `<select>`, `<label>`, `<legend>`, `<optgroup>`, `<option>` and `<textarea>`.
 The behaviour of the element when focused depends on its nature; a link, for example, should be activated after the focus is set (unless a script is used). On the other hand, a form element, such as `<textarea>`, should allow input when focused. The elements `<label>` and `<legend>` only receive the focus when focused via the mouse pointer. For the `<label>` element, the expected behaviour is to transfer the focus to the element associated with it.

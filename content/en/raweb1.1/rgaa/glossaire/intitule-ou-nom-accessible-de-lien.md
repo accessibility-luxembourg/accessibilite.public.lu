@@ -53,13 +53,3 @@ In the case of an SVG link (version 1.1), the "accessible name" is obtained as f
 - Otherwise, text content of one or more `<text>` elements.
 
 However, care must be taken as this calculation algorithm is not yet taken into account and effective within the various screen readers. To date, support is available with VoiceOver, but incomplete with JAWS and NVDA. As a result, the lowest common denominator on which it is possible to rely to provide an accessible name for the link is the `<text>` element.
-
-Note 1: the accessible name of a link will be considered as non-explicit if it does not include the [visible label](#visible-label) of the link.
-
-Note 2: due to the possible configuration of assistive technologies allowing the "accessible name" derived from the value of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. The accessible name of a link will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
-
-Note 3: In the case of several links with different destinations whose "accessible name" is identical. The accessible name of a link alone will be considered non-explicit if the link context does not allow them to be differentiated.
-
-Note 4: when a link contains no content, it will be non-compliant with regard to {% crit 10.2 %} and {% crit 6.2 %}.
-
-Note 5: Although the calculation of the accessible name of a link takes into account text content generated in CSS via the `::before` and `::after` pseudo-elements, this practice must not be used, as it constitutes non-compliance with <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> 2.1 criterion 1.3.1 (see [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87)).
