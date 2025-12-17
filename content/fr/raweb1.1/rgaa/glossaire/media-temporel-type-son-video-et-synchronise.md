@@ -17,5 +17,3 @@ title: Média temporel (type son, vidéo et synchronisé)
 Un média temporel peut être diffusé en temps réel ou être proposé en lecture de manière asynchrone (média pré-enregistré).
 
 Note 1 : les gif animés, les animations d’images réalisées par JavaScript ou CSS ne sont pas considérés comme étant des médias temporels.
-
-Note 2 : l’élément `<bgsound>` est spécifique à Internet Explorer et ne devrait pas être utilisé.

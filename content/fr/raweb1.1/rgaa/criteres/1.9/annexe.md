@@ -19,4 +19,4 @@ Norm:
 
 #### Note technique
 
-Les images légendées doivent par ailleurs respecter le {% crit 1.1 %} et le {% crit 1.3 %} relatifs aux images porteuses d’information.
+Les images légendées doivent par ailleurs respecter le [critère 1.1](#crit-1-1) et le [critère 1.3](#crit-1-3) relatifs aux images porteuses d’information.
