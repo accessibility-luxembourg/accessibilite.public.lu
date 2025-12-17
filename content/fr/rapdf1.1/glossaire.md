@@ -123,11 +123,11 @@ Dans ce cas, le document doit être recréé sous la forme d’un formulaire int
 ### H
 #### Hiérarchie du titrage
 
-Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.
+Dans la plupart des logiciels d’édition bureautique, la bibliothèque de styles propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.
 
-La hiérarchie du titrage est cohérente lorsque l'imbrication des niveaux de titres est cohérente (les niveaux d'imbrication des titres reflètent le niveau de dépendance des contenus les uns par rapport aux autres).
+La hiérarchie du titrage est cohérente lorsque l’imbrication des niveaux de titres est cohérente (les niveaux d’imbrication des titres reflètent le niveau de dépendance des contenus les uns par rapport aux autres).
 
-Note : la présence de sauts hiérarchiques (par exemple, passage d’un titre de niveau 2 à un titre de niveau 4) n’invalide pas le critère.
+Note : la présence de sauts hiérarchiques (par exemple, passage d’un titre de niveau 2 à un titre de niveau 4) n’invalide pas le critère, mais elle est déconseillée.
 
 ### I
 
@@ -169,7 +169,7 @@ Un lien peut être de trois formes différentes&nbsp;:
 - lien image dont l’intitulé est constitué de l’alternative de l’image&nbsp;;
 - lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.
 #### Lien dont la nature n’est pas évidente
-Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains types d’utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte «&nbsp;Nouveaux horaires d'été&nbsp;», si le mot «&nbsp;horaires&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
+Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte «&nbsp;Nouveaux horaires d’été&nbsp;», si le mot «&nbsp;horaires&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
 
 Note : «&nbsp;signalé uniquement par la couleur&nbsp;» signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure…). En conséquence, un lien de la même couleur que le texte environnant est concerné par ce critère.
 

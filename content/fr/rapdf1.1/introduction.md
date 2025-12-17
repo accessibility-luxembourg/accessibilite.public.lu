@@ -1,6 +1,7 @@
 *Version 1.1, publiée le xx xx xxxx*
 
-D’après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles d’organismes du secteur public luxembourgeois doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/) est en charge du contrôle de leur accessibilité.
+Conformément à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles des organismes du secteur public doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/fr.html) est chargé de contrôler leur conformité en matière d’accessibilité.
+Par ailleurs, la [loi du 8 mars 2023](https://sip.gouvernement.lu/fr.html) étend cette obligation à certains types de produits et services. Le contrôle de leur accessibilité relève de la compétence de [l’OSAPS]([OSAPS](https://accessibilite-produits-services.public.lu/fr.html)).
 
 Dans ce cadre, le référentiel PDF a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public concernés par la loi.
 

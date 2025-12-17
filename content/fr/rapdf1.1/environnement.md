@@ -11,12 +11,5 @@ Les versions des technologies d’assistance à utiliser sont la dernière dispo
 Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](https://get.adobe.com/fr/reader/){lang=en}.
 
 #### Outils de test
-##### Outil de test dédié
 
-L’outil de test dédié est [PAC 2024](https://pac.pdf-accessibility.org/en/download){lang=en}
-
-##### Lecteur d’écran utilisé pour les tests
-
-Le lecteur d’écran utilisé pour effectuer les tests de restitution pour la thématique «&nbsp;Formulaire interactif&nbsp;» est [NVDA](https://www.nvda.fr/).
-
-La section [Méthodologie](methodologie.md) du présent référentiel présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 
+L’outil de test dédié est [PAC](https://pac.pdf-accessibility.org/en/download){lang=en}, en version 2024 minimum. 
