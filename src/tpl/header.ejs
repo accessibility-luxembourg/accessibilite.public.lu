@@ -53,12 +53,12 @@
                           
                         </a>
                       </li>
-                    <% }) %>
-                  </ul>
+                      <% }) %>
+                    </ul>
                 </li>
               <% } else {%>
                 <li <%- (e.name === name)?'class="selected"':'' %>>
-                  <a <%- (e.name === name)?'aria-current="page"':'' %><%- (e.name === 'index')?'class="home"':''  %> 
+                  <a <%- (e.name === name)?'aria-current="page"':'' %> <%- (e.name === 'index')?'class="home"':''  %> 
                     href="<%= prefix %>/<%= lang %>/<%= e.name %>.html"><%- e.menu %></a>
                 </li>          
               <% } %>
