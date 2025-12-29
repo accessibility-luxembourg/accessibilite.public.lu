@@ -15,8 +15,6 @@ Nous identifions dans cette section, les modifications qui engendrent des défau
 * Le critère 1.2 est modifié, il réduit l’usage du `role="presentation"` et du `role="none"`.
 * Le critère 13.5 est modifié et ne considère plus l’usage de la balise `<abbr>` et de l’attribut `title` comme une méthode conforme pour la mise à disposition d’une alternative aux contenus cryptiques.
 
-### Méthodologie
-
 ### Critères
 
 #### 1.2
