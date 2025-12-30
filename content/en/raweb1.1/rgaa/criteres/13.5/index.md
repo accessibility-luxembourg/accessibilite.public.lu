@@ -1,3 +1,3 @@
 ---
-title: Is there an alternative to every cryptic content (ASCII art, emoticon, cryptic syntax) on every web page?
+title: On each web page, is each cryptic content correctly identified?
 ---

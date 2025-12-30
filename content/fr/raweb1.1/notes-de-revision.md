@@ -791,7 +791,7 @@ Le test 11.10.1 et le test 11.10.2 traitent des champs de manière indépendante
 
 #### 12.6
 
-Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est modifié pour prendre en compte l’évolution des exigences sur l’implémentation des landamrks (voir l’[évolution du critère 9.2](#9.2))&nbsp;: il n’est plus obligatoire de recourir à l’implémentation conjointe d’une balise HTML5 et d’un `role` ARIA équivalent. 
+Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est modifié pour prendre en compte l’évolution des exigences sur l’implémentation des landmarks (voir l’[évolution du critère 9.2](#9.2))&nbsp;: il n’est plus obligatoire de recourir à l’implémentation conjointe d’une balise HTML5 et d’un `role` ARIA équivalent. 
 
 Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est ainsi modifié pour ne s’appliquer qu’aux régions autres que les zones principales déjà identifiées dans le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2).
 
@@ -893,7 +893,7 @@ Il existe une gestion de cas particuliers&nbsp;:
 
 #### 13.5 
 
-Le [critère 13-5](/fr/raweb1.1/criteres.html#crit-13-5) est modifié afin de mieux définir la portée du critère (la définition [Contenu cryptique](glossaire.html#contenu-cryptique) a d’ailleurs été créée) et les cas d’implémentations jugés compatibles avec l’accessibilité.
+Le [critère 13.5](/fr/raweb1.1/criteres.html#crit-13-5) est modifié afin de mieux définir la portée du critère (la définition [Contenu cryptique](glossaire.html#contenu-cryptique) a d’ailleurs été créée) et les cas d’implémentations jugés compatibles avec l’accessibilité.
 
 Le [test 13.5.1](/fr/raweb1.1/criteres.html#test-13-5-1) est modifié&nbsp;: l’attribut `title` n’est plus référencé en tant que méthode valide. Il est nécessaire de garantir une implémentation compatible avec l’accessibilité et supportée sur l’environnement de test. 
 

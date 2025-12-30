@@ -30,6 +30,12 @@ Norm:
     title: Pause, Stop, Hide
 ---
 
+#### Special cases
+
+When movement, blinking or scrolling is essential to the proper functioning or understanding of a feature, the criterion does not apply.
+
+In some cases, movement is an integral part of the component and it is not possible to give the user control over it, for example a progress bar (or a loader) whose function is to indicate the progress of an event such as a download by means of movement. In this case, the criterion is not applicable.
+
 #### Note
 
 This criterion is subject to the [non-interference principle](./methodo-test.html#non-interference-principle).
