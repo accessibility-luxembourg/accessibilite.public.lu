@@ -321,7 +321,7 @@ Les médias temporels synchronisés en direct diffusés via un site web soumis �
 
 </blockquote>
 
-#### 5.7
+#### 5.1
 
 La méthodologie du [test 5.1.1](/fr/raweb1.1/criteres.html#test-5-1.1) est modifiée pour supprimer la référence à l’attribut `summary`. Cet attribut est obsolète.
 

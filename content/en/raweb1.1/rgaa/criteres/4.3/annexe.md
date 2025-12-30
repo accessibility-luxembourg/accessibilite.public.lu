@@ -20,3 +20,5 @@ Norm:
 #### Special cases
 
 See special cases in criterion 4.1.
+
+Synchronised [time-based media](#time-based-media-audio-video-and-synchronised) broadcast via a website subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) are exempt.
