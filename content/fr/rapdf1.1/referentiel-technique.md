@@ -20,7 +20,7 @@ Par ailleurs, les contenus de type formulaire sont abordés dans une thématique
 
 L’évaluation et l’adaptation de ces éléments nécessitent l’intervention de spécialistes et l’utilisation de logiciels techniques (logiciels de mise en page compatibles avec le format PDF ou l’environnement de travail Acrobat Pro).
 
-Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaîne d’édition spécialisée, dans ce cas, il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
+Il en va de même lorsque le document PDF est issu de logiciels spécialisés, notamment de logiciels de PAO (Publication Assistée par Ordinateur) ou de chaîne d’édition spécialisée&nbsp;: dans ce cas, il faut se référer directement à la norme [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) pour la Section 10 *Non-web documents*{lang=en}.
 
 ### Type de contenus non conformes {class="no-summary"}
 
