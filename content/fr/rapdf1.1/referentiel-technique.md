@@ -63,7 +63,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.3.2 Use of the Artifact structure element*{lang=en}, *8.9.2.4.14 Printer’s mark*{lang=en}.
 
@@ -86,7 +86,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 

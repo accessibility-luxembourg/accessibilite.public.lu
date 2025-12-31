@@ -16,7 +16,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
   
   
-  function singleMDCriteria(data, __) {
+  function singleMDCriteria(data, __, name) {
     const dom = new JSDOM(data);
     const document = dom.window.document;
 
@@ -140,15 +140,19 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "summary", detailRAAM, __("Mapping"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
-        let wcagCorr = el.nextElementSibling.children[0];
-        let euCorr = el.nextElementSibling.children[1];
-        let wcagDetails = wcagCorr.innerHTML.split("&nbsp;:").pop();
-        let euDetails = euCorr.innerHTML.split("&nbsp;:").pop();
-        wcagCorr.innerHTML = "<p>WCAG 2.1</p><p>"+ wcagDetails +"</p>";
-        euCorr.innerHTML = "<p>EN 301 549 V3.2.1 (2021-03)</p><p>"+ euDetails +"</p>";
+        if (name.includes('raam')) {
+            let wcagCorr = el.nextElementSibling.children[0];
+            let euCorr = el.nextElementSibling.children[1];
+            let wcagDetails = wcagCorr.innerHTML.split("&nbsp;:").pop();
+            let euDetails = euCorr.innerHTML.split("&nbsp;:").pop();
+            wcagCorr.innerHTML = "<p>WCAG 2.1</p><p>"+ wcagDetails +"</p>";
+            euCorr.innerHTML = "<p>EN 301 549 V3.2.1 (2021-03)</p><p>"+ euDetails +"</p>";
+        }
         detailRAAM.lastChild.append(el.nextElementSibling);
         el.remove();
     });
+    
+    
   
     // 6. Créer les <details> pour les cas particuliers
     tagsToFetch = ["UL", "P"];
@@ -276,7 +280,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
 
 function main(html, name, __) {
     if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
-        html = singleMDCriteria(html, __)
+        html = singleMDCriteria(html, __, name)
     }    
     if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire', 'rapdf1.1/glossaire'].includes(name)) {
         html = singleMDGlossary(html, __)
