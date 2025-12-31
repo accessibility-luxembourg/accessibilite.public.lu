@@ -53,14 +53,48 @@ The sample on which the audit of a website is carried out covers at least the fo
 1. the web page or set of web pages making up the website [documentation](./glossaire.html#documentation) (if different from the "accessibility" page and the "help" page);
 1. the web page or set of web pages making up the [documentation](./glossaire.html#documentation) for the [support service](./glossaire.html#support-service);
 1. the "site map" page;
-1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
+1. at least one relevant page for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality (see below if you are subject to the law of 8 March 2023);
 1. a page containing at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
-1. the set of web pages making up a process (for example, an input form or a multi-page transaction);
+1. the set of web pages making up a process, for example, an input form or a multi-page transaction (see below if you are subject to the law of 8 March 2023);
 1. examples of pages with a significantly distinct appearance or different type of content (e.g. a page containing data tables, multimedia elements, illustrations, forms, real-time communication functionality, etc.).
 
 The selection of pages audited and their number must be representative of the site. Web analytics can be taken into account when selecting the sample.
 
 Finally, randomly selected pages representing at least 10% of the elements in the sample described above are also taken into account.
+
+##### Entities covered by the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo)
+
+For entities that provide the services specified in the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), specific mandatory pages and processes must be included in the assessment sample, depending on the services provided.
+
+For example, for online banking services, the following pages and features should be included in the sample as a priority, if they exist:
+
+* A page with electronic signature;
+* Account information:
+  * List of accounts;
+  * Account details;
+  * Account information;
+  * Latest transactions;
+  * Transaction details.
+* Account management:
+  * Opening;
+  * Closing;
+  * Overdraft management.
+* Transfers and standing orders:
+  * Transfer;
+  * Standing order (creation, modification, deletion);
+  * Beneficiary (creation, modification, deletion).
+* Card orders;
+* Investments:
+  * Portfolio management;
+  * Investment advice;
+  * Order execution.
+* Payment validation system (3D Secure).
+* Electronic communication functionality (secure messaging);
+* E-commerce functionality (purchase funnel through to payment).
+
+Such a list must be drawn up for each service offered online, whether it is an electronic communication feature (secure messaging) or an e-commerce feature (purchase funnel through to payment).
+
+This list is not exhaustive; it is intended merely to illustrate the specific obligation incumbent on entities that provide the services designated in the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo).
 
 #### Test environment (or "baseline")
 
