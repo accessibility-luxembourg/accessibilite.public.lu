@@ -13,7 +13,7 @@ Par exemple, lorsque l’interface contient un élément graphique porteur d’i
 
 Pour évaluer les critères du référentiel, les tests se font au moyen de l'outil dédié PAC ou directement dans l'interface d'<span lang="en">Acrobat Reader</span>.
 
-Les sections ci-dessous décrivent les éléments essentiels à connaitre pour installer ces outils.
+La section ci-dessous décrit les éléments essentiels à connaitre pour installer l'outil PAC.
 
 #### PAC
 

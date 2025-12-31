@@ -10,6 +10,6 @@ Les versions des technologies d’assistance à utiliser sont la dernière dispo
 
 Certains tests sont réalisés directement dans le logiciel [Acrobat Reader](https://get.adobe.com/fr/reader/){lang=en}.
 
-#### Outils de test
+#### Outil de test
 
 L’outil de test dédié est [PAC](https://pac.pdf-accessibility.org/en/download){lang=en}, en version 2024 minimum. 
