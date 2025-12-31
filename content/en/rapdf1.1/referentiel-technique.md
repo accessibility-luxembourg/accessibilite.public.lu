@@ -65,7 +65,8 @@ Only the content of the criteria and tests has normative value.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03):  10.1.1.1 Non-text content.
+- PDF/UA-2: 8.3.2 Use of the Artifact structure element, 8.9.2.4.14 Printer’s mark.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each image [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-1-2"}
 - **[Test 1.2.1](#test-1-2-1)** Does each image [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-1-2-1"}
@@ -478,25 +479,14 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.1.1 with PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the text passages that should be headings in the original document.
-4. Check in PAC that the heading is presented using an Hx element where x is the heading level, for example H1.
-5. If this is the case, the test is validated.
-
-###### Test 5.1.2 with Acrobat Reader
-
-1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that the tree structure is consistent (the proposed tree structure represents the levels of headings).
-3. If this is the case, the test is validated.
-
-###### Test 5.1.3 with Acrobat Reader
-
-1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that each heading provides a satisfactory description of the content to which it relates.
-3. If so, the test is validated.
+3. Locate the text passages that should be headings in the original document and check in PAC that these headings are presented using an Hx element where x is the heading level, for example H1.
+4. Locate all the headings identified in the document and check that the tree structure is consistent (the nesting of heading levels in relation to each other is consistent).
+5. Check that each heading identified in the document adequately describes the content with which it is associated.
+6. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -534,7 +524,6 @@ In these situations, the criterion does not apply:
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
 
-
 #### [Criterion 5.3](#crit-5-3) [A] [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, is this rule respected? {id="crit-5-3"}
 - **[Test 5.3.1](#test-5-3-1)** [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, does this rule apply? {id="test-5-3-1"}
 
@@ -548,6 +537,18 @@ In these situations, the criterion does not apply:
     - blocks of text associated with an Hx element (for example a block of text associated with an H1 element);
     - successive empty paragraphs;
     - blocks of text where each line is presented in the form of a paragraph (P element).
+4. If this is the case, the criterion is validated.
+
+#### [Criterion 5.4](#crit-5-4) [A] Is each block quotation correctly indicated? {id="crit-5-4"}
+- **[Test 5.4.1](#test-5-4-1)** Is each block of quotation correctly indicated? {id="test-5-3-1"}
+
+##### Evaluation methodology {class="disclosure methodo"}
+
+###### With PAC
+
+1. Open the PDF file.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+3. For each block quotation, verify that the block quotation is structured using a BlockQuote element.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -645,29 +646,9 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="test-7-1-1"}
+#### [Criterion 7.1](#crit-7-1) [AA] Obsolete {id="crit-7-1"}
 
-##### Special cases 
-In these situations, the criterion is not applicable:
-- The document consists of just a few pages.
-- The content is not intended to be structured by a headings structure.
-
-##### Evaluation methodology {class="disclosure methodo"}
-
-###### With Acrobat Reader
-
-1. Open the PDF file.
-2. Check that the contents are preceded by a table of contents.
-3. If not, check that there is a table of contents in the left-hand side panel ("bookmark" icon) of Acrobat Reader.
-6. If this is the case, the criterion is validated.
-
-##### Mapping {class="disclosure mapping"}
-
-- WCAG 2.1 [2.4.5 Multiple ways (MA)](https://www.w3.org/TR/WCAG21/#multiple-ways):
-    - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2);
-    - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
-- EN 301 549 V3.2.1 (2021-03): no related criteria.
+This criterion had no equivalent in standard EN 301 549. It has been removed from the framework.
 
 ### [Topic 8](#topic-8): Mandatory elements {id="topic-8"}
 
@@ -906,16 +887,10 @@ In this case, the criterion is not applicable.
 ### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
 #### Introduction{class=no-summary}
 This topic only covers interactive forms filled in with Acrobat Reader.
-PDF forms can only be created using Acrobat Pro or specialised PDF form editing software.
 
-In addition, the testing methodology requires the use of a screen reader.
-For these reasons, this topic has been deliberately isolated to the last part of the framework.
+PDF forms can only be created using Adobe Acrobat Pro, Adobe InDesign or specialised PDF form editing software.
 
-The assessment methodology is based on the screen reader [NVDA](https://www.nvaccess.org/download/), which can be freely installed and used on a Windows computer.
-
-The criteria for this theme aim to check that the form controls (input field, etc.) are correctly rendered to ensure basic accessibility.
-
-However, a test by a person with a disability using his or her own assistive technology is preferable to check:
+In addition to the assessments proposed in this section, testing by a person with a disability using their own assistive technology is recommended to check:
 - that the PDF form is perfectly usable,
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.
@@ -923,17 +898,18 @@ However, a test by a person with a disability using his or her own assistive tec
 #### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
 - **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-field) satisfy these conditions? {id="test-10-1-1"}
     - the [label](glossaire.md#label) is visible;
-    - the [label](glossaire.md#label) is correctly rendered by assistive technologies.
+    - the [label](glossaire.md#label) is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that:
-    - the label is visible;
-    - a name is rendered vocally.
-3. If this is the case, the criterion is validated.
+1. Open the PDF file.
+2. For each form field, check that:
+    - the label is visible in the document;
+    - a tooltip is displayed when hovering over it.
+3. Check that each field is present.
+4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -945,17 +921,17 @@ However, a test by a person with a disability using his or her own assistive tec
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
-    - The text of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
-    - The visible text of the [label](glossaire.md#label) is contained in the text accessible to assistive technologies.
+    - The [label](glossaire.md#label) accessible to assistive technologies is relevant;
+    - The visible [label](glossaire.md#label) is contained within the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that the name is rendered vocally
-    - indicates the exact function of the associated field;
-    - and contains at least the visible label.
+1. Open the PDF file.
+2. For each form field that has a tooltip when hovered over, check that the tooltip content:
+    - provides information about the exact function of the associated field;
+    - contains at least the label visible in the document.
 3. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -974,12 +950,12 @@ However, a test by a person with a disability using his or her own assistive tec
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
+1. Open the PDF file.
 2. Locate in the document the form fields with the same functions.
-3. With NVDA, use the tab key to activate each field and check that the names rendered vocally are consistent with each other.
-4. Check that the visible labels are also consistent.
+3. Check that the contents of the field tooltips are consistent with each other.
+4. Check that the visible labels are also consistent with each other.
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1006,32 +982,35 @@ However, a test by a person with a disability using his or her own assistive tec
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
 - EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
 
-#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
-    - The required nature is visible and explicit.
-    - The required nature is accessible to assistive technologies.
+#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory or optional [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory or optional [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
+    - The required or optional nature is visible and explicit.
+    - The required or optional nature is accessible to assistive technologies.
 
-##### Special cases 
-In these situations, the criterion is not applicable:
+##### Special cases
 
-- The form has only one field.
-- Optional fields are indicated
-    - visible and explicit;
-    - in the field label.
+When the form contains only one field, the criterion is not applicable.
 
-If all the fields on a form are mandatory, the criterion remains applicable.
+If all fields in a form are mandatory, the criterion remains applicable.
+
+##### Technical notes
+
+Test 10.5.1 addresses fields independently; however, it must be ensured that the method chosen to alert users (mandatory fields or optional fields) is consistent throughout the form.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. Locate the mandatory fields in the document.
-3. Check that the visual indication is self-explanatory:
-    - it is a text indication (e.g. "mandatory");
-    - or it is a visual indication (e.g. "\*") defined before the form by a text indication (e.g. "Fields preceded by (\*) are mandatory").
-4. With NVDA, use the tab key to activate each field and check that the mandatory nature of the input is rendered vocally.
-5. If this is the case, the criterion is validated.
+1. Open the PDF file.
+2. Use the tab key to exit fields or, if the form allows, submit the form.
+3. Identify fields marked as mandatory in the document.
+4. Check that the mandatory or optional status is clearly indicated:
+    - either by text (e.g. ‘mandatory’);
+    - or by a visual indication (e.g. "\*") defined before the form by a text indication (e.g. ‘Fields preceded by ("\*") are mandatory’).
+5. Check that the indication of whether a field is mandatory or optional is:
+    - visible in the document, prior to validation of the form;
+    - contained in the tooltip, prior to validation of the form.
+6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -1043,23 +1022,22 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
 
-#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), is the expected data type and/or format available? {id="crit-10-6"}
-- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-6-1"}
+#### [Criteria 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
+- **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
+    - The data type and/or format is indicated prior to validation of the form.
     - The data type and/or format is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. Locate the mandatory fields in the document.
-3. With NVDA, use the tab key to activate each field.
-4. Fill in the fields with values that are likely to cause input errors (an invalid format for an e-mail address, for example). 
-5. Use the tab key to exit fields or, if the form allows it, to send the form.
-6. For each error message displayed, check that the expected data type and/or format is
-    - indicated by visible text near the field or via an information window;
-    - spoken when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each form field that has a format control, check that the instruction or indication of the data type
+    - is indicated by means of visible text near the field, prior to validation of the form;
+    - is contained in the field's tooltip, prior to form validation.
 7. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1077,15 +1055,15 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field.
-3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
-4. Use the tab key to exit fields or, if the form allows it, to send the form.
-5. For each error message displayed, check that it is
-    - indicated by visible text near the field;
-    - spoken when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each error message displayed, check that it is indicated via an information window.
+5. Otherwise, for each field, check that:
+    -  the error message is indicated by means of text visible in the document near the field;
+    - the tooltip contains information similar to the text visible in the document.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1100,22 +1078,22 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - The input check is accompanied, if necessary, by suggestions for expected values.
 
 ##### Special cases 
-In these situations, the criterion is not applicable:
 
-- The error message is generated automatically by the PDF editing software.
-- The personalisation of error messages requires the use of a script language.
+The criterion is not applicable when the error message is generated automatically by the PDF editing software.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field.
-3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
-4. Use the tab key to exit fields or, if the form allows it, to send the form.
-5. For each error message relating to a data type, format or expected value, check 
-    - that the error message includes an example of a real input (for an email address, check that a real address is indicated based on the "jean.dupont@sample.com" pattern);
-    - that the real input example is played back vocally when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each error message relating to a data type, format or expected value displayed in an information window, check that the error message includes an example of an actual input (for an email address, check that it includes a real address in the format ‘jean.dupont@sample.com’).
+
+5. For each error message relating to a data type, format or expected value specified directly in the document, check 
+    - that it contains an example of a real input (for an email address, check that a real address is mentioned, such as ‘jean.dupont@sample.com’);
+    - that it is visible near the field;
+    - that the tooltip contains information similar to the visible text.
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1130,11 +1108,10 @@ In these situations, the criterion is not applicable:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each button.
-3. Check that a label is rendered vocally.
+1. Open the PDF file.
+3. For each form button, check that a tooltip is displayed when hovering over it.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1151,13 +1128,12 @@ In these situations, the criterion is not applicable:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each button.
-3. Check that
-    - the voice rendered label is relevant;
-    - the visible text is contained in the voice voice rendered label.
+1. Open the PDF file.
+2. For each form button that has a tooltip when hovered over, check that the tooltip content:
+    - allows the exact function of the button to be understood;
+    - contains at least the label visible in the document.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}

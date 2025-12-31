@@ -893,7 +893,8 @@ Dans ce cas, le critère est non applicable.
 #### Introduction{class=no-summary}
 
 Cette thématique concerne uniquement les formulaires interactifs remplis avec Acrobat Reader.
-Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Acrobat Pro, d’Adobe InDesign  ou de logiciels spécialisés dans l’édition de formulaire au format PDF.
+
+Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Adobe Acrobat Pro, d’Adobe InDesign  ou de logiciels spécialisés dans l’édition de formulaire au format PDF.
 
 En plus des évaluations proposées dans cette thématique, le recours à un test par une personne en situation de handicap au moyen de sa propre technologie d’assistance est à privilégier pour vérifier&nbsp;: 
 
@@ -914,7 +915,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 2. Pour chaque champ de formulaire, vérifier&nbsp;:
     - que l’étiquette est visible dans le document&nbsp;;
     - qu’au survol, une infobulle est affichée.
-3. Vérifier que chaque champ est présent
+3. Vérifier que chaque champ est présent.
 4. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -1006,7 +1007,7 @@ Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut 
 3. Repérer dans le document les champs signalés comme obligatoires.
 4. Vérifier que la mention du caractère obligatoire ou facultatif est explicite&nbsp;:
     - il s’agit d’une indication textuelle (par exemple « obligatoire »)&nbsp;;
-    - ou il s’agit d’une indication visuelle (par exemple « U+2731 ») définie avant le formulaire par une mention textuelle (par exemple « Les champs précédés de (U+2731) sont obligatoires »).
+    - ou il s’agit d’une indication visuelle (par exemple « \* ») définie avant le formulaire par une mention textuelle (par exemple « Les champs précédés de (\*) sont obligatoires »).
 5. Vérifier que la mention du caractère obligatoire ou facultatif est&nbsp;:
     - visible dans le document, préalablement à la validation du formulaire&nbsp;;
     - contenue dans l’infobulle, préalablement à la validation du formulaire.
@@ -1057,8 +1058,8 @@ Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut 
 2. Remplir les champs de formulaire avec des valeurs susceptibles de provoquer des erreurs de saisies (entrer une adresse <em lang="en">e-mail</em> mal formée par exemple).
 3. Utiliser la touche de tabulation pour sortir des champs ou, si le formulaire le permet, envoyer le formulaire.
 4. Pour chaque message d’erreur affiché, vérifier qu’il est indiqué par l’intermédiaire d’une fenêtre d’information.
-5. Sinon, pour chaque champ, vérifier que le message d’erreur&nbsp;:
-    - est indiqué au moyen d’un texte visible dans le document à proximité du champ&nbsp;;
+5. Sinon, pour chaque champ, vérifier&nbsp;:
+    - que le message d’erreur est indiqué au moyen d’un texte visible dans le document à proximité du champ&nbsp;;
     - que l’infobulle contient une information similaire au texte visible dans le document.
 6. Si c’est le cas, le critère est validé.
 

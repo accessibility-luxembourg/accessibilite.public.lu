@@ -271,7 +271,7 @@ La hiérarchie du titrage est cohérente lorsque&nbsp;:
 
 <blockquote>
 
-Dans la plupart des logiciels d’édition bureautique, la bibliothèque de style propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.
+Dans la plupart des logiciels d’édition bureautique, la bibliothèque de styles propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.
 
 La hiérarchie du titrage est cohérente lorsque l’imbrication des niveaux de titres est cohérente (les niveaux d’imbrication des titres reflètent le niveau de dépendance des contenus les uns par rapport aux autres).
 

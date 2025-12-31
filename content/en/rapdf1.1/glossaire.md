@@ -89,8 +89,8 @@ Text and image of text at enlarged size is greater than or equal to 150% or 120%
 
 #### Error management
 
-All the processes that warn the user:
-- mandatory fields,
+All the processes that warn the user about:
+- mandatory or optional fields,
 - expected type or format indications,
 - input errors in a form.
 
@@ -121,12 +121,11 @@ For example, office suites provide a library of styles reserved for headings.
 By using specific paragraph styles, the reader software can associate each heading with an ad hoc tagged format.
 
 #### Headings hierarchy
-In most office publishing software, the style library proposes a particular style for each heading level, generally up to 8 levels.
+In most office publishing software, the style library proposes a specific style for each heading level, generally up to six levels.
 
-The headings hierarchy is coherent when
-- All text passages intended to be a heading use a heading style.
-- The first heading in the content is level 1.
-- There is no break in the headings hierarchy (for example, you do not go directly from a level 2 heading to a level 4 heading).
+The heading hierarchy is consistent when the nesting of heading levels is consistent (the nesting levels of headings reflect the level of dependency of the content on each other).
+
+Note: the presence of hierarchical jumps (e.g. moving from a level 2 heading to a level 4 heading) does not invalidate the criterion, but is not recommended.
 
 ### I
 
@@ -195,21 +194,13 @@ In the office environment, the contexts that can be used are
 The link will be considered explicit when at least one of these contexts provides all the information needed to understand its function and purpose.
 
 #### Link whose nature is not obvious
+A link that may be confused with normal text by some users who cannot perceive colours or have poor colour perception, for example when it is indicated only by colour. Thus, in this text ‘New summer timetable’, if the word ‘timetable’ is a link indicated only by colour, its nature may be ignored by users who cannot perceive colour and are accessing the content with CSS enabled.
 
-Link whose accessible name makes it impossible to understand its nature, which may lead visually impaired people to ignore it.
-
-Example of a link whose nature is obvious: "The general conditions of use of our services have been updated, click to view them online"
-
-If the text "Click to view them online" is a link, its nature is obvious.
-
-Example of a link whose nature is not obvious: "The Web Content Accessibility Guidelines (WCAG) 2.1 define how to make web content more accessible to people with disabilities"
-
-Although the text "Web Content Accessibility Guidelines (WCAG) 2.1" is a link, its accessible name is not sufficient to understand its nature.
+Note: ‘indicated only by colour’ means that the link is not accompanied by any visual marker (icon, underlining, border, etc.). Consequently, a link that is the same colour as the surrounding text is subject to this criterion.
 
 **Important note**: only links inserted in blocks of text are concerned.
 
 #### List style
-
 In office content, lists must be declared using a list style.
 For example, office suites provides a library of styles reserved for unordered lists (bulleted lists) and ordered lists (numbered lists).
 By using specific list styles, the reader software can associate each list and its items with an ad hoc format.
@@ -278,10 +269,6 @@ When these formats or styles are used to create presentation effects, rendering 
 #### Navigation sequence
 The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
 Similarly, in a PDF form, the navigation sequence of input fields and buttons can become inconsistent when they are incorrectly positioned.
-
-#### Table of contents
-List of content headings, presented at the beginning of the document, generally in the form of links providing direct access to the relevant sections. Each heading may be accompanied by the corresponding page number.
-Depending on the software used to edit the content, the table of contents may be structured using TOC and TOCI elements or L and LI elements.
 
 #### Text alternative
 Text associated with an image or complex shape that provides information equivalent to that conveyed by the image or complex shape.
