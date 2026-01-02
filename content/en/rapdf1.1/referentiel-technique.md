@@ -617,7 +617,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order.
-- PDF/UA-2&nbsp;:  *8.2.3 Logical content order, 8.9.2.4.1 Text, 8.9.2.4.3 Free text, 8.9.2.4.5 Text markup, 8.9.2.4.9 Popup, 8.9.2.4.11	Sound, movie, 8.9.3.2 Association with content, 8.9.3.3 Tab order, 8.10.3.5 Signature fields.
+- PDF/UA-2&nbsp;:  *8.2.3 Logical content order, 8.9.2.4.1 Text, 8.9.2.4.3 Free text, 8.9.2.4.5 Text markup, 8.9.2.4.9 Popup, 8.9.2.4.11 Sound, movie, 8.9.3.2 Association with content, 8.9.3.3 Tab order, 8.10.3.5 Signature fields.
 
 #### [Criterion 6.2](#crit-6-2) [A] Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** For each change to the character type or style that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
@@ -951,7 +951,7 @@ In addition to the assessments proposed in this section, testing by a person wit
  - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value.
-- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
@@ -978,7 +978,7 @@ In addition to the assessments proposed in this section, testing by a person wit
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions.
-- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
@@ -1043,8 +1043,8 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
     - either by text (e.g. ‘mandatory’);
     - or by a visual indication (e.g. "\*") defined before the form by a text indication (e.g. ‘Fields preceded by ("\*") are mandatory’).
 5. Check that the indication of whether a field is mandatory or optional is:
-    - visible in the document, prior to validation of the form;
-    - contained in the tooltip, prior to validation of the form.
+    - visible in the document, prior to form validation;
+    - contained in the tooltip, prior to form validation.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1056,12 +1056,12 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
-- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry.
 
 #### [Criteria 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
-    - The data type and/or format is indicated prior to validation of the form.
+    - The data type and/or format is indicated prior to form validation.
     - The data type and/or format is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -1072,7 +1072,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
 3. Use the tab key to exit fields or, if the form allows it, to send the form.
 4. For each form field that has a format control, check that the instruction or indication of the data type
-    - is indicated by means of visible text near the field, prior to validation of the form;
+    - is indicated by means of visible text near the field, prior to form validation;
     - is contained in the field's tooltip, prior to form validation.
 7. If this is the case, the criterion is validated.
 
@@ -1083,7 +1083,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
-- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.2.4	TU entry, 8.10.3.2.3	Check boxes and radio buttons, 8.10.3.4 Choice fields.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions? {id="test-10-7-1"}
@@ -1108,7 +1108,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification.
-- PDF/UA-2: 8.10.2.4	TU entry, 8.10.3.2.3	Check boxes and radio buttons, 8.10.3.4 Choice fields.
+- PDF/UA-2: 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.8](#crit-10-8) [AA] Is the [error management](glossaire.md#error-management) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Does the [error management](glossaire.md#error-management) meet these conditions? {id="test-10-8-1"}
@@ -1139,7 +1139,7 @@ The criterion is not applicable when the error message is generated automaticall
 - WCAG 2.1 [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.3 Error suggestion.
-- PDF/UA-2: 8.10.2.4	TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
+- PDF/UA-2: 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
 - **[Test 10.9.1](#test-10-9-1)** Does each form button have a label? {id="test-10-9-1"}

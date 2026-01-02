@@ -151,8 +151,6 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.lastChild.append(el.nextElementSibling);
         el.remove();
     });
-    
-    
   
     // 6. Créer les <details> pour les cas particuliers
     tagsToFetch = ["UL", "P"];

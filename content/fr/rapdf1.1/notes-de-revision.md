@@ -197,6 +197,8 @@ Test 10.5.1 Chaque champ de formulaire obligatoire ou facultatif vérifie-t-il c
 
 Lorsque le formulaire ne comporte qu’un seul champ, le critère est non applicable.
 
+Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le critère reste applicable.
+
 **Notes techniques**
 
 Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut garantir que la méthode choisie pour avertir les utilisateurs (champs obligatoires ou champs facultatifs) soit cohérente sur l’ensemble du formulaire.
