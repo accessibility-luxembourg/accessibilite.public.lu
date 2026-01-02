@@ -89,6 +89,7 @@ Only the content of the criteria and tests has normative value.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-1-3"}
 - **[Test 1.3.1](#test-1-3-1)** For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-1-3-1"}
@@ -108,6 +109,7 @@ Only the content of the criteria and tests has normative value.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-4"}
 - **[Test 1.4.1](#test-1-4-1)** Does each image [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-4-1"}
@@ -132,6 +134,7 @@ Only the content of the criteria and tests has normative value.
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
@@ -154,6 +157,7 @@ Only the content of the criteria and tests has normative value.
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions? {id="test-1-6-1"}
@@ -233,7 +237,7 @@ In these situations, the criterion does not apply:
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color.
-
+- PDF/UA-2: 8.9.2.3 Markup annotations, 8.9.2.4.5 Text markup, 8.9.2.4.16 Watermark, 8.9.2.4.17 Redaction, 8.9.2.4.18 Projection, 8.9.2.4.20 Other.
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 - **[Test 2.2.1](#test-2-2-1)** For [normal text size](glossaire.md#normal-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-1"}
@@ -304,6 +308,7 @@ In these situations, the criterion does not apply:
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html);
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.11 Non-text contrast.
+- PDF/UA-2: 8.9.2.4.13 Widget.
 
 ### [Topic 3](#topic-3): Tables {id="topic-3"}
 
@@ -330,6 +335,7 @@ In these situations, the criterion does not apply:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order, 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="crit-3-2"}
 - **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="test-3-2-1"}
@@ -349,6 +355,7 @@ In these situations, the criterion does not apply:
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order, 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table), are the [headers](glossaire.md#header-table) correctly declared? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** For each [data table](glossaire.md#data-table), does each [header](glossaire.md#header-table) use a TH element? {id="test-3-3-1"}
@@ -369,6 +376,7 @@ In these situations, the criterion does not apply:
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6);
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="crit-3-4"}
 - **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="test-3-4-1"}
@@ -388,6 +396,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
 - **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
@@ -445,6 +454,7 @@ In these situations, the criterion does not apply:
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context).
+- PDF/UA-2: 8.9.2.4.2 Link, 8.9.2.4.10 File attachment.
 
 #### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have an accessible name? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have an accessible name? {id="test-4-2-1"}
@@ -469,6 +479,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context), 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.2 Link, 8.9.2.4.10 File attachment.
 
 ### [Topic 5](#topic-5): Information structure {id="topic-5"}
 
@@ -495,6 +506,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.2.4.6 Headings and labels.
+- PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H).
 
 #### [Criterion 5.2](#crit-5-2) [A] Does all content presented in the form of lists use a [list style](glossaire.md#list-style)? {id="crit-5-2"}
 - **[Test 5.2.1](#test-5-1-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
@@ -523,6 +535,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.25 List (L, LI, LBody).
 
 #### [Criterion 5.3](#crit-5-3) [A] [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, is this rule respected? {id="crit-5-3"}
 - **[Test 5.3.1](#test-5-3-1)** [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, does this rule apply? {id="test-5-3-1"}
@@ -538,6 +551,13 @@ In these situations, the criterion does not apply:
     - successive empty paragraphs;
     - blocks of text where each line is presented in the form of a paragraph (P element).
 4. If this is the case, the criterion is validated.
+
+##### Mapping {class="disclosure mapping"}
+
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+    - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
+- EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.11 Paragraph (P), 8.2.5.16 Label (Lbl), 8.2.5.17 Span, 8.2.5.19 Emphasis (Em) and Strong, 8.9.2.4.12 Screen.
 
 #### [Criterion 5.4](#crit-5-4) [A] Is each block quotation correctly indicated? {id="crit-5-4"}
 - **[Test 5.4.1](#test-5-4-1)** Is each block of quotation correctly indicated? {id="test-5-3-1"}
@@ -556,6 +576,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.7 Block quotation (BlockQuote).
 
 ### [Topic 6](#topic-6): Presentation of information {id="topic-6"}
 
@@ -596,6 +617,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order.
+- PDF/UA-2&nbsp;:  *8.2.3 Logical content order, 8.9.2.4.1 Text, 8.9.2.4.3 Free text, 8.9.2.4.5 Text markup, 8.9.2.4.9 Popup, 8.9.2.4.11	Sound, movie, 8.9.3.2 Association with content, 8.9.3.3 Tab order, 8.10.3.5 Signature fields.
 
 #### [Criterion 6.2](#crit-6-2) [A] Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** For each change to the character type or style that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
@@ -625,6 +647,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 - WCAG 2.1 [1.3.3 Sensory characteristics (A)](https://www.w3.org/TR/WCAG21/#sensory-characteristics):
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.3 Sensory characteristics.
+- PDF/UA-2: 8.9.2.3 Markup annotations, 8.9.2.4.4 Line, square, circle, polygon and polyline, 8.9.2.4.16 Watermark, 8.9.2.4.17 Redaction, 8.9.2.4.18 Projection, 8.9.2.4.20 Other.
 
 #### [Criterion 6.3](#crit-6-3) [A] Is every link, indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), visible in relation to the surrounding text? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Does each link, indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
@@ -674,6 +697,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
+- PDF/UA-2&nbsp;:  *8.11.2 Interactive aspects.
 
 #### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
 - **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
@@ -697,6 +721,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
+- PDF/UA-2: 8.11.2 Interactive aspects.
 
 ### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
@@ -722,6 +747,7 @@ In this case, the criterion is not applicable.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.3.2 Use of the Artifact structure element, 8.9.2.4.14 Printer’s mark.
 
 #### [Criterion 9.2](#crit-9-2) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-9-2"}
 - **[Test 9.2.1](#test-9-2-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-9-2-1"}
@@ -744,6 +770,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.5.2 Use of ActualText, 8.9.2.2 Annotations as artifacts, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.3](#crit-9-3) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-9-3"}
 - **[Test 9.3.1](#test-9-3-1)** For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-9-3-1"}
@@ -763,6 +790,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.5.2 Use of ActualText, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.4](#crit-9-4) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
 - **[Test 9.4.1](#test-9-4-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
@@ -785,6 +813,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.5](#crit-9-5) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
 - **[Test 9.5.1](#test-9-5-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
@@ -805,6 +834,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex shape](glossaire.md#complex-shape), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
 - **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions? {id="test-9-6-1"}
@@ -827,6 +857,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.19 3D and RichMedia.
 
 #### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative?{id="test-9-7-1"}
@@ -845,6 +876,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink.
 
 #### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="crit-9-8"}
 - **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="test-9-8-1"}
@@ -863,6 +895,7 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink.
 
 #### [Criterion 9.9](#crit-9-8) [A] Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
 - **[Test 9.9.1](#test-9-9-1)** Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="test-9-9-1"}
@@ -918,6 +951,7 @@ In addition to the assessments proposed in this section, testing by a person wit
  - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
@@ -944,6 +978,7 @@ In addition to the assessments proposed in this section, testing by a person wit
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
@@ -1021,6 +1056,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry.
 
 #### [Criteria 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
@@ -1047,6 +1083,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2	Labels, 8.10.2.3	Contents entry, 8.10.2.4	TU entry, 8.10.3.2.3	Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions? {id="test-10-7-1"}
@@ -1071,6 +1108,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification.
+- PDF/UA-2: 8.10.2.4	TU entry, 8.10.3.2.3	Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.8](#crit-10-8) [AA] Is the [error management](glossaire.md#error-management) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Does the [error management](glossaire.md#error-management) meet these conditions? {id="test-10-8-1"}
@@ -1101,7 +1139,7 @@ The criterion is not applicable when the error message is generated automaticall
 - WCAG 2.1 [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03): 10.3.3.3 Error suggestion.
-
+- PDF/UA-2: 8.10.2.4	TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
 - **[Test 10.9.1](#test-10-9-1)** Does each form button have a label? {id="test-10-9-1"}
@@ -1120,6 +1158,7 @@ The criterion is not applicable when the error message is generated automaticall
 - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
 - EN 301 549 V3.2.1 (2021-03): 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.3.2.2 Push-button.
 
 #### [Criterion 10.10](#crit-10-10) [A] Is the label of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions? {id="test-10-10-1"}
@@ -1145,6 +1184,7 @@ The criterion is not applicable when the error message is generated automaticall
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html);
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03): 10.2.5.3 Label in name, 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.3.2.2 Push-button.
 
 #### [Criterion 10.11](#crit-10-11) [AA] For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="crit-10-11"}
 - **[Test 10.11.1](#test-10-11-1)** For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="test-10-11-1"}
