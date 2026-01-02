@@ -106,7 +106,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -129,7 +129,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;, [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;, [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.27 Caption*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -150,7 +150,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;, [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1)&nbsp;, [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73)&nbsp;, [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -173,7 +173,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 
 #### [Critère 1.7](#crit-1-7) [AA] Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-1-7"}
@@ -199,7 +199,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.5 Texte sous forme d’image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7)&nbsp;, [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7)&nbsp;, [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.5 Images of text*{lang=en}.
 
 ### [Thématique 2](#topic-2)&nbsp;: Couleur {id="topic-2"}
@@ -225,7 +225,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14)&nbsp;, [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182)&nbsp;, [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;, [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G14](https://www.w3.org/WAI/WCAG21/Techniques/general/G14)&nbsp;, [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182)&nbsp;, [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111)&nbsp;, [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.3 Markup annotations*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.16 Watermark*{lang=en}, *8.9.2.4.17 Redaction*{lang=en}, *8.9.2.4.18 Projection*{lang=en}, *8.9.2.4.20 Other*{lang=en}.
 
@@ -257,7 +257,7 @@ Dans ces situations, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html)&nbsp;, [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html)&nbsp;, [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.3 Contrast (minimum)*{lang=en}.
 
 #### [Critère 2.3](#crit-2-3) [AA] Les couleurs utilisées dans les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers)&nbsp;? {id="crit-2-3"}
@@ -294,7 +294,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html), [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html), [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.11 Non-text contrast*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.13 Widget*{lang=en}.
 
@@ -320,7 +320,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3), [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3), [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.3 Logical content order*{lang=en}, *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
@@ -339,7 +339,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3), [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3), [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.3 Logical content order*{lang=en}, *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
@@ -359,7 +359,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6), [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6), [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)*{lang=en}.
 
@@ -379,7 +379,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.3 Logical content order*{lang=en}.
 
@@ -399,7 +399,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 
 ### [Thématique 4](#topic-4)&nbsp;: Liens {id="topic-4"}
@@ -436,7 +436,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.4.4 Fonction du lien (selon le contexte) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11), [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11), [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.4 Link purpose (in context)*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.2 Link*{lang=en}, *8.9.2.4.10 File attachment*{lang=en}.
 
@@ -459,7 +459,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [2.4.4 Fonction du lien (selon le contexte) (A)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1), [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1), [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.4 Link purpose (in context)*{lang=en}, *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.2 Link*{lang=en}, *8.9.2.4.10 File attachment*{lang=en}.
 
@@ -484,7 +484,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9), [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9), [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}, *10.2.4.6 Headings and labels*{lang=en}.
 - PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H)*{lang=en}.
 
@@ -513,7 +513,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.25 List (L, LI, LBody)*{lang=en}.
 
@@ -535,7 +535,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.11 Paragraph (P)*{lang=en}, *8.2.5.16 Label (Lbl)*{lang=en}, *8.2.5.17 Span*{lang=en}, *8.2.5.19 Emphasis (Em) and Strong*{lang=en}, *8.9.2.4.12 Screen*{lang=en}.
 
@@ -554,7 +554,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.7 Block quotation (BlockQuote)*{lang=en}.
 
@@ -590,7 +590,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html), [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html), [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html), [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html), [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.2 Meaningful sequence*{lang=en}, *10.2.1.1 Keyboard*{lang=en}, *10.2.4.3 Focus order*{lang=en}.
 - PDF/UA-2&nbsp;:  *8.2.3 Logical content order*{lang=en}, *8.9.2.4.1 Text*{lang=en}, *8.9.2.4.3 Free text*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.9 Popup*{lang=en}, *8.9.2.4.11	Sound, movie*{lang=en}, *8.9.3.2 Association with content*{lang=en}, *8.9.3.3 Tab order*{lang=en}, *8.10.3.5 Signature fields*{lang=en}.
 
@@ -619,7 +619,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.3 Caractéristiques sensorielles (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.3 Sensory characteristics*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.3 Markup annotations*{lang=en}, *8.9.2.4.4 Line, square, circle, polygon and polyline*{lang=en}, *8.9.2.4.16 Watermark*{lang=en}, *8.9.2.4.17 Redaction*{lang=en}, *8.9.2.4.18 Projection*{lang=en}, *8.9.2.4.20 Other*{lang=en}.
 
@@ -638,7 +638,7 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.6 Caret*{lang=en}.
 
 ### [Thématique 7](#topic-7)&nbsp;: Navigation {id="topic-7"}
@@ -669,7 +669,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.4.2 Titre de page (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.2 Document titled*{lang=en}.
 - PDF/UA-2&nbsp;:  *8.11.2 Interactive aspects*{lang=en}.
 
@@ -693,7 +693,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.4.2 Titre de page (A)](https://www.w3.org/Translations/WCAG21-fr/#page-titled).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.2 Document titled*{lang=en}.
 - PDF/UA-2&nbsp;: *8.11.2 Interactive aspects*{lang=en}.
 
@@ -718,7 +718,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1), [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1), [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.3.2 Use of the Artifact structure element*{lang=en}, *8.9.2.4.14 Printer’s mark*{lang=en}.
 
@@ -741,7 +741,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.5.2 Use of ActualText*{lang=en}, *8.9.2.2 Annotations as artifacts*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -761,7 +761,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.5.2 Use of ActualText*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -784,7 +784,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.27 Caption*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -805,7 +805,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}, *8.9.2.4.19 3D and RichMedia*{lang=en}, *8.9.4.2 Alt properties*{lang=en}.
 
@@ -828,7 +828,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.9.2.4.19 3D and RichMedia*{lang=en}.
 
@@ -847,7 +847,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}.
 
@@ -866,7 +866,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.1.1 Non-text content*{lang=en}.
 - PDF/UA-2&nbsp;: *8.2.5.28.1 Figure semantics*{lang=en}, *8.2.5.28.2 Figure properties*{lang=en}, *8.4.3 Replacements and alternatives for text*{lang=en}, *8.9.2.4.7 Rubber stamp*{lang=en}, *8.9.2.4.8 Ink*{lang=en}.
 
@@ -885,7 +885,7 @@ Dans ce cas, le critère est non applicable.
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.2.2 Mettre en pause, arrêter, masquer (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html), [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html), [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html), [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html), [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.2.2 Pause, stop, hide*{lang=en}.
 
 ### [Thématique 10](#topic-10)&nbsp;: Formulaire interactif{id="topic-10"} 
@@ -921,7 +921,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html), [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html), [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.3.1 Info and relationships*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
@@ -943,7 +943,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G131](https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html),[G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G131](https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html),[G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.4.6 Headings and labels*{lang=en}, *10.2.5.3 Label in name*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
@@ -963,7 +963,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.2.4 Identification cohérente (AA)](https://www.w3.org/Translations/WCAG21-fr/#consistent-identification).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: pas de critère lié.
 
 #### [Critère 10.4](#crit-10-4) [A] Chaque [étiquette](glossaire.md#etiquette) et son champ associé sont-ils [accolés](glossaire.md#accoles-etiquette-et-champ-accoles)&nbsp;? {id="crit-10-4"}
@@ -980,7 +980,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.2 Labels or instructions*{lang=en}.
 
 #### [Critère 10.5](#crit-10-5) [A] Les [champs de formulaire](glossaire.md#champ-de-formulaire) obligatoires ou facultatifs sont-ils correctement identifiés (hors cas particuliers)&nbsp;? {id="crit-10-5"}
@@ -1016,7 +1016,7 @@ Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut 
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html), [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G205](https://www.w3.org/WAI/WCAG21/Techniques/general/G205.html), [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}, *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}.
 
@@ -1041,7 +1041,7 @@ Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut 
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.1 Error identification*{lang=en}, *10.3.3.2 Labels or instructions*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.2	Labels*{lang=en}, *8.10.2.3	Contents entry*{lang=en}, *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3	Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
@@ -1066,7 +1066,7 @@ Le test 10.5.1 traite des champs de manière indépendante, néanmoins, il faut 
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.1 Error identification*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3	Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
@@ -1096,7 +1096,7 @@ Le critère est non applicable lorsque le message d’erreur est généré autom
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.3.3 Suggestion après une erreur (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.3 Error suggestion*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.2.4	TU entry*{lang=en}, *8.10.3.2.3 Check boxes and radio buttons*{lang=en}, *8.10.3.4 Choice fields*{lang=en}.
 
@@ -1113,7 +1113,7 @@ Le critère est non applicable lorsque le message d’erreur est généré autom
 
 ##### Correspondances {class="disclosure mapping"}
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html), [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.4.1.2 Name, role, value*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.3.2.2 Push-button*{lang=en}.
 
@@ -1135,7 +1135,7 @@ Le critère est non applicable lorsque le message d’erreur est généré autom
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html), [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html), [G208](https://www.w3.org/WAI/WCAG21/Techniques/general/G208.html), [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html), [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.2.5.3 Label in name*{lang=en}, *10.4.1.2 Name, role, value*{lang=en}.
 - PDF/UA-2&nbsp;: *8.10.3.2.2 Push-button*{lang=en}.
 
@@ -1160,5 +1160,5 @@ Le critère est non applicable lorsque le message d’erreur est généré autom
 ##### Correspondances {class="disclosure mapping"}
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [3.3.4 Prévention des erreurs (juridiques, financières, de données) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data).
-- Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99), [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
+    - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99), [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.3.3.4 Error prevention (legal, financial, data)*{lang=en}.
