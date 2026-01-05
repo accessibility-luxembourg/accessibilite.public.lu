@@ -163,13 +163,15 @@ L’intitulé du lien peut être constitué&nbsp;:
 ### L
 #### Légende
 Texte qui contient des informations sur l’image ou la forme complexe à laquelle elle est associée. Par exemple des informations de copyright, de date, d’auteur, de lieu, des caractéristiques techniques, etc.
+
 #### Lien
 Un lien peut être de trois formes différentes&nbsp;:
 - lien texte dont l’intitulé est constitué de texte seul&nbsp;;
 - lien image dont l’intitulé est constitué de l’alternative de l’image&nbsp;;
 - lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.
+
 #### Lien dont la nature n’est pas évidente
-Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte «&nbsp;Nouveaux horaires d’été&nbsp;», si le mot «&nbsp;horaires&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
+Lien qui peut être confondu avec un texte normal par certains utilisateurs ne percevant pas ou mal les couleurs, par exemple lorsqu’il est signalé uniquement par la couleur. Ainsi, dans ce texte «&nbsp;Nouveaux horaires d’été&nbsp;», si le mot «&nbsp;horaires&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
 
 Note : «&nbsp;signalé uniquement par la couleur&nbsp;» signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure…). En conséquence, un lien de la même couleur que le texte environnant est concerné par ce critère.
 
