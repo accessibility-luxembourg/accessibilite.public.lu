@@ -93,17 +93,13 @@ Test 1.2.1 Chaque image (balise `<img>`) de décoration, sans légende, vérifie
 
   - La balise `<img>` possède un attribut `alt` vide (`alt=""`) et est dépourvue de tout autre attribut permettant de fournir une alternative textuelle.
   - La balise `<img>` possède un attribut WAI-ARIA `aria-hidden="true"`.
-  - La balise `<img>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut `title`.
-  - La balise `<img>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut WAI-ARIA `aria-labelledby`.
-  - La balise `<img>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut WAI-ARIA `aria-label`.
+  - La balise `<img>` possède un `role="presentation"` ou un `role="none"` et est dépourvue des attributs `title`, `aria-label` et `aria-labelledby`.
 
 Test 1.2.2 Chaque zone non cliquable (balise `<area>` sans attribut `href`) de décoration, vérifie-t-elle une de ces conditions&nbsp;?
 
   - La balise `<area>` possède un attribut `alt` vide (`alt=""`) et est dépourvue de tout autre attribut permettant de fournir une alternative textuelle.
   - La balise `<area>` possède un attribut WAI-ARIA `aria-hidden="true"`.
-  - La balise `<area>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut `title`.
-  - La balise `<area>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut WAI-ARIA `aria-labelledby`.
-  - La balise `<area>` possède un `role="presentation"` ou un `role="none"` et est dépourvue de l’attribut WAI-ARIA `aria-label`.
+  - La balise `<area>` possède un `role="presentation"` ou un `role="none"` et est dépourvue des attributs `title`, `aria-label` et `aria-labelledby`.
 
 </blockquote>
 
