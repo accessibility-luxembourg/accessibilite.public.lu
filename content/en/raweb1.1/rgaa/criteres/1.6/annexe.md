@@ -19,4 +19,4 @@ In the case of SVG, the lack of support for the `<desc>` element means that it c
 
 The use of the WAI-ARIA `aria-describedby` attribute is not recommended for linking an image (`<img>`, `<object>`, `<embed>`, `<canvas>`) to its [detailed description](#detailed-description-image), due to a lack of support for assistive technologies. However, when it is used, the attribute must necessarily refer to the `id` of the zone containing the [detailed description](#detailed-description-image).
 
-The adjacent [detailed description](#detailed-description-image) may be implemented via a `<figcaption>` tag, in which case {% crit 1.9 %} must be checked.
+The adjacent [detailed description](#detailed-description-image) may be implemented via a `<figcaption>` tag, in which case [criterion 1.9](#crit-1-9) must be checked.
