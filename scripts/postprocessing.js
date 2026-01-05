@@ -192,13 +192,44 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.firstElementChild.after(el);
     });
   
-    // 9. Note baladeuse du critère 6.1
-    let el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
-    let detailRAAM = document.createElement("details");
-    detailRAAM.setAttribute("class", "discover rawebNotes");
-    addelt(document, "summary", detailRAAM, "Note");
-    el.parentNode.insertBefore(detailRAAM, el);       
-    detailRAAM.firstElementChild.after(el);
+    // 9. Traitement des exceptions
+    // Notes baladeuses des critères 3.12 et 6.1 RAAM
+    if (name.includes('raam')) {
+        let el = document.getElementById('note');
+        if (el) {
+            let detailRAAM = document.createElement("details");
+            detailRAAM.setAttribute("class", "discover rawebNotes");
+            addelt(document, "summary", detailRAAM, "Note");
+            el.parentNode.insertBefore(detailRAAM, el);
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling); 
+        }
+
+        el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
+        detailRAAM = document.createElement("details");
+        detailRAAM.setAttribute("class", "discover rawebNotes");
+        addelt(document, "summary", detailRAAM, "Note");
+        el.parentNode.insertBefore(detailRAAM, el);    
+        detailRAAM.firstElementChild.after(el);
+    }
+
+    // Note baladeuse du critère 10.5 RAPDF
+    if (name.includes('rapdf')) {
+        el = document.getElementById('notes-techniques');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+    }
+
+    // Note baladeuse du critère 11.1 RAAM
+    if (name.includes('raam')) {
+        el = document.getElementById('note-2');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+    }
   
     // 10. redessiner l'apparence des critères
     els = mainFrame.querySelectorAll('h4[id^=crit]'); 
