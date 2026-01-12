@@ -136,7 +136,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 - PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
-#### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
+#### [Criterion 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
@@ -1058,7 +1058,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
 - PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry.
 
-#### [Criteria 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
+#### [Criterion 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
     - The data type and/or format is indicated prior to form validation.
