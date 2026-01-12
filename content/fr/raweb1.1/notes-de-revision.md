@@ -403,6 +403,26 @@ Si l’élément gère une action simple, il est activable au clavier avec la ou
 
 </blockquote>
 
+#### 9.1
+
+La méthodologie du test [test 9.1.3](/fr/raweb1.1/criteres.html#test-9-1-3) est modifiée.
+
+##### Dans le RAWeb&nbsp;1
+
+<blockquote>
+
+Pour chaque titre identifié au test 9.1.1, vérifier que :
+
+</blockquote>
+
+##### Dans le RAWeb&nbsp;1.1
+
+<blockquote>
+
+Pour chaque passage de texte constituant un titre, vérifier que :
+
+</blockquote>
+
 #### 9.2
 
 Le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2) est modifié afin de prendre en compte l’évolution du support par les technologies d’assistance des balises HTML permettant de structurer les grandes régions de la page. Il n’est plus obligatoire de recourir à l’implémentation conjointe d’une balise HTML5 et d’un `role` ARIA équivalent. Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est également modifié en ce sens.
