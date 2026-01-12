@@ -29,7 +29,7 @@ Test 5.1.2 with Acrobat Reader
 Test 5.1.3 with Acrobat Reader
 
 1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that each heading provides a satisfactory description of the content to which it relates.
+2. Check that each heading provides a satisfactory description of the content to which it refers to. 
 3. If so, the test is validated.
 
 </blockquote>
@@ -142,7 +142,7 @@ Editorial change to criterion [10.2](/en/rapdf1.1/technical-reference-document.h
 <blockquote>
 
 - the text of the label accessible to assistive technologies is relevant;
-- the visible text of the label is contained in thetext accessible to assistive technologies.
+- the visible text of the label is contained in the text accessible to assistive technologies.
 
 </blockquote>
 
