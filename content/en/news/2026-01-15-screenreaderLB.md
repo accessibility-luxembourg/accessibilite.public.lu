@@ -25,7 +25,7 @@ auteur: Dominique Nauroy
     <li>Words in Luxembourgish, French or English that are not pronounced correctly;</li>
     <li>Numbers, abbreviations and special characters whose voice output could be improved.</li>
 </ul>
-<p>Please send your results to <a href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a> with the title "screen reader tests" <strong>by 31 March</strong>. Each time, please specify the context of the test, i.e. the operating system, the screen reader used, the voice selected and the content read (e.g. the Website URL). Spread the word to your friends and family!</p>
+<p>Please send your results to <a href="mailto:accessibilite@sip.etat.lu?subject=screenreader%20tests">accessibilite@sip.etat.lu</a> with the title "screen reader tests" <strong>by 31 March</strong>. Each time, please specify the context of the test, i.e. the operating system, the screen reader used, the voice selected and the content read (e.g. the Website URL). Spread the word to your friends and family!</p>
 <p>You will quickly see progress: every month, an updated version of the application and voices will be released, incorporating the requested fixes.</p>
 <h2>Before you begin, follow the guide</h2>
 <p>Guides have been written for each platform in four languages. We recommend that you read them before installing RHVoice and the Luxembourgish voices on your phone, tablet or computer.</p>
