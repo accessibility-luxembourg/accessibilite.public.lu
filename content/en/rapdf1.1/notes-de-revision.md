@@ -29,7 +29,7 @@ Test 5.1.2 with Acrobat Reader
 Test 5.1.3 with Acrobat Reader
 
 1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that each heading provides a satisfactory description of the content to which it refers to. 
+2. Check that each heading provides a satisfactory description of the content to which it refers. 
 3. If so, the test is validated.
 
 </blockquote>
@@ -43,7 +43,7 @@ With PAC
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
 3. Locate the text passages that should be headings in the original document and check in PAC that these headings are presented using an Hx element where x is the heading level, for example H1.
-4. Locate all the headings identified in the document and check that the tree structure is consistent (the nesting of heading levels in relation to each other is consistent).
+4. Locate all the headings identified in the document and check that the tree structure is consistent (the nesting of heading levels is consistent).
 5. Check that each heading identified in the document adequately describes the content with which it is associated.
 6. If this is the case, the test is validated.
 
@@ -51,7 +51,7 @@ With PAC
 
 #### Creation of criterion 5.4: quotation block
 
-Quotation blocks can be identified using paragraph styles in editing tools, which are rendered correctly (by assistive technologies). 
+Quotation blocks can be identified using paragraph styles in editing tools, which are correctly exposed to assistive technologies.
 
 [Criterion 5.4](/en/rapdf1.1/referentiel-technique.html#crit-5-4) is therefore created to assess their correct identification in documents.
 
@@ -274,7 +274,7 @@ The headings hierarchy is coherent when
 
 In most office publishing software, the style library proposes a specific style for each heading level, generally up to six levels.
 
-The heading hierarchy is consistent when the nesting of heading levels is consistent (the nesting levels of headings reflect the level of dependency of the content on each other).
+The heading hierarchy is consistent when the nesting of heading levels is consistent (the nesting levels of headings reflect how content depends on other content).
 
 Note: the presence of hierarchical jumps (e.g. moving from a level 2 heading to a level 4 heading) does not invalidate the criterion, but is not recommended.
 
@@ -329,4 +329,4 @@ Depending on the software used to edit the content, the table of contents may be
 
 ### Modification of annex documents
 
-The [Introduction](introduction.html), [Testing Methodology](methodology.html) and [Testing Environment](environment.html) pages have been modified to remove any reference to screen readers as an evaluation methodology, following their removal for the evaluation of the Forms topic.
+The [Introduction](introduction.html), [Testing Methodology](methodology.html) and [Testing Environment](environment.html) pages have been modified to remove any reference to screen readers as an evaluation method, following their removal for the evaluation of the Forms topic.
