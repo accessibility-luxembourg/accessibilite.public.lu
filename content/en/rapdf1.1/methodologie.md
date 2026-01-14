@@ -16,7 +16,7 @@ To assess the criteria in the framework, the tests are carried out using the ded
 
 The section below describe the essential elements you need to know to install PAC.
 
-#### PAC 2024
+#### PAC
 Installation procedure
 
 1. Download [PAC - The free PDF checker](https://pac.pdf-accessibility.org/en/download).

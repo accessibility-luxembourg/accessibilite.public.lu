@@ -12,7 +12,7 @@ The testing methodologies for [criterion 5.1](/en/rapdf1.1/technical-reference.h
 
 <blockquote>
 
-Test 5.1.1 with PAC 2024
+Test 5.1.1 with PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
