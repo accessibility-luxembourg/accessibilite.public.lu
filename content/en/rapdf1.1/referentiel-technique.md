@@ -20,7 +20,7 @@ Form content is covered in an additional theme and reduced to its essential elem
 
 Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (page layout software compatible with the PDF format or the Acrobat Pro work environment).
 
-The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
+The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents*{lang=en}.
 
 ### Non-compliant content types {class="no-summary"}
 
@@ -582,7 +582,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [tab order] (glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -604,7 +604,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ###### Test 6.1.2 with Acrobat Reader
 1. Open the PDF file.
 2. Use the tab key to scroll through the items that can be tabbed.
-3. Check that the navigation sequence is consistent: the tab items are presented in a logical and consistent order.
+3. Check that the tab order is consistent: the tab items are presented in a logical and consistent order.
 4. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
