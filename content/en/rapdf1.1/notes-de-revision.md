@@ -1,6 +1,6 @@
 ### Addition of PDF/UA-2 mappings
 
-Where possible, one or more mappings with elements of the PDF/UA-2 standard have been added for each criterion.
+Where possible, one or more mappings to elements of the PDF/UA-2 standard have been added for each criterion.
 
 ### Criteria
 
