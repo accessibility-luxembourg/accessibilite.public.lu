@@ -384,7 +384,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - PDF/UA-2&nbsp;: *8.2.3 Logical content order*{lang=en}.
 
 #### [Critère 3.5](#crit-3-5) [A] Chaque [tableau de présentation](glossaire.md#tableau-de-presentation) ne doit pas utiliser d’éléments propres aux [tableaux de données](glossaire.md#tableau-de-donnees), cette règle est-elle respectée&nbsp;? {id="crit-3-5"}
-- **[Test 3.5.1](#test-3-3-1)** Chaque [tableau de présentation](glossaire.md#tableau-de-presentation) ne doit pas utiliser d’éléments propres aux [tableaux de données](glossaire.md#tableau-de-donnees), cette règle est-elle respectée&nbsp;? {id="test-3-5-1"}
+- **[Test 3.5.1](#test-3-5-1)** Chaque [tableau de présentation](glossaire.md#tableau-de-presentation) ne doit pas utiliser d’éléments propres aux [tableaux de données](glossaire.md#tableau-de-donnees), cette règle est-elle respectée&nbsp;? {id="test-3-5-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -489,7 +489,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 - PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H)*{lang=en}.
 
 #### [Critère 5.2](#crit-5-2) [A] Chaque contenu présenté sous forme de liste utilise-t-il un [style de liste](glossaire.md#style-de-liste)&nbsp;? {id="crit-5-2"}
-- **[Test 5.2.1](#test-5-1-1)** Chaque contenu présenté sous forme de liste non ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié&nbsp;? {id="test-5-2-1"}
+- **[Test 5.2.1](#test-5-2-1)** Chaque contenu présenté sous forme de liste non ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié&nbsp;? {id="test-5-2-1"}
 - **[Test 5.2.2](#test-5-2-2)** Lorsque les [styles de liste](glossaire.md#style-de-liste) le permettent, chaque contenu présenté sous forme de liste ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié&nbsp;? {id="test-5-2-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}

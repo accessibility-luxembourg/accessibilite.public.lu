@@ -399,7 +399,7 @@ In these situations, the criterion does not apply:
 - PDF/UA-2: 8.2.3 Logical content order.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
-- **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
+- **[Test 3.5.1](#test-3-5-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -509,7 +509,7 @@ In these situations, the criterion does not apply:
 - PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H).
 
 #### [Criterion 5.2](#crit-5-2) [A] Does all content presented in the form of lists use a [list style](glossaire.md#list-style)? {id="crit-5-2"}
-- **[Test 5.2.1](#test-5-1-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
+- **[Test 5.2.1](#test-5-2-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
 - **[Test 5.2.2](#test-5-2-2)** Where [list styles](glossaire.md#list-style) allow, does each piece of content presented as an ordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
@@ -582,7 +582,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [tab order] (glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [tab order] (glossaire.md#tab order) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
