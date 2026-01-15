@@ -51,7 +51,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -74,7 +74,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -94,7 +94,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -115,7 +115,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -161,7 +161,7 @@ Seul le contenu du critère et des tests a une valeur normative.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -186,7 +186,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -354,7 +354,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024	
+###### Avec PAC	
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -374,7 +374,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024    
+###### Avec PAC  
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -393,7 +393,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024    
+###### Avec PAC  
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -418,7 +418,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Test 4.1.1 avec Acrobat Reader et PAC 2024
+###### Test 4.1.1 avec Acrobat Reader et PAC
 
 1. Ouvrir le fichier PDF avec PAC.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -451,7 +451,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024    
+###### Avec PAC    
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -478,7 +478,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Test 5.1.1 avec PAC 2024
+###### Test 5.1.1 avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -512,7 +512,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Test 5.2.1 avec PAC 2024 
+###### Test 5.2.1 avec PAC 
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -540,7 +540,7 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -564,9 +564,9 @@ Dans ces situations, le critère est non applicable&nbsp;:
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec Acrobat Reader et PAC 2024
+###### Avec Acrobat Reader et PAC
 
-###### Test 6.1.1 avec Acrobat Reader et PAC 2024
+###### Test 6.1.1 avec Acrobat Reader et PAC
 
 1. Ouvrir le fichier PDF avec PAC.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -726,7 +726,7 @@ Dans ce cas, le critère est non applicable.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -749,7 +749,7 @@ Dans ce cas, le critère est non applicable.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -769,7 +769,7 @@ Dans ce cas, le critère est non applicable.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -790,7 +790,7 @@ Dans ce cas, le critère est non applicable.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
@@ -832,7 +832,7 @@ Dans ce cas, le critère est non applicable.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### Avec PAC 2024
+###### Avec PAC
 
 1. Ouvrir le fichier PDF.
 2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.

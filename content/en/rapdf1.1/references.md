@@ -1,4 +1,4 @@
-The framework for assessing the accessibility of documents in PDF format has been drawn up using the references listed below.
+The framework for assessing the accessibility of PDF documents is based on the references listed below.
 
 ### Documentary references
 

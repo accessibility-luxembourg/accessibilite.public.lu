@@ -266,7 +266,7 @@ When these formats or styles are used to create presentation effects, rendering 
 
 ### T
 
-#### Navigation sequence
+#### Tab order
 The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
 Similarly, in a PDF form, the navigation sequence of input fields and buttons can become inconsistent when they are incorrectly positioned.
 

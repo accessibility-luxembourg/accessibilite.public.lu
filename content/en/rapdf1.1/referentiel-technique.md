@@ -20,7 +20,7 @@ Form content is covered in an additional theme and reduced to its essential elem
 
 Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (page layout software compatible with the PDF format or the Acrobat Pro work environment).
 
-The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
+The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents*{lang=en}.
 
 ### Non-compliant content types {class="no-summary"}
 
@@ -51,7 +51,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -75,7 +75,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -96,7 +96,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -118,7 +118,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -136,7 +136,7 @@ Only the content of the criteria and tests has normative value.
 - EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 - PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
-#### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
+#### [Criterion 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
@@ -166,7 +166,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -191,7 +191,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -362,7 +362,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -383,7 +383,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -399,11 +399,11 @@ In these situations, the criterion does not apply:
 - PDF/UA-2: 8.2.3 Logical content order.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
-- **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
+- **[Test 3.5.1](#test-3-5-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024    
+###### With PAC    
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -428,7 +428,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 4.1.1 with Acrobat Reader and PAC 2024
+###### Test 4.1.1 with Acrobat Reader and PAC
 
 1. Open the PDF file with PAC.
 2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -462,7 +462,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024    
+###### With PAC    
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -509,12 +509,12 @@ In these situations, the criterion does not apply:
 - PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H).
 
 #### [Criterion 5.2](#crit-5-2) [A] Does all content presented in the form of lists use a [list style](glossaire.md#list-style)? {id="crit-5-2"}
-- **[Test 5.2.1](#test-5-1-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
+- **[Test 5.2.1](#test-5-2-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
 - **[Test 5.2.2](#test-5-2-2)** Where [list styles](glossaire.md#list-style) allow, does each piece of content presented as an ordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.2.1 with PAC 2024 
+###### Test 5.2.1 with PAC 
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -542,7 +542,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -582,13 +582,13 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [tab order] (glossaire.md#tab order) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and PAC 2024
+###### With Acrobat Reader and PAC
 
-###### Test 6.1.1 with Acrobat Reader and PAC 2024
+###### Test 6.1.1 with Acrobat Reader and PAC
 
 1. Open the PDF file with PAC.
 2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -604,7 +604,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ###### Test 6.1.2 with Acrobat Reader
 1. Open the PDF file.
 2. Use the tab key to scroll through the items that can be tabbed.
-3. Check that the navigation sequence is consistent: the tab items are presented in a logical and consistent order.
+3. Check that the tab order is consistent: the tab items are presented in a logical and consistent order.
 4. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -732,7 +732,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -756,7 +756,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -777,7 +777,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -799,7 +799,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -843,7 +843,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -1058,7 +1058,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 - EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
 - PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry.
 
-#### [Criteria 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
+#### [Criterion 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
 - **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
     - The data type and/or format is indicated prior to form validation.
