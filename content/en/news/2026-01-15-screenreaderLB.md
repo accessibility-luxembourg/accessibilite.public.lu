@@ -27,6 +27,7 @@ auteur: Dominique Nauroy
 </ul>
 <p>Please send your results to <a href="mailto:accessibilite@sip.etat.lu?subject=screenreader%20tests">accessibilite@sip.etat.lu</a> with the title "screen reader tests" <strong>by 31 March</strong>. Each time, please specify the context of the test, i.e. the operating system, the screen reader used, the voice selected and the content read (e.g. the Website URL). Spread the word!</p>
 <p>You will quickly see progress: every month, an updated version of the application and voices will be released, incorporating new fixes.</p>
+<p>Based on your feedback, the SIP will be able to improve the two voices, but not the RHVoice application (its features, usability, etc.), as it is not developed or updated by the SIP.</p>
 <h2>Before you begin, follow the guide</h2>
 <p>Guides have been written for each platform in four languages. We recommend that you read them before installing RHVoice and the Luxembourgish voices on your phone, tablet or computer.</p>
 <h3>For Windows</h3>
