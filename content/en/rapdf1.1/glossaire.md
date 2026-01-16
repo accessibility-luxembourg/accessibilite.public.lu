@@ -207,6 +207,11 @@ By using specific list styles, the reader software can associate each list and i
 
 ### N
 
+#### Navigation sequence
+
+The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
+Similarly, in a PDF form, the navigation sequence of input fields and buttons can become inconsistent when they are incorrectly positioned.
+
 #### Non-interactive form
 
 This is a document presenting form fields as simple graphic areas, for example
@@ -265,10 +270,6 @@ When these formats or styles are used to create presentation effects, rendering 
 **Note on the use of paragraphs**: the presence of an empty paragraph after structured content, for example a heading, a list or a paragraph of text at the end of a page, is not considered to be non-compliant. Only the use of several successive empty paragraphs is concerned.
 
 ### T
-
-#### Tab order
-The order in which content is scrolled through using the tab key. This sequence can become inconsistent in certain situations, for example when clickable elements are inserted into complex shapes or text areas and these are not presented in a consistent order.
-Similarly, in a PDF form, the navigation sequence of input fields and buttons can become inconsistent when they are incorrectly positioned.
 
 #### Text alternative
 Text associated with an image or complex shape that provides information equivalent to that conveyed by the image or complex shape.

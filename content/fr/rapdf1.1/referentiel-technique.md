@@ -639,7 +639,8 @@ Note&nbsp;: dans la plupart des cas, la zone de texte sera suivie immédiatement
 
 - Critères de succès WCAG&nbsp;2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color).
     - Techniques suffisantes et/ou échecs WCAG&nbsp;2.1&nbsp;: [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}, *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.6 Caret*{lang=en}.
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *10.1.4.1 Use of colour*{lang=en}
+- PDF/UA-2&nbsp;: *8.9.2.4.5 Text markup*{lang=en}, *8.9.2.4.6 Caret*{lang=en}.
 
 ### [Thématique 7](#topic-7)&nbsp;: Navigation {id="topic-7"}
 

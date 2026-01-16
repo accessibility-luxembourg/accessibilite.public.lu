@@ -236,7 +236,7 @@ In these situations, the criterion does not apply:
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
-- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color. 
 - PDF/UA-2: 8.9.2.3 Markup annotations, 8.9.2.4.5 Text markup, 8.9.2.4.16 Watermark, 8.9.2.4.17 Redaction, 8.9.2.4.18 Projection, 8.9.2.4.20 Other.
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
@@ -665,7 +665,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 - WCAG 2.1 [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color
+- PDF/UA-2: 8.9.2.4.5 Text markup, 8.9.2.4.6 Caret
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
