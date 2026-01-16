@@ -15,7 +15,7 @@ Les méthodologies des tests du [critère 5.1](/fr/rapdf1.1/referentiel-techniqu
 Test 5.1.1 avec PAC
 
 1. Ouvrir le fichier PDF.
-2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, les éléments utilisés précédant chaque contenu.
+2. Ouvrir «&nbsp;Aperçu avec le lecteur d’écran&nbsp;», le contenu du fichier est exposé tel qu’il sera restitué, le ou les éléments utilisés précèdent chaque contenu.
 3. Repérer les passages de texte qui doivent être des titres dans le document original.
 4. Vérifier dans PAC que le titre est présenté au moyen d’un élément Hx où x est le niveau de titre, par exemple H1.
 5. Si c’est le cas, le test est validé.
@@ -197,7 +197,7 @@ Test 10.5.1 Chaque champ de formulaire obligatoire ou facultatif vérifie-t-il c
 
 Lorsque le formulaire ne comporte qu’un seul champ, le critère est non applicable.
 
-Dans le cas où l’ensemble des champs d’un formulaire est obligatoire, le critère reste applicable.
+Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le critère reste applicable.
 
 **Notes techniques**
 

@@ -20,7 +20,7 @@ Form content is covered in an additional theme and reduced to its essential elem
 
 Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (page layout software compatible with the PDF format or the Acrobat Pro work environment).
 
-The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents*{lang=en}.
+The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents*.
 
 ### Non-compliant content types {class="no-summary"}
 
