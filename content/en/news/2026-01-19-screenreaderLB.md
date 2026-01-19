@@ -33,26 +33,26 @@ auteur: Dominique Nauroy
 <h3>For Windows</h3>
 <p>The voices can interface with NVDA and JAWS screen readers.</p>
 <ul>
-    <li><a href="https://rhvoice.com/msoft_support?lang=lb">Windows guide in Luxembourgish</a></li>
-    <li><a href="https://rhvoice.com/msoft_support?lang=fr">Windows guide in French</a></li>
-    <li><a href="https://rhvoice.com/msoft_support?lang=en">Windows guide in English</a></li>
-    <li><a href="https://rhvoice.com/msoft_support?lang=de">Windows guide in German</a></li>
+    <li><a href="https://rhvoice.com/microsoft?lang=lb">Windows guide in Luxembourgish</a></li>
+    <li><a href="https://rhvoice.com/microsoft?lang=fr">Windows guide in French</a></li>
+    <li><a href="https://rhvoice.com/microsoft?lang=en">Windows guide in English</a></li>
+    <li><a href="https://rhvoice.com/microsoft?lang=de">Windows guide in German</a></li>
 </ul>
 <h3>Pour macOS et iOS</h3>
 <p>The voices interface with VoiceOver.</p>
 <ul>
-    <li><a href="https://rhvoice.com/apple_support?lang=lb">Apple guide in Luxembourgish</a></li>
-    <li><a href="https://rhvoice.com/apple_support?lang=fr">Apple guide in French</a></li>
-    <li><a href="https://rhvoice.com/apple_support?lang=en">Apple guide in English</a></li>
-    <li><a href="https://rhvoice.com/apple_support?lang=de">Apple Guide in German</a></li>
+    <li><a href="https://rhvoice.com/apple?lang=lb">Apple guide in Luxembourgish</a></li>
+    <li><a href="https://rhvoice.com/apple?lang=fr">Apple guide in French</a></li>
+    <li><a href="https://rhvoice.com/apple?lang=en">Apple guide in English</a></li>
+    <li><a href="https://rhvoice.com/apple?lang=de">Apple Guide in German</a></li>
 </ul>
 <h3>For  Android</h3>
 <p>The voices interface with TalkBack.</p>
 <ul>
-    <li><a href="https://rhvoice.com/android_uguide?app=1&lang=lb">Android guide in Luxembourgish</a></li>
-    <li><a href="https://rhvoice.com/android_uguide?app=1&lang=fr">Android guide in French</a></li>
-    <li><a href="https://rhvoice.com/android_uguide?app=1&lang=en">Android guide in English</a></li>
-    <li><a href="https://rhvoice.com/android_uguide?app=1&lang=de">Android guide in German</a></li>
+    <li><a href="https://rhvoice.com/android_uguide?lang=lb">Android guide in Luxembourgish</a></li>
+    <li><a href="https://rhvoice.com/android_uguide?lang=fr">Android guide in French</a></li>
+    <li><a href="https://rhvoice.com/android_uguide?lang=en">Android guide in English</a></li>
+    <li><a href="https://rhvoice.com/android_uguide?lang=de">Android guide in German</a></li>
 </ul>
 <h2>But who came up with the idea?</h2>
 <p>This is a <a href="https://mindigital.gouvernement.lu/en/dossiers/2024/tech-in-gov/projets-tech.html">Tech-in-Gov</a> project, supported and funded by the <a href="https://mindigital.gouvernement.lu/en.html">Ministry for Digitalisation</a>, which took place during the second half of 2025, following the selection of <a href="https://louderpages.org/">LouderPages</a>, a specialist in the field who contributes to the <a href="https://rhvoice.org/">RHVoice</a> solution. The <a href="https://sip.gouvernement.lu/en.html">SIP</a> was also able to count on the support of the <a href="https://cc-cdv.lu/">CDV</a>, which produced the first user tests and provided numerous corrective suggestions. The <a href="https://portal.education.lu/zls">ZLS</a> is also one of the key players: it provided central elements of the speech synthesis and supported us throughout the project on issues of prosody, grammar and lexicon..</p>
