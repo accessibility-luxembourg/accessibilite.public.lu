@@ -154,7 +154,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   
     // 6. Créer les <details> pour les cas particuliers
     tagsToFetch = ["UL", "P"];
-    els = document.querySelectorAll('h5[id^=cas-particulier]');
+    els = document.querySelectorAll('h5[id^=special-cases], h5[id^=cas-particulier]');
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebNotes");
@@ -216,6 +216,11 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
     // Note baladeuse du critère 10.5 RAPDF
     if (name.includes('rapdf')) {
         el = document.getElementById('notes-techniques');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+        el = document.getElementById('technical-notes');
         if (el) {
             el.previousElementSibling.appendChild(el);
             el.parentElement.appendChild(el.parentElement.nextElementSibling);
