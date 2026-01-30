@@ -6,7 +6,7 @@ Where possible, one or more mappings to elements of the PDF/UA-2 standard have b
 
 #### Modification of the methodology for criterion 5.1 
 
-The testing methodologies for [criterion 5.1](/en/rapdf1.1/technical-reference.html#crit-5-1) have been modified. They have been merged into a single methodology based solely on the use of PAC.
+The testing methodologies for [criterion 5.1](/en/rapdf1.1/referentiel-technique.html#crit-5-1) have been modified. They have been merged into a single methodology based solely on the use of PAC.
 
 ##### In RAPDF 1
 
@@ -71,7 +71,7 @@ Test 7.1.1 Does the document have a table of contents (excluding special cases)?
 
 #### Forms: complete revision of methodologies
 
-The methodologies for evaluating criteria [10.1](/en/rapdf1.1/technical-reference-document.html#crit-10-1), [10.2](/en/rapdf1.1/technical-reference-document.html#crit-10-2), [10.3](/en/rapdf1.1/technical-reference.html#crit-10-3), [10.5](/en/rapdf1.1/technical-reference.html#crit-10-5), [10.6](/en/rapdf1.1/technical-reference.html#crit-10-6), [10.7](/en/rapdf1.1/technical-reference.html#crit-10-7), [10.8](/en/rapdf1.1/technical-reference.html#crit-10-8), [10.9](/en/rapdf1.1/technical-reference.html#crit-10-9) and [10.10](/en-GB/rapdf1.1/technical-reference.html#crit-10-10), initially based on the use of NVDA, have been modified and are now based solely on an evaluation in Acrobat Reader.
+The methodologies for evaluating criteria [10.1](/en/rapdf1.1/referentiel-technique.html#crit-10-1), [10.2](/en/rapdf1.1/referentiel-technique.html#crit-10-2), [10.3](/en/rapdf1.1/referentiel-technique.html#crit-10-3), [10.5](/en/rapdf1.1/referentiel-technique.html#crit-10-5), [10.6](/en/rapdf1.1/referentiel-technique.html#crit-10-6), [10.7](/en/rapdf1.1/referentiel-technique.html#crit-10-7), [10.8](/en/rapdf1.1/referentiel-technique.html#crit-10-8), [10.9](/en/rapdf1.1/referentiel-technique.html#crit-10-9) and [10.10](/en/rapdf1.1/referentiel-technique.html#crit-10-10), initially based on the use of NVDA, have been modified and are now based solely on an evaluation in Acrobat Reader.
 
 The introductory text has been modified to reflect this methodological change. 
 
@@ -113,7 +113,7 @@ In addition to the assessments proposed in this section, testing by a person wit
 
 #### 10.1
 
-Modification of the conditions of criterion [10.1](/en/rapdf1.1/technical-reference.html#crit-10-1) to reflect the change in methodology.
+Modification of the conditions of criterion [10.1](/en/rapdf1.1/referentiel-technique.html#crit-10-1) to reflect the change in methodology.
 
 ##### In RAPDF 1
 
@@ -135,7 +135,7 @@ Modification of the conditions of criterion [10.1](/en/rapdf1.1/technical-refere
 
 #### 10.2
 
-Editorial change to criterion [10.2](/en/rapdf1.1/technical-reference-document.html#crit-10-2).
+Editorial change to criterion [10.2](/en/rapdf1.1/referentiel-technique.html#crit-10-2).
 
 ##### In RAPDF 1
 
@@ -157,7 +157,7 @@ Editorial change to criterion [10.2](/en/rapdf1.1/technical-reference-document.h
 
 #### 10.5
 
-Modification of criterion [10.5](/en/rapdf1.1/technical-reference.html#crit-10-5) to introduce optional fields directly into the tests instead of special cases.
+Modification of criterion [10.5](/en/rapdf1.1/referentiel-technique.html#crit-10-5) to introduce optional fields directly into the tests instead of special cases.
 
 The special case is modified and a technical note is added.
 
@@ -206,7 +206,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 
 #### 10.6
 
-Editorial modification of criterion [10.6](/en/rapdf1.1/technical-reference.html#crit-10-6) and addition of a condition on the display of information prior to validation.
+Editorial modification of criterion [10.6](/en/rapdf1.1/referentiel-technique.html#crit-10-6) and addition of a condition on the display of information prior to validation.
 
 ##### In RAPDF 1
 
@@ -235,7 +235,7 @@ Test 10.6.1 Do the instructions and indications of the mandatory data type and/o
 
 #### 10.8
 
-Removal of the special case of criterion [10.8](/en/rapdf1.1/technical-reference.html#crit-10-8) related to script.
+Removal of the special case of criterion [10.8](/en/rapdf1.1/referentiel-technique.html#crit-10-8) related to script.
 
 For the record, in RAPDF 1
 
@@ -329,4 +329,4 @@ Depending on the software used to edit the content, the table of contents may be
 
 ### Modification of annex documents
 
-The [Introduction](introduction.html), [Testing Methodology](methodology.html) and [Testing Environment](environment.html) pages have been modified to remove any reference to screen readers as an evaluation method, following their removal for the evaluation of the Forms topic.
+The [Introduction](index.html), [Testing Methodology](methodologie.html) and [Testing Environment](environnement.html) pages have been modified to remove any reference to screen readers as an evaluation method, following their removal for the evaluation of the Forms topic.

@@ -51,7 +51,7 @@ Y a-t-il une différence notable entre les niveaux étatique, communal et celui 
 
 ### Les déclarations
 
-Indispensables aux personnes en situation de handicap et obligatoires selon la loi du 28 mai 2019, les [déclarations d'accessibilité](https://accessibilite.public.lu/fr/obligations.html#d%C3%A9claration-d%E2%80%99accessibilit%C3%A9) sont pourtant peu présentes&#8239;: à peine un site sur deux dispose d'une déclaration complète et actualisée, et une app sur dix (voir la page [« déclarations »](https://observatoire.accessibilite.public.lu/fr/statements)). L'espoir est de voir peu à peu cette obligation légale mieux respectée.
+Indispensables aux personnes en situation de handicap et obligatoires selon la loi du 28 mai 2019, les [déclarations d'accessibilité](/fr/obligations.html#d%C3%A9claration-d%E2%80%99accessibilit%C3%A9) sont pourtant peu présentes&#8239;: à peine un site sur deux dispose d'une déclaration complète et actualisée, et une app sur dix (voir la page [« déclarations »](https://observatoire.accessibilite.public.lu/fr/statements)). L'espoir est de voir peu à peu cette obligation légale mieux respectée.
 
 ### Les non-conformités
 

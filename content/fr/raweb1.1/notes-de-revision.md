@@ -1146,7 +1146,7 @@ D’autres techniques et échecs ont été supprimés&nbsp;:
 - Critère [10.2](criteres.html#crit-10-2)&nbsp;: suppression de la liaison [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87). L’échec a été classé obsolète par le groupe de travail AG WG.
 - Critère [12.8](criteres.html#crit-12-8)&nbsp;: suppression des liaisons [SCR37](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37) et [H4](https://www.w3.org/WAI/WCAG21/Techniques/html/H4). Ces techniques ont été classées obsolètes par le groupe de travail AG WG.
 - Critère [13.1](criteres.html#crit-13-1)&nbsp;: 
-  - Suppression des liaisons [F61](https://www.w3.org/WAI/WCAG21/Techniques/failures/F61), [G110](www.w3.org/WAI/WCAG21/Techniques/general/G110), [H76](https://www.w3.org/WAI/WCAG21/Techniques/html/H76) et [SVR1](https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1). Ces techniques et échecs sont liés au critère triple A [3.2.5 Changement à la demande](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
+  - Suppression des liaisons [F61](https://www.w3.org/WAI/WCAG21/Techniques/failures/F61), [G110](https://www.w3.org/WAI/WCAG21/Techniques/general/G110), [H76](https://www.w3.org/WAI/WCAG21/Techniques/html/H76) et [SVR1](https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1). Ces techniques et échecs sont liés au critère triple A [3.2.5 Changement à la demande](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
   - Suppression de la liaison [G75](https://www.w3.org/WAI/WCAG21/Techniques/general/G75). Cette technique est liée au critère triple A [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions).
   - Suppression de la liaison [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). Cette technique est liée aux critères triple A [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) et [3.2.5 Changement à la demande](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
 - Critère [13.8](criteres.html#crit-13-8)&nbsp;: suppression des liaisons [G187](https://www.w3.org/WAI/WCAG21/Techniques/general/G187), [F4](https://www.w3.org/WAI/WCAG21/Techniques/failures/F4), [F47](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47). Les échecs ont été classés obsolètes par le groupe de travail AG WG.
@@ -1646,7 +1646,7 @@ Lorsqu’un tableau de données contient des en-têtes qui sont répartis sur pl
 
 #### Type et format de données - suppression
 
-L’entrée de glossaire *Type et format de données* est supprimée, car elle n’apportait aucune information supplémentaire par rapport à l’entrée [Indication du type de données et/ou de format](glossaire.html#iindication-du-type-de-donnees-et/ou-de-format) et elle ne faisait l’objet d’aucun appel depuis le référentiel technique. Les informations ont été fusionnées dans l’entrée [Indication du type de données et/ou de format.](glossaire.html#iindication-du-type-de-donnees-et/ou-de-format)
+L’entrée de glossaire *Type et format de données* est supprimée, car elle n’apportait aucune information supplémentaire par rapport à l’entrée [Indication du type de données et/ou de format](glossaire.html#indication-du-type-de-donnees-et/ou-de-format) et elle ne faisait l’objet d’aucun appel depuis le référentiel technique. Les informations ont été fusionnées dans l’entrée [Indication du type de données et/ou de format.](glossaire.html#indication-du-type-de-donnees-et/ou-de-format)
 
 Pour mémoire, dans le RAWeb&nbsp;1&nbsp;: 
 

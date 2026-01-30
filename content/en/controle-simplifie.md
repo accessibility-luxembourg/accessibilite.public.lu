@@ -6,7 +6,7 @@ Each EU Member State may define its own simplified control method, but this meth
 #### Recommended tools for testing
 The testing method can be carried out without the following tools. However, implementing decision EU 2018/1524 strongly encourages the implementation of semi-automated tests. We therefore recommend the following tools to conduct the tests: 
 
-- the tools recommended in the [RAWeb test methodology](../../../html/en/raweb1.1/methodo-test.html#tools)
+- the tools recommended in the [RAWeb test methodology](../../en/raweb1.1/methodo-test.html#tools)
 - [The Axe browser extension](https://www.deque.com/axe/browser-extensions/)
 
 These tools are free and open source, or based on open source technologies.

@@ -141,7 +141,7 @@ Le principe de non-interférence est identifié dans la norme EN 301 549 au crit
 
 L’outil le plus utile reste l’inspecteur de code que propose chaque navigateur. Il permet de rechercher facilement les éléments et les attributs requis pour un examen par un test d’accessibilité. Désormais, les outils de développement proposent également des fonctionnalités permettant d’avoir accès aux propriétés de l’arbre d’accessibilité exposé par le navigateur. Ces informations ne remplacent cependant pas la nécessité d’avoir recours à une assistance technique lorsqu’un critère ou un test l’exige.
 
-Les aides techniques listées dans l’environnement de test retenu constituent un second ensemble d’outils indispensables (voir la rubrique [Environnement de test](environnement.html/#contenu)). Ils sont, en effet, requis pour s’assurer d’une restitution correcte de contenus accessibles (les alternatives aux images, les intitulés de lien, les titres de tableau, ...) dans le cas notamment où l’examen du code seul ne suffirait pas.
+Les aides techniques listées dans l’environnement de test retenu constituent un second ensemble d’outils indispensables (voir la rubrique [Environnement de test](environnement.html#contenu)). Ils sont, en effet, requis pour s’assurer d’une restitution correcte de contenus accessibles (les alternatives aux images, les intitulés de lien, les titres de tableau, ...) dans le cas notamment où l’examen du code seul ne suffirait pas.
 
 D’autres outils sont disponibles pour aider à la recherche des éléments de contenu. Ils se présentent souvent comme des extensions au navigateur et permettent d’explorer un ou plusieurs aspects d’un test d’accessibilité.
 

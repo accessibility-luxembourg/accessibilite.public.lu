@@ -103,7 +103,7 @@ La déclaration d’accessibilité comprend :
     - un mécanisme accessible (adresse électronique ou formulaire) pour permettre à toute personne de signaler à l’organisme concerné tout défaut d’accessibilité et à une personne handicapée de demander les informations correspondantes ou une solution alternative accessible ;
 - la mention de la faculté pour la personne concernée de saisir le SIP ou le médiateur.
 
-La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../../html/fr/tools/decla.html). 
+La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../fr/tools/decla.html). 
 
 #### Mises à jour de la déclaration d’accessibilité
 

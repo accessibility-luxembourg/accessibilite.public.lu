@@ -103,7 +103,7 @@ The accessibility statement includes:
     - an accessible mechanism (e-mail address or form) to enable any person to report any accessibility shortcomings to the body concerned and a person with disabilities to request the relevant information or an accessible alternative solution;
 - A mention of the option for the person concerned to refer the matter to the SIP or the ombudsman.
 
-The accessibility statement can be generated in several languages using the [statement creation form](../../html/en/tools/decla.html). 
+The accessibility statement can be generated in several languages using the [statement creation form](../en/tools/decla.html). 
 
 #### Updates to the accessibility statement
 

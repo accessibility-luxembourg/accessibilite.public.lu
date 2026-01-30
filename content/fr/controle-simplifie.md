@@ -6,7 +6,7 @@ Chaque état membre de l’UE peut définir sa propre méthode de contrôle simp
 #### Outils recommandés pour les tests
 La méthode de contrôle peut être réalisée sans les outils suivants. Cependant la décision d'exécution UE 2018/1524 encourage fortement la mise en oeuvre de tests semi-automatisés. Nous recommandons donc les outils suivant pour mener les tests : 
 
-- les outils recommandés dans la [méthodologie de test du RAWeb](../../../html/fr/raweb1.1/methodo-test.html#outils)
+- les outils recommandés dans la [méthodologie de test du RAWeb](../../fr/raweb1.1/methodo-test.html#outils)
 - [L’extension de navigateur Axe](https://www.deque.com/axe/browser-extensions/)
 
 Ces outils sont gratuits et open sources, ou basés sur des technologies open sources.

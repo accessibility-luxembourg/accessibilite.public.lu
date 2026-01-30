@@ -330,4 +330,5 @@ Selon le logiciel utilisé pour éditer le contenu, le sommaire peut être struc
 
 ### Modification des documents annexes
 
-Les pages [Introduction](introduction.html), [Méthodologie de test](methodologie.html) et [Environnement de test](environnement.html) sont modifiées pour supprimer toute référence au lecteur d'écran en tant que méthodologie d'évaluation, suite à sa suppression pour l'évaluation de la thématique Formulaires.
+
+Les pages [Introduction](index.html), [Méthodologie de test](methodologie.html) et [Environnement de test](environnement.html) sont modifiées pour supprimer toute référence au lecteur d'écran en tant que méthodologie d'évaluation, suite à sa suppression pour l'évaluation de la thématique Formulaires.
