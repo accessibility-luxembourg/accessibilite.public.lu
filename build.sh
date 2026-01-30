@@ -24,6 +24,7 @@ mkdir -p ./dist/fr/raweb1.1/files
 mkdir -p ./dist/fr/raam1
 mkdir -p ./dist/fr/raam1.1
 mkdir -p ./dist/fr/rapdf1
+mkdir -p ./dist/fr/rapdf1.1
 mkdir -p ./dist/fr/tools
 mkdir -p ./dist/fr/support
 mkdir -p ./dist/fr/monitoring
@@ -43,6 +44,7 @@ mkdir -p ./dist/en/raweb1.1/files
 mkdir -p ./dist/en/raam1    
 mkdir -p ./dist/en/raam1.1
 mkdir -p ./dist/en/rapdf1
+mkdir -p ./dist/en/rapdf1.1
 mkdir -p ./dist/en/tools
 mkdir -p ./dist/en/support
 mkdir -p ./dist/en/monitoring

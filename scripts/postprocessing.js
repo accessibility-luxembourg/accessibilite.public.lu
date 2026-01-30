@@ -16,7 +16,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
   
   
-  function singleMDCriteria(data, __) {
+  function singleMDCriteria(data, __, name) {
     const dom = new JSDOM(data);
     const document = dom.window.document;
 
@@ -140,19 +140,21 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         addelt(document, "summary", detailRAAM, __("Mapping"));
         addelt(document, "div", detailRAAM);
         el.parentNode.insertBefore(detailRAAM, el);
-        let wcagCorr = el.nextElementSibling.children[0];
-        let euCorr = el.nextElementSibling.children[1];
-        let wcagDetails = wcagCorr.innerHTML.split("&nbsp;:").pop();
-        let euDetails = euCorr.innerHTML.split("&nbsp;:").pop();
-        wcagCorr.innerHTML = "<p>WCAG 2.1</p><p>"+ wcagDetails +"</p>";
-        euCorr.innerHTML = "<p>EN 301 549 V3.2.1 (2021-03)</p><p>"+ euDetails +"</p>";
+        if (name.includes('raam')) {
+            let wcagCorr = el.nextElementSibling.children[0];
+            let euCorr = el.nextElementSibling.children[1];
+            let wcagDetails = wcagCorr.innerHTML.split("&nbsp;:").pop();
+            let euDetails = euCorr.innerHTML.split("&nbsp;:").pop();
+            wcagCorr.innerHTML = "<p>WCAG 2.1</p><p>"+ wcagDetails +"</p>";
+            euCorr.innerHTML = "<p>EN 301 549 V3.2.1 (2021-03)</p><p>"+ euDetails +"</p>";
+        }
         detailRAAM.lastChild.append(el.nextElementSibling);
         el.remove();
     });
   
     // 6. Créer les <details> pour les cas particuliers
     tagsToFetch = ["UL", "P"];
-    els = document.querySelectorAll('h5[id^=cas-particulier]');
+    els = document.querySelectorAll('h5[id^=special-cases], h5[id^=cas-particulier]');
     els.forEach(el => {
         const detailRAAM = document.createElement("details");
         detailRAAM.setAttribute("class", "discover rawebNotes");
@@ -190,13 +192,49 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.firstElementChild.after(el);
     });
   
-    // 9. Note baladeuse du critère 6.1
-    let el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
-    let detailRAAM = document.createElement("details");
-    detailRAAM.setAttribute("class", "discover rawebNotes");
-    addelt(document, "summary", detailRAAM, "Note");
-    el.parentNode.insertBefore(detailRAAM, el);       
-    detailRAAM.firstElementChild.after(el);
+    // 9. Traitement des exceptions
+    // Notes baladeuses des critères 3.12 et 6.1 RAAM
+    if (name.includes('raam')) {
+        let el = document.getElementById('note');
+        if (el) {
+            let detailRAAM = document.createElement("details");
+            detailRAAM.setAttribute("class", "discover rawebNotes");
+            addelt(document, "summary", detailRAAM, "Note");
+            el.parentNode.insertBefore(detailRAAM, el);
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling); 
+        }
+
+        el = document.querySelector('h4[id=crit-6-1]').nextElementSibling;
+        detailRAAM = document.createElement("details");
+        detailRAAM.setAttribute("class", "discover rawebNotes");
+        addelt(document, "summary", detailRAAM, "Note");
+        el.parentNode.insertBefore(detailRAAM, el);    
+        detailRAAM.firstElementChild.after(el);
+    }
+
+    // Note baladeuse du critère 10.5 RAPDF
+    if (name.includes('rapdf')) {
+        el = document.getElementById('notes-techniques');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+        el = document.getElementById('technical-notes');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+    }
+
+    // Note baladeuse du critère 11.1 RAAM
+    if (name.includes('raam')) {
+        el = document.getElementById('note-2');
+        if (el) {
+            el.previousElementSibling.appendChild(el);
+            el.parentElement.appendChild(el.parentElement.nextElementSibling);
+        }
+    }
   
     // 10. redessiner l'apparence des critères
     els = mainFrame.querySelectorAll('h4[id^=crit]'); 
@@ -275,10 +313,10 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
   }
 
 function main(html, name, __) {
-    if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique'].includes(name)) {
-        html = singleMDCriteria(html, __)
+    if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
+        html = singleMDCriteria(html, __, name)
     }    
-    if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire'].includes(name)) {
+    if (['raam1/glossaire', 'raam1.1/glossaire', 'rapdf1/glossaire', 'rapdf1.1/glossaire'].includes(name)) {
         html = singleMDGlossary(html, __)
     }
     return html

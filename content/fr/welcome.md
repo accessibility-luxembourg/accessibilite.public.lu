@@ -22,7 +22,7 @@ Nous sommes à votre disposition pour toute question, n'hésitez pas à [nous co
 
 - [Référentiel Web](raweb1.1/index.html)
 - [Référentiel mobile](raam1.1/index.html)
-- [Référentiel PDF](rapdf1/index.html)
+- [Référentiel PDF](rapdf1.1/index.html)
 - [Votre déclaration](tools/decla.html)
 - [Données ouvertes](monitoring/open-data.html)
 

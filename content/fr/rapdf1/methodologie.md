@@ -16,10 +16,10 @@ Pour évaluer les critères du référentiel, les tests se font au moyen de l'ou
 
 Les sections ci-dessous décrivent les éléments essentiels à connaitre pour installer ces outils.
 
-#### PAC 2024
+#### PAC
 Procédure d'installation :
 
-1. Télécharger [PAC 2024 - Le vérificateur PDF gratuit](https://pac.pdf-accessibility.org/en/download).
+1. Télécharger [PAC - Le vérificateur PDF gratuit](https://pac.pdf-accessibility.org/en/download).
 2. Le téléchargement est constitué d'une archive au format ZIP qu'il faut désarchiver. Faire un clic droit et choisir «&nbsp;Extraire tout&nbsp;».
 3. Cliquer ensuite sur «&nbsp;PAC.exe&nbsp;» pour lancer l'outil.
 
