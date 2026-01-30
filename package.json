@@ -32,7 +32,10 @@
         "ejs",
         "md",
         "scss",
-        "json"
+        "json",
+        "csv",
+        "jpg",
+        "svg"
       ]
     }
   },
