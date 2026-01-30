@@ -319,7 +319,7 @@ Les médias temporels synchronisés en direct diffusés via un site web soumis �
 
 #### 5.1
 
-La méthodologie du [test 5.1.1](/fr/raweb1.1/criteres.html#test-5-1.1) est modifiée pour supprimer la référence à l’attribut `summary`. Cet attribut est obsolète.
+La méthodologie du [test 5.1.1](/fr/raweb1.1/criteres.html#test-5-1-1) est modifiée pour supprimer la référence à l’attribut `summary`. Cet attribut est obsolète.
 
 Pour mémoire, la condition de méthodologie référençant l’attribut dans le RAWeb&nbsp;1&nbsp;: 
 
@@ -335,7 +335,7 @@ Le [test 5.7.6](/fr/raweb1.1/criteres.html#test-5-7-6) est créé (et sa méthod
 
 #### 6.1
 
-Le [test 6.1.6](/fr/raweb1.1/criteres.html#test-6-1-6) est créé suite à la [modification de la note de glossaire Intitulé (ou nom accessible) de lien](#intitulé-ou-nom-accessible-de-lien----modification)&nbsp;: une des 5 notes supprimées, transformée en test.
+Le [test 6.1.6](/fr/raweb1.1/criteres.html#test-6-1-6) est créé suite à la [modification de la note de glossaire Intitulé (ou nom accessible) de lien](#intitulé-ou-nom-accessible-de-lien)&nbsp;: une des 5 notes supprimées, transformée en test.
 
 #### 6.2
 
@@ -385,7 +385,7 @@ La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modi
 
 #### 7.3
 
-La méthodologie du [test 7.3.1](/fr/raweb1.1/criteres.html#test-7-3.1) est modifiée, en accord avec la modification de l’entrée de glossaire [Accessible et activable par le clavier et tout dispositif de pointage](glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage), afin de ne pas restreindre l’activation au clavier à la seule touche <kbd>Entrée</kbd>.
+La méthodologie du [test 7.3.1](/fr/raweb1.1/criteres.html#test-7-3-1) est modifiée, en accord avec la modification de l’entrée de glossaire [Accessible et activable par le clavier et tout dispositif de pointage](glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage), afin de ne pas restreindre l’activation au clavier à la seule touche <kbd>Entrée</kbd>.
 
 #### Dans le RAWeb&nbsp;1
 
@@ -811,7 +811,7 @@ Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est modifié pour prend
 
 Le [critère 12.6](/fr/raweb1.1/criteres.html#crit-12-6) est ainsi modifié pour ne s’appliquer qu’aux régions autres que les zones principales déjà identifiées dans le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2).
 
-[La définition de Landmarks est modifiée](#landmarks---modification) pour refléter ces changements.
+[La définition de Landmarks est modifiée](#landmarks) pour refléter ces changements.
 
 La méthodologie est modifiée en conséquence.
 
@@ -1397,7 +1397,7 @@ Note&nbsp;: Dans le cas où cette indication n’est pas réalisée de manière 
 
 #### Indication du type de données et/ou de format
 
-L’entrée de glossaire [Indication du type de données et/ou de format](glossaire.html#indication-du-type-de-donnees-et-ou-de-format) a été modifiée&nbsp;: 
+L’entrée de glossaire [Indication du type de données et/ou de format](glossaire.html#indication-du-type-de-donnees-et/ou-de-format) a été modifiée&nbsp;: 
 - pour fusionner des éléments présents dans une entrée de glossaire redondante *Type et format de données* qui a donc été supprimée&nbsp;;
 - pour supprimer la référence aux seuls champs obligatoires, puisque des formats de saisie peuvent être attendus sur des champs qui ne sont pas obligatoires.
 
@@ -1646,7 +1646,7 @@ Lorsqu’un tableau de données contient des en-têtes qui sont répartis sur pl
 
 #### Type et format de données - suppression
 
-L’entrée de glossaire *Type et format de données* est supprimée, car elle n’apportait aucune information supplémentaire par rapport à l’entrée [Indication du type de données et/ou de format](glossaire.html#indication-du-type-de-donnees-et-ou-de-format) et elle ne faisait l’objet d’aucun appel depuis le référentiel technique. Les informations ont été fusionnées dans l’entrée [Indication du type de données et/ou de format.](glossaire.html#indication-du-type-de-donnees-et-ou-de-format)
+L’entrée de glossaire *Type et format de données* est supprimée, car elle n’apportait aucune information supplémentaire par rapport à l’entrée [Indication du type de données et/ou de format](glossaire.html#iindication-du-type-de-donnees-et/ou-de-format) et elle ne faisait l’objet d’aucun appel depuis le référentiel technique. Les informations ont été fusionnées dans l’entrée [Indication du type de données et/ou de format.](glossaire.html#iindication-du-type-de-donnees-et/ou-de-format)
 
 Pour mémoire, dans le RAWeb&nbsp;1&nbsp;: 
 

@@ -54,7 +54,7 @@ const config = {
                     "menu": "Follow us",
                     "name": "newsletter",
                     "md": "./content/en/newsletter.md", 
-                    "prefix": "../.."
+                    "prefix": ".."
                 }
             ]
         },
@@ -68,7 +68,7 @@ const config = {
                     "menu": "Legal requirements",
                     "name": "obligations",
                     "md": "./content/en/raweb1.1/obligations.md", 
-                    "prefix": "../..",
+                    "prefix": "..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },
@@ -77,14 +77,14 @@ const config = {
                     "menu": "Monitoring",
                     "name": "monitoring/mission",
                     "md": "./content/en/mission.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.." 
                 },
                 {
                     "title": "Open data",
                     "menu": "Open data",
                     "name": "monitoring/open-data",
                     "md": "./content/en/opendata.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 }     
             ]
         },       
@@ -98,14 +98,14 @@ const config = {
                     "menu": "Specifications",
                     "name": "tools/cahier-des-charges",
                     "md": "./content/en/cahier-des-charges.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                
                 {
                     "title": "Accessibility auditing kit",
                     "menu": "Auditing kit",
                     "name": "tools/kit",
                     "md": "./content/en/kit-audit.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "Create your statement",
@@ -117,7 +117,7 @@ const config = {
                     "menu": "Complaints",
                     "name": "tools/reclamations",
                     "md": "./content/en/reclamation.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 }    
             ]
         },         
@@ -131,7 +131,7 @@ const config = {
                     "menu": "Introduction",
                     "name": "raweb1.1/index",
                     "md": "./content/en/raweb1.1/introduction.md",
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },        
                 {
                     "title": "RAWeb 1.1: Criteria and tests",
@@ -140,7 +140,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
                     "data": dataRAWeb11,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 },
@@ -151,7 +151,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossaryRAWeb11,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
@@ -160,7 +160,7 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "raweb1.1/methodo-test",
                     "md": "./content/en/raweb1.1/methodologie-de-test.md",
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },                
@@ -169,21 +169,21 @@ const config = {
                     "menu": "Testing environment",
                     "name": "raweb1.1/environnement",
                     "md": "./content/en/raweb1.1/environnement-de-test.md",
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                        
                 {
                     "title": "RAWeb 1.1: References",
                     "menu": "References",
                     "name": "raweb1.1/references",
                     "md": "./content/en/raweb1.1/references.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "RAWeb 1.1: Changelog",
                     "menu": "Changelog",
                     "name": "raweb1.1/notes-revision",
                     "md": "./content/en/raweb1.1/notes-de-revision.md", 
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },
@@ -192,7 +192,7 @@ const config = {
                     "menu": "Simplified control method",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/en/controle-simplifie.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "Criteria for simplified control",
@@ -201,7 +201,7 @@ const config = {
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 }
@@ -217,14 +217,14 @@ const config = {
                     "menu": "Introduction",
                     "name": "raam1.1/index",
                     "md": "./content/en/raam1.1/introduction.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                
                 {
                     "title": "RAAM 1.1: Criteria and tests",
                     "menu": "Criteria and tests",
                     "name": "raam1.1/referentiel-technique",
                     "md": "./content/en/raam1.1/referentiel-technique.md",
-                    "prefix": "../../..", 
+                    "prefix": "../..", 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Themes"
@@ -234,7 +234,7 @@ const config = {
                     "menu": "Glossary",
                     "name": "raam1.1/glossaire",
                     "md": "./content/en/raam1.1/glossaire.md",
-                    "prefix": "../../..",                   
+                    "prefix": "../..",                   
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -244,7 +244,7 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "raam1.1/methodologie",
                     "md": "./content/en/raam1.1/methodologie.md",
-                    "prefix": "../../..", 
+                    "prefix": "../..", 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
@@ -254,21 +254,21 @@ const config = {
                     "menu": "Testing environment",
                     "name": "raam1.1/environnement",
                     "md": "./content/en/raam1.1/environnement.md",
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "RAAM 1.1 : Changelog",
                     "menu": "Changelog",
                     "name": "raam1.1/notes-revision",
                     "md": "./content/en/raam1.1/notes-de-revision.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                    
                 {
                     "title": "RAAM 1.1: References",
                     "menu": "References",
                     "name": "raam1.1/references",
                     "md": "./content/en/raam1.1/references.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.." 
                 }, 
             ]
         },
@@ -282,14 +282,14 @@ const config = {
                     "menu": "Introduction",
                     "name": "rapdf1/index",
                     "md": "./content/en/rapdf1/introduction.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                
                 {
                     "title": "RAPDF 1: Criteria and tests",
                     "menu": "Criteria and tests",
                     "name": "rapdf1/referentiel-technique",
                     "md": "./content/en/rapdf1/referentiel-technique.md",
-                    "prefix": "../../..", 
+                    "prefix": "../..", 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Themes"
@@ -299,7 +299,7 @@ const config = {
                     "menu": "Glossary",
                     "name": "rapdf1/glossaire",
                     "md": "./content/en/rapdf1/glossaire.md",
-                    "prefix": "../../..",                    
+                    "prefix": "../..",                    
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
@@ -309,7 +309,7 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "rapdf1/methodologie",
                     "md": "./content/en/rapdf1/methodologie.md",    
-                    "prefix": "../../..", 
+                    "prefix": "../..", 
                     "slugify": "slugifyA42"
                 },
                 {
@@ -317,14 +317,14 @@ const config = {
                     "menu": "Testing environment",
                     "name": "rapdf1/environnement",
                     "md": "./content/en/rapdf1/environnement.md",        
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },  
                 {
                     "title": "RAPDF 1: References",
                     "menu": "References",
                     "name": "rapdf1/references",
                     "md": "./content/en/rapdf1/references.md",
-                    "prefix": "../../.." 
+                    "prefix": "../.." 
                 }
             ]
         }
@@ -335,21 +335,21 @@ const config = {
             "menu": "Licence",
             "name": "licence",
             "md": "./content/en/licence.md",           
-            "prefix": "../.."
+            "prefix": ".."
         }, 
         {
             "title": "Accessibility statement",
             "menu": "Accessibility statement",
             "name": "support/accessibilite",
             "md": "./content/en/accessibilite.md",            
-            "prefix": "../../.."
+            "prefix": "../.."
         }, 
         {
             "title": "General legal notice",
             "menu": "General legal notice",
             "name": "aspects-legaux",
             "md": "./content/en/mentions-legales.md",           
-            "prefix": "../.."
+            "prefix": ".."
         },        
         {
             "title": "Site map",
@@ -361,7 +361,7 @@ const config = {
             "menu": "Contact",
             "name": "contact",
             "md": "./content/en/contact.md", 
-            "prefix": "../.."
+            "prefix": ".."
         }                
     ], 
     "hidden": [
@@ -369,7 +369,7 @@ const config = {
             "title": "404 error",
             "name": "404",
             "md": "./content/en/404.md",
-            "prefix": "../.."
+            "prefix": ".."
         },
         {
             "title": "Newsletter subscription",
@@ -390,7 +390,7 @@ const config = {
                     "menu": "Introduction",
                     "name": "raweb1/index",
                     "md": "./content/en/raweb1/introduction.md",
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },        
                 {
                     "title": "RAWeb 1: Criteria and tests",
@@ -399,7 +399,7 @@ const config = {
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
                     "data": dataRAWeb1,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 },
@@ -410,7 +410,7 @@ const config = {
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
                     "data": glossaryRAWeb1,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
@@ -419,7 +419,7 @@ const config = {
                     "menu": "Testing methodology",
                     "name": "raweb1/methodo-test",
                     "md": "./content/en/raweb1/methodologie-de-test.md",
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },                
@@ -428,21 +428,21 @@ const config = {
                     "menu": "Testing environment",
                     "name": "raweb1/environnement",
                     "md": "./content/en/raweb1/environnement-de-test.md",
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },                        
                 {
                     "title": "RAWeb 1: References",
                     "menu": "References",
                     "name": "raweb1/references",
                     "md": "./content/en/raweb1/references.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "RAWeb 1: Changelog",
                     "menu": "Changelog",
                     "name": "raweb1/notes-revision",
                     "md": "./content/en/raweb1/notes-de-revision.md", 
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol", 
                     "summaryTitle": "Table of contents"
                 },
@@ -451,7 +451,7 @@ const config = {
                     "menu": "Simplified control method",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/en/controle-simplifie.md", 
-                    "prefix": "../../.."
+                    "prefix": "../.."
                 },
                 {
                     "title": "Criteria for simplified control",
@@ -460,7 +460,7 @@ const config = {
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
-                    "prefix": "../../..",
+                    "prefix": "../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 }
@@ -476,14 +476,14 @@ const config = {
                 "menu": "Introduction",
                 "name": "raam1/index",
                 "md": "./content/en/raam1/introduction.md",                 
-                "prefix": "../../.."
+                "prefix": "../.."
             },                
             {
                 "title": "RAAM 1: Criteria and tests",
                 "menu": "Criteria and tests",
                 "name": "raam1/referentiel-technique",
                 "md": "./content/en/raam1/referentiel-technique.md",
-                "prefix": "../../..",                 
+                "prefix": "../..",                 
                 "slugify": "slugifyA42",
                 "genSummary": "ol", 
                 "summaryTitle": "Themes"
@@ -493,7 +493,7 @@ const config = {
                 "menu": "Glossary",
                 "name": "raam1/glossaire",
                 "md": "./content/en/raam1/glossaire.md",
-                "prefix": "../../..",                                     
+                "prefix": "../..",                                     
                 "slugify": "slugifyA42", 
                 "genSummary": "ul", 
                 "summaryTitle": "Index"
@@ -503,7 +503,7 @@ const config = {
                 "menu": "Testing methodology",
                 "name": "raam1/methodologie",
                 "md": "./content/en/raam1/methodologie.md",                 
-                "prefix": "../../..", 
+                "prefix": "../..", 
                 "slugify": "slugifyA42"
             },
             {
@@ -511,14 +511,14 @@ const config = {
                 "menu": "Testing environment",
                 "name": "raam1/environnement",
                 "md": "./content/en/raam1/environnement.md",                
-                "prefix": "../../.."
+                "prefix": "../.."
             },  
             {
                 "title": "RAAM 1: References",
                 "menu": "References",
                 "name": "raam1/references",
                 "md": "./content/en/raam1/references.md",
-                "prefix": "../../.." 
+                "prefix": "../.." 
             }]
         }
     ]
