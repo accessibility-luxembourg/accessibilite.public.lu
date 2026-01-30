@@ -26,5 +26,6 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 - [Glossaire](glossaire.md)
 - [Méthodologie de test](methodologie.md)
 - [Environnement de test](environnement.md)
+- [Notes de révision](notes-revision.md)
 - [Références](references.md)
 
