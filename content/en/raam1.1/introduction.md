@@ -1,6 +1,6 @@
 *Version 1.1, published on 24 February 2025*
 
-According to the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector bodies must be accessible. The [Information and Press Service](https://sip.gouvernement.lu/en.html) is responsible for checking their accessibility.
+According to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector bodies must be accessible. The [Information and Press Service](https://sip.gouvernement.lu/en.html) is responsible for monitoring their compliance with accessibility requirements. Furthermore, the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) extends this obligation to certain types of products and services. Monitoring their accessibility is the responsibility of the [OSAPS](https://accessibilite-produits-services.public.lu/en.html).
 
 In this context, the framework for assessing the accessibility of mobile applications has been drawn up to serve as a basis for assessment and implementation for all public sector bodies in the scope of the law.
 
