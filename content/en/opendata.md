@@ -5,6 +5,8 @@ On this page you will find all the documents published in *open data* by the SIP
 
 ### 2025 Monitoring
 - [Sample for the 2025 digital accessibility monitoring](https://data.public.lu/fr/datasets/echantillons-pour-le-controle-de-laccessibilite-numerique-2024-2025/)
+- [Full digital accessibility monitoring 2025](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2025/)
+- [Simplified digital accessibility monitoring 2024](https://data.public.lu/fr/datasets/audits-simplifies-de-laccessibilite-numerique-2025/)
 
 ### 2024 Monitoring
 - [Digital accessibility monitoring report - 2022-2024](https://data.public.lu/fr/datasets/rapport-sur-le-controle-de-laccessibilite-des-sites-internet-et-applications-mobiles-du-secteur-public-au-luxembourg-2022-2024/)

@@ -5,6 +5,8 @@ Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{l
 
 ### Contrôle 2025
 - [Échantillons pour le contrôle de l'accessibilité numérique 2024-2025](https://data.public.lu/fr/datasets/echantillons-pour-le-controle-de-laccessibilite-numerique-2024-2025/)
+- [Audits complets de l'accessibilité numérique 2025](https://data.public.lu/fr/datasets/audits-complets-de-laccessibilite-numerique-2025/)
+- [Audits simplifiés de l'accessibilité numérique 2024](https://data.public.lu/fr/datasets/audits-simplifies-de-laccessibilite-numerique-2025/)
 
 
 ### Contrôle 2024
