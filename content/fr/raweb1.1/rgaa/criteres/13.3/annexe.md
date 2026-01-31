@@ -36,4 +36,4 @@ Il existe une gestion de cas particuliers :
 
 Dans cette situation, le critère est non applicable.
 
-Dans le cas de documents PDF, s’il n’existe pas de version alternative accessible, ceux-ci doivent être conformes au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF)](../rapdf1/index.html).
+Dans le cas de documents PDF, s’il n’existe pas de version alternative accessible, ceux-ci doivent être conformes au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF)](../rapdf1.1/index.html).

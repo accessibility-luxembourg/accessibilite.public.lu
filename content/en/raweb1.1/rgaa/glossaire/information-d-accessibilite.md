@@ -13,4 +13,4 @@ An editing tool should have functions that allow you to define all the informati
 - define the language of a passage of text;
 - define labels for form fields.
 
-All the accessibility criteria relating to the content technology in question are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For the creation of a document in PDF format, all the criteria of the [PDF accessibility assessment framework (RAPDF)](../rapdf1/index.html) level A and AA must be met.
+All the accessibility criteria relating to the content technology in question are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For the creation of a document in PDF format, all the criteria of the [PDF accessibility assessment framework (RAPDF)](../rapdf1.1/index.html) level A and AA must be met.
