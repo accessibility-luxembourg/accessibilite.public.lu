@@ -560,7 +560,7 @@ In these situations, the criterion does not apply:
 - PDF/UA-2: 8.2.5.11 Paragraph (P), 8.2.5.16 Label (Lbl), 8.2.5.17 Span, 8.2.5.19 Emphasis (Em) and Strong, 8.9.2.4.12 Screen.
 
 #### [Criterion 5.4](#crit-5-4) [A] Is each block quotation correctly indicated? {id="crit-5-4"}
-- **[Test 5.4.1](#test-5-4-1)** Is each block of quotation correctly indicated? {id="test-5-3-1"}
+- **[Test 5.4.1](#test-5-4-1)** Is each block of quotation correctly indicated? {id="test-5-4-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
@@ -582,7 +582,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [tab order] (glossaire.md#tab order) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation-sequence) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
