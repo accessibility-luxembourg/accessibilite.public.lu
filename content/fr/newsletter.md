@@ -1,6 +1,6 @@
 <script type="module" src="../js/newsletter.js"></script>
 
-<p>Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://www.linkedin.com/company/accessibility-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://twitter.com/accessibilityLu">Twitter</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.</p>
+<p>Vous pouvez suivre nos actualités via notre lettre d'information, notre présence sur les réseaux sociaux <a href="https://www.linkedin.com/company/accessibility-lu/">LinkedIn</a>, <a href="https://mas.to/@accessibilityLu">Mastodon</a> et <a href="https://bsky.app/profile/accessibilite.public.lu">Bluesky</a>, ainsi que via notre <a href="./news/feed.xml">fil RSS</a>.</p>
 
 <p>N'hésitez pas à vous inscrire à notre lettre d'information via le formulaire ci-dessous&nbsp;:</p>
 
