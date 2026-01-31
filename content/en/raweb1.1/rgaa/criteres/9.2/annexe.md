@@ -15,4 +15,4 @@ Norm:
 
 #### Technical notes
 
-There may be several elements with the calculated role of `<main>` in the same HTML document. However, only one element can be visible and readable by assistive technologies at any given time; the others must be hidden from assistive technologies.
+There may be several elements with the computed role of `<main>` in the same HTML document. However, only one element can be visible and readable by assistive technologies at any given time; the others must be hidden from assistive technologies.
