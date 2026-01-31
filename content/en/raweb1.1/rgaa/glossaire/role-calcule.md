@@ -9,7 +9,7 @@ The ARIA role of an element can be calculated in two ways:
 
 When the framework states that an element "has the calculated role of", this may be due to an implicit or explicit role.
 
-For example: "The element has a calculated role of `banner`" indicates that the element may be an HTML5 `<header>` element or any other element with the WAI-ARIA `role="banner"` attribute. Conversely, if it is indicated that "The element has a WAI-ARIA attribute `role="banner"`&nbsp;&raquo;, then only the `role` attribute is expected.
+For example: "The element has a calculated role of `banner`" indicates that the element may be an HTML5 `<header>` element or any other element with the WAI-ARIA `role="banner"` attribute. Conversely, if it is indicated that "The element has a WAI-ARIA attribute `role=banner`", then only the `role` attribute is expected.
 
 See the documentation: [Implicit WAI-ARIA semantics](https://www.w3.org/TR/wai-aria-1.2/#implicit_semantics).
 

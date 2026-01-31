@@ -23,6 +23,5 @@ Référence : <span lang="en">[Accessible name and description calculation](htt
 Note importante au sujet de l’utilisation de `placeholder` : lorsque l’attribut `placeholder` est présent, il est susceptible d’être restitué à la place de l’attribut `title`. Par conséquent, lorsque ces deux attributs `title` et `placeholder` sont présents, ils doivent être identiques.
 
 Note au sujet des étiquettes liées par `aria-labelledby` : Il s’agit d’un ou de plusieurs passages de texte identifiés par des `id` et liés par `aria-labelledby` sur le modèle suivant : `aria-labelledby="ID1 ID2 ID3…"`. 
-Pour assurer une compatibilité maximum avec les agents utilisateurs, notamment 
 
 Note : l’attribut `aria-label` ne peut pas être utilisé pour indiquer le caractère obligatoire d’un champ.

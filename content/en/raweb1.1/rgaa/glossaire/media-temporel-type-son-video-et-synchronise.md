@@ -17,5 +17,3 @@ title: Time-based media (audio, video and synchronised)
 Time-based media can be broadcast in real time or offered for playback asynchronously (pre-recorded media).
 
 Note 1: animated gifs and image animations created using JavaScript or CSS are not considered to be time-based media.
-
-Note 2: the `<bgsound>` element is specific to Internet Explorer and should not be used.

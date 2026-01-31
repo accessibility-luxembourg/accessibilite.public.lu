@@ -1169,7 +1169,7 @@ Un composant d’interface (lien, bouton…) est activable au clavier et par tou
 
 <blockquote>
 
-- Un composant d’interface (lien, bouton…) est activable au clavier et par tout dispositif de pointage lorsque l’utilisateur peut enclencher, indifféremment, l’action prévue par le composant d’interface par une pression du pointeur ou la ou les touches prévues par défaut dans les agents utilisateurs (par exemple <kbd>Entrée</kbd>, <kbd>Espace</kbd>) ;
+Un composant d’interface (lien, bouton…) est activable au clavier et par tout dispositif de pointage lorsque l’utilisateur peut enclencher, indifféremment, l’action prévue par le composant d’interface par une pression du pointeur ou la ou les touches prévues par défaut dans les agents utilisateurs (par exemple <kbd>Entrée</kbd>, <kbd>Espace</kbd>) ;
 
 </blockquote>
 
@@ -1327,7 +1327,7 @@ Création de l’entrée de glossaire [Document](glossaire.html#document).
 
 #### En-tête de colonne ou de ligne
 
-L’entrée de glossaire [En-tête de colonne ou de ligne](glossaire.html#en-tete-de-colonne-ou-de-ligne) a été modifiée pour prendre en compte l’[évolution du critère 5-7](#5.7) quant à la prise en charge des groupes de colonnes et des groupes de lignes.
+L’entrée de glossaire [En-tête de colonne ou de ligne](glossaire.html#en-tete-de-colonne-ou-de-ligne) a été modifiée pour prendre en compte l’[évolution du critère 5.7](/fr/raweb1.1/criteres.html#crit-5-7) quant à la prise en charge des groupes de colonnes et des groupes de lignes.
 
 Dans le RAWeb&nbsp;1.1, la notion de groupe est ajoutée dans la phrase&nbsp;:
 

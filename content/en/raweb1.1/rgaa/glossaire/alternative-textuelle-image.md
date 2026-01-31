@@ -40,7 +40,7 @@ In the case of a graphic element, the "accessible name" is obtained in the follo
   - `<input type="image"> `;
   - `<object type="image/…"> `;
   - `<embed type="image/…"> `.
-- Otherwise, the value of the `title` element for the `svg` tag.
+- Otherwise, the value of the `<title>` element for the `<svg>` element.
 
 This order must be used to determine what constitutes the text alternative.
 
