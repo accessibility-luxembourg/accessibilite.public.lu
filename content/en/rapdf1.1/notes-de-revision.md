@@ -104,7 +104,7 @@ This topic only covers interactive forms filled in with Acrobat Reader.
 
 PDF forms can only be created using Adobe Acrobat Pro, Adobe InDesign or specialised PDF form editing software.
 
-In addition to the assessments proposed in this section, testing by a person with a disability using their own assistive technology is recommended to check:
+In addition to the assessments proposed in this section, testing by a person with disabilities using their own assistive technology is recommended to check:
 - that the PDF form is perfectly usable,
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.

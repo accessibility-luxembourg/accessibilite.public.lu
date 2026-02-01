@@ -891,8 +891,6 @@ Dans ce cas, le critère est non applicable.
 
 ### [Thématique 10](#topic-10)&nbsp;: Formulaire interactif{id="topic-10"} 
 
-#### Introduction{class=no-summary}
-
 Cette thématique concerne uniquement les formulaires interactifs remplis avec Acrobat Reader.
 
 Les formulaires PDF ne peuvent être réalisés qu’au moyen d’Adobe Acrobat Pro, d’Adobe InDesign  ou de logiciels spécialisés dans l’édition de formulaire au format PDF.
@@ -915,7 +913,7 @@ En plus des évaluations proposées dans cette thématique, le recours à un tes
 1. Ouvrir le fichier PDF.
 2. Pour chaque champ de formulaire, vérifier&nbsp;:
     - que l’étiquette est visible dans le document&nbsp;;
-    - qu’au survol, une infobulle est affichée.
+    - qu’au survol du champ, une infobulle est affichée.
 3. Vérifier que chaque champ est présent.
 4. Si c’est le cas, le critère est validé.
 

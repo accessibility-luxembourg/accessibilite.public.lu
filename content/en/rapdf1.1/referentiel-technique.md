@@ -672,7 +672,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 #### [Criterion 7.1](#crit-7-1) [AA] Obsolete {id="crit-7-1"}
 
-This criterion had no equivalent in standard EN 301 549. It has been removed from the framework.
+This criterion had no equivalent in the EN 301 549 standard. It has been removed from the framework.
 
 ### [Topic 8](#topic-8): Mandatory elements {id="topic-8"}
 
@@ -919,12 +919,12 @@ In this case, the criterion is not applicable.
 - EN 301 549 V3.2.1 (2021-03): 10.2.2 Pause, stop, hide.
 
 ### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
-#### Introduction{class=no-summary}
+
 This topic only covers interactive forms filled in with Acrobat Reader.
 
 PDF forms can only be created using Adobe Acrobat Pro, Adobe InDesign or specialised PDF form editing software.
 
-In addition to the assessments proposed in this section, testing by a person with a disability using their own assistive technology is recommended to check:
+In addition to the assessments proposed in this section, testing by a person with disabilities using their own assistive technology is recommended to check:
 - that the PDF form is perfectly usable,
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.
@@ -941,7 +941,7 @@ In addition to the assessments proposed in this section, testing by a person wit
 1. Open the PDF file.
 2. For each form field, check that:
     - the label is visible in the document;
-    - a tooltip is displayed when hovering over it.
+    - a tooltip is displayed when hovering over the field.
 3. Check that each field is present.
 4. If this is the case, the criterion is validated.
 
@@ -1072,7 +1072,7 @@ Test 10.5.1 addresses fields independently; however, it must be ensured that the
 1. Open the PDF file.
 2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
 3. Use the tab key to exit fields or, if the form allows it, to send the form.
-4. For each form field that has a format control, check that the instruction or indication of the data type
+4. For each form field that has an input validation, check that the instruction or indication of the data type
     - is indicated by means of visible text near the field, prior to form validation;
     - is contained in the field's tooltip, prior to form validation.
 7. If this is the case, the criterion is validated.
