@@ -485,7 +485,7 @@ In these situations, the criterion does not apply:
 
 #### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of headings? {id="crit-5-1"}
 - **[Test 5.1.1](#test-5-1-1)** Does each heading use a [heading style](glossaire.md#heading-style)? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** Where [heading styles](glossaire.md#heading-style) allow, is the [headings hierarchy](glossaire.md#headings-hierarchy) consistent? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2)** Where [heading styles](glossaire.md#heading-style) allow, is the [heading hierarchy](glossaire.md#heading-hierarchy) consistent? {id="test-5-1-2"}
 - **[Test 5.1.3](#test-5-1-3)** Is each heading relevant? {id="test-5-1-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}

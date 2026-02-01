@@ -120,7 +120,7 @@ In office content, headings must be declared using a heading style.
 For example, office suites provide a library of styles reserved for headings.
 By using specific paragraph styles, the reader software can associate each heading with an ad hoc tagged format.
 
-#### Headings hierarchy
+#### Heading hierarchy
 In most office publishing software, the style library proposes a specific style for each heading level, generally up to six levels.
 
 The heading hierarchy is consistent when the nesting of heading levels is consistent (the nesting levels of headings reflect the level of dependency of the content on each other).
