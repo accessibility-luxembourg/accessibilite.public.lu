@@ -387,7 +387,7 @@ La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modi
 
 La méthodologie du [test 7.3.1](/fr/raweb1.1/criteres.html#test-7-3-1) est modifiée, en accord avec la modification de l’entrée de glossaire [Accessible et activable par le clavier et tout dispositif de pointage](glossaire.html#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage), afin de ne pas restreindre l’activation au clavier à la seule touche <kbd>Entrée</kbd>.
 
-#### Dans le RAWeb&nbsp;1
+##### Dans le RAWeb&nbsp;1
 
 <blockquote>
 
@@ -431,7 +431,7 @@ Le [critère 9.2](/fr/raweb1.1/criteres.html#crit-9-2) est modifié afin de pren
 - Le [test 9.2.1](/fr/raweb1.1/criteres.html#test-9-2-1) est modifié ainsi que sa méthodologie.
 - Les tests [9.2.2](/fr/raweb1.1/criteres.html#test-9-2-2), [9.2.3](/fr/raweb1.1/criteres.html#test-9-2-3) et [9.2.4](/fr/raweb1.1/criteres.html#test-9-2-4) sont créés ainsi que leurs méthodologies. 
 - Le cas particulier relatif au DOCTYPE est supprimé.
-- La note technique est modifiée pour refléter ces changements.
+- La note technique est supprimée.
 
 ##### Cas particulier
 
@@ -447,19 +447,11 @@ Lorsque le doctype déclaré dans la page n’est pas le doctype HTML5, ce crit�
 
 ##### Note technique
 
-###### Dans le RAWeb&nbsp;1
+Pour mémoire, la note technique dans le RAWeb&nbsp;1
 
 <blockquote>
 
 La balise `<main>` peut être utilisée plusieurs fois dans le même document HTML. Néanmoins, il ne peut y avoir en permanence qu’une seule balise visible et lisible par les technologies d’assistances, les autres devant disposer d’un attribut `hidden` ou d’un style permettant de les masquer aux technologies d’assistances. À noter cependant que l’utilisation d’un style seul restera insuffisante pour assurer l’unicité d’une balise `<main>` visible en cas de désactivation des feuilles de styles.
-
-</blockquote>
-
-###### Dans le RAWeb&nbsp;1.1
-
-<blockquote>
-
-Il peut y avoir plusieurs éléments ayant le rôle calculé de `main` dans le même document HTML. Néanmoins, il ne peut y avoir en permanence qu’un seul élément visible et lisible par les technologies d’assistances, les autres devant être masquées aux technologies d’assistances. 
 
 </blockquote>
 
