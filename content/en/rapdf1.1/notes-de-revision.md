@@ -42,7 +42,7 @@ With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the text passages that should be headings in the original document and check in PAC that these headings are presented using an Hx element where x is the heading level, for example H1.
+3. Locate the passages of text that should be headings in the original document and check in PAC that these headings are presented using an Hx element where x is the heading level, for example H1.
 4. Locate all the headings identified in the document and check that the tree structure is consistent (the nesting of heading levels is consistent).
 5. Check that each heading identified in the document adequately describes the content with which it is associated.
 6. If this is the case, the test is validated.
