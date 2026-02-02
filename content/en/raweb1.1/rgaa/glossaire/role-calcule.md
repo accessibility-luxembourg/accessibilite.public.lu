@@ -1,5 +1,5 @@
 ---
-title: computed role
+title: Computed role
 
 ---
 
