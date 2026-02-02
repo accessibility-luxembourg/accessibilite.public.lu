@@ -361,7 +361,7 @@ Dans chaque page web, chaque lien a-t-il un intitulé&nbsp;?
 
 #### 7.1
 
-La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modifiée. Elle faisait référence au nom accessible et l’intitulé visible comme deux dénominations d’un même élément.
+La méthodologie du [test 7.1.3](/fr/raweb1.1/criteres.html#test-7-1-3) est modifiée. Elle faisait référence au nom accessible et à l’intitulé visible comme deux dénominations d’un même élément.
 
 ##### Dans le RAWeb&nbsp;1
 
@@ -991,7 +991,7 @@ Dans chaque page web, pour chaque contenu cryptique ayant une alternative, cette
 
 ##### 13.6.1
 
-###### Dans le RAWeb&nbsp;1.1
+###### Dans le RAWeb&nbsp;1
 
 <blockquote>
 
