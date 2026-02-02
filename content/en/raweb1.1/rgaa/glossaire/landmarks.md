@@ -4,7 +4,7 @@ title: Landmarks
 
 WAI-ARIA provides roles that enable navigation landmarks to be identified. These roles are very useful for screen reader users in particular, but also for keyboard navigation users who can benefit from quick navigation functions.
 
-Roles must be defined in the document according to the nature of the zone (using the WAI-ARIA `role` attribute or an HTML tag with an implicit role). WAI-ARIA designates eight landmarks.
+Roles must be defined in the document according to the nature of the region (using the WAI-ARIA `role` attribute or an HTML tag with an implicit role). WAI-ARIA designates eight landmarks.
 
 Five landmarks are used in the document structure (criterion 9.2):
 
