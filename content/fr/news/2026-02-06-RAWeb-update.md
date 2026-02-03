@@ -50,7 +50,7 @@ Le référentiel technique est en conséquence un peu plus concis, même s'il in
 
 ## En attendant le plat de résistance : EN 301 549, et donc WCAG 2.2
 
-Ces mises à jour nous permettent d'accueillir les évolutions de la norme européenne, EN 301 549, qui doit passer en version 4.1.1 à la fin du printemps. Cette version de la norme intègre, entre autres, la version 2.2 de WCAG. Elle offre également un périmètre bien plus étendu, afin de permettre une évaluation d'une [grande palette de biens et services](https://accessibilite.public.lu/fr/news/2023-02-27-european_accessibility_act.html) (guichets bancaires, distributeurs de billets de transports, livres électroniques, etc.), mission dédiée au Luxembourg à [l'OSAPS](https://accessibilite-produits-services.public.lu/fr.html).
+Ces mises à jour nous permettent d'accueillir les évolutions de la norme européenne, EN 301 549, qui doit passer en version 4.1.1 à l'automne. Cette version de la norme intègre, entre autres, la version 2.2 de WCAG. Elle offre également un périmètre bien plus étendu, afin de permettre une évaluation d'une [grande palette de biens et services](https://accessibilite.public.lu/fr/news/2023-02-27-european_accessibility_act.html) (guichets bancaires, distributeurs de billets de transports, livres électroniques, etc.), mission dédiée au Luxembourg à [l'OSAPS](https://accessibilite-produits-services.public.lu/fr.html).
 
 <aside class="contextbox">
 <h2>WCAG 2.2, pourquoi attendre ?</h2>
