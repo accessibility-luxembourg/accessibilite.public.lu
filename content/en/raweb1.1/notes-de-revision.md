@@ -59,7 +59,9 @@ The testing methodologies are being modified accordingly.
 
 ###### In RAWeb 1
 
-<blockquote>Test 1.2.1 Does each decorative image (`<img>` tag), without image caption, meet one of these conditions?
+<blockquote>
+
+Test 1.2.1 Does each decorative image (`<img>` tag), without image caption, meet one of these conditions?
 
 - The `<img>` tag has an empty `alt` attribute (`alt=""`) and no other attribute to provide a text alternative.
 - The `<img>` tag has a WAI-ARIA attribute `aria-hidden="true"` or `role="presentation"`.
@@ -108,7 +110,11 @@ Does each decorative vector image (`<svg>` tag), without image caption, meet the
 
 ###### In RAWeb 1.1
 
-<blockquote>Each decorative vector image (`<svg>`tag), without image caption, has a WAI-ARIA `aria-hidden="true"` attribute. Is this rule respected?</blockquote>
+<blockquote>
+
+Each decorative vector image (`<svg>` tag), without image caption, has a WAI-ARIA `aria-hidden="true"` attribute. Is this rule respected?
+
+</blockquote>
 
 #### 1.6
 
@@ -200,8 +206,8 @@ The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres#crit-3-1) we
 <blockquote>
 
 2. For each of these pieces of information, check for the presence of:
-   - additional information in the code (`title`, `aria-label`, visually hidden text, `aria-current`, etc.);
-   - and additional visual information to complement the colour (icon, graphic effect in terms of shape or position, typographical effect, etc.).
+- additional information in the code (`title`, `aria-label`, visually hidden text, `aria-current`, etc.);
+- and additional visual information to complement the colour (icon, graphic effect in terms of shape or position, typographical effect, etc.).
 
 </blockquote>
 
@@ -365,7 +371,7 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres#test-7-1-3) has be
 
 #### 7.3
 
-The testing methodology of [test 7.3.1](/en/raweb1.1/criteres#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossary.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <KBD>Enter</KBD> key alone.
+The testing methodology of [test 7.3.1](/en/raweb1.1/criteres#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <KBD>Enter</KBD> key alone.
 
 ##### In RAWeb1
 
@@ -487,7 +493,7 @@ The testing methodology of [test 10.1.2](/en/raweb1.1/criteres#test-10-1-2) is m
 
 [Criterion 10.2](/en/raweb1.1/criteres#crit-10-2) and [test 10.2.1](/en/raweb1.1/criteres#test-10-2-1) have been reworded to improve understanding of the requirement and the scope of evaluation. The testing methodology for test 10.2.1 has also been updated.
 
-This change accompanies the modification of the glossary note [Visible content](glossary.html#visible-content).
+This change accompanies the modification of the glossary note [Visible content](glossaire.html#visible-content).
 
 ##### Criterion 
 
@@ -631,7 +637,7 @@ Special cases have been modified to reflect these changes. A special case for id
 
 The technical note has been modified to reflect these changes.
 
-The glossary note [Mandatory field indication](glossary.html#indication-of-mandatory-or-optional-fields) has been renamed "Indication of mandatory or optional fields" and modified to accompany this change.
+The glossary note [Mandatory field indication](glossaire.html#indication-of-mandatory-or-optional-fields) has been renamed "Indication of mandatory or optional fields" and modified to accompany this change.
 
 ##### 11.10.1
 
@@ -1124,13 +1130,13 @@ Other techniques and failures have been removed:
 
 #### Accessible and operable by keyboard and any pointing device
 
-The glossary entry [Accessible and operable by keyboard and any pointing device](glossary.html#accessible-and-operable-by-keyboard-and-any-pointing-device) has been modified so that keyboard use is not restricted to the <KBD>Enter</KBD> key. 
+The glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html#accessible-and-operable-by-keyboard-and-any-pointing-device) has been modified so that keyboard use is not restricted to the <KBD>Enter</KBD> key. 
 
 ##### In RAWeb1
 
 <blockquote>
 
-A user interface component (link, button, etc.) can be activated using the keyboard and any pointing device when the user can trigger the action intended by the user interface component either by pressing the pointer or the Enter key on the keyboard.
+A user interface component (link, button, etc.) can be activated from the keyboard and by any pointing device when the user can initiate the action provided for by the interface component by pressing either the pointer or the enter key on the keyboard.
 
 </blockquote>
 
@@ -1138,113 +1144,110 @@ A user interface component (link, button, etc.) can be activated using the keybo
 
 <blockquote>
 
-A user interface component (link, button, etc.) is keyboard-activatable and can be activated by any pointing device when the user can initiate the action intended by the user interface component either by pressing the pointer or by pressing the default key(s) in the user agents (e.g. <KBD>Enter</KBD>, <KBD>Space</KBD>). ;
+A user interface component (link, button, etc.) can be activated from the keyboard and by any pointing device when the user can  trigger the action intended by the interface component by pressing either the pointer or the default key(s) in the user agents (e.g. <kbd>Enter</kbd>, <kbd>Space</kbd>);
 
 </blockquote>
 
-#### Text alternative (image)
+#### Accessible name (of a link) 
 
-The glossary entry [Text alternative (image)](glossary.html#text-alternative-image) has been modified to: 
-- take into account the evolution of support for the `<title>` element for the `<svg>` element in the calculation of the accessible name; 
-- take into account the support of accessible name calculation by assistive technologies.
+The glossary entry [Accessible name (of a link)](glossaire.html#accessible-name-of-a-link) has been modified. The 5 notes have been removed.
 
-##### 1 
+Note 1 has been deleted, as it is already covered by [test 6.1.5](/en/raweb1.1/criteres#test-6-1-5).
 
-The `<title>` element is added to the end of the list of elements taken into account for the accessible name. 
+For the record, note 1 in RAWeb1: 
 
 <blockquote>
 
-Otherwise, content of the `<title>` element for the `<svg>` element.
+Note 1: the accessible name of a link will be considered as non-explicit if it does not include the [visible label](glossaire.html#visible-label) of the link.
 
 </blockquote>
 
-##### 2
+Note 2 has been removed, as restitution tests on the testing environment show that the case described therein is no longer valid today. Except in very specific configuration cases, the content of `title` is never restituted in place of the accessible name. Thus, a `title` that does not include the accessible name can no longer constitute non-compliance with RAWeb.
 
-Note 4 is modified to remove the reference to the `<title>` element.
-
-Note 4 in RAWeb1:
+For the record, note 2 in RAWeb1: 
 
 <blockquote>
 
-Note 4: for vector images (`<SVG>` tag), the text alternative could also be present in a `<title>` tag or in a `<TEXT>` tag, whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+Note 2: due to the possible configuration of assistive technologies allowing the "accessible name" derived from the value of the `title` attribute to be forced to the detriment of the "accessible name" derived from the content of the link. The accessible name of a link will be considered as non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" taken from the content of the link.
 
 </blockquote>
 
-Note 4 in RAWeb1.1: 
+Note 3 has been deleted and incorporated as a new test: [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
+
+For the record, note 3 in RAWeb1: 
 
 <blockquote>
 
-Note 4: For vector images (`<SVG>` tag), the text alternative could also be present in a `<TEXT>` tag, whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+Note 3: In the case of several links with different destinations whose "accessible name" is identical. The accessible name of a link alone will be considered non-explicit if the link context does not allow them to be differentiated.
 
 </blockquote>
 
-##### 3
+Note 4 has been removed, as the absence of content in a link is not a valid reason for non-compliance. 
+Criterion 6.2 requires the presence of an accessible name. Invalidating criterion 10.2 on the basis of a lack of content in a link is not based on any WCAG technique.
 
-Note 5 is deleted (and note 6 becomes note 5)
-
-Note 5 in RAWeb1:
+For the record, note 4 in RAWeb1: 
 
 <blockquote>
 
-As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to an `<img>`, `<area>` and `<input type="image">` tag.
+Note 4: when a link contains no content, it will be non-compliant with regard to criterion 10.2 and criterion 6.2.
 
 </blockquote>
 
-#### Synchronised audio description (time-based media)
+Note 5 has been deleted because WCAG failure [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87) has been rendered obsolete. 
 
-Note 2 of the glossary entry [Synchronised audio description (time-based media)](glossaire.html#audiodescription-synchronisee-media-temporel) has been modified to remove the reference to the glossary entry "extended audio description", which does not exist in RAWeb (definition associated with a triple A level criterion not present in the RAWeb).
-
-Note 2 in the RAWeb1:
+For the record, note 5 in RAWeb1: 
 
 <blockquote>
 
- Note 2: In standard audio description, narration is added during pauses in the dialogue. (See also extended audio description.) 
+Note 5: Although the calculation of the accessible name of a link takes into account text content generated in CSS via the `::before` and `::after` pseudo-elements, this practice must not be used, as it constitutes non-compliance with WCAG 2.1 criterion 1.3.1 (see F87).
 
 </blockquote>
 
-Note 2 in RAWeb1.1: 
+#### Accessible version (for a downloadable document)
+
+The glossary entry [Accessible version (for a downloadable document)](glossaire.html#accessible-version-for-a-downloadable-document) has been modified to replace the reference to Open Office Org (ODF) with LibreOffice.
+
+#### Column or row header
+
+The glossary entry [Column or row header](glossaire.html#column-or-row-header) has been modified to take into account the [change in criterion 5.7](/en/raweb1.1/criteres#crit-5-7) regarding the support of column groups and row groups.
+
+In RAWeb1.1, the concept of a group has been added to the sentence:
 
 <blockquote>
 
- Note 2: In standard audio description, narration is added during pauses in the dialogue.
+Content of a cell in a data table (usually the first cell in a column or row) which serves as the heading for all or some of the cells in the column **(or group of columns)** or row **(or group of rows)**. 
 
 </blockquote>
 
-#### Hidden content
+#### Computed role - creation
 
-The `inert` property has been added to the list of properties that hide content from assistive technologies in the glossary note [Hidden content](glossary.html#hidden-content).
+Creation of the glossary entry [computed role](glossaire.html#computed-role) to support the [modification of criterion 9.2](#9.2) and the [modification of criterion 12.6](#12.6). 
 
-#### Cryptic content - creation
+####  Complex data table
 
-Creation of the glossary entry [Cryptic content](glossary.html#cryptic-content).
-
-#### Visible content
-
-The glossary entry [Visible content](glossary.html#visible-content) has been modified to accompany the revision of [criterion 10.2](/en/raweb1.1/criteres#crit-10-2), carried out to facilitate understanding of the scope of the criterion.
+The glossary entry [Complex data table](glossaire.html#complex-data-table) has been modified to better define what a complex table is. In the old definition, if a header row was not positioned as the first row of the table, the table was considered complex, even though it was still a simple table. The definition has been revised to better reflect what a complex table is.
 
 ##### In RAWeb1
 
-<blockquote>
-
-For [test 10.2.1](/en/raweb1.1/criteres#test-10-2-1): "Content present" means that visible content remains present when CSS is disabled. For example, an image conveying information as a CSS background property fails this test because the information is no longer "present" when CSS is disabled. On the other hand, an image conveying information as a CSS background property but accompanied by hidden text passes this test because the information is indeed "present" when CSS is disabled.
-
-Note: the practice of managing background images of elements via CSS is strongly discouraged, even if accompanied by hidden text.
-
-</blockquote>
-
-##### In RAWeb1.1
+The following sentence has been modified: 
 
 <blockquote>
 
-Visible content is displayed on the web page when it is apparent, either when the page loads or after a user interface component is activated (e.g., the display of a modal window or submenu).
-
-Test 10.2.1 requires that visible content be accessible to assistive technologies. This means that any visible content that is implemented using a method that does not natively provide an alternative should be accompanied by a secondary method to provide this alternative. For example, an image conveying information as a CSS background property on an element that contains visually hidden text passes this test, because the information is accessible to assistive technologies. Without this hidden text, the test fails.
+When a data table contains headers that are not distributed solely over the first row and/or column of the grid, or whose scope does not apply to the entire column or row, it is referred to as a complex data table.
 
 </blockquote>
 
-#### Control (moving or flashing content)
+##### In RAWeb1.1 
 
-The glossary entry [Control (moving or flashing content)](glossary.html#control-moving-or-flashing-content) has been modified to:
+<blockquote>
+
+When a data table contains headers that span multiple rows and/or columns of the grid, or whose scope is not valid for the entire column or row, it is referred to as a complex data table.
+
+</blockquote>
+
+#### Control (moving or blinking content)
+
+The glossary entry [Control (moving or blinking content)](glossaire.html#control-moving-or-blinking-content) has been modified to:
 - move note 3 as a special case of [criterion 13.8](/en/raweb1.1/criteres#crit-13-8);
 - revise note 2 describing a example of non-compliance to make it more explicit.
 
@@ -1252,7 +1255,7 @@ The glossary entry [Control (moving or flashing content)](glossary.html#control-
 
 <blockquote>
 
-Note 2: The method for controlling moving or flashing content must allow the user to interact with the rest of the page. Consequently, stopping or pausing via an event triggered only when focused does not satisfy the criterion.
+Note 2: The control (moving or blinking content) method must allow the user to interact with the rest of the page. Consequently, stopping or pausing via an event triggered only when focused does not validate the criterion.
 
 </blockquote>
 
@@ -1260,11 +1263,11 @@ Note 2: The method for controlling moving or flashing content must allow the use
 
 <blockquote>
 
-The method for controlling moving or flashing content must allow the user to interact with the rest of the page. 
+The method used to control moving or blinking content must allow the user to interact with the rest of the page.
 
-Thus, the fact that the animation stops when the user moves the mouse pointer or keyboard focus to the underlying component (and resumes as soon as the user moves the mouse pointer or keyboard focus elsewhere on the page) would not be considered a "mechanism for controlling moving or flashing content", as this would render the page unusable during that time.
+Therefore, the fact that the animation stops when the user moves the mouse pointer or the keyboard focus to the underlying component (and resumes as soon as the user moves the mouse pointer or the keyboard focus elsewhere on the page) would not be considered a ‘mechanism for controlling moving or flashing content’, as the page would become unusable during that time.
 
-Consequently, stopping or pausing via an event triggered only when focused or during mouseover does not satisfy the criterion.
+Consequently, stopping or pausing via an event triggered only on focus or mouseover does not satisfy the criterion.
 
 </blockquote>
 
@@ -1274,7 +1277,29 @@ For the record, note 3 in RAWeb1
 
 <blockquote>
 
-Note 3: In some cases, movement is an integral part of the component and it is not possible to give the user control over it, for example a progress bar whose function is to indicate the progress of an event such as a download by means of movement. In this case, the criterion is Not Applicable.
+Note 3: In some cases, movement is an integral part of the component and it is not possible to give the user control of it, for example a progress bar whose function is to indicate the progress of an event such as a download by movement. In this case the criterion is Not Applicable.
+
+</blockquote>
+
+#### Cryptic content - creation
+
+Creation of the glossary entry [Cryptic content](glossaire.html#cryptic-content).
+
+#### Data type and format - deletion
+
+The glossary entry *Data type and format* has been deleted, as it did not provide any additional information compared to the entry [Indication of data type and/or format](glossaire.html#indication-of-data-type-and/or-format) and was not referenced in the technical framework. The information has been merged into the entry [Indication of data type and/or format](glossaire.html#indication-of-data-type-and/or-format).
+
+For the record, in RAWeb1: 
+
+<blockquote>
+
+Indication of the data type and format expected when entering a form input field. For example
+
+Date (dd/mm/yyyy);
+Amount in euros;
+Postcode (5 digits: e.g. 75001).
+
+Important note: when the type of form input field offers an input mask, for example the `date` or `time` fields, the format indication is not necessary.
 
 </blockquote>
 
@@ -1286,39 +1311,17 @@ For the record, note 2 in RAWeb1:
 
 <blockquote>
 
-Note 2: To ensure maximum compatibility with user agents, particularly Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on tags that contain passages of text and are not interactive elements (buttons, links, form elements, etc.).
+Note 2: To ensure maximum compatibility with user agents, particularly Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on tags which contain a passage of text and which are not interactive elements (buttons, links, form elements, etc.).
 
 </blockquote>
 
 #### Document - creation
 
-Creation of the glossary entry [Document](glossary.html#document).
-
-#### Column or row header
-
-The glossary entry [Column or row header](glossary.html#column-or-row-header) has been modified to take into account the [change in criterion 5.7](/en/raweb1.1/criteres#crit-5-7) regarding the support of column groups and row groups.
-
-In RAWeb1.1, the concept of a group has been added to the sentence:
-
-<blockquote>
-
-Content of a cell in a data table (usually the first cell in a column or row) that serves as an accessible name for all or part of the cells in the column **(or group of columns)** or row **(or group of rows)**.
-
-</blockquote>
-
-#### Form field label
-
-The glossary entry [Form field label](glossary.html#form-field-label) is modified to remove the obsolete note concerning Internet Explorer.
-
-<blockquote>
-
-In Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on passages of text that are not interactive elements (buttons, links, form elements, etc.).
-
-</blockquote>
+Creation of the glossary entry [Document](glossaire.html#document).
 
 #### Form
 
-The glossary entry [Form](glossary.html#form) has been modified so that the evaluation of certain criteria in the Forms theme is not restricted to `<FORM>` tags or  tags with a WAI-ARIA `role="form"` attribute.
+The glossary entry [Form](glossaire.html#form) has been modified so that the evaluation of certain criteria in the Forms theme is not restricted to `<form>` tags or tags with a WAI-ARIA `role="form"` attribute.
 
 ##### In RAWeb1 
 
@@ -1332,41 +1335,31 @@ The glossary entry [Form](glossary.html#form) has been modified so that the eval
 
 <blockquote>
 
-A form does not necessarily have to be contained within a `<FORM>` tag or a tag with a WAI-ARIA `role="form"` attribute.
+A form does not necessarily have to be wrapped in a `<form>` tag or a tag with a WAI-ARIA `role="form"` attribute.
 
 </blockquote>
 
-#### Mandatory field indication
+#### Form field label
 
-The glossary entry [Mandatory field indication](glossary.html#mandatory-or-optional-field indication) has been renamed and modified to accompany the introduction of optional fields in the tests for [criterion 11.10](/en/raweb1.1/criteres#crit-11-10). 
-
-##### In RAWeb1 
+The glossary entry [Form field label](glossaire.html#form-field-label) is modified to remove the obsolete note concerning Internet Explorer.
 
 <blockquote>
 
-Mandatory field indication
-
-Textual or graphical indication (icon) allowing the user to know that a field is mandatory before entering data.
-
-Note: If this indication is not provided in explicit text form (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the source code order, before the first use of the indication.
+To ensure maximum compatibility with user agents, in particular Internet Explorer 11, we recommend implementing a tabindex="-1" on passages of text that are not interactive elements (buttons, links, form elements, etc.).
 
 </blockquote>
 
-##### In RAWeb1.1 
+#### Hidden content
 
-<blockquote>
+The `inert` property has been added to the list of properties that hide content from assistive technologies in the glossary note [Hidden content](glossaire.html#hidden-content).
 
-Mandatory field indication or optional field indication
+#### Identical link - creation
 
-Textual or graphical indication (icon) allowing the user to know whether a field is mandatory or optional before entering data.
-
-Note: If this indication is not provided in explicit text form (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the source code order, before the first use of the indication.
-
-</blockquote>
+Creation of the glossary entry [Identical link](glossaire.html#identical-link) to provide documentation for the new [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
 
 #### Indication of data type and/or format
 
-The glossary entry [Indication of data type and/or format](glossary.html#indication-of-data-type-and/or-format) has been modified: 
+The glossary entry [Indication of data type and/or format](glossaire.html#indication-of-data-type-and/or-format) has been modified: 
 - to merge elements present in a redundant glossary entry *Data type and format*, which has therefore been deleted;
 - to remove the reference to mandatory fields only, since input formats may be expected on fields that are not mandatory.
 
@@ -1374,11 +1367,11 @@ The glossary entry [Indication of data type and/or format](glossary.html#indicat
 
 <blockquote>
 
-Textual indication allowing the user to know what data type and/or format is required for a mandatory field, prior to filling it in.
+Text indication enabling the user to know what type of data and/or input format is required for a mandatory field, before filling it in.
 
-Examples:
+Examples
 
-- Email (format: vous@domaine.com);
+- Email (format: you@domain.com);
 - Postcode (format: 00000);
 - Date (format: DD/MM/YYYY).
 
@@ -1388,70 +1381,16 @@ Examples:
 
 <blockquote>
 
-Textual indication allowing the user to know what type of data and/or format of input is required.
+Text indication enabling the user to know what type of data and/or input format is required.
 
-Examples:
+Examples
 
-- Email (format: vous@domaine.com);
+- Email (format: you@domain.com);
 - Postcode (format: 00000);
-- Date (format: DD/MM/YYYY);
+- Date (format: DD/MM/YYYY).
 - Amount in euros.
 
-Important note: when the form field type offers an input mask, for example the `date` or `time` fields, the format specification is not necessary.
-
-</blockquote>
-
-#### Title (or accessible name) of link 
-
-The glossary entry [Title (or accessible name) of link](glossary.html#title-or-accessible-name-of-link) has been modified. The 5 notes have been removed.
-
-Note 1 has been deleted, as it is already covered by [test 6.1.5](/en/raweb1.1/criteres#test-6-1-5).
-
-For the record, note 1 in RAWeb1: 
-
-<blockquote>
-
-Note 1: a link title will be considered non-explicit if the "accessible name" does not include the [visible text](glossaire.html#intitule-visible) of the link.
-
-</blockquote>
-
-Note 2 has been removed, as restitution tests on the testing environment show that the case described therein is no longer valid today. Except in very specific configuration cases, the content of `title` is never restituted in place of the accessible name. Thus, a `title` that does not include the accessible name can no longer constitute non-compliance with RAWeb.
-
-For the record, note 2 in RAWeb1: 
-
-<blockquote>
-
-Note 2: due to the possible configuration of technical aids that force the rendering of the "accessible name" from the content of the `title` attribute at the expense of the "accessible name" from the content of the link. An accessible name for a link will be considered non-explicit if the link has a `title` attribute whose value does not include at least the "accessible name" from the link content.
-
-</blockquote>
-
-Note 3 has been deleted and incorporated as a new test: [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
-
-For the record, note 3 in RAWeb1: 
-
-<blockquote>
-Note 3: in the case of multiple links with different destinations but identical "accessible names". The link title alone will be considered non-explicit if the link context does not allow them to be differentiated.
-
-</blockquote>
-
-Note 4 has been removed, as the absence of content in a link is not a valid reason for non-compliance. 
-Criterion 6.2 requires the presence of an accessible name. Invalidating criterion 10.2 on the basis of a lack of content in a link is not based on any WCAG technique.
-
-For the record, note 4 in RAWeb1: 
-
-<blockquote>
-
-Note 4: when a link has no content, it will be non-compliant with criterion 10.2 and criterion 6.2.
-
-</blockquote>
-
-Note 5 has been deleted because WCAG failure [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87) has been rendered obsolete. 
-
-For the record, note 5 in RAWeb1: 
-
-<blockquote>
-
-Note 5: Although the calculation of an accessible link name takes into account text content generated in CSS via the pseudo-elements `::before` and `::after`, this practice should not be used, as it constitutes a non-compliance with criterion 1.3.1 of <ABBR lang="en" title="web content accessibility guidelines">WCAG</ABBR> 2.1 (see F87).
+Important note: when the type of form input field offers an input mask, for example the `date` or `time` fields, the format indication is not necessary.
 
 </blockquote>
 
@@ -1463,19 +1402,19 @@ The glossary entry [Landmarks](#landmarks) has been modified to take into accoun
 
 <blockquote>
 
-WAI-ARIA provides roles that can be used to indicate the main areas (regions) of the document. These roles are particularly useful for screen reader users, but also for keyboard navigation users, who can benefit from quick navigation features within the document structure.
+WAI-ARIA provides roles for indicating the main areas (regions) of the document. These roles are very useful for screen reader users in particular, but also for keyboard navigation users who can benefit from quick navigation functions in the document structure.
 
-Roles must be defined in the document according to the nature of the area:
+The roles must be defined in the document according to the nature of the zone:
 
-- The header region must have a WAI-ARIA attribute `role="banner"`;
-- The main navigation menu must have a WAI-ARIA attribute `role="navigation"`;
-- The main content region must have a WAI-ARIA attribute `role="main"`;
-- The footer region must have a WAI-ARIA attribute `role="contentinfo"`;
-- The search engine area on the site must have a WAI-ARIA attribute `role="search"`.
+- The header region must have a WAI-ARIA `role="banner"` attribute;
+- The main navigation menu must have a WAI-ARIA `role="navigation"` attribute;
+- The main content region must have a WAI-ARIA `role="main"` attribute;
+- The footer region must have a WAI-ARIA `role="contentinfo"` attribute;
+- The search engine area on the website must have a WAI-ARIA `role="search"` attribute.
 
-Note 1: While most screen readers provide these features, browsers have not yet offered dedicated navigation features for users who cannot use a mouse. The implementation of skip links should therefore be prioritised over <SPAN lang="en">landmarks</SPAN>.
+Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. The implementation of skip links therefore remains to be favored over landmarks.
 
-Note 2: The WAI-ARIA roles `banner`, `main` and `contentinfo` must be unique on the page. The WAI-ARIA `navigation` role is reserved for primary and secondary navigation areas. When there are several WAI-ARIA `navigation` roles, it may be useful to differentiate them by specifying a name for each area using the WAI-ARIA `aria-label` or `aria-labelledby` attribute.
+Note 2: The WAI-ARIA `banner`, `main` and `contentinfo` roles must be unique in the page. The WAI-ARIA `navigation` role is reserved for main and secondary navigation zones. When there are several WAI-ARIA `navigation` roles, it may be useful to differentiate them by specifying a name for each of the zones using the WAI-ARIA `aria-label` or `aria-labelledby` attribute.
 
 </blockquote>
 
@@ -1483,9 +1422,9 @@ Note 2: The WAI-ARIA roles `banner`, `main` and `contentinfo` must be unique on 
 
 <blockquote>
 
-WAI-ARIA offers roles that allow navigation landmarks to be identified. These roles are particularly useful for screen reader users, but also for keyboard navigation users, who can benefit from quick navigation features.
+WAI-ARIA provides roles that enable navigation landmarks to be identified. These roles are very useful for screen reader users in particular, but also for keyboard navigation users who can benefit from quick navigation functions.
 
-Roles must be defined in the document according to the nature of the area (using the WAI-ARIA `role` attribute or an HTML tag with an implicit role). WAI-ARIA designates 8 landmarks. 
+Roles must be defined in the document according to the nature of the region (using the WAI-ARIA `role` attribute or an HTML tag with an implicit role). WAI-ARIA designates eight landmarks.
 
 Five landmarks are used in the document structure (criterion 9.2): 
 - `banner`
@@ -1499,25 +1438,25 @@ Three landmarks are available to identify other regions:
 - `complementary` (`<aside>` or `role="complementary"`)
 - `region` (`role="region"`).
 
-The `form` and `region` landmarks are only identified as navigation landmarks if they have an accessible name.
+`form` and `region` landmarks are only identified as navigation landmarks if they have an accessible name.
 
 See the Landmark Roles section in the documentation.
 
-Note 1: Given the variable support for the `form`, `complementary` and `region` landmarks, if they are used on the page as navigation landmarks, they must be tested for navigation and rendering in the testing environment.
+Note 1: Given the variable support for the `form`, `complementary` and `region` landmarks, if they are used on the page as navigation landmarks, they must be tested for navigation and rendering in the test environment.
 
-Note 2: It is not mandatory to identify navigation landmarks other than those required by criterion 9.2 if the context does not require it. For example, it is not mandatory to identify all forms with a `form` element, but only if a more or less complex navigation context (e.g. application) would require more navigation landmarks than already required by criterion 9.2. 
+Note 2: It is not mandatory to identify navigation landmarks other than those required by criterion 9.2 if the context does not require it. For example, it is not mandatory to identify all forms with a `form` element, but only if a more or less complex navigation context (e.g. application) would require more navigation landmarks than already required by criterion 9.2.
 
 </blockquote>
 
 #### Link whose nature is not obvious 
 
-The example in the glossary entry [Link whose nature is not obvious](glossary.html#link-whose-nature-is-not-obvious) has been modified.
+The example in the glossary entry [Link whose nature is not obvious](glossaire.html#link-whose-nature-is-not-obvious) has been modified.
 
 ##### In RAWeb1 
 
 <blockquote>
 
-For example, in the text "New strike at the SNCF", if the word "strike" is a link indicated only by colour, its nature may be ignored by users who cannot perceive colour and who access the content with CSS enabled.
+For example, in this text "New strike at SNCF", if the word "strike" is a link indicated by colour only, its nature may be ignored by non-colour-perceptive users accessing the activated CSS content.
 
 </blockquote>
 
@@ -1525,23 +1464,57 @@ For example, in the text "New strike at the SNCF", if the word "strike" is a lin
 
 <blockquote>
 
-For example, in this text "New summer timetables", if the word "timetables" is a link indicated only by colour, its nature may be ignored by users who cannot perceive colour and are accessing the CSS-enabled content.
+For example, in this text "New summer timetable", if the word "timetable" is a link indicated by colour only, its nature may be ignored by users who cannot perceive colour and are accessing the content with CSS enabled.
 
 </blockquote>
 
-#### Identical link - creation
+#### Mandatory field indication
 
-Creation of the glossary entry [Identical link](glossary.html#identical-link) to provide documentation for the new [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
-
-#### Presentation of information
-
-The glossary entry [Presentation of information](glossary.html#presentation-of-information) has been modified to provide documentation for exceptions to the prohibition of width attributes for `<IFRAME>`, `<SOURCE>` and `<SVG>` children.
+The glossary entry [Mandatory field indication](glossaire.html#mandatory-or-optional-field-indication) has been renamed and modified to accompany the introduction of optional fields in the tests for [criterion 11.10](/en/raweb1.1/criteres#crit-11-10). 
 
 ##### In RAWeb1 
 
 <blockquote>
 
-The width and height attributes used on elements other than <img>, <object>, <embed>, <canvas> and <svg> are also prohibited.
+Mandatory field indication
+
+Textual or graphic indication (icon) letting the user know that a field is mandatory before entering it.
+
+Note: If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the order of the source code, before the indication is used for the first
+
+</blockquote>
+
+##### In RAWeb1.1 
+
+<blockquote>
+
+Indication of mandatory or optional fields
+
+Text or graphic indication (icon) letting the user know whether a field is mandatory or optional before entering data.
+
+Note: If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the order of the source code, before the indication is used for the first time.
+
+</blockquote>
+
+#### Passage of text linked by `aria-labelledby` or `aria-describedby`
+
+The glossary entry [Passage of text linked by `aria-labelledby` or `aria-describedby`](glossaire.html#passage-of-text-linked-by-aria-labelledby-or-aria-describedby) has been modified to remove the obsolete note concerning Internet Explorer.
+
+<blockquote>
+
+Note 1: to ensure maximum compatibility with user agents, in particular Internet Explorer 11, we recommend implementing a `tabindex="-1"` on passages of text which are not interactive elements (buttons, links, form elements, etc.).
+
+</blockquote>
+
+#### Presentation of information
+
+The glossary entry [Presentation of information](glossaire.html#presentation-of-information) has been modified to provide documentation for exceptions to the prohibition of `width` attributes for `<iframe>`, `<source>` and `<svg>` children.
+
+##### In RAWeb1 
+
+<blockquote>
+
+The `width` and `height` attributes used on elements other than the `<img>`, `<object>`, `<embed>`, `<canvas>` and `<svg>` elements are also prohibited;
 
 </blockquote>
 
@@ -1553,9 +1526,77 @@ The `width` and `height` attributes are prohibited except on `<canvas>`, `<embed
 
 </blockquote>
 
+#### Synchronised audio description (time-based media)
+
+Note 2 of the glossary entry [Synchronised audio description (time-based media)](glossaire.html#synchronised-audio-description-time-based-media) has been modified to remove the reference to the glossary entry "extended audio description", which does not exist in RAWeb (definition associated with a triple A level criterion not present in the RAWeb).
+
+Note 2 in the RAWeb1:
+
+<blockquote>
+
+ Note 2: In standard audio description, narration is added during pauses in the dialogue (see also extended audio description). 
+
+</blockquote>
+
+Note 2 in RAWeb1.1: 
+
+<blockquote>
+
+ Note 2: In standard audio description, narration is added during pauses in the dialogue.
+
+</blockquote>
+
+#### Text alternative (image)
+
+The glossary entry [Text alternative (image)](glossaire.html#text-alternative-image) has been modified to: 
+- take into account the evolution of support for the `<title>` element for the `<svg>` element in the computation of the accessible name; 
+- take into account the support of accessible name computation by assistive technologies.
+
+##### 1 
+
+The `<title>` element is added to the end of the list of elements taken into account for the accessible name. 
+
+<blockquote>
+
+Otherwise, the value of the `<title>` element for the `<svg>` element.
+
+</blockquote>
+
+##### 2
+
+Note 4 is modified to remove the reference to the `<title>` element.
+
+Note 4 in RAWeb1:
+
+<blockquote>
+
+Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<title>` or in a `<text>` tag whether or not the latter tag is visible, even if this is not the role assigned to this element in SVG.
+
+</blockquote>
+
+Note 4 in RAWeb1.1: 
+
+<blockquote>
+
+Note 4: for vector images (`<svg>` tag) the text alternative could also be present in a `<text>` tag, whether or not this tag is visible, even if this is not the role assigned to this element in SVG.
+
+</blockquote>
+
+##### 3
+
+Note 5 is deleted (and note 6 becomes note 5)
+
+Note 5 in RAWeb1:
+
+<blockquote>
+
+Note 5: As the use of the `alt` attribute is the only technique fully supported by assistive technologies, it is recommended that this solution be preferred when implementing an alternative to an `<img>`, `<area>` and `<input type="image">` tag.
+
+</blockquote>
+
 #### Time-based media (audio, video and synchronised)
 
-The glossary entry [Time-based media (audio, video and synchronised)](glossary.html#time-based-media-type-son-video-and-synchronised) has been modified to remove the obsolete note concerning Internet Explorer.
+The glossary entry [Time-based media (audio, video and synchronised)](glossaire.html#time-based-media-audio-video-and-synchronised) has been modified to remove the obsolete note concerning Internet Explorer.
 
 <blockquote>
 
@@ -1563,21 +1604,35 @@ Note 2: The `<bgsound>` element is specific to Internet Explorer and should not 
 
 </blockquote>
 
-#### Passage of text linked by `aria-labelledby` or `aria-describedby`
+#### Visible content
 
-The glossary entry [Passage of text linked by `aria-labelledby` or `aria-describedby`](glossary.html#passage-of-text-lie-par-aria-labelledby-ou-aria-describedby) has been modified to remove the obsolete note concerning Internet Explorer.
+The glossary entry [Visible content](glossaire.html#visible-content) has been modified to accompany the revision of [criterion 10.2](/en/raweb1.1/criteres#crit-10-2), carried out to facilitate understanding of the scope of the criterion.
+
+##### In RAWeb1
 
 <blockquote>
 
-Note 1: To ensure maximum compatibility with user agents, particularly Internet Explorer 11, it is recommended to implement a `tabindex="-1"` on passages of text that are not interactive elements (buttons, links, form elements, etc.).
+For [test 10.2.1](/en/raweb1.1/criteres#test-10-2-1): "Present content" means that visible content remains present when CSS is deactivated. For example, an image conveying information as a CSS background property invalidates this test because the information is no longer "present" when CSS is deactivated. On the other hand, an image conveying information as a CSS background property but accompanied by hidden text validates this test because the information is indeed "present" when CSS is deactivated.
+
+Note: the practice of managing images as background properties of elements via CSS is formally not recommended, even if accompanied by hidden text.
 
 </blockquote>
 
-#### Focus
+##### In RAWeb1.1
 
-The glossary entry [Focus](glossaire.html#prise-de-focus) has been modified to: 
-- remove the reference to <code>accesskey</code>; 
-- explicitly specify that the associated criterion ([criterion 10.7](/en/raweb1.1/criteres#crit-10-7)) only concerns when the keyboard is focused. 
+<blockquote>
+
+Content is visible when it is shown on the web page, either when the page loads or after an interface component is activated (e.g., displaying a modal window or submenu).
+
+Test 10.2.1 requires that visible content be accessible to assistive technologies. This means that any visible content that is implemented using a method that does not natively provide an alternative should be accompanied by a secondary method to provide that alternative. For example, an image conveying information in CSS background property on an element that contains visually hidden text passes this test because the information is accessible to assistive technologies. Without this hidden text, the test fails.
+
+</blockquote>
+
+#### When focused
+
+The glossary entry [When focused](glossaire.html#when-focused) has been modified to: 
+- remove the reference to `accesskey`; 
+- explicitly specify that the associated criterion ([criterion 10.7](/en/raweb1.1/criteres#crit-10-7)) only concerns keyboard focus. 
 
 Addition of a sentence:
 
@@ -1586,51 +1641,3 @@ Addition of a sentence:
 Criterion 10.7 only concerns keyboard focus (tabulation, shift + tabulation, keyboard shortcut).
 
 </blockquote>
-
-#### Calculated role - creation
-
-Creation of the glossary entry [Calculated role](glossary.html#role-calculated) to support the [modification of criterion 9.2](#9.2) and the [modification of criterion 12.6](#12.6). 
-
-####  Complex data table
-
-The glossary entry [Complex data table](glossary.html#complex-data-table) has been modified to better define what a complex table is. In the old definition, if a header row was not positioned as the first row of the table, the table was considered complex, even though it was still a simple table. The definition has been revised to better reflect what a complex table is.
-
-##### In RAWeb1
-
-The following sentence has been modified: 
-
-<blockquote>
-
-When a data table contains headers that are not distributed solely on the first row and/or first column of the grid, or whose scope is not valid for the entire column or row, it is referred to as a complex data table.
-
-</blockquote>
-
-##### In RAWeb1.1 
-
-<blockquote>
-
-When a data table contains headers that are spread across several rows and/or columns of the grid, or whose scope is not valid for the entire column or row, it is referred to as a complex data table.
-
-</blockquote>
-
-#### Data type and format - deletion
-
-The glossary entry *Data type and format* has been deleted, as it did not provide any additional information compared to the entry [Indication of data type and/or format](glossary.html#indication-of-data-type-and/or-format) and was not referenced in the technical framework. The information has been merged into the entry [Indication of data type and/or format.](glossary.html#indication-of-data-type-and/or-format)
-
-For the record, in RAWeb1: 
-
-<blockquote>
-
-Indication of the data type and format expected when entering a form field. For example:
-
-- Date (dd/mm/yyyy);
-- Amount in euros;
-- Postcode (5 digits: e.g. 75001).
-
-Important note: when the form field type offers an input mask, for example the `date` or `time` fields, the format specification is not necessary.
-
-</blockquote>
-
-#### Accessible version (for a downloadable document)
-
-The glossary entry [Accessible version (for a downloadable document)](glossaire.html#version-accessible-pour-un-document-en-telechargement) has been modified to replace the reference to Open Office Org (ODF) with LibreOffice.
