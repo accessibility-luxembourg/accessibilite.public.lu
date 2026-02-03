@@ -21,7 +21,7 @@ In this section, we identify the changes that cause backward compatibility issue
 
 ##### Change in title
 
-The title of [criterion 1.2](/en/raweb1.1/criteres#crit-1-2) has been modified to include the notion of "without a caption", as is already the case in the test title.
+The title of [criterion 1.2](/en/raweb1.1/criteres.html#crit-1-2) has been modified to include the notion of "without a caption", as is already the case in the test title.
 
 ###### In RAWeb 1
 
@@ -47,7 +47,7 @@ A WAI-ARIA `role="presentation"` attribute can be used on decorative images and 
 
 ##### Restriction on the use of `role="presentation"` and introduction of `role="none"` for `<img>` or `<area>` elements
 
-In [tests 1.2.1](/en/raweb1.1/criteres#test-1-2-1) and [1.2.2](/en/raweb1.1/criteres#test-1-2-2), RAWeb 1 stipulated that it was possible to hide an image (`<img>` or `<area>`) with `role="presentation"`, without any other conditions. 
+In [tests 1.2.1](/en/raweb1.1/criteres.html#test-1-2-1) and [1.2.2](/en/raweb1.1/criteres.html#test-1-2-2), RAWeb 1 stipulated that it was possible to hide an image (`<img>` or `<area>`) with `role="presentation"`, without any other conditions. 
 
 Recent tests on the testing environment have shown that an image with `role="presentation"` and a `title` attribute or ARIA naming property was not ignored. The tests are being rewritten to take these particularities into account.
 
@@ -91,7 +91,7 @@ Test 1.2.2 Does each non-clickable decoration area (`<area>` tag without `href` 
 
 ##### Removal of test conditions on element naming properties
 
-In [test 1.2.4](/en/raweb1.1/criteres#test-1-2-4), RAWeb 1 required testing for the absence of a naming method for the element `<svg>` even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
+In [test 1.2.4](/en/raweb1.1/criteres.html#test-1-2-4), RAWeb 1 required testing for the absence of a naming method for the element `<svg>` even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
 
 The methodology has been modified accordingly.
 
@@ -118,9 +118,9 @@ Each decorative vector image (`<svg>` tag), without image caption, has a WAI-ARI
 
 #### 1.6
 
-The technical note for [criterion 1.6](/en/raweb1.1/criteres#crit-1-6) has been modified to take into account: 
-- the inclusion of the `<title>` element in the computation of the accessible name of an `<SVG>` element (see the change to the glossary entry [Text alternative (image)](glossaire.html#alternative-textuelle-image));
-- the evolution of [criterion 1.9](/en/raweb1.1/criteres#crit-1-9) and the removal of requirements related to the presence of a `role` and `aria-label` attribute.
+The technical note for [criterion 1.6](/en/raweb1.1/criteres.html#crit-1-6) has been modified to take into account: 
+- the inclusion of the `<title>` element in the computation of the accessible name of an `<SVG>` element (see the change to the glossary entry [Text alternative (image)](glossaire.html#text-alternative-image));
+- the evolution of [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) and the removal of requirements related to the presence of a `role` and `aria-label` attribute.
 
 ##### In RAWeb1
 
@@ -142,13 +142,13 @@ In the case of SVG, the lack of support for the `<desc>` element means that it c
 
 The use of the WAI-ARIA `aria-describedby` attribute is not recommended for linking an image (`<img>`, `<object>`, `<embed>`, `<canvas>`) to its detailed description, due to a lack of support for assistive technologies. However, when it is used, the attribute must necessarily refer to the `id` of the zone containing the detailed description.
 
-The adjacent detailed description may be implemented via a `<figcaption>` tag, in which case [criterion 1.9](#crit-1-9) must be checked.
+The adjacent detailed description may be implemented via a `<figcaption>` tag, in which case criterion 1.9 must be checked.
 
 </blockquote>
 
 #### 1.9 
 
-In RAWeb 1, the tests for [criterion 1.9](/en/raweb1.1/criteres#crit-1-9) required always checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
+In RAWeb 1, the tests for [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) required always checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
 
 Recent tests on the testing environment have shown that captioned images are correctly identified and presented to users with the simple implementation of `<figure>` and `<figcaption>`. 
 
@@ -171,7 +171,7 @@ The technical note has also been modified to take these changes into account.
 
 <blockquote>
 
-The implementation of a WAI-ARIA `role="group"` or `role="figure"` attribute on the `<figure>` parent element is intended to compensate for the current lack of support for `<figure>` elements by assistive technologies. The use of a `<figcaption>` element to associate an [image caption](#image-caption) with an image requires at least the use of a WAI-ARIA `aria-label` attribute on the `<figure>` parent element, the content of which will be identical to the content of the `<figcaption>` element. To ensure optimal support, an explicit association can also be made between the content of the image's [text alternative](#text-alternative-image) and the content of the `<figcaption>` element, for example:
+The implementation of a WAI-ARIA `role="group"` or `role="figure"` attribute on the `<figure>` parent element is intended to compensate for the current lack of support for `<figure>` elements by assistive technologies. The use of a `<figcaption>` element to associate an image caption with an image requires at least the use of a WAI-ARIA `aria-label` attribute on the `<figure>` parent element, the content of which will be identical to the content of the `<figcaption>` element. To ensure optimal support, an explicit association can also be made between the content of the image's text alternative and the content of the `<figcaption>` element, for example:
 
 `<img src="image.png" alt="Sunset photo" /><figcaption>Photo: credit xxx</figcaption>`
 
@@ -191,7 +191,7 @@ Captioned images must also comply with criteria 1.1 and 1.3 relating to images c
 
 #### 3.1
 
-The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres#crit-3-1) were incomplete and have been modified to better reflect what is actually expected in terms of graphics and code implementation. For each of the six tests, the second step has been modified.
+The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres.html#crit-3-1) were incomplete and have been modified to better reflect what is actually expected in terms of graphics and code implementation. For each of the six tests, the second step has been modified.
 
 ##### In RAWeb1
 
@@ -213,13 +213,13 @@ The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres#crit-3-1) we
 
 #### 4.1 
 
-The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres#crit-4-1) has been amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of temporary media published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit-4-1) has been amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of temporary media published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 ##### In RAWeb1
 
 <blockquote>
 
-- Time-based media was published before 23 September 2020 (in accordance with the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)).
+- Time-based media was published before 23 September 2020 (in accordance with the law of 28 May 2019).
 
 </blockquote>
 
@@ -227,16 +227,16 @@ The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres#crit-4-1)
 
 <blockquote>
 
-- Time-based media was published before 23 September 2020 on a website belonging to a public sector organisation subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+- Time-based media was published before 23 September 2020 on a website belonging to a public sector organisation subject to the law of 28 May 2019.
 
 </blockquote>
 
 #### 4.3 
 
-[Criterion 4.3](/en/raweb1.1/criteres#crit-4-3) is amended to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), which does not grant exemptions for live multimedia content. 
+[Criterion 4.3](/en/raweb1.1/criteres.html#crit-4-3) is amended to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), which does not grant exemptions for live multimedia content. 
 
 - The criterion has been reworded to remove the notion of "pre-recorded". 
-- [Test 4.3.3](/en/raweb1.1/criteres#test-4-3-3) is created with its testing methodology.
+- [Test 4.3.3](/en/raweb1.1/criteres.html#test-4-3-3) is created with its testing methodology.
 - A special case is added to take into account exemptions from the law of 28 May 2019.
 
 ##### Criterion 
@@ -269,10 +269,10 @@ Live synchronised time-based media broadcast via a website subject to the law of
 
 #### 4.4
 
-[Criterion 4.4](/en/raweb1.1/criteres#crit-4-4) is amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg), which does not grant exemptions for live multimedia content. 
+[Criterion 4.4](/en/raweb1.1/criteres.html#crit-4-4) is amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg), which does not grant exemptions for live multimedia content. 
 
 - The criterion has been reworded to remove the notion of "pre-recorded". 
-- [Test 4.4.2](/en/raweb1.1/criteres#test-4-4-2) has been created with its testing methodology.
+- [Test 4.4.2](/en/raweb1.1/criteres.html#test-4-4-2) has been created with its testing methodology.
 - A special case has been added to take into account the exemptions in the law of 28 May 2019.
 
 ##### Criterion 
@@ -299,13 +299,13 @@ Addition of the exemption from the [law of 28 May 2019](https://legilux.public.l
 
 <blockquote>
 
-Live synchronised media broadcast via a website subject to the [Act of 28 May 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) are exempt.
+Live synchronised media broadcast via a website subject to the law of 28 May 2019 are exempt.
 
 </blockquote>
 
 #### 5.1
 
-The testing methodology of [test 5.1.1](/en/raweb1.1/criteres#test-5-1-1) has been modified to remove the reference to the `summary` attribute. This attribute is obsolete.
+The testing methodology of [test 5.1.1](/en/raweb1.1/criteres.html#test-5-1-1) has been modified to remove the reference to the `summary` attribute. This attribute is obsolete.
 
 For the record, the methodology condition referencing the attribute in RAWeb1: 
 
@@ -317,17 +317,17 @@ For the record, the methodology condition referencing the attribute in RAWeb1:
 
 #### 5.7
 
-[Test 5.7.6](/en/raweb1.1/criteres#test-5-7-6) (and its methodology) has been created to support column groups and row groups as table headers.
+[Test 5.7.6](/en/raweb1.1/criteres.html#test-5-7-6) (and its methodology) has been created to support column groups and row groups as table headers.
 
 #### 6.1
 
-[Test 6.1.6](/en/raweb1.1/criteres#test-6-1-6) is created following the modification of the glossary note [Accessible name of a link](#accessible-name-of-a-link): one of the five notes removed, transformed into a test.
+[Test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6) is created following the modification of the glossary note [Accessible name of a link](#accessible-name-of-a-link): one of the five notes removed, transformed into a test.
 
 #### 6.2
 
-The title of [test 6.2.1](/en/raweb1.1/criteres#test-6-2-1) has been modified, as has its methodology, to limit it to searching for links without accessible names.
+The title of [test 6.2.1](/en/raweb1.1/criteres.html#test-6-2-1) has been modified, as has its methodology, to limit it to searching for links without accessible names.
 
-This change accompanies the change to the glossary note [Accessible name of a link](glossaire.html#accessible-name-of-a-link), which no longer requires criteria 6.2 and 10.2 to be invalidated in cases where a link has no content between the tags. [Criterion 6.2](/en/raweb1.1/criteres#crit-6-2) now only concerns the presence of an accessible name.
+This change accompanies the change to the glossary note [Accessible name of a link](glossaire.html#accessible-name-of-a-link), which no longer requires criteria 6.2 and 10.2 to be invalidated in cases where a link has no content between the tags. [Criterion 6.2](/en/raweb1.1/criteres.html#crit-6-2) now only concerns the presence of an accessible name.
 
 ##### In RAWeb1
 
@@ -347,7 +347,7 @@ On each web page, does each link have an accessible name?
 
 #### 7.1
 
-The testing methodology of [test 7.1.3](/en/raweb1.1/criteres#test-7-1-3) has been modified. It referred to the accessible name and the visible text as two names for the same element.
+The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) has been modified. It referred to the accessible name and the visible text as two names for the same element.
 
 ##### In RAWeb1
 
@@ -371,7 +371,7 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres#test-7-1-3) has be
 
 #### 7.3
 
-The testing methodology of [test 7.3.1](/en/raweb1.1/criteres#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <KBD>Enter</KBD> key alone.
+The testing methodology of [test 7.3.1](/en/raweb1.1/criteres.html#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <KBD>Enter</KBD> key alone.
 
 ##### In RAWeb1
 
@@ -391,7 +391,7 @@ If the element manages a simple action, it can be activated using the keyboard w
 
 #### 9.1
 
-The testing methodology of [test 9.1.3](/en/raweb1.1/criteres#test-9-1-3) has been modified.
+The testing methodology of [test 9.1.3](/en/raweb1.1/criteres.html#test-9-1-3) has been modified.
 
 ##### In RAWeb1
 
@@ -411,11 +411,11 @@ For each passage of text making up a heading, check that
 
 #### 9.2
 
-[Criterion 9.2](/en/raweb1.1/criteres#crit-9-2) has been modified to take into account the evolution of support by assistive technologies for HTML tags used to structure large areas of the page. It is no longer mandatory to use both an HTML5 tag and an equivalent ARIA `role`. [Criterion 12.6](/en/raweb1.1/criteres#crit-12-6) has also been modified accordingly.
+[Criterion 9.2](/en/raweb1.1/criteres.html#crit-9-2) has been modified to take into account the evolution of support by assistive technologies for HTML tags used to structure large areas of the page. It is no longer mandatory to use both an HTML5 tag and an equivalent ARIA `role`. [Criterion 12.6](/en/raweb1.1/criteres.html#crit-12-6) has also been modified accordingly.
 
 - The concept of [computed role](glossaire.html#computed-role) has been added to the glossary for this purpose.
-- [Test 9.2.1](/en/raweb1.1/criteres#test-9-2-1) has been modified, as has its methodology.
-- Tests [9.2.2](/en/raweb1.1/criteres#test-9-2-2), [9.2.3](/en/raweb1.1/criteres#test-9-2-3) and [9.2.4](/en/raweb1.1/criteres#test-9-2-4) have been created, along with their testing methodologies. 
+- [Test 9.2.1](/en/raweb1.1/criteres.html#test-9-2-1) has been modified, as has its methodology.
+- Tests [9.2.2](/en/raweb1.1/criteres.html#test-9-2-2), [9.2.3](/en/raweb1.1/criteres.html#test-9-2-3) and [9.2.4](/en/raweb1.1/criteres.html#test-9-2-4) have been created, along with their testing methodologies. 
 - The special case relating to DOCTYPE is removed.
 - The technical note is removed.
 
@@ -470,7 +470,7 @@ On each web page, do the key regions of the page that make up the document struc
 
 #### 10.1
 
-The testing methodology of [test 10.1.2](/en/raweb1.1/criteres#test-10-1-2) is modified to add the `<iframe>`, `<source>` elements and `<svg>` children elements, with the exception of the use of the `width` and `height` attributes. The first condition of the testing methodology is modified.
+The testing methodology of [test 10.1.2](/en/raweb1.1/criteres.html#test-10-1-2) is modified to add the `<iframe>`, `<source>` elements and `<svg>` children elements, with the exception of the use of the `width` and `height` attributes. The first condition of the testing methodology is modified.
 
 ##### In RAWeb1
 
@@ -491,7 +491,7 @@ The testing methodology of [test 10.1.2](/en/raweb1.1/criteres#test-10-1-2) is m
 
 #### 10.2
 
-[Criterion 10.2](/en/raweb1.1/criteres#crit-10-2) and [test 10.2.1](/en/raweb1.1/criteres#test-10-2-1) have been reworded to improve understanding of the requirement and the scope of evaluation. The testing methodology for test 10.2.1 has also been updated.
+[Criterion 10.2](/en/raweb1.1/criteres.html#crit-10-2) and [test 10.2.1](/en/raweb1.1/criteres.html#test-10-2-1) have been reworded to improve understanding of the requirement and the scope of evaluation. The testing methodology for test 10.2.1 has also been updated.
 
 This change accompanies the modification of the glossary note [Visible content](glossaire.html#visible-content).
 
@@ -533,7 +533,7 @@ On each web page, is the visible content conveying information accessible to ass
 
 #### 10.4
 
-The testing methodologies [test 10.4.1](/en/raweb1.1/criteres#test-10-4-1) and [test 10.4.2](/en/raweb1.1/criteres#test-10-4-2) have been modified to clarify that only one of the conditions needs to be met. 
+The testing methodologies [test 10.4.1](/en/raweb1.1/criteres.html#test-10-4-1) and [test 10.4.2](/en/raweb1.1/criteres.html#test-10-4-2) have been modified to clarify that only one of the conditions needs to be met. 
 
 ##### In RAWeb1
 
@@ -557,7 +557,7 @@ The testing methodologies [test 10.4.1](/en/raweb1.1/criteres#test-10-4-1) and [
 
 #### 10.7
 
-[Criterion 10.7](/en/raweb1.1/criteres#crit-10-7) and [test 10.7.1](/en/raweb1.1/criteres#test-10-7-1) are modified to clarify that this refers only to keyboard focus and not mouse focus.
+[Criterion 10.7](/en/raweb1.1/criteres.html#crit-10-7) and [test 10.7.1](/en/raweb1.1/criteres.html#test-10-7-1) are modified to clarify that this refers only to keyboard focus and not mouse focus.
 
 The methodology has also been modified accordingly.
 
@@ -599,7 +599,7 @@ For each element receiving keyboard focus, does the focus meet one of these cond
 
 #### 10.12 
 
-The conditions in [test 10.12.1](/en/raweb1.1/criteres#test-10-12-1) have been reworded to better reflect what is expected: "increased to" has been replaced by "set to at least".
+The conditions in [test 10.12.1](/en/raweb1.1/criteres.html#test-10-12-1) have been reworded to better reflect what is expected: "increased to" has been replaced by "set to at least".
 
 ##### In RAWeb1
 
@@ -625,7 +625,7 @@ The conditions in [test 10.12.1](/en/raweb1.1/criteres#test-10-12-1) have been r
 
 #### 11.10 
 
-The tests for [criterion 11.10](/en/raweb1.1/criteres#crit-11-10) are modified: 
+The tests for [criterion 11.10](/en/raweb1.1/criteres.html#crit-11-10) are modified: 
 - to introduce optional fields in the tests (previously referenced only in specific cases); 
 - to extend the possibilities for identifying mandatory fields (test 11.10.2);
 - to extend the requirement to indicate input formats to all fields whose format is checked, and not only to mandatory fields (test 11.10.4);
@@ -782,9 +782,9 @@ Test 11.10.1 and test 11.10.2 address fields independently; however, it must be 
 
 #### 12.6
 
-[Criterion 12.6](/en/raweb1.1/criteres#crit-12-6) has been modified to take into account changes in the requirements for implementing landmarks (see the [evolution of criterion 9.2](#9.2)): it is no longer mandatory to use both an HTML5 tag and an equivalent ARIA `role`. 
+[Criterion 12.6](/en/raweb1.1/criteres.html#crit-12-6) has been modified to take into account changes in the requirements for implementing landmarks (see the [evolution of criterion 9.2](#9.2)): it is no longer mandatory to use both an HTML5 tag and an equivalent ARIA `role`. 
 
-Criterion 12.6 has therefore been modified to apply only to regions other than the main areas already identified in [criterion 9.2](/en/raweb1.1/criteres#crit-9-2).
+Criterion 12.6 has therefore been modified to apply only to regions other than the main areas already identified in [criterion 9.2](/en/raweb1.1/criteres.html#crit-9-2).
 
 [The definition of Landmarks is modified](#landmarks) to reflect these changes.
 
@@ -812,7 +812,7 @@ Test 12.6.1: Do the content grouping zones present on several web pages (with th
 
 #### 13.1
 
-The testing methodology for [test 13.1.2](/en/raweb1.1/criteres#test-13-1-2) has been modified for greater clarity.
+The testing methodology for [test 13.1.2](/en/raweb1.1/criteres.html#test-13-1-2) has been modified for greater clarity.
 
 ##### In RAWeb1
 
@@ -838,7 +838,7 @@ The testing methodology for [test 13.1.2](/en/raweb1.1/criteres#test-13-1-2) has
 
 #### 13.2
 
-The testing methodology of [test 13.2.1](/en/raweb1.1/criteres#test-13-2-1) has been modified for greater precision.
+The testing methodology of [test 13.2.1](/en/raweb1.1/criteres.html#test-13-2-1) has been modified for greater precision.
 
 ##### In RAWeb1
 
@@ -860,7 +860,7 @@ The testing methodology of [test 13.2.1](/en/raweb1.1/criteres#test-13-2-1) has 
 
 #### 13.3
 
-The specific case referred to in [criterion 13.3](/en/raweb1.1/criteres#crit-13-3) has been modified to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of office files published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+The specific case referred to in [criterion 13.3](/en/raweb1.1/criteres.html#crit-13-3) has been modified to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of office files published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 ##### In RAWeb1
 
@@ -868,7 +868,7 @@ The specific case referred to in [criterion 13.3](/en/raweb1.1/criteres#crit-13-
 
 Special cases can be managed:
 
-- If the office files (e.g. PDF, Microsoft Office or LibreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)
+- If the office files (e.g. PDF, Microsoft Office or LibreOffice documents, etc.) were published before 23 September 2018 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation, according to the law of 28 May 2019
 
 </blockquote>
 
@@ -878,17 +878,17 @@ Special cases can be managed:
 
 Special cases can be managed:
 
-- If the office files (e.g. PDF, Microsoft Office or LibreOffice documents, etc.) were published before 23 September 2018 on a website of a public sector body subject to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation.
+- If the office files (e.g. PDF, Microsoft Office or LibreOffice documents, etc.) were published before 23 September 2018 on a website of a public sector body subject to the law of 28 May 2019 (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation.
 
 </blockquote>
 
 #### 13.5 
 
-[Criterion 13.5](/en/raweb1.1/criteres#crit-13-5) is amended to better define the scope of the criterion (the definition [Cryptic Content](glossaire.html#cryptic-content) has also been created) and the cases of implementations deemed compatible with accessibility.
+[Criterion 13.5](/en/raweb1.1/criteres.html#crit-13-5) is amended to better define the scope of the criterion (the definition [Cryptic Content](glossaire.html#cryptic-content) has also been created) and the cases of implementations deemed compatible with accessibility.
 
-[Test 13.5.1](/en/raweb1.1/criteres#test-13-5-1) has been modified: the `title` attribute is no longer referenced as a valid method. It is necessary to ensure an implementation that is compatible with accessibility and supported on the testing environment. 
+[Test 13.5.1](/en/raweb1.1/criteres.html#test-13-5-1) has been modified: the `title` attribute is no longer referenced as a valid method. It is necessary to ensure an implementation that is compatible with accessibility and supported on the testing environment. 
 
-[Test 13.5.2](/en/raweb1.1/criteres#test-13-5-2) has been added to check that cryptic content is ignored by assistive technologies and that only the definition remains available.
+[Test 13.5.2](/en/raweb1.1/criteres.html#test-13-5-2) has been added to check that cryptic content is ignored by assistive technologies and that only the definition remains available.
 
 The methodologies have been modified accordingly and a technical note has been added. 
 
@@ -952,7 +952,7 @@ Due to the limited support for the `<abbr>` tag and the `title` attribute, provi
 
 #### 13.6 
 
-[Criterion 13.6](/en/raweb1.1/criteres#crit-13-6) is modified to take into account the changes made to [criterion 13.5](/en/raweb1.1/criteres#crit-13-5).
+[Criterion 13.6](/en/raweb1.1/criteres.html#crit-13-6) is modified to take into account the changes made to [criterion 13.5](/en/raweb1.1/criteres.html#crit-13-5).
 
 ##### Criterion
 
@@ -998,7 +998,7 @@ On each web page, does each cryptic content meet one of these conditions?
 
 #### 13.7
 
-The first condition of the three tests in [criterion 13.7](/en/raweb1.1/criteres#crit-13-7) has been modified, as it was more restrictive than the standard ("less than" instead of "less than or equal to").
+The first condition of the three tests in [criterion 13.7](/en/raweb1.1/criteres.html#crit-13-7) has been modified, as it was more restrictive than the standard ("less than" instead of "less than or equal to").
 
 The methodologies have also been modified accordingly.
 
@@ -1020,7 +1020,7 @@ The frequency of the effect is less than or equal to 3 per second.
 
 #### 13.8
 
-A special case is added to [criterion 13.8](/en/raweb1.1/criteres#crit-13-8) (the words "(excluding special cases)" are added to the criterion and tests). This special case is taken from note 3 of the glossary definition <I>Control (moving or blinking content)</I>, which is deleted.
+A special case is added to [criterion 13.8](/en/raweb1.1/criteres.html#crit-13-8) (the words "(excluding special cases)" are added to the criterion and tests). This special case is taken from note 3 of the glossary definition <I>Control (moving or blinking content)</I>, which is deleted.
 
 <blockquote>
 
@@ -1032,7 +1032,7 @@ In some cases, movement is an integral part of the component and it is not possi
 
 #### 14.1
 
-A condition is added to [criterion 14.1](/en/raweb1.1/criteres#crit-14-1) and the methodology is modified accordingly.
+A condition is added to [criterion 14.1](/en/raweb1.1/criteres.html#crit-14-1) and the methodology is modified accordingly.
 
 <blockquote>
 
@@ -1042,7 +1042,7 @@ A list of non-compliances or a description of non-compliant items.
 
 #### 15.1
 
-[Test 15.1.4](/en/raweb1.1/criteres#test-15-1-4) is created to cover mobile content delivery technologies. The testing methodology is created accordingly.
+[Test 15.1.4](/en/raweb1.1/criteres.html#test-15-1-4) is created to cover mobile content delivery technologies. The testing methodology is created accordingly.
 
 <blockquote>
 
@@ -1052,7 +1052,7 @@ Does each editing tool that creates content distributed in a mobile application 
 
 #### 15.3
 
-The testing methodology of [test 15.3.1](/en/raweb1.1/criteres#test-15-3-1) has been modified to cover mobile content delivery technologies. 
+The testing methodology of [test 15.3.1](/en/raweb1.1/criteres.html#test-15-3-1) has been modified to cover mobile content delivery technologies. 
 
 <blockquote>
 
@@ -1064,11 +1064,11 @@ The testing methodology of [test 15.3.1](/en/raweb1.1/criteres#test-15-3-1) has 
 
 #### 15.5
 
-[Test 15.5.4](/en/raweb1.1/criteres#test-15-5-4) has been created to cover mobile content delivery technologies. The testing methodology has been created accordingly.
+[Test 15.5.4](/en/raweb1.1/criteres.html#test-15-5-4) has been created to cover mobile content delivery technologies. The testing methodology has been created accordingly.
 
 #### 16.2
 
-[Criterion 16.2](/en/raweb1.1/criteres#crit-16-2) and [test 16.2.1](/en/raweb1.1/criteres#test-16-2-1) are modified to cover the possibility of having multiple support services. The methodology is modified accordingly.
+[Criterion 16.2](/en/raweb1.1/criteres.html#crit-16-2) and [test 16.2.1](/en/raweb1.1/criteres.html#test-16-2-1) are modified to cover the possibility of having multiple support services. The methodology is modified accordingly.
 
 ##### In RAWeb1
 
@@ -1094,37 +1094,37 @@ Test 16.2.1: Each support service meets the communication needs of people with d
 
 New links to WCAG criteria, techniques and failures are added in correspondence with certain RAWeb criteria: 
 
-- Criteria [4.1](criteres#crit-4-1), [4.2](criteres#crit-4-2), [4.5](criteres#crit-4-5) and [4.6](criteres#crit-4-6): [G226](https://www.w3.org/WAI/WCAG21/Techniques/general/G226)
-- Criteria [4.3](criteres#crit-4-3) and [4.4](criteres#crit-4-4): [1.2.4 Subtitles (live)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
-- Criterion [4.3](criteres#crit-4-3) and [4.4](criteres#crit-4-3): [G9](https://www.w3.org/WAI/WCAG21/Techniques/general/G9)
-- Criteria [4.5](criteres#crit-4-5) and [4.6](criteres#crit-4-6): [F113](https://www.w3.org/WAI/WCAG21/Techniques/failures/F113)
-- Criteria [5.1](criteres#crit-5-1) and [5.2](criteres#crit-5-2): [H39](https://www.w3.org/WAI/WCAG21/Techniques/html/H39).
-- Criterion [9.2](criteres#crit-9-2): [ARIA4](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4)
-- Criterion [10.7](criteres#crit-10-7): [C45](https://www.w3.org/WAI/WCAG21/Techniques/css/C45)
-- Criteria [6.1](criteres#crit-6-1), [7.1](criteres#crit-7-1), [11.2](criteres#crit-11-2), [11.9](criteres#crit-11-9): [F111](https://www.w3.org/WAI/WCAG21/Techniques/failures/F111).
-- Criterion [10.11](criteres#crit-10-11): [G224](https://www.w3.org/WAI/WCAG21/Techniques/general/G224), [G225](https://www.w3.org/WAI/WCAG21/Techniques/general/G225)
-- Criterion [11.3](criteres#crit-11-3): [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197)
-- Criterion [12.8](criteres#crit-12-8): [H102](https://www.w3.org/WAI/WCAG21/Techniques/html/H102)
-- Criterion [13.8](criteres#crit-13-8): [F112](https://www.w3.org/WAI/WCAG21/Techniques/failures/F112)
+- Criteria [4.1](criteres.html#crit-4-1), [4.2](criteres.html#crit-4-2), [4.5](criteres.html#crit-4-5) and [4.6](criteres.html#crit-4-6): [G226](https://www.w3.org/WAI/WCAG21/Techniques/general/G226)
+- Criteria [4.3](criteres.html#crit-4-3) and [4.4](criteres.html#crit-4-4): [1.2.4 Subtitles (live)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
+- Criterion [4.3](criteres.html#crit-4-3) and [4.4](criteres.html#crit-4-3): [G9](https://www.w3.org/WAI/WCAG21/Techniques/general/G9)
+- Criteria [4.5](criteres.html#crit-4-5) and [4.6](criteres.html#crit-4-6): [F113](https://www.w3.org/WAI/WCAG21/Techniques/failures/F113)
+- Criteria [5.1](criteres.html#crit-5-1) and [5.2](criteres.html#crit-5-2): [H39](https://www.w3.org/WAI/WCAG21/Techniques/html/H39).
+- Criterion [9.2](criteres.html#crit-9-2): [ARIA4](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4)
+- Criterion [10.7](criteres.html#crit-10-7): [C45](https://www.w3.org/WAI/WCAG21/Techniques/css/C45)
+- Criteria [6.1](criteres.html#crit-6-1), [7.1](criteres.html#crit-7-1), [11.2](criteres.html#crit-11-2), [11.9](criteres.html#crit-11-9): [F111](https://www.w3.org/WAI/WCAG21/Techniques/failures/F111).
+- Criterion [10.11](criteres.html#crit-10-11): [G224](https://www.w3.org/WAI/WCAG21/Techniques/general/G224), [G225](https://www.w3.org/WAI/WCAG21/Techniques/general/G225)
+- Criterion [11.3](criteres.html#crit-11-3): [G197](https://www.w3.org/WAI/WCAG21/Techniques/general/G197)
+- Criterion [12.8](criteres.html#crit-12-8): [H102](https://www.w3.org/WAI/WCAG21/Techniques/html/H102)
+- Criterion [13.8](criteres.html#crit-13-8): [F112](https://www.w3.org/WAI/WCAG21/Techniques/failures/F112)
 
 Other techniques and failures have been removed: 
 
-- Criteria [4.8](criteres#crit-4-8) and [4.9](criteres#crit-4-9): removal of link [H46](https://www.w3.org/WAI/WCAG21/Techniques/html/H46). This technique has been classified as obsolete by the AG working group.
-- Criteria [5.1](criteres#crit-5-1) and [5.2](criteres#crit-5-2): removal of link [H73](https://www.w3.org/WAI/WCAG21/Techniques/html/H73). This technique has been classified as obsolete by the AG working group.
-- Criterion [7.1](criteres#crit-7-1): removal of link [SCR21](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21). This technique has been abandoned by the AG working group because it has no impact on accessibility.
-- Criterion [7.4](criteres#crit-7-4): 
+- Criteria [4.8](criteres.html#crit-4-8) and [4.9](criteres.html#crit-4-9): removal of link [H46](https://www.w3.org/WAI/WCAG21/Techniques/html/H46). This technique has been classified as obsolete by the AG working group.
+- Criteria [5.1](criteres.html#crit-5-1) and [5.2](criteres.html#crit-5-2): removal of link [H73](https://www.w3.org/WAI/WCAG21/Techniques/html/H73). This technique has been classified as obsolete by the AG working group.
+- Criterion [7.1](criteres.html#crit-7-1): removal of link [SCR21](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21). This technique has been abandoned by the AG working group because it has no impact on accessibility.
+- Criterion [7.4](criteres.html#crit-7-4): 
   - Removal of links [F9](https://www.w3.org/WAI/WCAG21/Techniques/failures/F9) and [F22](https://www.w3.org/WAI/WCAG21/Techniques/failures/F22). These failures are related to triple A criterion [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
   - Removal of the link [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). This technique is related to the triple A criteria [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) and [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
-- Criterion [9.3](criteres#crit-9-3): 
+- Criterion [9.3](criteres.html#crit-9-3): 
   - Removal of link [G153](https://www.w3.org/WAI/WCAG21/Techniques/general/G153). This technique is related to triple A criterion [3.1.5 Reading Level](https://www.w3.org/Translations/WCAG22-fr/#reading-level).
   - Removal of link [H40](https://www.w3.org/WAI/WCAG21/Techniques/html/H40). This technique is related to triple A criterion [3.1.3 Rare words](https://www.w3.org/Translations/WCAG22-fr/#unusual-words).
-- Criterion [10.2](criteres#crit-10-2): removal of link [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87). The failure has been classified as obsolete by the AG working group.
-- Criterion [12.8](criteres#crit-12-8): removal of links [SCR37](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37) and [H4](https://www.w3.org/WAI/WCAG21/Techniques/html/H4). These techniques have been classified as obsolete by the AG working group.
-- Criterion [13.1](criteres#crit-13-1): 
+- Criterion [10.2](criteres.html#crit-10-2): removal of link [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87). The failure has been classified as obsolete by the AG working group.
+- Criterion [12.8](criteres.html#crit-12-8): removal of links [SCR37](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37) and [H4](https://www.w3.org/WAI/WCAG21/Techniques/html/H4). These techniques have been classified as obsolete by the AG working group.
+- Criterion [13.1](criteres.html#crit-13-1): 
   - Removal of links [F61](https://www.w3.org/WAI/WCAG21/Techniques/failures/F61), [G110](https://www.w3.org/WAI/WCAG21/Techniques/general/G110), [H76](https://www.w3.org/WAI/WCAG21/Techniques/html/H76) and [SVR1](https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1). These techniques and failures are related to the triple A criterion [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
   - Removal of the link [G75](https://www.w3.org/WAI/WCAG21/Techniques/general/G75). This technique is related to the triple A criterion [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions).
   - Removal of link [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). This technique is related to triple A criteria [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) and [3.2.5 Change on Demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
-- Criterion [13.8](criteres#crit-13-8): removal of links [G187](https://www.w3.org/WAI/WCAG21/Techniques/general/G187), [F4](https://www.w3.org/WAI/WCAG21/Techniques/failures/F4), [F47](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47). Failures have been classified as obsolete by the AG working group.
+- Criterion [13.8](criteres.html#crit-13-8): removal of links [G187](https://www.w3.org/WAI/WCAG21/Techniques/general/G187), [F4](https://www.w3.org/WAI/WCAG21/Techniques/failures/F4), [F47](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47). Failures have been classified as obsolete by the AG working group.
 
 ### Glossary
 
@@ -1152,13 +1152,13 @@ A user interface component (link, button, etc.) can be activated from the keyboa
 
 The glossary entry [Accessible name (of a link)](glossaire.html#accessible-name-of-a-link) has been modified. The 5 notes have been removed.
 
-Note 1 has been deleted, as it is already covered by [test 6.1.5](/en/raweb1.1/criteres#test-6-1-5).
+Note 1 has been deleted, as it is already covered by [test 6.1.5](/en/raweb1.1/criteres.html#test-6-1-5).
 
 For the record, note 1 in RAWeb1: 
 
 <blockquote>
 
-Note 1: the accessible name of a link will be considered as non-explicit if it does not include the [visible label](glossaire.html#visible-label) of the link.
+Note 1: the accessible name of a link will be considered as non-explicit if it does not include the visible label of the link.
 
 </blockquote>
 
@@ -1172,7 +1172,7 @@ Note 2: due to the possible configuration of assistive technologies allowing the
 
 </blockquote>
 
-Note 3 has been deleted and incorporated as a new test: [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
+Note 3 has been deleted and incorporated as a new test: [test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6).
 
 For the record, note 3 in RAWeb1: 
 
@@ -1209,7 +1209,7 @@ The glossary entry [Accessible version (for a downloadable document)](glossaire.
 
 #### Column or row header
 
-The glossary entry [Column or row header](glossaire.html#column-or-row-header) has been modified to take into account the [change in criterion 5.7](/en/raweb1.1/criteres#crit-5-7) regarding the support of column groups and row groups.
+The glossary entry [Column or row header](glossaire.html#column-or-row-header) has been modified to take into account the [change in criterion 5.7](/en/raweb1.1/criteres.html#crit-5-7) regarding the support of column groups and row groups.
 
 In RAWeb1.1, the concept of a group has been added to the sentence:
 
@@ -1248,7 +1248,7 @@ When a data table contains headers that span multiple rows and/or columns of the
 #### Control (moving or blinking content)
 
 The glossary entry [Control (moving or blinking content)](glossaire.html#control-moving-or-blinking-content) has been modified to:
-- move note 3 as a special case of [criterion 13.8](/en/raweb1.1/criteres#crit-13-8);
+- move note 3 as a special case of [criterion 13.8](/en/raweb1.1/criteres.html#crit-13-8);
 - revise note 2 describing a example of non-compliance to make it more explicit.
 
 ##### In RAWeb1
@@ -1355,7 +1355,7 @@ The `inert` property has been added to the list of properties that hide content 
 
 #### Identical link - creation
 
-Creation of the glossary entry [Identical link](glossaire.html#identical-link) to provide documentation for the new [test 6.1.6](/en/raweb1.1/criteres#test-6-1-6).
+Creation of the glossary entry [Identical link](glossaire.html#identical-link) to provide documentation for the new [test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6).
 
 #### Indication of data type and/or format
 
@@ -1470,7 +1470,7 @@ For example, in this text "New summer timetable", if the word "timetable" is a l
 
 #### Mandatory field indication
 
-The glossary entry [Mandatory field indication](glossaire.html#mandatory-or-optional-field-indication) has been renamed and modified to accompany the introduction of optional fields in the tests for [criterion 11.10](/en/raweb1.1/criteres#crit-11-10). 
+The glossary entry [Mandatory field indication](glossaire.html#indication-of-mandatory-or-optional-fields) has been renamed and modified to accompany the introduction of optional fields in the tests for [criterion 11.10](/en/raweb1.1/criteres.html#crit-11-10). 
 
 ##### In RAWeb1 
 
@@ -1606,13 +1606,13 @@ Note 2: The `<bgsound>` element is specific to Internet Explorer and should not 
 
 #### Visible content
 
-The glossary entry [Visible content](glossaire.html#visible-content) has been modified to accompany the revision of [criterion 10.2](/en/raweb1.1/criteres#crit-10-2), carried out to facilitate understanding of the scope of the criterion.
+The glossary entry [Visible content](glossaire.html#visible-content) has been modified to accompany the revision of [criterion 10.2](/en/raweb1.1/criteres.html#crit-10-2), carried out to facilitate understanding of the scope of the criterion.
 
 ##### In RAWeb1
 
 <blockquote>
 
-For [test 10.2.1](/en/raweb1.1/criteres#test-10-2-1): "Present content" means that visible content remains present when CSS is deactivated. For example, an image conveying information as a CSS background property invalidates this test because the information is no longer "present" when CSS is deactivated. On the other hand, an image conveying information as a CSS background property but accompanied by hidden text validates this test because the information is indeed "present" when CSS is deactivated.
+For test 10.2.1: "Present content" means that visible content remains present when CSS is deactivated. For example, an image conveying information as a CSS background property invalidates this test because the information is no longer "present" when CSS is deactivated. On the other hand, an image conveying information as a CSS background property but accompanied by hidden text validates this test because the information is indeed "present" when CSS is deactivated.
 
 Note: the practice of managing images as background properties of elements via CSS is formally not recommended, even if accompanied by hidden text.
 
@@ -1632,7 +1632,7 @@ Test 10.2.1 requires that visible content be accessible to assistive technologie
 
 The glossary entry [When focused](glossaire.html#when-focused) has been modified to: 
 - remove the reference to `accesskey`; 
-- explicitly specify that the associated criterion ([criterion 10.7](/en/raweb1.1/criteres#crit-10-7)) only concerns keyboard focus. 
+- explicitly specify that the associated criterion ([criterion 10.7](/en/raweb1.1/criteres.html#crit-10-7)) only concerns keyboard focus. 
 
 Addition of a sentence:
 
