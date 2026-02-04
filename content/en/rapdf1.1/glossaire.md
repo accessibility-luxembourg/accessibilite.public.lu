@@ -125,7 +125,7 @@ In most office publishing software, the style library proposes a specific style 
 
 The heading hierarchy is consistent when the nesting of heading levels is consistent (the nesting levels of headings reflect how content depends on other content).
 
-Note: the presence of hierarchical jumps (e.g. moving from a level 2 heading to a level 4 heading) does not invalidate the criterion, but is not recommended.
+Note: the presence of hierarchical jumps (e.g. moving from a level 2 heading to a level 4 heading) does not invalidate the criterion but is not recommended.
 
 ### I
 
@@ -202,7 +202,7 @@ Note: ‘indicated only by colour’ means that the link is not accompanied by a
 
 #### List style
 In office content, lists must be declared using a list style.
-For example, office suites provides a library of styles reserved for unordered lists (bulleted lists) and ordered lists (numbered lists).
+For example, office suites provide a library of styles reserved for unordered lists (bulleted lists) and ordered lists (numbered lists).
 By using specific list styles, the reader software can associate each list and its items with an ad hoc format.
 
 ### N

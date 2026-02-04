@@ -65,8 +65,8 @@ In addition, we remain attentive to the community and are keen to include your s
     <h2>Let's interact</h2>
     <p>Our GitHub repositories are the easiest way to share your feedback on the accessibility evaluation frameworks with us. Here are the three addresses:</p>
     <ul>
-        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb/issues">Problèmes recensés : ReferentielAccessibiliteWeb (RAWeb)</a></li>
-        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile/issues">Problèmes recensés : ReferentielAccessibiliteMobile (RAAM)</a></li>
-        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibilitePDF/issues">Problèmes recensés : ReferentielAccessibilitePDF (RAPDF)</a></li>
+        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb/issues">Issues: ReferentielAccessibiliteWeb (RAWeb)</a></li>
+        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile/issues">Issues: ReferentielAccessibiliteMobile (RAAM)</a></li>
+        <li><a href="https://github.com/accessibility-luxembourg/ReferentielAccessibilitePDF/issues">Issues: ReferentielAccessibilitePDF (RAPDF)</a></li>
     </ul>
 </aside>

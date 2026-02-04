@@ -14,7 +14,7 @@ For example, when the interface contains a graphic element conveying information
 
 To assess the criteria in the framework, the tests are carried out using the dedicated PAC tool or directly in the Acrobat Reader interface.
 
-The section below describe the essential elements you need to know to install PAC.
+The section below describes the essential elements you need to know to install PAC.
 
 #### PAC
 Installation procedure
