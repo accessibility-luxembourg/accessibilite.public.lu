@@ -2,15 +2,15 @@
 title: Changelog from RAWeb 1 to RAWeb 1.1
 ---
 
-[RAWeb 1.1](/en/raweb1.1/) is the Luxembourg accessibility framework that covers all the requirements of European standard [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) currently in force throughout Europe.
-This is an update of [RAWeb 1.0](/en/raweb1/), itself derived from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) published by DINUM in France.
-RAWeb 1.0 has its own [changelog](/en/raweb1/notes-revision.html).
+[RAWeb&nbsp;1.1](/en/raweb1.1/) is the Luxembourg accessibility framework that covers all the requirements of European standard [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) currently in force throughout Europe.
+This is an update of [RAWeb&nbsp;1.0](/en/raweb1/), itself derived from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) published by DINUM in France.
+RAWeb&nbsp;1.0 has its own [changelog](/en/raweb1/notes-revision.html).
 
 All the changes made between versions 1.1 and 1.0 of RAWeb are detailed below.
 
 ### Summary of changes with a major impact
 
-In this section, we identify the changes that cause backward compatibility issues with RAWeb 1. Indeed, some implementations that were considered compliant in RAWeb 1 are no longer compliant in RAWeb 1.1. It is therefore important to identify them correctly for future accessibility audits and acceptance tests.
+In this section, we identify the changes that cause backward compatibility issues with RAWeb&nbsp;1. Indeed, some implementations that were considered compliant in RAWeb&nbsp;1 are no longer compliant in RAWeb&nbsp;1.1. It is therefore important to identify them correctly for future accessibility audits and acceptance tests.
 
 * Criterion 1.2 has been modified to reduce the use of `role="presentation"` and `role="none"`.
 * Criterion 13.5 has been modified and no longer considers the use of the `<abbr>` tag and the `title` attribute as a compliant method for providing an alternative to cryptic content.
@@ -23,11 +23,11 @@ In this section, we identify the changes that cause backward compatibility issue
 
 The title of [criterion 1.2](/en/raweb1.1/criteres.html#crit-1-2) has been modified to include the notion of "without a caption", as is already the case in the test title.
 
-###### In RAWeb 1
+###### In RAWeb&nbsp;1
 
 <blockquote>Is every decorative image correctly ignored by assistive technologies?</blockquote>
 
-###### In RAWeb 1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>Is every decorative image, without a caption, correctly ignored by assistive technologies?</blockquote>
 
@@ -47,7 +47,7 @@ A WAI-ARIA `role="presentation"` attribute can be used on decorative images and 
 
 ##### Restriction on the use of `role="presentation"` and introduction of `role="none"` for `<img>` or `<area>` elements
 
-In [tests 1.2.1](/en/raweb1.1/criteres.html#test-1-2-1) and [1.2.2](/en/raweb1.1/criteres.html#test-1-2-2), RAWeb 1 stipulated that it was possible to hide an image (`<img>` or `<area>`) with `role="presentation"`, without any other conditions. 
+In [tests 1.2.1](/en/raweb1.1/criteres.html#test-1-2-1) and [1.2.2](/en/raweb1.1/criteres.html#test-1-2-2), RAWeb&nbsp;1 stipulated that it was possible to hide an image (`<img>` or `<area>`) with `role="presentation"`, without any other conditions. 
 
 Recent tests on the testing environment have shown that an image with `role="presentation"` and a `title` attribute or ARIA naming property was not ignored. The tests are being rewritten to take these particularities into account.
 
@@ -55,9 +55,9 @@ As `role="none"` has similar effects for hiding images, it is being introduced i
 
 The testing methodologies are being modified accordingly.
 
-<b>Please note:</b> There is a case of **backward incompatibility with RAWeb 1** here. Images hidden with `role="presentation"` but with a `title`, `aria-label` or `aria-labelledby` attribute may have been considered compliant. They will be considered non-compliant with this new version of the test. 
+<b>Please note:</b> There is a case of **backward incompatibility with RAWeb&nbsp;1** here. Images hidden with `role="presentation"` but with a `title`, `aria-label` or `aria-labelledby` attribute may have been considered compliant. They will be considered non-compliant with this new version of the test. 
 
-###### In RAWeb 1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -73,7 +73,7 @@ Test 1.2.2 Does each non-clickable decoration area (`<area>` tag without an `hre
 
 </blockquote>
 
-###### In RAWeb 1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>Test 1.2.1 Does each decorative image (`<img>` tag), without image caption, meet one of these conditions?
 
@@ -89,13 +89,13 @@ Test 1.2.2 Does each non-clickable decoration area (`<area>` tag without `href` 
 
 </blockquote>
 
-##### Removal of test conditions on element naming properties
+##### Removal of test conditions on `<svg>` element naming properties
 
-In [test 1.2.4](/en/raweb1.1/criteres.html#test-1-2-4), RAWeb 1 required testing for the absence of a naming method for the element `<svg>` even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
+In [test 1.2.4](/en/raweb1.1/criteres.html#test-1-2-4), RAWeb&nbsp;1 required testing for the absence of a naming method for the element `<svg>` even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
 
 The methodology has been modified accordingly.
 
-###### In RAWeb 1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -108,7 +108,7 @@ Does each decorative vector image (`<svg>` tag), without image caption, meet the
 
 </blockquote>
 
-###### In RAWeb 1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -122,11 +122,11 @@ The technical note for [criterion 1.6](/en/raweb1.1/criteres.html#crit-1-6) has 
 - the inclusion of the `<title>` element in the computation of the accessible name of an `<SVG>` element (see the change to the glossary entry [Text alternative (image)](glossaire.html#text-alternative-image));
 - the evolution of [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) and the removal of requirements related to the presence of a `role` and `aria-label` attribute.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
-In the case of SVG, the lack of support for the `<title>` and `<desc>` elements by assistive technologies creates a difficulty in implementing the text alternative of the image and its detailed description. In this case, it is recommended to use the WAI-ARIA `aria-label` attribute to implement both the short text alternative and the reference to the adjacent detailed description or the WAI-ARIA `aria-labelledby` attribute to associate the passage of texts acting as short alternative and detailed descriptio.
+In the case of SVG, the lack of support for the `<title>` and `<desc>` elements by assistive technologies creates a difficulty in implementing the text alternative of the image and its detailed description. In this case, it is recommended to use the WAI-ARIA `aria-label` attribute to implement both the short text alternative and the reference to the adjacent detailed description or the WAI-ARIA `aria-labelledby` attribute to associate the passage of texts acting as short alternative and detailed description.
 
 The use of the WAI-ARIA `aria-describedby` attribute is not recommended for linking an image (`<img>`, `<object>`, `<embed>`, `<canvas>`) to its detailed description, due to a lack of support for assistive technologies. However, when it is used, the attribute must necessarily refer to the `id` of the zone containing the detailed description.
 
@@ -134,7 +134,7 @@ The adjacent detailed description may be implemented via a `<figcaption>` tag, i
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -148,7 +148,7 @@ The adjacent detailed description may be implemented via a `<figcaption>` tag, i
 
 #### 1.9 
 
-In RAWeb 1, the tests for [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) required always checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
+In RAWeb&nbsp;1, the tests for [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) required always checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
 
 Recent tests on the testing environment have shown that captioned images are correctly identified and presented to users with the simple implementation of `<figure>` and `<figcaption>`. 
 
@@ -167,7 +167,7 @@ The technical note has also been modified to take these changes into account.
 
 ##### Technical note
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -181,7 +181,7 @@ Note: captioned images must also comply with criteria 1.1 and 1.3 relating to im
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -193,7 +193,7 @@ Captioned images must also comply with criteria 1.1 and 1.3 relating to images c
 
 The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres.html#crit-3-1) were incomplete and have been modified to better reflect what is actually expected in terms of graphics and code implementation. For each of the six tests, the second step has been modified.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -201,7 +201,7 @@ The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres.html#crit-3-
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -215,7 +215,7 @@ The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres.html#crit-3-
 
 The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit-4-1) has been amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of temporary media published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -223,7 +223,7 @@ The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -241,7 +241,7 @@ The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit
 
 ##### Criterion 
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -249,11 +249,11 @@ Does each pre-recorded synchronised time-based media have, if necessary, synchro
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
-Does each synchronised time-based media have,if necessary, synchronised captions (excluding special cases)?
+Does each synchronised time-based media have, if necessary, synchronised captions (excluding special cases)?
 
 </blockquote>
 
@@ -269,7 +269,7 @@ Live synchronised time-based media broadcast via a website subject to the law of
 
 #### 4.4
 
-[Criterion 4.4](/en/raweb1.1/criteres.html#crit-4-4) is amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg), which does not grant exemptions for live multimedia content. 
+[Criterion 4.4](/en/raweb1.1/criteres.html#crit-4-4) is amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), which does not grant exemptions for live multimedia content. 
 
 - The criterion has been reworded to remove the notion of "pre-recorded". 
 - [Test 4.4.2](/en/raweb1.1/criteres.html#test-4-4-2) has been created with its testing methodology.
@@ -277,7 +277,7 @@ Live synchronised time-based media broadcast via a website subject to the law of
 
 ##### Criterion 
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -285,7 +285,7 @@ For each pre-recorded synchronised time-based media with synchronised captions, 
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -307,7 +307,7 @@ Live synchronised media broadcast via a website subject to the law of 28 May 201
 
 The testing methodology of [test 5.1.1](/en/raweb1.1/criteres.html#test-5-1-1) has been modified to remove the reference to the `summary` attribute. This attribute is obsolete.
 
-For the record, the methodology condition referencing the attribute in RAWeb1: 
+For the record, the methodology condition referencing the attribute in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -329,7 +329,7 @@ The title of [test 6.2.1](/en/raweb1.1/criteres.html#test-6-2-1) has been modifi
 
 This change accompanies the change to the glossary note [Accessible name of a link](glossaire.html#accessible-name-of-a-link), which no longer requires criteria 6.2 and 10.2 to be invalidated in cases where a link has no content between the tags. [Criterion 6.2](/en/raweb1.1/criteres.html#crit-6-2) now only concerns the presence of an accessible name.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -337,7 +337,7 @@ On each web page, does each link have an accessible name between `<a>` and `</a>
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -349,7 +349,7 @@ On each web page, does each link have an accessible name?
 
 The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) has been modified. It referred to the accessible name and the visible text as two names for the same element.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -359,7 +359,7 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) h
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -371,9 +371,9 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) h
 
 #### 7.3
 
-The testing methodology of [test 7.3.1](/en/raweb1.1/criteres.html#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <KBD>Enter</KBD> key alone.
+The testing methodology of [test 7.3.1](/en/raweb1.1/criteres.html#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <kbd>Enter</kbd> key alone.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -381,7 +381,7 @@ If the element manages a simple action, it can be activated from the keyboard us
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -393,7 +393,7 @@ If the element manages a simple action, it can be activated using the keyboard w
 
 The testing methodology of [test 9.1.3](/en/raweb1.1/criteres.html#test-9-1-3) has been modified.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -401,7 +401,7 @@ For each heading identified in test 9.1.1, check that
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -421,7 +421,7 @@ For each passage of text making up a heading, check that
 
 ##### Special case
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 For the record, the deleted special case:
 
@@ -433,7 +433,7 @@ When the doctype declared in the page is not the HTML5 doctype, this criterion i
 
 ##### Technical note
 
-For the record, the technical note in RAWeb1
+For the record, the technical note in RAWeb&nbsp;1
 
 <blockquote>
 
@@ -443,7 +443,7 @@ The `<main>` tag can be used several times in the same HTML document. However, t
 
 ##### 9.2.1
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -457,7 +457,7 @@ On each web page, does the document structure meet these conditions (excluding s
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 On each web page, do the key regions of the page that make up the document structure meet these conditions? 
@@ -465,14 +465,14 @@ On each web page, do the key regions of the page that make up the document struc
 - The elements containing the primary and secondary navigation regions have a computed role of `navigation`.
 - The element containing the search engine region has a computed role of `search`.
 - The element containing the main content region has a computed role of `main`.
-- The element containing the footer region has a computed role of`contentinfo`.
+- The element containing the footer region has a computed role of `contentinfo`.
 </blockquote>
 
 #### 10.1
 
 The testing methodology of [test 10.1.2](/en/raweb1.1/criteres.html#test-10-1-2) is modified to add the `<iframe>`, `<source>` elements and `<svg>` children elements, with the exception of the use of the `width` and `height` attributes. The first condition of the testing methodology is modified.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -480,7 +480,7 @@ The testing methodology of [test 10.1.2](/en/raweb1.1/criteres.html#test-10-1-2)
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -497,7 +497,7 @@ This change accompanies the modification of the glossary note [Visible content](
 
 ##### Criterion 
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -505,7 +505,7 @@ On each web page, is the visible content conveying information still present whe
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -515,7 +515,7 @@ On each web page, is the visible content conveying information accessible to ass
 
 ##### 10.2.1 
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -523,7 +523,7 @@ On each web page, does the information remain present when the style sheets are 
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -535,7 +535,7 @@ On each web page, is the visible content conveying information accessible to ass
 
 The testing methodologies [test 10.4.1](/en/raweb1.1/criteres.html#test-10-4-1) and [test 10.4.2](/en/raweb1.1/criteres.html#test-10-4-2) have been modified to clarify that only one of the conditions needs to be met. 
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -545,7 +545,7 @@ The testing methodologies [test 10.4.1](/en/raweb1.1/criteres.html#test-10-4-1) 
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -563,7 +563,7 @@ The methodology has also been modified accordingly.
 
 ##### Criterion 
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -571,7 +571,7 @@ On each web page, for each element receiving focus, is the focus visible?
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -581,7 +581,7 @@ On each web page, for each element receiving keyboard focus, is the focus visibl
 
 ##### 10.7.1
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -589,7 +589,7 @@ For each element receiving focus, does the focus meet one of these conditions?
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -601,7 +601,7 @@ For each element receiving keyboard focus, does the focus meet one of these cond
 
 The conditions in [test 10.12.1](/en/raweb1.1/criteres.html#test-10-12-1) have been reworded to better reflect what is expected: "increased to" has been replaced by "set to at least".
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -612,7 +612,7 @@ The conditions in [test 10.12.1](/en/raweb1.1/criteres.html#test-10-12-1) have b
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -641,7 +641,7 @@ The glossary note [Mandatory field indication](glossaire.html#indication-of-mand
 
 ##### 11.10.1
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -652,7 +652,7 @@ Do the mandatory field indications meet one of these conditions (excluding speci
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -666,7 +666,7 @@ Do the indications of mandatory or optional field entries meet one of these cond
 
 ##### 11.10.2
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -677,7 +677,7 @@ Do required fields with the `aria-required="true"` or `required` attribute meet 
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -692,7 +692,7 @@ Do mandatory fields with the `aria-required="true"` or `required` attribute meet
 
 ##### 11.10.4
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -700,7 +700,7 @@ Do required fields with the `aria-invalid="true"` attribute meet any of these co
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -710,7 +710,7 @@ Do fields with the `aria-invalid="true"` attribute meet any of these conditions?
 
 ##### 11.10.5
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -720,7 +720,7 @@ Do the mandatory instructions and indications of data type and/or format meet an
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -732,7 +732,7 @@ Do the mandatory instructions and indications of data type and/or format meet an
 
 ##### Special cases
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -745,7 +745,7 @@ If all the fields in a form are mandatory, tests 11.10.1 and 11.10.2 still apply
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -760,7 +760,7 @@ If all the fields in a form are mandatory, tests 11.10.1 and 11.10.2 still apply
 
 ##### Technical notes
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -772,7 +772,7 @@ In a long form where the majority of fields are mandatory, you may find that it 
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -790,7 +790,7 @@ Criterion 12.6 has therefore been modified to apply only to regions other than t
 
 The methodology is amended accordingly.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -800,7 +800,7 @@ Test 12.6.1: On each web page where they are present, do the header, main naviga
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -814,7 +814,7 @@ Test 12.6.1: Do the content grouping zones present on several web pages (with th
 
 The testing methodology for [test 13.1.2](/en/raweb1.1/criteres.html#test-13-1-2) has been modified for greater clarity.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -824,7 +824,7 @@ The testing methodology for [test 13.1.2](/en/raweb1.1/criteres.html#test-13-1-2
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -840,7 +840,7 @@ The testing methodology for [test 13.1.2](/en/raweb1.1/criteres.html#test-13-1-2
 
 The testing methodology of [test 13.2.1](/en/raweb1.1/criteres.html#test-13-2-1) has been modified for greater precision.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -849,7 +849,7 @@ The testing methodology of [test 13.2.1](/en/raweb1.1/criteres.html#test-13-2-1)
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -862,7 +862,7 @@ The testing methodology of [test 13.2.1](/en/raweb1.1/criteres.html#test-13-2-1)
 
 The specific case referred to in [criterion 13.3](/en/raweb1.1/criteres.html#crit-13-3) has been modified to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of office files published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -872,7 +872,7 @@ Special cases can be managed:
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -892,11 +892,11 @@ Special cases can be managed:
 
 The methodologies have been modified accordingly and a technical note has been added. 
 
-<b>Warning:</b> There is a case of **backward incompatibility with RAWeb1** here. The use of the `<abbr>` tag and the `title` attribute is no longer considered a compliant method for providing alternative content for cryptic content.
+<b>Warning:</b> There is a case of **backward incompatibility with RAWeb&nbsp;1** here. The use of the `<abbr>` tag and the `title` attribute is no longer considered a compliant method for providing alternative content for cryptic content.
 
 ##### Criterion
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -904,7 +904,7 @@ Is there an alternative to every cryptic content (ASCII art, emoticon, cryptic s
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -914,7 +914,7 @@ On each web page, is each cryptic content correctly identified?
 
 ##### 13.5.1
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -925,7 +925,7 @@ On each web page, does each cryptic content (ASCII art, emoticon, cryptic syntax
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -938,7 +938,7 @@ On each web page, does each cryptic piece of content carrying information meet o
 
 ##### Technical note
 
-New technical note in RAWeb1.1
+New technical note in RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -956,7 +956,7 @@ Due to the limited support for the `<abbr>` tag and the `title` attribute, provi
 
 ##### Criterion
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -964,7 +964,7 @@ On each web page, for each cryptic content (ASCII art, emoticon, cryptic syntax)
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -974,7 +974,7 @@ On each web page, for each cryptic content having an alternative, is this altern
 
 ##### 13.6.1
 
-###### In RAWeb1
+###### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -985,7 +985,7 @@ On each web page, does each cryptic content (ASCII art, emoticon, cryptic syntax
 
 </blockquote>
 
-###### In RAWeb1.1
+###### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -1002,7 +1002,7 @@ The first condition of the three tests in [criterion 13.7](/en/raweb1.1/criteres
 
 The methodologies have also been modified accordingly.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1010,7 +1010,7 @@ The frequency of the effect is less than 3 per second.
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -1070,7 +1070,7 @@ The testing methodology of [test 15.3.1](/en/raweb1.1/criteres.html#test-15-3-1)
 
 [Criterion 16.2](/en/raweb1.1/criteres.html#crit-16-2) and [test 16.2.1](/en/raweb1.1/criteres.html#test-16-2-1) are modified to cover the possibility of having multiple support services. The methodology is modified accordingly.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1080,7 +1080,7 @@ Test 16.2.1: The support service meets the communication needs of people with di
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -1130,9 +1130,9 @@ Other techniques and failures have been removed:
 
 #### Accessible and operable by keyboard and any pointing device
 
-The glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html#accessible-and-operable-by-keyboard-and-any-pointing-device) has been modified so that keyboard use is not restricted to the <KBD>Enter</KBD> key. 
+The glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html#accessible-and-operable-by-keyboard-and-any-pointing-device) has been modified so that keyboard use is not restricted to the <kbd>Enter</kbd> key. 
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1140,7 +1140,7 @@ A user interface component (link, button, etc.) can be activated from the keyboa
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -1154,7 +1154,7 @@ The glossary entry [Accessible name (of a link)](glossaire.html#accessible-name-
 
 Note 1 has been deleted, as it is already covered by [test 6.1.5](/en/raweb1.1/criteres.html#test-6-1-5).
 
-For the record, note 1 in RAWeb1: 
+For the record, note 1 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1162,9 +1162,9 @@ Note 1: the accessible name of a link will be considered as non-explicit if it d
 
 </blockquote>
 
-Note 2 has been removed, as restitution tests on the testing environment show that the case described therein is no longer valid today. Except in very specific configuration cases, the content of `title` is never restituted in place of the accessible name. Thus, a `title` that does not include the accessible name can no longer constitute non-compliance with RAWeb.
+Note 2 has been removed, as rendering tests on the testing environment show that the case described therein is no longer valid today. Except in very specific configuration cases, the content of `title` is never rendered in place of the accessible name. Thus, a `title` that does not include the accessible name can no longer constitute non-compliance with RAWeb.
 
-For the record, note 2 in RAWeb1: 
+For the record, note 2 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1174,7 +1174,7 @@ Note 2: due to the possible configuration of assistive technologies allowing the
 
 Note 3 has been deleted and incorporated as a new test: [test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6).
 
-For the record, note 3 in RAWeb1: 
+For the record, note 3 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1185,7 +1185,7 @@ Note 3: In the case of several links with different destinations whose "accessib
 Note 4 has been removed, as the absence of content in a link is not a valid reason for non-compliance. 
 Criterion 6.2 requires the presence of an accessible name. Invalidating criterion 10.2 on the basis of a lack of content in a link is not based on any WCAG technique.
 
-For the record, note 4 in RAWeb1: 
+For the record, note 4 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1195,7 +1195,7 @@ Note 4: when a link contains no content, it will be non-compliant with regard to
 
 Note 5 has been deleted because WCAG failure [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87) has been rendered obsolete. 
 
-For the record, note 5 in RAWeb1: 
+For the record, note 5 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1211,7 +1211,7 @@ The glossary entry [Accessible version (for a downloadable document)](glossaire.
 
 The glossary entry [Column or row header](glossaire.html#column-or-row-header) has been modified to take into account the [change in criterion 5.7](/en/raweb1.1/criteres.html#crit-5-7) regarding the support of column groups and row groups.
 
-In RAWeb1.1, the concept of a group has been added to the sentence:
+In RAWeb&nbsp;1.1, the concept of a group has been added to the sentence:
 
 <blockquote>
 
@@ -1227,7 +1227,7 @@ Creation of the glossary entry [computed role](glossaire.html#computed-role) to 
 
 The glossary entry [Complex data table](glossaire.html#complex-data-table) has been modified to better define what a complex table is. In the old definition, if a header row was not positioned as the first row of the table, the table was considered complex, even though it was still a simple table. The definition has been revised to better reflect what a complex table is.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 The following sentence has been modified: 
 
@@ -1237,7 +1237,7 @@ When a data table contains headers that are not distributed solely over the firs
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1249,9 +1249,9 @@ When a data table contains headers that span multiple rows and/or columns of the
 
 The glossary entry [Control (moving or blinking content)](glossaire.html#control-moving-or-blinking-content) has been modified to:
 - move note 3 as a special case of [criterion 13.8](/en/raweb1.1/criteres.html#crit-13-8);
-- revise note 2 describing a example of non-compliance to make it more explicit.
+- revise note 2 describing an example of non-compliance to make it more explicit.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1259,7 +1259,7 @@ Note 2: The control (moving or blinking content) method must allow the user to i
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
@@ -1273,7 +1273,7 @@ Consequently, stopping or pausing via an event triggered only on focus or mouseo
 
 ##### Note 3
 
-For the record, note 3 in RAWeb1
+For the record, note 3 in RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1289,7 +1289,7 @@ Creation of the glossary entry [Cryptic content](glossaire.html#cryptic-content)
 
 The glossary entry *Data type and format* has been deleted, as it did not provide any additional information compared to the entry [Indication of data type and/or format](glossaire.html#indication-of-data-type-and/or-format) and was not referenced in the technical framework. The information has been merged into the entry [Indication of data type and/or format](glossaire.html#indication-of-data-type-and/or-format).
 
-For the record, in RAWeb1: 
+For the record, in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1307,7 +1307,7 @@ Important note: when the type of form input field offers an input mask, for exam
 
 Note 2 has been deleted as it is obsolete.
 
-For the record, note 2 in RAWeb1: 
+For the record, note 2 in RAWeb&nbsp;1: 
 
 <blockquote>
 
@@ -1323,7 +1323,7 @@ Creation of the glossary entry [Document](glossaire.html#document).
 
 The glossary entry [Form](glossaire.html#form) has been modified so that the evaluation of certain criteria in the Forms theme is not restricted to `<form>` tags or tags with a WAI-ARIA `role="form"` attribute.
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1331,7 +1331,7 @@ The glossary entry [Form](glossaire.html#form) has been modified so that the eva
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1363,7 +1363,7 @@ The glossary entry [Indication of data type and/or format](glossaire.html#indica
 - to merge elements present in a redundant glossary entry *Data type and format*, which has therefore been deleted;
 - to remove the reference to mandatory fields only, since input formats may be expected on fields that are not mandatory.
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1377,7 +1377,7 @@ Examples
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1398,7 +1398,7 @@ Important note: when the type of form input field offers an input mask, for exam
 
 The glossary entry [Landmarks](#landmarks) has been modified to take into account [the modification of criterion 9.2](#9.2) and [the modification of criterion 12.6](#12.6).
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1412,13 +1412,13 @@ The roles must be defined in the document according to the nature of the zone:
 - The footer region must have a WAI-ARIA `role="contentinfo"` attribute;
 - The search engine area on the website must have a WAI-ARIA `role="search"` attribute.
 
-Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. The implementation of skip links therefore remains to be favored over landmarks.
+Note 1: While most screen readers provide these functions, browsers have yet to offer a dedicated navigation function for users who cannot use the mouse. The implementation of skip links therefore remains to be favoured over landmarks.
 
 Note 2: The WAI-ARIA `banner`, `main` and `contentinfo` roles must be unique in the page. The WAI-ARIA `navigation` role is reserved for main and secondary navigation zones. When there are several WAI-ARIA `navigation` roles, it may be useful to differentiate them by specifying a name for each of the zones using the WAI-ARIA `aria-label` or `aria-labelledby` attribute.
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1452,7 +1452,7 @@ Note 2: It is not mandatory to identify navigation landmarks other than those re
 
 The example in the glossary entry [Link whose nature is not obvious](glossaire.html#link-whose-nature-is-not-obvious) has been modified.
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1460,7 +1460,7 @@ For example, in this text "New strike at SNCF", if the word "strike" is a link i
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1472,7 +1472,7 @@ For example, in this text "New summer timetable", if the word "timetable" is a l
 
 The glossary entry [Mandatory field indication](glossaire.html#indication-of-mandatory-or-optional-fields) has been renamed and modified to accompany the introduction of optional fields in the tests for [criterion 11.10](/en/raweb1.1/criteres.html#crit-11-10). 
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1484,7 +1484,7 @@ Note: If this indication is not made explicitly in text (icon, "*", "!", etc.), 
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1510,7 +1510,7 @@ Note 1: to ensure maximum compatibility with user agents, in particular Internet
 
 The glossary entry [Presentation of information](glossaire.html#presentation-of-information) has been modified to provide documentation for exceptions to the prohibition of `width` attributes for `<iframe>`, `<source>` and `<svg>` children.
 
-##### In RAWeb1 
+##### In RAWeb&nbsp;1 
 
 <blockquote>
 
@@ -1518,7 +1518,7 @@ The `width` and `height` attributes used on elements other than the `<img>`, `<o
 
 </blockquote>
 
-##### In RAWeb1.1 
+##### In RAWeb&nbsp;1.1 
 
 <blockquote>
 
@@ -1530,7 +1530,7 @@ The `width` and `height` attributes are prohibited except on `<canvas>`, `<embed
 
 Note 2 of the glossary entry [Synchronised audio description (time-based media)](glossaire.html#synchronised-audio-description-time-based-media) has been modified to remove the reference to the glossary entry "extended audio description", which does not exist in RAWeb (definition associated with a triple A level criterion not present in the RAWeb).
 
-Note 2 in the RAWeb1:
+Note 2 in the RAWeb&nbsp;1:
 
 <blockquote>
 
@@ -1538,7 +1538,7 @@ Note 2 in the RAWeb1:
 
 </blockquote>
 
-Note 2 in RAWeb1.1: 
+Note 2 in RAWeb&nbsp;1.1: 
 
 <blockquote>
 
@@ -1566,7 +1566,7 @@ Otherwise, the value of the `<title>` element for the `<svg>` element.
 
 Note 4 is modified to remove the reference to the `<title>` element.
 
-Note 4 in RAWeb1:
+Note 4 in RAWeb&nbsp;1:
 
 <blockquote>
 
@@ -1574,7 +1574,7 @@ Note 4: for vector images (`<svg>` tag) the text alternative could also be prese
 
 </blockquote>
 
-Note 4 in RAWeb1.1: 
+Note 4 in RAWeb&nbsp;1.1: 
 
 <blockquote>
 
@@ -1586,7 +1586,7 @@ Note 4: for vector images (`<svg>` tag) the text alternative could also be prese
 
 Note 5 is deleted (and note 6 becomes note 5)
 
-Note 5 in RAWeb1:
+Note 5 in RAWeb&nbsp;1:
 
 <blockquote>
 
@@ -1608,7 +1608,7 @@ Note 2: The `<bgsound>` element is specific to Internet Explorer and should not 
 
 The glossary entry [Visible content](glossaire.html#visible-content) has been modified to accompany the revision of [criterion 10.2](/en/raweb1.1/criteres.html#crit-10-2), carried out to facilitate understanding of the scope of the criterion.
 
-##### In RAWeb1
+##### In RAWeb&nbsp;1
 
 <blockquote>
 
@@ -1618,7 +1618,7 @@ Note: the practice of managing images as background properties of elements via C
 
 </blockquote>
 
-##### In RAWeb1.1
+##### In RAWeb&nbsp;1.1
 
 <blockquote>
 
