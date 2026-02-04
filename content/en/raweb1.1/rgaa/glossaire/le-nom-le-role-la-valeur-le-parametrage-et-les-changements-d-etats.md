@@ -16,7 +16,7 @@ Properties correspond to specific information about a component, generally provi
 
 Changes of state are also made available by WAI-ARIA. For example, `aria-expanded` is a state that tells APIs whether the component is "open" or "closed". Note that a state can also be transmitted via the name, when it is dynamically changed to correspond to the state of the controlled zone in particular.
 
-These properties are not mandatory, but may be required if they are essential to make the component accessible. It is up to the auditor to consider the cases where these properties are essential, depending on the context in which the component is used.
+These properties are not mandatory but may be required if they are essential to make the component accessible. It is up to the auditor to consider the cases where these properties are essential, depending on the context in which the component is used.
 
 The auditor must also check that, where they are present, these properties are used correctly.
 

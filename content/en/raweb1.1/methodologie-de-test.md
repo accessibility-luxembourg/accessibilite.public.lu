@@ -144,7 +144,7 @@ This rate indicates the percentage of criteria met by the online service.
 The percentage of criteria met is obtained by dividing the number of validated criteria by the number of applicable criteria.
 
   * Validated criterion: a criterion is validated if it is validated on all the pages in the sample. If a criterion is invalidated on only one page in the sample, it cannot be considered valid for calculating the rate.
-  * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one page in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the pages oin the sample without exception.
+  * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one page in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the pages in the sample without exception.
 
 This compliance rate determines the compliance status to be mentioned in the [accessibility statement](../obligations.md#content-of-the-accessibility-statement).
 

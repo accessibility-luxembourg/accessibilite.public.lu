@@ -18,7 +18,7 @@ The combinations have been established on the basis of the list of assistive tec
 
 The operating systems selected are Windows and macOS and the Firefox, Chrome, Edge and Safari browsers. It is the auditor's responsibility to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used when developing the site. The assistive technology versions to be used will be either the latest available on the operating system selected or the previous version.
 
-When the site or application is intended for a public whose equipment is controlled, the tests will have to be carried out on a test environment adapted to the context of the controlled environment.
+When the site or application is intended for a public, whose equipment is controlled, the tests will have to be carried out on a test environment adapted to the context of the controlled environment.
 
 For an HTML / WAI-ARIA device or its alternative to be considered compatible with accessibility, it must be fully functional, in terms of rendering and accessibility features, on all of the following configurations.
 

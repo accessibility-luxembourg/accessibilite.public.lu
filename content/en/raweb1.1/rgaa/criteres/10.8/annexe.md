@@ -17,7 +17,7 @@ Norm:
 
 #### Technical notes
 
-WAI-ARIA offers an `aria-hidden` attribute (`true` or `false`) which makes it possible to inhibit the rendering of content to assistive technologies, without affecting its visibility to user agents: content with `aria-hidden="true"` will therefore no longer be vocalisable, but will remain visible.
+WAI-ARIA offers an `aria-hidden` attribute (`true` or `false`) which makes it possible to inhibit the rendering of content to assistive technologies, without affecting its visibility to user agents: content with `aria-hidden="true"` will therefore no longer be renderable but will remain visible.
 
 Unless the content controlled by `aria-hidden` is not intended to be rendered by assistive technologies, the value of the `aria-hidden` attribute must be consistent with the displayed or hidden state of the content on the screen.
 

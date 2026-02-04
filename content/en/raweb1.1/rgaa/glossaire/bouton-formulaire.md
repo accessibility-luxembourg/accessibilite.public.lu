@@ -24,11 +24,11 @@ The accessible name of a button can be of six types:
 Important note: when several of these techniques are present on the same button, the calculation of the "accessible name", i.e. what will be rendered, follows a strict order:
 
 - `aria-labelledby`;
-- Otherwise `aria-label`;
-- Otherwise `alt` for `image` <span lang="en">inputs</span>;
-- Otherwise `value` for `submit`, `reset` or `button` <span lang="en">input</span>;
-- Otherwise the content of the `<button>` tag;
-- Otherwise `title`.
+- otherwise `aria-label`;
+- otherwise `alt` for `image` <span lang="en">inputs</span>;
+- otherwise `value` for `submit`, `reset` or `button` <span lang="en">input</span>;
+- otherwise the content of the `<button>` tag;
+- otherwise `title`.
 
 This order should be used to assess the relevance of the button's "accessible name". For example, even if there is a `title` and a passage of text referenced by `aria-labelledby` on the same button, it is the passage of text referenced by `aria-labelledby` that should be evaluated.
 

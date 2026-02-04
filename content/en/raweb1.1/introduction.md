@@ -14,7 +14,7 @@ Some tests, in particular those concerning user interface components developed i
 
 The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1.1](../raam1.1/index.html).
 
-The current version is version 1.1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service](https://sip.gouvernement.lu/en.html) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
+The current version is version 1.1 and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service](https://sip.gouvernement.lu/en.html) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
 If you find any issue in this framework, feel free to create a ticket in this repository.
 
 ### Contents
