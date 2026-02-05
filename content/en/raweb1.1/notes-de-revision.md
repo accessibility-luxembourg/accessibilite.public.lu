@@ -75,7 +75,9 @@ Test 1.2.2 Does each non-clickable decoration area (`<area>` tag without an `hre
 
 ###### In RAWeb&nbsp;1.1
 
-<blockquote>Test 1.2.1 Does each decorative image (`<img>` tag), without image caption, meet one of these conditions?
+<blockquote>
+
+Test 1.2.1 Does each decorative image (`<img>` tag), without image caption, meet one of these conditions? 
 
 - The `<img>` tag has an empty `alt` attribute (`alt=""`) and no other attribute to provide a text alternative.
 - The `<img>` tag has a WAI-ARIA `aria-hidden="true"` attribute.
@@ -91,7 +93,7 @@ Test 1.2.2 Does each non-clickable decoration area (`<area>` tag without `href` 
 
 ##### Removal of test conditions on `<svg>` element naming properties
 
-In [test 1.2.4](/en/raweb1.1/criteres.html#test-1-2-4), RAWeb&nbsp;1 required testing for the absence of a naming method for the element `<svg>` even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
+In [test 1.2.4](/en/raweb1.1/criteres.html#test-1-2-4), RAWeb&nbsp;1 required testing for the absence of a naming method for the `<svg>` element even in the presence of an `aria-hidden="true"` property. Recent tests on the testing environment have shown that, even in the presence of a naming method, the mere presence of the `aria-hidden="true"` property is sufficient for the image to be ignored. It is no longer necessary to check for the absence of a naming method.
 
 The methodology has been modified accordingly.
 
@@ -148,7 +150,7 @@ The adjacent detailed description may be implemented via a `<figcaption>` tag, i
 
 #### 1.9 
 
-In RAWeb&nbsp;1, the tests for [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) required always checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
+In RAWeb&nbsp;1, the tests for [criterion 1.9](/en/raweb1.1/criteres.html#crit-1-9) always required checking for the presence of a `role="group"` or `role="figure"` and a WAI-ARIA `aria-label` attribute on the `<figure>` tag. 
 
 Recent tests on the testing environment have shown that captioned images are correctly identified and presented to users with the simple implementation of `<figure>` and `<figcaption>`. 
 
@@ -213,7 +215,7 @@ The testing methodologies for [criterion 3.1](/en/raweb1.1/criteres.html#crit-3-
 
 #### 4.1 
 
-The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit-4-1) has been amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of temporary media published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+The specific case referred to in [criterion 4.1](/en/raweb1.1/criteres.html#crit-4-1) has been amended to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) in order to make the exemption of temporary media published before 23 September 2020 conditional only on public sector bodies subject to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 ##### In RAWeb&nbsp;1
 
@@ -269,7 +271,7 @@ Live synchronised time-based media broadcast via a website subject to the law of
 
 #### 4.4
 
-[Criterion 4.4](/en/raweb1.1/criteres.html#crit-4-4) is amended to take into account the entry into force of the [Act of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), which does not grant exemptions for live multimedia content. 
+[Criterion 4.4](/en/raweb1.1/criteres.html#crit-4-4) is amended to take into account the entry into force of the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), which does not grant exemptions for live multimedia content. 
 
 - The criterion has been reworded to remove the notion of "pre-recorded". 
 - [Test 4.4.2](/en/raweb1.1/criteres.html#test-4-4-2) has been created with its testing methodology.
@@ -321,13 +323,13 @@ For the record, the methodology condition referencing the attribute in RAWeb&nbs
 
 #### 6.1
 
-[Test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6) is created following the modification of the glossary note [Accessible name of a link](#accessible-name-of-a-link): one of the five notes removed, transformed into a test.
+[Test 6.1.6](/en/raweb1.1/criteres.html#test-6-1-6) is created following the modification of the glossary note [accessible name of a link](#accessible-name-of-a-link): one of the five notes removed, transformed into a test.
 
 #### 6.2
 
 The title of [test 6.2.1](/en/raweb1.1/criteres.html#test-6-2-1) has been modified, as has its methodology, to limit it to searching for links without accessible names.
 
-This change accompanies the change to the glossary note [Accessible name of a link](glossaire.html#accessible-name-of-a-link), which no longer requires criteria 6.2 and 10.2 to be invalidated in cases where a link has no content between the tags. [Criterion 6.2](/en/raweb1.1/criteres.html#crit-6-2) now only concerns the presence of an accessible name.
+This change accompanies the change to the glossary note [accessible name of a link](glossaire.html#accessible-name-of-a-link), which no longer requires criteria 6.2 and 10.2 to be invalidated in cases where a link has no content between the tags. [Criterion 6.2](/en/raweb1.1/criteres.html#crit-6-2) now only concerns the presence of an accessible name.
 
 ##### In RAWeb&nbsp;1
 
@@ -363,7 +365,7 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) h
 
 <blockquote>
 
-1. For each user interface component that has passed the 7.1.1 test, check that the user interface component has
+1. For each user interface component that has passed test 7.1.1, check that the user interface component has
 - a relevant name;
 - a relevant role.
 
@@ -371,7 +373,7 @@ The testing methodology of [test 7.1.3](/en/raweb1.1/criteres.html#test-7-1-3) h
 
 #### 7.3
 
-The testing methodology of [test 7.3.1](/en/raweb1.1/criteres.html#test-7-3-1) has been modified in accordance with the modification of the glossary entry [Accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <kbd>Enter</kbd> key alone.
+The testing methodology of [test 7.3.1](/en/raweb1.1/criteres.html#test-7-3-1) has been modified in accordance with the modification of the glossary entry [accessible and operable by keyboard and any pointing device](glossaire.html##accessible-and-operable-by-keyboard-and-any-pointing-device), so as not to restrict keyboard activation to the <kbd>Enter</kbd> key alone.
 
 ##### In RAWeb&nbsp;1
 
@@ -448,6 +450,7 @@ The `<main>` tag can be used several times in the same HTML document. However, t
 <blockquote>
 
 On each web page, does the document structure meet these conditions (excluding special cases)?
+
 - The page header region is structured using a `<header>` tag.
 - The main and secondary navigation regions are implemented using a `<nav>` tag.
 - The `<nav>` tag is reserved for structuring the main and secondary navigation regions.
@@ -460,12 +463,15 @@ On each web page, does the document structure meet these conditions (excluding s
 ###### In RAWeb&nbsp;1.1
 
 <blockquote>
-On each web page, do the key regions of the page that make up the document structure meet these conditions? 
+
+On each web page, do the key regions of the page that make up the document structure meet these conditions?
+
 - The element containing the page header region has a computed role of `banner`.
 - The elements containing the primary and secondary navigation regions have a computed role of `navigation`.
 - The element containing the search engine region has a computed role of `search`.
 - The element containing the main content region has a computed role of `main`.
 - The element containing the footer region has a computed role of `contentinfo`.
+
 </blockquote>
 
 #### 10.1
@@ -493,7 +499,7 @@ The testing methodology of [test 10.1.2](/en/raweb1.1/criteres.html#test-10-1-2)
 
 [Criterion 10.2](/en/raweb1.1/criteres.html#crit-10-2) and [test 10.2.1](/en/raweb1.1/criteres.html#test-10-2-1) have been reworded to improve understanding of the requirement and the scope of evaluation. The testing methodology for test 10.2.1 has also been updated.
 
-This change accompanies the modification of the glossary note [Visible content](glossaire.html#visible-content).
+This change accompanies the modification of the glossary note [visible content](glossaire.html#visible-content).
 
 ##### Criterion 
 
@@ -804,9 +810,9 @@ Test 12.6.1: On each web page where they are present, do the header, main naviga
 
 <blockquote>
 
-Criterion 12.6: Can content grouping zones present on several web pages (with the exception of the main regions composing the document structure) be reached or avoided, if necessary?
+Criterion 12.6: Can content grouping blocks present on several web pages (with the exception of the main regions composing the document structure) be reached or avoided, if necessary?
 
-Test 12.6.1: Do the content grouping zones present on several web pages (with the exception of the main regions composing the document structure) meet at least one of these conditions, if necessary?
+Test 12.6.1: Do the content grouping blocks present on several web pages (with the exception of the main regions composing the document structure) meet at least one of these conditions, if necessary?
 
 </blockquote>
 
@@ -1095,7 +1101,7 @@ Test 16.2.1: Each support service meets the communication needs of people with d
 New links to WCAG criteria, techniques and failures are added in correspondence with certain RAWeb criteria: 
 
 - Criteria [4.1](criteres.html#crit-4-1), [4.2](criteres.html#crit-4-2), [4.5](criteres.html#crit-4-5) and [4.6](criteres.html#crit-4-6): [G226](https://www.w3.org/WAI/WCAG21/Techniques/general/G226)
-- Criteria [4.3](criteres.html#crit-4-3) and [4.4](criteres.html#crit-4-4): [1.2.4 Subtitles (live)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
+- Criteria [4.3](criteres.html#crit-4-3) and [4.4](criteres.html#crit-4-4): [1.2.4 Captions (live)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
 - Criterion [4.3](criteres.html#crit-4-3) and [4.4](criteres.html#crit-4-3): [G9](https://www.w3.org/WAI/WCAG21/Techniques/general/G9)
 - Criteria [4.5](criteres.html#crit-4-5) and [4.6](criteres.html#crit-4-6): [F113](https://www.w3.org/WAI/WCAG21/Techniques/failures/F113)
 - Criteria [5.1](criteres.html#crit-5-1) and [5.2](criteres.html#crit-5-2): [H39](https://www.w3.org/WAI/WCAG21/Techniques/html/H39).
@@ -1109,22 +1115,22 @@ New links to WCAG criteria, techniques and failures are added in correspondence 
 
 Other techniques and failures have been removed: 
 
-- Criteria [4.8](criteres.html#crit-4-8) and [4.9](criteres.html#crit-4-9): removal of link [H46](https://www.w3.org/WAI/WCAG21/Techniques/html/H46). This technique has been classified as obsolete by the AG working group.
-- Criteria [5.1](criteres.html#crit-5-1) and [5.2](criteres.html#crit-5-2): removal of link [H73](https://www.w3.org/WAI/WCAG21/Techniques/html/H73). This technique has been classified as obsolete by the AG working group.
-- Criterion [7.1](criteres.html#crit-7-1): removal of link [SCR21](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21). This technique has been abandoned by the AG working group because it has no impact on accessibility.
+- Criteria [4.8](criteres.html#crit-4-8) and [4.9](criteres.html#crit-4-9): removal of link [H46](https://www.w3.org/WAI/WCAG21/Techniques/html/H46). This technique has been classified as obsolete by the AG WG.
+- Criteria [5.1](criteres.html#crit-5-1) and [5.2](criteres.html#crit-5-2): removal of link [H73](https://www.w3.org/WAI/WCAG21/Techniques/html/H73). This technique has been classified as obsolete by the AG WG.
+- Criterion [7.1](criteres.html#crit-7-1): removal of link [SCR21](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21). This technique has been abandoned by the AG WG because it has no impact on accessibility.
 - Criterion [7.4](criteres.html#crit-7-4): 
-  - Removal of links [F9](https://www.w3.org/WAI/WCAG21/Techniques/failures/F9) and [F22](https://www.w3.org/WAI/WCAG21/Techniques/failures/F22). These failures are related to triple A criterion [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
-  - Removal of the link [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). This technique is related to the triple A criteria [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) and [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
+  - Removal of links [F9](https://www.w3.org/WAI/WCAG21/Techniques/failures/F9) and [F22](https://www.w3.org/WAI/WCAG21/Techniques/failures/F22). These failures are related to triple A criterion [3.2.5 Change on request](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
+  - Removal of the link [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). This technique is related to the triple A criteria [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) and [3.2.5 Change on request](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
 - Criterion [9.3](criteres.html#crit-9-3): 
   - Removal of link [G153](https://www.w3.org/WAI/WCAG21/Techniques/general/G153). This technique is related to triple A criterion [3.1.5 Reading Level](https://www.w3.org/Translations/WCAG22-fr/#reading-level).
-  - Removal of link [H40](https://www.w3.org/WAI/WCAG21/Techniques/html/H40). This technique is related to triple A criterion [3.1.3 Rare words](https://www.w3.org/Translations/WCAG22-fr/#unusual-words).
-- Criterion [10.2](criteres.html#crit-10-2): removal of link [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87). The failure has been classified as obsolete by the AG working group.
-- Criterion [12.8](criteres.html#crit-12-8): removal of links [SCR37](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37) and [H4](https://www.w3.org/WAI/WCAG21/Techniques/html/H4). These techniques have been classified as obsolete by the AG working group.
+  - Removal of link [H40](https://www.w3.org/WAI/WCAG21/Techniques/html/H40). This technique is related to triple A criterion [3.1.3 Unusual words](https://www.w3.org/Translations/WCAG22-fr/#unusual-words).
+- Criterion [10.2](criteres.html#crit-10-2): removal of link [F87](https://www.w3.org/WAI/WCAG21/Techniques/failures/F87). The failure has been classified as obsolete by the AG WG.
+- Criterion [12.8](criteres.html#crit-12-8): removal of links [SCR37](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37) and [H4](https://www.w3.org/WAI/WCAG21/Techniques/html/H4). These techniques have been classified as obsolete by the AG WG.
 - Criterion [13.1](criteres.html#crit-13-1): 
-  - Removal of links [F61](https://www.w3.org/WAI/WCAG21/Techniques/failures/F61), [G110](https://www.w3.org/WAI/WCAG21/Techniques/general/G110), [H76](https://www.w3.org/WAI/WCAG21/Techniques/html/H76) and [SVR1](https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1). These techniques and failures are related to the triple A criterion [3.2.5 Change on demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
+  - Removal of links [F61](https://www.w3.org/WAI/WCAG21/Techniques/failures/F61), [G110](https://www.w3.org/WAI/WCAG21/Techniques/general/G110), [H76](https://www.w3.org/WAI/WCAG21/Techniques/html/H76) and [SVR1](https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1). These techniques and failures are related to the triple A criterion [3.2.5 Change on request](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
   - Removal of the link [G75](https://www.w3.org/WAI/WCAG21/Techniques/general/G75). This technique is related to the triple A criterion [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions).
   - Removal of link [G76](https://www.w3.org/WAI/WCAG21/Techniques/general/G76). This technique is related to triple A criteria [2.2.4 Interruptions](https://www.w3.org/Translations/WCAG22-fr/#interruptions) and [3.2.5 Change on Demand](https://www.w3.org/Translations/WCAG22-fr/#change-on-request).
-- Criterion [13.8](criteres.html#crit-13-8): removal of links [G187](https://www.w3.org/WAI/WCAG21/Techniques/general/G187), [F4](https://www.w3.org/WAI/WCAG21/Techniques/failures/F4), [F47](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47). Failures have been classified as obsolete by the AG working group.
+- Criterion [13.8](criteres.html#crit-13-8): removal of links [G187](https://www.w3.org/WAI/WCAG21/Techniques/general/G187), [F4](https://www.w3.org/WAI/WCAG21/Techniques/failures/F4), [F47](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47). Failures have been classified as obsolete by the AG WG.
 
 ### Glossary
 
