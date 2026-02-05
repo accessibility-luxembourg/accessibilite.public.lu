@@ -1,4 +1,4 @@
-*Version 1.1, published on xx 2026*
+*Version 1.1, published on 6 February 2026*
 
 According to the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), all websites and mobile applications of Luxembourg public sector bodies must be accessible. The [Information and Press Service](https://sip.gouvernement.lu/en.html) is responsible for monitoring their compliance with accessibility requirements. Furthermore, the [law of 8 March 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo) extends this obligation to certain types of products and services. Monitoring their accessibility is the responsibility of the [OSAPS](https://accessibilite-produits-services.public.lu/en.html).
 

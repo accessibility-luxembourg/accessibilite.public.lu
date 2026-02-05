@@ -1052,7 +1052,7 @@ A list of non-compliances or a description of non-compliant items.
 
 <blockquote>
 
-Does each editing tool that creates content distributed in a mobile application allow you to define the accessibility information needed to create content that complies with the RAAM?
+Does each editing tool that creates content distributed in a mobile application allow you to define the accessibility information needed to create content that complies with RAAM?
 
 </blockquote>
 
@@ -1486,7 +1486,7 @@ Mandatory field indication
 
 Textual or graphic indication (icon) letting the user know that a field is mandatory before entering it.
 
-Note: If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the order of the source code, before the indication is used for the first
+Note: If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in the order of the source code, before the indication is used for the first time.
 
 </blockquote>
 
@@ -1534,9 +1534,9 @@ The `width` and `height` attributes are prohibited except on `<canvas>`, `<embed
 
 #### Synchronised audio description (time-based media)
 
-Note 2 of the glossary entry [Synchronised audio description (time-based media)](glossaire.html#synchronised-audio-description-time-based-media) has been modified to remove the reference to the glossary entry "extended audio description", which does not exist in RAWeb (definition associated with a triple A level criterion not present in the RAWeb).
+Note 2 of the glossary entry [Synchronised audio description (time-based media)](glossaire.html#synchronised-audio-description-time-based-media) has been modified to remove the reference to the glossary entry "extended audio description", which does not exist in RAWeb (definition associated with a triple A level criterion not present in RAWeb).
 
-Note 2 in the RAWeb&nbsp;1:
+Note 2 in RAWeb&nbsp;1:
 
 <blockquote>
 
