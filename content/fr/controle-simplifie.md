@@ -1,12 +1,12 @@
 ### Introduction
-Chaque état membre de l’UE peut définir sa propre méthode de contrôle simplifié, mais cette méthode doit répondre aux exigences définies dans la [décision d'exécution UE 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). L’objectif de cette méthode de contrôle simplifié est de détecter des non-conformités, elle ne vise pas l’exhaustivité du contrôle approfondi. Cette méthode est fondée sur un [sous-ensemble de critères du RAWeb](../raweb1/audit-simpl.html) appliqués à un échantillon de 3 pages.
+Chaque état membre de l’UE peut définir sa propre méthode de contrôle simplifié, mais cette méthode doit répondre aux exigences définies dans la [décision d'exécution UE 2018/1524](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018D1524). L’objectif de cette méthode de contrôle simplifié est de détecter des non-conformités, elle ne vise pas l’exhaustivité du contrôle approfondi. Cette méthode est fondée sur un [sous-ensemble de critères du RAWeb](../raweb1.1/audit-simpl.html) appliqués à un échantillon de 3 pages.
 
 ### Méthode de contrôle simplifié de sites
 
 #### Outils recommandés pour les tests
 La méthode de contrôle peut être réalisée sans les outils suivants. Cependant la décision d'exécution UE 2018/1524 encourage fortement la mise en oeuvre de tests semi-automatisés. Nous recommandons donc les outils suivant pour mener les tests : 
 
-- les outils recommandés dans la [méthodologie de test du RAWeb](../../../html/fr/raweb1/methodo-test.html#outils)
+- les outils recommandés dans la [méthodologie de test du RAWeb](../../fr/raweb1.1/methodo-test.html#outils)
 - [L’extension de navigateur Axe](https://www.deque.com/axe/browser-extensions/)
 
 Ces outils sont gratuits et open sources, ou basés sur des technologies open sources.
@@ -47,12 +47,12 @@ Lorsque l’ensemble des critères de la checklist ont été testés, il est né
 #### Checklist
 ##### Critères testables semi-automatiquement
 Lancer les tests avec l’extension Axe et ne relever que les résultats correspondant aux règles Axe suivantes. L’identifiant de la règle Axe est visible dans l’URL affichée au survol de chaque problème.
-Les bonnes pratiques ne correspondant pas à proprement parler à des problèmes d’accessibilité, elles peuvent être désactivées dans les réglages de l’extension Axe. La correspondance entre les règles Axe et les critères RAWeb est disponible dans le tableau ci-après ainsi que sur la [page reprenant l'ensemble des critères pour les tests simplifiés](../raweb1/audit-simpl.html).
+Les bonnes pratiques ne correspondant pas à proprement parler à des problèmes d’accessibilité, elles peuvent être désactivées dans les réglages de l’extension Axe. La correspondance entre les règles Axe et les critères RAWeb est disponible dans le tableau ci-après ainsi que sur la [page reprenant l'ensemble des critères pour les tests simplifiés](../raweb1.1/audit-simpl.html).
 
 ##### Critères testables manuellement
 
 Voici la liste des critères à tester manuellement : 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 3.1, 3.2, 4.1, 4.2, 4.3, 4.4, 4.8, 4.9, 4.10, 4.11, 5.6, 5.7, 6.1, 6.2,7.3, 8.4, 8.5, 8.6, 8.7, 8.8, 9.1, 9.2, 10.7, 10.9, 10.10, 10.14, 11.1, 11.2, 11.5, 11.6, 11.7, 11.10, 12.6, 12.7, 12.8, 12.9, 12.11, 13.1, 13.7, 13.8.
-Ces critères sont listés sur la page [audit simplifié – critères](../raweb1/audit-simpl.html).
+Ces critères sont listés sur la page [audit simplifié – critères](../raweb1.1/audit-simpl.html).
 Pour l’exécution des tests manuels, utiliser la méthodologie de test du RAWeb (un lien est fourni dans chaque test sur la page mentionnée précédemment).
 Si un problème d’accessibilité est détecté pendant l’audit manuel et ne correspond pas à un de ces critères, il est recommandé de mentionner ce problème dans le rapport.
 

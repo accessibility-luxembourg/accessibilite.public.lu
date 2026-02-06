@@ -20,9 +20,11 @@ mkdir -p ./dist/fr/rgaa4/files
 mkdir -p ./dist/fr/rgaa4.1/files
 mkdir -p ./dist/fr/rgaa4.1.2/files
 mkdir -p ./dist/fr/raweb1/files
+mkdir -p ./dist/fr/raweb1.1/files
 mkdir -p ./dist/fr/raam1
 mkdir -p ./dist/fr/raam1.1
 mkdir -p ./dist/fr/rapdf1
+mkdir -p ./dist/fr/rapdf1.1
 mkdir -p ./dist/fr/tools
 mkdir -p ./dist/fr/support
 mkdir -p ./dist/fr/monitoring
@@ -31,20 +33,24 @@ cp ./src/files/fr/rgaa4/* ./dist/fr/rgaa4/files
 cp ./src/files/fr/rgaa4.1/* ./dist/fr/rgaa4.1/files
 cp ./src/files/fr/rgaa4.1.2/* ./dist/fr/rgaa4.1.2/files
 cp ./src/files/fr/raweb1/* ./dist/fr/raweb1/files
+cp ./src/files/fr/raweb1.1/* ./dist/fr/raweb1.1/files
 cp ./src/files/fr/general/* ./dist/fr/files
 cp ./src/static/* ./dist
 
 
 mkdir -p ./dist/en/files
 mkdir -p ./dist/en/raweb1/files
+mkdir -p ./dist/en/raweb1.1/files
 mkdir -p ./dist/en/raam1    
 mkdir -p ./dist/en/raam1.1
 mkdir -p ./dist/en/rapdf1
+mkdir -p ./dist/en/rapdf1.1
 mkdir -p ./dist/en/tools
 mkdir -p ./dist/en/support
 mkdir -p ./dist/en/monitoring
 mkdir -p ./dist/en/news/og
 cp ./src/files/en/raweb1/* ./dist/en/raweb1/files
+cp ./src/files/en/raweb1.1/* ./dist/en/raweb1.1/files
 cp ./src/files/en/general/* ./dist/en/files
 
 node gen.js

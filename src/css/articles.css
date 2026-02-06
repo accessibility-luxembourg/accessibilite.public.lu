@@ -301,6 +301,10 @@ body article.news aside.more h2, body article.news aside.more h3 {
     margin: 0;
 }
 
+body article.news aside.more p {
+    margin: 1em;
+}
+
 body article.news aside.more ul {
     margin-left: 1em;
 }

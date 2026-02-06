@@ -140,7 +140,7 @@ The non-interference principle is identified in standard EN 301 549 in criterion
 
 The most useful tool is the code inspector available in every browser. It makes it easy to find the elements and attributes required for an accessibility test. Nowadays, development tools also offer features for accessing the properties of the accessibility tree exposed by the browser. However, this information does not replace the need for technical assistance when a criterion or test requires it.
 
-The assistive technologies listed in the chosen test environment constitute a second set of essential tools (see the section [Testing environment](environnement.html/#contenu)). They are required to ensure that accessible content (alternatives to images, link headings, table titles, etc.) is rendered correctly, particularly in cases where examining the code alone would not suffice.
+The assistive technologies listed in the chosen test environment constitute a second set of essential tools (see the section [Testing environment](environnement.html#contenu)). They are required to ensure that accessible content (alternatives to images, link headings, table titles, etc.) is rendered correctly, particularly in cases where examining the code alone would not suffice.
 
 Other tools are available to help search for content elements. They are often presented as browser extensions and can be used to explore one or more aspects of an accessibility test.
 

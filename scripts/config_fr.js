@@ -3,15 +3,20 @@ const lib = require('./common.js')
 const axeRgaa = require('./AxeRGAAmsg.json')
 const fs = require('fs')
 
+const criteresRAWeb11 = genNewRGAA.generateCriteria('./content/fr/raweb1.1')
+const niveauxRAWeb11 = require('../content/fr/raweb1.1/niveaux.json')
+const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1.1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
+
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
 const niveauxRAWeb1 = require('../content/fr/raweb1/niveaux.json')
 const dataRAWeb1 = {topics: criteresRAWeb1.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 const glossaryRAWeb1 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
-const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb1', '../../../html/fr/raweb1/')
+const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb1.1', '../../fr/raweb1.1/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
-const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../../html/fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb1/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb1.1/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 
 const criteres412 = genNewRGAA.generateCriteria('./content/fr/rgaa4.1.2')
 const niveaux = require('../content/fr/rgaa4.1.2/niveaux.json')
@@ -36,8 +41,10 @@ const config = {
         {"name": "luxembourgeois", "code": "lb"}
     ],
     "deprecation": {
-        "rgaa": ["<a href=\"../raweb1/index.html\">RAWeb 1</a>", "../raweb1/notes-revision.html"],
+        "rgaa": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
+        "raweb": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
         "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
+        "rapdf": ["<a href=\"../raam1.1/index.html\">RAPDF 1.1</a>", "../rapdf1.1/notes-revision.html"]
     },
     "mainMenu": [
         {
@@ -75,7 +82,7 @@ const config = {
                     "title": "Obligations d’accessibilité numérique",
                     "menu": "Les obligations",
                     "name": "obligations",
-                    "md": "./content/fr/raweb1/obligations.md", 
+                    "md": "./content/fr/raweb1.1/obligations.md", 
                     "prefix": ".." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
@@ -132,65 +139,65 @@ const config = {
         {
             "title": "Référentiel Web",
             "menu": "<span class='mobile-only'>Référentiel</span> Web",
-            "name": "raweb1",
+            "name": "raweb1.1",
             "children": [
                 {
-                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1) : Introduction",
+                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1.1) : Introduction",
                     "menu": "Introduction",
-                    "name": "raweb1/index",
-                    "md": "./content/fr/raweb1/introduction.md",
+                    "name": "raweb1.1/index",
+                    "md": "./content/fr/raweb1.1/introduction.md",
                     "prefix": "../.." 
                 },        
                 {
-                    "title": "RAWeb 1 : Critères et tests",
+                    "title": "RAWeb 1.1 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "raweb1/criteres", 
+                    "name": "raweb1.1/criteres", 
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
-                    "data": dataRAWeb1,
+                    "data": dataRAWeb11,
                     "prefix": "../.." ,
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
                 {
-                    "title": "RAWeb 1 : Glossaire",
+                    "title": "RAWeb 1.1 : Glossaire",
                     "menu": "Glossaire",
-                    "name": "raweb1/glossaire",
+                    "name": "raweb1.1/glossaire",
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
-                    "data": glossaryRAWeb1,
+                    "data": glossaryRAWeb11,
                     "prefix": "../.." ,
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
                 {
-                    "title": "RAWeb 1 : Méthodologie de test",
+                    "title": "RAWeb 1.1 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raweb1/methodo-test",
-                    "md": "./content/fr/raweb1/methodologie-de-test.md",
+                    "name": "raweb1.1/methodo-test",
+                    "md": "./content/fr/raweb1.1/methodologie-de-test.md",
                     "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
                 },                
                 {
-                    "title": "RAWeb 1 : Environnement de test",
+                    "title": "RAWeb 1.1 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raweb1/environnement",
-                    "md": "./content/fr/raweb1/environnement-de-test.md",
+                    "name": "raweb1.1/environnement",
+                    "md": "./content/fr/raweb1.1/environnement-de-test.md",
                     "prefix": "../.." 
                 },                        
                 {
-                    "title": "RAWeb 1 : Références",
+                    "title": "RAWeb 1.1 : Références",
                     "menu": "Références",
-                    "name": "raweb1/references",
-                    "md": "./content/fr/raweb1/references.md",                 
+                    "name": "raweb1.1/references",
+                    "md": "./content/fr/raweb1.1/references.md",                 
                     "prefix": "../.." 
                 },
                 {
-                    "title": "RAWeb 1 : Notes de révision",
+                    "title": "RAWeb 1.1 : Notes de révision",
                     "menu": "Notes de révision",
-                    "name": "raweb1/notes-revision",
-                    "md": "./content/fr/raweb1/notes-de-revision.md", 
+                    "name": "raweb1.1/notes-revision",
+                    "md": "./content/fr/raweb1.1/notes-de-revision.md", 
                     "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
@@ -205,7 +212,7 @@ const config = {
                 {
                     "title": "Critères pour le contrôle simplifié",
                     "menu": "Les critères pour le contrôle simplifié",
-                    "name": "raweb1/audit-simpl", 
+                    "name": "raweb1.1/audit-simpl", 
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
@@ -283,6 +290,123 @@ const config = {
         {
             "title": "Référentiel PDF",
             "menu": "<span class='mobile-only'>Référentiel</span> PDF",
+            "name": "rapdf1.1",
+            "children": [ 
+                {
+                    "title": "Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1.1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "rapdf1.1/index",
+                    "md": "./content/fr/rapdf1.1/introduction.md", 
+                    "prefix": "../.." 
+                },                
+                {
+                    "title": "RAPDF 1.1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "rapdf1.1/referentiel-technique",
+                    "md": "./content/fr/rapdf1.1/referentiel-technique.md",
+                    "prefix": "../.." , 
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques"
+                }, 
+                {
+                    "title": "RAPDF 1.1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "rapdf1.1/glossaire",
+                    "md": "./content/fr/rapdf1.1/glossaire.md",
+                    "prefix": "../.." ,            
+                    "slugify": "slugifyA42", 
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index"
+                },                          
+                {
+                    "title": "RAPDF 1.1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "rapdf1.1/methodologie",
+                    "md": "./content/fr/rapdf1.1/methodologie.md",
+                    "prefix": "../.." , 
+                    "slugify": "slugifyA42"
+                },
+                {
+                    "title": "RAPDF 1.1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "rapdf1.1/environnement",
+                    "md": "./content/fr/rapdf1.1/environnement.md",
+                    "prefix": "../.." 
+                },  
+                {
+                    "title": "RAPDF 1.1 : Références",
+                    "menu": "Références",
+                    "name": "rapdf1.1/references",
+                    "md": "./content/fr/rapdf1.1/references.md",
+                    "prefix": "../.."  
+                },
+                {
+                    "title": "RAPDF 1.1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "rapdf1.1/notes-revision",
+                    "md": "./content/fr/rapdf1.1/notes-de-revision.md", 
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
+                },
+            ]
+        }
+    ],
+    "footer": [
+        {
+            "title": "Licence",
+            "menu": "Licence",
+            "name": "licence",
+            "md": "./content/fr/licence.md",
+            "prefix": ".." 
+        }, 
+        {
+            "title": "Déclaration d'accessibilité",
+            "menu": "Déclaration d'accessibilité",
+            "name": "support/accessibilite",
+            "md": "./content/fr/accessibilite.md", 
+            "prefix": "../.." 
+        }, 
+        {
+            "title": "Aspects légaux",
+            "menu": "Aspects légaux",
+            "name": "aspects-legaux",
+            "md": "./content/fr/mentions-legales.md",
+            "prefix": ".." 
+        },        
+        {
+            "title": "Plan du site",
+            "menu": "Plan du site",
+            "name": "plan-site"
+        },
+        {
+            "title": "Nous contacter", 
+            "menu": "Contact",
+            "name": "contact",
+            "md": "./content/fr/contact.md", 
+            "prefix": ".." 
+        }                
+    ], 
+    "hidden": [
+        {
+            "title": "Erreur 404",
+            "name": "404",
+            "md": "./content/fr/404.md",
+            "prefix": ".." 
+        },
+        {
+            "title": "Inscription à la newsletter",
+            "name": "nl-subscribe",
+            "md": "./content/nl-subscribe.md",
+            "html": true,
+            "prefix": ".."
+        }             
+    ],
+    "deprecated": [
+        {
+            "title": "Référentiel PDF",
+            "menu": "<span class='mobile-only'>Référentiel</span> PDF",
             "name": "rapdf1",
             "children": [ 
                 {
@@ -335,59 +459,7 @@ const config = {
                     "prefix": "../.."  
                 }
             ]
-        }
-    ],
-    "footer": [
-        {
-            "title": "Licence",
-            "menu": "Licence",
-            "name": "licence",
-            "md": "./content/fr/licence.md",
-            "prefix": ".." 
-        }, 
-        {
-            "title": "Déclaration d'accessibilité",
-            "menu": "Déclaration d'accessibilité",
-            "name": "support/accessibilite",
-            "md": "./content/fr/accessibilite.md", 
-            "prefix": "../.." 
-        }, 
-        {
-            "title": "Aspects légaux",
-            "menu": "Aspects légaux",
-            "name": "aspects-legaux",
-            "md": "./content/fr/mentions-legales.md",
-            "prefix": ".." 
-        },        
-        {
-            "title": "Plan du site",
-            "menu": "Plan du site",
-            "name": "plan-site"
         },
-        {
-            "title": "Nous contacter", 
-            "menu": "Contact",
-            "name": "contact",
-            "md": "./content/fr/contact.md", 
-            "prefix": ".." 
-        }                
-    ], 
-    "hidden": [
-        {
-            "title": "Erreur 404",
-            "name": "404",
-            "md": "./content/fr/404.md",
-            "prefix": ".." 
-        },
-        {
-            "title": "Inscription à la newsletter",
-            "name": "nl-subscribe",
-            "md": "./content/nl-subscribe.md",
-            "html": true,
-            "prefix": "../.."
-        }             
-    ],
-    "deprecated": [
         {
             "title": "RGAA 4.1.2",
             "name": "rgaa4.1.2",
@@ -566,6 +638,74 @@ const config = {
                     "name": "rgaa4.1/notes-revision",
                     "md": "./content/fr/rgaa4.1/notes-revision.md", 
                     "prefix": "../.." 
+                }
+            ]
+        },
+        {
+            "title": "Référentiel Web",
+            "menu": "<span class='mobile-only'>Référentiel</span> Web",
+            "name": "raweb1",
+            "children": [
+                {
+                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "raweb1/index",
+                    "md": "./content/fr/raweb1/introduction.md",
+                    "prefix": "../.." 
+                },        
+                {
+                    "title": "RAWeb 1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "raweb1/criteres", 
+                    "type": "criteres",
+                    "template": "criteria-new.ejs", 
+                    "data": dataRAWeb1,
+                    "prefix": "../.." ,
+                    "genSummary": "ol",
+                    "summaryTitle": "Thématiques"
+                },
+                {
+                    "title": "RAWeb 1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "raweb1/glossaire",
+                    "type": "glossaire",
+                    "template": "glossary-new.ejs", 
+                    "data": glossaryRAWeb1,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
+                    "summaryTitle": "Index"
+                }, 
+                {
+                    "title": "RAWeb 1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "raweb1/methodo-test",
+                    "md": "./content/fr/raweb1/methodologie-de-test.md",
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
+                },                
+                {
+                    "title": "RAWeb 1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "raweb1/environnement",
+                    "md": "./content/fr/raweb1/environnement-de-test.md",
+                    "prefix": "../.." 
+                },                        
+                {
+                    "title": "RAWeb 1 : Références",
+                    "menu": "Références",
+                    "name": "raweb1/references",
+                    "md": "./content/fr/raweb1/references.md",                 
+                    "prefix": "../.." 
+                },
+                {
+                    "title": "RAWeb 1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "raweb1/notes-revision",
+                    "md": "./content/fr/raweb1/notes-de-revision.md", 
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
                 }
             ]
         },
