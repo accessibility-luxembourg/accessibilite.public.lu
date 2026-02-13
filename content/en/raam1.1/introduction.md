@@ -25,5 +25,6 @@ If you find any issues with this framework, you can create a ticket in this repo
 - [Glossary](glossaire.md)
 - [Testing methodology](methodologie.md)
 - [Testing environment](environnement.md)
+- [Changelog](notes-revision.md)
 - [References](references.md)
 

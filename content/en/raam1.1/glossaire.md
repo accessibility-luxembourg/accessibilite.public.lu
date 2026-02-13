@@ -22,7 +22,7 @@ An editing tool should have functions that enable all the information needed to 
 - the ability to define the language of a passage of text;
 - the ability to define form field labels.
 
-All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the [RAWeb](../raweb1/criteres.html) level A and AA criteria must be met. For the production of a PDF document, it must be possible to meet all the criteria of the PDF Accessibility Assessment Framework ([RAPDF](../rapdf1/index.html)) levels A and AA. For an application, all the criteria in this framework must be met.
+All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the [RAWeb](../raweb1.1/criteres.html) level A and AA criteria must be met. For the production of a PDF document, it must be possible to meet all the criteria of the PDF Accessibility Assessment Framework ([RAPDF](../rapdf1.1/index.html)) levels A and AA. For an application, all the criteria in this framework must be met.
 
 #### Accessible and operable by keyboard and any pointing device
 
@@ -57,7 +57,7 @@ Downloadable documents whose format types are recognised as compatible with acce
 - Adobe PDF;
 - ePub/Daisy.
 
-PDF documents must comply with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1/index.html).
+PDF documents must comply with the [PDF accessibility assessment framework (RAPDF 1)](../rapdf1.1/index.html).
 Other types of content must comply with the criteria of [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1.
 
 **Note:** TXT format cannot be used to produce an accessible version for a downloadable document.
@@ -250,7 +250,7 @@ Content associated with a [graphic element](#graphic-element) in addition to its
 
 #### Digital accessibility rules 
 
-The generic term "digital accessibility rules" refers to the <a href="https://accessibilite.public.lu/en/raweb1/index.html">RAWeb</a>, the <a href="https://accessibilite.public.lu/en/raam1/index.html">RAAM</a>, the RAPDF or the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 standard</a>, depending on the context of use.
+The generic term "digital accessibility rules" refers to the <a href="https://accessibilite.public.lu/en/raweb1.1/index.html">RAWeb</a>, the <a href="https://accessibilite.public.lu/en/raam1/index.html">RAAM</a>, the RAPDF or the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 standard</a>, depending on the context of use.
 
 #### Documentation 
 

@@ -86,13 +86,13 @@ langs.forEach(lang => {
     lib.renderHome(config, lang, home, articles.slice(0, 3), outputPath, __)
 
     // generate site outline
-    lib.genFile(config, './src/tpl/outline.ejs',{config: config, lang: lang}, __("Sitemap"), lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '../..', __)
+    lib.genFile(config, './src/tpl/outline.ejs',{config: config, lang: lang}, __("Sitemap"), lang, outputPath+"/"+lang+"/plan-site.html", "plan-site", '..', __)
 
     // generate declaration form
-    let declaPayload = {langs: config[lang].declaLangs, prefix: "../../..", tpl: []};
+    let declaPayload = {langs: config[lang].declaLangs, prefix: "../..", tpl: []};
     config[lang].declaLangs.forEach(e => {
         declaPayload["tpl"][e.code] = fs.readFileSync('./src/tpl/decla_'+e.code+'.ejs')
     });
-    lib.genFile(config, './src/tpl/decla-form.ejs',declaPayload, __("Create your statement"), lang, outputPath+"/"+lang+"/tools/decla.html", "tools/decla", "../../..", __)
+    lib.genFile(config, './src/tpl/decla-form.ejs',declaPayload, __("Create your statement"), lang, outputPath+"/"+lang+"/tools/decla.html", "tools/decla", "../..", __)
 
 })

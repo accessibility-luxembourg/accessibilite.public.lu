@@ -6,7 +6,7 @@ This accessibility statement applies to: <span class="basic-information website-
 <p>Everyone should be able to easily use and consult the information on a website or an app, in particular people with disabilities and/or using assistive software or specialised equipment (blind, partially sighted or otherwise disabled people).</p>
 <h2>Compliance status</h2>
 <p class="basic-information conformance-status total">
-This website is <strong>fully compliant</strong> with the European Standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> and <a href="https://accessibilite.public.lu/en/raweb1/" hreflang="en">the Framework for Assessing Web-Accessibility (RAWeb) version 1</a> implementing it.
+This website is <strong>fully compliant</strong> with the European Standard <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549</a> and <a href="https://accessibilite.public.lu/en/raweb1.1/" hreflang="en">the Framework for Assessing Web-Accessibility (RAWeb) version 1.1</a> implementing it.
 </p>
 <h2>Non-accessible content</h2>
 <p>The content listed below is non-accessible for the following reason(s):</p>
@@ -15,7 +15,7 @@ This website is <strong>fully compliant</strong> with the European Standard <a h
 <h2>Preparation of this accessibility statement</h2>
 <p>
 This statement was prepared on <span class="basic-information statement-created-date">14 August 2020</span>.
-The declarations contained in this statement are accurate and based on an actual evaluation of this website compliance with the requirements defined in <a href="https://accessibilite.public.lu/en/raweb1/" hreflang="en">RAWeb 1</a>, such as an assessment carried out by a third-party: Ideance. The statement was last reviewed on <span class="basic-information statement-renewal-date">25 November 2024</span>. 
+The declarations contained in this statement are accurate and based on an actual evaluation of this website compliance with the requirements defined in <a href="https://accessibilite.public.lu/en/raweb1.1/" hreflang="en">RAWeb 1.1</a>, such as an assessment carried out by a third-party: Ideance. The statement was last reviewed on <span class="basic-information statement-renewal-date">25 November 2024</span>. 
 </p>	
 <h2>Feedback and contact information</h2>
 <p class="basic-information feedback h-card">If you notice a lack of accessibility, send us an email to <a class="email u-email" href="mailto:accessibilite@sip.etat.lu">accessibilite@sip.etat.lu</a>: describe your problem and specify the page on which it occured.

@@ -1,4 +1,4 @@
-<script type="module" src="../../../js/cdc.js"></script>
+<script type="module" src="../../js/cdc.js"></script>
 
 L'accessibilité numérique est souvent vue comme un surcoût lorsque le premier contact avec cette discipline intervient sur un projet existant pour lequel l'accessibilité n'avait jusqu'à présent pas été prise en compte. À titre de comparaison avec le milieu de la construction, on dit souvent qu'il est bien plus coûteux d'ajouter un ascenseur dans un bâtiment existant que de le prévoir dès le début dans le projet.
 

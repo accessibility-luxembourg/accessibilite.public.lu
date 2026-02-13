@@ -15,8 +15,8 @@ Luxembourg
   <dd><a href="https://mas.to/@accessibilityLu" rel="me">@AccessibilityLu@mas.to</a></dd>
   <dt>LinkedIn</dt>
   <dd><a href="https://www.linkedin.com/company/accessibility-lu/">Digital Accessibility Luxembourg</a></dd>
+  <dt>Bluesky</dt>
+  <dd><a href="https://bsky.app/profile/accessibilite.public.lu">@accessibilite.public.lu</a></dd>
   <dt>GitHub</dt>
   <dd><a href="https://github.com/accessibility-luxembourg">AccessibilityLU</a></dd>
-  <dt>Twitter</dt>
-  <dd><a href="https://twitter.com/AccessibilityLu">@AccessibilityLU</a></dd>
 </dl>

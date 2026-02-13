@@ -2080,12 +2080,12 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 1. Pour chaque fichier proposé au téléchargement, dans un format bureautique, vérifier la présence d’une version alternative présentée comme accessible.
 1. Si l’alternative est proposée dans un format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier de l’alternative proposée&nbsp;; 
-	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1.1/index.html).
 	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
 1. Si l’alternative est proposée dans l’application, vérifier que le contenu est conforme au présent référentiel.
 1. Sinon, pour les documents au format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier&nbsp;; 
-	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1.1/index.html).
 	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.	
 1. Si c’est le cas, le critère est validé.
 
@@ -2502,8 +2502,9 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 #### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-12-4"}
 
-- **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
-- **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
+
+- **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1.1/criteres.html)&nbsp;?  {id="test-12-4-1"}
+- **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1.1/index.html)&nbsp;?  {id="test-12-4-2"}
 - **[Test 12.4.3](#test-12-4-3)&nbsp;:** La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-12-4-3"}
 - **[Test 12.4.4](#test-12-4-4)&nbsp;:** La documentation mise à disposition dans une application mobile est-elle conforme au RAAM&nbsp;? {id="test-12-4-4"}
 
@@ -2512,8 +2513,8 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ###### iOS et Android
 
 1. Repérer la présence d’une documentation dans l’application ou accessible depuis l’application.
-1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
-1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1.1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1.1/index.html).
 1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
 1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
 1. Si c’est le cas, le critère est validé.
@@ -2529,8 +2530,8 @@ Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur
 
 #### [Critère 13.1](#crit-13-1) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-13-1"}
 
-- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html)&nbsp;?  {id="test-13-1-1"}
-- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html)&nbsp;? {id="test-13-1-2"}
+- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1.1/index.html)&nbsp;?  {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1.1/index.html)&nbsp;? {id="test-13-1-2"}
 - **[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-13-1-3"}
 - **[Test 13.1.4](#test-13-1-4)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu diffusé dans une application mobile permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au RAAM&nbsp;? {id="test-13-1-4"}
 
@@ -2539,11 +2540,11 @@ Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur
 ###### iOS et Android
 
 1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés).  
-1. Pour les fonctionnalités qui permettent de créer du contenu au format web (HTML, CSS), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAWeb](../raweb1/index.html). Par exemple&nbsp;: 
+1. Pour les fonctionnalités qui permettent de créer du contenu au format web (HTML, CSS), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAWeb](../raweb1.1/index.html). Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
-1. Pour les fonctionnalités qui permettent de créer du contenu au format PDF, vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAPDF](../rapdf1/index.html). Par exemple&nbsp;: 
+1. Pour les fonctionnalités qui permettent de créer du contenu au format PDF, vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAPDF](../rapdf1.1/index.html). Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
@@ -2597,10 +2598,10 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 	- dans la fonctionnalité d’édition (par exemple, dans l’éditeur de texte)&nbsp;; 
 	- et dans l’interface de publication des contenus (par exemple, la page web de publication).
 1. Pour chaque contenu au format web (HTML, CSS), vérifier&nbsp;: 
-	- que les informations nécessaires pour qu’il soit conforme au [RAWeb](../raweb1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
+	- que les informations nécessaires pour qu’il soit conforme au [RAWeb](../raweb1.1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
 	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau HTML et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
 1. Pour chaque contenu au format PDF, vérifier&nbsp;:
-	- que les informations nécessaires pour qu’il soit conforme au [RAPDF](../rapdf1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
+	- que les informations nécessaires pour qu’il soit conforme au [RAPDF](../rapdf1.1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
 	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
 1. Pour chaque contenu au format non web qui n’est pas du PDF, vérifier&nbsp;:
 	- que les informations nécessaires pour qu’il soit conforme à la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1 sont préservées dans le contenu généré&nbsp;;
@@ -2639,8 +2640,8 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 #### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
 
-- **[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
-- **[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
+- **[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1.1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
+- **[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1.1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
 - **[Test 13.5.3](#test-13-5-3)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1. Cette règle est-elle respectée&nbsp;? {id="test-13-5-3"}
 - **[Test 13.5.4](#test-13-5-4)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) permettant de diffuser des contenus dans une application mobile, un gabarit au moins est conforme aux critères du RAAM. Cette règle est-elle respectée&nbsp;? {id="test-13-5-4"}
 
@@ -2649,8 +2650,8 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ###### iOS et Android
 
 1. Repérer la présence de gabarits mis à disposition par l’outil d’édition.
-1. Pour les gabarits au format web (HTML, CSS), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAWeb](../raweb1/index.html).
-1. Pour les gabarits au format PDF, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAPDF](../rapdf1/index.html).
+1. Pour les gabarits au format web (HTML, CSS), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAWeb](../raweb1.1/index.html).
+1. Pour les gabarits au format PDF, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAPDF](../rapdf1.1/index.html).
 1. Pour les gabarits au format non-web (hors PDF), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
 1. Pour les gabarits permettant de diffuser des contenus dans une application mobile, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du RAAM.
 1. Si c’est le cas, le critère est validé.
@@ -2718,8 +2719,8 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 #### [Critère 14.3](#crit-14-3) [A] La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-14-3"}
 
-- **[Test 14.3.1](#test-14-3-1)&nbsp;:** La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-14-3-1"}
-- **[Test 14.3.2](#test-14-3-2)&nbsp;:** La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-14-3-2"}
+- **[Test 14.3.1](#test-14-3-1)&nbsp;:** La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1.1/criteres.html)&nbsp;?  {id="test-14-3-1"}
+- **[Test 14.3.2](#test-14-3-2)&nbsp;:** La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1.1/index.html)&nbsp;?  {id="test-14-3-2"}
 - **[Test 14.3.3](#test-14-3-3)&nbsp;:** La documentation fournie par le service d’assistance dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-14-3-3"}
 - **[Test 14.3.4](#test-14-3-4)&nbsp;:** La documentation fournie par le service d’assistance dans une application mobile est-elle conforme au RAAM&nbsp;?  {id="test-14-3-4"}
 
@@ -2728,8 +2729,8 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ###### iOS et Android
 
 1. Repérer la présence d’une documentation fournie par le service d’assistance.
-1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
-1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1.1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1.1/index.html).
 1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
 1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
 1. Si c’est le cas, le critère est validé.
