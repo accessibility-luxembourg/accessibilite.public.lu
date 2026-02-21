@@ -6,13 +6,12 @@ const y18n = require('y18n')
 
 dotenv.config()
 
-const langs = ['fr']
-if (process.env.DISABLE_EN !== 'true') {
-    langs.push('en')
-}
+const langs = ['fr', 'en', 'de'] // translations available for the whole website
+
 const config = {}
 config['fr'] = require('./scripts/config_fr.js').config
 config['en'] = require('./scripts/config_en.js').config
+config['de'] = require('./scripts/config_de.js').config
 
 const production = lib.isProd()
 const outputPath = './dist'

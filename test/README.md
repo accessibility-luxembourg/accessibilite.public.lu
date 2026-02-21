@@ -56,7 +56,6 @@ The visual tests automatically discover pages from:
 
 ### Environment Variables
 
-- `DISABLE_EN=true` - Skip English version testing
 - `NODE_ENV=production` - Use production mode for article filtering
 
 ### Test Settings

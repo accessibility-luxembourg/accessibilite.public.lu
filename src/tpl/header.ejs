@@ -8,7 +8,6 @@
     <% } else { %> 
       <div class="header-title"><%= __('Digital accessibility portal') %> <%= (process.env.PREVIEW !== undefined)?'[PREVIEW]':'' %></div>
     <% } %> 
-    <% if (process.env.DISABLE_EN!=="true") { %>
     <ul class="menu-lang">
       <li>
         <% if (lang === "fr") { %>
@@ -20,15 +19,23 @@
       <li>
         <% if (lang === "en") { %>
           <p><span class="sr-only">English version - </span>EN</p>
-        <% } else { %>
+        <% } else if (genURL(config, 'en', name, file) !== '/en/404.html') { %>
           <a title="English version - EN" lang="en" hreflang="en" href="<%= genURL(config, 'en', name, file) %>"><span class="sr-only">English version - </span>EN</a>
         <% } %>
       </li>
+      <li>
+        <% if (lang === "de") { %>
+          <p><span class="sr-only">Deutsche Fassung - </span>DE</p>
+        <% } else if (genURL(config, 'de', name, file) !== '/de/404.html') {  %>
+          <a title="Deutsche Fassung - DE" lang="de" hreflang="de" href="<%= genURL(config, 'de', name, file) %>"><span class="sr-only">Deutsche Fassung - </span>DE</a>
+        <% } %>
+      </li>
     </ul>
-    <% } %>
     <nav role="navigation" id="navi" aria-label="menu principal">
-      <div id="frameworks-<%- lang %>" aria-hidden="true"><%= __('Frameworks') %></div>
-      <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span>Menu</button>
+      <% if (lang != 'de') { %>
+        <div id="frameworks-<%- lang %>" aria-hidden="true"><%= __('Frameworks') %></div>
+      <% } %>
+      <button id="toggle-menu" class="toggle-menu" aria-expanded="false"><span aria-hidden="true">≡</span><%= __('Menu') %></button>
       <ul class="disclosure-nav">
             <% nav.forEach(e => { %>
               <% if (e.children !== undefined) { %>

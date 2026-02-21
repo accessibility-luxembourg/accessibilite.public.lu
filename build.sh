@@ -53,6 +53,11 @@ cp ./src/files/en/raweb1/* ./dist/en/raweb1/files
 cp ./src/files/en/raweb1.1/* ./dist/en/raweb1.1/files
 cp ./src/files/en/general/* ./dist/en/files
 
+mkdir -p ./dist/de/news/og
+mkdir -p ./dist/de/tools
+mkdir -p ./dist/de/support
+mkdir -p ./dist/de/monitoring
+
 node gen.js
 
 cp ./src/static/browserconfig.xml ./src/static/site.webmanifest ./src/static/favicon.ico ./src/img/twitter.jpg ./src/img/linkedin.jpg ./src/img/newsletter.png ./dist
@@ -67,3 +72,7 @@ cp -r ./src/fonts ./dist/
 mkdir -p ./dist/en/news
 cp -r ./content/en/news/datasource ./dist/en/news
 cp -r ./content/en/news/img ./dist/en/news
+
+mkdir -p ./dist/de/news
+cp -r ./content/de/news/datasource ./dist/de/news
+cp -r ./content/de/news/img ./dist/de/news

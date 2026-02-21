@@ -9,10 +9,7 @@ const urlBase = 'http://127.0.0.1:8080'
 
 function getAllPages() {
     const pages = []
-    const langs = ['fr']
-    if (process.env.DISABLE_EN !== 'true') {
-        langs.push('en')
-    }
+    const langs = ['fr', 'en']
 
     // Build full config object like in gen.js
     const fullConfig = {}

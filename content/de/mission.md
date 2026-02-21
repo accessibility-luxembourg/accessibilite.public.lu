@@ -1,0 +1,16 @@
+Der Informations- und Pressedienst (SIP) ist auf nationaler Ebene für die Überwachung der Zugänglichkeit öffentlicher Websites und mobiler Anwendungen zuständig. Das Überwachungsverfahren wurde gemäß dem [Gesetz vom 28. Mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) und dem [Durchführungsbeschluss EU 2018/1524](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018D1524).
+
+Die Kontrollen erfolgen innerhalb der Überwachungszeiträume. Der erste Überwachungszeitraum begann am 23. September 2020 und endete Ende 2021. Anschließend gibt es einen Überwachungszeitraum pro Kalenderjahr.
+
+Es gibt drei Arten der Inspektion:
+
+- **Umfassende Site-Überwachung**: Dies ist ein Compliance-Audit basierend auf dem [RAWeb-Framework](../raweb1.1/index.html). Das Ergebnis des Audits zeigt, ob die Website barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
+- **Vereinfachte Überwachung**: Ziel dieses Audits ist es, Verstöße aufzudecken und das Bewusstsein der verschiedenen Beteiligten zu schärfen. Eine Beurteilung der Compliance ist damit nicht möglich, sie kann aber schneller und damit an einer größeren Anzahl von Standorten durchgeführt werden. Die Methode ist auf der Seite [„vereinfachte Kontrollmethode“](./controle-simplifie.html) beschrieben.
+- **Überwachung mobiler Anwendungen**: Dies ist ein Compliance-Audit basierend auf dem [RAAM-Framework](../raam1.1/index.html). Das Ergebnis der Prüfung zeigt, ob die Anwendung barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
+
+Die Kontrollen erfolgen in mehreren Schritten:
+
+1. Erstellung einer Bestandsaufnahme aller Websites und Anwendungen der Organisationen im Geltungsbereich des Gesetzes. [Das Inventar öffentlicher Websites](https://data.public.lu/en/datasets/inventaire-des-sites-publics/) und [Apps](https://data.public.lu/en/datasets/inventaire-des-applications-mobiles-publiques/) sind auf dem Open-Data-Portal verfügbar.
+2. Definieren der zu überprüfenden Beispiele von Websites und Apps. Es wäre unrealistisch, alles testen zu wollen. Der Durchführungsbeschluss definiert die Anzahl der durchzuführenden Tests für jede Testkategorie (z. B. muss das SIP für den Zeitraum 2020-2021 15 eingehende Standortaudits, 87 vereinfachte Standortaudits und 2 mobile Audits durchführen). Diese Phase der Auswahl der zu testenden Websites und Apps erfolgt in Absprache mit den wichtigsten Interessenvertretern im Behindertensektor. [Die Stichprobe für den Zeitraum 2020-2021](https://data.public.lu/en/datasets/echantillon-pour-le-controle-de-laccessibilite-numerique-2020-2021/) wird auf dem Open-Data-Portal veröffentlicht.
+3. Durchführung von Audits. [Die Ergebnisse der Audits](https://data.public.lu/en/datasets/audits-complets-de-laccessibilite-numerique/) werden nach und nach auf dem Open-Data-Portal veröffentlicht.
+4. Erstellung eines Berichts für die Europäische Kommission auf Grundlage der Prüfergebnisse. [Der erste Bericht für den Zeitraum 2020-2021](https://data.public.lu/en/datasets/digital-accessibility-monitoring-report-2020-2021/) ist als Open Data verfügbar. Diese Berichte werden alle 3 Jahre veröffentlicht.

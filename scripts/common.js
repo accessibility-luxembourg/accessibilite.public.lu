@@ -36,12 +36,15 @@ function genURL(config, lang, name, file) {
     // Check if page exists in the configuration
     if (config[lang].names.includes(name)) {
         return path
-    } else if (file.match(/^\/(de|en|fr)\/news\//)) {
-        // Handle news articles
-        return file.replace(/^\/(de|en|fr)/, '/' + lang)
     } else {
-        // Return 404 for non-existent pages
-        return '/'+lang+'/404.html'
+        const targetFile = 'content'+file.replace(/\.html$/, '.md').replace(/^\/(de|en|fr)/, '/' + lang)
+        if (file.match(/^\/(de|en|fr)\/news\//) && fs.existsSync(targetFile)) {
+            // Handle news articles
+            return file.replace(/^\/(de|en|fr)/, '/' + lang)
+        } else {
+            // Return 404 for non-existent pages
+            return '/'+lang+'/404.html'
+        }
     }
 }
 
