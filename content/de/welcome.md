@@ -23,7 +23,7 @@ Wenn Sie Fragen haben, können Sie uns gerne [kontaktieren](contact.html).
 - [Web-Framework (EN)](/en/raweb1.1/index.html)
 - [Mobiles Framework (EN)](/en/raam1.1/index.html)
 - [PDF-Framework (EN)](/en/rapdf1.1/index.html)
-- [Ihre Erkläarung](tools/decla.html)
+- [Ihre Erklärung](tools/decla.html)
 - [Offene Daten](monitoring/open-data.html)
 
 </div>
@@ -48,5 +48,5 @@ Wenn Sie ein Problem mit der Zugänglichkeit einer Website des öffentlichen Sek
 
 </div>
 
-</beiseite>
+</aside>
 </div>

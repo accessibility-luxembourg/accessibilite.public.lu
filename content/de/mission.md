@@ -4,9 +4,9 @@ Die Kontrollen erfolgen innerhalb der Überwachungszeiträume. Der erste Überwa
 
 Es gibt drei Arten der Inspektion:
 
-- **Umfassende Site-Überwachung**: Dies ist ein Compliance-Audit basierend auf dem [RAWeb-Framework](../raweb1.1/index.html). Das Ergebnis des Audits zeigt, ob die Website barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
-- **Vereinfachte Überwachung**: Ziel dieses Audits ist es, Verstöße aufzudecken und das Bewusstsein der verschiedenen Beteiligten zu schärfen. Eine Beurteilung der Compliance ist damit nicht möglich, sie kann aber schneller und damit an einer größeren Anzahl von Standorten durchgeführt werden. Die Methode ist auf der Seite [„vereinfachte Kontrollmethode“](./controle-simplifie.html) beschrieben.
-- **Überwachung mobiler Anwendungen**: Dies ist ein Compliance-Audit basierend auf dem [RAAM-Framework](../raam1.1/index.html). Das Ergebnis der Prüfung zeigt, ob die Anwendung barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
+- **Umfassende Site-Überwachung**: Dies ist ein Compliance-Audit basierend auf dem [RAWeb-Framework (EN)](/en/raweb1.1/index.html). Das Ergebnis des Audits zeigt, ob die Website barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
+- **Vereinfachte Überwachung**: Ziel dieses Audits ist es, Verstöße aufzudecken und das Bewusstsein der verschiedenen Beteiligten zu schärfen. Eine Beurteilung der Compliance ist damit nicht möglich, sie kann aber schneller und damit an einer größeren Anzahl von Standorten durchgeführt werden. Die Methode ist auf der Seite [„vereinfachte Kontrollmethode“ (EN)](/en/controle-simplifie.html) beschrieben.
+- **Überwachung mobiler Anwendungen**: Dies ist ein Compliance-Audit basierend auf dem [RAAM-Framework (EN)](/en/raam1.1/index.html). Das Ergebnis der Prüfung zeigt, ob die Anwendung barrierefrei ist und ob Barrierefreiheitsprobleme aufgetreten sind.
 
 Die Kontrollen erfolgen in mehreren Schritten:
 

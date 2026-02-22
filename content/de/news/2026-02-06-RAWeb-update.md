@@ -1,6 +1,6 @@
 ---
-Teaser: 2026-02-RAWeb-RAPDF-teaser.jpg
-Autor: Dominique Nauroy
+teaser: 2026-02-RAWeb-RAPDF-teaser.jpg
+autor: Dominique Nauroy
 ---
 
 <hgroup> 
@@ -32,7 +32,7 @@ Alle Änderungen sind im RAWeb 1.1 [Änderungsprotokoll](https://accessibilite.p
 
 Die Unterstützung der EAA, insbesondere für Kriterien für Videos, ermöglicht die Verwendung dieses Rahmenwerks außerhalb des strengen Rahmens luxemburgischer gemeinfreier Websites.
 
-Darüber hinaus wurden bestimmte Kriterien, Tests, methodische Elemente und Glossarelemente neu geschrieben, um sie nach der Streichung bestimmter Anforderungen zusammenzufassen (z. B. Test 1.2.4) oder zur Verdeutlichung der Bedeutung zu ergänzen (insbesondere [Methoden für Kriterium 3.1](https://accessibilite.public.lu/en/raweb1.1/criteres.html#test-3-1-1)). Es wurden neue Glossarelemente hinzugefügt, beispielsweise [Dokument](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#document), [Cryptic Content](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#cryptic-content) und [Berechnet Rolle](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#computed-role).
+Darüber hinaus wurden bestimmte Kriterien, Tests, methodische Elemente und Glossarelemente neu geschrieben, um sie nach der Streichung bestimmter Anforderungen zusammenzufassen (z. B. Test 1.2.4) oder zur Verdeutlichung der Bedeutung zu ergänzen (insbesondere [Methoden für Kriterium 3.1](https://accessibilite.public.lu/en/raweb1.1/criteres.html#test-3-1-1)). Es wurden neue Glossarelemente hinzugefügt, beispielsweise [Dokument](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#document), [Cryptic Content](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#cryptic-content) und [Berechnete Rolle](https://accessibilite.public.lu/en/raweb1.1/glossaire.html#computed-role).
 
 ## Auf der RAPDF-Seite
 

@@ -1,7 +1,9 @@
 [Informations- und Pressedienst](https://sip.gouvernement.lu)
 
-<Adresse lang="fr">
+<address>
+<span lang="fr">
 33, Boulevard Roosevelt
+</span>
 L-2450 Luxemburg
 Luxemburg
 </address>

@@ -1,6 +1,6 @@
 ---
-Teaser: 2026-01-obs-teaser.jpg
-Autor: Dominique Nauroy
+teaser: 2026-01-obs-teaser.jpg
+autor: Dominique Nauroy
 ---
 
 <hgroup> 

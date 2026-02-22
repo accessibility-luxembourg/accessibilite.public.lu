@@ -12,7 +12,7 @@ Bei der digitalen Barrierefreiheit geht es darum, Websites und mobile Anwendunge
 
 #### Besorgter Inhalt
 
-Gemäß den Artikeln 1 und 2 des [Gesetzes vom 28. Mai 2019] (http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sind folgende öffentliche Stellen von diesem Gesetz betroffen:
+Gemäß den Artikeln 1 und 2 des [Gesetzes vom 28. Mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sind folgende öffentliche Stellen von diesem Gesetz betroffen:
 
 - der Staat;
 - Gemeinden;
@@ -44,8 +44,7 @@ Einige Inhalte sind von der Barrierefreiheitspflicht ausgenommen und fallen nich
 - Reproduktionen von Objekten in historischen Sammlungen, die aus einem der folgenden Gründe nicht vollständig zugänglich gemacht werden können: 
 - die Unvereinbarkeit von Barrierefreiheitsanforderungen mit der Erhaltung des betreffenden Objekts oder der Authentizität der Reproduktion (z. B. Kontrast); oder 
 - die Nichtverfügbarkeit automatisierter und kosteneffizienter Lösungen, die den Text von Manuskripten oder anderen Objekten in Kulturerbesammlungen einfach extrahieren und in Inhalte umwandeln könnten, die mit den Barrierefreiheitsanforderungen kompatibel sind;
-- Inhalte von Extranets und Intranets, also Webseiten, die nur für einen geschlossenen Personenkreis und nicht für die - ge
-öffentliche Öffentlichkeit als solche, veröffentlicht vor dem 23. September 2019, bis diese Websites einer wesentlichen Überarbeitung unterzogen werden;
+- die Inhalte von Extranets und Intranets, also Webseiten, die nur einem eingeschränkten Personenkreis und nicht der Öffentlichkeit zugänglich sind, die vor dem 23. September 2019 veröffentlicht wurden, bis diese Webseiten einer gründlichen Überprüfung unterzogen werden;
 - Inhalte von Websites und mobilen Anwendungen, die als Archive gelten, d. h. sie enthalten nur Inhalte, die nach dem 23. September 2019 weder für aktive Verwaltungsprozesse benötigt noch aktualisiert oder bearbeitet werden.
 
 #### Referenzstandard und Konformitätsgrad
@@ -83,7 +82,7 @@ Der Kostenvoranschlag kann Investitionsausgaben, Betriebsausgaben sowie erforder
 
 Die Ausnahmeregelung wegen unverhältnismäßiger Belastung befreit das Unternehmen nicht von der Pflicht zur Erstellung einer Erklärung zur Barrierefreiheit. Die Inhalte und Funktionen, die auf dieser Grundlage nicht barrierefrei sind, werden in der Erklärung zur Barrierefreiheit des betreffenden Online-Dienstes aufgeführt, zusammen mit der Begründung für die Ausnahmeregelung und gegebenenfalls einem Hinweis auf eine barrierefreie Alternative.
 
-Wenn eine Website oder mobile Anwendung gleichzeitig den Barrierefreiheitsverpflichtungen unterliegt, die durch das Gesetz vom 28. Mai 2019 auferlegt werden, und denen, die durch die gesetzlichen und regulatorischen Bestimmungen zur Bekämpfung von Diskriminierung der Richtlinie [2000/78/EG vom 27. November 2000] (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32000L0078) und den nationalen Gesetzen zu ihrer Umsetzung von [28 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/28/n1/jo) und vom [29. November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/29/n1/jo) basiert die Beurteilung des Umfangs und der Höhe der Barrierefreiheitsverpflichtungen sowie einer etwaigen unverhältnismäßigen Belastung die Bestimmungen, die für die Zugänglichkeit in jeder dieser beiden Regelkategorien am günstigsten sind. Die Bestimmungen zur Bekämpfung von Diskriminierung gelten für individuelle und konkrete Situationen, während die Bestimmungen des Gesetzes vom 28. Mai 2019 und dieses Rahmens sicherstellen sollen, dass öffentliche Websites und Anwendungen für alle Benutzer zugänglich sind.
+Wenn eine Website oder mobile Anwendung gleichzeitig den Barrierefreiheitsverpflichtungen unterliegt, die durch das Gesetz vom 28. Mai 2019 auferlegt werden, und denen, die durch die gesetzlichen und regulatorischen Bestimmungen zur Bekämpfung von Diskriminierung der Richtlinie [2000/78/EG vom 27. November 2000](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32000L0078) und den nationalen Gesetzen zu ihrer Umsetzung von [28 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/28/n1/jo) und vom [29. November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/29/n1/jo) basiert die Beurteilung des Umfangs und der Höhe der Barrierefreiheitsverpflichtungen sowie einer etwaigen unverhältnismäßigen Belastung die Bestimmungen, die für die Zugänglichkeit in jeder dieser beiden Regelkategorien am günstigsten sind. Die Bestimmungen zur Bekämpfung von Diskriminierung gelten für individuelle und konkrete Situationen, während die Bestimmungen des Gesetzes vom 28. Mai 2019 und dieses Rahmens sicherstellen sollen, dass öffentliche Websites und Anwendungen für alle Benutzer zugänglich sind.
 
 
 
@@ -104,7 +103,7 @@ Die Erklärung zur Barrierefreiheit umfasst:
 - ein zugänglicher Mechanismus (E-Mail-Adresse oder Formular), der es jeder Person ermöglicht, etwaige Barrierefreiheitsmängel der betreffenden Stelle zu melden und einer Person mit Behinderungen die Möglichkeit zu geben, relevante Informationen oder eine barrierefreie Alternativlösung anzufordern;
 - Hinweis auf die Möglichkeit der betroffenen Person, sich mit der Angelegenheit an die SIP oder den Ombudsmann zu wenden.
 
-Die Erklärung zur Barrierefreiheit kann mit dem [Erstellungsformular für Erklärungen](../en/tools/decla.html) in mehreren Sprachen erstellt werden.
+Die Erklärung zur Barrierefreiheit kann mit dem [Erstellungsformular für Erklärungen](/de/tools/decla.html) in mehreren Sprachen erstellt werden.
 
 #### Aktualisierungen der Barrierefreiheitserklärung
 

@@ -1,134 +1,140 @@
-### Allgemeine Nutzungsbedingungen (AGB) der Website
+### Allgemeine Nutzungsbedingungen (ANB) der Internetseite
 
-Es wird davon ausgegangen, dass jede Person, die die auf dieser Website angebotenen Informationen, Dokumente, Produkte, Software und verschiedenen Dienste (zusammen die „Dienste“) nutzt, alle Bedingungen dieser allgemeinen Nutzungsbedingungen gelesen und akzeptiert hat.
+Personen, die Informationen, Dokumente, Produkte, Softwareprogramme und einzelne Dienste (allgemein die „Dienste“) dieser Internetseite nutzen, nehmen damit die vorliegenden Allgemeinen Nutzungsbedingungen mit all ihren Bestimmungen zur Kenntnis und stimmen diesen zu.
+
+„Behörde oder sonstige Stelle“ bezeichnet die öffentliche Behörde, das Ministerium, die Verwaltung oder eine andere öffentliche Stelle, die allein oder gemeinsam mit anderen für diese Internetseite verantwortlich ist.
 
 #### Pflichten des Nutzers
 
-Der Zugriff auf die Website erfolgt über das Internet. Der Nutzer erklärt, dass er sich der damit verbundenen Risiken bewusst ist und diese akzeptiert. Sie müssen sich durch eine geeignete und sichere Computerkonfiguration vor den Auswirkungen von Computerpiraterie schützen.
+Der Zugang zur Internetseite erfolgt per Internet. Der Nutzer erklärt, dass er die damit verbundenen Risiken kennt und diese akzeptiert. Er muss sich vor Cyberkriminalität schützen, indem er eine geeignete und sichere Computerkonfiguration wählt.
 
-Der Informations- und Pressedienst kann nicht für Schäden haftbar gemacht werden, die dem Benutzer direkt oder indirekt durch die Navigation auf dieser Website und die Nutzung ihrer Dienste oder der Websites, auf die sie verweist, entstehen.
+Der Informations- und Presseamt kann nicht für Schäden haftbar gemacht werden, die der Nutzer mittelbar oder unmittelbar in Verbindung mit seiner Navigation auf dieser Internetseite und der Nutzung ihrer Dienste sowie den Seiten, auf die verwiesen wird, erleiden sollte.
 
-Die Nutzung der Seite ist kostenlos.
+Die Nutzung der Internetseite ist kostenlos.
 
-#### Cookie-Verwaltung
+#### Verwaltung der Cookies
 
-Diese Website verwendet Kunden-Cookies, kleine Textdateien, die zur Analyse von Informationen im Zusammenhang mit der Navigation des Benutzers (Häufigkeit der Besuche, Dauer der Besuche, angezeigte Seiten usw.) verwendet werden.
+Diese Seite verwendet Cookies, d. h. kleine Textdateien zur Analyse der Informationen über die Navigation des Nutzers (Häufigkeit der Besuche, Dauer der Besuche, aufgerufene Seiten usw.).
 
-Sie werden von der Seite in einem dafür vorgesehenen Verzeichnis auf dem Computer des Nutzers abgelegt. Sie enthalten insbesondere den Namen des Servers, der sie geschrieben hat, eine Kennung in Form einer eindeutigen Nummer und ein Ablaufdatum. Die eindeutige Kennung ermöglicht es der Website, den Computer des Benutzers bei jedem Besuch zu erkennen. Sitzungscookies werden vom Computer des Benutzers gelöscht, wenn die Sitzung geschlossen wird. Permanente Cookies verbleiben jedoch für einen Monat nach Ende der Sitzung auf dem Computer des Benutzers.
+Sie werden von der Internetseite in ein hierfür vorgesehenes Verzeichnis auf dem Rechner des Nutzers platziert. Sie enthalten den Namen des Servers, der sie erzeugt hat, eine Kennung in Form einer eindeutigen Nummer und ein Verfallsdatum. Die eindeutige Kennung ermöglicht der Internetseite, den Rechner des Nutzers bei jedem Besuch wiederzuerkennen. Die Cookies der Sitzung werden vom Rechner des Nutzers gelöscht, wenn die Sitzung beendet wird. Dauerhafte Cookies bleiben hingegen einen Monat nach Beendigung der Sitzung auf dem Rechner des Nutzers.
 
-Der Nutzer kann selbst entscheiden, ob der Server, auf dem sich diese Website befindet, berechtigt ist, Cookies auf seinem Computer zu speichern. Sie können Ihre Browseroptionen jederzeit so einstellen, dass Cookies nicht akzeptiert und gespeichert werden. Sie können gespeicherte Cookies auch jederzeit über ihren Browser löschen (siehe die [Cookie-Charta](#cookie-charter))
+Der Nutzer kann selbst entscheiden, ob der Webserver dieser Internetseite befugt ist oder nicht, Cookies auf seinem Rechner zu speichern. Er hat jederzeit die Wahl, die Einstellungen seines Browsers so anzupassen, dass Cookies nicht akzeptiert oder gespeichert werden. Im Übrigen kann er bereits gespeicherte Cookies in seinem Browser jederzeit löschen (siehe [Cookie-Charta](#cookie-charta)).
 
-Die Nutzung bestimmter Funktionen der Website kann eingeschränkt oder deaktiviert sein, wenn der Benutzer die Verwendung von Cookies der Website ablehnt. Benutzern wird daher empfohlen, ihren Browser so einzustellen, dass er Cookies von der Website akzeptiert.
+Die Nutzung bestimmter Funktionen der Internetseite kann eingeschränkt oder deaktiviert werden, wenn der Nutzer die Cookies der Internetseite nicht zulässt. Dem Nutzer wird demnach empfohlen, seinen Browser so einzustellen, dass die Cookies der Internetseite akzeptiert werden.
 
-#### Änderungen an der Website
+#### Änderungen der Internetseite
 
-Der Informations- und Pressedienst behält sich das Recht vor, diese Website ohne vorherige Ankündigung aus Wartungs-, Aktualisierungs- oder anderen als notwendig erachteten Gründen weiterzuentwickeln, zu ändern oder zu sperren.
+Der Informations- und Presseamt behält sich das Recht vor, wegen Wartungsarbeiten, Aktualisierungsmaßnahmen oder aus sonstigen triftigen Gründen ohne Ankündigung Weiterentwicklungen, Änderungen oder Unterbrechungen an der Internetseite vorzunehmen.
 
-Insbesondere kann der Informations- und Pressedienst jederzeit alle oder einen Teil der auf der Website enthaltenen oder angebotenen Informationen und Dienste zurückziehen, ergänzen, ergänzen oder präzisieren. Der Informations- und Pressedienst haftet nicht für direkte oder indirekte Schäden, die sich aus solchen Änderungen ergeben.
+Der Informations- und Presseamt kann insbesondere vorhandene Informationen und Dienste der Internetseite jederzeit ganz oder teilweise entfernen, hinzufügen, ergänzen oder präzisieren. Schäden in direktem oder indirektem Zusammenhang mit diesen Änderungen begründen keinerlei Ansprüche gegenüber dem Informations- und Presseamt.
 
 #### Allgemeine Haftungsbeschränkungen
 
-Der Informations- und Pressedienst wird sein Möglichstes tun, um eine maximale Verfügbarkeit dieser Website sicherzustellen. Sie kann jedoch nicht haftbar gemacht werden, wenn die Website vorübergehend oder vollständig nicht verfügbar ist.
+Der Informations- und Presseamt gewährleistet die größtmögliche Verfügbarkeit dieser Internetseite. Gleichwohl kann er im Falle der zeitweiligen oder völligen Nichtverfügbarkeit der Internetseite nicht haftbar gemacht werden.
 
-Der Informations- und Pressedienst wird sein Möglichstes tun, um die Sicherheit des Computersystems zu gewährleisten. Im Falle eines Angriffs auf das Computersystem oder der vorübergehenden oder vollständigen Nichtverfügbarkeit der Website kann jedoch keine Haftung übernommen werden.
+Der Informations- und Presseamt gewährleistet nach besten Kräften die Sicherheit des Datensystems. Gleichwohl kann er im Falle der zeitweiligen oder völligen Nichtverfügbarkeit der Internetseite nicht haftbar gemacht werden.
 
-Der Informations- und Pressedienst wird sein Möglichstes tun, um die Richtigkeit der auf der Website enthaltenen und in sozialen Netzwerken veröffentlichten Informationen sicherzustellen. Sie kann jedoch insbesondere nicht für die unterlassene Aktualisierung von Informationen oder Formularen, für Systemmanipulationen oder Verschlüsselungsfehler, für Ungenauigkeiten, Lücken in den bereitgestellten Informationen oder für etwaige Fehler oder Ungenauigkeiten haftbar gemacht werden. Obwohl das Ziel darin besteht, genaue und aktuelle Informationen aus verschiedenen Quellen bereitzustellen, kann der Informations- und Pressedienst nicht alle Risiken wesentlicher Fehler vermeiden. Die auf dieser Website veröffentlichten Informationen erheben keinen Anspruch auf Vollständigkeit oder stellen eine Verpflichtung seitens des Informations- und Pressedienstes dar. Popularisierungen und Übersetzungen dienen ausschließlich Informationszwecken. Als authentisch gelten nur die im <span lang="fr">Mémorial</span> (Amtsblatt des Großherzogtums Luxemburg) veröffentlichten Rechtstexte. Die Informationen auf dieser Website sind allgemeiner Natur. Die Informationen sind nicht an persönliche oder spezifische Umstände angepasst und können daher nicht als persönliche, berufliche oder rechtliche Beratung des Nutzers betrachtet werden. Wenn der Benutzer eine persönliche oder spezifische Beratung benötigt, sollte er/sie immer die zuständigen Dienste in den verschiedenen Verwaltungen konsultieren.
+Der Informations- und Presseamt gewährleistet nach besten Kräften die Richtigkeit der in der Internetseite enthaltenen Informationen, die in den sozialen Netzwerken veröffentlicht werden. Dennoch kann er nicht haftbar gemacht werden im Fall einer nicht erfolgten Aktualisierung von Informationen oder Formularen, im Fall von Anwendungsfehlern bei System oder Codierung, im Fall von Ungenauigkeiten oder Lückenhaftigkeit der bereitgestellten Informationen oder eventuellen Irrtümern bzw. Fehlern. Das Ziel besteht zwar darin, richtige und aktuelle Informationen aus verschiedenen Quellen zu verbreiten, der Informations- und Presseamt kann jedoch nicht jegliches Risiko eines sachlichen Irrtums ausschließen. Keine der auf dieser Internetseite veröffentlichten Informationen erhebt den Anspruch auf Vollständigkeit oder stellt eine rechtliche Verpflichtung seitens des Staats des Großherzogtums Luxemburg dar. Die allgemeinverständlichen Darstellungen und Übersetzungen haben rein informativen Charakter. Maßgeblich sind einzig und allein die im Mémorial (Amtsblatt des Großherzogtums Luxemburg) veröffentlichten Gesetzestexte. Die Informationen auf dieser Internetseite sind allgemeiner Natur. Die Informationen sind folglich nicht persönlichen oder spezifischen Gegebenheiten angepasst und können demnach nicht als persönliche, berufliche oder rechtliche Beratung des Nutzers angesehen werden. Sofern der Nutzer persönliche oder spezifische Ratschläge benötigt, sollte er stets Kontakt mit den zuständigen Stellen bei den jeweiligen Behörden aufnehmen.
 
-#### Haftungsbeschränkung der Website
+#### Haftungsbeschränkung der Internetseite
 
-Die Haftung dieser Seite wird ausdrücklich für alle direkten und indirekten Folgen ausgeschlossen:
+Die Haftung dieser Internetseite wird ausdrücklich für alle direkten und indirekten Folgen ausgeschlossen, die aus den nachstehenden Sachverhalten resultieren:
 
-- Die mangelnde Kompatibilität zwischen dem angebotenen Dienst und den Geräten, Anwendungen, Verfahren oder Infrastrukturen des Benutzers oder Dritter;
-- Eine Sicherheitsverletzung seitens des Benutzers oder eines Dritten und ganz allgemein jede Sicherheitsverletzung, die nicht direkt auf diese Website zurückzuführen ist;
-- Die Folgen von Fehlern und/oder Betrug durch den Nutzer oder Dritte;
-- Jegliche Nichtverfügbarkeit oder Fehlfunktion elektronischer Kommunikationssysteme oder -netzwerke.
+- mangelnde Kompatibilität zwischen dem angebotenen Dienst und der Ausstattung, den Anwendungen, Verfahren oder Infrastrukturen des Nutzers oder Dritter;
+- Sicherheitslücken, die auf den Nutzer oder einen Dritten zurückzuführen sind, und, allgemein, alle Sicherheitslücken, die nicht unmittelbar dieser Internetseite angelastet werden können;
+- Fehler und/oder Betrug seitens des Nutzers oder eines Dritten;
+- mögliche Nichtverfügbarkeit oder Fehlfunktion der elektronischen Systeme oder Kommunikationsnetze.
 
-#### Links zu verwandten Websites
+#### Links zu anderen Internetseiten
 
-Aus Gründen der Benutzerfreundlichkeit kann diese Website Links zu anderen Websites enthalten
-kann für sie nützlich oder von Interesse sein. Der Informations- und Pressedienst prüft den Inhalt dieser Seiten nicht systematisch. Sie übernimmt daher keine Verantwortung für den Inhalt dieser Websites, weder hinsichtlich deren Rechtmäßigkeit noch für die Richtigkeit der darin enthaltenen Informationen.
+Diese Internetseite kann Links zu anderen Internetseiten enthalten, die für Nutzer nützlich oder von Interesse sein können. Der Informations- und Presseamt und im Besonderen die Behörde oder sonstige Stelle führen keine systematische Kontrolle des Inhalts dieser Internetseiten aus. Sie können infolgedessen nicht für Inhalte dieser Internetseiten haftbar gemacht werden, weder im Hinblick auf ihre Rechtmäßigkeit noch auf die Richtigkeit der dort angegebenen Informationen.
 
 #### Geistiges Eigentum
 
-Alle Inhalte auf dieser Website werden vom [Informations- und Pressedienst](https://sip.gouvernement.lu/en) veröffentlicht und unter [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/) lizenziert. Weitere Informationen finden Sie auf unserer Seite [Lizenz](licence.html).
+Alle Inhalte auf dieser Website werden vom [Informations- und Presseamt](https://sip.gouvernement.lu/en) veröffentlicht und unter [Creative Commons Attribution 3.0 Luxembourg](http://creativecommons.org/licenses/by/3.0/lu/) lizenziert. Weitere Informationen finden Sie auf unserer [Lizenz](licence.html) Seite.
 
-#### Änderung der allgemeinen Nutzungsbedingungen
+#### Änderung der Allgemeinen Nutzungsbedingungen
 
-Diese Allgemeinen Nutzungsbedingungen können jederzeit und ohne vorherige Ankündigung aufgrund von Änderungen auf der Website, Gesetzesänderungen oder aus anderen als notwendig erachteten Gründen geändert oder ergänzt werden. Es liegt in der Verantwortung des Nutzers, sich über die allgemeinen Nutzungsbedingungen der Website zu informieren, von denen nur die aktualisierte, online verfügbare Version als gültig gilt. Es ist möglich, dass sich zwischen zwei Nutzungen der Website die spezifischen allgemeinen Nutzungsbedingungen ändern. Daher liegt es in der Verantwortung des Benutzers, diese vor jeder neuen Nutzung sorgfältig zu lesen.
+Die vorliegenden Allgemeinen Nutzungsbedingungen können jederzeit und ohne Ankündigung aufgrund von Änderungen der Internetseite, der Gesetzgebung oder aus sonstigen triftigen Gründen Änderungen oder Ergänzungen erfahren. Es ist die Aufgabe des Nutzers, sich über die Allgemeinen Nutzungsbedingungen der Internetseite zu informieren, deren jeweils aktualisierte Online-Version allein Geltung hat. Es ist durchaus möglich, dass die Allgemeinen Nutzungsbedingungen zwischen zwei Nutzungen der Internetseite geändert werden. Daher muss der Nutzer diese vor jeder neuen Nutzung genau lesen.
 
-#### Anwendbares Recht und zuständige Gerichte
+#### Geltendes Recht und zuständige Gerichtsbarkeit
 
-Alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website und ihrer Dienste unterliegen dem luxemburgischen Recht und fallen in die ausschließliche Zuständigkeit der Gerichte des Großherzogtums Luxemburg.
-
-
-
-### Schutz personenbezogener Daten
-
-#### Allgemeine Informationen
-
-Vom Nutzer bereitgestellte personenbezogene Daten werden gemäß der [Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016](https://cnpd.public.lu/en/legislation/droit-europ/union-europeenne/rgpd.html) zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr verarbeitet.
-
-Da der Informations- und Pressedienst aus Sicherheitsgründen außer IP-Adressen keine personenbezogenen Daten in den Protokollen der Website-Server erhebt, ist vor dem Besuch dieser Website keine Einwilligung des Nutzers erforderlich.
-
-Der Verantwortliche für diese Verarbeitung ist der Informations- und Pressedienst.
-
-Nutzer können Beschwerden über den Schutz ihrer Daten über die jeweils bereitgestellten Kommunikationskanäle und beim Verantwortlichen, in diesem Fall dem Informations- und Pressedienst, einreichen. Benutzer können ihre Beschwerden auch an den Datenschutzbeauftragten des Informations- und Pressedienstes unter der folgenden E-Mail-Adresse richten: [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
-
-Benutzer können sich bei Streitigkeiten in diesem Bereich auch an die *[Commission nationale pour la Protection des données](https://cnpd.public.lu/en.html)*{lang=fr} wenden, deren eingetragener Sitz sich in *1 Avenue du Rock'n'Roll, L-4361 Esch-sur-Alzette*{lang=fr} befindet.
+Streitfälle im Zusammenhang mit dieser Internetseite unterliegen luxemburgischem Recht und fallen ausschließlich in den Zuständigkeitsbereich der Gerichtsbarkeit des Großherzogtums Luxemburg.
 
 
 
-#### Verarbeitung im Zusammenhang mit der Zielgruppenmessung
+### Schutz personenbezogener Daten des Portals
 
-Beim Besuch der öffentlichen Website werden bestimmte Daten über die Hardware und Software des Nutzers erhoben, die nicht dazu dienen, den Nutzer zu identifizieren. Der einzige Zweck dieser Datenerhebung besteht darin, Besucherstatistiken (Browsertyp, Auflösung, ungefährer Standort usw.) zu erhalten, um den Benutzern den bestmöglichen Service zu bieten.
+#### Allgemeines
 
-In keinem Fall wird die vollständige IP-Adresse des Nutzers gespeichert. Nur ein Teil der IP-Adresse wird gespeichert, um Gesamtstatistiken zu erhalten, und es ist keinesfalls möglich, einen Benutzer zu identifizieren.
+Die vom Nutzer übermittelten personenbezogenen Daten werden gemäß der [Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016](https://cnpd.public.lu/en/legislation/droit-europ/union-europeenne/rgpd.html) zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr verarbeitet.
 
-Diese Daten werden in Europa in einer Lösung gespeichert und gehostet, die von einem Subunternehmer, insbesondere Adobe Systems Inc., bereitgestellt wird, die als Subunternehmer den gleichen gesetzlichen Verpflichtungen zum Schutz personenbezogener Daten unterliegt, falls solche Daten in Zukunft erhoben werden.
+Der Informations- und Presseamt sammelt keine personenbezogenen Daten, abgesehen von IP-Adressen in den Serverprotokollen, die aus Sicherheitsgründen erhoben werden. Die Zustimmung des Nutzers vor dem Besuch dieser Internetseite ist nicht erforderlich.
 
-Die Dauer der Datenaufbewahrung überschreitet nicht den Zeitraum, der erforderlich ist, um Veränderungen in der Zielgruppe aufgrund von Änderungen bei Browsern, verwendeten Auflösungen oder anderen verfügbaren statistischen Daten zu beobachten.
+Verantwortlich für diese Verarbeitungen ist die für diese Internetseite verantwortliche Behörde oder sonstige Stelle.
 
-Der Verantwortliche für diese Verarbeitung ist der Informations- und Pressedienst.
+Der Nutzer kann Beschwerde in Bezug auf den Schutz seiner Daten über die jeweils zur Verfügung gestellten Kommunikationskanäle sowie beim Verantwortlichen einreichen, in diesem Fall bei der für diese Internetseite verantwortlichen Behörde oder sonstigen Stelle. Der Nutzer kann zudem Beschwerde beim Datenschutzbeauftragten der Behörde oder sonstigen Stelle einreichen, und zwar per E-Mail an die folgende Adresse [dataprotection@sip.etat.lu](mailto:dataprotection@sip.etat.lu).
 
-
-#### Verarbeitung im Zusammenhang mit Online-Umfragen
-
-Die Erhebung der Nutzerdaten erfolgt auf freiwilliger Basis ausschließlich zum Zweck der Durchführung von Umfragen für staatliche Stellen. Darüber hinaus werden gleichzeitig auch technische Einschaltquoten-Messdaten erhoben.
-
-Die Daten werden für die Dauer der Befragung gespeichert, zuzüglich einiger Wochen zur statistischen Auswertung der Ergebnisse.
-
-Diese Umfragen werden direkt auf der Website eines Subunternehmers durchgeführt, nämlich alchemer.eu von Alchemer LLC mit Sitz in den Vereinigten Staaten. Die Daten werden in Europa gehostet. Für Letztere gelten die gleichen gesetzlichen Pflichten zum Schutz personenbezogener Daten, wenn Umfragen für Nutzer aus der Europäischen Union bestimmt sind oder von diesen durchgeführt werden.
-
-Die Verfahren zur Durchführung dieser Umfragen sind so gestaltet, dass keine Daten geeignet sind, den Benutzer persönlich zu identifizieren. Die Kombination technischer Identifikationsdaten (IP-Adresse oder Informationen zum Browser oder Gerät des Nutzers) und/oder Daten aus mehreren Umfragen kann nicht zu einer solchen Identifizierung führen. b
-y der Subunternehmer, der die Plattform betreibt.
-
-Verantwortlicher für diese Verarbeitung und Empfänger der Daten ist die für diese Website verantwortliche Organisation, die die Umfrage in Auftrag gegeben hat.
-
-#### Verarbeitung im Zusammenhang mit der Newsletterverwaltung
-
-Die beim Abonnieren des Newsletters auf dieser Website eingegebene E-Mail-Adresse wird ausschließlich zum Zweck des Newsletter-Versands an einen Subunternehmer, nämlich das Unternehmen „Mailjet“ mit Sitz in Paris, Frankreich, weitergegeben, das denselben gesetzlichen Verpflichtungen zum Schutz personenbezogener Daten unterliegt. Um Missbrauch einzudämmen, müssen Benutzer ihre Registrierung bestätigen, indem sie auf einen Link klicken, der an die angegebene E-Mail-Adresse gesendet wird.
-
-Benutzer können sich jederzeit abmelden, indem sie auf den in jeder E-Mail bereitgestellten Link klicken oder sich an die für die Website verantwortliche Organisation wenden. Die Daten des Nutzers werden nicht länger als zwei Wochen nach dem Abmeldeantrag aufbewahrt, es sei denn, der Datenverantwortliche verlangt eine teilweise oder vollständige Aufbewahrung der Daten in Übereinstimmung mit den einschlägigen gesetzlichen Verpflichtungen.
-
-Der Datenverantwortliche ist die für diese Website verantwortliche Organisation.
+Der Nutzer kann sich außerdem bei jeder Art von Streitigkeiten in diesem Bereich an die *[Nationale Kommission für den Datenschutz](https://cnpd.public.lu/en.html)*{lang=fr} wenden (*Commission nationale pour la protection des données*{lang=fr} mit Sitz in *15, Boulevard du Jazz L-4370 Belvaux*{lang=fr}).
 
 
-### Präsenz in sozialen Netzwerken
 
-#### Moderationsrichtlinie
+#### Verarbeitungen zur Erhebung der Besucherzahlen
 
-Jeder Nutzer, der der Community dieser Website in sozialen Netzwerken beitritt, verpflichtet sich, jegliche Form von Diskriminierung im Zusammenhang mit Rasse, Hautfarbe, Religion, Geschlecht, sexueller Orientierung, Alter, nationaler Herkunft, Behinderung, Familienstand oder beruflichem Status zu ignorieren.
+Bei seinem Besuch der öffentlichen Internetseite werden bestimmte Daten im Zusammenhang mit der Hardware und Software des Nutzers erhoben, die nicht zu seiner Identifizierung dienen können. Diese Erfassung dient dem alleinigen Zweck, Statistiken zum Aufruf der Seite (Art des Browsers, Auflösung, ungefähre Lokalisierung usw.) zu erfassen, um den Nutzern den bestmöglichen Service bereitzustellen.
 
-Beleidigende, rassistische, sexistische oder beleidigende Kommentare haben in sozialen Netzwerken keinen Platz. Sie werden gelöscht und gemeldet.
+Die vollständige IP-Adresse des Nutzers wird in keinem Fall aufbewahrt. Aufbewahrt wird lediglich ein Teil der IP-Adresse für die Erhebung allgemeiner Statistiken, und es ist in keinem Fall möglich, den Nutzer zu identifizieren.
+
+Diese Daten werden innerhalb Europas in einer von einem Zulieferer, namentlich der Gesellschaft Adobe Systems Inc., bereitgestellten Lösung gespeichert, der als Zulieferer denselben gesetzlichen Bestimmungen zum Schutz personenbezogener Daten unterliegt. Dies gilt auch für den Fall solcher Daten, die zukünftig erhoben werden.
+
+Die Aufbewahrungsdauer der Daten übersteigt nicht den notwendigen Zeitraum für die Beobachtung der Entwicklung der Besucherzahlen im Hinblick auf verwendete Browser, Auflösung oder andere verfügbare statistische Daten.
+
+Verantwortlich für diese Verarbeitungen ist die für diese Internetseite verantwortliche Behörde oder sonstige Stelle.
+
+
+#### Verarbeitung im Rahmen von Online-Umfragen
+
+Die Daten der Nutzer werden, stets auf freiwilliger Basis, zum einzigen Zweck der Durchführung von Umfragen für die staatlichen Verwaltungsbehörden erfasst. Des Weiteren werden gleichzeitig technische Daten zur Messung der Besucherzahlen erhoben.
+
+Die Dauer der Aufbewahrung der Daten entspricht der Dauer der Umfrage, zuzüglich einiger Wochen zur statistischen Auswertung der Ergebnisse.
+
+Diese Umfragen werden direkt auf der Internetseite eines Zulieferers ausgeführt, namentlich auf der Seite surveygizmo.eu der Gesellschaft Widgix Limited mit Sitz in den Vereinigten Staaten. Die Daten werden innerhalb Europas aufbewahrt. Das letztgenannte Unternehmen unterliegt denselben gesetzlichen Verpflichtungen zum Schutz personenbezogener Daten, da die Umfragen für Empfänger oder Nutzer in der Europäischen Union bestimmt sind.
+
+Die Verfahren zur Durchführung dieser Umfragen ermöglichen keine persönliche Identifizierung der Nutzer. Die Kombination der technischen Identifizierungsdaten (IP-Adresse oder Informationen über den verwendeten Browser oder das Endgerät des Nutzers) und/oder die Daten aus mehreren Umfragen können nicht zu deren Identifikation durch den Zulieferer und Betreiber der Plattform führen.
+
+Verantwortlich für diese Verarbeitungen ist die für diese Internetseite verantwortliche Behörde oder sonstige Stelle, die die Umfrage in Auftrag gegeben hat.
+
+#### Verarbeitungen im Zusammenhang mit dem Newsletter
+
+Die bei der Anmeldung für den Newsletter dieser Internetseite angegebene E-Mail-Adresse wird zu dem einzigen Zweck der Verteilung des Newsletters an einen Zulieferer weitergeleitet, namentlich an das Unternehmen „Mailjet“ mit Sitz in Paris, Frankreich, das denselben gesetzlichen Verpflichtungen zum Schutz personenbezogener Daten unterliegt. Um Missbrauch zu vermeiden, muss der Nutzer seine Anmeldung für den Newsletter bestätigen, indem er auf einen Link klickt, der an seine angegebene E-Mail-Adresse geschickt wird.
+
+Der Nutzer kann sich jederzeit über einen in jeder gesendeten E-Mail enthaltenen Link oder durch Kontaktieren der für die Internetseite zuständigen Behörde oder sonstigen Stelle abmelden. Die Dauer der Speicherung der Nutzdaten übersteigt nicht die seiner Anmeldung.
+
+Verantwortlich für diese Verarbeitungen ist die für diese Internetseite verantwortliche Behörde oder sonstige Stelle.
+
+
+### Präsenz in den sozialen Netzwerken
+
+#### Richtlinien für die Moderation
+
+Jeder Nutzer, der sich der Community dieser Website in den sozialen Netzwerken anschließt, verpflichtet sich, jegliche Form der Diskriminierung in Bezug auf ethnische Herkunft, Religion, Geschlecht, sexuelle Orientierung, Alter, Nationalität, Behinderung, Familienstand oder beruflichen Status zu unterlassen.
+
+Beleidigende, rassistische, sexistische oder anstößige Äußerungen sowie die Anstiftung zu Gewalt oder Hass sind strengstens untersagt. Solche Kommentare werden gelöscht und gemeldet. Ebenso werden jegliche kommerziellen Inhalte sowie die systematische Verbreitung von Desinformation oder Verschwörungstheorien entfernt.
+
+Themenfremde Kommentare oder Beiträge unter Posts sind zu vermeiden. Die Wiederholung identischer Inhalte unter mehreren Beiträgen wird als Spam angesehen und wird gegebenenfalls gelöscht oder ausgeblendet. Gleiches gilt für Beiträge im Chat.
+
+Bei Verstößen gegen die Netiquette-Regeln können in begründeten Ausnahmesituationen die jeweiligen Konten geblockt werden.
+
+Kommentare, Nachrichten und Anfragen in den sozialen Netzwerken Mastodon, Bluesky und LinkedIn werden von Montag bis Freitag während der üblichen Geschäftszeiten bearbeitet. Außerhalb dieser Zeiten sowie an Wochenenden und Feiertagen ist die Seitenverwaltung nicht durchgehend gewährleistet.
 
 #### Sprachen
 
-In sozialen Netzwerken kommuniziert diese Seite hauptsächlich auf Englisch. Abhängig von der Situation und der Zielgruppe können Informationen in den drei Verwaltungssprachen bereitgestellt werden.
+Auf sozialen Netzwerken kommuniziert der Herausgeber des Portals, das Informations- und Presseamt, hauptsächlich auf Englisch. Abhängig von der Situation und der Zielgruppe können Informationen in den drei Verwaltungssprachen bereitgestellt werden.
 
-Soweit möglich werden alle Fragen/Kommentare in der Sprache des Nutzers beantwortet.
+Sofern möglich, werden Fragen/Kommentare in der vom jeweiligen Nutzer verwendeten Sprache beantwortet.
 
 
-### Cookie-Charta
+### Cookies-Charta
 
 Wir stellen Ihnen in voller Transparenz dar, wie und warum wir auf dieser Website Cookies verwenden.
 
@@ -142,7 +148,7 @@ Die Nutzung bestimmter Funktionen dieser Website kann eingeschränkt oder deakti
 
 Ein Cookie ist eine kleine Textdatei, die von Ihrem Browser auf der Festplatte Ihres Geräts (z. B. PC, Laptop oder Smartphone) aufgezeichnet und/oder gelesen und von den von Ihnen besuchten Websites abgelegt wird. Fast alle Websites verwenden Cookies, um ordnungsgemäß zu funktionieren und ihre Ergonomie und Funktionen zu optimieren.
 
-#### Unsere Kekse
+#### Unsere Cookies
 
 Wir verwenden Cookies im Rahmen unserer statistischen Analyse des Website-Verkehrs. Das Cookie wird von Adobe Analytics gesetzt. Adobe Analytics ist ein in Europa gehostetes Drittanbieterprodukt und entspricht den europäischen Datenschutzgesetzen.
 
@@ -171,4 +177,4 @@ Um mehr zu erfahren, folgen Sie den folgenden Links:
 
 Bitte beachten Sie, dass Sie diese Website weiterhin durchsuchen können, wenn Sie die Annahme von Cookies auf Ihrem Gerät ablehnen.
 
-Wenn Sie Fragen zu Cookies haben, können Sie uns kontaktieren (contact.html).
+Wenn Sie Fragen zu Cookies haben, können Sie uns [kontaktieren](contact.html).
