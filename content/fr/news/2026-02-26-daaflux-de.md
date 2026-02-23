@@ -3,8 +3,9 @@ teaser: 2026-02-daaflux-teaser.jpg
 auteur: Dominique Nauroy
 ---
 
+<div lang="de">
 <hgroup>
-	<h1>Taub oder hörgeschädigt in einem mehrsprachigen Land: Willkommen in Luxemburg</h1>
+	<h1><span lang="de">Taub oder hörgeschädigt in einem mehrsprachigen Land: Willkommen in Luxemburg</span></h1>
 	<p>Jackie Winandy, Gründerin der Vereinigung Daaflux, gibt Einblick in den Alltag von gehörlosen und schwerhörigen Menschen im Großherzogtum. Was sind die größten Hindernisse? Und gibt es Fortschritte bei der Berücksichtigung ihrer Beeinträchtigung?</p>
 </hgroup>
 <hr>
@@ -56,3 +57,4 @@ Dennoch sind Fortschritte erkennbar: mehr Untertitel – wenn auch nicht immer f
 <p>Ob von Geburt an gehörlos, später ertaubt oder mit Cochlea-Implantat – die Gemeinschaft der gehörlosen und schwerhörigen Menschen ist äußerst vielfältig. Die Vereinigung <a href="https://www.hoergeschaedigt.lu/">Solidarität mit Hörgeschädigten</a> schätzt, dass in Luxemburg rund 300 gehörlose und etwa 12.000 schwerhörige Menschen mit sehr unterschiedlichen Kommunikationsbedürfnissen leben.</p>
 <p>Solidarität mit Hörgeschädigten vereint drei Organisationen: <a href="https://www.facebook.com/daaflux/">DAAFLUX</a>, <a href="https://www.facebook.com/groups/349359558586796/">VGSL</a> und <a href="https://laci.lu/?lang=fr">LACI</a>. DAAFLUX und VGSL vertreten gehörlose und schwerhörige Menschen. LACI richtet sich an Personen mit Cochlea-Implantat.</p>
 </aside>
+</div>
