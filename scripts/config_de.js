@@ -109,8 +109,8 @@ const config = {
             "prefix": "../.."
         }, 
         {
-            "title": "Allgemeine rechtliche Hinweise",
-            "menu": "Allgemeine rechtliche Hinweise",
+            "title": "Allgemeine rechtliche Aspekte",
+            "menu": "Allgemeine rechtliche Aspekte",
             "name": "aspects-legaux",
             "md": "./content/de/mentions-legales.md",           
             "prefix": ".."

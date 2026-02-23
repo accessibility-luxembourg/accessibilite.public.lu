@@ -134,7 +134,7 @@ Auf sozialen Netzwerken kommuniziert der Herausgeber des Portals, das Informatio
 Sofern möglich, werden Fragen/Kommentare in der vom jeweiligen Nutzer verwendeten Sprache beantwortet.
 
 
-### Cookies-Charta
+### Cookie-Charta
 
 Wir stellen Ihnen in voller Transparenz dar, wie und warum wir auf dieser Website Cookies verwenden.
 

@@ -105,7 +105,7 @@ Die Erklärung zur Barrierefreiheit umfasst:
 
 Die Erklärung zur Barrierefreiheit kann mit dem [Erstellungsformular für Erklärungen](/de/tools/decla.html) in mehreren Sprachen erstellt werden.
 
-#### Aktualisierungen der Barrierefreiheitserklärung
+#### Aktualisierungen der Erklärung zur Barrierefreiheit
 
 Die Erklärung zur Barrierefreiheit ist ab dem Datum der Veröffentlichung gültig. Sie muss regelmäßig aktualisiert werden, insbesondere wenn die betreffende Website oder Anwendung wesentlich geändert oder neu gestaltet wird. Es kann ratsam sein, die Erklärung zur Barrierefreiheit regelmäßiger zu aktualisieren, um die unternommenen Anstrengungen hervorzuheben und den Grad der Konformität zu aktualisieren.
 

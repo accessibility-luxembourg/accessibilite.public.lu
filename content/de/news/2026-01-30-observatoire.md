@@ -60,7 +60,7 @@ Was stimmt mit dem Design oder den redaktionellen Inhalten auf den Seiten einer 
 
 ### Vermittlungen
 
-Ein zentraler Bestandteil einer Erklärung zur Barrierefreiheit ist eine Kontaktadresse für Fragen zur digitalen Barrierefreiheit. Manchmal verläuft der Dialog zwischen Bürgern und Verwaltung nicht zufriedenstellend, weshalb der SIP ebenso wie der Ombudsmann als Vermittler fungiert. Folglich zeigt die Seite „Vermittlungen“ (https://observatoire.accessibilite.public.lu/en/mediations) für jedes Jahr die Anzahl der beim SIP eingereichten Anfragen und parallel dazu die Anzahl der von der Verwaltung bereitgestellten Antworten.
+Ein zentraler Bestandteil einer Erklärung zur Barrierefreiheit ist eine Kontaktadresse für Fragen zur digitalen Barrierefreiheit. Manchmal verläuft der Dialog zwischen Bürgern und Verwaltung nicht zufriedenstellend, weshalb der SIP ebenso wie der Ombudsmann als Vermittler fungiert. Folglich zeigt die Seite [„Vermittlungen“](https://observatoire.accessibilite.public.lu/en/mediations) für jedes Jahr die Anzahl der beim SIP eingereichten Anfragen und parallel dazu die Anzahl der von der Verwaltung bereitgestellten Antworten.
 
 ## Barrierefreiheit
 
@@ -70,6 +70,6 @@ Eine der größten Herausforderungen bei der Errichtung dieses Observatoriums wa
 
 Die vom SIP durchgeführten Prüfungen bilden vorerst das Rohmaterial für die Beobachtungsstelle. Das SIP möchte es jedoch irgendwann für Prüfungen durch andere öffentliche Verwaltungen in Luxemburg öffnen. Dies bietet die Möglichkeit für zusätzliche, bereicherte und regelmäßig aktualisierte Informationen.
 
-Diese Plattform wird sich natürlich weiterentwickeln. Wenn Sie Feedback oder Wünsche zu diesem Thema haben, zögern Sie bitte nicht, uns zu kontaktieren (https://accessibilite.public.lu/en/contact.html).
+Diese Plattform wird sich natürlich weiterentwickeln. Wenn Sie Feedback oder Wünsche zu diesem Thema haben, zögern Sie bitte nicht, uns zu [kontaktieren](/de/contact.html).
 
-Dieses vom [Ministerium für Digitalisierung](https://mindigital.gouvernement.lu/en.html) unterstützte und finanzierte Projekt wurde dank des Programms [Tech-in-Gov](https://mindigital.gouvernement.lu/en/dossiers/2024/tech-in-gov/projets-tech.html) ermöglicht.
+Dieses vom [Ministerium für Digitalisierung (EN)](https://mindigital.gouvernement.lu/en.html) unterstützte und finanzierte Projekt wurde dank des Programms [Tech-in-Gov (EN)](https://mindigital.gouvernement.lu/en/dossiers/2024/tech-in-gov/projets-tech.html) ermöglicht.
