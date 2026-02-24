@@ -5,7 +5,7 @@ auteur: Dominique Nauroy
 
 <div lang="de">
 <hgroup>
-	<h1><span lang="de">Taub oder hörgeschädigt in einem mehrsprachigen Land: Willkommen in Luxemburg</span></h1>
+	<h1><span lang="de">Taub oder schwerhörig in einem mehrsprachigen Land: Willkommen in Luxemburg</span></h1>
 	<p>Jackie Winandy, Gründerin der Vereinigung Daaflux, gibt Einblick in den Alltag von gehörlosen und schwerhörigen Menschen im Großherzogtum. Was sind die größten Hindernisse? Und gibt es Fortschritte bei der Berücksichtigung ihrer Beeinträchtigung?</p>
 </hgroup>
 <hr>
