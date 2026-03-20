@@ -42,7 +42,7 @@ auteur: Dominique Nauroy
 <p>Les voix s’interfacent avec VoiceOver.</p>
 <ul>
     <li><a href="https://rhvoice.com/apple?lang=lb">Guide Apple en luxembourgeois</a></li>
-    <li><a href="https://rhvoice.com/applet?lang=fr">Guide Apple en français</a></li>
+    <li><a href="https://rhvoice.com/apple?lang=fr">Guide Apple en français</a></li>
     <li><a href="https://rhvoice.com/apple?lang=en">Guide Apple en anglais</a></li>
     <li><a href="https://rhvoice.com/apple?lang=de">Guide Apple en allemand</a></li>
 </ul>
