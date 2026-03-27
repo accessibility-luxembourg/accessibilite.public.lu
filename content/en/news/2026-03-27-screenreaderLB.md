@@ -21,7 +21,7 @@ The result of nearly a year's work, Mia and Mil have been through their paces: f
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <p class="video-desc">The Velvet's 'Electric Wizard' music video</p>
+    <p class="video-desc">Mil and Mia introduce themselves</p>
     <details class="lyrics">
         <summary><h3>Transcript</h3></summary>
         <p lang="lb">Moien, mäin Numm ass Mil.</p>
@@ -44,7 +44,7 @@ Every detail matters: how do you pronounce a date correctly? An emoji? An acrony
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/xULJa1Wm8h8" title="The Velvet - Electric wizard, video on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <p class="video-desc">The Velvet's 'Electric Wizard' music video</p>
+    <p class="video-desc">Reading an article on music theory reform</p>
     <details class="lyrics">
         <summary><h3>Transcript</h3></summary>
         <p>De Museksunterecht zu Lëtzebuerg gëtt moderniséiert: Reform vum Solfège ab 2026</p>
