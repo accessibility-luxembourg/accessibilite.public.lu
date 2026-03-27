@@ -15,7 +15,7 @@ auteur: Dominique Nauroy
 
 Une voix féminine, une autre masculine, aussi à l'aises l'une que l'autre pour restituer des textes écrits en luxembourgeois, disponibles sur ordinateurs et smartphones&#8239;: c'est une première que le SIP vous propose d'essayer dès aujourd'hui.
 
-Fruits de près d'un an de travail, Mia et Mil ont été à bonne école&#8239;: d'abord un passage par le Zenter fir d'Lëtzebuerger Sprooch où ils ont appris au pas de course 70 000 mots luxembourgeois&#8239;; ensuite un coaching sévère chez LouderPages, éditeur qui s'y connaît en restitution vocale - à son actif, plusieurs synthèses vocales dédiées à des langues aussi diverses que le népali, le turkmène ou encore le tswana&#8239;; enfin une validation des acquis auprès des testeurs du Centre pour le développement des compétences relatives à la vue (CDV). Pendant tout ce temps, nous, au Service information et presse (SIP), jouions le rôle de parents.
+Fruits de près d'un an de travail, Mia et Mil ont été à bonne école&#8239;: d'abord un passage par le *Zenter fir d'Lëtzebuerger Sprooch*{lang=lb} où ils ont appris au pas de course 70 000 mots luxembourgeois&#8239;; ensuite un coaching sévère chez LouderPages, éditeur qui s'y connaît en restitution vocale - à son actif, plusieurs synthèses vocales dédiées à des langues aussi diverses que le népali, le turkmène ou encore le tswana&#8239;; enfin une validation des acquis auprès des testeurs du Centre pour le développement des compétences relatives à la vue (CDV). Pendant tout ce temps, nous, au Service information et presse (SIP), jouions le rôle de parents.
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
@@ -61,23 +61,48 @@ Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? 
 
 Aujourd'hui, ces deux voix sont réactives, peuvent restituer un texte à haute vitesse et elles fonctionnent sans jamais avoir besoin de communiquer avec un serveur distant&#8239;: de la sorte, l'immédiateté mais aussi la confidentialité sont assurées.
 
-Outre la fonction de lecteur d'écran, ces voix peuvent également être utilisées pour lire un texte à voix haute (fonction « Read aloud ») sous MacOS, avec la fonction d'accessibilité « speak selection » proposée par le système, et sous Windows avec des outils tiers comme [Balabolka](https://www.cross-plus-a.com/balabolka.htm) ou l'extension de navigateur « [Read aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) ».
+Outre la fonction de lecteur d'écran, ces voix peuvent également être utilisées pour lire un texte à voix haute (fonction « Read aloud ») sous MacOS, avec la fonction d'accessibilité « [Énoncer la sélection](https://support.apple.com/fr-fr/guide/mac-help/mh27448/mac) » proposée par le système, et sous Windows avec des outils tiers comme [Balabolka](https://www.cross-plus-a.com/balabolka.htm) ou l'extension de navigateur « [Read aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) ».
 
 ## Faites-leur passer une audition
 
-Mia et Mil existent sur Windows, macOS, Android et iOS. Ces voix s'interfacent avec VoiceOver (macOS et iOS), TalkBack (Android), NVDA et JAWS (Windows). Vous trouverez sur [cette page](https://accessibilite.public.lu/fr/news/2026-01-19-screenreaderLB.html) les liens de téléchargement et les guides d'installation en quatre langues.
+Mia et Mil existent sur Windows, macOS, Android et iOS. Des guides ont été rédigés pour chaque plateforme, en quatre langues. Nous vous conseillons d’en prendre connaissance avant d’installer RHVoice et les voix luxembourgeoises sur votre téléphone, votre tablette ou votre ordinateur.
 
+### Pour Windows
+Les voix peuvent s’interfacer avec les lecteurs d’écran NVDA et JAWS.
+
+- [Guide Windows en luxembourgeois](https://rhvoice.com/microsoft?lang=lb)
+- [Guide Windows en français](https://rhvoice.com/microsoft?lang=fr)
+- [Guide Windows en anglais](https://rhvoice.com/microsoft?lang=en)
+- [Guide Windows en allemand](https://rhvoice.com/microsoft?lang=de)
+
+### Pour macOS et iOS
+Les voix s’interfacent avec VoiceOver.
+
+- [Guide Apple en luxembourgeois](https://rhvoice.com/apple?lang=lb)
+- [Guide Apple en français](https://rhvoice.com/apple?lang=fr)
+- [Guide Apple en anglais](https://rhvoice.com/apple?lang=en)
+- [Guide Apple en allemand](https://rhvoice.com/apple?lang=de)
+
+### Pour Android
+Les voix s’interfacent avec TalkBack.
+
+- [Guide Android en luxembourgeois](https://rhvoice.com/android_uguide?lang=lb)
+- [Guide Android en français](https://rhvoice.com/android_uguide?lang=fr)
+- [Guide Android en anglais](https://rhvoice.com/android_uguide?lang=en)
+- [Guide Android en allemand](https://rhvoice.com/android_uguide?lang=de)
+
+## Vos contributions sont les bienvenues !
 Enfin, si vous souhaitez apporter votre pierre au projet, vous avez deux possibilités&#8239;:
 
-- nous transmettre des exemples de prononciation à corriger, en fournissant la source du document et les conditions d'utilisation (ordinateur ou appareil mobile, lecteur d'écran choisi, voix sélectionnée)&#8239;;
+- nous transmettre des exemples de prononciation à améliorer, en fournissant la source du document et les conditions d'utilisation (ordinateur ou appareil mobile, lecteur d'écran choisi, voix sélectionnée)&#8239;;
 - vous impliquer comme développeur dans le projet, entièrement publié en Open source sur GitHub&#8239;:
   - [RHVoice](https://github.com/rhvoice/rhvoice/)
-  - [Apple app](https://github.com/accessibility-luxembourg/Apple-RHVoice/)
-  - [Luxembourgish grapheme-to-phoneme source code](https://github.com/accessibility-luxembourg/RHVoice-Luxembourgish-src)
-  - [Luxembourgish grapheme-to-phoneme run time binaries](https://github.com/accessibility-luxembourg/RHVoice-Luxembourgish-bin)
-  - [Mil data files](https://github.com/accessibility-luxembourg/RHVoice-Mil)
-  - [Mia data files](https://github.com/accessibility-luxembourg/RHVoice-Mia)
+  - [Code source de l'app Apple](https://github.com/accessibility-luxembourg/Apple-RHVoice/)
+  - [Code source du grapheme-to-phoneme luxembourgeois](https://github.com/accessibility-luxembourg/RHVoice-Luxembourgish-src)
+  - [Binaires du grapheme-to-phoneme luxembourgeois](https://github.com/accessibility-luxembourg/RHVoice-Luxembourgish-bin)
+  - [Fichiers de données de Mil](https://github.com/accessibility-luxembourg/RHVoice-Mil)
+  - [Fichiers de données de Mia](https://github.com/accessibility-luxembourg/RHVoice-Mia)
 
 Participer à l'une de ces aventures vous tente&#8239;? Nous vous invitons à [contacter le SIP](mailto:accessibilite@sip.etat.lu), et nous parlerons de votre projet.
 
-Nous tenons à remercier le ministère de la Digitalisation qui, dans le cadre des appels à projet Tech in Gov 2025, a retenu notre proposition&#8239;: c'est d'abord grâce à ce financement que Mia et Mil sont devenus, un an plus tard, une réalité concrète – qu'il faudra accompagner&#8239;: perfectionner une voix, c'est un travail qui ne s'arrête jamais.
+Nous tenons à remercier le [ministère de la Digitalisation](https://mindigital.gouvernement.lu/fr.html) qui, dans le cadre des appels à projet [Tech-in-Gov](https://mindigital.gouvernement.lu/fr/dossiers/2024/tech-in-gov.html) 2025, a retenu notre proposition&#8239;: c'est d'abord grâce à ce financement que Mia et Mil sont devenus, un an plus tard, une réalité concrète – qu'il faudra accompagner&#8239;: perfectionner une voix, c'est un travail qui ne s'arrête jamais.

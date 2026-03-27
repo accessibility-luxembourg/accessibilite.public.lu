@@ -15,7 +15,7 @@ auteur: Dominique Nauroy
 
 One female voice, one male voice, both equally adept at reading out texts written in Luxembourgish, available on computers and smartphones: this is a first that the SIP invites you to try out today.
 
-The result of nearly a year's work, Mia and Mil have been through their paces: first a stint at the Zenter fir d'Lëtzebuerger Sprooch, where they rapidly learnt 70,000 Luxembourgish words; then some rigorous coaching at LouderPages, a publisher with expertise in speech synthesis - LouderPages has produced several speech synthesis systems for languages as diverse as Nepali, Turkmen and Tswana; and finally, a validation of their skills by testers at the Centre for the Development of Visual Skills (CDV). Throughout this time, we at the Information and Press Service (SIP) played the role of parents.
+The result of nearly a year's work, Mia and Mil have been through their paces: first a stint at the *Zenter fir d'Lëtzebuerger Sprooch*{lang=lb}, where they rapidly learnt 70,000 Luxembourgish words; then some rigorous coaching at LouderPages, a publisher with expertise in speech synthesis - LouderPages has produced several speech synthesis systems for languages as diverse as Nepali, Turkmen and Tswana; and finally, a validation of their skills by testers at the Centre for the Development of Visual Skills (CDV). Throughout this time, we at the Information and Press Service (SIP) played the role of parents.
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
@@ -61,15 +61,41 @@ Every detail matters: how do you pronounce a date correctly? An emoji? An acrony
 
 Today, these two voices are responsive, can reproduce text at high speed and operate without ever needing to communicate with a remote server: in this way, immediacy and confidentiality are both ensured.
 
-In addition to the screen reader function, these voices can also be used to read text aloud (the 'Read Aloud' function) on macOS, using the system's 'Speak Selection' accessibility feature, and on Windows with third-party tools such as [Balabolka](https://www.cross-plus-a.com/balabolka.htm) or the ['Read](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) Aloud' browser extension.
+In addition to the screen reader function, these voices can also be used to read text aloud (the 'Read Aloud' function) on macOS, using the system's ['Speak Selection'](https://support.apple.com/en-gb/guide/mac-help/mh27448/mac) accessibility feature, and on Windows with third-party tools such as [Balabolka](https://www.cross-plus-a.com/balabolka.htm) or the ['Read Aloud'](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) browser extension.
 
 ## Give them a listen
 
-Mia and Mil are available on Windows, macOS, Android and iOS. These voices are compatible with VoiceOver (macOS and iOS), TalkBack (Android), NVDA and JAWS (Windows). On [this page](https://accessibilite.public.lu/en/news/2026-01-19-screenreaderLB.html), you will find download links and installation guides in four languages.
+Mia and Mil are available on Windows, macOS, Android, and iOS. Guides have been written for each platform, in four languages. We recommend that you read them before installing RHVoice and the Luxembourgish voices on your phone, tablet, or computer.
+
+### For Windows
+The voices can interface with NVDA and JAWS screen readers.
+
+- [Windows Guide in Luxembourgish](https://rhvoice.com/microsoft?lang=lb)
+- [Windows Guide in French](https://rhvoice.com/microsoft?lang=fr)
+- [Windows Guide in English](https://rhvoice.com/microsoft?lang=en)
+- [Windows Guide in German](https://rhvoice.com/microsoft?lang=de)
+
+### For macOS and iOS
+The voices interface with VoiceOver.
+
+- [Apple Guide in Luxembourgish](https://rhvoice.com/apple?lang=lb)
+- [Apple Guide in French](https://rhvoice.com/apple?lang=fr)
+- [Apple Guide in English](https://rhvoice.com/apple?lang=en)
+- [Apple Guide in German](https://rhvoice.com/apple?lang=de)
+
+### For Android
+Voices interface with TalkBack.
+
+- [Android Guide in Luxembourgish](https://rhvoice.com/android_uguide?lang=lb)
+- [Android Guide in French](https://rhvoice.com/android_uguide?lang=fr)
+- [Android Guide in English](https://rhvoice.com/android_uguide?lang=en)
+- [Android Guide in German](https://rhvoice.com/android_uguide?lang=de)
+
+## Your contributions are welcome!
 
 Finally, if you'd like to contribute to the project, you have two options:
 
-- send us examples of pronunciation to be corrected, providing the source of the document and the conditions of use (computer or mobile device, screen reader, selected voice);
+- send us examples of pronunciation to be improved, providing the source of the document and the conditions of use (computer or mobile device, screen reader, selected voice);
 - get involved as a developer in the project, which is published entirely as Open source on GitHub:
   - [RHVoice](https://github.com/rhvoice/rhvoice/)
   - [Apple app](https://github.com/accessibility-luxembourg/Apple-RHVoice/)
@@ -80,4 +106,4 @@ Finally, if you'd like to contribute to the project, you have two options:
 
 Fancy taking part in one of these projects? We invite you to [contact the SIP](mailto:accessibilite@sip.etat.lu), and we'll discuss your project.
 
-We would like to thank the Ministry of Digitalisation, which, as part of the Tech in Gov 2025 call for projects, selected our proposal: it is primarily thanks to this funding that Mia and Mil became, a year later, a concrete reality - one that will require ongoing support: perfecting a voice is a task that never ends.
+We would like to thank the [Ministry for Digitalisation](https://mindigital.gouvernement.lu/en.html), which, as part of the [Tech-in-Gov](https://mindigital.gouvernement.lu/en/dossiers/2024/tech-in-gov.html) 2025 call for projects, selected our proposal: it is primarily thanks to this funding that Mia and Mil became, a year later, a concrete reality - one that will require ongoing support: perfecting a voice is a task that never ends.
