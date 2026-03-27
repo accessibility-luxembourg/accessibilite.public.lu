@@ -19,7 +19,7 @@ Fruits de près d'un an de travail, Mia et Mil ont été à bonne école&#8239;:
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Mil et Mia se présentent</p>
     <details class="lyrics">
@@ -42,7 +42,7 @@ Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? 
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/xULJa1Wm8h8" title="The Velvet - Electric wizard, video on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/cL2MrN32bS0" title="Lecture d'un article sur la réforme du solfège, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Lecture d'un article sur la réforme du solfège</p>
     <details class="lyrics">
