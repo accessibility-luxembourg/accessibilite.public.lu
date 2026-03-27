@@ -19,7 +19,7 @@ The result of nearly a year's work, Mia and Mil have been through their paces: f
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/8ylNEQT5ZvE" title="Mia&Mil Intro, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Mil and Mia introduce themselves</p>
     <details class="lyrics">
@@ -42,7 +42,7 @@ Every detail matters: how do you pronounce a date correctly? An emoji? An acrony
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/cL2MrN32bS0" title="Reading an article on music theory reform, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/CP6fD3ZR1F0" title="Reading an article on music theory reform, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Reading an article on music theory reform</p>
     <details class="lyrics">
