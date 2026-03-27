@@ -61,7 +61,7 @@ Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? 
 
 Aujourd'hui, ces deux voix sont réactives, peuvent restituer un texte à haute vitesse et elles fonctionnent sans jamais avoir besoin de communiquer avec un serveur distant&#8239;: de la sorte, l'immédiateté mais aussi la confidentialité sont assurées.
 
-Outre la fonction de lecteur d'écran, ces voix peuvent également être utilisées pour lire un texte à voix haute (fonction « Read aloud ») sous MacOS, avec la fonction d'accessibilité « [Énoncer la sélection](https://support.apple.com/fr-fr/guide/mac-help/mh27448/mac) » proposée par le système, et sous Windows avec des outils tiers comme [Balabolka](https://www.cross-plus-a.com/balabolka.htm) ou l'extension de navigateur « [Read aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) ».
+Outre la fonction de lecteur d'écran, ces voix peuvent également être utilisées pour lire un texte à voix haute (fonction « Read aloud ») sous MacOS, avec la fonction d'accessibilité « [énoncer la sélection](https://support.apple.com/fr-fr/guide/mac-help/mh27448/mac) » proposée par le système, et sous Windows avec des outils tiers comme [Balabolka](https://www.cross-plus-a.com/balabolka.htm) ou l'extension de navigateur « [Read aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/){lang=en} ».
 
 ## Faites-leur passer une audition
 
