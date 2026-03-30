@@ -42,7 +42,7 @@ Nous avons eu à cœur de vous offrir deux voix qui soient les moins imparfaites
 Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? Un emoji&#8239;? Un acronyme&#8239;? Nous sommes ainsi habitués à entendre « C-G-DIS ». Il faut donc guider ces voix à travers des dictionnaires spécifiques, qui vont lui apprendre à prononcer « SIGI », « TICE » ou encore « ANLux » ainsi que nous le faisons au Luxembourg. Il en va de même des prénoms - Paulette, Emil, João... - et de certains noms de familles, de Bertemes à Zendaya en passant par Grethen et Weydert.
 
 <div class="video-parent-container" lang="lb">
-    <div class="video-container">
+    <div class="video-container" style="padding-bottom: 100%">
         <iframe src="https://www.youtube.com/embed/CP6fD3ZR1F0" title="Lecture d'un article sur la réforme du solfège, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Lecture d'un article sur la réforme du solfège</p>
