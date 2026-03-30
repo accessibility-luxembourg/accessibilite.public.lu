@@ -43,7 +43,7 @@ Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? 
 
 <div class="video-parent-container" lang="lb">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/cL2MrN32bS0" title="Lecture d'un article sur la réforme du solfège, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/CP6fD3ZR1F0" title="Lecture d'un article sur la réforme du solfège, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Lecture d'un article sur la réforme du solfège</p>
     <details class="lyrics">
