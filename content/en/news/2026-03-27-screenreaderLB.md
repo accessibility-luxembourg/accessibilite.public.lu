@@ -18,7 +18,7 @@ One female voice, one male voice, both equally adept at reading out texts writte
 The result of nearly a year's work, Mia and Mil have been through their paces: first a stint at the Zenter fir d'Lëtzebuerger Sprooch, where they rapidly learnt 70,000 Luxembourgish words; then some rigorous coaching at LouderPages, a publisher with expertise in speech synthesis - LouderPages has produced several speech synthesis systems for languages as diverse as Nepali, Turkmen and Tswana; and finally, a validation of their skills by testers at the Centre for the Development of Visual Skills (CDV). Throughout this time, we at the Information and Press Service (SIP) played the role of parents.
 
 <div class="video-parent-container" lang="lb">
-    <div class="video-container">
+    <div class="video-container" style="padding-bottom: 100%">
         <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Mil and Mia introduce themselves</p>
@@ -29,6 +29,7 @@ The result of nearly a year's work, Mia and Mil have been through their paces: f
         <p lang="fr">Je parle aussi français.</p>
         <p lang="de">Ich kann auch ein bisschen Deutsch.</p>
         <p lang="en">I am the English voice, I am here to assist Mil for the English language.</p>
+        <p lang="lb">Mia</p>
         <p lang="lb">Hallo, ech sinn d'Mia, ech sinn déi zweet Lëtzebuerger Stëmm vum "Screen Reader LB" Projet.</p>
 </div>
 
@@ -41,7 +42,7 @@ We were keen to offer you two voices that were as close to perfect as possible. 
 Every detail matters: how do you pronounce a date correctly? An emoji? An acronym? We are used to hearing 'C-G-DIS'. These voices must therefore be guided through specific dictionaries, which will teach them to pronounce 'SIGI', 'TICE' or 'ANLux' just as we do in Luxembourg. The same applies to first names - Paulette, Emil, João... - and certain surnames, from Bertemes to Zendaya, via Grethen and Weydert.
 
 <div class="video-parent-container" lang="lb">
-    <div class="video-container">
+    <div class="video-container" style="padding-bottom: 100%">
         <iframe src="https://www.youtube.com/embed/cL2MrN32bS0" title="Reading an article on music theory reform, YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Reading an article on music theory reform</p>

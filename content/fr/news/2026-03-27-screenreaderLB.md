@@ -18,7 +18,7 @@ Une voix féminine, une autre masculine, aussi à l'aises l'une que l'autre pour
 Fruits de près d'un an de travail, Mia et Mil ont été à bonne école&#8239;: d'abord un passage par le Zenter fir d'Lëtzebuerger Sprooch où ils ont appris au pas de course 70 000 mots luxembourgeois&#8239;; ensuite un coaching sévère chez LouderPages, éditeur qui s'y connaît en restitution vocale - à son actif, plusieurs synthèses vocales dédiées à des langues aussi diverses que le népali, le turkmène ou encore le tswana&#8239;; enfin une validation des acquis auprès des testeurs du Centre pour le développement des compétences relatives à la vue (CDV). Pendant tout ce temps, nous, au Service information et presse (SIP), jouions le rôle de parents.
 
 <div class="video-parent-container" lang="lb">
-    <div class="video-container">
+    <div class="video-container" style="padding-bottom: 100%">
         <iframe src="https://www.youtube.com/embed/5vQXrnT76zc" title="Mia&Mil Intro, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Mil et Mia se présentent</p>
@@ -29,6 +29,7 @@ Fruits de près d'un an de travail, Mia et Mil ont été à bonne école&#8239;:
         <p lang="fr">Je parle aussi français.</p>
         <p lang="de">Ich kann auch ein bisschen Deutsch.</p>
         <p lang="en">I am the English voice, I am here to assist Mil for the English language.</p>
+        <p lang="lb">Mia</p>
         <p lang="lb">Hallo, ech sinn d'Mia, ech sinn déi zweet Lëtzebuerger Stëmm vum "Screen Reader LB" Projet.</p>
 </div>
 
@@ -41,12 +42,12 @@ Nous avons eu à cœur de vous offrir deux voix qui soient les moins imparfaites
 Chaque détail a son importance&#8239;: comment bien prononcer une date&#8239;? Un emoji&#8239;? Un acronyme&#8239;? Nous sommes ainsi habitués à entendre « C-G-DIS ». Il faut donc guider ces voix à travers des dictionnaires spécifiques, qui vont lui apprendre à prononcer « SIGI », « TICE » ou encore « ANLux » ainsi que nous le faisons au Luxembourg. Il en va de même des prénoms - Paulette, Emil, João... - et de certains noms de familles, de Bertemes à Zendaya en passant par Grethen et Weydert.
 
 <div class="video-parent-container" lang="lb">
-    <div class="video-container">
+    <div class="video-container" style="padding-bottom: 100%">
         <iframe src="https://www.youtube.com/embed/cL2MrN32bS0" title="Lecture d'un article sur la réforme du solfège, vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-desc">Lecture d'un article sur la réforme du solfège</p>
     <details class="lyrics">
-        <summary><h3>Transcript</h3></summary>
+        <summary><h3>Transcription</h3></summary>
         <p>De Museksunterecht zu Lëtzebuerg gëtt moderniséiert: Reform vum Solfège ab 2026</p>
         <p lang="en">Heading level one</p>
         <p lang="fr">Communiqué</p>
