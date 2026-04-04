@@ -37,7 +37,7 @@ jobs:
         GSITEVERIF: ${{secrets.GSITEVERIF}}
       run: | 
         cd $GITHUB_WORKSPACE
-        npm ci
+        npm ci --ignore-scripts
         bash ./build.sh
     - name: Upload dist as artifact
       uses: actions/upload-artifact@v4
