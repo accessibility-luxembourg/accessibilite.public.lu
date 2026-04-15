@@ -60,7 +60,7 @@
   "devDependencies": {
     "@axe-core/puppeteer": "^4.10.2",
     "axe-core": "^4.10.3",
-    "concurrently": "^5.3.0",
+    "concurrently": "^9.2.1",
     "http-server": "^14.1.1",
     "npm-watch": "^0.13.0",
     "pixelmatch": "^6.0.0",
