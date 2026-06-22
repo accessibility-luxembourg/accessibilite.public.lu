@@ -66,6 +66,10 @@ In addition to the screen reader function, these voices can also be used to read
 
 ## Give them a listen
 
+Before installing the voices on your devices, you can test them using the form below:
+<div id="srlb-demo" style="max-width:650px; margin: 1em auto;"></div>
+<script type="module" src="https://accessibility-luxembourg.github.io/rhvoice-emscripten-lb/embed.js"></script>
+
 Mia and Mil are available on Windows, macOS, Android, and iOS. Guides have been written for each platform, in four languages. We recommend that you read them before installing RHVoice and the Luxembourgish voices on your phone, tablet, or computer.
 
 ### For Windows
