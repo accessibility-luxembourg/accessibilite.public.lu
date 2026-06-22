@@ -66,5 +66,10 @@
     "pixelmatch": "^6.0.0",
     "pngjs": "^7.0.0",
     "puppeteer": "^24.11.1"
+  },
+  "allowScripts": {
+    "puppeteer@24.39.1": true,
+    "sharp@0.34.5": true,
+    "fsevents@2.3.3": true
   }
 }
