@@ -29,7 +29,7 @@ section {
 
 audio,
 canvas,
-progress,
+progress:not([hidden]),
 video {
     display: inline-block;
     vertical-align: baseline
