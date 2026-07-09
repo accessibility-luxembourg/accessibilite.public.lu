@@ -60,11 +60,16 @@
   "devDependencies": {
     "@axe-core/puppeteer": "^4.10.2",
     "axe-core": "^4.10.3",
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.3",
     "http-server": "^14.1.1",
     "npm-watch": "^0.13.0",
     "pixelmatch": "^6.0.0",
     "pngjs": "^7.0.0",
     "puppeteer": "^24.11.1"
+  },
+  "allowScripts": {
+    "puppeteer@24.39.1": true,
+    "sharp@0.34.5": true,
+    "fsevents@2.3.3": true
   }
 }
