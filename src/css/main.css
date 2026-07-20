@@ -337,6 +337,8 @@ blockquote footer a:visited {
   border: 0;
   display: block;
   padding: 3px 8px;
+  width: auto;
+  height: 42px;
 }
 
 @media (min-width: 720px) {
