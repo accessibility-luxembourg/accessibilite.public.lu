@@ -34,6 +34,8 @@ jobs:
         BUGSNAG: ${{ secrets.BUGSNAG }}
         TRACKING: ${{ secrets.TRACKING }}
         GOVBAR: ${{secrets.GOVBAR}}
+        GOVBAR_EN: ${{secrets.GOVBAR_EN}}
+        GOVBAR_FR: ${{secrets.GOVBAR_FR}}
         GSITEVERIF: ${{secrets.GSITEVERIF}}
       run: | 
         cd $GITHUB_WORKSPACE

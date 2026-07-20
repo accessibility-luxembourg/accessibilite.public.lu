@@ -70,8 +70,11 @@
     <% } %>
 </head>
 <body>
-      <% if (prod) { %>
-        <%- process.env.GOVBAR %>
+      <% if (prod && lang === 'en') { %>
+        <%- process.env.GOVBAR_EN %>
+      <% } %>
+      <% if (prod && lang === 'fr') { %>
+        <%- process.env.GOVBAR_FR %>
       <% } %>
        <!-- <%- name %> -->     
     <%- include('header', {'nav': config[lang].mainMenu, 'name': name, 'prod': prod, 'prefix': prefix, 'lang': lang, 'file': file, 'genURL': genURL, '__': __}) %>
