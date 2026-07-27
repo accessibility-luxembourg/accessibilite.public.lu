@@ -3,7 +3,7 @@ teaser: 2026-07-miamil-teaser.jpg
 auteur: Dominique Nauroy
 ---
 <hgroup> 
-    <h1>SIP unveils its Luxembourgish TTS</h1>
+    <h1>The SIP unveils its Luxembourgish TTS</h1>
     <p>At the end of June, we were once again at VoxxedDays in Mondorf-les-Bains to present Mia and Mil, two Luxembourgish speech synthesizers designed for assistive technologies. Watch the video for a look back at this unique technical adventure.</p>
 </hgroup>
 <hr>
@@ -11,7 +11,7 @@ auteur: Dominique Nauroy
     <p>When a project comes to fruition and gives rise to innovation, it’s an opportunity to raise awareness of it and let it evolve in the hands of users. But we also wanted to give you a behind-the-scenes look at an unusual project: the creation of Luxembourgish synthetic voices tailored for digital accessibility. This was the focus of the presentation given at <a href="https://luxembourg.voxxeddays.com/en/">VoxxedDays</a> at the end of June.</p>
 </div>
 <figure role="group" aria-label="Presentation of the SIP at VoxxedDays on 18 June 2026. Extract from a video recording." class="pic"> 
-    <img src="img/2026-07-miamil.jpg" alt="Alain Vagner and Dominique Nauroy present the Luxembourgish speech synthesis project"> 
+    <img src="../../fr/news/img/2026-07-miamil.jpg" alt="Alain Vagner and Dominique Nauroy present the Luxembourgish speech synthesis project"> 
     <figcaption>Presentation of the SIP at VoxxedDays on 18 June 2026. Extract from a video recording.</figcaption>
 </figure>
 <p>In the absence of a Luxembourgish text-to-speech (TTS) system, the best solution to date has been to use a German synthesis system to read out Luxembourgish text: a makeshift solution which, used as a daily work tool, could lead to an additional cognitive load and, consequently, increased fatigue.</p>
