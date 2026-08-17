@@ -137,7 +137,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         }
         // Special processing for RAWeb criteria pages
         // Convert EN 301 549 references to links in correspondence sections
-        if (['raweb1/criteres'].includes(name)) {
+        if (['raweb1/criteres', 'raweb1.1/criteres'].includes(name)) {
             $('.rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
                 let text = $(this).html()
                 // Match EN 301 549 references in both paragraph and direct formats
