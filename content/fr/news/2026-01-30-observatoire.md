@@ -71,4 +71,4 @@ Pour l'heure, ce sont les audits menés par le SIP qui constituent la matière p
 
 Cette plateforme est bien entendue amenée à évoluer. Si vous avez des retours ou des demandes à ce sujet, n'hésitez pas à [nous contacter](https://accessibilite.public.lu/fr/contact.html).
 
-Ce projet, soutenu et financé par le [ministère de la Digitalisation](https://mindigital.gouvernement.lu/fr.html), a pu voir le jour grâce au programme [Tech-in-Gov](https://mindigital.gouvernement.lu/fr/dossiers/2024/tech-in-gov/projets-tech.html).
+Ce projet, soutenu et financé par le [ministère de la Digitalisation](https://mindigital.gouvernement.lu/fr.html), a pu voir le jour grâce au programme [Tech-in-Gov](https://gouvernement.lu/fr/dossiers.gouv2024_mindigital+fr+dossiers+2024+tech-in-gov.html).

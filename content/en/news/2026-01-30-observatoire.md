@@ -71,4 +71,4 @@ For the time being, the audits conducted by the SIP constitute the raw material 
 
 This platform is, of course, likely to evolve. If you have any feedback or requests on this subject, please do not hesitate to [contact us](https://accessibilite.public.lu/en/contact.html).
 
-This project, supported and funded by the [Ministry for Digitalisation](https://mindigital.gouvernement.lu/en.html), was made possible thanks to the [Tech-in-Gov](https://mindigital.gouvernement.lu/en/dossiers/2024/tech-in-gov/projets-tech.html) programme.
+This project, supported and funded by the [Ministry for Digitalisation](https://mindigital.gouvernement.lu/en.html), was made possible thanks to the [Tech-in-Gov](https://gouvernement.lu/en/dossiers.gouv2024_mindigital+en+dossiers+2024+tech-in-gov.html) programme.
