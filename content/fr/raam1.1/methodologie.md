@@ -132,7 +132,7 @@ Nous vous renvoyons également aux documentations des éditeurs de langage et de
 
 #### iOS
 - [Accessibilité iOS](https://www.apple.com/fr/accessibility/)&nbsp;: description des technologies d’assistance et des fonctionnalités d’accessibilité présentes sur les systèmes iOS.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/){lang=en}&nbsp;: Principes généraux d’accessibilité des interfaces d’applications mobiles sur iOS.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility){lang=en}&nbsp;: Principes généraux d’accessibilité des interfaces d’applications mobiles sur iOS.
 - [Vidéos et tutoriels](https://developer.apple.com/videos/frameworks/accessibility/) &nbsp;: ensemble de vidéos offrant des démonstrations de technologies d’assistance disponibles sur iOS ou présentant des méthodes techniques de développement pour prendre en compte l’accessibilité.
 
 ###  Outils d’évaluation

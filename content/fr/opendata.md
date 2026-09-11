@@ -39,8 +39,7 @@ Vous trouverez sur cette page l'ensemble des documents publiés en *open data*{l
 - [Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-des-documents-au-format-pdf/)
 
 ### Inventaires de sites et d'applications 
-- [Inventaire des sites publics](https://data.public.lu/fr/datasets/inventaire-des-sites-publics/)
-- [Inventaire des applications mobiles publiques](https://data.public.lu/fr/datasets/inventaire-des-applications-mobiles-publiques/)
+- [Inventaire des sites et applications publics](https://data.public.lu/fr/datasets/inventaire-des-sites-et-apps-du-secteur-public/)
 
 ### Autres
 - [Déclarations d'accessibilité](https://data.public.lu/fr/datasets/declarations-daccessibilite/)

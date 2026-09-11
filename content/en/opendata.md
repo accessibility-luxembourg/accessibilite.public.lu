@@ -36,8 +36,7 @@ On this page you will find all the documents published in *open data* by the SIP
 - [PDF Accessibility Assessment Framework (RAPDF)](https://data.public.lu/fr/datasets/referentiel-devaluation-de-laccessibilite-des-documents-au-format-pdf/)
 
 ### Inventories of sites and applications 
-- [Inventory of public sites](https://data.public.lu/en/datasets/inventaire-des-sites-publics/)
-- [Inventory of public mobile applications](https://data.public.lu/en/datasets/inventaire-des-applications-mobiles-publiques/)
+- [Inventory of public sites and applications](https://data.public.lu/en/datasets/inventaire-des-sites-et-apps-du-secteur-public/)
 
 ### Other
 - [Accessibility statements](https://data.public.lu/en/datasets/declarations-daccessibilite/)

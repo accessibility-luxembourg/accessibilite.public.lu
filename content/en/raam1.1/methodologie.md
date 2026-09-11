@@ -135,7 +135,7 @@ We would also refer you to the documentation provided by language publishers and
 
 #### iOS
 - [iOS Accessibility](https://www.apple.com/accessibility/): description of assistive technologies and accessibility features available on iOS systems.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/): general accessibility principles for mobile application interfaces on iOS.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility): general accessibility principles for mobile application interfaces on iOS.
 - [Videos and tutorials](https://developer.apple.com/videos/frameworks/accessibility/): a collection of videos demonstrating assistive technologies available on iOS or presenting technical development methods for taking accessibility into account.
 
 ### Evaluation tools
