@@ -67,3 +67,5 @@ cp -r ./src/fonts ./dist/
 mkdir -p ./dist/en/news
 cp -r ./content/en/news/datasource ./dist/en/news
 cp -r ./content/en/news/img ./dist/en/news
+
+npx -y pagefind --site dist

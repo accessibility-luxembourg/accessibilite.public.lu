@@ -351,7 +351,14 @@ const config = {
                     "summaryTitle": "Sommaire"
                 },
             ]
-        }
+        },
+        {
+        "title": "Recherche",
+        "menu": "<span>Recherche</span>",
+        "name": "search",
+        "md": "./content/fr/search.md", 
+        "prefix": ".."
+        }     
     ],
     "footer": [
         {
