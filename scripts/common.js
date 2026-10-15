@@ -115,7 +115,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         })
         // Special processing for RAAM and RAPDF technical reference pages
         // Convert EN 301 549 criterion references to clickable links
-        if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
+        if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'raam2/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
             $('h5.disclosure.mapping + ul>li').each(function(i, elem) {
                 let text = $(this).text()
                 if (text.match(/^EN\s301\s549/)) {
@@ -137,7 +137,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         }
         // Special processing for RAWeb criteria pages
         // Convert EN 301 549 references to links in correspondence sections
-        if (['raweb1/criteres', 'raweb1.1/criteres'].includes(name)) {
+        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres'].includes(name)) {
             $('.rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
                 let text = $(this).html()
                 // Match EN 301 549 references in both paragraph and direct formats

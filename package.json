@@ -46,7 +46,7 @@
     "cheerio": "^1.2.0",
     "dotenv": "^16.0.1",
     "ejs": "^5.0.1",
-    "en301549-links": "^1.0.7",
+    "en301549-links": "^2.0.0",
     "jsdom": "^28.1.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",

@@ -8,15 +8,21 @@ const niveauxRAWeb11 = require('../content/fr/raweb1.1/niveaux.json')
 const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1.1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
+const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/fr/raweb2')
+const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
+const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
+
+
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
 const niveauxRAWeb1 = require('../content/fr/raweb1/niveaux.json')
 const dataRAWeb1 = {topics: criteresRAWeb1.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb1, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 const glossaryRAWeb1 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
-const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb1.1', '../../fr/raweb1.1/')
+const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb2', '../../fr/raweb2/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb1.1/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb11, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 
 const criteres412 = genNewRGAA.generateCriteria('./content/fr/rgaa4.1.2')
 const niveaux = require('../content/fr/rgaa4.1.2/niveaux.json')
@@ -41,9 +47,9 @@ const config = {
         {"name": "luxembourgeois", "code": "lb"}
     ],
     "deprecation": {
-        "rgaa": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
-        "raweb": ["<a href=\"../raweb1.1/index.html\">RAWeb 1.1</a>", "../raweb1.1/notes-revision.html"],
-        "raam": ["<a href=\"../raam1.1/index.html\">RAAM 1.1</a>", "../raam1.1/notes-revision.html"],
+        "rgaa": ["<a href=\"../raweb2/index.html\">RAWeb 2</a>", "../raweb2/notes-revision.html"],
+        "raweb": ["<a href=\"../raweb2/index.html\">RAWeb 2</a>", "../raweb2/notes-revision.html"],
+        "raam": ["<a href=\"../raam2/index.html\">RAAM 2</a>", "../raam2/notes-revision.html"],
         "rapdf": ["<a href=\"../rapdf1.1/index.html\">RAPDF 1.1</a>", "../rapdf1.1/notes-revision.html"]
     },
     "mainMenu": [
@@ -82,7 +88,7 @@ const config = {
                     "title": "Obligations d’accessibilité numérique",
                     "menu": "Les obligations",
                     "name": "obligations",
-                    "md": "./content/fr/raweb1.1/obligations.md", 
+                    "md": "./content/fr/raweb2/obligations.md", 
                     "prefix": ".." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
@@ -139,65 +145,65 @@ const config = {
         {
             "title": "Référentiel Web",
             "menu": "<span class='mobile-only'>Référentiel</span> Web",
-            "name": "raweb1.1",
+            "name": "raweb2",
             "children": [
                 {
-                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1.1) : Introduction",
+                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 2) : Introduction",
                     "menu": "Introduction",
-                    "name": "raweb1.1/index",
-                    "md": "./content/fr/raweb1.1/introduction.md",
+                    "name": "raweb2/index",
+                    "md": "./content/fr/raweb2/introduction.md",
                     "prefix": "../.." 
                 },        
                 {
-                    "title": "RAWeb 1.1 : Critères et tests",
+                    "title": "RAWeb 2 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "raweb1.1/criteres", 
+                    "name": "raweb2/criteres", 
                     "type": "criteres",
                     "template": "criteria-new.ejs", 
-                    "data": dataRAWeb11,
+                    "data": dataRAWeb2,
                     "prefix": "../.." ,
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
                 {
-                    "title": "RAWeb 1.1 : Glossaire",
+                    "title": "RAWeb 2 : Glossaire",
                     "menu": "Glossaire",
-                    "name": "raweb1.1/glossaire",
+                    "name": "raweb2/glossaire",
                     "type": "glossaire",
                     "template": "glossary-new.ejs", 
-                    "data": glossaryRAWeb11,
+                    "data": glossaryRAWeb2,
                     "prefix": "../.." ,
                     "genSummary": "ul",
                     "summaryTitle": "Index"
                 }, 
                 {
-                    "title": "RAWeb 1.1 : Méthodologie de test",
+                    "title": "RAWeb 2 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raweb1.1/methodo-test",
-                    "md": "./content/fr/raweb1.1/methodologie-de-test.md",
+                    "name": "raweb2/methodo-test",
+                    "md": "./content/fr/raweb2/methodologie-de-test.md",
                     "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
                 },                
                 {
-                    "title": "RAWeb 1.1 : Environnement de test",
+                    "title": "RAWeb 2 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raweb1.1/environnement",
-                    "md": "./content/fr/raweb1.1/environnement-de-test.md",
+                    "name": "raweb2/environnement",
+                    "md": "./content/fr/raweb2/environnement-de-test.md",
                     "prefix": "../.." 
                 },                        
                 {
-                    "title": "RAWeb 1.1 : Références",
+                    "title": "RAWeb 2 : Références",
                     "menu": "Références",
-                    "name": "raweb1.1/references",
-                    "md": "./content/fr/raweb1.1/references.md",                 
+                    "name": "raweb2/references",
+                    "md": "./content/fr/raweb2/references.md",                 
                     "prefix": "../.." 
                 },
                 {
-                    "title": "RAWeb 1.1 : Notes de révision",
+                    "title": "RAWeb 2 : Notes de révision",
                     "menu": "Notes de révision",
-                    "name": "raweb1.1/notes-revision",
-                    "md": "./content/fr/raweb1.1/notes-de-revision.md", 
+                    "name": "raweb2/notes-revision",
+                    "md": "./content/fr/raweb2/notes-de-revision.md", 
                     "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
@@ -212,7 +218,7 @@ const config = {
                 {
                     "title": "Critères pour le contrôle simplifié",
                     "menu": "Les critères pour le contrôle simplifié",
-                    "name": "raweb1.1/audit-simpl", 
+                    "name": "raweb2/audit-simpl", 
                     "type": "criteres", 
                     "template": "criteria-new.ejs", 
                     "data": dataAuditSimpl,
@@ -225,64 +231,64 @@ const config = {
         {
             "title": "Référentiel mobile",
             "menu": "<span class='mobile-only'>Référentiel</span> mobile",
-            "name": "raam1.1",
+            "name": "raam2",
             "children": [ 
                 {
-                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 1.1) : Introduction",
+                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 2) : Introduction",
                     "menu": "Introduction",
-                    "name": "raam1.1/index",
-                    "md": "./content/fr/raam1.1/introduction.md", 
+                    "name": "raam2/index",
+                    "md": "./content/fr/raam2/introduction.md", 
                     "prefix": "../.." 
                 },                
                 {
-                    "title": "RAAM 1.1 : Critères et tests",
+                    "title": "RAAM 2 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "raam1.1/referentiel-technique",
-                    "md": "./content/fr/raam1.1/referentiel-technique.md",
+                    "name": "raam2/referentiel-technique",
+                    "md": "./content/fr/raam2/referentiel-technique.md",
                     "prefix": "../.." , 
                     "slugify": "slugifyA42",
                     "genSummary": "ol", 
                     "summaryTitle": "Thématiques"
                 }, 
                 {
-                    "title": "RAAM 1.1 : Glossaire",
+                    "title": "RAAM 2 : Glossaire",
                     "menu": "Glossaire",
-                    "name": "raam1.1/glossaire",
-                    "md": "./content/fr/raam1.1/glossaire.md",
+                    "name": "raam2/glossaire",
+                    "md": "./content/fr/raam2/glossaire.md",
                     "prefix": "../.." ,                  
                     "slugify": "slugifyA42", 
                     "genSummary": "ul", 
                     "summaryTitle": "Index"
                 },                          
                 {
-                    "title": "RAAM 1.1 : Méthodologie de test",
+                    "title": "RAAM 2 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raam1.1/methodologie",
-                    "md": "./content/fr/raam1.1/methodologie.md",
+                    "name": "raam2/methodologie",
+                    "md": "./content/fr/raam2/methodologie.md",
                     "prefix": "../.." , 
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire",
                     "slugify": "slugifyA42"
                 },
                 {
-                    "title": "RAAM 1.1 : Environnement de test",
+                    "title": "RAAM 2 : Environnement de test",
                     "menu": "Environnement de test",
-                    "name": "raam1.1/environnement",
-                    "md": "./content/fr/raam1.1/environnement.md",
+                    "name": "raam2/environnement",
+                    "md": "./content/fr/raam2/environnement.md",
                     "prefix": "../.." 
                 },    
                 {
-                    "title": "RAAM 1.1 : Notes de révision",
+                    "title": "RAAM 2 : Notes de révision",
                     "menu": "Notes de révision",
-                    "name": "raam1.1/notes-revision",
-                    "md": "./content/fr/raam1.1/notes-de-revision.md", 
+                    "name": "raam2/notes-revision",
+                    "md": "./content/fr/raam2/notes-de-revision.md", 
                     "prefix": "../.." 
                 },                              
                 {
-                    "title": "RAAM 1.1 : Références",
+                    "title": "RAAM 2 : Références",
                     "menu": "Références",
-                    "name": "raam1.1/references",
-                    "md": "./content/fr/raam1.1/references.md",
+                    "name": "raam2/references",
+                    "md": "./content/fr/raam2/references.md",
                     "prefix": "../.."  
                 }
             ]
@@ -760,6 +766,155 @@ const config = {
                     "menu": "Références",
                     "name": "raam1/references",
                     "md": "./content/fr/raam1/references.md",
+                    "prefix": "../.."  
+                }
+            ]
+        },
+        {
+            "title": "Référentiel Web",
+            "name": "raweb1.1",
+            "children": [
+                {
+                    "title": "Référentiel d'Évaluation de l'Accessibilité Web (RAWeb 1.1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "raweb1.1/index",
+                    "md": "./content/fr/raweb1.1/introduction.md",
+                    "prefix": "../.." 
+                },        
+                {
+                    "title": "RAWeb 1.1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "raweb1.1/criteres", 
+                    "type": "criteres",
+                    "template": "criteria-new.ejs", 
+                    "data": dataRAWeb11,
+                    "prefix": "../.." ,
+                    "genSummary": "ol",
+                    "summaryTitle": "Thématiques"
+                },
+                {
+                    "title": "RAWeb 1.1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "raweb1.1/glossaire",
+                    "type": "glossaire",
+                    "template": "glossary-new.ejs", 
+                    "data": glossaryRAWeb11,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
+                    "summaryTitle": "Index"
+                }, 
+                {
+                    "title": "RAWeb 1.1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "raweb1.1/methodo-test",
+                    "md": "./content/fr/raweb1.1/methodologie-de-test.md",
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
+                },                
+                {
+                    "title": "RAWeb 1.1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "raweb1.1/environnement",
+                    "md": "./content/fr/raweb1.1/environnement-de-test.md",
+                    "prefix": "../.." 
+                },                        
+                {
+                    "title": "RAWeb 1.1 : Références",
+                    "menu": "Références",
+                    "name": "raweb1.1/references",
+                    "md": "./content/fr/raweb1.1/references.md",                 
+                    "prefix": "../.." 
+                },
+                {
+                    "title": "RAWeb 1.1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "raweb1.1/notes-revision",
+                    "md": "./content/fr/raweb1.1/notes-de-revision.md", 
+                    "prefix": "../.." ,
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire"
+                },
+                {
+                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2.1",
+                    "menu": "La méthode de contrôle simplifié",
+                    "name": "monitoring/controle-simplifie",
+                    "md": "./content/fr/controle-simplifie.md", 
+                    "prefix": "../.." 
+                },
+                {
+                    "title": "Critères pour le contrôle simplifié",
+                    "menu": "Les critères pour le contrôle simplifié",
+                    "name": "raweb1.1/audit-simpl", 
+                    "type": "criteres", 
+                    "template": "criteria-new.ejs", 
+                    "data": dataAuditSimpl,
+                    "prefix": "../.." ,
+                    "genSummary": "ol",
+                    "summaryTitle": "Thématiques"
+                }
+            ]
+        },
+        {
+            "title": "Référentiel mobile",
+            "name": "raam1.1",
+            "children": [ 
+                {
+                    "title": "Référentiel d'évaluation de l'accessibilité des applications mobiles (RAAM 1.1) : Introduction",
+                    "menu": "Introduction",
+                    "name": "raam1.1/index",
+                    "md": "./content/fr/raam1.1/introduction.md", 
+                    "prefix": "../.." 
+                },                
+                {
+                    "title": "RAAM 1.1 : Critères et tests",
+                    "menu": "Critères et tests",
+                    "name": "raam1.1/referentiel-technique",
+                    "md": "./content/fr/raam1.1/referentiel-technique.md",
+                    "prefix": "../.." , 
+                    "slugify": "slugifyA42",
+                    "genSummary": "ol", 
+                    "summaryTitle": "Thématiques"
+                }, 
+                {
+                    "title": "RAAM 1.1 : Glossaire",
+                    "menu": "Glossaire",
+                    "name": "raam1.1/glossaire",
+                    "md": "./content/fr/raam1.1/glossaire.md",
+                    "prefix": "../.." ,                  
+                    "slugify": "slugifyA42", 
+                    "genSummary": "ul", 
+                    "summaryTitle": "Index"
+                },                          
+                {
+                    "title": "RAAM 1.1 : Méthodologie de test",
+                    "menu": "Méthodologie de test",
+                    "name": "raam1.1/methodologie",
+                    "md": "./content/fr/raam1.1/methodologie.md",
+                    "prefix": "../.." , 
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire",
+                    "slugify": "slugifyA42"
+                },
+                {
+                    "title": "RAAM 1.1 : Environnement de test",
+                    "menu": "Environnement de test",
+                    "name": "raam1.1/environnement",
+                    "md": "./content/fr/raam1.1/environnement.md",
+                    "prefix": "../.." 
+                },    
+                {
+                    "title": "RAAM 1.1 : Notes de révision",
+                    "menu": "Notes de révision",
+                    "name": "raam1.1/notes-revision",
+                    "md": "./content/fr/raam1.1/notes-de-revision.md", 
+                    "prefix": "../.." 
+                },                              
+                {
+                    "title": "RAAM 1.1 : Références",
+                    "menu": "Références",
+                    "name": "raam1.1/references",
+                    "md": "./content/fr/raam1.1/references.md",
                     "prefix": "../.."  
                 }
             ]
