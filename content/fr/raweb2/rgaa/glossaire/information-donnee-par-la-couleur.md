@@ -1,5 +1,5 @@
 ---
-title: Information (donnée par la couleur)
+title: Information donnée par la couleur
 ---
 
 Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, l’utilisation d’un fond bleu pour indiquer la page en cours de consultation dans un menu avec le fond vert, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.

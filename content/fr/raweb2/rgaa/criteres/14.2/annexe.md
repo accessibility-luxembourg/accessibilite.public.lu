@@ -1,8 +1,7 @@
 ---
 WCAG: N/A
-Norm:
-  - criterion: 5.2
-    title: Activation of accessibility features
+EN301549-V4: 5.2
+RAWEB1.1: 14.2
 ---
 
 #### Cas particuliers

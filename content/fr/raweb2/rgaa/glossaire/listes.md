@@ -2,7 +2,9 @@
 title: Listes
 ---
 
-Suite d’éléments pouvant être regroupés sous la forme d’une liste structurée ordonnée, non ordonnée ou de définition. Par exemple la suite des liens d’un menu de navigation est une liste de liens non ordonnée, les différentes étapes d’une procédure sont une liste d’éléments ordonnés, le couple terme/description d’un glossaire est une liste de description. En HTML, les listes utilisent les balises suivantes :
+Suite d’éléments pouvant être regroupés sous la forme d’une liste structurée ordonnée, non ordonnée ou de définition. Par exemple la suite des liens d’un menu de navigation est une liste de liens non ordonnée, les différentes étapes d’une procédure sont une liste d’éléments ordonnés, le couple terme/description d’un glossaire est une liste de description. 
+
+En HTML, les listes utilisent les balises suivantes :
 
 - Liste ordonnée : balises `<ol>` et `<li>` (chaque élément de la liste est affecté d’un marqueur indexé) ;
 - Liste non ordonnée : balises `<ul>` et `<li>` (chaque élément de la liste est affecté d’un marqueur non-indexé ;

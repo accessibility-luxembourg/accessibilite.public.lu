@@ -1,24 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 2.5.2
-    title: Pointer Cancellation
-    level: A
+EN301549-V4: 9.2.5.2
+WCAG: 2.5.2
+RAWEB1.1: N/A
 Techniques:
   - F101
   - G210
   - G212
-Norm:
-  - criterion: 9.2.5.2
-    title: Pointer Cancellation
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particulier lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique. Dans ces situations, le critère est non applicable.
+Le critère ne s'applique pas lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique.
 
 #### Notes techniques
 
 Deux exemples de mécanisme mis en place pour annuler ou abandonner une action déclenchée au moyen d’un dispositif de pointage sur un point unique de l’écran :
 
-- Une fenêtre modale permettant d’annuler l’action après son achèvement ;
-- Pour une fonction de glisser/déposer, le fait d’abandonner l’action si l’utilisateur relâche l’élément en dehors de la zone cible.
+- une fenêtre modale permettant d’annuler l’action après son achèvement ;
+- pour une fonction de glisser/déposer, le fait d’abandonner l’action si l’utilisateur relâche l’élément en dehors de la zone cible.

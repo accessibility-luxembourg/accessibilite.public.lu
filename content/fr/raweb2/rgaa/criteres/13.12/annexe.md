@@ -1,19 +1,15 @@
 ---
-WCAG:
-  - successCriterion: 2.5.4
-    title: Motion Actuation
-    level: A
+EN301549-V4: 9.2.5.4
+WCAG: 2.5.4
+RAWEB1.1: 13.12
 Techniques:
   - F106
   - G213
-Norm:
-  - criterion: 9.2.5.4
-    title: Motion Actuation
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particulier lorsque :
+Le critère ne s'applique pas lorsque :
 
-- Le mouvement est essentiel à l’accomplissement de la fonctionnalité (ex. podomètre) ;
-- La détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.
+- le mouvement est essentiel à l’accomplissement de la fonctionnalité (ex. podomètre) ;
+- la détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.

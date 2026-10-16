@@ -1,6 +1,4 @@
 ---
-WCAG: N/A 
-Norm:
-  - criterion: 5.3
-    title: Biometrics
+EN301549-V4: 5.3
+RAWEB1.1: 13.14
 ---

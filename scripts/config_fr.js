@@ -9,8 +9,9 @@ const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugi
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1.1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/fr/raweb2')
+console.log(criteresRAWeb2['topics'][0]['criteria'][0]['criterium']['references'])
 const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
-const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 
@@ -22,7 +23,7 @@ const glossaryRAWeb1 = {glossary: genNewRGAA.generateGlossary('./content/fr/rawe
 const criteresMonit = genNewRGAA.generateCriteria('./content/fr/raweb2', '../../fr/raweb2/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Attention&nbsp;:</strong> cette liste de critères est à utiliser uniquement dans le cadre de la <a href="../../fr/monitoring/controle-simplifie.html">méthode de contrôle simplifié</a>.<br />Si des règles de tests automatisés peuvent contribuer à tester un critère, celles-ci sont mentionnées dans les tables de correspondance disponibles en fin de critère.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 
 const criteres412 = genNewRGAA.generateCriteria('./content/fr/rgaa4.1.2')
 const niveaux = require('../content/fr/rgaa4.1.2/niveaux.json')
@@ -159,7 +160,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "raweb2/criteres", 
                     "type": "criteres",
-                    "template": "criteria-new.ejs", 
+                    "template": "criteria-raweb2.ejs", 
                     "data": dataRAWeb2,
                     "prefix": "../.." ,
                     "genSummary": "ol",
@@ -170,7 +171,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "raweb2/glossaire",
                     "type": "glossaire",
-                    "template": "glossary-new.ejs", 
+                    "template": "glossary-raweb2.ejs", 
                     "data": glossaryRAWeb2,
                     "prefix": "../.." ,
                     "genSummary": "ul",
@@ -220,7 +221,7 @@ const config = {
                     "menu": "Les critères pour le contrôle simplifié",
                     "name": "raweb2/audit-simpl", 
                     "type": "criteres", 
-                    "template": "criteria-new.ejs", 
+                    "template": "criteria-raweb2.ejs", 
                     "data": dataAuditSimpl,
                     "prefix": "../.." ,
                     "genSummary": "ol",
@@ -482,7 +483,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "rgaa4.1.2/criteres", 
                     "type": "criteres",
-                    "template": "criteria-new.ejs", 
+                    "template": "criteria-raweb1.ejs", 
                     "data": data412,
                     "prefix": "../.." ,
                     "genSummary": "ol",
@@ -493,7 +494,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "rgaa4.1.2/glossaire",
                     "type": "glossaire",
-                    "template": "glossary-new.ejs", 
+                    "template": "glossary-raweb1.ejs", 
                     "data": glossary412,
                     "prefix": "../.." ,
                     "genSummary": "ul",
@@ -545,7 +546,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "rgaa4/criteres",
                     "type": "criteres",
-                    "template": "criteria.ejs", 
+                    "template": "criteria-rgaa.ejs", 
                     "data": data40,
                     "prefix": "../.." 
                 },
@@ -554,7 +555,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "rgaa4/glossaire",
                     "type": "glossaire",
-                    "template": "glossary.ejs", 
+                    "template": "glossary-rgaa.ejs", 
                     "data": dataGlossary40,
                     "prefix": "../.." 
                 }, 
@@ -604,7 +605,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "rgaa4.1/criteres",
                     "type": "criteres",
-                    "template": "criteria.ejs", 
+                    "template": "criteria-rgaa.ejs", 
                     "data": data41,
                     "prefix": "../.." 
                 },
@@ -613,7 +614,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "rgaa4.1/glossaire",
                     "type": "glossaire",
-                    "template": "glossary.ejs", 
+                    "template": "glossary-rgaa.ejs", 
                     "data": dataGlossary41,
                     "prefix": "../.." 
                 }, 
@@ -664,7 +665,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "raweb1/criteres", 
                     "type": "criteres",
-                    "template": "criteria-new.ejs", 
+                    "template": "criteria-raweb1.ejs", 
                     "data": dataRAWeb1,
                     "prefix": "../.." ,
                     "genSummary": "ol",
@@ -675,7 +676,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "raweb1/glossaire",
                     "type": "glossaire",
-                    "template": "glossary-new.ejs", 
+                    "template": "glossary-raweb1.ejs", 
                     "data": glossaryRAWeb1,
                     "prefix": "../.." ,
                     "genSummary": "ul",
@@ -786,7 +787,7 @@ const config = {
                     "menu": "Critères et tests",
                     "name": "raweb1.1/criteres", 
                     "type": "criteres",
-                    "template": "criteria-new.ejs", 
+                    "template": "criteria-raweb1.ejs", 
                     "data": dataRAWeb11,
                     "prefix": "../.." ,
                     "genSummary": "ol",
@@ -797,7 +798,7 @@ const config = {
                     "menu": "Glossaire",
                     "name": "raweb1.1/glossaire",
                     "type": "glossaire",
-                    "template": "glossary-new.ejs", 
+                    "template": "glossary-raweb1.ejs", 
                     "data": glossaryRAWeb11,
                     "prefix": "../.." ,
                     "genSummary": "ul",
@@ -841,17 +842,6 @@ const config = {
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/fr/controle-simplifie.md", 
                     "prefix": "../.." 
-                },
-                {
-                    "title": "Critères pour le contrôle simplifié",
-                    "menu": "Les critères pour le contrôle simplifié",
-                    "name": "raweb1.1/audit-simpl", 
-                    "type": "criteres", 
-                    "template": "criteria-new.ejs", 
-                    "data": dataAuditSimpl,
-                    "prefix": "../.." ,
-                    "genSummary": "ol",
-                    "summaryTitle": "Thématiques"
                 }
             ]
         },

@@ -25,28 +25,73 @@ function parseTitle(file, rgaaPath) {
 
 function parseReferences(file, rgaaPath) {
     const data = parse(file, rgaaPath)
+
+
+
+
+
+
     let wcag = []
-    if (Array.isArray(data.meta.WCAG)) {
-        wcag = data.meta.WCAG.map((w) => {
-            return `${w.successCriterion} ${w.title} (${w.level})`;
-        });
-    } 
+    if ('EN301549-V4' in data.meta) { // new references format
+/*    example
+EN301549-V4: 9.1.1.1
+WCAG: 1.1.1
+RAWEB1.1: 1.2
+Techniques:
+  - C9
+  - F38
+  - F39
+  - G196
+  - H67
+ACT: 1
+*/
 
-    let norm = []
-    if (data.meta.Norm !== undefined) {
-        if (Array.isArray(data.meta.Norm)) {
-            norm = data.meta.Norm.map((w) => {
-                if (w.criterion === undefined) {
-                    console.log(`EN criterion not found: ${w.criterion} ${file}`)
-                }
-                return `${w.criterion} ${w.title}`;
+        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: data.meta['EN301549-V4'], previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
+    } else { // old references format
+/* example 
+WCAG:
+  - successCriterion: 1.1.1
+    title: Non-text Content
+    level: A
+  - successCriterion: 4.1.2
+    title: Name, Role, Value
+    level: A
+Techniques:
+  - ARIA4
+  - C9
+  - F38
+  - F39
+  - G196
+  - H67
+Norm:
+  - criterion: 9.1.1.1
+    title: Non-text Content
+  - criterion: 9.4.1.2
+    title: Name, Role, Value
+*/
+
+        if (Array.isArray(data.meta.WCAG)) {
+            wcag = data.meta.WCAG.map((w) => {
+                return `${w.successCriterion} ${w.title} (${w.level})`;
             });
-        } else {
-            norm = data.meta.Norm
-        }
-    } 
+        } 
 
-    result = {'refs': [{ wcag }, { techniques: data.meta.Techniques }, { norm }], 'notes': shiftHeadingHierarchy(data.content, 1) }
+        let norm = []
+        if (data.meta.Norm !== undefined) {
+            if (Array.isArray(data.meta.Norm)) {
+                norm = data.meta.Norm.map((w) => {
+                    if (w.criterion === undefined) {
+                        console.log(`EN criterion not found: ${w.criterion} ${file}`)
+                    }
+                    return `${w.criterion} ${w.title}`;
+                });
+            } else {
+                norm = data.meta.Norm
+            }
+        } 
+
+        result = {'refs': [{ wcag }, { techniques: data.meta.Techniques }, { norm }], 'notes': shiftHeadingHierarchy(data.content, 1) }
+    }
 	return result
 }
 

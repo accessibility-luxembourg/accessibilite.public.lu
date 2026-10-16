@@ -1,24 +1,18 @@
 ---
-WCAG:
-  - successCriterion: 3.2.1
-    title: On Focus
-    level: A
-  - successCriterion: 3.2.2
-    title: On Input
-    level: A
+EN301549-V4: 9.2.1.1
+WCAG: 2.1.1
 Techniques:
-  - F36
-  - F37
-  - F41
-  - G13
-  - G80
-  - G107
-  - H32
-  - H84
-  - SCR19
-Norm:
-  - criterion: 9.3.2.1
-    title: On Focus
-  - criterion: 9.3.2.2
-    title: On Input
+  - F42
+  - F54
+  - F55
+  - G90
+  - G202
+  - SCR2
+  - SCR20
+  - SCR29
+  - SCR35
 ---
+
+#### Cas particuliers
+
+Il existe une gestion de cas particuliers lorsque la fonctionnalité dépend de l’utilisation d’un gestionnaire d’événement sans équivalent universel ; par exemple, une application de dessin à main levée ne pourra pas être rendue contrôlable au clavier. Dans ces situations, le critère est non applicable.

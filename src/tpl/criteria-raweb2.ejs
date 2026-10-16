@@ -1,0 +1,62 @@
+<% if (message !== '') { %>
+<p id="intro"><%- message %></p>
+<% } %>
+<div class="RAWebMasterHeader">
+    <div class="rawebMargin">
+        <aside>
+            <details>
+                <summary><%= __('Search') %></summary>
+                <p class="noonbeforematch"><%= __('To search the entire page using your browser\'s search function, you will first need to') %> <button id="btnUnfoldAll"><%= __('unfold all') %></button>.</p>
+                <p class="onbeforematch"><%= __('You can search the entire page using your browser\'s search function, even when sections are closed.') %></p>
+            </details>
+            <details>
+                <summary><%= __('Warning') %></summary>
+                <p><%= __('RAWeb is based on the European standard EN 301 549, version 4.1.1, the only legally binding document, and this framework incorporates the criteria associated with evaluating website accessibility. For each criterion in the framework, an evaluation methodology is proposed. This methodology is provided as a starting point for using the framework, giving an example of a possible evaluation method, but others may exist. Furthermore, this methodology cannot replace training, particularly in the use of evaluation tools (such as screen readers) or in understanding the challenges of web accessibility. The methodology also requires time to get started before an effective and comprehensive audit can be carried out, and it does not exempt users from carefully reading the criteria themselves. Finally, it is possible that errors may not be detected based solely on this methodology.') %></p>
+            </details>
+            <button aria-haspopup="dialog" id="showModal"><%= __('Legend and display options') %></button>
+        </aside>
+    </div>
+</div>
+<dialog id="control-panel-dialog">
+    <form method="dialog" autocomplete="off">
+        <button id="close-modal" title="<%= __("Close the modal window") %>"><span class="sr-only"><%= __("Close the modal window") %></span></button>
+        <div class="content">
+            <h6><%= __('Legend') %></h6>
+            <div class="legends">
+                <dl>
+                    <div>
+                        <dt><span class="crit">2.1</span><span class="sr-only"> <%= __('explain criterion') %></span></dt>
+                        <dd> <%= __('Criterion') %></dd>
+                    </div>
+                    <div>
+                        <dt><span class="critRAWeb">4.14</span><span class="sr-only"> <%= __('explain RAWeb criterion') %></span></dt>
+                        <dd> <%= __('New RAWeb Criterion') %></dd>
+                    </div>
+                    <div>
+                        <dt><span class="a">A</span><span class="sr-only"> <%= __('explain level') %></span></dt>
+                        <dd> <%= __('Compliance level') %></dd>
+                    </div>
+                </dl>
+            </div>
+            <fieldset>
+                <legend><%= __('Options') %></legend>
+                <div><input type="checkbox" id="rwc1"><label for="rwc1"><%= __('Unfold all') %></label></div>
+                <div><input type="checkbox" id="rwc2" class="rw-filter"><label for="rwc2"><%= __('Unfold themes') %></label></div>
+                <div><input type="checkbox" id="rwc3" class="rw-filter"><label for="rwc3"><%= __('Unfold tests') %></label></div>
+                <div><input type="checkbox" id="rwc4" class="rw-filter"><label for="rwc4"><%= __('Unfold methodologies') %></label></div>
+                <div><input type="checkbox" id="rwc5" class="rw-filter"><label for="rwc5"><%= __('Unfold notes and special cases') %></label></div>
+                <div><input type="checkbox" id="rwc6" class="rw-filter"><label for="rwc6"><%= __('Unfold mappings') %></label></div>
+            </fieldset>
+        </form>
+    </div>
+</dialog>
+
+<button id="showModal-sticky" aria-haspopup="dialog" title="<%= __('Legend and display options') %>"><span class="sr-only"><%= __('Legend and display options') %></span></button>
+
+<div class="RAWebMaster">
+    <div id="accordionGroup" class="accordion">
+        <% topics.forEach(topic => { %>
+            <%- include('topic-raweb2', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, normVersion: normVersion}) %>
+        <% }) %>
+    </div>
+</div>

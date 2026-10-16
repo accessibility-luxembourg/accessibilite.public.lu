@@ -1,16 +1,11 @@
 ---
-WCAG:
-  - successCriterion: 1.4.5
-    title: Images of Text
-    level: AA
+EN301549-V4: 9.1.4.5
+WCAG: 1.4.5
 Techniques:
   - C22
   - C30
-  - G136
   - G140
-Norm:
-  - criterion: 9.1.4.5
-    title: Images of Text
+  - G136
 ---
 
 #### Cas particuliers

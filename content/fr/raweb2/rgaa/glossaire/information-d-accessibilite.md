@@ -8,7 +8,7 @@ Par exemple, en HTML, l’attribut `alt` d’une image est une information d’a
 
 Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible, par exemple :
 
-- pouvoir définir l’alternative d’une image ou au contraire pouvoir la déclarer décorative ;
+- pouvoir définir le nom accessible d’une image ou au contraire pouvoir la déclarer décorative ;
 - pouvoir définir des titres de section ;
 - pouvoir définir la langue d’un passage de texte ;
 - pouvoir définir des étiquettes aux champs de formulaires.

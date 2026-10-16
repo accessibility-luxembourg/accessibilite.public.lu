@@ -1,22 +1,23 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 2.4.4
-    title: Link Purpose (In Context)
-    level: A
+EN301549-V4: 9.2.4.4
+WCAG: 2.4.4
+RAWEB1.1 : 6.1
 Techniques:
-  - F89
+  - ARIA7
+  - ARIA8
+  - C7
+  - F63
+  - G53
   - G91
   - H30
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
-  - criterion: 9.2.4.4
-    title: Link Purpose (In Context)
+  - H33
+  - H77
+  - H78
+  - H79
+  - H80
+  - H81
 ---
 
-#### Notes techniques
+#### Cas particuliers
 
-Une ancre n’est pas un lien même si pendant longtemps l’élément `<a>` a servi de support à cette technique. Elle n’est donc pas concernée par le présent critère.
+Il existe une gestion de cas particuliers pour les tests 6.1.1, 6.1.2, 6.1.3 et 6.1.4 [@@todo numérotation] lorsque le lien est [ambigu pour tout le monde](#ambigu-pour-tout-le-monde). Dans cette situation, où il n’est pas possible de rendre le lien explicite dans son contexte, le critère est non applicable.

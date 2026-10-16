@@ -1,6 +1,4 @@
 ---
-WCAG: N/A 
-Norm:
-  - criterion: 6.2.3
-    title: Interoperability
+RAWEB1.1: 17.6
+EN301549-V4: 6.2.10
 ---

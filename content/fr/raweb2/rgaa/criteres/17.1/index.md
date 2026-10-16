@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [application web de communication orale bidirectionnelle](#application-web-de-communication-orale-bidirectionnelle), l’application est-elle capable d’encoder et de décoder cette communication avec une gamme de fréquences dont la limite supérieure est de 7 000 Hz au moins ?
+title: Pour chaque [application web de communication orale en temps réel](#application-web-de-communication-orale-bidirectionnelle), l’application est-elle capable de capter, transmettre et restituer la communication vocale sur une gamme de fréquences dont la limite inférieure est de 250 Hz au plus et la limite supérieure est de 7 000 Hz au moins ?
 ---

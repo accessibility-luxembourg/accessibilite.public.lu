@@ -1,8 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.2.2.4
-    title: Visual indicator of Audio with RTT
-  - criterion: 6.5.5
-    title: Visual indicator of audio with video
+EN301549-V4: 6.2.2.3
+RAWEB1.1: 17.5.1
 ---

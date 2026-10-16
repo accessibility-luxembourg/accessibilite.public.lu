@@ -1,15 +1,11 @@
 ---
-WCAG:
-  - successCriterion: 2.3.1
-    title: Three Flashes or Below Threshold
-    level: A
+EN301549-V4: 9.2.3.1
+WCAG: 2.3.1
+RAWEB1.1: 13.7
 Techniques:
   - G15
   - G19
   - G176
-Norm:
-  - criterion: 9.2.3.1
-    title: Three Flashes or Below Threshold
 ---
 
 #### Note

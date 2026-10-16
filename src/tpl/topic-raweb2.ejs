@@ -1,0 +1,91 @@
+<% if (shortList.length == 0 || topic.criteria.filter(crit => shortList.includes(topic.number+'.'+crit.criterium.number)).length !== 0) { %> 
+<article>
+<h3 id="topic-<%= topic.number %>">
+    <button aria-expanded="false" aria-controls="sect<%= topic.number %>" class="accordion-trigger" id="accordion<%= topic.number %>id">
+        <span class="accordion-title">
+            <span class="accordion-icon"></span>
+            <span class="chapter"><%= topic.number %></span>
+            <span class="theme-name"><%= md.renderInline(topic.topic) %></span>
+        </span>
+    </button>
+    <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>"><span class="sr-only"><%= __("Theme") %> <%= topic.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
+</h3>
+<div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
+<% topic.criteria.forEach(crit => { 
+    let critId = `crit-${topic.number}-${crit.criterium.number}`
+    if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
+%>
+    <h4 id="<%= critId %>">
+        <span>
+            <%= topic.number %>.<%= crit.criterium.number %>
+        </span>
+        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
+        <span class="level">
+            <span class="sr-only"><%= __('Compliance level') %> </span>
+            N/A
+        </span>
+    </h4>
+    <details class="discover rawebTests">
+        <summary><%= __('Tests') %></summary>
+        <% Object.keys(crit.criterium.tests).forEach(testId => {
+            let test = crit.criterium.tests[testId]
+            let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
+            let metho = crit.criterium.metho[testId]
+        %>
+        <h5 id="<%= ref %>">
+            <span>
+                <span class="sr-only"><%= __('Test') %> </span>
+                <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>
+            </span>
+            <% if (typeof test == 'object') { %>
+                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
+                <% if (test.length > 1) { %>
+                <ul>
+                <% for (let i=1; i< test.length; i++) { %>
+                    <li><p><%- md.renderInline(test[i]) %></p></li>
+                <% } %>
+                </ul>
+                <% } %>
+            <% } else { %>
+                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
+            <% } %>
+        <% if (metho !== '') { %>
+            <details class="methodo">
+                <summary><%= __("Test methodology") %></summary>
+                <div>
+                    <%- metho %>
+                </div>
+            </details>            
+        <% } %>
+        <% }) %>
+    </details>
+
+    <% if (crit.criterium.notes !== '') { %>
+        <details class="discover rawebNotes">
+            <summary><%= __("Notes and special cases") %></summary>
+            <%- crit.criterium.notes.toString() %>
+        </details>
+    <% } %>
+
+    <details class="discover rawebCorr">
+        <summary><%= __("Mapping") %></summary>
+        <div>
+        <ul>
+        <% if (crit.criterium.references.wcag !== undefined) { %>
+        <li><p><%= __("WCAG 2.2 success criterion") %></p>
+        <p>
+            <% let SC = crit.criterium.references.wcag.trim() %>
+            <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
+        </p>
+    </li>
+        <% } %> 
+        </ul>
+        </div>
+    </details>
+       
+<% 
+    }
+})%>
+</div> 
+</article>
+<% } %>

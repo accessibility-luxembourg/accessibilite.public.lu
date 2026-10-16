@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.3
-    title: Caller ID
+EN301549-V4: 6.3
+RAWEB1.1: 17.8
 ---

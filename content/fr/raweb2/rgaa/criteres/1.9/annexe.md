@@ -1,22 +1,11 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
+RAWEB1.1: 1.9
 Techniques:
-  - ARIA4
-  - ARIA6
-  - G140
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
+  - G115
 ---
 
 #### Note technique
 
-Les images légendées doivent par ailleurs respecter le [critère 1.1](#crit-1-1) et le [critère 1.3](#crit-1-3) relatifs aux images porteuses d’information.
+Les images légendées doivent par ailleurs respecter le [critère 1.1](#crit-1-1) [@@TODO revoir numérotation] et le [critère 1.3](#crit-1-3) [@@TODO revoir numérotation] relatifs aux images porteuses d’information.

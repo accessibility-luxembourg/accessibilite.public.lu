@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application web de [communication orale bidirectionnelle](#application-web-de-communication-orale-bidirectionnelle) qui dispose de [fonctionnalités vocales](#fonctionnalites-vocales), celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler ?
+title: Pour chaque application web qui dispose d'une messagerie vocale, d'un standard automatique ou d'un serveur vocal interactif, celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler ?
 ---

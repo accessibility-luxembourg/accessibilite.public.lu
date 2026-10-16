@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.5.6
-    title: Speaker identification with video (sign language) communication
+EN301549-V4: 6.5.6
+RAWEB1.1: 17.9
 ---
