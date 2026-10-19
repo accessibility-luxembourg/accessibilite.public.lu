@@ -9,9 +9,12 @@ const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugi
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1.1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/fr/raweb2')
-console.log(criteresRAWeb2['topics'][0]['criteria'][0]['criterium']['references'])
+const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/fr/raweb2', '', 'EN')
+console.log(criteresRAWeb2sortedEN)
 const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
 const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 
@@ -166,6 +169,17 @@ const config = {
                     "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
+                {
+                    "title": "RAWeb 2 : Critères / norme EN 301 549",
+                    "menu": "Critères / EN 301 549",
+                    "name": "raweb2/raweb2-en", 
+                    "type": "criteres",
+                    "template": "criteria-raweb2-en.ejs", 
+                    "data": dataRAWeb2sortedEN,
+                    "prefix": "../.." ,
+                    "genSummary": "ol",
+                    "summaryTitle": "Thématiques"
+                },                
                 {
                     "title": "RAWeb 2 : Glossaire",
                     "menu": "Glossaire",

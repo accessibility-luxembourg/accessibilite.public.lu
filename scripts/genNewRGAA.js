@@ -8,6 +8,7 @@ const fs = require('fs')
 const MarkdownIt = require('markdown-it')
 const yaml = require('yaml')
 const cheerio = require('cheerio')
+const en301549 = require('en301549-links')
 
 const sortObject = o => Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {})
 
@@ -32,7 +33,7 @@ function parseReferences(file, rgaaPath) {
 
 
     let wcag = []
-    if ('EN301549-V4' in data.meta) { // new references format
+    if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta) { // new references format
 /*    example
 EN301549-V4: 9.1.1.1
 WCAG: 1.1.1
@@ -46,7 +47,15 @@ Techniques:
 ACT: 1
 */
 
-        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: data.meta['EN301549-V4'], previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
+        let standard = ''
+        if (data.meta['EN301549-V4'] !== undefined) {
+            standard += data.meta['EN301549-V4']
+        } else if (data.meta['EN301549-v4'] !== undefined) {
+            standard += data.meta['EN301549-v4']
+        } else {
+            standard += data.meta['Norm']
+        }
+        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: standard, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
 /* example 
 WCAG:
@@ -164,9 +173,9 @@ function checkHeading(html) {
     }
 }
 
-function generateCriteria(path, rgaaPath = '') {
+function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
     // Init JSON data
-    let jsonData = { wcag: { version: 2.1 }, topics: [] };
+    let jsonData = { topics: [] };
     const criteria = [];
 
     const CRITERIA_SOURCE = path+"/rgaa/criteres";
@@ -212,28 +221,82 @@ function generateCriteria(path, rgaaPath = '') {
         criteria.push(criterionObject);
     }
 
-    // Organize criteria by topic
-    const topics = Object.entries(require('../'+path+"/themes.json")).map((t) => {
-        const topicNumber = t[0];
-        return {
-            topic: t[1].title,
-            number: Number(topicNumber),
-            criteria: criteria
-                .filter((c) => {
-                    return c.criterium.number.split(".")[0] === topicNumber;
-                })
-                .map((c) => {
-                    return {
-                        criterium: {
-                            ...c.criterium,
-                            number: Number(c.criterium.number.split(".")[1]),
-                        },
-                    };
-                }),
-        };
-    });
+    if (sortBy == 'raweb') {
+        // Organize criteria by RAWeb topic
+        const topics = Object.entries(require('../'+path+"/themes.json")).map((t) => {
+            const topicNumber = t[0];
+            return {
+                topic: t[1].title,
+                number: Number(topicNumber),
+                criteria: criteria
+                    .filter((c) => {
+                        return c.criterium.number.split(".")[0] === topicNumber;
+                    })
+                    .map((c) => {
+                        return {
+                            criterium: {
+                                ...c.criterium,
+                                number: Number(c.criterium.number.split(".")[1]),
+                            },
+                        };
+                    }),
+            };
+        });
+        jsonData.topics = topics;
+    } else if (sortBy == 'EN') {
+        // Organize criteria by topic from EN301549
+        let enTopics = criteria.map(c => {
+            if (c.criterium.references.standard !== undefined) {
+                return parseInt(c.criterium.references.standard.split('.')[0]) // get the first number of the criterion id
+            } else {
+                console.log('EN301549 reference not found in '+c.criterium.number)
+                return 1
+            }
+        }) 
+        enTopics = [...new Set(enTopics)] // remove duplicates
+        enTopics = enTopics.sort((a,b) =>  a-b).map(t => ''+t) // convert to string
+        let topics = {}
+        enTopics.forEach(t =>  {topics[t] = en301549.getTitle('4.1.1', t)})
 
-    jsonData.topics = topics;
+        topics = Object.entries(topics).map((t) => {
+            const topicNumber = t[0];
+            return {
+                topic: t[1],
+                number: Number(topicNumber),
+                criteria: criteria
+                    .filter((c) => {
+                        if (c.criterium.references.standard !== undefined) {
+                            return c.criterium.references.standard.split('.')[0] === topicNumber
+                        } else {
+                            return 0
+                        }
+                    }).sort((a,b) => { 
+                        const refA = a.criterium.references.standard
+                        const refB = b.criterium.references.standard
+                        if (refA < refB) {
+                            return -1;
+                        }
+                        if (refA > refB) {
+                            return 1;
+                        }
+
+                        return 0;
+                    })
+                    .map((c) => {
+                        return {
+                            criterium: {
+                                ...c.criterium,
+                                number: c.criterium.references.standard,
+                            },
+                        };
+                    }),
+            };
+        });
+        jsonData.topics = topics;        
+
+    } else {
+        console.error('unknown sort option')
+    }
 
     return jsonData
 }
