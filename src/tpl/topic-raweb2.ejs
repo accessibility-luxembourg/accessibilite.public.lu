@@ -13,7 +13,7 @@
 <div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
 <% topic.criteria.forEach(crit => { 
     let critId = `crit-${topic.number}-${crit.criterium.number}`
-    if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
+    if (shortList.length == 0 || (shortList.includes(topic.number + '.' + crit.criterium.number))) {
 %>
     <h4 id="<%= critId %>">
         <span>
@@ -22,7 +22,7 @@
         <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
         <span class="level">
             <span class="sr-only"><%= __('Compliance level') %> </span>
-            N/A
+            NA
         </span>
     </h4>
     <details class="discover rawebTests">
@@ -30,7 +30,7 @@
         <% Object.keys(crit.criterium.tests).forEach(testId => {
             let test = crit.criterium.tests[testId]
             let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
-            let metho = crit.criterium.metho[testId]
+            let metho = crit.criterium.metho[testId].replace(/<hr>\n.*/g, '').trim()
         %>
         <h5 id="<%= ref %>">
             <span>
@@ -77,12 +77,12 @@
             <% let SC = crit.criterium.references.wcag.trim() %>
             <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
         </p>
-    </li>
+        </li>
         <% } %> 
         </ul>
         </div>
     </details>
-       
+
 <% 
     }
 })%>

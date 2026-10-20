@@ -213,10 +213,10 @@ html, body {
 .accordion h4 span:not(.level) {
   position: absolute;
   top: 0;
-  left: -2.5rem;
+  left: -2.6rem;
   border-radius: 2px;
   background-color: #313740;
-  width: 1.8rem;
+  width: 2rem;
   padding: 0.2rem 0;
   text-align: center;
   color: white;

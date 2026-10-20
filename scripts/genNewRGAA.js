@@ -118,6 +118,7 @@ function parseTests(folderPath, rgaaPath) {
         tests[i + 1] = data.meta.steps
             ? [data.meta.title, ...data.meta.steps]
             : [data.meta.title]
+        //metho[i + 1] = data.content.substring(0, data.content.lastIndexOf('<hr>')).trim()
         metho[i + 1] = data.content.trim()
 	});
 
@@ -178,7 +179,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
     let jsonData = { topics: [] };
     const criteria = [];
 
-    const CRITERIA_SOURCE = path+"/rgaa/criteres";
+    const CRITERIA_SOURCE = path + "/rgaa/criteres";
 
     const folders = fs.readdirSync(CRITERIA_SOURCE);
 
@@ -223,7 +224,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
 
     if (sortBy == 'raweb') {
         // Organize criteria by RAWeb topic
-        const topics = Object.entries(require('../'+path+"/themes.json")).map((t) => {
+        const topics = Object.entries(require('../' + path + "/themes.json")).map((t) => {
             const topicNumber = t[0];
             return {
                 topic: t[1].title,
@@ -261,7 +262,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
         topics = Object.entries(topics).map((t) => {
             const topicNumber = t[0];
             return {
-                topic: t[1],
+                topic: t[1].replace(/^\d{1,2} /, ''), // we remove the topic number from the title
                 number: Number(topicNumber),
                 criteria: criteria
                     .filter((c) => {
@@ -270,23 +271,16 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
                         } else {
                             return 0
                         }
-                    }).sort((a,b) => { 
-                        const refA = a.criterium.references.standard
-                        const refB = b.criterium.references.standard
-                        if (refA < refB) {
-                            return -1;
-                        }
-                        if (refA > refB) {
-                            return 1;
-                        }
-
-                        return 0;
-                    })
+                    }).sort((a, b) => a.criterium.references.standard.localeCompare(
+                        b.criterium.references.standard,
+                        undefined,
+                        { numeric: true }
+                    ))
                     .map((c) => {
                         return {
                             criterium: {
                                 ...c.criterium,
-                                number: c.criterium.references.standard,
+                                number: c.criterium.references.standard.replace(/^\d{1,2}./, ''),
                             },
                         };
                     }),

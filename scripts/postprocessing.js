@@ -213,7 +213,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         detailRAAM.firstElementChild.after(el);
     }
 
-    // Note baladeuse du critère 10.5 RAPDF
+    // Note baladeuse du critère 10.5 RAPDF 1.1
     if (name.includes('rapdf')) {
         el = document.getElementById('notes-techniques');
         if (el) {
@@ -227,7 +227,7 @@ function addelt(document, type, appendTo, textNode, attrType, attrValue) {    //
         }
     }
 
-    // Note baladeuse du critère 11.1 RAAM
+    // Note baladeuse du critère 11.1 RAAM 1.1
     if (name.includes('raam')) {
         el = document.getElementById('note-2');
         if (el) {
