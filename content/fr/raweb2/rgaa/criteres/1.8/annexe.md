@@ -6,11 +6,13 @@ Techniques:
   - C30
   - G140
   - G136
+ACT:
+  - 19
 ---
 
 #### Cas particuliers
 
-Pour ce critère, il existe une gestion de cas particulier lorsque le texte fait partie du logo, d’une dénomination commerciale, d’un [CAPTCHA](#captcha), d’une [image-test](#image-test) ou d’une image dont l’exactitude graphique serait considérée comme essentielle à la bonne transmission de l’information véhiculée par l’image. Dans ces situations, le critère est non applicable pour ces éléments.
+Le critère ne s'applique pas lorsque le texte fait partie du logo, d’une dénomination commerciale, d’un [CAPTCHA](#captcha), d’une [image-test](#image-test) ou d’une image dont l’exactitude graphique serait considérée comme essentielle à la bonne transmission de l’information véhiculée par l’image.
 
 #### Notes techniques
 

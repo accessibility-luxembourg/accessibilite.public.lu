@@ -13,7 +13,7 @@
 <div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
 <% topic.criteria.forEach(crit => { 
     let critId = `crit-${topic.number}-${crit.criterium.number}`
-    if (shortList.length == 0 || (shortList.includes(topic.number + '.' + crit.criterium.number))) {
+    if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
 %>
     <h4 id="<%= critId %>">
         <span>
@@ -30,7 +30,7 @@
         <% Object.keys(crit.criterium.tests).forEach(testId => {
             let test = crit.criterium.tests[testId]
             let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
-            let metho = crit.criterium.metho[testId].replace(/<hr>\n.*/g, '').trim()
+            let metho = crit.criterium.metho[testId]
         %>
         <h5 id="<%= ref %>">
             <span>
@@ -71,14 +71,44 @@
         <summary><%= __("Mapping") %></summary>
         <div>
         <ul>
-        <% if (crit.criterium.references.wcag !== undefined) { %>
-        <li><p><%= __("WCAG 2.2 success criterion") %></p>
-        <p>
-            <% let SC = crit.criterium.references.wcag.trim() %>
-            <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
-        </p>
+        <% 
+        if (crit.criterium.references.standard !== undefined) { %>
+        <li><p><%= normVersion %></p>
+            <p> <%- crit.criterium.references.norm %>. </p>
         </li>
-        <% } %> 
+        <% }
+        if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
+            let SC = crit.criterium.references.wcag.trim() %>
+        <li><p><%= __("WCAG 2.2 success criteria") %></p>
+            <p><a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>.</p>
+        </li>
+        <% }
+        if (crit.criterium.references.techniques !== undefined && crit.criterium.references.techniques.length !== 0) { %>
+        <li><p><%= __("WCAG 2.2 Sufficient techniques and/or failures") %></p>
+            <p>
+                <% let techs = crit.criterium.references.techniques.map(e => { return e.trim() })
+                    techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
+                %>
+            </p>
+        </li>
+        <% }
+        if (crit.criterium.references.previous !== 'undefined') { %>
+        <li><p>RAWeb 1.1</p>
+            <p>
+                <% let prevs = crit.criterium.references.previous.replaceAll(',', ', ') %>
+                <%= prevs %>.
+            </p>
+        </li>
+        <% }
+        if (crit.criterium.references.act !== 'undefined') { %>
+        <li><p><%= __("ACT rules") %></p>
+            <p>
+                <% let acts = crit.criterium.references.act.replaceAll(',', ', ') %>
+                <%= acts %>.
+            </p>
+        </li>
+        <% }
+         %>
         </ul>
         </div>
     </details>

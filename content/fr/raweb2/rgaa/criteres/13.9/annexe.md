@@ -1,20 +1,17 @@
 ---
-EN301549-V4: 9.1.3.4
-WCAG: 1.3.4
-RAWEB1.1: 13.9
-Techniques:
-  - F97
-  - F100
-  - G214
+EN301549-V4: 5.9
+RAWEB1.1: N/A
 ---
+
 
 #### Cas particuliers
 
-Le critère ne s'applique par lorsqu'une orientation spécifique de l'affichage est essentielle, par exemple une interface de jeu, une application de piano, une application de dépôt de chèques bancaires, etc.
+Le critère ne s'applique pas aux actions requises par le système, le navigateur ou les technologies d'assistance.
 
-Si l’interface est le seul moyen d’accéder au service proposé, une alternative devrait être mise en place pour pallier cette carence.
+#### Notes techniques
 
-#### Références documentaires
+Ce critère évalue les actions simultanées, quelles qu'elles soient : commande vocale, clic souris, frappe de touches, toucher d'écran etc. 
 
-- [Screen Orientation spectification](https://www.w3.org/TR/screen-orientation/) 
-- [CSS Viewport Module Level 1](https://www.w3.org/TR/css-viewport-1/)
+Le critère 13.XX [@todo numérotation] quant à lui s'intéresse aux gestes complexes, et donc uniquement aux évènements associés à des pointeurs. Cependant, un [geste complexe](#gestes-complexes-et-gestes-simples) peut également entrer dans le champ d'application des actions simultanées. Par exemple : le geste de pincement à deux doigts sur une animation qui intègre sa propre fonctionnalité de zoom.
+
+Dans le cas d'une non conformité identifiée au critère 13.XX, nous suggérons de ne pas dupliquer l'erreur sur ce critère.

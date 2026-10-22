@@ -8,4 +8,4 @@ Techniques:
 
 #### Note technique
 
-Les images légendées doivent par ailleurs respecter le [critère 1.1](#crit-1-1) [@@TODO revoir numérotation] et le [critère 1.3](#crit-1-3) [@@TODO revoir numérotation] relatifs aux images porteuses d’information.
+Les images légendées doivent par ailleurs respecter le critère 1.1 [@@TODO revoir numérotation] et le critère 1.3 [@@TODO revoir numérotation] relatifs aux images porteuses d’information.

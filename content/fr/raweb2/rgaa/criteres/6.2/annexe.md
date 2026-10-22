@@ -20,4 +20,4 @@ Techniques:
 
 #### Cas particuliers
 
-Il existe une gestion de cas particuliers pour les tests 6.1.1, 6.1.2, 6.1.3 et 6.1.4 [@@todo numérotation] lorsque le lien est [ambigu pour tout le monde](#ambigu-pour-tout-le-monde). Dans cette situation, où il n’est pas possible de rendre le lien explicite dans son contexte, le critère est non applicable.
+Le critère ne s'applique pas pour les tests 6.1.1, 6.1.2, 6.1.3 et 6.1.4 [@@todo numérotation] lorsque le lien est [ambigu pour tout le monde](#ambigu-pour-tout-le-monde), c'est-à-dire qu'il n’est pas possible de rendre le lien explicite dans son contexte.

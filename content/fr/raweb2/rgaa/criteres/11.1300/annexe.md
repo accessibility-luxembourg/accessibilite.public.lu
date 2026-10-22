@@ -1,7 +1,6 @@
 ---
-WCAG: 1.3.1
-Norm: 9.1.3.1
 EN301549-V4: 9.1.3.1 
+WCAG: 1.3.1
 RAWEB1.1: 11.8
 Techniques:
   - H85

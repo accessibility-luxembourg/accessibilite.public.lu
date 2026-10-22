@@ -26,13 +26,8 @@ function parseTitle(file, rgaaPath) {
 
 function parseReferences(file, rgaaPath) {
     const data = parse(file, rgaaPath)
-
-
-
-
-
-
     let wcag = []
+    let norm = []
     if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta) { // new references format
 /*    example
 EN301549-V4: 9.1.1.1
@@ -46,16 +41,8 @@ Techniques:
   - H67
 ACT: 1
 */
-
-        let standard = ''
-        if (data.meta['EN301549-V4'] !== undefined) {
-            standard += data.meta['EN301549-V4']
-        } else if (data.meta['EN301549-v4'] !== undefined) {
-            standard += data.meta['EN301549-v4']
-        } else {
-            standard += data.meta['Norm']
-        }
-        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: standard, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
+        norm = en301549.getTitle('4.1.1', data.meta['EN301549-V4'])
+        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+data.meta['EN301549-V4'], norm: norm, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
 /* example 
 WCAG:
@@ -78,14 +65,12 @@ Norm:
   - criterion: 9.4.1.2
     title: Name, Role, Value
 */
-
         if (Array.isArray(data.meta.WCAG)) {
             wcag = data.meta.WCAG.map((w) => {
                 return `${w.successCriterion} ${w.title} (${w.level})`;
             });
         } 
 
-        let norm = []
         if (data.meta.Norm !== undefined) {
             if (Array.isArray(data.meta.Norm)) {
                 norm = data.meta.Norm.map((w) => {
@@ -99,7 +84,7 @@ Norm:
             }
         } 
 
-        result = {'refs': [{ wcag }, { techniques: data.meta.Techniques }, { norm }], 'notes': shiftHeadingHierarchy(data.content, 1) }
+        result = {'refs': { wcag, techniques: data.meta.Techniques, norm }, 'notes': shiftHeadingHierarchy(data.content, 1) }
     }
 	return result
 }
@@ -250,7 +235,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
             if (c.criterium.references.standard !== undefined) {
                 return parseInt(c.criterium.references.standard.split('.')[0]) // get the first number of the criterion id
             } else {
-                console.log('EN301549 reference not found in '+c.criterium.number)
+                console.log('EN301549 reference not found in ' + c.criterium.number)
                 return 1
             }
         }) 

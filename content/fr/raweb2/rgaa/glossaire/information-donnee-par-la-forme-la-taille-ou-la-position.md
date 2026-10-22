@@ -1,5 +1,6 @@
 ---
 title: Information donnée par la forme, la taille ou la position
+RAWEB1.1: indication-donnee-par-la-forme-la-taille-ou-la-position
 ---
 
 Information transmise visuellement par l’intermédiaire d’une caractéristique visuelle (autre que la couleur) comme sa forme, sa taille ou son emplacement visuel.

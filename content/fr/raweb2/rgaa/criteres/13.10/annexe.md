@@ -1,20 +1,22 @@
 ---
-EN301549-V4: 9.2.5.1
-WCAG: 2.5.1
-RAWEB1.1: "13.10"
+EN301549-V4: 9.1.3.4
+WCAG: 1.3.4
+RAWEB1.1: 13.9
 Techniques:
-  - F105
-  - G215
-  - G216
+  - F97
+  - F100
+  - G214
+ACT:
+  - 14
 ---
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s'applique par lorsqu'une orientation spécifique de l'affichage est essentielle, par exemple une interface de jeu, une application de piano, une application de dépôt de chèques bancaires, etc.
 
-- Le geste est requis par l’agent utilisateur ou le système d’exploitation et n'est pas modifié par l'auteur.
-- La réalisation d’un geste complexe est essentielle pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
+Si l’interface est le seul moyen d’accéder au service proposé, une alternative devrait être mise en place pour pallier cette carence.
 
-#### Notes techniques 
+#### Références documentaires
 
-Le critère [13.10 @@TODO numérotation] s'intéresse aux gestes complexes, notamment les gestes qui nécessitent que le dispositif de pointage suive une trajectoire précise. À l'inverse du critère [13.2000 @@TODO numérotation] qui s'intéresse aux mouvements de glissements qui ne tiennent pas compte des trajectoires du dispositif de pointage.
+- [Screen Orientation spectification](https://www.w3.org/TR/screen-orientation/) 
+- [CSS Viewport Module Level 1](https://www.w3.org/TR/css-viewport-1/)

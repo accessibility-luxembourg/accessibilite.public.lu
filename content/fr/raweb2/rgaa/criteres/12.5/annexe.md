@@ -8,7 +8,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère est non applicable lorsque :
+Le critère ne s'applique pas lorsque :
 
 - la page ne possède pas de mécanisme d'aide ;
 - la page est la page d’accueil ;

@@ -12,7 +12,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère est non applicable pour :
+Le critère ne s'applique pas pour :
 
 - Les composants d’interface inactifs (par exemple, un bouton avec un attribut `disabled`) sur lesquel aucune action n’est possible.
 - Les composants d’interface pour lesquel l’apparence est gérée par les styles natifs du navigateur sans aucune modification par l’auteur (par exemple, le style au focus natif dans Chrome ou Firefox).

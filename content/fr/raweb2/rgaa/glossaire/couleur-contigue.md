@@ -1,5 +1,6 @@
 ---
 title: Couleur contiguë
+RAWEB1.1: couleur-d-arriere-plan-contigue-et-couleur-contigue
 ---
 
 Couleur directement en contact avec les couleurs de l'élément portant l'information, cela peut être la couleur d’arrière-plan ou toute autre couleur en jonction directe.

@@ -1,5 +1,6 @@
 ---
 title: Nom accessible d'image
+RAWEB1.1: alternative-textuelle-image
 ---
 
 Le nom accessible d'une image constitue une alternative textuelle à l'information transmise visuellement par l'image. Il est déterminé selon l’ordre de priorité suivant :

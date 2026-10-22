@@ -15,4 +15,4 @@ Dans le cas du SVG, le manque de support de l’élément `<desc>` ne permet pas
 
 L’utilisation de l’attribut WAI-ARIA `aria-describedby` n’est pas recommandée pour lier une image à sa description détaillée, par manque de support des technologies d’assistance. Néanmoins, lorsqu’il est utilisé, l’attribut devra nécessairement faire référence à l’`id` de la zone contenant la description détaillée.
 
-La description détaillée adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le [critère 1.9](#crit-1-9) [@@TODO revoir numérotation] doit être vérifié.
+La description détaillée adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le critère 1.9 [@@TODO revoir numérotation] doit être vérifié.

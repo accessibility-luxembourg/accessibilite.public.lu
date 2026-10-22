@@ -125,7 +125,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     text = text.replace(/(\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
                         let link = ''
                         try {
-                            link = en301549.getLink(version, criterion, 'lang="en"')+separator
+                            link = en301549.getLink(version, criterion, 'lang="en"') + separator
                         } catch(e) {
                             console.log(e, criterion, version)
                         }
@@ -147,7 +147,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
                         let link = ''
                         try {
-                            link = en301549.getLink(version, criterion, 'lang="en"')+separator
+                            link = en301549.getLink(version, criterion, 'lang="en"') + separator
                         } catch(e) {
                             console.log(e, criterion, version)
                         }

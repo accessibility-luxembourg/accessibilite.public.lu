@@ -11,8 +11,11 @@ Techniques:
   - SCR20
   - SCR29
   - SCR35
+ACT: 
+  - 23
+  - 24
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particuliers lorsque la fonctionnalité dépend de l’utilisation d’un gestionnaire d’événement sans équivalent universel ; par exemple, une application de dessin à main levée ne pourra pas être rendue contrôlable au clavier. Dans ces situations, le critère est non applicable.
+Le critère ne s'applique pas lorsque la fonctionnalité dépend de l’utilisation d’un gestionnaire d’événement sans équivalent universel ; par exemple, une application de dessin à main levée ne pourra pas être rendue contrôlable au clavier.

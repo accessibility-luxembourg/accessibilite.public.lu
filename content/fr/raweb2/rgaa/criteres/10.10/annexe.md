@@ -8,6 +8,10 @@ Techniques:
   - C35
   - C36
   - F104
+ACT:
+  - 20
+  - 21
+  - 22
 ---
 
 #### Cas particuliers

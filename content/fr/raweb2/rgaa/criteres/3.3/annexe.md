@@ -10,13 +10,15 @@ Techniques:
   - G148
   - G174
   - G145
+ACT:
+  - 17
 ---
 
 #### Cas particuliers
 
-Le critère est non applicable lorsque :
+Le critère ne s'applique pas lorsque :
 
-- Le texte fait partie d’un logo ou d’un nom de marque d’un organisme ou d’une société ;
-- Le texte ou l’image de texte est purement décoratif ;
-- Le texte fait partie d’une image véhiculant une information mais le texte lui-même n’apporte aucune information essentielle ;
-- Le texte ou l’image de texte fait partie d’un élément d’interface sur lequel aucune action n’est possible (par exemple un bouton avec l’attribut `disabled`).
+- le texte fait partie d’un logo ou d’un nom de marque d’un organisme ou d’une société ;
+- le texte ou l’image de texte est purement décoratif ;
+- le texte fait partie d’une image véhiculant une information mais le texte lui-même n’apporte aucune information essentielle ;
+- le texte ou l’image de texte fait partie d’un élément d’interface sur lequel aucune action n’est possible (par exemple un bouton avec l’attribut `disabled`).

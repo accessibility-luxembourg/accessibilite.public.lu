@@ -1,5 +1,6 @@
 ---
 title: Noms accessibles et intitulés visibles cohérents
+RAWEB1.1 : etiquettes-coherentes
 ---
 
 Les noms accessibles ainsi que les intitulés visibles des composants d'interface doivent être cohérents afin d'aider les utilisateurs à reconnaître les éléments qui remplissent la même fonctionnalité lorsqu'ils sont répétés au sein d'un ensemble de pages.

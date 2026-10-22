@@ -10,7 +10,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère est non applicable lorsque : 
+Le critère ne s'applique lorsque : 
 
 - le formulaire comporte un seul champ de formulaire&nbsp;;
 - le formulaire comporte uniquement un champ d’identifiant et un champ de mot de passe (dans le cas d’un formulaire d’identification).
