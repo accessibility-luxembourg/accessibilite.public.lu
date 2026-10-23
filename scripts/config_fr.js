@@ -171,7 +171,7 @@ const config = {
                 {
                     "title": "RAWeb 2 : Critères / norme EN 301 549",
                     "menu": "Critères / EN 301 549",
-                    "name": "raweb2/raweb2-en", 
+                    "name": "raweb2/criteres-en", 
                     "type": "criteres",
                     "template": "criteria-raweb2-en.ejs", 
                     "data": dataRAWeb2sortedEN,

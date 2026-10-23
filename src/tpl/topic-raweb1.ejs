@@ -108,14 +108,14 @@
                     <% if (crit.criterium.references.norm !== undefined) { %>
                         <% if (Array.isArray(crit.criterium.references.norm) && crit.criterium.references.norm.length !== 0) { %>
                             <li><p><%= normVersion %></p>
-                                <p><% crit.criterium.references.norm.forEach(e => { %>
-                                        <%- e %><%= (crit.criterium.references.norm.indexOf(e) != (crit.criterium.references.norm.length-1)) ? ', ' : '.' %>
+                                <p class="norm-reference" data-version="<%= normVersion %>"><% crit.criterium.references.norm.forEach(e => { %>
+                                        <%- e %><%= (crit.criterium.references.norm.indexOf(e) != (crit.criterium.references.norm.length-1)) ? '___' : '' %>
                                         <% }) %>
                                 </p> 
                             </li>           
                                 <% } else { %>
                                     <li><p><%= normVersion %></p>
-                                        <p><%= crit.criterium.references.norm %></p>
+                                        <p class="norm-reference" data-version="<%= normVersion %>"><%= crit.criterium.references.norm %></p>
                                     </li>
                         <% } %>
                     <% } %>
