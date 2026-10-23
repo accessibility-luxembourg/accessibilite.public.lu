@@ -19,6 +19,9 @@
         <span>
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
+        <% if (sortNorm) { %>
+        RAWeb - crit et nom thématique
+        <% } %>
         <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
         <span class="level">
             <span class="sr-only"><%= __('Compliance level') %> </span>

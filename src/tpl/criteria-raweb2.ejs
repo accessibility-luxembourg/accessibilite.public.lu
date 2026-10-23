@@ -52,7 +52,7 @@
 <div class="RAWebMaster">
     <div id="accordionGroup" class="accordion">
         <% topics.forEach(topic => { %>
-            <%- include('topic-raweb2', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, actRules: actRules, normVersion: normVersion}) %>
+            <%- include('topic-raweb2', {topic: topic, md: md, slugify: slugify, tech2URL: tech2URL, shortList: shortList, langOnWCAG: langOnWCAG, langOnEUNorm: langOnEUNorm, autoTests: autoTests, levels: levels, actRules: actRules, sortNorm: sortNorm, normVersion: normVersion}) %>
         <% }) %>
     </div>
 </div>
