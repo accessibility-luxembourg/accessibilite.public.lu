@@ -10,9 +10,9 @@ const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/en/raw
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/en/raweb2')
 const niveauxRAWeb2 = require('../content/en/raweb2/niveaux.json')
-const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const ACTrules = require('../content/fr/raweb2/act-rules.json')
+const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, actRules: ACTrules, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb2', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
-
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
 const niveauxRAWeb1 = require('../content/en/raweb1/niveaux.json')

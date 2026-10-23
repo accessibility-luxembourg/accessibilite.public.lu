@@ -100,12 +100,17 @@
             </p>
         </li>
         <% }
-        if (crit.criterium.references.act !== 'undefined') { %>
+        if (crit.criterium.references.act !== 'undefined') { 
+            let acts = crit.criterium.references.act.split(',');
+            let links = '';
+            acts.forEach(act => {
+                const rule = actRules.rules.find(r => r.id === act.trim());
+                links += `<a href="${rule.url}" target="_blank">${rule.name}</a>, `;
+            });
+            links = links.slice(0, -2); // Remove the last comma and space
+        %>
         <li><p><%= __("ACT rules") %></p>
-            <p>
-                <% let acts = crit.criterium.references.act.replaceAll(',', ', ') %>
-                <%= acts %>.
-            </p>
+            <p class="act-rules"><%- links %></p>
         </li>
         <% }
          %>

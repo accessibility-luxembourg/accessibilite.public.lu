@@ -113,6 +113,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 topics.push({"id": $(this).attr('id'), "text": text, 'class':  $(this).attr('class') }) 
             }
         })
+
         // Special processing for RAAM and RAPDF technical reference pages
         // Convert EN 301 549 criterion references to clickable links
         if (['raam1/referentiel-technique', 'raam1.1/referentiel-technique', 'raam2/referentiel-technique', 'rapdf1/referentiel-technique', 'rapdf1.1/referentiel-technique'].includes(name)) {
@@ -135,14 +136,14 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                 }
             })
         }
+
         // Special processing for RAWeb criteria pages
-        // Convert EN 301 549 references to links in correspondence sections
+        // Convert EN 301 549 references to links in correspondence sections, link on ACT rules
         if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres', 'raweb2/criteres-en'].includes(name)) {
             $('.rawebCorr div p.norm-reference').each(function() {
-                // réécriture Dom oct 2026
                 let criteria  = $(this).html().replace(/\s+/g, " ").trim().split('___')
                 let links = '';
-                criteria.forEach((crit, index) => {
+                criteria.forEach((crit) => {
                     let criterion = crit.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0] // récupération du critère
                     let version = $(this).attr('data-version').match(/V(\d\.\d\.\d)/)[1]
                         try {
@@ -157,7 +158,16 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     links += "."
                     $(this).html(links)
                 }
-            })   
+            })
+            //console.log(actRules)
+            $('.rawebCorr div p.act-rules').each(function() {
+                let criteria  = $(this).html().replace(/\s+/g, " ").trim().split(',')
+                let links = '';
+                criteria.forEach((crit) => {
+                    
+                })
+
+            })
         }
         
         // Move script elements from head to body for proper execution order
