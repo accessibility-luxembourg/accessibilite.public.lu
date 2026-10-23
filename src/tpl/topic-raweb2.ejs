@@ -22,7 +22,8 @@
         <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
         <span class="level">
             <span class="sr-only"><%= __('Compliance level') %> </span>
-            NA
+            <% const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
+            <%= ENlevel.level %>
         </span>
     </h4>
     <details class="discover rawebTests">
@@ -71,12 +72,11 @@
         <summary><%= __("Mapping") %></summary>
         <div>
         <ul>
-        <% 
-        if (crit.criterium.references.standard !== undefined) { %>
+
         <li><p><%= normVersion %></p>
             <p class="norm-reference" data-version="<%= normVersion %>"><%- crit.criterium.references.norm %></p>
         </li>
-        <% }
+        <%
         if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
             let SC = crit.criterium.references.wcag.trim() %>
         <li><p><%= __("WCAG 2.2 success criteria") %></p>

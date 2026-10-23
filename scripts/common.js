@@ -139,7 +139,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
 
         // Special processing for RAWeb criteria pages
         // Convert EN 301 549 references to links in correspondence sections, link on ACT rules
-        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres', 'raweb2/criteres-en'].includes(name)) {
+        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres'].includes(name)) {
             $('.rawebCorr div p.norm-reference').each(function() {
                 let criteria  = $(this).html().replace(/\s+/g, " ").trim().split('___')
                 let links = '';
@@ -158,15 +158,6 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     links += "."
                     $(this).html(links)
                 }
-            })
-            //console.log(actRules)
-            $('.rawebCorr div p.act-rules').each(function() {
-                let criteria  = $(this).html().replace(/\s+/g, " ").trim().split(',')
-                let links = '';
-                criteria.forEach((crit) => {
-                    
-                })
-
             })
         }
         

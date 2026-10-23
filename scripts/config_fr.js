@@ -174,7 +174,7 @@ const config = {
                     "menu": "Critères / EN 301 549",
                     "name": "raweb2/criteres-en", 
                     "type": "criteres",
-                    "template": "criteria-raweb2-en.ejs", 
+                    "template": "criteria-raweb2.ejs", 
                     "data": dataRAWeb2sortedEN,
                     "prefix": "../.." ,
                     "genSummary": "ol",

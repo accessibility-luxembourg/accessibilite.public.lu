@@ -26,10 +26,10 @@ html, body {
   border-style: none;
 }
 
-.RAWebMasterHeader h2 {
-  font: 400 2em "Fira Sans";
-  text-align: center;
-  padding: 2rem 0;
+.RAWebMasterHeader h2, .RAWebMasterHeader h3 {
+  font: 400 1.2em "Fira Sans";
+  text-align: left;
+  padding: 1rem 0;
 }
 
 .accordion {
