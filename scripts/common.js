@@ -137,14 +137,35 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         }
         // Special processing for RAWeb criteria pages
         // Convert EN 301 549 references to links in correspondence sections
-        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres'].includes(name)) {
-            $('.rawebCorr ul>li, .rawebCorr div>p').each(function(i, elem) {
-                let text = $(this).html()
+        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres', 'raweb2/raweb2-en'].includes(name)) {
+            $('.rawebCorr div p.norm-reference').each(function() {
+                // réécriture Dom oct 2026
+                /*
+                let criterion = $(this).html().split(' ')[0]
+                let version = $(this).attr('data-version').match(/V(\d\.\d\.\d)/)[1]
+                if (criterion == "9.2.5.4" && version == "4.1.1") {
+                    console.log("123")
+                }
+                let link = ''
+                    try {
+                        link = en301549.getLink(version, criterion, 'lang="en"')
+                    } catch(e) {
+                        console.log(e, criterion, version)
+                    }
+                if (link !== '') {
+                    let text = $(this).html().replace($(this).html(), link)
+                    $(this).html(text) + '.'
+                }
+                    */
                 // Match EN 301 549 references in both paragraph and direct formats
+                let text = $(this).text()
                 if (text.match(/^<p>EN\s301\s549/) || text.match(/^EN\s301\s549/)) {
                     const version = text.match(/V(\d\.\d\.\d)/)[1]
                     // Replace criterion references with links (avoiding version numbers)
                     text = text.replace(/[^V\.](\d{1,2}(\.\d{1,2}){0,4})\s([^\d]+)([,\.]{1})/g, (match, criterion, a, description, separator) => { 
+                        if (criterion == "9.1.1.1" && version == "4.1.1") {
+                            console.log("123")
+                        }
                         let link = ''
                         try {
                             link = en301549.getLink(version, criterion, 'lang="en"') + separator
@@ -155,6 +176,7 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
                     })
                     $(this).html(text)
                 }
+                
             })   
         }
         

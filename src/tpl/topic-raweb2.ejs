@@ -74,7 +74,7 @@
         <% 
         if (crit.criterium.references.standard !== undefined) { %>
         <li><p><%= normVersion %></p>
-            <p> <%- crit.criterium.references.norm %>. </p>
+            <p class="norm-reference" data-version="<%= normVersion %>"><%- crit.criterium.references.norm %></p>
         </li>
         <% }
         if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
@@ -95,8 +95,8 @@
         if (crit.criterium.references.previous !== 'undefined') { %>
         <li><p>RAWeb 1.1</p>
             <p>
-                <% let prevs = crit.criterium.references.previous.replaceAll(',', ', ') %>
-                <%= prevs %>.
+                <% let prevs = crit.criterium.references.previous.split(',').map(id => `<a href="../raweb1.1/criteres.html#crit-${id.trim().replace('.', '-')}">${id}</a>`) %>
+                <%- prevs.join(', ') %>.
             </p>
         </li>
         <% }

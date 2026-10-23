@@ -10,7 +10,6 @@ const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raw
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/fr/raweb2')
 const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/fr/raweb2', '', 'EN')
-console.log(criteresRAWeb2sortedEN)
 const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
 const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
