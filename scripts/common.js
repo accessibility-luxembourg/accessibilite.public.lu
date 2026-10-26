@@ -138,11 +138,12 @@ function renderWithSummary(config, data, title, lang, file, name, prefix, summar
         }
 
         // Special processing for RAWeb criteria pages
-        // Convert EN 301 549 references to links in correspondence sections, link on ACT rules
-        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres'].includes(name)) {
+        // Convert EN 301 549 references to links in correspondence sections
+        if (['raweb1/criteres', 'raweb1.1/criteres', 'raweb2/criteres', 'raweb2/criteres-en'].includes(name)) {
             $('.rawebCorr div p.norm-reference').each(function() {
                 let criteria  = $(this).html().replace(/\s+/g, " ").trim().split('___')
                 let links = '';
+                
                 criteria.forEach((crit) => {
                     let criterion = crit.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0] // récupération du critère
                     let version = $(this).attr('data-version').match(/V(\d\.\d\.\d)/)[1]

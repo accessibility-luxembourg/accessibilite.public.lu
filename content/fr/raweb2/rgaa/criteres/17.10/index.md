@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application web qui dispose d'une messagerie vocale, d'un standard automatique ou d'un serveur vocal interactif, celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler ?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), l'intégralité du texte en temps réel échangé pendant une communication est-elle consultable ?
 ---

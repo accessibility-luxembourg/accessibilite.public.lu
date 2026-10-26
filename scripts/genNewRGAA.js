@@ -41,7 +41,7 @@ Techniques:
   - H67
 ACT: 1
 */
-        norm = en301549.getTitle('4.1.1', data.meta['EN301549-V4'])
+        norm = en301549.getTitle('4.1.1', String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0])
         result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+data.meta['EN301549-V4'], norm: norm, RAWeb2: folder, RAWeb2TopicTitle: topicTitle, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
 /* example 

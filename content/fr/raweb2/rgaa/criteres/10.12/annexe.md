@@ -18,6 +18,8 @@ Le critère ne s'applique pas lorsque :
 
 #### Notes techniques
 
+Si deux cibles ou plus se chevauchent, **la zone de chevauchement ne doit pas être incluse dans la mesure de la taille de la cible**, sauf si les cibles qui se chevauchent exécutent la même action ou ouvrent la même page.
+
 Les cibles qui permettent de sélectionner des valeurs en fonction de leur position dans la cible sont considérées comme une seule cible. Cela inclut par exemple les curseurs (slider), les sélecteurs de couleurs affichant un dégradé de couleurs, ou les zones éditables où l’on positionne le curseur.
 
 Pour les cibles en ligne, la hauteur de ligne doit être interprétée comme étant perpendiculaire au flux de texte. Par exemple, dans une langue affichée verticalement, la hauteur de ligne serait horizontale.

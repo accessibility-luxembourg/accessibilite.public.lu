@@ -8,6 +8,6 @@ Le nom accessible d'un champ de formulaire transmet la nature des informations d
 1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
 2. Sinon, contenu de l’attribut WAI-ARIA `aria-label` ;
 3. Sinon, contenu de l'élément `<label>` associé au champ par l’attribut `for` ;
-4. Par l’utilisation de l’attribut `title`.
+4. Sinon, contenu de l’attribut `title`.
 
 Référence : <span lang="en">[Accessible name and description calculation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation)</span>.

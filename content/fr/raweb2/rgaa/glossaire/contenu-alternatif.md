@@ -6,5 +6,6 @@ Contenu venant se substituer à un autre apportant la même information mais pou
 
 Voir également, dans la méthodologie de test : 
 
+- [Alternative à un script](#alternative-a-script)
 - [Alternative à une partie du contenu (contenu alternatif)](methodo-test.html#alternative-à-une-partie-du-contenu-contenu-alternatif)
 - [Version de remplacement conforme](methodo-test.html#version-de-remplacement-conforme)

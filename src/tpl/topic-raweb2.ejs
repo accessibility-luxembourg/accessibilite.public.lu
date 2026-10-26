@@ -5,7 +5,7 @@
         <span class="accordion-title">
             <span class="accordion-icon"></span>
             <span class="chapter"><%= topic.number %></span>
-            <span class="theme-name"><%= md.renderInline(topic.topic) %></span>
+            <span class="theme-name" <% if (sortNorm) { %> lang="en" <% } %>><%= md.renderInline(topic.topic) %></span>
         </span>
     </button>
     <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>"><span class="sr-only"><%= __("Theme") %> <%= topic.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
@@ -113,7 +113,7 @@
             links = links.slice(0, -2); // Remove the last comma and space
         %>
         <li><p><%= __("ACT rules") %></p>
-            <p class="act-rules"><%- links %></p>
+            <p class="act-rules"><%- links %>.</p>
         </li>
         <% }
          %>

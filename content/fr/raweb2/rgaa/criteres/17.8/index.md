@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application web de télécommunication, les informations d'identification de l’interlocuteur qui initie un appel sont-elles accessibles ?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), un indicateur visuel de l’activité orale des autres participants est-il présent ?
 ---
