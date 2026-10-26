@@ -337,6 +337,11 @@ html, body {
   margin: 1rem 0;
 }
 
+.RAWebMaster details.rawebTests h5 {
+  position: relative;
+  margin-top: 1rem;
+}
+
 .RAWebMaster details.rawebNotes h6 {
   font-size: 0.9rem;
 }

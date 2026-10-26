@@ -103,8 +103,7 @@ function parseTests(folderPath, rgaaPath) {
         tests[i + 1] = data.meta.steps
             ? [data.meta.title, ...data.meta.steps]
             : [data.meta.title]
-        //metho[i + 1] = data.content.substring(0, data.content.lastIndexOf('<hr>')).trim()
-        metho[i + 1] = data.content.trim()
+        metho[i + 1] = data.content.substring(0, data.content.lastIndexOf('<hr>')).trim()
 	});
 
 	return {'tests':tests, 'metho': metho};
