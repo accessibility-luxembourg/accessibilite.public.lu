@@ -23,4 +23,4 @@ Si une image se trouve imbriquée dans une balise possédant un attribut `aria-h
 
 ##### Note 2
 
-En raison du mauvais support de certains lecteurs d'écrans, si une balise <img> possédant un attribut alt vide se trouve dans une balise <figure>, il est recommandé d'ajouter sur la balise <img> un attribut WAI-ARIA aria-hidden="true", un role="presentation" ou un role="none".
+En raison du mauvais support de certains lecteurs d'écrans, si une balise `<img>` possédant un attribut alt vide se trouve dans une balise `<figure>`, il est recommandé d'ajouter sur la balise `<img>` un attribut WAI-ARIA aria-hidden="true", un role="presentation" ou un role="none".

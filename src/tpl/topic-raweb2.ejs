@@ -11,15 +11,18 @@
     <a href="#topic-<%= topic.number %>" class="topic-anchor" title="<%= __("Theme") %> <%= topic.number %>"><span class="sr-only"><%= __("Theme") %> <%= topic.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
 </h3>
 <div id="sect<%= topic.number %>" role="region" aria-labelledby="accordion<%= topic.number %>id" class="accordion-panel" hidden="until-found">
-<% topic.criteria.forEach(crit => { 
-    let critId = `crit-${topic.number}-${crit.criterium.number}`
+<%  let critId, currentCritId;
+    topic.criteria.forEach(crit => { 
+    critId = `crit-${topic.number}-${crit.criterium.number}`
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
 %>
     <h4 id="<%= critId %>">
+        <% if (currentCritId !== critId) { %>
         <span>
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
-        <% if (sortNorm) { %>
+        <% }
+        if (sortNorm) { %>
         <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>">RAWeb2  <%= crit.criterium.references.RAWeb2 %> - <%= crit.criterium.references.RAWeb2TopicTitle %></a>
         <% } %>
         <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
@@ -123,6 +126,7 @@
 
 <% 
     }
+    currentCritId = critId;
 })%>
 </div> 
 </article>

@@ -35,26 +35,18 @@ html, body {
 .accordion {
   margin: 0 1rem;
   padding: 0;
-  border: 1px solid hsl(0deg 0% 52%);
+  border: 1px solid lightgrey;
   border-radius: 3px;
+}
+
+.accordion article:not(:first-child) {
+  border-top: 1px solid lightgrey;
 }
 
 .accordion h3 {
   margin: 0;
   padding: 0;
   position: relative;
-}
-
-.accordion:focus-within {
-  border-color: hsl(216deg 94% 43%);
-}
-
-.accordion:focus-within h3 {
-  background-color: hsl(0deg 0% 97%);
-}
-
-.accordion > * + * {
-  border-top: 1px solid hsl(0deg 0% 52%);
 }
 
 .accordion-trigger {
@@ -213,10 +205,10 @@ html, body {
 .accordion h4 span:not(.level, .RAWeb2-ref) {
   position: absolute;
   top: 0.05rem;
-  left: -2.6rem;
+  left: -2.7rem;
   border-radius: 2px;
   background-color: #313740;
-  width: 2rem;
+  width: 2.2rem;
   padding: 0;
   text-align: center;
   color: white;
@@ -283,13 +275,33 @@ html, body {
 }
 
 .RAWebMaster details.discover > summary {
-  border-radius: 5px;
-  border: 1px solid #e3bd94;
+  margin: 0;
+  border: 1px solid #cbd5e1;
+  border-bottom: none;
+  background: #f8fafc;
+  color: #1e3a8a;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 8px 10px;
+}
+
+.RAWebMaster details.discover > summary:hover, .RAWebMaster details.discover > summary:focus {
+  background: #eff6ff;
+}
+
+.RAWebMaster :not(details.discover) + details.discover > summary { /* first element */
+  border-radius: 6px 6px 0 0;
+}
+
+.RAWebMaster details.discover:not(:has(+ details)) > summary { /* last element */
+  border-bottom: 1px solid #cbd5e1 !important;
+  border-radius: 0 0 6px 6px;
+}
+
+.RAWebMaster details.discover[open]:not(:has(+ details)) > summary { /* last element */
+  border-radius: 0;
 }
 
 .RAWebMaster details.discover > summary::after {
@@ -302,12 +314,14 @@ html, body {
 }
 
 .RAWebMaster details.discover[open] > summary {
-  background: #eeebdc;
-  border-color: white;
+  background: #1e3a8a;
+  border-color: #1e3a8a !important;
+  color: white;
 }
 
 .RAWebMaster details.discover[open] > summary::after {
   transform: rotate(-180deg);
+  border-top-color: white;
 }
 
 .RAWebMaster details.discover summary::-webkit-details-marker {
@@ -318,9 +332,13 @@ html, body {
   margin-left: 0.5rem;
 }
 
-.RAWebMaster details h5 {
+.RAWebMaster details.rawebNotes h5 {
   position: relative;
-  margin: 1.7rem 0;
+  margin: 1rem 0;
+}
+
+.RAWebMaster details.rawebNotes h6 {
+  font-size: 0.9rem;
 }
 
 .RAWebMaster details h5, .accordion p, .accordion ul, .accordion ol {
@@ -431,7 +449,7 @@ html, body {
 .RAWebMasterHeader aside {
   position: relative;
   margin: 0 auto 2rem auto;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   padding: 0.5rem;
   max-width: 700px;
   border-radius: 2px;
