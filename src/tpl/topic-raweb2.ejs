@@ -20,7 +20,7 @@
             <%= topic.number %>.<%= crit.criterium.number %>
         </span>
         <% if (sortNorm) { %>
-        RAWeb - crit et nom thématique
+        <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>">RAWeb2  <%= crit.criterium.references.RAWeb2 %> - <%= crit.criterium.references.RAWeb2TopicTitle %></a>
         <% } %>
         <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
         <span class="level">

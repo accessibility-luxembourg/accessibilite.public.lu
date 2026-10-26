@@ -210,9 +210,9 @@ html, body {
   height: 1rem;
 }
 
-.accordion h4 span:not(.level) {
+.accordion h4 span:not(.level, .RAWeb2-ref) {
   position: absolute;
-  top: 0;
+  top: 0.05rem;
   left: -2.6rem;
   border-radius: 2px;
   background-color: #313740;
@@ -221,6 +221,21 @@ html, body {
   text-align: center;
   color: white;
   font-size: 0.7rem;
+}
+
+.accordion h4 a.RAWeb2-ref {
+  background-color: #313740;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 2px;
+  border: 1px solid #313740;
+}
+
+.accordion h4 a.RAWeb2-ref:focus, .accordion h4 a.RAWeb2-ref:hover  {
+  background-color: #fff;
+  color: #313740;
 }
 
 .accordion h4 span.level {

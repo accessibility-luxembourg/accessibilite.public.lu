@@ -24,7 +24,7 @@ function parseTitle(file, rgaaPath) {
 	return parse(file, rgaaPath).meta.title
 }
 
-function parseReferences(file, rgaaPath) {
+function parseReferences(file, rgaaPath, folder, topicTitle) {
     const data = parse(file, rgaaPath)
     let wcag = []
     let norm = []
@@ -42,7 +42,7 @@ Techniques:
 ACT: 1
 */
         norm = en301549.getTitle('4.1.1', data.meta['EN301549-V4'])
-        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+data.meta['EN301549-V4'], norm: norm, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
+        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+data.meta['EN301549-V4'], norm: norm, RAWeb2: folder, RAWeb2TopicTitle: topicTitle, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
 /* example 
 WCAG:
@@ -84,7 +84,7 @@ Norm:
             }
         } 
 
-        result = {'refs': { wcag, techniques: data.meta.Techniques, norm }, 'notes': shiftHeadingHierarchy(data.content, 1) }
+        result = {'refs': { wcag, techniques: data.meta.Techniques, norm, previous: ''+data.meta['RAWEB1.1'] }, 'notes': shiftHeadingHierarchy(data.content, 1) }
     }
 	return result
 }
@@ -187,9 +187,8 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
 
     for (const folder of filteredFolders) {
         const testData = parseTests(`${CRITERIA_SOURCE}/${folder}/tests`, rgaaPath)
-        //console.log(`${CRITERIA_SOURCE}/${folder}/annexe.md`)
-        const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath)
-        //console.log('-------\n' + refData.notes)
+        const RAWeb2topicTitle = Object.entries(require('../' + path + "/themes.json"))[parseInt(folder.split(".")[0]) - 1]
+        const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath, folder, RAWeb2topicTitle[1].title)
         checkHeading(refData.notes)
         // Build all criterion properties
         const criterionObject = {
