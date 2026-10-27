@@ -235,13 +235,12 @@ html, body {
   top: 0;
   right: -2.3rem;
   border-radius: 50%;
-  padding: 1px;
   width: 1.5rem;
   text-align: center;
   color: white;
   font-size: 0.8rem;
-  border: solid 1px #881600;
-  background: #881600 content-box;
+  font-weight: 500;
+  background: #881600;
 }
 
 .accordion h4 {
