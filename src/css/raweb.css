@@ -307,7 +307,7 @@ html, body {
   content: '';
   width: 0; 
   height: 0; 
-  border-top: 10px solid #15171b;
+  border-top: 10px solid #1e3a8a;
   border-inline: 7px solid transparent;
   transition: 0.2s;
 }
