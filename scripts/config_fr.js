@@ -177,7 +177,7 @@ const config = {
                     "template": "criteria-raweb2.ejs", 
                     "data": dataRAWeb2sortedEN,
                     "prefix": "../.." ,
-                    "genSummary": "ol",
+                    "genSummary": "ul",
                     "summaryTitle": "Thématiques"
                 },                
                 {
