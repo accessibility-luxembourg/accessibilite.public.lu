@@ -206,7 +206,16 @@ const config = {
                     "name": "raweb2/environnement",
                     "md": "./content/fr/raweb2/environnement-de-test.md",
                     "prefix": "../.." 
-                },                        
+                }, 
+                {
+                    "title": "RAWeb 2 : Correspondances",
+                    "menu": "Correspondances",
+                    "name": "raweb2/mapping", 
+                    "type": "criteres",
+                    "template": "mapping-raweb2.ejs", 
+                    "data": dataRAWeb2,
+                    "prefix": "../.." 
+                },
                 {
                     "title": "RAWeb 2 : Références",
                     "menu": "Références",
