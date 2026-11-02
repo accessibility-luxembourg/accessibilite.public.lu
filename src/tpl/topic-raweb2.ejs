@@ -15,37 +15,56 @@
     topic.criteria.forEach(crit => { 
     critId = `crit-${topic.number}-${crit.criterium.number}`
     if (shortList.length == 0 || (shortList.includes(topic.number+'.'+crit.criterium.number))) {
-%>
-    <h4 id="<%= critId %>">
+    if (sortNorm) { %>
         <% if (currentCritId !== critId) { %>
-        <span>
-            <%= topic.number %>.<%= crit.criterium.number %>
-        </span>
-        <% }
-        if (sortNorm) { %>
-        <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>">RAWeb2  <%= crit.criterium.references.RAWeb2 %> - <%= crit.criterium.references.RAWeb2TopicTitle %></a>
+            <h4 id="<%= critId %>_enNorm" class="enNorm">
+                <span><%= topic.number %>.<%= crit.criterium.number %></span><%- crit.criterium.references.norm.slice(crit.criterium.references.norm.indexOf(' ')) %> 
+                <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>_enNorm"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
+            </h4>
         <% } %>
-        <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
-        <span class="level">
-            <span class="sr-only"><%= __('Compliance level') %> </span>
-            <% const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
-            <%= ENlevel.level %>
-        </span>
-    </h4>
+        <h5 id="RAWeb-<%= critId %>" class="enNorm">
+            <span>
+                <%= crit.criterium.references.RAWeb2 %>
+            </span>
+            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>">RAWeb2 <%= crit.criterium.references.RAWeb2TopicTitle %></a>
+            <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
+            <span class="level">
+                <span class="sr-only"><%= __('Compliance level') %> </span>
+                <% const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
+                <%= ENlevel.level %>
+            </span>
+        </h5>
+    <% } else { %>
+        <h4 id="<%= critId %>">
+            <span>
+                <%= topic.number %>.<%= crit.criterium.number %>
+            </span>
+            <%- md.renderInline(crit.criterium.title) %>
+            <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>">
+                <span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span>
+                <img aria-hidden="true" alt="" src="../../img/hyperlink.svg">
+            </a>
+            <span class="level">
+                <span class="sr-only"><%= __('Compliance level') %> </span>
+                <% const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
+                <%= ENlevel.level %>
+            </span>
+        </h4>
+    <% }  %>  
     <details class="discover rawebTests">
         <summary><%= __('Tests') %></summary>
         <% Object.keys(crit.criterium.tests).forEach(testId => {
             let test = crit.criterium.tests[testId]
-            let ref = `test-${topic.number}-${crit.criterium.number}-${testId}`
+            let ref = `test-${crit.criterium.references.RAWeb2.replace('.', '-')}-${testId}`
             let metho = crit.criterium.metho[testId]
         %>
         <h5 id="<%= ref %>">
             <span>
                 <span class="sr-only"><%= __('Test') %> </span>
-                <%= topic.number %>.<%= crit.criterium.number%>.<%= testId %>
+                <%= crit.criterium.references.RAWeb2 %>.<%= testId %>
             </span>
             <% if (typeof test == 'object') { %>
-                <span class="test-content"><%- md.renderInline(test[0]) %>   <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= ref %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
+                <span class="test-content"><%- md.renderInline(test[0]) %> <a class="anchor" title="Test <%= crit.criterium.references.RAWeb2 %>.<%= testId %>" href="#<%= ref %>"><span class="sr-only">Test <%= crit.criterium.references.RAWeb2 %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
                 <% if (test.length > 1) { %>
                 <ul>
                 <% for (let i=1; i< test.length; i++) { %>
@@ -54,7 +73,7 @@
                 </ul>
                 <% } %>
             <% } else { %>
-                <span class="test-content"><%- md.renderInline(test) %>  <a class="anchor" title="Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %>" href="#<%= topic.number %>-<%= crit.criterium.number %>-<%= testId %>"><span class="sr-only">Test <%= topic.number %>.<%= crit.criterium.number %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
+                <span class="test-content"><%- md.renderInline(test) %> <a class="anchor" title="Test <%= crit.criterium.references.RAWeb2 %>.<%= testId %>" href="#<%= ref %>"><span class="sr-only">Test <%= crit.criterium.references.RAWeb2 %>.<%= testId %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a></span></h5>
             <% } %>
         <% if (metho !== '') { %>
             <details class="methodo">

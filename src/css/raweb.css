@@ -155,13 +155,34 @@ html, body {
   padding: 0 !important;
 }
 
-.accordion h4 {
-  margin: 0 0 1rem 0;
+.accordion h4:not(.enNorm), .accordion h5.enNorm {
+  margin: 1rem 0;
   padding: 0;
   font: 300 1rem "Fira Sans";
-  line-height: 1.4rem;
+  line-height: 1.4rem !important;
   position: relative;
 }
+
+.accordion h4.enNorm {
+  color: #183B67;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  align-items: center;
+  text-align: left;
+}
+
+.accordion h4.enNorm span {
+  background: #183B67;
+  color: #FFFFFF;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+
 
 .accordion a.topic-anchor {
   display: block;
@@ -202,7 +223,7 @@ html, body {
   height: 1rem;
 }
 
-.accordion h4 span:not(.level, .RAWeb2-ref) {
+.accordion h4:not(.enNorm) span:not(.level, .RAWeb2-ref), .accordion h5.enNorm span:not(.level, .RAWeb2-ref) {
   position: absolute;
   top: 0.05rem;
   left: -2.7rem;
@@ -215,22 +236,22 @@ html, body {
   font-size: 0.7rem;
 }
 
-.accordion h4 a.RAWeb2-ref {
-  background-color: #313740;
+.accordion h4 a.RAWeb2-ref, .accordion h5.enNorm a.RAWeb2-ref {
+  background-color: rgb(237, 238, 241);
   padding: 0.2rem 0.2rem 0.2rem 0.2rem;
   text-align: center;
-  color: white;
+  color: #3A4050;
   font-size: 0.7rem;
   border-radius: 2px;
-  border: 1px solid #313740;
+  border: 1px solid rgb(58, 64, 80);
 }
 
-.accordion h4 a.RAWeb2-ref:focus, .accordion h4 a.RAWeb2-ref:hover  {
+.accordion h4 a.RAWeb2-ref:focus, .accordion h4 a.RAWeb2-ref:hover, .accordion h5.enNorm a.RAWeb2-ref:focus, .accordion h5.enNorm a.RAWeb2-ref:hover {
   background-color: #fff;
   color: #313740;
 }
 
-.accordion h4 span.level {
+.accordion h4 span.level, .accordion h5.enNorm span.level {
   position: absolute;
   top: 0;
   right: -2.3rem;
@@ -243,11 +264,6 @@ html, body {
   font-size: 0.8rem;
   font-weight: 500;
   background: #881600;
-}
-
-.accordion h4 {
-  margin: 1rem 0;
-  line-height: 1.4rem !important;
 }
 
 .accordion a {
@@ -280,7 +296,7 @@ html, body {
   border: 1px solid #cbd5e1;
   border-bottom: none;
   background: #f8fafc;
-  color: #1e3a8a;
+  color: #183B67;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -309,14 +325,14 @@ html, body {
   content: '';
   width: 0; 
   height: 0; 
-  border-top: 10px solid #1e3a8a;
+  border-top: 10px solid #183B67;
   border-inline: 7px solid transparent;
   transition: 0.2s;
 }
 
 .RAWebMaster details.discover[open] > summary {
-  background: #1e3a8a;
-  border-color: #1e3a8a !important;
+  background: #183B67;
+  border-color: #183B67 !important;
   color: white;
 }
 
@@ -341,6 +357,11 @@ html, body {
 .RAWebMaster details.rawebTests h5 {
   position: relative;
   margin-top: 1rem;
+  display: flex;
+}
+
+.RAWebMaster details.rawebTests h5 span:nth-of-type(1) {
+  height: 1rem;
 }
 
 .RAWebMaster details.rawebNotes h6 {
@@ -366,7 +387,7 @@ html, body {
   border-radius: 2px;
   padding: 0.1rem 0.1rem 0.1rem 0.2rem;
   text-align: center;
-  background: #1e3a8a;
+  background: #183B67;
   color: white;
 }
 
@@ -394,11 +415,12 @@ html, body {
 .accordion details.methodo summary {
   font: 400 0.9rem "Fira Sans";
   list-style-type: ' ';
-  display: inline-block;
+  display: block;
   border: 1px solid #19297c;
   padding: 5px;
   border-radius: 2px;
-  margin: 0;
+  margin: 0 0 0 auto;
+  width: fit-content;
 }
 
 .accordion details.methodo div {
@@ -624,7 +646,6 @@ dialog#control-panel-dialog button#close-modal {
 .accordion h4 span.rawebOnly, .legends span.critRAWeb {
   background-color: #914BDC;
   clip-path: polygon(30% 0%, 100% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 100%, 0% 30%);
-
 }
 
 
