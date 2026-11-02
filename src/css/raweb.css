@@ -236,6 +236,8 @@ html, body {
   right: -2.3rem;
   border-radius: 50%;
   width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
   text-align: center;
   color: white;
   font-size: 0.8rem;
@@ -355,21 +357,17 @@ html, body {
 }
 
 .RAWebMaster details h5 span.test-content {
-  margin-left: 2rem;
+  margin-left: 0.2rem;
   line-height: 1.4rem !important;
 }
 
 .accordion details h5 span:not(.test-content, [lang]) {
-  position: absolute;
-  top: 0;
-  left: -1.6rem;
-  font: 500 0.8rem "Fira Sans";
-  border: 1px solid #19297c;
-  border-left: 2px solid white;
-  border-right-width: 3px;
-  padding: 0.1rem 0;
+  font: 400 0.8rem "Fira Sans";
+  border-radius: 2px;
+  padding: 0.1rem 0.1rem 0.1rem 0.2rem;
   text-align: center;
-  width: 3rem;
+  background: #1e3a8a;
+  color: white;
 }
 
 .accordion details ul li {
