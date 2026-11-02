@@ -1,0 +1,33 @@
+<% if (message !== '') { %>
+<p id="intro"><%- message %></p>
+<% } %>
+<div class="RAWebMaster">
+    <table>
+        <tr><th scope="col">Critère RAWeb 2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col">Techniques WCAG</th></tr>
+        <% topics.forEach(topic => {     
+                topic.criteria.forEach(crit => { 
+                    critId = `crit-${topic.number}-${crit.criterium.number}`
+                    critName = `${topic.number}.${crit.criterium.number}`
+                    %>
+<tr>
+    <td><a href="/<%= lang %>/raweb2/criteres.html#<%= critId %>"><%= critName %></a></td>
+    <td>
+        <%
+        if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
+            let SC = crit.criterium.references.wcag.trim() %>
+            <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
+        <% } %>
+    </td>
+    <td><%- langOnEUNorm(crit.criterium.references.norm, lang) %></td>
+    <td><% if (crit.criterium.references.techniques !== undefined && crit.criterium.references.techniques.length !== 0) { %>
+                <% let techs = crit.criterium.references.techniques.map(e => { return e.trim() })
+                    techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
+                %>
+    </li>
+        <% } %></td>
+
+</tr>
+        <% })
+        }) %>
+    </table>
+</div>
