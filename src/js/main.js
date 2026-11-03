@@ -183,6 +183,21 @@ function closeModal(e) {
   }
 }
 
+function initTooltips() {
+  document.addEventListener("keydown", (e) => {
+      if (e.key == "Escape") {
+          document.querySelectorAll(".tip-bubble").forEach((tip) => {
+              tip.classList.add("hide");
+          });
+      }
+      if (e.key == "Tab") {
+          document.querySelectorAll(".tip-bubble").forEach((tip) => {
+              tip.classList.remove("hide");
+          });
+      }
+  });
+}
+
 window.addEventListener('DOMContentLoaded', function (event) {
 
     // Disclosure menu
@@ -193,6 +208,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
 
     // RAWeb disclosures and filters
     initRAWeb()
+
+    initTooltips()
     
 }, false);
 

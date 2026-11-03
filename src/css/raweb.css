@@ -681,3 +681,98 @@ h5.glossary {
 ul.glossary {
   margin-left: 1rem;
 }
+
+
+/* mapping table */
+div.mappingSwitch {
+  display: flex;
+  border: 1px solid #183B67;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+table.diffTable, table.diffTable tr, table.diffTable td, table.diffTable th {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    font: 300 0.9rem "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+table.diffTable th, table.diffTable td {
+    padding: 0.4em 0.8em;
+}
+
+table.diffTable .raweb11-new-row {
+    background-color: #f2f8fd;
+    color: #0d3f66;
+}
+
+table.diffTable .raweb2-removed-row {
+    background-color: #fdf2f2;
+    color: #6b1616;
+}
+
+table.diffTable .tip {
+    position: relative;
+}
+
+table.diffTable .tip-trigger {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+    cursor: help;
+}
+
+table.diffTable .tip-trigger:focus + .tip-bubble, table.diffTable .tip-trigger:hover + .tip-bubble {
+    display:block;
+}
+
+table.diffTable .tip-bubble {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    left: 0;
+    width: max-content;
+    max-width: 22rem;
+    padding: 0.5em 0.7em;
+    background-color: #fff;
+    color: var(--body-color, #161616);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-align: left;
+    white-space: normal;
+}
+
+table.diffTable .hide {
+  display: none !important;
+}
+
+main:has(input[id="mappingRAWeb2-1-radio"]:checked) label[for="mappingRAWeb2-1-radio"], main:has(input[id="mappingRAWeb2-2-radio"]:checked) label[for="mappingRAWeb2-2-radio"] {
+  color: white;
+  background-color: #183B67;
+}
+
+main:has(input[id="mappingRAWeb2-1-radio"]:checked) div#mappingRAWeb2-1, main:has(input[id="mappingRAWeb2-2-radio"]:checked) div#mappingRAWeb2-2 {
+  display: block;
+}
+
+main:has(input[id="mappingRAWeb2-1-radio"]:not(:checked)) div#mappingRAWeb2-1, main:has(input[id="mappingRAWeb2-2-radio"]:not(:checked)) div#mappingRAWeb2-2 {
+  display: none;
+}
+
+div.mappingSwitch label {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  text-align: center;
+}
