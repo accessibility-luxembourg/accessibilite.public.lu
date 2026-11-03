@@ -1,3 +1,3 @@
 ---
-title: For each [data table](#data-table), are each [column header](#column-or-row-header) and each [row header](#column-or-row-header) correctly declared?
+title: Pour chaque [tableau de données](#tableau-de-donnees), la technique appropriée permettant d’associer chaque cellule avec ses [en-têtes](#en-tete-de-colonne-ou-de-ligne) est-elle utilisée (hors cas particuliers) ?
 ---

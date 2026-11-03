@@ -1,10 +1,10 @@
 ---
-title: Time stamp
+title: Horodatage (<em lang="en">time stamp</em>)
 ---
 
-The video time stamp is the time value declared in the caption file.
+L’horodatage d’une vidéo (<em lang="en">time stamp</em>) est la valeur temporelle déclarée dans le fichier de sous-titres.
 
 <pre><code>1
 00:00:03,000 --&gt; 00:00:06,999
-The title should appear when the video reaches 3 seconds.
+Le sous-titre doit apparaître lorsque la vidéo atteint 3 secondes.
 </code></pre>

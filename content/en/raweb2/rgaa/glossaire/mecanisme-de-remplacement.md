@@ -1,5 +1,5 @@
 ---
-title: Replacement mechanism
+title: Mécanisme de remplacement
 ---
 
-Mechanism generally based on CSS, allowing the user to replace text with image of text and vice versa on the principle of style switcher. The mechanism can use a server-side scripting language or a client-side scripting language.
+Mécanisme généralement basé sur CSS, permettant à l’utilisateur de remplacer du texte par du texte en image et inversement sur le principe du style switcher. Le mécanisme peut utiliser un langage de script côté serveur ou un langage de script côté client.

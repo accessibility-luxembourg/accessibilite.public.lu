@@ -8,6 +8,6 @@ Techniques:
   - H86
 ---
 
-#### Cas particuliers
+#### Cas particuliers 
 
 Le critère ne s'applique aux contenus cryptiques porteurs d'information déjà identifié comme image à l'aide d'un attribut WAI-ARIA `role="img"`. Ces contenus sont évalués aux critères 1.1 et 1.3.

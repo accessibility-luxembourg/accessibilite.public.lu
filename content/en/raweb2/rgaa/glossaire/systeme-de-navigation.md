@@ -1,10 +1,10 @@
 ---
-title: Navigation system
+title: Système de navigation
 ---
 
-Any process enabling navigation within the site or within a page. The navigation systems used are
+Tout procédé permettant une navigation dans le site ou dans une page, les systèmes de navigation retenus sont :
 
-- Main navigation menu;
-- Table of contents;
-- Site map;
-- Search engine.
+- Menu de navigation principal ;
+- Table des matières ;
+- Plan du site ;
+- Moteur de recherche.

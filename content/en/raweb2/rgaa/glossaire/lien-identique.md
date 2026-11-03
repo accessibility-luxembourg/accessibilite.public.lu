@@ -1,7 +1,7 @@
 ---
-title: Identical link
+title: Lien identique
 ---
 
-Two links are said to be identical when the [accessible name](#accessible-name-of-a-link) of link x is equal to the one of link y. This definition applies to all types of links: text links, image links (where the links have the same image) and composite links.
+Deux liens sont dits identiques quand le [nom accessible du lien](#nom-accessible-de-lien) x est égal à celui du lien y. Cette définition s’applique à tous les types de liens : lien texte, lien image (les liens ont alors la même image) et lien composite.
 
-Please note: links with identical accessible names but different [contexts](#link-context) are not identical (example: `<p>To register for the course on 12/10/2025 <a href="link_bar.html">download the form</a></p>` and `<p>To register for the course on 18/10/2025 <a href="link_doc.html">download the form</a></p>`)
+Attention : des liens avec des noms accessibles identiques, mais des [contextes](#contexte-du-lien) différents ne sont pas identiques (exemple : `<p>Pour s’inscrire au cours du 12/10/2025 <a href="lien_bar.html">télécharger le formulaire</a></p>` et `<p>Pour s’inscrire au cours du 18/10/2025 <a href="lien_doc.html">télécharger le formulaire</a></p>`).

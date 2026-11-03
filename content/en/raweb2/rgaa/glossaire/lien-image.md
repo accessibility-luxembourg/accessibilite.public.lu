@@ -1,11 +1,11 @@
 ---
-title: Image link
+title: Lien image
 ---
 
-In HTML, [link](#link) containing only one or more children of the image type
+En HTML, [lien](#lien) contenant uniquement un ou plusieurs enfants de type image :
 
-- Image (`<img>` tag or opening tag with WAI-ARIA `role="img"` attribute);
-- Clickable area (`<area>` tag) with a `href` attribute;
-- Object image (`<object>` tag);
-- Bitmap image (`<canvas>` tag);
-- Vector image (`<svg>` tag).
+- Image (balise `<img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
+- Zone cliquable (balise `<area>`) possédant un attribut `href` ;
+- Image objet (balise `<object>`) ;
+- Image bitmap (balise `<canvas>`) ;
+- Image vectorielle (balise `<svg>`).

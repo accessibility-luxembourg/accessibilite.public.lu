@@ -1,5 +1,5 @@
 ---
-title: Form
+title: Formulaire
 ---
 
-A form does not necessarily have to be wrapped in a `<form>` tag or a tag with a WAI-ARIA `role="form"` attribute.
+Un formulaire n’est pas obligatoirement contenu dans une balise `<form>` ou une balise possédant un attribut WAI-ARIA `role="form"`.

@@ -1,7 +1,7 @@
 ---
-title: Clickable area
+title: Zone cliquable
 ---
 
-Region of a responsive image to which an action has been associated; for example, triggering an event by clicking on a link (for a client-side clickable area: `<area>` tag with the `href` attribute). The `<area>` tags are contained in the `<map>` tag.
+Région d’une image réactive à laquelle une action a été associée ; par exemple, le déclenchement d’un événement en cliquant sur un lien (pour une zone cliquable côté client : balise  `<area>` avec l’attribut `href`). Les balises `<area>` sont contenues dans la balise `<map>`.
 
-For server-side image maps, the coordinates are held on the server.
+Pour les images réactives côté serveur, les coordonnées sont détenues sur le serveur.

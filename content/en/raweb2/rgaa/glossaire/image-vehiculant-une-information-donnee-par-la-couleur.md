@@ -1,5 +1,5 @@
 ---
-title: Image conveying information (provided by colour)
+title: Image véhiculant une information (donnée par la couleur)
 ---
 
-An image in which all or part of the content visually conveys information through colour alone.
+Image dont tout ou partie du contenu transmet visuellement une information par l’intermédiaire d’une couleur uniquement.

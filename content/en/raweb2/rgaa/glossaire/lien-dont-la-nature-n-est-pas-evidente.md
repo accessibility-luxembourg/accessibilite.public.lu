@@ -1,7 +1,7 @@
 ---
-title: Link whose nature is not obvious
+title: Lien dont la nature n’est pas évidente
 ---
 
-A link which can be confused with normal text when it is indicated by colour alone by certain types of users who have little or no perception of colour. For example, in this text "New summer timetable", if the word "timetable" is a link indicated by colour only, its nature may be ignored by users who cannot perceive colour and are accessing the content with CSS enabled.
+Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains types d’utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte &laquo;&nbsp;Nouveaux horaires d’été&nbsp;&raquo;, si le mot &laquo;&nbsp;horaires&nbsp;&raquo; est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.
 
-Note: "indicated only by colour" means that the link is not accompanied by any visual marker (icon, underline, border, etc.). Consequently, a link of the same colour as the surrounding text is affected by this criterion.
+Note : &laquo;&nbsp;signalés uniquement par la couleur&nbsp;&raquo; signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure…). En conséquence, un lien de la même couleur que le texte environnant est concerné par ce critère.

@@ -1,3 +1,3 @@
 ---
-title: Is every [decorative image](#decorative-image), without a caption, correctly ignored by assistive technologies?
+title: Chaque [image porteuse d’information](#image-porteuse-d-information) a-t-elle un [nom accessible](#nom-accessible-d-image) ?
 ---

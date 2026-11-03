@@ -1,11 +1,11 @@
 ---
-title: Default language
+title: Langue par défaut
 ---
 
-Indication of the document's main processing language, which may be present on the `html` root element or on each element of the relevant page via the `lang` and/or `xml:lang` attributes, according to the following scheme:
+Indication de la langue de traitement principale du document qui peut être présente sur l’élément racine `html` ou sur chaque élément de la page concerné via les attributs `lang` et/ou `xml:lang` selon le schéma suivant :
 
-- For HTML up to version 4.01: `lang` attribute mandatory, `xml:lang` attribute not supported;
-- For XHTML 1.0 served as "text/html": `lang` and `xml:lang` attributes mandatory;
-- For XHTML 1.0 served as `"application/xhtml+xml"` `xml:lang` attribute mandatory, `lang` attribute recommended;
-- For XHTML 1.1: `xml:lang` attribute mandatory, `lang` attribute not supported;
-- For HTML5: `lang` attribute mandatory.
+- Pour HTML jusqu’à la version 4.01 : attribut `lang` obligatoire, attribut `xml:lang` non supporté ;
+- Pour XHTML 1.0 servi en `"text/html"` : attribut `lang` et `xml:lang` obligatoires ;
+- Pour XHTML 1.0 servi en `"application/xhtml+xml"` : attribut `xml:lang` obligatoire, attribut `lang` recommandé ;
+- Pour XHTML 1.1 : attribut `xml:lang` obligatoire, attribut `lang` non supporté ;
+- Pour HTML5 : attribut `lang` obligatoire.

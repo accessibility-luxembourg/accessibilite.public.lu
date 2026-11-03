@@ -1,3 +1,3 @@
 ---
-title: For each office document with an [accessible version](#accessible-version-for-a-downloadable-document), does this version offer the same information?
+title: Dans chaque page web, [les changements brusques de luminosité ou les effets de flash](#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés ?
 ---

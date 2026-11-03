@@ -1,3 +1,3 @@
 ---
-title: For each [complex data table](#complex-data-table) with a [summary](#summary-of-table), is the summary relevant?
+title: Pour chaque [tableau de données complexe](#tableau-de-donnees-complexe) ayant un [résumé](#resume-de-tableau), celui-ci est-il pertinent ?
 ---

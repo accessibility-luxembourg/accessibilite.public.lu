@@ -1,5 +1,5 @@
 ---
-title: Error management (form)
+title: Contrôle de saisie (formulaire)
 ---
 
-A set of processes that warn the user of mandatory fields, expected type or format indications and input errors in a form. Error management can be implemented by the content author or be based on attributes (such as `required` or `pattern`), WAI-ARIA attributes (such as `aria-required`) or field types that automatically produce input or error indications (such as `url`, `email`, `date`, `time` types, for example).
+Ensemble des processus qui permettent de prévenir l’utilisateur des champs obligatoires, des indications de type ou de format attendus et des erreurs de saisie dans un formulaire. Ces contrôles de saisie peuvent être implémentés par l’auteur des contenus ou s’appuyer sur des attributs (comme `required` ou `pattern`), des attributs WAI-ARIA (comme `aria-required`) ou des types de champ qui produisent de manière automatique des indications de saisie ou d’erreurs (comme les types `url`, `email`, `date`, `time` par exemple).

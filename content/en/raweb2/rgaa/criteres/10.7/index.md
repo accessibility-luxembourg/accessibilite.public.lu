@@ -1,3 +1,3 @@
 ---
-title: On each web page, for each element receiving keyboard focus, is the [focus](#when-focused) visible?
+title: Dans chaque page web, pour chaque élément recevant le focus du clavier, la [prise de focus](#prise-de-focus) est-elle visible ?
 ---

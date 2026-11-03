@@ -1,7 +1,7 @@
 ---
-title: Set of web pages
+title: Ensemble de pages
 ---
 
-Web pages linked together to form a coherent set of web pages within a website. For example, the pages of a specific section, the pages of a blog or the administration pages of a customer account are all sets of pages.
+Pages web liées les unes aux autres par des liens et constituant un ensemble cohérent à l’intérieur d’un site web. Par exemple, les pages d’une rubrique spécifique, les pages d’un blog, les pages d’administration d’un compte client sont autant d’ensembles de pages.
 
-Note: the home page of a website can, on its own, constitute a "set of web pages" because of its uniqueness.
+Note : la page d’accueil d’un site web peut constituer, à elle seule, un « ensemble de pages » du fait de son unicité.

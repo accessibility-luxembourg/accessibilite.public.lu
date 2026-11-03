@@ -1,13 +1,13 @@
 ---
-title: Template
+title: Gabarit
 ---
 
-A template is a document format with predefined parameters. It is used to insert content edited by the author. A template has presentation, usage and technical parameters that are not visible.
+Un gabarit est un format de document qui possède des paramètres prédéfinis. Il est utilisé pour insérer les contenus édités par l’auteur. Un gabarit possède des paramètres de présentation, d’utilisation ou encore des paramètres techniques non perceptibles.
 
-A template may concern an entire page (home page template, etc.) or specific types of content (forms, images, videos, etc.)
+Un gabarit peut concerner une page entière (gabarit de page d’accueil, etc.) ou des types de contenus particuliers (formulaires, images, vidéos…)
 
-A set of templates is a group of templates that allow different formatting of the same element. For example
+Un ensemble de gabarits est un groupe de gabarits qui permettent des mises en forme différentes d’un même élément. Par exemple :
 
-- templates for the application's home screen;
-- templates for screens containing interactive elements;
-- templates for creating a PDF.
+- gabarits pour l’écran d’accueil de l’application ;
+- gabarits pour les écrans contenant des éléments interactifs ;
+- gabarits pour la création d’un PDF.

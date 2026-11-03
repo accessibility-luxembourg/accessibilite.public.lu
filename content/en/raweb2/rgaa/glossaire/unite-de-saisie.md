@@ -1,9 +1,9 @@
 ---
-title: Input unit
+title: Unité de saisie
 ---
 
-For character-by-character input, the smallest text input unit is the character.
+Pour la saisie caractère par caractère, la plus petite unité de saisie de texte est le caractère.
 
-For a system with word prediction functionality, the smallest input unit is the word.
+Pour un système qui dispose d’une fonctionnalité de prédiction de mots, la plus petite unité de saisie est le mot.
 
-For some speech recognition systems, the text is not transcribed until an entire word or phrase has been spoken. In this case, the smallest input unit is the word or phrase.
+Pour certains systèmes de reconnaissance vocale, le texte n’est pas retranscrit tant qu’un mot entier ou une phrase entière n’ont pas été prononcés. Dans ce cas, la plus petite unité de saisie est le mot ou la phrase.

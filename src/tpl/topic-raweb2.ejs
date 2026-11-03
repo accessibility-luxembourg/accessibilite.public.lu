@@ -102,10 +102,13 @@
             <p class="norm-reference" data-version="<%= normVersion %>"><%- crit.criterium.references.norm %></p>
         </li>
         <%
-        if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
-            let SC = crit.criterium.references.wcag.trim() %>
+        if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag !== 'N/A' && crit.criterium.references.wcag.length !== 0) { 
+            const SC = WCAGrules.criteria.find(c => c['data-ref'] === crit.criterium.references.wcag.trim()); 
+            if (lang != 'fr') { 
+                SC.url = SC.url.replace('https://www.w3.org/Translations/WCAG22-fr/', 'https://www.w3.org/TR/WCAG22/');
+            } %>
         <li><p><%= __("WCAG 2.2 success criteria") %></p>
-            <p><a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>.</p>
+            <p><a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= SC.url %>"><%- langOnWCAG(SC['data-ref'], lang) %></a>.</p>
         </li>
         <% }
         if (crit.criterium.references.techniques !== undefined && crit.criterium.references.techniques.length !== 0) { %>

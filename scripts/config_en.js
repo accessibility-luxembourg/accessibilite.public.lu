@@ -9,9 +9,13 @@ const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugi
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb1.1', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/en/raweb2')
-const niveauxRAWeb2 = require('../content/en/raweb2/niveaux.json')
+const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/en/raweb2', '', 'EN')
+const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
 const ACTrules = require('../content/fr/raweb2/act-rules.json')
-const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const WCAG2rules = require('../content/fr/raweb2/wcag2.2.json')
+const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb2', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
@@ -22,7 +26,7 @@ const glossaryRAWeb1 = {glossary: genNewRGAA.generateGlossary('./content/en/rawe
 const criteresMonit = genNewRGAA.generateCriteria('./content/en/raweb2', '../../en/raweb2/')
 const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2","7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const message = '<strong>Warning:</strong> this list of criteria is to be used only within the framework of the <a href="../../en/monitoring/controle-simplifie.html">simplified control method</a>.<br />If automated test rules can contribute to testing a criterion, these are mentioned in the correlation tables available at the end of the criterion.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V3.2.1 (2021-03)"}
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortList, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, WCAGrules: WCAG2rules,actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 
 const config = {
     "declaLangs": [
@@ -144,18 +148,29 @@ const config = {
                     "menu": "Criteria and tests",
                     "name": "raweb2/criteres", 
                     "type": "criteres",
-                    "template": "criteria-raweb1.ejs", 
+                    "template": "criteria-raweb2.ejs", 
                     "data": dataRAWeb2,
                     "prefix": "../..",
                     "genSummary": "ol",
                     "summaryTitle": "Themes"
                 },
                 {
+                    "title": "RAWeb 2 : Criteria / EN 301 549 Norm",
+                    "menu": "Criteria / EN 301 549",
+                    "name": "raweb2/criteres-en", 
+                    "type": "criteres",
+                    "template": "criteria-raweb2.ejs", 
+                    "data": dataRAWeb2sortedEN,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
+                    "summaryTitle": "Thématiques"
+                },    
+                {
                     "title": "RAWeb 2: Glossary",
                     "menu": "Glossary",
                     "name": "raweb2/glossaire",
                     "type": "glossaire",
-                    "template": "glossary-raweb1.ejs", 
+                    "template": "glossary-raweb2.ejs", 
                     "data": glossaryRAWeb2,
                     "prefix": "../..",
                     "genSummary": "ul",
@@ -176,7 +191,16 @@ const config = {
                     "name": "raweb2/environnement",
                     "md": "./content/en/raweb2/environnement-de-test.md",
                     "prefix": "../.."
-                },                        
+                },            
+                {
+                    "title": "RAWeb 2 : Mapping",
+                    "menu": "Mapping",
+                    "name": "raweb2/mapping",
+                    "type": "criteres",
+                    "template": "mapping-raweb2.ejs",
+                    "data": dataRAWeb2,
+                    "prefix": "../.."
+                },            
                 {
                     "title": "RAWeb 2: References",
                     "menu": "References",
@@ -205,7 +229,7 @@ const config = {
                     "menu": "Criteria for simplified control",
                     "name": "raweb2/audit-simpl", 
                     "type": "criteres", 
-                    "template": "criteria-raweb1.ejs", 
+                    "template": "criteria-raweb2.ejs", 
                     "data": dataAuditSimpl,
                     "prefix": "../..",
                     "genSummary": "ol",

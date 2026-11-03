@@ -1,7 +1,7 @@
 ---
-title: Frame
+title: Cadre
 ---
 
-Frame: HTML element (`<frame>` tag) used to display content on the web page in which it is implemented.
+Cadre : élément HTML (balise `<frame>`) permettant d’afficher un contenu dans la page web dans laquelle il est implémenté.
 
-Inline frame: HTML element (`<iframe>` tag) used to display content on the web page in which it is implemented.
+Cadre en ligne : élément HTML (balise `<iframe>`) permettant d’afficher un contenu dans la page web dans laquelle il est implémenté.

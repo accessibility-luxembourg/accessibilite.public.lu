@@ -1,3 +1,3 @@
 ---
-title: Is each [time-based media](#time-based-media-audio-video-and-synchronised) and [non-time-based media](#non-time-based-media) [compatible with assistive technologies](#compatible-with-assistive-technologies) (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé ayant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia), ces sous-titres sont-ils correctement synchronisés (hors cas particuliers) ?
 ---

@@ -1,9 +1,9 @@
 ---
-title: Visible label
+title: Intitulé visible
 ---
 
-Text displayed as a visible label on the screen within a button or link.
+Texte affiché qui identifie pour l'utilisateur un bouton, un lien, un champ de formulaire ou un [composant d'interface](#composant-d-interface).
 
-Text displayed as a [label](#form-field-label) for a form field.
+Ce texte peut être constitué de texte ou du texte visible dans une image texte.
 
-This text can be text or an image containing text.
+Un composant d'interface qui n'affiche aucun texte (une icône seule, par exemple) n'a pas d'intitulé visible mais il peut avoir un [nom accessible](#nom-accessible), selon l'implémentation.

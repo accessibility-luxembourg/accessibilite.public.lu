@@ -1,24 +1,13 @@
 ---
-WCAG:
-  - successCriterion: 2.5.2
-    title: Pointer Cancellation
-    level: A
+EN301549-V4: 9.1.1.1
+WCAG: 1.1.1
 Techniques:
-  - F101
-  - G210
-  - G212
-Norm:
-  - criterion: 9.2.5.2
-    title: Pointer Cancellation
+  - G144
 ---
 
-#### Special cases
 
-There is special case management when the functionality requires the expected behaviour to be performed during a descending event, for example, a keyboard emulator whose keys must be activated when pressed, as on a physical keyboard. In these situations, the criterion is not applicable.
+#### Notes techniques
 
-#### Technical notes
+Un CAPTCHA qui repose à la fois sur une information visuelle et sonore, devra être évalué par les deux tests.
 
-Two examples of a mechanism used to cancel or abort an action triggered by a pointing device on a single point on the screen:
-
-- A modal window for cancelling the action after it has been completed;
-- For a drag and drop function, the action is aborted if the user releases the element outside the target zone.
+Il existe une particularité pour les procédures d'authentification, avec des attentes sur la portée des [tests cognitifs](#test-cognitif). L'alternative qui serait proposer en recommandation de correction de ce critère devra aussi satisfaire le critère  [@@TODO numérotation].

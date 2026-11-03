@@ -1,7 +1,7 @@
 ---
-title: Graphic element
+title: Élément graphique
 ---
 
-Element using a visual representation such as images, pictograms or graphics.
+Élément faisant appel à une représentation visuelle telle que des images, des pictogrammes ou des graphiques.
 
-This element may be made up of one or more parts that need to be visible in order to be understood (for example, each point on each line of a statistics graph).
+Cet élément peut être composé d’une ou plusieurs parties dont la visibilité est nécessaire à sa compréhension (par exemple chaque point sur chaque ligne d’un graphique de statistiques).

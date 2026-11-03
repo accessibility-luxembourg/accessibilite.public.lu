@@ -1,7 +1,7 @@
 ---
-title: Language change
+title: Changement de langue
 ---
 
-Indicating language changes is necessary to tell assistive technologies to modify the speech output of an element. Language changes affect all content, including the values of certain attributes such as `title`.
+L’indication des changements de langue est nécessaire pour indiquer aux technologies d’assistance de modifier la restitution vocale d’un élément. Les changements de langue concernent tous les contenus, y compris les valeurs de certains attributs comme `title`.
 
-Note: it is not possible to indicate language changes in an attribute value itself, in which case the language change is indicated on the element containing the attribute. For example, a link with a `title` in French must include a `lang="fr"` attribute. When the attribute contains several passages of text in different languages, the criterion is not applicable.
+Note : il n’est pas possible d’indiquer des changements de langue dans une valeur d’attribut elle-même, dans ce cas le changement de langue est indiqué sur l’élément qui contient l’attribut. Par exemple, un lien affecté d’un `title` en anglais devra comporter un attribut `lang="en"`. Lorsque l’attribut contient plusieurs passages de texte dans des langues différentes, le critère est non applicable.

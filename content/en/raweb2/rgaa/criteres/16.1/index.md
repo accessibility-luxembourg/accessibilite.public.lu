@@ -1,3 +1,3 @@
 ---
-title: Does each [support service](#support-service) provide information about the [accessibility features](#accessibility-feature) and accessibility compatibility described in the [documentation](#documentation) of the website?
+title: Chaque [service d’assistance](#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](#fonctionnalite-d-accessibilite) et à la compatibilité avec l’accessibilité, décrites dans la [documentation](#documentation) du site web ?
 ---

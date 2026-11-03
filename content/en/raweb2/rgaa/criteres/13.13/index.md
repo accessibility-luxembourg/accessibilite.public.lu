@@ -1,3 +1,3 @@
 ---
-title: For each document conversion feature, is the [accessibility information](#accessibility-information) available in the source document kept in the destination document (excluding special cases)?
+title: Pour chaque étape d'un processus d'authentification, aucun [test cognitif](#test-cognitif) n'est requis, à moins que le test réponde à l'une des exigences suivantes. Cette règle est-elle respectée ?
 ---

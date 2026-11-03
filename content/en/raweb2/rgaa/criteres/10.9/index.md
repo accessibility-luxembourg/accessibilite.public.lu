@@ -1,3 +1,3 @@
 ---
-title: On each web page, information must not be conveyed solely [by shape, size or location](#indication-conveyed-by-shape-size-or-location). Is this rule respected?
+title: Dans chaque page web, le texte reste-t-il lisible lorsque la [taille des caractères](#taille-des-caracteres) est augmentée jusqu’à 200 %, au moins (hors cas particuliers) ?
 ---

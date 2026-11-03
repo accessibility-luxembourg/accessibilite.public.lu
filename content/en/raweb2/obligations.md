@@ -1,128 +1,128 @@
-### Understanding disability and digital accessibility
+### Notions de handicap et d’accessibilité numérique
 
-<blockquote><p>Disability is not just one health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives. Overcoming the difficulties faced by people with disabilities requires interventions to remove environmental and social barriers.</p><footer>World Health Organisation</footer></blockquote>
-Digital accessibility involves making websites and mobile applications accessible to people with disabilities, i.e.
+<blockquote><p>Le handicap n’est pas simplement un problème de santé. Il s’agit d’un phénomène complexe qui découle de l’interaction entre les caractéristiques corporelles d’une personne et les caractéristiques de la société où elle vit. Pour surmonter les difficultés auxquelles les personnes handicapées sont confrontées, des interventions destinées à lever les obstacles environnementaux et sociaux sont nécessaires</p><footer>Organisation Mondiale de la Santé</footer></blockquote>
+L’accessibilité numérique consiste à rendre les sites Internet et applications mobiles accessibles aux personnes handicapées, c’est-à-dire :
 
-- perceivable: for example, facilitating the user's visual and auditory perception of content; offering text equivalents to any non-textual content; creating content that can be presented in different ways without loss of information or structure (e.g. with a simplified layout);
-- operable: for example, providing the user with guidance for navigating and finding content; making all functions accessible via the keyboard; giving the user enough time to read and use the content; not designing content that is likely to cause epileptic seizures;
-- understandable: for example, ensuring that pages function in a predictable way; helping users to correct input errors;
-- and robust: for example, optimising compatibility with current and future uses, including assistive technologies.
+- perceptibles : par exemple, faciliter la perception visuelle et auditive du contenu par l’utilisateur ; proposer des équivalents textuels à tout contenu non textuel ; créer un contenu qui puisse être présenté de différentes manières sans perte d’information ni de structure (par exemple avec une mise en page simplifiée) ;
+- utilisables : par exemple, fournir à l’utilisateur des éléments d’orientation pour naviguer, trouver le contenu ; rendre toutes les fonctionnalités accessibles au clavier ; laisser à l’utilisateur suffisamment de temps pour lire et utiliser le contenu ; ne pas concevoir de contenu susceptible de provoquer des crises d’épilepsie ;
+- compréhensibles : par exemple, faire en sorte que les pages fonctionnent de manière prévisible ; aider l’utilisateur à corriger les erreurs de saisie ;
+- et robustes : par exemple, optimiser la compatibilité avec les utilisations actuelles et futures, y compris avec les technologies d’assistance.
 
-### Reminder of the scope of application
+### Rappel du champ d’application
 
-#### Concerned content
+#### Contenus concernés
 
-According to Articles 1 and 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), the public sector bodies affected by this law are as follows:
+D’après les articles 1 et 2 de la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), les organismes du secteur public concernés par cette loi sont les suivants:
 
-- the State;
-- municipalities;
-- bodies governed by public law. According to article 2, letter d), of the amended law of 8 April 2018 on public procurement contracts, these are bodies with all the following characteristics:
-    - it has been established for the specific purpose of meeting needs in the general interest, not having an industrial or commercial character;
-    - it has legal personality; and
-    - it is financed for the most part by the State, local authorities or other bodies governed by public law, or its management is subject to supervision by these authorities or bodies, or its administrative, management or supervisory body is made up of members, more than half of whom are appointed by the State, local authorities or other bodies governed by public law.
-    - associations formed by one or more of these authorities or one or more of these bodies governed by public law, if these associations have been created specifically to meet needs in the general interest that are not of an industrial or commercial nature;
+- l’État ;
+- les communes ;
+- les organismes de droit public. D’après l’article 2, lettre d), de la loi modifiée du 8 avril 2018 sur les marchés publics, il s’agit des organismes présentant toutes les caractéristiques suivantes :
+    - il a été créé pour satisfaire spécifiquement des besoins d’intérêt général ayant un caractère autre qu’industriel ou commercial ;
+    - il est doté de la personnalité juridique ; et
+    - soit il est financé majoritairement par l’État, les communes ou par d’autres organismes de droit public, soit sa gestion est soumise à un contrôle de ces autorités ou organismes, soit son organe d’administration, de direction ou de surveillance est composé de membres dont plus de la moitié sont désignés par l’État, les communes ou d’autres organismes de droit public.
+    - les associations formées par une ou plusieurs de ces autorités ou un ou plusieurs de ces organismes de droit public, si ces associations ont été créées pour satisfaire spécifiquement des besoins d’intérêt général ayant un caractère autre qu’industriel ou commercial ;
 
-This does not apply to:
+Ne sont pas concernés :
 
-- websites and mobile applications of public service broadcasters and their subsidiaries, and of other bodies or their subsidiaries fulfilling a public service broadcasting remit;
-- websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities;
-- websites and mobile applications of primary and secondary schools or nurseries, except for the content thereof relating to essential online administrative functions.
+- les sites Internet et applications mobiles de diffuseurs du service public et de leurs filiales et d’autres organismes ou de leurs filiales qui accomplissent une mission de diffusion de service public ;
+- les sites Internet et applications mobiles des organisations non gouvernementales qui ne fournissent pas de services essentiels pour le public, ni de services répondant spécifiquement aux besoins des personnes handicapées ou destinés à celles-ci ;
+- les sites Internet et applications mobiles des établissements scolaires de l’enseignement fondamental et secondaire ou des crèches, à l’exception du contenu ayant trait aux fonctions administratives essentielles en ligne.
 
-Article 2 of the [law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) defines what constitutes a mobile application:
+La [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) définit dans son article 2 ce que constitue une application mobile:
 
-<blockquote><p>Application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware.</p></blockquote>
+> un logiciel d’application conçu et développé par des organismes du secteur public ou pour leur compte, en vue d’être utilisé par le grand public sur des appareils mobiles, tels que des téléphones intelligents, encore appelés smartphones, ou des tablettes ; elle ne comprend pas les logiciels qui contrôlent ces appareils, c’est-à-dire les systèmes d’exploitation mobiles, ni le matériel informatique.
 
-#### Exempt content
+#### Contenus exemptés
 
-Some content is exempt from the accessibility obligation and falls outside the scope of the legal requirements:
+Certains contenus sont exemptés de l’obligation d’accessibilité et se situent hors champ de l’obligation légale :
 
-- office file formats published before 23 September 2018, unless such content is needed for active administrative processes relating to the tasks performed by the public sector body concerned;
-- pre-recorded time-based media published before 23 September 2020;
-- live time-based media;
-- online maps and mapping services, as long as essential information is provided in an accessible digital manner for maps intended for navigational use;
-- third-party content that is neither funded nor developed by, nor under the control of, the public sector body concerned;
-- reproductions of items in heritage collections that cannot be made fully accessible because of either:
-  - the incompatibility of accessibility requirements with either the preservation of the item concerned or the authenticity of the reproduction (e.g. contrast); or
-  - the unavailability of automated and cost-efficient solutions that would easily extract the text of manuscripts or other items in heritage collections and transform it into content compatible with the accessibility requirements;
-- content of extranets and intranets, that is to say, websites that are only available for a closed group of people and not to the - general public as such, published before 23 September 2019, until such websites undergo a substantial revision;
-- content of websites and mobile applications qualifying as archives, meaning that they only contain content that is neither needed for active administrative processes nor updated or edited after 23 September 2019.
+- les formats de fichiers bureautiques publiés avant le 23 septembre 2018, sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné ;
+- les médias temporels préenregistrés publiés avant le 23 septembre 2020 ;
+- les médias temporels diffusés en direct ;
+- les cartes et les services de cartographie en ligne, pour autant que les informations essentielles soient fournies sous une forme numérique accessible pour ce qui concerne les cartes destinées à la navigation ;
+- les contenus de tiers qui ne sont ni financés, ni développés par, ni sous le contrôle de l’organisme du secteur public concerné ;
+- les reproductions de pièces de collections patrimoniales qui ne peuvent être rendues totalement accessibles en raison :
+    - de l’incompatibilité des exigences en matière d’accessibilité avec la préservation de la pièce concernée ou l’authenticité de la reproduction, par exemple en termes de contraste ; ou
+    - de la non-disponibilité de solutions automatisées et économiques qui permettraient de transcrire facilement le texte de manuscrits ou d’autres pièces de collections patrimoniales et de le restituer sous la forme d’un contenu compatible avec les exigences en matière d’accessibilité ;
+- le contenu d’extranets et d’intranets, à savoir de sites Internet qui ne sont accessibles qu’à un groupe restreint de personnes et non au grand public, publié avant le 23 septembre 2019 jusqu’à ce que ces sites Internet fassent l’objet d’une révision en profondeur ;
+- le contenu de sites Internet et d’applications mobiles qui sont considérés comme des archives, à savoir qu’ils ne présentent que des contenus qui ne sont pas nécessaires pour les besoins de processus administratifs actifs, ni mis à jour ou modifiés après le 23 septembre 2019.
 
-#### Reference standard and level of compliance
+#### Norme de référence et niveau de conformité
 
-Websites and mobile applications must refer to and comply with the European standard [EN 301 549 V3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) in order to be considered compliant with legal accessibility requirements.
+Les sites Internet et applications mobiles doivent se référer et respecter la norme européenne [EN 301 549 V3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) afin d’être considérés comme conformes aux exigences légales en matière d’accessibilité.
 
-#### Derogation for disproportionate burden
+#### Dérogation pour charge disproportionnée
 
-Legal accessibility requirements are implemented insofar as they do not create a disproportionate burden for the organisation concerned. The disproportionate burden is a derogation that can be invoked, on a case-by-case basis, for a feature or content.
+Les exigences légales en matière d’accessibilité sont mises en œuvre dans la mesure où elles ne créent pas une charge disproportionnée pour l’organisme concerné. La charge disproportionnée est une dérogation invocable, au cas par cas, pour une fonctionnalité ou un contenu.
 
-The disproportionate burden can be invoked when it is reasonably impossible for the organisation to make a content or feature accessible, particularly in cases where making it accessible would compromise the organisation's ability to fulfil its public service mission or achieve its economic objectives.
+La charge disproportionnée peut être invoquée lorsqu’il est raisonnablement impossible à l’organisme de rendre un contenu ou une fonctionnalité accessible, notamment dans le cas où la mise en accessibilité compromettrait la capacité de l’organisme à remplir sa mission de service public ou à réaliser ses objectifs économiques.
 
-Content or features that are not made accessible due to a derogation for disproportionate burden shall be accompanied by an alternative enabling the user to access equivalent content or features, as long as the production of this alternative does not itself constitute a disproportionate burden.
+Les contenus ou les fonctionnalités qui ne sont pas rendus accessibles en raison d’une dérogation pour charge disproportionnée sont accompagnés d’une alternative permettant à l’utilisateur d’accéder à des contenus ou fonctionnalités équivalentes, tant que la production de cette alternative ne constitue pas elle-même une charge disproportionnée.
 
-If the content or functionality relates to the main tasks of a body entrusted with a public service mission, the exemption must be accompanied by an alternative that provides an equivalent service to the user. Unless there is a justified exception, the derogation does not apply to an entire website or mobile application.
+Si le contenu ou la fonctionnalité concerne les missions principales d’un organisme chargé de mission de service public, la dérogation est obligatoirement accompagnée d’une alternative permettant d’apporter un service équivalent à l’utilisateur. Sauf exception justifiée, la dérogation ne porte pas sur l’intégralité d’un site Internet ou d’une application mobile.
 
-In order to determine the existence of such a burden, the organisation concerned shall take account of the following circumstances in particular:
+Afin de déterminer l’existence d’une telle charge, l’organisme concerné tient compte notamment des circonstances suivantes :
 
-- the size, resources and nature of the public sector body concerned; and
-- the estimated costs and benefits for the public sector body concerned in relation to the estimated benefits for persons with disabilities, taking into account the frequency and duration of use of the specific website or mobile application.
+- la taille, les ressources et la nature de l’organisme du secteur public concerné; et
+- l’estimation des coûts et des avantages pour l’organisme du secteur public concerné par rapport à l’avantage estimé pour les personnes handicapées, compte tenu de la fréquence et de la durée d’utilisation du site Internet ou de l’application mobile spécifique.
 
-The size of the organisation is determined by the composition of its workforce, the number, location and distribution of its users or customers, the scale, diversity and volume of its activities and services, and the territorial extent of its operations.
+La taille de l’organisme est déterminée par la composition de son effectif, le nombre, la position et la répartition de ses usagers ou clients, l’importance, la diversité et le volume de ses activités et prestations, ainsi que l’étendue territoriale de ses interventions.
 
-The estimate of resources takes into account:
+L’estimation des ressources tient compte :
 
-- its budget,
-- fees and remuneration received,
-- public subsidies or private donations,
-- profits and miscellaneous income,
-- compulsory expenditure,
-- the wage bill,
-- loans and rents.
+- de son budget,
+- des redevances et rémunérations perçues,
+- des subventions publiques ou dons privés,
+- des bénéfices et recettes diverses,
+- des dépenses obligatoires,
+- de la masse salariale,
+- des emprunts et loyers.
 
-The cost estimate may include capital expenditure, operating expenditure and staff time and qualifications required. Lack of priority, time or knowledge are not legitimate circumstances.
+L’estimation des coûts peut comprendre les dépenses d’investissement, les dépenses de fonctionnement et le temps de travail, les qualifications requises. L’absence de priorité, le manque de temps ou de connaissances ne constituent pas des circonstances légitimes.
 
-The derogation for disproportionate burden does not exempt the entity from producing an accessibility statement. The content and features that are not accessible on this basis are listed in the accessibility statement for the online service concerned, together with the justification for the derogation and an indication, where appropriate, of an accessible alternative.
+La dérogation pour charge disproportionnée n’exempte pas l’entité de produire une déclaration d’accessibilité. Les contenus et les fonctionnalités non accessibles à ce titre sont listés dans la déclaration d’accessibilité du service en ligne concerné avec la justification de la dérogation et l’indication, le cas échéant, d’une alternative accessible.
 
-When a website or mobile application is simultaneously subject to the accessibility obligations imposed by the law of 28 May 2019, and those prescribed by the legal and regulatory provisions relating to the fight against discrimination of Directive [2000/78/EC of 27 November 2000](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32000L0078) and the national laws transposing it of [28 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/28/n1/jo) and of [29 November 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/29/n1/jo), the assessment of the scope and level of accessibility obligations, as well as any disproportionate burden, is based on the provisions most favourable to accessibility in each of these two categories of rules. The provisions relating to the fight against discrimination apply to individual and concrete situations, whereas those of the law of 28 May 2019 and of this framework are intended to ensure that public sites and applications are accessible to all users.
+Lorsqu’un site Internet ou une application mobile relève simultanément des obligations d’accessibilité imposées par la loi du 28 mai 2019, et de celles prescrites par les dispositions légales et réglementaires relatives à la lutte contre les discriminations de la directive [2000/78/CE du 27 novembre 2000](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32000L0078) et des lois nationales la transposant du [28 novembre 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/28/n1/jo) et du [29 novembre 2006](http://legilux.public.lu/eli/etat/leg/loi/2006/11/29/n1/jo), l’appréciation de la portée et du niveau des obligations d’accessibilité, ainsi que le cas échéant de la charge disproportionnée, se fonde sur les dispositions les plus favorables à l’accessibilité dans chacune de ces deux catégories de règles. Les dispositions relatives à la lutte contre les discriminations s’appliquent aux situations individuelles et concrètes, alors que celles de la loi du 28 mai 2019 et du présent référentiel sont destinées à assurer l’accessibilité des sites et applications publics à l’ensemble des usagers.
 
 
 
-### Accessibility statement
+### Déclaration d’accessibilité
 
-#### Content of the accessibility statement
+#### Contenu de la déclaration d’accessibilité
 
-The accessibility statement is the result of an effective assessment of the compliance of the website or mobile application with the reference standard.
+La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du site ou de l’application mobile à la norme de référence.
 
-The accessibility statement includes:
+La déclaration d’accessibilité comprend :
 
-- A compliance status:
-    - Full compliance: if all the control criteria in the framework are met;
-    - Partial compliance: if at least 50% of the control criteria in the framework have been met;
-    - Non-compliance: if there are no valid audit results enabling compliance with the criteria to be measured, or if less than 50% of the control criteria in the framework are complied with;
-- A notification of content that is not accessible, with a distinction being made between content that does not comply with the framework, content that is exempt or content that is subject to a disproportionate burden derogation. In the latter case, exemptions must be explained and justified. Where appropriate, the notice should be accompanied by a presentation of the alternatives available;
-- Assistance and contact options:
-    - an accessible mechanism (e-mail address or form) to enable any person to report any accessibility shortcomings to the body concerned and a person with disabilities to request the relevant information or an accessible alternative solution;
-- A mention of the option for the person concerned to refer the matter to the SIP or the ombudsman.
+- un état de conformité :
+    - Conformité totale : si tous les critères de contrôle du référentiel sont respectés ;
+    - Conformité partielle : si au moins 50 % des critères de contrôle du référentiel sont respectés ;
+    - Non-conformité : s’il n’existe aucun résultat d’audit en cours de validité permettant de mesurer le respect des critères ou si moins de 50 % des critères de contrôle du référentiel sont respectés ;
+- un signalement des contenus non accessibles, distingués selon qu’il s’agit de non-conformité avec le référentiel, de contenus exemptés ou de contenus soumis à dérogation pour charge disproportionnée. Dans ce dernier cas, les dérogations doivent être expliquées et motivées. Le signalement est assorti, le cas échéant, d’une présentation des alternatives accessibles prévues ;
+- des dispositifs d’assistance et de contact :
+    - un mécanisme accessible (adresse électronique ou formulaire) pour permettre à toute personne de signaler à l’organisme concerné tout défaut d’accessibilité et à une personne handicapée de demander les informations correspondantes ou une solution alternative accessible ;
+- la mention de la faculté pour la personne concernée de saisir le SIP ou le médiateur.
 
-The accessibility statement can be generated in several languages using the [statement creation form](../en/tools/decla.html). 
+La déclaration d’accessibilité peut être générée en plusieurs langues grâce au [formulaire de création de déclaration](../fr/tools/decla.html). 
 
-#### Updates to the accessibility statement
+#### Mises à jour de la déclaration d’accessibilité
 
-The accessibility statement is valid from the date of publication. It must be updated on a regular basis, in particular whenever the site or application concerned is substantially modified or redesigned. It may be advisable to update the accessibility statement more regularly in order to highlight the efforts made and to update the level of compliance. 
+La déclaration d’accessibilité est valide à partir de sa date de publication. Elle doit être mise à jour régulièrement, en particulier à chaque modification substantielle ou refonte du site ou de l’application concernée. Il peut être souhaitable de mettre à jour plus régulièrement la déclaration d’accessibilité afin de souligner les efforts réalisés et de mettre à jour le niveau de conformité. 
 
-#### Publication of the accessibility statement
+#### Publication de la déclaration d’accessibilité
 
-The accessibility statement is published in an accessible format.
+La déclaration d’accessibilité est publiée dans un format accessible.
 
-For websites, the accessibility statement is published on the website concerned. It is made available on an accessibility page, directly accessible from the home page and from any page on the site. 
+Pour les sites Internet, la déclaration d’accessibilité est publiée sur le site Internet concerné. Elle est mise à disposition au sein d’une page accessibilité, directement accessible depuis la page d’accueil et depuis n’importe quelle page du site. 
 
-For mobile applications, it is available on the website of the organisation that developed the application or appears with other information available when the application is downloaded. 
+Pour les applications mobiles, elle est disponible sur le site Internet de l’organisme qui a développé l’application ou apparaît avec d’autres informations disponibles lors du téléchargement de l’application. 
 
-Public sector bodies shall inform the Information and Press Service of the publication or update of the statement without any special formalities and within thirty days of its publication or update. The link to the accessibility statement should be sent to the SIP at [accessibilite@sip.etat.lu](mailto:accessibilite@sip.etat.lu)
+Les organismes du secteur public informent sans formalités particulières et dans les trente jours après la publication ou la mise à jour le Service information et presse de la publication ou de la mise à jour de la déclaration. Le lien vers la déclaration d’accessibilité devra être transmis au SIP à l’adresse [accessibilite@sip.etat.lu](mailto:accessibilite@sip.etat.lu)
 
-#### Response to users
+#### Réponse aux usagers
 
-The organisation concerned provides users with the opportunity to make online complaints about the accessibility of its websites and mobile applications. It acknowledges receipt of these complaints. 
+L’organisme concerné fournit en ligne aux utilisateurs la possibilité de faire des réclamations relatives à l’accessibilité de ses sites Internet et applications mobiles. Il accuse réception de ces réclamations. 
 
-The organisation concerned shall respond to any complaint within one month of the date on which it was sent. If the user's complaint raises one or more complex issues justifying a longer examination period, the response will indicate a reasonable timeframe for the final response. The complex nature of the issues raised must be duly substantiated.
+L’organisme concerné répond à toute réclamation dans un délai d’un mois à compter de sa date d’envoi. Si la réclamation de l’utilisateur soulève une ou plusieurs questions complexes justifiant un délai d’examen plus long, la réponse indique un délai raisonnable pour la réponse définitive. Le caractère complexe des questions soulevées doit être dûment motivé.
 
-If the information provided by the user in his/her complaint is incomplete or not sufficiently clear, the organisation concerned will ask the user to complete or clarify the information and will inform the user of the reasonable timeframe for processing or its final response once the requested information has been received.
+Si les informations transmises par l’utilisateur dans sa réclamation sont incomplètes ou ne sont pas suffisamment claires, l’organisme concerné lui demande de les compléter ou de les clarifier et lui communique le délai raisonnable de traitement ou sa réponse définitive après réception des compléments demandés.

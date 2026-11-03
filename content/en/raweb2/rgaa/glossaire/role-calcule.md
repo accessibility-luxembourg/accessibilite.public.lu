@@ -1,23 +1,16 @@
 ---
-title: Computed role
-
+title: Rôle calculé
 ---
 
-The ARIA role of an element can be computed in two ways:
-- based on the implicit role of the element. For example, the `<header>` element has the implicit role of `banner`, the `<nav>` element has the implicit role of `navigation`, etc. 
-- based on the explicit role specified by the value of the WAI-ARIA `role` attribute on the opening tag: `<div role="banner">`.
+Le rôle ARIA d’un élément peut être calculé de deux façons : 
 
-When the framework states that an element "has the computed role of", this may be due to an implicit or explicit role.
+- sur la base du rôle implicite de l’élément. Par exemple, l’élément `<header>` a le rôle implicite de `banner`, l’élément `<button>` a le rôle implicite de `button`, etc. 
+- sur la base du rôle explicite donné par la valeur de l’attribut WAI-ARIA `role` sur la balise ouvrante : `<div role="banner">`.
 
-For example: "The element has a computed role of `banner`" indicates that the element may be an HTML5 `<header>` element or any other element with the WAI-ARIA `role="banner"` attribute. Conversely, if it is indicated that "The element has a WAI-ARIA attribute `role=banner`", then only the `role` attribute is expected.
+Lorsque le référentiel indique qu’un élément &laquo;&nbsp;a le rôle calculé de&nbsp;&raquo;, ce peut être du fait d’un rôle implicite ou explicite.
 
-See the documentation: [Implicit WAI-ARIA semantics](https://www.w3.org/TR/wai-aria-1.2/#implicit_semantics).
+Par exemple : &laquo;&nbsp;L’élément a un rôle calculé de `button`&nbsp;&raquo; indique que l’élément peut-être un élément HTML5 `<button>` ou tout autre élément possédant l’attribut WAI-ARIA `role="button"`. À l’inverse, s’il est indiqué &laquo;&nbsp;L’élément est pourvu d’un attribut WAI-ARIA `role="button"`&nbsp;&raquo;, alors c’est bien l’attribut `role` uniquement qui est attendu.
 
-Below is a list of implicit WAI-ARIA roles for HTML5 elements used to structure the document:
-- `<footer>`: `role="contentinfo"`
-- `<header>`: `role="banner"`
-- `<main>`: `role="main"`
-- `<nav>`: `role="navigation"`
-- `<search>`: `role="search"`
+Voir également [Landmarks](#landmarks).
 
-Note: For `<footer>` and `<header>`, the role will only be computed if they are not included in an element with the computed role of  `article`, `complementary`, `main`, `navigation` or `section`.
+Voir la documentation : [Implicit WAI-ARIA semantics](https://www.w3.org/TR/wai-aria-1.2/#implicit_semantics).

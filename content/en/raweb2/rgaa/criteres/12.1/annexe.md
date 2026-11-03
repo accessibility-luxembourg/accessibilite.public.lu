@@ -1,22 +1,19 @@
 ---
-WCAG:
-  - successCriterion: 2.4.5
-    title: Multiple Ways
-    level: AA
+EN301549-V4: 9.2.4.5
+WCAG: 2.4.5
+RAWEB1.1: 12.1
 Techniques:
   - G63
   - G64
   - G161
   - G185
-Norm:
-  - criterion: 9.2.4.5
-    title: Multiple Ways
 ---
 
-#### Special cases
+#### Cas particuliers
 
-There is a special case management when the website consists of a single page or a very limited number of pages (see note). In this case, the criterion does not apply.
+Le critère ne s'applique pas : 
 
-The criterion also does not apply to pages in a set of web pages that are the result of a process or part of a process (a payment or order process, for example).
+- lorsque le site web est constitué d’une seule page ou d’un nombre très limité de pages (cf. note) ; 
+- pour les pages d’un ensemble de pages qui sont le résultat ou une partie d’un processus (un processus de paiement ou de prise de commande, par exemple).
 
-Note: the assessment of a very limited number of pages should be reserved for a site where all the pages can be reached from the home page.
+Note : l’appréciation d’un nombre très limité de pages devrait être réservée à un site dont l’ensemble des pages sont atteignables depuis la page d’accueil.

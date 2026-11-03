@@ -1,5 +1,5 @@
 ---
-title: Layout table
+title: Tableau de mise en forme
 ---
 
-Technique which uses an HTML element (`<table>` tag) to control the display of information via cells (`<td>` tag).
+Technique qui utilise un élément HTML (balise `<table>`) pour contrôler l’affichage d’informations via des cellules (balise `<td>`).

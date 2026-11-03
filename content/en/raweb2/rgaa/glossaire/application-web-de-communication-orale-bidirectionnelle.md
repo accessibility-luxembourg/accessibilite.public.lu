@@ -1,5 +1,7 @@
 ---
-title: Two-way voice communication web application
+title: Application web de communication orale bidirectionnelle en temps réel
 ---
 
-Two-way voice communication web applications are applications that allow 2 or more people to speak simultaneously. Videoconferencing web applications that allow people to speak at the same time are an example.
+Les applications web de communication orale bidirectionnelles en temps réel sont des applications qui permettent à 2 interlocuteurs ou plus de parler simultanément. Les applications web de visioconférence qui permettent de parler en même temps en sont un exemple.
+
+Voir [Conversation totale](#conversation-totale) : lorsque l'application qui permet la communication orale bidirectionnelle, autorise en plus simultanément l'échange vidéo et le texte en temps réel.

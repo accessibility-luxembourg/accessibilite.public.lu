@@ -1,3 +1,3 @@
 ---
-title: On each web page, is the text still readable when the [font size](#font-size) is increased by at least 200% (excluding special cases)?
+title: Pour chaque page web, les [contenus cachés](#contenu-cache) ont-ils vocation à être ignorés par les technologies d’assistance ?
 ---

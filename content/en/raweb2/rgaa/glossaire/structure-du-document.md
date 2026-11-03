@@ -1,5 +1,5 @@
 ---
-title: Document structure
+title: Structure du document
 ---
 
-Set of elements used to define the main areas of an HTML page, such as the page header region, the main and secondary navigation regions, the main content region and the footer region.
+Ensemble d’éléments permettant de définir les grandes zones d’une page HTML telles que la zone d’en-tête de la page, les zones de navigation principale et secondaire, la zone de contenu principal et la zone de pied de page.

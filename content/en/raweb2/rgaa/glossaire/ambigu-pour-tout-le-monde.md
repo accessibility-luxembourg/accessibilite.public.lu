@@ -1,5 +1,5 @@
 ---
-title: Ambiguous to users in general
+title: Ambigu pour tout le monde
 ---
 
-Intent cannot be determined from the link and all the information on the web page presented to the user at the same time as the link (i.e. a reader with no functional limitations would not know the function of a link before activating it). Example: the word "guava" in the following sentence used as a link: "One of the important exports is guava". This link could lead to a definition of guava, a graph showing a list of the quantities of guavas exported or a photo of people harvesting guavas. Until the link is activated, all users are in the dark, so a person with disabilities is not at a disadvantage.
+L’intention ne peut être déterminée à partir du lien et de toute l’information de la page web présentée à l’utilisateur en même temps que ce lien (c’est-à-dire qu’un lecteur sans limitation fonctionnelle ne connaîtrait pas la fonction d’un lien avant de l’activer). Exemple : le mot « goyave » dans la phrase suivante utilisé comme lien : « L’une des exportations importantes est la goyave ». Ce lien pourrait conduire à une définition de la goyave, à un graphe présentant une liste des quantités de goyaves exportées ou à une photo de personnes récoltant la goyave. Jusqu’à ce que le lien soit activé, tout utilisateur est dans l’incertitude et une personne handicapée n’est donc pas désavantagée.

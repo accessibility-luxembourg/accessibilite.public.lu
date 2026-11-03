@@ -1,3 +1,3 @@
 ---
-title: On each web page, is each quotation correctly indicated?
+title: Dans chaque page web, chaque [liste](#listes) est-elle correctement structurée ?
 ---

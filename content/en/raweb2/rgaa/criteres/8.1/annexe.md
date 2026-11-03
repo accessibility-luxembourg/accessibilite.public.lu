@@ -1,14 +1,9 @@
 ---
-WCAG:
-  - successCriterion: 4.1.1
-    title: Parsing
-    level: A
-Norm:
-  - criterion: 9.4.1.1
-    title: Parsing
+EN301549-V4: 9.3.1.1
+WCAG: 3.1.1
+RAWEB1.1: 8.3
+Techniques:
+  - H57
+ACT: 
+  - 30
 ---
-
-#### Note 
-
-Assistive technologies no longer depend on direct parsing of HTML. The absence of a document type declaration therefore no longer causes an accessibility problem for people with disabilities.
-The criterion must now always be considered compliant.

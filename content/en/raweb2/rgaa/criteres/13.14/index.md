@@ -1,3 +1,3 @@
 ---
-title: Does each identification or control feature that relies on the use of [biological characteristics](#biological-characteristics) of the user have an alternative method?
+title: Dans chaque page web, chaque [contenu cryptique](#contenu-cryptique) est-il correctement identifié (hors cas particuliers) ?
 ---

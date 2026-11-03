@@ -1,22 +1,18 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+EN301549-V4: 9.1.1.1
+WCAG: 1.1.1
 Techniques:
   - ARIA6
+  - ARIA15
   - G92
   - G74
   - G73
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
 ---
 
-#### Technical notes
+#### Notes techniques
 
-In the case of SVG, the lack of support for the `<desc>` element means that it cannot be used to implement a [detailed description](#detailed-description-image).
+Dans le cas du SVG, le manque de support de l’élément `<desc>` ne permet pas son utilisation pour l’implémentation d’une description détaillée.
 
-The use of the WAI-ARIA `aria-describedby` attribute is not recommended for linking an image (`<img>`, `<object>`, `<embed>`, `<canvas>`) to its [detailed description](#detailed-description-image), due to a lack of support for assistive technologies. However, when it is used, the attribute must necessarily refer to the `id` of the block containing the [detailed description](#detailed-description-image).
+L’utilisation de l’attribut WAI-ARIA `aria-describedby` n’est pas recommandée pour lier une image à sa description détaillée, par manque de support des technologies d’assistance. Néanmoins, lorsqu’il est utilisé, l’attribut devra nécessairement faire référence à l’`id` de la zone contenant la description détaillée.
 
-The adjacent [detailed description](#detailed-description-image) may be implemented via a `<figcaption>` tag, in which case [criterion 1.9](#crit-1-9) must be checked.
+La description détaillée adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le critère 1.9 [@@TODO revoir numérotation] doit être vérifié.

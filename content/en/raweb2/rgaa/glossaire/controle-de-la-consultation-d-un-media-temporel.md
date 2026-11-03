@@ -1,15 +1,13 @@
 ---
-title: Viewing control (time-based media)
+title: Contrôle de la consultation (d’un média temporel)
 ---
 
-Possibility for the user to control the viewing of time-based media by means of the keyboard and any pointing device, at least. The following points must be respected:
+Possibilité pour l’utilisateur de contrôler la consultation d’un média temporel par le clavier et tout dispositif de pointage, au moins. Les points suivants doivent être respectés :
 
-- List of mandatory features for controlling consultation
-  - The multimedia object must always have at least the following functions: play, pause or stop;
-  - If the multimedia object has sound, it must have a sound on/off function;
-  - If the multimedia object has subtitles or captions that are not embedded, it must have a function for controlling the appearance / disappearance of the subtitles or captions;
-  - If the multimedia object has audio description, it must have a function for controlling the appearance / disappearance of the audio description.
-- Each feature must be accessible from the keyboard, via the tab key, and by any pointing device at least.
-- Each feature must be activatable via the keyboard and by at least one pointing device.
+- Liste des fonctionnalités obligatoires de contrôle de la consultation :
+  - L’objet multimédia doit toujours avoir les fonctionnalités suivantes, au minimum : lecture, pause ou stop ;
+  - Si l’objet multimédia a du son, il doit avoir une fonctionnalité d’activation / désactivation du son.
+- Chaque fonctionnalité doit être accessible par le clavier, via la touche de tabulation, et par tout dispositif de pointage au moins.
+- Chaque fonctionnalité doit être activable par le clavier et par tout dispositif de pointage, au moins.
 
-Note: if there is no sound in a time-based medium, there is no point in adding a sound activation/deactivation function. If, however, this functionality is present and requires a text alternative to be understood by certain users, then it should be given one since the user is likely to access it and want to activate it.
+Note : s’il n’y a pas de son à un média temporel, il n’est pas utile de mettre une fonctionnalité d’activation / désactivation du son. Si cette fonctionnalité est cependant présente et qu’elle nécessite une alternative textuelle pour être comprise par certains utilisateurs, il faut alors lui en donner une, puisque l’utilisateur est susceptible d’y accéder et de vouloir l’activer.

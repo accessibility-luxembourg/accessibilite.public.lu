@@ -1,5 +1,5 @@
 ---
-title: Adjacent link or button
+title: Lien ou bouton adjacent
 ---
 
-Link or button presented adjacent to an element on the page. The link or button must be visually adjacent in the graphic representation (CSS enabled) and in the HTML code. In the HTML code, the link or button must be located just before or just after the element to which it is adjacent.
+Lien ou bouton présenté de manière adjacente à un élément dans la page. Le lien ou bouton doit être adjacent visuellement dans la représentation graphique (CSS activé) et dans le code HTML. Dans le code HTML, le lien ou bouton doit se situer juste avant ou juste après l’élément auquel il est adjacent.

@@ -1,5 +1,5 @@
 ---
-title: Image map area
+title: Zone (d’une image réactive)
 ---
 
-The clickable or non-clickable area of a client-side image map, or the clickable area of a server-side image map.
+Zone cliquable ou zone non cliquable d’une image réactive côté client ou zone cliquable d’une image réactive côté serveur.

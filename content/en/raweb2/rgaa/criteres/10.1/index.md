@@ -1,3 +1,3 @@
 ---
-title: In the website, are [style sheets](#style-sheet) used to control the [presentation of information](#presentation-of-information)?
+title: Dans le site web, des [feuilles de styles](#feuille-de-style) sont-elles utilisées pour contrôler la [présentation de l’information](#presentation-de-l-information) ?
 ---

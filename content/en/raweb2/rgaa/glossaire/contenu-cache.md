@@ -1,14 +1,13 @@
 ---
-title: Hidden content
+title: Contenu caché
 ---
 
-Assistive technologies (in particular screen readers) do not render content hidden via
+Les technologies d’assistance (notamment les lecteurs d’écran) ne restituent pas le contenu masqué via les propriétés :
 
-- `display` with the value `none` (`display: none`);
-- `visibility` with the value `hidden` (`visibility: hidden`);
-- `font-size` set to `0` (`font-size: 0`);
-- HTML5 `hidden` attribute;
-- HTML5 `inert` attribute;
-- WAI-ARIA `aria-hidden="true"` attribute.
+- `display` avec la valeur `none` (`display: none`) ;
+- `visibility` avec la valeur `hidden` (`visibility: hidden`) ;
+- Attribut HTML5 `hidden` ;
+- Attribut HTML5 `inert` ;
+- Attribut WAI-ARIA `aria-hidden="true"`.
 
-All content using one or more of these properties and attributes is applicable for the {% crit 10.8 %}.
+Tous les contenus utilisant une ou plusieurs de ces propriétés et attributs sont applicables pour le {% crit 10.8 %}.

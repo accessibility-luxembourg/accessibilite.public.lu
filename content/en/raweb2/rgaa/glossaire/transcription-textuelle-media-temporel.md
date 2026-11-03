@@ -1,12 +1,12 @@
 ---
-title: Transcript (time-based media)
+title: Transcription textuelle (média temporel)
 ---
 
-Textual content associated with a time-based media object using the appropriate technique (text encoded in HTML or in a text file located on the same page or available via a link). This content gives the user access (independently of viewing the multimedia object) to
+Contenu textuel associé à un média temporel par la technique appropriée (texte codé en HTML ou dans un fichier texte qui se trouve dans la même page ou consultable suivant un lien). Ce contenu donne accès à l’utilisateur (de manière indépendante de la consultation de l’objet multimédia) à :
 
-- All of what is expressed orally;
-- All the descriptive information necessary for an equivalent understanding of the action.
+- La totalité de ce qui y est exprimé oralement ;
+- Toutes les informations descriptives nécessaires à une compréhension équivalente de l’action.
 
-This textual information must be presented in the chronological order in which it appears in the time-based media.
+Ces informations textuelles doivent être présentées dans l’ordre chronologique de leur apparition dans le média temporel.
 
-Note: the transcript must be located outside the `<object>` tag.
+Note : la transcription textuelle doit se situer à l’extérieur de la balise `<object>`.

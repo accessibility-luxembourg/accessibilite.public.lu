@@ -1,3 +1,3 @@
 ---
-title: Can the purpose of an input field be identified to facilitate the automatic filling of fields with user data?
+title: Chaque [bouton de type image](#bouton-formulaire) (`<input type="image"/>`) a-t-il un [nom accessible](#nom-accessible-de-bouton) ?
 ---

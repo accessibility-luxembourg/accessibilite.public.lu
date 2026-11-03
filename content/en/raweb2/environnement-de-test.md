@@ -1,47 +1,47 @@
 ---
-title: Test environment
+title: Environnement de test
 layout: layouts/base.njk
-description: The different desktop or mobile test environments
+description: Les différents environnements de tests desktop ou mobile
 eleventyNavigation:
-  title: Technical method
-  parent: method
+  title: Méthode technique
+  parent: methode
   order: 4
 ---
 
-Some RAWeb criteria, in particular those in the JavaScript theme, include rendering tests to be carried out on assistive technologies associated with browsers and operating systems.
+Quelques critères RAWeb, notamment ceux de la thématique JavaScript, incluent des tests de restitution à effectuer sur des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation.
 
-The tests carried out using these combinations (assistive technology, operating system, browser) enable a declaration to be made that an HTML / WAI-ARIA device is "compatible with accessibility" as defined by <abbr title="web content accessibility guidelines">WCAG</abbr>.
+Les tests effectués selon ces combinaisons (technologie d’assistance, système d’exploitation, navigateur) permettent de déclarer qu’un dispositif HTML / WAI-ARIA est “compatible avec l’accessibilité” tel que défini par <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr>.
 
-The combinations have been established on the basis of the list of assistive technologies whose use is sufficiently widespread, or in certain cases where it is provided natively and constitutes the preferred means of accessing information and features.
+Les combinaisons ont été établies à partir de la liste des technologies d’assistance dont l’usage est suffisamment répandu, ou dans certains cas lorsqu’elle est fournie de manière native et constitue le moyen privilégié d’accès à l’information et aux fonctionnalités.
 
-### Computer test environment  (desktop)
+### Environnement de test Ordinateur (desktop)
 
-The operating systems selected are Windows and macOS and the Firefox, Chrome, Edge and Safari browsers. It is the auditor's responsibility to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used when developing the site. The assistive technology versions to be used will be either the latest available on the operating system selected or the previous version.
+Les systèmes d’exploitation retenus sont Windows et macOS et les navigateurs Firefox, Chrome, Edge et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. Les versions des technologies d’assistance à utiliser seront soit la dernière disponible sur le système d’exploitation retenu soit la version précédente.
 
-When the site or application is intended for a public, whose equipment is controlled, the tests will have to be carried out on a test environment adapted to the context of the controlled environment.
+Lorsque le site ou l’application est destinée à un public dont l’équipement est maîtrisé, les tests devront se faire sur un environnement de test adapté au contexte de l’environnement maîtrisé.
 
-For an HTML / WAI-ARIA device or its alternative to be considered compatible with accessibility, it must be fully functional, in terms of rendering and accessibility features, on all of the following configurations.
+Pour qu’un dispositif HTML / WAI-ARIA ou son alternative soit considéré comme compatible avec l’accessibilité, il faut qu’il soit pleinement fonctionnel, en termes de restitution et de fonctionnalités, sur l’ensemble des configurations suivantes.
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Computer test environment (desktop)</caption>
+        <caption>Environnement de test Ordinateur (desktop)</caption>
         <thead>
         <tr>
-            <th scope="col">Assistive technology</th>
-            <th scope="col">Browser</th>
+            <th scope="col">Technologie d’assistance</th>
+            <th scope="col">Navigateur</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>NVDA (latest version)</td>
-            <td>Firefox or Chrome or Edge</td>
+            <td>NVDA (dernière version)</td>
+            <td>Firefox ou Chrome ou Edge</td>
         </tr>
         <tr>
-            <td>JAWS (previous version)</td>
-            <td>Firefox or Chrome or Edge</td>
+            <td>JAWS (version précédente)</td>
+            <td>Firefox ou Chrome ou Edge</td>
         </tr>
         <tr>
-            <td>VoiceOver (latest version)</td>
+            <td>VoiceOver (dernière version)</td>
             <td>Safari</td>
         </tr>
         </tbody>
@@ -49,28 +49,28 @@ For an HTML / WAI-ARIA device or its alternative to be considered compatible wit
 </div>
 
 
-### Mobile test environment
+### Environnement de test Terminal mobile
 
-The operating systems selected are Android and iOS and Chrome and Safari browsers. It is up to the auditor to define, in consultation with the managers of the site being audited, the operating system and browser versions that are appropriate for the context in which the site is used and the test environment used during the development of the site. 
+Les systèmes d’exploitation retenus sont Android et iOS et les navigateurs Chrome et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. 
 
-The assistive technology versions to be used will be either the latest available on the operating system selected, or the previous version. 
+Les versions des technologies d’assistance à utiliser seront soit la dernière disponible sur le système d’exploitation retenu, soit la version précédente. 
 
-To test a website on a mobile device, the test environment must include one of the following two complementary combinations:
+Pour tester un site web sur un terminal mobile, l’environnement de test devra comporter une des deux combinaisons complémentaires suivantes :
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Mobile device test environment - Combination 1</caption>
+        <caption>Environnement de test Terminal mobile - Combinaison 1</caption>
         <thead>
         <tr>
-            <th scope="col">Operating system</th>
-            <th scope="col">Assistive technology</th>
-            <th scope="col">Browser</th>
+            <th scope="col">Système d’exploitation</th>
+            <th scope="col">Technologie d’assistance</th>
+            <th scope="col">Navigateur</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Native Android</td>
-            <td>TalkBack (latest version)</td>
+            <td>Android natif</td>
+            <td>TalkBack (dernière version)</td>
             <td>Chrome</td>
         </tr>
         </tbody>
@@ -79,35 +79,35 @@ To test a website on a mobile device, the test environment must include one of t
 
 <div class="fr-table fr-table--bordered">
     <table>
-        <caption>Mobile device test environment - Combination 2</caption>
+        <caption>Environnement de test Terminal mobile - Combinaison 2</caption>
         <thead>
         <tr>
-            <th scope="col">Operating system</th>
-            <th scope="col">Assistive technology</th>
-            <th scope="col">Browser</th>
+            <th scope="col">Système d’exploitation</th>
+            <th scope="col">Technologie d’assistance</th>
+            <th scope="col">Navigateur</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>iOS</td>
-            <td>VoiceOver (latest version)</td>
+            <td>VoiceOver (dernière version)</td>
             <td>Safari</td>
         </tr>
         </tbody>
     </table>
 </div>
 
-Note that in the case of a mobile website for the general public, it is strongly recommended that you test in both environments.
+À noter que dans le cas d’un site web mobile grand public, il est fortement conseillé de tester dans les deux environnements.
 
-### Other environments
+### Autres environnements
 
-Finally, depending on the context of the site being audited, other complementary assistive technologies may be useful, such as
+Enfin, en fonction du contexte du site audité, d’autres technologies d’assistance complémentaires peuvent être utiles telles que :
 
-- ZoomText on Windows or macOS;
-- Dragon Naturally Speaking on Windows or macOS.
+- ZoomText sur Windows ou macOS ;
+- Dragon Naturally Speaking sur Windows ou macOS.
 
-### Controlled environment
+### Environnement maîtrisé
 
-When the website is intended to be distributed and used in a controlled environment, the test environment (baseline) must consist of the configurations (assistive technology, operating system, browser) actually used in the controlled environment.
+Lorsque le site web est destiné à être diffusé et utilisé dans un environnement maîtrisé, l’environnement de test (base de référence) doit être constitué des configurations (technologie d’assistance, système d’exploitation, navigateur) effectivement utilisées dans l’environnement maîtrisé.
 
-For example, if the website is distributed exclusively in a GNU/Linux environment, the tests should only be carried out on the browsers and assistive technologies used by the agents on this platform. This test environment replaces the test environment used in the uncontrolled environment.
+Par exemple, lorsque le site web est exclusivement diffusé dans un environnement GNU/Linux, les tests devront être réalisés uniquement sur les navigateurs et les technologies d’assistance utilisés par les agents sur cette plateforme. Cet environnement de test se substitue à l’environnement de test (base de référence) utilisé en environnement non maîtrisé.

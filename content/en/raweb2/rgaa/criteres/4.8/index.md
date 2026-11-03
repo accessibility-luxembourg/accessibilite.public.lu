@@ -1,3 +1,3 @@
 ---
-title: Does each [non-time-based media](#non-time-based-media) have, if necessary, an alternative (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé ayant une [audiodescription](#audiodescription-synchronisee-media-temporel) synchronisée, l'audiodescription est-elle correctement synchronisée ?
 ---

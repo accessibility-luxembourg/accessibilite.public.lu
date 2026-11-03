@@ -1,3 +1,3 @@
 ---
-title: For each set of [templates](#template), at least one template complies with the [digital accessibility rules](#digital-accessibility-rules). Is this rule respected?
+title: Pour chaque ensemble de [gabarits](#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique). Cette règle est-elle respectée ?
 ---

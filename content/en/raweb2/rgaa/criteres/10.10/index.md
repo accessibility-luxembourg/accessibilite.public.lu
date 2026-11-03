@@ -1,3 +1,3 @@
 ---
-title: On each web page, information must not be conveyed [by shape, size or location](#indication-conveyed-by-shape-size-or-location) only. Is this rule implemented appropriately?
+title: Dans chaque page web, les propriétés d’espacement du texte peuvent-elles être redéfinies par l’utilisateur sans perte de contenu ou de fonctionnalité (hors cas particuliers) ?
 ---

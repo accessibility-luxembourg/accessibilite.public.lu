@@ -3,7 +3,7 @@ title: Nom accessible de lien
 RAWEB1.1: intitule-ou-nom-accessible-de-lien
 ---
 
-Le nom accessible d'un lien informe sur la fonction et la destination du lien.
+Le nom accessible d'un lien informe sur la fonction et la destination du lien. 
 
 Dans le cas d’un lien HTML, il est déterminé selon l’ordre de priorité suivant :
 
@@ -18,15 +18,15 @@ Dans le cas où le nom accessible est obtenu à partir du contenu du lien, celui
 
 - Pour un lien texte : le nom accessible correspond au texte contenu dans le lien et dans ses éléments enfants.
 - Pour un lien image : le nom accessible correspond au nom accessible d’une ou plusieurs images dans le lien. Ces images peuvent être du type :
-  - Image (élément <img>`ou balise ouvrante ayant l’attribut WAI-ARIA`role="img"`) ;
-  - Image objet (élément `<object>`) ;
-  - Image bitmap (élément `<canvas>`) ;
-  - Image vectorielle (élément `<svg>`).
+	- Image (élément <img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
+	- Image objet (élément `<object>`) ;
+	- Image bitmap (élément `<canvas>`) ;
+	- Image vectorielle (élément `<svg>`).
 - Pour un lien composite : le nom accessible correspond à la concaténation :
-  - du texte contenu dans le lien et dans ses éléments enfants ;
-  - du nom accessible de la ou des images comprises dans le lien.
+	- du texte contenu dans le lien et dans ses éléments enfants ;
+	- du nom accessible de la ou des images comprises dans le lien.
 
-Dans le cas d’un lien SVG (version 1.1), le nom accessible est déterminé selon l’ordre de priorité suivant :
+Dans le cas d’un lien SVG (version 1.1), le nom accessible  est déterminé selon l’ordre de priorité suivant :
 
 - Passage de texte associé par l’attribut WAI-ARIA `aria-labelledby` ;
 - Sinon, contenu de l’attribut WAI-ARIA `aria-label` ;

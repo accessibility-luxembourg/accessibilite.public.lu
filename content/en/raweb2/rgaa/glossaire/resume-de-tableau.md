@@ -1,11 +1,11 @@
 ---
-title: Summary (of table)
+title: Résumé (de tableau)
 ---
 
-A summary (of table) is a passage of text associated with a complex data table. It provides information about the nature and structure of the table to make it easier to use for users of assistive technologies, for example.
+Un résumé est un passage de texte associé à un tableau de données complexe. Il permet de donner des informations sur la nature et la structure du tableau afin d’en faciliter l’utilisation par les utilisateurs de technologies d’assistance par exemple.
 
-Note: in HTML5, the only technique that can currently be used is to insert the summary directly into the title (using the `<caption>` tag), masking the summary using CSS if necessary.
+Note : en HTML5, la seule technique utilisable actuellement est celle qui consiste à insérer le résumé directement dans le titre (balise `<caption>`) en masquant le résumé via CSS si nécessaire.
 
-In previous versions of HTML, the summary could be inserted via a `summary` attribute on the `<table>` tag.
+Dans les versions précédentes de HTML, le résumé peut être inséré via un attribut `summary` sur la balise `<table>`.
 
-In the case of a tag with the WAI-ARIA `role="table"` attribute, the summary must be provided using an `aria-describedby` attribute and be correctly rendered (by assistive technologies).
+Dans le cas d’une balise avec l’attribut WAI-ARIA `role="table"`, le résumé doit être fourni au moyen d’un attribut `aria-describedby` et être correctement restitué par les technologies d’assistance.

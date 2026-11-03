@@ -12,4 +12,4 @@ Le critère ne s'applique pas lorsque :
 
 - la ressaisie d’information est essentielle (ex. jeu de mémoire, quiz…) ;
 - l’information est requise pour des raisons de sécurité (mot de passe, vérification…) ;
-- l’information précédemment saisie n'est plus valide.
+- l’information précédemment saisie n'est plus valide. 

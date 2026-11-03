@@ -1,15 +1,15 @@
 ---
-title: Design pattern
+title: Motif de conception
 ---
 
-A design pattern is a model defined in the [WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/) document which describes the structure, roles and properties and keyboard behaviour that a JavaScript component (widget) must respect.
+Un motif de conception <span lang="en">(Design Pattern)</span> est un modèle défini dans le document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)</span> qui décrit la structure, les rôles et propriétés et le comportement clavier que doit respecter un composant JavaScript (widget).
 
-It is recommended that components developed in JavaScript using WAI-ARIA attributes corresponding to a design pattern comply with it.
-Please note, however, that not all design patterns are suitable for non-application use, particularly for sites displaying in a mobile context.
+Il est recommandé que les composants développés en JavaScript utilisant des attributs WAI-ARIA correspondant à un motif de conception respectent celui-ci.
+Attention cependant, les motifs de conception ne sont pas tous adaptés à un usage non applicatif, en particulier pour les sites proposant un affichage en contexte mobile.
 
-Note 1: given the lack of support for certain WAI-ARIA properties and roles, and the wide variety of situations in which a JavaScript component may be proposed, it is possible to adapt design patterns to particular contexts or uses. In this case, the adapted design pattern must
+Note 1 : compte tenu du manque de support de certaines propriétés et de certains rôles WAI-ARIA et de la grande variabilité des situations dans lesquelles un composant JavaScript peut être proposé, il est possible d’adapter des motifs de conception à des contextes ou des utilisations particulières. Dans ce cas, le motif de conception adapté doit :
 
-- Respect the general structure: for example, a set of panels (WAI-ARIA `tabpanel` role) in a tab system is necessarily linked to a set of tabs (WAI-ARIA `tablist` role);
-- Use an equivalent WAI-ARIA role or property to replace a poorly supported WAI-ARIA role or property, offering similar behaviour and output.
+- Respecter la structure générale : par exemple un ensemble de panneaux (rôle WAI-ARIA `tabpanel`) d’un système d’onglets est forcément lié à un ensemble d’onglets (rôle WAI-ARIA `tablist`) ;
+- Utiliser en remplacement d’un rôle ou d’une propriété WAI-ARIA mal supporté, un rôle ou une propriété WAI-ARIA équivalent, offrant un comportement et une restitution similaire.
 
-Note 2: Enriching a design pattern with additional WAI-ARIA roles or properties whose accessibility compatibility is checked by the rendition test on the test environment (or "baseline") does not constitute an adaptation of a design pattern. For example, adding the WAI-ARIA `aria-hidden` attribute to the panels (WAI-ARIA `tabpanel` role) of a tab system does not define an adapted design pattern.
+Note 2 : Le fait d’enrichir un motif de conception de rôles ou propriétés WAI-ARIA supplémentaires dont la compatibilité avec l’accessibilité est contrôlée par le test de restitution sur l’environnement de test (ou « base de référence ») ne constitue pas une adaptation d’un motif de conception. Par exemple l’ajout de l’attribut WAI-ARIA `aria-hidden` sur les panneaux (rôle WAI-ARIA `tabpanel`) d’un système d’onglets ne définit pas un motif de conception adapté.

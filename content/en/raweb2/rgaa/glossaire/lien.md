@@ -1,12 +1,12 @@
 ---
-title: Link
+title: Lien
 ---
 
-In HTML
+En HTML :
 
-- `<a>` tag with a `href` attribute;
-- Tag with a WAI-ARIA `role="link"` attribute and whose navigation action is handled by a script.
+- Balise `<a>` possédant un attribut `href` ;
+- Balise possédant un attribut WAI-ARIA `role="link"` et dont l’action de navigation est prise en charge par un script.
 
-In SVG
+En SVG :
 
-- `<a>` tag with `xlink:href` attribute in SVG 1.1.
+- Balise `<a>` possédant un attribut `xlink:href` en SVG 1.1.

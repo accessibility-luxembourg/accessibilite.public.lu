@@ -1,15 +1,15 @@
 ---
-title: Composite link
+title: Lien composite
 ---
 
-In HTML, [link](#link) containing both text and one or more image children:
+En HTML, [lien](#lien) contenant à la fois du texte et un ou plusieurs enfants de type image :
 
-- Image (`<img>` tag or opening tag with WAI-ARIA `role="img"` attribute);
-- Clickable area (`<area>` tag) with a `href` attribute;
-- Object image (`<object>` tag);
-- Bitmap image (`<canvas>` tag);
-- Vector image (`<svg>` tag).
+- Image (balise `<img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
+- Zone cliquable (balise `<area>`) possédant un attribut `href` ;
+- Image objet (balise `<object>`) ;
+- Image bitmap (balise `<canvas>`) ;
+- Image vectorielle (balise `<svg>`).
 
-Important note: the use of two adjacent and identical links (image link and text link) is a major inconvenience for the user. Even if this does not constitute non-compliance, it should be avoided. One way of dealing with this type of link is to include the image in the text link to form a composite link, thus avoiding redundancy.
+Note importante : il est rappelé que l’utilisation de deux liens adjacents (lien image et lien texte) et identiques constitue une gêne importante pour l’utilisateur. Même si cela ne constitue pas une non-conformité, cet usage devrait être évité. Une manière de traiter ce type de liens est d’inclure l’image dans le lien texte de façon à constituer un lien composite, ce qui évitera la redondance.
 
-You can consult the technique [H2: Combining adjacent image and text links for the same resource](https://www.w3.org/WAI/WCAG21/Techniques/html/H2).
+Vous pouvez consulter à ce sujet la technique <span lang="en">[H2 : Combining adjacent image and text links for the same resource](https://www.w3.org/WAI/WCAG21/Techniques/html/H2)</span>.

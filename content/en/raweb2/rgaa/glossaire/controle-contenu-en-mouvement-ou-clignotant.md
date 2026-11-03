@@ -1,15 +1,15 @@
 ---
-title: Control (moving or blinking content)
+title: Contrôle (contenu en mouvement ou clignotant)
 ---
 
-The ability for the user to control the display or playback of moving or blinking content using at least the keyboard and mouse.
+Possibilité pour l’utilisateur de contrôler l’affichage ou la lecture d’un contenu en mouvement ou clignotant par le clavier et la souris, au moins.
 
-The method used to control moving or blinking content must allow the user to interact with the rest of the page.
+La méthode de contrôle du contenu en mouvement ou clignotant doit permettre à l’utilisateur d’interagir avec le reste de la page. 
 
-Therefore, the fact that the animation stops when the user moves the mouse pointer or the keyboard focus to the underlying component (and resumes as soon as the user moves the mouse pointer or the keyboard focus elsewhere on the page) would not be considered a ‘mechanism for controlling moving or flashing content’, as the page would become unusable during that time.
+Ainsi, le fait que l’animation s’arrête lorsque l’utilisateur passe le pointeur de sa souris ou déplace le focus clavier sur le composant sous-jacent (et reprend dès que l’utilisateur déplace le pointeur de la souris ou le focus clavier ailleurs sur la page) ne serait pas considéré comme un «&nbsp;mécanisme permettant de contrôler le contenu en mouvement ou clignotant&nbsp;», car cela rendrait la page inutilisable pendant ce temps.
 
-Consequently, stopping or pausing via an event triggered only on focus or mouseover does not satisfy the criterion.
+En conséquence, l’arrêt ou la mise en pause via un événement déclenché uniquement sur la prise de focus ou le survol de la souris ne permet pas de valider le critère.
 
-All moving content, with the exception of time-based media supported by the multimedia theme, is covered: animated images (e.g. an animated gif), moving content offered via an `<object>` tag, JavaScript code or CSS effects, for example.
+Tous les contenus en mouvement, à l’exception des médias temporels pris en charge par la thématique multimédia, sont concernés : les images animées (par exemple un gif animé), les contenus en mouvement proposés via une balise `<object>`, du code JavaScript ou des effets CSS par exemple.
 
-Note 1: where appropriate, the control method should be available as the first element of the page.
+Note 1 : lorsque c’est approprié, la méthode de contrôle devrait être disponible comme premier élément de la page.

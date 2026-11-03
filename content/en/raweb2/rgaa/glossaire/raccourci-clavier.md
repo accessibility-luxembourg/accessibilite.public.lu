@@ -1,7 +1,7 @@
 ---
-title: Keyboard shortcut
+title: Raccourci clavier
 ---
 
-A means of triggering an action associated with a user interface component by pressing one or more keys.
+Un moyen de déclencher une action associée à un composant de l’interface utilisateur en appuyant sur une ou plusieurs touches.
 
-Note: "Access keys" (HTML `accesskey` attribute) are indeed keyboard shortcuts, but they are not affected by {% crit 12.10 %} insofar as their activation already requires the use of modifier keys (which vary depending on the browser).
+Note : les <span lang="en">« Access keys »</span> (attribut HTML `accesskey`) sont bien des raccourcis clavier, mais ils ne sont pas concernés par le {% crit 12.9 %} [@@TODO numérotation] dans la mesure où leur activation nécessite déjà l’usage de touches de modification (variables suivant les navigateurs).

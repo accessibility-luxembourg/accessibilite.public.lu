@@ -1,18 +1,16 @@
 ---
-title: When focused
+title: Prise de focus
 ---
 
-Focus is the state returned by an element that receives attention following a user action. There are three ways in HTML to give focus to an element:
+La prise de focus est l’état renvoyé par un élément qui reçoit l’attention suite à une action de l’utilisateur. Il y a trois moyens en HTML de donner le focus à un élément :
 
-- By activating the element using a pointing device (e.g. mouse);
-- By reaching the element using the tab or shift + tab key;
-- By activating the element using a keyboard shortcut.
+- En activant l’élément par un dispositif de pointage (exemple : souris) ;
+- En atteignant l’élément par la touche tabulation ou majuscule + tabulation ;
+- En activant l’élément par un raccourci clavier.
 
-<b>{% crit 10.7 %} only concerns keyboard focus (tab, shift + tab, keyboard shortcut).</b>
+<b>Le {% crit 10.7 %} ne s’intéresse qu’au focus du clavier (tabulation, majuscule + tabulation, raccourci clavier).</b>
 
-Some elements naturally receive the focus, for example: `<a href>`, `<area href>`, `<button>`, `<input>`, `<object>`, `<select>`, `<label>`, `<legend>`, `<optgroup>`, `<option>` and `<textarea>`.
-The behaviour of the element when focused depends on its nature; a link, for example, should be activated after the focus is set (unless a script is used). On the other hand, a form element, such as `<textarea>`, should allow input when focused. The elements `<label>` and `<legend>` only receive the focus when focused via the mouse pointer. For the `<label>` element, the expected behaviour is to transfer the focus to the element associated with it.
+Certains éléments reçoivent naturellement le focus, par exemple : `<a href>`, `<area href>`, `<button>`, `<input>`, `<object>`, `<select>`, `<label>`, `<legend>`, `<optgroup>`, `<option>` et `<textarea>`.
+Le comportement de l’élément, lors de la prise de focus, dépend de sa nature ; un lien, par exemple, devra être activé après la prise de focus (sauf utilisation de script). En revanche, un élément de formulaire, comme `<textarea>`, devra autoriser la saisie suite à la prise de focus. Les éléments `<label>` et `<legend>` ne reçoivent la prise de focus que via le pointeur souris. Pour l’élément `<label>`, le comportement attendu est de transférer la prise de focus sur l’élément qui lui est associé.
 
-Note 1: the WAI-ARIA specification extends the role assigned to the `tabindex` attribute by defining that any HTML element can acquire the ability to receive focus by assigning it the value `tabindex="0"`. On the other hand, no behaviour is assigned by the mere presence of `tabindex`. Similarly, the value `tabindex="-1"`, when used on an element which naturally receives focus, removes the affected element from the tab plane by inhibiting its ability to signal when focused. The use of `tabindex`, in accordance with the WAI-ARIA specification, can validate certain tests relating to the management of tabulation focus, in particular.
-
-Note 2: The browser's visual indication of focus must not be removed or degraded unless a focus style defined by the author is visible and sufficiently contrasting with respect to {% crit 3.3 %}.
+Note 1 : la spécification WAI-ARIA étend le rôle attribué à l’attribut `tabindex` en définissant que tout élément HTML peut acquérir la possibilité de recevoir le focus en lui attribuant la valeur `tabindex="0"`. En revanche, aucun comportement n’est attribué via la seule présence de `tabindex`. De même, la valeur `tabindex="-1"` lorsqu’elle est utilisée sur un élément recevant naturellement le focus retire l’élément qui en est affecté du plan de tabulation en inhibant sa capacité à signaler la « prise de focus ». L’utilisation de `tabindex`, conformément à la spécification WAI-ARIA, peut valider certains tests relatifs à la gestion du focus de tabulation, notamment.

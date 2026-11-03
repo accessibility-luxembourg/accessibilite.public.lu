@@ -1,10 +1,10 @@
 ---
-title: Non-clickable area
+title: Zone non cliquable
 ---
 
-Region of an image map to which no action is associated. A client-side non-clickable area is contained in an `<area>` tag:
+Région d’une image réactive à laquelle aucune action n’est associée. Une zone non cliquable côté client est contenue dans une balise `<area>` :
 
-- With the `nohref` attribute when the HTML code of the page is not HTML5;
-- Without the `href` attribute in HTML5.
+- Avec l’attribut `nohref` lorsque le code HTML de la page n’est pas du HTML5 ;
+- Sans attribut `href` en HTML5.
 
-The `<area>` tags are contained in the `<map>` tag.
+Les balises `<area>` sont contenues dans la balise `<map>`.

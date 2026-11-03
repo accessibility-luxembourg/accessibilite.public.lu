@@ -1,15 +1,15 @@
 ---
-title: Cryptic content
+title: Contenu cryptique
 ---
 
-Content written using misused characters. For example, emoticons, figures written with characters, symbol characters or text written with mathematical characters are considered cryptic content. Cryptic syntax refers to words or phrases that use characters or case effects inappropriately (<em lang="en">leetspeak</em>) or that divert characters from their usual uses, such as the use of capital letters, numbers or special characters in the body of a word.
+Contenu écrit à l’aide de caractères détournés. Par exemple, des émoticônes, des figures écrites avec des caractères, des caractères symboles ou des textes écrits avec des caractères mathématiques sont considérés comme des contenus cryptiques. La syntaxe cryptique fait référence à des mots ou des phrases qui utilisent des caractères ou des effets de casse de manière inappropriée (<em lang="en">leetspeak</em>) ou qui détournent des caractères de leurs usages habituels, comme l’emploi de majuscule, de chiffres ou de caractères spéciaux dans le corps d’un mot.
 
-Some examples:
-* emoticons: :) (smile), ^^ (smile with squinted eyes), O_o (surprised);
-* cryptic syntax: m4gic (magic);
-* mathematical characters resembling letters: 𝒉𝒆𝒍𝒍𝒐 (hello);
-* emojis: <span aria-hidden="true">♥</span> (heart emoji).
+Quelques exemples :
+* émoticône : :) (sourire), ^^ (sourire les yeux plissés), O_o (interloqué) ;
+* syntaxe cryptique : m4gic (magique) ;
+* caractères mathématiques ressemblant à des lettres : 𝒉𝒆𝒍𝒍𝒐 (hello) ;
+* émojis : <span aria-hidden="true">♥</span> (émoji cœur).
 
-Note 1: Some emojis are rendered by screen readers that have their own alternatives. An emoji will be considered compliant, without additional implementation, when the alternative rendered across the entire baseline is relevant to the context.
+Note 1 : Certains émojis sont restitués par les lecteurs d’écran qui disposent de leurs propres alternatives. Un emoji sera considéré conforme, sans implémentation complémentaire, lorsque l’alternative restituée sur l’ensemble de la base de référence est pertinente au regard du contexte.
 
-Note 2: Hashtags (‘#Employment’) and URLs (https://www.site.sample.com) are not considered cryptic content.
+Note 2 : les « hashtags » (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.

@@ -1,7 +1,7 @@
 ---
-title: Complex and simple gestures
+title: Gestes complexes et gestes simples
 ---
 
-A simple gesture involves touching a single point on the screen. It can be a single press or click, a double press or click, or a long press.
+Un geste simple implique un contact en un point unique de l’écran. Il peut s’agir d’une pression ou d’un clic simple, d’une double-pression ou d’un double-clic, d’une pression prolongée.
 
-A complex gesture can be both a gesture involving several points of contact on the screen (e.g. a gesture with two fingers on the screen to zoom in or out on a map) and a gesture based on following a particular path on the screen (e.g. a JavaScript function that detects the movement of a finger to the left or right on a tactile surface to trigger switching to the previous/next item in a carousel).
+Un geste complexe peut être à la fois un geste impliquant plusieurs points de contact sur l’écran (exemple : un geste avec deux doigts sur l’écran pour zoomer ou dézoomer une carte) et un geste basé sur le suivi d’une trajectoire sur l’écran (exemple : interface où tracer un « Z » permettrait d’annuler la dernière action).

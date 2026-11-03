@@ -1,3 +1,3 @@
 ---
-title: On each web page, does each downloadable office document have an [accessible version](#accessible-version-for-a-downloadable-document) (excluding special cases)?
+title: Dans chaque page web, chaque contenu en mouvement ou clignotant est-il [contrôlable](#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur (hors cas particuliers) ?
 ---

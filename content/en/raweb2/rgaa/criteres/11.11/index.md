@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), is the [error management](#error-management-form) accompanied, if necessary, by suggestions to help correct input errors?
+title: Chaque [bouton de formulaire](#bouton-formulaire) a-t-il un [nom accessible](#nom-accessible-de-bouton) (hors cas particuliers) ?
 ---

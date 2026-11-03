@@ -1,12 +1,12 @@
 ---
-title: Status message
+title: Message de statut
 ---
 
-A status message informs the user of a content change on the page without interrupting their main activity (there is no change of context, for example a shift of focus to the message).
+Un message de statut informe l’utilisateur d’un changement de contenu dans la page sans interrompre son activité principale (par exemple, sans déplacer le focus sur le message de statut).
 
-A status message can inform about
+Un message de statut peut informer sur :
 
-- The success or result of an action;
-- The busy state of an application;
-- The progress of a process;
-- The existence of an error.
+- le succès ou le résultat d’une action ;
+- l’état occupé d’une application ;
+- l’état d'attente ou de progression d’un processus ;
+- l’existence d’erreur.

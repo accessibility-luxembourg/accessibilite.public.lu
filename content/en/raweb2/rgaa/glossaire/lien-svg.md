@@ -1,15 +1,15 @@
 ---
-title: SVG link
+title: Lien SVG
 ---
 
-Link contained in a `<svg>` element.
+Lien contenu dans un élément `<svg>`.
 
-In the case of an SVG link (version 1.1), the "accessible name" is obtained as follows:
+Dans le cas d’un lien SVG (version 1.1), le « nom accessible » est obtenu comme suit :
 
-- Passage of text associated with the WAI-ARIA `aria-labelledby` attribute;
-- Otherwise, value of the WAI-ARIA `aria-label` attribute;
-- Otherwise, the content of the `<title>` element, the direct child of the link;
-- Otherwise, the value of the `xlink:title` attribute;
-- Otherwise, the text content of one or more `<text>` elements.
+- Passage de texte associé par l’attribut WAI-ARIA `aria-labelledby` ;
+- Sinon, contenu de l’attribut WAI-ARIA `aria-label` ;
+- Sinon, contenu de l’élément `<title>` enfant direct du lien ;
+- Sinon, contenu de l’attribut `xlink:title` ;
+- Sinon, contenu texte d’un ou plusieurs éléments `<text>`.
 
-However, this calculation algorithm is not yet supported by the various screen readers. To date, support is available with VoiceOver, but incomplete or deficient with JAWS and NVDA. As a result, the lowest common denominator on which it is possible to rely to provide an accessible name for the link is the `<text>` element.
+Il faut cependant être vigilant, car cet algorithme de calcul n’est pas encore pris en compte et effectif au sein des différents lecteurs d’écran. À ce jour, le support est disponible avec VoiceOver, mais incomplet ou lacunaire avec JAWS et NVDA. Si bien que le plus petit dénominateur commun sur lequel il est possible de se reposer pour fournir un nom accessible au lien est l’élément `<text>`.

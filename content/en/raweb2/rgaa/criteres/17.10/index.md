@@ -1,3 +1,3 @@
 ---
-title: For each [two-way voice communication web application](#two-way-voice-communication-web-application) that has [voice-based services](#voice-based-services), can these be used without the need to listen or speak?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), l'intégralité du texte en temps réel échangé pendant une communication est-elle consultable ?
 ---

@@ -1,12 +1,12 @@
 ---
-title: Support service
+title: Service d’assistance
 ---
 
-A support service can be
+Un service d’assistance peut être :
 
-- the feedback mechanism identified in the website's accessibility statement,
-- a help desk,
-- a call centre,
-- technical support,
-- a [relay service](#relay-service),
-- a training service.
+- le mécanisme de retour d’information identifié dans la déclaration d’accessibilité du site web,
+- un <em lang="en">help desk</em>,
+- un centre d’appel,
+- un support technique,
+- un [service de relais](#service-de-relais),
+- un service de formation.

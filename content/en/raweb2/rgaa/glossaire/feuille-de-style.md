@@ -1,5 +1,5 @@
 ---
-title: Style sheet
+title: Feuille de style
 ---
 
-The CSS language for formatting content elements (examples: page background colour, font size/colour, positioning of information on the web page, etc.). CSS styles can be external (CSS file), embedded (declared in the page header) or inline (declared via the `style` attribute of a tag).
+Le langage CSS destiné à la mise en forme des éléments du contenu (exemples : couleur du fond de la page, taille / police / couleur des caractères, positionnement de l’information dans la page web…). Les styles CSS peuvent être externes (fichier CSS), embarqués (déclarés dans l’en-tête de la page) ou en ligne (déclarés via l’attribut `style` d’une balise).

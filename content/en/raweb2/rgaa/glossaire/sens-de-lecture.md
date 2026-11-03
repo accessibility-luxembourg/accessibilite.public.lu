@@ -1,10 +1,10 @@
 ---
-title: Reading direction
+title: Sens de lecture
 ---
 
-Indicates the reading direction of the document or a passage of text via the `dir` attribute, `dir="ltr"`, for example. The two recognised values are
+Indique le sens de lecture du document ou d’un passage de texte via l’attribut `dir`, `dir="ltr"`, par exemple. Les deux valeurs reconnues sont :
 
-- `ltr` (left to right) indicates a reading direction from left to right;
-- `rtl` (right to left) indicates a reading direction from right to left.
+- `ltr` (<span lang="en">left to right</span>) indique un sens de lecture de gauche à droite ;
+- `rtl` (<span lang="en">right to left</span>) indique un sens de lecture de droite à gauche.
 
-Note: if there is no indication of reading direction via the `dir` attribute on the `html`, `body` element, or one of the parents of the text being analysed, the default reading direction is left to right (value `ltr`).
+Note : en l’absence d’indication de sens de lecture via l’attribut `dir` sur l’élément `html`, `body`, ou un des parents du texte analysé, le sens de lecture par défaut est de gauche à droite (valeur `ltr`).

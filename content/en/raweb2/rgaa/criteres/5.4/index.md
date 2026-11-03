@@ -1,3 +1,3 @@
 ---
-title: For each [data table with a title](#data-table-with-a-title), is the title correctly associated with the data table?
+title: Pour chaque [tableau de données](#tableau-de-donnees) ayant un [nom accessible](#nom-accessible-de-tableau-de-donnees), celui-ci est-il pertinent ?
 ---

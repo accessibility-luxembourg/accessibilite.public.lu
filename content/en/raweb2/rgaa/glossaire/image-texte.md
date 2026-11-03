@@ -1,7 +1,9 @@
 ---
-title: Image of text
+title: Image texte
 ---
 
-Image displaying text.
+Image affichant du texte.
 
-Note: the use of image of text is not recommended. Where it is possible to reproduce the same effects in CSS, {% crit 1.8 %} requires that the text be reproduced in styled text, or that a replacement mechanism allows the user to replace these images with [styled text](#styled-text) in CSS.
+L'image peut être une image intégrée en HTML ou par les styles CSS (une image de fond, par exemple).
+
+Note : il n’est pas recommandé d’utiliser des images-textes. Lorsqu’il est possible de reproduire les mêmes effets en CSS, le {% crit 1.8 %}[@@TODO numérotation] impose que le texte soit reproduit en texte CSS, ou qu’un mécanisme de remplacement permette à l’utilisateur de remplacer ces images par du [texte stylé](#texte-style) en CSS.

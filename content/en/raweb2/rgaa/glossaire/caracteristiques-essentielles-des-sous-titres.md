@@ -1,6 +1,6 @@
 ---
-title: Key features of captions
+title: Caractéristiques essentielles des sous-titres
 
 ---
 
-It is possible to apply presentation effects to captions (text colour, style, font) in order to convey information to users (e.g. identify the person speaking). These key features of captions are essential for users to understand them and should be retained during the transformation process (sending or recording the video, for example) if they are present.
+Il est possible d’appliquer des effets de présentation aux sous-titres (couleur des textes, style, police) afin de véhiculer une information aux utilisateurs (par exemple, identifier la personne qui parle). Ces caractéristiques sont essentielles pour la compréhension des sous-titres par les utilisateurs et devraient être conservées au cours des processus de transformation (envoi ou enregistrement de la vidéo, par exemple) si elles sont présentes.

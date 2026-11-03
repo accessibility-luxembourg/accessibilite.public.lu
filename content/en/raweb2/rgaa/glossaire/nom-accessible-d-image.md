@@ -6,30 +6,30 @@ RAWEB1.1: alternative-textuelle-image
 Le nom accessible d'une image constitue une alternative textuelle à l'information transmise visuellement par l'image. Il est déterminé selon l’ordre de priorité suivant :
 
 1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` pour les balises :
-   - `<img>` ;
-   - `<area>` ;
-   - `<svg>` ;
-   - `<object type="image/…">` ;
-   - `<embed type="image/…">` ;
-   - `<canvas>` ;
-   - balises possédant un attribut WAI-ARIA `role="img"`.
+	- `<img>` ;
+	- `<area>` ;
+	- `<svg>` ;
+	- `<object type="image/…">` ;
+	- `<embed type="image/…">` ;
+	- `<canvas>` ;
+	- balises possédant un attribut WAI-ARIA `role="img"`.
 2. Sinon, contenu de l’attribut WAI-ARIA `aria-label` pour les balises :
-   - `<img>` ;
-   - `<area>` ;
-   - `<svg>` ;
-   - `<object type="image/…">` ;
-   - `<embed type="image/…">` ;
-   - `<canvas>` ;
-   - balises possédant un attribut WAI-ARIA `role="img"`.
+	 - `<img>` ;
+	 - `<area>` ;
+	 - `<svg>` ;
+	 - `<object type="image/…">` ;
+	 - `<embed type="image/…">` ;
+	 - `<canvas>` ;
+	 - balises possédant un attribut WAI-ARIA `role="img"`.
 3. Sinon, contenu de l’attribut `alt` pour les balises :
-   - `<img>` ;
-   - `<area>` ;
+	 - `<img>` ;
+	 - `<area>` ;
 4. Sinon, contenu de l’attribut `title` pour les balises :
-   - `<img>` ;
-   - `<area>` ;
-   - `<svg>` ;
-   - `<object type="image/…">` ;
-   - `<embed type="image/…">`.
+	 - `<img>` ;
+	 - `<area>` ;
+	 - `<svg>` ;
+	 - `<object type="image/…">` ;
+	 - `<embed type="image/…">`.
 5. Sinon, contenu de l’élément `<title>` pour l’élément `<svg>` ;
 6. Sinon, contenu du ou des éléments `<text>` pour l’élément `<svg>`.
 

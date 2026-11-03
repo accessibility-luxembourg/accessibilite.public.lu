@@ -1,14 +1,14 @@
 ---
-title: Related form controls
+title: Champs de même nature
 ---
 
-In a form, a set of fields which can be grouped together according to the nature of the information required. The purpose of grouping is to identify which fields should be treated as a whole.
+Dans un formulaire, ensemble des champs pouvant être regroupés par la nature des informations attendues. Le regroupement vise à identifier les champs devant être traités comme un ensemble.
 
-Here are a few examples:
+Quelques exemples :
 
-- Three successive fields for entering a date (day/month/year);
-- Successive fields for a telephone number;
-- A block for entering the user's identity and address, when the form contains several contact blocks;
-- A set of radio buttons or tick boxes relating to a question.
+- Trois champs successifs pour saisir une date (jour/mois/année) ;
+- Champs successifs pour un numéro de téléphone ;
+- Un bloc destiné à saisir l’identité et l’adresse de l’utilisateur, lorsque le formulaire contient plusieurs blocs de contact ;
+- Un ensemble de boutons radio ou de cases à cocher qui se rapportent à une question.
 
-These fields must be grouped together when the labels are not sufficient to inform the user that the fields are part of a group.
+Ces champs doivent être regroupés lorsque leurs noms accessibles ne sont pas suffisants pour informer l’utilisateur que les champs font partie d’un regroupement.

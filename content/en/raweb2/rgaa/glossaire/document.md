@@ -2,12 +2,12 @@
 title: Document
 ---
 
-File, set of files, streaming media or any other distinct content that does not constitute a collection of items, does not belong to a software and does not embed its own user agent.
+Fichier, groupe de fichiers, média en continu ou tout autre contenu distinct, qui ne constitue pas une collection d’éléments, qui n’appartient pas à un logiciel et qui n’embarque pas son propre agent utilisateur.
 
-Emails, spreadsheets, books, images and movies are examples of documents.
+Les e-mails, les feuilles de calculs, les livres, les images ou encore les films sont des exemples de documents.
 
-A document may consist of several files: a set of files comprising the video, audio and subtitle files of a movie is an example of a document.
+Un document peut être composé de plusieurs fichiers : un ensemble de fichiers comprenant les fichiers vidéo, audio et sous-titres d'un film est un exemple de document.
 
-A set of files compressed into an archive does not constitute a single document when grouped together in this way, but rather a collection of documents. 
+Un ensemble de fichiers compressés dans une archive ne constitue pas un document unique lorsqu'il est ainsi regroupé, mais une collection de documents. 
 
-Anything that can present its own content without involving a user agent, such as a book that reads itself, is not a document, but software.
+Tout ce qui peut présenter son propre contenu sans impliquer d'agent utilisateur, tel qu'un livre qui se lit tout seul, n'est pas un document, mais un logiciel.

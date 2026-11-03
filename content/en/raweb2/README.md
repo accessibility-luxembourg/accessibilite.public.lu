@@ -1,23 +1,23 @@
-# Web Accessibility Assessment Framework (RAWeb) for Luxembourg
+# Référentiel d'évaluation de l'accessibilité Web (RAWeb) pour le Luxembourg
 
-This repository contains the __reference files__ of the [RAWeb](https://accessibilite.public.lu/en/raweb1.1/index.html).
+Ce repository contient les __fichiers de référence__ du [RAWeb](https://accessibilite.public.lu/fr/raweb1.1/index.html).
 
 
 ********************
 
-The HTML pages are organised as follows:
+Les pages HTML sont organisées de la manière suivante :
 
-* [Home](./introduction.md)
-* [Bonds](./bonds.md)
-* Technical method
-  * [Criteria and tests](./raweb1.1/criteria)
-  * [Glossary](./raweb1.1/glossary)
-  * [Test environment](./test-environment.md)
-  * [References](./references.md)
+* [Accueil](./introduction.md)
+* [Obligations](./obligations.md)
+* Méthode technique
+  * [Critères et tests](./rgaa/criteres)
+  * [Glossaire](./rgaa/glossaire)
+  * [Environnement de test](./environnement-de-test.md)
+  * [Références](./references.md)
 * Documentation
-  * [Audit kit](./kit-audit.md)
-  * [Test methodology](./test-methodologie.md)
-  * [Revision notes](./revision-notes.md)
+  * [Kit d'audit](./kit-audit.md)
+  * [Méthodologie de test](./methodologie-de-test.md)
+  * [Notes de révision](./notes-de-revision.md)
 
 
 ********************
@@ -26,9 +26,9 @@ The HTML pages are organised as follows:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/lu/88x31.png" /></a>.
 
-The contents of the RAWeb are licensed under a Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/) licence, they contain an adapted copy of the [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) published by the [DINUM](https://www.numerique.gouv.fr/dinum/). The contents are obtained from the following git repository:
+Les contenus du RAWeb sont placés sous licence Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/), ils contiennent une copie adaptée du [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/) édité par la [DINUM](https://www.numerique.gouv.fr/dinum/). Les contenus sont obtenus à partir du dépôt git suivant:
 [DISIC/RGAA](https://github.com/DISIC/RGAA).
 
-These contents have been adapted to the Luxembourg legal context by the [Service information et presse](https://sip.gouvernement.lu) and are listed in the [notes de révision](./notes-de-revision.md). 
+Les adaptations de ces contenus au contexte légal luxembourgeois ont été réalisées par le [Service Information et Presse](https://sip.gouvernement.lu) et sont listées dans les [notes de révision](./notes-de-revision.md). 
 
-The RGAA technical method is adapted from the RGAA 3 technical framework updated 2017 (list of criteria, glossary, special cases, technical notes, "baseline" test environment) which is itself an adapted copy of the AccessiWeb HTML5/ARIA framework - Working version of 19/12/2013 - Published by the BrailleNet association. Copyright 2013 BrailleNet Association. All rights reserved.
+La méthode technique du RGAA est adaptée du référentiel technique RGAA 3 mise à jour 2017 (liste des critères, glossaire, cas particuliers, notes techniques, environnement de tests « base de référence ») qui est lui-même une copie adaptée du référentiel AccessiWeb HTML5/ARIA - Version de travail du 19/12/2013 - Édité par l'association BrailleNet. Copyright 2013 Association BrailleNet. Tous droits réservés.

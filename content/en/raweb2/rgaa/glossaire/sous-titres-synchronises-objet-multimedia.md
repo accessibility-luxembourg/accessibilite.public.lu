@@ -1,10 +1,9 @@
 ---
-title: Synchronised captions (media object)
+title: Sous-titres synchronisés (objet multimédia)
 ---
 
-Text of audio information (a character's words, noise that is important for understanding the action, etc.) present in a time-based medium and displayed synchronously with the flow of the multimedia object.
+Texte des informations audio (paroles d’un personnage, bruit important pour comprendre l’action…) présentes dans un média temporel et affiché de manière synchrone avec le flux de l’objet multimédia.
 
-Note 1: to differentiate between audio sources (different characters, voice-over, etc.), it is recommended that an appropriate mechanism be used (bracketing, italics, explicit announcement such as "voice-over: ...").
+Note 1 : pour différencier les sources sonores (différents personnages, voix off…), il est recommandé d’utiliser un mécanisme approprié (mise entre crochets, mise en italique, annonce explicite du type “voix off : …”).
 
-Note 2: subtitling for translation (the `kind="subtitles"` attribute of the `<track>` tag in HTML5, for example) should not be confused with captioning for the deaf and hard of hearing (the `kind="captions"` attribute of the `<track>` tag in HTML5, for example). Subtitling and captioning serve different purposes. Only the presence and relevance of captions for the deaf and hard of hearing will ensure compliance.
- 
+Note 2 : il ne faut pas confondre le sous-titrage pour la traduction (attribut `kind="subtitles"` de la balise `<track>` en HTML5, par exemple) et le sous-titrage pour sourds et malentendants (attribut `kind="captions"` de la balise `<track>` en HTML5, par exemple). Ces deux types de sous-titrage poursuivent des buts différents. Seule la présence et la pertinence d’un sous-titrage pour sourds et malentendants permet d’être conforme.

@@ -1,9 +1,9 @@
 ---
-title: Header region
+title: Zone d’en-tête
 ---
 
-Area at the top of the document generally containing the document title, a logo, a slogan, etc
+Zone située en haut du document et contenant généralement le titre du document, un logo, un slogan…
 
-Note: Be careful not to confuse this header region, which is unique on the site, with any content that can be tagged in HTML5 with the `<header>` element.
+Note : Attention à ne pas confondre cette zone d’en-tête, unique dans le site, avec tout contenu pouvant être balisé en HTML5 avec l’élément `<header>`.
 
-See the technical definition provided by WAI-ARIA: [`Banner (role)`](https://www.w3.org/TR/wai-aria-1.1/#banner).
+Voir la définition technique fournie par WAI-ARIA : <span lang="en">[`Banner (role)`](https://www.w3.org/TR/wai-aria-1.1/#banner)</span>.

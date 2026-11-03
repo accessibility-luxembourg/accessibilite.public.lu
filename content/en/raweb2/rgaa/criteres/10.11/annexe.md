@@ -1,8 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 1.4.10
-    title: Reflow
-    level: AA
+EN301549-V4: 9.1.4.10
+WCAG: 1.4.10
+RAWEB1.1: 10.11
 Techniques:
   - C31
   - C32
@@ -12,25 +11,25 @@ Techniques:
   - C38
   - F102
   - G206
-Norm:
-  - criterion: 9.1.4.10
-    title: Reflow
+  - G224
+  - G225
+ACT: 18
 ---
 
-#### Special cases
+#### Cas particuliers
 
-The aim of this criterion is to guarantee scrolling in a single direction for easier reading in the direction of writing.
+L’objectif de ce critère est de garantir un défilement dans une unique direction pour une lecture facilitée selon le sens de l’écriture.
 
-The exception to this criterion is content whose layout requires two dimensions to be understood or used, such as
+Le critère ne s'applique pas aux contenus dont l’agencement requiert deux dimensions pour être compris ou utilisés comme :
 
-- Images, graphics or videos;
-- Games (platform games, for example);
-- Presentations (such as slideshows);
-- Data tables;
-- Interfaces where a horizontal scrollbar is required when manipulating the interface.
+- Les images, les graphiques ou les vidéos ;
+- Les jeux (jeux de plateforme, par exemple) ;
+- Les présentations (type diaporama, par exemple) ;
+- Les tableaux de données ;
+- Les interfaces où il est nécessaire d’avoir un ascenseur horizontal lors de la manipulation de l’interface.
 
-Note: the majority of browsers on mobile operating systems (Android, iOS) do not correctly manage redistribution in the event of zooming. In this context, the criterion will be considered inapplicable in these environments.
+Note : la majorité des navigateurs sur les systèmes d’exploitation sur mobile (Android, iOS) ne gère pas correctement la redistribution en cas de zoom. Dans ce contexte, le critère sera considéré comme non applicable sur ces environnements.
 
-#### Technical note
+#### Note technique
 
-The pixel referred to here is the CSS pixel as defined by the W3C https://www.w3.org/TR/css3-values/
+Lorsqu’il est ici question de pixel, il s’agit du [pixel CSS tel que défini par le W3C](https://www.w3.org/TR/css3-values/). 

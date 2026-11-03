@@ -1,5 +1,5 @@
 ---
-title: Sudden change in brightness or blinking
+title: Changement brusque de luminosité ou effet de flash
 ---
 
-Alternation of relative luminance which can cause seizures in some people if they are large enough in a specific frequency range.
+Alternance de luminance relative qui peut causer des crises chez certaines personnes si leur taille est suffisamment importante dans une gamme de fréquences spécifiques.

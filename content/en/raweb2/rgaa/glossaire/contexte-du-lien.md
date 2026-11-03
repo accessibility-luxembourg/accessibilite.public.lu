@@ -1,16 +1,16 @@
 ---
-title: Link context
+title: Contexte du lien
 ---
 
-The link context represents the additional information (referred to as context information) that can be related by a computer program to the [accessible name of a link](#accessible-name-of-a-link). The contextual information used to complete the [accessible name of a link](#accessible-name-of-a-link) is as follows:
+Le contexte du lien représente les informations supplémentaires (on parle d’informations de contexte) qui peuvent être mises en relation par un programme informatique avec le [nom accessible du lien](#nom-accessible-de-lien). Les informations de contexte qui permettent de compléter le nom accessible du lien sont les suivantes :
 
-- The content of the sentence in which the text link is present;
-- The content of the paragraph (`<p>` tag) in which the text link is present;
-- The content of the list item (`<li>` tag) or the content of a parent list item (`<li>` tag) in which the text link is present;
-- The content of the title (`<hx>` tag) preceding the text link;
-- The content of the table header cell(s) (`<th>` tag(s)) associated with the data cell (`<td>` tag) in which the text link is present;
-- The content of the data cell (`<td>` tag) in which the text link is present.
+- Le contenu de la phrase dans laquelle le lien texte est présent ;
+- Le contenu du paragraphe (balise `<p>`) dans lequel le lien texte est présent ;
+- Le contenu de l’item de liste (balise `<li>`) ou le contenu d’un item de liste parent (balise `<li>`) dans lequel le lien texte est présent ;
+- Le contenu du titre (balise `<hx>`) précédent le lien texte ;
+- Le contenu de la ou les cellule(s) d’en-tête de tableau (balise(s) `<th>`) associée(s) à la cellule de donnée (balise `<td>`) dans laquelle le lien texte est présent ;
+- Le contenu de la cellule de donnée (balise `<td>`) dans laquelle le lien texte est présent.
 
-Note 1: One of the 6 link contexts combined with the [accessible name of a link](#accessible-name-of-a-link) should make it possible to understand the function and destination of the link.
+Note 1 : l’un des 6 contextes de lien combiné à le nom accessible du lien doit permettre de comprendre la fonction et la destination du lien.
 
-Note 2: RAWeb considers that an e-mail address of the type `xxx@xxx.yyy` is a sufficient link text to understand the function of the link and does not require the action to be indicated more explicitly.
+Note 2 : RAWeb considère qu’une adresse e-mail de type `xxx@xxx.yyy` est un texte de lien suffisant pour comprendre la fonction du lien et ne requiert pas de signaler plus explicitement l’action.

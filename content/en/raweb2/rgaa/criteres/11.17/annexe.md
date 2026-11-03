@@ -9,5 +9,5 @@ Techniques:
   - G85
   - G139
   - SCR18
-  - SCR32
+  - SCR32 
 ---

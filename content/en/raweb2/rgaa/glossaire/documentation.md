@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-The documentation for a website or [support service](#support-service) can be
-- a help page;
-- an [accessibility statement](../obligations.html#accessibility-statement);
-- any other content that serves as documentation (PDF document, external HTML page readable in a web browser).
+La documentation d’un site web ou d’un [service d’assistance](#service-d-assistance) peut être&nbsp;:
+- une page d’aide&nbsp;;
+- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;;
+- tout autre contenu qui fait office de documentation (document PDF, page HTML externe lisible dans un navigateur web).

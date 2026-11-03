@@ -1,19 +1,19 @@
 ---
-WCAG:
-  - successCriterion: 1.4.2
-    title: Audio Control
-    level: A
+EN301549-V4: 9.1.2.2
+WCAG: 1.2.2
+RAWEB1.1: 
+  - 4.4.1[C1]
+  - 4.4.1[C2]
 Techniques:
-  - F23
-  - F93
-  - G60
-  - G170
-  - G171
-Norm:
-  - criterion: 9.1.4.2
-    title: Audio Control
+  - F8
+  - F74
+  - F75
+  - G87
+  - G93
+  - SM11
+  - SM12
 ---
 
-#### Note
+#### Cas particuliers
 
-This criterion is subject to the [non-interference principle](./methodo-test.html#non-interference-principle).
+Voir cas particuliers critère 4.1. [@@TODO revoir le numéro du critère]

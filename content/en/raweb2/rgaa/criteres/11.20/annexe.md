@@ -1,7 +1,7 @@
 ---
 WCAG: 3.3.4
 EN301549-V4: 9.3.3.4
-RAWEB1.1: 11.12
+RAWEB1.1 : 11.12
 Techniques:
   - G98
   - G99

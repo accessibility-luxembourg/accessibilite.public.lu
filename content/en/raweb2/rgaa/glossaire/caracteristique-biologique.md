@@ -1,9 +1,9 @@
 ---
-title: Biological characteristics
+title: Caractéristique biologique
 ---
 
-User identification or control methods based on biological characteristics may be, for example
+Les méthodes d’identification des utilisateurs ou de contrôle reposant sur des caractéristiques biologiques peuvent être, par exemple :
 
-- fingerprint recognition;
-- facial recognition;
-- voice recognition.
+- la reconnaissance d’empreintes digitales ;
+- la reconnaissance faciale ;
+- la reconnaissance vocale.

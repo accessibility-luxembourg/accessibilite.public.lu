@@ -1,3 +1,3 @@
 ---
-title: On each web page, are the colours used in the [user interface components](#user-interface-component) or graphic element conveying information sufficiently contrasting (excluding special cases)?
+title: Dans chaque page web, le [contraste](#contraste) entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: For each web page with a [page title](#page-title), is this title relevant?
+title: Chaque page web a-t-elle un [titre de page](#titre-de-page) ?
 ---

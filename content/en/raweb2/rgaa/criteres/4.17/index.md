@@ -1,3 +1,3 @@
 ---
-title: For each pre-recorded [time-based media](#time-based-media-audio-video-and-synchronised), is the presentation of captions controllable by the user (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise), la présentation des sous-titres est-elle contrôlable par l’utilisateur (hors cas particuliers) ?
 ---

@@ -1,21 +1,21 @@
 ---
-title: Menu and navigation bar
+title: Menu et barre de navigation
 ---
 
-A list of links for specific navigation within the site, a section or a collection of pages.
+Liste de liens permettant une navigation spécifique dans le site, dans une rubrique ou dans une collection de pages.
 
-The main navigation bars ({% crit 12.2 %}) are
+Les principales barres de navigation ({% crit 12.2 %}) sont :
 
-- A navigation menu;
-- A breadcrumb trail;
-- A navigation list for a list of results;
-- Skip links.
+- Un menu de navigation ;
+- Un fil d’ariane ;
+- Une liste de navigation d’une liste de résultats ;
+- Des liens d’évitement.
 
-There are different types of navigation menu ({% crit 12.1 %} and {% crit 12.2 %}):
+Il existe différents types de menu de navigation ({% crit 12.1 %} et {% crit 12.2 %}) :
 
-- Main navigation menu;
-- Sub-heading menu;
-- Context menu;
-- Table of contents for a set of web pages.
+- Menu de navigation principal ;
+- Menu de sous-rubrique ;
+- Menu contextuel ;
+- Table des matières concernant un ensemble de pages.
 
-Note: Footer links to the legal aspects, site map and other information about the site are not considered to be a main navigation menu.
+Note : Les liens de pied de page renvoyant vers les mentions légales, plan du site et autres informations concernant le site ne sont pas considérés comme un menu de navigation principal.

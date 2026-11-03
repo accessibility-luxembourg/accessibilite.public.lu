@@ -1,11 +1,11 @@
 ---
-title: Detailed description (image)
+title: Description détaillée (image)
 ---
 
-Content associated with an image in addition to its text alternative in order to fully describe the information conveyed by the image. The detailed description can be associated with the image via
+Contenu associé à une image en complément de son nom accessible afin de décrire en totalité l’information véhiculée par l’image. La description détaillée peut être associée à l’image via :
 
-- A reference to a detailed description adjacent to the image in the text alternative (image);
-- An [adjacent link or button](#adjacent-link-or-button) which allows you to access the detailed description on the page or on another page;
-- One or more passages of text identified by an id and linked by a WAI-ARIA `aria-describedby` attribute based on the model `aria-describedby="ID1 ID2 ID3..."`.
+- Une référence à une description détaillée adjacente à l’image dans le nom accessible ;
+- Un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) qui permet d’accéder à la description détaillée dans la page ou dans une autre page ;
+- Un ou plusieurs passages de texte identifiés par un id et liés par un attribut WAI-ARIA `aria-describedby` sur le modèle `aria-describedby="ID1 ID2 ID3…"`.
 
-Note 1: If the `aria-describedby` attribute is not supported, it is possible to use one or more passages of text identified by an `id` and linked by a WAI-ARIA `aria-labelledby` attribute following the text alternative.
+Une description détaillée est utile pour tous les utilisateurs. Une description détaillée qui ne serait pas visible à l'écran et uniquement accessible grâce à un lecteur d'écran ne pourrait être considérée comme une implémentation conforme.

@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), are the [items of the same type in a combobox](#items-of-the-same-type-in-a-combobox) grouped together in a relevant way?
+title: Chaque regroupement de [champs de même nature](#champs-de-meme-nature) a-t-il un [nom accessible](#nom-accessible-de-regroupement) ?
 ---

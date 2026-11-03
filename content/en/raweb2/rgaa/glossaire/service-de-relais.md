@@ -1,7 +1,7 @@
 ---
-title: Relay service
+title: Service de relais
 ---
 
-Relay services allow users, regardless of their mode of communication (text, sign, speech) to interact during real-time remote communication with other participants, by providing conversion between modes of communication.
+Les services de relais permettent aux utilisateurs, quel que soit leur mode de communication (le texte, les signes, la parole) d’interagir au cours d’une communication en temps réel à distance avec d’autres participants, en fournissant une conversion entre les modes de communication.
 
-For example, if a user who communicates using sign language wants to talk to someone who does not, a relay service will provide live interpreting so that they can communicate.
+Par exemple : un utilisateur qui communique avec la langue des signes veut échanger avec un interlocuteur ne la pratiquant pas, un service de relais va fournir un interprétariat en direct pour qu’ils puissent communiquer.

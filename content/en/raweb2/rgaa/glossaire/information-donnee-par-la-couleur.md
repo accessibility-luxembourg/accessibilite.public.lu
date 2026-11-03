@@ -1,13 +1,13 @@
 ---
-title: Information (provided by colour)
+title: Information donnée par la couleur
 ---
 
-Information conveyed visually through colour. The indication that fields in red are mandatory in a form, the use of a blue background to indicate the page currently being consulted in a menu with a green background, the change of colour of an item name to indicate its unavailability in a list of items are all examples of information given by colour.
+Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, l’utilisation d’un fond bleu pour indiquer la page en cours de consultation dans un menu avec le fond vert, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.
 
-When information (provided by colour) is accompanied by another method aimed at users who cannot see or perceive colours or their associations well, the criterion will be considered as not applicable.
+Lorsqu’une information donnée par la couleur est accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas ou perçoivent mal les couleurs ou leurs associations, le critère sera considéré comme non applicable.
 
-Means of conveying information other than by colour may be
+Les moyens de transmettre une information autrement que par la couleur peuvent être :
 
-- A visible text indication;
-- Means involving graphics (pictogram, background image, shape, different border style, etc.) and through a complement to the code (`aria-label`, `title`, hidden text, `aria-current`, etc.);
-- A different typographic style (bold, italic, text size, different font, etc.) and by means of a supplement in the code (`aria-label`, `title`, hidden text, `aria-current`, etc.).
+- Une indication textuelle visible ;
+- Un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) et par le biais d’un complément au niveau du code (`aria-label`, `title`, texte masqué, `aria-current`, etc.) ;
+- Un autre style typographique (gras, italique, taille de texte, autre police, etc) et par le biais d’un complément au niveau du code (`aria-label`, `title`, texte masqué, `aria-current`, etc.).

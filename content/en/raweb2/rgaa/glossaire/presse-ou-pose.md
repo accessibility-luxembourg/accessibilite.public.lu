@@ -1,5 +1,5 @@
 ---
-title: Pressed
+title: Pressé ou posé
 ---
 
-Corresponds to JavaScript event handlers considered as down events (`mousedown`, `touchstart` for example).
+Correspond aux gestionnaires d’événement JavaScript considérés comme des événements descendants (`mousedown`, `touchstart` par exemple).

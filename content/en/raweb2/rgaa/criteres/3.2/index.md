@@ -1,3 +1,3 @@
 ---
-title: On each web page, is the [contrast](#contrast) between the colour of the text and the colour of its background sufficiently high (excluding special cases)?
+title: Dans chaque page web, l’[information donnée par la couleur](#information-donnee-par-la-couleur) est accompagnée d'une alternative accessible aux technologies d'assistance. Cette règle est-elle respectée ?
 ---

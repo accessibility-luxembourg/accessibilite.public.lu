@@ -2,4 +2,4 @@
 title: QVGA
 ---
 
-QVGA (Quarter Video Graphics Array) resolution is a display standard corresponding to a size of 320 pixels X 240 pixels (i.e. 76,800 pixels).
+La résolution QVGA (<em lang="en">Quarter Video Graphics Array</em>) est une norme d’affichage qui correspond à une taille de 320 pixels X 240 pixels (soit 76 800 pixels).

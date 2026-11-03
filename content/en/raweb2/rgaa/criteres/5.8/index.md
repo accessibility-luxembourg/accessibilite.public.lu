@@ -1,3 +1,3 @@
 ---
-title: Each [layout table](#layout-table) must not use elements specific to [data tables](#data-table). Is this rule respected?
+title: Pour chaque [tableau de mise en forme](#tableau-de-mise-en-forme), le contenu linéarisé reste-t-il compréhensible ?
 ---

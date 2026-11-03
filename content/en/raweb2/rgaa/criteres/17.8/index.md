@@ -1,3 +1,3 @@
 ---
-title: For each telecommunication web application, is it possible to identify the person initiating a call?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), un indicateur visuel de l’activité orale des autres participants est-il présent ?
 ---

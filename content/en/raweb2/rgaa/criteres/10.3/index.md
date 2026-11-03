@@ -1,3 +1,3 @@
 ---
-title: On each web page, does the information remain [understandable](#understandable-reading-order) when the [style sheets](#style-sheet) are deactivated?
+title: Dans chaque page web, le [contenu visible](#contenu-visible) porteur d’information est-il accessible aux technologies d’assistance ?
 ---

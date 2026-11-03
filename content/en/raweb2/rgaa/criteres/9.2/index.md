@@ -1,3 +1,4 @@
 ---
-title: On each web page, is the [document structure](#document-structure) consistent (excluding special cases)?
+title: Dans chaque page web, le contenu de chaque [titre balisé](#titre) est-il pertinent ?
 ---
+

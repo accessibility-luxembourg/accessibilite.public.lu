@@ -1,3 +1,3 @@
 ---
-title: For each web application that enables [two-way voice communication](#two-way-voice-communication-web-application) and [real-time text](#real-time-text-communication), can both modes be used simultaneously?
+title: Chaque application web qui permet une [communication orale en temps réel](#application-web-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](#communication-ecrite-en-temps-reel) ?
 ---

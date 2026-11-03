@@ -1,5 +1,5 @@
 ---
-title: Data table
+title: Tableau de données
 ---
 
-A data table is a structure introduced by a `<table>` tag or when it is correctly rendered by assistive technologies by a tag with a WAI-ARIA `role="table"` attribute. This tag is used to structure information in rows and columns using data cells and header cells.
+Un tableau de données est une structure introduite par une balise `<table>` ou lorsqu’il est correctement restitué par les technologies d’assistance par une balise pourvue d’un attribut WAI-ARIA `role="table"`. Cette balise permet de structurer des informations en lignes et en colonnes via des cellules de données et des cellules d’en-têtes.

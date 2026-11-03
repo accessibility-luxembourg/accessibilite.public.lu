@@ -3,34 +3,34 @@
 		"title": "Images"
 	},
 	"2": {
-		"title": "Frames"
+		"title": "Cadres"
 	},
 	"3": {
-		"title": "Colours"
+		"title": "Couleurs"
 	},
 	"4": {
-		"title": "Multimedia"
+		"title": "Multimédia"
 	},
 	"5": {
-		"title": "Tables"
+		"title": "Tableaux"
 	},
 	"6": {
-		"title": "Links"
+		"title": "Liens"
 	},
 	"7": {
-		"title": "Scripts"
+		"title": "Composants d’interface"
 	},
 	"8": {
-		"title": "Mandatory elements"
+		"title": "Éléments obligatoires"
 	},
 	"9": {
-		"title": "Information structure"
+		"title": "Structuration de l’information"
 	},
 	"10": {
-		"title": "Presentation of information"
+		"title": "Présentation de l’information"
 	},
 	"11": {
-		"title": "Forms"
+		"title": "Formulaires"
 	},
 	"12": {
 		"title": "Navigation"
@@ -38,20 +38,19 @@
 	"13": {
 		"title": "Consultation"
 	},
-
 	"14": {
-		"title": "Documentation and accessibility features"
+		"title": "Informations sur les produits et services"
 	},
 
 	"15": {
-		"title": "Editing tools"
+		"title": "Outils d’édition"
 	},
 
 	"16": {
-		"title": "Support services"
+		"title": "Services d’assistance"
 	},
 
 	"17": {
-		"title": "Real-time communication"
+		"title": "Communication bidirectionnelle en temps réel et conversation totale"
 	}
 }

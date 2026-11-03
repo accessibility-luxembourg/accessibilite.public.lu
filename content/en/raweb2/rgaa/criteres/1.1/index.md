@@ -1,3 +1,3 @@
 ---
-title: Does each [image conveying information](#image-conveying-information) have a [text alternative](#text-alternative-image)?
+title: Chaque [image de décoration](#image-de-decoration), sans [légende](#legende-d-image), est-elle correctement ignorée par les technologies d’assistance ?
 ---

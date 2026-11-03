@@ -1,11 +1,11 @@
 ---
-title: Synchronised audio description (time-based media)
+title: Audiodescription synchronisée (média temporel)
 ---
 
-Narration added (via a sound file) to an audio track to describe important visual details that cannot be understood from the main audio track alone. The audio description must be synchronised with the time-based media by a feature of the player itself or provided by the developer, for example with JavaScript.
+Narration ajoutée (via un fichier son) à une piste sonore pour décrire les détails visuels importants qui ne peuvent être compris à partir de la piste sonore principale seulement. L’audiodescription doit être synchronisée avec le média temporel par un dispositif applicatif lié au lecteur lui-même ou fourni par le développement, par exemple avec JavaScript.
 
-Note 1: the audio description of a video provides information about actions, characters, scene changes, on-screen text and other visual content.
+Note 1 : l’audiodescription d’une vidéo fournit de l’information à propos des actions, des personnages, des changements de scènes, du texte apparaissant à l’écran et d’autres contenus visuels.
 
-Note 2: in a standard audio description, narration is added during pauses in the dialogue.
+Note 2 : dans une audiodescription standard, la narration est ajoutée durant les pauses qui existent dans le dialogue.
 
-Note 3: when all the information in the video is already given in the audio track, no additional audio description is required.
+Note 3 : lorsque toute l’information de la vidéo est déjà donnée dans la piste audio, aucune audiodescription supplémentaire n’est requise.

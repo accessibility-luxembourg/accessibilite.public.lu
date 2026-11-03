@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), is the label of each [button](#button-form) relevant (excluding special cases)?
+title: Pour chaque regroupement de [champs de même nature](#champs-de-meme-nature) ayant un [nom accessible](#nom-accessible-de-regroupement), ce nom accessible est-il pertinent ?
 ---

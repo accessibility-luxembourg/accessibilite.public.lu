@@ -1,26 +1,30 @@
 ---
-WCAG:
-  - successCriterion: 1.3.2
-    title: Meaningful Sequence
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.2.4.11
+WCAG: 2.4.11
+RAWEB1.1: N/A
 Techniques:
-  - G57
-Norm:
-  - criterion: 9.1.3.2
-    title: Meaningful Sequence
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
+  - C43
+  - F110
 ---
 
-#### Technical notes
+#### Notes techniques
 
-WAI-ARIA offers an `aria-hidden` attribute (`true` or `false`) which makes it possible to inhibit the rendering of content to assistive technologies, without affecting its visibility to user agents: content with `aria-hidden="true"` will therefore no longer be renderable but will remain visible.
+##### Note 1
 
-Unless the content controlled by `aria-hidden` is not intended to be rendered by assistive technologies, the value of the `aria-hidden` attribute must be consistent with the displayed or hidden state of the content on the screen.
+Lorsqu’un contenu d’une interface configurable peut être repositionné par l’utilisateur, alors seules les positions initiales du contenu déplaçable sont prises en compte.
 
-The HTML5 specification includes a `hidden` attribute which can be used, when the `hidden` attribute is present, to make content in the generated DOM unavailable (similar to the `type="hidden"` on a form control).
+Par exemple, un composant qui peut être déplacé par un glissé, depuis sa position initiale vers une autre position choisie par l'utilisateur sur la page, alors seule sa position initiale (définie par l'auteur) doit être évaluée.
 
-It is possible to have situations where content controlled by `hidden` or `aria-hidden` is momentarily in a state inconsistent with the displayed or hidden status of the content, for example if you want to make an element available, but its display on the screen remains dependent on a subsequent action. In this case, it is the final state of the content that must be considered.
+##### Note 2
+
+Il arrive que du contenu ouvert par l’utilisateur masque le composant qui reçoit le focus. Si l’utilisateur peut révéler le composant ayant le focus sans déplacer le focus du clavier, alors le composant ayant le focus n’est pas considéré comme masqué par du contenu créé par l’auteur et donc le critère ne s'applique pas.
+
+Par exemple : 
+
+- la touche `ESC` qui permet à l'utilisateur de masquer le contenu qui recouvre le composant qui a le focus du clavier ; 
+- les flèches de navigation qui permettent de faire défiler les éléments de la page et rendre visible le composant qui a le focus du clavier ; 
+- ou encore l'utilisation de touches permettant de mettre au premier plan le contenu où est localisé le focus du clavier.
+
+##### Note 3
+
+Ce critère évalue la visibilité du composant et non celle de l'indicateur de focus (sauf si celui-ci est intégré à l'intérieur du composant, ou que l'indicateur de focus soit une modification visuelle du composant). Le cas d'un composant recouvert par un contenu semi-transparent ou flouté n'est pas couvert par ce critère, mais par le critère 3.3/10.7 [@@TODO revoir numérotation].

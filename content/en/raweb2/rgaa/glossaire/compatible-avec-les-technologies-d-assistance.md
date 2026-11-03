@@ -1,15 +1,15 @@
 ---
-title: Compatible with assistive technologies
+title: Compatible avec les technologies d’assistance
 ---
 
-Content or feature must be compatible with assistive technologies and with the accessibility functions of browsers and other user agents via an accessibility API.
+Un contenu ou une fonctionnalité doit être compatible avec les technologies d’assistance des utilisateurs ainsi qu’avec les fonctions d’accessibilité des navigateurs et des autres agents utilisateurs via une API d’accessibilité.
 
-This concerns both the technology and its features and uses:
+Cela concerne, à la fois, la technologie, ses fonctionnalités et ses usages :
 
-- The way in which web technology is used must be compatible with assistive technologies. This means that the way the technology is used has been tested for interoperability with users of assistive technologies in the language(s) of the content;
-- The technology runs natively in widely available user agents that are, themselves, compatible with accessibility (such as HTML and CSS) or with a widely available plug-in that is, itself, compatible with accessibility.
+- La façon dont la technologie Web est utilisée doit être compatible avec les technologies d’assistance des utilisateurs. Cela signifie que la façon dont la technologie est utilisée a été testée dans une perspective d’interopérabilité avec des utilisateurs des technologies d’assistance dans la ou les langues du contenu ;
+- La technologie fonctionne de façon native dans des agents utilisateurs largement distribués qui sont, eux-mêmes, compatibles avec l’accessibilité (comme HTML et CSS) ou avec un module d’extension largement distribué qui est, lui-même, compatible avec l’accessibilité.
 
-Verifying compatibility with assistive technologies requires carrying out a number of tests specific to the technology used, for example
+La vérification de la compatibilité avec les technologies d’assistance nécessite de réaliser un certain nombre de tests spécifiques à la technologie utilisée, par exemple :
 
-- Checking the name, role, value, properties and changes of state of user interface components;
-- Checking that a user interface component is correctly rendered (by assistive technologies).
+- Vérifier le nom, le rôle, le paramétrage et les changements d’états des composants d’interface ;
+- Vérifier que la restitution d’un composant d’interface est correcte pour la ou les technologies d’assistance utilisées.

@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 7.3
-    title: User controls for captions and audio description
+EN301549-V4: 7.1.5
+RAWEB1.1: 4.18
 ---

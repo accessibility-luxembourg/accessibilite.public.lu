@@ -1,21 +1,23 @@
 ---
-title: Lists
+title: Listes
 ---
 
-A sequence of elements which can be grouped together in the form of a structured ordered, unordered or definition list. For example, the sequence of links in a navigation menu is an unordered list of links, the various steps in a procedure are an ordered list of elements, the term/description pair in a glossary is a list of descriptions. In HTML, lists use the following tags:
+Suite d’éléments pouvant être regroupés sous la forme d’une liste structurée ordonnée, non ordonnée ou de définition. Par exemple la suite des liens d’un menu de navigation est une liste de liens non ordonnée, les différentes étapes d’une procédure sont une liste d’éléments ordonnés, le couple terme/description d’un glossaire est une liste de description. 
 
-- Ordered list: `<ol>` and `<li>` tags (each element of the list is assigned an indexed marker);
-- Unordered list: `<ul>` and `<li>` tags (each item in the list is assigned an unindexed marker);
-- Description list: `<dl>`, `<dt>` (term to be described) and `<dd>` tags (description).
+En HTML, les listes utilisent les balises suivantes :
 
-Note 1: In HTML5, the `<dl>` tag no longer represents just a list of definitions, but generically any list of descriptions which may include, as a group of terms-descriptions, names and definitions, questions and answers, categories and subjects, etc.
+- Liste ordonnée : balises `<ol>` et `<li>` (chaque élément de la liste est affecté d’un marqueur indexé) ;
+- Liste non ordonnée : balises `<ul>` et `<li>` (chaque élément de la liste est affecté d’un marqueur non-indexé ;
+- Liste de description : balises `<dl>`, `<dt>` (terme à décrire) et `<dd>` (description).
 
-Note 2: It is also possible to structure lists using the WAI-ARIA attributes `role="list"` and `role="listitem"` for ordered and unordered lists.
+Note 1 : En HTML5, la balise `<dl>` ne représente plus seulement une liste de définition, mais de manière générique toute liste de description qui peut comprendre comme groupe de termes-descriptions des noms et des définitions, des questions et réponses, des catégories et des sujets, etc.
 
-Note 3: the notion of "visually grouped in the form of a list" is characterised by
+Note 2 : Il est également possible de structurer les listes à l’aide des attributs WAI-ARIA `role="list"` et `role="listitem"` pour les listes ordonnées et non ordonnées.
 
-- The presence of a visual marker making it clear that it is an unordered list, for example `-`, `•`, `*`, etc.;
-- The presence of a visual marker to indicate that it is an ordered list, e.g. a number, a Greek letter, etc.; and
-- The presence of a series of elements that visually follow on from each other, with an identical visual form, nature and function, but without directly having a visual list marker (unordered or ordered), for example a navigation menu.
+Note 3 : la notion de « regroupés visuellement sous forme de liste » se caractérise par :
 
-However, not all lists require a list structure, for example a series of terms separated by a comma.
+- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste non ordonnée par exemple `-`, `•`, `*`, etc. ;
+- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste ordonnée par exemple un chiffre, une lettre grecque, etc. ;
+- La présence d’une série d’éléments se suivant visuellement les uns les autres, avec une forme visuelle, une nature et un fonctionnement identique, mais sans avoir directement de marqueur visuel de liste (non ordonnée ou ordonnée), par exemple un menu de navigation.
+
+Attention cependant toutes les listes ne nécessitent pas obligatoirement une structure de liste, par exemple une série de termes séparés par une virgule.

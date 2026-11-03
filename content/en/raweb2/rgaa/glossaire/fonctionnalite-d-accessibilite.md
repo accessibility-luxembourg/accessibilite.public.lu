@@ -1,11 +1,11 @@
 ---
-title: Accessibility feature
+title: Fonctionnalité d’accessibilité
 ---
 
-Examples of accessibility features
+Exemples de fonctionnalité d’accessibilité&nbsp;:
 
-- a component for loading a more contrasting colour palette for users;
-- a font size enlargement component;
-- a component for accessing a simplified language version;
-- special keyboard shortcuts available for certain assistive technologies;
-- gestures or device movements that trigger features.
+- un dispositif permettant de charger une palette de couleurs plus contrastées pour les utilisateurs&nbsp;;
+- un dispositif d’agrandissement de taille des caractères&nbsp;;
+- un composant permettant d’accéder à une version en langage simplifié&nbsp;;
+- des raccourcis clavier spéciaux disponibles pour certaines technologies d’assistance&nbsp;;
+- des gestes ou mouvements d’appareil qui déclenchent des fonctionnalités.

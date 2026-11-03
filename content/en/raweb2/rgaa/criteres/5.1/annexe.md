@@ -1,15 +1,11 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
+RAWEB1.1: 5.1
 Techniques:
-  - H73
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+  - H39
 ---
 
-#### Technical notes
+#### Notes techniques
 
-The HTML specification offers several [methods for linking a summary to a table](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (table linked to a passage of text with the `aria-describedby` attribute, table grouped in a `figure` element with a summary present in a `figcaption` element or a `p` element, summary present in a `details` element contained in the `caption` element). These methods do not have sufficient support to be used at present.
+La spécification HTML propose plusieurs [méthodes pour lier un résumé à un tableau](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (tableau lié à un passage de texte avec l’attribut `aria-describedby`, tableau groupé dans un élément `<figure>` avec un résumé présent dans un élément `<figcaption>` ou un élément `<p>`, résumé présent dans un élément `<details>` contenu dans l’élément `<caption>`). Ces méthodes n’ont pas un support suffisant pour être utilisées actuellement.

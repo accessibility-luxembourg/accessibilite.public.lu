@@ -1,3 +1,3 @@
 ---
-title: For each [real-time text communication (RTT)](#real-time-text-communication) web application, the transmission time for each input unit is 500ms or less. Is this rule respected?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel) qui permet d’identifier l’activité des interlocuteurs oralisants, il est possible d’identifier l’activité de tous les interlocuteurs utilisant le texte en temps réel de manière active. Cette règle est-elle respectée ?
 ---

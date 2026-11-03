@@ -1,14 +1,14 @@
 ---
-title: Indication of data type and/or format
+title: Indication du type de données et/ou de format
 ---
 
-Text indication enabling the user to know what type of data and/or input format is required.
+Indication textuelle permettant à l’utilisateur de savoir quel est le type de donnée et/ou le format de saisie requis.
 
-Examples
+Exemples :
 
-- Email (format: you@domain.com);
-- Postcode (format: 00000);
-- Date (format: DD/MM/YYYY).
-- Amount in euros.
+- Courriel (format : vous@domaine.com) ;
+- Code postal (format : 00000) ;
+- Date (format : JJ/MM/AAAA) ;
+- Montant en euros.
 
-Important note: when the type of form input field offers an input mask, for example the `date` or `time` fields, the format indication is not necessary.
+Note importante : lorsque le type de champ de formulaire propose un masque de saisie, par exemple les champs `date` ou `time`, l’indication de format n’est pas nécessaire.

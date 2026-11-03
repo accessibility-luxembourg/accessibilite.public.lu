@@ -1,3 +1,3 @@
 ---
-title: Does each [frame](#frame) have a [frame title](#frame-title)?
+title: Chaque [cadre](#cadre) a-t-il un [nom accessible](#nom-accessible-de-cadre) ?
 ---

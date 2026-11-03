@@ -1,3 +1,3 @@
 ---
-title: In each [set of web pages](#set-of-web-pages), is the [site map page](#site-map-page) accessible from an identical functionality?
+title: Dans chaque [ensemble de pages](#ensemble-de-pages), les [mécanismes de navigation répétés](#mecanisme-de-navigation-repete) sont-ils présentés dans le même ordre relatif dans la présentation et le code source (hors cas particuliers) ?
 ---

@@ -1,9 +1,9 @@
 ---
-title: Mechanism for enabling an accessibility feature
+title: Mécanisme qui permet d’activer une fonctionnalité d’accessibilité
 ---
 
-User interface component or set of user interface components used to activate a functionality that takes into account one or more adaptation needs of the interface. For example: a button for displaying a page with the correct contrasts, or a button for increasing paragraph spacing.
+Composant d’interface ou ensemble de composants d’interface permettant d’activer une fonctionnalité qui prend en compte un ou des besoins d’adaptation de l’interface. Par exemple : un bouton permettant d’afficher une page avec des contrastes conformes ou un bouton permettant d’augmenter l’interlignage des paragraphes.
 
-We also talk about a **set of components** when, in certain interfaces, the component that enables the functionality to be activated is only made available after one or more other components have been activated. For example: a button can be used to display a modal window which itself contains a button which can be used to display a page with conforming contrasts. In this case, the button that displays the modal window **and** the button that activates the display of compliant contrasts together constitute the mechanism.
+On parle également d’**ensemble de composants** lorsque dans certaines interfaces, le composant qui permet d’activer la fonctionnalité n’est rendu disponible que depuis l’activation nécessaire préalable d’un ou plusieurs autres composants. Par exemple : un bouton permet d’afficher une fenêtre modale qui elle-même contient un bouton qui permet d’afficher une page avec des contrastes conformes. Dans ce cas, le bouton qui affiche la fenêtre modale **et** le bouton permettant d’activer l’affichage des contrastes conformes constituent à eux deux le mécanisme.
 
-This mechanism must maintain the same content and functionality as the site or page it modifies.
+Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités du site ou de la page qu’il modifie.

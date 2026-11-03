@@ -1,28 +1,8 @@
 ---
-WCAG:
-  - successCriterion: 2.5.3
-    title: Label in Name
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+WCAG: 3.3.2
+EN301549-V4: 9.3.3.2
+RAWEB1.1: 11.7
 Techniques:
-  - ARIA6
-  - ARIA9
-  - ARIA14
-  - F96
-  - G208
-  - G211
-  - H36
-  - H91
-  - ARIA16
-Norm:
-  - criterion: 9.2.5.3
-    title: Label in Name
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
+  - ARIA17
+  - H71
 ---
-
-#### Special cases
-
-For test 11.9.2, see special cases in criterion 11.2.

@@ -1,3 +1,3 @@
 ---
-title: On each web page, does each [link](#link) have an [accessible name](#accessible-name-of-a-link)?
+title: Chaque [lien](#lien) ayant un [nom accessible](#nom-accessible-de-lien), ce nom accessible est-il pertinent (hors cas particuliers) ?
 ---

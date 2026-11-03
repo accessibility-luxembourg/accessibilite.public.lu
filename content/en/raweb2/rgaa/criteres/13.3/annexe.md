@@ -1,39 +1,31 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 1.3.2
-    title: Meaningful Sequence
-    level: A
-  - successCriterion: 2.4.1
-    title: Bypass Blocks
-    level: A
-  - successCriterion: 2.4.3
-    title: Focus Order
-    level: A
-  - successCriterion: 3.1.1
-    title: Language of Page
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.2.2.2
+WCAG: 2.2.2
+RAWEB1.1: 13.8
 Techniques:
-  - F15
-  - G10
-  - G135
-Norm: all criteria of section 10 Non-web documents.
+  - F7
+  - F16
+  - F50
+  - F112
+  - G4
+  - G11
+  - G152
+  - G186
+  - G191
+  - SCR22
+  - SCR33
 ---
 
-#### Special cases
+#### Cas particuliers
 
-Special cases can be managed:
+Le critère ne s'applique pas lorsque le mouvement, le clignotement ou le défilement :
 
-- If the office files (e.g. PDF, Microsoft Office or LibreOffice documents, etc.) were published before 23 September 2018 on a website of a public sector body subject to the law of [28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) (unless this content is necessary for the needs of active administrative processes concerning tasks carried out by the public sector body concerned), they are exempt from the accessibility obligation.
+- a une durée inférieure ou égale à 5 secondes ; 
+- est un élément essentiel au bon déroulement ou à la compréhension d’une fonctionnalité ;
+- fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression (ou <em lang="en">loader</em>) dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement.
 
-In this situation, the criterion is not applicable.
+#### Note
 
-In the case of PDF documents, if there is no accessible alternative version, they must comply with the [PDF accessibility assessment framework (RAPDF)](../rapdf1.1/index.html).
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).
+
+Si un clignotement se produit à une fréquence supérieure à 3 fois par seconde, il serait également considéré comme un flash. Les critères XX [@@todo numérotation] sont également concernés.

@@ -1,7 +1,7 @@
 ---
-title: Modify or cancel data and carried out actions
+title: Modifier ou annuler les données et les actions effectuées
 ---
 
-Procedures by which a user can modify the data they have entered, have their entry cancelled or have the actions resulting from their entry cancelled, for example cancelling an order or a bank transfer.
+Procédés par lesquels un utilisateur peut modifier les données qu’il a saisies, faire annuler sa saisie ou faire annuler les actions découlant de sa saisie par exemple annuler une commande ou un virement bancaire.
 
-Note: The page containing a form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, must explicitly indicate the period during which the user can request the cancellation of their input. It must also contain the procedure for cancelling the entry. This procedure does not have to be available online, although it is recommended.
+Note : La page contenant un formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou un examen, ou dont la validation a des conséquences financières ou juridiques, doit indiquer explicitement la durée pendant laquelle l’utilisateur peut demander l’annulation de sa saisie. Elle devra également contenir la procédure à effectuer pour annuler cette saisie. Cette procédure n’a pas à être obligatoirement réalisable en ligne même si cela reste recommandé.

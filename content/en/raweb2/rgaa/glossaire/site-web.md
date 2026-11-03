@@ -1,14 +1,14 @@
 ---
-title: Website
+title: Site web
 ---
 
-Set of all web pages
+Ensemble de toutes les pages web :
 
-- Connected by web links;
-- Belonging to the same domain name (e.g. design.numerique.gouv.fr);
-- Which form a coherent whole from the user's point of view.
+- Reliées par des liens web ;
+- Appartenant au même nom de domaine (ex : design.numerique.gouv.fr) ;
+- Qui constituent un ensemble cohérent du point de vue de l’utilisateur.
 
-Special case of web pages in a sub-domain; a sub-domain can
+Cas particulier des pages web d’un sous-domaine ; un sous-domaine peut :
 
-- Either belong to the website attached to the domain name, if the user perceives them to be consistent with the other pages of the website (for example: same structure, same navigation, etc.);
-- Or not belong to the website attached to the domain name (for example: different blogs in the sub-domain of a domain name and unrelated to each other).
+- Soit appartenir au site web attaché au nom de domaine, si l’utilisateur en a une perception cohérente avec les autres pages du site web (par exemple : même structure, même navigation…) ;
+- Soit ne pas appartenir au site web attaché au nom de domaine (par exemple : différents blogs en sous-domaine d’un nom de domaine et sans relation les uns avec les autres).

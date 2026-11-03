@@ -1,3 +1,3 @@
 ---
-title: On each web page, is every moving or blinking content [controllable](#control-moving-or-blinking-content) by the user (excluding special cases)?
+title: Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?
 ---

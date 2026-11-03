@@ -1,5 +1,5 @@
 ---
-title: Font size
+title: Taille des caractères
 ---
 
-Value assigned to the fonts on a web page.
+Valeur attribuée aux polices de caractères présentes sur une page web.

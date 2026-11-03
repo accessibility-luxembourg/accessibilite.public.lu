@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), does each group of [related form controls](#related-form-controls) have a [legend](#legend)?
+title: Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) ayant la même fonction et répété plusieurs fois dans une même page ou dans un [ensemble de pages](#ensemble-de-pages) est-il [cohérent](#noms-accessibles-et-intitules-visibles-coherents) ?
 ---

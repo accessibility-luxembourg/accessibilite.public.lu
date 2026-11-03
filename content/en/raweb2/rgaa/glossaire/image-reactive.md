@@ -1,8 +1,8 @@
 ---
-title: Image map
+title: Image réactive
 ---
 
-- Client-side image map (`usemap` attribute): image divided into clickable or neutral areas (`nohref` attribute);
-- Server-side image map (`ismap` attribute): image for which the browser transmits the coordinates of the pointer to the server, each set of coordinates corresponding to a resource (web page). Server-side image maps are extremely rare.
+- Image réactive côté client (attribut `usemap`) : image divisée en zones cliquables ou neutres (attribut `nohref`) ;
+- Image réactive côté serveur (attribut `ismap`) : image pour laquelle le navigateur transmet au serveur les coordonnées du pointeur, chaque jeu de coordonnées correspondant à une ressource (page web). L’image réactive côté serveur est extrêmement rare.
 
-Note: in HTML5, the `ismap` attribute is obsolete and non-compliant for `image` type buttons (`input type="image"`).
+Note : en HTML5, l’attribut `ismap` est obsolète et non conforme pour les boutons de type `image` (`input type="image"`).

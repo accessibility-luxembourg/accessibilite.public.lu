@@ -1,3 +1,3 @@
 ---
-title: Does each [complex data table](#complex-data-table) have a [summary](#summary-of-table)?
+title: Chaque [tableau de données complexe](#tableau-de-donnees-complexe) a-t-il un [résumé](#resume-de-tableau) ?
 ---

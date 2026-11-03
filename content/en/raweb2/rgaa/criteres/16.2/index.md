@@ -1,3 +1,3 @@
 ---
-title: Each [support service](#support-service) meets the communication needs of people with disabilities directly or through [a relay service](#relay-service). Is this rule respected?
+title: La [documentation](#documentation) fournie par le [service d’assistance](#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique) ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: On each web page, the [information](#information-provided-by-colour) must not be provided by colour alone. Is this rule respected?
+title: Dans chaque page web, l’[information donnée par la couleur](#information-donnee-par-la-couleur) est accompagnée d'une alternative visible qui ne repose pas sur la couleur. Cette règle est-elle respectée ?
 ---

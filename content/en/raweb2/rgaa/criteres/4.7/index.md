@@ -1,3 +1,3 @@
 ---
-title: Is each [time-based media](#time-based-media-audio-video-and-synchronised) clearly identifiable (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) pré-enregistré ayant une [audiodescription](#audiodescription-synchronisee-media-temporel) synchronisée, celle-ci est-elle pertinente ?
 ---

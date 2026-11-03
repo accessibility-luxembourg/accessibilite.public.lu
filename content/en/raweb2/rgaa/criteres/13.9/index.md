@@ -1,3 +1,3 @@
 ---
-title: On each web page, can the content be viewed in any screen orientation (portrait or landscape) (excluding special cases)?
+title: Dans chaque page web, les fonctionnalités activables par la réalisation d’actions simultanées sont-elles activables sans actions simultanées (hors cas particuliers) ?
 ---

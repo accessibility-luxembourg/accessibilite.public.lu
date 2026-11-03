@@ -1,16 +1,16 @@
 ---
-title: Accessibility information
+title: Information d’accessibilité
 ---
 
-Accessibility information is all the information (attributes, programmatic relationships, alternatives, etc.) required to make content accessible. For example: the alternative of a graphic element, the semantics of a passage of text, the title of an iframe, etc.
+Les informations d’accessibilité sont toutes les informations (attributs, relations programmatiques, noms accessibles, etc.) nécessaires pour rendre un contenu accessible. Par exemple : le nom accessible d’un élément graphique, la sémantique d’un passage de texte, le titre d’un cadre en ligne ...
 
-For example, in HTML, the `alt` attribute of an image is accessibility information.
+Par exemple, en HTML, l’attribut `alt` d’une image est une information d’accessibilité.
 
-An editing tool should have functions that allow you to define all the information needed to create accessible content, for example
+Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible, par exemple :
 
-- defining the alternative of an image or, on the contrary, declaring it decorative;
-- the ability to define section headings;
-- define the language of a passage of text;
-- define labels for form fields.
+- pouvoir définir le nom accessible d’une image ou au contraire pouvoir la déclarer décorative ;
+- pouvoir définir des titres de section ;
+- pouvoir définir la langue d’un passage de texte ;
+- pouvoir définir des noms accessibles aux champs de formulaires.
 
-All the accessibility criteria relating to the content technology in question are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For the creation of a document in PDF format, all the criteria of the [PDF accessibility assessment framework (RAPDF)](../rapdf1.1/index.html) level A and AA must be met.
+Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du RAWeb de niveau A et AA qui doivent pouvoir être respectés. Pour la création d’un document au format PDF, ce sont tous les critères du [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF)](../rapdf1.1/index.html) de niveau A et AA qui doivent pouvoir être respectés.

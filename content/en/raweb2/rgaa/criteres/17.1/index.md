@@ -1,3 +1,3 @@
 ---
-title: For each [two-way voice communication web application](#two-way-voice-communication-web-application), is the application capable of encoding and decoding this communication with a frequency range whose upper limit is at least 7,000 Hz?
+title: Pour chaque application web de [communication orale en temps réel](#application-web-de-communication-orale-bidirectionnelle) qui peut interagir avec d'autres applications de communication orale en temps réel, la documentation technique référence-t-elle les spécifications pour l'interopérabilité audio ?
 ---

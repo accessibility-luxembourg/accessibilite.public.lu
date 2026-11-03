@@ -1,30 +1,31 @@
 ---
-title: Landmarks
+title: <em lang="en">Landmarks</em>
 ---
 
-WAI-ARIA provides roles that enable navigation landmarks to be identified. These roles are very useful for screen reader users in particular, but also for keyboard navigation users who can benefit from quick navigation functions.
+Un landmark est un [rôle calculé](#role-calcule) (balise HTML ou attribut WAI-ARIA `role`). 
 
-Roles must be defined in the document according to the nature of the region (using the WAI-ARIA `role` attribute or an HTML tag with an implicit role). WAI-ARIA designates eight landmarks.
+WAI-ARIA désigne 8 landmarks permettant d’identifier des repères de navigation. Ces rôles sont très profitables aux utilisateurs de lecteurs d’écran notamment, mais également aux utilisateurs de la navigation au clavier qui peuvent ainsi bénéficier de fonctionnalités de navigation rapide.
 
-Five landmarks are used in the document structure (criterion 9.2):
+5 landmarks sont exploités dans la structure du document (critère 9.3 [@@TODO numérotation]) : 
 
-- `banner`
-- `contentinfo`
-- `main`
-- `navigation`
-- `search`
+- `banner` (`<header>` ou `role="banner"`)
+- `contentinfo` (`<footer>` ou `role="contentinfo"`)
+- `main` (`<main>` ou `role="main"`)
+- `navigation` (`<nav>` ou `role="navigation"`)
+- `search` (`<search>` ou `role="search"`)
 
-Three landmarks are available to identify other regions:
+Pour `<footer>` et `<header>`, le rôle ne sera calculé que s’ils ne sont pas inclus dans un élément ayant le rôle calculé de  `article`, `complementary`, `main`, `navigation` ou `section`.
 
-- `form` (`<form>` or `role="form"`)
-- `complementary` (`<aside>` or `role="complementary"`)
-- `region` (`<section>` or `role="region"`).
+3 landmarks sont disponibles pour identifier d’autres régions : 
 
-`form` and `region` landmarks are only identified as navigation landmarks if they have an accessible name.
+- `form` (`<form>` ou `role="form"`)
+- `complementary` (`<aside>` ou `role="complementary"`)
+- `region` (`<section>` ou `role="region"`).
 
-See the <a href="https://www.w3.org/TR/wai-aria-1.1/#landmark_roles">Landmark Roles</a> section in the documentation.
+Les landmarks `form` et `region` ne sont identifiés comme repère de navigation que s’ils possèdent un nom accessible.
 
-Note 1: Given the variable support for `form`, `complementary` and `region` landmarks, if they are used on the page as navigation landmarks, they must be tested for navigation and rendering in the test environment.
+Voir la section [Landmark Roles](https://www.w3.org/TR/wai-aria-1.2/#landmark_roles) dans la documentation.
 
-Note 2: It is not mandatory to identify navigation landmarks other than those required by criterion 9.2 if the context does not require it. For example, it is not mandatory to identify all forms with a `form` element, but only if a more or less complex navigation context (e.g. application) would require more navigation landmarks than already required by criterion 9.2.
+Note 1 : compte tenu du support variable des landmarks `form`, `complementary` et `region`, s’ils sont utilisés dans la page en tant que repères de navigation, ils devront faire l’objet de tests de navigation et de restitution sur l’environnement de test.
 
+Note 2 : au critère 12.6 [@@todo numérotation], il n’est pas obligatoire d’identifier des repères de navigation autre que ceux requis par le critère 9.3 [@@todo numérotation] si le contexte ne le nécessite pas. Par exemple, il n’est pas obligatoire d’identifier tous les formulaires avec un élément `form`, mais seulement si un contexte de navigation plus ou moins complexe (applicatif par exemple) nécessiterait d’offrir plus de repères de navigation que ne le réclame déjà le critère 9.3 [@@todo numérotation]. 

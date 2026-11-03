@@ -1,3 +1,3 @@
 ---
-title: For each web page, can the content be presented without any loss of information or functionality and without having to scroll vertically for a window with a height of 256 px or horizontally for a window with a width of 320 px (excluding special cases)?
+title: Pour chaque page web, les contenus peuvent-ils être présentés sans perte d’information ou de fonctionnalité et sans avoir recours soit à un défilement vertical pour une fenêtre ayant une hauteur de 256 px, soit à un défilement horizontal pour une fenêtre ayant une largeur de 320 px (hors cas particuliers) ?
 ---

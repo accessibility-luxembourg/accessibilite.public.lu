@@ -1,16 +1,13 @@
 ---
-title: Accessible and operable by keyboard and any pointing device
+title: Accessible et activable par le clavier et tout dispositif de pointage
 ---
 
-- A user interface component (link, button, etc.) can be accessed from the keyboard and by any pointing device when the user can focus it either by using the pointer or the <kbd>tab</kbd> key;
-- A user interface component (link, button, etc.) can be activated from the keyboard and by any pointing device when the user can  trigger the action intended by the interface component by pressing either the pointer or the default key(s) in the user agents (e.g. <kbd>Enter</kbd>, <kbd>Space</kbd>);
-- Note: for some user interface components such as sliders (sliding or rotating knobs, etc.), it is not possible to control the component using the enter key alone. In these situations, other keys (such as arrow keys) can be used. In particular, for elements with a WAI-ARIA role corresponding to a design pattern, it is recommended to consider the document [WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/) when implementing them.
+- Un composant d’interface (lien, bouton…) est accessible au clavier et par tout dispositif de pointage lorsque l’utilisateur peut prendre, indifféremment, le focus par un pointeur ou la touche tabulation ;
+- Un composant d’interface (lien, bouton…) est activable au clavier et par tout dispositif de pointage lorsque l’utilisateur peut enclencher, indifféremment, l’action prévue par le composant d’interface par une pression du pointeur ou une touche du clavier (de préférence, parmi celles prévues par défaut dans les agents utilisateurs comme <kbd>Entrée</kbd>, <kbd>Espace</kbd>) ;
+- Attention : pour certains composants d’interface comme les <span lang="en">`sliders`</span> (bouton coulissant ou rotatif…), il n’est pas possible de contrôler le composant par la seule touche d’entrée. Dans ces situations, d’autres touches (comme les touches de direction) peuvent être utilisées. En particulier pour les éléments ayant un rôle WAI-ARIA correspondant à un motif de conception il est recommandé de considérer le document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)</span> lors de leur implémentation.
 
-In the framework, the expression "operable by keyboard and any pointing device" also refers to this definition.
+Dans le référentiel, l’expression « contrôlable par le clavier et tout dispositif de pointage » se rapporte également à la présente définition.
 
-Important note: the use of certain technologies may make focus management too complex or too unstable to rely solely on tab, arrow and enter keys. In this case, providing keyboard shortcuts may be the only way to make the component usable.
+Note importante : le recours à certaines technologies peut rendre la gestion du focus trop complexe ou trop instable pour ne reposer que sur la tabulation, les touches de direction et la touche entrée. Dans ce cas, la mise à disposition de raccourcis clavier peut être la seule solution pour rendre le composant utilisable.
 
-The criterion can only be considered compliant if the keyboard shortcuts used are properly documented, functional and comply with {% crit 12.10 %}.
-
-
-
+Le critère ne peut être considéré comme conforme qu’à la condition que les raccourcis clavier utilisés soient correctement documentés, qu’ils soient fonctionnels et qu’ils respectent le {% crit 12.9 %} [@@TODO numérotation].

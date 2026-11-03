@@ -1,41 +1,15 @@
 ---
-WCAG:
-  - successCriterion: 2.2.1
-    title: Timing Adjustable
-    level: A
-  - successCriterion: 2.2.2
-    title: Pause, Stop, Hide
-    level: A
+EN301549-V4: 9.2.5.4
+WCAG: 2.5.4
+RAWEB1.1: 13.12
 Techniques:
-  - F4
-  - F7
-  - F16
-  - F47
-  - F50
-  - G4
-  - G11
-  - G152
-  - G186
-  - G187
-  - G191
-  - SCR22
-  - SCR33
-  - SCR36
-  - SM11
-  - SM12
-Norm:
-  - criterion: 9.2.2.1
-    title: Timing Adjustable
-  - criterion: 9.2.2.2
-    title: Pause, Stop, Hide
+  - F106
+  - G213
 ---
 
-#### Special cases
+#### Cas particuliers
 
-When movement, blinking or scrolling is essential to the proper functioning or understanding of a feature, the criterion does not apply.
+Le critère ne s'applique pas lorsque :
 
-In some cases, movement is an integral part of the component and it is not possible to give the user control over it, for example a progress bar (or a loader) whose function is to indicate the progress of an event such as a download by means of movement. In this case, the criterion is not applicable.
-
-#### Note
-
-This criterion is subject to the [non-interference principle](./methodo-test.html#non-interference-principle).
+- le mouvement est essentiel à l’accomplissement de la fonctionnalité (ex. podomètre) ;
+- la détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.

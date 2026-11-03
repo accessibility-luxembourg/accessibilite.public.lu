@@ -1,3 +1,3 @@
 ---
-title: For each pre-recorded synchronised [time-based media](#time-based-media-audio-video-and-synchronised) that has [subtitles](#subtitles), can these be vocalised (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) disposant de sous-titres, il existe une méthode pour activer les sous-titres. Cette règle est-elle respectée ?
 ---

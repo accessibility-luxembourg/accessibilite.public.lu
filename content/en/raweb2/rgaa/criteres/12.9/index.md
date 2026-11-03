@@ -1,3 +1,3 @@
 ---
-title: On each web page, navigation must not contain any keyboard traps. Is this rule respected?
+title: Dans chaque page web, les [raccourcis clavier](#raccourci-clavier) n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?
 ---

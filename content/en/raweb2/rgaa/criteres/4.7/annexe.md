@@ -1,16 +1,16 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+WCAG: 1.2.5
+EN301549-V4: 9.1.2.5
 Techniques:
-  - G68
-  - G100
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
+  - F113
+  - G8
+  - G78
+  - G173
+  - G203
+  - G226
+  - H96
+  - SM1
+  - SM2
+  - SM6
+  - SM7
 ---
-
-#### Special cases
-
-There is special case management when [time-based media](#time-based-media-audio-video-and-synchronised) is used for decorative purposes (i.e. it does not provide any information). In this situation, the criterion does not apply.

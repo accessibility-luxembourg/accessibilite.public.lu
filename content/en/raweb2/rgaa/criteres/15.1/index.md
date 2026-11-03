@@ -1,3 +1,3 @@
 ---
-title: Does each [editing tool](#editing-tool) allow you to define the [accessibility information](#accessibility-information) needed to create content that complies with the [digital accessibility rules](#digital-accessibility-rules)?
+title: Chaque [outil d’édition](#outil-d-edition) permet-il de définir les [informations d’accessibilité](#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique) ?
 ---

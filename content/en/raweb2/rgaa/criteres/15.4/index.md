@@ -1,3 +1,3 @@
 ---
-title: For each accessibility issue identified by an automatic or semi-automatic accessibility test, does the [editing tool](#editing-tool) provide suggestions for repair?
+title: Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’[outil d’édition](#outil-d-edition) fournit-il des suggestions de réparation ?
 ---

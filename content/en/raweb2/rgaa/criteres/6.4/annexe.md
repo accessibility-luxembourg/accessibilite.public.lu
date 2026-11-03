@@ -9,8 +9,8 @@ Techniques:
 
 #### Notes techniques
 
-Le critère s'applique aux liens qui sont des instances répétées d'un même composant, c'est-à-dire les liens pour lesquels les utilisateurs peuvent s'appuyer sur des interactions précédentes pour les reconnaître. En évaluation, il faut évaluer en particulier les liens contenus dans les menus, pied de page, entêtes, pagination etc.
+Le critère s'applique aux liens qui sont des instances répétées d'un même composant, c'est-à-dire les liens pour lesquels les utilisateurs peuvent s'appuyer sur des interactions précédentes pour les reconnaître. En évaluation, il faut évaluer en particulier les liens contenus dans les menus, pied de page, entêtes, pagination etc. 
 
 Le critère n'impose pas que tous les liens qui mènent vers la même destination aient des noms accessibles cohérents.
 
-Par exemple : dans le pied de page du site, on trouve un lien qui a le nom accessible &laquo;&nbsp;Nous contacter&nbsp;&raquo;, et dans le contenu principal, on trouve un lien qui mène vers la même page avec le nom accessible &laquo;&nbsp;Envoyez-nous un message&nbsp;&raquo;. Les deux liens mènent vers la même page, mais ne font pas partie d'un même composant. Les deux noms accessibles ne sont pas cohérents, pour autant, ce n'est pas une non-conformité.
+Par exemple : dans le pied de page du site, on trouve un lien qui a le nom accessible &laquo;&nbsp;Nous contacter&nbsp;&raquo;, et dans le contenu principal, on trouve un lien qui mène vers la même page avec le nom accessible &laquo;&nbsp;Envoyez-nous un message&nbsp;&raquo;. Les deux liens mènent vers la même page, mais ne font pas partie d'un même composant. Les deux noms accessibles ne sont pas cohérents, pour autant, ce n'est pas une non-conformité. 

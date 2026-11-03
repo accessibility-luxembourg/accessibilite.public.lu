@@ -1,12 +1,12 @@
 ---
-title: Image conveying information
+title: Image porteuse d’information
 ---
 
-An image that conveys information necessary for understanding the content with which it is associated.
+Image qui véhicule une information nécessaire à la compréhension du contenu auquel elle est associée.
 
-Note 1: when the image is the only content of a link, its alternative is the link accessible name. In this case, the image alternative should be evaluated using the "Links" theme.
+Note 1 : lorsque l’image est le seul contenu d’un lien, son nom accessible constitue celui du lien. Dans ce cas, le nom accessible de l’image devrait être évalué avec la thématique « Liens ».
 
-Note 2: When a form button, inserted with the element `<button>`, contains only an image (`<img>`, `<object>`, `<embed>`, `<canvas>` or `<svg>` tag), the alternative for the image is the button accessible name. There are two possible cases:
+Note 2 : lorsqu’un bouton de formulaire, inséré avec l’élément `<button>`, ne contient qu’une image (balise `<img>`, `<object>`, `<embed>`, `<canvas>` ou `<svg>`), le nom accessible de l’image est constitue celui du bouton. Deux cas peuvent se présenter :
 
-- The button is controlled by its type, for example, the `submit` or `reset` type, and is part of a form. In this case, the image button should be evaluated using the "Forms" theme;
-- The button is controlled by a JavaScript device. In this case, the image button must be evaluated under the "Scripts" theme.
+- Le bouton est contrôlé par son type, par exemple, le type `submit` ou `reset`, et fait partie d’un formulaire. Dans ce cas, le bouton image doit être évalué avec la thématique « Formulaires » ;
+- Le bouton est contrôlé par un dispositif JavaScript. Dans ce cas, le bouton image doit être évalué avec la thématique « Composants interactifs ».

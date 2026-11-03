@@ -1,13 +1,13 @@
 ---
-title: Correctly rendered (by assistive technologies)
+title: Correctement restitué (par les technologies d’assistance)
 ---
 
-When a criterion, test or test condition requires the rendering of a device to be checked, it must be ensured that the rendering is compatible with accessibility.
+Lorsqu’un critère, un test ou une condition de test demande de vérifier la restitution d’un dispositif, il faut s’assurer que ladite restitution est compatible avec l’accessibilité.
 
-The test consists of verifying that the rendition is relevant for at least one of the combinations of the test environment (or "baseline") used to declare that an element, device or alternative is "compatible with accessibility".
+Le test consiste à vérifier que la restitution est pertinente pour au moins une des combinaisons de l’environnement de test (ou « base de référence ») utilisé pour déclarer qu’un élément, un dispositif ou une alternative est « compatible avec l’accessibilité ».
 
-For example: the {% test '1.3.8' %} asks you to check that the alternative of a bitmap image (`<canvas>` tag) conveying information is correctly rendered.
+Par exemple : le {% test '1.3.8' %} demande de vérifier que l’alternative d’une image bitmap (balise `<canvas>`) porteuse d’information est correctement restituée.
 
-A test is then carried out using the tools in the test environment defined for the site.
+On procède alors à un test avec les outils de l’environnement de test défini pour le site.
 
-If it is found that the alternative is correctly rendered, the test is validated.
+Si on constate que l’alternative est correctement restituée, le test est validé.

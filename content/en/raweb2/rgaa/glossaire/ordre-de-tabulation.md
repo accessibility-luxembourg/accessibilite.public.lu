@@ -1,7 +1,7 @@
 ---
-title: Navigation sequence
+title: Ordre de tabulation
 ---
 
-Order in which the focus moves (to the next element or to the previous element). The natural order is the one implemented in the source code. When it is modified using the `tabindex` attribute or using a JavaScript command, it is the modified order that is referred to.
+Ordre dans lequel le focus se déplace (vers un élément suivant ou vers un élément précédent). L’ordre naturel est celui qui est implémenté via le code source. Lorsqu’il est modifié par l’utilisation de l’attribut `tabindex` ou par l’utilisation d’une commande JavaScript, c’est l’ordre modifié qui fait référence.
 
-Warning: when an element initiates a change in the page (change of context, management of hidden zones, addition of content, management of form fields, etc.), the element initiating the change must be activated in order to test the consistency of the navigation sequence.
+Attention : lorsqu’un élément initie un changement dans la page (changement de contexte, gestion de zones cachées, ajout de contenu, gestion de champs de formulaire…), il est nécessaire d’activer l’élément qui initie le changement pour tester la cohérence de l’ordre de tabulation.

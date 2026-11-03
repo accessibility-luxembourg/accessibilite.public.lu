@@ -1,3 +1,3 @@
 ---
-title: Does each [image conveying information](#image-conveying-information) have, if necessary, a [detailed description](#detailed-description-image)?
+title: Chaque image [porteuse d’information](#image-porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](#description-detaillee-image) ?
 ---

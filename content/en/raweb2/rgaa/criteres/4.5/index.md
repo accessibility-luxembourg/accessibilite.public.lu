@@ -1,3 +1,3 @@
 ---
-title: Does each pre-recorded [time-based media](#time-based-media-audio-video-and-synchronised) have, if necessary, a synchronised [audio description](#synchronised-audio-description-time-based-media) (excluding special cases)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant une [transcription textuelle](#transcription-textuelle-media-temporel) ou une [audiodescription](#audiodescription-synchronisee-media-temporel) synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?
 ---

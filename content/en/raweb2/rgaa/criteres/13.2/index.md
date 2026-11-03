@@ -1,3 +1,3 @@
 ---
-title: On each web page, the opening of a new window must not be triggered without user action. Is this rule respected?
+title: Pour chaque page web, les [mises à jour automatiques de contenu](#mise-a-jour-automatique-de-contenu) vérifient-elles une de ces conditions (hors cas particuliers) ?
 ---

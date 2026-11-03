@@ -1,3 +1,3 @@
 ---
-title: On each web page, is the [navigation sequence](#navigation-sequence) [consistent](#understandable-reading-order)?
+title: Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?
 ---

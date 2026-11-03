@@ -1,3 +1,3 @@
 ---
-title: In each [set of web pages](#set-of-web-pages), is the [search engine](#search-engine-internal-to-a-website) reachable in the same way?
+title: Dans chaque [ensemble de pages](#ensemble-de-pages), les [mécanismes d'aide](#mecanisme-d-aide) se présentent-ils toujours dans le même ordre relatif dans le code source (hors cas particuliers) ?
 ---

@@ -1,5 +1,5 @@
 ---
-title: Released
+title: Relâché ou relevé
 ---
 
-Corresponds to JavaScript event handlers considered as up events (`mouseup`, `touchend` for example).
+Correspond aux gestionnaires d’événement JavaScript considérés comme des événements ascendants (`mouseup`, `touchend` par exemple).

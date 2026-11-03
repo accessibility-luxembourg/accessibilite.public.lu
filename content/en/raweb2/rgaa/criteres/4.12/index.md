@@ -1,3 +1,3 @@
 ---
-title: Is the viewing of each [non-time-based media](#non-time-based-media) [accessible and operable by keyboard and any pointing device](#accessible-and-operable-by-keyboard-and-any-pointing-device)?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé en direct ayant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia), ces sous-titres sont-ils pertinents (hors cas particuliers) ?
 ---

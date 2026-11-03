@@ -1,3 +1,3 @@
 ---
-title: On each web page, can additional content that appears using CSS styles only be made visible using the keyboard and any pointing device?
+title: Pour chaque page web, les préférences de présentation de l'utilisateur ne sont pas bloquées. Cette règle est-elle respectée ? 
 ---

@@ -1,7 +1,7 @@
 ---
-title: Control (automatically triggered sound)
+title: Contrôle (son déclenché automatiquement)
 ---
 
-Allows the user to stop or restart an automatically triggered sound.
+Possibilité pour l’utilisateur d’arrêter ou de relancer un son déclenché automatiquement.
 
-Note: the sound control method should be available as the first element on the page.
+Note : la méthode de contrôle du son devrait être disponible comme premier élément de la page.

@@ -1,16 +1,14 @@
 ---
-title: Changes of context
+title: Changement de contexte
 ---
 
-Major changes that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. 
+Changements majeurs dans le contenu d’une page web qui, s’ils sont faits sans que l’utilisateur n’en soit conscient, peuvent désorienter l’utilisateur qui ne peut voir l’ensemble de la page en même temps. Les changements de contexte comprennent les changements :
 
-Changes of context include changes of:
+- d’agent utilisateur ;
+- d’espace de restitution ;
+- de focus ;
+- de contenu qui modifie la signification de la page web.
 
-- user agent;
-- viewport;
-- focus;
-- content that changes the meaning of the web page.
+Note : Un changement de contenu n’est pas toujours un changement de contexte. Un changement dans le contenu comme le déploiement d’une arborescence, un menu dynamique ou un déplacement de tabulation ne change pas nécessairement le contexte à moins qu’il ne change aussi l’un des éléments énumérés ci-dessus (le focus, par exemple).
 
-**Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus). 
-
-**Example:** Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
+Par exemple, l’ouverture d’une nouvelle fenêtre, le déplacement du focus sur un composant différent, le déplacement vers une nouvelle page (y compris tout ce qui, pour l’utilisateur, aurait l’air d’un déplacement vers une autre page) ou la réorganisation significative du contenu d’une page sont autant d’illustrations d’un changement de contexte.

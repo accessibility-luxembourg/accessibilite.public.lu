@@ -1,3 +1,3 @@
 ---
-title: On each web page, is each [language change](#language-change) indicated in the source code (excluding special cases)?
+title: Pour chaque page web ayant un [titre de page](#titre-de-page), ce titre est-il pertinent ?
 ---

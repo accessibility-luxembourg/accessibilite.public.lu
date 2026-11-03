@@ -1,9 +1,9 @@
 ---
-title: Site map page
+title: Page « plan du site »
 ---
 
-Dedicated page presenting the tree structure of a website, generally in the form of lists of links organised into headings and sub-headings giving access to all the pages on the site.
+Page dédiée présentant l’arborescence d’un site web, généralement sous forme de listes de liens organisées en rubriques et sous-rubriques donnant accès à l’ensemble des pages du site.
 
-Note 1: Site map links can be made up of `<a>` tags or `<area>` tags.
+Note 1 : les liens du plan du site peuvent être constitués de balises `<a>` ou de balises `<area>`.
 
-Note 2: the site map does not have to contain links to all the pages on the site, but the user must be able to access all the pages on the site from the site map.
+Note 2 : il n’est pas nécessaire que le plan du site contienne les liens vers toutes les pages du site, en revanche il est nécessaire qu’à partir du plan du site, l’utilisateur puisse atteindre l’ensemble des pages du site.

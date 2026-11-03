@@ -1,3 +1,3 @@
 ---
-title: For each [data table](#data-table), is the appropriate technique used to associate each cell with its [headers](#column-or-row-header) (excluding special cases)?
+title: Pour chaque [tableau de mise en forme](#tableau-de-mise-en-forme), le rôle n'est pas présenté aux technologies d'assistance. Cette règle est-elle respectée ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: Can content grouping blocks present on several web pages (with the exception of the main regions composing the document structure) be reached or avoided, if necessary?
+title: Dans chaque [ensemble de pages](#ensemble-de-pages), chaque [zone de contenu répétée](#zone-de-contenu-repetee) peut-elle être atteinte ou évitée, si nécessaire ?
 ---

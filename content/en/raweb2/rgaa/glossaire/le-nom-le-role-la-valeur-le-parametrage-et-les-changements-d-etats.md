@@ -1,25 +1,25 @@
 ---
-title: Name, role, value, properties and changes of state
+title: Le nom, le rôle, la valeur, le paramétrage et les changements d’états
 ---
 
-A component must have an appropriate role and name. Its values, states and any parameters must also be accessible and correctly passed on to the accessibility APIs in particular.
+Un composant doit avoir un rôle et un nom appropriés. Ses valeurs, états et paramètres éventuels doivent également être accessibles et correctement transmis aux APIs d’accessibilité notamment.
 
-A component can be based on an interactive HTML element or on a non-interactive element overloaded by WAI-ARIA via an ad hoc role. Important: buttons (`<button>` or `<input type="button">` tags) when controlled via JavaScript must be evaluated with {% crit 7.1 %}.
+Un composant peut s’appuyer sur un élément interactif HTML ou sur un élément non interactif surchargé par WAI-ARIA via un rôle ad hoc. Important : les boutons (balises `<button>` ou `<input type="button">`) lorsqu’ils sont contrôlés via JavaScript sont à évaluer avec le {% crit 7.1 %}.
 
-The name is the accessible name of the component (the accessible name of a button, for example).
+Dans de nombreux cas, l'intitulé visible constitue le nom accessible du composant.
 
-The value is, for example, the selected item in a drop-down list or the current value of a cursor (`slider`).
+La valeur est, par exemple, l’élément sélectionné d’une liste déroulante ou la valeur actuelle d’un curseur (`slider`).
 
-The role corresponds to the type of element defined by the HTML or WAI-ARIA specification (such as the `<button>` tag or the WAI-ARIA `role="button"` attribute).
+Le rôle correspond au type d’élément défini par la spécification HTML ou WAI-ARIA (comme la balise `<button>` ou l’attribut WAI-ARIA `role="button"`).
 
-Properties correspond to specific information about a component, generally provided by WAI-ARIA. For example, `aria-controls` is a property that sends APIs the information that the component controls any given content (referenced by its identifier -- `id` attribute).
+Le paramétrage correspond aux informations particulières d’un composant, généralement mis à disposition par WAI-ARIA. Par exemple `aria-controls` est un paramètre qui transmet aux APIs l’information que le composant contrôle tel ou tel contenu (référencé par son identifiant -- attribut `id`).
 
-Changes of state are also made available by WAI-ARIA. For example, `aria-expanded` is a state that tells APIs whether the component is "open" or "closed". Note that a state can also be transmitted via the name, when it is dynamically changed to correspond to the state of the controlled zone in particular.
+Les changements d’état sont également mis à disposition par WAI-ARIA. Par exemple `aria-expanded` est un état permettant de signaler aux APIs que le composant est « ouvert » ou « fermé ». À noter qu’un état peut également être transmis par le nom accessible, lorsqu'il est changé dynamiquement pour correspondre à l’état de la zone contrôlée notamment.
 
-These properties are not mandatory but may be required if they are essential to make the component accessible. It is up to the auditor to consider the cases where these properties are essential, depending on the context in which the component is used.
+Ces paramètres ne sont pas obligatoires, mais peuvent être requis s’ils sont indispensables pour rendre le composant accessible. C’est à l’auditeur de considérer les cas où ces paramètres sont indispensables en fonction du contexte lié à l’utilisation du composant.
 
-The auditor must also check that, where they are present, these properties are used correctly.
+L’auditeur doit également vérifier que, lorsqu’ils sont présents, ces paramètres sont correctement utilisés.
 
-To do this (if they deem it relevant, given the context in which the components are implemented and the ergonomic choices made), they can use the WAI-ARIA usage recommendations for components with WAI-ARIA attributes corresponding to a design pattern as described in the document [WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/).
+Pour ce faire (s’il juge cela pertinent compte tenu du contexte d’implémentation des composants et des choix ergonomiques mis en œuvre) il peut s’appuyer sur les recommandations d’utilisation de WAI-ARIA pour les composants ayant des attributs WAI-ARIA correspondant à un motif de conception tel que décrit dans le document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)</span>.
 
-Note: WAI-ARIA roles, properties and states are implemented via attributes, for example `role="banner"`, `aria-hidden="true"`.
+Note : les rôles, propriétés et états WAI-ARIA s’implémentent via des attributs, par exemple `role="banner"`, `aria-hidden="true"`.

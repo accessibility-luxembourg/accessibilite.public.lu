@@ -22,6 +22,7 @@ Le critère ne s'applique pas pour :
 - Les éléments graphiques ou parties d’élément graphique dont la présentation est essentielle à l’information véhiculée (par exemple, drapeaux, logotypes, photos de personnes ou de scènes, captures d’écran, diagrammes médicaux, carte de chaleurs).
 - Les éléments graphiques ou parties d’élément graphique dynamiques dont le contraste au survol / focus est suffisant.
 
+
 #### Notes techniques
 
 Il est important de comprendre que le critère 3.3 [@@TODO numérotation] évalue uniquement les contrastes des éléments non textuels porteurs d'information. Dès qu’il s’agira d’évaluer le contraste d’un texte, même s’il est présent dans un composant d’interface, c’est le critère 3.2 [@@TODO numérotation] qui s’applique.

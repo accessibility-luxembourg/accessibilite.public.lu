@@ -1,3 +1,3 @@
 ---
-title: In each [form](#form), is each [legend](#legend) associated with a group of [related form controls](#related-form-controls) relevant?
+title: Dans chaque [formulaire](#formulaire), les [champs de même nature](#champs-de-meme-nature) sont-ils regroupés, si nécessaire ?
 ---

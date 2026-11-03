@@ -2,4 +2,4 @@
 title: Script
 ---
 
-Code generally written in the form of a list of commands (e.g. JavaScript). Client-side interpreted languages require a compatible browser on which execution of the language is active. The commands in a client-side scripting language may be embedded or contained in an external file. In both cases, they are inserted using the `<script>` tag.
+Code généralement écrit sous forme d’une liste de commandes (par exemple JavaScript). Les langages interprétés côté client nécessitent un navigateur compatible sur lequel l’exécution du langage est active. Les commandes d’un langage de script côté client peuvent être embarquées ou contenues dans un fichier externe. Dans les deux cas, l’insertion se fait via la balise `<script>`.

@@ -1,10 +1,10 @@
 ---
-title: Language code
+title: Code de langue
 ---
 
-A 2-character (ISO 639-1) or 3-character (ISO 639-2 and following) code used to indicate the language of a document or passage of text. The language code is made up of two parts separated by a hyphen on the `lang="[code]-[option]"` model.
+Code de 2 caractères (ISO 639-1) ou 3 caractères (ISO 639-2 et suivants) permettant d’indiquer la langue d’un document ou d’un passage de texte. L’indication du code de langue est constituée de deux parties séparées par un tiret sur le modèle `lang="[code]-[option]"`.
 
-- [code] represents a valid language code of 2 or 3 characters;
-- [option] is an indication left to the author's discretion.
+- [code] représente un code de langue valide sur 2 ou 3 caractères ;
+- [option] est une indication laissée à l’appréciation de l’auteur.
 
-When a country code is used as an option, it can be used to indicate a regionalisation of the language, e.g. "en-us" indicates American English. The language code indication only concerns the [code] part before the hyphen.
+Lorsqu’un code de pays est utilisé comme option, il peut servir à indiquer une régionalisation de la langue, l’indication “en-us” indique la langue américaine, par exemple. L’indication du code de langue ne concerne que la partie [code] avant le tiret.

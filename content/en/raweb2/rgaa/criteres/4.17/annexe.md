@@ -1,13 +1,11 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 7.1.4
-    title: Captions characteristics
-  - criterion: 11.7
-    title: User preferences
+EN301549-V4: 7.1.4
+RAWEB1.1: 4.17
 ---
 
+#### Cas particuliers
 
-#### Special cases
+Le critère ne s'applique pas :
 
-The criterion does not apply to <em>open</em> captions.
+- aux sous-titres incrustés (<em lang="en">open captions</em>)&nbsp;;
+- aux sous-titres dont l'apparence est gérée par les styles natifs du navigateur sans aucune modification par l’auteur.

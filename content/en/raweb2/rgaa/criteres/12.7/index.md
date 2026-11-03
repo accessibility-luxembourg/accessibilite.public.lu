@@ -1,3 +1,3 @@
 ---
-title: On each web page, is there a [bypass or skip link](#bypass-or-skip-links) to the [main content region](#main-content-region) (excluding special cases)?
+title: Dans chaque page web, l’[ordre de tabulation](#ordre-de-tabulation) est-il [cohérent](#coherent-ordre-de-lecture) ?
 ---

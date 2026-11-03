@@ -1,12 +1,12 @@
 ---
-title: Presentation of information
+title: Présentation de l’information
 ---
 
-Visual rendering of content via a browser in graphic mode. Presentation concerns the style, position and dimensions of HTML elements and their content. The presentation of information must be achieved using CSS.
-The elements (`basefont`, `big`, `blink`, `center`, `font`, `marquee`, `s`, `strike` and `tt`) and attributes (`align`, `alink`, `background`, `bgcolor`, `border`, `cellpadding`, `cellspacing`, `char`, `charoff`, `clear`, `compact`, `color`, `frameborder`, `hspace`, `link`, `marginheight`, `marginwidth`, `text`, `valign`, `vlink`, `vspace`) are prohibited.
+Restitution visuelle des contenus via un navigateur en mode graphique. La présentation concerne le style, la position et les dimensions des éléments HTML et de leur contenu. La présentation de l’information doit être réalisée via CSS.
+Les éléments (`basefont`, `big`, `blink`, `center`, `font`, `marquee`, `s`, `strike` et `tt`) et les attributs (`align`, `alink`, `background`, `bgcolor`, `border`, `cellpadding`, `cellspacing`, `char`, `charoff`, `clear`, `compact`, `color`, `frameborder`, `hspace`, `link`, `marginheight`, `marginwidth`, `text`, `valign`, `vlink`, `vspace`) sont interdits.
 
-Notes
+Notes :
 
-- The `width` and `height` attributes are prohibited except on `<canvas>`, `<embed>`, `<iframe>`, `<img>`, `<object>`, `<source>` elements, as well as `<svg>` and its children;
-- The `size` attribute used on elements other than the `<select>` element is also prohibited;
-- The `<u>` element is prohibited only if the DOCTYPE of the document does not correspond to HTML 5.
+- Les attributs `width` et `height` sont interdits sauf sur les éléments `<canvas>`, `<embed>`, `<iframe>`, `<img>`, `<object>`, `<source>`, `<svg>` et ses enfants ainsi que `<video>` ;
+- L’attribut `size` utilisé sur d’autres éléments que l’élément `<select>` est également interdit ;
+- L’élément `<u>` est interdit uniquement si le DOCTYPE du document ne correspond pas à HTML 5.

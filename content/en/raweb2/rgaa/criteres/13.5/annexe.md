@@ -1,22 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+EN301549-V4: 9.2.5.1
+WCAG: 2.5.1
+RAWEB1.1: "13.10"
 Techniques:
-  - F71
-  - F70
-  - G135
-  - H86
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
+  - F105
+  - G215
+  - G216
 ---
 
-#### Technical notes
+#### Cas particuliers
 
-If cryptic content conveying information is nested within a tag with a WAI-ARIA `role="img"` attribute, it will be evaluated against criteria 1.1 and 1.3, and criterion 13.5 will be considered not applicable.
+Le critère ne s'applique pas lorsque :
 
-If cryptic decorative content is nested within a tag with a WAI-ARIA `aria-hidden="true"` attribute, regardless of the level of nesting, it will be considered hidden from assistive technologies.
+- Le geste est requis par l’agent utilisateur ou le système d’exploitation et n'est pas modifié par l'auteur.
+- La réalisation d’un geste complexe est essentielle pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
 
-Due to the limited support for the `<abbr>` tag and the `title` attribute, providing the meaning of cryptic content with this implementation does not make the criterion compliant.
+#### Notes techniques 
+
+Le critère [13.10 @@TODO numérotation] s'intéresse aux gestes complexes, notamment les gestes qui nécessitent que le dispositif de pointage suive une trajectoire précise. À l'inverse du critère [13.2000 @@TODO numérotation] qui s'intéresse aux mouvements de glissements qui ne tiennent pas compte des trajectoires du dispositif de pointage.

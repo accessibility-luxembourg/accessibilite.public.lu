@@ -2,7 +2,7 @@
 title: Transformation
 ---
 
-Process managed automatically by the editing tool. There are two types of transformation:
+Procédé géré automatiquement par l’outil d’édition. On distingue deux types de transformation :
 
-- content restructuring: transformation during which the input format (e.g. HTML, XML...) is the same as the output one, the restructuring only modifies elements of the markup. For example: linearising a table, dividing a document into several pages.
-- content recoding: transformation during which the input format is different from the output one (e.g. HTML to XHTML, HTML to PDF). This applies in particular to editing zones that use a different syntax from that which will be used for public display.
+- des restructurations de contenus : transformation pendant laquelle la technologie d’entrée (ex. HTML, XML…) n’est pas modifiée en sortie, la restructuration modifie seulement des éléments du balisage. Par exemple : la linéarisation de tableau, le découpage d’un document en plusieurs pages.
+- des recodages de contenu : transformation pendant laquelle la technologie d’entrée est modifiée en sortie (ex. HTML vers XHTML, HTML vers PDF). Ceci concerne notamment les zones d’édition qui utilisent une syntaxe différente de celle qui sera utilisée pour l’affichage public.

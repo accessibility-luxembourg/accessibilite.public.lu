@@ -1,3 +1,3 @@
 ---
-title: On each web page, is the [visible content](#visible-content) conveying information accessible to assistive technologies?
+title: Dans chaque page web, l’ordre de restitution par les technologies d'assistance est-il [cohérent](#coherent-ordre-de-lecture) ?
 ---

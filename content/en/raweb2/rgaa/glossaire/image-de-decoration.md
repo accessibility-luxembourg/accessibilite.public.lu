@@ -1,14 +1,14 @@
 ---
-title: Decorative image
+title: Image de décoration
 ---
 
-Image with no function and conveying no particular information in relation to the content with which it is associated. 
+Image n’ayant aucune fonction et ne véhiculant aucune information particulière par rapport au contenu auquel elle est associée. 
 
-Examples
+Exemples :
 
-- An image preceding each item in a list;
-- An image used to set the page layout;
-- A rounded corner image to dress up a block of information;
-- An illustrative image that does not provide any information necessary for understanding the text to which it is associated.
+- Une image précédant chaque item d’une liste ;
+- Une image servant à caler la mise en page ;
+- Une image de coin arrondie pour habiller un bloc d’information ;
+- Une image d’illustration n’apportant aucune information nécessaire à la compréhension du texte auquel elle est associée.
 
-Note: tags with a WAI-ARIA `role="img"` attribute can only be used as decorative images if they have a WAI-ARIA `aria-hidden="true"` attribute.
+Note : les balises possédant un attribut WAI-ARIA `role="img"` ne peuvent faire office d’image de décoration qu’à la condition qu’elles possèdent un attribut WAI-ARIA `aria-hidden="true"`.

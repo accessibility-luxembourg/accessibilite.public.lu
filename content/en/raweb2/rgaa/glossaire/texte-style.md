@@ -1,5 +1,5 @@
 ---
-title: Styled text
+title: Texte stylé
 ---
 
-Text whose formatting is controlled by a style sheet.
+Texte dont la mise en forme est contrôlée par une feuille de styles.

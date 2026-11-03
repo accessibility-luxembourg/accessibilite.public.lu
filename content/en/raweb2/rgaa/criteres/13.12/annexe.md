@@ -1,19 +1,4 @@
 ---
-WCAG:
-  - successCriterion: 2.5.4
-    title: Motion Actuation
-    level: A
-Techniques:
-  - F106
-  - G213
-Norm:
-  - criterion: 9.2.5.4
-    title: Motion Actuation
+EN301549-V4: 5.3
+RAWEB1.1: 13.14
 ---
-
-#### Special cases
-
-There is a special case management when
-
-- Movement is essential to the feature (e.g. pedometer);
-- Motion detection is used to control functionality via an interface that is compatible with accessibility.

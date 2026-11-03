@@ -1,9 +1,9 @@
 ---
-title: Alternative "audio only" version
+title: Version alternative « audio seulement »
 ---
 
-An "audio only" version is an audio version, in the form of a simple file in MP3 format for example, used as an alternative to a video only (video without audio information). As the only users affected by accessibility are blind people, who cannot see the video, <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> considers it acceptable to offer an audio version as an alternative.
+Une version « audio seulement » est une version sonore, sous la forme d’un simple fichier au format MP3 par exemple, utilisée comme alternative à une vidéo seulement (vidéo sans information sonore). Les seuls utilisateurs impactés par l’accessibilité étant les personnes aveugles, qui ne peuvent pas voir la vidéo, <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr> considère comme acceptable de proposer en alternative une version sonore.
 
-The "audio only" version must contain all the important visual information in the video.
+La version « audio seulement » doit contenir toutes les informations visuelles importantes de la vidéo.
 
-It is generally easier to produce an audio version than a text version when the video is very descriptive (transcript often requires a great deal of editorial work). It should be remembered, however, that only a transcript provides universal access to the information in the video, in the event that a user is unable to launch the video, for example.
+Généralement il est plus simple de produire une version sonore qu’une version textuelle lorsque la vidéo est très descriptive (la transcription textuelle nécessitant souvent un travail rédactionnel important). Il est rappelé, néanmoins, que seule la transcription textuelle assure un accès universel aux informations diffusées par la vidéo, dans le cas où un utilisateur ne serait pas en capacité de lancer la vidéo par exemple.

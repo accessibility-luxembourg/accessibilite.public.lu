@@ -1,3 +1,3 @@
 ---
-title: For each [frame](#frame) with a [frame title](#frame-title), is this frame title relevant?
+title: Pour chaque [cadre](#cadre) ayant un [nom accessible](#nom-accessible-de-cadre), ce nom accessible est-il pertinent ?
 ---

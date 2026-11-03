@@ -1,3 +1,3 @@
 ---
-title: Does the website's [documentation](#documentation) describe the [accessibility features](#accessibility-feature) available and information relating to compatibility with accessibility?
+title: La [documentation](#documentation) du site web décrit-elle les [fonctionnalités d’accessibilité](#fonctionnalite-d-accessibilite) disponibles et les informations relatives à la compatibilité avec l’accessibilité ?
 ---

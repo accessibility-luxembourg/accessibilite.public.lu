@@ -1,9 +1,9 @@
 ---
-title: Footer region
+title: Zone de pied de page
 ---
 
-This contains information about the operation of the site or legal information. For example, you will find the legal notice, credits, terms of use, site map and possibly the accessibility page.
+Il s’agit des informations concernant le fonctionnement du site ou les informations légales. On y trouve par exemple les mentions légales, les crédits, les conditions d’utilisation, le plan du site et éventuellement la page accessibilité.
 
-Note: Be careful not to confuse this footer region, which is unique on the site, with any content that can be tagged in HTML5 with the `<footer>` element.
+Note : Attention à ne pas confondre cette zone de pied de page, unique dans le site, avec tout contenu pouvant être balisé en HTML5 avec l’élément `<footer>`.
 
-See the technical definition provided by WAI-ARIA: [`Contentinfo (role)`](https://www.w3.org/TR/wai-aria-1.1/#contentinfo).
+Voir la définition technique fournie par WAI-ARIA : <span lang="en">[`Contentinfo (role)`](https://www.w3.org/TR/wai-aria-1.1/#contentinfo)</span>.

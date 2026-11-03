@@ -1,3 +1,3 @@
 ---
-title: On each web page, are [sudden changes in brightness or blinking](#sudden-change-in-brightness-or-blinking) used correctly?
+title: Dans chaque page web, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers) ?
 ---

@@ -1,19 +1,19 @@
 ---
-title: Time-based media (audio, video and synchronised)
+title: Média temporel (type son, vidéo et synchronisé)
 ---
 
-* Time-based media audio-only: sound content (Wav, Mp3...);
-* Time-based media video-only: moving or sequenced images or photos;
-* Synchronised time-based media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
+* Média temporel seulement audio : contenu sonore (Wav, Mp3…) ;
+* Média temporel seulement vidéo : images ou photos en mouvement ou en séquence ;
+* Média temporel synchronisé : flux audio ou vidéo synchronisé avec un autre format pour présenter de l’information et/ou comportant des composants temporels interactifs. Un média temporel peut être consulté de 2 manières différentes :
 
-- Downloadable file that can be viewed with software external to the web page;
-- Content embedded in the web page which can be consulted within the web page via
-  - The `<video>` element (e.g. a video);
-  - The `<audio>` element (e.g. a podcast);
-  - The `<svg>` element (for example, a vector cartoon);
-  - The `<canvas>` element (for example, a bitmap cartoon);
-  - The `<bgsound>` element to broadcast a background sound to the web page.
+- Fichier à télécharger consultable avec un logiciel externe à la page web ;
+- Contenu embarqué dans la page web et consultable dans la page web via :
+  - L’élément `<video>` (par exemple une vidéo) ;
+  - L’élément `<audio>` (par exemple un podcast) ;
+  - L’élément `<svg>` (par exemple un dessin animé vectoriel) ;
+  - L’élément `<canvas>` (par exemple un dessin animé en image bitmap) ;
+  - L’élément `<bgsound>` pour diffuser un arrière-plan sonore à la page web.
 
-Time-based media can be broadcast in real time or offered for playback asynchronously (pre-recorded media).
+Un média temporel peut être diffusé en temps réel ou être proposé en lecture de manière asynchrone (média pré-enregistré).
 
-Note 1: animated gifs and image animations created using JavaScript or CSS are not considered to be time-based media.
+Note 1 : les gif animés, les animations d’images réalisées par JavaScript ou CSS ne sont pas considérés comme étant des médias temporels.

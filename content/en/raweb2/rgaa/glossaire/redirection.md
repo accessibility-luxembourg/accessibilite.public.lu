@@ -1,5 +1,5 @@
 ---
-title: Redirect
+title: Redirection
 ---
 
-Process which consists of redirecting the user to another page, on the same domain or on a different domain, when displaying a page on the client workstation.
+Procédé qui consiste pour l’affichage d’une page sur le poste client à rediriger l’utilisateur vers une autre page, sur le même domaine ou sur un domaine différent.

@@ -1,10 +1,10 @@
 ---
-title: Text link
+title: Lien texte
 ---
 
-In HTML, [link](#link) containing no child element of type
+En HTML, [lien](#lien) ne contenant aucun élément enfant de type :
 
-- Image (`<img>` tag or opening tag with WAI-ARIA `role="img"` attribute);
-- Object image (`<object>` tag);
-- Bitmap image (`<canvas>` tag);
-- Vector image (`<svg>` tag).
+- Image (balise `<img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
+- Image objet (balise `<object>`) ;
+- Image bitmap (balise `<canvas>`) ;
+- Image vectorielle (balise `<svg>`).
