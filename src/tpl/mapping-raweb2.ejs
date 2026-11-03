@@ -3,7 +3,7 @@
 <% } %>
 <div class="RAWebMaster">
     <table>
-        <tr><th scope="col">Critère RAWeb 2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col">Techniques WCAG</th></tr>
+        <tr><th scope="col">RAWeb&nbsp;2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col"><%= __('WCAG Techs') %></th></tr>
         <% topics.forEach(topic => {     
                 topic.criteria.forEach(crit => { 
                     critId = `crit-${topic.number}-${crit.criterium.number}`
