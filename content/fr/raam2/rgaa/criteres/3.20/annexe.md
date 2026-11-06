@@ -1,0 +1,9 @@
+---
+EN301549-V4: 7.3
+RAAM1.1: 3.14
+---
+
+#### Notes techniques 
+
+Le critère prend le contrôle du volume comme référence pour l'évaluation du positionnement des fonctionnalités d'accessibilité. 
+Dans les cas où un lecteur multimédia ne dispose pas d'un contrôle du volume, ce sont les autres [fonctionnalités principales](#fonctionnalites-principales-d-un-media-temporel) qui sont à prendre en référence (lecture, pause, stop).

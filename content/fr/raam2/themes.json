@@ -1,0 +1,48 @@
+{
+	"1": {
+		"title": "Éléments graphiques"
+	},
+	"2": {
+		"title": "Couleurs"
+	},
+	"3": {
+		"title": "Multimédia"
+	},
+	"4": {
+		"title": "Tableaux"
+	},
+	"5": {
+		"title": "Composants interactifs"
+	},
+	"6": {
+		"title": "Éléments obligatoires"
+	},
+	"7": {
+		"title": "Structuration de l’information"
+	},
+	"8": {
+		"title": "Présentation de l’information"
+	},
+	"9": {
+		"title": "Formulaires"
+	},
+	"10": {
+		"title": "Navigation"
+	},
+	"11": {
+		"title": "Consultation"
+	},
+	"12": {
+		"title": "Documentation et fonctionnalités d’accessibilité"
+	},
+	"13": {
+		"title": "Outils d’édition"
+	},
+	"14": {
+		"title": "Services d’assistance"
+	},
+
+	"15": {
+		"title": "Communication bidirectionnelle en temps réel et conversation totale"
+	}
+}

@@ -28,7 +28,7 @@ function parseReferences(file, rgaaPath, folder, topicTitle) {
     const data = parse(file, rgaaPath)
     let wcag = []
     let norm = []
-    if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta) { // new references format
+    if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta || file.indexOf('raam2') !== -1) { // new references format
 /*    example
 EN301549-V4: 9.1.1.1
 WCAG: 1.1.1
@@ -40,7 +40,11 @@ Techniques:
   - G196
   - H67
 ACT: 1
-*/      const normCriterion = String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0];
+*/      
+        let normCriterion = '7.3' // temporary fix until RAAM2 is updated with EN301549-V4 references
+        if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta) {
+            normCriterion = String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0];
+        }
         const norm = en301549.getTitle('4.1.1', normCriterion)
         result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+normCriterion, norm: norm, RAWeb2: folder, RAWeb2TopicTitle: topicTitle, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
@@ -82,7 +86,7 @@ Norm:
             } else {
                 norm = data.meta.Norm
             }
-        } 
+        }
 
         result = {'refs': { wcag, techniques: data.meta.Techniques, norm, previous: ''+data.meta['RAWEB1.1'] }, 'notes': shiftHeadingHierarchy(data.content, 1) }
     }
@@ -185,7 +189,11 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
     });
 
     for (const folder of filteredFolders) {
-        const testData = parseTests(`${CRITERIA_SOURCE}/${folder}/tests`, rgaaPath)
+        const testsPath = `${CRITERIA_SOURCE}/${folder}/tests`;
+        let testData = { tests: [], metho: [] };
+        if (fs.existsSync(testsPath)) { // tous les critères RAAM2 n'ont pas de tests, donc on ne peut pas parser les tests si le dossier n'existe pas
+            testData = parseTests(`${CRITERIA_SOURCE}/${folder}/tests`, rgaaPath)
+        }
         const RAWeb2topicTitle = Object.entries(require('../' + path + "/themes.json"))[parseInt(folder.split(".")[0]) - 1]
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath, folder, RAWeb2topicTitle[1].title)
         checkHeading(refData.notes)

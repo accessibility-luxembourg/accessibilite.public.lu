@@ -9,14 +9,17 @@ const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugi
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb1.1', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/fr/raweb2')
+const criteresRAAM2 = genNewRGAA.generateCriteria('./content/fr/raam2')
 const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/fr/raweb2', '', 'EN')
 const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
 const ACTrules = require('../content/fr/raweb2/act-rules.json')
 const WCAG2rules = require('../content/fr/raweb2/wcag2.2.json')
 const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+const dataRAAM2 = {topics: criteresRAAM2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/fr/raweb2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
+const glossaryRAAM2 = {glossary: genNewRGAA.generateGlossary('./content/fr/raam2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
 
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/fr/raweb1')
@@ -268,23 +271,25 @@ const config = {
                 {
                     "title": "RAAM 2 : Critères et tests",
                     "menu": "Critères et tests",
-                    "name": "raam2/referentiel-technique",
-                    "md": "./content/fr/raam2/referentiel-technique.md",
-                    "prefix": "../.." , 
-                    "slugify": "slugifyA42",
-                    "genSummary": "ol", 
+                    "name": "raam2/criteres",
+                    "type": "criteres",
+                    "template": "criteria-raweb2.ejs", 
+                    "data": dataRAAM2,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
                     "summaryTitle": "Thématiques"
-                }, 
+                },
                 {
                     "title": "RAAM 2 : Glossaire",
                     "menu": "Glossaire",
                     "name": "raam2/glossaire",
-                    "md": "./content/fr/raam2/glossaire.md",
-                    "prefix": "../.." ,                  
-                    "slugify": "slugifyA42", 
-                    "genSummary": "ul", 
+                    "type": "glossaire",
+                    "template": "glossary-raweb2.ejs", 
+                    "data": glossaryRAAM2,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
                     "summaryTitle": "Index"
-                },                          
+                },                      
                 {
                     "title": "RAAM 2 : Méthodologie de test",
                     "menu": "Méthodologie de test",
