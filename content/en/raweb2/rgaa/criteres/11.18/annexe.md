@@ -8,7 +8,6 @@ Techniques:
   - G85
   - G139
   - G177
-  - G199
   - SCR18
   - SCR32
 ---

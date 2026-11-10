@@ -10,6 +10,6 @@ Techniques:
   - H65
 ---
 
-#### Cas particuliers
+#### Notes techniques
 
-Le critère ne s'applique pas aux boutons `<input type="image"/>`. Ces boutons s'évaluent au {% crit 11.13 %} et au {% crit 11.14 %}.
+Les boutons `<input type="image"/>` s'évaluent au {% crit 11.13 %} et au {% crit 11.14 %}.

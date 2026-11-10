@@ -11,5 +11,5 @@ Techniques:
 
 Le critère ne s'applique pas lorsque :
 
-- le mouvement est essentiel à l’accomplissement de la fonctionnalité (ex. podomètre) ;
-- la détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.
+- Le mouvement est [essentiel](#essentiel) à l’accomplissement de la fonctionnalité (ex. podomètre).
+- La détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.

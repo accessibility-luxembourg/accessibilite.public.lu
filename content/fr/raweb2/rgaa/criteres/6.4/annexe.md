@@ -9,7 +9,7 @@ Techniques:
 
 #### Notes techniques
 
-Le critère s'applique aux liens qui sont des instances répétées d'un même composant, c'est-à-dire les liens pour lesquels les utilisateurs peuvent s'appuyer sur des interactions précédentes pour les reconnaître. En évaluation, il faut évaluer en particulier les liens contenus dans les menus, pied de page, entêtes, pagination etc. 
+Le critère s'applique aux liens qui sont des instances répétées d'un même composant, c'est-à-dire les liens pour lesquels les utilisateurs peuvent s'appuyer sur des interactions précédentes pour les reconnaître. En évaluation, il faut évaluer en particulier les liens contenus dans les menus, pied de page, en-têtes, pagination etc. 
 
 Le critère n'impose pas que tous les liens qui mènent vers la même destination aient des noms accessibles cohérents.
 

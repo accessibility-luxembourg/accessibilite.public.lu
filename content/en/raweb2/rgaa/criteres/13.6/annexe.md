@@ -12,7 +12,7 @@ Techniques:
 Le critère ne s'applique pas lorsque :
 
 - Le geste est requis par l’agent utilisateur ou le système d’exploitation et n'est pas modifié par l'auteur.
-- La réalisation d’un mouvement de glissement est essentielle pour la fonctionnalité.
+- La réalisation d’un mouvement de glissement est [essentielle](#essentiel) pour la fonctionnalité.
 
 #### Notes techniques 
 

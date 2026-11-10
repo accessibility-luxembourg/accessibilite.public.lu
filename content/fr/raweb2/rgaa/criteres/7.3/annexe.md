@@ -6,3 +6,7 @@ Techniques:
  - F31
  - G197
 ---
+
+#### Notes techniques
+
+La cohérence de l'intitulé et du nom accessible pour les liens et les champs de formulaires est évaluée avec les critères des thématiques dédiées « Liens » et « Formulaires ».

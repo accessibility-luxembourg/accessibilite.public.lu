@@ -9,6 +9,6 @@ Techniques:
 
 #### Notes techniques
 
-Les attributs WAI-ARIA `aria-labelledby` et `aria-label` sont inclus dans l'algorithme de calcul du nom accessible pour les balises `iframe`. Néanmoins, le support de ces propriétés de nommage pour les balises `iframe` n'est pas encore suffisant pour l'ensemble des combinaisons de l'environnement de test. Ces attributs ne sont donc pas considérés comme des méthodes valides par le RAWeb.
+Les attributs WAI-ARIA `aria-labelledby` et `aria-label` sont inclus dans l'algorithme de calcul du nom accessible pour les élément `iframe`. Néanmoins, le support de ces propriétés de nommage pour les élément `iframe` n'est pas encore suffisant pour l'ensemble des combinaisons de l'environnement de test. Ces attributs ne sont donc pas considérés comme des méthodes valides par le RAWeb.
 
 Ressource : <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" lang="en" hreflang="en">iframe Element Accessible Name Computation</a>

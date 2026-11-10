@@ -2,7 +2,7 @@
 title: CAPTCHA
 ---
 
-Un CAPTCHA est un test utilisé pour distinguer un utilisateur humain d’un ordinateur. 
+Test utilisé pour distinguer un utilisateur humain d’un ordinateur. 
 
 Un CAPTCHA peut utiliser des images, par exemple des images contenant du texte déformé, mélangé avec d’autres formes ou utilisant des jeux de couleurs altérées, que l’utilisateur est invité à retaper. 
 

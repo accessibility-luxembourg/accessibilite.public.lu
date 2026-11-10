@@ -18,7 +18,7 @@ Dans le cas où le nom accessible est obtenu à partir du contenu du lien, celui
 
 - Pour un lien texte : le nom accessible correspond au texte contenu dans le lien et dans ses éléments enfants.
 - Pour un lien image : le nom accessible correspond au nom accessible d’une ou plusieurs images dans le lien. Ces images peuvent être du type :
-	- Image (élément <img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
+	- Image (élément `<img>` ou balise ouvrante ayant l’attribut WAI-ARIA `role="img"`) ;
 	- Image objet (élément `<object>`) ;
 	- Image bitmap (élément `<canvas>`) ;
 	- Image vectorielle (élément `<svg>`).

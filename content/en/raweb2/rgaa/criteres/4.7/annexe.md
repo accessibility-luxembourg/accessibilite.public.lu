@@ -14,3 +14,7 @@ Techniques:
   - SM6
   - SM7
 ---
+
+#### Cas particuliers
+
+Voir les cas particuliers du {% crit 4.2 %}.

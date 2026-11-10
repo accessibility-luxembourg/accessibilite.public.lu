@@ -11,7 +11,7 @@ ACT: 12
 
 #### Cas particuliers
 
-Le critère ne s'applique pas aux tableaux de données ayant des en-têtes sur une seule ligne ou une seule colonne. Dans ces situations, les en-têtes peuvent être structurés à l’aide de balise `<th>` sans attribut `scope`.
+Le critère ne s'applique pas aux tableaux dont les en-têtes sont répartis uniquement sur la première ligne ou sur la première colonne et ne sont pas décalés d’une ou plusieurs lignes ou colonnes.
 
 #### Notes techniques
 

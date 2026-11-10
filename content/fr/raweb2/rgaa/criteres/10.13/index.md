@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [contrôle à bascule](#controle-a-bascule), son état peut-il être déterminé visuellement ?
+title: Pour chaque page web, les préférences de présentation de l'utilisateur ne sont pas bloquées. Cette règle est-elle respectée (hors cas particuliers) ? 
 ---

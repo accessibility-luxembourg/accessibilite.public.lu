@@ -8,4 +8,4 @@ Techniques:
 
 #### Cas particuliers
 
-Voir cas particuliers critère 4.1. [@@TODO revoir les numérotations dans les cas particuliers]
+Voir les cas particuliers du {% crit 4.2 %}.

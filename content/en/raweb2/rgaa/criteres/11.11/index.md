@@ -1,3 +1,3 @@
 ---
-title: Chaque [bouton de formulaire](#bouton-formulaire) a-t-il un [nom accessible](#nom-accessible-de-bouton) (hors cas particuliers) ?
+title: Chaque [bouton de formulaire](#bouton-formulaire) a-t-il un [nom accessible](#nom-accessible-de-bouton) ?
 ---

@@ -9,6 +9,8 @@ Exemples :
 - Courriel (format : vous@domaine.com) ;
 - Code postal (format : 00000) ;
 - Date (format : JJ/MM/AAAA) ;
-- Montant en euros.
+- Montant en euros ; 
+- Mot de passe (au moins 16 caractères, un chiffre, une lettre majuscule, une lettre minuscule et un caractère spécial).
+- Pseudonyme (les espaces ne sont pas autorisés).
 
 Note importante : lorsque le type de champ de formulaire propose un masque de saisie, par exemple les champs `date` ou `time`, l’indication de format n’est pas nécessaire.

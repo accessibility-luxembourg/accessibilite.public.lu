@@ -19,7 +19,7 @@ ACT: 25
 Le critère ne s'applique pas : 
 
 - Lorsque la limite de temps fait partie d'un évènement qui se déroule en temps réel (par exemple, une enchère), et qu'aucune alternative ne peut être mise en place.
-- Lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu.
+- Lorsque la limite de temps est [essentielle](#essentiel), notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu.
 - Lorsque la limite de temps est de vingt heures, au moins (pour une balise `<meta>`, valeur de `content` supérieure ou égale à `72 000`).
 - Lorsque la limite de temps est liée à des questions de sécurité (par exemple, les codes à usage unique dans le cadre des authentifications à deux facteurs). 
 - Lorsque la redirection est immédiate par exemple : 

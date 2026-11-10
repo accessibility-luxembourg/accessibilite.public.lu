@@ -2,7 +2,7 @@
 title: Motif de conception
 ---
 
-Un motif de conception <span lang="en">(Design Pattern)</span> est un modèle défini dans le document <span lang="en">[WAI-ARIA 1.1 Authoring Practices](http://www.w3.org/TR/wai-aria-practices/)</span> qui décrit la structure, les rôles et propriétés et le comportement clavier que doit respecter un composant JavaScript (widget).
+Un motif de conception <span lang="en">(Design Pattern)</span> est un modèle défini dans le document <span lang="en">[WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)</span> qui décrit la structure, les rôles et propriétés et le comportement clavier que doit respecter un composant JavaScript (widget).
 
 Il est recommandé que les composants développés en JavaScript utilisant des attributs WAI-ARIA correspondant à un motif de conception respectent celui-ci.
 Attention cependant, les motifs de conception ne sont pas tous adaptés à un usage non applicatif, en particulier pour les sites proposant un affichage en contexte mobile.

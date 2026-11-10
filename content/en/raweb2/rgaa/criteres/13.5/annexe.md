@@ -13,7 +13,7 @@ Techniques:
 Le critère ne s'applique pas lorsque :
 
 - Le geste est requis par l’agent utilisateur ou le système d’exploitation et n'est pas modifié par l'auteur.
-- La réalisation d’un geste complexe est essentielle pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
+- La réalisation d’un geste complexe est [essentielle](#essentiel) pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
 
 #### Notes techniques 
 

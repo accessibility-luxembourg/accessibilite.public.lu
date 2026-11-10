@@ -16,4 +16,4 @@ Techniques:
 
 #### Cas particuliers
 
-Voir cas particuliers critère 4.1. [@@TODO revoir le numéro du critère]
+Voir les cas particuliers du {% crit 4.2 %}.

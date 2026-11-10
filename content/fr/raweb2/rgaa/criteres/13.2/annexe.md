@@ -7,7 +7,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque la mise à jour fait partie d'une activité où elle est essentielle.
+Le critère ne s'applique pas lorsque la mise à jour fait partie d'une activité où elle est [essentielle](#essentiel).
 
 #### Note
 

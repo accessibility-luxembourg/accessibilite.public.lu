@@ -21,7 +21,7 @@ Techniques:
 Le critère ne s'applique pas lorsque le mouvement, le clignotement ou le défilement :
 
 - a une durée inférieure ou égale à 5 secondes ; 
-- est un élément essentiel au bon déroulement ou à la compréhension d’une fonctionnalité ;
+- est un élément [essentiel](#essentiel) au bon déroulement ou à la compréhension d’une fonctionnalité ;
 - fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression (ou <em lang="en">loader</em>) dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement.
 
 #### Note

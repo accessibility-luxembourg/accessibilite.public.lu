@@ -19,4 +19,4 @@ Le critère ne s'applique pas lorsque :
 - le média temporel fait partie d’un test qui deviendrait inutile si la transcription textuelle, les [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia) ou l’audiodescription étaient communiqués ;
 - le média temporel a été publié avant le 23 septembre 2020 sur un site internet d’un organisme du secteur public soumis à la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-Ce cas particulier s’applique également aux critères [4.2, 4.3, 4.5 @@TODO REVOIR LES NUMEROTATIONS.]
+Ce cas particulier s’applique également à certains des critères suivants. Ils sont rappelés à chaque critère concerné.

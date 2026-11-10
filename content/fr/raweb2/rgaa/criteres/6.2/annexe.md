@@ -20,4 +20,4 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas pour les tests 6.1.1, 6.1.2, 6.1.3 et 6.1.4 [@@todo numérotation] lorsque le lien est [ambigu pour tout le monde](#ambigu-pour-tout-le-monde), c'est-à-dire qu'il n’est pas possible de rendre le lien explicite dans son contexte.
+Le critère ne s'applique pas pour les tests 6.2.1, 6.2.2, 6.2.3 et 6.2.4 lorsque le lien est [ambigu pour tout le monde](#ambigu-pour-tout-le-monde), c'est-à-dire qu'il n’est pas possible de rendre le lien explicite dans son contexte.

@@ -21,6 +21,8 @@ Note : si l'intitulé visible représente une expression mathématique, les sym
 
 #### Notes techniques
 
+La présence de l'intitulé visible dans le nom accessible pour les liens et les champs de formulaires est évaluée avec les critères des thématiques dédiées « Liens » et « Formulaires ».
+
 Lorsque l’intitulé visible est complété par une autre expression dans le nom accessible :
 
 - WCAG insiste sur le placement de l’intitulé visible au début du nom accessible sans toutefois réserver l’exclusivité de cet emplacement ;

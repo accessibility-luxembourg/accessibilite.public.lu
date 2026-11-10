@@ -11,5 +11,5 @@ Cela concerne, à la fois, la technologie, ses fonctionnalités et ses usages :
 
 La vérification de la compatibilité avec les technologies d’assistance nécessite de réaliser un certain nombre de tests spécifiques à la technologie utilisée, par exemple :
 
-- Vérifier le nom, le rôle, le paramétrage et les changements d’états des composants d’interface ;
+- Vérifier le nom, le rôle, le paramétrage et les changements d’état des composants d’interface ;
 - Vérifier que la restitution d’un composant d’interface est correcte pour la ou les technologies d’assistance utilisées.

@@ -8,4 +8,4 @@ Les outils d’éditions collaboratifs (par exemple, les suites bureautiques en 
 
 Exemple de communication écrite en temps réel intégrée à une plateforme : <a lang="en" hreflang="en" href="https://support.apple.com/en-us/HT207033">Answer or make RTT or TTY calls from iPhone</a>.
 
-Voir [Conversation totale](#conversation-totale) : lorsque l'application qui permet la communication orale bidirectionnelle, autorise en plus simultanément l'échange vidéo et le texte en temps réel.
+Voir [Conversation totale](#conversation-totale) : lorsque l'application qui permet la communication orale bidirectionnelle autorise en plus simultanément l'échange vidéo et le texte en temps réel.
