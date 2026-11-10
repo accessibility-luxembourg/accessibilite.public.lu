@@ -9,14 +9,20 @@ const dataRAWeb11 = {topics: criteresRAWeb11.topics, md: lib.mdCriteres(), slugi
 const glossaryRAWeb11 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb1.1', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
 
 const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/en/raweb2', '', 'raweb', 'criterion')
+const criteresRAAM2 = genNewRGAA.generateCriteria('./content/en/raam2')
 const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/en/raweb2', '', 'EN')
+const criteresRAAM2sortedEN = genNewRGAA.generateCriteria('./content/en/raam2', '', 'EN')
 const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
 const ACTrules = require('../content/fr/raweb2/act-rules.json')
 const WCAG2rules = require('../content/fr/raweb2/wcag2.2.json')
 const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+const dataRAAM2 = {topics: criteresRAAM2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
+const dataRAAM2sortedEN = {topics: criteresRAAM2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)"}
 
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb2', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
+const glossaryRAAM2 = {glossary: genNewRGAA.generateGlossary('./content/en/raam2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
+
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
 const niveauxRAWeb1 = require('../content/en/raweb1/niveaux.json')
@@ -253,33 +259,36 @@ const config = {
                 {
                     "title": "RAAM 2: Criteria and tests",
                     "menu": "Criteria and tests",
-                    "name": "raam2/referentiel-technique",
-                    "md": "./content/en/raam2/referentiel-technique.md",
-                    "prefix": "../..", 
-                    "slugify": "slugifyA42",
-                    "genSummary": "ol", 
+                    "name": "raam2/criteres", 
+                    "type": "criteres",
+                    "template": "criteria-raweb2.ejs", 
+                    "data": dataRAAM2,
+                    "prefix": "../..",
+                    "genSummary": "ol",
                     "summaryTitle": "Themes"
-                }, 
+                },
+                {
+                    "title": "RAAM 2 : Criteria / EN 301 549 Norm",
+                    "menu": "Criteria / EN 301 549",
+                    "name": "raam2/criteres-en", 
+                    "type": "criteres",
+                    "template": "criteria-raweb2.ejs", 
+                    "data": dataRAAM2sortedEN,
+                    "prefix": "../.." ,
+                    "genSummary": "ul",
+                    "summaryTitle": "Thématiques"
+                },    
                 {
                     "title": "RAAM 2: Glossary",
                     "menu": "Glossary",
                     "name": "raam2/glossaire",
-                    "md": "./content/en/raam2/glossaire.md",
-                    "prefix": "../..",                   
-                    "slugify": "slugifyA42", 
-                    "genSummary": "ul", 
+                    "type": "glossaire",
+                    "template": "glossary-raweb2.ejs", 
+                    "data": glossaryRAAM2,
+                    "prefix": "../..",
+                    "genSummary": "ul",
                     "summaryTitle": "Index"
-                },                          
-                {
-                    "title": "RAAM 2: Testing methodology",
-                    "menu": "Testing methodology",
-                    "name": "raam2/methodologie",
-                    "md": "./content/en/raam2/methodologie.md",
-                    "prefix": "../..", 
-                    "slugify": "slugifyA42",
-                    "genSummary": "ol", 
-                    "summaryTitle": "Table of contents"
-                },
+                }, 
                 {
                     "title": "RAAM 2: Testing environment",
                     "menu": "Testing environment",
