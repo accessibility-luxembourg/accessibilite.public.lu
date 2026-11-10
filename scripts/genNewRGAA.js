@@ -20,6 +20,18 @@ function parse(file, rgaaPath) {
 	return {'meta': meta, 'content': content}    
 }
 
+function shortCodes(content, criterion_label) {
+    // Handle shortcodes
+    const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
+    const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
+    const url = `criteres.html`
+
+    const cleanedContent = content
+    .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
+    .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
+    return cleanedContent;
+}
+
 function parseTitle(file, rgaaPath) {
 	return parse(file, rgaaPath).meta.title
 }
@@ -162,7 +174,7 @@ function checkHeading(html) {
     }
 }
 
-function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
+function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label = "critère") {
     // Init JSON data
     let jsonData = { topics: [] };
     const criteria = [];
@@ -197,6 +209,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb') {
         const RAWeb2topicTitle = Object.entries(require('../' + path + "/themes.json"))[parseInt(folder.split(".")[0]) - 1]
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath, folder, RAWeb2topicTitle[1].title)
         checkHeading(refData.notes)
+        refData.notes = shortCodes(refData.notes, criterion_label)
         // Build all criterion properties
         const criterionObject = {
             criterium: {
@@ -311,14 +324,7 @@ function generateGlossary(path, criterion_label) {
           const $ = cheerio.load(title)
           const id = $.text().trim().normalize("NFD").replace(/[\u0300-\u036f“”"]/g, "")
 
-          // Handle shortcodes
-          const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
-          const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
-          const url = `criteres.html`
-  
-          const cleanedContent = content
-            .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
-            .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
+          cleanedContent = shortCodes(content, criterion_label)
 
         
           index = id[0]

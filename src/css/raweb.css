@@ -349,23 +349,14 @@ html, body {
   margin-left: 0.5rem;
 }
 
-.RAWebMaster details.rawebNotes h5 {
-  position: relative;
-  margin: 1rem 0;
-}
-
-.RAWebMaster details.rawebTests h5 {
+.RAWebMaster details.rawebTests h5, .RAWebMaster details.rawebTests h6 {
   position: relative;
   margin-top: 1rem;
   display: flex;
 }
 
-.RAWebMaster details.rawebTests h5 span:nth-of-type(1) {
+.RAWebMaster details.rawebTests h5 span:nth-of-type(1), .RAWebMaster details.rawebTests h6 span:nth-of-type(1) {
   height: 1rem;
-}
-
-.RAWebMaster details.rawebNotes h6 {
-  font-size: 0.9rem;
 }
 
 .RAWebMaster details h5, .accordion p, .accordion ul, .accordion ol {
@@ -373,16 +364,19 @@ html, body {
   line-height: 1.4rem !important;
 }
 
-.RAWebMaster details.rawebNotes h5 {
-  font-weight: 500 !important;
-}
-
-.RAWebMaster details h5 span.test-content {
+.RAWebMaster details h5 span.test-content, .RAWebMaster details h6 span.test-content {
   margin-left: 0.2rem;
   line-height: 1.4rem !important;
+  font-weight: 300 !important;
 }
 
-.accordion details h5 span:not(.test-content, [lang]) {
+.RAWebMaster details.rawebNotes h5, .RAWebMaster details.rawebNotes h6 {
+  position: relative;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.accordion details h5 span:not(.test-content, [lang]), .accordion details h6 span:not(.test-content, [lang]) {
   font: 400 0.8rem "Fira Sans";
   border-radius: 2px;
   padding: 0.1rem 0.1rem 0.1rem 0.2rem;
