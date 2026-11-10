@@ -32,7 +32,9 @@
                 <span class="sr-only"><%= __('Compliance level') %> </span>
                 <%
                     const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
+                <% if(ENlevel) { %>
                 <%= ENlevel.level %>
+                <% } %>
             </span>
         </h5>
     <% } else { %>
