@@ -5,4 +5,4 @@
 1. Vérifier&nbsp;:
 	- qu’un résumé est restitué lorsque le lecteur d’écran atteint le tableau&nbsp;; 
 	- ou qu’un résumé est disponible avant le tableau, sous la forme d’un texte précédant le tableau.
-1. Si c’est le cas, le critère est validé.
+1. Si c’est le cas, **le critère est validé**.

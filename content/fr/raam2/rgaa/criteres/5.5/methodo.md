@@ -1,7 +1,35 @@
-###### iOS et Android
+###### iOS
 
-1. Repérer dans l’écran les contrôles à bascule (boutons avec un ou plusieurs états, par exemple, cases à cocher, bouton radio, *switch*{lang=en}).
-1. Vérifier qu’il est possible de déterminer l’état du contrôle sur la base de sa présentation dans l’interface (par exemple, un changement de forme lorsque le contrôle passe d’un état à l’autre).
-1. Activer le **lecteur d’écran** et naviguer jusqu’au contrôle. 
-1. Vérifier que l’état du contrôle est restitué par le lecteur d’écran sans avoir à interagir avec le contrôle.
-1. Si c’est le cas, le critère est validé.
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Parcourir l’écran et repérer les contenus additionnels qui apparaissent à la prise de focus sur un composant d’interface.
+1. Vérifier que le contenu additionnel peut être masqué par une touche du clavier (la touche <kbd>ESC</kbd> par exemple).
+1. Vérifier que le contenu additionnel reste visible&nbsp;: 
+	- jusqu’à ce que le focus soit déplacé en dehors du composant d’interface et du contenu additionnel&nbsp;;
+	- ou tant que le focus est positionné sur le composant d’interface ou dans le contenu additionnel&nbsp;;
+	- ou tant que le contenu additionnel est valide. 
+1. Connecter une **souris**.
+1. Balayer l’écran avec la souris et repérer les contenus additionnels qui apparaissent au survol d’un composant d’interface.
+1. Vérifier que le contenu additionnel peut être survolé par la souris.
+1. Vérifier que le contenu additionnel reste visible&nbsp;: 
+	- jusqu’à ce que le pointeur de la souris soit déplacé en dehors du composant d’interface et du contenu additionnel&nbsp;;
+	- ou tant que le pointeur de la souris survole le composant d’interface ou le contenu additionnel&nbsp;;
+	- ou tant que le contenu additionnel est valide. 
+1. Si c’est le cas, **le critère est validé**.
+
+###### Android
+
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Parcourir l’écran et repérer les contenus additionnels qui apparaissent à la prise de focus sur un composant d’interface.
+1. Vérifier que le contenu additionnel peut être masqué par une touche du clavier (généralement la touche ou la combinaison de touches qui aura été associée dans *Switch Access*{lang=en} pour le paramètre *Retour*)
+1. Vérifier que le contenu additionnel reste visible&nbsp;: 
+	- jusqu’à ce que le focus soit déplacé en dehors du composant d’interface et du contenu additionnel&nbsp;;
+	- ou tant que le focus est positionné sur le composant d’interface ou dans le contenu additionnel&nbsp;;
+	- ou tant que le contenu additionnel est valide. 
+1. Connecter une **souris**.
+1. Balayer l’écran avec la souris et repérer les contenus additionnels qui apparaissent au survol d’un composant d’interface.
+1. Vérifier que le contenu additionnel peut être survolé par la souris.
+1. Vérifier que le contenu additionnel reste visible&nbsp;: 
+	- jusqu’à ce que le pointeur de la souris soit déplacé en dehors du composant d’interface et du contenu additionnel&nbsp;;
+	- ou tant que le pointeur de la souris survole le composant d’interface ou le contenu additionnel&nbsp;;
+	- ou tant que le contenu additionnel est valide. 
+1. Si c’est le cas, **le critère est validé**.

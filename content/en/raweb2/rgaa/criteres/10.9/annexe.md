@@ -23,6 +23,6 @@ ACT: 18
 
 Le critère ne s'applique pas aux contenus pour lesquels l’utilisateur n’a pas de possibilité de personnalisation :
 
-- Les sous-titres incrustés dans une vidéo ;
-- Les textes en image ;
-- Le texte au sein d’une balise `<canvas>`.
+- les sous-titres incrustés dans une vidéo ;
+- les textes en image ;
+- le texte au sein d’une balise `<canvas>`.

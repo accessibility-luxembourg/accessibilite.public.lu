@@ -1,6 +1,6 @@
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels.
+1. Repérer dans l’écran les médias temporels (pré-enregistrés et en direct).
 1. Vérifier que les fonctionnalités suivantes au moins sont présentes&nbsp;: 
 	- une fonctionnalité de lecture&nbsp;;
 	- une fonctionnalité de mise en pause ou d’arrêt.

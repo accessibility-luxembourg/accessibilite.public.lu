@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, chaque liste est-elle correctement structurée&nbsp;?
+title: Dans chaque écran, le contenu de chaque titre balisé est-il pertinent ?
 ---

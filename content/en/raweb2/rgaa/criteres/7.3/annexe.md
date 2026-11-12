@@ -9,4 +9,4 @@ Techniques:
 
 #### Notes techniques
 
-La cohérence de l'intitulé et du nom accessible pour les liens et les champs de formulaires est évaluée avec les critères des thématiques dédiées « Liens » et « Formulaires ».
+La cohérence des intitulés et des noms accessibles pour les liens et les champs de formulaires est évaluée avec les critères des thématiques dédiées « Liens » et « Formulaires ».

@@ -1,3 +1,3 @@
 ---
-title: Chaque [composant d’interface](#composant-d-interface) est-il [contrôlable par le clavier et tout dispositif de pointage](#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers)&nbsp;?
+title: Pour chaque [composant d’interface](#composant-d-interface) ayant un [intitulé visible](#intitule-visible) et un [nom accessible](#nom-accessible), le nom accessible reprend au moins l'intitulé visible. Cette règle est-elle respectée (hors cas particuliers)&nbsp;?
 ---

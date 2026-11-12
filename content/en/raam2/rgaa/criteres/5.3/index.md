@@ -1,3 +1,3 @@
 ---
-title: Chaque [changement de contexte](#changement-de-contexte) respecte-t-il une de ces conditions&nbsp;?
+title: Chaque [composant d’interface](#composant-d-interface) ayant la même fonction et répété plusieurs fois dans l'application est-il [cohérent](#noms-accessibles-et-intitules-visibles-coherents) ?
 ---

@@ -10,4 +10,4 @@ ACT: 5
 
 #### Notes techniques
 
-Une ancre n’est pas un lien même si pendant longtemps l’élément `<a>` a servi de support à cette technique. Elle n’est donc pas concernée par le présent critère.
+Une ancre n’est pas un lien, même si pendant longtemps l’élément `<a>` a servi de support à cette technique. Elle n’est donc pas concernée par le présent critère.

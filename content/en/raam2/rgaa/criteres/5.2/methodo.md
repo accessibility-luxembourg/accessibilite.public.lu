@@ -1,21 +1,38 @@
-Il s’agit ici de s’assurer que le composant peut être utilisé par le lecteur d’écran, le contrôle vocal, un clavier externe ou tout autre commutateur externe. On peut limiter les tests à quelques dispositifs de pointage puisque les caractéristiques nécessaires (sur les composants interactifs) sont semblables.
-
-Il est néanmoins nécessaire de tester au moins avec le lecteur d’écran et un clavier externe.
-
-Pour le clavier externe, [certains paramétrages sont nécessaires pour que le périphérique soit pleinement fonctionnel](methodologie.md#clavier-externe).
-
-###### iOS et Android
+###### iOS avec VoiceOver
 
 1. Activer le **lecteur d’écran**.
-1. Parcourir l’ensemble des composants interactifs.
-1. Vérifier&nbsp;: 
-	- qu’il peut être atteint avec le lecteur d’écran&nbsp;;
-	- qu’il peut être activé avec le lecteur d’écran. 
-1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec le lecteur d’écran.
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
-1. Parcourir l’ensemble des composants interactifs.
-1. Vérifier&nbsp;: 
-	- qu’il peut être atteint avec les touches du clavier&nbsp;;
-	- qu’il peut être activé avec la touche dédiée du clavier.
-1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec les touches du clavier.
-1. Si c’est le cas, le critère est validé.
+1. Repérer dans l’écran les composants d'interface (par exemple, bouton, lien) qui ont un intitulé visible et un nom accessible (exceptés les champs de formulaires, évalués dans une thématique dédiée).
+1. Accéder à chaque composant en utilisant les gestes du lecteur d’écran.
+1. Pour chaque composant d’interface, vérifier que le nom accessible reprend au moins l'intitulé visible.
+1. Si c’est le cas, **le critère est validé**.
+
+###### iOS Avec **Accessibility Inspector**{lang=en}
+
+1. Connecter le terminal mobile iOS à l’ordinateur avec macOS.
+1. Activer le logiciel **Accessibility Inspector**{lang=en}.
+1. Choisir le terminal mobile comme source et rester sur l’onglet &laquo;&nbsp;Inspection&nbsp;&raquo; (boutons en haut à droite).
+1. Avec les flèches de *Accessibility Inspector*{lang=en}, accéder à chaque composant d'interface ayant un intitulé visible.
+1. Pour chacun, vérifier que le nom accessible (paramètre &laquo;&nbsp;Label&nbsp;&raquo;) reprend au moins l'intitulé visible. 
+1. Si c’est le cas, **le critère est validé**.
+
+###### iOS Avec le contrôle vocal
+
+1. Activer le contrôle vocal&nbsp;: *Réglages > Accessibilité > Contrôle vocal*.
+1. Afficher les libellés des composants interactifs&nbsp;: depuis l’écran de paramètres du contrôle vocal, atteindre le bouton &laquo;&nbsp;Superposition&nbsp;&raquo; et l’activer, puis choisir &laquo;&nbsp;Noms des éléments&nbsp;&raquo;.
+1. Dorénavant, lorsque le contrôle vocal sera activé, des infobulles grises apparaîtront au-dessus des éléments interactifs qui ont des labels. À noter que si l’écran possède un très grand nombre de contrôles interactifs, les labels s’afficheront par groupes successifs (un  groupe de label disparaît et un autre apparaît).
+
+Ce qu’il faut savoir&nbsp;: seuls les éléments qui ont des rôles interactifs reconnus par l’API d’accessibilité posséderont un label. Ceci va permettre de repérer rapidement quels éléments utilisables au toucher ne sont pas reconnus par le contrôle vocal et ne sont donc pas des éléments interactifs (ce qui constitue une non-conformité).
+
+Procédure&nbsp;: 
+
+1. Repérer dans l’écran les composants d'interface (par exemple, bouton, lien) qui ont un intitulé visible et un nom accessible (exceptés les champs de formulaires, évalués dans une thématique dédiée).
+1. Pour chaque composant d’interface, vérifier que le nom accessible donné par l'infobulle grise du contrôle vocal reprend au moins l'intitulé visible.
+1. Si c’est le cas, **le critère est validé**.
+
+###### Android
+
+1. Activer le **lecteur d’écran**.
+1. Repérer dans l’écran les composants d'interface (par exemple, bouton, lien) qui ont un intitulé visible et un nom accessible (exceptés les champs de formulaires, évalués dans une thématique dédiée).
+1. Accéder à chaque composant en utilisant les gestes du lecteur d’écran.
+1. Pour chaque composant d’interface, vérifier que le nom accessible reprend au moins l'intitulé visible.
+1. Si c’est le cas, **le critère est validé**.

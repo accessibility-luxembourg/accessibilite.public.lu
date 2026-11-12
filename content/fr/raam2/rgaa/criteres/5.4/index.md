@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, les [messages de statut](#message-de-statut) sont-ils correctement restitués par les technologies d’assistance&nbsp;?
+title: Chaque [composant d’interface](#composant-d-interface) est-il [contrôlable par le clavier et tout dispositif de pointage](#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers)&nbsp;?
 ---

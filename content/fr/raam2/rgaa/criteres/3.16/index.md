@@ -1,3 +1,3 @@
 ---
-title: Chaque [média temporel](#media-temporel-type-son-video-et-synchronise) a-t-il, si nécessaire, les [fonctionnalités de contrôle de sa consultation](#controle-de-la-consultation-d-un-media-temporel)&nbsp;?
+title: Chaque [média temporel](#media-temporel-type-son-video-et-synchronise) a-t-il, si nécessaire, les [fonctionnalités de contrôle de sa consultation](#controle-de-la-consultation-d-un-media-temporel) (hors cas particuliers)&nbsp;?
 ---

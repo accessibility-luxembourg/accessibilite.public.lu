@@ -17,4 +17,4 @@ ACT: 29
 
 #### Notes techniques
 
-Ce critère évalue la présence d'un indicateur visuel de la prise de focus. Le rapport de contraste des couleurs utilisées pour cet indicateur avec les couleurs environnantes, s'évalue au critère [@@TODO num.3.3?]
+Ce critère évalue la présence d'un indicateur visuel de la prise de focus. Le rapport de contraste des couleurs utilisées pour cet indicateur avec les couleurs environnantes, s'évalue au {% crit 3.4 %}.

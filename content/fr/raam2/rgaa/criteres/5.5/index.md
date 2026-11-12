@@ -1,3 +1,3 @@
 ---
-title: Chaque état d’un [contrôle à bascule](#controle-a-bascule) présenté à l’utilisateur est-il perceptible&nbsp;?
+title: Dans chaque écran, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers)&nbsp;?
 ---

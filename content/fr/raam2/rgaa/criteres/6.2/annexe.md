@@ -1,9 +1,10 @@
 ---
-WCAG:
-- 1.3.1
-Norm:
-- 11.1.3.1.1
-APPT:
-- 1.3.1
-niveau: A
+EN301549-V4: 11.2.4.2
+WCAG: 2.4.2
+RAAM1.1: N/A
+APPT: 2.4.2
 ---
+
+#### Cas particuliers
+
+Le critère ne s'applique pas si la plateforme n'offre pas de propriété permettant de déterminer un titre d'écran.
