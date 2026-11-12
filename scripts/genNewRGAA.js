@@ -58,7 +58,13 @@ ACT: 1
             normCriterion = String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0];
         }
         const norm = en301549.getTitle('4.1.1', normCriterion)
-        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+normCriterion, norm: norm, RAWeb2: folder, RAWeb2TopicTitle: topicTitle, previous: ''+data.meta['RAWEB1.1'], act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
+        let previous = ''
+        if (data.meta['RAWEB1.1'] != undefined) {
+            previous = '' + data.meta['RAWEB1.1']
+        } else {
+            previous = '' + data.meta['RAAM1.1']
+        }
+        result = {'refs': { wcag: data.meta.WCAG, techniques: data.meta.Techniques, standard: ''+normCriterion, norm: norm, RAWeb2: folder, RAWeb2TopicTitle: topicTitle, previous: previous, act: ''+data.meta['ACT']}, 'notes': shiftHeadingHierarchy(data.content, 1) }
     } else { // old references format
 /* example 
 WCAG:

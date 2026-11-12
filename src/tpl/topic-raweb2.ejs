@@ -26,7 +26,7 @@
             <span>
                 <%= crit.criterium.references.RAWeb2 %>
             </span>
-            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>"><%= framework %> <%= crit.criterium.references.RAWeb2TopicTitle %></a>
+            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>"><%= framework %>2 <%= crit.criterium.references.RAWeb2TopicTitle %></a>
             <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
             <span class="level">
                 <span class="sr-only"><%= __('Compliance level') %> </span>
@@ -128,7 +128,7 @@
         </li>
         <% }
         if (crit.criterium.references.previous !== 'undefined') { %>
-        <li><p>RAWeb 1.1</p>
+        <li><p><%= framework %> 1.1</p>
             <p>
                 <% let prevs = crit.criterium.references.previous.split(',').map(id => `<a href="../raweb1.1/criteres.html#crit-${id.trim().replace('.', '-')}">${id}</a>`) %>
                 <%- prevs.join(', ') %>.
