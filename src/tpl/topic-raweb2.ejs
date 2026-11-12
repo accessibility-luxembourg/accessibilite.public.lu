@@ -26,7 +26,7 @@
             <span>
                 <%= crit.criterium.references.RAWeb2 %>
             </span>
-            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>">RAWeb2 <%= crit.criterium.references.RAWeb2TopicTitle %></a>
+            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>"><%= framework %> <%= crit.criterium.references.RAWeb2TopicTitle %></a>
             <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
             <span class="level">
                 <span class="sr-only"><%= __('Compliance level') %> </span>
@@ -56,7 +56,8 @@
                 <% } %>
             </span>
         </h4>
-    <% }  %>  
+    <% }
+    if (crit.criterium.tests.length > 0) { %>
     <details class="discover rawebTests">
         <summary><%= __('Tests') %></summary>
         <% Object.keys(crit.criterium.tests).forEach(testId => {
@@ -91,8 +92,8 @@
         <% } %>
         <% }) %>
     </details>
-
-    <% if (crit.criterium.notes !== '') { %>
+    <% }
+    if (crit.criterium.notes !== '') { %>
         <details class="discover rawebNotes">
             <summary><%= __("Notes and special cases") %></summary>
             <%- crit.criterium.notes.toString().replace(/H5/g, 'H6') %>
