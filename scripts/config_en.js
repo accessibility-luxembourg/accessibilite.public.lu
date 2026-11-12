@@ -227,7 +227,7 @@ const config = {
                     "summaryTitle": "Table of contents"
                 },
                 {
-                    "title": "Simplified accessibility control method v1.2.1",
+                    "title": "Simplified accessibility control method v2",
                     "menu": "Simplified control method",
                     "name": "monitoring/controle-simplifie",
                     "md": "./content/en/controle-simplifie.md", 
