@@ -31,7 +31,8 @@
             <span class="level">
                 <span class="sr-only"><%= __('Compliance level') %> </span>
                 <%
-                    const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
+                    const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); 
+                    %>
                 <% if(ENlevel) { %>
                 <%= ENlevel.level %>
                 <% } %>
@@ -57,7 +58,8 @@
             </span>
         </h4>
     <% }
-    if (crit.criterium.tests.length > 0) { %>
+    
+    if (crit.criterium.tests != '') { %>
     <details class="discover rawebTests">
         <summary><%= __('Tests') %></summary>
         <% Object.keys(crit.criterium.tests).forEach(testId => {
@@ -145,10 +147,33 @@
             links = links.slice(0, -2); // Remove the last comma and space
         %>
         <li><p><%= __("ACT rules") %></p>
-            <p class="act-rules"><%- links %>.</p>
+            <p><%- links %>.</p>
+        </li>
+        <% } 
+        if (crit.criterium.references.appt && crit.criterium.references.appt !== 'undefined') { 
+            let appts = crit.criterium.references.appt.split(',');
+            let links = '';
+            appts.forEach(appt => {
+                const rule = apptRules.criteria.find(r => r['data-ref'] === appt.trim());
+                links += `<a href="${rule.url}" target="_blank">${rule['data-ref']} ${rule.label}</a>, `;
+            });
+            links = links.slice(0, -2); // Remove the last comma and space
+            %>
+        <li><p>APPT</p>
+            <p><%- links %>.</p>
         </li>
         <% }
-         %>
+
+        if (autoTests[crit.criterium.references.RAWeb2] !== undefined) {
+            let links = '';
+            autoTests[crit.criterium.references.RAWeb2].forEach(e => {
+                links += `<a href="https://dequeuniversity.com/rules/axe/4.1/${e.id}">${e.id} - <span lang="en">"${e.msg}"</span></a>, `;
+            }) 
+            links = links.slice(0, -2); // Remove the last comma and space
+            %>
+            <li><p><%= __("Axe rule") %></p>
+                <p><%- links %>.</p></li>
+            <% } %>
         </ul>
         </div>
     </details>
@@ -156,7 +181,7 @@
 <% 
     }
     currentCritId = critId;
-})%>
+}) %>
 </div> 
 </article>
 <% } %>

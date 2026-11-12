@@ -1,0 +1,3456 @@
+<% if (message !== '') { %>
+<p id="intro"><%- message %></p>
+<% } %>
+<div class="mappingSwitch">
+    <label for="mappingRAWeb2-1-radio">RAAM 2 <> WCAG 2.2 <> EN 301 549 v4</label>
+    <label for="mappingRAWeb2-2-radio">RAAM 1.1 <> RAWeb2</label>
+</div>
+
+<input type="radio" name="mappingRAWeb2" id="mappingRAWeb2-1-radio" checked class="sr-only">
+<input type="radio" name="mappingRAWeb2" id="mappingRAWeb2-2-radio" class="sr-only">
+
+<div id="mappingRAWeb2-1">
+    <table class="diffTable">
+        <tr><th scope="col">RAAM&nbsp;2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col"><%= __('WCAG Techs') %></th></tr>
+            <% topics.forEach(topic => {     
+                topic.criteria.forEach(crit => { 
+                    critId = `crit-${topic.number}-${crit.criterium.number}`
+                    critName = `${topic.number}.${crit.criterium.number}`
+            %>
+        <tr>
+            <td><a href="/<%= lang %>/raam2/criteres.html#<%= critId %>"><%= critName %></a></td>
+            <td>
+                <%
+                if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0 && !Array.isArray(crit.criterium.references.wcag)) { 
+                    let SC = crit.criterium.references.wcag.trim() %>
+                    <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
+                <% } %>
+            </td>
+            <td><%- langOnEUNorm(crit.criterium.references.norm, lang) %></td>
+            <td><% if (crit.criterium.references.techniques !== undefined && crit.criterium.references.techniques.length !== 0) { %>
+                        <% let techs = crit.criterium.references.techniques.map(e => { return e.trim() })
+                            techs.forEach(e => { %><a href="<%= tech2URL(e) %>" hreflang="en"><%= e %></a><%= (techs.indexOf(e) != (techs.length-1))?', ': '.' %><% }) 
+                        %>
+                <% } %>
+            </td>
+        </tr>
+        <% })
+        }) %>
+    </table>
+</div>
+
+<div id="mappingRAWeb2-2">
+    <p>Ce tableau présente les correspondances entre les critères/tests du RAAM 1.1 et la nouvelle version RAAM 2.</p>
+    <ul>
+        <li><strong>Niveau « critère »</strong> : le mapping est défini au niveau du critère entier.</li>
+        <li><strong>Niveau « test »</strong> : le mapping est spécifique à un test.</li>
+        <li><strong>Niveau « condition »</strong> : le mapping est spécifique à une condition d'un test.</li>
+    </ul>
+    <table class="diffTable">
+        <thead>
+          <tr>
+            <th scope="col">
+                RAAM 1.1<br>(Critère)
+            </th>
+            <th scope="col">
+              RAAM 1.1<br>(Test)
+            </th>
+            <th scope="col">
+                RAAM 1.1<br>(Condition)
+            </th>
+            <th scope="col">
+                RAAM 2<br>(Critère)
+            </th>
+            <th scope="col">
+              RAAM 2<br>(Test)
+            </th>
+            <th scope="col">
+              RAAM 2<br>(Condition)
+            </th>
+            <th scope="col">
+              Grain
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-76"
+          >
+            1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-76"
+            >Chaque élément graphique de décoration est-il ignoré par les
+            technologies d’assistance&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-1" aria-describedby="tip-r11-77">1.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-77"
+            >1.1 Chaque élément graphique de décoration est-il ignoré par les
+            technologies d’assistance ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-78"
+          >
+            1.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-78"
+            >Chaque élément graphique porteur d’information possède-t-il une
+            alternative accessible aux technologies d’assistance&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-2" aria-describedby="tip-r11-79">1.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-79"
+            >1.2 Chaque élément graphique porteur d’information possède-t-il un
+            nom accessible présenté par les technologies d’assistance ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-80"
+          >
+            1.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-80"
+            >Pour chaque élément graphique porteur d’information, l’alternative
+            accessible aux technologies d’assistance est-elle pertinente (hors
+            cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-3" aria-describedby="tip-r11-81">1.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-81"
+            >1.3 Pour chaque élément graphique porteur d’information, le nom
+            accessible présenté par les technologies d’assistance est-il
+            pertinent (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-1-3-1" aria-describedby="tip-r11-82">1.3.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-82"
+            >1.3.1 Pour chaque élément graphique porteur d’information, le nom
+            accessible présenté par les technologies d’assistance est-il
+            pertinent (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-83"
+          >
+            1.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-83"
+            >Pour chaque élément graphique utilisé comme CAPTCHA ou comme
+            élément graphique de test, l’alternative restituée par les
+            technologies d’assistance permet-elle d’identifier la nature et la
+            fonction de l’élément graphique&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-4" aria-describedby="tip-r11-84">1.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-84"
+            >1.4 Pour chaque élément graphique utilisé comme CAPTCHA ou comme
+            élément graphique de test, le nom accessible présenté par les
+            technologies d’assistance permet-il d’identifier la nature et la
+            fonction de l’élément graphique ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-1-4-1" aria-describedby="tip-r11-85">1.4.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-85"
+            >1.4.1 Pour chaque élément graphique utilisé comme CAPTCHA ou comme
+            élément graphique de test, le nom accessible présenté par les
+            technologies d’assistance est-il pertinent (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-86"
+          >
+            1.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-86"
+            >Chaque élément graphique utilisé comme CAPTCHA possède-t-il une
+            alternative&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-12-5" aria-describedby="tip-r11-87">12.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-87"
+            >12.5 Chaque élément graphique utilisé comme CAPTCHA possède-t-il
+            une alternative ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-88"
+          >
+            1.6</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-88"
+            >Chaque élément graphique porteur d’information a-t-il, si
+            nécessaire, une description détaillée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-5" aria-describedby="tip-r11-89">1.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-89"
+            >1.5 Chaque élément graphique porteur d’information a-t-il, si
+            nécessaire, une description détaillée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-90"
+          >
+            1.7</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-90"
+            >Pour chaque élément graphique porteur d’information ayant une
+            description détaillée, celle-ci est-elle pertinente&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-6" aria-describedby="tip-r11-91">1.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-91"
+            >1.6 Pour chaque élément graphique porteur d’information ayant une
+            description détaillée, celle-ci est-elle pertinente ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-92"
+          >
+            1.8</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-92"
+            >Chaque élément graphique texte porteur d’information, en l’absence
+            d’un mécanisme de remplacement, doit, si possible être remplacé par
+            du texte stylé. Cette règle est-elle respectée (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-7" aria-describedby="tip-r11-93">1.7</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-93"
+            >1.7 Chaque élément graphique texte porteur d’information, en
+            l’absence d’un mécanisme de remplacement, doit, si possible être
+            remplacé par du texte stylé. Cette règle est-elle respectée (hors
+            cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-94"
+          >
+            1.9</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-94"
+            >Chaque élément graphique légendé est-il correctement restitué par
+            les technologies d’assistance&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-8" aria-describedby="tip-r11-95">1.8</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-95"
+            >1.8 Chaque élément graphique légendé est-il correctement restitué
+            par les technologies d’assistance ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-96"
+          >
+            2.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-96"
+            >Dans chaque écran, l’information ne doit pas être donnée uniquement
+            par la couleur. Cette règle est-elle respectée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-1" aria-describedby="tip-r11-97">2.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-97"
+            >2.1 Dans chaque écran, l’information donnée par la couleur est
+            accompagnée d'une alternative visible qui ne repose pas sur la
+            couleur. Cette règle est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-1-1" aria-describedby="tip-r11-98">2.1.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-98"
+            >2.1.1 Dans chaque écran, chaque élément dont la mise en couleur est
+            porteuse d’information respecte-t-il au moins une de ces conditions
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-99"
+          >
+            2.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-99"
+            >Dans chaque écran, l’information ne doit pas être donnée uniquement
+            par la couleur. Cette règle est-elle respectée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-2" aria-describedby="tip-r11-100">2.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-100"
+            >2.2 Dans chaque écran, l’information donnée uniquement par la
+            couleur est accompagnée d'une alternative accessible aux
+            technologies d'assistance. Cette règle est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-101"
+          >
+            2.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-101"
+            >Dans chaque écran, le contraste entre la couleur du texte et la
+            couleur de son arrière-plan est-il suffisamment élevé (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-4" aria-describedby="tip-r11-102">2.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-102"
+            >2.4 Dans chaque écran, le contraste entre la couleur du texte et la
+            couleur de son arrière-plan est-il suffisamment élevé (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-4-1" aria-describedby="tip-r11-103">2.4.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-103"
+            >2.4.1 Pour chaque texte, le contraste entre la couleur du texte et
+            la couleur de son arrière-plan respecte-t-il une de ces conditions
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-104"
+          >
+            2.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-104"
+            >Dans chaque écran, les couleurs utilisées dans les composants
+            d’interface et les éléments graphiques porteurs d’informations
+            sont-elles suffisamment contrastées (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-5" aria-describedby="tip-r11-105">2.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-105"
+            >2.5 Dans chaque écran, les couleurs utilisées dans les composants
+            d’interface et les éléments graphiques porteurs d’informations
+            sont-elles suffisamment contrastées (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-5-1" aria-describedby="tip-r11-106">2.5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-106"
+            >2.5.1 Dans chaque écran, le rapport de contraste entre les couleurs
+            d’un composant d’interface dans ses différents états et les couleurs
+            adjacentes vérifie-t-il une de ces conditions (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-107"
+          >
+            2.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-107"
+            >Dans chaque écran, les couleurs utilisées dans les composants
+            d’interface et les éléments graphiques porteurs d’informations
+            sont-elles suffisamment contrastées (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-5" aria-describedby="tip-r11-108">2.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-108"
+            >2.5 Dans chaque écran, les couleurs utilisées dans les composants
+            d’interface et les éléments graphiques porteurs d’informations
+            sont-elles suffisamment contrastées (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-5-2" aria-describedby="tip-r11-109">2.5.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-109"
+            >2.5.2 Dans chaque écran, le rapport de contraste de chaque couleur
+            nécessaire à la compréhension d’un élément graphique et les couleurs
+            adjacentes, vérifie-t-il une de ces conditions (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-110"
+          >
+            2.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-110"
+            >Le rapport de contraste de chaque mécanisme de remplacement qui
+            permet d’afficher l’écran avec un rapport de contraste conforme
+            est-il suffisamment élevé&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-4" aria-describedby="tip-r11-111">2.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-111"
+            >2.4 Dans chaque écran, le contraste entre la couleur du texte et la
+            couleur de son arrière-plan est-il suffisamment élevé (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-4-2" aria-describedby="tip-r11-112">2.4.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-112"
+            >2.4.2 Le rapport de contraste de chaque mécanisme de remplacement
+            qui permet d’afficher l’écran avec un rapport de contraste conforme
+            est-il suffisamment élevé ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-113"
+          >
+            2.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-113"
+            >Le rapport de contraste de chaque mécanisme de remplacement qui
+            permet d’afficher l’écran avec un rapport de contraste conforme
+            est-il suffisamment élevé&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-5" aria-describedby="tip-r11-114">2.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-114"
+            >2.5 Dans chaque écran, les couleurs utilisées dans les composants
+            d’interface et les éléments graphiques porteurs d’informations
+            sont-elles suffisamment contrastées (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-5-3" aria-describedby="tip-r11-115">2.5.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-115"
+            >2.5.3 Le rapport de contraste de chaque mécanisme de remplacement
+            qui permet d’afficher l’écran avec un rapport de contraste conforme
+            est-il suffisamment élevé ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-116"
+          >
+            3.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-116"
+            >Chaque média temporel pré-enregistré seulement audio a-t-il, si
+            nécessaire, une transcription textuelle adjacente clairement
+            identifiable (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-2" aria-describedby="tip-r11-117">3.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-117"
+            >3.2 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une
+            transcription textuelle ou une audiodescription synchronisée (hors
+            cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-2-1" aria-describedby="tip-r11-118">3.2.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-118"
+            >3.2.1 Chaque média temporel seulement audio pré-enregistré a-t-il,
+            si nécessaire, une transcription textuelle adjacente clairement
+            identifiable (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-119"
+          >
+            3.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-119"
+            >Pour chaque média temporel pré-enregistré seulement audio ayant une
+            transcription textuelle, celle-ci est-elle pertinente (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-3" aria-describedby="tip-r11-120">3.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-120"
+            >3.3 Pour chaque média temporel pré-enregistré ayant une
+            transcription textuelle ou une audiodescription synchronisée,
+            celles-ci sont-elles pertinentes (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-3-1" aria-describedby="tip-r11-121">3.3.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-121"
+            >3.3.1 Pour chaque média temporel seulement audio pré-enregistré
+            ayant une [transcription textuelle, celle-ci est-elle pertinente
+            (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-122"
+          >
+            3.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-122"
+            >Chaque média temporel pré-enregistré seulement vidéo a-t-il, si
+            nécessaire, une alternative (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-2" aria-describedby="tip-r11-123">3.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-123"
+            >3.2 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une
+            transcription textuelle ou une audiodescription synchronisée (hors
+            cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-2-2" aria-describedby="tip-r11-124">3.2.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-124"
+            >3.2.2 Chaque média temporel seulement vidéo pré-enregistré
+            vérifie-t-il, si nécessaire, l’une de ces conditions (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-125"
+          >
+            3.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-125"
+            >Pour chaque média temporel pré-enregistré seulement vidéo ayant une
+            alternative, celle-ci est-elle pertinente (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-3" aria-describedby="tip-r11-126">3.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-126"
+            >3.3 Pour chaque média temporel pré-enregistré ayant une
+            transcription textuelle ou une audiodescription synchronisée,
+            celles-ci sont-elles pertinentes (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-3-2" aria-describedby="tip-r11-127">3.3.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-127"
+            >3.3.2 Chaque média temporel seulement vidéo pré-enregistré
+            vérifie-t-il une de ces conditions ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-128"
+          >
+            3.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-128"
+            >Pour chaque média temporel pré-enregistré seulement vidéo ayant une
+            alternative, celle-ci est-elle pertinente (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-129"
+          >
+            3.4.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-129"
+            >Chaque média temporel pré-enregistré seulement vidéo respecte-t-il
+            une de ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-130"
+          >
+            C2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-130"
+            >L’audiodescription synchronisée est pertinente et correctement
+            synchronisée&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-8" aria-describedby="tip-r11-131">3.8</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-131"
+            >3.8 Pour chaque média temporel synchronisé ayant une
+            audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-8-1" aria-describedby="tip-r11-132">3.8.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-132"
+            >3.8.1 Pour chaque média temporel synchronisé pré-enregistré ayant
+            une audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-133"
+          >
+            3.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-133"
+            >Chaque média temporel synchronisé pré-enregistré a-t-il, si
+            nécessaire, une alternative (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-4" aria-describedby="tip-r11-134">3.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-134"
+            >3.4 Chaque média temporel synchronisé pré-enregistré a-t-il, si
+            nécessaire, une transcription textuelle ou une audiodescription
+            synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-135"
+          >
+            3.6</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-135"
+            >Pour chaque média temporel synchronisé pré-enregistré ayant une
+            alternative, celle-ci est-elle pertinente (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-5" aria-describedby="tip-r11-136">3.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-136"
+            >3.5 Pour chaque média temporel synchronisé pré-enregistré ayant une
+            transcription textuelle ou une audiodescription synchronisée,
+            celles-ci sont-elles pertinentes (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-137"
+          >
+            3.6</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-137"
+            >Pour chaque média temporel synchronisé pré-enregistré ayant une
+            alternative, celle-ci est-elle pertinente (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-138"
+          >
+            3.6.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-138"
+            >Chaque média temporel pré-enregistré synchronisé respecte-t-il une
+            de ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-139"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-139"
+            >L’audiodescription est pertinente et correctement
+            synchronisée&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-8" aria-describedby="tip-r11-140">3.8</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-140"
+            >3.8 Pour chaque média temporel synchronisé ayant une
+            audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-8-1" aria-describedby="tip-r11-141">3.8.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-141"
+            >3.8.1 Pour chaque média temporel synchronisé pré-enregistré ayant
+            une audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-142"
+          >
+            3.7</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-142"
+            >Chaque média temporel synchronisé a-t-il, si nécessaire, des
+            sous-titres synchronisés (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-143"
+          >
+            3.7.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-143"
+            >Chaque média temporel synchronisé pré-enregistré a-t-il, si
+            nécessaire, des sous-titres synchronisés (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-9" aria-describedby="tip-r11-144">3.9</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-144"
+            >3.9 Chaque média temporel synchronisé pré-enregistré a-t-il, si
+            nécessaire, des sous-titres synchronisés (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>test</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-145"
+          >
+            3.7</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-145"
+            >Chaque média temporel synchronisé a-t-il, si nécessaire, des
+            sous-titres synchronisés (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-146"
+          >
+            3.7.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-146"
+            >Chaque média temporel synchronisé en direct a-t-il, si nécessaire,
+            des sous-titres synchronisés (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-11" aria-describedby="tip-r11-147">3.11</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-147"
+            >3.11 Chaque média temporel synchronisé en direct a-t-il, si
+            nécessaire, des sous-titres synchronisés (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>test</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-148"
+          >
+            3.8</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-148"
+            >Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-149"
+          >
+            3.8.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-149"
+            >Pour chaque média temporel synchronisé pré-enregistré ayant des
+            sous-titres synchronisés, les sous-titres respectent-ils ces
+            conditions (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-10" aria-describedby="tip-r11-150">3.10</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-150"
+            >3.10 Pour chaque média temporel synchronisé pré-enregistré ayant
+            des sous-titres synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-10-1" aria-describedby="tip-r11-151">3.10.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-151"
+            >3.10.1 Pour chaque média temporel synchronisé pré-enregistré ayant
+            des sous-titres synchronisés, une piste de sous-titres au moins
+            respecte-t-elle ces conditions (hors cas particulier) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>test</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-152"
+          >
+            3.8</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-152"
+            >Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-153"
+          >
+            3.8.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-153"
+            >Pour chaque média temporel synchronisé pré-enregistré ayant des
+            sous-titres synchronisés, les sous-titres respectent-ils ces
+            conditions (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-154"
+          >
+            C3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-154"
+            >Les sous-titres sont correctement synchronisés.</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-13" aria-describedby="tip-r11-155">3.13</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-155"
+            >3.13 Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés associés à un horodatage, ces sous-titres sont-ils
+            correctement synchronisés (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-156"
+          >
+            3.8</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-156"
+            >Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-157"
+          >
+            3.8.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-157"
+            >Pour chaque média temporel synchronisé en direct ayant des
+            sous-titres synchronisés, les sous-titres respectent-ils ces
+            conditions (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-12" aria-describedby="tip-r11-158">3.12</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-158"
+            >3.12 Pour chaque média temporel synchronisé en direct ayant des
+            sous-titres synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>test</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-159"
+          >
+            3.8</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-159"
+            >Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés, ceux-ci sont-ils pertinents (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-160"
+          >
+            3.8.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-160"
+            >Pour chaque média temporel synchronisé en direct ayant des
+            sous-titres synchronisés, les sous-titres respectent-ils ces
+            conditions (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-161"
+          >
+            C3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-161"
+            >Les sous-titres sont correctement synchronisés.</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-13" aria-describedby="tip-r11-162">3.13</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-162"
+            >3.13 Pour chaque média temporel synchronisé ayant des sous-titres
+            synchronisés associés à un horodatage, ces sous-titres sont-ils
+            correctement synchronisés (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-163"
+          >
+            3.9</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-163"
+            >Chaque média temporel pré-enregistré (seulement vidéo ou
+            synchronisé) a-t-il, si nécessaire, une audiodescription
+            synchronisée (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-6" aria-describedby="tip-r11-164">3.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-164"
+            >3.6 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une
+            audiodescription synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-6-1" aria-describedby="tip-r11-165">3.6.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-165"
+            >3.6.1 Chaque média temporel seulement vidéo pré-enregistré a-t-il,
+            si nécessaire, une audiodescription synchronisée (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-166"
+          >
+            3.10</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-166"
+            >Pour chaque média temporel pré-enregistré (seulement vidéo ou
+            synchronisé) ayant une audiodescription synchronisée, celle-ci
+            est-elle pertinente&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-167"
+          >
+            3.10.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-167"
+            >Pour chaque média temporel pré-enregistré seulement vidéo ou
+            synchronisé ayant une audiodescription, celle-ci respecte-t-elle ces
+            conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-168"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-168"
+            >L’audiodescription est pertinente&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-7" aria-describedby="tip-r11-169">3.7</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-169"
+            >3.7 Pour chaque média temporel synchronisé pré-enregistré ayant une
+            audiodescription synchronisée ou une alternative sous forme de
+            texte, celles-ci sont-elles pertinentes (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-7-1" aria-describedby="tip-r11-170">3.7.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-170"
+            >3.7.1 Pour chaque média temporel seulement vidéo ou sychronisé
+            pré-enregistré ayant une audiodescription, celle-ci est-t-elle
+            pertinente (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-171"
+          >
+            3.10</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-171"
+            >Pour chaque média temporel pré-enregistré (seulement vidéo ou
+            synchronisé) ayant une audiodescription synchronisée, celle-ci
+            est-elle pertinente&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-172"
+          >
+            3.10.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-172"
+            >Pour chaque média temporel pré-enregistré seulement vidéo ou
+            synchronisé ayant une audiodescription, celle-ci respecte-t-elle ces
+            conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-173"
+          >
+            C2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-173"
+            >L’audiodescription est correctement synchronisée (la bande-son de
+            l’audiodescription coïncide correctement avec la bande vidéo).</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-8" aria-describedby="tip-r11-174">3.8</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-174"
+            >3.8 Pour chaque média temporel synchronisé ayant une
+            audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-8-1" aria-describedby="tip-r11-175">3.8.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-175"
+            >3.8.1 Pour chaque média temporel synchronisé pré-enregistré ayant
+            une audiodescription synchronisée, l'audiodescription est-elle
+            correctement synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-176"
+          >
+            3.11</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-176"
+            >Pour chaque média temporel pré-enregistré, le contenu textuel
+            adjacent permet-il d’identifier clairement le média temporel (hors
+            cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-1" aria-describedby="tip-r11-177">3.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-177"
+            >3.1 Pour chaque média temporel, le contenu textuel adjacent
+            permet-il d’identifier clairement le média temporel (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-178"
+          >
+            3.12</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-178"
+            >Chaque séquence sonore déclenchée automatiquement est-elle
+            contrôlable par l’utilisateur&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-15" aria-describedby="tip-r11-179">3.15</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-179"
+            >3.15 Chaque séquence sonore déclenchée automatiquement est-elle
+            contrôlable par l’utilisateur (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-180"
+          >
+            3.13</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-180"
+            >Chaque média temporel a-t-il, si nécessaire, les fonctionnalités de
+            contrôle de sa consultation&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-16" aria-describedby="tip-r11-181">3.16</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-181"
+            >3.16 Chaque média temporel a-t-il, si nécessaire, les
+            fonctionnalités de contrôle de sa consultation (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-182"
+          >
+            3.13</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-182"
+            >Chaque média temporel a-t-il, si nécessaire, les fonctionnalités de
+            contrôle de sa consultation&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-18" aria-describedby="tip-r11-183">3.18</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-183"
+            >3.18 Pour chaque média temporel synchronisé disposant de
+            sous-titres, il existe une méthode pour activer les sous-titres.
+            Cette règle est-elle respectée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-184"
+          >
+            3.13</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-184"
+            >Chaque média temporel a-t-il, si nécessaire, les fonctionnalités de
+            contrôle de sa consultation&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-19" aria-describedby="tip-r11-185">3.19</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-185"
+            >3.19 Pour chaque média temporel synchronisé disposant de pistes
+            d’audiodescription, il existe une méthode pour activer les pistes
+            d'audiodescription. Cette règle est-elle respectée (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-186"
+          >
+            3.14</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-186"
+            >Pour chaque média temporel synchronisé pré-enregistré qui dispose
+            d’une piste de sous-titres synchronisés ou d’une audiodescription,
+            les fonctionnalités de contrôle de ces alternatives sont-elles
+            présentées au même niveau que les fonctionnalités
+            principales&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-20" aria-describedby="tip-r11-187">3.20</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-187"
+            >3.20 Pour chaque média temporel synchronisé pré-enregistré qui
+            dispose de contrôles pour gérer les alternatives (sous-titres,
+            audiodescription, sous-titres parlés), ces contrôles sont présentés
+            au même niveau que le contrôle de volume et sont activables en une
+            action unique. Cette règle est-elle respectée (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-188"
+          >
+            3.15</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-188"
+            >Pour chaque fonctionnalité qui transmet, convertit ou enregistre un
+            média temporel synchronisé pré-enregistré qui possède une piste de
+            sous-titres synchronisés, à l’issue du processus, les sous-titres
+            sont-ils correctement conservés&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-21" aria-describedby="tip-r11-189">3.21</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-189"
+            >3.21 Pour chaque fonctionnalité qui transmet, convertit ou
+            enregistre un média temporel synchronisé qui possède une piste de
+            sous-titres synchronisés, à l’issue du processus, les sous-titres
+            sont-ils correctement conservés ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-190"
+          >
+            3.16</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-190"
+            >Pour chaque fonctionnalité qui transmet, convertit ou enregistre un
+            média temporel synchronisé pré-enregistré avec une audiodescription
+            synchronisée, à l’issue du processus, l’audiodescription est-elle
+            correctement conservée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-22" aria-describedby="tip-r11-191">3.22</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-191"
+            >3.22 Pour chaque fonctionnalité qui transmet, convertit ou
+            enregistre un média temporel synchronisé avec une audiodescription
+            synchronisée, à l’issue du processus, l’audiodescription est-elle
+            correctement conservée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-192"
+          >
+            3.17</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-192"
+            >Pour chaque média temporel pré-enregistré, la présentation des
+            sous-titres est-elle contrôlable par l’utilisateur (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-17" aria-describedby="tip-r11-193">3.17</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-193"
+            >3.17 Pour chaque média temporel synchronisé, la présentation des
+            sous-titres est-elle contrôlable par l’utilisateur (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-194"
+          >
+            3.18</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-194"
+            >Pour chaque média temporel synchronisé pré-enregistré qui possède
+            des sous-titres de traduction synchronisés, ceux-ci peuvent-ils être
+            vocalisés (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-14" aria-describedby="tip-r11-195">3.14</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-195"
+            >3.14 Pour chaque média temporel synchronisé qui dispose d'une piste
+            de sous-titres parlés, celle-ci peut-elle être activée (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-196"
+          >
+            4.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-196"
+            >Chaque tableau de données complexe a-t-il un résumé&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-4-1" aria-describedby="tip-r11-197">4.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-197"
+            >4.1 Chaque tableau de données complexe a-t-il un résumé ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-198"
+          >
+            4.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-198"
+            >Pour chaque tableau de données complexe ayant un résumé, celui-ci
+            est-il pertinent&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-4-2" aria-describedby="tip-r11-199">4.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-199"
+            >4.2 Pour chaque tableau de données complexe ayant un résumé,
+            celui-ci est-il pertinent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-200"
+          >
+            4.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-200"
+            >Chaque tableau de données a-t-il un titre&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-4-3" aria-describedby="tip-r11-201">4.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-201"
+            >4.3 Chaque tableau de données ayant un titre visible, le titre
+            est-il correctement associé au tableau de données ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-202"
+          >
+            4.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-202"
+            >Pour chaque tableau de données ayant un titre, celui-ci est-il
+            pertinent&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-4-4" aria-describedby="tip-r11-203">4.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-203"
+            >4.4 Pour chaque tableau de données ayant un nom accessible,
+            celui-ci est-il pertinent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-204"
+          >
+            4.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-204"
+            >Pour chaque tableau de données, les entêtes de lignes et de
+            colonnes sont-ils correctement reliés aux cellules de
+            données&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-4-5" aria-describedby="tip-r11-205">4.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-205"
+            >4.5 Pour chaque tableau de données, les en-têtes de lignes et de
+            colonnes sont-ils correctement reliés aux cellules de données
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-206"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-206"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-207"
+          >
+            5.1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-207"
+            >Chaque composant d’interface vérifie-t-il, si nécessaire, une de
+            ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-208"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-208"
+            >Le nom, le rôle, la valeur, le paramétrage et les changements
+            d’états sont accessibles aux technologies d’assistance via une API
+            d’accessibilité&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-209">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-209"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-1" aria-describedby="tip-r11-210">5.1.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-210"
+            >5.1.1 Chaque composant d'interface a-t-il un rôle ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-211"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-211"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-212"
+          >
+            5.1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-212"
+            >Chaque composant d’interface vérifie-t-il, si nécessaire, une de
+            ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-213"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-213"
+            >Le nom, le rôle, la valeur, le paramétrage et les changements
+            d’états sont accessibles aux technologies d’assistance via une API
+            d’accessibilité&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-214">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-214"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-3" aria-describedby="tip-r11-215">5.1.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-215"
+            >5.1.3 Chaque composant d'interface a-t-il un nom accessible ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-216"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-216"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-217"
+          >
+            5.1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-217"
+            >Chaque composant d’interface vérifie-t-il, si nécessaire, une de
+            ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-218"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-218"
+            >Le nom, le rôle, la valeur, le paramétrage et les changements
+            d’états sont accessibles aux technologies d’assistance via une API
+            d’accessibilité&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-219">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-219"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-6" aria-describedby="tip-r11-220">5.1.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-220"
+            >5.1.6 Chaque composant vérifie-t-il, si nécessaire, ces conditions
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-221"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-221"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-222"
+          >
+            5.1.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-222"
+            >Chaque composant d’interface vérifie-t-il ces conditions (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-223"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-223"
+            >Le composant possède un nom pertinent&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-224">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-224"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-4" aria-describedby="tip-r11-225">5.1.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-225"
+            >5.1.4 Chaque composant d'interface ayant un nom accessible, ce nom
+            est-il pertinent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-226"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-226"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-227"
+          >
+            5.1.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-227"
+            >Chaque composant d’interface vérifie-t-il ces conditions (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-228"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-228"
+            >Le composant possède un nom pertinent&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-11" aria-describedby="tip-r11-229">5.11</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-229"
+            >5.11 Chaque lien ayant un nom accessible, ce nom accessible est-il
+            pertinent (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-11-1" aria-describedby="tip-r11-230">5.11.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-230"
+            >5.11.1 Chaque lien ayant un nom accessible vérifie-t-il une de ces
+            conditions (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-231"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-231"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-232"
+          >
+            5.1.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-232"
+            >Chaque composant d’interface vérifie-t-il ces conditions (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-233"
+          >
+            C2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-233"
+            >Le nom accessible du composant contient au moins l’intitulé
+            visible&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-2" aria-describedby="tip-r11-234">5.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-234"
+            >5.2 Pour chaque composant d’interface ayant un intitulé visible et
+            un nom accessible, le nom accessible reprend au moins l'intitulé
+            visible. Cette règle est-elle respectée (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-235"
+          >
+            5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-235"
+            >Chaque composant d’interface est-il, si nécessaire, compatible avec
+            les technologies d’assistance (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-236"
+          >
+            5.1.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-236"
+            >Chaque composant d’interface vérifie-t-il ces conditions (hors cas
+            particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-237"
+          >
+            C3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-237"
+            >Le composant possède un rôle pertinent&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-238">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-238"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-2" aria-describedby="tip-r11-239">5.1.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-239"
+            >5.1.2 Chaque composant d'interface ayant un rôle, ce rôle est-il
+            pertinent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-240"
+          >
+            5.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-240"
+            >Chaque composant d’interface est-il contrôlable par le clavier et
+            tout dispositif de pointage (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-4" aria-describedby="tip-r11-241">5.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-241"
+            >5.4 Chaque composant d’interface est-il contrôlable par le clavier
+            et tout dispositif de pointage (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-242"
+          >
+            5.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-242"
+            >Chaque changement de contexte respecte-t-il une de ces
+            conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-7" aria-describedby="tip-r11-243">5.7</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-243"
+            >5.7 Un changement de contexte ne doit pas être initié lorsqu'un
+            composant d'interface reçoit le focus. Cette règle est-elle
+            respectée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-244"
+          >
+            5.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-244"
+            >Chaque changement de contexte respecte-t-il une de ces
+            conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-8" aria-describedby="tip-r11-245">5.8</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-245"
+            >5.8 Pour chaque changement de contexte initié au changement de
+            paramètre d'un composant d'interface, l’utilisateur est-il averti ou
+            en a-t-il le contrôle ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-246"
+          >
+            5.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-246"
+            >Dans chaque écran, les messages de statut sont-ils correctement
+            restitués par les technologies d’assistance&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-6" aria-describedby="tip-r11-247">5.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-247"
+            >5.6 Dans chaque écran, les messages de statut sont-ils correctement
+            restitués par les technologies d’assistance ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-248"
+          >
+            5.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-248"
+            >Chaque état d’un contrôle à bascule présenté à l’utilisateur est-il
+            perceptible&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-249"
+          >
+            5.5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-249"
+            >Pour chaque état d’un contrôle à bascule présenté à l’utilisateur,
+            les conditions suivantes sont-elles respectées&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-250"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-250"
+            >L’état de la fonctionnalité est visible sur l’interface sans
+            modifier l’état du contrôle&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-10" aria-describedby="tip-r11-251">5.10</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-251"
+            >5.10 Pour chaque contrôle à bascule, chacun de ses états est-il
+            déterminable visuellement ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-252"
+          >
+            5.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-252"
+            >Chaque état d’un contrôle à bascule présenté à l’utilisateur est-il
+            perceptible&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-253"
+          >
+            5.5.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-253"
+            >Pour chaque état d’un contrôle à bascule présenté à l’utilisateur,
+            les conditions suivantes sont-elles respectées&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-254"
+          >
+            C2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-254"
+            >L’état de la fonctionnalité peut être déterminé par le toucher ou
+            le son sans modifier l’état du contrôle.</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-9" aria-describedby="tip-r11-255">5.9</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-255"
+            >5.9 Pour chaque contrôle à bascule, son état est-il accessible aux
+            technologies d'assistance sans avoir à l'activer ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-9-1" aria-describedby="tip-r11-256">5.9.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-256"
+            >5.9.1 Chaque contrôle à bascule, vérifie-t-il ces conditions
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-257"
+          >
+            6.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-257"
+            >Dans chaque écran, les textes sont-ils restitués par les
+            technologies d’assistance dans la langue principale de
+            l’écran&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-6-1" aria-describedby="tip-r11-258">6.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-258"
+            >6.1 Dans chaque écran, les textes sont-ils restitués par les
+            technologies d’assistance dans la langue principale de l’écran
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-259"
+          >
+            6.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-259"
+            >Dans chaque écran, les éléments de l’interface ne doivent pas être
+            utilisés uniquement à des fins de présentation. Cette règle est-elle
+            respectée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-7-4" aria-describedby="tip-r11-260">7.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-260"
+            >7.4 Dans chaque écran, les éléments de l’interface ne doivent pas
+            être utilisés uniquement à des fins de présentation. Cette règle
+            est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-261"
+          >
+            7.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-261"
+            >Dans chaque écran, l’information est-elle structurée par
+            l’utilisation appropriée de titres&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-262"
+          >
+            7.1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-262"
+            >Chaque écran vérifie-t-il ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-263"
+          >
+            C1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-263"
+            >Le contenu de chaque titre est pertinent&nbsp;;</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-7-2" aria-describedby="tip-r11-264">7.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-264"
+            >7.2 Dans chaque écran, le contenu de chaque titre balisé est-il
+            pertinent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-265"
+          >
+            7.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-265"
+            >Dans chaque écran, l’information est-elle structurée par
+            l’utilisation appropriée de titres&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-266"
+          >
+            7.1.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-266"
+            >Chaque écran vérifie-t-il ces conditions&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-267"
+          >
+            C2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-267"
+            >Chaque passage de texte constituant un titre est identifié comme un
+            titre.</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-7-1" aria-describedby="tip-r11-268">7.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-268"
+            >7.1 Dans chaque écran, chaque passage de texte constituant un titre
+            est-il correctement structuré ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-7-1-1" aria-describedby="tip-r11-269">7.1.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-269"
+            >7.1.1 Dans chaque écran, chaque passage de texte constituant un
+            titre est-il présenté comme un titre par les technologies
+            d'assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>condition</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-270"
+          >
+            7.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-270"
+            >Dans chaque écran, chaque liste est-elle correctement
+            structurée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-7-3" aria-describedby="tip-r11-271">7.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-271"
+            >7.3 Dans chaque écran, chaque liste est-elle correctement
+            structurée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-272"
+          >
+            8.1</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-272"
+            >Dans chaque écran, le contenu visible porteur d’information est-il
+            accessible aux technologies d’assistance&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-100" aria-describedby="tip-r11-273">8.100</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-273"
+            >8.100 Dans chaque écran, le contenu visible porteur d’information
+            est-il accessible aux technologies d’assistance ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-274"
+          >
+            8.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-274"
+            >Dans chaque écran, l’utilisateur peut-il augmenter la taille des
+            caractères de 200% au moins (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-200" aria-describedby="tip-r11-275">8.200</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-275"
+            >8.200 Dans chaque écran, l’utilisateur peut-il augmenter la taille
+            des caractères de 200% au moins (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-276"
+          >
+            8.3</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-276"
+            >Dans chaque écran, chaque composant en environnement de texte dont
+            la nature n’est pas évidente a-t-il un rapport de contraste
+            supérieur ou égal à 3:1 par rapport au texte
+            environnant&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-3" aria-describedby="tip-r11-277">2.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-277"
+            >2.3 Dans chaque écran, chaque composant en environnement de texte
+            dont la nature n’est pas évidente a-t-il un rapport de contraste
+            supérieur ou égal à 3:1 par rapport au texte environnant ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-278"
+          >
+            8.4</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-278"
+            >Dans chaque écran, pour chaque composant en environnement de texte
+            dont la nature n’est pas évidente, une indication autre que la
+            couleur permet-elle de signaler la prise de focus et le survol à la
+            souris&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-2-1" aria-describedby="tip-r11-279">2.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-279"
+            >2.1 Dans chaque écran, l’information donnée par la couleur est
+            accompagnée d'une alternative visible qui ne repose pas sur la
+            couleur. Cette règle est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-2-1-2" aria-describedby="tip-r11-280">2.1.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-280"
+            >2.1.2 Dans chaque écran, pour chaque composant en environnement de
+            texte dont la nature n’est pas évidente vérifie-t-il ces conditions
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-281"
+          >
+            8.5</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-281"
+            >Dans chaque écran, pour chaque élément recevant le focus, la prise
+            de focus est-elle visible&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-180" aria-describedby="tip-r11-282">8.180</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-282"
+            >8.180 Dans chaque écran, pour chaque élément recevant le focus, la
+            prise de focus est-elle visible ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-283"
+          >
+            8.6</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-283"
+            >Dans chaque écran, l’information ne doit pas être donnée uniquement
+            par la forme, taille ou position. Cette règle est-elle
+            respectée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-150" aria-describedby="tip-r11-284">8.150</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-284"
+            >8.150 Dans chaque écran, l’information donnée par la forme, taille
+            ou position est accompagnée d'une alternative accessible aux
+            technologies d'assistance. Cette règle est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-285"
+          >
+            8.6</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-285"
+            >Dans chaque écran, l’information ne doit pas être donnée uniquement
+            par la forme, taille ou position. Cette règle est-elle
+            respectée&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-170" aria-describedby="tip-r11-286">8.170</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-286"
+            >8.170 Dans chaque écran, les instructions données pour comprendre
+            ou utiliser le contenu ne doivent pas reposer uniquement sur une
+            caractéristique sensorielle. Cette règle est-elle respectée ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-287"
+          >
+            8.7</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-287"
+            >Dans chaque écran, les contenus additionnels apparaissant à la
+            prise de focus ou au survol d’un composant d’interface sont-ils
+            contrôlables par l’utilisateur (hors cas particuliers)&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-5" aria-describedby="tip-r11-288">5.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-288"
+            >5.5 Dans chaque écran, les contenus additionnels apparaissant à la
+            prise de focus ou au survol d’un composant d’interface sont-ils
+            contrôlables par l’utilisateur (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="tip"
+          ><button
+            type="button"
+            class="tip-trigger"
+            aria-describedby="tip-r11-289"
+          >
+            10.2</button
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-289"
+            >Dans chaque écran, l’ordre de restitution par les technologies
+            d’assistance est-il cohérent&nbsp;?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-50" aria-describedby="tip-r11-290">8.50</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-290"
+            >8.50 Dans chaque écran, l’ordre de restitution par les technologies
+            d’assistance est-il cohérent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>critère</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-3" aria-describedby="tip-r11-291">1.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-291"
+            >1.3 Pour chaque élément graphique porteur d’information, le nom
+            accessible présenté par les technologies d’assistance est-il
+            pertinent (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-1-3-2" aria-describedby="tip-r11-292">1.3.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-292"
+            >1.3.2 Pour chaque élément graphique porteur d’information ayant une
+            description accessible présentée par les technologies d’assistance,
+            la description accessible est-elle pertinente (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-1-4" aria-describedby="tip-r11-293">1.4</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-293"
+            >1.4 Pour chaque élément graphique utilisé comme CAPTCHA ou comme
+            élément graphique de test, le nom accessible présenté par les
+            technologies d’assistance permet-il d’identifier la nature et la
+            fonction de l’élément graphique ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-1-4-2" aria-describedby="tip-r11-294">1.4.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-294"
+            >1.4.2 Pour chaque élément graphique utilisé comme CAPTCHA ou comme
+            élément graphique de test ayant une description accessible présentée
+            par les technologies d’assistance, la description accessible
+            est-elle pertinente (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-6" aria-describedby="tip-r11-295">3.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-295"
+            >3.6 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une
+            audiodescription synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-6-2" aria-describedby="tip-r11-296">3.6.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-296"
+            >3.6.2 Chaque média temporel synchronisé pré-enregistré dont l'accès
+            aux informations visuelles importantes ne dépend pas de la
+            temporalité de la vidéo, vérifie-t-il une de ces conditions (hors
+            cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-6" aria-describedby="tip-r11-297">3.6</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-297"
+            >3.6 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une
+            audiodescription synchronisée (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-6-3" aria-describedby="tip-r11-298">3.6.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-298"
+            >3.6.3 Chaque média temporel synchronisé pré-enregistré dont l'accès
+            aux informations visuelles importantes dépend de la temporalité de
+            la vidéo, a-t-il, si nécessaire, une audiodescription synchronisée
+            (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-3-7" aria-describedby="tip-r11-299">3.7</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-299"
+            >3.7 Pour chaque média temporel synchronisé pré-enregistré ayant une
+            audiodescription synchronisée ou une alternative sous forme de
+            texte, celles-ci sont-elles pertinentes (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-3-7-2" aria-describedby="tip-r11-300">3.7.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-300"
+            >3.7.2 Pour chaque média temporel synchronisé pré-enregistré dont
+            l'accès aux informations visuelles importantes ne dépend pas de la
+            temporalité de la vidéo ayant une alternative sous forme de texte,
+            vérifie-t-elle une de ces conditions (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-1" aria-describedby="tip-r11-301">5.1</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-301"
+            >5.1 Chaque composant d’interface est-il, si nécessaire, compatible
+            avec les technologies d’assistance (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-1-5" aria-describedby="tip-r11-302">5.1.5</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-302"
+            >5.1.5 Chaque composant d'interface ayant une description
+            accessible, cette description est-elle pertinente ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-3" aria-describedby="tip-r11-303">5.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-303"
+            >5.3 Chaque composant d’interface ayant la même fonction et répété
+            plusieurs fois dans l'application est-il cohérent ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau test dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-5-11" aria-describedby="tip-r11-304">5.11</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-304"
+            >5.11 Chaque lien ayant un nom accessible, ce nom accessible est-il
+            pertinent (hors cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>
+        <span class="tip"
+          ><a href="#test-5-11-2" aria-describedby="tip-r11-305">5.11.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-305"
+            >5.11.2 Chaque lien ayant une description accessible, cette
+            description est-elle pertinente ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-6-2" aria-describedby="tip-r11-306">6.2</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-306"
+            >6.2 Chaque écran a-t-il un titre d'écran (hors cas particuliers)
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-6-3" aria-describedby="tip-r11-307">6.3</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-307"
+            >6.3 Pour chaque écran ayant un titre, ce titre est-il pertinent
+            ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-185" aria-describedby="tip-r11-308">8.185</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-308"
+            >8.185 Chaque composant d'interface pouvant être recouvert par du
+            contenu créé par l'auteur est-il au moins partiellement visible
+            lorsqu'il reçoit le focus du clavier ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-250" aria-describedby="tip-r11-309">8.250</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-309"
+            >8.250 Dans chaque écran dont les propriétés d’espacement du texte
+            peuvent être redéfinies par l'utilisateur, ces propriétés sont-elles
+            appliquées sans perte de contenu ou de fonctionnalité (hors cas
+            particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+    <tr class="raweb11-new-row">
+      <td><em>Nouveau critère dans RAAM 2</em></td>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="tip"
+          ><a href="#critere-8-300" aria-describedby="tip-r11-310">8.300</a
+          ><span class="tip-bubble" role="tooltip" id="tip-r11-310"
+            >8.300 Dans chaque écran, les contenus peuvent-ils être présentés
+            sans perte d’information ou de fonctionnalité et sans avoir recours
+            soit à un défilement vertical pour une zone d’affichage ayant une
+            hauteur équivalente à 256 px, soit à un défilement horizontal pour
+            une zone d’affichage ayant une largeur équivalente à 320 px (hors
+            cas particuliers) ?</span
+          ></span
+        >
+      </td>
+      <td>—</td>
+      <td>—</td>
+      <td>nouveau</td>
+    </tr>
+  </tbody>
+    </table>
+</div>

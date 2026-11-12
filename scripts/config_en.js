@@ -12,16 +12,18 @@ const criteresRAWeb2 = genNewRGAA.generateCriteria('./content/en/raweb2', '', 'r
 const criteresRAAM2 = genNewRGAA.generateCriteria('./content/en/raam2')
 const criteresRAWeb2sortedEN = genNewRGAA.generateCriteria('./content/en/raweb2', '', 'EN')
 const criteresRAAM2sortedEN = genNewRGAA.generateCriteria('./content/en/raam2', '', 'EN')
-const niveauxRAWeb2 = require('../content/fr/raweb2/niveaux.json')
+const RAWEB2normLevels = require('../content/fr/raweb2/en301549-v4.json')
+const RAAM2normLevels = require('../content/fr/raam2/en301549-v4.json')
 const ACTrules = require('../content/fr/raweb2/act-rules.json')
+const APPTrules = require('../content/fr/raam2/appt.json')
 const WCAG2rules = require('../content/fr/raweb2/wcag2.2.json')
-const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
-const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
-const dataRAAM2 = {topics: criteresRAAM2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAAM"}
-const dataRAAM2sortedEN = {topics: criteresRAAM2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: niveauxRAWeb2, WCAGrules: WCAG2rules, actRules: ACTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAAM"}
+const dataRAWeb2 = {topics: criteresRAWeb2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: RAWEB2normLevels, WCAGrules: WCAG2rules, actRules: ACTrules, apptRules: false, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
+const dataRAWeb2sortedEN = {topics: criteresRAWeb2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: RAWEB2normLevels, WCAGrules: WCAG2rules, actRules: ACTrules, apptRules: false, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
+const dataRAAM2 = {topics: criteresRAAM2.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: RAAM2normLevels, WCAGrules: WCAG2rules, actRules: ACTrules, apptRules: APPTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAAM"}
+const dataRAAM2sortedEN = {topics: criteresRAAM2sortedEN.topics, md: lib.mdCriteres(), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: [], message:'', autoTests: {}, levels: RAAM2normLevels, WCAGrules: WCAG2rules, actRules: ACTrules, apptRules: APPTrules, sortNorm: true, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAAM"}
 
 const glossaryRAWeb2 = {glossary: genNewRGAA.generateGlossary('./content/en/raweb2', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
-const glossaryRAAM2 = {glossary: genNewRGAA.generateGlossary('./content/en/raam2', 'critère'), slugify: lib.slugify, md: lib.mdGlossary}
+const glossaryRAAM2 = {glossary: genNewRGAA.generateGlossary('./content/en/raam2', 'criterion'), slugify: lib.slugify, md: lib.mdGlossary}
 
 
 const criteresRAWeb1 = genNewRGAA.generateCriteria('./content/en/raweb1')
@@ -33,7 +35,7 @@ const criteresMonit = genNewRGAA.generateCriteria('./content/en/raweb2', '../../
 //const shortList = ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "2.1", "3.1", "3.2", "4.1", "4.2", "4.3", "4.4", "4.8", "4.9", "4.10", "4.11", "5.6", "5.7", "6.1", "6.2", "7.3", "8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.1", "9.2", "10.7", "10.8", "10.9", "10.10", "10.14", "11.1", "11.2", "11.5", "11.6", "11.7", "11.9", "11.10", "12.6", "12.7", "12.8", "12.9", "12.11", "13.1", "13.7", "13.8"]
 const shortListRaweb2 = ['1.1', '1.2', '1.3', '1.4', '1.6', '1.7', '2.1', '3.1', '3.2', '3.3', '4.10', '4.11', '4.12', '4.13', '4.15', '4.16', '4.18', '4.19', '4.2', '4.3', '4.9', '5.5', '5.6', '6.1', '6.2', '7.4', '8.1', '8.2', '8.3', '8.4', '8.6', '8.7', '9.1', '9.2', '9.3', '10.2', '10.5', '10.7', '11.1', '11.11', '11.12', '11.15', '11.16', '11.19', '11.2', '11.3', '11.4', '11.7', '11.8', '11.9', '12.3', '12.4', '12.6', '12.7', '12.8', '13.1', '13.11', '13.3', '13.4']
 const message = '<strong>Warning:</strong> this list of criteria is to be used only within the framework of the <a href="../../en/monitoring/controle-simplifie.html">simplified control method</a>.<br />If automated test rules can contribute to testing a criterion, these are mentioned in the correlation tables available at the end of the criterion.'
-const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortListRaweb2, message: message, autoTests: axeRgaa, levels: niveauxRAWeb2, WCAGrules: WCAG2rules,actRules: ACTrules, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
+const dataAuditSimpl = {topics: criteresMonit.topics, md: lib.mdCriteres('../raweb2/'), slugify: lib.slugifySC, tech2URL: lib.tech2URL, langOnWCAG: lib.langOnWCAG, langOnEUNorm: lib.langOnEUNorm, shortList: shortListRaweb2, message: message, autoTests: axeRgaa, levels: RAWEB2normLevels, WCAGrules: WCAG2rules,actRules: ACTrules, apptRules: false, sortNorm: false, normVersion: "EN 301 549 V4.1.1 (2026-09)", framework: "RAWeb"}
 
 const config = {
     "declaLangs": [
