@@ -87,7 +87,7 @@
             <h1><%= title %></h1>
           <% } %>
         <% } %>
-        <% if (error !== '') { %>
+        <% if (error !== '' && error != null) { %>
           <div class="alert alert-danger">
             <div class="alert-content">
               <p><%- error %></p>
