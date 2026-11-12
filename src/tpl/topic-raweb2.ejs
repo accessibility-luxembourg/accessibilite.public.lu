@@ -167,7 +167,7 @@
         if (autoTests[crit.criterium.references.RAWeb2] !== undefined) {
             let links = '';
             autoTests[crit.criterium.references.RAWeb2].forEach(e => {
-                links += `<a href="https://dequeuniversity.com/rules/axe/4.1/${e.id}">${e.id} - <span lang="en">"${e.msg}"</span></a>, `;
+                links += `<a href="https://dequeuniversity.com/rules/axe/4.1/${e}"><span lang="en">"${e}"</span></a>, `;
             }) 
             links = links.slice(0, -2); // Remove the last comma and space
             %>
