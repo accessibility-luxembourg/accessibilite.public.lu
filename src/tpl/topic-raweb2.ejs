@@ -22,12 +22,12 @@
                 <a class="anchor" title="<%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %>" href="#<%= critId %>_enNorm"><span class="sr-only"><%= __("Criterion") %> <%= topic.number %>.<%= crit.criterium.number %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
             </h4>
         <% } %>
-        <h5 id="RAWeb-<%= critId %>" class="enNorm">
+        <h5 id="framework-crit-<%= crit.criterium.references.RAWeb2 %>" class="enNorm">
             <span>
                 <%= crit.criterium.references.RAWeb2 %>
             </span>
-            <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>"><%= framework %>2 <%= crit.criterium.references.RAWeb2TopicTitle %></a>
-            <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %>" href="#<%= critId %>"><span class="sr-only"><%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
+            <!-- <a class='RAWeb2-ref' href="../raweb2/criteres.html#crit-<%= crit.criterium.references.RAWeb2.replace('.', '-') %>"><%= framework %>2 <%= crit.criterium.references.RAWeb2TopicTitle %></a> -->
+            <%- md.renderInline(crit.criterium.title) %> <a class="anchor" title="<%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %>" href="#framework-crit-<%= crit.criterium.references.RAWeb2 %>"><span class="sr-only"><%= __("Criterion") %> <%= crit.criterium.references.RAWeb2 %></span><img aria-hidden="true" alt="" src="../../img/hyperlink.svg"></a>
             <span class="level">
                 <span class="sr-only"><%= __('Compliance level') %> </span>
                 <%

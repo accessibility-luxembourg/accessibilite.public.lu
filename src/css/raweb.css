@@ -321,6 +321,10 @@ html, body {
   border-radius: 0;
 }
 
+.RAWebMaster details.discover[open] > summary:focus {
+  background-color: #881600;
+}
+
 .RAWebMaster details.discover > summary::after {
   content: '';
   width: 0; 
