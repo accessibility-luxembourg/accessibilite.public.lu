@@ -25,7 +25,6 @@ function shortCodes(content, criterion_label) {
     const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
     const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
     const url = `criteres.html`
-
     const cleanedContent = content
     .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
     .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
@@ -218,6 +217,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath, folder, RAWeb2topicTitle[1].title)
         checkHeading(refData.notes)
         refData.notes = shortCodes(refData.notes, criterion_label)
+        //testData.metho = shortCodes(testData.metho, criterion_label)
         // Build all criterion properties
         const criterionObject = {
             criterium: {

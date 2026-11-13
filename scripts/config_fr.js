@@ -889,13 +889,6 @@ const config = {
                     "prefix": "../.." ,
                     "genSummary": "ol", 
                     "summaryTitle": "Sommaire"
-                },
-                {
-                    "title": "Méthode de contrôle simplifié de l'accessibilité v1.2.1",
-                    "menu": "La méthode de contrôle simplifié",
-                    "name": "monitoring/controle-simplifie",
-                    "md": "./content/fr/controle-simplifie.md", 
-                    "prefix": "../.." 
                 }
             ]
         },
