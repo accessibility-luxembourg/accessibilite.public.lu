@@ -21,14 +21,28 @@ function parse(file, rgaaPath) {
 }
 
 function shortCodes(content, criterion_label) {
-    // Handle shortcodes
-    const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
-    const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
-    const url = `criteres.html`
-    const cleanedContent = content
-    .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
-    .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
-    return cleanedContent;
+    // internal function to be applied only to strings
+    function _shortCodes(content) {
+        // Handle shortcodes
+        const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
+        const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
+        const url = `criteres.html`
+        const cleanedContent = content
+        .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
+        .replace(testRegex, `<a href="${url}#test-$<topic>-$<crit>-$<test>">test $<topic>.$<crit>.$<test></a>`)
+        return cleanedContent;
+    }
+
+    if (typeof content === 'object' && !Array.isArray(content) && content !== null) { // if content is an object
+        for (key of Object.keys(content)) {
+            content[key] = _shortCodes(content[key])
+        }
+    } else if (Array.isArray(content) && content !== null) { // if content is an array
+        content = content.map(_shortCodes)
+    } else if (typeof content === 'string') { // if content is a string
+        content = _shortCodes(content)
+    }
+    return content
 }
 
 function parseTitle(file, rgaaPath) {
@@ -217,7 +231,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
         const refData = parseReferences(`${CRITERIA_SOURCE}/${folder}/annexe.md`, rgaaPath, folder, RAWeb2topicTitle[1].title)
         checkHeading(refData.notes)
         refData.notes = shortCodes(refData.notes, criterion_label)
-        //testData.metho = shortCodes(testData.metho, criterion_label)
+        testData.metho = shortCodes(testData.metho, criterion_label)
         // Build all criterion properties
         const criterionObject = {
             criterium: {
