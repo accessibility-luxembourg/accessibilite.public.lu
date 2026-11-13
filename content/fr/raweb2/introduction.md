@@ -1,4 +1,4 @@
-*Version 2, publiée le XX XX 2026*
+*Version 2, publiée le xx xxxx 2027*
 
 Conformément à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites Internet et applications mobiles des organismes du secteur public doivent être accessibles. Le [Service information et presse](https://sip.gouvernement.lu/fr.html) est chargé de contrôler leur conformité en matière d’accessibilité.
 Par ailleurs, la [loi du 8 mars 2023](https://sip.gouvernement.lu/fr.html) étend cette obligation à certains types de produits et services. Le contrôle de leur accessibilité relève de la compétence de [l’OSAPS]([OSAPS](https://accessibilite-produits-services.public.lu/fr.html)).
@@ -9,7 +9,7 @@ La méthode technique du RAWeb permet de vérifier qu’une page web – c’est
 
 La méthode technique du RAWeb propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité.
 
-Elle comporte 175 critères de contrôle. Certains tests font référence à des techniques d’implémentation (HTML, CSS, JavaScript…) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
+Elle comporte XX critères de contrôle. Certains tests font référence à des techniques d’implémentation (HTML, CSS, JavaScript…) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
 
 Certains tests, concernant notamment les composants d’interface développés en JavaScript, requièrent de vérifier la restitution des contenus avec des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation. L’environnement de test (ou « Base de référence ») est décrit sur la page [Environnement de test](environnement.html).
 
