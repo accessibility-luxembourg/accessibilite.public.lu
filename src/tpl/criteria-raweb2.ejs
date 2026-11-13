@@ -1,6 +1,15 @@
 <% if (message !== '') { %>
 <p id="intro"><%- message %></p>
 <% } %>
+
+<% if (framework === 'RAAM') { %>
+<div class="alert alert-danger">
+    <div class="alert-content">
+        <p><strong>Cette page est en cours d'élaboration: </strong> ne pas évaluer avant le 23 novembre 2026.</p>
+    </div>
+</div>
+<% } %>
+
 <div class="RAWebMasterHeader">
     <div class="rawebMargin">
         <aside>
