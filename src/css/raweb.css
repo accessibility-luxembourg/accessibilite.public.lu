@@ -304,10 +304,6 @@ html, body {
   padding: 8px 10px;
 }
 
-.RAWebMaster details.discover > summary:hover, .RAWebMaster details.discover > summary:focus {
-  background: #eff6ff;
-}
-
 .RAWebMaster :not(details.discover) + details.discover > summary { /* first element */
   border-radius: 6px 6px 0 0;
 }
@@ -319,6 +315,11 @@ html, body {
 
 .RAWebMaster details.discover[open]:not(:has(+ details)) > summary { /* last element */
   border-radius: 0;
+}
+
+.RAWebMaster details.discover[open] > summary:focus-visible {
+  background-color: #881600;
+  border-color: #881600;
 }
 
 .RAWebMaster details.discover > summary::after {
@@ -400,7 +401,7 @@ html, body {
 }
 
 .accordion details.methodo {
-  padding: 5px;
+  padding: 0 0 10px 0;
   box-sizing: border-box;
   max-width: 840px;
   margin: auto;
@@ -442,7 +443,7 @@ html, body {
 .accordion details.methodo[open] summary {
   border-bottom: none;
   border-radius: 2px 2px 0 0;
-  background-color: #19297c;
+  background-color: #183B67;
   color: white;
 }
 
