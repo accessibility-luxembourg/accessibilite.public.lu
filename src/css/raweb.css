@@ -401,7 +401,7 @@ html, body {
 }
 
 .accordion details.methodo {
-  padding: 5px;
+  padding: 0 0 10px 0;
   box-sizing: border-box;
   max-width: 840px;
   margin: auto;
