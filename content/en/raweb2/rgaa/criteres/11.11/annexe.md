@@ -12,4 +12,4 @@ Techniques:
 
 #### Notes techniques
 
-Les boutons `<input type="image"/>` s'évaluent au {% crit 11.13 %} et au {% crit 11.14 %}.
+Les boutons `<input type="image"/>` s’évaluent au {% crit 11.13 %} et au {% crit 11.14 %}.

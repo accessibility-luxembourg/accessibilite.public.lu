@@ -8,7 +8,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas aux éléments suivants :
 
 * La fonction peut être réalisée grâce à un élément de contrôle différent sur la même page, et qui satisfait à ce critère.
 * La cible se trouve dans une phrase, ou bien sa taille est limitée par la hauteur de ligne du texte non ciblé.

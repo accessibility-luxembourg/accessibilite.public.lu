@@ -9,4 +9,4 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas aux médias temporel utilisés à des fins décoratives (c’est-à-dire qu’ils n’apportent aucune information).
+Le critère ne s’applique pas aux médias temporels utilisés à des fins décoratives (c’est-à-dire qu’ils n’apportent aucune information).

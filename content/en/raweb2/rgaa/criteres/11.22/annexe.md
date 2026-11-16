@@ -8,12 +8,12 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas lorsque :
 
-- la ressaisie d’information est [essentielle](#essentiel) (par exemple, jeu de mémoire) ;
-- l’information est requise pour des raisons de sécurité (par exemple, mot de passe) ;
-- l’information précédemment saisie n'est plus valide.
+- la ressaisie d’information est [essentielle](#essentiel) (par exemple, jeu de mémoire) ;
+- l’information est requise pour des raisons de sécurité (par exemple, mot de passe) ;
+- l’information précédemment saisie n’est plus valide.
 
 #### Notes techniques
 
-C'est le site web qui doit fournir l'information à l'utilisateur, et non le navigateur. Ainsi, la fonctionnalité de remplissage automatique du navigateur n'est pas considérée comme une méthode conforme pour ce critère. 
+C’est le site web qui doit fournir l’information à l’utilisateur, et non le navigateur. Ainsi, la fonctionnalité de remplissage automatique du navigateur n’est pas considérée comme une méthode conforme pour ce critère. 

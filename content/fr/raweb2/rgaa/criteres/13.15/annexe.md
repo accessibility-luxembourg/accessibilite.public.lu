@@ -10,4 +10,4 @@ Techniques:
 
 #### Cas particuliers 
 
-Le critère ne s'applique aux contenus cryptiques porteurs d'information déjà identifié comme image à l'aide d'un attribut WAI-ARIA `role="img"`. Ces contenus sont évalués aux critères 1.1 et 1.3.
+Le critère ne s’applique aux contenus cryptiques porteurs d’information déjà identifié comme image à l’aide d’un attribut WAI-ARIA `role="img"`. Ces contenus sont évalués aux critères 1.1 et 1.3.

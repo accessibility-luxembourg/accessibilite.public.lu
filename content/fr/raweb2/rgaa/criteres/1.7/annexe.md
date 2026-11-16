@@ -12,11 +12,11 @@ ACT:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque&nbsp;:
+Le critère ne s’applique pas lorsque :
 
-- le texte fait partie d’un logo ou d’un élément associé à l’identité graphique d’un organisme ou d’une société ;
-- le texte contenu dans l’élément graphique est utilisé comme [CAPTCHA](#captcha) ou comme [image-test](#image-test)) ;
-- le texte fait partie d’un élément dont l’exactitude graphique est considérée comme [essentielle](#essentiel) à la bonne transmission de l’information véhiculée par l’l’image.
+- le texte fait partie d’un logo ou d’un élément associé à l’identité graphique d’un organisme ou d’une société ;
+- le texte contenu dans l’élément graphique est utilisé comme [CAPTCHA](#captcha) ou comme [image-test](#image-test)) ;
+- le texte fait partie d’un élément dont l’exactitude graphique est considérée comme [essentielle](#essentiel) à la bonne transmission de l’information véhiculée par l’image.
 
 #### Notes techniques
 

@@ -10,4 +10,4 @@ Techniques:
 
 #### Notes techniques 
 
-Le critère s'applique uniquement aux informations accoléee aux champs (par exemple, elle est donnée en en-tête de formulaire).
+Le critère ne s’applique pas aux informations éloignées des champs (par exemple, données en en-tête de formulaire).

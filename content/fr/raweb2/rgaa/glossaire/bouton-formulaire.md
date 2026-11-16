@@ -6,8 +6,8 @@ title: Bouton (formulaire)
 
 En HTML, il y a trois types de boutons de formulaire :
 
-- Balise `<input>` de type `submit`, `reset` ou `button` ;
-- Balise `<input>` de type `image` ;
-- Balise `<button>`.
+- Élément `<input>` de type `submit`, `reset` ou `button` ;
+- Élément `<input>` de type `image` ;
+- Élément `<button>`.
 
 Il est également possible de restituer un bouton à l’aide du rôle WAI-ARIA `button`.

@@ -16,7 +16,7 @@ ACT:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas lorsque :
 
 - le texte fait partie d’un logo ou d’un nom de marque d’un organisme ou d’une société ;
 - le texte ou l’image de texte est purement décoratif ;

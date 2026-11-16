@@ -8,7 +8,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas :
+Le critère ne s’applique pas :
 
 - aux noms propres ;
 - aux [termes techniques](#termes-techniques) ;

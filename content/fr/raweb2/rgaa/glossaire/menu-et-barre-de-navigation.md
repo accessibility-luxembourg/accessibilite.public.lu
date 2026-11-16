@@ -4,7 +4,7 @@ title: Menu et barre de navigation
 
 Liste de liens permettant une navigation spécifique dans le site, dans une rubrique ou dans un ensemble de pages.
 
-Il existe différents types de menu de navigation ({% crit 12.1 %} et {% crit 12.4 %}) :
+Il existe différents types de **menu de navigation** ({% crit 12.1 %} et {% crit 12.4 %}) :
 
 - Un menu de navigation principal ;
 - Un menu de sous-rubrique ;
@@ -14,7 +14,7 @@ Il existe différents types de menu de navigation ({% crit 12.1 %} et {% crit 12
 
 Note : Les liens de pied de page renvoyant vers les mentions légales, plan du site et autres informations concernant le site ne sont pas considérés comme un menu de navigation principal.
 
-Les principales barres de navigation ({% crit 12.4 %}) sont :
+Les principales **barres de navigation** ({% crit 12.4 %}) sont :
 
 - Un menu de navigation ;
 - Un fil d’ariane ;

@@ -9,7 +9,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas lorsque :
 
 - la page est la page d’accueil ;
 - le site web est constitué d’une seule page ;

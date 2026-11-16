@@ -10,7 +10,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique.
+Le critère ne s’applique pas lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique.
 
 #### Notes techniques
 

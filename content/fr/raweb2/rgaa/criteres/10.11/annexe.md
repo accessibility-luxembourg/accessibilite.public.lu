@@ -20,7 +20,7 @@ ACT: 18
 
 L’objectif de ce critère est de garantir un défilement dans une unique direction pour une lecture facilitée selon le sens de l’écriture.
 
-Le critère ne s'applique pas aux contenus dont l’agencement requiert deux dimensions pour être compris ou utilisés comme :
+Le critère ne s’applique pas aux contenus dont l’agencement requiert deux dimensions pour être compris ou utilisés comme :
 
 - Les images, les graphiques ou les vidéos ;
 - Les jeux (jeux de plateforme, par exemple) ;

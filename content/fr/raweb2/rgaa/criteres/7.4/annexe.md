@@ -18,7 +18,7 @@ ACT:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque la fonctionnalité dépend de l’utilisation d’un gestionnaire d’événement sans équivalent universel ; par exemple, une application de dessin à main levée ne pourra pas être rendue contrôlable au clavier.
+Le critère ne s’applique pas lorsque la fonctionnalité dépend de l’utilisation d’un gestionnaire d’événement sans équivalent universel ; par exemple, une application de dessin à main levée ne pourra pas être rendue contrôlable au clavier.
 
 #### Notes techniques
 

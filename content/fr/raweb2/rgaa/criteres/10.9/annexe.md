@@ -21,8 +21,8 @@ ACT: 18
 
 #### Cas particuliers
 
-Le critère ne s'applique pas aux contenus pour lesquels l’utilisateur n’a pas de possibilité de personnalisation :
+Le critère ne s’applique pas aux contenus pour lesquels l’utilisateur n’a pas de possibilité de personnalisation :
 
 - les sous-titres incrustés dans une vidéo ;
 - les textes en image ;
-- le texte au sein d’une balise `<canvas>`.
+- le texte au sein d’un élément `<canvas>`.

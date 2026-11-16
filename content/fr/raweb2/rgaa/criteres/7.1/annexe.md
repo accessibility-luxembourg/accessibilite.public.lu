@@ -33,7 +33,7 @@ ACT:
 
 #### Notes techniques
 
-Le nom et la description accessible des liens et les champs de formulaires sont évalués avec les critères des thématiques dédiées « Liens » et « Formulaires ».
+Le nom et la description accessible des liens et les champs de formulaires sont évalués avec les critères des thématiques dédiées « Liens » et « Formulaires ».
 
 Le critère 7.1 implémente la notion de « compatible avec les technologies d’assistance » telle que définie par les WCAG, ainsi que le recours à WAI-ARIA pour rendre un composant ou une fonctionnalité accessible.
 

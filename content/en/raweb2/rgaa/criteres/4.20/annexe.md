@@ -11,5 +11,5 @@ Les médias temporels synchronisés en direct diffusés via un site web soumis �
 
 #### Notes techniques 
 
-Le critère prend le contrôle du volume comme référence pour l'évaluation du positionnement des fonctionnalités d'accessibilité. 
-Dans les cas où un lecteur multimédia ne dispose pas d'un contrôle du volume, ce sont les autres [fonctionnalités principales](#fonctionnalites-principales-d-un-media-temporel) qui sont à prendre en référence (lecture, pause, stop).
+Le critère prend le contrôle du volume comme référence pour l’évaluation du positionnement des fonctionnalités d’accessibilité. 
+Dans les cas où un lecteur multimédia ne dispose pas d’un contrôle du volume, ce sont les autres [fonctionnalités principales](#fonctionnalites-principales-d-un-media-temporel) qui sont à prendre en référence (lecture, pause, stop).

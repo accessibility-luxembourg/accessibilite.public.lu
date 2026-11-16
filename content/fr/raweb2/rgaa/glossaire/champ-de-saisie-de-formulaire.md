@@ -33,7 +33,7 @@ Objet d’un formulaire permettant à l’utilisateur :
 	- `output` ;
 	- `progress` ;
 	- `meter`.
-- Les balises possédant un rôle WAI-ARIA permettant de restituer un champ de formulaire sont également couvertes par cette définition :
+- Les éléments possédant un rôle WAI-ARIA permettant de restituer un champ de formulaire sont également couverts par cette définition :
 	- `progressbar` ;
 	- `slider` ;
 	- `spinbutton` ;

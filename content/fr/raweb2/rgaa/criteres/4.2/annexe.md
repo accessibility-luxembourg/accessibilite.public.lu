@@ -10,7 +10,7 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas lorsque :
 
 - le média temporel est utilisé à des fins décoratives (c’est-à-dire qu’il n’apporte aucune information) ;
 - le média temporel est lui-même une alternative à un contenu de la page (une vidéo en langue des signes ou la vocalisation d’un texte, par exemple) ;

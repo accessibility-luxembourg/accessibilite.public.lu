@@ -10,11 +10,11 @@ Techniques:
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque :
+Le critère ne s’applique pas lorsque :
 
-- Le geste est requis par l’agent utilisateur ou le système d’exploitation et n'est pas modifié par l'auteur.
+- Le geste est requis par l’agent utilisateur ou le système d’exploitation et n’est pas modifié par l’auteur.
 - La réalisation d’un geste complexe est [essentielle](#essentiel) pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
 
 #### Notes techniques 
 
-Le critère [13.10 @@TODO numérotation] s'intéresse aux gestes complexes, notamment les gestes qui nécessitent que le dispositif de pointage suive une trajectoire précise. À l'inverse du critère [13.2000 @@TODO numérotation] qui s'intéresse aux mouvements de glissements qui ne tiennent pas compte des trajectoires du dispositif de pointage.
+Le critère 13.5 s’intéresse aux gestes complexes, notamment les gestes qui nécessitent que le dispositif de pointage suive une trajectoire précise. À l’inverse du {% crit 13.6 %} qui s’intéresse aux mouvements de glissements qui ne tiennent pas compte des trajectoires du dispositif de pointage.

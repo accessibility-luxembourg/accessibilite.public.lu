@@ -14,6 +14,6 @@ ACT: 2
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque l’image est utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), c'est-à-dire qu'il n’est pas possible de donner un nom accessible pertinent sans détruire l’objet du CAPTCHA ou du test.
+Le critère ne s’applique pas lorsque l’image est utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), c’est-à-dire qu’il n’est pas possible de donner un nom accessible pertinent sans détruire l’objet du CAPTCHA ou du test.
 
 Note : le cas des CAPTCHA et des images-test est traité de manière spécifique par le {% crit 1.4 %}.

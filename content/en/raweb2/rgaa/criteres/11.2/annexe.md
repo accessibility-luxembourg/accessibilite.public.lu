@@ -20,6 +20,8 @@ ACT:
   - 11
 ---
 
-#### Note technique
+#### Notes techniques
 
-Lorsque le nom accessible d'un champ est fourni par un contenu possédant un ou plusieurs éléments non textuel porteurs d'informations (par exemple, image `<img>` ou `<svg>`), la présence et la pertinence du nom accessible sont conditionnées par la présence et la pertinence du nom accessible de ces éléments. Dans ces cas, se reporter aux critères de la thématique Images pour déterminer les tests à réaliser. Les erreurs relatives à des images porteuses d'informations contenues dans des noms accessibles de champs de formulaires sont  à évaluer dans la thématique &laquo;&nbsp;Formulaires&nbsp;&raquo;.
+Lorsque le nom accessible d’un champ est fourni par un contenu possédant un ou plusieurs éléments non textuels porteurs d’informations (par exemple, image `<img>` ou `<svg>`), la présence et la pertinence du nom accessible sont conditionnées par la présence et la pertinence du nom accessible de ces éléments. Dans ces cas, se reporter aux critères de la thématique Images pour déterminer les tests à réaliser. Les erreurs relatives à des images porteuses d’informations contenues dans des noms accessibles de champs de formulaires sont à évaluer dans la thématique « Formulaires ».
+
+La liaison de plusieurs éléments `<label>` à un même champ de formulaire n’est pas problématique sur presque l’ensemble de l’environnement de tests, c’est la concaténation des textes des différents labels reliés qui constitue le nom accessible. Cette implémentation est toutefois à éviter pour les éléments `<select>` pour lesquels des défauts de restitution ont été constatés avec certaines combinaisons de l’environnement de test.
