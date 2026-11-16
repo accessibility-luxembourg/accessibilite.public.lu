@@ -7,7 +7,7 @@ Dans ce cadre, le référentiel d’évaluation de l’accessibilité Web (RAWeb
 
 La méthode technique du RAWeb couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 2](../raam2/index.html).
 
-Elle comporte [XX @@TODO] critères de contrôle. 
+Elle comporte 175 critères de contrôle. 
 
 Ce référentiel propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Dès lors, elle permet de vérifier qu’une application mobile est conforme aux critères décrits dans la [norme européenne EN 301 549 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf) pour les sections suivantes&nbsp;: 
 
