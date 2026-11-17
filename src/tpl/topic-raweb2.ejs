@@ -35,6 +35,8 @@
                     %>
                 <% if(ENlevel) { %>
                 <%= ENlevel.level %>
+                <% } else { /* cas de figure de la section 10 de la norme v4 */ %>
+                A
                 <% } %>
             </span>
         </h5>
@@ -54,6 +56,8 @@
                 const ENlevel = levels.criteria.find(r => r['data-ref'] === crit.criterium.references.norm.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0]); %>
                 <% if(ENlevel) { %>
                     <%= ENlevel.level %>
+                <% } else { /* cas de figure de la section 10 de la norme v4 */ %>
+                A
                 <% } %>
             </span>
         </h4>
