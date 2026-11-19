@@ -1,10 +1,8 @@
 ---
-WCAG: N/A
-Norm:
-- 11.8.1
-niveau: A
+EN301549-V4: 5.10.3
+RAAM1.1: 13.3
 ---
 
 #### Cas particuliers
 
-Le critère est non applicable lorsque le format de destination ne permet pas de conserver les informations d’accessibilité présentes dans le contenu en entrée.
+Le critère ne s’applique pas lorsque le format de destination ne permet pas de conserver les informations d’accessibilité présentes dans le contenu en entrée.

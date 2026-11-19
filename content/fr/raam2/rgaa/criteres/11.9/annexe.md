@@ -1,14 +1,16 @@
 ---
-WCAG:
-- 1.3.4
-Norm:
-- 11.1.3.4
-APPT:
-- 1.3.4
-niveau: AA
+EN301549-V4: 5.9
+RAAM1.1: 11.11
 ---
 
 #### Cas particuliers
 
-Le critère est non applicable lorsque l’orientation du périphérique est essentielle à l’utilisation de l’application, par exemple&nbsp;: interfaces de jeu, de piano, etc.
-Si l’interface est le seul moyen d’accéder au service proposé, une alternative devrait être mise en place.
+Le critère ne s’applique pas aux actions requises par la plateforme ou les technologies d’assistance.
+
+#### Notes techniques
+
+Ce critère évalue les actions simultanées, quelles qu’elles soient : commande vocale, clic souris, frappe de touches, toucher d’écran etc. 
+
+Le {% crit 11.5 %} quant à lui s’intéresse aux gestes complexes, et donc uniquement aux évènements associés à des pointeurs. Cependant, un [geste complexe](#gestes-complexes-et-gestes-simples) peut également entrer dans le champ d’application des actions simultanées. Par exemple : le geste de pincement à deux doigts sur une animation qui intègre sa propre fonctionnalité de zoom.
+
+Dans le cas d’une non-conformité identifiée au {% crit 11.5 %}, nous suggérons de ne pas dupliquer l’erreur sur ce critère.

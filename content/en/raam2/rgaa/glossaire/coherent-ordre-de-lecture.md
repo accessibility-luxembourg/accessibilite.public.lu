@@ -2,4 +2,4 @@
 title: Cohérent (ordre de lecture)
 ---
 
-Un contenu compréhensible est lisible (l’ordre des éléments est logique) et cohérent (l’enchaînement de la lecture est cohérent).
+Un ordre de lecture est cohérent lorsque l’ordre des éléments et l’enchaînement de la lecture est logique.

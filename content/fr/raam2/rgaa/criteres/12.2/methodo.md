@@ -1,10 +1,8 @@
 ###### iOS et Android
 
-1. Repérer les fonctionnalités d’accessibilité décrites dans la documentation. Par exemple&nbsp;: 
-	- accéder à une version du contenu en langage simplifié&nbsp;;
-	- agrandir la taille du texte.
-1. Vérifier que les utilisateurs concernés par chaque fonctionnalité d’accessibilité sont en mesure d’y accéder. Par exemple&nbsp;:
-	- Version alternative en langage simplifié&nbsp;: le mécanisme ou l’ensemble des mécanismes qui permettent d’activer la fonctionnalité doit être compréhensible et identifiable par une personne qui bénéficie du langage simplifié (par exemple, l’emploi du [logo « Facile à lire »](https://www.inclusion-europe.eu/easy-to-read/) pour identifier le mécanisme est une solution conforme).
-	- Agrandissement de la taille des caractères&nbsp;: si le mécanisme contient du texte, alors le texte doit être affiché par défaut avec une taille de police équivalent à 200% de la taille de police initiale.
-1. Vérifier qu’il est possible d’activer cette fonctionnalité.
-1. Si c’est le cas, le critère est validé. 
+1. Repérer dans l’application des informations sur les produits.
+1. Si les informations sont disponibles depuis l’application, dans un des écrans, vérifier pour chaque élément d’information qu’il est conforme au [RAAM](../raam2/index.html).
+1. Si les informations sont consultables depuis un navigateur web (au format web (HTML, CSS)), vérifier pour chaque élément d’information qu’il est conforme au [RAWeb](../rawebé/criteres.html).
+1. Si les informations sont au format PDF, vérifier pour chaque élément d’information qu’il est conforme au [RAPDF](../rapdf1.1/index.html).
+1. Si les informations sont au format non web (hors PDF), vérifier pour chaque élément d’information qu’il est conforme aux critères de la section 10 <span lang="en">Non-web documents</span> de la norme européenne EN 301 549 V4.1.1.
+1. Si c’est le cas, **le critère est validé**.

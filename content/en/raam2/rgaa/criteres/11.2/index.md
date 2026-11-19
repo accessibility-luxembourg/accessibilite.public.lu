@@ -1,3 +1,3 @@
 ---
-title: Pour chaque écran, chaque procédé limitant le temps d’une session peut-il être arrêté ou supprimé (hors cas particuliers)&nbsp;?
+title: Pour chaque écran, les [mises à jour automatiques de contenu](#mise-a-jour-automatique-de-contenu) vérifient-elles une de ces conditions (hors cas particuliers) ?
 ---

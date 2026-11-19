@@ -1,3 +1,3 @@
 ---
-title: Chaque [gabarit](#gabarit) qui permet de répondre aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique) est-il clairement identifiable&nbsp;?
+title: Pour chaque fonctionnalité d’édition de texte qui permet de définir des attributs de présentation des textes, ces attributs sont-ils [présentés par les technologies d’assistance](#accessible-aux-technologies-d-assistance) ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application qui permet une [communication orale bidirectionnelle](#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), les deux modes sont-ils utilisables simultanément&nbsp;?
+title: Chaque application qui permet une [communication orale en temps réel](#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](#communication-ecrite-en-temps-reel) ?
 ---

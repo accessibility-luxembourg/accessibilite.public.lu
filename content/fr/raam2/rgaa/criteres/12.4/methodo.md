@@ -1,10 +1,19 @@
-###### iOS et Android
+###### iOS
 
-1. Repérer la présence d’une documentation dans l’application ou accessible depuis l’application.
-1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
-1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
-1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
-1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
-1. Si c’est le cas, le critère est validé.
+1. Identifier dans la [documentation](#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par iOS](https://www.apple.com/fr/accessibility/?afid=p238%7CsfxtLHWp4-dc_mtid_2092576239937_pcrid_483515907294_pgrid_110868765821_&cid=wwa-fr-kwgo-features--slid---productid---Accessibility-Accessibility-)).
+1. Vérifier que l’application n’empêche pas leur utilisation, par exemple :
+	- si l’application implémente des interactions qui déclenchent des fonctionnalités, ces interactions n’empêchent pas le bon fonctionnement des fonctionnalités d’accessibilité de la plateforme comme le lecteur d’écran ou les autres fonctionnalités basées sur le toucher ;
+	- si l’application embarque une reconnaissance vocale, alors l’utilisation de la commande vocale intégrée à la plateforme n’est pas perturbée ; 
+	- si l’application implémente des raccourcis clavier, ceux-ci n’utilisent pas des combinaisons de touches déjà employées par la plateforme pour des fonctionnalités d’accessibilité ([VoiceOver peut être utilisé avec un clavier](https://support.apple.com/fr-fr/guide/iphone/iph6c494dc6/ios) par exemple, les raccourcis proposés ne doivent pas interférer) ;
+	- ou toute autre fonctionnalité de l’application.
+1. Si c’est le cas, **le critère est validé**.
 
-Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.
+###### Android
+
+1. Identifier dans la [documentation](#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par Android](https://support.google.com/accessibility/android/answer/6006564?hl=fr)).
+1. Vérifier que l’application n’empêche pas leur utilisation, par exemple :
+	- si l’application implémente des interactions qui déclenchent des fonctionnalités, ces interactions n’empêchent pas le bon fonctionnement des fonctionnalités d’accessibilité de la plateforme comme le lecteur d’écran ou les autres fonctionnalités basées sur le toucher ;
+	- si l’application embarque une reconnaissance vocale, alors l’utilisation de la commande vocale intégrée à la plateforme n’est pas perturbée ;
+	- si l’application implémente des raccourcis clavier, ceux-ci n’utilisent pas des combinaisons de touches déjà employées par la plateforme pour des fonctionnalités d’accessibilité ([TalkBack peut être utilisé avec un clavier](https://support.google.com/accessibility/android/answer/6110948?hl=fr&ref_topic=10602074) par exemple, les raccourcis proposés ne doivent pas interférer) ; 
+	- ou toute autre fonctionnalité de l’application.
+1. Si c’est le cas, **le critère est validé**.

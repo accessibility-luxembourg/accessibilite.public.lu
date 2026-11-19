@@ -1,3 +1,3 @@
 ---
-title: L’application ne perturbe pas les fonctionnalités d’accessibilité de la plateforme. Cette règle est-elle respectée&nbsp;?
+title: Les informations sur les [services](#produits-et-services) sont-elles conformes aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique) ?
 ---

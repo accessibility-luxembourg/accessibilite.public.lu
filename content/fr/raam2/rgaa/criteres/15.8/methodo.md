@@ -1,8 +1,6 @@
 ###### iOS et Android
 
-1. Activer l’application et le **lecteur d’écran** depuis un terminal.
-1. Depuis un second terminal, lancer un appel vers le premier terminal.
-1. Lorsque l’appel entrant apparaît, vérifier&nbsp;:
-	- que l’identification de l’interlocuteur est disponible visuellement sous la forme d’un texte dont la nature est compréhensible (par exemple, un nom ou un numéro de téléphone)&nbsp;;
-	- que cette identification est correctement restituée par **le lecteur d’écran**.
-1. Si c’est le cas, le critère est validé. 
+1. Activer l’application et lancer un appel entre les deux terminaux.
+2. Faire parler un utilisateur depuis un des terminaux.
+3. Vérifier sur l’interface l’apparition d’un indicateur visuel permettant d’identifier qu’une personne est en train de parler. Il n’est pas nécessaire pour ce critère d’identifier qui parle, mais simplement d’identifier qu’il y a une activité orale. Par exemple, un halo autour ou une icône à proximité de l’avatar de la personne qui parle.
+4. Si c’est le cas, **le critère est validé**.

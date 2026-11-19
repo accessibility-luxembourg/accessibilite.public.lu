@@ -1,3 +1,3 @@
 ---
-title: La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique)&nbsp;?
+title: L’application ne perturbe pas les fonctionnalités d’accessibilité documentées de la plateforme. Cette règle est-elle respectée ?
 ---

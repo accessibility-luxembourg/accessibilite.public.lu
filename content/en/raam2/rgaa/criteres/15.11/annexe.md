@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-- 6.5.2
-niveau: AA
+EN301549-V4: 6.2.3
+RAAM1.1: N/A
 ---

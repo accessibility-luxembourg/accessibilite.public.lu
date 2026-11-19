@@ -2,7 +2,7 @@
 title: Service d’assistance
 ---
 
-Un service d’assistance peut être&nbsp;: 
+Un service d’assistance peut être : 
 
 - le mécanisme de retour d’information identifié dans la déclaration d’accessibilité de l’application,
 - un *help desk*{lang=en}, 

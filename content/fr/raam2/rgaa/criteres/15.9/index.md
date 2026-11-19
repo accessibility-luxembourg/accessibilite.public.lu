@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application de [communication orale bidirectionnelle](#application-de-communication-orale-bidirectionnelle) qui permet d’identifier l’activité d’un interlocuteur oralisant, il est possible d’identifier l’activité d’un interlocuteur signant. Cette règle est-elle respectée&nbsp;?
+title: Pour chaque application qui permet une [communication orale](#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), les messages sont-ils présentés par ordre chronologique  en blocs de texte ?
 ---

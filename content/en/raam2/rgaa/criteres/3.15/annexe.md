@@ -7,7 +7,7 @@ APPT: 1.4.2
 
 #### Cas particuliers
 
-Le critère ne s'applique pas lorsque le son déclenché automatiquement a une durée inférieure à 3 secondes.
+Le critère ne s’applique pas lorsque le son déclenché automatiquement a une durée inférieure à 3 secondes.
 
 #### Note
 

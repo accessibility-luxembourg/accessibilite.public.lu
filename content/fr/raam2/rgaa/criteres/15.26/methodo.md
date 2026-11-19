@@ -1,0 +1,12 @@
+###### iOS et Android
+
+1. Consulter la documentation technique publique de l’application et relever les spécifications vidéo documentées pour l’interopérabilité.
+2. Consulter la documentation technique de l’autre application avec laquelle l’interopérabilité est testée et relever ses spécifications vidéo documentées.
+3. Vérifier que les spécifications documentées des deux applications concordent (les deux applications doivent utiliser le même ensemble de spécifications pour l’interopérabilité vidéo).
+4. Vérifier que les spécifications précisent :
+	- un ensemble de spécifications relatives à la communication vidéo répondant aux exigences de conversation totale de la norme qui sont supportées par les systèmes interopérants ;
+	- soit la spécification [ITU-T H.264](https://www.itu.int/rec/T-REC-H.264/fr) version 10 minimum, au niveau de référence 3 minimum (<em lang="en">constrained baseline</em>) ;
+	- soit la spécification [ITU-T H.265](https://www.itu.int/rec/T-REC-H.265/fr) et/ou [IETF RFC 6386 VP8](https://datatracker.ietf.org/doc/html/rfc6386).
+5. Si c’est le cas, **le critère est validé.**
+
+Ce critère peut nécessiter de contacter directement l’éditeur de l’application pour obtenir les informations techniques relatives aux codecs vidéo utilisés pour l’interopérabilité, si elles ne sont pas disponibles dans la documentation publique.

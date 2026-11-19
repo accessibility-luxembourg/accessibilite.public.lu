@@ -1,10 +1,18 @@
 ###### iOS et Android
 
-1. Repérer dans l’application la présence d’une fonctionnalité de répétition de touches (repérer par exemple la présence de consignes dans l’interface ou dans une documentation associée à l’application).
-1. Vérifier que le délai de déclenchement de la fonction de répétition (le délai entre la toute première pression de touche à répéter et la mise en œuvre de la fonction de répétition)&nbsp;:
-	- est de 2 secondes au moins&nbsp;;
-	- ou qu’il existe une méthode permettant de le paramétrer à 2 secondes au moins (par exemple, un champ de saisie dans les paramètres utilisateurs de l’application). 
-1. Vérifier que le délai entre deux répétitions&nbsp;: 
-	- est de 2 secondes au moins&nbsp;;
-	- ou qu’il existe une méthode permettant de le paramétrer à 2 secondes au moins (par exemple, un champ de saisie dans les paramètres utilisateurs de l’application).
-1. Si c’est le cas, le test est validé.
+1. Repérer dans l’écran les composants (un lien, un bouton de formulaire ou un formulaire de téléchargement par exemple) permettant de télécharger un fichier au format bureautique (.doc, .docx, .pdf par exemple).
+2. Pour chaque fichier au format bureautique, vérifier la présence d’une version alternative présentée comme accessible :
+	- Pour les documents au format .pdf, vérifier la conformité au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF)](../rapdf1.1/index.html).
+	- Pour les documents au format .doc ou .docx, analyser le fichier avec l’outil de vérification d’accessibilité de Microsoft Office (à partir de la version 2010) et vérifier l’absence d’erreur d’accessibilité (cf. note).
+	- Pour les documents au format .odt, analyser le document avec l’outil de vérification d’accessibilité de LibreOffice (à partir de la version 7.0).
+	- Pour les documents au format EPUB/DAISY, analyser le document avec un éditeur EPUB/DAISY.
+	- Pour les documents dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 Non-web documents de la norme européenne EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=71).
+3. Si une version alternative est présente et compatible avec l’accessibilité, vérifier qu’elle offre la même information que le fichier bureautique.
+4. Sinon, vérifier que le fichier en téléchargement respecte les [règles d’accessibilité](#regles-d-accessibilite-numerique) relatives à son format.
+5. Si c’est le cas, **le critère est validé**.
+
+Note au sujet Microsoft Office : le logiciel offre un vérificateur d’accessibilité en standard, (accessible via le menu « Fichier > Informations > Vérifier la présence de problèmes > Vérifier l’accessibilité »). Ce vérificateur peut être considérablement amélioré via le <span lang="en">plugin Word Accessibility Plug-in</span> (voir dans la section Outils). Ce plugin ne fonctionne que sur Windows. Sur Mac, le contrôle doit se faire manuellement.
+
+Note au sujet LibreOffice : le logiciel offre un vérificateur d’accessibilité en standard, accessible via le menu « <span lang="en">Tools > Accessibility Check</span> ». 
+
+Note au sujet du format EPUB : l’utilitaire <span lang="en">Ace by DAISY App</span> permet d’effectuer le travail de validation d’un fichier EPUB 3 de manière efficace.

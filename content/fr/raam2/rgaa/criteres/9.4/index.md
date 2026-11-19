@@ -1,3 +1,3 @@
 ---
-title: Chaque étiquette de champ et son champ associé sont-ils [accolés](#accoles-etiquette-et-champ-accoles)&nbsp;?
+title: Pour chaque champ de formulaire ayant un [intitulé visible](#intitule-visible) et un nom accessible, le nom accessible reprend au moins l’intitulé visible. Cette règle est-elle respectée (hors cas particuliers) ?
 ---

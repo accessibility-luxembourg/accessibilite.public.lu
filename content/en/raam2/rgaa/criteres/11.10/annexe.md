@@ -1,16 +1,12 @@
 ---
-WCAG:
-- 2.5.1
-Norm:
-- 5.5.1
-APPT:
-- 2.5.1
-niveau: A
+EN301549-V4: 11.1.3.4
+WCAG: 1.3.4
+APPT: 1.3.4
+RAAM1.1: 11.9
 ---
 
 #### Cas particuliers
 
-Le critère est non applicable pour les éléments suivants&nbsp;:
+Le critère ne s’applique par lorsqu’une orientation spécifique de l’affichage est [essentielle](#essentiel), par exemple une interface de jeu, une application de piano, une application de dépôt de chèques bancaires, etc.
 
-- Les gestes requis par la plateforme.
-- Les fonctionnalités pour lesquelles la réalisation d’un geste complexe est essentielle (exécuter le tracé d’une signature, par exemple).
+Si l’interface est le seul moyen d’accéder au service proposé, une alternative devrait être mise en place pour pallier cette carence.

@@ -1,9 +1,9 @@
 ###### iOS et Android
 
-Ce critère est très complexe à évaluer et demande une certaine maîtrise de l’ensemble des concepts et normes d’interopérabilité. 
-
-Il est recommandé de demander à l’éditeur de l’application de vérifier que l’ensemble des exigences décrites dans le critère *6.2.3 Interoperability*{lang=en} de la norme EN&nbsp;301&nbsp;549 sont respectées. 
-
-Il est également conseillé de rechercher dans la documentation ou de questionner directement l’éditeur de l’application.
-
-Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.
+1. Activer l’application et la fonctionnalité de communication écrite en temps réel de l’application sur deux terminaux et lancer un appel entre les deux terminaux.
+2. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages de sources différentes.
+3. Vérifier :
+	- que les messages de sources différentes sont visuellement séparés (par exemple, par une mise en forme, une couleur, un positionnement ou une annotation qui les distinguent) ;
+	- que la source de chaque message est identifiable visuellement (par exemple, par le nom ou l’identifiant de l’expéditeur affiché à proximité du message, un identifiant unique comme « Participant 1 » est suffisant, une identité réelle n’est pas requise) ;
+	- que l’identification de la source de chaque message est accessible aux technologies d’assistance (une information textuelle est disponible pour apporter cette information).
+4. Si c’est le cas, **le critère est validé**.

@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application qui permet une [communication écrite en temps réel](#communication-ecrite-en-temps-reel), le délai de transmission de chaque [unité de saisie](#unite-de-saisie) est de 500ms ou moins. Cette règle est-elle respectée&nbsp;?
+title: Pour chaque application qui permet une [communication orale](#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel) qui permet d’identifier l’activité des interlocuteurs oralisants, il est possible d’identifier l’activité de tous les interlocuteurs utilisant le texte en temps réel de manière active. Cette règle est-elle respectée ?
 ---

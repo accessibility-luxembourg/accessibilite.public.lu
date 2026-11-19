@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une [version accessible](#version-accessible) (hors cas particuliers)&nbsp;?
+title: Dans chaque écran, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il [contrôlable](#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur (hors cas particuliers) ?
 ---

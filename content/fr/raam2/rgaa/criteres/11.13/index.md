@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers)&nbsp;?
+title: Pour chaque étape d’un processus d’authentification, aucun [test cognitif](#test-cognitif) n’est requis, à moins que le test réponde à l’une des exigences suivantes. Cette règle est-elle respectée ?
 ---

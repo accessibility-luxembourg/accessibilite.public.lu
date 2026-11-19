@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, chaque contenu en mouvement ou clignotant est-il [contrôlable](#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur&nbsp;?
+title: Dans chaque écran, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?
 ---

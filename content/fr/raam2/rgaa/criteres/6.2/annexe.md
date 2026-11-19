@@ -7,4 +7,4 @@ APPT: 2.4.2
 
 #### Cas particuliers
 
-Le critère ne s'applique pas si la plateforme n'offre pas de propriété permettant de déterminer un titre d'écran.
+Le critère ne s’applique pas si la plateforme n’offre pas de propriété permettant de déterminer un titre d’écran.

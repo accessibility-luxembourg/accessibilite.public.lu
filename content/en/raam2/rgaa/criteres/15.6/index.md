@@ -1,3 +1,3 @@
 ---
-title: Chaque application de [communication écrite en temps réel](#communication-ecrite-en-temps-reel) qui peut interagir avec d’autres applications de [communication écrite en temps réel](#communication-ecrite-en-temps-reel) respecte-t-elle les règles d’interopérabilité en vigueur&nbsp;?
+title: Pour chaque application qui permet une [communication orale](#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés ?
 ---

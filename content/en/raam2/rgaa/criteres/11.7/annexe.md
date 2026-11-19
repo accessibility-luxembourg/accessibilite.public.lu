@@ -1,13 +1,17 @@
 ---
-WCAG:
-- 2.3.1
-Norm:
-- 11.2.3.1
-APPT:
-- 2.3.1
-niveau: A
+EN301549-V4: 11.2.5.2
+WCAG: 2.5.2
+RAAM1.1: 11.12
+APPT: 2.5.2
 ---
 
-#### Note
+#### Cas particuliers
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Le critère ne s’applique pas lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique.
+
+#### Notes techniques
+
+Deux exemples de mécanisme mis en place pour annuler ou abandonner une action déclenchée au moyen d’un dispositif de pointage sur un point unique de l’écran :
+
+- une fenêtre modale permettant d’annuler l’action après son achèvement ;
+- pour une fonction de glisser/déposer, le fait d’abandonner l’action si l’utilisateur relâche l’élément en dehors de la zone cible.

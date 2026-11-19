@@ -1,3 +1,3 @@
 ---
-title: Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de [caractéristiques biologiques](#caracteristique-biologique) de l’utilisateur dispose-t-elle d’une méthode alternative&nbsp;?
+title: Dans chaque écran, pour chaque [contenu cryptique](#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?
 ---

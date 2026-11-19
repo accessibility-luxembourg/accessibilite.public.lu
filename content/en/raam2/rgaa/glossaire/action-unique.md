@@ -2,9 +2,9 @@
 title: Action unique
 ---
 
-Opération effectuée par un utilisateur et reconnue par l'application comme une opération discrète et complète, produisant directement l'effet attendu sans étape intermédiaire de navigation ou de confirmation. 
+Opération effectuée par un utilisateur et reconnue par l’application comme une opération discrète et complète, produisant directement l’effet attendu sans étape intermédiaire de navigation ou de confirmation. 
 
-Note : un double tap ne constitue pas une seule opération utilisateur. 
+Note : un double tap ne constitue pas une seule opération utilisateur. 
 
-Note 2 : un simple tap, un appui sur un bouton dédié ou une commande vocale constituent des exemples d'action unique.
+Note 2 : un simple tap, un appui sur un bouton dédié ou une commande vocale constituent des exemples d’action unique.
 

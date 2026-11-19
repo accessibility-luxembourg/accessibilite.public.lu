@@ -1,7 +1,11 @@
 ###### iOS et Android
 
-1. Vérifier que l’application  permet la communication orale bidirectionnelle et la communication écrite en temps réel ou la diffusion de la vidéo en temps réel.
-1. Si c’est le cas, activer l’application sur deux terminaux et les connecter à une même session.
-1. Faire parler un utilisateur depuis un des terminaux.
-1. Vérifier sur l’interface l’apparition d’un indicateur visuel permettant d’identifier qu’une personne est en train de parler. Il n’est pas nécessaire pour ce critère d’identifier qui parle, mais simplement d’identifier qu’il y a une personne qui est en train de parler. Par exemple, un halo autour ou une icône à proximité de l’avatar de la personne qui parle.
-1. Si c’est le cas, le critère est validé.
+1. Activer l’application et lancer un appel entre les deux terminaux.
+2. Vérifier que chacune des actions suivantes ne nécessite qu’une seule action (un clic ou un l’appui sur une touche, par exemple) pour agir simultanément sur la voix, le texte et la vidéo (s’ils sont présents) :
+	- initier une communication ;
+	- répondre à une demande de communication ;
+	- mettre une communication en attente ;
+	- opérer des modifications sur la communication en cours (par exemple, la transférer ou ajouter des participants) ;
+	- mettre fin à une communication.
+3. Si l’un des médias (la voix, le texte ou la vidéo) n’est pas disponible des deux côtés, vérifier que l’application tente d’établir automatiquement la communication avec les médias qui sont disponibles.
+4. Si c’est le cas, **le critère est validé**.

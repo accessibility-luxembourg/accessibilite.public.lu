@@ -8,14 +8,14 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 
 1. Activer le **lecteur d’écran**.
 1. Parcourir l’ensemble des composants interactifs.
-1. Vérifier&nbsp;: 
-	- qu’il peut être atteint avec le lecteur d’écran&nbsp;;
+1. Vérifier : 
+	- qu’il peut être atteint avec le lecteur d’écran ;
 	- qu’il peut être activé avec le lecteur d’écran. 
 1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec le lecteur d’écran.
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
 1. Parcourir l’ensemble des composants interactifs.
-1. Vérifier&nbsp;: 
-	- qu’il peut être atteint avec les touches du clavier&nbsp;;
+1. Vérifier : 
+	- qu’il peut être atteint avec les touches du clavier ;
 	- qu’il peut être activé avec la touche dédiée du clavier.
 1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec les touches du clavier.
 1. Si c’est le cas, **le critère est validé**.

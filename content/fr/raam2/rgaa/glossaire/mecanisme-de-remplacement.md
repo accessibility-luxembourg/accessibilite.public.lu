@@ -10,14 +10,13 @@ Les plateformes proposent aux utilisateurs plusieurs mécanismes de remplacement
 
 ##### Mécanismes de remplacement disponibles dans iOS
 
-- **Augmenter le contraste**&nbsp;: L’option est disponible depuis le chemin&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*. Lorsqu’elle est activée, cette option permet de charger des styles différents qui auraient été définis par l’auteur pour cette option précise afin d’offrir une version plus contrastée aux utilisateurs qui en auraient besoin. De plus, cette option permet d’augmenter le contraste des composants natifs d’iOS comme les boutons *switch*{lang=en}.
-- **Différencier sans couleur**&nbsp;: L’option est disponible depuis le chemin&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Différencier sans couleur*. Lorsqu’elle est activée, cette option permet de charger des informations visuelles supplémentaires autres que la couleur (par exemple, forme ou taille) qui auraient été définies par l’auteur pour cette option précise afin de mettre en évidence un élément graphique dont la mise en couleur est porteuse d’information (un bouton actif par exemple).
+- **Augmenter le contraste** : L’option est disponible depuis le chemin : *Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*. Lorsqu’elle est activée, cette option permet de charger des styles différents qui auraient été définis par l’auteur pour cette option précise afin d’offrir une version plus contrastée aux utilisateurs qui en auraient besoin. De plus, cette option permet d’augmenter le contraste des composants natifs d’iOS comme les boutons *switch*{lang=en}.
+- **Différencier sans couleur** : L’option est disponible depuis le chemin : *Réglages > Accessibilité > Affichage et taille du texte > Différencier sans couleur*. Lorsqu’elle est activée, cette option permet de charger des informations visuelles supplémentaires autres que la couleur (par exemple, forme ou taille) qui auraient été définies par l’auteur pour cette option précise afin de mettre en évidence un élément graphique dont la mise en couleur est porteuse d’information (un bouton actif par exemple).
 
 ##### Mécanismes de remplacement disponibles dans Android
 
-Il n’existe pas de mécanisme de remplacement dans Android équivalent à ceux d’iOS, ou qui soit suffisamment robuste.
-
-Le mécanisme de remplacement disponible sur Android (&laquo;&nbsp;**Texte avec contraste élevé**&nbsp;&raquo;) est encore expérimental. Son utilisation n’est pour l’instant pas recommandée.
+- « **Texte avec contraste élevé** ») : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte avec contraste élevé*. 
+- « **Texte en gras** ») : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte en gras*. 
 
 ##### Autres mécanismes de remplacement non délivrés par les plateformes
 

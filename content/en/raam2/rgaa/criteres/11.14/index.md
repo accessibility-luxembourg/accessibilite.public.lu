@@ -1,3 +1,3 @@
 ---
-title: Pour chaque fonctionnalité de conversion d’un document, les [informations relatives à l’accessibilité](#information-d-accessibilite) disponibles dans le document source sont-elles conservées dans le document de destination (hors cas particuliers)&nbsp;?
+title: Dans chaque écran, chaque [contenu cryptique](#contenu-cryptique) (art ASCII, émoticon, syntaxe cryptique) a-t-il une alternative ?
 ---

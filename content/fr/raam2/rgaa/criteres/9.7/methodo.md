@@ -1,9 +1,8 @@
-###### iOS et Android 
+###### iOS et Android
 
 1. Activer le **lecteur d’écran**.
-1. Valider le formulaire sans saisir de données afin d’identifier les champs obligatoires.
-1. Pour chaque champ obligatoire, vérifier&nbsp;:
-	- que les informations restituées par le lecteur d’écran à la prise de focus sur le champ contiennent la mention du caractère obligatoire&nbsp;;
-	- et qu’une [indication visible](#indication-de-champ-obligatoire) à proximité du champ indique le caractère obligatoire du champ de formulaire.
-1. Si l’[indication visible](#indication-de-champ-obligatoire) est réalisée de manière non textuelle  (icône, «&nbsp;\*&nbsp;», «&nbsp;!&nbsp;», etc.), l’explication de la signification de cette indication se situe visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
-1. Si c’est le cas, le critère est validé.
+1. Repérer dans l’écran les champs de même nature qui valident le {% crit 9.6 %}.
+1. Naviguer jusqu’au premier champ des groupements identifiés en utilisant les gestes du lecteur d’écran. 
+1. Vérifier que l’information restituée à la prise de focus sur le premier champ permet d’identifier le groupe auquel appartient le champ.
+1. Repérer dans l’écran les groupements sans intitulé visible, et pour chacun vérifier que le contexte visible permet de déduire la nature des saisies attendues. 
+1. Si c’est le cas, **le critère est validé**.

@@ -1,3 +1,3 @@
 ---
-title: Chaque champ de formulaire a-t-il une étiquette visible&nbsp;?
+title: Chaque champ de formulaire a-t-il un [intitulé visible](#intitule-visible) ?
 ---

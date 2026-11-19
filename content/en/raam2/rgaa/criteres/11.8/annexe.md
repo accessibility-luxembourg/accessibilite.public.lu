@@ -1,15 +1,13 @@
 ---
-WCAG:
-- 2.2.1
-- 2.2.2
-Norm:
-- 11.2.2.1
-APPT:
-- 2.2.1
-- 2.2.2
-niveau: A
+WCAG: 2.5.4
+EN301549-V4: 11.2.5.4
+RAAM1.1: 11.13
+APPT: 2.5.4
 ---
 
-#### Note
+#### Cas particuliers
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Le critère ne s’applique pas lorsque :
+
+- Le mouvement est [essentiel](#essentiel) à l’accomplissement de la fonctionnalité (ex. podomètre).
+- La détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.

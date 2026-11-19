@@ -1,28 +1,8 @@
-2 méthodes d’évaluation sur iOS sont proposées. Les deux méthodes aboutissent aux mêmes résultats. Une seule de ces méthodes est nécessaire pour évaluer le critère sur iOS.
+###### iOS et Android
 
-###### iOS avec VoiceOver
-
-1. Activer le **lecteur d’écran**.
-1. Naviguer jusqu’aux boutons de formulaire en utilisant les gestes du lecteur d’écran.
-1. Vérifier&nbsp;:
-	- que l’intitulé restitué par le lecteur d’écran est pertinent (il permet de comprendre l’action du bouton)&nbsp;;
-	- que l’intitulé visible est contenu dans l’intitulé restitué par le lecteur d’écran.
-1. Si c’est le cas, le critère est validé.
-
-###### iOS avec le contrôle vocal
-
-1. Activer le **contrôle vocal**.
-1. Repérer dans l’écran les boutons de formulaire.
-1. Vérifier&nbsp;:
-	- que l’intitulé détecté par le contrôle vocal (infobulle grise) est pertinent (il permet de comprendre l’action du bouton)&nbsp;;
-	- que l’intitulé visible est contenu dans l’intitulé détecté par le contrôle vocal (infobulle grise)&nbsp;;
-1. Si c’est le cas, le critère est validé.
-
-###### Android 
-
-1. Activer le **lecteur d’écran**.
-1. Naviguer jusqu’aux boutons de formulaire en utilisant les gestes du lecteur d’écran.
-1. Vérifier&nbsp;:
-	- que l’intitulé restitué par le lecteur d’écran est pertinent (il permet de comprendre l’action du bouton)&nbsp;;
-	- que l’intitulé visible est contenu dans l’intitulé restitué par le lecteur d’écran.
-1. Si c’est le cas, le critère est validé.
+1. Repérer dans l’écran tous les champs de formulaire pourvus d’un intitulé visible.
+1. Pour chaque champ de formulaire, vérifier : 
+	- qu’il est accolé à son intitulé visible déterminé au {% crit 9.1 %} ; 
+	- s’il est de type case à cocher ou radio, qu’il est immédiatement au-dessous ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l’intitulé visible  est de gauche à droite (ou immédiatement au-dessous ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l’intitulé visible est de droite à gauche) ;
+	- pour les autres types, qu’il est immédiatement au-dessus ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l’intitulé visible est de gauche à droite (ou immédiatement au-dessus ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l’intitulé visible est de droite à gauche).
+1. Si c’est le cas, **le critère est validé**.

@@ -1,7 +1,10 @@
 ###### iOS et Android
 
-1. Repérer dans l’écran les fonctionnalités qui se déclenchent au moyen d’un mouvement de l’appareil ou d’un geste vers l’appareil (repérer par exemple la présence de consignes dans l’interface ou dans une documentation associée à l’application qui décrive ce type de déclenchement).
-1. Vérifier&nbsp;:
-	- que la fonctionnalité peut être déclenchée sans mouvement, par exemple par l’activation d’un bouton ou d’un lien&nbsp;;
-	- et que l’application propose une méthode pour désactiver la détection du mouvement (par exemple, un paramètre dans l’application).
-1. Si c’est le cas, le critère est validé.
+1. Repérer dans l’écran les fonctionnalités d’authentification 
+1. Pour chaque fonctionnalité d’authentification, vérifier que : 
+	* Aucun test cognitif n’est requis.
+	* Ou qu’une alternative qui ne repose pas sur un test cognitif est présente (par exemple, un lien à usage unique envoyé par mail).
+	* Ou qu’un mécanisme d’aide est présent pour permettre à l’utilisateur de compléter le test cognitif (par exemple, pour la saisie d’un mot de passe il est possible de remplir le champ avec un gestionnaire de mot de passe).
+	* Ou que le test cognitif consiste à reconnaître des objets (par exemple, écouter une piste sonore qui diffuse le son d’un insecte et sélectionner son nom parmi une liste de cases à cocher, ou sélectionner toutes les images qui contiennent des voitures)
+	* Ou que le test cognitif consiste à identifier un contenu non textuel fourni par l’utilisateur (par exemple, au moment de la création du compte, l’utilisateur a fourni une image. Cette image lui est présentée parmi d’autres images au moment de l’authentification et il doit la reconnaître pour valider le test).
+1. Si c’est le cas, **le critère est validé**. 

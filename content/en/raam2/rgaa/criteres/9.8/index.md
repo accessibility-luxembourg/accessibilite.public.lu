@@ -1,3 +1,3 @@
 ---
-title: Pour chaque champ de formulaire qui attend un [type de données et/ou un format spécifique](#type-et-format-de-donnees), l’information correspondante est-elle disponible&nbsp;?
+title: Chaque bouton de formulaire a-t-il un [nom accessible](#nom-accessible-de-bouton) [présenté par les technologies d’assistance](#accessible-aux-technologies-d-assistance) ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque écran, la navigation ne doit pas contenir de [piège au clavier](#piege-au-clavier). Cette règle est-elle respectée&nbsp;?
+title: Dans chaque écran, les [raccourcis clavier](#raccourci-clavier) n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?
 ---

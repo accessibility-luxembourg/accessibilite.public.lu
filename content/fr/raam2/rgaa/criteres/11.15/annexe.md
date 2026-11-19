@@ -1,6 +1,6 @@
 ---
-WCAG: N/A
-Norm:
-- '5.3'
-niveau: A
+EN301549-V4: 11.1.1.1
+WCAG: 1.1.1
+APPT: 1.1.1
+RAAM1.1: 11.6
 ---

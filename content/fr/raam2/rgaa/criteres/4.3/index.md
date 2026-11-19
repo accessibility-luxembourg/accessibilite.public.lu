@@ -1,3 +1,3 @@
 ---
-title: Chaque [tableau de données ayant un titre visible](#tableau-de-donnees-ayant-un-titre-visible), le titre est-il correctement associé au tableau de données&nbsp;?
+title: Chaque [tableau de données ayant un titre visible](#tableau-de-donnees-ayant-un-titre-visible), le titre est-il correctement associé au tableau de données ?
 ---

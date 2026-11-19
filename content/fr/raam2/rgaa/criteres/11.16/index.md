@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application qui intègre une fonctionnalité de [répétition des touches](#repetition-des-touches), la répétition est-elle ajustable (hors cas particuliers)&nbsp;?
+title: Dans chaque écran, chaque document bureautique est-il compatible avec l’accessibilité (hors cas particuliers) ?
 ---

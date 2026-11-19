@@ -1,3 +1,3 @@
 ---
-title: Dans chaque formulaire, le [contrôle de saisie](#controle-de-saisie-formulaire) est-il accompagné, si nécessaire, de suggestions des types, formats de données ou valeurs attendus&nbsp;?
+title: Dans chaque formulaire, les [instructions](#instruction) et les informations relatives au [contrôle de saisie](#controle-de-saisie-formulaire) des champs sont-elles présentées à l’utilisateur avant la saisie (hors cas particuliers) ?
 ---

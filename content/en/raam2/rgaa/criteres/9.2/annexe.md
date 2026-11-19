@@ -1,18 +1,10 @@
 ---
-WCAG:
-- 1.3.1
-- 3.3.2
-- 4.1.2
-Norm:
-- 11.1.3.1
-- 11.3.3.2
-- 11.4.1.2.1
-- 11.5.2.3
-- 11.5.2.5
-- 11.5.2.8
-APPT:
-- 1.3.1
-- 3.3.2
-- 4.1.2
-niveau: A
+WCAG: 4.1.2
+EN301549-V4: 11.4.1.2
+APPT: 4.1.2
+RAAM1.1: 9.2
 ---
+
+#### Notes techniques
+
+Les erreurs relatives à des images porteuses d’informations contenues dans des noms accessibles de champs de formulaires sont à évaluer dans la thématique « Formulaires ».

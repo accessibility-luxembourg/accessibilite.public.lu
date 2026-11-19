@@ -1,3 +1,3 @@
 ---
-title: Chaque application qui permet une [communication orale bidirectionnelle](#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](#communication-ecrite-en-temps-reel)&nbsp;?
+title: Pour chaque [application de communication orale en temps réel](#application-de-communication-orale-bidirectionnelle), l’application est-elle capable de capter, transmettre et restituer la communication orale sur une gamme de fréquences dont la limite inférieure est de 250 Hz au plus et la limite supérieure est de 7 000 Hz au moins ?
 ---

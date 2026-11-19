@@ -1,4 +1,9 @@
 ###### iOS et Android
 
-1. Pour chaque fichier proposé au téléchargement dans un format bureautique qui possède une version alternative présentée comme accessible, vérifier que les deux documents (le document d’origine et la version accessible dans un format bureautique ou dans l’application) offrent la même information.
-1. Si c’est le cas, le critère est validé.
+1. Repérer dans l’écran les contenus clignotants ou qui provoquent des effets de flash : élément graphique animé, vidéo ou animation, effet de mise en forme.
+1. Vérifier :
+	- que la fréquence de l’effet est inférieure ou égale à 3 flashs par seconde ;
+	- ou que la surface cumulée est inférieure à 21824 pixels.
+1. Si c’est le cas, **le critère est validé**.
+
+Note : L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser les vidéos au format .avi.

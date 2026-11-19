@@ -1,8 +1,10 @@
 ###### iOS et Android
 
-1. Repérer la présence dans l’application d’un service d’assistance.
-1. Si c’est le cas, vérifier que le service d’assistance peut être utilisé par toutes les personnes en situation de handicap. Il peut être utile de rechercher dans la [documentation](#documentation) de l’application pour trouver ces informations. Par exemple, si le service d’assistance est disponible depuis un numéro de téléphone, vérifier qu’il existe des moyens alternatifs pour les utilisateurs qui n’accèdent pas ou peu au langage oral (personnes sourdes ou malentendantes) ou qui ne peuvent pas utiliser le langage verbal (personnes aphasiques). Par exemple&nbsp;: 
-	- une adresse mail ou un formulaire en ligne&nbsp;;
-	- une messagerie instantanée&nbsp;; 
-	- la mise à disposition d’une traduction écrite simultanée ou visuelle des informations orales ou sonores, ou la mise à disposition d’un interprète en langue des signes (utilisation d’un service de relais).
-1. Si c’est le cas, le critère est validé.
+1. Repérer la présence d’une documentation fournie par le service d’assistance.
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb2/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=71) de la norme européenne EN 301 549 V4.1.1 ;
+1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
+1. Si c’est le cas, **le critère est validé**.
+
+Note : la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.

@@ -1,10 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-- '5.2'
-niveau: A
+EN301549-V4: 12.1
+RAAM1.1: N/A
 ---
-
-#### Cas particuliers
-
-Le critère est non applicable pour les fonctionnalités intégrées à la plateforme.

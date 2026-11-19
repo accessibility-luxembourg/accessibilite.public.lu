@@ -1,9 +1,28 @@
-###### iOS et Android 
+2 méthodes d’évaluation sur iOS sont proposées. Les deux méthodes aboutissent aux mêmes résultats. Une seule de ces méthodes est nécessaire pour évaluer le critère sur iOS.
+
+###### iOS avec VoiceOver
 
 1. Activer le **lecteur d’écran**.
-1. Remplir les champs de formulaire avec des valeurs susceptibles de provoquer des erreurs de saisies (entrer une adresse *e-mail*{lang=en} mal formée par exemple).
-1. Valider le formulaire.
-1. Pour chaque champ de formulaire obligatoire qui possède un contrôle du format (qui sera présenté avec une erreur après la validation), vérifier&nbsp;:
-	- que le type de données et/ou le format attendu sont restitués par le lecteur d’écran à la prise de focus sur le champ&nbsp;;
-	- qu’un texte visible à proximité du champ indique le type de données et/ou le format attendu.
-1. Si c’est le cas, le critère est validé.
+1. Naviguer jusqu’aux boutons de formulaire en utilisant les gestes du lecteur d’écran.
+1. Vérifier :
+	- qu’un nom accessible est restitué par le lecteur d’écran ;
+	- que le nom accessible restitué par le lecteur d’écran est pertinent, il permet de connaître la fonction exacte du bouton.
+1. Si c’est le cas, **le critère est validé**.
+
+###### iOS avec le contrôle vocal
+
+1. Activer le **contrôle vocal**.
+1. Repérer dans l’écran les boutons de formulaire.
+1. Vérifier :
+	- qu’un nom accessible est détecté par le contrôle vocal (infobulle grise) ;
+	- que le nom accessible détecté est pertinent, il permet de connaître la fonction exacte du bouton.
+1. Si c’est le cas, **le critère est validé**.
+
+###### Android 
+
+1. Activer le **lecteur d’écran**.
+1. Naviguer jusqu’aux boutons de formulaire en utilisant les gestes du lecteur d’écran.
+1. Vérifier :
+	- qu’un nom accessible est restitué par le lecteur d’écran ;
+	- que le nom accessible restitué par le lecteur d’écran est pertinent, il permet de connaître la fonction exacte du bouton.
+1. Si c’est le cas, **le critère est validé**.

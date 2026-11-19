@@ -1,3 +1,3 @@
 ---
-title: Pour chaque fonctionnalité de [communication écrite en temps réel](#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés (hors cas particuliers)&nbsp;?
+title: Pour chaque application qui permet une [communication orale](#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), les deux modes sont-ils utilisables simultanément ?
 ---
