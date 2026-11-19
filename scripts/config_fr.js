@@ -281,7 +281,7 @@ const config = {
                     "template": "criteria-raweb2.ejs", 
                     "data": dataRAAM2,
                     "prefix": "../.." ,
-                    "genSummary": "ul",
+                    "genSummary": "ol",
                     "summaryTitle": "Thématiques"
                 },
                 {
