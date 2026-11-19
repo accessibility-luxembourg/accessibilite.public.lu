@@ -74,7 +74,7 @@ Les écrans sont ensuite testés au regard des critères applicables. Ces tests 
   * si l’écran fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour un écran du processus uniquement s’il est validé pour tous les écrans du processus.
 
 Certains critères ou thématiques sont applicables à l’ensemble de l’application et non à un écran particulier, il n’est donc pas nécessaire de les évaluer sur tous les écrans de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur un seul écran de l’échantillon et être considérés comme non applicables sur tous les autres écrans. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global de l’application. C’est notamment le cas pour les critères et thématiques suivantes&nbsp;:
-  * La thématique &laquo;&nbsp;12. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; 
+  * La thématique &laquo;&nbsp;12. Information sur les produits et service&nbsp;&raquo; 
   * La thématique &laquo;&nbsp;14. Services d’assistance&nbsp;&raquo;
 
 #### Taux de conformité à la norme
@@ -88,7 +88,7 @@ Le pourcentage de critères respectés s’obtient en divisant le nombre de crit
   * Critère validé&nbsp;: un critère est validé s’il est validé sur tous les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
   * Critère applicable&nbsp;: pour qu’un critère soit applicable, il suffit qu’il le soit sur un seul écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur tous les écrans de l’échantillon sans exception.
 
-Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-d’accessibilité).
+Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-daccessibilité).
 
 #### Principe de non-interférence
 
@@ -102,15 +102,30 @@ Il est indispensable de s’assurer que ces contenus n’empêchent pas les util
 
 Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obligatoire qu’ils se conforment aux critères et tests suivants&nbsp;:
 
-- [Critère 3.12](./referentiel-technique.html#crit-3-12)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur&nbsp;?
-- [Critère 10.3](./referentiel-technique.html#crit-10-3)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
-- [Critère 11.1](./referentiel-technique.html#crit-11-1)&nbsp;: Pour chaque écran, l’utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers)&nbsp;?
-- [Critère 11.7](./referentiel-technique.html#crit-11-7)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés&nbsp;?
-- [Critère 11.8](./referentiel-technique.html#crit-11-8)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur&nbsp;?
+- [Critère 3.15](./criteres.html#crit-3-15)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur&nbsp;?
+- [Critère 10.2](./criteres.html#crit-10-2)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
+- [Critère 11.2](./criteres.html#crit-11-2)&nbsp;: Pour chaque écran, les mises à jour automatiques de contenu vérifient-elles une de ces conditions (hors cas particuliers) ?
+- [Critère 11.3](./criteres.html#crit-11-23)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il contrôlable par l’utilisateur (hors cas particuliers) ?
+- [Critère 11.4](./criteres.html#crit-11-4)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
 
-Le principe de non-interférence est identifié dans la norme EN 301 549 au critère 9.6 WCAG <span lang="en">conformance requirements</span>.
+Le principe de non-interférence est identifié dans la norme EN 301 549 dans la clause 9.6 WCAG <span lang="en">conformance requirements</span>. Bien que la norme ne propose pas de clause dédiée dans la section 11 pour les applications mobiles, les critères WCAG repris et adaptés pour les applications mobiles et concernés par le principe de non-interférence sont identifiés.
+
+#### Alternative à une partie du contenu (contenu alternatif)
+
+La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné**.
+
+Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](#principe-de-non-interférence)
+
+Par exemple : un composant d’interface non utilisable au clavier (par exemple, un calendrier pour sélectionner une date) qui dispose d’une alternative dans l’écran (un champ de saisie d’une date)
+
+Sources : 
+- [Comments on Conformance (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/#comments-on-conformance){lang=en}
+- [Pages complètes (Traduction en français des WCAG 2.2)](https://www.w3.org/Translations/WCAG22-fr/#cc2)
+- [Understanding Requirement 2 (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req2){lang=en}
+
+Si l’alternative porte sur tout l’écran, alors c’est le principe de version de remplacement conforme décrit ci-après qui s’applique.
 
 ### Éléments de méthodologie
 
@@ -132,7 +147,7 @@ Nous vous renvoyons également aux documentations des éditeurs de langage et de
 
 #### iOS
 - [Accessibilité iOS](https://www.apple.com/fr/accessibility/)&nbsp;: description des technologies d’assistance et des fonctionnalités d’accessibilité présentes sur les systèmes iOS.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility){lang=en}&nbsp;: Principes généraux d’accessibilité des interfaces d’applications mobiles sur iOS.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/){lang=en}&nbsp;: Principes généraux d’accessibilité des interfaces d’applications mobiles sur iOS.
 - [Vidéos et tutoriels](https://developer.apple.com/videos/frameworks/accessibility/) &nbsp;: ensemble de vidéos offrant des démonstrations de technologies d’assistance disponibles sur iOS ou présentant des méthodes techniques de développement pour prendre en compte l’accessibilité.
 
 ###  Outils d’évaluation
@@ -243,6 +258,14 @@ Pour réaliser certains tests sur des applications Android, des applications tie
 
 - [Color Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/){lang=en}&nbsp;: outil d’évaluation des contrastes depuis l’ordinateur disponible sur Mac et Windows.
 
+#### Activer les options pour les développeurs sur Android
+
+Il peut être utile pour certains tests, d’avoir accès aux options pour les développeurs sur Android. Ces options sont masquées par défaut dans les paramètres du système. Pour les rendre visible, il faut effectuver une manipulation : 
+- Depuis l’écran des paramètres, rechercher &laquo;&nbsp;Numéro du Build&nbsp;&raquo; ;
+- Accéder à l’écran contenant cette information puis taper 7 fois sur l’option jusqu’à ce que le message &laquo;&nbsp;Vous êtes maintenant développeur&nbsp;&raquo; apparaisse à l’écran.
+
+Selon la version d’Android, le chemin ou les appelations peuvent varier. Consulter [la documentation officielle pour des informations adaptées au terminal utilisé](https://developer.android.com/studio/debug/dev-options?hl=fr).
+
 #### Modifier la taille de police sur iOS
 
 Dans iOS, il est possible d’afficher une jauge des tailles de textes qui donne la valeur du ratio d’agrandissement. Pour cela, il faut ajouter le paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; au centre de contrôle. 
@@ -299,30 +322,39 @@ Il peut ensuite exister des méthodes spécifiques en fonction des plateformes&n
 
 D’autres utilitaires peuvent convenir, la présente liste n’est pas exhaustive.
 
-##### Évaluer la taille d’un texte
+##### Évaluer la taille d’un texte (ou d’un composant)
+
+<em>La méthodologie ci-dessous décrit les étapes pour capturer un écran afin d’évaluer la taille d’un texte pour l’évaluation des contrastes. Les mêmes étapes s’appliquent pour l’évaluation des tailles de cibles.</em>
 
 Si lors des évaluations, la taille de certains textes n’est pas évidente (par exemple, il n’est pas évident à l’évaluation à l’œil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d’obtenir cette mesure&nbsp;: 
 1. Déterminer la taille de l’écran du terminal de test&nbsp;:
-  - activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [https://www.mydevice.io](https://www.mydevice.io)&nbsp;;
-  - repérer la valeur <code>JS screen.width</code> (qui correspond à la largeur physique de l’écran). 
+	- activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [cssunitconverter.com](https://cssunitconverter.com/viewport-size-screen-resolution-checker)&nbsp;;
+	- repérer la valeur &laquo;&nbsp;<em lang="en">Your viewport size is</em>&nbsp;&raquo;. 
 1. Réinitialiser la taille de la police par défaut dans l’application pour évaluer le texte à 100%. 
-  - Dans iOS, le plus simple est de passer par la jauge disponible dans [le centre de contrôle](methodologie.md#modifier-la-taille-de-police-sur-ios) pour rétablir la taille à 100%. 
-  - Dans Android, s’il existe dans l’écran des paramètres de taille (*Paramètres > Accessibilité > Taille de la police*), activez la fonction permettant de réinitialiser la taille de la police. Sinon, réduire la taille pour atteindre le premier ou le second pas de la jauge, selon la taille initiale. 
+	- Dans iOS, le plus simple est de passer par la jauge disponible dans [le centre de contrôle](methodologie.md#modifier-la-taille-de-police-sur-ios) pour rétablir la taille à 100%. 
+	- Dans Android, s’il existe dans l’écran des paramètres de taille (*Paramètres > Accessibilité > Taille de la police*), activez la fonction permettant de réinitialiser la taille de la police. Sinon, réduire la taille pour atteindre le premier ou le second pas de la jauge, selon la taille initiale. 
 1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur (voir ci-dessus, c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
 1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
-  - Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
-    - dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
-    - paramétrer les unités en pixels&nbsp;;
-    - dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
-  - Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
-    - dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
-    - paramétrer les unités en pixels&nbsp;;
-    - dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
+	- Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
+		- dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
+		- paramétrer les unités en pixels&nbsp;;
+		- dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
+	- Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
+		- dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
+		- paramétrer les unités en pixels&nbsp;;
+		- dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
 1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille&nbsp;: 
-  - depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
-  - dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
-    - le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
-    - vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
-  - repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
-    - dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;;
-    - dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur.
+	- depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
+	- dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
+		- le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
+		- vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
+	- repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
+		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
+		- dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
+
+#### Web view (vues web) : debogage distant USB
+
+Lorsque des web views sont intégrées dans les applications, il peut être utile d’avoir directement accès au code afin de réaliser certains tests. Nous renvoyons vers les documentations des éditeurs.
+
+- [Débogage USB avec Chrome et Android](https://developer.chrome.com/docs/devtools/remote-debugging?hl=fr) 
+- [Débogage USB avec Safari macOS et iOS](https://developer.apple.com/fr/documentation/safari-developer-tools/develop-menu)
