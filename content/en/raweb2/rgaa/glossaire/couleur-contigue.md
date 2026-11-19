@@ -7,7 +7,7 @@ Couleur directement en contact avec les couleurs de l’élément portant l’in
 
 **Exemple :** dans un panneau de « sens interdit », le rouge du panneau est la couleur contiguë au trait blanc au centre du panneau.
 
-Dans le cadre du {% crit 3.4 %}, toutes les couleurs d’un élément graphique ou d’un composant d’interface ne sont pas à évaluer. Il est essentiel d’évaluer les [éléments non textuels](#contenu-non-textuel) qui portent une information :
+Dans le cadre du {% crit 3.4 %}, toutes les couleurs d’un élément graphique ou d’un composant d’interface ne sont pas à évaluer. Il est essentiel d’évaluer les [éléments non textuels](#element-non-textuel) qui portent une information :
 
 - **Les mises en couleur porteuses d’information** (toutes les mises en couleur ne sont pas porteuses d’information) :
 	- Par exemple, dans le panneau de navigation d’une application, les boutons de navigation ont une couleur de fond grise, mais le bouton de l’écran actif a une couleur de fond verte. Il est nécessaire de vérifier que la couleur verte en jonction directe avec la couleur de fond grise a un rapport de contraste de 3:1 au moins.

@@ -130,8 +130,8 @@ Les pages sont ensuite testées au regard des critères applicables. Ces tests p
   * si la page fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour une page du processus uniquement s’il est validé pour toutes les pages du processus.
 
 Certains critères ou thématiques sont applicables à l’ensemble du site et non à une page particulière, il n’est donc pas nécessaire de les évaluer sur toutes les pages de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l’échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global du site. C’est notamment le cas pour les critères et thématiques suivantes&nbsp;:
-  * Le critère 12.3 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; 
-  * La thématique &laquo;&nbsp;14. Documentation et fonctionnalités d’accessibilité&nbsp;&raquo; 
+  * Le critère 12.2 &laquo;&nbsp;La page "plan du site" est-elle pertinente ?&nbsp;&raquo; 
+  * La thématique &laquo;&nbsp;14. Information sur les produits et services&nbsp;&raquo; 
   * La thématique &laquo;&nbsp;16. Services d’assistance&nbsp;&raquo;
 
 #### Taux de conformité à la norme
@@ -167,13 +167,13 @@ Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obl
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
 
-Le principe de non-interférence est identifié dans la norme EN 301 549 au critère 9.6 WCAG <span lang="en">conformance requirements</span>.
+Le principe de non-interférence est identifié dans la norme EN 301 549 dans la clause 9.6 WCAG <span lang="en">conformance requirements</span>.
 
 #### Alternative à une partie du contenu (contenu alternatif)
 
 La conformité d’une page d’un échantillon s’entend uniquement pour la page complète mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis la page concernée**.
 
-Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](glossaire.html#principe-de-non-interférence)
+Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](methodo-test#principe-de-non-interférence)
 
 Par exemple : un composant d’interface non utilisable au clavier (par exemple, un calendrier pour sélectionner une date) qui dispose d’une alternative dans la page (un champ de saisie d’une date)
 

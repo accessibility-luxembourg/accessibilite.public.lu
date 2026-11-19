@@ -290,12 +290,31 @@ const config = {
                     "prefix": "../..",
                     "genSummary": "ul",
                     "summaryTitle": "Index"
-                }, 
+                },
+                {
+                    "title": "RAAM 2: Testing methodology",
+                    "menu": "Testing methodology",
+                    "name": "raam2/methodologie",
+                    "md": "./content/en/raam2/methodologie.md",
+                    "prefix": "../.." , 
+                    "genSummary": "ol", 
+                    "summaryTitle": "Sommaire",
+                    "slugify": "slugifyA42"
+                },
                 {
                     "title": "RAAM 2: Testing environment",
                     "menu": "Testing environment",
                     "name": "raam2/environnement",
                     "md": "./content/en/raam2/environnement.md",
+                    "prefix": "../.."
+                },
+                {
+                    "title": "RAAM 2: Mapping",
+                    "menu": "Mapping",
+                    "name": "raam2/mapping",
+                    "type": "criteres",
+                    "template": "mapping-raam2.ejs",
+                    "data": dataRAAM2,
                     "prefix": "../.."
                 },
                 {

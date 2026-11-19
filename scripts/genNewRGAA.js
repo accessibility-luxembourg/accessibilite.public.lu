@@ -66,10 +66,7 @@ Techniques:
   - H67
 ACT: 1
 */      
-        let normCriterion = '7.3' // temporary fix until RAAM2 is updated with EN301549-V4 references
-        if ('EN301549-V4' in data.meta || 'EN301549-V4' in data.meta) {
-            normCriterion = String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0];
-        }
+        let normCriterion = String(data.meta['EN301549-V4']).match(/\d{1,2}(?:\.\d{1,2}){0,3}/)[0];
         const norm = en301549.getTitle('4.1.1', normCriterion)
         let previous = ''
         let appt = false
