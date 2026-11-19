@@ -1,329 +1,360 @@
-### Assessment of compliance with the reference standard
+### Évaluation de la conformité à la norme de référence
 
-#### General framework
+#### Cadre général
 
-In order to assess the compliance of the mobile application with the reference standard, the organisation must conduct an accessibility audit. The audit (or evaluation) may be carried out by the organisation itself (self-evaluation) or by a third party. The evaluation is carried out on a sample of screens representative of the application. 
+Afin d’évaluer la conformité de l’application mobile avec la norme de référence, l’organisme doit conduire un audit d’accessibilité. L’audit (ou évaluation) peut être effectué par l’organisme lui-même (auto-évaluation) ou par un tiers. L’évaluation est réalisée sur un échantillon d’écrans représentatif de l’application. 
 
-The verification of conformity of the screens, parts of the sample of a mobile application, with the applicable criteria is carried out using the [Mobile Application Accessibility Assessment Framework (RAAM)](./index.html). 
+La vérification de la conformité des écrans de l’échantillon d’une application mobile avec les critères applicables s’effectue à l’aide du [référentiel d’évaluation de l’accessibilité des applications mobiles (RAAM)](./index.html). 
 
-The final phase of the audit is the accessibility statement, which reports on compliance with the applicable rules.
+La phase finale de l’audit est la déclaration d’accessibilité qui rend compte de la conformité avec les règles applicables.
 
-The audit (or evaluation) meets the following criteria:
+L’audit (ou évaluation) répond aux critères suivants&nbsp;:
 
-- it is reliable: it is the responsibility of the organisation concerned to ensure the reliability of its statement by all possible means (recourse to an external service provider, training of internal experts, cross-audits, etc.);
-- it is representative: it is based on a representative sample (see "Sample" section below).
+- il est fiable&nbsp;: il revient à l’organisme concerné de veiller à la fiabilité de sa déclaration par tous moyens (recours à un prestataire externe, formation d’experts internes, audits croisés…)&nbsp;;
+- il est représentatif&nbsp;: il porte sur un échantillon représentatif (cf. section «&nbsp;Échantillon&nbsp;» ci-dessous).
 
-The accessibility of applications must be assessed by applying the technical method of the framework in question.
+Il est possible de recourir à une autre méthode de tests, à une triple condition&nbsp;:
 
-It is possible to use another test method, subject to three conditions:
+- s’assurer que la méthode de test utilisée est communicable sur demande à un utilisateur ou à une administration&nbsp;;
+- produire une table de correspondance explicite entre les critères et tests et la norme de référence choisie&nbsp;;
+- l’indiquer dans la déclaration d’accessibilité.
 
-- ensure that the test method used can be communicated on request to a user or an administration;
-- produce an explicit mapping table between the criteria and tests and the chosen reference standard;
-- indicate this information in the accessibility statement.
+#### Échantillon
 
-#### Sample
+L’échantillon sur lequel est réalisé l’audit d’une application mobile porte au moins sur les écrans suivants, lorsqu’ils existent&nbsp;:
 
-The sample on which the audit of a mobile application is carried out covers at least the following screens, where they exist:
+1. l’écran d’accueil&nbsp;;
+1. l’écran des mentions légales&nbsp;;
+1. l’écran ou le processus d’authentification&nbsp;;
+1. l’écran de contact&nbsp;;
+1. les écrans qui constituent la documentation de l’application&nbsp;;
+1. au moins un écran pertinent pour chaque type de service fourni et toute autre utilisation principale prévue (ex.&nbsp;: rubriques de 1er niveau dans l’arborescence), y compris la fonctionnalité de recherche&nbsp;;
+1. au moins un document téléchargeable pertinent, le cas échéant, pour chaque type de service fourni et pour toute autre utilisation principalement prévue&nbsp;;
+1. l’ensemble des écrans constituant un processus (par exemple, un formulaire de saisie ou une transaction sur plusieurs écrans)&nbsp;;
+des exemples d’écrans ayant un aspect sensiblement distinct ou présentant un type de contenu différent (ex.&nbsp;: écran contenant des tableaux de données, des éléments multimédia, des illustrations, des formulaires, une fonctionnalité de communication en temps réel, etc.).
 
-1. the home screen;
-1. the legal information screen;
-1. the authentication screen or process;
-1. the contact screen;
-1. the screens that make up the documentation of the application;
-1. at least one relevant screen for each type of service provided and any other main intended use (e.g. 1st level headings in the tree structure), including the search functionality;
-1. at least one relevant downloadable document, where applicable, for each type of service provided and for any other main intended use;
-1. all the screens that make up a process (for example, an input form or a multi-screen transaction);
-examples of screens with a substantially distinct appearance or different type of content (e.g. a screen containing data tables, multimedia elements, illustrations, forms, real-time communication feature, etc.).
+La sélection des écrans audités ainsi que leur nombre doivent être représentatifs de l’application mobile. Le nombre de visiteurs par écran peut notamment être pris en compte lors de la constitution de l’échantillon.
 
-The selection of screens audited and their number must be representative of the mobile application. The number of visitors per screen can be taken into account when selecting the sample.
+Enfin, s’ajoutent des écrans sélectionnés au hasard représentant au moins 10 % des écrans de l’échantillon décrit supra.
 
-Finally, randomly selected screens representing at least 10% of the screens in the sample described above are added.
+#### Environnement de test (ou «&nbsp;base de référence&nbsp;»)
 
-#### Test environment (or "baseline")
+Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments et d’attributs, il est très difficile pour les applications mobiles de procéder de la même manière. D’une part, parce que cela demanderait des compétences techniques élevées (on accède au logiciel, mais rarement à son code contrairement à un site web). D’autre part, parce que contrairement au web et aux technologies (HTML/CSS/JavaScript) il existe une diversité d’environnements de développement qui rend difficile la définition d’une liste de tests basée sur la revue de code.
 
+Une certaine partie des tests du [référentiel d’évaluation de l’accessibilité des applications mobiles](./index.html) se réalise avec les technologies d’assistance mises à disposition sur les plateformes.
 
-Unlike web content, where it is possible to inspect the source code to determine the presence of elements and attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can have access to the software, but rarely to its code, unlike a website). Secondly, because unlike the web and HTML/CSS/JavaScript technologies, there is a diversity of development environments that makes it difficult to define a list of tests based on code review.
+##### Définition de l’environnement de test
 
-Some of the tests in the [mobile applications accessibility assessment framework](./index.html) are carried out using the assistive technologies available on the platforms.
+Pour valider ces critères, il convient de définir un environnement de test (ou «&nbsp;base de référence&nbsp;»). Par défaut, il est composé des plateformes et technologies d’assistance majoritairement utilisées par les personnes en situation de handicap. 
 
-##### Definition of the test environment
+Pour réaliser les tests d’évaluation dans le cadre du RAAM, il est nécessaire de prendre en compte l’[environnement de test du RAAM pour l’évaluation d’applications mobiles](./environnement.md).
 
-To validate these criteria, a test environment (or "baseline") needs to be defined. By default, it is made up of the platforms and assistive technologies most commonly used by people with disabilities. 
+Cet environnement de test minimal peut être complété, le cas échéant, par des solutions libres et gratuites disponibles ou par des technologies plus anciennes, en fonction de l’usage du site ou de l’application mobile. Lorsqu’il est possible de connaître la configuration des postes de travail, ainsi que le matériel utilisé, la base de référence est alors constituée des services réellement utilisés dans cet environnement.
 
-To perform the evaluation tests within the framework of RAAM, it is necessary to take into account the [RAAM test environment for the evaluation of mobile applications](./environnement.md).
+#### Test des écrans
 
-This minimum test environment may be supplemented, where appropriate, by available free and open source solutions or by older technologies, depending on the use of the application. Whenever it is possible to know the configuration of the workstations and the hardware used, the baseline is composed of the services actually used in this environment.
+Chaque écran de l’échantillon doit être vérifié au regard des critères qui lui sont applicables.
 
-#### Testing screens
+Il existe 3 raisons pour qu’un critère ne soit pas applicable à un écran&nbsp;:
 
-Each screen in the sample must be checked against the criteria applicable to it.
+  1. Le critère concerne un contenu ou une fonctionnalité qui n’existe pas, par exemple si l’écran ne comporte pas de vidéo, les critères liés aux vidéos ne seront pas applicables.
+  2. Le critère concerne un contenu ou un service exempté qui n’est donc pas soumis à l’obligation d’accessibilité.
+  3. Le critère concerne un contenu soumis à dérogation pour charge disproportionnée qui est accompagné d’une alternative numérique accessible. Par exemple, un tableau statistique avec des graphiques, qui propose une alternative numérique en texte. Dans ce cas les critères applicables au contenu soumis à dérogation seront non applicables. 
+      À noter&nbsp;: si le contenu soumis à dérogation pour charge disproportionnée ne propose pas d’alternative numérique accessible, les critères concernant ce contenu sont considérés comme applicables.
 
-There are 3 reasons why a criterion may not be applicable to a screen:
+Les écrans sont ensuite testés au regard des critères applicables. Ces tests permettent d’obtenir&nbsp;:
 
-  1. The criterion relates to content or a functionality that does not exist. For example: if the screen does not include a video, the criteria relating to videos will not be applicable.
-  2. The criterion relates to an exempt content or service which is therefore not subject to the accessibility obligation.
-  3. The criterion concerns content subject to derogation for disproportionate burden that is accompanied by an accessible digital alternative. For example, a statistical table with graphics that offers a digital alternative in text. In this case, the criteria applicable to content subject to derogation will not apply. 
-      Please note: if the content subject to derogation for disproportionate burden does not offer an accessible digital alternative, the criteria for this content are considered applicable.
+  * le nombre de critères validés et non validés pour chaque écran
+  * le taux de conformité de chaque écran.
 
-The screens are then tested against the applicable criteria. These tests provide:
+À noter&nbsp;: 
 
-  * the number of validated and non-validated criteria for each screen;
-  * the compliance rate for each screen.
+  * un critère est validé pour un écran donné lorsque tous les éléments de l’écran ont passé avec succès les tests permettant de valider le critère&nbsp;;
+  * dès lors qu’un seul élément de l’écran ne valide pas les tests d’un critère, le critère ne peut être validé&nbsp;;
+  * si l’écran fait partie d’un processus (faire une déclaration, participer à une consultation publique, prendre un rendez-vous), un critère est validé pour un écran du processus uniquement s’il est validé pour tous les écrans du processus.
 
-Please note: 
+Certains critères ou thématiques sont applicables à l’ensemble de l’application et non à un écran particulier, il n’est donc pas nécessaire de les évaluer sur tous les écrans de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur un seul écran de l’échantillon et être considérés comme non applicables sur tous les autres écrans. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global de l’application. C’est notamment le cas pour les critères et thématiques suivantes&nbsp;:
+  * La thématique &laquo;&nbsp;12. Information sur les produits et service&nbsp;&raquo; 
+  * La thématique &laquo;&nbsp;14. Services d’assistance&nbsp;&raquo;
 
-  * a criterion is validated for a given screen when all the elements of the screen have passed the tests used to validate the criterion;
-  * if a single element of the screen does not pass the tests for a criterion, the criterion cannot be validated;
-  * if the screen is part of a process (making a declaration, taking part in a public consultation, making an appointment), a criterion is validated for a screen in the process only if it is validated for all the screens in the process.
+#### Taux de conformité à la norme
 
-Some criteria or themes are applicable to the whole app and not to a particular screen, so it is not necessary to evaluate them on all the screens in the sample. In this case, they may, for example, be evaluated on a single screen in the sample and considered as not applicable to all the other screens. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the application's overall compliance rate. This is particularly the case for the following criteria and themes:
-  * Theme 12: Documentation and accessibility features
-  * Theme 14: Support services.
+Le taux de conformité permet de mesurer les progrès du service en ligne eu égard à la conformité aux exigences d’accessibilité. 
 
-#### Compliance rate with the standard
+Ce taux indique le pourcentage de critères respectés du service en ligne.
 
-The compliance rate measures the progress made by the online service in complying with accessibility requirements. 
+Le pourcentage de critères respectés s’obtient en divisant le nombre de critères validés par le nombre de critères applicables.
 
-This rate indicates the percentage of criteria met by the online service.
+  * Critère validé&nbsp;: un critère est validé s’il est validé sur tous les écrans de l’échantillon. Si un critère est invalidé sur un seul écran de l’échantillon, il ne pourra pas être considéré comme valide pour le calcul du taux.
+  * Critère applicable&nbsp;: pour qu’un critère soit applicable, il suffit qu’il le soit sur un seul écran de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur tous les écrans de l’échantillon sans exception.
 
-The percentage of criteria met is obtained by dividing the number of validated criteria by the number of applicable criteria.
+Ce taux de conformité détermine l’état de conformité à mentionner dans la [déclaration d’accessibilité](../obligations.md#contenu-de-la-déclaration-daccessibilité).
 
-  * Validated criterion: a criterion is validated if it is validated on all the screens in the sample. If a criterion is invalidated on only one screen in the sample, it cannot be considered valid for calculating the rate.
-  * Applicable criterion: for a criterion to be applicable, it only needs to be applicable on one screen in the sample. The corollary of this is that a criterion is not applicable if it is not applicable on all the screens in the sample without exception.
+#### Principe de non-interférence
 
-This compliance rate determines the compliance status to be mentioned in the [accessibility statement](../obligations.md#content-of-the-accessibility-statement).
+Dans un échantillon d’audit, il peut y avoir des contenus qui ne sont pas soumis à l’obligation de mise en accessibilité&nbsp;:
 
-#### Non-interference principle
+- les [contenus exemptés](../obligations.md#contenus-exemptés)&nbsp;;
+- les [contenus dérogés pour charge disproportionnée](../obligations.md#dérogation-pour-charge-disproportionnée)&nbsp;;
+- les contenus non accessibles qui disposent d’une alternative accessible.
 
-In an audit sample, there may be content that is not subject to the accessibility obligation:
+Il est indispensable de s’assurer que ces contenus n’empêchent pas les utilisateurs d’accéder au reste de l’écran ou de l’application.
 
-- [exempt content](../obligations.md#exempt-content);
-- [content derogated for disproportionate burden](../obligations.md#derogation-for-disproportionate-burden);
-- non-accessible content that has an accessible alternative.
+Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obligatoire qu’ils se conforment aux critères et tests suivants&nbsp;:
 
-It is essential to ensure that this content does not prevent users from accessing the rest of the screen or the app.
+- [Critère 3.15](./criteres.html#crit-3-15)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur&nbsp;?
+- [Critère 10.2](./criteres.html#crit-10-2)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
+- [Critère 11.2](./criteres.html#crit-11-2)&nbsp;: Pour chaque écran, les mises à jour automatiques de contenu vérifient-elles une de ces conditions (hors cas particuliers) ?
+- [Critère 11.3](./criteres.html#crit-11-23)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il contrôlable par l’utilisateur (hors cas particuliers) ?
+- [Critère 11.4](./criteres.html#crit-11-4)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 
-Therefore, although the compliance of this content is not required, it must comply with the following criteria and tests:
+Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
 
-- [Criterion 3.12](./referentiel-technique.html#crit-3-12): Is each automatically triggered sound sequence controllable by the user?
-- [Criterion 10.3](./referentiel-technique.html#crit-10-3): On each screen, the navigation must not contain any keyboard traps. Is this rule respected?
-- [Criterion 11.1](./referentiel-technique.html#crit-11-1): For each screen, does the user have control over each time limit modifying content (excluding special cases)?
-- [Criterion 11.7](./referentiel-technique.html#crit-11-7): On each screen, are sudden change in brightness or blinking effects used correctly?
-- [Criterion 11.8](./referentiel-technique.html#crit-11-8): On each screen, is each moving or blinking content controllable by the user?
+Le principe de non-interférence est identifié dans la norme EN 301 549 dans la clause 9.6 WCAG <span lang="en">conformance requirements</span>. Bien que la norme ne propose pas de clause dédiée dans la section 11 pour les applications mobiles, les critères WCAG repris et adaptés pour les applications mobiles et concernés par le principe de non-interférence sont identifiés.
 
-Failure to comply with one of these criteria or tests for one of the types of content listed renders the corresponding criteria non-compliant.
+#### Alternative à une partie du contenu (contenu alternatif)
 
-The non-interference principle is identified in standard EN 301 549 in criterion 9.6 WCAG conformance requirements.
+La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné**.
 
-### Elements of methodology
+Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](#principe-de-non-interférence)
 
-Unlike web content, where it is possible to inspect the source code to determine the presence of elements or attributes, it is very difficult to do the same for mobile applications. On the one hand, because this would require a high level of technical expertise (you can access the software, but rarely its code, unlike a website). On the other hand, because unlike the web and HTML / CSS / JavaScript technologies there is a diversity of development environments which makes it difficult to define a list of tests based on code review.
+Par exemple : un composant d’interface non utilisable au clavier (par exemple, un calendrier pour sélectionner une date) qui dispose d’une alternative dans l’écran (un champ de saisie d’une date)
 
-This is why the chosen approach is to test for the presence of certain elements using specialised tools (interface inspectors, assistive technologies, external switches) or directly on the interface itself.
+Sources : 
+- [Comments on Conformance (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/#comments-on-conformance){lang=en}
+- [Pages complètes (Traduction en français des WCAG 2.2)](https://www.w3.org/Translations/WCAG22-fr/#cc2)
+- [Understanding Requirement 2 (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req2){lang=en}
 
-For example, when the interface contains an graphic element conveying information, the criterion asks you to check that an alternative is available and relevant, without giving any further details on the techniques to be used to provide an alternative to a graphic element. To help with the assessment, each criterion has a practical methodology (**which is non-normative**) setting out a possible method of assessing the criterion.
+Si l’alternative porte sur tout l’écran, alors c’est le principe de version de remplacement conforme décrit ci-après qui s’applique.
 
-We would also refer you to the documentation provided by language publishers and application creation software publishers, which sets out the features to be respected, the properties to be used and, in some cases, specialised tools for inspecting the interface or the code.
+### Éléments de méthodologie
 
-### Editor resources
+Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments ou d’attributs, il est très difficile pour les applications mobiles de procéder de la même manière. D’une part, parce que cela demanderait des compétences techniques élevées (on accède au logiciel, mais rarement à son code contrairement à un site web). D’autre part, parce que contrairement au web et aux technologies HTML / CSS / JavaScript il existe une diversité d’environnements de développement qui rend difficile la définition d’une liste de tests basée sur la revue de code.
+
+C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d’outils spécialisés (inspecteurs d’interfaces, technologies d’assistance, commutateurs externes) ou directement sur l’interface elle-même.
+
+Par exemple, lorsque l’interface contient un élément graphique porteur d’information, le critère demande de vérifier qu’une alternative est disponible et pertinente sans donner plus de précisions sur les techniques à employer pour mettre à disposition une alternative à un élément graphique. Afin d’aider pour l’évaluation, chaque critère dispose d’une méthodologie pratique (**qui n’est pas normative**) exposant une méthode possible d’évaluation du critère.
+
+Nous vous renvoyons également aux documentations des éditeurs de langage et de logiciels de création d’application dans lesquelles se trouvent les dispositifs à respecter, les propriétés à utiliser et pour certains des outils spécialisés pour inspecter l’interface ou le code.
+
+### Ressources des éditeurs
 
 #### Android
-- [Android Accessibility Help](https://support.google.com/accessibility/android): description of the assistive technologies and accessibility features available on Android systems.
-- [Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing): presentation of tools and methods for evaluating the accessibility of Android applications.
-- [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps): general development principles for complying with certain accessibility rules.
-- [Build accessible apps](https://developer.android.com/guide/topics/ui/accessibility): a set of resources for designing and developing accessible Android applications.
+- [Aide accessibilité Android](https://support.google.com/accessibility/android?hl=fr)&nbsp;: description des technologies d’assistance et des fonctionnalités d’accessibilité présentes sur les systèmes Android.
+- [Test your app’s accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing){lang=en}&nbsp;: présentation d’outils et méthodes d’évaluation de l’accessibilité des applications Android.
+- [Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps){lang=en}&nbsp;: principes généraux de développement pour respecter certaines règles d’accessibilité.
+- [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility){lang=en}&nbsp;: ensemble de ressources pour concevoir et développer des applications Android accessibles.
 
 #### iOS
-- [iOS Accessibility](https://www.apple.com/accessibility/): description of assistive technologies and accessibility features available on iOS systems.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility): general accessibility principles for mobile application interfaces on iOS.
-- [Videos and tutorials](https://developer.apple.com/videos/frameworks/accessibility/): a collection of videos demonstrating assistive technologies available on iOS or presenting technical development methods for taking accessibility into account.
+- [Accessibilité iOS](https://www.apple.com/fr/accessibility/)&nbsp;: description des technologies d’assistance et des fonctionnalités d’accessibilité présentes sur les systèmes iOS.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/){lang=en}&nbsp;: Principes généraux d’accessibilité des interfaces d’applications mobiles sur iOS.
+- [Vidéos et tutoriels](https://developer.apple.com/videos/frameworks/accessibility/) &nbsp;: ensemble de vidéos offrant des démonstrations de technologies d’assistance disponibles sur iOS ou présentant des méthodes techniques de développement pour prendre en compte l’accessibilité.
 
-### Evaluation tools
+###  Outils d’évaluation
 
-To assess the criteria in the framework, it will be useful to carry out tests using the parameters and assistive technologies of the platforms. 
+Pour évaluer les critères du référentiel, il va être utile de réaliser des tests en manipulant les paramètres et technologies d’assistance des plateformes. 
 
-This section does not attempt to provide exhaustive documentation or detailed explanations on how to use these elements. Nevertheless, the essential elements for an evaluation process are listed, with links to official documentation where possible, and with configuration or understanding help where necessary.
+Il ne s’agit pas dans cette section de fournir une documentation exhaustive ni des explications détaillées sur la prise en main de ces éléments. Néanmoins, les éléments  essentiels pour une démarche d’évaluation sont listés, en pointant vers les documentations officielles quand cela est possible et en fournissant des aides à la configuration ou compréhension si nécessaire.
 
-#### Screen reader
+#### Lecteur d’écran
 
-The screen reader is one of the tools that will be most widely used to evaluate the accessibility of applications. Screen readers are mainly used by blind or partially-sighted people to interact with an application.
+Le lecteur d’écran est un des outils qui sera le plus utilisé pour l’évaluation de l’accessibilité des applications. Les lecteurs d’écran sont utilisés principalement par les personnes aveugles ou malvoyantes pour interagir avec une application.
 
-Some criteria involve assessing the compatibility of components with assistive technologies (including the screen reader), but the screen reader is also used to assess criteria that also have an impact on other assistive technologies.
+Certains critères demandent d’évaluer la compatibilité des composants avec les technologies d’assistance (dont le lecteur d’écran), mais le lecteur d’écran est aussi utilisé pour évaluer des critères qui impactent également d’autres technologies d’assistance.
 
-The preferred navigation methods are gesture navigation or navigation combined with an external keyboard. Both methods produce the same effects.
+Les méthodes de navigation privilégiées sont la méthode par gestes ou la navigation combinée avec un clavier externe. Les deux méthodes produisent les mêmes effets.
 
-##### VoiceOver on iOS
+##### VoiceOver sur iOS
 
-VoiceOver is the screen reader integrated into iOS.
-
-###### Documentation 
-
-To get started with VoiceOver, we refer you to the official documentation, which explains the first steps for activating and using gestures.
-- [Turn on and practice VoiceOver on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios).
-- [Use VoiceOver on iPhone with an Apple external keyboard](https://support.apple.com/uk/guide/iphone/iph6c494dc6/ios)
-- [Change your VoiceOver settings on iPhone](https://support.apple.com/en-ca/guide/iphone/iphfa3d32c50/ios)
-- [Use VoiceOver gestures on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e2281/ios): this page explains the gestures available for navigating interfaces with VoiceOver.
-- [Control VoiceOver using the rotor on iPhone](https://support.apple.com/en-ca/guide/iphone/iph3e2e3a6d/ios): the rotor is a central element in VoiceOver navigation. It lets you select a type of element (link, button, header, etc.) as the target for quick navigation (swipe up/down). It is important to know that it exists and how to use it. See also [the list of parameters that can be found in the rotor](https://support.apple.com/en-ca/HT204783).
-
-###### Voice output display
-
-It is useful to be able to view the voice output. In iOS you can activate the caption panel, which displays VoiceOver announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; VoiceOver* and at the bottom of the settings screen activate the "Caption Panel" setting.
-
-##### TalkBack on Android
-
-TalkBack is Android's built-in screen reader. To take advantage of more options, you may need to install a third-party application (developed by Android): [Android Accessibility Suite](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&amp;gl=US).
+VoiceOver est le lecteur d’écran intégré à iOS.
 
 ###### Documentation 
 
-To get started with TalkBack, we refer you to the official documentation, which details the first steps for activating and using gestures.
-- [Turn on TalkBack](https://support.google.com/accessibility/android/answer/6007100?ref_topic=10601570).
-- [Learn about TalkBack settings](https://support.google.com/accessibility/android/answer/6006589?ref_topic=10601570).
-- [Use TalkBack gestures](https://support.google.com/accessibility/android/answer/6151827?ref_topic=10601570).
-- [Use the TalkBack menu & reading controls](https://support.google.com/accessibility/android/answer/6007066): playback control (or playback controls) is a feature similar to VoiceOver's rotor, allowing you to select types of item (links, buttons, headings, etc.) for quick navigation (swipe up/down).
+Pour prendre en main VoiceOver, nous vous renvoyons vers la documentation officielle qui détaille les premiers pas pour l’activation et l’utilisation des gestes.
+- [Activer VoiceOver et s’entraîner à utiliser les gestes sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e415f/ios).
+- [Utiliser VoiceOver sur l’iPhone avec un clavier externe Apple](https://support.apple.com/fr-fr/guide/iphone/iph6c494dc6/ios)
+- [Modifier les réglages de VoiceOver sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iphfa3d32c50/ios)
+- [Apprendre les gestes VoiceOver sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e2281/ios)&nbsp;: cette page vous détaille les gestes disponibles pour naviguer dans les interfaces avec VoiceOver.
+- [Contrôler VoiceOver à l’aide du rotor sur l’iPhone](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios)&nbsp;: le rotor est un élément central dans la navigation avec VoiceOver. Il permet de sélectionner un type d’élément (lien, bouton, entête, etc.) comme cible de la navigation rapide (glisser haut/bas). Il est important de connaître son existence et de savoir l’utiliser. Consultez également [la liste des paramètres qu’il est possible de trouver dans le rotor](https://support.apple.com/fr-fr/HT204783).
 
-###### Voice output display
+###### Affichage de la sortie vocale
 
-It is useful to be able to view voice output. In TalkBack you can activate a parameter that displays TalkBack announcements in text format at the bottom of the screen. To do this, go to *Settings &gt; Accessibility &gt; TalkBack &gt; Settings &gt; Advanced settings &gt; Developer settings* and activate the "Display speech output" setting.
+Il est utile de pouvoir visualiser la sortie vocale. Dans iOS vous avez la possibilité d’activer le panneau légende, qui affiche sous format texte en bas de l’écran les annonces de VoiceOver. Pour cela, aller dans *Réglages > Accessibilité > VoiceOver* et en bas de l’écran des paramètres activer le paramètre &laquo;&nbsp;Panneau légende&nbsp;&raquo;.
 
-Depending on the version of Android you're using, the path to the TalkBack "Display speech output" setting may not be exactly the same.
+##### TalkBack sur Android
 
-#### External keyboard
+TalkBack est le lecteur d’écran intégré à Android. Afin de profiter de plus d’options, il peut être nécessaire d’installer une application tierce (développée par Android)&nbsp;: [Outils d’accessibilité Android](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=fr&gl=US).
 
-Not all users with a motor disability will be able to use the touch interface, so they will need to interact via an external switch: keyboard or other external device.
+###### Documentation 
 
-In order to test the criteria related to the use of applications with an external keyboard, it will be necessary to connect an external keyboard to the device and set a number of parameters in the platforms.
+Pour prendre en main TalkBack, nous vous renvoyons vers la documentation officielle qui détaille les premiers pas pour l’activation et l’utilisation des gestes.
+- [Activer ou désactiver TalkBack](https://support.google.com/accessibility/android/answer/6007100?hl=fr&ref_topic=10601570).
+- [Les paramètres TalkBack](https://support.google.com/accessibility/android/answer/6006589?hl=fr&ref_topic=10601570).
+- [Utiliser les gestes TalkBack](https://support.google.com/accessibility/android/answer/6151827?hl=fr&ref_topic=10601570).
+- [Utiliser le menu TalkBack et le contrôle de la lecture](https://support.google.com/accessibility/android/answer/6007066?hl=fr)&nbsp;: le contrôle de la lecture (ou commandes de lecture) est une fonctionnalité similaire au rotor de VoiceOver, il permet de sélectionner des types d’éléments (liens, boutons, entêtes, etc.) pour la navigation rapide (glisser haut/bas).
+
+###### Affichage de la sortie vocale
+
+Il est utile de pouvoir visualiser la sortie vocale. Dans TalkBack vous avez la possibilité d’activer un paramètre qui affiche sous format texte en bas de l’écran les annonces de TalkBack. Pour cela, aller dans *Paramètres > Accessibilité > TalkBack > Paramètres > Paramètres avancés > Paramètres du développeur* et activer le paramètre &laquo;&nbsp;Afficher la sortie vocale&nbsp;&raquo;.
+
+Selon la version d’Android utilisée, il est possible que le chemin vers le paramètre &laquo;&nbsp;Afficher la sortie vocale&nbsp;&raquo; de TalkBack ne soit pas exactement le même.
+
+#### Clavier externe
+
+Les utilisateurs et utilisatrices avec un handicap moteur ne pourront pas toutes et tous utiliser l’interface tactile, il leur sera alors indispensable d’interagir au travers d’un commutateur externe&nbsp;: clavier ou autre périphérique externe.
+
+Afin de tester les critères relatifs à l’utilisation des applications avec un clavier externe, il va être nécessaire de brancher un dispositif externe au terminal et paramétrer quelques éléments dans les plateformes.
 
 ##### iOS
 
-To enable the device to be controlled by an external keyboard, the "Full keyboard access" option needs to be activated. To do this, go to *Settings &gt; Accessibility &gt; Keyboards &gt; Full keyboard access* and activate "Full keyboard access".
+Afin de permettre le contrôle du terminal par un clavier externe, il est nécessaire d’activer l’option &laquo;&nbsp;Accès clavier complet&nbsp;&raquo;. Pour cela, aller dans *Réglages > Accessibilité > Claviers > Accès clavier complet* et activer &laquo;&nbsp;Accès clavier complet&nbsp;&raquo;
 
-iOS allows you to specify a focus style for users using an external device (*Settings &gt; Accessibility &gt; Keyboard &gt; Full Keyboard Access*). The user can choose:
-- to hide it automatically after a configurable time;
-- to increase the focus size;
-- to increase the contrast;
-- the colour.
+iOS permet de spécifier un style de focus pour les utilisateurs qui utilisent un périphérique externe (*Réglages > Accessibilité > Clavier > Accès complet au clavier*). L’utilisateur peut choisir&nbsp;:
+- de la masquer automatiquement au bout d’un temps paramétrable&nbsp;;
+- d’augmenter la taille de la prise de focus&nbsp;;
+- d’augmenter le contraste&nbsp;;
+- la couleur.
 
 ##### Android
 
-Using an external keyboard with Android can be done in several ways, and the EN 301 549 standard does not impose a method.
+L’utilisation d’un clavier externe avec Android peut se faire de plusieurs façons, et la norme EN 301 549 n’impose pas de méthode. 
 
-###### Keyboard access only
+###### Accès clavier seul
 
-The simplest method is to connect an external keyboard via USB or *Bluetooth* to the mobile terminal, and perform the tests without any settings.
+La méthode la plus simple est de connecter un clavier externe en USB ou <span lang="en">Bluetooth</span> au terminal mobile, et de réaliser les tests sans aucun paramétrage. 
 
-You can consult the [list of keyboard shortcuts available for Android](https://appt.org/en/docs/android/features/keyboard-access) in order to navigate efficiently.
+Vous pouvez consulter la [liste des raccourcis clavier disponibles pour Android](https://appt.org/en/docs/android/features/keyboard-access) afin de naviguer efficacement.
 
-###### Keyboard access with an accessibility service
+###### Accès clavier avec un service d’accessibilité
 
-If the tests are not satisfactory, it is possible to perform additional tests using the accessibility service [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr).
+Si les tests ne sont pas satisfaisants, il est possible de réaliser des tests complémentaires en utilisant le service d’accessibilité [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr){lang=en}. 
 
-A guide allows you to configure your external keyboard step by step by defining switches, it is available in <em>Settings &gt; Accessibility &gt; <span lanf="en">Switch Access</span> &gt; Settings &gt; Open setup guide</em>. You will associate two actions:
+Un guide vous permet de configurer pas à pas votre clavier externe en définissant des commutateurs, il est disponible dans <em>Préférences &gt; Accessibilité &gt; <span lanf="en">Switch Access</span> &gt; Paramètres &gt; Ouvrir le guide de configuration</em>. Vous allez associer deux actions :
 
-- *Next*: press the keyboard key you wish to associate (we recommend <kbd>Tab</kbd> to keep the keys used when browsing on a computer).
-- *Select*: press the keyboard key you wish to associate (we recommend <kbd>Enter</kbd> to keep the keys used when navigating on a computer).
+* <em>Passer à l’option suivante</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Tab</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
+* <em>Sélectionner</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Entrée</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
 
-Once the first configuration step is completed (using the configuration guide), it will be necessary to configure other navigation keys:
+Une fois la première étape de configuration terminée (avec le guide de configuration), il sera nécessaire de paramétrer d’autres touches de navigation :
 
-- *Switch Access &gt; Settings &gt; Assign switches for scanning*: Associate the  *Previous* setting with a key or key combination (we recommend <kbd>Shift + Tab</kbd>)
-- *Switch Access &gt; Settings &gt; Assign switches to global actions*: Associate the *Back* setting with a key or key combination (we recommend <kbd>ESC</kbd>)
+* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs pour la recherche_ : Associer le paramètre _Passer à l’option précédente_ avec une touche ou combinaison de touches (nous vous recommandons <kbd>Shift + Tab</kbd>)
+* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs à des actions_ : Associer le paramètre <em>Retour</em> avec une touche ou combinaison de touches (nous vous recommandons <kbd>ESC</kbd>)
 
-#### Test applications
+#### Applications de tests
 
 ##### iOS (macOS)
 
-Some methodology elements will offer you several test methods, often as an alternative to assistive technologies for evaluating elements. With iOS, it is possible to connect the device to a computer with macOS and use the **Accessibility Inspector** application.
+Certains éléments de méthodologie vous proposeront plusieurs méthodes de test, souvent en alternative aux technologies d’assistance pour évaluer des éléments. Avec iOS, il est possible de brancher le terminal sur un ordinateur avec macOS et d’utiliser l’application **Accessibility Inspector**{lang=en}.
 
-The **[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)** is available from [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12), used for developing mobile applications. This tool is useful for carrying out certain tests. To activate it, launch Xcode, then from Xcode, follow the path *Xcode &gt; Open Developer Tool &gt; Accessibility Inspector*.
+**[Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html){lang=en}** est disponible depuis le logiciel [Xcode](https://apps.apple.com/fr/app/xcode/id497799835?mt=12) utilisé pour le développement d’applications mobiles. Cet outil est utile pour réaliser certains tests. Pour l’activer, lancer Xcode, puis depuis Xcode, suivre le chemin *Xcode > Open Developer Tool > Accessibility Inspector*{lang=en}.
 
 ##### Android
 
-To carry out certain tests on Android applications, third-party applications are required or can help you with the evaluation.
+Pour réaliser certains tests sur des applications Android, des applications tierces sont requises ou pourront vous aider dans l’évaluation.
 
-- [**Android Accessibility Suite**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&gl=US): Android application for adding options and gestures to the Talkback screen reader.
-- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&amp;gl=US) Android application that enables automatic tests to be carried out for certain criteria. Once installed, access the application from *Settings &gt; Accessibility &gt; Installed Services &gt;* *Accessibility Scanner*.
+- [**Outils d’accessibilité Android**](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=fr&gl=US)&nbsp;: application Android permettant d’ajouter notamment des options et des gestes au lecteur d’écran Talkback.
+- [**Accessibility Scanner**](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=fr&gl=US){lang=en}&nbsp;: application Android permettant de réaliser des tests automatiques pour certains critères. Une fois installé, accéder à l’application depuis *Paramètres > Accessibilité > Services installés >* *Accessibility Scanner*{lang="en"}.
 
-##### iOS and Android
+##### iOS et Android
 
-- [Colour Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/): tool for evaluating contrasts from the computer, available on Mac and Windows.
+- [Color Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/){lang=en}&nbsp;: outil d’évaluation des contrastes depuis l’ordinateur disponible sur Mac et Windows.
 
-#### Change the font size on iOS
+#### Activer les options pour les développeurs sur Android
 
-On iOS, it is possible to display a text size gauge that gives the value of the magnification ratio. To do this, you must add the "Text Size" parameter to the control center.
+Il peut être utile pour certains tests, d’avoir accès aux options pour les développeurs sur Android. Ces options sont masquées par défaut dans les paramètres du système. Pour les rendre visible, il faut effectuver une manipulation : 
+- Depuis l’écran des paramètres, rechercher &laquo;&nbsp;Numéro du Build&nbsp;&raquo; ;
+- Accéder à l’écran contenant cette information puis taper 7 fois sur l’option jusqu’à ce que le message &laquo;&nbsp;Vous êtes maintenant développeur&nbsp;&raquo; apparaisse à l’écran.
 
-Depending on the version of iOS, there are different methods to customize the control center and thus add the "Text Size" parameter. [The official documentation details them for iOS versions 12 to 18](https://support.apple.com/en-gb/guide/iphone/iph59095ec58/ios#iph83c5f986c).
+Selon la version d’Android, le chemin ou les appelations peuvent varier. Consulter [la documentation officielle pour des informations adaptées au terminal utilisé](https://developer.android.com/studio/debug/dev-options?hl=fr).
 
-We can see that the parameter allows you to reach 190% or 235% magnification, but never 200%, this level does not exist for the moment. 190% being closer to 200%, this is the value that the methodology suggests testing.
+#### Modifier la taille de police sur iOS
 
-#### Broadcast the screen of the mobile device
+Dans iOS, il est possible d’afficher une jauge des tailles de textes qui donne la valeur du ratio d’agrandissement. Pour cela, il faut ajouter le paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; au centre de contrôle. 
 
-Broadcasting your mobile device screen to your computer can allow you to record certain interactions and take screenshots when you need to write audit reports. Casting can also be useful for demonstrations during audit feedback.
-Broadcasting the mobile device is not an essential requirement for evaluating applications, but it is nevertheless useful because it can facilitate certain evaluation activities.
+Selon la version d’iOS, il existe des méthodes différentes pour personnaliser le centre de contrôle et ainsi ajouter le paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo;. [La documentation officielle les détaille pour les versions iOS 12 à 18](https://support.apple.com/fr-fr/guide/iphone/iph59095ec58/ios#iph83c5f986c). 
+
+On peut constater que le paramètre permet d’atteindre 190% ou 235% d’agrandissement, mais jamais 200%, ce palier n’existe pas pour l’instant. 190% étant plus proche de 200%, c’est la valeur que la méthodologie suggère de tester.
+
+#### Diffuser l’écran du terminal mobile
+
+La diffusion de l’écran du terminal mobile sur votre ordinateur peut vous permettre d’enregistrer certaines interactions et de faire des captures d’écran lorsque vous devez rédiger des rapports d’audit. La diffusion peut également être utile pour faire des démonstrations au cours de restitution d’audit.
+
+La diffusion du terminal mobile n’est pas un requis indispensable pour l’évaluation des applications, elle est néanmoins utile puisqu’elle peut faciliter certaines activités d’évaluation.
 
 ##### iOS
 
-###### You have a computer with macOS 
+###### Vous disposez d’un ordinateur avec macOS 
 
-1. Connect the iOS device to the macOS computer using the USB cable. 
-1. Open the QuickTime software and in the *File* menu, select "New video recording".
-1. A window will open showing an image from your computer's camera. Click to the right of the red record button to change the source and choose your device.
-1. The screen of your mobile device will now be displayed on your computer.
+1. Connecter le terminal iOS à l’ordinateur macOS par le câble USB. 
+1. Ouvrir le logiciel QuickTime et dans le menu *Fichier*, sélectionner &laquo;&nbsp;Nouvel enregistrement vidéo&nbsp;&raquo;.
+1. Une fenêtre s’ouvre, si elle diffuse l’image en provenance de la caméra de votre ordinateur, cliquer à droite du bouton rouge d’enregistrement pour modifier la source à diffuser et choisir votre terminal.
+1. L’écran de votre terminal mobile s’affiche maintenant sur votre ordinateur.
 
-###### You have a computer running Windows 
+###### Vous disposez d’un ordinateur avec Windows
 
-There are a number of software (free or paid) that allow you to stream your iOS device to a Windows computer.
+Il existe un certain nombre de logiciels (gratuits ou payants) permettant de diffuser le terminal iOS sur un ordinateur Windows.
 
 ##### Android
 
-There is an open source application that allows you to stream an Android application to **Windows and macOS**: [SCRCPY](https://github.com/Genymobile/scrcpy). 
+Il existe une application *open source*{lang=en} qui permet de diffuser une application Android sur **Windows et macOS**&nbsp;: [SCRCPY](https://github.com/Genymobile/scrcpy). 
 
-Installing it on a macOS environment may require some technical knowledge. On Windows, it can be used like a standard application. However, it is not essential that you project your mobile device, you can do without this installation (another method is detailed later in the document).
-Windows provides an integrated "Connect" function for broadcasting certain external sources. [See documentation](https://support.google.com/pixelphone/answer/2865484?ref_topic=7084202)
+Sur environnement macOS, son installation peut demander quelques connaissances techniques. Sur Windows, il s’utilise comme un applicatif standard. Néanmoins il n’est pas indispensable que vous projetiez votre terminal mobile, vous pouvez vous passer de cette installation (une autre méthode est détaillée après dans le document).
 
-#### Take screenshots
+Si vous disposez d’un ordinateur avec Windows, Windows met à disposition une fonctionnalité &laquo;&nbsp;Se connecter&nbsp;&raquo; intégrée pour diffuser certaines sources externes. [Voir la documentation](https://support.google.com/pixelphone/answer/2865484?hl=fr&ref_topic=7084202).
 
-If it is not possible to broadcast mobile devices on the computer screen, a satisfactory alternative is to take screenshots from your mobile device and then import these captures, by the method of your choice, onto your computer.
+#### Réaliser des captures d’écran
 
-For criteria 2.2, 2.3 and 2.4 for the evaluation of contrasts, we strongly recommend that you use this method of capturing screens so that you can accurately evaluate the sizes of the texts. Indeed, capturing a screen from the device guarantees preserved proportions, unlike a capture that would be taken from a device projected onto a desktop environment.
+Si la diffusion des terminaux mobiles sur l’écran d’ordinateur est impossible, une alternative satisfaisante est de réaliser des captures d’écrans depuis votre terminal mobile et d’importer ensuite ces captures, par la méthode de votre choix, sur votre ordinateur.
 
-- [Take a screenshot of your Android device](https://support.google.com/android/answer/9075928?hl=fr).
-- [Take a screenshot on an iPhone](https://support.apple.com/fr-fr/HT200289).
+Pour les critères 2.2, 2.3 et 2.4 pour l’évaluation des contrastes, nous vous invitons fortement à privilégier cette méthode de capture des écrans de sorte à pouvoir évaluer précisément les tailles des textes. En effet, la capture d’écran depuis le terminal garantit des proportions préservées contrairement à une capture qui serait faite depuis un terminal projeté sur un environnement de bureau.
 
-##### Import screenshots onto the computer
+- [Effectuer une capture d’écran de votre appareil Android](https://support.google.com/android/answer/9075928?hl=fr).
+- [Réaliser une capture d’écran sur un iPhone](https://support.apple.com/fr-fr/HT200289).
 
-Generally speaking, regardless of the mobile platform or the desktop environment, the main method to facilitate the transit of photos from the mobile device to the desktop computer is to **set up an online photo backup utility** on the mobile device, as can be done for example by services such as Dropbox, OneDrive or Google (Photos or Drive), and access the backup from the desktop computer.
+##### Importer des captures d’écrans sur l’ordinateur
 
-There may then be specific methods depending on the platforms:
-- From iOS to macOS: the [AirDrop](https://support.apple.com/fr-fr/119857) functionality.
-- From iOS to macOS and Windows: the [iCloud](https://support.apple.com/fr-fr/guide/photos/phtf5e48489c/mac) solution. This method works with both macOS and [Windows](https://support.apple.com/en-us/103232).
-- From Android to macOS: the [MacDroid](https://www.macdroid.app) solution.
-- From Android or iOS to Windows: [direct USB connection](https://support.microsoft.com/en-us/windows/importing-photos-and-videos-aed09800-f826-4d40-a243-7640de229d9d).
+De manière générale, indépendamment de la plateforme mobile ou de l’environnement de bureau, la méthode principale pour faciliter le transit des photos depuis le terminal mobile vers l’ordinateur de bureau est de **paramétrer un utilitaire de sauvegarde de photos en ligne** sur le terminal mobile, comme peuvent le faire par exemple des services tels que Dropbox, OneDrive ou Google (Photos ou Drive), et accéder à la sauvegarde depuis l’ordinateur de bureau. 
 
-Other utilities may be suitable, this list is not exhaustive.
+Il peut ensuite exister des méthodes spécifiques en fonction des plateformes&nbsp;: 
+- Depuis iOS vers macOS&nbsp;: la fonctionnalité [AirDrop](https://support.apple.com/fr-fr/119857).
+- Depuis iOS vers macOS et Windows&nbsp;: la solution [iCloud](https://support.apple.com/fr-fr/guide/photos/phtf5e48489c/mac). Cette méthode fonctionne aussi bien avec macOS que [Windows](https://support.apple.com/fr-fr/103232).
+- Depuis Android vers macOS&nbsp;: la solution [MacDroid](https://www.macdroid.app/fr/).
+- Depuis Android ou iOS vers Windows&nbsp;: [la connexion directe par USB](https://support.microsoft.com/fr-fr/windows/importer-des-photos-et-des-vid%C3%A9os-aed09800-f826-4d40-a243-7640de229d9d).
 
-##### Evaluate the size of a text
+D’autres utilitaires peuvent convenir, la présente liste n’est pas exhaustive.
 
-If during the evaluations, the size of some texts is not obvious (for example, it is not obvious to the naked eye whether a text is in normal size or enlarged size), then it will be necessary to measure it to determine the minimum contrast ratio required. Here is a methodology that allows you to obtain this measurement:
-1. Determine the screen size of the test device:
-  - activate Safari (on iOS) or Chrome (on Android) and navigate to [https://www.mydevice.io](https://www.mydevice.io);
-  - locate the <code>JS screen.width</code> value (which corresponds to the physical width of the screen).
-1. Reset the default font size in the application to evaluate the text at 100%.
-  - On iOS, the easiest way is to go through the gauge available in [the control center](methodologie.md#change-the-font-size-on-ios) to restore the size to 100%.
-  - On Android, if font size settings are available (*Settings > Accessibility > Font size*), activate the function to reset the font size. Otherwise, reduce the size to reach the first or second step of the gauge, depending on the initial size.
-1. Take a screenshot from the mobile device and import it on the computer (see above, this is the preferred method to ensure that the sizes are preserved).
-1. Open the capture in an image editing software:
-  - On macOS, open the capture with the "Preview" software:
-    - in the "Tools" menu, choose "Adjust size";
-    - set the units to pixels;
-    - in the "Width" field, enter the value of the screen width determined previously. 
-  - On Windows, open the capture with the "Paint" software:
-    - in the toolbar, select the "Resize" option;
-    - set the units in pixels;
-    - in the "Horizontal" field, enter the value of the screen width determined previously.
-1. Locate texts on the screen, texts contained in graphic elements and texts embedded in videos, that could cause contrast problems and determine their size:
-  - from the screenshot opened in the editing software, activate the rectangular selection tool;
-  - draw a rectangle around the text for which you want to determine the size:
-    - it is best to start with a capital letter, otherwise include a letter such as "d", "t" or "b";
-    - you can zoom in on the screenshot to make the most precise selection possible, this does not affect the calculation of the height. 
-  - locate the height of the rectangle thus defined in the software:
-    - in "Preview" the value is displayed right next to the selection, the height is the second value;
-    - in "Paint" the values ​​are displayed in the status bar at the bottom of the software window, the height is the second value.
+##### Évaluer la taille d’un texte (ou d’un composant)
+
+<em>La méthodologie ci-dessous décrit les étapes pour capturer un écran afin d’évaluer la taille d’un texte pour l’évaluation des contrastes. Les mêmes étapes s’appliquent pour l’évaluation des tailles de cibles.</em>
+
+Si lors des évaluations, la taille de certains textes n’est pas évidente (par exemple, il n’est pas évident à l’évaluation à l’œil nu que tel texte soit en taille normale ou taille agrandie), alors il sera nécessaire de la mesurer pour déterminer le rapport de contraste minimum requis. Voici une méthodologie qui permet d’obtenir cette mesure&nbsp;: 
+1. Déterminer la taille de l’écran du terminal de test&nbsp;:
+	- activer Safari (sous iOS) ou Chrome (sous Android) et naviguer jusqu’à [cssunitconverter.com](https://cssunitconverter.com/viewport-size-screen-resolution-checker)&nbsp;;
+	- repérer la valeur &laquo;&nbsp;<em lang="en">Your viewport size is</em>&nbsp;&raquo;. 
+1. Réinitialiser la taille de la police par défaut dans l’application pour évaluer le texte à 100%. 
+	- Dans iOS, le plus simple est de passer par la jauge disponible dans [le centre de contrôle](methodologie.md#modifier-la-taille-de-police-sur-ios) pour rétablir la taille à 100%. 
+	- Dans Android, s’il existe dans l’écran des paramètres de taille (*Paramètres > Accessibilité > Taille de la police*), activez la fonction permettant de réinitialiser la taille de la police. Sinon, réduire la taille pour atteindre le premier ou le second pas de la jauge, selon la taille initiale. 
+1. Réaliser une capture d’écran depuis le terminal mobile et l’importer sur l’ordinateur (voir ci-dessus, c’est la méthode à privilégier afin de garantir que les tailles seront préservées).
+1. Ouvrir la capture dans un logiciel de retouche d’images&nbsp;: 
+	- Sur macOS, ouvrir la capture avec le logiciel &laquo;&nbsp;Aperçu&nbsp;&raquo;&nbsp;: 
+		- dans le menu &laquo;&nbsp;Outils&nbsp;&raquo; choisir &laquo;&nbsp;Ajuster la taille&nbsp;&raquo;&nbsp;;
+		- paramétrer les unités en pixels&nbsp;;
+		- dans le champ &laquo;&nbsp;largeur&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
+	- Sur Windows, ouvrir la capture avec le logiciel &laquo;&nbsp;Paint&nbsp;&raquo;&nbsp;: 
+		- dans la barre d’outils, choisir l’option &laquo;&nbsp;Redimensionner&nbsp;&raquo;&nbsp;;
+		- paramétrer les unités en pixels&nbsp;;
+		- dans le champ &laquo;&nbsp;Horizontal&nbsp;&raquo; inscrire la valeur de la largeur de l’écran déterminée précédemment.
+1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste et déterminer leur taille&nbsp;: 
+	- depuis la capture d’écran ouverte dans le logiciel de retouche, activer l’outil de sélection rectangulaire&nbsp;;
+	- dessiner un rectangle autour du texte pour lequel vous souhaitez déterminer la taille&nbsp;:
+		- le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
+		- vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
+	- repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
+		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
+		- dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
+
+#### Web view (vues web) : debogage distant USB
+
+Lorsque des web views sont intégrées dans les applications, il peut être utile d’avoir directement accès au code afin de réaliser certains tests. Nous renvoyons vers les documentations des éditeurs.
+
+- [Débogage USB avec Chrome et Android](https://developer.chrome.com/docs/devtools/remote-debugging?hl=fr) 
+- [Débogage USB avec Safari macOS et iOS](https://developer.apple.com/fr/documentation/safari-developer-tools/develop-menu)
