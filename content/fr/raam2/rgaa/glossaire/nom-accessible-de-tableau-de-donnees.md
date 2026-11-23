@@ -1,5 +1,5 @@
 ---
-title: Nom accessible de tableaux de données
+title: Nom accessible de tableau de données
 RAAM1.1: titre-d-un-tableau-de-donnees
 ---
 

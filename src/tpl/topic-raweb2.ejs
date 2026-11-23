@@ -133,10 +133,16 @@
             </p>
         </li>
         <% }
-        if (crit.criterium.references.previous !== 'undefined') { %>
+        if (crit.criterium.references.previous !== 'undefined' && crit.criterium.references.previous !== 'N/A') { %>
         <li><p><%= framework %> 1.1</p>
             <p>
-                <% let prevs = crit.criterium.references.previous.split(',').map(id => `<a href="../${framework}1.1/criteres.html#crit-${id.trim().replace('.', '-')}">${id}</a>`) %>
+                <% let fUrl = 'criteres';
+                   let anchor = 'crit';
+                if (framework == 'RAAM') { fUrl = 'referentiel-technique'; }
+                    let prevs = crit.criterium.references.previous.split(',').map(function (id) {
+                        if (id.split('.').length > 2) { anchor = 'test'; }
+                         return `<a href="../${framework}1.1/${fUrl}.html#${anchor}-${id.trim().replaceAll('.', '-')}">${id}</a>` 
+                        }) %>
                 <%- prevs.join(', ') %>.
             </p>
         </li>

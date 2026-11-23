@@ -105,7 +105,7 @@ Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obl
 - [Critère 3.15](./criteres.html#crit-3-15)&nbsp;: Chaque séquence sonore déclenchée automatiquement est-elle contrôlable par l’utilisateur&nbsp;?
 - [Critère 10.2](./criteres.html#crit-10-2)&nbsp;: Dans chaque écran, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
 - [Critère 11.2](./criteres.html#crit-11-2)&nbsp;: Pour chaque écran, les mises à jour automatiques de contenu vérifient-elles une de ces conditions (hors cas particuliers) ?
-- [Critère 11.3](./criteres.html#crit-11-23)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il contrôlable par l’utilisateur (hors cas particuliers) ?
+- [Critère 11.3](./criteres.html#crit-11-3)&nbsp;: Dans chaque écran, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il contrôlable par l’utilisateur (hors cas particuliers) ?
 - [Critère 11.4](./criteres.html#crit-11-4)&nbsp;: Dans chaque écran, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
@@ -114,7 +114,7 @@ Le principe de non-interférence est identifié dans la norme EN 301 549 dans la
 
 #### Alternative à une partie du contenu (contenu alternatif)
 
-La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné**.
+La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné**.
 
 Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](#principe-de-non-interference)
 

@@ -2,7 +2,7 @@
 WCAG: 1.3.1
 EN301549-V4: 11.1.3.1
 APPT: 1.3.1
-RAAM1.1: 9.6.1[C1]
+RAAM1.1: 9.6.1
 ---
 
 ##### Notes techniques 

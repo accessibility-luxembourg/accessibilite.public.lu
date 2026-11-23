@@ -2,7 +2,7 @@
 WCAG: 2.5.3
 EN301549-V4: 11.2.5.3
 APPT: 2.5.3
-RAAM1.1: 9.5.1[C2]
+RAAM1.1: 9.5.1
 ---
 
 #### Cas particuliers
