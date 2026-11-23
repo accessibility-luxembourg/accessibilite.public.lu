@@ -22,8 +22,11 @@
             <td>
                 <%
                 if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0 && crit.criterium.references.wcag !== 'N/A') { 
-                    let SC = crit.criterium.references.wcag.trim() %>
-                    <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
+                  const SC = WCAGrules.criteria.find(c => c['data-ref'] === crit.criterium.references.wcag.trim()); 
+                  if (lang != 'fr') { 
+                    SC.url = SC.url.replace('https://www.w3.org/Translations/WCAG22-fr/', 'https://www.w3.org/TR/WCAG22/');
+                  } %>
+                  <a href="<%= SC.url %>"><%- langOnWCAG(SC['data-ref'], lang) %></a>
                 <% } %>
             </td>
             <td><%- langOnEUNorm(crit.criterium.references.norm, lang) %></td>
