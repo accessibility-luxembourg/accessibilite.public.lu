@@ -309,7 +309,7 @@ const config = {
                 {
                     "title": "RAAM 2 : Méthodologie de test",
                     "menu": "Méthodologie de test",
-                    "name": "raam2/methodologie",
+                    "name": "raam2/methodo-test",
                     "md": "./content/fr/raam2/methodologie.md",
                     "prefix": "../.." , 
                     "genSummary": "ol", 

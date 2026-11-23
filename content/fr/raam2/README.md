@@ -10,7 +10,7 @@ Le RAAM 2 est constitué des documents suivants :
 * [Introduction](introduction.md)
 * [Critères et tests](referentiel-technique.md)
 * [Glossaire](glossaire.md)
-* [Méthodologie](methodologie.md)
+* [Méthodologie](methodo-test.md)
 * [Environnement](environnement.md)
 * [Références](references.md)
 

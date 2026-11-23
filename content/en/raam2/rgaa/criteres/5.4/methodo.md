@@ -2,7 +2,7 @@ Il s’agit ici de s’assurer que le composant peut être utilisé par le lecte
 
 Il est néanmoins nécessaire de tester au moins avec le lecteur d’écran et un clavier externe.
 
-Pour le clavier externe, [certains paramétrages sont nécessaires pour que le périphérique soit pleinement fonctionnel](methodologie.md#clavier-externe).
+Pour le clavier externe, [certains paramétrages sont nécessaires pour que le périphérique soit pleinement fonctionnel](methodo-test.md#clavier-externe).
 
 ###### iOS et Android
 
@@ -12,7 +12,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 	- qu’il peut être atteint avec le lecteur d’écran ;
 	- qu’il peut être activé avec le lecteur d’écran. 
 1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec le lecteur d’écran.
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodo-test.md#clavier-externe)).
 1. Parcourir l’ensemble des composants interactifs.
 1. Vérifier : 
 	- qu’il peut être atteint avec les touches du clavier ;

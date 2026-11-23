@@ -294,7 +294,7 @@ const config = {
                 {
                     "title": "RAAM 2: Testing methodology",
                     "menu": "Testing methodology",
-                    "name": "raam2/methodologie",
+                    "name": "raam2/methodo-test",
                     "md": "./content/en/raam2/methodologie.md",
                     "prefix": "../.." , 
                     "genSummary": "ol", 

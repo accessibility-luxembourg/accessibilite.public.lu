@@ -1,6 +1,6 @@
 ###### iOS
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodo-test.md#clavier-externe)).
 1. Parcourir l’écran et repérer les contenus additionnels qui apparaissent à la prise de focus sur un composant d’interface.
 1. Vérifier que le contenu additionnel peut être masqué par une touche du clavier (la touche <kbd>ESC</kbd> par exemple).
 1. Vérifier que le contenu additionnel reste visible : 
@@ -18,7 +18,7 @@
 
 ###### Android
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodo-test.md#clavier-externe)).
 1. Parcourir l’écran et repérer les contenus additionnels qui apparaissent à la prise de focus sur un composant d’interface.
 1. Vérifier que le contenu additionnel peut être masqué par une touche du clavier (généralement la touche ou la combinaison de touches qui aura été associée dans *Switch Access*{lang=en} pour le paramètre *Retour*)
 1. Vérifier que le contenu additionnel reste visible : 

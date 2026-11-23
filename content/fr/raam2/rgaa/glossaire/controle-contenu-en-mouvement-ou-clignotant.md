@@ -4,7 +4,7 @@ title: Contrôle (contenu en mouvement ou clignotant)
 
 Possibilité pour l’utilisateur de contrôler l’affichage ou la lecture d’un contenu en mouvement ou clignotant au moyen de tous les dispositifs de pointage (toucher, clavier, souris, etc.).
 
-Tous les contenus en mouvement, à l’exception des médias temporels pris en charge par la thématique [Multimédia](referentiel-technique.html#topic-3), sont concernés : les éléments graphiques animés, les contenus en mouvement par exemple.
+Tous les contenus en mouvement, à l’exception des médias temporels pris en charge par la thématique [Multimédia](criteres.html#topic-3), sont concernés : les éléments graphiques animés, les contenus en mouvement par exemple.
 
 La méthode de contrôle du contenu en mouvement ou clignotant doit permettre à l’utilisateur d’interagir avec le reste de l’application. En conséquence, l’arrêt ou la mise en pause via un événement déclenché uniquement sur la prise de focus ne permet pas de valider le critère.
 

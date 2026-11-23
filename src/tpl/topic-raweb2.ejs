@@ -136,7 +136,7 @@
         if (crit.criterium.references.previous !== 'undefined') { %>
         <li><p><%= framework %> 1.1</p>
             <p>
-                <% let prevs = crit.criterium.references.previous.split(',').map(id => `<a href="../raweb1.1/criteres.html#crit-${id.trim().replace('.', '-')}">${id}</a>`) %>
+                <% let prevs = crit.criterium.references.previous.split(',').map(id => `<a href="../${framework}1.1/criteres.html#crit-${id.trim().replace('.', '-')}">${id}</a>`) %>
                 <%- prevs.join(', ') %>.
             </p>
         </li>

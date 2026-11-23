@@ -57,9 +57,9 @@ Ainsi, bien que la norme n’en définisse pas pour les critères hors WCAG, il 
 
 ### Sommaire
 
-- [Critères et tests](referentiel-technique.md)
+- [Critères et tests](criteres.md)
 - [Glossaire](glossaire.md)
-- [Méthodologie de test](methodologie.md)
+- [Méthodologie de test](methodo-test.md)
 - [Environnement de test](environnement.md)
 - [Notes de révision](notes-revision.md)
 - [Références](references.md)

@@ -1,6 +1,6 @@
 ###### iOS
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodo-test.md#clavier-externe)).
 1. Naviguer sur l’ensemble des éléments de l’écran en utilisant les touches du clavier dédiées (par défaut dans iOS, ce sont les touches <kbd>Tab</kbd> et les flèches de direction qui sont utilisées pour naviguer dans les contenus).
 1. Vérifier que :
 	 - à partir de la position courante, l’élément focusable suivant ou précédent est atteignable avec les touches de navigation du clavier ;
@@ -12,7 +12,7 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 
 ###### Android
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
+1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodo-test.md#clavier-externe)).
 1. Naviguer sur l’ensemble des éléments de l’écran en utilisant les touches du clavier (les touches ou la combinaison de touches qui aura été associée dans *Switch Access*{lang=en} pour les paramètres « Passer à l’option suivante » et « Passer à l’option précédente »).
 1. Vérifier que :
 	 - à partir de la position courante, l’élément focusable suivant ou précédent est atteignable avec la touche de navigation du clavier ;

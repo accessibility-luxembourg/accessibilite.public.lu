@@ -1,6 +1,6 @@
 ###### iOS
 
-1. Ouvrir le centre de contrôle et activer le [paramètre « Taille du texte » (bouton « aA »)](../methodologie.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Paramétrer la valeur au palier 100%.
+1. Ouvrir le centre de contrôle et activer le [paramètre « Taille du texte » (bouton « aA »)](../methodo-test.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Paramétrer la valeur au palier 100%.
 1. Aller dans <em>Réglages > Affichage et luminosité > Affichage</em> et activer « Police plus grande » (il est nécessaire de valider cette option dans certaines versions en activant un bouton en haut de l’écran, le changement de valeur d’option n’applique pas la valeur automatiquement).
 1. Dans Safari, accéder à une page permettant de déterminer les caractéristiques d’affichage du terminal (par exemple [cssunitconverter.com](https://cssunitconverter.com/viewport-size-screen-resolution-checker)) et relever la largeur (le test devrait être réalisé avec une largeur de 320px, mais certains terminaux ne permettent d’atteindre cette largeur). 
 1. Relancer l’application.

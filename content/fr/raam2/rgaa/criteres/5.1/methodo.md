@@ -5,7 +5,7 @@ Plusieurs méthodes sont disponibles avec iOS, mais seul le test avec VoiceOver 
 De plus, il n’existe pas comme pour le web de documentation technique permettant de décrire le fonctionnement et les implémentations attendues (par exemple pour les fenêtres modales ou les potentiomètres). En l’absence d’une telle documentation, afin d’évaluer au plus juste ce type de composant, il est conseillé tout de même de se rapprocher : 
 
 - de ce que décrit [la spécification ARIA pour les modèles de conception](https://www.w3.org/TR/wai-aria-practices-1.1/) ;
-- des [documentations des éditeurs de plateformes dédiées aux développeurs](methodologie.md#ressources-des-editeurs).
+- des [documentations des éditeurs de plateformes dédiées aux développeurs](methodo-test.md#ressources-des-editeurs).
 
 ###### iOS avec VoiceOver
 

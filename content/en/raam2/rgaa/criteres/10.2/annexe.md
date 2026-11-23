@@ -7,4 +7,4 @@ APPT: 2.1.2
 
 #### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodo-test.md#principe-de-non-interference).

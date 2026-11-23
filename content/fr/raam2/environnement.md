@@ -22,7 +22,7 @@ Lorsque l’application est destinée à un public dont l’équipement est maî
 	</tr>
 </table>
 
-La section [Méthodologie](methodologie.md) du présent référentiel vous présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 
+La section [Méthodologie](methodo-test.md) du présent référentiel vous présente des ressources pour vous aider dans l’installation et configuration des différents outils de tests. 
 
 #### Concernant Android 
 

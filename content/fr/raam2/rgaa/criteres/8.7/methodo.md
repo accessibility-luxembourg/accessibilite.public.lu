@@ -2,7 +2,7 @@
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme : *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
 1. Activer le bouton « Taille de police plus grande ».
-1. Ouvrir le centre de contrôle et activer le [paramètre « Taille du texte » (bouton « aA »)](methodologie.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
+1. Ouvrir le centre de contrôle et activer le [paramètre « Taille du texte » (bouton « aA »)](methodo-test.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier : 
 	- que tous les textes de l’interface ont été agrandis ; 

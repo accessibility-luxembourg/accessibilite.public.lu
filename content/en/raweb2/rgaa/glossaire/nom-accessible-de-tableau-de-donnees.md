@@ -1,5 +1,5 @@
 ---
-title: Nom accessible de tableaux de données
+title: Nom accessible de tableau de données
 RAWEB1.1: tableau-de-donnees-ayant-un-titre
 ---
 Le nom accessible d’un tableau informe sur les données qui y sont présentées,  il permet d’identifier le contenu d’un tableau de données de manière claire et concise. 

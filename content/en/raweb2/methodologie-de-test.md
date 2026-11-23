@@ -173,7 +173,7 @@ Le principe de non-interférence est identifié dans la norme EN 301 549 au cr
 
 La conformité d’une page d’un échantillon s’entend uniquement pour la page complète mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis la page concernée**.
 
-Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](glossaire.html#principe-de-non-interférence)
+Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](methodo-test.html#principe-de-non-interférence)
 
 Par exemple : un composant d’interface non utilisable au clavier (par exemple, un calendrier pour sélectionner une date) qui dispose d’une alternative dans la page (un champ de saisie d’une date)
 

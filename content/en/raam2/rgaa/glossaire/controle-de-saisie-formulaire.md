@@ -7,4 +7,4 @@ Ensemble des processus qui permettent de prévenir l’utilisateur des champs ob
 Voir également : 
 
  - [Indication du caractère obligatoire ou facultatif](#indication-de-champ-obligatoire-ou-facultatif)
- - [Format ou type de données particulier](#indication-du-type-de-donnees-et-ou-de-format)
+ - [Format ou type de données particulier](#indication-du-type-de-donnees-et/ou-de-format)

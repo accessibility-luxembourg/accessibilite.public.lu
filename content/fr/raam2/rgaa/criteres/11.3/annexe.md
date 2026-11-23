@@ -17,7 +17,7 @@ Le critère ne s’applique pas lorsque le mouvement, le clignotement ou le déf
 
 #### Notes techniques
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodo-test.md#principe-de-non-interference).
 
 Si un clignotement se produit à une fréquence supérieure à 3 fois par seconde, il est considéré comme un flash, le {% crit 11.4 %} est alors également concerné.
 
