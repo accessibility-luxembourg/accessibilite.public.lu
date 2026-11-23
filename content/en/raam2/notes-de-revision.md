@@ -6,7 +6,7 @@ Le [RAAM 2](../raam2/) est le référentiel d’accessibilité luxembourgeois d
 
 Il s’agit d’une mise à jour du [RAAM&nbsp;1.1](../raam1.1/), lui-même dérivé du [RAAM&nbsp;1](../raam1/).
 
-Le RAM&nbsp;1.1 dispose de ses propres [notes de révision](../raam1.1/notes-revision.html).
+Le RAAM&nbsp;1.1 dispose de ses propres [notes de révision](../raam1.1/notes-revision.html).
 
 L’ensemble des évolutions réalisées entre les versions 2 et 1.1 seront prochainement détaillées ci-dessous.
 
