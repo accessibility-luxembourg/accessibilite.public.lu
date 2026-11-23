@@ -21,7 +21,7 @@
             <td><a href="criteres.html#<%= critId %>"><%= critName %></a></td>
             <td>
                 <%
-                if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0) { 
+                if (crit.criterium.references.wcag !== undefined && crit.criterium.references.wcag.length !== 0 && crit.criterium.references.wcag !== 'N/A') { 
                     let SC = crit.criterium.references.wcag.trim() %>
                     <a href="<%= (lang==='fr')?'https://www.w3.org/Translations/WCAG22-fr/':'https://www.w3.org/TR/WCAG22/'%>#<%= slugify(SC) %>"><%- langOnWCAG(SC, lang) %></a>
                 <% } %>
