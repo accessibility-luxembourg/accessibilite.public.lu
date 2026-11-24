@@ -229,6 +229,10 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
         checkHeading(refData.notes)
         refData.notes = shortCodes(refData.notes, criterion_label)
         testData.metho = shortCodes(testData.metho, criterion_label)
+        let methoRAAM2 = '';
+        if (testsPath.indexOf('raam2') !== -1) {
+            methoRAAM2 = parse(`${CRITERIA_SOURCE}/${folder}/methodo.md`, rgaaPath)
+        }
         // Build all criterion properties
         const criterionObject = {
             criterium: {
@@ -237,7 +241,8 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
                 tests: testData.tests,
                 metho: testData.metho,
                 references: refData.refs,
-                notes: refData.notes
+                notes: refData.notes,
+                methodoRAAM2: methoRAAM2
             },
         };
 
