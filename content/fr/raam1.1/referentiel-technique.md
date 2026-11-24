@@ -691,7 +691,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1938,7 +1938,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2013,7 +2013,7 @@ Le critère est non applicable lorsque la limite de temps est essentielle, notam
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2153,7 +2153,7 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2183,7 +2183,7 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 
 ##### Note
 
-Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interférence).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 

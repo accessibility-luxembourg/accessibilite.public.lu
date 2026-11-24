@@ -1,5 +1,5 @@
 ---
-title: Horodatage (*time stamp*{lang=en})
+title: Horodatage (<em lang="en">time stamp</em>)
 ---
 
 L’horodatage d’une vidéo (*time stamp*{lang=en}) est la valeur temporelle déclarée dans le fichier de sous-titres.

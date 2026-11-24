@@ -335,7 +335,7 @@ Le [test 5.7.6](/fr/raweb1.1/criteres.html#test-5-7-6) est créé (et sa méthod
 
 #### 6.1
 
-Le [test 6.1.6](/fr/raweb1.1/criteres.html#test-6-1-6) est créé suite à la [modification de la note de glossaire Intitulé (ou nom accessible) de lien](#intitule-ou-nom-accessible-de-lien)&nbsp;: une des 5 notes supprimées, transformée en test.
+Le [test 6.1.6](/fr/raweb1.1/criteres.html#test-6-1-6) est créé suite à la [modification de la note de glossaire Intitulé (ou nom accessible) de lien](glossaire.html#intitule-ou-nom-accessible-de-lien)&nbsp;: une des 5 notes supprimées, transformée en test.
 
 #### 6.2
 

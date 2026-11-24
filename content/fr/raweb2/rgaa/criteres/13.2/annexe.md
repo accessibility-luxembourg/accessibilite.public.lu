@@ -14,7 +14,7 @@ Le critère ne s’applique pas lorsque :
 
 #### Notes techniques
 
-Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interference).
 
 L’arrêt ou la mise en pause d’une mise à jour de contenu au moyen du survol ou de la prise de focus (par exemple, l’effet est suspendu uniquement pendant la prise de focus) n’est pas considéré comme un procédé conforme. 
 

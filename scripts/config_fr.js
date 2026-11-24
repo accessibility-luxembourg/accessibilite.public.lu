@@ -207,7 +207,8 @@ const config = {
                     "md": "./content/fr/raweb2/methodologie-de-test.md",
                     "prefix": "../.." ,
                     "genSummary": "ol", 
-                    "summaryTitle": "Sommaire"
+                    "summaryTitle": "Sommaire",
+                    "slugify": "slugifyA42"
                 },                
                 {
                     "title": "RAWeb 2 : Environnement de test",

@@ -192,7 +192,8 @@ const config = {
                     "md": "./content/en/raweb2/methodologie-de-test.md",
                     "prefix": "../..",
                     "genSummary": "ol", 
-                    "summaryTitle": "Table of contents"
+                    "summaryTitle": "Table of contents",
+                    "slugify": "slugifyA42"
                 },                
                 {
                     "title": "RAWeb 2: Testing environment",

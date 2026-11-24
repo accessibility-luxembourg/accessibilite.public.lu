@@ -7,5 +7,5 @@ Contenu venant se substituer à un autre apportant la même information, mais po
 Voir : 
 
 - [Alternative à un script](#alternative-a-script) (dans le glossaire)
-- [Alternative à une partie du contenu (contenu alternatif)](methodo-test.html#alternative-à-une-partie-du-contenu-contenu-alternatif) (dans la méthodologie de test)
+- [Alternative à une partie du contenu (contenu alternatif)](methodo-test.html#alternative-a-une-partie-du-contenu-contenu-alternatif) (dans la méthodologie de test)
 - [Version de remplacement conforme](methodo-test.html#version-de-remplacement-conforme) (dans la méthodologie de test)

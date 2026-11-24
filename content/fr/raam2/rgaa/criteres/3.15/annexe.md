@@ -11,4 +11,4 @@ Le critère ne s’applique pas lorsque le son déclenché automatiquement a une
 
 #### Note
 
-Ce critère est soumis au [principe de non-interférence](methodo-test.md#principe-de-non-interference).
+Ce critère est soumis au [principe de non-interférence](methodo-test.html#principe-de-non-interference).

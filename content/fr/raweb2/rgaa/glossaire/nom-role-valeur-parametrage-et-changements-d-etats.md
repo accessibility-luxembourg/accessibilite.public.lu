@@ -1,6 +1,6 @@
 ---
-title: Nom, rôle, valeur, paramétrage et changements d’états
-RAWEB1.1: le-nom-le-role-la-valeur-le-parametrage-et-les-changements-d-etats
+title: Nom, rôle, valeur, paramétrage et changements d’état
+RAWEB1.1: le-nom-le-role-la-valeur-le-parametrage-et-les-changements-d-etat
 ---
 
 Un composant doit avoir un rôle et un nom appropriés. Ses valeurs, états et paramètres éventuels doivent également être accessibles et correctement transmis aux APIs d’accessibilité notamment.

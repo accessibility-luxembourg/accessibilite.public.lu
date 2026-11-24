@@ -8,7 +8,7 @@ La <a href="/fr/files/modele-grille-audit-appli-mobiles.xlsx">grille d’évalua
 
 - L’[avertissement](./referentiel-technique.html#topics) a été enrichi.
 - Lorsque cela est possible, une correspondance vers la documentation [APPT](https://appt.org/) a été faite pour les critères.
-- Pour les critères soumis au [principe de non-interférence](./methodologie.html#principe-de-non-interference), une note le précise.
+- Pour les critères soumis au [principe de non-interférence](./methodologie.html#principe-de-non-interférence), une note le précise.
 
 #### Thématique 2 «&nbsp;Couleurs&nbsp;»
 
@@ -99,7 +99,7 @@ Note&nbsp;: pour les critères 13.1, 13.3 et 13.5, les méthodologies ont été 
 ### Méthodologie
 
 - Le document a subi une large modification. La section [«&nbsp;Évaluation de la conformité à la norme de référence&nbsp;»](./methodologie.html#evaluation-de-la-conformite-a-la-norme-de-reference) présente auparavant dans la page «&nbsp;Obligations&nbsp;» a été reprise au début de cette page.
-- Le [principe de non-interférence](./methodologie.html#principe-de-non-interference) est repris, comme dans le RAWeb, et adapté aux critères du RAAM.
+- Le [principe de non-interférence](./methodologie.html#principe-de-non-interférence) est repris, comme dans le RAWeb, et adapté aux critères du RAAM.
 - La section [«&nbsp;Clavier externe&nbsp;»](./methodologie.html#clavier-externe) explique dorénavant qu’il est possible de tester avec ou sans service d’accessibilité au clavier sur Android.
 - La section [«&nbsp;Réaliser des captures d’écran&nbsp;»](./methodologie.html#realiser-des-captures-d-ecran) a été revue en profondeur, notamment pour répondre aux besoins de calcul des tailles de textes pour le critère 2.2.
 

@@ -1,5 +1,5 @@
 ---
-title: Nom, rôle, valeur, paramétrage et changements d’états
+title: Nom, rôle, valeur, paramétrage et changements d’état
 RAWEB1.1: le-nom-le-role-la-valeur-le-parametrage-et-les-changements-d-etats
 ---
 
