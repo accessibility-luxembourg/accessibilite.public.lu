@@ -24,8 +24,8 @@ function shortCodes(content, criterion_label) {
     // internal function to be applied only to strings
     function _shortCodes(content) {
         // Handle shortcodes
-        const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2}) %\}/g // {% crit 12.10 %}
-        const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})' %\}/g // {% test 2.10.3 %}
+        const critRegex = /\{% crit (?<topic>\d{1,2}).(?<crit>\d{1,2})\s+%\}/g // {% crit 12.10 %}
+        const testRegex = /\{% test '(?<topic>\d{1,2}).(?<crit>\d{1,2}).(?<test>\d{1,2})'\s+%\}/g // {% test 2.10.3 %}
         const url = `criteres.html`
         const cleanedContent = content
         .replace(critRegex, `<a href="${url}#crit-$<topic>-$<crit>">${criterion_label} $<topic>.$<crit></a>`)
