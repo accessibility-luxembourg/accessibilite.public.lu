@@ -232,6 +232,7 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
         let methoRAAM2 = '';
         if (testsPath.indexOf('raam2') !== -1) {
             methoRAAM2 = parse(`${CRITERIA_SOURCE}/${folder}/methodo.md`, rgaaPath)
+            methoRAAM2.content = shortCodes(methoRAAM2.content, criterion_label)
         }
         // Build all criterion properties
         const criterionObject = {
