@@ -9,6 +9,7 @@ const MarkdownIt = require('markdown-it')
 const yaml = require('yaml')
 const cheerio = require('cheerio')
 const en301549 = require('en301549-links')
+const { slugify } = require('./common.js')
 
 const sortObject = o => Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {})
 
@@ -324,6 +325,55 @@ function generateCriteria(path, rgaaPath = '', sortBy = 'raweb', criterion_label
     return jsonData
 }
 
+/**
+ * Builds a reverse index of the glossary links found in the criteria sources:
+ * for each glossary anchor, the list of criteria (e.g. "1.1") whose markdown
+ * (title, tests, methodology, notes) links to it.
+ * @param {string} path - framework content path (e.g. ./content/fr/raweb2)
+ * @returns {Object} map anchor => sorted array of criterion numbers
+ */
+function glossaryAnchors(markdown) {
+    // markdown links to a local anchor: [text](#anchor) or [text](#anchor "title")
+    // links to criteria / tests (#crit-…, #test-…) are not glossary links
+    return [...markdown.matchAll(/\]\(\s*<?#([^)\s>]+)/g)]
+        .map(m => m[1])
+        .filter(anchor => !anchor.match(/^(crit|test)-/))
+}
+
+function glossaryCriteriaIndex(path) {
+    const CRITERIA_SOURCE = path + "/rgaa/criteres"
+    const index = {}
+    if (!fs.existsSync(CRITERIA_SOURCE)) {
+        return index
+    }
+
+    function collect(dir, criterion) {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+            const entryPath = `${dir}/${entry.name}`
+            if (entry.isDirectory()) {
+                collect(entryPath, criterion)
+            } else if (entry.name.endsWith('.md')) {
+                for (const anchor of glossaryAnchors(fs.readFileSync(entryPath, "utf-8"))) {
+                    if (index[anchor] === undefined) {
+                        index[anchor] = new Set()
+                    }
+                    index[anchor].add(criterion)
+                }
+            }
+        }
+    }
+
+    fs.readdirSync(CRITERIA_SOURCE)
+        .filter(f => f.match(/^\d{1,2}\.\d{1,2}$/))
+        .forEach(f => collect(`${CRITERIA_SOURCE}/${f}`, f))
+
+    const compare = (a, b) => a.localeCompare(b, undefined, { numeric: true })
+    for (const anchor of Object.keys(index)) {
+        index[anchor] = [...index[anchor]].sort(compare)
+    }
+    return index
+}
+
 function generateGlossary(path, criterion_label) {
     let meta = {}
     function cbfm(fm) {
@@ -334,7 +384,11 @@ function generateGlossary(path, criterion_label) {
 
       // Init JSON data
       let jsonData = {}
-  
+
+      // criteria referencing each glossary entry
+      const criteriaIndex = glossaryCriteriaIndex(path)
+      const usedAnchors = new Set()
+
       // Loop over files
       const files = fs.readdirSync(GLOSSARY_SOURCE);
 
@@ -359,8 +413,34 @@ function generateGlossary(path, criterion_label) {
           if (jsonData[index] == undefined) {
             jsonData[index] = []
           }
-          jsonData[index].push({ id: id, title: title, body: cleanedContent })
+          const anchor = slugify(id)
+          usedAnchors.add(anchor)
+          const criteria = criteriaIndex[anchor] || []
+          // glossary entries this definition links to (used below to compute the reverse references)
+          const links = [...new Set(glossaryAnchors(data))].filter(a => a !== anchor)
+          jsonData[index].push({ id: id, anchor: anchor, title: title, body: cleanedContent, criteria: criteria, links: links, definitions: [] })
         }
+      }
+
+      Object.keys(criteriaIndex).filter(a => !usedAnchors.has(a)).forEach(a => {
+        console.log(`Glossary anchor not found in ${GLOSSARY_SOURCE}: #${a} (criteria ${criteriaIndex[a].join(', ')})`)
+      })
+
+      // cross references between glossary entries: for each entry, the definitions which link to it
+      const entries = Object.values(jsonData).flat()
+      const byAnchor = Object.fromEntries(entries.map(e => [e.anchor, e]))
+      for (const source of entries) {
+        for (const a of source.links) {
+          if (byAnchor[a] === undefined) {
+            console.log(`Glossary anchor not found in ${GLOSSARY_SOURCE}: #${a} (definition "${source.id}")`)
+          } else {
+            byAnchor[a].definitions.push({ id: source.id, anchor: source.anchor, title: source.title })
+          }
+        }
+      }
+      for (const e of entries) {
+        e.definitions.sort((a, b) => a.id.localeCompare(b.id))
+        delete e.links
       }
 
   jsonData = sortObject(jsonData)

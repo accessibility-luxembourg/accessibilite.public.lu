@@ -771,3 +771,11 @@ div.mappingSwitch label {
   width: 50%;
   text-align: center;
 }
+
+details.cited-glossary-entry {
+  margin-bottom: 3em;
+}
+
+details.cited-glossary-entry:has(+ details.cited-glossary-entry) {
+  margin-bottom: 0.5em;
+}

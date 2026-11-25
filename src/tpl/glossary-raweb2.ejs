@@ -5,6 +5,26 @@
                 <%- md.renderInline(e.title) %> <a href="#<%= slugify(e.id) %>" title="<%= e.id %>"><img class="glossary-anchor" alt="" aria-hidden="true" src="../../img/hyperlink.svg"></a>
             </h4>
             <%- e.body %>
+            <% if (e.criteria !== undefined && e.criteria.length !== 0) { %>
+                <details class="cited-glossary-entry">
+                <summary><%= __("Cited in")+ ` ${e.criteria.length}` %> <%= (e.criteria.length == 1)?__("criterion"):__("criteria") %></summary>
+                <ul>
+                <% e.criteria.forEach((c, i) => { %>
+                    <li><a href="criteres.html#crit-<%= c.replace('.', '-') %>"><%= c %></a></li>
+                <% }) %>
+                </ul>
+                </details>
+            <% } %>
+            <% if (e.definitions !== undefined && e.definitions.length !== 0) { %>
+                <details class="cited-glossary-entry">
+                <summary><%= __("Cited in")+ ` ${e.definitions.length}` %> <%= (e.definitions.length == 1)?__("definition"):__("definitions") %></summary>
+                <ul>
+                <% e.definitions.forEach(d => { %>
+                    <li><a href="#<%= d.anchor %>"><%- md.renderInline(d.title) %></a></li>
+                <% }) %>
+                </ul>
+                </details>
+            <% } %>
     <% }); %>
 <% }) %>
 
