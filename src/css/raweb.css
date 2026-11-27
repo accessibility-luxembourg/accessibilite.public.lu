@@ -779,3 +779,30 @@ details.cited-glossary-entry {
 details.cited-glossary-entry:has(+ details.cited-glossary-entry) {
   margin-bottom: 0.5em;
 }
+
+
+/* column filters (tableFilter.js) */
+.table-filter-controls button {
+  margin-bottom: 0.5rem;
+}
+
+.table-filter-status:empty {
+  display: none;
+}
+
+table.diffTable tr.table-filters td {
+  padding: 0.3em;
+}
+
+table.diffTable tr.table-filters input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 4em;
+  padding: 0.2em 0.4em;
+  border: 1px solid #666;
+  font: inherit;
+}
+
+table.diffTable tr[hidden] {
+  display: none;
+}

@@ -3,8 +3,11 @@
 <% } %>
 
 <div id="mappingRAWeb2-1">
-    <table class="diffTable">
+    <table class="diffTable filterable">
+        <thead>
         <tr><th scope="col">RAAM&nbsp;2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col"><%= __('WCAG Techs') %></th></tr>
+        </thead>
+        <tbody>
             <% topics.forEach(topic => {     
                 topic.criteria.forEach(crit => { 
                     critId = `crit-${topic.number}-${crit.criterium.number}`
@@ -32,5 +35,6 @@
         </tr>
         <% })
         }) %>
+        </tbody>
     </table>
 </div>

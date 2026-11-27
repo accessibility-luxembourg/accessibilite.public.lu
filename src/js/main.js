@@ -2,6 +2,8 @@ import { initDisclosureMenu } from "./disclosureMenu.js"
 
 import { initAccordions, unfoldThemes, unfoldAll, unfoldDetails } from "./accordion.js"
 
+import { initTableFilters } from "./tableFilter.js"
+
 function getHeadingLevel(e) {
 	var found = e.nodeName.match(/^H(\d)$/)
   if (found !== null) {
@@ -210,6 +212,9 @@ window.addEventListener('DOMContentLoaded', function (event) {
     initRAWeb()
 
     initTooltips()
+
+    // column filters of the mapping tables
+    initTableFilters()
     
 }, false);
 

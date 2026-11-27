@@ -10,8 +10,11 @@
 <input type="radio" name="mappingRAWeb2" id="mappingRAWeb2-2-radio" class="sr-only">
 
 <div id="mappingRAWeb2-1">
-    <table class="diffTable">
+    <table class="diffTable filterable">
+        <thead>
         <tr><th scope="col">RAWeb&nbsp;2</th><th scope="col">WCAG</th><th scope="col">EN 301 549 v4</th><th scope="col"><%= __('WCAG Techs') %></th></tr>
+        </thead>
+        <tbody>
             <% topics.forEach(topic => {     
                 topic.criteria.forEach(crit => { 
                     critId = `crit-${topic.number}-${crit.criterium.number}`
@@ -39,6 +42,7 @@
         </tr>
         <% })
         }) %>
+        </tbody>
     </table>
 </div>
 
@@ -49,7 +53,7 @@
         <li><strong>Niveau « test »</strong> : le mapping est spécifique à un test.</li>
         <li><strong>Niveau « condition »</strong> : le mapping est spécifique à une condition d'un test.</li>
     </ul>
-    <table class="diffTable">
+    <table class="diffTable filterable">
         <thead>
           <tr>
             <th scope="col">
