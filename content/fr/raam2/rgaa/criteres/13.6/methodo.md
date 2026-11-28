@@ -4,7 +4,7 @@
 1. Saisir du texte et appliquer les différentes mises en forme possible.
 1. Utiliser le rotor et sélectionner « Mots ».
 1. Depuis l'application, activer le **lecteur d'écran**.
-1. Atteindre la zone d’édition et parcourir les mot en glissant un doigt vers le haut ou vers le bas.
+1. Atteindre la zone d’édition et parcourir les mots en glissant un doigt vers le haut ou vers le bas.
 1. Vérifier que les attributs de présentation définis sont restitués.
 1. Si c’est le cas, **le critère est validé**.
 

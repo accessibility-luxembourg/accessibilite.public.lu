@@ -18,7 +18,7 @@ Les combinaisons ont été établies à partir de la liste des technologies d’
 
 Les systèmes d’exploitation retenus sont Windows et macOS et les navigateurs Firefox, Chrome, Edge et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. Les versions des technologies d’assistance à utiliser seront soit la dernière disponible sur le système d’exploitation retenu soit la version précédente.
 
-Lorsque le site ou l’application est destinée à un public dont l’équipement est maîtrisé, les tests devront se faire sur un environnement de test adapté au contexte de l’environnement maîtrisé.
+Lorsque le site ou l’application est destiné à un public dont l’équipement est maîtrisé, les tests devront se faire sur un environnement de test adapté au contexte de l’environnement maîtrisé.
 
 Pour qu’un dispositif HTML / WAI-ARIA ou son alternative soit considéré comme compatible avec l’accessibilité, il faut qu’il soit pleinement fonctionnel, en termes de restitution et de fonctionnalités, sur l’ensemble des configurations suivantes.
 
@@ -108,7 +108,7 @@ Enfin, en fonction du contexte du site audité, d’autres technologies d’assi
 
 ### Environnement maîtrisé
 
-On entend pas environnement maîtrisé, tout environnement dans lequel l’accès à l’information, les technologies, les conditions d’utilisation et le profil des utilisateurs peuvent être connus et maîtrisés. Les principaux éléments dont la maîtrise est essentielle sont :
+On entend par environnement maîtrisé tout environnement dans lequel l’accès à l’information, les technologies, les conditions d’utilisation et le profil des utilisateurs peuvent être connus et maîtrisés. Les principaux éléments dont la maîtrise est essentielle sont :
 
 - Le type et la version des navigateurs ;
 - Les technologies supportées, leur version et leur activation (JavaScript, WAI-ARIA…) ;

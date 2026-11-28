@@ -114,7 +114,7 @@ Le principe de non-interférence est identifié dans la norme EN 301 549 dans la
 
 #### Alternative à une partie du contenu (contenu alternatif)
 
-La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné**.
+La conformité d’un écran d’un échantillon s’entend uniquement pour l’écran complet mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif)** (mêmes informations et mêmes fonctionnalités) directement atteignable depuis l’écran concerné.
 
 Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](#principe-de-non-interference)
 
@@ -229,15 +229,15 @@ Vous pouvez consulter la [liste des raccourcis clavier disponibles pour Android]
 
 Si les tests ne sont pas satisfaisants, il est possible de réaliser des tests complémentaires en utilisant le service d’accessibilité [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=fr){lang=en}. 
 
-Un guide vous permet de configurer pas à pas votre clavier externe en définissant des commutateurs, il est disponible dans <em>Préférences &gt; Accessibilité &gt; <span lanf="en">Switch Access</span> &gt; Paramètres &gt; Ouvrir le guide de configuration</em>. Vous allez associer deux actions :
+Un guide vous permet de configurer pas à pas votre clavier externe en définissant des commutateurs, il est disponible dans <em>Préférences &gt; Accessibilité &gt; <span lang="en">Switch Access</span> &gt; Paramètres &gt; Ouvrir le guide de configuration</em>. Vous allez associer deux actions :
 
 * <em>Passer à l’option suivante</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Tab</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
 * <em>Sélectionner</em>&nbsp;: appuyez sur la touche du clavier que vous souhaitez associer (nous vous recommandons <kbd>Entrée</kbd> pour conserver les touches utilisées lors de la navigation sur un ordinateur).
 
 Une fois la première étape de configuration terminée (avec le guide de configuration), il sera nécessaire de paramétrer d’autres touches de navigation :
 
-* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs pour la recherche_ : Associer le paramètre _Passer à l’option précédente_ avec une touche ou combinaison de touches (nous vous recommandons <kbd>Shift + Tab</kbd>)
-* <em lang="en">Switch Access</em> &gt; Paramètres &gt; Attribuer des commutateurs à des actions_ : Associer le paramètre <em>Retour</em> avec une touche ou combinaison de touches (nous vous recommandons <kbd>ESC</kbd>)
+* <em lang="en">Switch Access</em> &gt; <em>Paramètres</em> &gt; <em>Attribuer des commutateurs pour la recherche</em> : Associer le paramètre _Passer à l’option précédente_ avec une touche ou combinaison de touches (nous vous recommandons <kbd>Shift + Tab</kbd>)
+* <em lang="en">Switch Access</em> &gt; <em>Paramètres</em> &gt; <em>Attribuer des commutateurs à des actions</em> : Associer le paramètre <em>Retour</em> avec une touche ou combinaison de touches (nous vous recommandons <kbd>ESC</kbd>)
 
 #### Applications de tests
 
@@ -260,11 +260,11 @@ Pour réaliser certains tests sur des applications Android, des applications tie
 
 #### Activer les options pour les développeurs sur Android
 
-Il peut être utile pour certains tests, d’avoir accès aux options pour les développeurs sur Android. Ces options sont masquées par défaut dans les paramètres du système. Pour les rendre visible, il faut effectuver une manipulation : 
+Il peut être utile pour certains tests, d’avoir accès aux options pour les développeurs sur Android. Ces options sont masquées par défaut dans les paramètres du système. Pour les rendre visible, il faut effectuer une manipulation : 
 - Depuis l’écran des paramètres, rechercher &laquo;&nbsp;Numéro du Build&nbsp;&raquo; ;
 - Accéder à l’écran contenant cette information puis taper 7 fois sur l’option jusqu’à ce que le message &laquo;&nbsp;Vous êtes maintenant développeur&nbsp;&raquo; apparaisse à l’écran.
 
-Selon la version d’Android, le chemin ou les appelations peuvent varier. Consulter [la documentation officielle pour des informations adaptées au terminal utilisé](https://developer.android.com/studio/debug/dev-options?hl=fr).
+Selon la version d’Android, le chemin ou les appellations peuvent varier. Consulter [la documentation officielle pour des informations adaptées au terminal utilisé](https://developer.android.com/studio/debug/dev-options?hl=fr).
 
 #### Modifier la taille de police sur iOS
 
@@ -349,8 +349,8 @@ Si lors des évaluations, la taille de certains textes n’est pas évidente (pa
 		- le mieux est de démarrer depuis une majuscule, sinon d’inclure une lettre du type &laquo;&nbsp;d&nbsp;&raquo;, &laquo;&nbsp;t&nbsp;&raquo; ou &laquo;&nbsp;b&nbsp;&raquo;&nbsp;;
 		- vous pouvez zoomer sur la capture d’écran pour réaliser la sélection la plus précise possible, cela n’influe pas sur le calcul de la hauteur.
 	- repérer dans le logiciel la hauteur du rectangle ainsi défini&nbsp;: 
-		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;&raquo;&nbsp;;
-		- dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur&nbsp;&raquo;.
+		- dans &laquo;&nbsp;Aperçu&nbsp;&raquo; la valeur s’affiche juste à côté de la sélection, la hauteur est la seconde valeur&nbsp;;
+		- dans &laquo;&nbsp;Paint&nbsp;&raquo; les valeurs s’affichent dans la barre d’état en bas de la fenêtre du logiciel, la hauteur est la seconde valeur.
 
 #### Web view (vues web) : debogage distant USB
 

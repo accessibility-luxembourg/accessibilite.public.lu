@@ -337,7 +337,7 @@ function glossaryAnchors(markdown) {
     // links to criteria / tests (#crit-…, #test-…) are not glossary links
     return [...markdown.matchAll(/\]\(\s*<?#([^)\s>]+)/g)]
         .map(m => m[1])
-        .filter(anchor => !anchor.match(/^(crit|test)-/))
+        .filter(anchor => !anchor.match(/^(crit|test)-\d/))
 }
 
 function glossaryCriteriaIndex(path) {

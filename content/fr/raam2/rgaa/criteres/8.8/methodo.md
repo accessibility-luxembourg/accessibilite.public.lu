@@ -8,7 +8,7 @@
 	1. Depuis le mécanisme identifié, faire varier chacune des propriétés disponibles : 
 		- augmenter l’interlignage de 1.5 fois la taille de la police ;
 		- augmenter l’espacement entre les paragraphes de 2 fois la taille de la police ;
-		- augmenter l’espacement entre les lettre de 0,12 fois la taille de la police ;
+		- augmenter l’espacement entre les lettres de 0,12 fois la taille de la police ;
 		- augmenter l’espacement entre les mots de 0,16 fois la taille de la police.
 	1. Pour chaque passage de texte, vérifier qu’il reste lisible, à l’exception :
 	- des sous-titres directement intégrés à une vidéo ;

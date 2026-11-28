@@ -29,4 +29,4 @@ Par exemple :
 
 Ce critère évalue la visibilité du composant et non celle de l’indicateur de focus (sauf si celui-ci est intégré à l’intérieur du composant, ou que l’indicateur de focus soit une modification visuelle du composant).
 
-Le cas d’un composant recouvert par un contenu semi-transparent ou flouté est considéré partielement visible et n’est pas couvert par ce critère.
+Le cas d’un composant recouvert par un contenu semi-transparent ou flouté est considéré partiellement visible et n’est pas couvert par ce critère.

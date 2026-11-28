@@ -7,7 +7,7 @@ Le contexte du lien représente les informations supplémentaires (on parle d’
 - Le contenu de la phrase dans laquelle le lien texte est présent ;
 - Le contenu du paragraphe dans lequel le lien texte est présent ;
 - Le contenu de l’item de liste ou le contenu d’un item de liste parent dans lequel le lien texte est présent ;
-- Le contenu du titre précédent le lien texte ;
+- Le contenu du titre précédant le lien texte ;
 - Le contenu de la ou les cellule(s) d’en-tête de tableau associée(s) à la cellule de donnée dans laquelle le lien texte est présent ;
 - Le contenu de la cellule de donnée dans laquelle le lien texte est présent.
 

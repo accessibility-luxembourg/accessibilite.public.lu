@@ -15,8 +15,8 @@ Les plateformes proposent aux utilisateurs plusieurs mécanismes de remplacement
 
 ##### Mécanismes de remplacement disponibles dans Android
 
-- « **Texte avec contraste élevé** ») : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte avec contraste élevé*. 
-- « **Texte en gras** ») : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte en gras*. 
+- « **Texte avec contraste élevé** » : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte avec contraste élevé*. 
+- « **Texte en gras** » : L’option est disponible depuis le chemin : *Préférences > Accessibilité > Taille et affichage du texte > Texte en gras*. 
 
 ##### Autres mécanismes de remplacement non délivrés par les plateformes
 

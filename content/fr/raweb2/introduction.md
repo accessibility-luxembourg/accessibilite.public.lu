@@ -32,7 +32,7 @@ En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket d
 
 ### Concernant les niveaux des critères
 
-WCAG propose une classification des critères en 3 niveaux : A, AA ou AAA. L’affection d’un critère à l’un ou l’autre des niveaux dépend d’[un certain nombre d’éléments documentés par le groupe de travail des WCAG](https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels) et permet de jauger notamment de sa criticité. Ainsi, les critères associés à un niveau A sont réputés être les plus critiques pour les utilisateurs. 
+WCAG propose une classification des critères en 3 niveaux : A, AA ou AAA. L’affectation d’un critère à l’un ou l’autre des niveaux dépend d’[un certain nombre d’éléments documentés par le groupe de travail des WCAG](https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels) et permet de jauger notamment de sa criticité. Ainsi, les critères associés à un niveau A sont réputés être les plus critiques pour les utilisateurs. 
 
 La norme européenne EN 301 549 intègre les critères WCAG de niveau A et AA, mais ne les affiche jamais dans le document officiel.
 

@@ -28,7 +28,7 @@ Ne sont pas concernés :
 - les sites Internet et applications mobiles des organisations non gouvernementales qui ne fournissent pas de services essentiels pour le public, ni de services répondant spécifiquement aux besoins des personnes handicapées ou destinés à celles-ci ;
 - les sites Internet et applications mobiles des établissements scolaires de l’enseignement fondamental et secondaire ou des crèches, à l’exception du contenu ayant trait aux fonctions administratives essentielles en ligne.
 
-La [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) définit dans son article 2 ce que constitue une application mobile:
+La [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) définit dans son article 2 ce qui constitue une application mobile :
 
 > un logiciel d’application conçu et développé par des organismes du secteur public ou pour leur compte, en vue d’être utilisé par le grand public sur des appareils mobiles, tels que des téléphones intelligents, encore appelés smartphones, ou des tablettes ; elle ne comprend pas les logiciels qui contrôlent ces appareils, c’est-à-dire les systèmes d’exploitation mobiles, ni le matériel informatique.
 

@@ -51,7 +51,7 @@ Le contrôle vocal va permettre de déceler les composants utilisables au touche
 1. Afficher les libellés des composants interactifs : depuis l’écran de paramètres du contrôle vocal, atteindre le bouton « Superposition » et l’activer, puis choisir « Noms des éléments ».
 1. Dorénavant, lorsque le contrôle vocal sera activé, des infobulles grises apparaîtront au-dessus des éléments interactifs qui ont des noms accessibles. À noter que si l’écran possède un très grand nombre de contrôles interactifs, les noms accessibles s’afficheront par groupes successifs (un groupe de noms accessibles disparaît et un autre apparaît).
 
-Ce qu’il faut savoir : seuls les éléments qui ont des rôles interactifs reconnus par l’API d’accessibilité posséderont un nom accesssible. Ceci va permettre de repérer rapidement quels éléments utilisables au toucher ne sont pas reconnus par le contrôle vocal et ne sont donc pas des éléments interactifs (ce qui constitue une non-conformité).
+Ce qu’il faut savoir : seuls les éléments qui ont des rôles interactifs reconnus par l’API d’accessibilité posséderont un nom accessible. Ceci va permettre de repérer rapidement quels éléments utilisables au toucher ne sont pas reconnus par le contrôle vocal et ne sont donc pas des éléments interactifs (ce qui constitue une non-conformité).
 
 Procédure : 
 

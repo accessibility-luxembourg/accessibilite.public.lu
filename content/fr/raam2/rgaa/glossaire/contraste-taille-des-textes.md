@@ -7,4 +7,4 @@ La norme distingue plusieurs tailles de textes à évaluer, chaque taille releva
 Dans le référentiel :
 
 - un texte en taille normale est un texte d’une taille calculée de moins de 24px sans effet de graisse ou de moins de 18,5px avec effet de graisse ;
-- un texte de grande taille est un texte d’une taille calculée de 24px ou plus sans effet de graisse ou de moins 18,5px ou plus avec effet de graisse.
+- un texte de grande taille est un texte d’une taille calculée de 24px ou plus sans effet de graisse ou de 18,5px ou plus avec effet de graisse.

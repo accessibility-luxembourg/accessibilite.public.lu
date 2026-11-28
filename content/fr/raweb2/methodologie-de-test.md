@@ -66,7 +66,7 @@ Enfin, s’ajoutent des pages sélectionnées au hasard représentant au moins 1
 
 Pour les entités qui délivrent les services désignés dans la [loi du 8 mars 2023](https://legilux.public.lu/eli/etat/leg/loi/2023/03/08/a133/jo), des pages et processus spécifiques obligatoires doivent faire partie de l’échantillon d’évaluation, en fonction des services.
 
-Par exemple, pour les services bancaires de type &laquo;&nbsp;banque en ligne&nbsp;&raquo;, les pages et fonctionalités suivantes devraient être en priorité inclues dans l’échantillon, si elles existent :&nbsp;: 
+Par exemple, pour les services bancaires de type &laquo;&nbsp;banque en ligne&nbsp;&raquo;, les pages et fonctionnalités suivantes devraient être en priorité incluses dans l’échantillon, si elles existent&nbsp;: 
 * Une page avec signature électronique&nbsp;;
 * Informations sur les comptes&nbsp;:
   * Liste des comptes&nbsp;;
@@ -193,7 +193,7 @@ On admet qu’une version de remplacement à une version non conforme permet d�
 - fournit toutes les informations et fonctionnalités et dans la même langue que la version non conforme ;
 - est aussi à jour que le contenu de la version non conforme.
 
-Concernant l’accès à cette version de remplacement conforme, au moins l’une de ces conditions doit être respectée :
+Concernant l’accès à cette version de remplacement conforme, au moins l’une de ces conditions doit être respectée&nbsp;:
 
 - la version de remplacement conforme peut être atteinte depuis la version non conforme, grâce à un mécanisme compatible avec l’accessibilité (il est indispensable que le mécanisme qui permet d’atteindre la version de remplacement conforme, soit lui-même conforme, par exemple un bouton avec un nom accessible pertinent) ;
 - ou la version non conforme ne peut être atteinte qu’à partir de la version de remplacement conforme (il n’est pas possible de charger la version non conforme sans être passé par la version de remplacement conforme) ;  
@@ -204,7 +204,7 @@ Le principe de version de remplacement conforme est identifié dans la norme EN�
 Source : [Version de remplacement conforme (Traduction en français des WCAG 2.2)](https://www.w3.org/Translations/WCAG22-fr/#dfn-conforming-alternate-versions)
 
 
-Des techniques WCAG viennent également documenter certains modalités de mise à disposition des versions de remplacement conforme :
+Des techniques WCAG viennent également documenter certaines modalités de mise à disposition des versions de remplacement conformes :
 
 - <a href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F19" lang="en">F19: Failure of Conformance Requirement 1 due to not providing a method for the user to find the alternative conforming version of a non-conforming web page.</a>
 - <a href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F19" lang="en">G136: Providing a link at the beginning of a nonconforming web page that points to a conforming alternate version</a>
@@ -223,9 +223,9 @@ Les barres d’outils suivantes sont des extensions de navigateur qui vont facil
 - [Web Developer Toolbar pour Firefox](https://addons.mozilla.org/fr/firefox/addon/web-developer/) : barre d’outils pour les développeurs qui peut aider à retrouver visuellement certains éléments dans un document pour en contrôler l’accessibilité ;
 - [Web Developer Toolbar pour Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=fr) : la même barre d’outils que précédemment, pour Chrome.
 
-Au-delà de la simple barre d’outil, d’autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d’accessibilité ou à l’inverse les éléments qui lui sont bénéfiques. Des filtres permettent alors souvent de n’afficher que certains de ces aspects. C’est ce que propose Wave, une solution disponible à la fois en ligne (http://wave.webaim.org) et comme extension de navigateur (https://wave.webaim.org/extension/).
+Au-delà de la simple barre d’outil, d’autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d’accessibilité ou à l’inverse les éléments qui lui sont bénéfiques. Des filtres permettent alors souvent de n’afficher que certains de ces aspects. C’est ce que propose Wave, une solution disponible à la fois [en ligne](http://wave.webaim.org) et comme [extension de navigateur](https://wave.webaim.org/extension/).
 
-Bien qu’il ne soit plus requis de contrôler la validité du code source, il peut être utile, à des fins de recherches d’anomalies, d’utiliser le validateur HTML. La validation du code source d’un document HTML utilise le validateur en ligne du W3C (https://validator.w3.org/nu/). À noter que pour valider le code source généré par le navigateur, il faut utiliser l’option "Text input" de la liste de sélection intitulé "Check by" et copier dans la zone de saisie multiligne qui est alors proposée, la source HTML disponible à partir de l’inspecteur de code du navigateur.
+Bien qu’il ne soit plus requis de contrôler la validité du code source, il peut être utile, à des fins de recherches d’anomalies, d’utiliser le validateur HTML. La validation du code source d’un document HTML utilise le [validateur en ligne du W3C](https://validator.w3.org/nu/). À noter que pour valider le code source généré par le navigateur, il faut utiliser l’option "Text input" de la liste de sélection intitulée "Check by" et copier dans la zone de saisie multiligne qui est alors proposée, la source HTML disponible à partir de l’inspecteur de code du navigateur.
 Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
 
 La vérification des contrastes de couleurs bénéficie de différents outils :

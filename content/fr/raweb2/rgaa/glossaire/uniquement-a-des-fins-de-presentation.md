@@ -2,7 +2,7 @@
 title: Uniquement à des fins de présentation
 ---
 
-Utilisation de éléments HTML pour une finalité différente de celle prévue dans les spécifications (au regard du type de document déclaré). Exemples : utilisation des éléments `h` à seule fin de créer un effet typographique ; utilisation de l’a ’élément `<blockquote>` à seule fin de mettre un paragraphe en retrait, etc.
+Utilisation d’éléments HTML pour une finalité différente de celle prévue dans les spécifications (au regard du type de document déclaré). Exemples : utilisation des éléments `h` à seule fin de créer un effet typographique ; utilisation de l’élément `<blockquote>` à seule fin de mettre un paragraphe en retrait, etc.
 
 L’utilisation d’éléments `<div>` ou `<span>` ou plusieurs `<br>` pour créer visuellement un paragraphe est considérée comme non conforme et invalide le critère. Exemple : `<div>`, `paragraphes d’un bloc de texte simulés`, `<br>`, `à l’aide de plusieurs éléments <br>`, `</div>`
 	

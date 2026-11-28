@@ -5,6 +5,6 @@
 1. Pour chaque fonctionnalité, vérifier si les sous-titres :
 	- sont toujours présents ; 
 	- peuvent être affichés ;
-	- conservent leurs caractéristiques horaires définies le fichier de sous-titres ;
+	- conservent leurs caractéristiques horaires définies dans le fichier de sous-titres ;
 	- conservent leurs caractéristiques essentielles (par exemple, si les sous-titres étaient colorés en fonction du locuteur, les couleurs doivent être reprises).
 1. Si c’est le cas, **le critère est validé**.

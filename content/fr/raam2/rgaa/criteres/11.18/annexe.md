@@ -7,5 +7,5 @@ RAAM1.1: 11.16
 
 Le critère ne s’applique pas lorsque : 
 
-- les répétitions de touches gérées au niveau de la plateforme ;
+- la répétition de touches est gérée au niveau de la plateforme ;
 - la répétition de touches peut être désactivée.
